@@ -9,6 +9,9 @@ import QuizOptions from "../engine/QuizOptions";
 import Chip from "../../../components/Chip";
 import ModeToggle from "../../../components/ModeToggle";
 import AudioButton from "../../../components/AudioButton";
+import { useReviewFilter } from "../../review/useReviewFilter";
+import ReviewBanner from "../../review/ReviewBanner";
+import ReviewEmpty from "../../review/ReviewEmpty";
 
 const SETS: { key: string; label: string }[] = [
   { key: "all", label: "Everything" },
@@ -44,19 +47,19 @@ function GlyphCard({
   );
 }
 
-export default function ConfusablesDrill() {
-  const [setKey, setSetKey] = useState<string>("compound");
-  const [mode, setMode] = useState<Mode>("flashcard");
+function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
+  const [setKey, setSetKey] = useState<string>(reviewIds ? "all" : "compound");
+  const [mode, setMode] = useState<Mode>(reviewIds ? "quiz" : "flashcard");
   const [revealed, setRevealed] = useState(false);
   const [picked, setPicked] = useState<string | null>(null);
 
-  const pool = useMemo(
-    () =>
-      setKey === "all"
-        ? confusables
-        : confusables.filter((c) => c.group === setKey),
-    [setKey],
-  );
+  const buildPool = (key: string) => {
+    const base =
+      key === "all" ? confusables : confusables.filter((c) => c.group === key);
+    return reviewIds ? base.filter((c) => reviewIds.has(c.id)) : base;
+  };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const pool = useMemo(() => buildPool(setKey), [setKey, reviewIds]);
 
   const engine = useDrillEngine<ConfusableItem>({
     kind: "confusable",
@@ -73,9 +76,7 @@ export default function ConfusablesDrill() {
     setSetKey(key);
     setRevealed(false);
     setPicked(null);
-    engine.reset(
-      key === "all" ? confusables : confusables.filter((c) => c.group === key),
-    );
+    engine.reset(buildPool(key));
   };
 
   const switchMode = (m: Mode) => {
@@ -124,6 +125,7 @@ export default function ConfusablesDrill() {
     onEnter: engine.answered ? engine.advance : undefined,
   });
 
+  if (reviewIds && pool.length === 0) return <ReviewEmpty />;
   if (!current) return null;
   const wrongPick = picked !== null && picked !== current.id;
 
@@ -143,17 +145,20 @@ export default function ConfusablesDrill() {
       missed={engine.missed.map((m) => ({ id: m.id, big: m.c, small: m.r }))}
       controls={
         <div className="mb-4">
-          <div className="mb-3 flex flex-wrap gap-2">
-            {SETS.map((s) => (
-              <Chip
-                key={s.key}
-                active={setKey === s.key}
-                onClick={() => switchSet(s.key)}
-              >
-                {s.label}
-              </Chip>
-            ))}
-          </div>
+          {reviewIds && <ReviewBanner count={pool.length} />}
+          {!reviewIds && (
+            <div className="mb-3 flex flex-wrap gap-2">
+              {SETS.map((s) => (
+                <Chip
+                  key={s.key}
+                  active={setKey === s.key}
+                  onClick={() => switchSet(s.key)}
+                >
+                  {s.label}
+                </Chip>
+              ))}
+            </div>
+          )}
           <ModeToggle
             modes={[
               { value: "flashcard", label: "Flashcard" },
@@ -229,5 +234,16 @@ export default function ConfusablesDrill() {
         </div>
       )}
     </DrillScaffold>
+  );
+}
+
+export default function ConfusablesDrillRoute() {
+  const { active, ids } = useReviewFilter("confusable");
+  if (active && !ids) return null; // wait for the missed-item query
+  return (
+    <ConfusablesDrill
+      key={active ? "review" : "normal"}
+      reviewIds={active ? ids : undefined}
+    />
   );
 }

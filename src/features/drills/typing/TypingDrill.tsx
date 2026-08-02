@@ -15,13 +15,16 @@ import DrillScaffold from "../engine/DrillScaffold";
 import KoreanKeyboard from "./KoreanKeyboard";
 import AudioButton from "../../../components/AudioButton";
 import Rom from "../../../components/Rom";
+import { useReviewFilter } from "../../review/useReviewFilter";
+import ReviewBanner from "../../review/ReviewBanner";
+import ReviewEmpty from "../../review/ReviewEmpty";
 
-export default function TypingDrill() {
+function TypingDrill({ reviewIds }: { reviewIds?: Set<string> }) {
   const known = useKnownWords();
-  const pool = useMemo(
-    () => (known ? unlockedWords(allWords, known) : []),
-    [known],
-  );
+  const pool = useMemo(() => {
+    const base = known ? unlockedWords(allWords, known) : [];
+    return reviewIds ? base.filter((w) => reviewIds.has(w.id)) : base;
+  }, [known, reviewIds]);
 
   const engine = useDrillEngine<Word>({ kind: "typing", pool });
   const current = engine.current;
@@ -89,6 +92,8 @@ export default function TypingDrill() {
 
   if (!known) return null;
 
+  if (reviewIds && pool.length === 0) return <ReviewEmpty />;
+
   if (pool.length === 0) {
     return (
       <div>
@@ -130,6 +135,7 @@ export default function TypingDrill() {
         engine.reset();
       }}
       missed={engine.missed.map((m) => ({ id: m.id, big: m.ko, small: m.en }))}
+      controls={reviewIds ? <ReviewBanner count={pool.length} /> : undefined}
     >
       {/* Prompt */}
       <div className="text-center">
@@ -210,5 +216,16 @@ export default function TypingDrill() {
         disabled={engine.answered}
       />
     </DrillScaffold>
+  );
+}
+
+export default function TypingDrillRoute() {
+  const { active, ids } = useReviewFilter("typing");
+  if (active && !ids) return null;
+  return (
+    <TypingDrill
+      key={active ? "review" : "normal"}
+      reviewIds={active ? ids : undefined}
+    />
   );
 }

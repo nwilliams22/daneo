@@ -11,6 +11,9 @@ import DrillScaffold from "../engine/DrillScaffold";
 import ModeToggle from "../../../components/ModeToggle";
 import AudioButton from "../../../components/AudioButton";
 import Rom from "../../../components/Rom";
+import { useReviewFilter } from "../../review/useReviewFilter";
+import ReviewBanner from "../../review/ReviewBanner";
+import ReviewEmpty from "../../review/ReviewEmpty";
 
 const ROLE_COLOR: Record<Role, { text: string; border: string }> = {
   subject: { text: "text-subject", border: "border-subject" },
@@ -76,15 +79,15 @@ function Layer({
   );
 }
 
-export default function AnatomyDrill() {
+function AnatomyDrill({ reviewIds }: { reviewIds?: Set<string> }) {
   const known = useKnownWords();
-  const pool = useMemo(
-    () => (known ? unlockedSentences(allSentences, known) : []),
-    [known],
-  );
+  const pool = useMemo(() => {
+    const base = known ? unlockedSentences(allSentences, known) : [];
+    return reviewIds ? base.filter((s) => reviewIds.has(s.id)) : base;
+  }, [known, reviewIds]);
 
   const [si, setSi] = useState(0);
-  const [mode, setMode] = useState<Mode>("study");
+  const [mode, setMode] = useState<Mode>(reviewIds ? "arrange" : "study");
   const [highlight, setHighlight] = useState<string | null>(null);
   const [placed, setPlaced] = useState<Chunk[]>([]);
   const [bank, setBank] = useState<Chunk[]>([]);
@@ -163,6 +166,8 @@ export default function AnatomyDrill() {
 
   if (!known) return null;
 
+  if (reviewIds && pool.length === 0) return <ReviewEmpty />;
+
   if (pool.length === 0) {
     return (
       <div>
@@ -213,7 +218,9 @@ export default function AnatomyDrill() {
         small: m.en.map((c) => c.t).filter(Boolean).join(" "),
       }))}
       controls={
-        <div className="mb-4 flex flex-wrap items-center gap-2">
+        <div className="mb-4">
+          {reviewIds && <ReviewBanner count={pool.length} />}
+          <div className="flex flex-wrap items-center gap-2">
           <div className="flex flex-wrap gap-1.5">
             {pool.map((x, i) => (
               <button
@@ -238,6 +245,7 @@ export default function AnatomyDrill() {
             value={mode}
             onChange={switchMode}
           />
+          </div>
         </div>
       }
     >
@@ -384,5 +392,16 @@ export default function AnatomyDrill() {
         ))}
       </div>
     </DrillScaffold>
+  );
+}
+
+export default function AnatomyDrillRoute() {
+  const { active, ids } = useReviewFilter("anatomy");
+  if (active && !ids) return null;
+  return (
+    <AnatomyDrill
+      key={active ? "review" : "normal"}
+      reviewIds={active ? ids : undefined}
+    />
   );
 }
