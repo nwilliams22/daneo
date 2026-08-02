@@ -23,7 +23,7 @@
   --ink: #e3e0d5;
   --muted: #9c9585;
   --teal: #55a395;
-  --clay: #c97757;
+  --clay: #cc7a59; /* ≥4.5:1 on the dark panel */
   --gold: #b99b54;
   --line: rgba(227, 224, 213, 0.12);
   --grid: rgba(227, 224, 213, 0.1);

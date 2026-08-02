@@ -49,6 +49,8 @@ These six artifacts define the intended UX and visual language. Port their logic
 ## 3. Architecture
 
 ### Stack (Phase A)
+> **Direction change (2026-08-01, Nick):** Daneo ships as a **desktop app first (Tauri 2)**, with mobile second (Tauri's iOS/Android targets) once desktop is stable. The core remains the plain Vite+React SPA below — Tauri wraps it (`src-tauri/`, no custom Rust). Browser `npm run dev` stays the fast iteration loop; `npm run tauri dev` runs the real WebKitGTK shell; `npm run tauri build` produces AppImage/rpm. Everything in `/src/lib` stays pure (no DOM) so the mobile wrap stays cheap.
+
 - **Vite + React + TypeScript** — SPA, no SSR needed.
 - **Tailwind** for styling (port the palette to theme tokens; replace prototypes' inline styles).
 - **Dexie (IndexedDB)** for learner state (known words, drill stats, SRS scheduling, missed items). Content itself ships as static typed JSON in `/src/content/`.
