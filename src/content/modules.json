@@ -1,7 +1,7 @@
 [
   {
     "id": "m1",
-    "title": "Module 1 — From Letters to Your First Sentences",
+    "title": "From Letters to Your First Sentences",
     "order": 2,
     "contentMd": "modules/module-1.md",
     "wordIds": [
@@ -30,7 +30,7 @@
   },
   {
     "id": "m2",
-    "title": "Module 2 — Numbers, Time, and Talking About Yesterday",
+    "title": "Numbers, Time, and Talking About Yesterday",
     "order": 3,
     "contentMd": "modules/module-2.md",
     "wordIds": [
@@ -50,7 +50,7 @@
   },
   {
     "id": "m3",
-    "title": "Module 3 — Food, Eating, and Saying No",
+    "title": "Food, Eating, and Saying No",
     "order": 4,
     "contentMd": "modules/module-3.md",
     "wordIds": [
@@ -73,7 +73,7 @@
   },
   {
     "id": "m4",
-    "title": "Module 4 — People, Family, and Being Polite",
+    "title": "People, Family, and Being Polite",
     "order": 5,
     "contentMd": "modules/module-4.md",
     "wordIds": [
@@ -106,7 +106,7 @@
   },
   {
     "id": "m5",
-    "title": "Module 5 — Counting Things and Telling Time",
+    "title": "Counting Things and Telling Time",
     "order": 7,
     "contentMd": "modules/module-5.md",
     "wordIds": [
@@ -128,7 +128,7 @@
   },
   {
     "id": "m6",
-    "title": "Module 6 — Places, Positions, and Finding Your Way",
+    "title": "Places, Positions, and Finding Your Way",
     "order": 8,
     "contentMd": "modules/module-6.md",
     "wordIds": [
@@ -152,7 +152,7 @@
   },
   {
     "id": "m7",
-    "title": "Module 7 — Describing Things and Feelings",
+    "title": "Describing Things and Feelings",
     "order": 9,
     "contentMd": "modules/module-7.md",
     "wordIds": [
@@ -177,7 +177,7 @@
   },
   {
     "id": "m8",
-    "title": "Module 8 — Routines and the Future",
+    "title": "Routines and the Future",
     "order": 10,
     "contentMd": "modules/module-8.md",
     "wordIds": [
@@ -208,7 +208,7 @@
   },
   {
     "id": "m9",
-    "title": "Module 9 — Requests, Offers, and Shopping",
+    "title": "Requests, Offers, and Shopping",
     "order": 12,
     "contentMd": "modules/module-9.md",
     "wordIds": [
@@ -230,7 +230,7 @@
   },
   {
     "id": "m10",
-    "title": "Module 10 — Can, Must, and Because",
+    "title": "Can, Must, and Because",
     "order": 13,
     "contentMd": "modules/module-10.md",
     "wordIds": [
@@ -254,7 +254,7 @@
   },
   {
     "id": "m11",
-    "title": "Module 11 — Weather and the Four Seasons",
+    "title": "Weather and the Four Seasons",
     "order": 14,
     "contentMd": "modules/module-11.md",
     "wordIds": [
@@ -278,7 +278,7 @@
   },
   {
     "id": "m12",
-    "title": "Module 12 — Getting Around",
+    "title": "Getting Around",
     "order": 15,
     "contentMd": "modules/module-12.md",
     "wordIds": [
