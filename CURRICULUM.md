@@ -63,7 +63,7 @@ may only use same-or-earlier vocabulary (validator-enforced, as always).
 | ~ | The Story of Hangul | — | — |
 | M2 | Numbers, Time, and Talking About Yesterday | 32 | 도, 에서, 하고 · past -았/었어요 |
 
-### Band 1 — the grammar engine (M3–M10)
+### Band 1 — the grammar engine (M3–M10) — ✅ shipped in full 2026-08-02
 One substantial grammar payload each; themes chosen so the new glue has
 natural sentences.
 

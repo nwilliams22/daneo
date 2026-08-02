@@ -227,5 +227,29 @@
       "s9_lunch_together", "s9_lets_go", "s9_more_please", "s9_got_gift",
       "s9_shall_i_give", "s9_umbrella_store"
     ]
+  },
+  {
+    "id": "m10",
+    "title": "Module 10 — Can, Must, and Because",
+    "order": 13,
+    "contentMd": "modules/module-10.md",
+    "wordIds": [
+      "w_doeda", "w_suyeonghada", "w_unjeonhada", "w_noraehada",
+      "w_ihaehada", "w_sayonghada", "w_daedaphada", "w_sseuda",
+      "w_yeonseuphada", "w_iyagihada", "w_saenggakhada",
+      "w_jilmun", "w_siheom", "w_sukje", "w_sueop", "w_daneo",
+      "w_munbeop", "w_tteut", "w_hoeui", "w_yak",
+      "w_mwo", "w_wae", "w_eonje", "w_nugu", "w_eotteoke", "w_museun",
+      "w_cheoncheonhi", "w_dasi", "w_jal", "w_yeolsimhi", "w_honja",
+      "w_orae", "w_got",
+      "w_yeongeo", "w_keompyuteo", "w_jajeongeo"
+    ],
+    "sentenceIds": [
+      "s10_can_swim", "s10_korean_little", "s10_cant_drive",
+      "s10_must_study", "s10_homework_must", "s10_late_sorry",
+      "s10_busy_call_later", "s10_speak_slowly", "s10_understand_q",
+      "s10_what_mean", "s10_why", "s10_when_arrive", "s10_no_way",
+      "s10_alone_can"
+    ]
   }
 ]
