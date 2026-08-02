@@ -10,6 +10,9 @@ import Chip from "../../../components/Chip";
 import ModeToggle from "../../../components/ModeToggle";
 import AudioButton from "../../../components/AudioButton";
 import Rom from "../../../components/Rom";
+import { useReviewFilter } from "../../review/useReviewFilter";
+import ReviewBanner from "../../review/ReviewBanner";
+import ReviewEmpty from "../../review/ReviewEmpty";
 
 const CATS: { key: (typeof gapCats)[number]; label: string; color: string; border: string }[] = [
   { key: "structure", label: "Grammar mismatches", color: "text-teal", border: "border-l-teal" },
@@ -52,12 +55,17 @@ function BrowseCard({ item }: { item: GapItem }) {
   );
 }
 
-export default function GapDrill() {
-  const [mode, setMode] = useState<Mode>("browse");
+function GapDrill({ reviewIds }: { reviewIds?: Set<string> }) {
+  const [mode, setMode] = useState<Mode>(reviewIds ? "quiz" : "browse");
   const [cat, setCat] = useState<(typeof gapCats)[number]>("structure");
   const [picked, setPicked] = useState<string | null>(null);
 
-  const engine = useDrillEngine<GapItem>({ kind: "gap", pool: gapItems });
+  const pool = useMemo(
+    () =>
+      reviewIds ? gapItems.filter((g) => reviewIds.has(g.id)) : gapItems,
+    [reviewIds],
+  );
+  const engine = useDrillEngine<GapItem>({ kind: "gap", pool });
   const q = engine.current;
 
   const options = useMemo(
@@ -91,6 +99,8 @@ export default function GapDrill() {
 
   const browseList = useMemo(() => gapItems.filter((g) => g.cat === cat), [cat]);
 
+  if (reviewIds && pool.length === 0) return <ReviewEmpty />;
+
   return (
     <DrillScaffold
       eyebrow="한국어 · Lost in translation"
@@ -106,14 +116,17 @@ export default function GapDrill() {
       missed={engine.missed.map((m) => ({ id: m.id, big: m.ko, small: m.real }))}
       controls={
         <div className="mb-4">
-          <ModeToggle
-            modes={[
-              { value: "browse", label: "Browse" },
-              { value: "quiz", label: "Guess the meaning" },
-            ]}
-            value={mode}
-            onChange={setMode}
-          />
+          {reviewIds && <ReviewBanner count={pool.length} />}
+          {!reviewIds && (
+            <ModeToggle
+              modes={[
+                { value: "browse", label: "Browse" },
+                { value: "quiz", label: "Guess the meaning" },
+              ]}
+              value={mode}
+              onChange={setMode}
+            />
+          )}
           {mode === "browse" && (
             <div className="mt-3 flex flex-wrap gap-2">
               {CATS.map((c) => (
@@ -180,5 +193,16 @@ export default function GapDrill() {
         )
       )}
     </DrillScaffold>
+  );
+}
+
+export default function GapDrillRoute() {
+  const { active, ids } = useReviewFilter("gap");
+  if (active && !ids) return null;
+  return (
+    <GapDrill
+      key={active ? "review" : "normal"}
+      reviewIds={active ? ids : undefined}
+    />
   );
 }
