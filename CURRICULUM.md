@@ -59,8 +59,8 @@ may only use same-or-earlier vocabulary (validator-enforced, as always).
 ### Band 0 — shipped
 | # | Module | Words | Glue |
 |---|---|---|---|
+| ~ | The Story of Hangul | — | — *(moved to the front 2026-08-02 — read the design story, then learn the letters)* |
 | M1 | From Letters to Your First Sentences | 37 | 은/는, 이/가, 을/를, 에 · -아/어/해요 |
-| ~ | The Story of Hangul | — | — |
 | M2 | Numbers, Time, and Talking About Yesterday | 32 | 도, 에서, 하고 · past -았/었어요 |
 
 ### Band 1 — the grammar engine (M3–M10) — ✅ shipped in full 2026-08-02

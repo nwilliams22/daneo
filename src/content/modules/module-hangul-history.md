@@ -50,3 +50,7 @@ After 1945, both Koreas made Hangul the national script, and Hanja faded from da
 3. **The blocks are deliberate.** Reading syllable-by-syllable isn't a quirk; it's the design.
 
 *Study prompt: next time you drill confusables, say out loud what each shape depicts. "Tongue blocking throat… plus breath" is far stickier than "that corner-shaped one."*
+
+---
+
+**Next: Module 1** — where you'll learn these deliberately-designed letters for real, then immediately start building words and sentences with them. The design story you just read is your mnemonic kit; keep it in your back pocket.

@@ -2,7 +2,7 @@
   {
     "id": "m1",
     "title": "Module 1 — From Letters to Your First Sentences",
-    "order": 1,
+    "order": 2,
     "contentMd": "modules/module-1.md",
     "wordIds": [
       "w_jeo", "w_na", "w_chingu", "w_saram", "w_ireum",
@@ -23,7 +23,7 @@
   {
     "id": "m_hangul_history",
     "title": "The Story of Hangul — Why Your Alphabet Has a Birthday",
-    "order": 2,
+    "order": 1,
     "contentMd": "modules/module-hangul-history.md",
     "wordIds": [],
     "sentenceIds": []
