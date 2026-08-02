@@ -7,6 +7,9 @@ import modulesJson from "./modules.json";
 import module1Md from "./modules/module-1.md?raw";
 import module2Md from "./modules/module-2.md?raw";
 import module3Md from "./modules/module-3.md?raw";
+import module4Md from "./modules/module-4.md?raw";
+import module5Md from "./modules/module-5.md?raw";
+import moduleSpacingMd from "./modules/module-spacing.md?raw";
 import hangulHistoryMd from "./modules/module-hangul-history.md?raw";
 import { contentBundleSchema, type ContentBundle } from "../lib/schemas";
 
@@ -54,5 +57,8 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-1.md": module1Md,
   "modules/module-2.md": module2Md,
   "modules/module-3.md": module3Md,
+  "modules/module-4.md": module4Md,
+  "modules/module-5.md": module5Md,
+  "modules/module-spacing.md": moduleSpacingMd,
   "modules/module-hangul-history.md": hangulHistoryMd,
 };
