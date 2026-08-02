@@ -251,5 +251,29 @@
       "s10_what_mean", "s10_why", "s10_when_arrive", "s10_no_way",
       "s10_alone_can"
     ]
+  },
+  {
+    "id": "m11",
+    "title": "Module 11 — Weather and the Four Seasons",
+    "order": 14,
+    "contentMd": "modules/module-11.md",
+    "wordIds": [
+      "w_gyejeol", "w_bom", "w_yeoreum", "w_gaeul", "w_gyeoul",
+      "w_nal", "w_bi", "w_nun_snow", "w_baram", "w_gureum", "w_haneul",
+      "w_hae", "w_misemeonji", "w_jangma", "w_taepung",
+      "w_san", "w_bada", "w_beotkkot", "w_danpung",
+      "w_hyuga", "w_banghak", "w_yeohaeng", "w_seuki", "w_nunsaram",
+      "w_eeokeon",
+      "w_bulda", "w_geuchida",
+      "w_deopda", "w_chupda", "w_heurida", "w_makda", "w_seuphada",
+      "w_geonjohada",
+      "w_aju", "w_neomu", "w_jinjja", "w_jeongmal", "w_eolmana"
+    ],
+    "sentenceIds": [
+      "s11_summer_hot", "s11_winter_cold", "s11_raining", "s11_snowed",
+      "s11_wind_blows", "s11_sky_clear", "s11_dust", "s11_spring_blossoms",
+      "s11_fall_mountain", "s11_summer_swim", "s11_winter_ski",
+      "s11_snowman", "s11_rain_taxi", "s11_vacation_next_week"
+    ]
   }
 ]
