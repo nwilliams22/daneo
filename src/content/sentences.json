@@ -2911,5 +2911,282 @@
     "rom": "honja hal su isseoyo",
     "wordIds": ["w_honja", "w_hada"],
     "note": "The right sentence to end Band 1 on. Ten modules of glue, 400 words — 혼자 할 수 있어요. You can, in fact, do this alone now."
+  },
+
+  {
+    "id": "s11_summer_hot",
+    "en": [
+      { "t": "Summer", "role": "subject", "id": "s" },
+      { "t": "is very hot", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "summer-[as for]", "role": "subject", "id": "s" },
+      { "t": "very is-hot", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여름은", "role": "subject", "id": "s" },
+      { "t": "아주 더워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeoreumeun aju deowoyo",
+    "wordIds": ["w_yeoreum", "w_aju", "w_deopda"],
+    "note": "덥다 → 더워요: the ㅂ-irregular family's flagship, finally formalized. Korean summers earn the 아주."
+  },
+  {
+    "id": "s11_winter_cold",
+    "en": [
+      { "t": "Winter", "role": "subject", "id": "s" },
+      { "t": "is so cold", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "winter-[as for]", "role": "subject", "id": "s" },
+      { "t": "too is-cold", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울은", "role": "subject", "id": "s" },
+      { "t": "너무 추워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeoureun neomu chuwoyo",
+    "wordIds": ["w_gyeoul", "w_neomu", "w_chupda"],
+    "note": "춥다 → 추워요, same ㅂ→우 move. 너무 officially means 'excessively' but colloquially it's just 'so' — Koreans 너무 everything."
+  },
+  {
+    "id": "s11_raining",
+    "en": [
+      { "t": "It's raining", "role": "verb", "id": "v" },
+      { "t": "right now", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "now", "role": "other", "id": "t" },
+      { "t": "rain-[subj] comes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지금", "role": "other", "id": "t" },
+      { "t": "비가 와요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jigeum biga wayo",
+    "wordIds": ["w_jigeum", "w_bi", "w_oda"],
+    "note": "Weather ARRIVES in Korean: rain comes, no dummy 'it' required. Module 1's 오다 gets its biggest job yet — the gap deck has the pattern."
+  },
+  {
+    "id": "s11_snowed",
+    "en": [
+      { "t": "It snowed", "role": "verb", "id": "v" },
+      { "t": "yesterday", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "yesterday", "role": "other", "id": "t" },
+      { "t": "snow-[subj] came", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제", "role": "other", "id": "t" },
+      { "t": "눈이 왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje nuni wasseoyo",
+    "wordIds": ["w_eoje", "w_nun_snow", "w_oda"],
+    "note": "Snow comes too. And meet 눈 — one syllable for snow AND eyes; context (and once upon a time, vowel length) tells them apart."
+  },
+  {
+    "id": "s11_wind_blows",
+    "en": [
+      { "t": "The wind", "role": "subject", "id": "s" },
+      { "t": "is blowing", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "wind-[subj]", "role": "subject", "id": "s" },
+      { "t": "blows", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "바람이", "role": "subject", "id": "s" },
+      { "t": "불어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "barami bureoyo",
+    "wordIds": ["w_baram", "w_bulda"],
+    "note": "Wind doesn't come — it blows: 불다 → 불어요. Each weather has its verb, and they're all shorter than English's 'it is …-ing.'"
+  },
+  {
+    "id": "s11_sky_clear",
+    "en": [
+      { "t": "The sky", "role": "subject", "id": "s" },
+      { "t": "is clear", "role": "verb", "id": "v" },
+      { "t": "today", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "today-[as for]", "role": "other", "id": "t" },
+      { "t": "sky-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-clear", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "하늘이", "role": "subject", "id": "s" },
+      { "t": "맑아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneureun haneuri malgayo",
+    "wordIds": ["w_oneul", "w_haneul", "w_makda"],
+    "note": "맑다 hides a double batchim: alone it reads 막따, but before a vowel the ㄹ wakes up — 맑아요 = 말가요. The sound interlude, live."
+  },
+  {
+    "id": "s11_dust",
+    "en": [
+      { "t": "The fine dust", "role": "subject", "id": "s" },
+      { "t": "is really bad", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "fine-dust-[subj]", "role": "subject", "id": "s" },
+      { "t": "too is-much", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "미세먼지가", "role": "subject", "id": "s" },
+      { "t": "너무 많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "misemeonjiga neomu manayo",
+    "wordIds": ["w_misemeonji", "w_neomu", "w_manta"],
+    "note": "'Bad dust' is literally 'much dust.' A thoroughly modern Korean sentence — this is small talk now, same shelf as rain."
+  },
+  {
+    "id": "s11_spring_blossoms",
+    "en": [
+      { "t": "In spring", "role": "other", "id": "t" },
+      { "t": "the cherry blossoms", "role": "subject", "id": "s" },
+      { "t": "are beautiful", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "spring-in", "role": "other", "id": "t" },
+      { "t": "cherry-blossom-[subj]", "role": "subject", "id": "s" },
+      { "t": "are-pretty", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "봄에", "role": "other", "id": "t" },
+      { "t": "벚꽃이", "role": "subject", "id": "s" },
+      { "t": "예뻐요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bome beotkkochi yeppeoyo",
+    "wordIds": ["w_bom", "w_beotkkot", "w_yeppeuda"],
+    "note": "Seasons take time-에 like every time word. Two blossom weeks a year, and this sentence gets a nation outdoors."
+  },
+  {
+    "id": "s11_fall_mountain",
+    "en": [
+      { "t": "In fall", "role": "other", "id": "t" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "go", "role": "verb", "id": "v" },
+      { "t": "to the mountains", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "fall-in", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "mountain-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "가을에", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "산에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gaeure sane gayo",
+    "wordIds": ["w_gaeul", "w_san", "w_gada"],
+    "note": "The national autumn pilgrimage — 단풍 season. Korea is 70% 산; hiking gear is practically a uniform."
+  },
+  {
+    "id": "s11_summer_swim",
+    "en": [
+      { "t": "In summer", "role": "other", "id": "t" },
+      { "t": "you can swim", "role": "verb", "id": "v" },
+      { "t": "in the sea", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "summer-in", "role": "other", "id": "t" },
+      { "t": "sea-at", "role": "place", "id": "p" },
+      { "t": "swim-can", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여름에", "role": "other", "id": "t" },
+      { "t": "바다에서", "role": "place", "id": "p" },
+      { "t": "수영할 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeoreume badaeseo suyeonghal su isseoyo",
+    "wordIds": ["w_yeoreum", "w_bada", "w_suyeonghada"],
+    "note": "Module 10's can-machine, one week old, already composing with new vocabulary. This is Band 2's whole deal: new fuel, same engine."
+  },
+  {
+    "id": "s11_winter_ski",
+    "en": [
+      { "t": "In winter", "role": "other", "id": "t" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "ski", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "winter-in", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "ski-[obj] ride", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울에", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "스키를 타요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeoure seukireul tayo",
+    "wordIds": ["w_gyeoul", "w_seuki", "w_tada"],
+    "note": "타다 rides everything: buses, bikes, and now skis. One verb, an entire transport-and-sports vocabulary unlocked."
+  },
+  {
+    "id": "s11_snowman",
+    "en": [
+      { "t": "We", "role": "subject", "id": "s" },
+      { "t": "made", "role": "verb", "id": "v" },
+      { "t": "a snowman", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "(we)", "role": "subject", "id": "s" },
+      { "t": "snow-person-[obj]", "role": "object", "id": "o" },
+      { "t": "made", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "눈사람을", "role": "object", "id": "o" },
+      { "t": "만들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nunsarameul mandeureosseoyo",
+    "wordIds": ["w_nunsaram", "w_mandeulda"],
+    "note": "눈 + 사람 — a compound you could have decoded in Module 1. The dropped subject covers 'I' and 'we' alike; snow days imply company."
+  },
+  {
+    "id": "s11_rain_taxi",
+    "en": [
+      { "t": "It's raining, so", "role": "other", "id": "c" },
+      { "t": "let's take", "role": "verb", "id": "v" },
+      { "t": "a taxi", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] comes-because", "role": "other", "id": "c" },
+      { "t": "taxi-[obj]", "role": "object", "id": "o" },
+      { "t": "ride-let's", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가 오니까", "role": "other", "id": "c" },
+      { "t": "택시를", "role": "object", "id": "o" },
+      { "t": "탑시다", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga onikka taeksireul tapsida",
+    "wordIds": ["w_bi", "w_oda", "w_taeksi", "w_tada"],
+    "note": "Module 10's rule, obeyed: a proposal follows, so the reason takes -(으)니까. Three modules of glue in eight syllables."
+  },
+  {
+    "id": "s11_vacation_next_week",
+    "en": [
+      { "t": "My vacation", "role": "verb", "id": "v" },
+      { "t": "starts next week", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "next week-from", "role": "other", "id": "t" },
+      { "t": "vacation-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다음 주부터", "role": "other", "id": "t" },
+      { "t": "휴가예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daeum jubuteo hyugayeyo",
+    "wordIds": ["w_daeum", "w_ju", "w_hyuga"],
+    "note": "Korean says 'from next week, it's vacation' — 부터 opening a bracket that never closes. The most cheerful use of a particle in this course."
   }
 ]

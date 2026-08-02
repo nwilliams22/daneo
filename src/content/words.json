@@ -434,5 +434,47 @@
 
   { "id": "w_yeongeo", "ko": "영어", "rom": "yeongeo", "en": "English (language)", "pos": "noun", "moduleId": "m10", "notes": "Same -어 as 한국어. 영어 할 수 있어요? — you'll be asked; now you can ask back." },
   { "id": "w_keompyuteo", "ko": "컴퓨터", "rom": "keompyuteo", "en": "computer", "pos": "noun", "moduleId": "m10" },
-  { "id": "w_jajeongeo", "ko": "자전거", "rom": "jajeongeo", "en": "bicycle", "pos": "noun", "moduleId": "m10", "notes": "자전거를 타다 — ride, like every vehicle since M6." }
+  { "id": "w_jajeongeo", "ko": "자전거", "rom": "jajeongeo", "en": "bicycle", "pos": "noun", "moduleId": "m10", "notes": "자전거를 타다 — ride, like every vehicle since M6." },
+
+  { "id": "w_gyejeol", "ko": "계절", "rom": "gyejeol", "en": "season", "pos": "noun", "moduleId": "m11", "notes": "Korea is proudly a land of 사계절 — four distinct seasons." },
+  { "id": "w_bom", "ko": "봄", "rom": "bom", "en": "spring", "pos": "noun", "moduleId": "m11" },
+  { "id": "w_yeoreum", "ko": "여름", "rom": "yeoreum", "en": "summer", "pos": "noun", "moduleId": "m11" },
+  { "id": "w_gaeul", "ko": "가을", "rom": "gaeul", "en": "fall / autumn", "pos": "noun", "moduleId": "m11" },
+  { "id": "w_gyeoul", "ko": "겨울", "rom": "gyeoul", "en": "winter", "pos": "noun", "moduleId": "m11" },
+  { "id": "w_nal", "ko": "날", "rom": "nal", "en": "day (as in a particular day)", "pos": "noun", "moduleId": "m11", "notes": "The 날 in 날씨 (weather — 'day's manner') and 생일 (via 生日's native cousin 생일날)." },
+  { "id": "w_bi", "ko": "비", "rom": "bi", "en": "rain", "pos": "noun", "moduleId": "m11", "notes": "비가 와요 — rain COMES. Weather arrives in Korean; the gap deck explains." },
+  { "id": "w_nun_snow", "ko": "눈", "rom": "nun", "en": "snow", "pos": "noun", "moduleId": "m11", "notes": "Also 'eye' — one syllable, sky and face. The gap deck sorts them." },
+  { "id": "w_baram", "ko": "바람", "rom": "baram", "en": "wind", "pos": "noun", "moduleId": "m11", "notes": "바람이 불어요 — the wind blows." },
+  { "id": "w_gureum", "ko": "구름", "rom": "gureum", "en": "cloud", "pos": "noun", "moduleId": "m11" },
+  { "id": "w_haneul", "ko": "하늘", "rom": "haneul", "en": "sky", "pos": "noun", "moduleId": "m11", "notes": "Also 'heaven' — same as English's double duty." },
+  { "id": "w_hae", "ko": "해", "rom": "hae", "en": "sun", "pos": "noun", "moduleId": "m11", "notes": "Also 'year' (새해 — new year). And yes, it looks like 하다's 해 — Korean recycles relentlessly." },
+  { "id": "w_misemeonji", "ko": "미세먼지", "rom": "misemeonji", "en": "fine dust", "pos": "noun", "moduleId": "m11", "notes": "미세 (fine) + 먼지 (dust). Checking the 미세먼지 forecast is as routine as checking for rain." },
+  { "id": "w_jangma", "ko": "장마", "rom": "jangma", "en": "monsoon / rainy season", "pos": "noun", "moduleId": "m11", "notes": "The weeks-long summer rains — a named season inside a season. Gap deck." },
+  { "id": "w_taepung", "ko": "태풍", "rom": "taepung", "en": "typhoon", "pos": "noun", "moduleId": "m11", "notes": "Same word family as 'typhoon' — both from Chinese 台風." },
+  { "id": "w_san", "ko": "산", "rom": "san", "en": "mountain", "pos": "noun", "moduleId": "m11", "notes": "70% of Korea. Fall 산 + 단풍 is a national pilgrimage." },
+  { "id": "w_bada", "ko": "바다", "rom": "bada", "en": "sea / ocean / beach", "pos": "noun", "moduleId": "m11", "notes": "바다에 가요 covers 'go to the beach' — no separate word needed yet." },
+  { "id": "w_beotkkot", "ko": "벚꽃", "rom": "beotkkot", "en": "cherry blossoms", "pos": "noun", "moduleId": "m11", "notes": "벚 (cherry) + 꽃 (M7's flower). Two weeks of national festival every spring." },
+  { "id": "w_danpung", "ko": "단풍", "rom": "danpung", "en": "fall foliage", "pos": "noun", "moduleId": "m11", "notes": "The red-gold autumn leaves — and the maple they come from." },
+  { "id": "w_hyuga", "ko": "휴가", "rom": "hyuga", "en": "vacation (from work)", "pos": "noun", "moduleId": "m11", "notes": "여름 휴가 — the sacred summer week." },
+  { "id": "w_banghak", "ko": "방학", "rom": "banghak", "en": "school vacation", "pos": "noun", "moduleId": "m11", "notes": "학 (study) released — 방학. Work takes 휴가, school takes 방학." },
+  { "id": "w_yeohaeng", "ko": "여행", "rom": "yeohaeng", "en": "travel / a trip", "pos": "noun", "moduleId": "m11", "notes": "여행을 가다 — go on a trip. Module 23 makes a whole journey of it." },
+  { "id": "w_seuki", "ko": "스키", "rom": "seuki", "en": "ski / skiing", "pos": "noun", "moduleId": "m11", "notes": "스키를 타다 — ride skis, like every vehicle since M6." },
+  { "id": "w_nunsaram", "ko": "눈사람", "rom": "nunsaram", "en": "snowman", "pos": "noun", "moduleId": "m11", "notes": "눈 (snow) + 사람 (M1's person). You've been able to decode this since Module 1 — now it's official." },
+  { "id": "w_eeokeon", "ko": "에어컨", "rom": "eeokeon", "en": "air conditioner", "pos": "noun", "moduleId": "m11", "notes": "Konglish, clipped from 'air conditioner.' Summer's most beloved appliance." },
+
+  { "id": "w_bulda", "ko": "불다", "rom": "bulda", "en": "to blow (wind)", "pos": "verb", "moduleId": "m11", "notes": "바람이 불어요. Also blowing out candles, playing wind instruments." },
+  { "id": "w_geuchida", "ko": "그치다", "rom": "geuchida", "en": "to stop (rain/snow)", "pos": "verb", "moduleId": "m11", "notes": "비가 그쳤어요 — the rain stopped. Weather stops itself; no one stops it." },
+
+  { "id": "w_deopda", "ko": "덥다", "rom": "deopda", "en": "to be hot (weather)", "pos": "adj", "moduleId": "m11", "notes": "더워요 — ㅂ-irregular, and this module makes the whole family official." },
+  { "id": "w_chupda", "ko": "춥다", "rom": "chupda", "en": "to be cold (weather)", "pos": "adj", "moduleId": "m11", "notes": "추워요. Weather is 덥다/춥다; things (coffee, hands) use different words — later." },
+  { "id": "w_heurida", "ko": "흐리다", "rom": "heurida", "en": "to be cloudy / overcast", "pos": "adj", "moduleId": "m11", "notes": "흐려요 — regular, mercifully." },
+  { "id": "w_makda", "ko": "맑다", "rom": "makda", "en": "to be clear (sky, water)", "pos": "adj", "moduleId": "m11", "notes": "맑아요 (말가요 by liaison). The batchim ㄺ reads ㄱ alone: 맑다 = 막따." },
+  { "id": "w_seuphada", "ko": "습하다", "rom": "seuphada", "en": "to be humid", "pos": "adj", "moduleId": "m11", "notes": "습해요. The 장마 special." },
+  { "id": "w_geonjohada", "ko": "건조하다", "rom": "geonjohada", "en": "to be dry", "pos": "adj", "moduleId": "m11", "notes": "건조해요. Korean winters are famously 건조하다 — hence the humidifiers." },
+
+  { "id": "w_aju", "ko": "아주", "rom": "aju", "en": "very", "pos": "noun", "moduleId": "m11", "notes": "아주 더워요 — very hot. The neutral 'very.'" },
+  { "id": "w_neomu", "ko": "너무", "rom": "neomu", "en": "too / so (much)", "pos": "noun", "moduleId": "m11", "notes": "Officially 'excessively,' colloquially just 'so': 너무 좋아요 — I love it." },
+  { "id": "w_jinjja", "ko": "진짜", "rom": "jinjja", "en": "really / real", "pos": "noun", "moduleId": "m11", "notes": "진짜요? — really?! Conversational gold. Its formal twin is 정말." },
+  { "id": "w_jeongmal", "ko": "정말", "rom": "jeongmal", "en": "really / truly", "pos": "noun", "moduleId": "m11", "notes": "정말 감사합니다 — thank you so much. 진짜's slightly dressier sibling." },
+  { "id": "w_eolmana", "ko": "얼마나", "rom": "eolmana", "en": "how (much) — degree", "pos": "noun", "moduleId": "m11", "notes": "얼마나 더워요? — how hot is it? 얼마 (M9) grown an -나 and asking about degree." }
 ]

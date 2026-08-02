@@ -394,5 +394,32 @@
     "lit": "I can't do it well",
     "real": "the modesty deflection",
     "note": "Compliment a Korean speaker's English and you'll hear 잘 못 해요 — regardless of fluency. Deflecting praise is good manners, not low self-esteem. When YOUR Korean gets complimented (it will — 한국어 잘하시네요!), the culturally perfect return is 아니에요, 잘 못 해요."
+  },
+  {
+    "id": "g11_rain_comes",
+    "cat": "structure",
+    "ko": "비가 와요",
+    "rom": "biga wayo",
+    "lit": "rain comes",
+    "real": "it's raining",
+    "note": "English needs a dummy 'it' to rain; Korean lets the weather act for itself: 비가 와요, 눈이 와요 — rain and snow are travelers that arrive. Wind gets its own verb (바람이 불어요), and rain even stops itself (비가 그쳐요). The sky is full of subjects."
+  },
+  {
+    "id": "g11_nun",
+    "cat": "concept",
+    "ko": "눈",
+    "rom": "nun",
+    "lit": "snow / eye",
+    "real": "one syllable for sky and face",
+    "note": "눈이 와요 — snow is coming. 눈이 예뻐요 — your eyes are pretty (probably). Older Korean held them apart by vowel length (snow was the long one); modern speech leans entirely on context. 눈사람 (snow-person) and 눈물 (eye-water: tears) each inherit a different 눈."
+  },
+  {
+    "id": "g11_jangma",
+    "cat": "concept",
+    "ko": "장마",
+    "rom": "jangma",
+    "lit": "long rain",
+    "real": "the summer monsoon — a season inside a season",
+    "note": "For a few weeks around July, rain becomes the default state and umbrellas become clothing. 장마 has start dates, forecasts, and its own mood. Alongside 미세먼지 season and 벚꽃 season, it's proof Korea runs on many more than four seasons."
   }
 ]
