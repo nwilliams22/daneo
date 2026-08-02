@@ -1,0 +1,60 @@
+/* Design tokens — PROJECT.md §2 palette ("paper") + derived dark variant ("night paper").
+   Components must only use the semantic utilities these generate (bg-paper, text-ink,
+   text-subject, …) and never branch on theme. */
+
+:root {
+  /* paper (light) */
+  --paper: #e7e4da;
+  --panel: #f3f1ea;
+  --ink: #23262c;
+  --muted: #8a8578;
+  --teal: #2c6e63;
+  --clay: #b4573d;
+  --gold: #8a6d2f;
+  --line: rgba(35, 38, 44, 0.1);
+  --grid: rgba(35, 38, 44, 0.09);
+  --on-accent: #ffffff;
+}
+
+.dark {
+  /* night paper */
+  --paper: #211f1a;
+  --panel: #2a2823;
+  --ink: #e3e0d5;
+  --muted: #9c9585;
+  --teal: #55a395;
+  --clay: #c97757;
+  --gold: #b99b54;
+  --line: rgba(227, 224, 213, 0.12);
+  --grid: rgba(227, 224, 213, 0.1);
+  --on-accent: #211f1a;
+}
+
+@theme inline {
+  --color-*: initial;
+  --color-paper: var(--paper);
+  --color-panel: var(--panel);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-teal: var(--teal);
+  --color-clay: var(--clay);
+  --color-gold: var(--gold);
+  --color-line: var(--line);
+  --color-grid: var(--grid);
+  --color-on-accent: var(--on-accent);
+  --color-white: #fff;
+  --color-transparent: transparent;
+
+  /* role colors are semantic and app-wide (PROJECT.md §2) */
+  --color-subject: var(--teal);
+  --color-object: var(--clay);
+  --color-place: var(--gold);
+  --color-verb: var(--ink);
+
+  --font-ui: "Inter Variable", Inter, "Helvetica Neue", Arial, sans-serif;
+  --font-korean: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic",
+    "Nanum Gothic", sans-serif;
+  --font-myeongjo: "Noto Serif KR", AppleMyungjo, Batang, "Nanum Myeongjo",
+    serif;
+  --font-hand: "Nanum Pen Script", Gaegu, cursive;
+}

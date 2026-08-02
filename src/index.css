@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "./theme/tokens.css";
+
+/* Manual theme toggle: .dark on <html> wins over prefers-color-scheme */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
