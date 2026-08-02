@@ -275,5 +275,29 @@
       "s11_fall_mountain", "s11_summer_swim", "s11_winter_ski",
       "s11_snowman", "s11_rain_taxi", "s11_vacation_next_week"
     ]
+  },
+  {
+    "id": "m12",
+    "title": "Module 12 — Getting Around",
+    "order": 15,
+    "contentMd": "modules/module-12.md",
+    "wordIds": [
+      "w_gicha", "w_bihaenggi", "w_gonghang", "w_jeongnyujang", "w_pyo",
+      "w_jido", "w_gil", "w_sinae", "w_geuncheo", "w_juso", "w_gisanim",
+      "w_jari", "w_chulgu", "w_ipgu", "w_beon", "w_seoul", "w_busan",
+      "w_jjuk", "w_sinhodeung", "w_yogeum", "w_gyotong", "w_makcha",
+      "w_got_place", "w_jiha",
+      "w_garatada", "w_geonneoda", "w_jinada", "w_seuda_stop", "w_nochida",
+      "w_makhida", "w_geollida", "w_juchahada", "w_josimhada",
+      "w_ppareuda", "w_neurida", "w_pyeonhada", "w_wiheomhada",
+      "w_ppalli"
+    ],
+    "sentenceIds": [
+      "s12_how_to_station", "s12_how_long", "s12_transfer", "s12_exit_three",
+      "s12_traffic_bad", "s12_subway_fast", "s12_pull_over",
+      "s12_buy_ticket", "s12_out_for_lunch", "s12_missed_bus",
+      "s12_cross_light", "s12_airport_meet", "s12_last_train",
+      "s12_snow_careful"
+    ]
   }
 ]

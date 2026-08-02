@@ -4,6 +4,8 @@ Welcome to Band 2. The grammar engine is built; from here on, modules are **fuel
 
 **How to use this:** Band 2 modules can be taken in any order. This one earns its place first because 날씨 talk opens every conversation you'll ever have in Korea — and because it finally *formalizes* the ㅂ-irregular you've been collecting since 맵다.
 
+> **Warm-up (Module 10):** build these out loud — they use only Module 10's blocks, but you've never seen these exact sentences, which is the point: *Can you sing?* (노래할 수 있어요?) · *I have to work today* (오늘 일해야 돼요) · *I'm busy, so please wait* (바쁘니까 기다려 주세요). If the blocks wouldn't snap together, a pass through Review pays off first.
+
 ---
 
 ## Part 1 — A year in Korea

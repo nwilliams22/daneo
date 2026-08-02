@@ -20,7 +20,8 @@ export interface ContentError {
     | "chunk-role-mismatch"
     | "confusable-group-too-small"
     | "gap-too-few-meanings"
-    | "word-not-typeable";
+    | "word-not-typeable"
+    | "dup-sentence-text";
   message: string;
 }
 
@@ -193,6 +194,20 @@ export function validateContent(bundle: ContentBundle): ContentError[] {
       "gap-too-few-meanings",
       `Only ${reals.size} distinct gap "real" meanings — the guess-the-meaning quiz needs at least 4`,
     );
+
+  // ---- recycling rule (CURRICULUM.md §4): blocks repeat, assemblies don't —
+  // no two sentences may render identical Korean text ----
+  const koTexts = new Map<string, string>();
+  for (const s of bundle.sentences) {
+    const text = s.ko.map((c) => c.t).filter(Boolean).join(" ");
+    const prior = koTexts.get(text);
+    if (prior)
+      err(
+        "dup-sentence-text",
+        `Sentence ${s.id} renders the same Korean as ${prior} ("${text}") — every sentence must be a fresh combination`,
+      );
+    else koTexts.set(text, s.id);
+  }
 
   // ---- typing drill: word Korean must be modern Hangul (composable) ----
   for (const w of bundle.words) {

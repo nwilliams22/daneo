@@ -421,5 +421,32 @@
     "lit": "long rain",
     "real": "the summer monsoon — a season inside a season",
     "note": "For a few weeks around July, rain becomes the default state and umbrellas become clothing. 장마 has start dates, forecasts, and its own mood. Alongside 미세먼지 season and 벚꽃 season, it's proof Korea runs on many more than four seasons."
+  },
+  {
+    "id": "g12_gil_makhida",
+    "cat": "structure",
+    "ko": "길이 막혀요",
+    "rom": "giri makyeoyo",
+    "lit": "the road is blocked",
+    "real": "traffic is bad",
+    "note": "No word for 'traffic jam' needed — the road itself gets stopped up, like a pipe. The same verb clogs noses (코가 막혀요) and speechless moments (말이 막혀요). One metaphor, many blockages."
+  },
+  {
+    "id": "g12_gisanim",
+    "cat": "concept",
+    "ko": "기사님",
+    "rom": "gisanim",
+    "lit": "engineer-sir",
+    "real": "how you address any driver",
+    "note": "Korean rarely uses names with strangers — jobs + 님 do the work: 기사님 (driver), 사장님 (owner), 선생님 (teacher, or any respectable stranger). Address people by their role worn with honor, and doors open. Literally, sometimes."
+  },
+  {
+    "id": "g12_makcha",
+    "cat": "concept",
+    "ko": "막차",
+    "rom": "makcha",
+    "lit": "the last vehicle",
+    "real": "the night's true deadline",
+    "note": "Seoul's subway sleeps around midnight, so 막차 시간 quietly governs every evening's social physics — the glance at the phone, the 먼저 가요, the sprint through the station. Miss it and the night gets a taxi-fare surcharge."
   }
 ]
