@@ -17,9 +17,11 @@ export interface DrillEngine<T extends { id: string }> {
   missed: T[];
   /** True between answering and advancing (feedback window). */
   answered: boolean;
+  /** advanceAfterMs: undefined = prototype timing (650/1300ms), a number =
+   *  custom delay (≤0 advances immediately), null = wait for manual advance(). */
   answer: (
     ok: boolean,
-    opts?: { advanceAfterMs?: number; face?: FontFace },
+    opts?: { advanceAfterMs?: number | null; face?: FontFace },
   ) => void;
   advance: () => void;
   reset: (pool?: T[]) => void;
@@ -75,7 +77,9 @@ export function useDrillEngine<T extends { id: string }>(opts: {
         );
       if (log)
         logDrillResult({ kind, itemId: cur.id, correct: ok, face: o?.face });
-      const delay = o?.advanceAfterMs ?? (ok ? 650 : 1300);
+      const delay =
+        o?.advanceAfterMs === undefined ? (ok ? 650 : 1300) : o.advanceAfterMs;
+      if (delay === null) return; // drill advances manually
       if (delay <= 0) advance();
       else timer.current = window.setTimeout(advance, delay);
     },
