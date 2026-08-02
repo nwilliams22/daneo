@@ -17,6 +17,7 @@
   { "id": "cf_ae", "c": "ㅐ", "r": "ae", "group": "vowel", "note": "ㅏ + ㅣ. Nearly identical in sound to ㅔ (e)." },
   { "id": "cf_e", "c": "ㅔ", "r": "e", "group": "vowel", "note": "ㅓ + ㅣ. Sound has merged with ㅐ (ae)." },
   { "id": "cf_eu", "c": "ㅡ", "r": "eu", "group": "vowel", "note": "Flat line only. Not ㅜ (u), which has a downstroke." },
+  { "id": "cf_i", "c": "ㅣ", "r": "i", "group": "vowel", "note": "One tall stroke, nothing else. It's why 일 (1) and 이 (2) look so close — only the ㄹ 받침 tells them apart." },
   { "id": "cf_m", "c": "ㅁ", "r": "m", "group": "consonant", "note": "Closed box. ㅂ (b) opens at the top." },
   { "id": "cf_b", "c": "ㅂ", "r": "b", "group": "consonant", "note": "Uprights with an open top. Not ㅁ (m)." },
   { "id": "cf_n", "c": "ㄴ", "r": "n", "group": "consonant", "note": "An 'L' shape. Add a top line → ㄷ (d)." },

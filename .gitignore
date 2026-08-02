@@ -18,3 +18,7 @@ src-tauri/gen/schemas
 logs
 *.log
 npm-debug.log*
+
+# secrets
+server/.env
+.env

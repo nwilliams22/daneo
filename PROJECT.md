@@ -1,7 +1,7 @@
 # PROJECT.md — 단어 (Daneo) · A Word-First Korean Learning App
 
 > **Working name:** Daneo (단어, "word") — rename freely.
-> **Owner:** Nick · **Status:** Phases A.0–A.1 built (2026-08-01) as a Tauri 2 desktop app — see §7 roadmap and TASKS.md session log. Next: A.2 (SRS).
+> **Owner:** Nick · **Status:** Phase A feature-complete — A.0–A.4 built (2026-08-01 → 2026-08-02) as a Tauri 2 desktop app; see §7 roadmap and TASKS.md session log. Next: polish pass (TASKS.md future work) or the Phase B decision.
 > **This document is the source of truth for Claude Code sessions. Read fully before writing code.**
 
 ---
@@ -134,7 +134,7 @@ Content validation script (`npm run validate:content`) must fail the build if an
 ## 5. Feature specs (beyond straight ports)
 
 - **Known-word gating:** Learn area shows a module's sentences only after its vocab checklist is done. Drills draw only from unlocked content. The translator is always unrestricted (it's the curiosity valve).
-- **Spaced repetition (Phase A.2):** simple SM-2 over `SrsCard`. A single daily "Review" queue mixes due items from all drill kinds. Don't build a settings jungle; defaults only.
+- **Spaced repetition (Phase A.2):** FSRS (`ts-fsrs`) over `SrsCard` — *(built 2026-08-02; chosen over the originally-specced SM-2, see TASKS.md)*. A single daily "Review" queue mixes due items from all drill kinds. Don't build a settings jungle; defaults only.
 - **Audio (Phase A.3):** start with browser `speechSynthesis` (ko-KR voice) behind a play button on words/sentences — zero-cost, works offline. Upgrade path: pre-generated TTS files. Note limitation: quality varies by OS voice.
 - **Cross-font difficulty:** a per-drill toggle that renders prompts in a random face; track accuracy per face to show a "font fluency" stat.
 - **Missed-items loop:** anything answered wrong in any drill appears in a unified "Review these" area (union of the prototypes' per-tool strips) and feeds SRS at a shortened interval.
@@ -156,9 +156,9 @@ Vitest suites, minimum:
 
 - ✅ **Phase A.0 — Scaffold** *(done 2026-08-01)*: Vite+TS+Tailwind+Dexie skeleton, theme tokens, routing (Learn/Drill/Explore), content pipeline + validator, port Module 1 + history module content.
 - ✅ **Phase A.1 — Port drills** *(done 2026-08-01)*: confusables, cross-font, sentence anatomy, gap study — sharing one drill-session component and unified results logging. Shipped with extras beyond spec: a fifth typing drill (in-app 2-beolsik keyboard + Hangul composition engine), audio v1 pulled forward from A.3, dark theme, onboarding placement, dashboard, backup/restore, keyboard shortcuts. See TASKS.md Discovered work.
-- **Phase A.2 — SRS + daily review queue.** *(The unified missed-items Review area already exists from A.1; A.2 adds the SM-2 scheduler and due-today queue.)*
-- **Phase A.3 — Translator (with proxy) + save-to-deck + cross-font difficulty toggle.** *(Audio v1 already shipped.)*
-- **Phase A.4 — Module 2 content** (numbers, past tense, 도/에서/하고) authored in the content format; validator proves the gating works.
+- ✅ **Phase A.2 — SRS + daily review queue** *(done 2026-08-02)*: FSRS via `ts-fsrs` (chosen over SM-2 — TASKS.md 2026-08-02); every drill answer feeds the scheduler through one funnel; `/review/session` mixes due items across all drill kinds; wrong answers return at a shortened interval.
+- ✅ **Phase A.3 — Translator (with proxy) + save-to-deck + cross-font difficulty toggle** *(done 2026-08-02)*: Hono proxy in `/server` holding the key, zod-validated contract both sides, Explore UI port, discoveries with a literal gap auto-file into the Gap deck + SRS, "Mixed fonts" toggle on confusables/gap quizzes with per-face stats. *(Audio v1 had shipped in A.1.)*
+- ✅ **Phase A.4 — Module 2 content** *(done 2026-08-02)*: numbers, time, past tense, 도/에서/하고 in the content format (32 words, 12 sentences, new confusable + gap items); validator proves cross-module gating.
 - **Phase B — Share:** deploy static build + proxy (Fly/Railway), household auth, per-user Dexie→server sync (only if actually sharing).
 - **Phase C — Commercial (decide later):** real accounts, paid TTS, content CMS. Out of scope for all current sessions.
 

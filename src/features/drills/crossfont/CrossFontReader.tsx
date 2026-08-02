@@ -4,13 +4,7 @@ import PageHeader from "../../../components/PageHeader";
 import Chip from "../../../components/Chip";
 import AudioButton from "../../../components/AudioButton";
 import { fontFaces } from "../../../content";
-import type { FontFace } from "../../../types";
-
-const FACE_FONT: Record<FontFace, string> = {
-  gothic: "font-korean",
-  myeongjo: "font-myeongjo",
-  hand: "font-hand",
-};
+import { FACE_FONT } from "../engine/faceFont";
 
 export default function CrossFontReader() {
   const [openRow, setOpenRow] = useState<string | null>(null);
@@ -128,8 +122,9 @@ export default function CrossFontReader() {
       </div>
 
       <p className="mt-4 text-center text-[11px] leading-relaxed text-muted">
-        Coming in a later phase: a difficulty toggle that renders drill prompts
-        in a random face, with per-face accuracy tracking.
+        Ready for more? The confusables and gap quizzes have a “Mixed fonts”
+        toggle that renders prompts in a random face — Stats tracks your
+        accuracy per face.
       </p>
     </div>
   );

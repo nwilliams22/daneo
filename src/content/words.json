@@ -42,5 +42,46 @@
   { "id": "w_p_ga", "ko": "가", "rom": "ga", "en": "subject particle (after vowel)", "pos": "particle", "moduleId": "m1", "notes": "친구가 (chingu-ga). Irregulars: 저+가 → 제가, 나+가 → 내가." },
   { "id": "w_p_eul", "ko": "을", "rom": "eul", "en": "object particle (after consonant)", "pos": "particle", "moduleId": "m1", "notes": "밥을 (bap-eul)." },
   { "id": "w_p_reul", "ko": "를", "rom": "reul", "en": "object particle (after vowel)", "pos": "particle", "moduleId": "m1", "notes": "커피를 (keopi-reul)." },
-  { "id": "w_p_e", "ko": "에", "rom": "e", "en": "location particle — to / at", "pos": "particle", "moduleId": "m1", "notes": "집에 (jip-e, \"to home\"), 학교에 (hakgyo-e, \"to school\")." }
+  { "id": "w_p_e", "ko": "에", "rom": "e", "en": "location particle — to / at", "pos": "particle", "moduleId": "m1", "notes": "집에 (jip-e, \"to home\"), 학교에 (hakgyo-e, \"to school\")." },
+
+  { "id": "w_n_il", "ko": "일", "rom": "il", "en": "one (1)", "pos": "noun", "moduleId": "m2", "notes": "Sino-Korean. Also means \"day\" and \"work\" — context decides." },
+  { "id": "w_n_i", "ko": "이", "rom": "i", "en": "two (2)", "pos": "noun", "moduleId": "m2", "notes": "Sino-Korean. Looks like 일 (1) minus the ㄹ — a classic mix-up." },
+  { "id": "w_n_sam", "ko": "삼", "rom": "sam", "en": "three (3)", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_n_sa", "ko": "사", "rom": "sa", "en": "four (4)", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_n_o", "ko": "오", "rom": "o", "en": "five (5)", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_n_yuk", "ko": "육", "rom": "yuk", "en": "six (6)", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_n_chil", "ko": "칠", "rom": "chil", "en": "seven (7)", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_n_pal", "ko": "팔", "rom": "pal", "en": "eight (8)", "pos": "noun", "moduleId": "m2", "notes": "Also means \"arm\"." },
+  { "id": "w_n_gu", "ko": "구", "rom": "gu", "en": "nine (9)", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_n_sip", "ko": "십", "rom": "sip", "en": "ten (10)", "pos": "noun", "moduleId": "m2", "notes": "Stack to count: 십일 11, 이십 20, 이십일 21 … 구십구 99." },
+
+  { "id": "w_oneul", "ko": "오늘", "rom": "oneul", "en": "today", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_eoje", "ko": "어제", "rom": "eoje", "en": "yesterday", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_naeil", "ko": "내일", "rom": "naeil", "en": "tomorrow", "pos": "noun", "moduleId": "m2", "notes": "Literally 내(來 coming)+일(day) — \"the coming day\"." },
+  { "id": "w_jigeum", "ko": "지금", "rom": "jigeum", "en": "now", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_achim", "ko": "아침", "rom": "achim", "en": "morning / breakfast", "pos": "noun", "moduleId": "m2", "notes": "Also means breakfast — 아침 먹었어요? \"had breakfast?\"" },
+  { "id": "w_jeonyeok", "ko": "저녁", "rom": "jeonyeok", "en": "evening / dinner", "pos": "noun", "moduleId": "m2", "notes": "Same double duty as 아침: the time and the meal." },
+  { "id": "w_jumal", "ko": "주말", "rom": "jumal", "en": "weekend", "pos": "noun", "moduleId": "m2" },
+
+  { "id": "w_kape", "ko": "카페", "rom": "kape", "en": "cafe", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_doseogwan", "ko": "도서관", "rom": "doseogwan", "en": "library", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_hoesa", "ko": "회사", "rom": "hoesa", "en": "company / the office", "pos": "noun", "moduleId": "m2", "notes": "Koreans say 회사에 가요 (\"go to the company\") for \"go to work\"." },
+  { "id": "w_sikdang", "ko": "식당", "rom": "sikdang", "en": "restaurant", "pos": "noun", "moduleId": "m2" },
+
+  { "id": "w_yeonghwa", "ko": "영화", "rom": "yeonghwa", "en": "movie", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_eumak", "ko": "음악", "rom": "eumak", "en": "music", "pos": "noun", "moduleId": "m2" },
+  { "id": "w_ppang", "ko": "빵", "rom": "ppang", "en": "bread", "pos": "noun", "moduleId": "m2", "notes": "Starts with tense ㅃ — puff-free and tight." },
+  { "id": "w_uyu", "ko": "우유", "rom": "uyu", "en": "milk", "pos": "noun", "moduleId": "m2", "notes": "All vowels-with-ㅇ: 우+유. Good ㅜ/ㅠ practice." },
+  { "id": "w_cha", "ko": "차", "rom": "cha", "en": "tea", "pos": "noun", "moduleId": "m2", "notes": "Also means \"car\" — context decides." },
+
+  { "id": "w_ikda", "ko": "읽다", "rom": "ikda", "en": "to read", "pos": "verb", "moduleId": "m2", "notes": "Polite: 읽어요 (ilgeoyo) — the buried ㄹ comes back before a vowel." },
+  { "id": "w_deutda", "ko": "듣다", "rom": "deutda", "en": "to listen", "pos": "verb", "moduleId": "m2", "notes": "ㄷ-irregular: 들어요 (deureoyo), past 들었어요." },
+  { "id": "w_mannada", "ko": "만나다", "rom": "mannada", "en": "to meet", "pos": "verb", "moduleId": "m2", "notes": "Polite: 만나요. Past: 만났어요." },
+  { "id": "w_sada", "ko": "사다", "rom": "sada", "en": "to buy", "pos": "verb", "moduleId": "m2", "notes": "Polite: 사요. Past: 샀어요." },
+  { "id": "w_baeuda", "ko": "배우다", "rom": "baeuda", "en": "to learn", "pos": "verb", "moduleId": "m2", "notes": "Polite: 배워요 (ㅜ + 어 → 워). Past: 배웠어요." },
+  { "id": "w_ilhada", "ko": "일하다", "rom": "ilhada", "en": "to work", "pos": "verb", "moduleId": "m2", "notes": "일 (work) + 하다 (do). Polite: 일해요. Past: 일했어요." },
+
+  { "id": "w_p_do", "ko": "도", "rom": "do", "en": "particle — also / too", "pos": "particle", "moduleId": "m2", "notes": "REPLACES 은/는/이/가/을/를 — never stacks on them: 음악도, not 음악을도." },
+  { "id": "w_p_eseo", "ko": "에서", "rom": "eseo", "en": "particle — at / in (where an action happens)", "pos": "particle", "moduleId": "m2", "notes": "카페에서 마셔요 (drink AT the cafe). 에 is the destination; 에서 is the venue." },
+  { "id": "w_p_hago", "ko": "하고", "rom": "hago", "en": "particle — and / with", "pos": "particle", "moduleId": "m2", "notes": "우유하고 빵 (milk and bread) · 친구하고 (with a friend)." }
 ]

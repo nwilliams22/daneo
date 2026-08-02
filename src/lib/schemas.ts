@@ -163,6 +163,18 @@ export const exportSnapshotSchema = z.object({
         ease: z.number(),
         due: z.number(),
         lapses: z.number(),
+        // FSRS state (Phase A.2) — optional so pre-A.2 backups still import
+        stability: z.number().optional(),
+        elapsedDays: z.number().optional(),
+        reps: z.number().optional(),
+        learningSteps: z.number().optional(),
+        state: z.union([
+          z.literal(0),
+          z.literal(1),
+          z.literal(2),
+          z.literal(3),
+        ]).optional(),
+        lastReview: z.number().optional(),
       }),
     ),
     savedTranslations: z.array(

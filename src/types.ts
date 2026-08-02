@@ -90,13 +90,22 @@ export interface DrillResult {
 }
 
 export interface SrsCard {
-  // Phase A.2
+  // Phase A.2 — scheduled by FSRS (src/lib/srs.ts). The §4 base fields keep
+  // their meaning: interval = scheduled days, ease = FSRS difficulty,
+  // due = epoch ms. The optional fields are FSRS state, additive per the
+  // TASKS.md convention; absent values default to a brand-new card.
   itemId: string;
   kind: DrillKind;
   interval: number;
   ease: number;
   due: number;
   lapses: number;
+  stability?: number;
+  elapsedDays?: number;
+  reps?: number;
+  learningSteps?: number;
+  state?: 0 | 1 | 2 | 3; // New | Learning | Review | Relearning
+  lastReview?: number;
 }
 
 // Translator contract (Phase A.3 — schema ships early so client code stays typed)

@@ -1,10 +1,12 @@
 import { db } from "./db";
+import { applyAnswer } from "../lib/srs";
 import type {
   DrillKind,
   DrillResult,
   ExportSnapshot,
   FontFace,
   PersistedSettings,
+  TranslationResult,
 } from "../types";
 
 // All writes to learner state go through here. Writes happen only from
@@ -19,6 +21,9 @@ export function unmarkWordKnown(wordId: string) {
   return db.knownWords.delete(wordId);
 }
 
+/** The one grading funnel: records the result row AND moves the item's
+ *  SRS card (creating it on first sight), atomically. Every drill and the
+ *  Review session answer through here, so everything drilled is scheduled. */
 export function logDrillResult(opts: {
   kind: DrillKind;
   itemId: string;
@@ -26,7 +31,21 @@ export function logDrillResult(opts: {
   face?: FontFace;
 }) {
   const row: DrillResult = { ...opts, at: Date.now() };
-  return db.drillResults.add(row);
+  return db.transaction("rw", [db.drillResults, db.srsCards], async () => {
+    await db.drillResults.add(row);
+    const existing = await db.srsCards.get([opts.kind, opts.itemId]);
+    await db.srsCards.put(
+      applyAnswer(existing, opts.kind, opts.itemId, opts.correct),
+    );
+  });
+}
+
+export function saveTranslation(result: TranslationResult) {
+  return db.savedTranslations.add({ savedAt: Date.now(), result });
+}
+
+export function deleteTranslation(id: number) {
+  return db.savedTranslations.delete(id);
 }
 
 export async function snapshot(

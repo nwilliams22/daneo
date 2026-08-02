@@ -5,6 +5,7 @@ import fontfacesJson from "./fontfaces.json";
 import gapJson from "./gap.json";
 import modulesJson from "./modules.json";
 import module1Md from "./modules/module-1.md?raw";
+import module2Md from "./modules/module-2.md?raw";
 import hangulHistoryMd from "./modules/module-hangul-history.md?raw";
 import { contentBundleSchema, type ContentBundle } from "../lib/schemas";
 
@@ -50,5 +51,6 @@ export const fontLetterById = new Map(
 /** Raw markdown bodies keyed by Module.contentMd. */
 export const moduleMarkdown: Record<string, string> = {
   "modules/module-1.md": module1Md,
+  "modules/module-2.md": module2Md,
   "modules/module-hangul-history.md": hangulHistoryMd,
 };

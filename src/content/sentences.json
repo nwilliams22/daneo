@@ -289,5 +289,288 @@
     "rom": "chinguga jibe wayo",
     "wordIds": ["w_chingu", "w_jip", "w_oda"],
     "note": "Same pattern as 'I go to the store' — swap the pieces, keep the skeleton. This is why learning the frame once pays off forever."
+  },
+
+  {
+    "id": "s2_yesterday_friend",
+    "en": [
+      { "t": "Yesterday", "role": "other", "id": "t" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "met", "role": "verb", "id": "v" },
+      { "t": "my friend", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "yesterday", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "friend-[obj]", "role": "object", "id": "o" },
+      { "t": "met", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "친구를", "role": "object", "id": "o" },
+      { "t": "만났어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje chingureul mannasseoyo",
+    "wordIds": ["w_eoje", "w_chingu", "w_mannada"],
+    "note": "Your first past tense: 만나다 → drop 다, last vowel is ㅏ so add 았어요 → 만났어요. The subject is understood and simply dropped."
+  },
+  {
+    "id": "s2_morning_bread",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "ate", "role": "verb", "id": "v" },
+      { "t": "bread", "role": "object", "id": "o" },
+      { "t": "in the morning", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "morning-in", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "bread-[obj]", "role": "object", "id": "o" },
+      { "t": "ate", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아침에", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "빵을", "role": "object", "id": "o" },
+      { "t": "먹었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "achime ppangeul meogeosseoyo",
+    "wordIds": ["w_achim", "w_ppang", "w_meokda"],
+    "note": "에 marks time too — 아침에 'in the morning'. 먹다's stem vowel is ㅓ, so the past is 먹었어요."
+  },
+  {
+    "id": "s2_cafe_coffee",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "drank", "role": "verb", "id": "v" },
+      { "t": "coffee", "role": "object", "id": "o" },
+      { "t": "at the cafe", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "cafe-at", "role": "place", "id": "p" },
+      { "t": "coffee-[obj]", "role": "object", "id": "o" },
+      { "t": "drank", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "카페에서", "role": "place", "id": "p" },
+      { "t": "커피를", "role": "object", "id": "o" },
+      { "t": "마셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "kapeeseo keopireul masyeosseoyo",
+    "wordIds": ["w_kape", "w_keopi", "w_masida"],
+    "note": "Actions happen with 에서, not 에 — the cafe is the venue, not the destination. 마시다 → 마셨어요."
+  },
+  {
+    "id": "s2_library_study",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "study", "role": "verb", "id": "v" },
+      { "t": "Korean", "role": "object", "id": "o" },
+      { "t": "at the library", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "library-at", "role": "place", "id": "p" },
+      { "t": "Korean-[obj]", "role": "object", "id": "o" },
+      { "t": "study", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "도서관에서", "role": "place", "id": "p" },
+      { "t": "한국어를", "role": "object", "id": "o" },
+      { "t": "공부해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun doseogwaneseo hangugeoreul gongbuhaeyo",
+    "wordIds": ["w_jeo", "w_doseogwan", "w_hangugeo", "w_gongbuhada"],
+    "note": "The S–Place–O–V frame you previewed in Module 1 (학교에서), now official: 에서 marks where the studying happens."
+  },
+  {
+    "id": "s2_music_too",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "like", "role": "verb", "id": "v" },
+      { "t": "music too", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "music-also", "role": "object", "id": "o" },
+      { "t": "like", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "음악도", "role": "object", "id": "o" },
+      { "t": "좋아해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun eumakdo joahaeyo",
+    "wordIds": ["w_jeo", "w_eumak", "w_joahada"],
+    "note": "도 doesn't stack on 을/를 — it replaces it. 음악을도 is wrong; 음악도 carries both 'object' and 'also' at once."
+  },
+  {
+    "id": "s2_friend_movie",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "watched", "role": "verb", "id": "v" },
+      { "t": "a movie", "role": "object", "id": "o" },
+      { "t": "with my friend", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "friend-with", "role": "other", "id": "c" },
+      { "t": "movie-[obj]", "role": "object", "id": "o" },
+      { "t": "watched", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "친구하고", "role": "other", "id": "c" },
+      { "t": "영화를", "role": "object", "id": "o" },
+      { "t": "봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguhago yeonghwareul bwasseoyo",
+    "wordIds": ["w_chingu", "w_yeonghwa", "w_boda"],
+    "note": "하고 glued to a noun means 'with'. 보다 contracts in the past: 보 + 았어요 → 봤어요."
+  },
+  {
+    "id": "s2_yesterday_school",
+    "en": [
+      { "t": "Yesterday", "role": "other", "id": "t" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "went", "role": "verb", "id": "v" },
+      { "t": "to school", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "yesterday", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "school-to", "role": "place", "id": "p" },
+      { "t": "went", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "학교에", "role": "place", "id": "p" },
+      { "t": "갔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje hakgyoe gasseoyo",
+    "wordIds": ["w_eoje", "w_hakgyo", "w_gada"],
+    "note": "Destinations keep 에 even in the past. 가다 → 갔어요 — the ㅏ stem and 았 merge into one syllable."
+  },
+  {
+    "id": "s2_now_work",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am working", "role": "verb", "id": "v" },
+      { "t": "at the office", "role": "place", "id": "p" },
+      { "t": "now", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "now", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "office-at", "role": "place", "id": "p" },
+      { "t": "work", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지금", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "회사에서", "role": "place", "id": "p" },
+      { "t": "일해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jigeum hoesaeseo ilhaeyo",
+    "wordIds": ["w_jigeum", "w_hoesa", "w_ilhada"],
+    "note": "회사 is literally 'company', but 회사에서 일해요 is just 'I'm at work'. 일하다 = 일 (work) + 하다 (do) → 일해요."
+  },
+  {
+    "id": "s2_tomorrow_meet",
+    "en": [
+      { "t": "Tomorrow", "role": "other", "id": "t" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am meeting", "role": "verb", "id": "v" },
+      { "t": "my friend", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "tomorrow", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "friend-[obj]", "role": "object", "id": "o" },
+      { "t": "meet", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내일", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "친구를", "role": "object", "id": "o" },
+      { "t": "만나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naeil chingureul mannayo",
+    "wordIds": ["w_naeil", "w_chingu", "w_mannada"],
+    "note": "The present tense covers the near future — 내일 만나요 needs no 'will'. The time word does the work."
+  },
+  {
+    "id": "s2_milk_bread",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "bought", "role": "verb", "id": "v" },
+      { "t": "milk", "role": "object", "id": "o1" },
+      { "t": "and bread", "role": "object", "id": "o2" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "milk-and", "role": "object", "id": "o1" },
+      { "t": "bread-[obj]", "role": "object", "id": "o2" },
+      { "t": "bought", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "우유하고", "role": "object", "id": "o1" },
+      { "t": "빵을", "role": "object", "id": "o2" },
+      { "t": "샀어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uyuhago ppangeul sasseoyo",
+    "wordIds": ["w_uyu", "w_ppang", "w_sada"],
+    "note": "하고 between nouns is 'and' — and only the last noun in the list takes 을/를. 사다 → 샀어요."
+  },
+  {
+    "id": "s2_music_listen",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "listened to", "role": "verb", "id": "v" },
+      { "t": "music", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "music-[obj]", "role": "object", "id": "o" },
+      { "t": "listened", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "음악을", "role": "object", "id": "o" },
+      { "t": "들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eumageul deureosseoyo",
+    "wordIds": ["w_eumak", "w_deutda"],
+    "note": "듣다 is a ㄷ-irregular: before a vowel ending, ㄷ softens to ㄹ — 들어요, 들었어요. A small family of verbs (걷다 'walk', 묻다 'ask') does the same."
+  },
+  {
+    "id": "s2_weekend_movie",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "watch", "role": "verb", "id": "v" },
+      { "t": "movies", "role": "object", "id": "o" },
+      { "t": "on the weekend", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "weekend-on", "role": "other", "id": "t" },
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "movie-[obj]", "role": "object", "id": "o" },
+      { "t": "watch", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "t" },
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "영화를", "role": "object", "id": "o" },
+      { "t": "봐요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare jeoneun yeonghwareul bwayo",
+    "wordIds": ["w_jumal", "w_jeo", "w_yeonghwa", "w_boda"],
+    "note": "Time-에 once more: 주말에 'on the weekend'. Time words like to lead the sentence, before even the subject."
   }
 ]
