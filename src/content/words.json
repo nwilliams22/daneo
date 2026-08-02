@@ -262,5 +262,51 @@
   { "id": "w_p_ro", "ko": "로", "rom": "ro", "en": "particle — toward / by means of (after a vowel or ㄹ)", "pos": "particle", "moduleId": "m6", "notes": "왼쪽으로? No — 왼쪽 ends in ㄱ. After vowels and ㄹ: 지하철로 (by subway)." },
   { "id": "w_p_euro", "ko": "으로", "rom": "euro", "en": "particle — toward / by means of (after a consonant)", "pos": "particle", "moduleId": "m6", "notes": "왼쪽으로 가요 — go (toward the) left. Direction or instrument; 에 marks the endpoint, (으)로 the heading." },
   { "id": "w_p_buteo", "ko": "부터", "rom": "buteo", "en": "particle — from / starting at (time)", "pos": "particle", "moduleId": "m6", "notes": "아홉 시부터 — from 9 o'clock. Space uses 에서 instead." },
-  { "id": "w_p_kkaji", "ko": "까지", "rom": "kkaji", "en": "particle — until / as far as", "pos": "particle", "moduleId": "m6", "notes": "여섯 시까지 (until 6) · 학교까지 (as far as school). Pairs with 부터 for time, 에서 for space." }
+  { "id": "w_p_kkaji", "ko": "까지", "rom": "kkaji", "en": "particle — until / as far as", "pos": "particle", "moduleId": "m6", "notes": "여섯 시까지 (until 6) · 학교까지 (as far as school). Pairs with 부터 for time, 에서 for space." },
+
+  { "id": "w_saek", "ko": "색", "rom": "saek", "en": "color", "pos": "noun", "moduleId": "m7", "notes": "Every color word below is just [something] + 색." },
+  { "id": "w_ppalgansaek", "ko": "빨간색", "rom": "ppalgansaek", "en": "red", "pos": "noun", "moduleId": "m7" },
+  { "id": "w_paransaek", "ko": "파란색", "rom": "paransaek", "en": "blue", "pos": "noun", "moduleId": "m7", "notes": "Traditionally covers nature's green too — the gap deck has the story." },
+  { "id": "w_noransaek", "ko": "노란색", "rom": "noransaek", "en": "yellow", "pos": "noun", "moduleId": "m7" },
+  { "id": "w_geomeunsaek", "ko": "검은색", "rom": "geomeunsaek", "en": "black", "pos": "noun", "moduleId": "m7", "notes": "까만색 is the everyday synonym." },
+  { "id": "w_hayansaek", "ko": "하얀색", "rom": "hayansaek", "en": "white", "pos": "noun", "moduleId": "m7" },
+  { "id": "w_choroksaek", "ko": "초록색", "rom": "choroksaek", "en": "green", "pos": "noun", "moduleId": "m7" },
+
+  { "id": "w_manta", "ko": "많다", "rom": "manta", "en": "to be many / much", "pos": "adj", "moduleId": "m7", "notes": "Polite: 많아요 (manayo) — the ㅎ goes silent. One of the most-used words in the language." },
+  { "id": "w_jeokda", "ko": "적다", "rom": "jeokda", "en": "to be few / little", "pos": "adj", "moduleId": "m7", "notes": "Polite: 적어요." },
+  { "id": "w_bissada", "ko": "비싸다", "rom": "bissada", "en": "to be expensive", "pos": "adj", "moduleId": "m7", "notes": "Polite: 비싸요." },
+  { "id": "w_ssada", "ko": "싸다", "rom": "ssada", "en": "to be cheap", "pos": "adj", "moduleId": "m7", "notes": "Polite: 싸요. 비싸다 minus the 비 — an accidental mnemonic." },
+  { "id": "w_gilda", "ko": "길다", "rom": "gilda", "en": "to be long", "pos": "adj", "moduleId": "m7", "notes": "Polite: 길어요." },
+  { "id": "w_jjalda", "ko": "짧다", "rom": "jjalda", "en": "to be short", "pos": "adj", "moduleId": "m7", "notes": "Polite: 짧아요 (jjalbayo) — the buried ㅂ surfaces." },
+  { "id": "w_nopda", "ko": "높다", "rom": "nopda", "en": "to be high / tall (things)", "pos": "adj", "moduleId": "m7", "notes": "Polite: 높아요. Buildings and mountains, not people." },
+  { "id": "w_natda", "ko": "낮다", "rom": "natda", "en": "to be low", "pos": "adj", "moduleId": "m7", "notes": "Polite: 낮아요." },
+  { "id": "w_jaemiitda", "ko": "재미있다", "rom": "jaemiitda", "en": "to be fun / interesting", "pos": "adj", "moduleId": "m7", "notes": "재미 (fun) + 있다 — 'fun exists.' Same factory as 맛있다. Polite: 재미있어요." },
+  { "id": "w_jaemieopda", "ko": "재미없다", "rom": "jaemieopda", "en": "to be boring", "pos": "adj", "moduleId": "m7", "notes": "Fun doesn't exist: 재미없어요." },
+  { "id": "w_swipda", "ko": "쉽다", "rom": "swipda", "en": "to be easy", "pos": "adj", "moduleId": "m7", "notes": "Polite: 쉬워요 — ㅂ-irregular, the 맵다 family." },
+  { "id": "w_eoryeopda", "ko": "어렵다", "rom": "eoryeopda", "en": "to be difficult", "pos": "adj", "moduleId": "m7", "notes": "Polite: 어려워요 — ㅂ-irregular." },
+  { "id": "w_ttatteuthada", "ko": "따뜻하다", "rom": "ttatteuthada", "en": "to be warm", "pos": "adj", "moduleId": "m7", "notes": "Polite: 따뜻해요. Weather, coffee, and people can all be 따뜻하다." },
+  { "id": "w_siwonhada", "ko": "시원하다", "rom": "siwonhada", "en": "to be cool / refreshing", "pos": "adj", "moduleId": "m7", "notes": "Polite: 시원해요 — famously also said about hot soup; the gap deck explains." },
+  { "id": "w_kkaekkeuthada", "ko": "깨끗하다", "rom": "kkaekkeuthada", "en": "to be clean", "pos": "adj", "moduleId": "m7", "notes": "Polite: 깨끗해요." },
+
+  { "id": "w_gibun", "ko": "기분", "rom": "gibun", "en": "mood / feeling", "pos": "noun", "moduleId": "m7", "notes": "기분이 좋아요 — I feel good. Your inner weather." },
+  { "id": "w_haengbokhada", "ko": "행복하다", "rom": "haengbokhada", "en": "to be happy", "pos": "adj", "moduleId": "m7", "notes": "Polite: 행복해요. The deep kind; a good mood is 기분이 좋다." },
+  { "id": "w_seulpeuda", "ko": "슬프다", "rom": "seulpeuda", "en": "to be sad", "pos": "adj", "moduleId": "m7", "notes": "Polite: 슬퍼요 — ㅡ drops, the 바쁘다/배고프다 family." },
+  { "id": "w_pigonhada", "ko": "피곤하다", "rom": "pigonhada", "en": "to be tired", "pos": "adj", "moduleId": "m7", "notes": "Polite: 피곤해요. Korea's most-heard answer to 'how are you.'" },
+  { "id": "w_gwaenchanta", "ko": "괜찮다", "rom": "gwaenchanta", "en": "to be okay / fine", "pos": "adj", "moduleId": "m7", "notes": "Polite: 괜찮아요 (gwaenchanayo). Comfort, decline, reassure — one word, three jobs; see the gap deck." },
+  { "id": "w_simsimhada", "ko": "심심하다", "rom": "simsimhada", "en": "to be bored", "pos": "adj", "moduleId": "m7", "notes": "Polite: 심심해요. YOU are bored; a boring THING is 재미없다." },
+
+  { "id": "w_saranghada", "ko": "사랑하다", "rom": "saranghada", "en": "to love", "pos": "verb", "moduleId": "m7", "notes": "사랑해요 — a complete sentence, subject and object understood." },
+  { "id": "w_utda", "ko": "웃다", "rom": "utda", "en": "to laugh / smile", "pos": "verb", "moduleId": "m7", "notes": "Polite: 웃어요 (useoyo)." },
+  { "id": "w_ulda", "ko": "울다", "rom": "ulda", "en": "to cry", "pos": "verb", "moduleId": "m7", "notes": "Polite: 울어요." },
+
+  { "id": "w_nalssi", "ko": "날씨", "rom": "nalssi", "en": "weather", "pos": "noun", "moduleId": "m7", "notes": "날씨가 좋아요 — small talk's load-bearing wall. The full weather kit arrives in Module 11." },
+  { "id": "w_kkot", "ko": "꽃", "rom": "kkot", "en": "flower", "pos": "noun", "moduleId": "m7" },
+  { "id": "w_norae", "ko": "노래", "rom": "norae", "en": "song", "pos": "noun", "moduleId": "m7", "notes": "노래하다 = to sing. The 노래 a 가수 sings." },
+  { "id": "w_munje", "ko": "문제", "rom": "munje", "en": "problem / question (on a test)", "pos": "noun", "moduleId": "m7", "notes": "문제없어요 — no problem!" },
+  { "id": "w_ot", "ko": "옷", "rom": "ot", "en": "clothes", "pos": "noun", "moduleId": "m7", "notes": "The full shopping wardrobe arrives in Module 21." },
+
+  { "id": "w_geurigo", "ko": "그리고", "rom": "geurigo", "en": "and (starting a sentence)", "pos": "phrase", "moduleId": "m7", "notes": "Joins sentences, where 하고 joins nouns." },
+  { "id": "w_geureonde", "ko": "그런데", "rom": "geureonde", "en": "but / by the way", "pos": "phrase", "moduleId": "m7", "notes": "The soft pivot — contradiction or just a topic change. Shortens to 근데 in speech." },
+  { "id": "w_hajiman", "ko": "하지만", "rom": "hajiman", "en": "but / however", "pos": "phrase", "moduleId": "m7", "notes": "The firmer 'but' — a real contrast is coming." },
+  { "id": "w_geuraeseo", "ko": "그래서", "rom": "geuraeseo", "en": "so / therefore", "pos": "phrase", "moduleId": "m7", "notes": "Cause, then 그래서, then result." }
 ]

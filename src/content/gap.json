@@ -286,5 +286,32 @@
     "lit": "hand phone",
     "real": "cell phone",
     "note": "English parts, Korean invention — no English speaker says 'hand phone.' Konglish is its own vocabulary layer: 아파트 (apartment building), 서비스 (a freebie on the house), 파이팅 (you can do it!). Knowing English helps — and misleads."
+  },
+  {
+    "id": "g7_gwaenchanta",
+    "cat": "phrase",
+    "ko": "괜찮아요",
+    "rom": "gwaenchanayo",
+    "lit": "it's alright",
+    "real": "I'm fine / it's okay / no thanks",
+    "note": "One word, three jobs: comfort someone (it's okay!), answer 'how are you' (I'm fine), and — the one that trips learners — politely DECLINE. Offered a bag at the checkout, 괜찮아요 means 'no thanks.' Watch the hand-wave that comes with it."
+  },
+  {
+    "id": "g7_paran_green",
+    "cat": "concept",
+    "ko": "파란색",
+    "rom": "paransaek",
+    "lit": "blue",
+    "real": "blue — and nature's green too",
+    "note": "The older word 푸르다 covered sky, sea, AND forests, and that range still echoes: a green traffic light is 파란불 ('blue light') and lush mountains are 푸른 산. 초록색 is unambiguously green — but don't be surprised when Korean calls the go-light blue."
+  },
+  {
+    "id": "g7_itda_factory",
+    "cat": "structure",
+    "ko": "맛있다 · 재미있다 · 문제없다",
+    "rom": "masitda · jaemiitda · munjeeopda",
+    "lit": "taste-exists · fun-exists · problem-not-exists",
+    "real": "the 있다/없다 adjective factory",
+    "note": "Korean mass-produces adjectives by declaring existence: taste exists (delicious), fun exists (interesting), problem doesn't exist (no problem), 멋있다 — style exists (cool). Learn 있다/없다 once and whole families of words assemble themselves."
   }
 ]
