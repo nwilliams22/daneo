@@ -70,7 +70,7 @@ natural sentences.
 | # | Module (theme) | ~Words | New glue |
 |---|---|---|---|
 | M3 | Food & Eating | 38 | negation 안 / 못 · -고 싶어요 (want to) |
-| M4 | People, Family & Being Polite | 38 | 합니다-style · honorific -(으)시- · 반말 preview *(Nick's register idea starts here)* |
+| M4 | People, Family & Being Polite | 39 | copula 이에요/예요/입니다 · 합니다-style · honorific -(으)시- (+ swap verbs 드시다/계시다) · 반말 preview *(Nick's register idea starts here)* |
 | ~ | Spacing & Punctuation (띄어쓰기) | — | *(Nick's flagged idea — reading interlude)* |
 | M5 | Counting Things & Telling Time | 36 | native numbers 하나–스물 · counters 개/명/마리/살 · 시/분 time |
 | M6 | Places & Directions | 38 | position nouns 위/아래/앞/뒤/옆/안/밖 · (으)로 · 부터/까지 · 여기/거기/저기 |
@@ -112,7 +112,9 @@ the payload now.
 
 Complete when the map above ships: all case/topic particles (은/는, 이/가,
 을/를, 에, 에서, 도, 하고, (이)랑*, 와/과*, 의*, (으)로, 부터, 까지, 만*, 보다*
-— *introduced inside Band 2 themes where natural); politeness registers
+— *introduced inside Band 2 themes where natural); the noun copula
+(이에요/예요/입니다 — landed in M4, an addition to the original map);
+politeness registers
 (해요체 ✅, 합니다체, 반말); tenses (present ✅, past ✅, future, progressive);
 negation (안, 못, -지 마세요); desire/ability/obligation (-고 싶다, -(으)ㄹ 수
 있다, -아/어야 되다); connectives & clause linkers (그리고, 그런데, 하지만,

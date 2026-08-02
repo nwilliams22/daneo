@@ -70,5 +70,60 @@
       "s3_soup_salty", "s3_hungry_now", "s3_dislike_fish",
       "s3_order_bibimbap", "s3_full"
     ]
+  },
+  {
+    "id": "m4",
+    "title": "Module 4 — People, Family, and Being Polite",
+    "order": 5,
+    "contentMd": "modules/module-4.md",
+    "wordIds": [
+      "w_gajok", "w_bumonim", "w_eomeoni", "w_abeoji", "w_eomma", "w_appa",
+      "w_eonni", "w_nuna", "w_oppa", "w_hyeong", "w_dongsaeng",
+      "w_halmeoni", "w_harabeoji",
+      "w_ai", "w_adeul", "w_ttal", "w_namja", "w_yeoja",
+      "w_seonsaengnim", "w_uri",
+      "w_haksaeng", "w_uisa", "w_hoesawon", "w_yorisa", "w_gasu",
+      "w_nai", "w_mal",
+      "w_salda", "w_malhada", "w_alda", "w_moreuda", "w_deusida", "w_gyesida",
+      "w_bappeuda", "w_chinjeolhada",
+      "w_annyeong", "w_joesong", "w_mianhaeyo", "w_bangapseumnida"
+    ],
+    "sentenceIds": [
+      "s4_family_korea", "s4_mother_teacher", "s4_im_student",
+      "s4_teacher_comes", "s4_grandma_eats", "s4_father_busy",
+      "s4_sibling_no_korean", "s4_work_formal", "s4_oppa_singer",
+      "s4_dad_cooks", "s4_banmal_go", "s4_eonni_doctor",
+      "s4_family_meal", "s4_grandpa_home"
+    ]
+  },
+  {
+    "id": "m_spacing",
+    "title": "띄어쓰기 — The Space Bar Is Grammar",
+    "order": 6,
+    "contentMd": "modules/module-spacing.md",
+    "wordIds": [],
+    "sentenceIds": []
+  },
+  {
+    "id": "m5",
+    "title": "Module 5 — Counting Things and Telling Time",
+    "order": 7,
+    "contentMd": "modules/module-5.md",
+    "wordIds": [
+      "w_hana", "w_dul", "w_set", "w_net", "w_daseot", "w_yeoseot",
+      "w_ilgop", "w_yeodeol", "w_ahop", "w_yeol", "w_seumul",
+      "w_c_gae", "w_c_myeong", "w_c_mari", "w_c_sal", "w_c_si",
+      "w_c_bun", "w_c_jan", "w_c_byeong", "w_c_gwon",
+      "w_myeot", "w_ban", "w_ojeon", "w_ohu", "w_maeil", "w_sigye",
+      "w_saengil", "w_yaksok",
+      "w_woryoil", "w_hwayoil", "w_suyoil", "w_mogyoil", "w_geumyoil",
+      "w_toyoil", "w_iryoil", "w_yoil"
+    ],
+    "sentenceIds": [
+      "s5_what_time", "s5_ten_past", "s5_half_past", "s5_coffee_two",
+      "s5_sibling_ten", "s5_how_old", "s5_family_four", "s5_fish_two",
+      "s5_beer_two", "s5_books_three", "s5_monday_school",
+      "s5_birthday_friday", "s5_saturday_plans", "s5_milk_daily"
+    ]
   }
 ]

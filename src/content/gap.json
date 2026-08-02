@@ -205,5 +205,59 @@
     "lit": "chi(cken) + maek(ju)",
     "real": "a fried-chicken-and-beer night",
     "note": "치킨 + 맥주 squashed into one word — a whole social institution: after-work gatherings, summer river picnics, watching the game. Korean loves these portmanteaus; learn the parts and you can often decode the whole."
+  },
+  {
+    "id": "g4_sibling_titles",
+    "cat": "structure",
+    "ko": "언니 · 누나 · 오빠 · 형",
+    "rom": "eonni · nuna · oppa · hyeong",
+    "lit": "older sister ×2 / older brother ×2",
+    "real": "which word depends on YOUR gender",
+    "note": "Korean has four words where English has two: a woman's older sister is 언니, a man's is 누나; a woman's older brother is 오빠, a man's is 형. And they stretch past blood — close older friends earn the same titles. Age ordering is social infrastructure."
+  },
+  {
+    "id": "g4_mal_nohda",
+    "cat": "phrase",
+    "ko": "말 놓으세요",
+    "rom": "mal noeuseyo",
+    "lit": "please put the words down",
+    "real": "let's drop the formalities",
+    "note": "The ritual invitation to switch from polite speech into 반말 — you 'put down' the formal language like a heavy bag. Until someone says this (or you're clearly the elder), stay in -요."
+  },
+  {
+    "id": "g4_nai_yeonse",
+    "cat": "structure",
+    "ko": "나이 / 연세",
+    "rom": "nai / yeonse",
+    "lit": "age / age",
+    "real": "the same word, worn formal or plain",
+    "note": "Honorifics swap whole NOUNS, not just verb endings: an elder's age is 연세, their meal is 진지, their house is 댁. You'll ask a friend's 나이 but a grandmother's 연세 — same question, different wardrobe."
+  },
+  {
+    "id": "g5_hybrid_clock",
+    "cat": "structure",
+    "ko": "열 시 십 분",
+    "rom": "yeol si sip bun",
+    "lit": "ten(native) hour, ten(Sino) minute",
+    "real": "10:10 — two number systems on one clock face",
+    "note": "Korean runs both number systems at once and the clock splits them down the middle: hours are native (열 시), minutes are Sino (십 분). Nobody knows a tidy reason; everybody does it anyway. Say a full time and you've used both systems in four syllables."
+  },
+  {
+    "id": "g5_yaksok",
+    "cat": "concept",
+    "ko": "약속",
+    "rom": "yaksok",
+    "lit": "a promise",
+    "real": "plans / an appointment",
+    "note": "약속 있어요 sounds like you've sworn an oath; it means you have dinner plans. The word covers everything from pinky promises to calendar entries — commitments big and small share one word, which says something about how seriously plans are taken."
+  },
+  {
+    "id": "g5_korean_age",
+    "cat": "concept",
+    "ko": "한국 나이",
+    "rom": "hanguk nai",
+    "lit": "Korean age",
+    "real": "the old count-from-one system (now mostly retired)",
+    "note": "Traditionally you were born at one 살 and everyone aged together on New Year's — so 'Korean age' ran one or two years ahead of international age. A 2023 law standardized the international count (만 나이), but the old system lingers in conversation, so you'll still hear both."
   }
 ]
