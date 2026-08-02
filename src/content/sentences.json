@@ -572,5 +572,303 @@
     "rom": "jumare jeoneun yeonghwareul bwayo",
     "wordIds": ["w_jumal", "w_jeo", "w_yeonghwa", "w_boda"],
     "note": "Time-에 once more: 주말에 'on the weekend'. Time words like to lead the sentence, before even the subject."
+  },
+
+  {
+    "id": "s3_kimchi_spicy",
+    "en": [
+      { "t": "Kimchi", "role": "subject", "id": "s" },
+      { "t": "is spicy", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "kimchi-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-spicy", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "김치가", "role": "subject", "id": "s" },
+      { "t": "매워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gimchiga maewoyo",
+    "wordIds": ["w_gimchi", "w_maepda"],
+    "note": "맵다 → 매워요: the ㅂ softens to 워 before a vowel. A whole family of ㅂ-adjectives does this — file the shape, the full rule comes later."
+  },
+  {
+    "id": "s3_not_eat_meat",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "don't eat", "role": "verb", "id": "v" },
+      { "t": "meat", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "meat-[obj]", "role": "object", "id": "o" },
+      { "t": "not-eat", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "고기를", "role": "object", "id": "o" },
+      { "t": "안 먹어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun gogireul an meogeoyo",
+    "wordIds": ["w_jeo", "w_gogi", "w_meokda"],
+    "note": "Negation is one tiny word: 안 sits directly before the verb. No do-support, no word-order gymnastics — 안 먹어요, done."
+  },
+  {
+    "id": "s3_cant_drink",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "can't drink", "role": "verb", "id": "v" },
+      { "t": "soju", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "soju-[obj]", "role": "object", "id": "o" },
+      { "t": "can't-drink", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "소주를", "role": "object", "id": "o" },
+      { "t": "못 마셔요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun sojureul mot masyeoyo",
+    "wordIds": ["w_jeo", "w_soju", "w_masida"],
+    "note": "못 is 안's cousin with a different meaning: not won't — CAN'T. 안 마셔요 is a choice; 못 마셔요 is ability or circumstance."
+  },
+  {
+    "id": "s3_want_gimbap",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "want to eat", "role": "verb", "id": "v" },
+      { "t": "gimbap", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "gimbap-[obj]", "role": "object", "id": "o" },
+      { "t": "eat-want", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "김밥을", "role": "object", "id": "o" },
+      { "t": "먹고 싶어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gimbabeul meokgo sipeoyo",
+    "wordIds": ["w_gimbap", "w_meokda"],
+    "note": "Wanting bolts onto the verb stem: 먹다 → 먹고 싶어요. Any verb works — drop 다, add 고 싶어요."
+  },
+  {
+    "id": "s3_lunch_ramyeon",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "ate", "role": "verb", "id": "v" },
+      { "t": "ramen", "role": "object", "id": "o" },
+      { "t": "for lunch", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "lunch-at", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "ramen-[obj]", "role": "object", "id": "o" },
+      { "t": "ate", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "점심에", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "라면을", "role": "object", "id": "o" },
+      { "t": "먹었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeomsime ramyeoneul meogeosseoyo",
+    "wordIds": ["w_jeomsim", "w_ramyeon", "w_meokda"],
+    "note": "The Module 2 pattern with the new meal word: time-에 up front, past tense at the end."
+  },
+  {
+    "id": "s3_mart_fruit",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "bought", "role": "verb", "id": "v" },
+      { "t": "fruit", "role": "object", "id": "o1" },
+      { "t": "and vegetables", "role": "object", "id": "o2" },
+      { "t": "at the supermarket", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "mart-at", "role": "place", "id": "p" },
+      { "t": "fruit-and", "role": "object", "id": "o1" },
+      { "t": "vegetables-[obj]", "role": "object", "id": "o2" },
+      { "t": "bought", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "마트에서", "role": "place", "id": "p" },
+      { "t": "과일하고", "role": "object", "id": "o1" },
+      { "t": "채소를", "role": "object", "id": "o2" },
+      { "t": "샀어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mateueseo gwailhago chaesoreul sasseoyo",
+    "wordIds": ["w_mateu", "w_gwail", "w_chaeso", "w_sada"],
+    "note": "Everything recycled from Module 2 in one breath: action-place 에서, noun-joining 하고, past 샀어요."
+  },
+  {
+    "id": "s3_friend_bulgogi",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "made", "role": "verb", "id": "v" },
+      { "t": "bulgogi", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "bulgogi-[obj]", "role": "object", "id": "o" },
+      { "t": "made", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "불고기를", "role": "object", "id": "o" },
+      { "t": "만들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga bulgogireul mandeureosseoyo",
+    "wordIds": ["w_chingu", "w_bulgogi", "w_mandeulda"],
+    "note": "만들다 → 만들었어요. The S–O–V skeleton hasn't changed since your first sentence — only the bricks get richer."
+  },
+  {
+    "id": "s3_order_chicken_want",
+    "en": [
+      { "t": "Today", "role": "other", "id": "t" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "want to order", "role": "verb", "id": "v" },
+      { "t": "fried chicken", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "chicken-[obj]", "role": "object", "id": "o" },
+      { "t": "order-want", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "치킨을", "role": "object", "id": "o" },
+      { "t": "시키고 싶어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneul chikineul sikigo sipeoyo",
+    "wordIds": ["w_oneul", "w_chikin", "w_sikida"],
+    "note": "-고 싶어요 again with a new verb: 시키다 → 시키고 싶어요. 시키다 is the everyday word for ordering in."
+  },
+  {
+    "id": "s3_no_sugar",
+    "en": [
+      { "t": "There's no", "role": "verb", "id": "v" },
+      { "t": "sugar", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "sugar-[subj]", "role": "subject", "id": "s" },
+      { "t": "not-exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "설탕이", "role": "subject", "id": "s" },
+      { "t": "없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoltangi eopseoyo",
+    "wordIds": ["w_seoltang", "w_eopda"],
+    "note": "The 없어요 pattern from Module 1, mid-recipe: 'sugar not-exists' = we're out of sugar."
+  },
+  {
+    "id": "s3_soup_salty",
+    "en": [
+      { "t": "The soup", "role": "subject", "id": "s" },
+      { "t": "is salty", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "soup-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-salty", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "국이", "role": "subject", "id": "s" },
+      { "t": "짜요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gugi jjayo",
+    "wordIds": ["w_guk", "w_jjada"],
+    "note": "Describing words are verbs, so tastes conjugate like actions: 짜다 → 짜요, 달다 → 달아요."
+  },
+  {
+    "id": "s3_hungry_now",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am hungry", "role": "verb", "id": "v" },
+      { "t": "right now", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "now", "role": "other", "id": "t" },
+      { "t": "stomach-hungry", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "지금", "role": "other", "id": "t" },
+      { "t": "배고파요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun jigeum baegopayo",
+    "wordIds": ["w_jeo", "w_jigeum", "w_baegopeuda"],
+    "note": "배고프다 → 배고파요: the ㅡ drops before 아. You met this sentence's soul in the gap deck — 'stomach is hungry.'"
+  },
+  {
+    "id": "s3_dislike_fish",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "dislike", "role": "verb", "id": "v" },
+      { "t": "fish", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "fish-[obj]", "role": "object", "id": "o" },
+      { "t": "dislike", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "생선을", "role": "object", "id": "o" },
+      { "t": "싫어해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun saengseoneul sireohaeyo",
+    "wordIds": ["w_jeo", "w_saengseon", "w_sireohada"],
+    "note": "싫어하다 is 좋아하다's opposite and works identically: the disliked thing takes 을/를, the verb caps the sentence."
+  },
+  {
+    "id": "s3_order_bibimbap",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "ordered", "role": "verb", "id": "v" },
+      { "t": "bibimbap", "role": "object", "id": "o" },
+      { "t": "at the restaurant", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "restaurant-at", "role": "place", "id": "p" },
+      { "t": "bibimbap-[obj]", "role": "object", "id": "o" },
+      { "t": "ordered", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "식당에서", "role": "place", "id": "p" },
+      { "t": "비빔밥을", "role": "object", "id": "o" },
+      { "t": "주문했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sikdangeseo bibimbabeul jumunhaesseoyo",
+    "wordIds": ["w_sikdang", "w_bibimbap", "w_jumunhada"],
+    "note": "Module 2's 식당 finally gets its sentence. 주문하다 is the proper restaurant word; 시키다 is its casual twin."
+  },
+  {
+    "id": "s3_full",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am full", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "stomach-is-full", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "배불러요", "role": "verb", "id": "v" }
+    ],
+    "rom": "baebulleoyo",
+    "wordIds": ["w_baebureuda"],
+    "note": "One word, whole sentence — subject understood, 배부르다 → 배불러요 (a 르-irregular; just bank this form). The natural end of any good meal."
   }
 ]

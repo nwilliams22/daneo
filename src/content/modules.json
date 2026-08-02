@@ -47,5 +47,28 @@
       "s2_yesterday_school", "s2_now_work", "s2_tomorrow_meet",
       "s2_milk_bread", "s2_music_listen", "s2_weekend_movie"
     ]
+  },
+  {
+    "id": "m3",
+    "title": "Module 3 — Food, Eating, and Saying No",
+    "order": 4,
+    "contentMd": "modules/module-3.md",
+    "wordIds": [
+      "w_jeomsim", "w_gimchi", "w_gogi", "w_saengseon", "w_gwail",
+      "w_sagwa", "w_banana", "w_chaeso", "w_gyeran", "w_guk",
+      "w_ramyeon", "w_gimbap", "w_bulgogi", "w_bibimbap", "w_chikin",
+      "w_banchan", "w_sogeum", "w_seoltang", "w_maekju", "w_soju",
+      "w_juseu", "w_menyu", "w_siksa", "w_bae", "w_mateu", "w_sijang",
+      "w_maepda", "w_jjada", "w_dalda", "w_madeopda", "w_baegopeuda",
+      "w_baebureuda", "w_silta",
+      "w_yorihada", "w_jumunhada", "w_mandeulda", "w_sireohada", "w_sikida"
+    ],
+    "sentenceIds": [
+      "s3_kimchi_spicy", "s3_not_eat_meat", "s3_cant_drink",
+      "s3_want_gimbap", "s3_lunch_ramyeon", "s3_mart_fruit",
+      "s3_friend_bulgogi", "s3_order_chicken_want", "s3_no_sugar",
+      "s3_soup_salty", "s3_hungry_now", "s3_dislike_fish",
+      "s3_order_bibimbap", "s3_full"
+    ]
   }
 ]

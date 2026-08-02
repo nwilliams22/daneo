@@ -119,6 +119,6 @@ And read these out loud, no romanization: 십일 · 이십오 · 삼십칠 · �
 
 ## What's next
 
-- **Module 3** — More verbs & adjectives; negation (안 / 못); "want to" (-고 싶어요); connecting clauses.
-- **Module 4** — Politeness levels (반말 vs. 합니다), sound-change speed bumps (받침 pronunciation).
-- **Module 5+** — Thematic vocab sets (food, travel, tech) on the frames you now own.
+- **Module 3 — Food, Eating, and Saying No:** the tastiest vocabulary in the course, plus negation (안 / 못) and "want to" (-고 싶어요).
+- **Module 4 — People, Family & Being Polite:** the 합니다 formal style, honorifics, and a first look at casual 반말.
+- **Module 5+** — counting & time-telling, directions, descriptions… the full map lives in CURRICULUM.md.

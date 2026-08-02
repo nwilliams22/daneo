@@ -178,5 +178,32 @@
     "lit": "did you pass (time) well?",
     "real": "how have you been?",
     "note": "The standard greeting after time apart — the past tense of 지내다 (to spend time / get along). Answer by bouncing it back: 네, 잘 지냈어요."
+  },
+  {
+    "id": "g3_an_mot",
+    "cat": "structure",
+    "ko": "안 먹어요 / 못 먹어요",
+    "rom": "an meogeoyo / mot meogeoyo",
+    "lit": "not eat / cannot eat",
+    "real": "I don't (choice) vs. I can't (ability)",
+    "note": "English 'don't' blurs what Korean splits: 안 is a decision, 못 is inability or circumstance. 술 안 마셔요 — I choose not to drink. 술 못 마셔요 — I can't (health, driving, tolerance). Koreans hear the difference instantly."
+  },
+  {
+    "id": "g3_go_sipda",
+    "cat": "structure",
+    "ko": "먹고 싶어요 / 먹고 싶어해요",
+    "rom": "meokgo sipeoyo / meokgo sipeohaeyo",
+    "lit": "eat-want / eat-shows-wanting",
+    "real": "I want vs. he/she seems to want",
+    "note": "Korean grammar marks WHOSE desire it is. -고 싶어요 is for your own (or your listener's) wants; describing a third person's takes -고 싶어해요 — you can only report the wanting they display, not feel it for them."
+  },
+  {
+    "id": "g3_chimaek",
+    "cat": "concept",
+    "ko": "치맥",
+    "rom": "chimaek",
+    "lit": "chi(cken) + maek(ju)",
+    "real": "a fried-chicken-and-beer night",
+    "note": "치킨 + 맥주 squashed into one word — a whole social institution: after-work gatherings, summer river picnics, watching the game. Korean loves these portmanteaus; learn the parts and you can often decode the whole."
   }
 ]
