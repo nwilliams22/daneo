@@ -4,6 +4,22 @@ import { modulesOrdered } from "../../content";
 import { useKnownWords } from "../../db/useKnownWords";
 import { moduleProgress, isModuleComplete } from "../../lib/gating";
 
+// Vocab modules and readings number themselves separately, so "Module N"
+// always matches the numbers the course prose refers to — interludes can
+// never shift them (Nick, 2026-08-02).
+const LABELS: Record<string, string> = (() => {
+  let moduleN = 0;
+  let readingN = 0;
+  return Object.fromEntries(
+    modulesOrdered.map((m) => [
+      m.id,
+      m.wordIds.length === 0
+        ? `Reading ${++readingN}`
+        : `Module ${++moduleN}`,
+    ]),
+  );
+})();
+
 export default function LearnPage() {
   const known = useKnownWords();
 
@@ -15,7 +31,7 @@ export default function LearnPage() {
         blurb="Words first, then the glue, then sentences built only from words you know."
       />
       <div className="flex flex-col gap-3">
-        {modulesOrdered.map((m, i) => {
+        {modulesOrdered.map((m) => {
           const progress = known ? moduleProgress(m, known) : undefined;
           const complete = known ? isModuleComplete(m, known) : false;
           const isReading = m.wordIds.length === 0;
@@ -28,7 +44,7 @@ export default function LearnPage() {
               <div className="flex items-center justify-between gap-3">
                 <div>
                   <div className="text-[11px] tracking-[0.2em] text-muted uppercase">
-                    {isReading ? "Reading" : `Module ${i + 1}`}
+                    {LABELS[m.id]}
                   </div>
                   <div className="mt-1 text-[15px] font-bold">{m.title}</div>
                 </div>
