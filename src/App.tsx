@@ -7,6 +7,9 @@ import LearnPage from "./features/learn/LearnPage";
 import ModulePage from "./features/learn/ModulePage";
 import DrillHubPage from "./features/drills/DrillHubPage";
 import ConfusablesDrill from "./features/drills/confusables/ConfusablesDrill";
+import CrossFontReader from "./features/drills/crossfont/CrossFontReader";
+import AnatomyDrill from "./features/drills/anatomy/AnatomyDrill";
+import GapDrill from "./features/drills/gap/GapDrill";
 import ReviewPage from "./features/review/ReviewPage";
 import DashboardPage from "./features/dashboard/DashboardPage";
 import ExplorePage from "./features/explore/ExplorePage";
@@ -26,6 +29,9 @@ export default function App() {
         <Route path="/learn/:moduleId" element={<ModulePage />} />
         <Route path="/drill" element={<DrillHubPage />} />
         <Route path="/drill/confusables" element={<ConfusablesDrill />} />
+        <Route path="/drill/fonts" element={<CrossFontReader />} />
+        <Route path="/drill/anatomy" element={<AnatomyDrill />} />
+        <Route path="/drill/gap" element={<GapDrill />} />
         <Route path="/review" element={<ReviewPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/explore" element={<ExplorePage />} />
