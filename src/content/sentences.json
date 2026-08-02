@@ -2372,5 +2372,270 @@
     "rom": "geimeul hago isseoyo",
     "wordIds": ["w_geim", "w_hada"],
     "note": "하다 as 'to play' — games, like studying and work, are things you DO. Module 1's do-everything verb keeps collecting jobs."
+  },
+
+  {
+    "id": "s9_water_please",
+    "en": [
+      { "t": "Water,", "role": "object", "id": "o" },
+      { "t": "please", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "water", "role": "object", "id": "o" },
+      { "t": "give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "물", "role": "object", "id": "o" },
+      { "t": "주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mul juseyo",
+    "wordIds": ["w_mul", "w_juda"],
+    "note": "The most useful conjugation in Korean: 주다 + 세요. [Anything] 주세요 and the thing arrives. Particles usually drop off — the frame is that strong."
+  },
+  {
+    "id": "s9_gimbap_two",
+    "en": [
+      { "t": "Two gimbap,", "role": "object", "id": "o" },
+      { "t": "please", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "gimbap two-thing", "role": "object", "id": "o" },
+      { "t": "give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "김밥 두 개", "role": "object", "id": "o" },
+      { "t": "주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gimbap du gae juseyo",
+    "wordIds": ["w_gimbap", "w_dul", "w_c_gae", "w_juda"],
+    "note": "Module 5's counting frame docks straight into 주세요: [thing] [number] [counter] 주세요. This one pattern orders everything in Korea."
+  },
+  {
+    "id": "s9_how_much",
+    "en": [
+      { "t": "How much", "role": "other", "id": "o" },
+      { "t": "is it?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "how-much", "role": "other", "id": "o" },
+      { "t": "is?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "얼마", "role": "other", "id": "o" },
+      { "t": "예요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "eolmayeyo?",
+    "wordIds": ["w_eolma"],
+    "note": "얼마 + the copula — a complete shopping toolkit in three syllables. Point at anything and deploy."
+  },
+  {
+    "id": "s9_five_thousand",
+    "en": [
+      { "t": "It's", "role": "verb", "id": "v" },
+      { "t": "5,000 won", "role": "other", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "five-thousand won", "role": "other", "id": "o" },
+      { "t": "is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오천 원", "role": "other", "id": "o" },
+      { "t": "이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ocheon wonieyo",
+    "wordIds": ["w_n_o", "w_cheon", "w_won"],
+    "note": "Prices are SINO territory: 오천 원. Module 2's numbers grow their big siblings — 백, 천, 만 — and suddenly you can read every price tag."
+  },
+  {
+    "id": "s9_sit_here",
+    "en": [
+      { "t": "Please sit", "role": "verb", "id": "v" },
+      { "t": "here", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "here", "role": "place", "id": "p" },
+      { "t": "sit-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여기", "role": "place", "id": "p" },
+      { "t": "앉으세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogi anjeuseyo",
+    "wordIds": ["w_yeogi", "w_anda"],
+    "note": "-(으)세요's second job: a polite request TO you (Module 4 used it as a statement ABOUT elders — same ending, context decides; the gap deck sorts it)."
+  },
+  {
+    "id": "s9_help_me",
+    "en": [
+      { "t": "Please", "role": "subject", "id": "s" },
+      { "t": "help me!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "(you)", "role": "subject", "id": "s" },
+      { "t": "help-give-please!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "도와주세요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "dowajuseyo!",
+    "wordIds": ["w_dowajuda"],
+    "note": "The emergency word. 주다 inside a verb means 'do it FOR me' — help-give. One word, complete sentence, genuinely worth memorizing today."
+  },
+  {
+    "id": "s9_show_bag",
+    "en": [
+      { "t": "Please show me", "role": "verb", "id": "v" },
+      { "t": "the bag", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "bag-[obj]", "role": "object", "id": "o" },
+      { "t": "show-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "가방을", "role": "object", "id": "o" },
+      { "t": "보여 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gabangeul boyeo juseyo",
+    "wordIds": ["w_gabang", "w_boyeojuda"],
+    "note": "The do-for-me machine generalizes: [verb]-아/어 주세요. 보여 주세요, 바꿔 주세요, 말해 주세요 — request anything done on your behalf."
+  },
+  {
+    "id": "s9_togo",
+    "en": [
+      { "t": "To go,", "role": "verb", "id": "v" },
+      { "t": "please", "role": "other", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "wrap-give-please", "role": "verb", "id": "v" },
+      { "t": "(it)", "role": "other", "id": "o" }
+    ],
+    "ko": [
+      { "t": "포장해 주세요", "role": "verb", "id": "v" },
+      { "t": "", "role": "other", "id": "o" }
+    ],
+    "rom": "pojanghae juseyo",
+    "wordIds": ["w_pojanghada"],
+    "note": "포장 (wrapping) + 하다 + 주세요 — the takeout sentence. Watch cafes transform at the sound of it."
+  },
+  {
+    "id": "s9_lunch_together",
+    "en": [
+      { "t": "Shall we eat", "role": "verb", "id": "v" },
+      { "t": "lunch", "role": "object", "id": "o" },
+      { "t": "together?", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "together", "role": "other", "id": "c" },
+      { "t": "lunch-[obj]", "role": "object", "id": "o" },
+      { "t": "eat-shall-we?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "같이", "role": "other", "id": "c" },
+      { "t": "점심을", "role": "object", "id": "o" },
+      { "t": "먹을까요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "gachi jeomsimeul meogeulkkayo?",
+    "wordIds": ["w_gachi", "w_jeomsim", "w_meokda"],
+    "note": "-(으)ㄹ까요? floats a proposal: shall we? And 같이 hides a sound rule — it's pronounced 가치, exactly the interlude's ㅌ+이 story."
+  },
+  {
+    "id": "s9_lets_go",
+    "en": [
+      { "t": "Let's go", "role": "verb", "id": "v" },
+      { "t": "now", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "now", "role": "other", "id": "t" },
+      { "t": "go-let's", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지금", "role": "other", "id": "t" },
+      { "t": "갑시다", "role": "verb", "id": "v" }
+    ],
+    "rom": "jigeum gapsida",
+    "wordIds": ["w_jigeum", "w_gada"],
+    "note": "-(으)ㅂ시다 — 'let's' with a bit of starch (rally-the-team energy). Among friends, plain 같이 가요 does the same job more softly."
+  },
+  {
+    "id": "s9_more_please",
+    "en": [
+      { "t": "More,", "role": "object", "id": "o" },
+      { "t": "please", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "more", "role": "object", "id": "o" },
+      { "t": "give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "더", "role": "object", "id": "o" },
+      { "t": "주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "deo juseyo",
+    "wordIds": ["w_deo", "w_juda"],
+    "note": "더 slots anywhere quantity lives: 더 주세요 (more please), and — at the table where 반찬 refills are free — the politest two words you know."
+  },
+  {
+    "id": "s9_got_gift",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "received", "role": "verb", "id": "v" },
+      { "t": "a present", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "present-[obj]", "role": "object", "id": "o" },
+      { "t": "received", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "선물을", "role": "object", "id": "o" },
+      { "t": "받았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seonmureul badasseoyo",
+    "wordIds": ["w_seonmul", "w_batda"],
+    "note": "받다 — 주다's other half. Korean social life runs on the give-receive axis, and now you own both verbs."
+  },
+  {
+    "id": "s9_shall_i_give",
+    "en": [
+      { "t": "Shall I give you", "role": "verb", "id": "v" },
+      { "t": "one?", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "(one)", "role": "object", "id": "o" },
+      { "t": "give-[humble]-shall-I?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "object", "id": "o" },
+      { "t": "드릴까요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "deurilkkayo?",
+    "wordIds": ["w_deurida"],
+    "note": "What every cashier asks: 봉투 드릴까요? (bag?), 영수증 드릴까요? (receipt?). 드리다 is humble giving — they give upward, to you, the honored 손님."
+  },
+  {
+    "id": "s9_umbrella_store",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "bought", "role": "verb", "id": "v" },
+      { "t": "an umbrella", "role": "object", "id": "o" },
+      { "t": "at the convenience store", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "convenience-store-at", "role": "place", "id": "p" },
+      { "t": "umbrella-[obj]", "role": "object", "id": "o" },
+      { "t": "bought", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "편의점에서", "role": "place", "id": "p" },
+      { "t": "우산을", "role": "object", "id": "o" },
+      { "t": "샀어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pyeonuijeomeseo usaneul sasseoyo",
+    "wordIds": ["w_pyeonuijeom", "w_usan", "w_sada"],
+    "note": "The classic rainy-day transaction, in the frame you've owned since Module 2. Nothing new here — which is the point. It's all composition now."
   }
 ]
