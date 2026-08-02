@@ -56,6 +56,8 @@
 - 2026-08-01 · A.2 note: consider FSRS (`ts-fsrs`, Anki's modern scheduler) instead of SM-2 when building spaced repetition; `srsCards` table + types already exist.
 - 2026-08-01 · Linux build quirk: AppImage bundling needs `NO_STRIP=true` (linuxdeploy's bundled strip can't read Fedora 44's `.relr.dyn` ELF sections) — use `npm run tauri:build`, which sets it.
 - 2026-08-01 · Linux runtime quirk: WebKitGTK's DMA-BUF renderer crashes on NVIDIA+Wayland ("Error 71 dispatching to Wayland display"). Fixed in `src-tauri/src/main.rs` by setting `WEBKIT_DISABLE_DMABUF_RENDERER=1` at startup (respects an explicit user override).
+- 2026-08-01 · Future work (Nick): **placement quiz onboarding** — replace the yes/no "can you read Hangul?" with a short adaptive quiz; based on performance, pre-mark words/glue/alphabet sections as completed so experienced learners don't start from scratch.
+- 2026-08-01 · Future work (Nick): **separate flashcards and quiz** — make them distinct sections/routes in the drill area rather than a mode toggle inside one drill.
 
 ## Session log
 - (append one paragraph per session: what changed, test status, next step)
