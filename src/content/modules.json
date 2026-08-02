@@ -197,5 +197,35 @@
       "s8_dinner_bulgogi", "s8_usually_subway", "s8_exercise_often",
       "s8_movie_ends", "s8_plans_q", "s8_next_week_busy", "s8_game_now"
     ]
+  },
+  {
+    "id": "m_sound",
+    "title": "Why Korean Sounds Different Than It Reads",
+    "order": 11,
+    "contentMd": "modules/module-sound.md",
+    "wordIds": [],
+    "sentenceIds": []
+  },
+  {
+    "id": "m9",
+    "title": "Module 9 — Requests, Offers, and Shopping",
+    "order": 12,
+    "contentMd": "modules/module-9.md",
+    "wordIds": [
+      "w_don", "w_won", "w_eolma", "w_baek", "w_cheon", "w_man_10k",
+      "w_kadeu", "w_hyeongeum", "w_sonnim", "w_sajangnim", "w_yeongsujeung",
+      "w_juda", "w_batda", "w_dowajuda", "w_boyeojuda", "w_bakkuda",
+      "w_gyesanhada", "w_pojanghada", "w_deurida", "w_anda",
+      "w_eoseooseyo", "w_yeogiyo", "w_jamkkanmanyo",
+      "w_da", "w_deo", "w_jogeum", "w_gachi",
+      "w_seonmul", "w_seil", "w_seobiseu", "w_gwaja", "w_aiseukeurim",
+      "w_sul", "w_mulgeon", "w_sinbal", "w_moja", "w_usan", "w_saijeu"
+    ],
+    "sentenceIds": [
+      "s9_water_please", "s9_gimbap_two", "s9_how_much", "s9_five_thousand",
+      "s9_sit_here", "s9_help_me", "s9_show_bag", "s9_togo",
+      "s9_lunch_together", "s9_lets_go", "s9_more_please", "s9_got_gift",
+      "s9_shall_i_give", "s9_umbrella_store"
+    ]
   }
 ]

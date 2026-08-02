@@ -340,5 +340,32 @@
     "lit": "quickly-quickly",
     "real": "Korea's speed-of-life ethos",
     "note": "Doubling for urgency — 빨리 (fast) said twice is a whole national tempo: same-day delivery, sprint-speed service, elevators with worn-out door-close buttons. Koreans joke about it and take quiet pride in it. You'll hear it before you learn it formally."
+  },
+  {
+    "id": "g9_seyo_two_jobs",
+    "cat": "structure",
+    "ko": "가세요",
+    "rom": "gaseyo",
+    "lit": "goes-[honored] / please go",
+    "real": "a statement about an elder — or a request to you",
+    "note": "The same -(으)세요 ending honors the subject (선생님이 가세요 — the teacher is going) AND makes polite requests (가세요 — please go). Context and intonation decide. It's why 안녕히 가세요 — goodbye — is literally 'please go peacefully.'"
+  },
+  {
+    "id": "g9_jom",
+    "cat": "structure",
+    "ko": "물 좀 주세요",
+    "rom": "mul jom juseyo",
+    "lit": "give me a little water",
+    "real": "could I get some water? (softened)",
+    "note": "좀 is 조금 (a little) worn smooth — but in requests it isn't about quantity. It's a cushion, like English 'just' or 'could you…': 물 좀 주세요 asks nicely, not sparingly. Sprinkle it into any 주세요 and sound instantly more native."
+  },
+  {
+    "id": "g9_seobiseu",
+    "cat": "concept",
+    "ko": "서비스",
+    "rom": "seobiseu",
+    "lit": "service",
+    "real": "a freebie, on the house",
+    "note": "서비스예요! from a shop owner means a free extra just landed on your table — bonus 반찬, an extra skewer, dessert you didn't order. English 'service' got imported and promoted into generosity. Respond with delighted 감사합니다."
   }
 ]
