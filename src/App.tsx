@@ -30,10 +30,18 @@ export default function App() {
         <Route path="/learn" element={<LearnPage />} />
         <Route path="/learn/:moduleId" element={<ModulePage />} />
         <Route path="/drill" element={<DrillHubPage />} />
-        <Route path="/drill/confusables" element={<ConfusablesDrill />} />
+        <Route
+          path="/drill/confusables"
+          element={<Navigate to="/drill/confusables/flashcards" replace />}
+        />
+        <Route path="/drill/confusables/:mode" element={<ConfusablesDrill />} />
         <Route path="/drill/fonts" element={<CrossFontReader />} />
         <Route path="/drill/anatomy" element={<AnatomyDrill />} />
-        <Route path="/drill/gap" element={<GapDrill />} />
+        <Route
+          path="/drill/gap"
+          element={<Navigate to="/drill/gap/browse" replace />}
+        />
+        <Route path="/drill/gap/:mode" element={<GapDrill />} />
         <Route path="/drill/typing" element={<TypingDrill />} />
         <Route path="/review" element={<ReviewPage />} />
         <Route path="/review/session" element={<ReviewSessionRoute />} />

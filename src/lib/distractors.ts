@@ -1,4 +1,4 @@
-import type { ConfusableItem, GapItem, Sentence } from "../types";
+import type { ConfusableItem, GapItem, Sentence, Word } from "../types";
 import { shuffle, type Rng } from "./rng";
 
 // Pedagogy rule 2 (PROJECT.md §1): confusables are trained as CONTRASTS —
@@ -30,6 +30,24 @@ export function generateConfusableOptions(
   take(primary);
   if (distractors.length < 3) take(others); // same-group roms exhausted — fill from everything
 
+  return shuffle([target, ...distractors], rng);
+}
+
+/** Vocab question (placement quiz): 4 words with distinct English senses. */
+export function generateWordOptions(
+  target: Word,
+  pool: Word[],
+  rng: Rng = Math.random,
+): Word[] {
+  const others = pool.filter((x) => x.id !== target.id);
+  const distractors: Word[] = [];
+  const usedEn = new Set([target.en]);
+  for (const d of shuffle(others, rng)) {
+    if (distractors.length === 3) break;
+    if (usedEn.has(d.en)) continue;
+    usedEn.add(d.en);
+    distractors.push(d);
+  }
   return shuffle([target, ...distractors], rng);
 }
 

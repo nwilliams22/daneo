@@ -154,6 +154,11 @@ Vitest suites, minimum:
 
 ## 7. Roadmap
 
+> **Content expansion has its own map:** [`CURRICULUM.md`](CURRICULUM.md) —
+> the beginner→fluency ring structure (ceiling: the fixed NIKL 5,965-word
+> learner list), the full Ring 1 module skeleton (M3–M26), and the
+> per-module authoring contract. Decided 2026-08-02.
+
 - ✅ **Phase A.0 — Scaffold** *(done 2026-08-01)*: Vite+TS+Tailwind+Dexie skeleton, theme tokens, routing (Learn/Drill/Explore), content pipeline + validator, port Module 1 + history module content.
 - ✅ **Phase A.1 — Port drills** *(done 2026-08-01)*: confusables, cross-font, sentence anatomy, gap study — sharing one drill-session component and unified results logging. Shipped with extras beyond spec: a fifth typing drill (in-app 2-beolsik keyboard + Hangul composition engine), audio v1 pulled forward from A.3, dark theme, onboarding placement, dashboard, backup/restore, keyboard shortcuts. See TASKS.md Discovered work.
 - ✅ **Phase A.2 — SRS + daily review queue** *(done 2026-08-02)*: FSRS via `ts-fsrs` (chosen over SM-2 — TASKS.md 2026-08-02); every drill answer feeds the scheduler through one funnel; `/review/session` mixes due items across all drill kinds; wrong answers return at a shortened interval.
