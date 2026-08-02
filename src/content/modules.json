@@ -125,5 +125,29 @@
       "s5_beer_two", "s5_books_three", "s5_monday_school",
       "s5_birthday_friday", "s5_saturday_plans", "s5_milk_daily"
     ]
+  },
+  {
+    "id": "m6",
+    "title": "Module 6 — Places, Positions, and Finding Your Way",
+    "order": 8,
+    "contentMd": "modules/module-6.md",
+    "wordIds": [
+      "w_wi", "w_arae", "w_ap", "w_dwi", "w_yeop", "w_an_inside", "w_bak", "w_sai",
+      "w_yeogi", "w_geogi", "w_jeogi", "w_eodi",
+      "w_oenjjok", "w_oreunjjok",
+      "w_eunhaeng", "w_byeongwon", "w_yakguk", "w_gongwon", "w_yeok",
+      "w_hwajangsil", "w_pyeonuijeom", "w_baekhwajeom",
+      "w_beoseu", "w_jihacheol", "w_taeksi",
+      "w_chaeksang", "w_uija", "w_chimdae", "w_mun", "w_changmun",
+      "w_gabang", "w_haendeupon",
+      "w_geotda", "w_tada", "w_naerida", "w_chatda",
+      "w_meolda", "w_gakkapda"
+    ],
+    "sentenceIds": [
+      "s6_bathroom_where", "s6_bank_next", "s6_phone_bag", "s6_book_desk",
+      "s6_go_left", "s6_subway_work", "s6_work_hours", "s6_walk_school",
+      "s6_park_front", "s6_store_behind", "s6_pharmacy_near",
+      "s6_get_off_here", "s6_cafe_between", "s6_take_bus"
+    ]
   }
 ]

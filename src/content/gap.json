@@ -259,5 +259,32 @@
     "lit": "Korean age",
     "real": "the old count-from-one system (now mostly retired)",
     "note": "Traditionally you were born at one 살 and everyone aged together on New Year's — so 'Korean age' ran one or two years ahead of international age. A 2023 law standardized the international count (만 나이), but the old system lingers in conversation, so you'll still hear both."
+  },
+  {
+    "id": "g6_deixis_trio",
+    "cat": "structure",
+    "ko": "여기 · 거기 · 저기",
+    "rom": "yeogi · geogi · jeogi",
+    "lit": "here / there / over there",
+    "real": "near me / near YOU / far from us both",
+    "note": "English splits space two ways; Korean splits it three: 여기 is by the speaker, 거기 is by the listener, 저기 is away from both. That's why 거기 is also 'there (where you are)' on the phone — and why pointing across the room is always 저기."
+  },
+  {
+    "id": "g6_ro_vs_e",
+    "cat": "structure",
+    "ko": "학교에 가요 / 학교로 가요",
+    "rom": "hakgyoe gayo / hakgyoro gayo",
+    "lit": "go to school / go toward school",
+    "real": "the endpoint vs. the heading",
+    "note": "에 pins the destination — you end up at school. (으)로 gives the bearing — you head that way, no promise you stop there. Taxi Korean runs on (으)로: 왼쪽으로, 오른쪽으로, 역으로 (station-ward)."
+  },
+  {
+    "id": "g6_haendeupon",
+    "cat": "concept",
+    "ko": "핸드폰",
+    "rom": "haendeupon",
+    "lit": "hand phone",
+    "real": "cell phone",
+    "note": "English parts, Korean invention — no English speaker says 'hand phone.' Konglish is its own vocabulary layer: 아파트 (apartment building), 서비스 (a freebie on the house), 파이팅 (you can do it!). Knowing English helps — and misleads."
   }
 ]

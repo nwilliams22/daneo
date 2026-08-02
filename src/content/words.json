@@ -211,5 +211,56 @@
   { "id": "w_geumyoil", "ko": "금요일", "rom": "geumyoil", "en": "Friday", "pos": "noun", "moduleId": "m5", "notes": "금 = metal/gold. Fri-yay is universal." },
   { "id": "w_toyoil", "ko": "토요일", "rom": "toyoil", "en": "Saturday", "pos": "noun", "moduleId": "m5", "notes": "토 = earth." },
   { "id": "w_iryoil", "ko": "일요일", "rom": "iryoil", "en": "Sunday", "pos": "noun", "moduleId": "m5", "notes": "일 = sun — a different 일 from \"one\" and \"day.\" Hanja tells them apart; context does it for you." },
-  { "id": "w_yoil", "ko": "요일", "rom": "yoil", "en": "day of the week", "pos": "noun", "moduleId": "m5", "notes": "무슨 요일이에요? — \"what day is it?\" (무슨 = what kind, coming soon.)" }
+  { "id": "w_yoil", "ko": "요일", "rom": "yoil", "en": "day of the week", "pos": "noun", "moduleId": "m5", "notes": "무슨 요일이에요? — \"what day is it?\" (무슨 = what kind, coming soon.)" },
+
+  { "id": "w_wi", "ko": "위", "rom": "wi", "en": "top / above", "pos": "noun", "moduleId": "m6", "notes": "A NOUN, not a preposition: 책상 위 = \"the desk's topside.\" Add 에: 책상 위에 (on the desk)." },
+  { "id": "w_arae", "ko": "아래", "rom": "arae", "en": "bottom / below", "pos": "noun", "moduleId": "m6", "notes": "밑 (mit) is an everyday synonym you'll also hear." },
+  { "id": "w_ap", "ko": "앞", "rom": "ap", "en": "front", "pos": "noun", "moduleId": "m6", "notes": "집 앞에 — in front of the house." },
+  { "id": "w_dwi", "ko": "뒤", "rom": "dwi", "en": "back / behind", "pos": "noun", "moduleId": "m6" },
+  { "id": "w_yeop", "ko": "옆", "rom": "yeop", "en": "side / next to", "pos": "noun", "moduleId": "m6", "notes": "옆에 — beside. 옆집 is \"the house next door.\"" },
+  { "id": "w_an_inside", "ko": "안", "rom": "an", "en": "inside", "pos": "noun", "moduleId": "m6", "notes": "A homograph of negation 안 — position 안 follows a noun (가방 안에); negation 안 precedes a verb." },
+  { "id": "w_bak", "ko": "밖", "rom": "bak", "en": "outside", "pos": "noun", "moduleId": "m6", "notes": "밖에 나가요 — go outside." },
+  { "id": "w_sai", "ko": "사이", "rom": "sai", "en": "between / the space between", "pos": "noun", "moduleId": "m6", "notes": "A하고 B 사이에 — between A and B. Also relational: 친구 사이 = \"(we're) friends.\"" },
+
+  { "id": "w_yeogi", "ko": "여기", "rom": "yeogi", "en": "here (near me)", "pos": "noun", "moduleId": "m6" },
+  { "id": "w_geogi", "ko": "거기", "rom": "geogi", "en": "there (near you)", "pos": "noun", "moduleId": "m6" },
+  { "id": "w_jeogi", "ko": "저기", "rom": "jeogi", "en": "over there (far from both)", "pos": "noun", "moduleId": "m6", "notes": "Also the attention-getter: 저기요! — \"excuse me!\" in restaurants." },
+  { "id": "w_eodi", "ko": "어디", "rom": "eodi", "en": "where", "pos": "noun", "moduleId": "m6", "notes": "어디에 있어요? — where is it? Your first question word gets official." },
+
+  { "id": "w_oenjjok", "ko": "왼쪽", "rom": "oenjjok", "en": "left (side)", "pos": "noun", "moduleId": "m6", "notes": "왼 (left) + 쪽 (side/direction)." },
+  { "id": "w_oreunjjok", "ko": "오른쪽", "rom": "oreunjjok", "en": "right (side)", "pos": "noun", "moduleId": "m6" },
+
+  { "id": "w_eunhaeng", "ko": "은행", "rom": "eunhaeng", "en": "bank", "pos": "noun", "moduleId": "m6" },
+  { "id": "w_byeongwon", "ko": "병원", "rom": "byeongwon", "en": "hospital / clinic", "pos": "noun", "moduleId": "m6", "notes": "Koreans go to the 병원 for a cold — it covers small clinics, not just big hospitals." },
+  { "id": "w_yakguk", "ko": "약국", "rom": "yakguk", "en": "pharmacy", "pos": "noun", "moduleId": "m6", "notes": "약 (medicine) + 국 (bureau). Not the soup 국 — different hanja, same sound." },
+  { "id": "w_gongwon", "ko": "공원", "rom": "gongwon", "en": "park", "pos": "noun", "moduleId": "m6" },
+  { "id": "w_yeok", "ko": "역", "rom": "yeok", "en": "station (train / subway)", "pos": "noun", "moduleId": "m6", "notes": "서울역 — Seoul Station. Bus stops are 정류장 — later." },
+  { "id": "w_hwajangsil", "ko": "화장실", "rom": "hwajangsil", "en": "bathroom / restroom", "pos": "noun", "moduleId": "m6", "notes": "Literally \"makeup room.\" The single most useful place-word in the language." },
+  { "id": "w_pyeonuijeom", "ko": "편의점", "rom": "pyeonuijeom", "en": "convenience store", "pos": "noun", "moduleId": "m6", "notes": "The 24-hour heart of Korean daily life — GS25, CU, 세븐일레븐." },
+  { "id": "w_baekhwajeom", "ko": "백화점", "rom": "baekhwajeom", "en": "department store", "pos": "noun", "moduleId": "m6", "notes": "백화 = \"a hundred goods.\"" },
+
+  { "id": "w_beoseu", "ko": "버스", "rom": "beoseu", "en": "bus", "pos": "noun", "moduleId": "m6" },
+  { "id": "w_jihacheol", "ko": "지하철", "rom": "jihacheol", "en": "subway", "pos": "noun", "moduleId": "m6", "notes": "지하 (underground) + 철 (iron rail)." },
+  { "id": "w_taeksi", "ko": "택시", "rom": "taeksi", "en": "taxi", "pos": "noun", "moduleId": "m6" },
+
+  { "id": "w_chaeksang", "ko": "책상", "rom": "chaeksang", "en": "desk", "pos": "noun", "moduleId": "m6", "notes": "책 (book) + 상 (table) — a book-table." },
+  { "id": "w_uija", "ko": "의자", "rom": "uija", "en": "chair", "pos": "noun", "moduleId": "m6" },
+  { "id": "w_chimdae", "ko": "침대", "rom": "chimdae", "en": "bed", "pos": "noun", "moduleId": "m6" },
+  { "id": "w_mun", "ko": "문", "rom": "mun", "en": "door / gate", "pos": "noun", "moduleId": "m6" },
+  { "id": "w_changmun", "ko": "창문", "rom": "changmun", "en": "window", "pos": "noun", "moduleId": "m6", "notes": "창 + 문 — a window-door." },
+  { "id": "w_gabang", "ko": "가방", "rom": "gabang", "en": "bag", "pos": "noun", "moduleId": "m6", "notes": "Yes — the bag Father climbed into in the spacing interlude." },
+  { "id": "w_haendeupon", "ko": "핸드폰", "rom": "haendeupon", "en": "cell phone", "pos": "noun", "moduleId": "m6", "notes": "Konglish: \"hand phone.\" The gap deck has the story." },
+
+  { "id": "w_geotda", "ko": "걷다", "rom": "geotda", "en": "to walk", "pos": "verb", "moduleId": "m6", "notes": "ㄷ-irregular like 듣다: 걸어요, 걸었어요." },
+  { "id": "w_tada", "ko": "타다", "rom": "tada", "en": "to ride / take (transport)", "pos": "verb", "moduleId": "m6", "notes": "Polite: 타요. What you ride takes 을/를: 버스를 타요." },
+  { "id": "w_naerida", "ko": "내리다", "rom": "naerida", "en": "to get off / go down", "pos": "verb", "moduleId": "m6", "notes": "Polite: 내려요. 여기에서 내려요 — \"I'll get off here\" (magic taxi words)." },
+  { "id": "w_chatda", "ko": "찾다", "rom": "chatda", "en": "to look for / find", "pos": "verb", "moduleId": "m6", "notes": "Polite: 찾아요. One verb covers both the searching and the finding." },
+
+  { "id": "w_meolda", "ko": "멀다", "rom": "meolda", "en": "to be far", "pos": "adj", "moduleId": "m6", "notes": "Polite: 멀어요." },
+  { "id": "w_gakkapda", "ko": "가깝다", "rom": "gakkapda", "en": "to be near", "pos": "adj", "moduleId": "m6", "notes": "Polite: 가까워요 — ㅂ-irregular, same move as 맵다 → 매워요." },
+
+  { "id": "w_p_ro", "ko": "로", "rom": "ro", "en": "particle — toward / by means of (after a vowel or ㄹ)", "pos": "particle", "moduleId": "m6", "notes": "왼쪽으로? No — 왼쪽 ends in ㄱ. After vowels and ㄹ: 지하철로 (by subway)." },
+  { "id": "w_p_euro", "ko": "으로", "rom": "euro", "en": "particle — toward / by means of (after a consonant)", "pos": "particle", "moduleId": "m6", "notes": "왼쪽으로 가요 — go (toward the) left. Direction or instrument; 에 marks the endpoint, (으)로 the heading." },
+  { "id": "w_p_buteo", "ko": "부터", "rom": "buteo", "en": "particle — from / starting at (time)", "pos": "particle", "moduleId": "m6", "notes": "아홉 시부터 — from 9 o'clock. Space uses 에서 instead." },
+  { "id": "w_p_kkaji", "ko": "까지", "rom": "kkaji", "en": "particle — until / as far as", "pos": "particle", "moduleId": "m6", "notes": "여섯 시까지 (until 6) · 학교까지 (as far as school). Pairs with 부터 for time, 에서 for space." }
 ]
