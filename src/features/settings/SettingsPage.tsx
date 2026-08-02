@@ -1,5 +1,6 @@
 import PageHeader from "../../components/PageHeader";
 import { useSettings } from "../../state/settings";
+import { useKoreanTTS } from "../../audio/useKoreanTTS";
 import type { PersistedSettings } from "../../types";
 
 function Row({
@@ -56,6 +57,33 @@ const THEMES: { value: PersistedSettings["theme"]; label: string }[] = [
   { value: "dark", label: "Dark" },
 ];
 
+function AudioStatus() {
+  const { status, voiceName, speak } = useKoreanTTS();
+
+  if (status === "ready") {
+    return (
+      <div className="flex items-center gap-3">
+        <span className="max-w-40 truncate text-xs text-muted">
+          {voiceName}
+        </span>
+        <button
+          onClick={() => speak("안녕하세요")}
+          className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
+        >
+          Test
+        </button>
+      </div>
+    );
+  }
+  return (
+    <span className="max-w-52 text-right text-xs leading-snug text-clay">
+      {status === "unsupported"
+        ? "Speech synthesis isn't available here."
+        : "No Korean voice found on this system. On Linux, install speech-dispatcher with a Korean-capable voice."}
+    </span>
+  );
+}
+
 export default function SettingsPage() {
   const s = useSettings();
 
@@ -102,6 +130,28 @@ export default function SettingsPage() {
             onChange={s.setAudioEnabled}
             label="Enable audio"
           />
+        </Row>
+
+        <Row label="Korean voice" hint="Used by the play buttons on words and sentences.">
+          <AudioStatus />
+        </Row>
+
+        <Row label="Speech rate" hint="0.9 is a comfortable learner pace.">
+          <div className="flex items-center gap-2.5">
+            <input
+              type="range"
+              min={0.5}
+              max={1.2}
+              step={0.05}
+              value={s.speechRate}
+              onChange={(e) => s.setSpeechRate(Number(e.target.value))}
+              className="w-28 accent-(--teal)"
+              aria-label="Speech rate"
+            />
+            <span className="w-8 text-right text-xs font-semibold text-muted">
+              {s.speechRate.toFixed(2)}
+            </span>
+          </div>
         </Row>
 
         <Row label="Onboarding" hint="Re-answer the Hangul placement question.">

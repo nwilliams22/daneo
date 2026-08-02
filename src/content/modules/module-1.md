@@ -6,6 +6,8 @@ The whole idea of this course is the opposite of what Duolingo does to you: lear
 
 ---
 
+::hangul::
+
 ## Part 1 — Hangul (the alphabet)
 
 Korean isn't written letter-by-letter in a line. Letters are packed into **syllable blocks**, always starting with a consonant and containing at least one vowel. Learn the letters, learn how blocks stack, and you can read.
@@ -52,6 +54,8 @@ Read left-to-right, top-to-bottom inside the block:
 - ㅅ + ㅏ + ㄹ + ㅏ + ㅁ → **사람** (sa-ram, two blocks) — "person"
 
 That's genuinely most of what you need to start reading. Practice by sounding out every Korean word in Part 2.
+
+::/hangul::
 
 ---
 

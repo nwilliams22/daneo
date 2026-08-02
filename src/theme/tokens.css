@@ -51,7 +51,9 @@
   --color-place: var(--gold);
   --color-verb: var(--ink);
 
-  --font-ui: "Inter Variable", Inter, "Helvetica Neue", Arial, sans-serif;
+  /* Inter first for Latin; Hangul glyphs fall through to Noto Sans KR */
+  --font-ui: "Inter Variable", Inter, "Noto Sans KR", "Helvetica Neue", Arial,
+    sans-serif;
   --font-korean: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic",
     "Nanum Gothic", sans-serif;
   --font-myeongjo: "Noto Serif KR", AppleMyungjo, Batang, "Nanum Myeongjo",

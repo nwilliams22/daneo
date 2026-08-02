@@ -4,6 +4,7 @@ import { useSettings } from "./state/settings";
 import AppShell from "./components/AppShell";
 import Onboarding from "./features/onboarding/Onboarding";
 import LearnPage from "./features/learn/LearnPage";
+import ModulePage from "./features/learn/ModulePage";
 import DrillHubPage from "./features/drills/DrillHubPage";
 import ReviewPage from "./features/review/ReviewPage";
 import DashboardPage from "./features/dashboard/DashboardPage";
@@ -20,7 +21,8 @@ export default function App() {
     <AppShell>
       <Routes>
         <Route path="/" element={<Navigate to="/learn" replace />} />
-        <Route path="/learn/*" element={<LearnPage />} />
+        <Route path="/learn" element={<LearnPage />} />
+        <Route path="/learn/:moduleId" element={<ModulePage />} />
         <Route path="/drill/*" element={<DrillHubPage />} />
         <Route path="/review" element={<ReviewPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
