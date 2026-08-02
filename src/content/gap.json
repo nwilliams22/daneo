@@ -313,5 +313,32 @@
     "lit": "taste-exists · fun-exists · problem-not-exists",
     "real": "the 있다/없다 adjective factory",
     "note": "Korean mass-produces adjectives by declaring existence: taste exists (delicious), fun exists (interesting), problem doesn't exist (no problem), 멋있다 — style exists (cool). Learn 있다/없다 once and whole families of words assemble themselves."
+  },
+  {
+    "id": "g8_future_probably",
+    "cat": "structure",
+    "ko": "바쁠 거예요",
+    "rom": "bappeul geoyeyo",
+    "lit": "will be busy",
+    "real": "I'll be busy — or she's probably busy",
+    "note": "-(으)ㄹ 거예요 does two jobs: about yourself it's a plan (갈 거예요 — I'm going to go); about others or the world it's an educated guess (지금 바쁠 거예요 — she's probably busy). Same ending, plan or prediction — who the subject is decides."
+  },
+  {
+    "id": "g8_i_syllable",
+    "cat": "concept",
+    "ko": "이",
+    "rom": "i",
+    "lit": "two / tooth / this / [subject]",
+    "real": "four-plus words wearing one syllable",
+    "note": "이 is the number two, a tooth, 'this' (coming soon), the subject particle, and a common surname (Lee). Hanja once told them apart in writing; in speech, context has always done the work. Korean's short syllables moonlight shamelessly — meet each 이 as its own word."
+  },
+  {
+    "id": "g8_ppalli",
+    "cat": "concept",
+    "ko": "빨리빨리",
+    "rom": "ppalli-ppalli",
+    "lit": "quickly-quickly",
+    "real": "Korea's speed-of-life ethos",
+    "note": "Doubling for urgency — 빨리 (fast) said twice is a whole national tempo: same-day delivery, sprint-speed service, elevators with worn-out door-close buttons. Koreans joke about it and take quiet pride in it. You'll hear it before you learn it formally."
   }
 ]
