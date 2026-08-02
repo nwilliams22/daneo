@@ -134,13 +134,29 @@ Every vocab module ships, in one session-sized unit:
    natural Korean drops it.
 3. **Markdown** — module-N.md in the M1/M2 voice: intro → Part 1 concept →
    `::vocab::` → glue → `::sentences::` → practice 8 → what's-next.
-4. **Gap items** — 2–5 where the theme genuinely produces literal/real gaps
+4. **Recycling — blocks, never assemblies** *(Nick, 2026-08-02)* — each
+   module reinforces its predecessor, but always in NOVEL surface forms, so
+   recall is generative rather than recitation:
+   - the markdown opens with a **Warm-up box**: 3 prompts buildable from
+     the previous module's blocks — but combinations the learner has
+     **never seen written**, proving transfer, not memory;
+   - **≥3 sentences** carry the *previous* module's glue or signature vocab
+     as their visible payload — again in fresh combinations;
+   - **no sentence, and no distinctive compositional phrase, appears twice
+     anywhere in the course** — enforced by the validator
+     (`dup-sentence-text`). Fixed formulas (잘 먹겠습니다, 어서 오세요…)
+     are exempt: those are memorized verbatim by design;
+   - practice keeps 1–2 cumulative items; vocab notes cross-reference
+     decomposable earlier parts (the standing convention, now required).
+   The FSRS queue handles item-level retention; this keeps the content
+   itself spiraling — same machinery, never the same sentence.
+5. **Gap items** — 2–5 where the theme genuinely produces literal/real gaps
    (don't force it).
-5. **Confusables** — only if a truly new letter contrast appears (the set is
+6. **Confusables** — only if a truly new letter contrast appears (the set is
    essentially complete; expect ~zero).
-6. **Registration** — modules.json (next `order`), content/index.ts markdown
+7. **Registration** — modules.json (next `order`), content/index.ts markdown
    map.
-7. **Green** — `validate:content`, full test suite, build; TASKS.md log
+8. **Green** — `validate:content`, full test suite, build; TASKS.md log
    entry.
 
 Interludes are the same minus words/sentences/gap items.

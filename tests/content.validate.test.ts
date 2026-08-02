@@ -120,6 +120,14 @@ describe("validator catches broken content", () => {
     expect(codes(validateContent(b))).toContain("word-not-typeable");
   });
 
+  it("flags two sentences rendering identical Korean (recycling rule)", () => {
+    const b = clone();
+    const donor = b.sentences.find((s) => s.id === "s_water")!;
+    b.sentences.push({ ...structuredClone(donor), id: "s_water_copy" });
+    b.modules.find((m) => m.id === "m1")!.sentenceIds.push("s_water_copy");
+    expect(codes(validateContent(b))).toContain("dup-sentence-text");
+  });
+
   it("flags duplicate module orders", () => {
     const b = clone();
     b.modules[1]!.order = b.modules[0]!.order;

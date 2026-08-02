@@ -3188,5 +3188,282 @@
     "rom": "daeum jubuteo hyugayeyo",
     "wordIds": ["w_daeum", "w_ju", "w_hyuga"],
     "note": "Korean says 'from next week, it's vacation' — 부터 opening a bracket that never closes. The most cheerful use of a particle in this course."
+  },
+
+  {
+    "id": "s12_how_to_station",
+    "en": [
+      { "t": "How", "role": "other", "id": "q" },
+      { "t": "do I get", "role": "verb", "id": "v" },
+      { "t": "to Seoul Station?", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "Seoul-Station-to", "role": "place", "id": "p" },
+      { "t": "how", "role": "other", "id": "q" },
+      { "t": "go?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서울역에", "role": "place", "id": "p" },
+      { "t": "어떻게", "role": "other", "id": "q" },
+      { "t": "가요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoullyeoge eotteoke gayo?",
+    "wordIds": ["w_seoul", "w_yeok", "w_eotteoke", "w_gada"],
+    "note": "The navigation master-key: [place]에 어떻게 가요? Note 서울역 sounds like 서울력 — the sound interlude striking again (ㄴ-insertion + flow)."
+  },
+  {
+    "id": "s12_how_long",
+    "en": [
+      { "t": "How long", "role": "other", "id": "q" },
+      { "t": "does it take?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "time-[subj] how-much", "role": "other", "id": "q" },
+      { "t": "takes?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시간이 얼마나", "role": "other", "id": "q" },
+      { "t": "걸려요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "sigani eolmana geollyeoyo?",
+    "wordIds": ["w_sigan", "w_eolmana", "w_geollida"],
+    "note": "Time gets 'caught' (걸리다) on a journey. Module 11's 얼마나, one module old, already back at work — that's the recycling on purpose."
+  },
+  {
+    "id": "s12_transfer",
+    "en": [
+      { "t": "Transfer", "role": "verb", "id": "v" },
+      { "t": "at the next station", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "next station-at", "role": "place", "id": "p" },
+      { "t": "transfer-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다음 역에서", "role": "place", "id": "p" },
+      { "t": "갈아타세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daeum yeogeseo garataseyo",
+    "wordIds": ["w_daeum", "w_yeok", "w_garatada"],
+    "note": "갈아타다 = switch-ride. 다음 역 — listen for it in every subway announcement; you'll hear this exact sentence within a day in Seoul."
+  },
+  {
+    "id": "s12_exit_three",
+    "en": [
+      { "t": "Go out", "role": "verb", "id": "v" },
+      { "t": "exit 3", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "three-number exit-through", "role": "place", "id": "p" },
+      { "t": "go-out-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "삼 번 출구로", "role": "place", "id": "p" },
+      { "t": "나가세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sam beon chulguro nagaseyo",
+    "wordIds": ["w_n_sam", "w_beon", "w_chulgu", "w_nagada"],
+    "note": "Sino number + 번 + 출구 + heading-(으)로 — every Korean meetup instruction ever sent. M2, M5's counter logic, M6, and M8's 나가다 in one breath."
+  },
+  {
+    "id": "s12_traffic_bad",
+    "en": [
+      { "t": "Traffic", "role": "subject", "id": "s" },
+      { "t": "is so bad", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "road-[subj]", "role": "subject", "id": "s" },
+      { "t": "too is-blocked", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "길이", "role": "subject", "id": "s" },
+      { "t": "너무 막혀요", "role": "verb", "id": "v" }
+    ],
+    "rom": "giri neomu makyeoyo",
+    "wordIds": ["w_gil", "w_neomu", "w_makhida"],
+    "note": "'The road is blocked' — Korean's traffic-jam metaphor, with Module 11's 너무 doing what it does best. Gap deck has the image."
+  },
+  {
+    "id": "s12_subway_fast",
+    "en": [
+      { "t": "The subway", "role": "subject", "id": "s" },
+      { "t": "is fast.", "role": "verb", "id": "v1" },
+      { "t": "And", "role": "other", "id": "c" },
+      { "t": "comfortable", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "subway-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-fast.", "role": "verb", "id": "v1" },
+      { "t": "and", "role": "other", "id": "c" },
+      { "t": "is-comfortable", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "지하철이", "role": "subject", "id": "s" },
+      { "t": "빨라요.", "role": "verb", "id": "v1" },
+      { "t": "그리고", "role": "other", "id": "c" },
+      { "t": "편해요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "jihacheori ppallayo. geurigo pyeonhaeyo",
+    "wordIds": ["w_jihacheol", "w_ppareuda", "w_geurigo", "w_pyeonhada"],
+    "note": "빠르다 → 빨라요: the 르-irregular family (몰라요, 배불러요) gains its most-used member. Seoul's subway earns both adjectives."
+  },
+  {
+    "id": "s12_pull_over",
+    "en": [
+      { "t": "Driver,", "role": "other", "id": "a" },
+      { "t": "please stop", "role": "verb", "id": "v" },
+      { "t": "here", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "driver-[honored],", "role": "other", "id": "a" },
+      { "t": "here-at", "role": "place", "id": "p" },
+      { "t": "stop-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "기사님,", "role": "other", "id": "a" },
+      { "t": "여기서", "role": "place", "id": "p" },
+      { "t": "세워 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gisanim, yeogiseo sewo juseyo",
+    "wordIds": ["w_gisanim", "w_yeogi", "w_seuda_stop"],
+    "note": "The complete taxi exit: title + place + M9's do-for-me machine. 여기서 is 여기에서 worn smooth by speech — both are correct."
+  },
+  {
+    "id": "s12_buy_ticket",
+    "en": [
+      { "t": "I'm going", "role": "verb", "id": "v" },
+      { "t": "to buy a ticket", "role": "other", "id": "pur" }
+    ],
+    "gloss": [
+      { "t": "ticket-[obj] buy-in-order-to", "role": "other", "id": "pur" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "표를 사러", "role": "other", "id": "pur" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pyoreul sareo gayo",
+    "wordIds": ["w_pyo", "w_sada", "w_gada"],
+    "note": "This module's garnish: -(으)러 + 가다/오다 — motion with a purpose. Vowel stems take 러: 사러 가요, 만나러 가요."
+  },
+  {
+    "id": "s12_out_for_lunch",
+    "en": [
+      { "t": "I'm heading out", "role": "verb", "id": "v" },
+      { "t": "to eat lunch", "role": "other", "id": "pur" }
+    ],
+    "gloss": [
+      { "t": "lunch-[obj] eat-in-order-to", "role": "other", "id": "pur" },
+      { "t": "go-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "점심을 먹으러", "role": "other", "id": "pur" },
+      { "t": "나가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeomsimeul meogeureo nagayo",
+    "wordIds": ["w_jeomsim", "w_meokda", "w_nagada"],
+    "note": "Consonant stems take 으러: 먹으러. The purpose clause rides in front of any motion verb — 가다, 오다, 나가다 all accept it."
+  },
+  {
+    "id": "s12_missed_bus",
+    "en": [
+      { "t": "I missed", "role": "verb", "id": "v1" },
+      { "t": "the bus.", "role": "object", "id": "o" },
+      { "t": "So", "role": "other", "id": "c" },
+      { "t": "I was late", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "bus-[obj]", "role": "object", "id": "o" },
+      { "t": "missed.", "role": "verb", "id": "v1" },
+      { "t": "therefore", "role": "other", "id": "c" },
+      { "t": "was-late", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "버스를", "role": "object", "id": "o" },
+      { "t": "놓쳤어요.", "role": "verb", "id": "v1" },
+      { "t": "그래서", "role": "other", "id": "c" },
+      { "t": "늦었어요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "beoseureul nochyeosseoyo. geuraeseo neujeosseoyo",
+    "wordIds": ["w_beoseu", "w_nochida", "w_geuraeseo", "w_neutda"],
+    "note": "A two-sentence story in matching past tense — M7's connective discipline. Follow it with M10's 늦어서 죄송합니다 and the excuse is complete."
+  },
+  {
+    "id": "s12_cross_light",
+    "en": [
+      { "t": "Cross", "role": "verb", "id": "v" },
+      { "t": "the street", "role": "object", "id": "o" },
+      { "t": "at the light", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "traffic-light-at", "role": "place", "id": "p" },
+      { "t": "road-[obj]", "role": "object", "id": "o" },
+      { "t": "cross-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "신호등에서", "role": "place", "id": "p" },
+      { "t": "길을", "role": "object", "id": "o" },
+      { "t": "건너세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sinhodeungeseo gireul geonneoseyo",
+    "wordIds": ["w_sinhodeung", "w_gil", "w_geonneoda"],
+    "note": "Wait for the 파란불 — which the gap deck taught you is the 'blue' light that's green. Directions are -(으)세요 territory, as M9 promised."
+  },
+  {
+    "id": "s12_airport_meet",
+    "en": [
+      { "t": "I'm going", "role": "verb", "id": "v" },
+      { "t": "to the airport", "role": "place", "id": "p" },
+      { "t": "to meet a friend", "role": "other", "id": "pur" }
+    ],
+    "gloss": [
+      { "t": "friend-[obj] meet-in-order-to", "role": "other", "id": "pur" },
+      { "t": "airport-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구를 만나러", "role": "other", "id": "pur" },
+      { "t": "공항에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chingureul mannareo gonghange gayo",
+    "wordIds": ["w_chingu", "w_mannada", "w_gonghang", "w_gada"],
+    "note": "Purpose + destination in one frame: [whom]-을 만나러 [where]-에 가요. The full -(으)러 pattern, deployed the way it actually gets used."
+  },
+  {
+    "id": "s12_last_train",
+    "en": [
+      { "t": "The last train", "role": "subject", "id": "s" },
+      { "t": "is at 12", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "last-train-[as for]", "role": "subject", "id": "s" },
+      { "t": "twelve-o'clock-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "막차는", "role": "subject", "id": "s" },
+      { "t": "열두 시예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "makchaneun yeoldu siyeyo",
+    "wordIds": ["w_makcha", "w_yeol", "w_dul", "w_c_si"],
+    "note": "열둘 → 열두 before a counter — M5's contraction rule reaching into the teens. 막차 시간 governs every night out; the gap deck explains."
+  },
+  {
+    "id": "s12_snow_careful",
+    "en": [
+      { "t": "It's snowing, so", "role": "other", "id": "c" },
+      { "t": "be careful", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "snow-[subj] comes-because", "role": "other", "id": "c" },
+      { "t": "be-careful-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "눈이 오니까", "role": "other", "id": "c" },
+      { "t": "조심하세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nuni onikka josimhaseyo",
+    "wordIds": ["w_nun_snow", "w_oda", "w_josimhada"],
+    "note": "Module 11's weather-comes pattern driving Module 10's -(으)니까 into a request — same machinery as 비가 오니까 택시를 탑시다, deliberately NOT the same sentence. Fresh assembly every time; that's the course rule now."
   }
 ]
