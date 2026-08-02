@@ -10,6 +10,11 @@ export default defineConfig({
   server: {
     port: 5173,
     strictPort: true,
+    // Browser dev calls the translator proxy same-origin; the Tauri build
+    // talks to http://127.0.0.1:8787 directly (CORS is open on the proxy).
+    proxy: {
+      "/api": "http://127.0.0.1:8787",
+    },
   },
   test: {
     environment: "node",

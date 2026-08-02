@@ -13,11 +13,13 @@ import {
   modulesOrdered,
   confusableById,
   sentenceById,
-  gapById,
   wordById,
 } from "../../content";
 import { useKnownWords } from "../../db/useKnownWords";
 import { moduleProgress } from "../../lib/gating";
+import { dueNow } from "../../lib/srs";
+import { useGapPool } from "../drills/gap/useGapPool";
+import type { GapItem } from "../../types";
 
 const GROUP_LABELS: Record<string, string> = {
   compound: "Compound vowels",
@@ -54,7 +56,11 @@ function Bar({ pct }: { pct: number }) {
   );
 }
 
-function labelFor(kind: string, itemId: string): { big: string; small: string } {
+function labelFor(
+  kind: string,
+  itemId: string,
+  gapById: Map<string, GapItem>,
+): { big: string; small: string } {
   if (kind === "confusable") {
     const c = confusableById.get(itemId);
     if (c) return { big: c.c, small: c.r };
@@ -81,7 +87,11 @@ function labelFor(kind: string, itemId: string): { big: string; small: string } 
 export default function DashboardPage() {
   const known = useKnownWords();
   const results = useLiveQuery(() => db.drillResults.toArray(), []);
-  if (!known || !results) return null;
+  const cards = useLiveQuery(() => db.srsCards.toArray(), []);
+  const gapPool = useGapPool();
+  if (!known || !results || !cards || !gapPool) return null;
+
+  const due = dueNow(cards);
 
   const totalWords = allWords.filter((w) => w.pos !== "particle").length;
   const overall = accuracy(results);
@@ -127,6 +137,37 @@ export default function DashboardPage() {
                 );
               })}
           </div>
+        </Panel>
+
+        {/* Review queue (Phase A.2) */}
+        <Panel label="Review queue">
+          {cards.length === 0 ? (
+            <p className="text-[13px] text-muted">
+              Nothing scheduled yet — every item you drill enters the spaced
+              queue automatically.
+            </p>
+          ) : (
+            <div className="flex items-center justify-between">
+              <div className="flex gap-6">
+                <div>
+                  <div className="text-3xl font-bold">{due.length}</div>
+                  <div className="text-xs text-muted">due now</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold">{cards.length}</div>
+                  <div className="text-xs text-muted">items scheduled</div>
+                </div>
+              </div>
+              {due.length > 0 && (
+                <Link
+                  to="/review/session"
+                  className="rounded-full bg-teal px-4 py-2 text-sm font-bold text-on-accent transition-opacity hover:opacity-90"
+                >
+                  Start review
+                </Link>
+              )}
+            </div>
+          )}
         </Panel>
 
         {/* Accuracy */}
@@ -179,7 +220,7 @@ export default function DashboardPage() {
           <Panel label="Weakest items (3+ attempts)">
             <div className="flex flex-wrap gap-2">
               {weakest.map((w) => {
-                const l = labelFor(w.kind, w.itemId);
+                const l = labelFor(w.kind, w.itemId, gapPool.byId);
                 return (
                   <div
                     key={`${w.kind}:${w.itemId}`}
@@ -208,8 +249,8 @@ export default function DashboardPage() {
         <Panel label="Font fluency">
           {faces.length === 0 ? (
             <p className="text-[13px] leading-relaxed text-muted">
-              No cross-font data yet — the difficulty toggle that renders drill
-              prompts in Myeongjo and handwriting faces arrives in Phase A.3.
+              No cross-font data yet — turn on “Mixed fonts” in the confusables
+              or gap quiz and non-Gothic answers land here.
             </p>
           ) : (
             <div className="flex flex-col gap-2">

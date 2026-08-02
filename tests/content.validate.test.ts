@@ -38,6 +38,24 @@ describe("validator catches broken content", () => {
     expect(codes(validateContent(b))).toContain("word-from-later-module");
   });
 
+  it("flags a Module 1 sentence borrowing a real Module 2 word", () => {
+    // The real cross-module case (A.4): m2 ships words like 어제 — a
+    // sentence that lives in m1 may not use them.
+    const b = clone();
+    const s = b.sentences.find((x) => x.id === "s_water")!;
+    s.wordIds.push("w_eoje");
+    expect(codes(validateContent(b))).toContain("word-from-later-module");
+  });
+
+  it("accepts Module 2 sentences built on Module 1 words (earlier is fine)", () => {
+    // s2_morning_bread uses m1's 먹다 alongside m2 vocab — the shipped
+    // content passing proves same-or-earlier gating works across modules.
+    const errors = validateContent(content).filter((e) =>
+      e.message.includes("s2_"),
+    );
+    expect(errors).toEqual([]);
+  });
+
   it("flags a missing word reference", () => {
     const b = clone();
     b.sentences[0]!.wordIds.push("w_does_not_exist");

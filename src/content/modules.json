@@ -27,5 +27,25 @@
     "contentMd": "modules/module-hangul-history.md",
     "wordIds": [],
     "sentenceIds": []
+  },
+  {
+    "id": "m2",
+    "title": "Module 2 — Numbers, Time, and Talking About Yesterday",
+    "order": 3,
+    "contentMd": "modules/module-2.md",
+    "wordIds": [
+      "w_n_il", "w_n_i", "w_n_sam", "w_n_sa", "w_n_o",
+      "w_n_yuk", "w_n_chil", "w_n_pal", "w_n_gu", "w_n_sip",
+      "w_oneul", "w_eoje", "w_naeil", "w_jigeum", "w_achim", "w_jeonyeok", "w_jumal",
+      "w_kape", "w_doseogwan", "w_hoesa", "w_sikdang",
+      "w_yeonghwa", "w_eumak", "w_ppang", "w_uyu", "w_cha",
+      "w_ikda", "w_deutda", "w_mannada", "w_sada", "w_baeuda", "w_ilhada"
+    ],
+    "sentenceIds": [
+      "s2_yesterday_friend", "s2_morning_bread", "s2_cafe_coffee",
+      "s2_library_study", "s2_music_too", "s2_friend_movie",
+      "s2_yesterday_school", "s2_now_work", "s2_tomorrow_meet",
+      "s2_milk_bread", "s2_music_listen", "s2_weekend_movie"
+    ]
   }
 ]

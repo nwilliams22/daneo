@@ -12,6 +12,7 @@ import AnatomyDrill from "./features/drills/anatomy/AnatomyDrill";
 import GapDrill from "./features/drills/gap/GapDrill";
 import TypingDrill from "./features/drills/typing/TypingDrill";
 import ReviewPage from "./features/review/ReviewPage";
+import ReviewSessionRoute from "./features/review/ReviewSession";
 import DashboardPage from "./features/dashboard/DashboardPage";
 import ExplorePage from "./features/explore/ExplorePage";
 import SettingsPage from "./features/settings/SettingsPage";
@@ -35,6 +36,7 @@ export default function App() {
         <Route path="/drill/gap" element={<GapDrill />} />
         <Route path="/drill/typing" element={<TypingDrill />} />
         <Route path="/review" element={<ReviewPage />} />
+        <Route path="/review/session" element={<ReviewSessionRoute />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/explore" element={<ExplorePage />} />
         <Route path="/settings" element={<SettingsPage />} />

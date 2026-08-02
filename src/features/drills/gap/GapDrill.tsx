@@ -1,11 +1,13 @@
 import { useMemo, useState } from "react";
-import { gapItems, gapCats } from "../../../content";
+import { gapCats } from "../../../content";
 import type { GapItem } from "../../../types";
 import { generateGapOptions } from "../../../lib/distractors";
+import { DISCOVERED_PREFIX } from "../../../lib/discovered";
 import { useDrillEngine } from "../engine/useDrillEngine";
 import { useDrillKeys } from "../engine/useDrillKeys";
 import DrillScaffold from "../engine/DrillScaffold";
 import QuizOptions from "../engine/QuizOptions";
+import { FACE_FONT, randomFace } from "../engine/faceFont";
 import Chip from "../../../components/Chip";
 import ModeToggle from "../../../components/ModeToggle";
 import AudioButton from "../../../components/AudioButton";
@@ -13,6 +15,7 @@ import Rom from "../../../components/Rom";
 import { useReviewFilter } from "../../review/useReviewFilter";
 import ReviewBanner from "../../review/ReviewBanner";
 import ReviewEmpty from "../../review/ReviewEmpty";
+import { useGapPool } from "./useGapPool";
 
 const CATS: { key: (typeof gapCats)[number]; label: string; color: string; border: string }[] = [
   { key: "structure", label: "Grammar mismatches", color: "text-teal", border: "border-l-teal" },
@@ -55,22 +58,35 @@ function BrowseCard({ item }: { item: GapItem }) {
   );
 }
 
-function GapDrill({ reviewIds }: { reviewIds?: Set<string> }) {
+function GapDrill({
+  reviewIds,
+  allItems,
+}: {
+  reviewIds?: Set<string>;
+  allItems: GapItem[];
+}) {
   const [mode, setMode] = useState<Mode>(reviewIds ? "quiz" : "browse");
   const [cat, setCat] = useState<(typeof gapCats)[number]>("structure");
+  const [mixFonts, setMixFonts] = useState(false);
   const [picked, setPicked] = useState<string | null>(null);
 
   const pool = useMemo(
     () =>
-      reviewIds ? gapItems.filter((g) => reviewIds.has(g.id)) : gapItems,
-    [reviewIds],
+      reviewIds ? allItems.filter((g) => reviewIds.has(g.id)) : allItems,
+    [reviewIds, allItems],
   );
   const engine = useDrillEngine<GapItem>({ kind: "gap", pool });
   const q = engine.current;
 
   const options = useMemo(
-    () => (q ? generateGapOptions(q, gapItems) : []),
-    [q],
+    () => (q ? generateGapOptions(q, allItems) : []),
+    [q, allItems],
+  );
+
+  const face = useMemo(
+    () => (mixFonts ? randomFace() : "gothic"),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [mixFonts, q?.id, engine.index],
   );
 
   // reset per-item pick state as the engine advances
@@ -83,7 +99,10 @@ function GapDrill({ reviewIds }: { reviewIds?: Set<string> }) {
   const pick = (id: string) => {
     if (picked || !q) return;
     setPicked(id);
-    engine.answer(id === q.id, { advanceAfterMs: null }); // wait for Next
+    engine.answer(id === q.id, {
+      advanceAfterMs: null, // wait for Next
+      face: face === "gothic" ? undefined : face,
+    });
   };
 
   useDrillKeys({
@@ -97,7 +116,10 @@ function GapDrill({ reviewIds }: { reviewIds?: Set<string> }) {
     onEnter: engine.answered ? engine.advance : undefined,
   });
 
-  const browseList = useMemo(() => gapItems.filter((g) => g.cat === cat), [cat]);
+  const browseList = useMemo(
+    () => allItems.filter((g) => g.cat === cat),
+    [allItems, cat],
+  );
 
   if (reviewIds && pool.length === 0) return <ReviewEmpty />;
 
@@ -118,14 +140,21 @@ function GapDrill({ reviewIds }: { reviewIds?: Set<string> }) {
         <div className="mb-4">
           {reviewIds && <ReviewBanner count={pool.length} />}
           {!reviewIds && (
-            <ModeToggle
-              modes={[
-                { value: "browse", label: "Browse" },
-                { value: "quiz", label: "Guess the meaning" },
-              ]}
-              value={mode}
-              onChange={setMode}
-            />
+            <div className="flex flex-wrap items-center gap-2">
+              <ModeToggle
+                modes={[
+                  { value: "browse", label: "Browse" },
+                  { value: "quiz", label: "Guess the meaning" },
+                ]}
+                value={mode}
+                onChange={setMode}
+              />
+              {mode === "quiz" && (
+                <Chip active={mixFonts} onClick={() => setMixFonts(!mixFonts)}>
+                  Mixed fonts
+                </Chip>
+              )}
+            </div>
           )}
           {mode === "browse" && (
             <div className="mt-3 flex flex-wrap gap-2">
@@ -148,6 +177,12 @@ function GapDrill({ reviewIds }: { reviewIds?: Set<string> }) {
           {browseList.map((item) => (
             <BrowseCard key={item.id} item={item} />
           ))}
+          {cat === "phrase" &&
+            browseList.some((i) => i.id.startsWith(DISCOVERED_PREFIX)) && (
+              <p className="mt-1 text-center text-[11.5px] text-muted">
+                Includes discoveries saved from the translator.
+              </p>
+            )}
           <p className="mt-1 text-center text-[11.5px] text-muted">
             Tap a card for the story behind it.
           </p>
@@ -156,7 +191,9 @@ function GapDrill({ reviewIds }: { reviewIds?: Set<string> }) {
         q && (
           <div>
             <div className="text-center">
-              <div className="flex items-center justify-center gap-1 font-korean text-[28px] font-semibold">
+              <div
+                className={`flex items-center justify-center gap-1 text-[28px] font-semibold ${FACE_FONT[face]}`}
+              >
                 {q.ko}
                 <AudioButton text={q.ko} />
               </div>
@@ -198,11 +235,13 @@ function GapDrill({ reviewIds }: { reviewIds?: Set<string> }) {
 
 export default function GapDrillRoute() {
   const { active, ids } = useReviewFilter("gap");
-  if (active && !ids) return null;
+  const gapPool = useGapPool();
+  if ((active && !ids) || !gapPool) return null;
   return (
     <GapDrill
       key={active ? "review" : "normal"}
       reviewIds={active ? ids : undefined}
+      allItems={gapPool.items}
     />
   );
 }

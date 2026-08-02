@@ -142,5 +142,41 @@
     "lit": "just / merely",
     "real": "no reason / just because",
     "note": "The universal answer to 'why?' when there is no why. 왜 왔어요? (Why'd you come?) — 그냥. It deflects gently without being rude. Massively common in real speech."
+  },
+  {
+    "id": "g2_do",
+    "cat": "structure",
+    "ko": "음악도 좋아해요",
+    "rom": "eumakdo joahaeyo",
+    "lit": "music-also like",
+    "real": "I like music too",
+    "note": "도 doesn't stack on the particles you know — it replaces them. 음악을도 is wrong; the single 도 carries both the 'object' job and the 'also' job at once."
+  },
+  {
+    "id": "g2_e_eseo",
+    "cat": "structure",
+    "ko": "학교에 / 학교에서",
+    "rom": "hakgyoe / hakgyoeseo",
+    "lit": "school-to / school-at",
+    "real": "headed there vs. doing something there",
+    "note": "에 points at a destination (or where something exists); 에서 marks where an action happens. 학교에 가요 — go TO school. 학교에서 공부해요 — study AT school. Mixing them is the classic learner tell."
+  },
+  {
+    "id": "g2_hago",
+    "cat": "structure",
+    "ko": "친구하고",
+    "rom": "chinguhago",
+    "lit": "friend-and",
+    "real": "with a friend — or 'and'",
+    "note": "One particle, two English jobs. Between nouns it's 'and': 우유하고 빵 (milk and bread). After a noun, before the action, it's 'with': 친구하고 봤어요 (watched it with a friend). Context decides."
+  },
+  {
+    "id": "g2_jal_jinae",
+    "cat": "phrase",
+    "ko": "잘 지냈어요?",
+    "rom": "jal jinaesseoyo?",
+    "lit": "did you pass (time) well?",
+    "real": "how have you been?",
+    "note": "The standard greeting after time apart — the past tense of 지내다 (to spend time / get along). Answer by bouncing it back: 네, 잘 지냈어요."
   }
 ]

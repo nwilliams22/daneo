@@ -6,6 +6,8 @@ import { useDrillEngine } from "../engine/useDrillEngine";
 import { useDrillKeys } from "../engine/useDrillKeys";
 import DrillScaffold from "../engine/DrillScaffold";
 import QuizOptions from "../engine/QuizOptions";
+import GlyphCard from "../engine/GlyphCard";
+import { FACE_FONT, FACE_LABEL, randomFace } from "../engine/faceFont";
 import Chip from "../../../components/Chip";
 import ModeToggle from "../../../components/ModeToggle";
 import AudioButton from "../../../components/AudioButton";
@@ -23,33 +25,10 @@ const SETS: { key: string; label: string }[] = [
 
 type Mode = "flashcard" | "quiz";
 
-/** The 원고지-style practice square with crosshair guides. */
-function GlyphCard({
-  glyph,
-  onClick,
-}: {
-  glyph: string;
-  onClick?: () => void;
-}) {
-  return (
-    <div
-      onClick={onClick}
-      className={`relative mx-auto mb-5 flex h-40 w-40 items-center justify-center overflow-hidden rounded-2xl border border-line bg-paper ${
-        onClick ? "cursor-pointer" : ""
-      }`}
-    >
-      <div className="absolute inset-y-2.5 left-1/2 w-px bg-grid" />
-      <div className="absolute inset-x-2.5 top-1/2 h-px bg-grid" />
-      <span className="font-korean text-8xl leading-none font-medium select-none">
-        {glyph}
-      </span>
-    </div>
-  );
-}
-
 function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
   const [setKey, setSetKey] = useState<string>(reviewIds ? "all" : "compound");
   const [mode, setMode] = useState<Mode>(reviewIds ? "quiz" : "flashcard");
+  const [mixFonts, setMixFonts] = useState(false);
   const [revealed, setRevealed] = useState(false);
   const [picked, setPicked] = useState<string | null>(null);
 
@@ -72,6 +51,15 @@ function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
     [current, pool],
   );
 
+  // Cross-font difficulty (PROJECT.md §5): one random face per prompt,
+  // stable until the engine advances. Non-Gothic answers log their face.
+  const face = useMemo(
+    () => (mixFonts ? randomFace() : "gothic"),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [mixFonts, current?.id, engine.index],
+  );
+  const faceOpt = face === "gothic" ? undefined : face;
+
   const switchSet = (key: string) => {
     setSetKey(key);
     setRevealed(false);
@@ -87,13 +75,13 @@ function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
 
   const gradeFlash = (got: boolean) => {
     setRevealed(false);
-    engine.answer(got, { advanceAfterMs: 0 });
+    engine.answer(got, { advanceAfterMs: 0, face: faceOpt });
   };
 
   const pickQuiz = (id: string) => {
     if (picked || !current) return;
     setPicked(id);
-    engine.answer(id === current.id);
+    engine.answer(id === current.id, { face: faceOpt });
   };
 
   // Clear per-item UI state when the engine advances
@@ -159,19 +147,30 @@ function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
               ))}
             </div>
           )}
-          <ModeToggle
-            modes={[
-              { value: "flashcard", label: "Flashcard" },
-              { value: "quiz", label: "Quiz" },
-            ]}
-            value={mode}
-            onChange={switchMode}
-          />
+          <div className="flex flex-wrap items-center gap-2">
+            <ModeToggle
+              modes={[
+                { value: "flashcard", label: "Flashcard" },
+                { value: "quiz", label: "Quiz" },
+              ]}
+              value={mode}
+              onChange={switchMode}
+            />
+            <Chip active={mixFonts} onClick={() => setMixFonts(!mixFonts)}>
+              Mixed fonts
+            </Chip>
+          </div>
         </div>
       }
     >
+      {mixFonts && (
+        <div className="mb-2 text-center text-[10.5px] tracking-[0.15em] text-muted uppercase">
+          {FACE_LABEL[face]}
+        </div>
+      )}
       <GlyphCard
         glyph={current.c}
+        faceClass={FACE_FONT[face]}
         onClick={
           mode === "flashcard" && !revealed ? () => setRevealed(true) : undefined
         }

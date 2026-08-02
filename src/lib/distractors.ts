@@ -1,4 +1,4 @@
-import type { ConfusableItem, GapItem } from "../types";
+import type { ConfusableItem, GapItem, Sentence } from "../types";
 import { shuffle, type Rng } from "./rng";
 
 // Pedagogy rule 2 (PROJECT.md §1): confusables are trained as CONTRASTS —
@@ -30,6 +30,30 @@ export function generateConfusableOptions(
   take(primary);
   if (distractors.length < 3) take(others); // same-group roms exhausted — fill from everything
 
+  return shuffle([target, ...distractors], rng);
+}
+
+export function sentenceEnglish(s: Sentence): string {
+  return s.en.map((c) => c.t).filter(Boolean).join(" ");
+}
+
+/** Review-queue anatomy question: 4 sentences with pairwise-distinct
+ *  natural-English readings (the learner picks the right translation). */
+export function generateSentenceOptions(
+  target: Sentence,
+  pool: Sentence[],
+  rng: Rng = Math.random,
+): Sentence[] {
+  const others = pool.filter((x) => x.id !== target.id);
+  const distractors: Sentence[] = [];
+  const usedEn = new Set([sentenceEnglish(target)]);
+  for (const d of shuffle(others, rng)) {
+    if (distractors.length === 3) break;
+    const en = sentenceEnglish(d);
+    if (usedEn.has(en)) continue;
+    usedEn.add(en);
+    distractors.push(d);
+  }
   return shuffle([target, ...distractors], rng);
 }
 
