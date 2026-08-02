@@ -1442,5 +1442,309 @@
     "rom": "maeil uyu han jan masyeoyo",
     "wordIds": ["w_maeil", "w_uyu", "w_hana", "w_c_jan", "w_masida"],
     "note": "하나 → 한 before its counter, the most common contraction of all: 한 잔, 한 명, 한 개. 매일 needs no particle — it's self-sufficiently adverbial."
+  },
+
+  {
+    "id": "s6_bathroom_where",
+    "en": [
+      { "t": "The bathroom", "role": "subject", "id": "s" },
+      { "t": "is", "role": "verb", "id": "v" },
+      { "t": "where?", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "bathroom-[subj]", "role": "subject", "id": "s" },
+      { "t": "where-at", "role": "place", "id": "p" },
+      { "t": "exists?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "화장실이", "role": "subject", "id": "s" },
+      { "t": "어디에", "role": "place", "id": "p" },
+      { "t": "있어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "hwajangsiri eodie isseoyo?",
+    "wordIds": ["w_hwajangsil", "w_eodi", "w_itda"],
+    "note": "The single most useful sentence in this course. 어디 sits exactly where the answer will: 화장실이 [어디]에 있어요? → [저기]에 있어요."
+  },
+  {
+    "id": "s6_bank_next",
+    "en": [
+      { "t": "The bank", "role": "subject", "id": "s" },
+      { "t": "is", "role": "verb", "id": "v" },
+      { "t": "next to the hospital", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "bank-[as for]", "role": "subject", "id": "s" },
+      { "t": "hospital side-at", "role": "place", "id": "p" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "은행은", "role": "subject", "id": "s" },
+      { "t": "병원 옆에", "role": "place", "id": "p" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eunhaengeun byeongwon yeope isseoyo",
+    "wordIds": ["w_eunhaeng", "w_byeongwon", "w_yeop", "w_itda"],
+    "note": "The location frame: [thing]은/는 [landmark] [position]에 있어요. Position words are NOUNS — 병원 옆 is literally 'the hospital's side.'"
+  },
+  {
+    "id": "s6_phone_bag",
+    "en": [
+      { "t": "My phone", "role": "subject", "id": "s" },
+      { "t": "is", "role": "verb", "id": "v" },
+      { "t": "in my bag", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "phone-[subj]", "role": "subject", "id": "s" },
+      { "t": "bag inside-at", "role": "place", "id": "p" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "핸드폰이", "role": "subject", "id": "s" },
+      { "t": "가방 안에", "role": "place", "id": "p" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haendeuponi gabang ane isseoyo",
+    "wordIds": ["w_haendeupon", "w_gabang", "w_an_inside", "w_itda"],
+    "note": "Position 안 (inside) after the noun — not to be confused with negation 안, which stands before a verb. Same sound, opposite neighborhoods."
+  },
+  {
+    "id": "s6_book_desk",
+    "en": [
+      { "t": "The book", "role": "subject", "id": "s" },
+      { "t": "is", "role": "verb", "id": "v" },
+      { "t": "on the desk", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "book-[subj]", "role": "subject", "id": "s" },
+      { "t": "desk topside-at", "role": "place", "id": "p" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "책이", "role": "subject", "id": "s" },
+      { "t": "책상 위에", "role": "place", "id": "p" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chaegi chaeksang wie isseoyo",
+    "wordIds": ["w_chaek", "w_chaeksang", "w_wi", "w_itda"],
+    "note": "'On' = 위에, 'the desk's topside-at.' English prepositions come BEFORE; Korean position nouns come AFTER, then 에 seals the phrase."
+  },
+  {
+    "id": "s6_go_left",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "go", "role": "verb", "id": "v" },
+      { "t": "left", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "left-side-toward", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "왼쪽으로", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oenjjogeuro gayo",
+    "wordIds": ["w_oenjjok", "w_gada"],
+    "note": "(으)로 marks a HEADING, not a destination — 왼쪽으로 is 'leftward.' Compare 학교에 가요 (to school, the endpoint) with 학교로 가요 (in the school's direction)."
+  },
+  {
+    "id": "s6_subway_work",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "go", "role": "verb", "id": "v" },
+      { "t": "to work", "role": "place", "id": "p" },
+      { "t": "by subway", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "subway-by", "role": "other", "id": "m" },
+      { "t": "company-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "지하철로", "role": "other", "id": "m" },
+      { "t": "회사에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jihacheollo hoesae gayo",
+    "wordIds": ["w_jihacheol", "w_hoesa", "w_gada"],
+    "note": "(으)로's second job: means. 지하철로 = by subway. After ㄹ it's bare 로 — 지하철로, not 지하철으로."
+  },
+  {
+    "id": "s6_work_hours",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "work", "role": "verb", "id": "v" },
+      { "t": "from 9 a.m.", "role": "other", "id": "t1" },
+      { "t": "to 6 p.m.", "role": "other", "id": "t2" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "a.m. nine-hour-from", "role": "other", "id": "t1" },
+      { "t": "p.m. six-hour-until", "role": "other", "id": "t2" },
+      { "t": "work", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "오전 아홉 시부터", "role": "other", "id": "t1" },
+      { "t": "오후 여섯 시까지", "role": "other", "id": "t2" },
+      { "t": "일해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ojeon ahop sibuteo ohu yeoseot sikkaji ilhaeyo",
+    "wordIds": ["w_ojeon", "w_ahop", "w_c_si", "w_ohu", "w_yeoseot", "w_ilhada"],
+    "note": "The time bracket: 부터 opens it, 까지 closes it. Everything inside is Module 5 — the course is compounding."
+  },
+  {
+    "id": "s6_walk_school",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "walk", "role": "verb", "id": "v" },
+      { "t": "from home", "role": "place", "id": "p1" },
+      { "t": "to school", "role": "place", "id": "p2" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "home-from", "role": "place", "id": "p1" },
+      { "t": "school-until", "role": "place", "id": "p2" },
+      { "t": "walk", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "집에서", "role": "place", "id": "p1" },
+      { "t": "학교까지", "role": "place", "id": "p2" },
+      { "t": "걸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jibeseo hakgyokkaji georeoyo",
+    "wordIds": ["w_jip", "w_hakgyo", "w_geotda"],
+    "note": "The space bracket: 에서 opens it (from), 까지 closes it (as far as). And 걷다 is a ㄷ-irregular like 듣다: 걸어요."
+  },
+  {
+    "id": "s6_park_front",
+    "en": [
+      { "t": "A park", "role": "subject", "id": "s" },
+      { "t": "is", "role": "verb", "id": "v" },
+      { "t": "in front of my house", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "park-[subj]", "role": "subject", "id": "s" },
+      { "t": "house front-at", "role": "place", "id": "p" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "공원이", "role": "subject", "id": "s" },
+      { "t": "집 앞에", "role": "place", "id": "p" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gongwoni jip ape isseoyo",
+    "wordIds": ["w_gongwon", "w_jip", "w_ap", "w_itda"],
+    "note": "There-is and location are one pattern in Korean: 'park exists at house's front' covers both 'there's a park in front' and 'the park is in front.'"
+  },
+  {
+    "id": "s6_store_behind",
+    "en": [
+      { "t": "The convenience store", "role": "subject", "id": "s" },
+      { "t": "is", "role": "verb", "id": "v" },
+      { "t": "behind the station", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "convenience-store-[as for]", "role": "subject", "id": "s" },
+      { "t": "station back-at", "role": "place", "id": "p" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "편의점은", "role": "subject", "id": "s" },
+      { "t": "역 뒤에", "role": "place", "id": "p" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pyeonuijeomeun yeok dwie isseoyo",
+    "wordIds": ["w_pyeonuijeom", "w_yeok", "w_dwi", "w_itda"],
+    "note": "Same frame, new position noun. Swap 옆/앞/뒤/위/아래 in and out — the skeleton never moves."
+  },
+  {
+    "id": "s6_pharmacy_near",
+    "en": [
+      { "t": "The pharmacy", "role": "subject", "id": "s" },
+      { "t": "is close", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "pharmacy-[as for]", "role": "subject", "id": "s" },
+      { "t": "is-near", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "약국은", "role": "subject", "id": "s" },
+      { "t": "가까워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yakgugeun gakkawoyo",
+    "wordIds": ["w_yakguk", "w_gakkapda"],
+    "note": "가깝다 → 가까워요, the same ㅂ-softening as 맵다 → 매워요. Its partner 멀다 stays regular: 멀어요."
+  },
+  {
+    "id": "s6_get_off_here",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "get off", "role": "verb", "id": "v" },
+      { "t": "here", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "here-from", "role": "place", "id": "p" },
+      { "t": "get-off", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "여기에서", "role": "place", "id": "p" },
+      { "t": "내려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogieseo naeryeoyo",
+    "wordIds": ["w_yeogi", "w_naerida"],
+    "note": "The magic taxi words. Getting off happens FROM a place, so 여기 takes 에서 — the action-location particle earning its keep."
+  },
+  {
+    "id": "s6_cafe_between",
+    "en": [
+      { "t": "The cafe", "role": "subject", "id": "s" },
+      { "t": "is", "role": "verb", "id": "v" },
+      { "t": "between the bank and the supermarket", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "cafe-[as for]", "role": "subject", "id": "s" },
+      { "t": "bank-and supermarket between-at", "role": "place", "id": "p" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "카페는", "role": "subject", "id": "s" },
+      { "t": "은행하고 마트 사이에", "role": "place", "id": "p" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "kapeneun eunhaenghago mateu saie isseoyo",
+    "wordIds": ["w_kape", "w_eunhaeng", "w_mateu", "w_sai", "w_itda"],
+    "note": "사이 (the between-space) is a noun like every position word: A하고 B 사이에 = 'at A-and-B's between.'"
+  },
+  {
+    "id": "s6_take_bus",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "take", "role": "verb", "id": "v" },
+      { "t": "the bus", "role": "object", "id": "o" },
+      { "t": "every day", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "every-day", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "bus-[obj]", "role": "object", "id": "o" },
+      { "t": "ride", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "매일", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "버스를", "role": "object", "id": "o" },
+      { "t": "타요", "role": "verb", "id": "v" }
+    ],
+    "rom": "maeil beoseureul tayo",
+    "wordIds": ["w_maeil", "w_beoseu", "w_tada"],
+    "note": "What you ride is a direct object in Korean: 버스를 타요, 'ride the bus.' Compare 지하철로 가요, where the subway is the means, not the thing acted on."
   }
 ]
