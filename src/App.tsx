@@ -6,6 +6,7 @@ import Onboarding from "./features/onboarding/Onboarding";
 import LearnPage from "./features/learn/LearnPage";
 import ModulePage from "./features/learn/ModulePage";
 import DrillHubPage from "./features/drills/DrillHubPage";
+import ConfusablesDrill from "./features/drills/confusables/ConfusablesDrill";
 import ReviewPage from "./features/review/ReviewPage";
 import DashboardPage from "./features/dashboard/DashboardPage";
 import ExplorePage from "./features/explore/ExplorePage";
@@ -23,7 +24,8 @@ export default function App() {
         <Route path="/" element={<Navigate to="/learn" replace />} />
         <Route path="/learn" element={<LearnPage />} />
         <Route path="/learn/:moduleId" element={<ModulePage />} />
-        <Route path="/drill/*" element={<DrillHubPage />} />
+        <Route path="/drill" element={<DrillHubPage />} />
+        <Route path="/drill/confusables" element={<ConfusablesDrill />} />
         <Route path="/review" element={<ReviewPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/explore" element={<ExplorePage />} />
