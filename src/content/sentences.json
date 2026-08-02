@@ -1,0 +1,293 @@
+[
+  {
+    "id": "s_water",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "drink", "role": "verb", "id": "v" },
+      { "t": "water", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "water-[obj]", "role": "object", "id": "o" },
+      { "t": "drink", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "물을", "role": "object", "id": "o" },
+      { "t": "마셔요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun mureul masyeoyo",
+    "wordIds": ["w_jeo", "w_mul", "w_masida"],
+    "note": "Subject–Object–Verb: 'I water drink.' The 을 on 물 is a tag that says 'this is the thing being acted on' — which is why Korean can shuffle words and still make sense."
+  },
+  {
+    "id": "s_eat",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "eat", "role": "verb", "id": "v" },
+      { "t": "food", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "food-[obj]", "role": "object", "id": "o" },
+      { "t": "eat", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "밥을", "role": "object", "id": "o" },
+      { "t": "먹어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun babeul meogeoyo",
+    "wordIds": ["w_jeo", "w_bap", "w_meokda"],
+    "note": "밥 is literally cooked rice but stands in for food and meals in general — eating 밥 just means eating."
+  },
+  {
+    "id": "s_like_coffee",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "like", "role": "verb", "id": "v" },
+      { "t": "coffee", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "coffee-[obj]", "role": "object", "id": "o" },
+      { "t": "like", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "커피를", "role": "object", "id": "o" },
+      { "t": "좋아해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun keopireul joahaeyo",
+    "wordIds": ["w_jeo", "w_keopi", "w_joahada"],
+    "note": "'Like' is a verb here (좋아하다), so it goes to the end like any other verb, and the thing you like takes the object tag 를."
+  },
+  {
+    "id": "s_study_korean",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "study", "role": "verb", "id": "v" },
+      { "t": "Korean", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "Korean-[obj]", "role": "object", "id": "o" },
+      { "t": "study", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "한국어를", "role": "object", "id": "o" },
+      { "t": "공부해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun hangugeoreul gongbuhaeyo",
+    "wordIds": ["w_jeo", "w_hangugeo", "w_gongbuhada"],
+    "note": "공부하다 is 공부 (studying) + 하다 (do) — 'to do studying.' Every ~하다 verb ends in 해요 in the polite form."
+  },
+  {
+    "id": "s_friend_school",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "goes", "role": "verb", "id": "v" },
+      { "t": "to school", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "school-to", "role": "place", "id": "p" },
+      { "t": "goes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "학교에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga hakgyoe gayo",
+    "wordIds": ["w_chingu", "w_hakgyo", "w_gada"],
+    "note": "가 marks 친구 as the do-er. 'To' isn't a separate word in front — it's the particle 에 glued onto the back of 학교."
+  },
+  {
+    "id": "s_go_home",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am going", "role": "verb", "id": "v" },
+      { "t": "home", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "home-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "집에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun jibe gayo",
+    "wordIds": ["w_jeo", "w_jip", "w_gada"],
+    "note": "Same frame as going to school — swap the place, keep the skeleton. Korean present tense covers English 'go' and 'am going' both."
+  },
+  {
+    "id": "s_water_exists",
+    "en": [
+      { "t": "There's", "role": "verb", "id": "v" },
+      { "t": "water", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "water-[subj]", "role": "subject", "id": "s" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "물이", "role": "subject", "id": "s" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "muri isseoyo",
+    "wordIds": ["w_mul", "w_itda"],
+    "note": "있다 means 'to exist' — so this is both 'there's water' and 'I have water.' Korean has no separate everyday verb for having; things just exist (for you)."
+  },
+  {
+    "id": "s_no_time",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "don't have", "role": "verb", "id": "v" },
+      { "t": "time", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "time-[subj]", "role": "object", "id": "o" },
+      { "t": "not-exist", "role": "verb", "id": "v" },
+      { "t": "(for me)", "role": "subject", "id": "s" }
+    ],
+    "ko": [
+      { "t": "시간이", "role": "object", "id": "o" },
+      { "t": "없어요", "role": "verb", "id": "v" },
+      { "t": "", "role": "subject", "id": "s" }
+    ],
+    "rom": "sigani eopseoyo",
+    "wordIds": ["w_sigan", "w_eopda"],
+    "note": "A structure with no English twin: Korean says 'time not-exists' rather than 'I don't have time.' The owner (me) is simply understood and dropped — Korean omits anything obvious from context."
+  },
+  {
+    "id": "s_food_delicious",
+    "en": [
+      { "t": "The food", "role": "subject", "id": "s" },
+      { "t": "is delicious", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "food-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-delicious", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "밥이", "role": "subject", "id": "s" },
+      { "t": "맛있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "babi masisseoyo",
+    "wordIds": ["w_bap", "w_masitda"],
+    "note": "맛있다 is literally 맛 (taste) + 있다 (exists) — 'taste exists.' Describing words are verbs in Korean, so no 'is' is needed."
+  },
+  {
+    "id": "s_friend_water",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "drinks", "role": "verb", "id": "v" },
+      { "t": "water", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "water-[obj]", "role": "object", "id": "o" },
+      { "t": "drinks", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "물을", "role": "object", "id": "o" },
+      { "t": "마셔요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga mureul masyeoyo",
+    "wordIds": ["w_chingu", "w_mul", "w_masida"],
+    "note": "The same sentence as 'I drink water' with one swap: 친구가 instead of 저는. The particles do the work; the verb never changes for the subject."
+  },
+  {
+    "id": "s_store",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "go", "role": "verb", "id": "v" },
+      { "t": "to the store", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "store-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "가게에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun gagee gayo",
+    "wordIds": ["w_jeo", "w_gage", "w_gada"],
+    "note": "The subject stays first — it's the VERB that moves to the end. And 'to' isn't a separate word in front; it's the particle 에 glued onto the back of 가게 (store)."
+  },
+  {
+    "id": "s_friend_coffee",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "likes", "role": "verb", "id": "v" },
+      { "t": "coffee", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "coffee-[obj]", "role": "object", "id": "o" },
+      { "t": "likes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "커피를", "role": "object", "id": "o" },
+      { "t": "좋아해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga keopireul joahaeyo",
+    "wordIds": ["w_chingu", "w_keopi", "w_joahada"],
+    "note": "Same skeleton with a different subject: 가 marks 친구 as the do-er, 를 marks 커피 as the thing liked, verb caps it off."
+  },
+  {
+    "id": "s_school_study",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "study", "role": "verb", "id": "v" },
+      { "t": "Korean", "role": "object", "id": "o" },
+      { "t": "at school", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "school-at", "role": "place", "id": "p" },
+      { "t": "Korean-[obj]", "role": "object", "id": "o" },
+      { "t": "study", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "학교에서", "role": "place", "id": "p" },
+      { "t": "한국어를", "role": "object", "id": "o" },
+      { "t": "공부해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun hakgyoeseo hangugeoreul gongbuhaeyo",
+    "wordIds": ["w_jeo", "w_hakgyo", "w_hangugeo", "w_gongbuhada"],
+    "note": "Four pieces now: subject, then place, then object, then verb. 에서 (not just 에) marks where an action happens — a small preview of Module 2. Typical order is S–Place–O–V, but the particles do the real work."
+  },
+  {
+    "id": "s_friend_home",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "comes", "role": "verb", "id": "v" },
+      { "t": "to my house", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "house-to", "role": "place", "id": "p" },
+      { "t": "comes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "집에", "role": "place", "id": "p" },
+      { "t": "와요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga jibe wayo",
+    "wordIds": ["w_chingu", "w_jip", "w_oda"],
+    "note": "Same pattern as 'I go to the store' — swap the pieces, keep the skeleton. This is why learning the frame once pays off forever."
+  }
+]

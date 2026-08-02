@@ -1,0 +1,18 @@
+{
+  "faces": [
+    { "key": "gothic", "ko": "고딕", "en": "Gothic", "use": "apps · screens · signage" },
+    { "key": "myeongjo", "ko": "명조 · 바탕", "en": "Myeongjo", "use": "books · print · formal" },
+    { "key": "hand", "ko": "손글씨", "en": "Handwriting", "use": "notes · menus · signs" }
+  ],
+  "letters": [
+    { "id": "fl_g", "c": "ㄱ", "r": "g", "note": "Sans: a sharp corner. Serif: a beak at the top-right and a tapering leg. By hand: often one curved stroke." },
+    { "id": "fl_s", "c": "ㅅ", "r": "s", "note": "Sans: a symmetric tent. Serif: the left stroke grows a beak and leans. By hand: more like a check mark." },
+    { "id": "fl_j", "c": "ㅈ", "r": "j", "note": "The top: a flat bar in Gothic, a slanted beaked stroke in Myeongjo, often a separate slash by hand." },
+    { "id": "fl_ch", "c": "ㅊ", "r": "ch", "note": "The top mark is a short horizontal in Gothic, but a slanted dash or dot in serif and handwriting." },
+    { "id": "fl_h", "c": "ㅎ", "r": "h", "note": "The 'hat' is a flat line in Gothic, a slanted stroke or dot in Myeongjo, and often a little loop by hand." },
+    { "id": "fl_p", "c": "ㅍ", "r": "p", "note": "Sans: a tidy table. Serif: the two legs taper and pick up beaks at the feet." },
+    { "id": "fl_r", "c": "ㄹ", "r": "r / l", "note": "The joints square off in print but round into a single squiggle in handwriting." },
+    { "id": "fl_t", "c": "ㅌ", "r": "t", "note": "Stable overall — but serif adds small beaks to the end of each of the three bars." }
+  ],
+  "words": ["한국어", "감사합니다", "좋아요", "있어요", "커피", "사람"]
+}
