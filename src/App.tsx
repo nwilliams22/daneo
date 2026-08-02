@@ -10,6 +10,7 @@ import ConfusablesDrill from "./features/drills/confusables/ConfusablesDrill";
 import CrossFontReader from "./features/drills/crossfont/CrossFontReader";
 import AnatomyDrill from "./features/drills/anatomy/AnatomyDrill";
 import GapDrill from "./features/drills/gap/GapDrill";
+import TypingDrill from "./features/drills/typing/TypingDrill";
 import ReviewPage from "./features/review/ReviewPage";
 import DashboardPage from "./features/dashboard/DashboardPage";
 import ExplorePage from "./features/explore/ExplorePage";
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/drill/fonts" element={<CrossFontReader />} />
         <Route path="/drill/anatomy" element={<AnatomyDrill />} />
         <Route path="/drill/gap" element={<GapDrill />} />
+        <Route path="/drill/typing" element={<TypingDrill />} />
         <Route path="/review" element={<ReviewPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/explore" element={<ExplorePage />} />

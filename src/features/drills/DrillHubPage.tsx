@@ -41,7 +41,7 @@ const DRILLS: {
     ko: "한",
     title: "Typing",
     blurb: "Type Korean on the real 2-beolsik layout — no OS setup needed.",
-    available: false,
+    available: true,
   },
 ];
 
