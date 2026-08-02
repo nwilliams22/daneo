@@ -1,0 +1,54 @@
+import wordsJson from "./words.json";
+import sentencesJson from "./sentences.json";
+import confusablesJson from "./confusables.json";
+import fontfacesJson from "./fontfaces.json";
+import gapJson from "./gap.json";
+import modulesJson from "./modules.json";
+import module1Md from "./modules/module-1.md?raw";
+import hangulHistoryMd from "./modules/module-hangul-history.md?raw";
+import { contentBundleSchema, type ContentBundle } from "../lib/schemas";
+
+// Parsed once at module load — malformed content crashes dev immediately
+// with a readable zod error. Cross-reference rules (word gating, chunk
+// alignment) are enforced by validateContent() via `npm run validate:content`.
+export const content: ContentBundle = contentBundleSchema.parse({
+  words: wordsJson,
+  sentences: sentencesJson,
+  confusables: confusablesJson,
+  gap: gapJson,
+  modules: modulesJson,
+  fontFaces: fontfacesJson,
+});
+
+export const allWords = content.words;
+export const wordById = new Map(content.words.map((w) => [w.id, w]));
+
+export const allSentences = content.sentences;
+export const sentenceById = new Map(content.sentences.map((s) => [s.id, s]));
+
+export const confusables = content.confusables;
+export const confusableById = new Map(content.confusables.map((c) => [c.id, c]));
+export const confusableGroups = ["compound", "vowel", "consonant", "tense"] as const;
+export const confusablesByGroup = (group: string) =>
+  content.confusables.filter((c) => c.group === group);
+
+export const gapItems = content.gap;
+export const gapById = new Map(content.gap.map((g) => [g.id, g]));
+export const gapCats = ["structure", "phrase", "concept"] as const;
+export const gapByCat = (cat: string) => content.gap.filter((g) => g.cat === cat);
+
+export const modulesOrdered = [...content.modules].sort(
+  (a, b) => a.order - b.order,
+);
+export const moduleById = new Map(content.modules.map((m) => [m.id, m]));
+
+export const fontFaces = content.fontFaces;
+export const fontLetterById = new Map(
+  content.fontFaces.letters.map((l) => [l.id, l]),
+);
+
+/** Raw markdown bodies keyed by Module.contentMd. */
+export const moduleMarkdown: Record<string, string> = {
+  "modules/module-1.md": module1Md,
+  "modules/module-hangul-history.md": hangulHistoryMd,
+};

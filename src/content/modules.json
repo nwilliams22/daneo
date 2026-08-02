@@ -1,0 +1,31 @@
+[
+  {
+    "id": "m1",
+    "title": "Module 1 — From Letters to Your First Sentences",
+    "order": 1,
+    "contentMd": "modules/module-1.md",
+    "wordIds": [
+      "w_jeo", "w_na", "w_chingu", "w_saram", "w_ireum",
+      "w_mul", "w_bap", "w_eumsik", "w_keopi", "w_jip",
+      "w_hakgyo", "w_gage", "w_chaek", "w_sigan", "w_hanguk", "w_hangugeo",
+      "w_meokda", "w_masida", "w_gada", "w_oda", "w_boda", "w_hada",
+      "w_gongbuhada", "w_joahada", "w_itda", "w_eopda", "w_jada",
+      "w_jota", "w_masitda", "w_yeppeuda", "w_keuda", "w_jakda",
+      "w_annyeonghaseyo", "w_gamsahamnida", "w_gomawoyo", "w_ne", "w_aniyo"
+    ],
+    "sentenceIds": [
+      "s_water", "s_eat", "s_like_coffee", "s_study_korean",
+      "s_friend_school", "s_go_home", "s_water_exists", "s_no_time",
+      "s_food_delicious", "s_friend_water", "s_store", "s_friend_coffee",
+      "s_school_study", "s_friend_home"
+    ]
+  },
+  {
+    "id": "m_hangul_history",
+    "title": "The Story of Hangul — Why Your Alphabet Has a Birthday",
+    "order": 2,
+    "contentMd": "modules/module-hangul-history.md",
+    "wordIds": [],
+    "sentenceIds": []
+  }
+]
