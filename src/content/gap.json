@@ -367,5 +367,32 @@
     "lit": "service",
     "real": "a freebie, on the house",
     "note": "서비스예요! from a shop owner means a free extra just landed on your table — bonus 반찬, an extra skewer, dessert you didn't order. English 'service' got imported and promoted into generosity. Respond with delighted 감사합니다."
+  },
+  {
+    "id": "g10_su_itda",
+    "cat": "structure",
+    "ko": "갈 수 있어요",
+    "rom": "gal su isseoyo",
+    "lit": "a way-to-go exists",
+    "real": "I can go",
+    "note": "Korean builds 'can' out of existence: 수 is a way/means, so ability = 'the way exists' and inability = 'the way doesn't exist' (갈 수 없어요). The same 있다/없다 factory that built 맛있다 and 재미있다 — existence is Korean's favorite raw material."
+  },
+  {
+    "id": "g10_andwae",
+    "cat": "phrase",
+    "ko": "안 돼요",
+    "rom": "an dwaeyo",
+    "lit": "it doesn't become",
+    "real": "no / not allowed / no way!",
+    "note": "되다 means become-work-be-okay, so its negation is the universal veto: rules (여기서 사진 안 돼요 — no photos here), refusals, and pure disbelief. Screamed without the 요 — 안 돼!!! — it's the sound of every K-drama's worst moment."
+  },
+  {
+    "id": "g10_jal",
+    "cat": "concept",
+    "ko": "잘 못 해요",
+    "rom": "jal mot haeyo",
+    "lit": "I can't do it well",
+    "real": "the modesty deflection",
+    "note": "Compliment a Korean speaker's English and you'll hear 잘 못 해요 — regardless of fluency. Deflecting praise is good manners, not low self-esteem. When YOUR Korean gets complimented (it will — 한국어 잘하시네요!), the culturally perfect return is 아니에요, 잘 못 해요."
   }
 ]

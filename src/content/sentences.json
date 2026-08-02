@@ -2637,5 +2637,279 @@
     "rom": "pyeonuijeomeseo usaneul sasseoyo",
     "wordIds": ["w_pyeonuijeom", "w_usan", "w_sada"],
     "note": "The classic rainy-day transaction, in the frame you've owned since Module 2. Nothing new here — which is the point. It's all composition now."
+  },
+
+  {
+    "id": "s10_can_swim",
+    "en": [
+      { "t": "Can you", "role": "subject", "id": "s" },
+      { "t": "swim?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "(you)", "role": "subject", "id": "s" },
+      { "t": "swim-way exists?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "수영할 수 있어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "suyeonghal su isseoyo?",
+    "wordIds": ["w_suyeonghada"],
+    "note": "Ability is existence: [verb]-(으)ㄹ 수 있다 = 'a way-to-[verb] exists.' The 있다 factory's grandest product — the gap deck has the blueprint."
+  },
+  {
+    "id": "s10_korean_little",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "can speak", "role": "verb", "id": "v" },
+      { "t": "a little", "role": "other", "id": "d" },
+      { "t": "Korean", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "Korean-[obj]", "role": "object", "id": "o" },
+      { "t": "a-little", "role": "other", "id": "d" },
+      { "t": "do-can", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "한국어를", "role": "object", "id": "o" },
+      { "t": "조금", "role": "other", "id": "d" },
+      { "t": "할 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hangugeoreul jogeum hal su isseoyo",
+    "wordIds": ["w_hangugeo", "w_jogeum", "w_hada"],
+    "note": "Speaking a language is DOING it: 한국어를 해요. Ten modules in, this sentence is now simply true — say it to the next Korean speaker you meet."
+  },
+  {
+    "id": "s10_cant_drive",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "can't drive", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "drive-way not-exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "운전할 수 없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun unjeonhal su eopseoyo",
+    "wordIds": ["w_jeo", "w_unjeonhada"],
+    "note": "-(으)ㄹ 수 없어요 is the formal negative; Module 3's 못 is its everyday shortcut — 운전 못 해요 means the same, faster."
+  },
+  {
+    "id": "s10_must_study",
+    "en": [
+      { "t": "I have", "role": "verb", "id": "v1" },
+      { "t": "an exam.", "role": "object", "id": "o" },
+      { "t": "So", "role": "other", "id": "c" },
+      { "t": "I have to study", "role": "verb", "id": "v2" },
+      { "t": "hard", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "exam-[subj]", "role": "object", "id": "o" },
+      { "t": "exists.", "role": "verb", "id": "v1" },
+      { "t": "therefore", "role": "other", "id": "c" },
+      { "t": "diligently", "role": "other", "id": "d" },
+      { "t": "study-must", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "시험이", "role": "object", "id": "o" },
+      { "t": "있어요.", "role": "verb", "id": "v1" },
+      { "t": "그래서", "role": "other", "id": "c" },
+      { "t": "열심히", "role": "other", "id": "d" },
+      { "t": "공부해야 돼요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "siheomi isseoyo. geuraeseo yeolsimhi gongbuhaeya dwaeyo",
+    "wordIds": ["w_siheom", "w_itda", "w_geuraeseo", "w_yeolsimhi", "w_gongbuhada"],
+    "note": "Obligation: verb-아/어야 + 돼요 — 'only if I study does it become (okay).' 열심히, the burning-heart adverb, completes the most Korean sentence about school ever written."
+  },
+  {
+    "id": "s10_homework_must",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "have to do", "role": "verb", "id": "v" },
+      { "t": "homework", "role": "object", "id": "o" },
+      { "t": "today", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "homework-[obj]", "role": "object", "id": "o" },
+      { "t": "do-must", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "숙제를", "role": "object", "id": "o" },
+      { "t": "해야 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneul sukjereul haeya dwaeyo",
+    "wordIds": ["w_oneul", "w_sukje", "w_hada"],
+    "note": "하다 → 해야 돼요. The variant -아/어야 해요 means the same; 돼요 is what you'll hear on the street."
+  },
+  {
+    "id": "s10_late_sorry",
+    "en": [
+      { "t": "I'm sorry", "role": "verb", "id": "v" },
+      { "t": "I'm late", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "late-because", "role": "other", "id": "c" },
+      { "t": "sorry-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "늦어서", "role": "other", "id": "c" },
+      { "t": "죄송합니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "neujeoseo joesonghamnida",
+    "wordIds": ["w_neutda", "w_joesong"],
+    "note": "-아/어서 welds cause to result: late-so-sorry. THE apology formula — Module 8's 늦다 meets Module 4's 죄송합니다, and you will use this sentence."
+  },
+  {
+    "id": "s10_busy_call_later",
+    "en": [
+      { "t": "I'm busy now, so", "role": "other", "id": "c" },
+      { "t": "please call me", "role": "verb", "id": "v" },
+      { "t": "later", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "now busy-because", "role": "other", "id": "c" },
+      { "t": "later-at", "role": "other", "id": "t" },
+      { "t": "call-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지금 바쁘니까", "role": "other", "id": "c" },
+      { "t": "나중에", "role": "other", "id": "t" },
+      { "t": "전화해 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jigeum bappeunikka najunge jeonhwahae juseyo",
+    "wordIds": ["w_jigeum", "w_bappeuda", "w_najung", "w_jeonhwahada"],
+    "note": "The because-pair's division of labor: before a request or command, use -(으)니까 — never -아/어서. Statements take either; imperatives are 니까 territory."
+  },
+  {
+    "id": "s10_speak_slowly",
+    "en": [
+      { "t": "Please speak", "role": "verb", "id": "v" },
+      { "t": "slowly", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "slowly", "role": "other", "id": "d" },
+      { "t": "speak-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "천천히", "role": "other", "id": "d" },
+      { "t": "말해 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheoncheonhi malhae juseyo",
+    "wordIds": ["w_cheoncheonhi", "w_malhada"],
+    "note": "The learner's shield. Its twin: 다시 말해 주세요 (again, please). Deploy both freely — Koreans respond with warmth, not impatience."
+  },
+  {
+    "id": "s10_understand_q",
+    "en": [
+      { "t": "Did you", "role": "subject", "id": "s" },
+      { "t": "get it?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "(you)", "role": "subject", "id": "s" },
+      { "t": "understood?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "이해했어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "ihaehaesseoyo?",
+    "wordIds": ["w_ihaehada"],
+    "note": "Past tense as 'done-ness': the understanding either happened or it didn't. Honest answer available: 이해 못 했어요."
+  },
+  {
+    "id": "s10_what_mean",
+    "en": [
+      { "t": "What", "role": "other", "id": "q" },
+      { "t": "does it mean?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "what-kind-of", "role": "other", "id": "q" },
+      { "t": "meaning-is?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "무슨", "role": "other", "id": "q" },
+      { "t": "뜻이에요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "museun tteusieyo?",
+    "wordIds": ["w_museun", "w_tteut"],
+    "note": "무슨 sits before its noun: what-kind-of meaning? Point at any word, deploy, learn. (M5's 무슨 요일이에요? IOU: paid.)"
+  },
+  {
+    "id": "s10_why",
+    "en": [
+      { "t": "Why?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "why-[polite]?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "왜요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "waeyo?",
+    "wordIds": ["w_wae"],
+    "note": "요-injection strikes again (여기요, 저기요, 왜요) — politeness by suffix. The classic answer, from the gap deck's oldest resident: 그냥."
+  },
+  {
+    "id": "s10_when_arrive",
+    "en": [
+      { "t": "When", "role": "other", "id": "q" },
+      { "t": "do you arrive?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "when", "role": "other", "id": "q" },
+      { "t": "arrive?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "언제", "role": "other", "id": "q" },
+      { "t": "도착해요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "eonje dochakhaeyo?",
+    "wordIds": ["w_eonje", "w_dochakhada"],
+    "note": "언제 needs no particle, like all time words. The expected reply, from this same module: 곧 도착해요 — soon!"
+  },
+  {
+    "id": "s10_no_way",
+    "en": [
+      { "t": "No way!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "not-becomes!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "안 돼요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "an dwaeyo!",
+    "wordIds": ["w_doeda"],
+    "note": "되다 negated = the universal veto: not allowed, won't work, you can't, nooo. Drop the 요 and you have every K-drama's most screamed word: 안 돼!"
+  },
+  {
+    "id": "s10_alone_can",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "can do it", "role": "verb", "id": "v" },
+      { "t": "alone", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "alone", "role": "other", "id": "d" },
+      { "t": "do-can", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "혼자", "role": "other", "id": "d" },
+      { "t": "할 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "honja hal su isseoyo",
+    "wordIds": ["w_honja", "w_hada"],
+    "note": "The right sentence to end Band 1 on. Ten modules of glue, 400 words — 혼자 할 수 있어요. You can, in fact, do this alone now."
   }
 ]

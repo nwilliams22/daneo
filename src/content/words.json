@@ -393,5 +393,46 @@
   { "id": "w_sinbal", "ko": "신발", "rom": "sinbal", "en": "shoes", "pos": "noun", "moduleId": "m9" },
   { "id": "w_moja", "ko": "모자", "rom": "moja", "en": "hat", "pos": "noun", "moduleId": "m9" },
   { "id": "w_usan", "ko": "우산", "rom": "usan", "en": "umbrella", "pos": "noun", "moduleId": "m9", "notes": "우 (rain) + 산 (parasol). The convenience store's rainy-day bestseller." },
-  { "id": "w_saijeu", "ko": "사이즈", "rom": "saijeu", "en": "size", "pos": "noun", "moduleId": "m9", "notes": "Konglish. 사이즈 바꿔 주세요 — please exchange the size." }
+  { "id": "w_saijeu", "ko": "사이즈", "rom": "saijeu", "en": "size", "pos": "noun", "moduleId": "m9", "notes": "Konglish. 사이즈 바꿔 주세요 — please exchange the size." },
+
+  { "id": "w_doeda", "ko": "되다", "rom": "doeda", "en": "to become / to work / to be allowed", "pos": "verb", "moduleId": "m10", "notes": "Polite: 돼요. 돼요? — does it work / is it OK? 안 돼요! — no way. A tiny verb doing enormous work; the gap deck bows to it." },
+  { "id": "w_suyeonghada", "ko": "수영하다", "rom": "suyeonghada", "en": "to swim", "pos": "verb", "moduleId": "m10", "notes": "수영해요. The eternal can-you question: 수영할 수 있어요?" },
+  { "id": "w_unjeonhada", "ko": "운전하다", "rom": "unjeonhada", "en": "to drive", "pos": "verb", "moduleId": "m10", "notes": "운전해요." },
+  { "id": "w_noraehada", "ko": "노래하다", "rom": "noraehada", "en": "to sing", "pos": "verb", "moduleId": "m10", "notes": "노래 (M7) + 하다 — you already owned the parts." },
+  { "id": "w_ihaehada", "ko": "이해하다", "rom": "ihaehada", "en": "to understand", "pos": "verb", "moduleId": "m10", "notes": "이해했어요? — got it? 이해 못 했어요 — I didn't follow." },
+  { "id": "w_sayonghada", "ko": "사용하다", "rom": "sayonghada", "en": "to use", "pos": "verb", "moduleId": "m10", "notes": "사용해요. Signs love it: 사용 중 — in use." },
+  { "id": "w_daedaphada", "ko": "대답하다", "rom": "daedaphada", "en": "to answer", "pos": "verb", "moduleId": "m10", "notes": "대답해요. 질문's other half." },
+  { "id": "w_sseuda", "ko": "쓰다", "rom": "sseuda", "en": "to write / to use", "pos": "verb", "moduleId": "m10", "notes": "Polite: 써요 — ㅡ-drop. Also 'to wear (headgear)' and, as an adjective, 'bitter.' A hard-working syllable." },
+  { "id": "w_yeonseuphada", "ko": "연습하다", "rom": "yeonseuphada", "en": "to practice", "pos": "verb", "moduleId": "m10", "notes": "연습해요. What you're doing right now, in the meta sense." },
+  { "id": "w_iyagihada", "ko": "이야기하다", "rom": "iyagihada", "en": "to talk / chat", "pos": "verb", "moduleId": "m10", "notes": "이야기해요. 이야기 alone = a story/talk; shortens to 얘기 in speech." },
+  { "id": "w_saenggakhada", "ko": "생각하다", "rom": "saenggakhada", "en": "to think", "pos": "verb", "moduleId": "m10", "notes": "생각해요. 생각 alone = a thought: 좋은 생각이에요 — good idea (you'll parse that fully in Module 24)." },
+
+  { "id": "w_jilmun", "ko": "질문", "rom": "jilmun", "en": "a question", "pos": "noun", "moduleId": "m10", "notes": "질문 있어요? — the classroom hand-raise. 질문하다 = to ask." },
+  { "id": "w_siheom", "ko": "시험", "rom": "siheom", "en": "test / exam", "pos": "noun", "moduleId": "m10", "notes": "시험을 보다 — to take (literally 'see') an exam." },
+  { "id": "w_sukje", "ko": "숙제", "rom": "sukje", "en": "homework", "pos": "noun", "moduleId": "m10", "notes": "숙제(를) 해요 — homework is a thing you DO." },
+  { "id": "w_sueop", "ko": "수업", "rom": "sueop", "en": "class / lesson", "pos": "noun", "moduleId": "m10", "notes": "수업이 있어요 / 끝났어요." },
+  { "id": "w_daneo", "ko": "단어", "rom": "daneo", "en": "word / vocabulary", "pos": "noun", "moduleId": "m10", "notes": "Yes — THIS app's name. Words first; you're soaking in the thesis." },
+  { "id": "w_munbeop", "ko": "문법", "rom": "munbeop", "en": "grammar", "pos": "noun", "moduleId": "m10", "notes": "단어's partner. This module completes your beginner 문법 engine." },
+  { "id": "w_tteut", "ko": "뜻", "rom": "tteut", "en": "meaning", "pos": "noun", "moduleId": "m10", "notes": "무슨 뜻이에요? — what does it mean? Your dictionary-replacement sentence." },
+  { "id": "w_hoeui", "ko": "회의", "rom": "hoeui", "en": "meeting", "pos": "noun", "moduleId": "m10", "notes": "회의가 있어서 못 가요 — the eternal office excuse." },
+  { "id": "w_yak", "ko": "약", "rom": "yak", "en": "medicine", "pos": "noun", "moduleId": "m10", "notes": "The 약 in 약국 (M6). Korean EATS medicine: 약을 먹어요." },
+
+  { "id": "w_mwo", "ko": "뭐", "rom": "mwo", "en": "what", "pos": "noun", "moduleId": "m10", "notes": "뭐 해요? — whatcha doing? 뭐예요? — what is it? The most-used question word, finally official." },
+  { "id": "w_wae", "ko": "왜", "rom": "wae", "en": "why", "pos": "noun", "moduleId": "m10", "notes": "왜요? — why? / what's up? (And the classic answer: 그냥 — see the gap deck's oldest resident.)" },
+  { "id": "w_eonje", "ko": "언제", "rom": "eonje", "en": "when", "pos": "noun", "moduleId": "m10", "notes": "언제 도착해요? — no particle needed, like other time words." },
+  { "id": "w_nugu", "ko": "누구", "rom": "nugu", "en": "who", "pos": "noun", "moduleId": "m10", "notes": "누구예요? — who is it? As a subject it contracts: 누가." },
+  { "id": "w_eotteoke", "ko": "어떻게", "rom": "eotteoke", "en": "how", "pos": "noun", "moduleId": "m10", "notes": "Pronounced 어떠케 — the interlude's ㅎ-merge in action. 어떻게 가요? — how do I get there?" },
+  { "id": "w_museun", "ko": "무슨", "rom": "museun", "en": "what kind of / which", "pos": "noun", "moduleId": "m10", "notes": "Sits before a noun: 무슨 요일 (which day — M5's IOU, paid), 무슨 뜻 (what meaning)." },
+
+  { "id": "w_cheoncheonhi", "ko": "천천히", "rom": "cheoncheonhi", "en": "slowly", "pos": "noun", "moduleId": "m10", "notes": "천천히 말해 주세요 — the learner's shield. Wield it without shame." },
+  { "id": "w_dasi", "ko": "다시", "rom": "dasi", "en": "again", "pos": "noun", "moduleId": "m10", "notes": "다시 말해 주세요 — once more, please. The shield's twin." },
+  { "id": "w_jal", "ko": "잘", "rom": "jal", "en": "well", "pos": "noun", "moduleId": "m10", "notes": "The 잘 in 잘 먹겠습니다 and 잘 지냈어요 — now a free agent: 잘 자요 (sleep well), 잘 못 해요 (can't do it well)." },
+  { "id": "w_yeolsimhi", "ko": "열심히", "rom": "yeolsimhi", "en": "diligently / hard", "pos": "noun", "moduleId": "m10", "notes": "열심히 공부해요 — THE Korean study adverb. Literally 'with a burning heart.'" },
+  { "id": "w_honja", "ko": "혼자", "rom": "honja", "en": "alone / by oneself", "pos": "noun", "moduleId": "m10", "notes": "혼자 살아요 — I live alone. 혼밥 (solo dining) is 혼자 + 밥." },
+  { "id": "w_orae", "ko": "오래", "rom": "orae", "en": "a long time", "pos": "noun", "moduleId": "m10", "notes": "오래 기다렸어요? — did you wait long? (Say 아니요 even if you did.)" },
+  { "id": "w_got", "ko": "곧", "rom": "got", "en": "soon", "pos": "noun", "moduleId": "m10", "notes": "곧 도착해요 — almost there! The most-texted word in Korea." },
+
+  { "id": "w_yeongeo", "ko": "영어", "rom": "yeongeo", "en": "English (language)", "pos": "noun", "moduleId": "m10", "notes": "Same -어 as 한국어. 영어 할 수 있어요? — you'll be asked; now you can ask back." },
+  { "id": "w_keompyuteo", "ko": "컴퓨터", "rom": "keompyuteo", "en": "computer", "pos": "noun", "moduleId": "m10" },
+  { "id": "w_jajeongeo", "ko": "자전거", "rom": "jajeongeo", "en": "bicycle", "pos": "noun", "moduleId": "m10", "notes": "자전거를 타다 — ride, like every vehicle since M6." }
 ]

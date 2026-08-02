@@ -68,7 +68,7 @@ You've used 은/는 as "as for" since Module 1. Its second job is **contrast**: 
 
 ::sentences::
 
-**The universal check-in:** 뭐 해요? ("whatcha doing?") — answerable, as of today, with any -고 있어요 sentence you can build. (뭐 = what; it gets formal papers in Module 9.)
+**The universal check-in:** 뭐 해요? ("whatcha doing?") — answerable, as of today, with any -고 있어요 sentence you can build. (뭐 = what; it gets formal papers in Module 10.)
 
 ---
 
