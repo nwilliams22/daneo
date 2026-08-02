@@ -103,6 +103,15 @@ export default function SettingsPage() {
             label="Enable audio"
           />
         </Row>
+
+        <Row label="Onboarding" hint="Re-answer the Hangul placement question.">
+          <button
+            onClick={s.resetOnboarding}
+            className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
+          >
+            Run again
+          </button>
+        </Row>
       </div>
     </div>
   );
