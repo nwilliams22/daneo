@@ -174,5 +174,28 @@
       "s7_mood_good", "s7_movie_sad_cried", "s7_song_long_but",
       "s7_okay_q", "s7_time_many"
     ]
+  },
+  {
+    "id": "m8",
+    "title": "Module 8 — Routines and the Future",
+    "order": 10,
+    "contentMd": "modules/module-8.md",
+    "wordIds": [
+      "w_ireonada", "w_ssitda", "w_dakda", "w_syawohada", "w_ipda",
+      "w_junbihada", "w_nagada", "w_sijakhada", "w_kkeunnada", "w_swida",
+      "w_undonghada", "w_cheongsohada", "w_ppallaehada", "w_jeonhwahada",
+      "w_gidarida", "w_dochakhada", "w_chulbalhada", "w_neutda",
+      "w_haru", "w_bam", "w_ju", "w_daeum", "w_bang", "w_sinmun",
+      "w_i_tooth", "w_eolgul", "w_son", "w_meori", "w_tibi", "w_geim",
+      "w_gyehoek", "w_kkum",
+      "w_botong", "w_hangsang", "w_jaju", "w_gakkeum", "w_iljjik",
+      "w_meonjeo", "w_najung"
+    ],
+    "sentenceIds": [
+      "s8_get_up", "s8_wash_hands", "s8_brush_teeth", "s8_eating_now",
+      "s8_waiting", "s8_tomorrow_rest", "s8_weekend_clean",
+      "s8_dinner_bulgogi", "s8_usually_subway", "s8_exercise_often",
+      "s8_movie_ends", "s8_plans_q", "s8_next_week_busy", "s8_game_now"
+    ]
   }
 ]

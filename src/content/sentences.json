@@ -2053,5 +2053,324 @@
     "rom": "sigani manayo",
     "wordIds": ["w_sigan", "w_manta"],
     "note": "Module 1's 시간이 없어요, answered at last. 많다 → 많아요, the ㅎ falling silent — abundance stated the same exist-style way as lack."
+  },
+
+  {
+    "id": "s8_get_up",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "get up", "role": "verb", "id": "v" },
+      { "t": "at 7", "role": "other", "id": "t2" },
+      { "t": "every day", "role": "other", "id": "t1" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "every-day", "role": "other", "id": "t1" },
+      { "t": "seven-hour-at", "role": "other", "id": "t2" },
+      { "t": "get-up", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "매일", "role": "other", "id": "t1" },
+      { "t": "일곱 시에", "role": "other", "id": "t2" },
+      { "t": "일어나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun maeil ilgop sie ireonayo",
+    "wordIds": ["w_jeo", "w_maeil", "w_ilgop", "w_c_si", "w_ireonada"],
+    "note": "Clock times take 에, like every time expression — and it's the native number before 시, exactly as Module 5 drilled."
+  },
+  {
+    "id": "s8_wash_hands",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "wash", "role": "verb", "id": "v" },
+      { "t": "my hands", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "hand-[obj]", "role": "object", "id": "o" },
+      { "t": "wash", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "손을", "role": "object", "id": "o" },
+      { "t": "씻어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "soneul ssiseoyo",
+    "wordIds": ["w_son", "w_ssitda"],
+    "note": "No 'my' needed — whose hands would they be? Korean drops possessives the way it drops subjects: anything obvious goes unsaid."
+  },
+  {
+    "id": "s8_brush_teeth",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "brush", "role": "verb", "id": "v" },
+      { "t": "my teeth", "role": "object", "id": "o" },
+      { "t": "at night", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "night-at", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "teeth-[obj]", "role": "object", "id": "o" },
+      { "t": "brush", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "밤에", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "이를", "role": "object", "id": "o" },
+      { "t": "닦아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bame ireul dakkayo",
+    "wordIds": ["w_bam", "w_i_tooth", "w_dakda"],
+    "note": "Meet 이 the tooth — same syllable as 이 (two) and the subject particle. The gap deck throws a small party for this overworked sound."
+  },
+  {
+    "id": "s8_eating_now",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am eating", "role": "verb", "id": "v" },
+      { "t": "right now", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "now", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "rice-[obj] eat-ing", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지금", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "밥을 먹고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jigeum babeul meokgo isseoyo",
+    "wordIds": ["w_jigeum", "w_bap", "w_meokda"],
+    "note": "The progressive: verb stem + 고 있어요. 있다 moonlights again — this time as 'be in the middle of.' The classic phone answer to 뭐 해요?"
+  },
+  {
+    "id": "s8_waiting",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am waiting for", "role": "verb", "id": "v" },
+      { "t": "my friend", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "friend-[obj]", "role": "object", "id": "o" },
+      { "t": "wait-ing", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "친구를", "role": "object", "id": "o" },
+      { "t": "기다리고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chingureul gidarigo isseoyo",
+    "wordIds": ["w_chingu", "w_gidarida"],
+    "note": "No 'for' — what you await is a plain direct object: 친구를 기다려요. English prepositions keep dissolving into Korean particles."
+  },
+  {
+    "id": "s8_tomorrow_rest",
+    "en": [
+      { "t": "Tomorrow", "role": "other", "id": "t" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "will rest", "role": "verb", "id": "v" },
+      { "t": "at home", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "tomorrow-[as for]", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "home-at", "role": "place", "id": "p" },
+      { "t": "rest-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내일은", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "집에서", "role": "place", "id": "p" },
+      { "t": "쉴 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naeireun jibeseo swil geoyeyo",
+    "wordIds": ["w_naeil", "w_jip", "w_swida"],
+    "note": "The future: stem + -(으)ㄹ 거예요. 쉬다 ends in a vowel, so the ㄹ hooks straight on: 쉴 거예요. Resting is an action, so home takes 에서."
+  },
+  {
+    "id": "s8_weekend_clean",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "will clean", "role": "verb", "id": "v" },
+      { "t": "my room", "role": "object", "id": "o" },
+      { "t": "this weekend", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "weekend-on", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "room-[obj]", "role": "object", "id": "o" },
+      { "t": "clean-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "방을", "role": "object", "id": "o" },
+      { "t": "청소할 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare bangeul cheongsohal geoyeyo",
+    "wordIds": ["w_jumal", "w_bang", "w_cheongsohada"],
+    "note": "Every 하다 verb futures the same way: 하다 → 할 거예요. And 방 finally enters the vocabulary — Father can now enter the room officially."
+  },
+  {
+    "id": "s8_dinner_bulgogi",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "will eat", "role": "verb", "id": "v" },
+      { "t": "bulgogi", "role": "object", "id": "o" },
+      { "t": "for dinner", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "evening-at", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "bulgogi-[obj]", "role": "object", "id": "o" },
+      { "t": "eat-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저녁에", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "불고기를", "role": "object", "id": "o" },
+      { "t": "먹을 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeonyeoge bulgogireul meogeul geoyeyo",
+    "wordIds": ["w_jeonyeok", "w_bulgogi", "w_meokda"],
+    "note": "Consonant stems take the full 을: 먹을 거예요. Both futures in one pattern — ㄹ after vowels, 을 after consonants, 거예요 always."
+  },
+  {
+    "id": "s8_usually_subway",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "usually", "role": "other", "id": "f" },
+      { "t": "take the subway.", "role": "verb", "id": "v1" },
+      { "t": "But", "role": "other", "id": "c" },
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "I'm walking", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "usually", "role": "other", "id": "f" },
+      { "t": "subway-[obj] ride.", "role": "verb", "id": "v1" },
+      { "t": "but", "role": "other", "id": "c" },
+      { "t": "today-[as for]", "role": "other", "id": "t" },
+      { "t": "walk", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "보통", "role": "other", "id": "f" },
+      { "t": "지하철을 타요.", "role": "verb", "id": "v1" },
+      { "t": "그런데", "role": "other", "id": "c" },
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "걸어요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "botong jihacheoreul tayo. geureonde oneureun georeoyo",
+    "wordIds": ["w_botong", "w_jihacheol", "w_tada", "w_geureonde", "w_oneul", "w_geotda"],
+    "note": "오늘은 — the topic particle marking a CONTRAST: 'as for today (unlike usual).' 은/는's second job, quietly doing what English does with stress."
+  },
+  {
+    "id": "s8_exercise_often",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "often", "role": "other", "id": "f" },
+      { "t": "exercise", "role": "verb", "id": "v" },
+      { "t": "in the park", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "often", "role": "other", "id": "f" },
+      { "t": "park-at", "role": "place", "id": "p" },
+      { "t": "exercise", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "자주", "role": "other", "id": "f" },
+      { "t": "공원에서", "role": "place", "id": "p" },
+      { "t": "운동해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jaju gongwoneseo undonghaeyo",
+    "wordIds": ["w_jaju", "w_gongwon", "w_undonghada"],
+    "note": "The frequency ladder slots in before the place and verb: 항상 (always) > 보통 (usually) > 자주 (often) > 가끔 (sometimes)."
+  },
+  {
+    "id": "s8_movie_ends",
+    "en": [
+      { "t": "The movie", "role": "subject", "id": "s" },
+      { "t": "ends", "role": "verb", "id": "v" },
+      { "t": "at 8", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "movie-[subj]", "role": "subject", "id": "s" },
+      { "t": "eight-hour-at", "role": "other", "id": "t" },
+      { "t": "ends", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "영화가", "role": "subject", "id": "s" },
+      { "t": "여덟 시에", "role": "other", "id": "t" },
+      { "t": "끝나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeonghwaga yeodeol sie kkeunnayo",
+    "wordIds": ["w_yeonghwa", "w_yeodeol", "w_c_si", "w_kkeunnada"],
+    "note": "끝나다 — the thing ends by itself, no one ending it. And 여덟 시 puts Module 5's trickiest number straight to work."
+  },
+  {
+    "id": "s8_plans_q",
+    "en": [
+      { "t": "Do you have", "role": "verb", "id": "v" },
+      { "t": "weekend plans?", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "weekend plan-[subj]", "role": "object", "id": "o" },
+      { "t": "exist?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말 계획이", "role": "object", "id": "o" },
+      { "t": "있어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumal gyehoegi isseoyo?",
+    "wordIds": ["w_jumal", "w_gyehoek", "w_itda"],
+    "note": "Nouns stack directly: 주말 계획, 'weekend plans.' The 있어요-have pattern asks the Friday-afternoon question of every office."
+  },
+  {
+    "id": "s8_next_week_busy",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "will be busy", "role": "verb", "id": "v" },
+      { "t": "next week", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "next week-at", "role": "other", "id": "t" },
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "busy-will-be", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다음 주에", "role": "other", "id": "t" },
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "바쁠 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daeum jue bappeul geoyeyo",
+    "wordIds": ["w_daeum", "w_ju", "w_bappeuda"],
+    "note": "Adjectives take the future too — 바쁠 거예요. On adjectives and other people it shades toward 'probably': the gap deck covers the blur."
+  },
+  {
+    "id": "s8_game_now",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am playing", "role": "verb", "id": "v" },
+      { "t": "a game", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "game-[obj]", "role": "object", "id": "o" },
+      { "t": "do-ing", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "게임을", "role": "object", "id": "o" },
+      { "t": "하고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geimeul hago isseoyo",
+    "wordIds": ["w_geim", "w_hada"],
+    "note": "하다 as 'to play' — games, like studying and work, are things you DO. Module 1's do-everything verb keeps collecting jobs."
   }
 ]
