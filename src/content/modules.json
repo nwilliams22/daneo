@@ -149,5 +149,30 @@
       "s6_park_front", "s6_store_behind", "s6_pharmacy_near",
       "s6_get_off_here", "s6_cafe_between", "s6_take_bus"
     ]
+  },
+  {
+    "id": "m7",
+    "title": "Module 7 — Describing Things and Feelings",
+    "order": 9,
+    "contentMd": "modules/module-7.md",
+    "wordIds": [
+      "w_saek", "w_ppalgansaek", "w_paransaek", "w_noransaek",
+      "w_geomeunsaek", "w_hayansaek", "w_choroksaek",
+      "w_manta", "w_jeokda", "w_bissada", "w_ssada", "w_gilda", "w_jjalda",
+      "w_nopda", "w_natda", "w_jaemiitda", "w_jaemieopda", "w_swipda",
+      "w_eoryeopda", "w_ttatteuthada", "w_siwonhada", "w_kkaekkeuthada",
+      "w_gibun", "w_haengbokhada", "w_seulpeuda", "w_pigonhada",
+      "w_gwaenchanta", "w_simsimhada",
+      "w_saranghada", "w_utda", "w_ulda",
+      "w_nalssi", "w_kkot", "w_norae", "w_munje", "w_ot",
+      "w_geurigo", "w_geureonde", "w_hajiman", "w_geuraeseo"
+    ],
+    "sentenceIds": [
+      "s7_weather_warm", "s7_coffee_expensive_but", "s7_tired_so_home",
+      "s7_songs_and_movies", "s7_korean_fun_hard", "s7_busy_but_happy",
+      "s7_flower_red", "s7_clothes_cheap_pretty", "s7_love",
+      "s7_mood_good", "s7_movie_sad_cried", "s7_song_long_but",
+      "s7_okay_q", "s7_time_many"
+    ]
   }
 ]

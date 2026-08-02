@@ -10,6 +10,7 @@ import module3Md from "./modules/module-3.md?raw";
 import module4Md from "./modules/module-4.md?raw";
 import module5Md from "./modules/module-5.md?raw";
 import module6Md from "./modules/module-6.md?raw";
+import module7Md from "./modules/module-7.md?raw";
 import moduleSpacingMd from "./modules/module-spacing.md?raw";
 import hangulHistoryMd from "./modules/module-hangul-history.md?raw";
 import { contentBundleSchema, type ContentBundle } from "../lib/schemas";
@@ -61,6 +62,7 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-4.md": module4Md,
   "modules/module-5.md": module5Md,
   "modules/module-6.md": module6Md,
+  "modules/module-7.md": module7Md,
   "modules/module-spacing.md": moduleSpacingMd,
   "modules/module-hangul-history.md": hangulHistoryMd,
 };

@@ -1746,5 +1746,312 @@
     "rom": "maeil beoseureul tayo",
     "wordIds": ["w_maeil", "w_beoseu", "w_tada"],
     "note": "What you ride is a direct object in Korean: 버스를 타요, 'ride the bus.' Compare 지하철로 가요, where the subway is the means, not the thing acted on."
+  },
+
+  {
+    "id": "s7_weather_warm",
+    "en": [
+      { "t": "The weather", "role": "subject", "id": "s" },
+      { "t": "is warm", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "weather-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-warm", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "날씨가", "role": "subject", "id": "s" },
+      { "t": "따뜻해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nalssiga ttatteuthaeyo",
+    "wordIds": ["w_nalssi", "w_ttatteuthada"],
+    "note": "The load-bearing wall of small talk. Any 하다-adjective conjugates like the verb: 따뜻하다 → 따뜻해요."
+  },
+  {
+    "id": "s7_coffee_expensive_but",
+    "en": [
+      { "t": "The coffee", "role": "subject", "id": "s" },
+      { "t": "is expensive but", "role": "verb", "id": "v1" },
+      { "t": "delicious", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "coffee-[as for]", "role": "subject", "id": "s" },
+      { "t": "expensive-but", "role": "verb", "id": "v1" },
+      { "t": "is-delicious", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "커피는", "role": "subject", "id": "s" },
+      { "t": "비싸지만", "role": "verb", "id": "v1" },
+      { "t": "맛있어요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "keopineun bissajiman masisseoyo",
+    "wordIds": ["w_keopi", "w_bissada", "w_masitda"],
+    "note": "-지만 welds 'but' onto the first verb: drop 다, add 지만. Only the final verb carries the politeness 요 — the welded one travels light."
+  },
+  {
+    "id": "s7_tired_so_home",
+    "en": [
+      { "t": "I'm tired.", "role": "verb", "id": "v1" },
+      { "t": "So", "role": "other", "id": "c" },
+      { "t": "I'm going", "role": "verb", "id": "v2" },
+      { "t": "home", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "tired.", "role": "verb", "id": "v1" },
+      { "t": "therefore", "role": "other", "id": "c" },
+      { "t": "home-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "피곤해요.", "role": "verb", "id": "v1" },
+      { "t": "그래서", "role": "other", "id": "c" },
+      { "t": "집에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "pigonhaeyo. geuraeseo jibe gayo",
+    "wordIds": ["w_pigonhada", "w_geuraeseo", "w_jip", "w_gada"],
+    "note": "Connectives open the NEXT sentence: cause, full stop, 그래서, result. Your first two-sentence unit — this is what talking actually sounds like."
+  },
+  {
+    "id": "s7_songs_and_movies",
+    "en": [
+      { "t": "I like", "role": "verb", "id": "v1" },
+      { "t": "songs.", "role": "object", "id": "o1" },
+      { "t": "And", "role": "other", "id": "c" },
+      { "t": "I like", "role": "verb", "id": "v2" },
+      { "t": "movies too", "role": "object", "id": "o2" }
+    ],
+    "gloss": [
+      { "t": "song-[obj]", "role": "object", "id": "o1" },
+      { "t": "like.", "role": "verb", "id": "v1" },
+      { "t": "and", "role": "other", "id": "c" },
+      { "t": "movie-also", "role": "object", "id": "o2" },
+      { "t": "like", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "노래를", "role": "object", "id": "o1" },
+      { "t": "좋아해요.", "role": "verb", "id": "v1" },
+      { "t": "그리고", "role": "other", "id": "c" },
+      { "t": "영화도", "role": "object", "id": "o2" },
+      { "t": "좋아해요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "noraereul joahaeyo. geurigo yeonghwado joahaeyo",
+    "wordIds": ["w_norae", "w_joahada", "w_geurigo", "w_yeonghwa"],
+    "note": "Division of labor: 하고 joins nouns inside a sentence; 그리고 joins whole sentences. With Module 2's 도 tagging along."
+  },
+  {
+    "id": "s7_korean_fun_hard",
+    "en": [
+      { "t": "Korean", "role": "subject", "id": "s" },
+      { "t": "is fun.", "role": "verb", "id": "v1" },
+      { "t": "But", "role": "other", "id": "c" },
+      { "t": "it's hard", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "Korean-[as for]", "role": "subject", "id": "s" },
+      { "t": "is-fun.", "role": "verb", "id": "v1" },
+      { "t": "but", "role": "other", "id": "c" },
+      { "t": "is-difficult", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "한국어는", "role": "subject", "id": "s" },
+      { "t": "재미있어요.", "role": "verb", "id": "v1" },
+      { "t": "그런데", "role": "other", "id": "c" },
+      { "t": "어려워요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "hangugeoneun jaemiisseoyo. geureonde eoryeowoyo",
+    "wordIds": ["w_hangugeo", "w_jaemiitda", "w_geureonde", "w_eoryeopda"],
+    "note": "The truest sentence in this course. 그런데 is the soft pivot; 어렵다 goes ㅂ-irregular: 어려워요."
+  },
+  {
+    "id": "s7_busy_but_happy",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am busy but", "role": "verb", "id": "v1" },
+      { "t": "happy", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "busy-but", "role": "verb", "id": "v1" },
+      { "t": "am-happy", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "바쁘지만", "role": "verb", "id": "v1" },
+      { "t": "행복해요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "bappeujiman haengbokhaeyo",
+    "wordIds": ["w_bappeuda", "w_haengbokhada"],
+    "note": "-지만 on a Module 4 adjective, no subject needed. Note 바쁘지만 keeps the ㅡ — the drop only happens before 아/어, and 지만 starts with ㅈ."
+  },
+  {
+    "id": "s7_flower_red",
+    "en": [
+      { "t": "The flower", "role": "subject", "id": "s" },
+      { "t": "is red", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "flower-[subj]", "role": "subject", "id": "s" },
+      { "t": "red-color-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "꽃이", "role": "subject", "id": "s" },
+      { "t": "빨간색이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "kkochi ppalgansaegieyo",
+    "wordIds": ["w_kkot", "w_ppalgansaek"],
+    "note": "Colors are nouns ([hue] + 색), so they take the copula: 빨간색이에요, 'is red-color.' The Module 4 machine keeps paying rent."
+  },
+  {
+    "id": "s7_clothes_cheap_pretty",
+    "en": [
+      { "t": "The clothes", "role": "subject", "id": "s" },
+      { "t": "are cheap.", "role": "verb", "id": "v1" },
+      { "t": "And", "role": "other", "id": "c" },
+      { "t": "pretty", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "clothes-[subj]", "role": "subject", "id": "s" },
+      { "t": "are-cheap.", "role": "verb", "id": "v1" },
+      { "t": "and", "role": "other", "id": "c" },
+      { "t": "are-pretty", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "옷이", "role": "subject", "id": "s" },
+      { "t": "싸요.", "role": "verb", "id": "v1" },
+      { "t": "그리고", "role": "other", "id": "c" },
+      { "t": "예뻐요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "osi ssayo. geurigo yeppeoyo",
+    "wordIds": ["w_ot", "w_ssada", "w_geurigo", "w_yeppeuda"],
+    "note": "Module 1's 예쁘다 returns with its ㅡ-drop showing: 예뻐요. The 슬프다/바쁘다/배고프다 family keeps growing."
+  },
+  {
+    "id": "s7_love",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "love you", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "(I)", "role": "subject", "id": "s" },
+      { "t": "love", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "사랑해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "saranghaeyo",
+    "wordIds": ["w_saranghada"],
+    "note": "Subject and object both understood — context carries everything, the verb carries the feeling. The most famous dropped-subject sentence in Korean."
+  },
+  {
+    "id": "s7_mood_good",
+    "en": [
+      { "t": "I feel", "role": "verb", "id": "v" },
+      { "t": "good", "role": "subject", "id": "s" },
+      { "t": "today", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "mood-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-good", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘", "role": "other", "id": "t" },
+      { "t": "기분이", "role": "subject", "id": "s" },
+      { "t": "좋아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneul gibuni joayo",
+    "wordIds": ["w_oneul", "w_gibun", "w_jota"],
+    "note": "Feelings are stated body-outward, like 배고프다: not 'I feel good' but 'the mood is good.' The self is implied, the state is the subject."
+  },
+  {
+    "id": "s7_movie_sad_cried",
+    "en": [
+      { "t": "The movie", "role": "subject", "id": "s" },
+      { "t": "was sad.", "role": "verb", "id": "v1" },
+      { "t": "So", "role": "other", "id": "c" },
+      { "t": "I cried", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "movie-[subj]", "role": "subject", "id": "s" },
+      { "t": "was-sad.", "role": "verb", "id": "v1" },
+      { "t": "therefore", "role": "other", "id": "c" },
+      { "t": "cried", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "영화가", "role": "subject", "id": "s" },
+      { "t": "슬펐어요.", "role": "verb", "id": "v1" },
+      { "t": "그래서", "role": "other", "id": "c" },
+      { "t": "울었어요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "yeonghwaga seulpeosseoyo. geuraeseo ureosseoyo",
+    "wordIds": ["w_yeonghwa", "w_seulpeuda", "w_geuraeseo", "w_ulda"],
+    "note": "The ㅡ-drop in the past: 슬프다 → 슬펐어요. Both sentences in past tense — Korean keeps the timeline consistent across the 그래서."
+  },
+  {
+    "id": "s7_song_long_but",
+    "en": [
+      { "t": "The song", "role": "subject", "id": "s" },
+      { "t": "is long.", "role": "verb", "id": "v1" },
+      { "t": "But", "role": "other", "id": "c" },
+      { "t": "I listen", "role": "verb", "id": "v2" },
+      { "t": "every day", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "song-[as for]", "role": "subject", "id": "s" },
+      { "t": "is-long.", "role": "verb", "id": "v1" },
+      { "t": "however", "role": "other", "id": "c" },
+      { "t": "every-day", "role": "other", "id": "t" },
+      { "t": "listen", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "노래는", "role": "subject", "id": "s" },
+      { "t": "길어요.", "role": "verb", "id": "v1" },
+      { "t": "하지만", "role": "other", "id": "c" },
+      { "t": "매일", "role": "other", "id": "t" },
+      { "t": "들어요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "noraeneun gireoyo. hajiman maeil deureoyo",
+    "wordIds": ["w_norae", "w_gilda", "w_hajiman", "w_maeil", "w_deutda"],
+    "note": "하지만 is the firm 'but' — a real contrast follows. 듣다's ㄷ-irregular from Module 2 rides again: 들어요."
+  },
+  {
+    "id": "s7_okay_q",
+    "en": [
+      { "t": "Are you", "role": "subject", "id": "s" },
+      { "t": "okay?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "(you)", "role": "subject", "id": "s" },
+      { "t": "is-okay?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "괜찮아요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "gwaenchanayo?",
+    "wordIds": ["w_gwaenchanta"],
+    "note": "The Swiss-army sentence. As a question: are you okay? As an answer: I'm fine — or no thanks. The gap deck sorts out its three jobs."
+  },
+  {
+    "id": "s7_time_many",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "have lots of", "role": "verb", "id": "v" },
+      { "t": "time", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "time-[subj]", "role": "object", "id": "o" },
+      { "t": "is-much", "role": "verb", "id": "v" },
+      { "t": "(for me)", "role": "subject", "id": "s" }
+    ],
+    "ko": [
+      { "t": "시간이", "role": "object", "id": "o" },
+      { "t": "많아요", "role": "verb", "id": "v" },
+      { "t": "", "role": "subject", "id": "s" }
+    ],
+    "rom": "sigani manayo",
+    "wordIds": ["w_sigan", "w_manta"],
+    "note": "Module 1's 시간이 없어요, answered at last. 많다 → 많아요, the ㅎ falling silent — abundance stated the same exist-style way as lack."
   }
 ]
