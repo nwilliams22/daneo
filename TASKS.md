@@ -44,6 +44,9 @@
 
 ## Discovered work
 - (add items here with dates)
+- 2026-08-01 · Future module idea (Nick): slang section.
+- 2026-08-01 · Future module idea (Nick): formal vs casual register — e.g. 안녕하세요 ↔ 안녕 between friends; pairs with the politeness-levels module already sketched for Module 4.
+- 2026-08-01 · Future module idea (Nick): Korean spacing (띄어쓰기) and punctuation — when to add spaces, what punctuation exists; could live inside sentence-structure content.
 
 ## Session log
 - (append one paragraph per session: what changed, test status, next step)
