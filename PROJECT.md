@@ -1,7 +1,7 @@
 # PROJECT.md — 단어 (Daneo) · A Word-First Korean Learning App
 
 > **Working name:** Daneo (단어, "word") — rename freely.
-> **Owner:** Nick · **Status:** Pre-build, spec complete, 6 feature prototypes exist
+> **Owner:** Nick · **Status:** Phases A.0–A.1 built (2026-08-01) as a Tauri 2 desktop app — see §7 roadmap and TASKS.md session log. Next: A.2 (SRS).
 > **This document is the source of truth for Claude Code sessions. Read fully before writing code.**
 
 ---
@@ -26,7 +26,7 @@ Mainstream language apps (Duolingo, Memrise) throw learners into full sentences 
 
 ## 2. Existing prototypes (reference implementations)
 
-These six artifacts define the intended UX and visual language. Port their logic; improve their code (they use inline styles and local state only).
+These six artifacts define the intended UX and visual language. Port their logic; improve their code (they use inline styles and local state only). *(Status: all ported 2026-08-01 — the .jsx files remain at the repo root purely as reference; the live implementations are under `/src/features/`.)*
 
 | Prototype file | Feature | Key mechanics to preserve |
 |---|---|---|
@@ -154,10 +154,10 @@ Vitest suites, minimum:
 
 ## 7. Roadmap
 
-- **Phase A.0 — Scaffold:** Vite+TS+Tailwind+Dexie skeleton, theme tokens, routing (Learn/Drill/Explore), content pipeline + validator, port Module 1 + history module content.
-- **Phase A.1 — Port drills:** confusables, cross-font, sentence anatomy, gap study — sharing one drill-session component and unified results logging.
-- **Phase A.2 — SRS + unified review queue.**
-- **Phase A.3 — Translator (with proxy) + save-to-deck + audio v1.**
+- ✅ **Phase A.0 — Scaffold** *(done 2026-08-01)*: Vite+TS+Tailwind+Dexie skeleton, theme tokens, routing (Learn/Drill/Explore), content pipeline + validator, port Module 1 + history module content.
+- ✅ **Phase A.1 — Port drills** *(done 2026-08-01)*: confusables, cross-font, sentence anatomy, gap study — sharing one drill-session component and unified results logging. Shipped with extras beyond spec: a fifth typing drill (in-app 2-beolsik keyboard + Hangul composition engine), audio v1 pulled forward from A.3, dark theme, onboarding placement, dashboard, backup/restore, keyboard shortcuts. See TASKS.md Discovered work.
+- **Phase A.2 — SRS + daily review queue.** *(The unified missed-items Review area already exists from A.1; A.2 adds the SM-2 scheduler and due-today queue.)*
+- **Phase A.3 — Translator (with proxy) + save-to-deck + cross-font difficulty toggle.** *(Audio v1 already shipped.)*
 - **Phase A.4 — Module 2 content** (numbers, past tense, 도/에서/하고) authored in the content format; validator proves the gating works.
 - **Phase B — Share:** deploy static build + proxy (Fly/Railway), household auth, per-user Dexie→server sync (only if actually sharing).
 - **Phase C — Commercial (decide later):** real accounts, paid TTS, content CMS. Out of scope for all current sessions.

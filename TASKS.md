@@ -14,7 +14,7 @@
 - [x] Dexie schema: `knownWords`, `drillResults`, `srsCards`, `savedTranslations`
 - [x] Known-word gating: module vocab checklist → unlocks sentences/drill content
 
-## Phase A.1 — Port the four drills
+## Phase A.1 — Port the four drills *(a fifth, the typing drill, shipped alongside — see Discovered work)*
 - [x] Shared `DrillSession` component (item source, answer handler, results logging, missed-items strip)
 - [x] Confusables drill (flashcard + quiz; same-group distractors — test §6.2)
 - [x] Cross-font reader (legend, per-letter notes, whole-word comparison)
@@ -31,7 +31,7 @@
 - [ ] `/server` proxy (Hono or Express): `.env` key, `/api/translate`, zod-validated JSON contract (§3)
 - [ ] Explore UI port from `korean-curiosity-translator.jsx`
 - [ ] Save-to-deck (auto-file into Gap deck when `literal_gap` non-empty)
-- [ ] Audio v1: `speechSynthesis` ko-KR play buttons on words/sentences
+- [x] Audio v1: `speechSynthesis` ko-KR play buttons on words/sentences *(pulled forward — shipped in Session 1 with the A.0/A.1 build)*
 - [ ] Cross-font difficulty toggle on drills + per-face accuracy stat
 
 ## Phase A.4 — Module 2 content
@@ -62,3 +62,4 @@
 ## Session log
 - (append one paragraph per session: what changed, test status, next step)
 - **2026-08-01 · Session 1 (Claude Code):** Built Phase A.0 + A.1 end to end as a Tauri 2 desktop app: scaffold (Vite 8/React 19/TS/Tailwind v4 tokens in light + dark), full content port (37-word Module 1 checklist incl. 가게, 14 three-layer sentences, 37 confusables, 16 gap items, both markdown modules with `::vocab::`/`::sentences::` mount markers), `validate:content` enforcing word-gating/chunk-alignment/quiz-constructibility, Dexie learner state + repo, onboarding, Learn area with gated sentences, shared drill engine, all five drills (confusables, cross-font, anatomy, gap, typing with in-app 2-beolsik keyboard + pure composition engine), unified Review with `?review=1` re-drill pools, dashboard, JSON backup. **62 tests green, `validate:content` green, `npm run build` green**; `tauri build` produces AppImage/rpm. Next step: Phase A.2 (SRS over the reserved `srsCards` table — evaluate FSRS) or Module 2 content.
+- **2026-08-01 · Session 2 (Claude Code):** Docs-and-planning session, paused by request before starting A.2. Recorded Nick's design feedback as future work (placement-quiz onboarding; separate flashcards/quiz sections), brought all docs up to date (README added; PROJECT.md roadmap status; this file), verified the tree clean with all checks green. Next step unchanged: Phase A.2 → A.3 → A.4, then a polish pass that folds in the future-work list.
