@@ -21,6 +21,14 @@ export function unmarkWordKnown(wordId: string) {
   return db.knownWords.delete(wordId);
 }
 
+/** Bulk pre-marking (placement quiz) — idempotent like markWordKnown. */
+export function markWordsKnown(wordIds: string[]) {
+  const at = Date.now();
+  return db.knownWords.bulkPut(
+    wordIds.map((wordId) => ({ wordId, learnedAt: at })),
+  );
+}
+
 /** The one grading funnel: records the result row AND moves the item's
  *  SRS card (creating it on first sight), atomically. Every drill and the
  *  Review session answer through here, so everything drilled is scheduled. */

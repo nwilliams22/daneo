@@ -1,6 +1,8 @@
 import { Link } from "react-router";
 import PageHeader from "../../components/PageHeader";
 
+// Flashcards/browse and quiz are separate entries by design (TASKS.md
+// 2026-08-01, Nick) — study and test are different intents.
 const DRILLS: {
   to: string;
   ko: string;
@@ -9,10 +11,17 @@ const DRILLS: {
   available: boolean;
 }[] = [
   {
-    to: "/drill/confusables",
+    to: "/drill/confusables/flashcards",
     ko: "ㅘ",
-    title: "Confusables",
-    blurb: "Look-alike letters drilled as contrasts — flashcards and quiz.",
+    title: "Confusables · Flashcards",
+    blurb: "Reveal-and-grade-yourself over the look-alike letters.",
+    available: true,
+  },
+  {
+    to: "/drill/confusables/quiz",
+    ko: "ㅝ",
+    title: "Confusables · Quiz",
+    blurb: "Four sounds, one letter — distractors from the same group.",
     available: true,
   },
   {
@@ -30,10 +39,17 @@ const DRILLS: {
     available: true,
   },
   {
-    to: "/drill/gap",
+    to: "/drill/gap/browse",
     ko: "정",
-    title: "Literal vs. Real",
-    blurb: "Where word-for-word translation misleads you.",
+    title: "Literal vs. Real · Browse",
+    blurb: "Read the expressions where word-for-word translation misleads.",
+    available: true,
+  },
+  {
+    to: "/drill/gap/quiz",
+    ko: "눈",
+    title: "Literal vs. Real · Quiz",
+    blurb: "You get the literal reading — guess what it actually means.",
     available: true,
   },
   {
@@ -51,7 +67,7 @@ export default function DrillHubPage() {
       <PageHeader
         eyebrow="한글 · Drill"
         title="Drills"
-        blurb="Five ways to make the letters, structures, and gaps stick."
+        blurb="Study modes and quiz modes, each their own door — pick how you want the letters, structures, and gaps to stick."
       />
       <div className="flex flex-col gap-3">
         {DRILLS.map((d) =>

@@ -22,3 +22,6 @@ npm-debug.log*
 # secrets
 server/.env
 .env
+
+# claude harness local state
+.claude/settings.local.json*

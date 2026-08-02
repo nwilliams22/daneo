@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { Link, Navigate, useParams } from "react-router";
 import { gapCats } from "../../../content";
 import type { GapItem } from "../../../types";
 import { generateGapOptions } from "../../../lib/distractors";
@@ -9,7 +10,6 @@ import DrillScaffold from "../engine/DrillScaffold";
 import QuizOptions from "../engine/QuizOptions";
 import { FACE_FONT, randomFace } from "../engine/faceFont";
 import Chip from "../../../components/Chip";
-import ModeToggle from "../../../components/ModeToggle";
 import AudioButton from "../../../components/AudioButton";
 import Rom from "../../../components/Rom";
 import { useReviewFilter } from "../../review/useReviewFilter";
@@ -59,13 +59,14 @@ function BrowseCard({ item }: { item: GapItem }) {
 }
 
 function GapDrill({
+  mode,
   reviewIds,
   allItems,
 }: {
+  mode: Mode;
   reviewIds?: Set<string>;
   allItems: GapItem[];
 }) {
-  const [mode, setMode] = useState<Mode>(reviewIds ? "quiz" : "browse");
   const [cat, setCat] = useState<(typeof gapCats)[number]>("structure");
   const [mixFonts, setMixFonts] = useState(false);
   const [picked, setPicked] = useState<string | null>(null);
@@ -126,8 +127,14 @@ function GapDrill({
   return (
     <DrillScaffold
       eyebrow="한국어 · Lost in translation"
-      title="What It Says vs. What It Means"
-      blurb="Expressions where word-for-word translation misleads you — the gap between the literal and the real meaning is the lesson."
+      title={
+        mode === "browse" ? "What It Says vs. What It Means" : "Guess the Meaning"
+      }
+      blurb={
+        mode === "browse"
+          ? "Browse the expressions where word-for-word translation misleads you — the gap is the lesson."
+          : "You get the literal reading — pick what it actually means."
+      }
       seen={engine.seen}
       correct={engine.correct}
       pct={engine.pct}
@@ -141,32 +148,27 @@ function GapDrill({
           {reviewIds && <ReviewBanner count={pool.length} />}
           {!reviewIds && (
             <div className="flex flex-wrap items-center gap-2">
-              <ModeToggle
-                modes={[
-                  { value: "browse", label: "Browse" },
-                  { value: "quiz", label: "Guess the meaning" },
-                ]}
-                value={mode}
-                onChange={setMode}
-              />
               {mode === "quiz" && (
                 <Chip active={mixFonts} onClick={() => setMixFonts(!mixFonts)}>
                   Mixed fonts
                 </Chip>
               )}
-            </div>
-          )}
-          {mode === "browse" && (
-            <div className="mt-3 flex flex-wrap gap-2">
-              {CATS.map((c) => (
-                <Chip
-                  key={c.key}
-                  active={cat === c.key}
-                  onClick={() => setCat(c.key)}
-                >
-                  {c.label}
-                </Chip>
-              ))}
+              {mode === "browse" &&
+                CATS.map((c) => (
+                  <Chip
+                    key={c.key}
+                    active={cat === c.key}
+                    onClick={() => setCat(c.key)}
+                  >
+                    {c.label}
+                  </Chip>
+                ))}
+              <Link
+                to={mode === "browse" ? "/drill/gap/quiz" : "/drill/gap/browse"}
+                className="ml-auto text-[12px] font-semibold text-muted underline underline-offset-2 transition-colors hover:text-ink"
+              >
+                {mode === "browse" ? "Quiz instead →" : "Browse instead →"}
+              </Link>
             </div>
           )}
         </div>
@@ -233,13 +235,19 @@ function GapDrill({
   );
 }
 
+/** Browse and quiz are distinct routes (TASKS.md 2026-08-01, Nick):
+ *  /drill/gap/browse and /drill/gap/quiz. */
 export default function GapDrillRoute() {
+  const { mode } = useParams();
   const { active, ids } = useReviewFilter("gap");
   const gapPool = useGapPool();
+  if (mode !== "browse" && mode !== "quiz")
+    return <Navigate to="/drill/gap/browse" replace />;
   if ((active && !ids) || !gapPool) return null;
   return (
     <GapDrill
-      key={active ? "review" : "normal"}
+      key={`${mode}:${active ? "review" : "normal"}`}
+      mode={mode}
       reviewIds={active ? ids : undefined}
       allItems={gapPool.items}
     />

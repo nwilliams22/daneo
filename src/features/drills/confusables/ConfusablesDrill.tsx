@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { Link, Navigate, useParams } from "react-router";
 import { confusables } from "../../../content";
 import type { ConfusableItem } from "../../../types";
 import { generateConfusableOptions } from "../../../lib/distractors";
@@ -9,7 +10,6 @@ import QuizOptions from "../engine/QuizOptions";
 import GlyphCard from "../engine/GlyphCard";
 import { FACE_FONT, FACE_LABEL, randomFace } from "../engine/faceFont";
 import Chip from "../../../components/Chip";
-import ModeToggle from "../../../components/ModeToggle";
 import AudioButton from "../../../components/AudioButton";
 import { useReviewFilter } from "../../review/useReviewFilter";
 import ReviewBanner from "../../review/ReviewBanner";
@@ -25,9 +25,14 @@ const SETS: { key: string; label: string }[] = [
 
 type Mode = "flashcard" | "quiz";
 
-function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
+function ConfusablesDrill({
+  mode,
+  reviewIds,
+}: {
+  mode: Mode;
+  reviewIds?: Set<string>;
+}) {
   const [setKey, setSetKey] = useState<string>(reviewIds ? "all" : "compound");
-  const [mode, setMode] = useState<Mode>(reviewIds ? "quiz" : "flashcard");
   const [mixFonts, setMixFonts] = useState(false);
   const [revealed, setRevealed] = useState(false);
   const [picked, setPicked] = useState<string | null>(null);
@@ -65,12 +70,6 @@ function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
     setRevealed(false);
     setPicked(null);
     engine.reset(buildPool(key));
-  };
-
-  const switchMode = (m: Mode) => {
-    setMode(m);
-    setRevealed(false);
-    setPicked(null);
   };
 
   const gradeFlash = (got: boolean) => {
@@ -120,8 +119,12 @@ function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
   return (
     <DrillScaffold
       eyebrow="한글 · Confusables"
-      title="Look-alike Drill"
-      blurb="Train the distinctions, not just the letters. Each reveal shows what it gets mistaken for."
+      title={mode === "flashcard" ? "Look-alike Flashcards" : "Look-alike Quiz"}
+      blurb={
+        mode === "flashcard"
+          ? "Reveal at your own pace and grade yourself — each reveal shows what the letter gets mistaken for."
+          : "Four sounds, one letter — distractors always come from the same confusable group."
+      }
       seen={engine.seen}
       correct={engine.correct}
       pct={engine.pct}
@@ -148,17 +151,19 @@ function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
             </div>
           )}
           <div className="flex flex-wrap items-center gap-2">
-            <ModeToggle
-              modes={[
-                { value: "flashcard", label: "Flashcard" },
-                { value: "quiz", label: "Quiz" },
-              ]}
-              value={mode}
-              onChange={switchMode}
-            />
             <Chip active={mixFonts} onClick={() => setMixFonts(!mixFonts)}>
               Mixed fonts
             </Chip>
+            <Link
+              to={
+                mode === "flashcard"
+                  ? "/drill/confusables/quiz"
+                  : "/drill/confusables/flashcards"
+              }
+              className="ml-auto text-[12px] font-semibold text-muted underline underline-offset-2 transition-colors hover:text-ink"
+            >
+              {mode === "flashcard" ? "Quiz instead →" : "Flashcards instead →"}
+            </Link>
           </div>
         </div>
       }
@@ -236,12 +241,18 @@ function ConfusablesDrill({ reviewIds }: { reviewIds?: Set<string> }) {
   );
 }
 
+/** Flashcards and quiz are distinct routes (TASKS.md 2026-08-01, Nick):
+ *  /drill/confusables/flashcards and /drill/confusables/quiz. */
 export default function ConfusablesDrillRoute() {
+  const { mode } = useParams();
   const { active, ids } = useReviewFilter("confusable");
+  if (mode !== "flashcards" && mode !== "quiz")
+    return <Navigate to="/drill/confusables/flashcards" replace />;
   if (active && !ids) return null; // wait for the missed-item query
   return (
     <ConfusablesDrill
-      key={active ? "review" : "normal"}
+      key={`${mode}:${active ? "review" : "normal"}`}
+      mode={mode === "flashcards" ? "flashcard" : "quiz"}
       reviewIds={active ? ids : undefined}
     />
   );

@@ -30,7 +30,7 @@ const kindSections = (
   {
     kind: "confusable",
     title: "Confusables",
-    drillTo: "/drill/confusables?review=1",
+    drillTo: "/drill/confusables/quiz?review=1",
     resolve: (id) => {
       const c = confusableById.get(id);
       return c ? { id, big: c.c, small: c.r } : null;
@@ -54,7 +54,7 @@ const kindSections = (
   {
     kind: "gap",
     title: "Literal vs. real",
-    drillTo: "/drill/gap?review=1",
+    drillTo: "/drill/gap/quiz?review=1",
     resolve: (id) => {
       const g = gapById.get(id);
       return g ? { id, big: g.ko, small: g.real } : null;
