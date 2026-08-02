@@ -1,6 +1,7 @@
 import PageHeader from "../../components/PageHeader";
 import { useSettings } from "../../state/settings";
 import { useKoreanTTS } from "../../audio/useKoreanTTS";
+import ExportImport from "./ExportImport";
 import type { PersistedSettings } from "../../types";
 
 function Row({
@@ -162,6 +163,10 @@ export default function SettingsPage() {
             Run again
           </button>
         </Row>
+      </div>
+
+      <div className="mt-4 rounded-2xl border border-line bg-panel">
+        <ExportImport />
       </div>
     </div>
   );
