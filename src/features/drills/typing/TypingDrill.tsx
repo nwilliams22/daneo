@@ -13,6 +13,7 @@ import { jamoForKey } from "../../../lib/hangul/keymap";
 import { useDrillEngine } from "../engine/useDrillEngine";
 import DrillScaffold from "../engine/DrillScaffold";
 import KoreanKeyboard from "./KoreanKeyboard";
+import TypingFeedback from "./TypingFeedback";
 import AudioButton from "../../../components/AudioButton";
 import Rom from "../../../components/Rom";
 import { useReviewFilter } from "../../review/useReviewFilter";
@@ -186,22 +187,12 @@ function TypingDrill({ reviewIds }: { reviewIds?: Set<string> }) {
           Check <span className="font-normal opacity-70">(Enter)</span>
         </button>
       ) : wrong ? (
-        <div className="mt-3.5 text-center">
-          <div className="text-[13.5px] font-semibold text-clay">
-            Not quite — it's written:
-          </div>
-          <div className="mt-1 flex items-center justify-center gap-1 font-korean text-3xl font-semibold">
-            {current.ko}
-            <AudioButton text={current.ko} />
-          </div>
-          <Rom text={current.rom} className="mt-0.5 block" />
-          <button
-            onClick={engine.advance}
-            className="mt-3.5 w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"
-          >
-            Next <span className="font-normal opacity-70">(Enter)</span>
-          </button>
-        </div>
+        <TypingFeedback
+          typed={typed}
+          ko={current.ko}
+          rom={current.rom}
+          onNext={engine.advance}
+        />
       ) : (
         <div className="mt-3.5 text-center text-sm font-bold text-teal">
           Correct!
