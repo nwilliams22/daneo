@@ -8,6 +8,7 @@ import { useDrillKeys } from "../engine/useDrillKeys";
 import DrillScaffold from "../engine/DrillScaffold";
 import QuizOptions from "../engine/QuizOptions";
 import GlyphCard from "../engine/GlyphCard";
+import WhyWrong from "../engine/WhyWrong";
 import { FACE_FONT, FACE_LABEL, randomFace } from "../engine/faceFont";
 import Chip from "../../../components/Chip";
 import AudioButton from "../../../components/AudioButton";
@@ -80,7 +81,9 @@ function ConfusablesDrill({
   const pickQuiz = (id: string) => {
     if (picked || !current) return;
     setPicked(id);
-    engine.answer(id === current.id, { face: faceOpt });
+    const ok = id === current.id;
+    // Correct keeps the snappy auto-advance; wrong holds for the why-panel.
+    engine.answer(ok, { face: faceOpt, advanceAfterMs: ok ? undefined : null });
   };
 
   // Clear per-item UI state when the engine advances
@@ -115,6 +118,7 @@ function ConfusablesDrill({
   if (reviewIds && pool.length === 0) return <ReviewEmpty />;
   if (!current) return null;
   const wrongPick = picked !== null && picked !== current.id;
+  const pickedItem = wrongPick ? options.find((o) => o.id === picked) : undefined;
 
   return (
     <DrillScaffold
@@ -229,10 +233,34 @@ function ConfusablesDrill({
             answerId={current.id}
             onPick={pickQuiz}
           />
-          {wrongPick && (
-            <div className="mt-3 text-center text-[13px] leading-relaxed text-muted">
-              {current.c} is <b className="text-ink">{current.r}</b> —{" "}
-              {current.note}
+          {wrongPick && pickedItem && (
+            <div className="mt-3.5 border-t border-line pt-3">
+              <WhyWrong
+                picked={{
+                  title: (
+                    <>
+                      <span className="font-korean">{pickedItem.c}</span> is{" "}
+                      {pickedItem.r}
+                    </>
+                  ),
+                  body: pickedItem.note,
+                }}
+                answer={{
+                  title: (
+                    <>
+                      <span className="font-korean">{current.c}</span> is{" "}
+                      {current.r}
+                    </>
+                  ),
+                  body: current.note,
+                }}
+              />
+              <button
+                onClick={engine.advance}
+                className="mt-3.5 w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"
+              >
+                Next <span className="font-normal opacity-70">(Enter)</span>
+              </button>
             </div>
           )}
         </div>

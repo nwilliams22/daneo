@@ -8,6 +8,7 @@ import { useDrillEngine } from "../engine/useDrillEngine";
 import { useDrillKeys } from "../engine/useDrillKeys";
 import DrillScaffold from "../engine/DrillScaffold";
 import QuizOptions from "../engine/QuizOptions";
+import WhyWrong from "../engine/WhyWrong";
 import { FACE_FONT, randomFace } from "../engine/faceFont";
 import Chip from "../../../components/Chip";
 import AudioButton from "../../../components/AudioButton";
@@ -96,6 +97,10 @@ function GapDrill({
     setLastItem(q?.id ?? "");
     setPicked(null);
   }
+
+  const pickedItem = picked
+    ? options.find((o) => o.id === picked)
+    : undefined;
 
   const pick = (id: string) => {
     if (picked || !q) return;
@@ -217,9 +222,32 @@ function GapDrill({
             />
             {picked && (
               <div className="mt-3.5 border-t border-line pt-3">
-                <p className="text-[13.5px] leading-relaxed text-muted">
-                  {q.note}
-                </p>
+                {picked !== q.id && pickedItem ? (
+                  <WhyWrong
+                    picked={{
+                      title: (
+                        <>
+                          “{pickedItem.real}” is{" "}
+                          <span className="font-korean">{pickedItem.ko}</span>
+                        </>
+                      ),
+                      body: <>literally “{pickedItem.lit}”</>,
+                    }}
+                    answer={{
+                      title: (
+                        <>
+                          <span className="font-korean">{q.ko}</span> means “
+                          {q.real}”
+                        </>
+                      ),
+                      body: q.note,
+                    }}
+                  />
+                ) : (
+                  <p className="text-[13.5px] leading-relaxed text-muted">
+                    {q.note}
+                  </p>
+                )}
                 <button
                   onClick={engine.advance}
                   className="mt-3.5 w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"

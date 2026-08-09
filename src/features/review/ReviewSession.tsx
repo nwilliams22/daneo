@@ -34,6 +34,8 @@ import AudioButton from "../../components/AudioButton";
 import Rom from "../../components/Rom";
 import QuizOptions, { type QuizOptionView } from "../drills/engine/QuizOptions";
 import GlyphCard from "../drills/engine/GlyphCard";
+import WhyWrong from "../drills/engine/WhyWrong";
+import TypingFeedback from "../drills/typing/TypingFeedback";
 import { FACE_FONT, FACE_LABEL, randomAltFace } from "../drills/engine/faceFont";
 import { useDrillKeys } from "../drills/engine/useDrillKeys";
 import KoreanKeyboard from "../drills/typing/KoreanKeyboard";
@@ -120,6 +122,37 @@ function buildQueue(cards: SrsCard[], gapPool: GapPool): Question[] {
   return out;
 }
 
+/** Shared why-wrong builder for the two glyph→sound kinds (confusable and
+ *  cross-font rows have the same c / r / note shape). */
+const glyphExplainWrong =
+  <T extends { id: string; c: string; r: string; note: string }>(
+    options: T[],
+    item: T,
+  ) =>
+  (pickedId: string) => {
+    const p = options.find((o) => o.id === pickedId);
+    return p ? (
+      <WhyWrong
+        picked={{
+          title: (
+            <>
+              <span className="font-korean">{p.c}</span> is {p.r}
+            </>
+          ),
+          body: p.note,
+        }}
+        answer={{
+          title: (
+            <>
+              <span className="font-korean">{item.c}</span> is {item.r}
+            </>
+          ),
+          body: item.note,
+        }}
+      />
+    ) : null;
+  };
+
 function NextButton({ onClick }: { onClick: () => void }) {
   return (
     <button
@@ -138,6 +171,7 @@ function ChoiceQuestion({
   options,
   answerId,
   explain,
+  explainWrong,
   columns = 2,
   onAnswer,
   onNext,
@@ -146,6 +180,9 @@ function ChoiceQuestion({
   options: QuizOptionView[];
   answerId: string;
   explain: React.ReactNode;
+  /** Both-sides feedback for a wrong pick ("why was I wrong") — falls back
+   *  to `explain` when absent or when the pick can't be resolved. */
+  explainWrong?: (pickedId: string) => React.ReactNode;
   columns?: 1 | 2;
   onAnswer: (correct: boolean) => void;
   onNext: () => void;
@@ -177,9 +214,11 @@ function ChoiceQuestion({
       />
       {picked && (
         <div className="mt-3.5 border-t border-line pt-3">
-          <div className="text-[13.5px] leading-relaxed text-muted">
-            {explain}
-          </div>
+          {(picked !== answerId && explainWrong?.(picked)) || (
+            <div className="text-[13.5px] leading-relaxed text-muted">
+              {explain}
+            </div>
+          )}
           <NextButton onClick={onNext} />
         </div>
       )}
@@ -279,23 +318,18 @@ function TypingQuestion({
         >
           Check <span className="font-normal opacity-70">(Enter)</span>
         </button>
-      ) : (
+      ) : answered ? (
         <div className="mt-3.5 text-center">
-          {answered ? (
-            <div className="text-sm font-bold text-teal">Correct!</div>
-          ) : (
-            <>
-              <div className="text-[13.5px] font-semibold text-clay">
-                Not quite — it's written:
-              </div>
-              <div className="mt-1 flex items-center justify-center gap-1 font-korean text-3xl font-semibold">
-                {word.ko}
-                <AudioButton text={word.ko} />
-              </div>
-            </>
-          )}
+          <div className="text-sm font-bold text-teal">Correct!</div>
           <NextButton onClick={onNext} />
         </div>
+      ) : (
+        <TypingFeedback
+          typed={typed}
+          ko={word.ko}
+          rom={word.rom}
+          onNext={onNext}
+        />
       )}
 
       <KoreanKeyboard
@@ -398,6 +432,7 @@ function ReviewSession({ queue }: { queue: Question[] }) {
                 {q.item.note}
               </>
             }
+            explainWrong={glyphExplainWrong(q.options, q.item)}
             onAnswer={answer(q.kind, q.item.id)}
             onNext={next}
           />
@@ -423,6 +458,7 @@ function ReviewSession({ queue }: { queue: Question[] }) {
                 {q.item.note}
               </>
             }
+            explainWrong={glyphExplainWrong(q.options, q.item)}
             onAnswer={(ok) => answer("font", q.item.id)(ok, q.face)}
             onNext={next}
           />
@@ -451,6 +487,31 @@ function ReviewSession({ queue }: { queue: Question[] }) {
             options={q.options.map((o) => ({ id: o.id, label: o.real }))}
             answerId={q.item.id}
             explain={q.item.note}
+            explainWrong={(pickedId) => {
+              const p = q.options.find((o) => o.id === pickedId);
+              return p ? (
+                <WhyWrong
+                  picked={{
+                    title: (
+                      <>
+                        “{p.real}” is{" "}
+                        <span className="font-korean">{p.ko}</span>
+                      </>
+                    ),
+                    body: <>literally “{p.lit}”</>,
+                  }}
+                  answer={{
+                    title: (
+                      <>
+                        <span className="font-korean">{q.item.ko}</span> means
+                        “{q.item.real}”
+                      </>
+                    ),
+                    body: q.item.note,
+                  }}
+                />
+              ) : null;
+            }}
             onAnswer={answer(q.kind, q.item.id)}
             onNext={next}
           />
@@ -481,6 +542,33 @@ function ReviewSession({ queue }: { queue: Question[] }) {
             }))}
             answerId={q.item.id}
             explain={q.item.note}
+            explainWrong={(pickedId) => {
+              const p = q.options.find((o) => o.id === pickedId);
+              const ko = (s: Sentence) =>
+                s.ko.map((c) => c.t).filter(Boolean).join(" ");
+              return p ? (
+                <WhyWrong
+                  picked={{
+                    title: <>“{sentenceEnglish(p)}” is a different sentence</>,
+                    body: (
+                      <>
+                        that one is{" "}
+                        <span className="font-korean text-ink">{ko(p)}</span>
+                      </>
+                    ),
+                  }}
+                  answer={{
+                    title: (
+                      <>
+                        <span className="font-korean">{ko(q.item)}</span> = “
+                        {sentenceEnglish(q.item)}”
+                      </>
+                    ),
+                    body: q.item.note,
+                  }}
+                />
+              ) : null;
+            }}
             onAnswer={answer(q.kind, q.item.id)}
             onNext={next}
           />

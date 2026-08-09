@@ -5,6 +5,7 @@ import type { Chunk, Role, Sentence } from "../../../types";
 import { useKnownWords } from "../../../db/useKnownWords";
 import { unlockedSentences } from "../../../lib/gating";
 import { logDrillResult } from "../../../db/repo";
+import { firstArrangeMismatch } from "../../../lib/feedback";
 import { shuffle } from "../../../lib/rng";
 import { useDrillKeys } from "../engine/useDrillKeys";
 import DrillScaffold from "../engine/DrillScaffold";
@@ -133,6 +134,8 @@ function AnatomyDrill({ reviewIds }: { reviewIds?: Set<string> }) {
   const isCorrect =
     placed.length === answer.length &&
     placed.every((c, i) => c.t === answer[i]!.t);
+  const mismatch =
+    checked && !isCorrect ? firstArrangeMismatch(placed, answer) : null;
 
   const check = () => {
     if (!s || checked || placed.length !== answer.length) return;
@@ -370,6 +373,19 @@ function AnatomyDrill({ reviewIds }: { reviewIds?: Set<string> }) {
                   <span className="text-ink">
                     {answer.map((c) => c.t).join(" · ")}
                   </span>
+                  {mismatch && (
+                    <div className="mt-1.5 font-normal text-muted">
+                      Slot {mismatch.index + 1}: you placed{" "}
+                      <b className={ROLE_COLOR[mismatch.placed.role].text}>
+                        {mismatch.placed.t}
+                      </b>{" "}
+                      ({mismatch.placed.role}) where{" "}
+                      <b className={ROLE_COLOR[mismatch.answer.role].text}>
+                        {mismatch.answer.t}
+                      </b>{" "}
+                      ({mismatch.answer.role}) goes.
+                    </div>
+                  )}
                 </>
               )}
               <button
