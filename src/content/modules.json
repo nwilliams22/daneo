@@ -502,5 +502,31 @@
       "s20_if_contact", "s20_forgot_password", "s20_free_wifi",
       "s20_alarm_again", "s20_dont_press"
     ]
+  },
+  {
+    "id": "m21",
+    "title": "Clothes and Shopping II",
+    "order": 24,
+    "contentMd": "modules/module-21.md",
+    "wordIds": [
+      "w_baji", "w_cheongbaji", "w_chima", "w_tisyeocheu",
+      "w_syeocheu", "w_koteu", "w_seuweteo", "w_wonpiseu",
+      "w_jamot", "w_gyobok", "w_suyeongbok", "w_hanbok",
+      "w_undonghwa", "w_gudu", "w_yangmal", "w_angyeong",
+      "w_mokgeori", "w_gwigeori", "w_banji", "w_jigap",
+      "w_janggap", "w_mokdori", "w_jumeoni",
+      "w_saekkkal", "w_yuhaeng", "w_seutail", "w_gagyeok",
+      "w_nektai",
+      "w_sinda", "w_kkida", "w_beotda", "w_garaipda",
+      "w_eoullida", "w_kkakda",
+      "w_meositda", "w_eorida", "w_gabyeopda", "w_mugeopda"
+    ],
+    "sentenceIds": [
+      "s21_look_cool", "s21_look_tired", "s21_look_young",
+      "s21_try_on", "s21_winter_coat", "s21_jeans_comfy",
+      "s21_change_home", "s21_suits_you", "s21_discount",
+      "s21_if_expensive", "s21_hanbok_pretty", "s21_wrong_size",
+      "s21_uniform", "s21_online_cheap"
+    ]
   }
 ]
