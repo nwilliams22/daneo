@@ -934,5 +934,50 @@
     "lit": "rice cake in a picture",
     "real": "something you can see but never have",
     "note": "M15's 그림 + M18's 떡: the painted rice cake feeds nobody. Deployed at real-estate listings, sports cars, and 딸기 뷔페 reservations that sold out. English pies live in the sky; Korean rice cakes hang in frames — both stay uneaten."
+  },
+  {
+    "id": "g_s1_eoljuka",
+    "cat": "phrase",
+    "ko": "얼죽아",
+    "rom": "eoljuka",
+    "lit": "frozen-to-death, still iced",
+    "real": "an iced-americano loyalist",
+    "note": "얼어 죽어도 아이스 아메리카노 — 'even if I freeze to death: iced americano' — first-syllabled into a personality type. Korea drinks 아아 through blizzards; the word salutes the commitment. M14's 죽다-hyperbole and Reading 4's shrinker, in one glass."
+  },
+  {
+    "id": "g_s1_utpeuda",
+    "cat": "phrase",
+    "ko": "웃프다",
+    "rom": "utpeuda",
+    "lit": "laugh-sad",
+    "real": "tragicomic — funny and sad at once",
+    "note": "웃기다 (M19) welded to 슬프다 (M7): the word for memes that hit too close, comedies about your own life, and 월요일 아침. English needs a sentence; Korean fused two adjectives and moved on. Conjugates like 슬프다: 웃퍼요."
+  },
+  {
+    "id": "g_s1_byeoldajul",
+    "cat": "phrase",
+    "ko": "별다줄",
+    "rom": "byeoldajul",
+    "lit": "they shorten every-darn-thing",
+    "real": "slang about slang (meta-준말)",
+    "note": "별걸 다 줄인다 — 'they abbreviate EVERYTHING' — which is itself an abbreviation: the complaint about first-syllabling, first-syllabled. Deployed by the previous generation at the current one, forever. Reading 4's pressure rule, aware of itself."
+  },
+  {
+    "id": "g_s1_kkilkkibbappa",
+    "cat": "phrase",
+    "ko": "낄끼빠빠",
+    "rom": "kkilkkibbappa",
+    "lit": "join when joining, leave when leaving",
+    "real": "read the room — know when you're wanted",
+    "note": "낄 때 끼고 빠질 때 빠져라, first-syllabled: the social skill of knowing which conversations include you. M16's 눈치 as an imperative — what the 꼰대 lacks and the 인싸 has calibrated to the millimeter."
+  },
+  {
+    "id": "g_s1_gap_eul",
+    "cat": "concept",
+    "ko": "갑과 을",
+    "rom": "gapgwa eul",
+    "lit": "party A and party B",
+    "real": "the strong and the weak (in any relationship)",
+    "note": "Contract language escaped the contract: 갑 is the stronger party, 을 the weaker — landlord/tenant, brand/franchisee, boss/intern. 갑질 is 갑 abusing the slope; 을의 눈물 (the eul's tears) headlines labor news. Two legal placeholders that became a national vocabulary of power — and yes, that's M30's formal 과 holding them together."
   }
 ]

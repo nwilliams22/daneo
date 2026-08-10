@@ -774,5 +774,26 @@
     "contentMd": "modules/module-konglish.md",
     "wordIds": [],
     "sentenceIds": []
+  },
+  {
+    "id": "s1",
+    "title": "Slang and Texting",
+    "order": 36,
+    "contentMd": "modules/module-s1.md",
+    "wordIds": [
+      "w_s1_kk", "w_s1_hh", "w_s1_yy", "w_s1_gs", "w_s1_yuyu",
+      "w_s1_heol", "w_s1_jjang", "w_s1_wanjeon",
+      "w_s1_kkuljaem", "w_s1_nojaem", "w_s1_aa",
+      "w_s1_choeae", "w_s1_deokhu", "w_s1_inssa", "w_s1_assa",
+      "w_s1_menbung", "w_s1_simkung", "w_s1_bulgeum",
+      "w_s1_gapbunssa", "w_s1_kebake", "w_s1_worabael",
+      "w_s1_gatsaeng", "w_s1_jjin", "w_s1_mildang",
+      "w_s1_kkondae", "w_s1_gapjil", "w_s1_sohwakhaeng"
+    ],
+    "sentenceIds": [
+      "s_s1_funny_kk", "s_s1_drama_kkuljaem", "s_s1_bulgeum",
+      "s_s1_iced_americano", "s_s1_dad_kkondae", "s_s1_simkung",
+      "s_s1_gapbunssa", "s_s1_gatsaeng"
+    ]
   }
 ]
