@@ -1,0 +1,140 @@
+word	mechanism	where
+일월	pattern	M25 — months are [Sino]+월
+이월	pattern	M25 — months are [Sino]+월
+삼월	pattern	M25 — months are [Sino]+월
+사월	pattern	M25 — months are [Sino]+월
+오월	pattern	M25 — months are [Sino]+월
+유월	pattern	M25 — months are [Sino]+월 (유월 flagged irregular)
+칠월	pattern	M25 — months are [Sino]+월
+팔월	pattern	M25 — months are [Sino]+월
+구월	pattern	M25 — months are [Sino]+월
+시월	pattern	M25 — months are [Sino]+월 (시월 flagged irregular; s25_my_birthday)
+십일월	pattern	M25 — months are [Sino]+월
+십이월	pattern	M25 — months are [Sino]+월 (s26_december_already)
+이십	pattern	M2 — Sino numbers compose ([digit]+십; s30_twenty_percent)
+삼십	pattern	M2 — Sino numbers compose
+사십	pattern	M2 — Sino numbers compose
+오십	pattern	M2 — Sino numbers compose
+육십	pattern	M2 — Sino numbers compose
+칠십	pattern	M2 — Sino numbers compose
+팔십	pattern	M2 — Sino numbers compose
+구십	pattern	M2 — Sino numbers compose
+일본어	pattern	M27 — the [나라]+어 language machine
+중국어	pattern	M27 — the [나라]+어 language machine
+이것	pattern	M29 이 + M17 것 (M16 note: 이 것 → 이거)
+저것	pattern	M29 저 + M17 것
+이쪽	pattern	M29 이 + M23 쪽 (M23 쪽 note shows 이쪽/저쪽)
+저쪽	pattern	M29 저 + M23 쪽
+그쪽	pattern	M29 그 + M23 쪽
+그곳	pattern	M29 그 + M12 곳 (M29 이곳 models the set)
+저곳	pattern	M29 저 + M12 곳
+이때	pattern	M29 이 + M25 때 (M25 그때 models the set)
+그분	pattern	M29 그 + M5 분 (M27 여러분 note: 분 = honorific person)
+이분	pattern	M29 이 + M5 분
+여학생	pattern	여자/남자 prefixes + M4 학생
+남학생	pattern	여자/남자 prefixes + M4 학생
+여동생	pattern	여/남 prefix + M4 동생
+남동생	pattern	여/남 prefix + M4 동생
+남녀	pattern	남+여 gender pair (M27 남편 note: 남 = male)
+중학생	pattern	M15 중학교 + M4 학생
+고등학생	pattern	M15 고등학교 + M4 학생
+운동장	pattern	M8 운동하다 + place-장 (M23 광장 note)
+수영장	pattern	M1-era 수영 + place-장
+경찰관	pattern	M16 경찰 + M23 -관 public-building suffix
+경찰서	pattern	M16 경찰 + 서 (station; -관 logic)
+점심시간	pattern	M3 점심 + M1 시간
+잠자다	pattern	M28 잠 + M1 자다 (M28 잠 note: 잠을 자다)
+휴일	pattern	휴 rest (M25 연휴 note) + M25 일
+공휴일	pattern	공 public + 휴일 (M25 연휴 note glosses 휴)
+서울역	pattern	M12 서울 + M12 역
+남대문시장	pattern	남대문 (M27 md) + M3 시장
+질문하다	pattern	M10 질문 + M1 하다
+약속하다	pattern	M5 약속 + M1 하다
+선물하다	pattern	M9 선물 + M1 하다
+잊어버리다	pattern	M15 잊다 + -버리다 (M28 잃다 note decodes the compound)
+닭고기	pattern	M30 닭 + M3 고기 (M30 닭 note)
+일주일	note	M8 주 note: 일주일 = one full week
+지난달	note	M25 지난주 note: the 지난- prefix works the whole calendar
+전화번호	note	M20 전화 note: 전화번호 self-assembles
+센티미터	note	M30 미터 note
+넷째	note	M30 둘째 note: the pattern continues
+다섯째	note	M30 둘째 note: the pattern continues
+어린이	note	M24 젊다 note: 어린이 = young-one
+부모	note	taught as M4 부모님
+선생	note	taught as M4 선생님 (님-ladder)
+사장	note	taught as M9 사장님
+아주머니	note	M27 아줌마 note: casual clip of 아주머니
+대학	note	taught as M15 대학교
+한국말	note	M4 말 note: 한국말 = colloquial 한국어
+얘기	note	M24 이야기 note: shortens to 얘기
+얘기하다	note	M10 이야기하다 note: shortens to 얘기
+이렇다	note	M24 이런 note: 이렇다 + -ㄴ
+어떠하다	note	M24 어떻다 — 어떠하다 is its full form
+쇠고기	note	variant of M18 소고기
+자장면	note	M30 초콜릿 note (Black Day 자장면)
+춤추다	note	M17 — taught as 춤을 추다
+고프다	note	M3 배고프다 — the raw stem
+고맙다	note	taught as M19-era 고마워요
+미안하다	note	taught as 미안해요 (M4/M19 apology ladder)
+죄송하다	note	taught as M4 죄송합니다
+값	note	M21 가격 note: the 값-flavored asking
+휴지통	note	M30 휴지 note
+남대문	note	M27 md — the compass decodes 남대문/동대문
+생각	hada-noun	M10 생각하다 (note: 생각 alone = a thought)
+운동	hada-noun	M8 운동하다
+공부	hada-noun	M1 공부하다
+결혼	hada-noun	M25 결혼하다
+필요	hada-noun	M16 필요하다
+설명	hada-noun	M24 설명하다
+준비	hada-noun	M8 준비하다
+인사	hada-noun	M19 인사하다
+대답	hada-noun	M10 대답하다
+시작	hada-noun	M8 시작하다
+시작되다	hada-noun	M8 시작하다 + M10 되다 (passive twin)
+연습	hada-noun	M10 연습하다
+청소	hada-noun	M13 청소하다
+구경	hada-noun	M22 구경하다
+운전	hada-noun	M10 운전하다
+도착	hada-noun	M8 도착하다
+초대	hada-noun	M19 초대하다
+사랑	hada-noun	M7 사랑하다
+요리	hada-noun	M22 요리하다 (the M22 gating fix)
+화	hada-noun	M19 화나다 (화가 나다 — M28 나다 note)
+재미	hada-noun	M7 재미있다 (note decomposes 재미+있다)
+위험	hada-noun	M12 위험하다
+감사	formula	M1 감사합니다
+감사하다	formula	M1 감사합니다
+안녕하다	formula	M1 안녕하세요
+안녕히	formula	M1 안녕히 가세요/계세요
+식사하다	note	M18 식사 + M1 하다
+산책	hada-noun	산책하다
+샤워	hada-noun	샤워하다
+수	glue	M10 -(으)ㄹ 수 있다 — ability-is-existence
+않다	glue	M28 -지 않다 — the long negation
+싶다	glue	M3 -고 싶어요
+말다	glue	M14 -지 마세요
+안되다	glue	M10 안 돼요
+거	glue	M17 것 note: casually 거
+전	glue	M13 particle-class 전에 + M5 오전
+후	glue	M13 particle-class 후에 + M5 오후
+좀	glue	M9 조금 note (조금→좀) + gap deck softener
+한	note	M5 — counter contractions 한/두/세/네/스무
+두	note	M5 — counter contractions (s30_two_photos)
+세	note	M5 — counter contractions
+스무	note	M5 — counter contractions
+요즈음	interlude	준말 interlude — 요즈음 → 요즘 (M26)
+오래간만	interlude	준말 interlude — 오래간만 → 오랜만 (M19)
+텔레비전	interlude	Konglish interlude — 텔레비전/티브이/티비 (M8) variants
+티브이	interlude	Konglish interlude — spelling variant of M8 티비
+노트	interlude	Konglish interlude — decodable on sight (M20 노트북)
+볼펜	interlude	Konglish interlude — decodable on sight
+비디오	interlude	Konglish interlude — decodable on sight
+라디오	interlude	Konglish interlude — decodable on sight
+테이블	interlude	Konglish interlude — decodable on sight (M30 식탁 covers the native)
+슈퍼마켓	interlude	Konglish interlude — decodable on sight (M3 마트 covers usage)
+스포츠	interlude	Konglish interlude — decodable on sight
+쇼핑	interlude	Konglish interlude — decodable on sight
+경주	proper	proper noun (place)
+설악산	proper	proper noun (place)
+인천	proper	proper noun (place)
+말씀하다	pattern	M27 말씀 + 하다 (note shows 말씀하세요)

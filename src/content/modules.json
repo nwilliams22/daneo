@@ -758,5 +758,21 @@
       "s30_naengmyeon_hot", "s30_toothbrush_paste", "s30_pizza_big",
       "s30_burger_cola", "s30_thousand_words"
     ]
+  },
+  {
+    "id": "m_junmal",
+    "title": "준말 — Korean Shrinks",
+    "order": 34,
+    "contentMd": "modules/module-junmal.md",
+    "wordIds": [],
+    "sentenceIds": []
+  },
+  {
+    "id": "m_konglish",
+    "title": "Konglish — the Adaptation Machine",
+    "order": 35,
+    "contentMd": "modules/module-konglish.md",
+    "wordIds": [],
+    "sentenceIds": []
   }
 ]

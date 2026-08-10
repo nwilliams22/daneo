@@ -51,20 +51,32 @@ const words = JSON.parse(
 ) as { ko: string; pos: string }[];
 const daneoKo = new Set(words.map((w) => w.ko));
 
-const covered = new Map<string, NiklWord[]>([
-  ["A", []],
-  ["B", []],
-  ["C", []],
-]);
-const missing = new Map<string, NiklWord[]>([
-  ["A", []],
-  ["B", []],
-  ["C", []],
-]);
-for (const w of byBase.values())
-  (daneoKo.has(w.base) ? covered : missing).get(w.grade)!.push(w);
+// Taught-as allowlist: headwords with no exact word entry that ARE taught —
+// via a compose-yourself pattern, a glue point, another entry's note, a
+// fixed formula, an interlude, or out-of-scope proper nouns. Curated by
+// hand in reference/nikl-taught-as.tsv; each row names its teaching home.
+const taughtAs = new Map<string, { mechanism: string; where: string }>();
+for (const line of readFileSync(join(root, "reference/nikl-taught-as.tsv"), "utf-8")
+  .trimEnd()
+  .split("\n")
+  .slice(1)) {
+  const [word, mechanism, where] = line.split("\t");
+  taughtAs.set(word, { mechanism, where });
+}
 
-for (const list of [...covered.values(), ...missing.values()])
+const covered = new Map<string, NiklWord[]>([["A", []], ["B", []], ["C", []]]);
+const viaAllowlist = new Map<string, NiklWord[]>([["A", []], ["B", []], ["C", []]]);
+const missing = new Map<string, NiklWord[]>([["A", []], ["B", []], ["C", []]]);
+for (const w of byBase.values()) {
+  const bucket = daneoKo.has(w.base)
+    ? covered
+    : taughtAs.has(w.base)
+      ? viaAllowlist
+      : missing;
+  bucket.get(w.grade)!.push(w);
+}
+
+for (const list of [...covered.values(), ...viaAllowlist.values(), ...missing.values()])
   list.sort((a, b) => a.rank - b.rank);
 
 const niklBases = new Set(byBase.keys());
@@ -76,14 +88,29 @@ console.log("NIKL 한국어 학습용 어휘 coverage — Daneo authored modules
 console.log("=".repeat(60));
 for (const grade of ["A", "B", "C"] as const) {
   const c = covered.get(grade)!.length;
-  const total = c + missing.get(grade)!.length;
+  const t = viaAllowlist.get(grade)!.length;
+  const m = missing.get(grade)!.length;
+  const total = c + t + m;
   console.log(
-    `Grade ${grade}: ${String(c).padStart(4)} / ${total} distinct headwords (${pct(c, total)})`,
+    `Grade ${grade}: ${String(c).padStart(4)} as headwords + ${String(t).padStart(3)} taught-as ` +
+      `= ${pct(c + t, total)} of ${total} (${m} missing)`,
   );
 }
 const totalCovered = [...covered.values()].reduce((n, l) => n + l.length, 0);
+const totalTaught = [...viaAllowlist.values()].reduce((n, l) => n + l.length, 0);
 console.log(
-  `Overall: ${totalCovered} / ${byBase.size} (${pct(totalCovered, byBase.size)})`,
+  `Overall: ${totalCovered} + ${totalTaught} taught-as = ${pct(totalCovered + totalTaught, byBase.size)} of ${byBase.size}`,
+);
+
+const mechCounts = new Map<string, number>();
+for (const list of viaAllowlist.values())
+  for (const w of list) {
+    const mech = taughtAs.get(w.base)!.mechanism;
+    mechCounts.set(mech, (mechCounts.get(mech) ?? 0) + 1);
+  }
+console.log(
+  "Taught-as mechanisms:",
+  [...mechCounts.entries()].map(([m, n]) => `${m} ${n}`).join(" · "),
 );
 console.log(
   `\nDaneo words beyond the list: ${beyondList.length} of ${words.length}`,
@@ -92,7 +119,16 @@ console.log(
 
 const gapA = missing.get("A")!;
 console.log(
-  `\nTop grade-A gaps by frequency rank (${gapA.length} total) — Ring 1 debt:`,
+  `\nGenuinely missing grade-A words by frequency rank (${gapA.length} total):`,
 );
 for (const w of gapA.slice(0, 40))
   console.log(`  ${String(w.rank).padStart(5)}  ${w.base} (${w.pos})`);
+
+// Allowlist hygiene: entries that went stale (now covered by a real word
+// entry) or that don't match any NIKL headword (typo) should be removed.
+const stale = [...taughtAs.keys()].filter((w) => daneoKo.has(w));
+const unknown = [...taughtAs.keys()].filter((w) => !byBase.has(w));
+if (stale.length)
+  console.log(`\nWARN stale allowlist entries (now real words): ${stale.join(", ")}`);
+if (unknown.length)
+  console.log(`WARN allowlist entries not on the NIKL list: ${unknown.join(", ")}`);
