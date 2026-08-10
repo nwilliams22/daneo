@@ -706,5 +706,31 @@
       "s28_post_between", "s28_night_no_sleep", "s28_walk_here",
       "s28_help_each", "s28_to_the_end"
     ]
+  },
+  {
+    "id": "m29",
+    "title": "The 그렇다 Machine and the Little Words",
+    "order": 32,
+    "contentMd": "modules/module-29.md",
+    "wordIds": [
+      "w_geureota", "w_geureona", "w_geureomyeon", "w_geureom",
+      "w_geureonikka", "w_geureochiman", "w_waenyahamyeon",
+      "w_ttaemun",
+      "w_i_det", "w_geu_det", "w_jeo_det", "w_modeun", "w_yeoreo",
+      "w_amu", "w_dareun", "w_geugeot", "w_igot",
+      "w_gajang", "w_maeu", "w_modu", "w_hamkke", "w_tto",
+      "w_kkok", "w_eonjena", "w_cham", "w_jamsi", "w_eoseo",
+      "w_mueot",
+      "w_a_interj", "w_geurae", "w_ani_interj", "w_aigo",
+      "w_nappeuda", "w_jeulgeopda",
+      "w_geokjeong", "w_saenghwal", "w_geunal", "w_geudongan"
+    ],
+    "sentenceIds": [
+      "s29_really_didnt_know", "s29_then_tomorrow", "s29_hard_but_fun",
+      "s29_winter_but", "s29_nobody_here", "s29_dont_worry",
+      "s29_everyone_knows", "s29_bad_dream", "s29_late_taxi",
+      "s29_together_trip", "s29_weather_cham", "s29_favorite_season",
+      "s29_already_end", "s29_life_how"
+    ]
   }
 ]

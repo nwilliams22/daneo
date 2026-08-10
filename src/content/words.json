@@ -1754,5 +1754,81 @@
 
   { "id": "w_hanbeon", "ko": "한번", "rom": "hanbeon", "en": "once / just once", "pos": "noun", "moduleId": "m28", "notes": "M5's 한 + M12's 번, fused: one-time — and softened into an invitation: 한번 해 보세요, give it a try (M16's try-machine's favorite passenger). 언제 한번 만나요 — let's meet sometime." },
 
-  { "id": "w_jamkkan", "ko": "잠깐", "rom": "jamkkan", "en": "a moment / briefly", "pos": "noun", "moduleId": "m28", "notes": "The raw moment inside M9's counter phrase 잠깐만요 (just-a-moment-please). 잠깐 들어오세요 — come in for a minute. Its formal twin 잠시 staffs announcements." }
+  { "id": "w_jamkkan", "ko": "잠깐", "rom": "jamkkan", "en": "a moment / briefly", "pos": "noun", "moduleId": "m28", "notes": "The raw moment inside M9's counter phrase 잠깐만요 (just-a-moment-please). 잠깐 들어오세요 — come in for a minute. Its formal twin 잠시 staffs announcements." },
+
+  { "id": "w_geureota", "ko": "그렇다", "rom": "geureota", "en": "to be that way / be so", "pos": "adj", "moduleId": "m29", "notes": "The connective factory's engine. 그래요 — I see / that's right; 그래요? — really?; 그랬어요? — did it? ㅎ-family like 어떻다 (M24). Its children fill this module." },
+
+  { "id": "w_geureona", "ko": "그러나", "rom": "geureona", "en": "but / however (written)", "pos": "phrase", "moduleId": "m29", "notes": "The WRITTEN but — books, news, exams. Say it aloud and you sound like an editorial; speech uses 그런데/하지만 (M7). Your first citizen of the written register (appendix S2's territory)." },
+
+  { "id": "w_geureomyeon", "ko": "그러면", "rom": "geureomyeon", "en": "if so / then", "pos": "phrase", "moduleId": "m29", "notes": "그렇다 + M20's -(으)면: if-that's-so. The full suit of 그럼; opens solutions: 그러면 내일 갈까요? — then shall we go tomorrow?" },
+
+  { "id": "w_geureom", "ko": "그럼", "rom": "geureom", "en": "then / well then", "pos": "phrase", "moduleId": "m29", "notes": "그러면, clipped by the 준말 machine. Doubles as a warm 'of course!': 그럼요! And closes conversations: 그럼, 내일 봐요. The most social two syllables in the language." },
+
+  { "id": "w_geureonikka", "ko": "그러니까", "rom": "geureonikka", "en": "so / that's why", "pos": "phrase", "moduleId": "m29", "notes": "그렇다 + M10's -(으)니까: because-it's-so. Also the 'that's what I'm saying!' of agreement — 그러니까요! — the chorus of every gossip session." },
+
+  { "id": "w_geureochiman", "ko": "그렇지만", "rom": "geureochiman", "en": "however", "pos": "phrase", "moduleId": "m29", "notes": "그렇다 + M7's -지만: that's-so-but. Sits between casual 그런데 and written 그러나 on the register ladder — the connectives got the M19 treatment all along." },
+
+  { "id": "w_waenyahamyeon", "ko": "왜냐하면", "rom": "waenyahamyeon", "en": "because (opening an answer)", "pos": "phrase", "moduleId": "m29", "notes": "'If you ask why—': M10's 왜 + 하면. Opens the answer and usually lands on -기 때문이에요. English says because mid-sentence; Korean announces it first." },
+
+  { "id": "w_ttaemun", "ko": "때문", "rom": "ttaemun", "en": "the reason / because of", "pos": "noun", "moduleId": "m29", "notes": "[noun] 때문에 — because of it: 눈 때문에, 너 때문에 (credit or blame; tone decides). The formal -기 때문이에요 answers 왜냐하면 — recognize now, produce in Ring 2." },
+
+  { "id": "w_i_det", "ko": "이", "rom": "i", "en": "this (before a noun)", "pos": "noun", "moduleId": "m29", "notes": "The bare pointer inside 이거/이런/이쪽, finally naked: 이 책, 이 사람. The radar's FIFTH 이 — subject particle, two, tooth, and now this. Context has been sorting them for you all course." },
+
+  { "id": "w_geu_det", "ko": "그", "rom": "geu", "en": "that / the (before a noun)", "pos": "noun", "moduleId": "m29", "notes": "그 사람 — that person; and Korean's closest thing to THE: 그 영화 — the movie we both mean. Rank 9 in the entire language; twenty-nine modules was long enough to wait." },
+
+  { "id": "w_jeo_det", "ko": "저", "rom": "jeo", "en": "that over there (before a noun)", "pos": "noun", "moduleId": "m29", "notes": "The far pointer: 저 건물 — that building yonder. Yes, it looks exactly like 저 (I-polite, M1) — 저는 저 사람을 알아요 is legal and Koreans don't blink. Sentence position referees." },
+
+  { "id": "w_modeun", "ko": "모든", "rom": "modeun", "en": "every / all (before a noun)", "pos": "noun", "moduleId": "m29", "notes": "모든 사람 — everyone; 모든 것 — everything. Frozen in badge form (M24's -ㄴ, fossilized). Its adverb sibling 모두 counts the same crowd from outside the noun." },
+
+  { "id": "w_yeoreo", "ko": "여러", "rom": "yeoreo", "en": "several / various", "pos": "noun", "moduleId": "m29", "notes": "여러 나라 — various countries; 여러 가지 — several kinds. The 여러 of M27's 여러분, demoted back to civilian duty." },
+
+  { "id": "w_amu", "ko": "아무", "rom": "amu", "en": "any (at all)", "pos": "noun", "moduleId": "m29", "notes": "The any-pointer: with negatives it empties rooms (아무도 없어요 — nobody), with 나 it opens them (아무 때나 — whenever). The indefinite system's front door." },
+
+  { "id": "w_dareun", "ko": "다른", "rom": "dareun", "en": "other / different (before a noun)", "pos": "noun", "moduleId": "m29", "notes": "M24's 다르다 in badge form, so common it fossilized into its own word: 다른 사람 — someone else; 다른 거 있어요? — got anything else? The shop-counter essential." },
+
+  { "id": "w_geugeot", "ko": "그것", "rom": "geugeot", "en": "that thing (full form)", "pos": "noun", "moduleId": "m29", "notes": "그거's formal suit — writing and careful speech keep the 것 whole (M16 taught you the clip). 그것보다 — more importantly… — pivots whole conversations." },
+
+  { "id": "w_igot", "ko": "이곳", "rom": "igot", "en": "this place (formal)", "pos": "noun", "moduleId": "m29", "notes": "여기's written twin: signs, brochures, and announcements say 이곳 (이 + M12's 곳). 이곳에서 수영하지 마세요 — the pool sign, now fully parseable." },
+
+  { "id": "w_gajang", "ko": "가장", "rom": "gajang", "en": "most / -est (formal)", "pos": "noun", "moduleId": "m29", "notes": "M22's 제일 in its written suit — 가장 큰 나라, 가장 좋아하는 노래. Speech says 제일; print says 가장; both crown the same winner." },
+
+  { "id": "w_maeu", "ko": "매우", "rom": "maeu", "en": "very (formal)", "pos": "noun", "moduleId": "m29", "notes": "The textbook's very — where speech says 아주/너무 (M11), writing says 매우. Your degree ladder now has dress shoes." },
+
+  { "id": "w_modu", "ko": "모두", "rom": "modu", "en": "all / everyone (adverb)", "pos": "noun", "moduleId": "m29", "notes": "모두 왔어요 — everyone came; 모두 얼마예요? — how much all together? 모든 modifies the noun; 모두 stands alone and counts the crowd." },
+
+  { "id": "w_hamkke", "ko": "함께", "rom": "hamkke", "en": "together (formal)", "pos": "noun", "moduleId": "m29", "notes": "M9's 같이 in its ceremony suit — wedding invitations, anthems, and slogans say 함께. 같이 gets the coffee; 함께 gets the vows." },
+
+  { "id": "w_tto", "ko": "또", "rom": "tto", "en": "again / also", "pos": "noun", "moduleId": "m29", "notes": "또 만나요! — see you again! — and the exasperated 또?! (AGAIN?!). M10's 다시 is redo-again; 또 is once-more-again. Small word, daily workout." },
+
+  { "id": "w_kkok", "ko": "꼭", "rom": "kkok", "en": "surely / without fail", "pos": "noun", "moduleId": "m29", "notes": "The promise-hardener: 꼭 오세요 — you MUST come; 꼭 연락할게요 — I'll definitely call. Softness with steel inside; Korean invitations run on it." },
+
+  { "id": "w_eonjena", "ko": "언제나", "rom": "eonjena", "en": "always (anytime)", "pos": "noun", "moduleId": "m29", "notes": "M10's 언제 + 나: whenever-you-look. M8's 항상 states a fact; 언제나 makes it warm — 언제나 환영해요, always welcome." },
+
+  { "id": "w_cham", "ko": "참", "rom": "cham", "en": "truly / oh right!", "pos": "noun", "moduleId": "m29", "notes": "Two jobs: the warm truly (날씨가 참 좋네요) and the oh-right! of sudden remembering (참! 숙제 있었지). The grandmother's degree word and everyone's memory alarm." },
+
+  { "id": "w_jamsi", "ko": "잠시", "rom": "jamsi", "en": "a moment (formal)", "pos": "noun", "moduleId": "m29", "notes": "M28's 잠깐 in uniform: 잠시만 기다려 주세요 — the announcement, the hold music, the elevator. Same moment, starched collar." },
+
+  { "id": "w_eoseo", "ko": "어서", "rom": "eoseo", "en": "quickly / come on", "pos": "noun", "moduleId": "m29", "notes": "The hurry-warmly adverb hiding in M9's 어서 오세요 — 'come QUICKLY' softened into 'welcome.' 어서 먹어 — go on, eat — is grandmother for I love you." },
+
+  { "id": "w_mueot", "ko": "무엇", "rom": "mueot", "en": "what (full form)", "pos": "noun", "moduleId": "m29", "notes": "뭐's full suit (M10 taught the clip first — the course's one deliberate backwards 준말). Writing and formal speech keep it whole: 이것은 무엇입니까?" },
+
+  { "id": "w_a_interj", "ko": "아", "rom": "a", "en": "ah! / oh!", "pos": "phrase", "moduleId": "m29", "notes": "The realization noise: 아, 알겠어요 — ah, got it. 아! before a sentence buys the brain half a second; Koreans deploy it constantly, and now so do you." },
+
+  { "id": "w_geurae", "ko": "그래", "rom": "geurae", "en": "yeah / okay (casual)", "pos": "phrase", "moduleId": "m29", "notes": "그렇다 in M19's 반말: 그래! — okay!; 그래? — really?; 그래 그래 — yes yes, I'm listening. The polite version is this module's 그래요." },
+
+  { "id": "w_ani_interj", "ko": "아니", "rom": "ani", "en": "no (casual) / wait, what?", "pos": "phrase", "moduleId": "m29", "notes": "아니요's 반말 clip — but its second job is bigger: sentence-initial 아니 means 'hold on, WHAT—': 아니, 왜 벌써 가요? Disbelief's favorite opener." },
+
+  { "id": "w_aigo", "ko": "아이고", "rom": "aigo", "en": "oh dear / oof", "pos": "phrase", "moduleId": "m29", "notes": "The national exhalation: pain (아이고 허리야), sympathy (아이고, 어떡해), exhaustion (sitting down after fifty), delight (아이고 예뻐라). Standing up, sitting down, and everything between. See the gap deck." },
+
+  { "id": "w_nappeuda", "ko": "나쁘다", "rom": "nappeuda", "en": "to be bad", "pos": "adj", "moduleId": "m29", "notes": "좋다's opposite, twenty-nine modules late — proof the course preferred 안 좋아요 (softer, more common) all along. ㅡ-drop family: 나빠요. 나쁜 사람, 나쁜 꿈, 나쁜 날씨." },
+
+  { "id": "w_jeulgeopda", "ko": "즐겁다", "rom": "jeulgeopda", "en": "to be pleasant / joyful", "pos": "adj", "moduleId": "m29", "notes": "M17's 즐기다 (enjoy), adjectived — ㅂ-family: 즐거워요. 즐거운 여행 되세요! — have a pleasant trip! — the send-off on every platform." },
+
+  { "id": "w_geokjeong", "ko": "걱정", "rom": "geokjeong", "en": "worry", "pos": "noun", "moduleId": "m29", "notes": "걱정하지 마세요 — don't worry — possibly the kindest -지 마세요 (M14). 걱정돼요 — I'm worried; 걱정이 많아요 — the 있다-chassis measures anxiety too." },
+
+  { "id": "w_saenghwal", "ko": "생활", "rom": "saenghwal", "en": "daily life", "pos": "noun", "moduleId": "m29", "notes": "생 (life — 생일/인생's 생) + 활 (activity): life as it's actually lived. 한국 생활이 어때요? — how's life in Korea? — the question every 외국인 (M23) fields." },
+
+  { "id": "w_geunal", "ko": "그날", "rom": "geunal", "en": "that day", "pos": "noun", "moduleId": "m29", "notes": "그 + M11's 날, fused solid: the day we both mean. 그날 밤 — that night — is how every Korean story turns its most important corner." },
+
+  { "id": "w_geudongan", "ko": "그동안", "rom": "geudongan", "en": "meanwhile / all this time", "pos": "noun", "moduleId": "m29", "notes": "그 + M28's 동안: the span since we last met. 그동안 잘 지냈어요? — the catch-up greeting M1's 잘 지냈어요 grows into once there's a gap worth naming." }
 ]
