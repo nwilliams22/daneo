@@ -4,7 +4,7 @@ The 도시 you commute through and the 자연 you escape to on weekends — plus
 
 > **Warm-up (Module 21):** build these out loud — Module 21 blocks, combinations you've never seen written: *These pants look comfortable* (바지가 편해 보여요) · *Take off your coat* (코트를 벗으세요) · *The wallet is in my pocket* (지갑이 주머니 안에 있어요). If the blocks don't snap together, visit Review first.
 
-**How to use this:** this is the last module with new glue — after today, every grammar pattern on the Ring 1 checklist is yours, and M23–M26 are pure vocabulary. Rank things accordingly.
+**How to use this:** the comparison machine is Band 2's last BIG grammar — what remains on the map (M23–M26) is garnish: a convenience pattern, the noun-modifiers, dates, and one noticing-ending for the capstone. From here, it's mostly vocabulary and victory laps.
 
 ---
 
@@ -85,4 +85,4 @@ Ranking drill: three honest superlatives about your own life, predicate-side —
 
 ## What's next
 
-**The final stretch:** M23–M26 close Ring 1 with pure vocabulary — every grammar pattern on the map is now yours. The menu lives in CURRICULUM.md.
+**The final stretch:** Travel & Asking the Way (M23) · Opinions & Modifiers (M24 — the -(으)ㄴ/-는 noun-modifiers, at last) · Dates & Life Events (M25) · the Korea & Culture capstone (M26). The menu lives in CURRICULUM.md.
