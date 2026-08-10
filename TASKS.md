@@ -68,13 +68,16 @@
 - [x] M25 Dates & Life Events (년/월/일 date machine + -(으)ㄹ 때 — the third badge lands; 명절 culture, 미역국/돌잡이/백일 gap items, 새해 복 많이 받으세요 decoded) — 38 words, 14 sentences, 3 gap items *(2026-08-10)*
 - [x] M26 Korea & Culture capstone (-네요 the noticing ending; sentences deliberately mine every band; 세종대왕이 한글을 만들었어요 finally sayable; final sentence 한국어 공부는 이제 시작이네요) — 38 words, 14 sentences, 3 gap items *(2026-08-10)* — **Ring 1 module skeleton complete: M1–M26 + 3 interludes all shipped**
 - [ ] Slang appendix S1 (living module, anytime — leans on M19's 반말)
-- [ ] At Ring 1 ~done: import NIKL 5,965 list as reference data + coverage script; decide Ring 2 module format
+- [x] Import NIKL 5,965 list as reference data (`reference/nikl-5965.tsv`, KOGL Type 1, provenance in reference/README.md) + `npm run coverage:nikl` report — **65.7% of grade A** (587/894 distinct headwords), 243 B + 55 C along the way, 105 Daneo words beyond the list; 307 grade-A gaps listed by frequency *(2026-08-10)*
+- [ ] Grade-A gap sweep before Ring 2: countries & nationalities (미국/일본/중국/영국… all rank-0 A-words), common verbs 나오다/들다/가지다/나다, connectives 그러나/때문(에)/함께 — 1–2 patch modules would push A-coverage past ~80%
+- [ ] Decide Ring 2 module format (leaner than the M3–M26 contract; pipeline-assisted per CURRICULUM.md §1)
 
 ## Phase B — Sharing (do not start without explicit decision)
 - [ ] Deploy static build + proxy; simple auth; per-user state sync
 
 ## Discovered work
 - (add items here with dates)
+- 2026-08-10 · Feature idea (Nick): **module-end tests** — a quiz at the end of each module in the spirit of howtostudykorean.com's unit tests: mixed questions over the module's vocab, sentences, and grammar, with a score at the end. Fits the existing machinery (distractors, ChoiceQuestion kinds, why-wrong feedback, logDrillResult funnel).
 - 2026-08-01 · Future module idea (Nick): slang section.
 - 2026-08-01 · Future module idea (Nick): formal vs casual register — e.g. 안녕하세요 ↔ 안녕 between friends; pairs with the politeness-levels module already sketched for Module 4.
 - 2026-08-01 · Future module idea (Nick): Korean spacing (띄어쓰기) and punctuation — when to add spaces, what punctuation exists; could live inside sentence-structure content.

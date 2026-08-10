@@ -12,7 +12,8 @@
     "validate:content": "vitest run tests/content.validate.test.ts",
     "tauri": "tauri",
     "lint": "oxlint",
-    "tauri:build": "NO_STRIP=true tauri build"
+    "tauri:build": "NO_STRIP=true tauri build",
+    "coverage:nikl": "tsx scripts/nikl-coverage.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",
