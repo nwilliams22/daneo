@@ -502,5 +502,32 @@
     "lit": "one's hands are big",
     "real": "generous (always over-caters)",
     "note": "Said of the host who cooks for twelve when four are coming. The body is Korean's favorite metaphor kit: 코가 높다 (high nose — arrogant), 입이 무겁다 (heavy mouth — keeps secrets), 귀가 얇다 (thin ears — easily swayed). Glove size is not the point."
+  },
+  {
+    "id": "g15_siheom_boda",
+    "cat": "structure",
+    "ko": "시험을 보다",
+    "rom": "siheomeul boda",
+    "lit": "to see an exam",
+    "real": "to take an exam",
+    "note": "Korean doesn't take tests — it SEES them. 시험을 봐요 (I'm taking a test), 시험을 잘 봤어요 (it went well). English 'sits' exams in Britain and 'takes' them in America; Korean watches them happen. Same verb as seeing a movie."
+  },
+  {
+    "id": "g15_suneung",
+    "cat": "concept",
+    "ko": "수능",
+    "rom": "suneung",
+    "lit": "scholastic ability (exam)",
+    "real": "the exam that stops the nation",
+    "note": "One November morning, all of Korea holds its breath: flights are grounded during the listening section, offices open late to clear the roads, police escort late students with sirens on, and juniors cheer at the school gates. Twelve years of 학원 evenings aim at this single day."
+  },
+  {
+    "id": "g15_hwaiting",
+    "cat": "phrase",
+    "ko": "화이팅!",
+    "rom": "hwaiting!",
+    "lit": "fighting!",
+    "real": "you can do it! / good luck!",
+    "note": "Konglish that outgrew its source: borrowed 'fighting,' repurposed as pure encouragement. Said before exams, interviews, matches, Mondays. English speakers find it adorably aggressive; Koreans find English's lack of an equivalent genuinely inconvenient."
   }
 ]
