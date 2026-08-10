@@ -4851,5 +4851,275 @@
     "rom": "hanguk deuramaneun ingiga manayo",
     "wordIds": ["w_hanguk", "w_deurama", "w_ingi", "w_manta"],
     "note": "Popularity is POSSESSED in Korean — 인기가 많아요, 'has much popularity' — the 있다-chassis one more time. Objectively true sentence."
+  },
+  {
+    "id": "s18_formula_before",
+    "en": [
+      { "t": "I will eat well (said before eating)", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "well eat-will-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "잘 먹겠습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "jal meokgetseumnida",
+    "wordIds": ["w_jal", "w_meokda"],
+    "note": "The before-eating formula — thanks to whoever cooked or paid. Inside it, a preview: -겠- marks intention ('I WILL eat well'). Memorize the whole thing; the grammar comes free."
+  },
+  {
+    "id": "s18_formula_after",
+    "en": [
+      { "t": "I ate well (said after eating)", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "well ate-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "잘 먹었습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "jal meogeotseumnida",
+    "wordIds": ["w_jal", "w_meokda"],
+    "note": "The after-eating bookend — and a minimal pair with 먹겠습니다: swap -겠- (will) for -었- (did) and intention becomes gratitude. Two formulas, one grammar lesson hiding in plain sight."
+  },
+  {
+    "id": "s18_recommend",
+    "en": [
+      { "t": "What's good here?", "role": "other", "id": "q" },
+      { "t": "Please recommend something", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "what-[subj] is-tasty?", "role": "other", "id": "q" },
+      { "t": "recommend-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뭐가 맛있어요?", "role": "other", "id": "q" },
+      { "t": "추천해 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mwoga masisseoyo? chucheonhae juseyo",
+    "wordIds": ["w_mwo", "w_masitda", "w_chucheonhada"],
+    "note": "The menu-panic escape hatch: M10's 뭐 asks, M9's do-for-me machine requests. Servers take this question seriously — expect a real answer."
+  },
+  {
+    "id": "s18_chicken_match",
+    "en": [
+      { "t": "After the soccer match,", "role": "other", "id": "c" },
+      { "t": "we order", "role": "verb", "id": "v" },
+      { "t": "chicken", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "soccer match after", "role": "other", "id": "c" },
+      { "t": "chicken-[obj]", "role": "object", "id": "o" },
+      { "t": "order-in", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "축구 경기 후에", "role": "other", "id": "c" },
+      { "t": "치킨을", "role": "object", "id": "o" },
+      { "t": "시켜요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chukgu gyeonggi hue chikineul sikyeoyo",
+    "wordIds": ["w_chukgu", "w_gyeonggi", "w_chikin", "w_sikida"],
+    "note": "M17's match flowing into M3's 시키다 through M13's 후에 — the 치맥 supply chain. On big match nights, delivery apps genuinely buckle."
+  },
+  {
+    "id": "s18_grill_family",
+    "en": [
+      { "t": "On weekends,", "role": "other", "id": "t" },
+      { "t": "I grill", "role": "verb", "id": "v" },
+      { "t": "pork belly", "role": "object", "id": "o" },
+      { "t": "with my family", "role": "other", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "weekend-on", "role": "other", "id": "t" },
+      { "t": "family-with", "role": "other", "id": "w" },
+      { "t": "pork-belly-[obj]", "role": "object", "id": "o" },
+      { "t": "grill", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "t" },
+      { "t": "가족하고", "role": "other", "id": "w" },
+      { "t": "삼겹살을", "role": "object", "id": "o" },
+      { "t": "구워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare gajokhago samgyeopsareul guwoyo",
+    "wordIds": ["w_jumal", "w_gajok", "w_samgyeopsal", "w_gupda"],
+    "note": "굽다 joins the ㅂ-irregular verbs: 구워요. Table-grill culture: tongs get passed, the youngest flips, everyone claims they're full and keeps eating."
+  },
+  {
+    "id": "s18_bibim_important",
+    "en": [
+      { "t": "With bibimbap,", "role": "subject", "id": "s" },
+      { "t": "the mixing", "role": "other", "id": "c" },
+      { "t": "is what matters", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "bibimbap-[as for]", "role": "subject", "id": "s" },
+      { "t": "mixing thing-[subj]", "role": "other", "id": "c" },
+      { "t": "is-important", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비빔밥은", "role": "subject", "id": "s" },
+      { "t": "비비는 것이", "role": "other", "id": "c" },
+      { "t": "중요해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bibimbabeun bibineun geosi jungyohaeyo",
+    "wordIds": ["w_bibimbap", "w_bibida", "w_jungyohada"],
+    "note": "M17's nominalizer meets M16's 중요하다 — and the dish meets its own verb: 비빔밥 is 비비다's noun wearing 밥. Mix it all the way down; half-mixed is half-lived."
+  },
+  {
+    "id": "s18_ramyeon_hungry",
+    "en": [
+      { "t": "I was hungry, so", "role": "other", "id": "c" },
+      { "t": "I boiled", "role": "verb", "id": "v" },
+      { "t": "ramyeon", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "stomach-hungry-because", "role": "other", "id": "c" },
+      { "t": "ramyeon-[obj]", "role": "object", "id": "o" },
+      { "t": "boiled", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "배고파서", "role": "other", "id": "c" },
+      { "t": "라면을", "role": "object", "id": "o" },
+      { "t": "끓였어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "baegopaseo ramyeoneul kkeuryeosseoyo",
+    "wordIds": ["w_baegopeuda", "w_ramyeon", "w_kkeurida"],
+    "note": "The midnight national anthem. M3's 배고프다 through M10's -아서, resolving in 끓이다 — you boil it, it doesn't boil itself (the agency split from 끝나다/끝내다)."
+  },
+  {
+    "id": "s18_tteok_spicy",
+    "en": [
+      { "t": "Tteokbokki", "role": "subject", "id": "s" },
+      { "t": "is spicy, but", "role": "other", "id": "c" },
+      { "t": "it's delicious", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "tteokbokki-[as for]", "role": "subject", "id": "s" },
+      { "t": "is-spicy-but", "role": "other", "id": "c" },
+      { "t": "is-delicious", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "떡볶이는", "role": "subject", "id": "s" },
+      { "t": "맵지만", "role": "other", "id": "c" },
+      { "t": "맛있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "tteokbokkineun maepjiman masisseoyo",
+    "wordIds": ["w_tteokbokki", "w_maepda", "w_masitda"],
+    "note": "The street-food thesis statement — M7's -지만 weld, M3's 맵다 keeping its ㅂ before the consonant. The pain is part of the price."
+  },
+  {
+    "id": "s18_bowl_hot",
+    "en": [
+      { "t": "The bowl", "role": "subject", "id": "s" },
+      { "t": "is hot.", "role": "verb", "id": "v1" },
+      { "t": "Be careful", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "bowl-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-hot.", "role": "verb", "id": "v1" },
+      { "t": "be-careful-please", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "그릇이", "role": "subject", "id": "s" },
+      { "t": "뜨거워요.", "role": "verb", "id": "v1" },
+      { "t": "조심하세요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "geureusi tteugeowoyo. josimhaseyo",
+    "wordIds": ["w_geureut", "w_tteugeopda", "w_josimhada"],
+    "note": "Every 찌개 arrives with this warning, and it is always true. 뜨겁다 (hot to touch) vs M11's 덥다 (hot weather) — English merges them, Korean won't."
+  },
+  {
+    "id": "s18_hansik_banchan",
+    "en": [
+      { "t": "Korean food", "role": "subject", "id": "s" },
+      { "t": "comes with many", "role": "verb", "id": "v" },
+      { "t": "side dishes", "role": "other", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Korean-food-[as for]", "role": "subject", "id": "s" },
+      { "t": "side-dish-[subj]", "role": "other", "id": "o" },
+      { "t": "are-many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한식은", "role": "subject", "id": "s" },
+      { "t": "반찬이", "role": "other", "id": "o" },
+      { "t": "많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hansigeun banchani manayo",
+    "wordIds": ["w_hansik", "w_banchan", "w_manta"],
+    "note": "M3's 반찬 arrive unordered, unlimited, and refillable — 반찬 더 주세요 works with M9's 더. The table fills before the meal even starts."
+  },
+  {
+    "id": "s18_matjip",
+    "en": [
+      { "t": "This place", "role": "subject", "id": "s" },
+      { "t": "is the famous one", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "here-[subj]", "role": "subject", "id": "s" },
+      { "t": "taste-house-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여기가", "role": "subject", "id": "s" },
+      { "t": "맛집이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogiga matjibieyo",
+    "wordIds": ["w_yeogi", "w_matjip"],
+    "note": "Said with the confidence of someone who waited forty minutes to prove it. M6's 여기 + the taste-house — the sentence every food pilgrimage ends on."
+  },
+  {
+    "id": "s18_eat_out",
+    "en": [
+      { "t": "Today,", "role": "other", "id": "t" },
+      { "t": "let's eat out", "role": "verb", "id": "v" },
+      { "t": "together", "role": "other", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "together", "role": "other", "id": "w" },
+      { "t": "eat-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘", "role": "other", "id": "t" },
+      { "t": "같이", "role": "other", "id": "w" },
+      { "t": "외식해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneul gachi oesikhaeyo",
+    "wordIds": ["w_oneul", "w_gachi", "w_oesikhada"],
+    "note": "외식 — outside-eating — as a household holiday. M9's 같이 (said 가치, per the interlude) makes it an invitation."
+  },
+  {
+    "id": "s18_cheers",
+    "en": [
+      { "t": "Cheers!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "dry-the-glass!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "건배!", "role": "verb", "id": "v" }
+    ],
+    "rom": "geonbae!",
+    "wordIds": ["w_geonbae"],
+    "note": "Literally 'dry the glass.' Etiquette rides along: juniors clink lower and turn slightly away to drink — M4's politeness ladder, operating at the table."
+  },
+  {
+    "id": "s18_solo_okay",
+    "en": [
+      { "t": "Eating alone", "role": "other", "id": "c" },
+      { "t": "is fine too", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "alone eating thing-also", "role": "other", "id": "c" },
+      { "t": "is-fine", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "혼자 먹는 것도", "role": "other", "id": "c" },
+      { "t": "괜찮아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "honja meokneun geotdo gwaenchanayo",
+    "wordIds": ["w_honja", "w_meokda", "w_gwaenchanta"],
+    "note": "M17's nominalizer wearing M2's 도, absorbed by M7's all-purpose 괜찮아요. The gap deck's 혼밥 has made solo dining a named, normal thing — this sentence is its motto."
   }
 ]

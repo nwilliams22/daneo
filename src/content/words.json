@@ -906,5 +906,81 @@
 
   { "id": "w_je", "ko": "제", "rom": "je", "en": "my (humble)", "pos": "noun", "moduleId": "m17", "notes": "M4's 저 + possessive 의, squeezed into one syllable: 제 취미, 제 친구. The humble 'my' that matches 저." },
 
-  { "id": "w_p_geot", "ko": "것", "rom": "geot", "en": "thing (the nominalizer)", "pos": "particle", "moduleId": "m17", "notes": "The thing-word — casually 거, which you've already met inside 이거/그거/저거 (이 것 → 이거). With -는 in front, it turns whole verbs into things: 먹는 것, eating." }
+  { "id": "w_p_geot", "ko": "것", "rom": "geot", "en": "thing (the nominalizer)", "pos": "particle", "moduleId": "m17", "notes": "The thing-word — casually 거, which you've already met inside 이거/그거/저거 (이 것 → 이거). With -는 in front, it turns whole verbs into things: 먹는 것, eating." },
+
+  { "id": "w_jeotgarak", "ko": "젓가락", "rom": "jeotgarak", "en": "chopsticks", "pos": "noun", "moduleId": "m18", "notes": "Korean chopsticks are METAL — flat steel, heavier than wood, a national skill-check. The 가락 means a slender stick; 손가락 (fingers) are hand-sticks." },
+
+  { "id": "w_sutgarak", "ko": "숟가락", "rom": "sutgarak", "en": "spoon", "pos": "noun", "moduleId": "m18", "notes": "Korea keeps the spoon at the table for rice and soup — scooping rice with chopsticks marks you a beginner. Note the ㄷ batchim where 젓가락 has ㅅ; both say t." },
+
+  { "id": "w_sujeo", "ko": "수저", "rom": "sujeo", "en": "spoon and chopsticks (the set)", "pos": "noun", "moduleId": "m18", "notes": "숟가락 + 젓가락, first syllables fused. Restaurants keep the 수저 in a table-side drawer — check under the table before asking." },
+
+  { "id": "w_geureut", "ko": "그릇", "rom": "geureut", "en": "bowl / dish", "pos": "noun", "moduleId": "m18", "notes": "Also the counter for servings: 밥 한 그릇 — one bowl of rice. Don't lift it while eating — Korean bowls stay on the table, unlike in Japan." },
+
+  { "id": "w_jeopsi", "ko": "접시", "rom": "jeopsi", "en": "plate", "pos": "noun", "moduleId": "m18" },
+
+  { "id": "w_keop", "ko": "컵", "rom": "keop", "en": "cup", "pos": "noun", "moduleId": "m18", "notes": "Konglish 'cup', one syllable. M5's 잔 counts the drinks; 컵 is the object itself." },
+
+  { "id": "w_jjigae", "ko": "찌개", "rom": "jjigae", "en": "stew", "pos": "noun", "moduleId": "m18", "notes": "Thicker and saltier than 국, served bubbling in stone or steel: 김치찌개, 된장찌개. One pot, table-center, everyone's 숟가락 — that's the culture." },
+
+  { "id": "w_doenjang", "ko": "된장", "rom": "doenjang", "en": "soybean paste", "pos": "noun", "moduleId": "m18", "notes": "The fermented backbone of Korean cooking. The 장 (paste/sauce) family: 된장, 고추장, 간장 — storage-장's delicious homograph." },
+
+  { "id": "w_gochujang", "ko": "고추장", "rom": "gochujang", "en": "chili paste", "pos": "noun", "moduleId": "m18", "notes": "고추 (chili) + 장 (paste) — the red engine of 떡볶이 and 비빔밥. Now a global pantry word in its own spelling." },
+
+  { "id": "w_mandu", "ko": "만두", "rom": "mandu", "en": "dumplings", "pos": "noun", "moduleId": "m18", "notes": "Steamed, fried, or floating in 국 (만둣국). Cousin to jiaozi and gyoza — the dumpling diaspora runs through every border." },
+
+  { "id": "w_guksu", "ko": "국수", "rom": "guksu", "en": "noodles", "pos": "noun", "moduleId": "m18", "notes": "국수를 먹다 also means 'to attend a wedding' — noodle soup was the traditional wedding meal. 언제 국수 먹여 줄 거예요? = when are you getting married?" },
+
+  { "id": "w_tteok", "ko": "떡", "rom": "tteok", "en": "rice cake", "pos": "noun", "moduleId": "m18", "notes": "Chewy rice cakes for every occasion — moving day (M13's 이사 comes with 떡 for the 이웃), birthdays, exams (sticky 떡 helps you 'stick' to the pass list)." },
+
+  { "id": "w_tteokbokki", "ko": "떡볶이", "rom": "tteokbokki", "en": "spicy rice cakes", "pos": "noun", "moduleId": "m18", "notes": "떡 + 볶이 (stir-fried — the verb 볶다 below): street-food royalty, gochujang-red, sold from every orange tent (포장마차)." },
+
+  { "id": "w_samgyeopsal", "ko": "삼겹살", "rom": "samgyeopsal", "en": "pork belly (BBQ)", "pos": "noun", "moduleId": "m18", "notes": "삼 (three — M2's Sino!) + 겹 (layer) + 살 (flesh): three-layer meat. Grilled at your own table, wrapped in lettuce, the social meal." },
+
+  { "id": "w_dwaejigogi", "ko": "돼지고기", "rom": "dwaejigogi", "en": "pork", "pos": "noun", "moduleId": "m18", "notes": "돼지 (pig) + M3's 고기: pig-meat. Korean names meats by animal + 고기 — no separate 'pork/beef' words needed." },
+
+  { "id": "w_sogogi", "ko": "소고기", "rom": "sogogi", "en": "beef", "pos": "noun", "moduleId": "m18", "notes": "소 (cow) + 고기. The pattern from 돼지고기, and yes — 닭고기 (chicken-meat) exists too, when 치킨 isn't fried." },
+
+  { "id": "w_hoe", "ko": "회", "rom": "hoe", "en": "raw fish (sashimi-style)", "pos": "noun", "moduleId": "m18", "notes": "Not M16's gather-회 — this one is sliced and dipped in 고추장-vinegar. Coastal Korea's pride; 회 먹으러 갈까요? is a serious invitation." },
+
+  { "id": "w_gim", "ko": "김", "rom": "gim", "en": "seaweed (dried sheets)", "pos": "noun", "moduleId": "m18", "notes": "The 김 in M3's 김밥 — seaweed-rice, finally decomposed. NOT the 김 in 김치 (that's from 침채, pickled greens, worn down by centuries). Also Korea's most common surname; a 김 씨 eating 김 wrapped 김밥 is unremarkable." },
+
+  { "id": "w_yachae", "ko": "야채", "rom": "yachae", "en": "vegetables", "pos": "noun", "moduleId": "m18", "notes": "야 (field — the SAME field-야 as 야구) + 채 (greens). Field-greens; the homograph radar logs another repeat customer." },
+
+  { "id": "w_yeyakhada", "ko": "예약하다", "rom": "yeyakhada", "en": "to reserve / book", "pos": "verb", "moduleId": "m18", "notes": "예약 = reservation. M5's 약속 promises a person; 예약 promises a table, a ticket, a haircut." },
+
+  { "id": "w_chucheonhada", "ko": "추천하다", "rom": "chucheonhada", "en": "to recommend", "pos": "verb", "moduleId": "m18", "notes": "추천해 주세요 — recommend for me, please: the four syllables that unlock any menu you can't read." },
+
+  { "id": "w_baedal", "ko": "배달", "rom": "baedal", "en": "delivery", "pos": "noun", "moduleId": "m18", "notes": "Korea's delivery culture is world-final tier: anywhere, anything, absurdly fast. 배달 시키다 — with M3's 시키다 — is the operative phrase. Not M3's boat/stomach 배… or is it? (It isn't. Radar stays on.)" },
+
+  { "id": "w_eumnyosu", "ko": "음료수", "rom": "eumnyosu", "en": "beverage / soft drink", "pos": "noun", "moduleId": "m18", "notes": "음 (drink — 음식's first half) + 료 + 수 (water — 수영's 수). The menu category above the food." },
+
+  { "id": "w_dijeoteu", "ko": "디저트", "rom": "dijeoteu", "en": "dessert", "pos": "noun", "moduleId": "m18", "notes": "Konglish. Korean meals traditionally end with fruit or 식혜, but the 카페 conquered dessert — hence the meal-then-coffee two-stop ritual." },
+
+  { "id": "w_matjip", "ko": "맛집", "rom": "matjip", "en": "famous good restaurant", "pos": "noun", "moduleId": "m18", "notes": "맛 (taste) + 집 (house): a taste-house — the place worth the pilgrimage and the line. Every neighborhood argues about its 맛집 list; that's half the fun." },
+
+  { "id": "w_mat", "ko": "맛", "rom": "mat", "en": "taste / flavor", "pos": "noun", "moduleId": "m18", "notes": "The noun hiding inside 맛있다 (taste-exists) and 맛없다 since Module 1 — extracted at last. 무슨 맛이에요? — what flavor is it?" },
+
+  { "id": "w_singgeopda", "ko": "싱겁다", "rom": "singgeopda", "en": "to be bland", "pos": "adj", "moduleId": "m18", "notes": "ㅂ-irregular: 싱거워요. The polite complaint; also said of people who joke weakly — a bland person, seasoning-wise." },
+
+  { "id": "w_tteugeopda", "ko": "뜨겁다", "rom": "tteugeopda", "en": "to be hot (to the touch)", "pos": "adj", "moduleId": "m18", "notes": "ㅂ-irregular: 뜨거워요. M11's 덥다 is hot weather; 뜨겁다 is the hot bowl. English merges them; Korean won't." },
+
+  { "id": "w_chagapda", "ko": "차갑다", "rom": "chagapda", "en": "to be cold (to the touch)", "pos": "adj", "moduleId": "m18", "notes": "ㅂ-irregular: 차가워요. 춥다 is cold weather; 차갑다 is the iced drink — and, metaphorically, a cold person." },
+
+  { "id": "w_gupda", "ko": "굽다", "rom": "gupda", "en": "to grill / bake", "pos": "verb", "moduleId": "m18", "notes": "ㅂ-irregular VERB: 구워요. 삼겹살을 구워요 — at your own table, tongs in hand; whoever grills, everyone eats." },
+
+  { "id": "w_bokda", "ko": "볶다", "rom": "bokda", "en": "to stir-fry", "pos": "verb", "moduleId": "m18", "notes": "The 볶 in 떡볶이 and 볶음밥 (fried rice). Menu-reading superpower: spot 볶, expect a hot pan." },
+
+  { "id": "w_kkeurida", "ko": "끓이다", "rom": "kkeurida", "en": "to boil (something)", "pos": "verb", "moduleId": "m18", "notes": "라면을 끓여요 — the national midnight verb. 물이 끓어요 (it boils) vs 물을 끓여요 (you boil it) — the 끝나다/끝내다 agency split again." },
+
+  { "id": "w_bibida", "ko": "비비다", "rom": "bibida", "en": "to mix / rub together", "pos": "verb", "moduleId": "m18", "notes": "The 비빔 in 비빔밥 — mixed rice. Mix it ALL, properly, before eating; a politely unmixed 비빔밥 is a small tragedy." },
+
+  { "id": "w_anju", "ko": "안주", "rom": "anju", "en": "food that goes with drinks", "pos": "noun", "moduleId": "m18", "notes": "Drinking without 안주 is considered borderline reckless — the word makes eating-while-drinking a named institution. 치킨 is 맥주's official 안주 (M3's 치맥)." },
+
+  { "id": "w_geonbae", "ko": "건배", "rom": "geonbae", "en": "cheers! (a toast)", "pos": "noun", "moduleId": "m18", "notes": "Literally 'dry the glass.' Juniors clink lower and turn slightly away to drink — M4's politeness system operating at the table." },
+
+  { "id": "w_hansik", "ko": "한식", "rom": "hansik", "en": "Korean food / cuisine", "pos": "noun", "moduleId": "m18", "notes": "한 (Korea) + 식 (food — 식당's 식). The set: 한식, 중식 (Chinese), 일식 (Japanese), 양식 (Western). Four cuisines, one suffix." },
+
+  { "id": "w_oesikhada", "ko": "외식하다", "rom": "oesikhada", "en": "to eat out", "pos": "verb", "moduleId": "m18", "notes": "외 (outside — 외국어's 외) + 식 (food): outside-eating. 오늘은 외식해요! — the happiest household announcement." },
+
+  { "id": "w_dubu", "ko": "두부", "rom": "dubu", "en": "tofu", "pos": "noun", "moduleId": "m18", "notes": "된장찌개's soft white heart. 순두부찌개 — silken-tofu stew — is its bubbling starring role." }
 ]
