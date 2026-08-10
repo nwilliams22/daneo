@@ -5889,5 +5889,296 @@
     "rom": "inteoneseseo oseul samyeon ssayo",
     "wordIds": ["w_inteonet", "w_ot", "w_sada", "w_ssada"],
     "note": "M20's internet meets M20's hinge meets M7's 싸다 — the sentence behind Korea's overflowing delivery lobbies. 사면/싸요: one tense vowel apart; the confusables drill trained you for this."
+  },
+  {
+    "id": "s22_seoul_bigger",
+    "en": [
+      { "t": "Seoul", "role": "subject", "id": "s" },
+      { "t": "is bigger", "role": "verb", "id": "v" },
+      { "t": "than Busan", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "Seoul-[subj]", "role": "subject", "id": "s" },
+      { "t": "Busan-than", "role": "other", "id": "c" },
+      { "t": "more is-big", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서울이", "role": "subject", "id": "s" },
+      { "t": "부산보다", "role": "other", "id": "c" },
+      { "t": "더 커요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seouri busanboda deo keoyo",
+    "wordIds": ["w_seoul", "w_busan", "w_deo", "w_keuda"],
+    "note": "The comparison machine: [loser]보다 더 [adjective]. That 보다 is a PARTICLE wearing the verb's spelling — the syllable's fifth job. M9's 더 finally reveals its grammar career."
+  },
+  {
+    "id": "s22_subway_faster",
+    "en": [
+      { "t": "The subway", "role": "subject", "id": "s" },
+      { "t": "is faster", "role": "verb", "id": "v" },
+      { "t": "than the bus", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "subway-[subj]", "role": "subject", "id": "s" },
+      { "t": "bus-than", "role": "other", "id": "c" },
+      { "t": "more is-fast", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지하철이", "role": "subject", "id": "s" },
+      { "t": "버스보다", "role": "other", "id": "c" },
+      { "t": "더 빨라요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jihacheori beoseuboda deo ppallayo",
+    "wordIds": ["w_jihacheol", "w_beoseu", "w_deo", "w_ppareuda"],
+    "note": "M12's transit rivalry, finally adjudicated by grammar. 빠르다's 르-conjugation (빨라요) has been yours since the last train."
+  },
+  {
+    "id": "s22_jeju_beautiful",
+    "en": [
+      { "t": "Jeju Island", "role": "subject", "id": "s" },
+      { "t": "is the most beautiful", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Jeju-[subj]", "role": "subject", "id": "s" },
+      { "t": "most is-beautiful", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제주도가", "role": "subject", "id": "s" },
+      { "t": "제일 아름다워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jejudoga jeil areumdawoyo",
+    "wordIds": ["w_jejudo", "w_jeil", "w_areumdapda"],
+    "note": "제일 — literally 'number one' (M2's Sino 일!) — parks before any adjective and crowns it. 아름답다 goes ㅂ-irregular for the occasion: 아름다워요."
+  },
+  {
+    "id": "s22_winter_clothes",
+    "en": [
+      { "t": "I like winter clothes more", "role": "verb", "id": "v" },
+      { "t": "than summer clothes", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "summer clothes-than", "role": "other", "id": "c" },
+      { "t": "winter clothes-[obj] more like", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여름 옷보다", "role": "other", "id": "c" },
+      { "t": "겨울 옷을 더 좋아해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeoreum otboda gyeoul oseul deo joahaeyo",
+    "wordIds": ["w_yeoreum", "w_gyeoul", "w_ot", "w_deo", "w_joahada"],
+    "note": "The comparison machine handles preferences too — [rejected]보다 [chosen]을 더 좋아해요. M11's seasons and M21's closet, ranked."
+  },
+  {
+    "id": "s22_hangang_chicken",
+    "en": [
+      { "t": "On weekends,", "role": "other", "id": "t" },
+      { "t": "we eat", "role": "verb", "id": "v" },
+      { "t": "chicken", "role": "object", "id": "o" },
+      { "t": "at Han River Park", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "weekend-on", "role": "other", "id": "t" },
+      { "t": "Han-River park-at", "role": "place", "id": "p" },
+      { "t": "chicken-[obj]", "role": "object", "id": "o" },
+      { "t": "eat", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "t" },
+      { "t": "한강 공원에서", "role": "place", "id": "p" },
+      { "t": "치킨을", "role": "object", "id": "o" },
+      { "t": "먹어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare hangang gongwoneseo chikineul meogeoyo",
+    "wordIds": ["w_jumal", "w_hangang", "w_gongwon", "w_chikin", "w_meokda"],
+    "note": "The 한강 lifestyle (gap deck): delivery scooters find your picnic blanket by GPS. M3's 치킨 has now appeared at the match, the 회식, and the river — the true main character."
+  },
+  {
+    "id": "s22_night_view",
+    "en": [
+      { "t": "Seoul", "role": "subject", "id": "s" },
+      { "t": "is famous for", "role": "verb", "id": "v" },
+      { "t": "its night view", "role": "other", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Seoul-[as for]", "role": "subject", "id": "s" },
+      { "t": "night-view-[subj]", "role": "other", "id": "o" },
+      { "t": "is-famous", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서울은", "role": "subject", "id": "s" },
+      { "t": "야경이", "role": "other", "id": "o" },
+      { "t": "유명해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoureun yagyeongi yumyeonghaeyo",
+    "wordIds": ["w_seoul", "w_yagyeong", "w_yumyeonghada"],
+    "note": "야경 = night-야 + scenery-경 — and yes, that's the third 야 the radar has logged (night, field, and this compound's night again). M17's 유명하다 confirms what the postcards claim."
+  },
+  {
+    "id": "s22_cat_quieter",
+    "en": [
+      { "t": "Cats", "role": "subject", "id": "s" },
+      { "t": "are quieter", "role": "verb", "id": "v" },
+      { "t": "than dogs", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "cat-[subj]", "role": "subject", "id": "s" },
+      { "t": "puppy-than", "role": "other", "id": "c" },
+      { "t": "more is-quiet", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "고양이가", "role": "subject", "id": "s" },
+      { "t": "강아지보다", "role": "other", "id": "c" },
+      { "t": "더 조용해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "goyangiga gangajiboda deo joyonghaeyo",
+    "wordIds": ["w_goyangi", "w_gangaji", "w_deo", "w_joyonghada"],
+    "note": "The interlude's promised 고양이 arrives — batchim ㅇ staying seated, as advertised — and immediately wins an argument with M13's 조용하다."
+  },
+  {
+    "id": "s22_flowers_bloom",
+    "en": [
+      { "t": "In spring,", "role": "other", "id": "t" },
+      { "t": "the flowers", "role": "subject", "id": "s" },
+      { "t": "bloom", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "spring-in", "role": "other", "id": "t" },
+      { "t": "flower-[subj]", "role": "subject", "id": "s" },
+      { "t": "bloom", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "봄에", "role": "other", "id": "t" },
+      { "t": "꽃이", "role": "subject", "id": "s" },
+      { "t": "피어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bome kkochi pieoyo",
+    "wordIds": ["w_bom", "w_kkot", "w_pida"],
+    "note": "피다 — the verb M14's 피우다 (make-bloom → smoke) was built on. Korea forecasts the 벚꽃 front like weather, city by city, to the day. The gap deck's 꽃구경 is the pilgrimage."
+  },
+  {
+    "id": "s22_country_air",
+    "en": [
+      { "t": "The countryside", "role": "subject", "id": "s" },
+      { "t": "has good air.", "role": "verb", "id": "v1" },
+      { "t": "But", "role": "other", "id": "c" },
+      { "t": "it's a little boring", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "countryside-[as for]", "role": "subject", "id": "s" },
+      { "t": "air-[subj] is-good.", "role": "verb", "id": "v1" },
+      { "t": "but", "role": "other", "id": "c" },
+      { "t": "a-little is-boring", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "시골은", "role": "subject", "id": "s" },
+      { "t": "공기가 좋아요.", "role": "verb", "id": "v1" },
+      { "t": "그런데", "role": "other", "id": "c" },
+      { "t": "조금 심심해요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "sigoreun gonggiga joayo. geureonde jogeum simsimhaeyo",
+    "wordIds": ["w_sigol", "w_gonggi", "w_jota", "w_geureonde", "w_jogeum", "w_simsimhada"],
+    "note": "The urban Korean's honest review of the countryside, M7's 그런데 hinging the trade-off. 공기가 좋아요 — air quality as compliment; M11's 미세먼지 made it one."
+  },
+  {
+    "id": "s22_autumn_sky",
+    "en": [
+      { "t": "In autumn,", "role": "other", "id": "t" },
+      { "t": "the sky", "role": "subject", "id": "s" },
+      { "t": "looks high", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "autumn-in-[as for]", "role": "other", "id": "t" },
+      { "t": "sky-[subj]", "role": "subject", "id": "s" },
+      { "t": "high-appears", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "가을에는", "role": "other", "id": "t" },
+      { "t": "하늘이", "role": "subject", "id": "s" },
+      { "t": "높아 보여요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gaeureneun haneuri nopa boyeoyo",
+    "wordIds": ["w_gaeul", "w_haneul", "w_nopda"],
+    "note": "M21's looks-machine on M11's sky — and a real Korean saying: autumn is when 'the sky is high and horses fatten' (천고마비). The clear air genuinely does it."
+  },
+  {
+    "id": "s22_climb_sneakers",
+    "en": [
+      { "t": "If you climb the mountain,", "role": "other", "id": "c" },
+      { "t": "wear", "role": "verb", "id": "v" },
+      { "t": "sneakers", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "mountain-to climb-if", "role": "other", "id": "c" },
+      { "t": "sneakers-[obj]", "role": "object", "id": "o" },
+      { "t": "wear-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "산에 오르면", "role": "other", "id": "c" },
+      { "t": "운동화를", "role": "object", "id": "o" },
+      { "t": "신으세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sane oreumyeon undonghwareul sineuseyo",
+    "wordIds": ["w_san", "w_oreuda", "w_undonghwa", "w_sinda"],
+    "note": "M20's hinge, M21's shoes and foot-verb, M11's mountain — though be warned: actual Korean hikers will outdress you in full alpine gear for a hill with a coffee shop on top."
+  },
+  {
+    "id": "s22_our_neighborhood",
+    "en": [
+      { "t": "Our neighborhood", "role": "subject", "id": "s" },
+      { "t": "is the most comfortable", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "our neighborhood-[subj]", "role": "subject", "id": "s" },
+      { "t": "most is-comfortable", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 동네가", "role": "subject", "id": "s" },
+      { "t": "제일 편해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri dongnega jeil pyeonhaeyo",
+    "wordIds": ["w_uri", "w_dongne", "w_jeil", "w_pyeonhada"],
+    "note": "M4's 우리 claiming the neighborhood, M12's 편하다 measuring it, 제일 crowning it. Everyone's 동네 wins this contest; that's what 동네 means."
+  },
+  {
+    "id": "s22_moms_cooking",
+    "en": [
+      { "t": "My mom's cooking", "role": "subject", "id": "s" },
+      { "t": "is the most delicious", "role": "verb", "id": "v" },
+      { "t": "in the world", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "our mom cooking-[subj]", "role": "subject", "id": "s" },
+      { "t": "world-in", "role": "other", "id": "c" },
+      { "t": "most is-delicious", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 엄마 요리가", "role": "subject", "id": "s" },
+      { "t": "세상에서", "role": "other", "id": "c" },
+      { "t": "제일 맛있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri eomma yoriga sesangeseo jeil masisseoyo",
+    "wordIds": ["w_uri", "w_eomma", "w_yorihada", "w_sesang", "w_jeil", "w_masitda"],
+    "note": "세상에서 제일 — the superlative's biggest stage. 우리 엄마, per M4's rule, even when she's only yours. A sentence that is grammatically superlative and factually correct in every household."
+  },
+  {
+    "id": "s22_rainbow",
+    "en": [
+      { "t": "After the rain stopped,", "role": "other", "id": "c" },
+      { "t": "I saw", "role": "verb", "id": "v" },
+      { "t": "a rainbow", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] stopped-after", "role": "other", "id": "c" },
+      { "t": "rainbow-[obj]", "role": "object", "id": "o" },
+      { "t": "saw", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가 그친 후에", "role": "other", "id": "c" },
+      { "t": "무지개를", "role": "object", "id": "o" },
+      { "t": "봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga geuchin hue mujigaereul bwasseoyo",
+    "wordIds": ["w_bi", "w_geuchida", "w_mujigae", "w_boda"],
+    "note": "M11's 그치다 through M13's 후에, resolved by plain old seeing — 보다's first job, for the prettiest payoff. Three bands of the course in one sky."
   }
 ]

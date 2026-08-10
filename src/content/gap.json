@@ -691,5 +691,32 @@
     "lit": "couple look",
     "real": "deliberately matching couple outfits",
     "note": "M19's 커플 + look: dressing identically ON PURPOSE — matching tees, jackets, down to 커플 신발. Peak commitment display at theme parks and Jeju. Western couples match by accident and apologize; Korean couples match by appointment and photograph it (인증샷, naturally)."
+  },
+  {
+    "id": "g22_hangang",
+    "cat": "concept",
+    "ko": "한강",
+    "rom": "hangang",
+    "lit": "the Han River",
+    "real": "Seoul's shared living room",
+    "note": "Not just geography — infrastructure for joy: picnic blankets, rental tents, 라면 vending machines that cook it for you, and delivery 치킨 that finds your GPS pin on the grass. 한강 가자! proposes an entire genre of evening. The phrase 한강 뷰 (river view) also moves real estate prices by fortunes."
+  },
+  {
+    "id": "g22_kkotgugyeong",
+    "cat": "concept",
+    "ko": "꽃구경 / 단풍구경",
+    "rom": "kkotgugyeong / danpunggugyeong",
+    "lit": "flower-viewing / foliage-viewing",
+    "real": "the seasonal pilgrimage",
+    "note": "구경 (leisurely looking) turns nature into an event: in spring the nation migrates to cherry blossoms, in autumn to the turning 단풍 — traffic jams, matching outfits, 인증샷 mandatory. The forecasts are broadcast like weather: bloom fronts move north, foliage fronts move south, and Korea moves with them."
+  },
+  {
+    "id": "g22_umul",
+    "cat": "phrase",
+    "ko": "우물 안 개구리",
+    "rom": "umul an gaeguri",
+    "lit": "a frog inside a well",
+    "real": "someone who thinks their small world is the whole world",
+    "note": "The classic proverb — the frog believes the circle of sky above its well is all the sky there is. Deployed for provincialism of every kind, including one's own: 저는 우물 안 개구리였어요 is a humble way to say travel changed you. M6's position noun 안 doing literary work."
   }
 ]
