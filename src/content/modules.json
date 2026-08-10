@@ -299,5 +299,31 @@
       "s12_cross_light", "s12_airport_meet", "s12_last_train",
       "s12_snow_careful"
     ]
+  },
+  {
+    "id": "m13",
+    "title": "Home and Rooms",
+    "order": 16,
+    "contentMd": "modules/module-13.md",
+    "wordIds": [
+      "w_apateu", "w_geosil", "w_bueok", "w_chimsil",
+      "w_hyeongwan", "w_beranda", "w_byeok", "w_badak",
+      "w_gyedan", "w_ellibeiteo", "w_cheung",
+      "w_sopa", "w_naengjanggo", "w_setakgi", "w_geoul",
+      "w_yeolsoe", "w_sseuregi", "w_ibul", "w_begae",
+      "w_otjang", "w_bul", "w_jim",
+      "w_kyeoda", "w_kkeuda", "w_yeolda", "w_datda",
+      "w_isahada", "w_jeongnihada", "w_beorida", "w_gochida",
+      "w_neopda", "w_jopda", "w_bakda", "w_eodupda",
+      "w_deoreopda", "w_sikkeureopda", "w_joyonghada",
+      "w_sae", "w_iut"
+    ],
+    "sentenceIds": [
+      "s13_sleep_before", "s13_party_clean", "s13_guests_after",
+      "s13_class_rest", "s13_move_new", "s13_what_floor",
+      "s13_fifth_floor", "s13_fridge_chicken", "s13_see_house",
+      "s13_trash_out", "s13_station_five", "s13_small_clean",
+      "s13_noisy_window", "s13_warm_floor"
+    ]
   }
 ]
