@@ -402,5 +402,29 @@
       "s16_mistake_okay", "s16_earn_spend", "s16_no_copy",
       "s16_busy_month", "s16_vacation_next"
     ]
+  },
+  {
+    "id": "m17",
+    "title": "Hobbies and Sports",
+    "order": 20,
+    "contentMd": "modules/module-17.md",
+    "wordIds": [
+      "w_chwimi", "w_chukgu", "w_yagu", "w_nonggu", "w_teniseu",
+      "w_suyeong", "w_deungsan", "w_noraebang", "w_chum", "w_sajin",
+      "w_gyeonggi", "w_seonsu", "w_gong", "w_piano", "w_gita",
+      "w_dokseo", "w_manhwa", "w_deurama", "w_nakksi",
+      "w_chida", "w_chuda", "w_jjikda", "w_igida", "w_jida_lose",
+      "w_eungwonhada", "w_dallida", "w_sanchaekhada",
+      "w_yeohaenghada", "w_moeuda", "w_jeulgida",
+      "w_jalhada", "w_mothada", "w_yumyeonghada",
+      "w_ingi", "w_maeju", "w_mani", "w_byeollo", "w_je"
+    ],
+    "sentenceIds": [
+      "s17_hobby_what", "s17_like_cooking", "s17_photo_hobby",
+      "s17_learn_swim", "s17_weekend_soccer", "s17_lost_won",
+      "s17_hoesik_norae", "s17_try_guitar", "s17_piano_sing",
+      "s17_cheer_korea", "s17_photos_mountain", "s17_not_really",
+      "s17_walk_park", "s17_drama_popular"
+    ]
   }
 ]

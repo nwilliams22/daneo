@@ -4575,5 +4575,281 @@
     "rom": "chuljangi kkeunnasseoyo. jigeumeun hyugayeyo",
     "wordIds": ["w_chuljang", "w_kkeunnada", "w_jigeum", "w_hyuga"],
     "note": "끝나다 — it ended by itself (compare 끝내다, where you end it). M11's 휴가 as the reward, with contrast-은 marking the turn: NOW, vacation. Fun fact: the first draft of this sentence was rejected by the app's own no-repeats validator — 다음 주부터 휴가예요 already exists in Module 11."
+  },
+  {
+    "id": "s17_hobby_what",
+    "en": [
+      { "t": "What", "role": "other", "id": "q" },
+      { "t": "is your hobby?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "hobby-[subj]", "role": "verb", "id": "v" },
+      { "t": "what-is?", "role": "other", "id": "q" }
+    ],
+    "ko": [
+      { "t": "취미가", "role": "verb", "id": "v" },
+      { "t": "뭐예요?", "role": "other", "id": "q" }
+    ],
+    "rom": "chwimiga mwoyeyo?",
+    "wordIds": ["w_chwimi", "w_mwo"],
+    "note": "The small-talk trinity's third question, after job and age. Your answer machine is this module's glue — read on."
+  },
+  {
+    "id": "s17_like_cooking",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "like", "role": "verb", "id": "v" },
+      { "t": "cooking", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "cooking thing-[obj]", "role": "object", "id": "o" },
+      { "t": "like", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "요리하는 것을", "role": "object", "id": "o" },
+      { "t": "좋아해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun yorihaneun geoseul joahaeyo",
+    "wordIds": ["w_jeo", "w_yorihada", "w_joahada"],
+    "note": "The nominalizer, deployed: 요리하다 → 요리하는 것 — 'the cooking thing' — and suddenly a verb can be liked, owned, discussed. This is the single most useful pattern left in Korean."
+  },
+  {
+    "id": "s17_photo_hobby",
+    "en": [
+      { "t": "My hobby", "role": "subject", "id": "s" },
+      { "t": "is taking photos", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "my hobby-[as for]", "role": "subject", "id": "s" },
+      { "t": "photo-[obj] taking thing-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제 취미는", "role": "subject", "id": "s" },
+      { "t": "사진을 찍는 것이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "je chwimineun sajineul jjikneun geosieyo",
+    "wordIds": ["w_je", "w_chwimi", "w_sajin", "w_jjikda"],
+    "note": "The full answer to 취미가 뭐예요?: [verb]-는 것 + the M4 copula. 제 — the humble 'my' matching 저 — finally arrives to claim the hobby."
+  },
+  {
+    "id": "s17_learn_swim",
+    "en": [
+      { "t": "I'm learning", "role": "verb", "id": "v" },
+      { "t": "to swim", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "swimming thing-[obj]", "role": "object", "id": "o" },
+      { "t": "learning-am", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "수영하는 것을", "role": "object", "id": "o" },
+      { "t": "배우고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "suyeonghaneun geoseul baeugo isseoyo",
+    "wordIds": ["w_suyeonghada", "w_baeuda"],
+    "note": "The nominalizer feeding M8's progressive — two machines chained. 있다's job count stopped being news modules ago."
+  },
+  {
+    "id": "s17_weekend_soccer",
+    "en": [
+      { "t": "On weekends,", "role": "other", "id": "t" },
+      { "t": "I watch", "role": "verb", "id": "v" },
+      { "t": "soccer matches", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "weekend-on", "role": "other", "id": "t" },
+      { "t": "soccer match-[obj]", "role": "object", "id": "o" },
+      { "t": "watch", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "t" },
+      { "t": "축구 경기를", "role": "object", "id": "o" },
+      { "t": "봐요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare chukgu gyeonggireul bwayo",
+    "wordIds": ["w_jumal", "w_chukgu", "w_gyeonggi", "w_boda"],
+    "note": "보다's original job, for once — actually watching. 축구 경기 stacks noun-on-noun, no particle needed between them."
+  },
+  {
+    "id": "s17_lost_won",
+    "en": [
+      { "t": "Yesterday we lost, but", "role": "other", "id": "c" },
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "we won", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "yesterday-[as for] lost-but", "role": "other", "id": "c" },
+      { "t": "today-[as for]", "role": "other", "id": "t" },
+      { "t": "won", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제는 졌지만", "role": "other", "id": "c" },
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "이겼어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eojeneun jyeotjiman oneureun igyeosseoyo",
+    "wordIds": ["w_eoje", "w_jida_lose", "w_oneul", "w_igida"],
+    "note": "Contrast-은 on both days, M7's -지만 as the hinge — the win/lose pair in one sports recap. Every fan's Tuesday."
+  },
+  {
+    "id": "s17_hoesik_norae",
+    "en": [
+      { "t": "After the company dinner,", "role": "other", "id": "c" },
+      { "t": "we go", "role": "verb", "id": "v" },
+      { "t": "to karaoke", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "company-dinner after", "role": "other", "id": "c" },
+      { "t": "karaoke-room-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회식 후에", "role": "other", "id": "c" },
+      { "t": "노래방에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoesik hue noraebange gayo",
+    "wordIds": ["w_hoesik", "w_noraebang", "w_gada"],
+    "note": "M16's 회식 flowing into the 노래방 through M13's 후에 — the standard trajectory of a Korean work evening, and three modules in one sentence."
+  },
+  {
+    "id": "s17_try_guitar",
+    "en": [
+      { "t": "Try playing", "role": "verb", "id": "v" },
+      { "t": "the guitar", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "guitar-[obj]", "role": "object", "id": "o" },
+      { "t": "play-try-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "기타를", "role": "object", "id": "o" },
+      { "t": "쳐 보세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gitareul chyeo boseyo",
+    "wordIds": ["w_gita", "w_chida"],
+    "note": "M16's try-machine handing you an instrument. 치다 + 어 → 쳐 — the same squeeze as 가르쳐요."
+  },
+  {
+    "id": "s17_piano_sing",
+    "en": [
+      { "t": "I play the piano well, but", "role": "other", "id": "c" },
+      { "t": "I'm bad at", "role": "verb", "id": "v" },
+      { "t": "singing", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "piano-[obj] well play-but", "role": "other", "id": "c" },
+      { "t": "song-[obj]", "role": "object", "id": "o" },
+      { "t": "am-bad-at", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "피아노를 잘 치지만", "role": "other", "id": "c" },
+      { "t": "노래를", "role": "object", "id": "o" },
+      { "t": "못해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pianoreul jal chijiman noraereul mothaeyo",
+    "wordIds": ["w_piano", "w_jal", "w_chida", "w_norae", "w_mothada"],
+    "note": "잘 치다 vs 못하다 — the good-at/bad-at pair in one honest self-assessment. The gap deck's 음치 has a word for the second half."
+  },
+  {
+    "id": "s17_cheer_korea",
+    "en": [
+      { "t": "We", "role": "subject", "id": "s" },
+      { "t": "cheer for", "role": "verb", "id": "v" },
+      { "t": "the Korean team", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "we-[as for]", "role": "subject", "id": "s" },
+      { "t": "Korea team-[obj]", "role": "object", "id": "o" },
+      { "t": "cheer-for", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리는", "role": "subject", "id": "s" },
+      { "t": "한국 팀을", "role": "object", "id": "o" },
+      { "t": "응원해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "urineun hanguk timeul eungwonhaeyo",
+    "wordIds": ["w_uri", "w_hanguk", "w_tim", "w_eungwonhada"],
+    "note": "M4's warm 우리 doing what it does best. Red shirts, drums, the whole city in the square — 응원 is a team sport itself."
+  },
+  {
+    "id": "s17_photos_mountain",
+    "en": [
+      { "t": "At the mountain,", "role": "place", "id": "p" },
+      { "t": "I took", "role": "verb", "id": "v" },
+      { "t": "lots of photos", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "mountain-at", "role": "place", "id": "p" },
+      { "t": "photo-[obj] much", "role": "object", "id": "o" },
+      { "t": "took", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "산에서", "role": "place", "id": "p" },
+      { "t": "사진을 많이", "role": "object", "id": "o" },
+      { "t": "찍었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "saneseo sajineul mani jjigeosseoyo",
+    "wordIds": ["w_san", "w_sajin", "w_mani", "w_jjikda"],
+    "note": "많이 — the overdue adverb of abundance, said 마니 — finally official. M11's 산 hosting the national 등산-and-photograph ritual."
+  },
+  {
+    "id": "s17_not_really",
+    "en": [
+      { "t": "I don't really like", "role": "verb", "id": "v" },
+      { "t": "exercising", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "exercising thing-[obj]", "role": "object", "id": "o" },
+      { "t": "not-really not like", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "운동하는 것을", "role": "object", "id": "o" },
+      { "t": "별로 안 좋아해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "undonghaneun geoseul byeollo an joahaeyo",
+    "wordIds": ["w_undonghada", "w_byeollo", "w_joahada"],
+    "note": "별로 + M3's 안 — the double-softened dislike. The nominalizer makes even avoidance grammatical. A deeply honest sentence."
+  },
+  {
+    "id": "s17_walk_park",
+    "en": [
+      { "t": "Every week,", "role": "other", "id": "t" },
+      { "t": "I take a walk", "role": "verb", "id": "v" },
+      { "t": "in the park", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "every-week", "role": "other", "id": "t" },
+      { "t": "park-at", "role": "place", "id": "p" },
+      { "t": "take-a-walk", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "매주", "role": "other", "id": "t" },
+      { "t": "공원에서", "role": "place", "id": "p" },
+      { "t": "산책해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "maeju gongwoneseo sanchaekhaeyo",
+    "wordIds": ["w_maeju", "w_gongwon", "w_sanchaekhada"],
+    "note": "매주 extends M5's 매일 across the calendar. 산책's 산 is a stroll, not M11's summit — the homograph radar catches another one."
+  },
+  {
+    "id": "s17_drama_popular",
+    "en": [
+      { "t": "Korean dramas", "role": "subject", "id": "s" },
+      { "t": "are popular", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Korea drama-[as for]", "role": "subject", "id": "s" },
+      { "t": "popularity-[subj] is-much", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국 드라마는", "role": "subject", "id": "s" },
+      { "t": "인기가 많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hanguk deuramaneun ingiga manayo",
+    "wordIds": ["w_hanguk", "w_deurama", "w_ingi", "w_manta"],
+    "note": "Popularity is POSSESSED in Korean — 인기가 많아요, 'has much popularity' — the 있다-chassis one more time. Objectively true sentence."
   }
 ]

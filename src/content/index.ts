@@ -20,6 +20,7 @@ import module13Md from "./modules/module-13.md?raw";
 import module14Md from "./modules/module-14.md?raw";
 import module15Md from "./modules/module-15.md?raw";
 import module16Md from "./modules/module-16.md?raw";
+import module17Md from "./modules/module-17.md?raw";
 import moduleSpacingMd from "./modules/module-spacing.md?raw";
 import moduleSoundMd from "./modules/module-sound.md?raw";
 import hangulHistoryMd from "./modules/module-hangul-history.md?raw";
@@ -82,6 +83,7 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-14.md": module14Md,
   "modules/module-15.md": module15Md,
   "modules/module-16.md": module16Md,
+  "modules/module-17.md": module17Md,
   "modules/module-spacing.md": moduleSpacingMd,
   "modules/module-sound.md": moduleSoundMd,
   "modules/module-hangul-history.md": hangulHistoryMd,
