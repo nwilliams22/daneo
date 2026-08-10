@@ -529,5 +529,32 @@
     "lit": "fighting!",
     "real": "you can do it! / good luck!",
     "note": "Konglish that outgrew its source: borrowed 'fighting,' repurposed as pure encouragement. Said before exams, interviews, matches, Mondays. English speakers find it adorably aggressive; Koreans find English's lack of an equivalent genuinely inconvenient."
+  },
+  {
+    "id": "g16_nunchi",
+    "cat": "concept",
+    "ko": "눈치",
+    "rom": "nunchi",
+    "lit": "eye-measure",
+    "real": "social radar — reading the room",
+    "note": "The skill of sensing what everyone needs without being told: when to refill a glass, when the 부장님's 'anyone busy tonight?' isn't a question, when to leave. 눈치가 빠르다 — quick radar — is high praise; 눈치가 없다 is a diagnosis. Perhaps Korean's most famous untranslatable."
+  },
+  {
+    "id": "g16_sugo",
+    "cat": "phrase",
+    "ko": "수고하셨습니다",
+    "rom": "sugohasyeotseumnida",
+    "lit": "you exerted effort",
+    "real": "good work today (the leaving ritual)",
+    "note": "Said at every departure from shared work — leaving the office, ending a call, finishing a class. It doesn't evaluate the work; it honors the effort. English 'good job' judges; 수고하셨습니다 acknowledges. Learn it before your first Korean workplace; hear it forever after."
+  },
+  {
+    "id": "g16_wolhwasu",
+    "cat": "concept",
+    "ko": "월화수목금금금",
+    "rom": "wolhwasumokgeumgeumgeum",
+    "lit": "Mon-Tue-Wed-Thu-Fri-Fri-Fri",
+    "real": "the week with no weekend",
+    "note": "Take M5's weekday names, delete the weekend, photocopy Friday over it: the seven-day workweek as dark comedy. Office workers say it the way soldiers sing marching songs. Its existence — like 몸살's — is a cultural x-ray."
   }
 ]
