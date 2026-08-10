@@ -139,6 +139,83 @@ word-builders (자랑스럽다 already models the latter), indefinite compounds
 (아무도/누구나/뭔가), quoting -다고. All noted for the Ring 2 format
 decision — none block Ring 1.
 
+## 2b. Ring 2 — the intermediate ring *(scoped with Nick 2026-08-10)*
+
+**Target:** the 1,735 remaining NIKL grade-B headwords (58% Sino — S3's
+decoder pays compound interest) + the intermediate glue (~40 patterns,
+TOPIK II-low). ≈ **40 modules** at the trimmed contract below. Module ids
+continue m31+ (Learn labels them Module 31+; a Ring 2 divider on the Learn
+page is a small pending app task).
+
+### The trimmed contract (Ring 2 modules)
+
+Everything Ring 1 proved essential stays; the ceremony goes:
+
+1. **Words** — ~44 (40–48 ok), full decode/cross-reference notes REQUIRED
+   (the app's soul is non-negotiable).
+2. **Sentences** — **8** three-layer entries (module tests need ≥4); ≥1 per
+   glue point; blocks-never-assemblies + the dup-sentence validator remain
+   course-wide law. No warm-up box, no practice-8 section.
+3. **Markdown** — slim: intro → one concept part → `::vocab::` → glue →
+   `::sentences::` → short what's-next.
+4. **Gap items** — 0–3, only when genuine.
+5. **Registration + green + TASKS log** — unchanged.
+
+### Band 4 — the grammar engine II (M31–M39, ordered)
+
+Built on the B-list's abstract core (사회/경제/관계/경우/정도/방법 + the
+grammar-verbs 대하다/위하다/통하다 + dependent nouns 데/뿐/가지).
+
+| # | Theme | New glue |
+|---|---|---|
+| M31 | Korea on the Map (provinces, cities, 남산/한라산/덕수궁, world places — the B-list's own opener) | 마다 (every) |
+| M32 | Society & the News | quoting -다고 하다 (+ 라고) |
+| M33 | Saying & Asking II | -냐고/-자고/-아 달라고 · indirect -는지 |
+| M34 | Thoughts & Seemings | -(으)ㄹ 것 같다 · -나 보다 |
+| M35 | Becoming | -아/어지다 · -게 되다 |
+| M36 | Done-To (the passive party: 보이다/들리다/열리다/닫히다) | passive 이/히/리/기 |
+| M37 | Making-Do | causative 이/히/리/기/우 · -게 하다 |
+| M38 | While & As Soon As | -(으)면서 · -자마자 · -는 동안 |
+| M39 | Even If, Only If | -아/어도 · -아/어야 · 밖에+negative |
+
+### Band 5 — themes II (~20 modules, order-free, one light glue each)
+
+The concrete tail, revisiting Ring 1 territory a register deeper: Kitchen &
+Cooking II (삶다/간장/-아 놓다), Body & Senses II (눈썹/털/처럼), Family &
+Life II (손자/신랑/께서), Money & Work II ((이)나, 씩), Emotions II
+(-잖아요/-거든요), School & Learning II (-기 위해), Media & Books, Nature &
+Weather II, Health II, City & Streets II, Time II (-(으)ㄴ 지), Character
+(-답다/-스럽다/-적), Sound & Music, Travel II, House II (대로)… — final
+menu emerges from the slice file as authoring proceeds.
+
+### Band 6 — the long tail (~10 packs)
+
+Whatever resists theming, sliced by frequency rank with root-flavored
+grouping where S3's tables apply. Garnish-free; notes still required.
+
+### Ring 2 glue checklist (~40 patterns)
+
+Quoting -다고/-라고/-냐고/-자고/-달라고 · indirect -는지 · **-는데/-(으)ㄴ데**
+· -아/어지다 · -게 되다 · passive/causative 이/히/리/기(/우) · -게 하다 ·
+-(으)ㄹ 것 같다 · -나/-(으)ㄴ가 보다 · -겠- (full nuances) · -(으)려고 (하다)
+· -기로 하다 · -기 위해(서) · -(으)면서 · -자마자 · -는 동안 · -(으)ㄴ 지 ·
+-아/어도 · -아/어야 · -아/어 놓다/두다 · -아/어 버리다 (formalized) · 처럼 ·
+만큼 · 마다 · 씩 · (이)나 · 밖에 · 대로 · 께서 · -잖아요 · -거든요 · -죠 ·
+word-builders -적/-스럽다/-답다. (-는데 is deliberately in Band 4's M33–M34
+territory — it garnishes wherever it first fits naturally.)
+
+### Pipeline (decided: slice script + hand-author)
+
+`npm run ring2:plan` (scripts/ring2-plan.ts) validates
+`reference/ring2-slices.tsv` — the word→module assignment ledger, filled in
+per-module at authoring time. The script reports: assigned/shipped/remaining
+counts per band, the unassigned B-gap pool by rank, and errors (word
+assigned twice, word already taught, word not on the list). Authoring flow
+per module = the Band 3 sweep flow: pick ~44 from the pool (script shows
+candidates), dup-grep, author at trimmed depth, validate, ship, log. No
+external APIs; 기초사전 stays a human reference only (CC BY-SA — never copy
+its examples).
+
 ## 3. Glue coverage checklist — Ring 1 (the beginner set)
 
 Complete when the map above ships: all case/topic particles (은/는, 이/가,

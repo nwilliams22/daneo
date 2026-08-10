@@ -13,7 +13,8 @@
     "tauri": "tauri",
     "lint": "oxlint",
     "tauri:build": "NO_STRIP=true tauri build",
-    "coverage:nikl": "tsx scripts/nikl-coverage.ts"
+    "coverage:nikl": "tsx scripts/nikl-coverage.ts",
+    "ring2:plan": "tsx scripts/ring2-plan.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",
