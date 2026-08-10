@@ -1514,5 +1514,81 @@
 
   { "id": "w_eobeoinal", "ko": "어버이날", "rom": "eobeoinal", "en": "Parents' Day (May 8)", "pos": "noun", "moduleId": "m25", "notes": "어버이 — the old word covering both 어머니 and 아버지 (M4) — plus 날. Carnations pinned to parents' chests, phone calls home. Not a day off; the affection is mandatory anyway." },
 
-  { "id": "w_sinhonyeohaeng", "ko": "신혼여행", "rom": "sinhonyeohaeng", "en": "honeymoon", "pos": "noun", "moduleId": "m25", "notes": "신 (new — 신문's new-신) + 혼 (marriage — 결혼's 혼) + M11's 여행: new-marriage-travel, self-assembled. M22's 제주도 built an industry on it." }
+  { "id": "w_sinhonyeohaeng", "ko": "신혼여행", "rom": "sinhonyeohaeng", "en": "honeymoon", "pos": "noun", "moduleId": "m25", "notes": "신 (new — 신문's new-신) + 혼 (marriage — 결혼's 혼) + M11's 여행: new-marriage-travel, self-assembled. M22's 제주도 built an industry on it." },
+
+  { "id": "w_munhwa", "ko": "문화", "rom": "munhwa", "en": "culture", "pos": "noun", "moduleId": "m26", "notes": "한국 문화 — what this module (and half your curiosity) is about. The 문 here is writing, not M6's door — the radar's last homograph lesson." },
+
+  { "id": "w_jeontong", "ko": "전통", "rom": "jeontong", "en": "tradition", "pos": "noun", "moduleId": "m26", "notes": "전통 음식, 전통 놀이, 전통 시장 — the adjective slot Korea fills most proudly. What 명절 exist to hand down." },
+
+  { "id": "w_sidae", "ko": "시대", "rom": "sidae", "en": "era / age", "pos": "noun", "moduleId": "m26", "notes": "조선 시대 — the Joseon era — is where half the dramas live. 요즘 시대에 — 'in this day and age' — is how elders open sentences about phones." },
+
+  { "id": "w_joseon", "ko": "조선", "rom": "joseon", "en": "Joseon (dynasty)", "pos": "noun", "moduleId": "m26", "notes": "Five hundred years (1392–1910), one dynasty — the palaces, the 한복, and 한글 itself all date from it. When a drama says 조선, expect topknots." },
+
+  { "id": "w_wang", "ko": "왕", "rom": "wang", "en": "king", "pos": "noun", "moduleId": "m26", "notes": "여왕 — queen; 왕자 — prince. Also modern slang's favorite prefix: 왕만두 are king-sized dumplings. Royalty inflates portions." },
+
+  { "id": "w_sejongdaewang", "ko": "세종대왕", "rom": "sejongdaewang", "en": "King Sejong the Great", "pos": "noun", "moduleId": "m26", "notes": "세종 + 대 (great — 대학교's big-대) + 왕: the king from this course's first reading. His statue watches 광화문 광장; his alphabet carries your every sentence." },
+
+  { "id": "w_taegeukgi", "ko": "태극기", "rom": "taegeukgi", "en": "the Korean flag", "pos": "noun", "moduleId": "m26", "notes": "태극 (the red-blue yin-yang) + 기 (flag). The four black trigrams mean sky, earth, water, fire — a cosmology on a flagpole, waved hardest during World Cup season." },
+
+  { "id": "w_mugunghwa", "ko": "무궁화", "rom": "mugunghwa", "en": "rose of Sharon", "pos": "noun", "moduleId": "m26", "notes": "무궁 (never-ending) + 화 (flower): the national flower that blooms, falls, and blooms again all summer — the persistence was the point. Also the name of the slower, cheaper train (M23's KTX's humble cousin)." },
+
+  { "id": "w_hangeul", "ko": "한글", "rom": "hangeul", "en": "Hangul", "pos": "noun", "moduleId": "m26", "notes": "The alphabet itself, finally a checklist word — 26 modules after you learned to read it and one module after its holiday (한글날, M25). 한 (great/Korea) + 글 (writing)." },
+
+  { "id": "w_taegwondo", "ko": "태권도", "rom": "taegwondo", "en": "taekwondo", "pos": "noun", "moduleId": "m26", "notes": "태 (stomp) + 권 (fist) + 도 (way): the way of foot and fist. Korea's Olympic export — more practitioners abroad than at home, counted in the tens of millions." },
+
+  { "id": "w_hallyu", "ko": "한류", "rom": "hallyu", "en": "the Korean Wave", "pos": "noun", "moduleId": "m26", "notes": "한 (Korea) + 류 (flow), said 할류: the wave that carried 드라마, 케이팝, and probably you to this app. Coined abroad, embraced at home." },
+
+  { "id": "w_keipap", "ko": "케이팝", "rom": "keipap", "en": "K-pop", "pos": "noun", "moduleId": "m26", "notes": "Konglish returning home: the K is for Korea. Idol lyrics mix 반말, 존댓말, and English mid-line — listening practice with choreography." },
+
+  { "id": "w_arirang", "ko": "아리랑", "rom": "arirang", "en": "Arirang (folk song)", "pos": "noun", "moduleId": "m26", "notes": "The folk song every Korean knows and no one can quite translate — 아리랑 itself means… nobody agrees. Hundreds of regional versions; one shared ache. UNESCO-listed." },
+
+  { "id": "w_yeui", "ko": "예의", "rom": "yeui", "en": "manners / etiquette", "pos": "noun", "moduleId": "m26", "notes": "예의가 없어요 — no manners — is a serious verdict here. Two-handed giving, the bow, elders eat first: 예의 is the operating system 존댓말 (M19) runs on." },
+
+  { "id": "w_jeol_bow", "ko": "절", "rom": "jeol", "en": "deep bow / temple", "pos": "noun", "moduleId": "m26", "notes": "One syllable, two solemn things: the floor-deep bow (세배 at 설날 is one) and the Buddhist temple in the mountains. The radar's parting gift — context bows to context." },
+
+  { "id": "w_gimjang", "ko": "김장", "rom": "gimjang", "en": "kimchi-making season", "pos": "noun", "moduleId": "m26", "notes": "The great November production run: families gather, hundreds of cabbages surrender, and a winter's worth of 김치 goes into the 냉장고 (or its dedicated sibling, the 김치냉장고). UNESCO-listed as heritage — the gathering, not the recipe." },
+
+  { "id": "w_jeong_word", "ko": "정", "rom": "jeong", "en": "jeong (deep attachment)", "pos": "noun", "moduleId": "m26", "notes": "The gap deck's famous untranslatable (M19), now officially on your checklist: the affection that accumulates between people who share time. 정이 많아요 — has lots of jeong — is among the warmest things said about a person." },
+
+  { "id": "w_cheonnun", "ko": "첫눈", "rom": "cheonnun", "en": "first snow", "pos": "noun", "moduleId": "m26", "notes": "첫 (first — 처음's prefix form) + M14's 눈-snow. Couples promise to meet when it falls; the forecast becomes romance news. 첫사랑 — first love — uses the same 첫, and the dramas use both." },
+
+  { "id": "w_ije", "ko": "이제", "rom": "ije", "en": "now (from now on)", "pos": "noun", "moduleId": "m26", "notes": "지금 is now-this-second; 이제 is now-as-opposed-to-before — a hinge between chapters. 이제 할 수 있어요: I couldn't, and now I can. This module's word for a reason." },
+
+  { "id": "w_yojeum", "ko": "요즘", "rom": "yojeum", "en": "these days", "pos": "noun", "moduleId": "m26", "notes": "요즘 어떻게 지내요? — how are you these days? — the small-talk opener built from M23's 지내다. Long overdue; consider it the course's own 요즘." },
+
+  { "id": "w_sajeon", "ko": "사전", "rom": "sajeon", "en": "dictionary", "pos": "noun", "moduleId": "m26", "notes": "The book (now app) this whole course secretly is — 단어 by 단어. Not M13's 전 or M23's warm spring: the radar files another 전." },
+
+  { "id": "w_eoneo", "ko": "언어", "rom": "eoneo", "en": "language", "pos": "noun", "moduleId": "m26", "notes": "The formal parent of the -어 family: 한국어, 영어, 외국어 — all children of 언어. What you've been building for twenty-six modules." },
+
+  { "id": "w_bareum", "ko": "발음", "rom": "bareum", "en": "pronunciation", "pos": "noun", "moduleId": "m26", "notes": "발음이 좋네요! — the compliment that follows 잘하시네요. Every rom in this app encodes it; the sound interlude was its training manual." },
+
+  { "id": "w_sillyeok", "ko": "실력", "rom": "sillyeok", "en": "skill / ability", "pos": "noun", "moduleId": "m26", "notes": "한국어 실력 — your Korean level, measured in what you can DO, not what you've memorized. 실력이 좋아요 is earned, not given." },
+
+  { "id": "w_bunwigi", "ko": "분위기", "rom": "bunwigi", "en": "atmosphere / vibe", "pos": "noun", "moduleId": "m26", "notes": "What every 카페 review measures first: 분위기가 좋아요 — good vibe. People have it too; 분위기 있는 사람 is someone with presence." },
+
+  { "id": "w_gyeongbokgung", "ko": "경복궁", "rom": "gyeongbokgung", "en": "Gyeongbokgung Palace", "pos": "noun", "moduleId": "m26", "notes": "The grandest of Seoul's five 궁 (M23) — the one whose note promised free admission in a rented 한복. 경복 means 'shining fortune'; the 복 is M25's luck-복." },
+
+  { "id": "w_makgeolli", "ko": "막걸리", "rom": "makgeolli", "en": "makgeolli (rice wine)", "pos": "noun", "moduleId": "m26", "notes": "Cloudy, gently fizzy, farmer-born. National law of pairing: rain outside demands 막걸리 and 파전 (green-onion pancake) — the sound of rain and frying oil are said to rhyme." },
+
+  { "id": "w_mokpyo", "ko": "목표", "rom": "mokpyo", "en": "goal / target", "pos": "noun", "moduleId": "m26", "notes": "올해 목표 — this year's goal — written every January (M25's 올해도 sigh included). Yours said 'learn Korean'; look where that went." },
+
+  { "id": "w_jasin", "ko": "자신", "rom": "jasin", "en": "confidence / oneself", "pos": "noun", "moduleId": "m26", "notes": "자신 있어요! — I've got this — confidence measured on the 있다-chassis like everything else Korean values. Twenty-six modules is how it's earned." },
+
+  { "id": "w_nori", "ko": "놀이", "rom": "nori", "en": "play / traditional game", "pos": "noun", "moduleId": "m26", "notes": "M19's 놀다 turned noun: 놀이터 — playground; 윷놀이 — the 설날 board game of thrown sticks; 전통 놀이 — the whole folk-game shelf." },
+
+  { "id": "w_jikida", "ko": "지키다", "rom": "jikida", "en": "to keep / protect", "pos": "verb", "moduleId": "m26", "notes": "Traditions, promises, secrets, goals: 약속을 지켜요 — keep your word. What this module's nouns ask of the next generation." },
+
+  { "id": "w_nollada", "ko": "놀라다", "rom": "nollada", "en": "to be surprised", "pos": "verb", "moduleId": "m26", "notes": "깜짝 놀랐어요! — startled! (깜짝 is the jump itself.) The inner state whose outer voice is -네요 — this module's grammar and this verb are a matched set." },
+
+  { "id": "w_byeonhada", "ko": "변하다", "rom": "byeonhada", "en": "to change (become different)", "pos": "verb", "moduleId": "m26", "notes": "세상이 변해요 — the world changes; 마음이 변했어요 — feelings changed (the drama accusation). What 전통 resists and 시대 insists on." },
+
+  { "id": "w_noryeokhada", "ko": "노력하다", "rom": "noryeokhada", "en": "to make an effort", "pos": "verb", "moduleId": "m26", "notes": "노력하면 돼요 — just keep at it (M23's machine, pointed at yourself). The verb 화이팅 (M15's gap deck) exists to cheer for." },
+
+  { "id": "w_jongyeonghada", "ko": "존경하다", "rom": "jongyeonghada", "en": "to respect", "pos": "verb", "moduleId": "m26", "notes": "The 존 of 존댓말 (M19): respect-speech's own verb. 세종대왕을 존경해요 — a sentence most of the country would co-sign." },
+
+  { "id": "w_singihada", "ko": "신기하다", "rom": "singihada", "en": "to be fascinating / marvelous", "pos": "adj", "moduleId": "m26", "notes": "신기해요! — the traveler's word for good-strange: heated floors, self-opening doors, side dishes that refill. Pairs with -네요 like it was born for it: 신기하네요!" },
+
+  { "id": "w_dayanghada", "ko": "다양하다", "rom": "dayanghada", "en": "to be diverse / varied", "pos": "adj", "moduleId": "m26", "notes": "다양한 문화, 다양한 음식 — the badge form does brochures and truth alike. 다 (many) + 양 (kinds): many-kinded." },
+
+  { "id": "w_jarangseureopda", "ko": "자랑스럽다", "rom": "jarangseureopda", "en": "to be proud", "pos": "adj", "moduleId": "m26", "notes": "ㅂ-family to the last: 자랑스러워요 — I'm proud. Of 한글, of the 태극기 at a stadium — and, permitted just this once without the modesty deflection: of finishing Ring 1." }
 ]

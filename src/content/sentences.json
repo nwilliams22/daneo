@@ -6984,5 +6984,284 @@
     "rom": "jeolmeul ttae yeohaengeul mani haseyo",
     "wordIds": ["w_jeomda", "w_ttae", "w_yeohaeng", "w_hada"],
     "note": "M24's 젊다 through the new when-machine — with the ㄻ batchim's liaison exhibit live one more time (절믈). The module's parting advice; the gap deck's 집 떠나면 고생이다 respectfully disagrees."
+  },
+  {
+    "id": "s26_speak_well",
+    "en": [
+      { "t": "You speak Korean", "role": "object", "id": "o" },
+      { "t": "really well!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Korean-[obj]", "role": "object", "id": "o" },
+      { "t": "really do-well-[hon]-[noticed]!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국어를", "role": "object", "id": "o" },
+      { "t": "정말 잘하시네요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "hangugeoreul jeongmal jalhasineyo!",
+    "wordIds": ["w_hangugeo", "w_jeongmal", "w_jalhada"],
+    "note": "The sentence Korea will say TO you: M17's 잘하다 + M4's honorific -(으)시- + the new -네요, discovered in real time. Reply with the gap deck's 잘 못 해요 — or the truth: 아직 배우고 있어요."
+  },
+  {
+    "id": "s26_first_snow",
+    "en": [
+      { "t": "The first snow", "role": "subject", "id": "s" },
+      { "t": "is falling!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "first-snow-[subj]", "role": "subject", "id": "s" },
+      { "t": "comes-[noticed]!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "첫눈이", "role": "subject", "id": "s" },
+      { "t": "오네요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheonnuni oneyo!",
+    "wordIds": ["w_cheonnun", "w_oda"],
+    "note": "M11's weather-comes meets the noticing ending at the window. 첫눈 is a national event — couples promise to meet under it, and the group chats light up. Said 천누니 — the ㅅ batchim shifting, per the interlude."
+  },
+  {
+    "id": "s26_seollal_hanbok",
+    "en": [
+      { "t": "The hanbok", "role": "subject", "id": "s" },
+      { "t": "worn at Seollal", "role": "other", "id": "m" },
+      { "t": "is really beautiful!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Seollal time wear-[turned]", "role": "other", "id": "m" },
+      { "t": "hanbok-[subj]", "role": "subject", "id": "s" },
+      { "t": "really pretty-[noticed]!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "설날 때 입는", "role": "other", "id": "m" },
+      { "t": "한복이", "role": "subject", "id": "s" },
+      { "t": "정말 예쁘네요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "seollal ttae imneun hanbogi jeongmal yeppeuneyo!",
+    "wordIds": ["w_seollal", "w_ttae", "w_ipda", "w_hanbok", "w_jeongmal", "w_yeppeuda"],
+    "note": "Four bands in one breath: M25's 때, M24's badge (입는 — said 임는, nasalized), M21's 한복, M1's 예쁘다 — capped with the new -네요. The capstone thesis in a single sentence."
+  },
+  {
+    "id": "s26_december_already",
+    "en": [
+      { "t": "It's already", "role": "other", "id": "a" },
+      { "t": "December!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "already", "role": "other", "id": "a" },
+      { "t": "twelve-month-is-[noticed]!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "벌써", "role": "other", "id": "a" },
+      { "t": "십이월이네요", "role": "verb", "id": "v" }
+    ],
+    "rom": "beolsseo sibiworineyo",
+    "wordIds": ["w_beolsseo", "w_n_sip", "w_n_i", "w_wol"],
+    "note": "M23's 벌써 gasping at M25's calendar through the new ending — the time-flies sentence, muttered nationwide every December 1st. -네요 is for exactly this: the year surprised you."
+  },
+  {
+    "id": "s26_gimjang",
+    "en": [
+      { "t": "Before winter,", "role": "other", "id": "t" },
+      { "t": "the family", "role": "subject", "id": "s" },
+      { "t": "gathers and makes", "role": "verb", "id": "v" },
+      { "t": "kimchi", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "winter before", "role": "other", "id": "t" },
+      { "t": "family-[subj]", "role": "subject", "id": "s" },
+      { "t": "kimchi-[obj]", "role": "object", "id": "o" },
+      { "t": "gather-and make", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울 전에", "role": "other", "id": "t" },
+      { "t": "가족이", "role": "subject", "id": "s" },
+      { "t": "김치를", "role": "object", "id": "o" },
+      { "t": "모여서 만들어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeoul jeone gajogi gimchireul moyeoseo mandeureoyo",
+    "wordIds": ["w_gyeoul", "w_gajok", "w_gimchi", "w_moida", "w_mandeulda"],
+    "note": "김장 season, in sentence form: M13's 전에, M25's 모이다 linked by M10's -아서, M3's 김치 and 만들다. UNESCO lists the gathering itself as heritage — the point was never just the cabbage."
+  },
+  {
+    "id": "s26_taekwondo",
+    "en": [
+      { "t": "Foreigners too", "role": "subject", "id": "s" },
+      { "t": "learn", "role": "verb", "id": "v" },
+      { "t": "a lot of taekwondo", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "foreigner-also", "role": "subject", "id": "s" },
+      { "t": "taekwondo-[obj]", "role": "object", "id": "o" },
+      { "t": "much learn", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "외국인도", "role": "subject", "id": "s" },
+      { "t": "태권도를", "role": "object", "id": "o" },
+      { "t": "많이 배워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oegugindo taegwondoreul mani baewoyo",
+    "wordIds": ["w_oegugin", "w_taegwondo", "w_mani", "w_baeuda"],
+    "note": "M23's 외국인 with M2's 도, learning the way of foot and fist — tens of millions do, most of them outside Korea. The 도 of 태권도 (way) and the particle 도 (also) share a syllable; the radar stays on to the end."
+  },
+  {
+    "id": "s26_sejong",
+    "en": [
+      { "t": "King Sejong", "role": "subject", "id": "s" },
+      { "t": "created", "role": "verb", "id": "v" },
+      { "t": "Hangul", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Sejong-great-king-[subj]", "role": "subject", "id": "s" },
+      { "t": "Hangul-[obj]", "role": "object", "id": "o" },
+      { "t": "made", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "세종대왕이", "role": "subject", "id": "s" },
+      { "t": "한글을", "role": "object", "id": "o" },
+      { "t": "만들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sejongdaewangi hangeureul mandeureosseoyo",
+    "wordIds": ["w_sejongdaewang", "w_hangeul", "w_mandeulda"],
+    "note": "The story the course's first reading told, finally sayable in the alphabet it's about — with M3's humble kitchen verb 만들다 doing the history. Twenty-six modules from reading it to saying it."
+  },
+  {
+    "id": "s26_traditions",
+    "en": [
+      { "t": "Keeping traditions", "role": "subject", "id": "s" },
+      { "t": "is important", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "tradition-[obj] keep-[turned] thing-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-important", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "전통을 지키는 것이", "role": "subject", "id": "s" },
+      { "t": "중요해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeontongeul jikineun geosi jungyohaeyo",
+    "wordIds": ["w_jeontong", "w_jikida", "w_jungyohada"],
+    "note": "M17's nominalizer carrying M24's badge over the new 지키다 — a whole value system in one subject slot. What 김장, 명절, and grandmothers agree on."
+  },
+  {
+    "id": "s26_scenery",
+    "en": [
+      { "t": "The scenery", "role": "subject", "id": "s" },
+      { "t": "is really beautiful!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "scenery-[subj]", "role": "subject", "id": "s" },
+      { "t": "really beautiful-[noticed]!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "경치가", "role": "subject", "id": "s" },
+      { "t": "정말 아름답네요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeongchiga jeongmal areumdamneyo!",
+    "wordIds": ["w_gyeongchi", "w_jeongmal", "w_areumdapda"],
+    "note": "M22's 경치 through the noticing ending — said 아름담네요, the ㅂ nasalizing before ㄴ: the sound interlude's farewell exhibit. The sentence every 등산 summit earns."
+  },
+  {
+    "id": "s26_hallyu",
+    "en": [
+      { "t": "These days", "role": "other", "id": "t" },
+      { "t": "Korean culture", "role": "subject", "id": "s" },
+      { "t": "is popular", "role": "verb", "id": "v" },
+      { "t": "worldwide", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "Korea culture-[subj]", "role": "subject", "id": "s" },
+      { "t": "world-in", "role": "place", "id": "p" },
+      { "t": "popularity-[subj] is-much", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "한국 문화가", "role": "subject", "id": "s" },
+      { "t": "세계에서", "role": "place", "id": "p" },
+      { "t": "인기가 많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeum hanguk munhwaga segyeeseo ingiga manayo",
+    "wordIds": ["w_yojeum", "w_hanguk", "w_munhwa", "w_segye", "w_ingi", "w_manta"],
+    "note": "The 한류 sentence: M17's possessed-popularity chassis, scaled to M23's 세계. You, reading this, are a data point."
+  },
+  {
+    "id": "s26_jeong",
+    "en": [
+      { "t": "Koreans", "role": "subject", "id": "s" },
+      { "t": "have a lot of jeong", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Korea person-[topic]", "role": "subject", "id": "s" },
+      { "t": "jeong-[subj] is-much", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국 사람은", "role": "subject", "id": "s" },
+      { "t": "정이 많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hanguk sarameun jeongi manayo",
+    "wordIds": ["w_hanguk", "w_saram", "w_jeong_word", "w_manta"],
+    "note": "The M19 gap item, now a checklist word in its natural sentence — the self-description Koreans reach for first. The 있다-chassis measures the unmeasurable one last time."
+  },
+  {
+    "id": "s26_rainy_makgeolli",
+    "en": [
+      { "t": "When it rains,", "role": "other", "id": "c" },
+      { "t": "we drink", "role": "verb", "id": "v" },
+      { "t": "makgeolli", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] come-when", "role": "other", "id": "c" },
+      { "t": "makgeolli-[obj]", "role": "object", "id": "o" },
+      { "t": "drink", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가 올 때", "role": "other", "id": "c" },
+      { "t": "막걸리를", "role": "object", "id": "o" },
+      { "t": "마셔요", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga ol ttae makgeollireul masyeoyo",
+    "wordIds": ["w_bi", "w_oda", "w_makgeolli", "w_masida"],
+    "note": "M25's when-machine on M11's arriving rain, M1's 마시다 on the new bottle. National pairing law: the 파전 (green-onion pancake) frying beside it is said to sound like the rain."
+  },
+  {
+    "id": "s26_can_converse",
+    "en": [
+      { "t": "Now", "role": "other", "id": "a" },
+      { "t": "I can converse", "role": "verb", "id": "v" },
+      { "t": "in Korean", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "now-[finally]", "role": "other", "id": "a" },
+      { "t": "Korean-by", "role": "other", "id": "m" },
+      { "t": "talk-do way exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이제", "role": "other", "id": "a" },
+      { "t": "한국어로", "role": "other", "id": "m" },
+      { "t": "이야기할 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ije hangugeoro iyagihal su isseoyo",
+    "wordIds": ["w_ije", "w_hangugeo", "w_iyagihada"],
+    "note": "M10's can-machine reporting on itself, with M6's (으)로 marking the tool and 이제 marking the before/after. A true sentence — that's the point of it."
+  },
+  {
+    "id": "s26_just_beginning",
+    "en": [
+      { "t": "Studying Korean", "role": "subject", "id": "s" },
+      { "t": "is just beginning", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Korean study-[topic]", "role": "subject", "id": "s" },
+      { "t": "now beginning-is-[noticed]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국어 공부는", "role": "subject", "id": "s" },
+      { "t": "이제 시작이네요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hangugeo gongbuneun ije sijagineyo",
+    "wordIds": ["w_hangugeo", "w_gongbuhada", "w_ije", "w_sijakhada"],
+    "note": "Ring 1's final sentence notices something true: it was all beginning. 시작이 반이다, says the gap deck — the beginning is half — and you've done rather more than begin."
   }
 ]

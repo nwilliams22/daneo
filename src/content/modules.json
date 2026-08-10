@@ -632,5 +632,30 @@
       "s25_new_year", "s25_special_day", "s25_wedding_how",
       "s25_next_year_trip", "s25_travel_young"
     ]
+  },
+  {
+    "id": "m26",
+    "title": "Korea and Culture",
+    "order": 29,
+    "contentMd": "modules/module-26.md",
+    "wordIds": [
+      "w_munhwa", "w_jeontong", "w_sidae", "w_joseon", "w_wang",
+      "w_sejongdaewang", "w_taegeukgi", "w_mugunghwa", "w_hangeul",
+      "w_taegwondo", "w_hallyu", "w_keipap", "w_arirang",
+      "w_yeui", "w_jeol_bow", "w_gimjang", "w_jeong_word",
+      "w_cheonnun", "w_ije", "w_yojeum", "w_sajeon", "w_eoneo",
+      "w_bareum", "w_sillyeok", "w_bunwigi", "w_gyeongbokgung",
+      "w_makgeolli", "w_mokpyo", "w_jasin", "w_nori",
+      "w_jikida", "w_nollada", "w_byeonhada", "w_noryeokhada",
+      "w_jongyeonghada",
+      "w_singihada", "w_dayanghada", "w_jarangseureopda"
+    ],
+    "sentenceIds": [
+      "s26_speak_well", "s26_first_snow", "s26_seollal_hanbok",
+      "s26_december_already", "s26_gimjang", "s26_taekwondo",
+      "s26_sejong", "s26_traditions", "s26_scenery",
+      "s26_hallyu", "s26_jeong", "s26_rainy_makgeolli",
+      "s26_can_converse", "s26_just_beginning"
+    ]
   }
 ]
