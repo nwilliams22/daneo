@@ -7539,5 +7539,278 @@
     "rom": "gyosunimi hanjareul seolmyeonghae jusyeosseoyo",
     "wordIds": ["w_gyosu", "w_hanja_word", "w_seolmyeonghada", "w_juda"],
     "note": "Full machinery stack: M24's 설명하다 through M9's do-for-me 주다, wearing M4's honorific -(으)시- (주셨어요) because the professor outranks us. 'For us' vanishes into the verb — Korean folds the favor in."
+  },
+  {
+    "id": "s28_sun_east",
+    "en": [
+      { "t": "The sun", "role": "subject", "id": "s" },
+      { "t": "comes up", "role": "verb", "id": "v" },
+      { "t": "in the east", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "sun-[topic]", "role": "subject", "id": "s" },
+      { "t": "east-side-from", "role": "place", "id": "p" },
+      { "t": "comes-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "해는", "role": "subject", "id": "s" },
+      { "t": "동쪽에서", "role": "place", "id": "p" },
+      { "t": "나와요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haeneun dongjjogeseo nawayo",
+    "wordIds": ["w_hae", "w_dongjjok", "w_naoda"],
+    "note": "The new 나오다 over M27's compass: the sun COMES OUT of the east — emergence, aimed at the speaker. Why 일본 (M27) is named sun-origin, seen from here."
+  },
+  {
+    "id": "s28_no_entry",
+    "en": [
+      { "t": "You can't go in", "role": "verb", "id": "v" },
+      { "t": "right now", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "now", "role": "other", "id": "t" },
+      { "t": "enter-if not-allowed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지금", "role": "other", "id": "t" },
+      { "t": "들어가면 안 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jigeum deureogamyeon an dwaeyo",
+    "wordIds": ["w_jigeum", "w_deureogada", "w_doeda"],
+    "note": "The flagship compound through M20's prohibition machine. Doors, meetings, freshly mopped floors — the sentence guarding all of them."
+  },
+  {
+    "id": "s28_not_spicy",
+    "en": [
+      { "t": "Kimchi stew", "role": "subject", "id": "s" },
+      { "t": "isn't that spicy", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "kimchi-stew-[topic]", "role": "subject", "id": "s" },
+      { "t": "not-really spicy-not", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "김치찌개는", "role": "subject", "id": "s" },
+      { "t": "별로 맵지 않아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gimchijjigaeneun byeollo maepji anayo",
+    "wordIds": ["w_jjigae", "w_gimchi", "w_byeollo", "w_maepda"],
+    "note": "The long negation debuts with its favorite partner: M17's 별로 loves -지 않다 as much as it loves 안. Note the stem stays plain (맵-) — the negation carries the conjugation."
+  },
+  {
+    "id": "s28_no_meat_formal",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "don't eat", "role": "verb", "id": "v" },
+      { "t": "meat", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s" },
+      { "t": "meat-[obj]", "role": "object", "id": "o" },
+      { "t": "eat-not", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "고기를", "role": "object", "id": "o" },
+      { "t": "먹지 않아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun gogireul meokji anayo",
+    "wordIds": ["w_jeo", "w_gogi", "w_meokda"],
+    "note": "A deliberate echo: M3 taught 저는 고기를 안 먹어요 — this is the same sentence in its long suit. 안 for speed, -지 않다 for weight and writing. Same truth, two registers."
+  },
+  {
+    "id": "s28_book_in_bag",
+    "en": [
+      { "t": "I put", "role": "verb", "id": "v" },
+      { "t": "the book", "role": "object", "id": "o" },
+      { "t": "in the bag", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "bag inside-at", "role": "place", "id": "p" },
+      { "t": "book-[obj]", "role": "object", "id": "o" },
+      { "t": "put-in", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "가방 속에", "role": "place", "id": "p" },
+      { "t": "책을", "role": "object", "id": "o" },
+      { "t": "넣었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gabang soge chaegeul neoeosseoyo",
+    "wordIds": ["w_gabang", "w_sok", "w_chaek", "w_neota"],
+    "note": "속 — the deep inside — with its verb 넣다. M6's 안 would work; 속 says the bag swallowed it. The spacing joke's 가방 (M6), still carrying things."
+  },
+  {
+    "id": "s28_problem_arose",
+    "en": [
+      { "t": "A problem", "role": "subject", "id": "s" },
+      { "t": "came up!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "problem-[subj]", "role": "subject", "id": "s" },
+      { "t": "sprouted!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "문제가", "role": "subject", "id": "s" },
+      { "t": "생겼어요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "munjega saenggyeosseoyo!",
+    "wordIds": ["w_munje", "w_saenggida"],
+    "note": "생기다 — things sprout into existence. M7's 문제없어요 finally meets its opposite. Problems, plans, and girlfriends all 생겨요 — Korean happenings arrive on their own."
+  },
+  {
+    "id": "s28_bring_passport",
+    "en": [
+      { "t": "Please bring", "role": "verb", "id": "v" },
+      { "t": "your passport", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "passport-[obj]", "role": "object", "id": "o" },
+      { "t": "have-come-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여권을", "role": "object", "id": "o" },
+      { "t": "가져오세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogwoneul gajyeooseyo",
+    "wordIds": ["w_yeogwon", "w_gajyeooda"],
+    "note": "가지다 + 오다: have-and-come. M23's passport, M9's -(으)세요, and the compound machine — bring is a verb Korean assembles rather than owns."
+  },
+  {
+    "id": "s28_grandma_visit",
+    "en": [
+      { "t": "During vacation", "role": "other", "id": "t" },
+      { "t": "I visited", "role": "verb", "id": "v" },
+      { "t": "grandma's house", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "vacation during", "role": "other", "id": "t" },
+      { "t": "grandmother home-[hon]-to", "role": "place", "id": "p" },
+      { "t": "went-and-came", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "방학 동안", "role": "other", "id": "t" },
+      { "t": "할머니 댁에", "role": "place", "id": "p" },
+      { "t": "다녀왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "banghak dongan halmeoni daege danyeowasseoyo",
+    "wordIds": ["w_banghak", "w_halmeoni", "w_daek", "w_danyeooda", "w_dongan"],
+    "note": "Three sweeps in one: 동안 holds the span, M27's 댁 honors grandma's house, and 다녀오다 folds the round trip into one verb. M11's 방학, spent correctly."
+  },
+  {
+    "id": "s28_sudden_rain_ran",
+    "en": [
+      { "t": "It suddenly rained,", "role": "other", "id": "c" },
+      { "t": "so I ran fast", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "suddenly rain-[subj] come-so", "role": "other", "id": "c" },
+      { "t": "fast ran", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "갑자기 비가 와서", "role": "other", "id": "c" },
+      { "t": "빨리 뛰었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gapjagi biga waseo ppalli ttwieosseoyo",
+    "wordIds": ["w_gapjagi", "w_bi", "w_oda", "w_ppalli", "w_ttwida"],
+    "note": "갑자기 — the plot-twist adverb — over M11's arriving rain and M10's because-아서. 뛰다 covers the running AND the puddle-jumping; Korean bundles the hustle."
+  },
+  {
+    "id": "s28_post_between",
+    "en": [
+      { "t": "The post office", "role": "subject", "id": "s" },
+      { "t": "is between", "role": "verb", "id": "v" },
+      { "t": "the bank and the bookstore", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "post-office-[topic]", "role": "subject", "id": "s" },
+      { "t": "bank-and bookstore middle-at", "role": "place", "id": "p" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우체국은", "role": "subject", "id": "s" },
+      { "t": "은행하고 서점 가운데에", "role": "place", "id": "p" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uchegugeun eunhaenghago seojeom gaundee isseoyo",
+    "wordIds": ["w_ucheguk", "w_eunhaeng", "w_seojeom", "w_gaunde", "w_itda"],
+    "note": "M6's location frame gains its center: 가운데 parks M27's buildings around the middle, with M2's 하고 holding the pair together."
+  },
+  {
+    "id": "s28_night_no_sleep",
+    "en": [
+      { "t": "If you nap in the daytime,", "role": "other", "id": "c" },
+      { "t": "sleep won't come", "role": "verb", "id": "v" },
+      { "t": "at night", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "daytime-at sleep-if", "role": "other", "id": "c" },
+      { "t": "night-at", "role": "other", "id": "t" },
+      { "t": "sleep-[subj] not comes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "낮에 자면", "role": "other", "id": "c" },
+      { "t": "밤에", "role": "other", "id": "t" },
+      { "t": "잠이 안 와요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naje jamyeon bame jami an wayo",
+    "wordIds": ["w_nat", "w_jada", "w_bam", "w_jam", "w_oda"],
+    "note": "잠이 와요 — sleep COMES, like M11's rain. States are weather in Korean; the gap deck files this one under 3 a.m. 낮 completes the day's timeline at last."
+  },
+  {
+    "id": "s28_walk_here",
+    "en": [
+      { "t": "Did you walk", "role": "verb", "id": "v" },
+      { "t": "all the way to school?", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "school-until", "role": "place", "id": "p" },
+      { "t": "walk-came?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "학교까지", "role": "place", "id": "p" },
+      { "t": "걸어왔어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "hakgyokkaji georeowasseoyo?",
+    "wordIds": ["w_hakgyo", "w_georeooda"],
+    "note": "걷다 + 오다: the how and the which-way in one verb, with M6's 까지 measuring the feat. The compound answers a question nobody asked out of pure surprise."
+  },
+  {
+    "id": "s28_help_each",
+    "en": [
+      { "t": "Families", "role": "subject", "id": "s" },
+      { "t": "help", "role": "verb", "id": "v" },
+      { "t": "each other", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "family-[topic]", "role": "subject", "id": "s" },
+      { "t": "each-other", "role": "other", "id": "a" },
+      { "t": "helps", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "가족은", "role": "subject", "id": "s" },
+      { "t": "서로", "role": "other", "id": "a" },
+      { "t": "도와요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gajogeun seoro dowayo",
+    "wordIds": ["w_gajok", "w_seoro", "w_dopda"],
+    "note": "돕다 raw — the verb inside M9's 도와주다 — with its irregular ㅂ→와 flip (the footnote M11's family table promised). M24's 서로 finds the verb it was waiting for."
+  },
+  {
+    "id": "s28_to_the_end",
+    "en": [
+      { "t": "Keep at it", "role": "verb", "id": "v" },
+      { "t": "to the very end!", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "end-until", "role": "other", "id": "t" },
+      { "t": "diligently do-please!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "끝까지", "role": "other", "id": "t" },
+      { "t": "열심히 하세요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "kkeutkkaji yeolsimhi haseyo!",
+    "wordIds": ["w_kkeut", "w_yeolsimhi", "w_hada"],
+    "note": "끝 — the noun 끝나다 was hiding — with M6's 까지 stretching to it. The sweep's motto, and every 화이팅 (M15's gap deck) in sentence form."
   }
 ]

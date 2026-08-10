@@ -1678,5 +1678,81 @@
 
   { "id": "w_p_kke", "ko": "께", "rom": "kke", "en": "particle — to (an elder, honorific)", "pos": "particle", "moduleId": "m27", "notes": "The honorific upgrade of 한테/에게: 부모님께, 선생님께, 사장님께. Travels with -(으)시- and 드리다 (M4/M9) — the politeness machinery moves as a set." },
 
-  { "id": "w_p_deul", "ko": "들", "rom": "deul", "en": "particle — plural marker (optional)", "pos": "particle", "moduleId": "m27", "notes": "Korean plurals are optional — 들 appears mostly on people (사람들, 친구들) when the many-ness matters. Never where a number already counts: 세 명, not 세 명들." }
+  { "id": "w_p_deul", "ko": "들", "rom": "deul", "en": "particle — plural marker (optional)", "pos": "particle", "moduleId": "m27", "notes": "Korean plurals are optional — 들 appears mostly on people (사람들, 친구들) when the many-ness matters. Never where a number already counts: 세 명, not 세 명들." },
+
+  { "id": "w_deureogada", "ko": "들어가다", "rom": "deureogada", "en": "to go in / enter", "pos": "verb", "moduleId": "m28", "notes": "들어 (entering) + 가다: enter, moving AWAY from the speaker. 방에 들어가요. The compound machine's flagship." },
+
+  { "id": "w_deureooda", "ko": "들어오다", "rom": "deureooda", "en": "to come in", "pos": "verb", "moduleId": "m28", "notes": "들어 + 오다: enter, coming TOWARD me. 들어오세요! — come in! — said while holding the door. The 가다/오다 compass decides, always from where YOU stand." },
+
+  { "id": "w_naoda", "ko": "나오다", "rom": "naoda", "en": "to come out", "pos": "verb", "moduleId": "m28", "notes": "나 (emerge — M8's 나가다's 나) + 오다. Buildings, ovens, and search results all 나와요. 영화가 나왔어요 — the movie is out." },
+
+  { "id": "w_ollagada", "ko": "올라가다", "rom": "ollagada", "en": "to go up / climb", "pos": "verb", "moduleId": "m28", "notes": "올라 (rising) + 가다. 산에 올라가요 — M11's mountains, M22's 오르다 in its everyday compound suit. Prices 올라가요 too, relentlessly." },
+
+  { "id": "w_naeryeogada", "ko": "내려가다", "rom": "naeryeogada", "en": "to go down", "pos": "verb", "moduleId": "m28", "notes": "내려 (descending — M6's 내리다, the get-off verb) + 가다. 고향에 내려가요 — Koreans go DOWN to their hometowns from Seoul, whatever the compass says." },
+
+  { "id": "w_naeryeooda", "ko": "내려오다", "rom": "naeryeooda", "en": "to come down", "pos": "verb", "moduleId": "m28", "notes": "내려 + 오다 — down toward me. 산에서 내려왔어요 — back from the summit, where M22's 경치 was." },
+
+  { "id": "w_georeogada", "ko": "걸어가다", "rom": "georeogada", "en": "to walk (somewhere)", "pos": "verb", "moduleId": "m28", "notes": "걸어 (M6's 걷다, ㄷ flipped) + 가다: go on foot. 집까지 걸어가요 — the how folded into the going." },
+
+  { "id": "w_georeooda", "ko": "걸어오다", "rom": "georeooda", "en": "to walk (here)", "pos": "verb", "moduleId": "m28", "notes": "걷다 + 오다: arrive on foot. 학교까지 걸어왔어요? — you WALKED here? The compound answers how and which-way at once." },
+
+  { "id": "w_danyeooda", "ko": "다녀오다", "rom": "danyeooda", "en": "to go and come back", "pos": "verb", "moduleId": "m28", "notes": "The errand verb: a round trip in one word. 시장에 다녀왔어요 — been to the market. The gap deck holds its famous formula: 학교 다녀오겠습니다." },
+
+  { "id": "w_gajyeooda", "ko": "가져오다", "rom": "gajyeooda", "en": "to bring", "pos": "verb", "moduleId": "m28", "notes": "가져 (M24's 가지다 — to have) + 오다: have-and-come. 우산을 가져오세요 — bring an umbrella. Its mirror 가져가다 takes things away." },
+
+  { "id": "w_deulda", "ko": "들다", "rom": "deulda", "en": "to hold up / cost / enter", "pos": "verb", "moduleId": "m28", "notes": "A many-jobs verb: lift and carry (가방을 들어요), money is spent (돈이 들어요), sleep is entered (잠이 들어요). The 들 inside 들어가다 — entering was its first job all along. ㄹ-drop: 듭니다." },
+
+  { "id": "w_naeda", "ko": "내다", "rom": "naeda", "en": "to put forth / pay / submit", "pos": "verb", "moduleId": "m28", "notes": "The put-it-out verb: 돈을 내요 (pay), 숙제를 내요 (hand in), 화를 내요 (put out anger — the active cousin of M19's 화나다). 시간을 내다 — MAKE time." },
+
+  { "id": "w_gajida", "ko": "가지다", "rom": "gajida", "en": "to have / hold", "pos": "verb", "moduleId": "m28", "notes": "To have, actively — 있다 states existence; 가지다 grips it. Spoken Korean squeezes it to 갖다: 갖고 있어요, I've got it. The 가져 of 가져오다." },
+
+  { "id": "w_japda", "ko": "잡다", "rom": "japda", "en": "to grab / catch", "pos": "verb", "moduleId": "m28", "notes": "Hands, fish, taxis, and opportunities: 손을 잡다, 택시를 잡다, 기회를 잡다. What the 돌잡이 baby (M25's gap deck) does to its future — the grab was this verb." },
+
+  { "id": "w_neota", "ko": "넣다", "rom": "neota", "en": "to put in", "pos": "verb", "moduleId": "m28", "notes": "가방에 책을 넣어요. Sugar into coffee, coins into machines, 넣다 feeds them all. The gap deck's 눈에 넣어도 안 아프다 puts a grandchild in an eye, approvingly." },
+
+  { "id": "w_nota", "ko": "놓다", "rom": "nota", "en": "to put down / place", "pos": "verb", "moduleId": "m28", "notes": "넣다's open-air twin: 책상 위에 놓으세요 — set it on the desk. Also release: M4's 말 놓으세요 was this verb, putting formality DOWN. Says 노타 — the ㅎ merge, live." },
+
+  { "id": "w_palda", "ko": "팔다", "rom": "palda", "en": "to sell", "pos": "verb", "moduleId": "m28", "notes": "M9's 사다 finally meets its counterpart — 사고팔다, buy-and-sell, is commerce in one breath. ㄹ-family: 팝니다 on every shop sign (아이스크림 팝니다)." },
+
+  { "id": "w_anda_hug", "ko": "안다", "rom": "anda", "en": "to hug / hold", "pos": "verb", "moduleId": "m28", "notes": "아기를 안아요 — holding M25's baby. Sounds like 앉다 (sit, M9) — 안자요/안아요 keep them apart in speech, context does the rest. The radar logs a sound-twin." },
+
+  { "id": "w_mutda_ask", "ko": "묻다", "rom": "mutda", "en": "to ask", "pos": "verb", "moduleId": "m28", "notes": "The raw verb inside M15's 물어보다 — 묻다 + 보다, ask-and-see. ㄷ-irregular like 듣다: 물어요. (A homograph 묻다 buries things — context, as ever, decides.)" },
+
+  { "id": "w_ilta", "ko": "잃다", "rom": "ilta", "en": "to lose (a thing)", "pos": "verb", "moduleId": "m28", "notes": "The raw loss inside M20's 잃어버리다 — which was 잃다 + 버리다, lost-and-thrown-away, the compound machine dramatizing. 길을 잃다 — lose the way (M23's cheerful emergency)." },
+
+  { "id": "w_ttwida", "ko": "뛰다", "rom": "ttwida", "en": "to run / jump", "pos": "verb", "moduleId": "m28", "notes": "Run AND jump — Korean bundles the burst of motion. 뛰지 마세요! — no running — on every pool deck. 달리다 is the sports-track runner; 뛰다 is everyday hustle." },
+
+  { "id": "w_nalda", "ko": "날다", "rom": "nalda", "en": "to fly", "pos": "verb", "moduleId": "m28", "notes": "What M22's 새 does, and M23's 비행기 (飛行 — flying-going) does professionally. ㄹ-family: 새가 날아요. M21's 옷이 날개다 gave you the wings; here's their verb." },
+
+  { "id": "w_saenggida", "ko": "생기다", "rom": "saenggida", "en": "to come into being / arise", "pos": "verb", "moduleId": "m28", "notes": "Things sprout: 문제가 생겼어요 (a problem arose), 시간이 생겼어요 (time opened up), 여자친구가 생겼어요 (a girlfriend HAPPENED). Also looks: 잘생기다 — well-arisen — is handsome." },
+
+  { "id": "w_dopda", "ko": "돕다", "rom": "dopda", "en": "to help", "pos": "verb", "moduleId": "m28", "notes": "The raw verb inside M9's 도와주다 — ㅂ-family with a twist (돕다 → 도와요, the footnote M11's table promised). 서로 도와요 — help each other; M24's 서로 finds its verb." },
+
+  { "id": "w_nada", "ko": "나다", "rom": "nada", "en": "to emerge / sprout / erupt", "pos": "verb", "moduleId": "m28", "notes": "The eruption verb hiding everywhere: 화가 나다 (M19), 기억나다 (M19), 소리가 나다, 땀이 나다. Feelings and happenings COME OUT in Korean; 나다 is the door they use." },
+
+  { "id": "w_sok", "ko": "속", "rom": "sok", "en": "the inside (deep)", "pos": "noun", "moduleId": "m28", "notes": "M6's 안 is inside-the-boundary; 속 is inside-the-substance: 가방 속, 물속, 마음속 — where M19's 마음 keeps its secrets. 속이 안 좋아요 — my stomach (my insides) is off." },
+
+  { "id": "w_mit", "ko": "밑", "rom": "mit", "en": "underneath", "pos": "noun", "moduleId": "m28", "notes": "M6's 아래 is below; 밑 is right underneath, touching: 책상 밑에 — under the desk (where dropped pens go). The position-noun shelf gains its basement." },
+
+  { "id": "w_gaunde", "ko": "가운데", "rom": "gaunde", "en": "the middle", "pos": "noun", "moduleId": "m28", "notes": "The middle of anything: 방 가운데에 (mid-room), 둘 가운데 (between the two). M6's position nouns finally get their center — and photos get their 가운데 자리, the spot everyone wants." },
+
+  { "id": "w_kkeut", "ko": "끝", "rom": "kkeut", "en": "the end", "pos": "noun", "moduleId": "m28", "notes": "The noun inside M8's 끝나다/M16's 끝내다, extracted at last. 끝까지 — to the very end; 끝! — done! The double-consonant ㄲ start and ㅌ batchim make it a pronunciation exhibit all by itself." },
+
+  { "id": "w_jam", "ko": "잠", "rom": "jam", "en": "sleep (the noun)", "pos": "noun", "moduleId": "m28", "notes": "M1's 자다, nouned: 잠을 자다 — sleep a sleep (Korean doubles up happily). 잠이 오다 — sleep COMES, like weather; 잠이 들다 — you fall IN. The gap deck files the insomniac's sentence." },
+
+  { "id": "w_nat", "ko": "낮", "rom": "nat", "en": "daytime", "pos": "noun", "moduleId": "m28", "notes": "The day's missing timeslot: 아침 → 점심 → 낮 → 저녁 → 밤, complete at last. 낮잠 — a daytime-sleep — is the compound for nap, and the argument for one." },
+
+  { "id": "w_dongan", "ko": "동안", "rom": "dongan", "en": "during / for (a span)", "pos": "noun", "moduleId": "m28", "notes": "Duration's word: 방학 동안 (during vacation), 세 시간 동안 (for three hours), 그동안 (all this while — the catch-up greeting's engine). Time gets a container." },
+
+  { "id": "w_songarak", "ko": "손가락", "rom": "songarak", "en": "finger", "pos": "noun", "moduleId": "m28", "notes": "M8's 손 (hand) + 가락 (strand): hand-strands. 발가락 — toes — are foot-strands; the body keeps self-assembling. What 잡다 grips with." },
+
+  { "id": "w_gapjagi", "ko": "갑자기", "rom": "gapjagi", "en": "suddenly", "pos": "noun", "moduleId": "m28", "notes": "The plot-twist adverb: 갑자기 비가 왔어요. Dramas run on it; so does M11's weather. Often paired with 왜 갑자기? — why, out of nowhere?" },
+
+  { "id": "w_baro", "ko": "바로", "rom": "baro", "en": "right / directly", "pos": "noun", "moduleId": "m28", "notes": "Immediacy in space and time: 바로 옆에 (right next to), 바로 지금 (right now), 바로 그거예요! — that's EXACTLY it. M23's 똑바로 was 똑 + this." },
+
+  { "id": "w_gyesok", "ko": "계속", "rom": "gyesok", "en": "continuously / keep on", "pos": "noun", "moduleId": "m28", "notes": "계속 비가 와요 — it keeps raining. 계속하세요 — carry on. The adverb of not-stopping, which is also how Korean study works." },
+
+  { "id": "w_hanbeon", "ko": "한번", "rom": "hanbeon", "en": "once / just once", "pos": "noun", "moduleId": "m28", "notes": "M5's 한 + M12's 번, fused: one-time — and softened into an invitation: 한번 해 보세요, give it a try (M16's try-machine's favorite passenger). 언제 한번 만나요 — let's meet sometime." },
+
+  { "id": "w_jamkkan", "ko": "잠깐", "rom": "jamkkan", "en": "a moment / briefly", "pos": "noun", "moduleId": "m28", "notes": "The raw moment inside M9's counter phrase 잠깐만요 (just-a-moment-please). 잠깐 들어오세요 — come in for a minute. Its formal twin 잠시 staffs announcements." }
 ]

@@ -71,7 +71,7 @@
 - [x] Import NIKL 5,965 list as reference data (`reference/nikl-5965.tsv`, KOGL Type 1, provenance in reference/README.md) + `npm run coverage:nikl` report — **65.7% of grade A** (587/894 distinct headwords), 243 B + 55 C along the way, 105 Daneo words beyond the list; 307 grade-A gaps listed by frequency *(2026-08-10)*
 - [x] Sweep planned as **Band 3 (M27–M30)** in CURRICULUM.md §2 — data-driven from the A-gap list + an HTSK survey that confirmed the glue debts (들, 만, (이)랑/와·과, 에게/한테/께, -지 않다, 동안, the 그렇다 family, 때문에) *(2026-08-10)*
 - [x] M27 The World and Its People (countries as hanja poems, compass 동서남북, spouses/street titles/공공 buildings; glue: 에게/한테/께 paying M8's IOU + optional-plural 들 + the 어느-나라 kit) — 40 words + 4 particles, 14 sentences, 3 gap items *(2026-08-10)*
-- [ ] M28 In and Out, Up and Down (compound-motion system + hands verbs; -지 않다) — per CURRICULUM.md Band 3
+- [x] M28 In and Out, Up and Down (the [action]+가다/오다 compound machine as a table — 들어가다/나오다/올라가다/다녀오다/가져오다…; hands verbs 들다/내다/가지다/잡다/넣다/놓다/팔다/안다/묻다/잃다 + the 나다 eruption party; 속/밑/가운데/끝/잠/낮/동안; glue **-지 않다** completing the negation shelf, incl. the deliberate M3 echo 저는 고기를 먹지 않아요; gap items 잠이 안 와요 / 학교 다녀오겠습니다 / 눈에 넣어도 안 아프다) — 38 words, 14 sentences, 3 gap items *(2026-08-10)* — **A-coverage 65.7% → 74.4%**
 - [ ] M29 The 그렇다 Machine and the Little Words (connective family + 때문에; bare determiners, adverbs, 나쁘다) — per Band 3
 - [ ] M30 Counting II and the Household (native tens/ordinals/units + household/fruit; 만-only + (이)랑/와·과) — per Band 3
 - [ ] Coverage allowlist: reference file mapping pattern/glue-taught A-words (months, -어 languages, Sino tens, 하다-noun halves, contractions 한/두/세) so coverage:nikl reports three honest buckets
