@@ -16,9 +16,13 @@ const LABELS: Record<string, string> = (() => {
   return Object.fromEntries(
     modulesOrdered.map((m) => [
       m.id,
-      m.wordIds.length === 0
-        ? `Reading ${++readingN}`
-        : `Module ${++moduleN}`,
+      // Appendices (ids s1, s2, …) sit outside the numbered course —
+      // CURRICULUM.md's "living content" shelf.
+      m.id.startsWith("s")
+        ? `Appendix ${m.id.toUpperCase()}`
+        : m.wordIds.length === 0
+          ? `Reading ${++readingN}`
+          : `Module ${++moduleN}`,
     ]),
   );
 })();

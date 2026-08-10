@@ -1916,5 +1916,59 @@
 
   { "id": "w_p_wa", "ko": "와", "rom": "wa", "en": "particle — and / with (formal, after vowel)", "pos": "particle", "moduleId": "m30", "notes": "딸기와 포도 — the written and. Books, news, invitations; 함께 (M29) is its favorite companion: 가족과 함께." },
 
-  { "id": "w_p_gwa", "ko": "과", "rom": "gwa", "en": "particle — and / with (formal, after consonant)", "pos": "particle", "moduleId": "m30", "notes": "빵과 우유 — batchim takes 과, vowel takes 와 (backwards from your instinct; everyone's, at first). The and-with trio is complete: 하고 neutral, (이)랑 casual, 와/과 formal." }
+  { "id": "w_p_gwa", "ko": "과", "rom": "gwa", "en": "particle — and / with (formal, after consonant)", "pos": "particle", "moduleId": "m30", "notes": "빵과 우유 — batchim takes 과, vowel takes 와 (backwards from your instinct; everyone's, at first). The and-with trio is complete: 하고 neutral, (이)랑 casual, 와/과 formal." },
+
+  { "id": "w_s1_kk", "ko": "ㅋㅋ", "rom": "kk", "en": "haha (texting)", "pos": "phrase", "moduleId": "s1", "notes": "The laughter consonant — ㅋ is the k of 크크. Intensity scales with count: ㅋ (dry), ㅋㅋ (amused), ㅋㅋㅋㅋㅋ (genuinely lost it). A single ㅋ can read as cold; calibrate." },
+
+  { "id": "w_s1_hh", "ko": "ㅎㅎ", "rom": "hh", "en": "hehe (texting)", "pos": "phrase", "moduleId": "s1", "notes": "ㅋㅋ's softer sibling — the h of 하하. Gentler, warmer, safer with people you 존댓말. Bosses get ㅎㅎ; friends get ㅋㅋ." },
+
+  { "id": "w_s1_yy", "ko": "ㅇㅇ", "rom": "eung-eung", "en": "yeah (texting)", "pos": "phrase", "moduleId": "s1", "notes": "응 (casual yes) stripped to its consonant, twice. Pure 반말 — send ㅇㅇ to an elder and Reading 4's pressure rule becomes a workplace incident. The polite reply is still 네." },
+
+  { "id": "w_s1_gs", "ko": "ㄱㅅ", "rom": "gs", "en": "thx (texting)", "pos": "phrase", "moduleId": "s1", "notes": "감사 clipped to two consonants — M1's 감사합니다 at maximum compression. Friends only; the full bow survives everywhere else." },
+
+  { "id": "w_s1_yuyu", "ko": "ㅠㅠ", "rom": "yu-yu", "en": "crying (texting)", "pos": "phrase", "moduleId": "s1", "notes": "Two vowels drawn as streaming tears — typography as emotion. ㅜㅜ cries a little less; ㅠㅠㅠㅠ floods. The rare slang readable with zero explanation." },
+
+  { "id": "w_s1_heol", "ko": "헐", "rom": "heol", "en": "whoa / OMG", "pos": "phrase", "moduleId": "s1", "notes": "One syllable of pure disbelief — good news, bad news, price tags. Often typed 헐… with the trailing dots doing the emotional labor. M29's 아이고 for the young." },
+
+  { "id": "w_s1_jjang", "ko": "짱", "rom": "jjang", "en": "the best / awesome", "pos": "noun", "moduleId": "s1", "notes": "짱이야! — the best! Prefixes too: 얼짱 (best face), 몸짱 (best body). A '90s survivor that refuses to age out — M19's 최고 with its tie loosened." },
+
+  { "id": "w_s1_wanjeon", "ko": "완전", "rom": "wanjeon", "en": "totally (slang intensifier)", "pos": "noun", "moduleId": "s1", "notes": "Standard Korean uses 완전히 (completely, adverb); slang drops the 히 and welds 완전 onto anything: 완전 맛있어, 완전 꿀잼. The degree ladder's off-the-books rung." },
+
+  { "id": "w_s1_kkuljaem", "ko": "꿀잼", "rom": "kkuljaem", "en": "super fun", "pos": "noun", "moduleId": "s1", "notes": "꿀 (honey — M3's shelf) + 잼 (재미, shrunk): honey-fun. The compound machine and the 준말 machine, in series. 꿀 alone prefixes anything good: 꿀팁, 꿀맛." },
+
+  { "id": "w_s1_nojaem", "ko": "노잼", "rom": "nojaem", "en": "not fun at all", "pos": "noun", "moduleId": "s1", "notes": "English 'no' through the adapter + shrunk 재미: no-fun. 꿀잼's evil twin; a review score in two syllables. 이 영화 완전 노잼이야 — condemned." },
+
+  { "id": "w_s1_aa", "ko": "아아", "rom": "a-a", "en": "iced americano", "pos": "noun", "moduleId": "s1", "notes": "아이스 아메리카노, first-syllabled: the national beverage in two vowels. Hot is 따아 (따뜻한 아메리카노); the year-round iced loyalists are 얼죽아 — see the gap deck. Safe to say at ANY counter." },
+
+  { "id": "w_s1_choeae", "ko": "최애", "rom": "choeae", "en": "favorite / bias (fandom)", "pos": "noun", "moduleId": "s1", "notes": "최 (most — 최고's 최, M19) + 애 (love): most-loved. Your favorite member, character, menu item. Fandom Korean's load-bearing word; 차애 is the runner-up." },
+
+  { "id": "w_s1_deokhu", "ko": "덕후", "rom": "deokhu", "en": "superfan / geek", "pos": "noun", "moduleId": "s1", "notes": "Japanese 오타쿠 → 오덕후 → 덕후: a loanword localized twice. The activity is 덕질 (fanning-about), and 입덕 is the moment you fall in — an entire verb family grew from two syllables." },
+
+  { "id": "w_s1_inssa", "ko": "인싸", "rom": "inssa", "en": "social butterfly (insider)", "pos": "noun", "moduleId": "s1", "notes": "English 'insider' through the adapter, shrunk: the person at every 모임 (M25's 모이다). Konglish + 준말 in series — Reading 5 then Reading 4, the standard slang assembly line." },
+
+  { "id": "w_s1_assa", "ko": "아싸", "rom": "assa", "en": "homebody (outsider)", "pos": "noun", "moduleId": "s1", "notes": "'Outsider,' same assembly line — 인싸's opposite, worn mostly with pride: 저는 아싸예요 means my weekend plans are excellent and private. 혼밥 (M18's gap deck) is aspirational here." },
+
+  { "id": "w_s1_menbung", "ko": "멘붕", "rom": "menbung", "en": "mental breakdown / brain crash", "pos": "noun", "moduleId": "s1", "notes": "멘탈 (mental, adapted) + 붕괴 (collapse), both clipped: system failure of the self. 멘붕 왔어 — it ARRIVED, like M28's weather-states. A decade old and still fully alive." },
+
+  { "id": "w_s1_simkung", "ko": "심쿵", "rom": "simkung", "en": "heart-thump (a crush moment)", "pos": "noun", "moduleId": "s1", "notes": "심장 (heart — M24 진심's 심) + 쿵 (thud, onomatopoeia): the chest sound of sudden attraction. 심쿵했어! — my heart THUDDED. What 첫눈 (M26) and dramas are engineered to cause." },
+
+  { "id": "w_s1_bulgeum", "ko": "불금", "rom": "bulgeum", "en": "TGIF (burning Friday)", "pos": "noun", "moduleId": "s1", "notes": "불 (fire) + 금요일 (M5's day-set): Friday, on fire. 불금인데 집에 있어? — it's BURNING FRIDAY and you're home? (Yes — 아싸 pride.) The work-week's finish line, named." },
+
+  { "id": "w_s1_gapbunssa", "ko": "갑분싸", "rom": "gapbunssa", "en": "sudden mood-kill", "pos": "noun", "moduleId": "s1", "notes": "갑자기 (M28) 분위기 (M26) 싸해진다 — 'suddenly the vibe goes cold' — first-syllabled into one noun. The silence after a joke lands wrong; the word for it arrives even faster." },
+
+  { "id": "w_s1_kebake", "ko": "케바케", "rom": "kebake", "en": "case by case / it depends", "pos": "noun", "moduleId": "s1", "notes": "'Case by case' through the adapter, then first-syllabled: the universal it-depends. 사바사 (사람 by 사람) is its person-to-person spinoff — the template breeds." },
+
+  { "id": "w_s1_worabael", "ko": "워라밸", "rom": "worabael", "en": "work-life balance", "pos": "noun", "moduleId": "s1", "notes": "Work-life-balance, adapted and first-syllabled. What M16's 야근 destroys and every job posting promises. 워라밸이 좋아요 — the modern 회사 compliment that matters most." },
+
+  { "id": "w_s1_gatsaeng", "ko": "갓생", "rom": "gatsaeng", "en": "god-tier productive life", "pos": "noun", "moduleId": "s1", "notes": "갓 (god, adapted) + 생 (life — 인생's 생, M26): the disciplined, 미라클모닝, gym-before-work life. 갓생 살자! — the New Year's resolution, slangified. 갓- prefixes anything superb." },
+
+  { "id": "w_s1_jjin", "ko": "찐", "rom": "jjin", "en": "real / genuine (slang)", "pos": "noun", "moduleId": "s1", "notes": "진짜 (M11) compressed and tensed: 찐 맛집 — a GENUINELY good restaurant; 찐이야 — it's the real deal. The tensing itself carries the emphasis — sound symbolism doing grammar's job." },
+
+  { "id": "w_s1_mildang", "ko": "밀당", "rom": "mildang", "en": "push-and-pull (dating games)", "pos": "noun", "moduleId": "s1", "notes": "밀다 (push) + 당기다 (pull), first-syllabled: the strategic hot-and-cold of early romance. What 썸 (M19's gap deck) runs on. 밀당하지 마 — stop playing games — ends it." },
+
+  { "id": "w_s1_kkondae", "ko": "꼰대", "rom": "kkondae", "en": "out-of-touch elder / boomer", "pos": "noun", "moduleId": "s1", "notes": "The elder who lectures uninvited, opens with 나 때는 (back in MY day — punned as '라떼는'). Serious enough to appear in HR training; funny enough to tease your dad with. Use with 눈치 (M16)." },
+
+  { "id": "w_s1_gapjil", "ko": "갑질", "rom": "gapjil", "en": "power abuse (by the stronger party)", "pos": "noun", "moduleId": "s1", "notes": "갑 (the stronger contract party — gap deck explains the 갑/을 system) + -질 (the doing-of, derogatory): pulling rank, made famous by airline-nut incidents. Slang serious enough for newspaper headlines." },
+
+  { "id": "w_s1_sohwakhaeng", "ko": "소확행", "rom": "sohwakhaeng", "en": "small but certain happiness", "pos": "noun", "moduleId": "s1", "notes": "소소하지만 확실한 행복, first-syllabled: the good coffee, the clean bed, the 아아 at 3pm. Borrowed from a Murakami essay, naturalized completely — the anti-갓생, and its roommate." }
 ]

@@ -8328,5 +8328,152 @@
     "rom": "daneoreul cheon gae arayo!",
     "wordIds": ["w_daneo", "w_cheon", "w_c_gae", "w_alda"],
     "note": "M10's 단어 — this app's name — counted by M9's 천 and M5's 개: Band 3's closing claim, and as of this module, an understatement. 시작이 반이다 was right."
+  },
+  {
+    "id": "s_s1_funny_kk",
+    "en": [
+      { "t": "That story", "role": "subject", "id": "s" },
+      { "t": "is hilarious lol", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that story", "role": "subject", "id": "s" },
+      { "t": "really is-funny haha", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 얘기", "role": "subject", "id": "s" },
+      { "t": "진짜 웃겨 ㅋㅋㅋ", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu yaegi jinjja utgyeo kkk",
+    "wordIds": ["w_geu_det", "w_iyagi", "w_jinjja", "w_utgida", "w_s1_kk"],
+    "note": "Texting register: M29's 그, M24's 이야기 in its 준말 suit (얘기), M19's 웃기다 in bare 반말, and laughter typed in raw consonants. Particles dropped at texting speed — all legal here."
+  },
+  {
+    "id": "s_s1_drama_kkuljaem",
+    "en": [
+      { "t": "This drama", "role": "subject", "id": "s" },
+      { "t": "is totally addictive", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this drama", "role": "subject", "id": "s" },
+      { "t": "totally honey-fun-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 드라마", "role": "subject", "id": "s" },
+      { "t": "완전 꿀잼이야", "role": "verb", "id": "v" }
+    ],
+    "rom": "i deurama wanjeon kkuljaemiya",
+    "wordIds": ["w_i_det", "w_deurama", "w_s1_wanjeon", "w_s1_kkuljaem"],
+    "note": "The review sentence of the streaming age: M29's bare 이, slang-완전 (the 히 dropped), 꿀잼 on M19's casual copula -이야. Its rebuttal is one swap away: 완전 노잼이야."
+  },
+  {
+    "id": "s_s1_bulgeum",
+    "en": [
+      { "t": "It's Friday!", "role": "other", "id": "a" },
+      { "t": "Let's go out together!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "burning-Friday-is!", "role": "other", "id": "a" },
+      { "t": "together play-let's!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "불금이야!", "role": "other", "id": "a" },
+      { "t": "같이 놀자!", "role": "verb", "id": "v" }
+    ],
+    "rom": "bulgeumiya! gachi nolja!",
+    "wordIds": ["w_s1_bulgeum", "w_gachi", "w_nolda"],
+    "note": "불금 igniting M19's -자 propositive and M9's 같이. The correct 아싸 counter-move: 집에서 쉴 거야 — and both answers are socially licensed."
+  },
+  {
+    "id": "s_s1_iced_americano",
+    "en": [
+      { "t": "One iced americano,", "role": "object", "id": "o" },
+      { "t": "please", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "iced-americano one cup", "role": "object", "id": "o" },
+      { "t": "give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아아 한 잔", "role": "object", "id": "o" },
+      { "t": "주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "a-a han jan juseyo",
+    "wordIds": ["w_s1_aa", "w_hana", "w_c_jan", "w_juda"],
+    "note": "Slang inside the polite frame — 아아 is so universal it rides M9's 주세요 machine at any counter, any age. M5's cup counter and contracted 한, unbothered by the vowels they're counting."
+  },
+  {
+    "id": "s_s1_dad_kkondae",
+    "en": [
+      { "t": "My dad", "role": "subject", "id": "s" },
+      { "t": "is sometimes", "role": "other", "id": "a" },
+      { "t": "kind of a boomer", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "our dad-[topic]", "role": "subject", "id": "s" },
+      { "t": "sometimes", "role": "other", "id": "a" },
+      { "t": "kkondae like-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 아빠는", "role": "subject", "id": "s" },
+      { "t": "가끔", "role": "other", "id": "a" },
+      { "t": "꼰대 같아", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri appaneun gakkeum kkondae gata",
+    "wordIds": ["w_uri", "w_appa", "w_gakkeum", "w_s1_kkondae", "w_gatda_same"],
+    "note": "M24's 같다 doing its is-like job in 반말, softened by M8's 가끔 — teasing, not filing a complaint. Said WITH affection and WITHOUT the subject present."
+  },
+  {
+    "id": "s_s1_simkung",
+    "en": [
+      { "t": "I saw my bias at a cafe.", "role": "other", "id": "c" },
+      { "t": "Heart attack!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "cafe-at favorite singer-[obj] saw", "role": "other", "id": "c" },
+      { "t": "heart-thumped!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "카페에서 최애 가수를 봤어.", "role": "other", "id": "c" },
+      { "t": "심쿵했어!", "role": "verb", "id": "v" }
+    ],
+    "rom": "kapeeseo choeae gasureul bwasseo. simkunghaesseo!",
+    "wordIds": ["w_kape", "w_s1_choeae", "w_gasu", "w_boda", "w_s1_simkung"],
+    "note": "Fandom Korean end to end: 최애 modifying M4's 가수, the sighting in 반말 past, and 심쿵 verbed with 하다 — onomatopoeia conjugating like any citizen."
+  },
+  {
+    "id": "s_s1_gapbunssa",
+    "en": [
+      { "t": "Because of my joke,", "role": "other", "id": "c" },
+      { "t": "the mood died", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "my joke because-of", "role": "other", "id": "c" },
+      { "t": "sudden-mood-chill became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내 농담 때문에", "role": "other", "id": "c" },
+      { "t": "갑분싸가 됐어", "role": "verb", "id": "v" }
+    ],
+    "rom": "nae nongdam ttaemune gapbunssaga dwaesseo",
+    "wordIds": ["w_nae", "w_nongdam", "w_ttaemun", "w_s1_gapbunssa", "w_doeda"],
+    "note": "M29's 때문에 assigning blame, M10's 되다 marking the transformation, and the compressed catastrophe itself: 갑자기+분위기+싸 — three modules of vocabulary, first-syllabled into one noun."
+  },
+  {
+    "id": "s_s1_gatsaeng",
+    "en": [
+      { "t": "This year", "role": "other", "id": "t" },
+      { "t": "I'm living the god-life!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this-year-[topic]", "role": "other", "id": "t" },
+      { "t": "god-life-[obj] live-will!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "올해는", "role": "other", "id": "t" },
+      { "t": "갓생을 살 거야!", "role": "verb", "id": "v" }
+    ],
+    "rom": "olhaeneun gatsaengeul sal geoya!",
+    "wordIds": ["w_olhae", "w_s1_gatsaeng", "w_salda"],
+    "note": "M25's 올해 + M8's future in its 반말 suit (-ㄹ 거야) + the adapted-and-welded 갓생: the resolution sentence of the 2020s. Its gentle opposite — 소확행 — forgives you in March."
   }
 ]
