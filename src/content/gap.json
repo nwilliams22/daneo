@@ -610,5 +610,32 @@
     "lit": "(maternal) aunt!",
     "real": "excuse me! (to a restaurant auntie)",
     "note": "In casual restaurants, the middle-aged server is summoned as family — 이모, mom's-side aunt, the warmest title available. It buys better 반찬 refills than 저기요 ever will. Use only where aprons and floor seating suggest it; the 부장님's French place, not so much."
+  },
+  {
+    "id": "g19_chingu",
+    "cat": "concept",
+    "ko": "친구",
+    "rom": "chingu",
+    "lit": "friend",
+    "real": "same-age peer",
+    "note": "The word you've had since Module 1 has a catch: a 친구 is properly someone your OWN age. One year older and they're your 형/누나/언니/오빠, not your 친구 — which is why Koreans ask your age within minutes of meeting. Not rudeness: they're calibrating the entire relationship, 반말 included. 동갑? Instant friendship eligibility."
+  },
+  {
+    "id": "g19_jeong",
+    "cat": "concept",
+    "ko": "정",
+    "rom": "jeong",
+    "lit": "affection / attachment",
+    "real": "the bond that accumulates between people",
+    "note": "Untranslatable heavyweight: the connective tissue that builds through shared meals, favors, arguments, time. You don't fall into 정 — it seeps (정이 들다). It survives dislike: 미운 정, the bond you have with someone who annoys you, is still 정. Friendship is 우정, family-feeling is 정 — Korea's social physics runs on it."
+  },
+  {
+    "id": "g19_sseom",
+    "cat": "phrase",
+    "ko": "썸 타다",
+    "rom": "sseom tada",
+    "lit": "to ride a something",
+    "real": "to be in the flirty maybe-stage",
+    "note": "From English 'something' — as in, there's SOMETHING between them. The named stage before 사귀다: texting too often, denying it to friends. 썸 타는 중이야 — I'm riding a something. English needed this word and never made it; Korean borrowed the raw material and built it."
   }
 ]

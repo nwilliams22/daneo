@@ -982,5 +982,81 @@
 
   { "id": "w_oesikhada", "ko": "외식하다", "rom": "oesikhada", "en": "to eat out", "pos": "verb", "moduleId": "m18", "notes": "외 (outside — 외국어's 외) + 식 (food): outside-eating. 오늘은 외식해요! — the happiest household announcement." },
 
-  { "id": "w_dubu", "ko": "두부", "rom": "dubu", "en": "tofu", "pos": "noun", "moduleId": "m18", "notes": "된장찌개's soft white heart. 순두부찌개 — silken-tofu stew — is its bubbling starring role." }
+  { "id": "w_dubu", "ko": "두부", "rom": "dubu", "en": "tofu", "pos": "noun", "moduleId": "m18", "notes": "된장찌개's soft white heart. 순두부찌개 — silken-tofu stew — is its bubbling starring role." },
+
+  { "id": "w_neo", "ko": "너", "rom": "neo", "en": "you (casual)", "pos": "noun", "moduleId": "m19", "notes": "반말-only. Korean mostly AVOIDS 'you' — names and titles do the work — but between real friends, 너 is finally safe." },
+
+  { "id": "w_nae", "ko": "내", "rom": "nae", "en": "my (casual)", "pos": "noun", "moduleId": "m19", "notes": "나 + 의 squeezed, exactly as 제 came from 저. The humble/casual pairs line up: 저/제 for politeness, 나/내 with friends." },
+
+  { "id": "w_ne_your", "ko": "네", "rom": "ne", "en": "your (casual)", "pos": "noun", "moduleId": "m19", "notes": "Spelled 네, but here's the problem: it sounds exactly like 내 (my) AND like 네 (yes). Real speech dodges the pileup by saying 니 — 니 생일, your birthday. Written 네, spoken 니." },
+
+  { "id": "w_banmal", "ko": "반말", "rom": "banmal", "en": "casual speech", "pos": "noun", "moduleId": "m19", "notes": "M5's 반 (half) + M4's 말 (speech): half-speech — the register with the endings snapped off. This module's entire subject, named." },
+
+  { "id": "w_jondaenmal", "ko": "존댓말", "rom": "jondaenmal", "en": "polite speech", "pos": "noun", "moduleId": "m19", "notes": "Respect-speech — everything you've learned through Module 18. 반말's counterpart; knowing WHICH to use is the real fluency." },
+
+  { "id": "w_anida", "ko": "아니다", "rom": "anida", "en": "to not be (the negative copula)", "pos": "adj", "moduleId": "m19", "notes": "이다's opposite number — 아니에요 politely, 아니야 casually. You've said 아니에요 since M4; here's the dictionary form underneath." },
+
+  { "id": "w_byeolmyeong", "ko": "별명", "rom": "byeolmyeong", "en": "nickname", "pos": "noun", "moduleId": "m19", "notes": "별 (special) + 명 (name). Korean friendships mint nicknames aggressively; answering to yours is a membership card." },
+
+  { "id": "w_choego", "ko": "최고", "rom": "choego", "en": "the best", "pos": "noun", "moduleId": "m19", "notes": "최 (most) + 고 (high): the highest. 최고야! with a thumbs-up is complete communication." },
+
+  { "id": "w_seonggyeok", "ko": "성격", "rom": "seonggyeok", "en": "personality", "pos": "noun", "moduleId": "m19", "notes": "성격이 좋아요 — good personality — is the classic friend-recommendation. What 눈치 measures, 성격 is." },
+
+  { "id": "w_nongdam", "ko": "농담", "rom": "nongdam", "en": "joke", "pos": "noun", "moduleId": "m19", "notes": "농담이야! — just kidding! The escape hatch after every risky sentence." },
+
+  { "id": "w_geojinmal", "ko": "거짓말", "rom": "geojinmal", "en": "lie", "pos": "noun", "moduleId": "m19", "notes": "거짓 (false) + 말 (speech): false-speech. 거짓말! alone means 'no way!' — disbelief, not accusation. Usually." },
+
+  { "id": "w_bimil", "ko": "비밀", "rom": "bimil", "en": "secret", "pos": "noun", "moduleId": "m19", "notes": "비밀이야 — it's a secret — reliably guarantees the whole group knows by Friday." },
+
+  { "id": "w_pati", "ko": "파티", "rom": "pati", "en": "party", "pos": "noun", "moduleId": "m19", "notes": "Konglish. The ㅍ handles the f again, like 소파." },
+
+  { "id": "w_keikeu", "ko": "케이크", "rom": "keikeu", "en": "cake", "pos": "noun", "moduleId": "m19", "notes": "Konglish. Korean birthdays add 미역국 — seaweed soup — because your mother ate it after bearing you. Cake for the party, soup for the meaning." },
+
+  { "id": "w_oraenman", "ko": "오랜만", "rom": "oraenman", "en": "a long time (since)", "pos": "noun", "moduleId": "m19", "notes": "오랜만이야! / 오랜만이에요! — long time no see, in both registers. M10's 오래 grew a suffix and became a greeting." },
+
+  { "id": "w_ujeong", "ko": "우정", "rom": "ujeong", "en": "friendship", "pos": "noun", "moduleId": "m19", "notes": "우 (friend) + 정 — THE 정, the bond the gap deck tries to translate. Friendship is literally 'friend-jeong.'" },
+
+  { "id": "w_maeum", "ko": "마음", "rom": "maeum", "en": "heart / mind", "pos": "noun", "moduleId": "m19", "notes": "Where English splits heart and mind, Korean has one 마음. 마음에 들어요 — 'it enters my 마음' — is how things get liked." },
+
+  { "id": "w_sori", "ko": "소리", "rom": "sori", "en": "sound", "pos": "noun", "moduleId": "m19", "notes": "무슨 소리야? — 'what sound is that?' — really means 'what are you talking about?' Nonsense is just noise." },
+
+  { "id": "w_moksori", "ko": "목소리", "rom": "moksori", "en": "voice", "pos": "noun", "moduleId": "m19", "notes": "M14's 목 (throat) + 소리 (sound): throat-sound. The compound machine never rests." },
+
+  { "id": "w_chueok", "ko": "추억", "rom": "chueok", "en": "memories (cherished)", "pos": "noun", "moduleId": "m19", "notes": "Not memory-the-faculty — memory-the-treasure. Photos, trips, songs: 추억 is what 사진 찍는 것 is actually for." },
+
+  { "id": "w_donggap", "ko": "동갑", "rom": "donggap", "en": "same age", "pos": "noun", "moduleId": "m19", "notes": "동갑이에요? — same age? — is the doorway to 반말. The gap deck explains why age-matching matters this much here." },
+
+  { "id": "w_nolda", "ko": "놀다", "rom": "nolda", "en": "to hang out / play", "pos": "verb", "moduleId": "m19", "notes": "Kids play, adults hang out — 놀다 covers both without embarrassment. 놀자! is the friendship imperative." },
+
+  { "id": "w_sagwida", "ko": "사귀다", "rom": "sagwida", "en": "to date / go out with", "pos": "verb", "moduleId": "m19", "notes": "Also 'to make friends with' — context and eyebrows distinguish. 사귀자 is a confession; deploy carefully." },
+
+  { "id": "w_heeojida", "ko": "헤어지다", "rom": "heeojida", "en": "to break up / part ways", "pos": "verb", "moduleId": "m19", "notes": "Couples 헤어지다, but so do friends at the bus stop — parting is parting; only context makes it sad." },
+
+  { "id": "w_ssauda", "ko": "싸우다", "rom": "ssauda", "en": "to fight / argue", "pos": "verb", "moduleId": "m19", "notes": "싸웠어? — did you two fight? — the question that follows every suspicious silence." },
+
+  { "id": "w_hwanada", "ko": "화나다", "rom": "hwanada", "en": "to be angry", "pos": "verb", "moduleId": "m19", "notes": "화 (anger) + 나다 (comes out): anger emerges, weather-style — like 비가 와요, feelings arrive on their own. 화났어? — you mad?" },
+
+  { "id": "w_utgida", "ko": "웃기다", "rom": "utgida", "en": "to be funny / make laugh", "pos": "verb", "moduleId": "m19", "notes": "M7's 웃다 (laugh) with a causative kick: MAKES laugh. 웃겨! — hilarious! Also, dryly: 웃기지 마 — don't make me laugh." },
+
+  { "id": "w_chukhahada", "ko": "축하하다", "rom": "chukahada", "en": "to congratulate", "pos": "verb", "moduleId": "m19", "notes": "생일 축하해! Said 추카 — the ㅎ-merge the sound interlude promised would arrive with this exact word." },
+
+  { "id": "w_chodaehada", "ko": "초대하다", "rom": "chodaehada", "en": "to invite", "pos": "verb", "moduleId": "m19", "notes": "파티에 초대했어요. Being invited to a Korean home is rarer than it sounds — most socializing happens out; a home invite is a big deal." },
+
+  { "id": "w_yeollakhada", "ko": "연락하다", "rom": "yeollakhada", "en": "to contact / keep in touch", "pos": "verb", "moduleId": "m19", "notes": "연락해! — text me! The parting word of every good hangout. 연락이 없어요 — radio silence — is how worry starts." },
+
+  { "id": "w_chinhada", "ko": "친하다", "rom": "chinhada", "en": "to be close (with someone)", "pos": "adj", "moduleId": "m19", "notes": "The 친 of 친구. 친해요? — are you two close? — maps the social graph one edge at a time." },
+
+  { "id": "w_bureuda", "ko": "부르다", "rom": "bureuda", "en": "to call / sing", "pos": "verb", "moduleId": "m19", "notes": "Call a name, call a taxi, sing a song — 노래를 부르다. 르-family: 불러요. 배불러요 was this conjugation shape all along." },
+
+  { "id": "w_insahada", "ko": "인사하다", "rom": "insahada", "en": "to greet", "pos": "verb", "moduleId": "m19", "notes": "인사 = the greeting itself, bow included. 인사해 — say hi — is how Korean kids are introduced to everyone, forever." },
+
+  { "id": "w_gieokhada", "ko": "기억하다", "rom": "gieokhada", "en": "to remember", "pos": "verb", "moduleId": "m19", "notes": "M15's 잊다 finally gets its opposite. 기억해? — remember? — the word 추억 lives on." },
+
+  { "id": "w_mitda", "ko": "믿다", "rom": "mitda", "en": "to believe / trust", "pos": "verb", "moduleId": "m19", "notes": "나를 믿어 — trust me. A regular ㄷ, unlike 듣다 — believing is easier than listening, conjugation-wise." },
+
+  { "id": "w_deiteu", "ko": "데이트", "rom": "deiteu", "en": "a date", "pos": "noun", "moduleId": "m19", "notes": "Konglish. 데이트하다 — the verb form comes free, 하다-style." },
+
+  { "id": "w_keopeul", "ko": "커플", "rom": "keopeul", "en": "couple", "pos": "noun", "moduleId": "m19", "notes": "Konglish — and a lifestyle: 커플티 (matching shirts), 커플룩, couple rings. Korean coupledom is proudly uniformed." },
+
+  { "id": "w_sollo", "ko": "솔로", "rom": "sollo", "en": "single (not dating)", "pos": "noun", "moduleId": "m19", "notes": "Konglish. 솔로예요 — I'm single — said with pride, resignation, or strategy depending on the party." }
 ]

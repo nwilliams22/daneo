@@ -451,5 +451,30 @@
       "s18_hansik_banchan", "s18_matjip", "s18_eat_out",
       "s18_cheers", "s18_solo_okay"
     ]
+  },
+  {
+    "id": "m19",
+    "title": "Friends and Casual Speech",
+    "order": 22,
+    "contentMd": "modules/module-19.md",
+    "wordIds": [
+      "w_neo", "w_nae", "w_ne_your", "w_banmal", "w_jondaenmal",
+      "w_anida", "w_byeolmyeong", "w_choego",
+      "w_seonggyeok", "w_nongdam", "w_geojinmal", "w_bimil",
+      "w_pati", "w_keikeu", "w_oraenman", "w_ujeong",
+      "w_maeum", "w_sori", "w_moksori", "w_chueok", "w_donggap",
+      "w_nolda", "w_sagwida", "w_heeojida", "w_ssauda",
+      "w_hwanada", "w_utgida", "w_chukhahada", "w_chodaehada",
+      "w_yeollakhada", "w_chinhada", "w_bureuda", "w_insahada",
+      "w_gieokhada", "w_mitda",
+      "w_deiteu", "w_keopeul", "w_sollo"
+    ],
+    "sentenceIds": [
+      "s19_hi_longtime", "s19_whatcha_doing", "s19_tteok_let's",
+      "s19_party_come", "s19_happy_birthday", "s19_sorry_mad",
+      "s19_no_fine", "s19_best", "s19_joke_laugh",
+      "s19_dont_lie", "s19_weekend_play", "s19_secret",
+      "s19_matjip_really", "s19_eat_out_casual"
+    ]
   }
 ]
