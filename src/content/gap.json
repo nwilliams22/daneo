@@ -448,5 +448,32 @@
     "lit": "the last vehicle",
     "real": "the night's true deadline",
     "note": "Seoul's subway sleeps around midnight, so 막차 시간 quietly governs every evening's social physics — the glance at the phone, the 먼저 가요, the sprint through the station. Miss it and the night gets a taxi-fare surcharge."
+  },
+  {
+    "id": "g13_jipdeuri",
+    "cat": "concept",
+    "ko": "집들이",
+    "rom": "jipdeuri",
+    "lit": "house-entering",
+    "real": "housewarming party",
+    "note": "Move into a new place and you owe your people a 집들이. Guests traditionally bring 휴지 (toilet paper) or 세제 (detergent) — long rolls and rising bubbles mean a long life and growing fortune. The host cooks; the guests admire the view; everyone asks about the rent."
+  },
+  {
+    "id": "g13_ondol",
+    "cat": "concept",
+    "ko": "온돌",
+    "rom": "ondol",
+    "lit": "warm stone",
+    "real": "Korean underfloor heating",
+    "note": "Traditionally, kitchen smoke was routed under stone floors; today hot-water pipes do the job in every apartment. It's why floors are for sitting and sleeping, why an 이불 on the 바닥 beats a cold bed, and why shoes stop at the 현관 — you don't wear the street across a surface you sleep on."
+  },
+  {
+    "id": "g13_gohome",
+    "cat": "phrase",
+    "ko": "집에 가고 싶어요",
+    "rom": "jibe gago sipeoyo",
+    "lit": "I want to go home",
+    "real": "I'm exhausted / so done with today",
+    "note": "Said at desks, in classrooms, in queues — and, famously, while already at home. When there's no energy left for anything, the stated destination is 집, even if you're sitting in it. M3's -고 싶어요 doing emotional heavy-lifting."
   }
 ]

@@ -518,5 +518,87 @@
   { "id": "w_pyeonhada", "ko": "편하다", "rom": "pyeonhada", "en": "to be comfortable / convenient", "pos": "adj", "moduleId": "m12", "notes": "편해요. 편의점 (M6) is literally the 편-store — convenience made retail." },
   { "id": "w_wiheomhada", "ko": "위험하다", "rom": "wiheomhada", "en": "to be dangerous", "pos": "adj", "moduleId": "m12", "notes": "위험해요! Also on every warning sign: 위험." },
 
-  { "id": "w_ppalli", "ko": "빨리", "rom": "ppalli", "en": "quickly / hurry", "pos": "noun", "moduleId": "m12", "notes": "빠르다's adverb — and doubled, it's the national tempo from the gap deck: 빨리빨리." }
+  { "id": "w_ppalli", "ko": "빨리", "rom": "ppalli", "en": "quickly / hurry", "pos": "noun", "moduleId": "m12", "notes": "빠르다's adverb — and doubled, it's the national tempo from the gap deck: 빨리빨리." },
+
+  { "id": "w_apateu", "ko": "아파트", "rom": "apateu", "en": "apartment", "pos": "noun", "moduleId": "m13", "notes": "Konglish, from 'apartment.' Most of urban Korea lives in one — whole skylines of numbered towers." },
+
+  { "id": "w_geosil", "ko": "거실", "rom": "geosil", "en": "living room", "pos": "noun", "moduleId": "m13", "notes": "거 (dwell) + 실 (room). The same 실 hides in 화장실 — and in 침실, two words down." },
+
+  { "id": "w_bueok", "ko": "부엌", "rom": "bueok", "en": "kitchen", "pos": "noun", "moduleId": "m13", "notes": "A rare final ㅋ. Alone it sounds like 부억; add 에서 and the ㅋ wakes up — 부엌에서 (bueokeseo). The sound interlude, live." },
+
+  { "id": "w_chimsil", "ko": "침실", "rom": "chimsil", "en": "bedroom", "pos": "noun", "moduleId": "m13", "notes": "침 (sleep — the one in 침대) + 실 (room). The bed's room, literally." },
+
+  { "id": "w_hyeongwan", "ko": "현관", "rom": "hyeongwan", "en": "entryway", "pos": "noun", "moduleId": "m13", "notes": "The shoes-off zone every Korean home has. Guests stop here until waved in — and the street stays here too (see 온돌 in the gap deck)." },
+
+  { "id": "w_beranda", "ko": "베란다", "rom": "beranda", "en": "balcony", "pos": "noun", "moduleId": "m13", "notes": "Konglish 'veranda' — the glassed-in strip where the laundry dries and the plants live." },
+
+  { "id": "w_byeok", "ko": "벽", "rom": "byeok", "en": "wall", "pos": "noun", "moduleId": "m13" },
+
+  { "id": "w_badak", "ko": "바닥", "rom": "badak", "en": "floor (the surface)", "pos": "noun", "moduleId": "m13", "notes": "The surface you sit on — and in Korea, often sleep on. The gap deck's 온돌 explains why it's the warmest seat in the house." },
+
+  { "id": "w_gyedan", "ko": "계단", "rom": "gyedan", "en": "stairs", "pos": "noun", "moduleId": "m13" },
+
+  { "id": "w_ellibeiteo", "ko": "엘리베이터", "rom": "ellibeiteo", "en": "elevator", "pos": "noun", "moduleId": "m13", "notes": "Konglish, five syllables, and a typing-drill boss fight." },
+
+  { "id": "w_cheung", "ko": "층", "rom": "cheung", "en": "floor / story", "pos": "noun", "moduleId": "m13", "notes": "A counter, like M5's set — with Sino numbers: 일 층, 이 층. 몇 층이에요? works in every elevator in the country." },
+
+  { "id": "w_sopa", "ko": "소파", "rom": "sopa", "en": "sofa", "pos": "noun", "moduleId": "m13", "notes": "Konglish. The ㅍ is doing the 'f' work — Korean has no f, so ㅍ covers the shift." },
+
+  { "id": "w_naengjanggo", "ko": "냉장고", "rom": "naengjanggo", "en": "refrigerator", "pos": "noun", "moduleId": "m13", "notes": "냉 (cold) + 장 (storage) + 고 (warehouse): a cold-storage-warehouse. Korean names appliances by job description." },
+
+  { "id": "w_setakgi", "ko": "세탁기", "rom": "setakgi", "en": "washing machine", "pos": "noun", "moduleId": "m13", "notes": "세탁 (laundry) + 기 (machine) — the same 기 as 비행기, the flying machine." },
+
+  { "id": "w_geoul", "ko": "거울", "rom": "geoul", "en": "mirror", "pos": "noun", "moduleId": "m13" },
+
+  { "id": "w_yeolsoe", "ko": "열쇠", "rom": "yeolsoe", "en": "key", "pos": "noun", "moduleId": "m13", "notes": "열다 (open — below) + 쇠 (metal): 'open-metal.' The word is a tiny job description." },
+
+  { "id": "w_sseuregi", "ko": "쓰레기", "rom": "sseuregi", "en": "trash", "pos": "noun", "moduleId": "m13", "notes": "Korea sorts it strictly — food waste (음식물) gets its own bin, its own bag, and its own smell politics." },
+
+  { "id": "w_ibul", "ko": "이불", "rom": "ibul", "en": "blanket / duvet", "pos": "noun", "moduleId": "m13", "notes": "Thick enough to sleep under ON the floor — the 온돌 lifestyle's essential kit (gap deck)." },
+
+  { "id": "w_begae", "ko": "베개", "rom": "begae", "en": "pillow", "pos": "noun", "moduleId": "m13", "notes": "Watch the vowels: ㅔ then ㅐ — the merged-sound pair, both ways, in one word." },
+
+  { "id": "w_otjang", "ko": "옷장", "rom": "otjang", "en": "wardrobe", "pos": "noun", "moduleId": "m13", "notes": "옷 (clothes — official in the clothes module) + 장 (storage — the one in 냉장고). A clothes-warehouse." },
+
+  { "id": "w_bul", "ko": "불", "rom": "bul", "en": "light / fire", "pos": "noun", "moduleId": "m13", "notes": "One word for fire and the lights. 불을 켜요 — turn it on. And M7's 파란불? That was this 불 all along." },
+
+  { "id": "w_jim", "ko": "짐", "rom": "jim", "en": "luggage / stuff to carry", "pos": "noun", "moduleId": "m13", "notes": "Moving boxes, travel bags, anything hauled. 이삿짐 — moving-day 짐." },
+
+  { "id": "w_kyeoda", "ko": "켜다", "rom": "kyeoda", "en": "to turn on", "pos": "verb", "moduleId": "m13", "notes": "Lights, TV, 에어컨 — 켜다 flips anything on. Its opposite is two letters and one irregular: 끄다." },
+
+  { "id": "w_kkeuda", "ko": "끄다", "rom": "kkeuda", "en": "to turn off", "pos": "verb", "moduleId": "m13", "notes": "ㅡ-drop family (아프다, 바쁘다, 슬프다…): 끄 + 어요 → 꺼요. Two letters, full irregular pedigree." },
+
+  { "id": "w_yeolda", "ko": "열다", "rom": "yeolda", "en": "to open", "pos": "verb", "moduleId": "m13", "notes": "문을 열어요. Its noun child is up in the vocab: 열쇠, the open-metal." },
+
+  { "id": "w_datda", "ko": "닫다", "rom": "datda", "en": "to close", "pos": "verb", "moduleId": "m13", "notes": "A law-abiding ㄷ — 닫아요, unlike 듣다/걷다. Not every ㄷ misbehaves." },
+
+  { "id": "w_isahada", "ko": "이사하다", "rom": "isahada", "en": "to move (house)", "pos": "verb", "moduleId": "m13", "notes": "이사 is the move itself. Point the destination with M6's (으)로: 새 집으로 이사해요." },
+
+  { "id": "w_jeongnihada", "ko": "정리하다", "rom": "jeongnihada", "en": "to tidy up / organize", "pos": "verb", "moduleId": "m13", "notes": "정리 = order, arrangement. Desks, closets, photos, your life — all 정리-able." },
+
+  { "id": "w_beorida", "ko": "버리다", "rom": "beorida", "en": "to throw away", "pos": "verb", "moduleId": "m13", "notes": "쓰레기를 버리다 — the natural pair." },
+
+  { "id": "w_gochida", "ko": "고치다", "rom": "gochida", "en": "to fix / repair", "pos": "verb", "moduleId": "m13", "notes": "Doors, phones, sentences, habits — 고치다 repairs them all." },
+
+  { "id": "w_neopda", "ko": "넓다", "rom": "neolda", "en": "to be spacious / wide", "pos": "adj", "moduleId": "m13", "notes": "ㄼ batchim reads ㄹ before a consonant — 널따 — but both letters wake with a vowel: 넓어요 (neolbeoyo). The sound interlude's rule, running live." },
+
+  { "id": "w_jopda", "ko": "좁다", "rom": "jopda", "en": "to be narrow / cramped", "pos": "adj", "moduleId": "m13", "notes": "Regular ㅂ, like 입다 — 좁아요, no ㅂ→우 magic. The irregular family doesn't take everyone." },
+
+  { "id": "w_bakda", "ko": "밝다", "rom": "bakda", "en": "to be bright", "pos": "adj", "moduleId": "m13", "notes": "ㄺ batchim like M11's 맑다: 박따 alone, 밝아요 (balgayo) once a vowel follows." },
+
+  { "id": "w_eodupda", "ko": "어둡다", "rom": "eodupda", "en": "to be dark", "pos": "adj", "moduleId": "m13", "notes": "ㅂ-irregular: 어두워요. Joins the 덥다/춥다/맵다 family." },
+
+  { "id": "w_deoreopda", "ko": "더럽다", "rom": "deoreopda", "en": "to be dirty", "pos": "adj", "moduleId": "m13", "notes": "ㅂ-irregular: 더러워요. The anti-깨끗하다." },
+
+  { "id": "w_sikkeureopda", "ko": "시끄럽다", "rom": "sikkeureopda", "en": "to be noisy", "pos": "adj", "moduleId": "m13", "notes": "ㅂ-irregular: 시끄러워요. Shouted alone — 시끄러워! — it means 'keep it down!'" },
+
+  { "id": "w_joyonghada", "ko": "조용하다", "rom": "joyonghada", "en": "to be quiet", "pos": "adj", "moduleId": "m13", "notes": "조용히 하세요 — the librarian's setting. A 하다-adjective, so no irregular surprises." },
+
+  { "id": "w_sae", "ko": "새", "rom": "sae", "en": "new (before a noun)", "pos": "noun", "moduleId": "m13", "notes": "Clips onto the front of a noun, no glue needed: 새 집, 새 침대, 새 핸드폰. It never stands alone — always the 새 something." },
+
+  { "id": "w_iut", "ko": "이웃", "rom": "iut", "en": "neighbor", "pos": "noun", "moduleId": "m13", "notes": "이웃사촌 — 'neighbor-cousins': the saying that a close neighbor beats a distant relative." },
+
+  { "id": "w_p_jeone", "ko": "전에", "rom": "jeone", "en": "before", "pos": "particle", "moduleId": "m13", "notes": "After a plain noun (수업 전에) or a verb wearing -기 (자기 전에). 전 = the time before." },
+
+  { "id": "w_p_hue", "ko": "후에", "rom": "hue", "en": "after", "pos": "particle", "moduleId": "m13", "notes": "After a plain noun (수업 후에) or a verb stamped past with -(으)ㄴ (먹은 후에). 후 = the time after." }
 ]

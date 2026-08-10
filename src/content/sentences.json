@@ -3465,5 +3465,290 @@
     "rom": "nuni onikka josimhaseyo",
     "wordIds": ["w_nun_snow", "w_oda", "w_josimhada"],
     "note": "Module 11's weather-comes pattern driving Module 10's -(으)니까 into a request — same machinery as 비가 오니까 택시를 탑시다, deliberately NOT the same sentence. Fresh assembly every time; that's the course rule now."
+  },
+  {
+    "id": "s13_sleep_before",
+    "en": [
+      { "t": "Before sleeping,", "role": "other", "id": "c" },
+      { "t": "I turn off", "role": "verb", "id": "v" },
+      { "t": "my phone", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "sleeping-before", "role": "other", "id": "c" },
+      { "t": "phone-[obj]", "role": "object", "id": "o" },
+      { "t": "turn-off", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "자기 전에", "role": "other", "id": "c" },
+      { "t": "핸드폰을", "role": "object", "id": "o" },
+      { "t": "꺼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jagi jeone haendeuponeul kkeoyo",
+    "wordIds": ["w_jada", "w_haendeupon", "w_kkeuda"],
+    "note": "-기 turns any verb into a little noun, and 전에 means 'before it.' Then 끄다 drops its ㅡ: 꺼요. Two new machines in one bedtime resolution."
+  },
+  {
+    "id": "s13_party_clean",
+    "en": [
+      { "t": "Before my friend comes,", "role": "other", "id": "c" },
+      { "t": "I clean", "role": "verb", "id": "v" },
+      { "t": "the house", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj] comes-before", "role": "other", "id": "c" },
+      { "t": "house-[obj]", "role": "object", "id": "o" },
+      { "t": "clean", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가 오기 전에", "role": "other", "id": "c" },
+      { "t": "집을", "role": "object", "id": "o" },
+      { "t": "청소해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga ogi jeone jibeul cheongsohaeyo",
+    "wordIds": ["w_chingu", "w_oda", "w_jip", "w_cheongsohada"],
+    "note": "-기 전에 swallows a whole clause, subject and all. The pre-집들이 scramble (gap deck) starts with exactly this sentence."
+  },
+  {
+    "id": "s13_guests_after",
+    "en": [
+      { "t": "After the guests left,", "role": "other", "id": "c" },
+      { "t": "I tidied up", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "guest-[subj] left-after", "role": "other", "id": "c" },
+      { "t": "tidied-up", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "손님이 간 후에", "role": "other", "id": "c" },
+      { "t": "정리했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sonnimi gan hue jeongnihaesseoyo",
+    "wordIds": ["w_sonnim", "w_gada", "w_jeongnihada"],
+    "note": "후에 wants the verb stamped past first: 가다 → 간. M9's 손님 return as houseguests; the tidying, as ever, happens after."
+  },
+  {
+    "id": "s13_class_rest",
+    "en": [
+      { "t": "After class", "role": "other", "id": "c" },
+      { "t": "I rest", "role": "verb", "id": "v" },
+      { "t": "at home", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "class-after", "role": "other", "id": "c" },
+      { "t": "home-at", "role": "place", "id": "p" },
+      { "t": "rest", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "수업 후에", "role": "other", "id": "c" },
+      { "t": "집에서", "role": "place", "id": "p" },
+      { "t": "쉬어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sueop hue jibeseo swieoyo",
+    "wordIds": ["w_sueop", "w_jip", "w_swida"],
+    "note": "With a plain noun, 후에 needs no verb surgery — [noun] 후에, done. M2's 에서 marks where the resting happens."
+  },
+  {
+    "id": "s13_move_new",
+    "en": [
+      { "t": "Next week", "role": "other", "id": "t" },
+      { "t": "I'm moving", "role": "verb", "id": "v" },
+      { "t": "to a new apartment", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "next week-at", "role": "other", "id": "t" },
+      { "t": "new apartment-toward", "role": "place", "id": "p" },
+      { "t": "move-house", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다음 주에", "role": "other", "id": "t" },
+      { "t": "새 아파트로", "role": "place", "id": "p" },
+      { "t": "이사해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daeum jue sae apateuro isahaeyo",
+    "wordIds": ["w_daeum", "w_ju", "w_sae", "w_apateu", "w_isahada"],
+    "note": "새 clips onto the front of its noun, and M6's (으)로 points the move — vowel-final 아파트 takes bare 로."
+  },
+  {
+    "id": "s13_what_floor",
+    "en": [
+      { "t": "What floor", "role": "place", "id": "p" },
+      { "t": "do you live on?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "what floor-on", "role": "place", "id": "p" },
+      { "t": "live?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "몇 층에", "role": "place", "id": "p" },
+      { "t": "살아요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "myeot cheunge sarayo?",
+    "wordIds": ["w_myeot", "w_cheung", "w_salda"],
+    "note": "층 is a counter, so M5's 몇 slots straight in. Many Korean buildings skip or letter the 4th floor (F) — 사 sounds like the Sino word for death."
+  },
+  {
+    "id": "s13_fifth_floor",
+    "en": [
+      { "t": "I live", "role": "verb", "id": "v1" },
+      { "t": "on the fifth floor.", "role": "place", "id": "p" },
+      { "t": "There is", "role": "verb", "id": "v2" },
+      { "t": "an elevator", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "five floor-on", "role": "place", "id": "p" },
+      { "t": "live.", "role": "verb", "id": "v1" },
+      { "t": "elevator-[subj]", "role": "subject", "id": "s" },
+      { "t": "exists", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "오 층에", "role": "place", "id": "p" },
+      { "t": "살아요.", "role": "verb", "id": "v1" },
+      { "t": "엘리베이터가", "role": "subject", "id": "s" },
+      { "t": "있어요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "o cheunge sarayo. ellibeiteoga isseoyo",
+    "wordIds": ["w_n_o", "w_cheung", "w_salda", "w_ellibeiteo", "w_itda"],
+    "note": "살다 keeps its ㄹ before -아요: 살아요. And the 있다-factory now does real-estate listings — 엘리베이터가 있어요 is a selling point."
+  },
+  {
+    "id": "s13_fridge_chicken",
+    "en": [
+      { "t": "There is", "role": "verb", "id": "v" },
+      { "t": "chicken", "role": "subject", "id": "s" },
+      { "t": "inside the fridge", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "fridge inside-at", "role": "place", "id": "p" },
+      { "t": "chicken-[subj]", "role": "subject", "id": "s" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "냉장고 안에", "role": "place", "id": "p" },
+      { "t": "치킨이", "role": "subject", "id": "s" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naengjanggo ane chikini isseoyo",
+    "wordIds": ["w_naengjanggo", "w_an_inside", "w_chikin", "w_itda"],
+    "note": "M6's position-noun frame on a new anchor: the fridge has an inside, and the inside has 치킨. The best possible news."
+  },
+  {
+    "id": "s13_see_house",
+    "en": [
+      { "t": "I'm going to see", "role": "verb", "id": "v" },
+      { "t": "the new house", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "new house-[obj]", "role": "object", "id": "o" },
+      { "t": "see-in-order-to go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새 집을", "role": "object", "id": "o" },
+      { "t": "보러 가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sae jibeul boreo gayo",
+    "wordIds": ["w_sae", "w_jip", "w_boda", "w_gada"],
+    "note": "Module 12's -(으)러 가다 with fresh cargo. House-hunting is mostly this sentence plus 몇 층이에요?."
+  },
+  {
+    "id": "s13_trash_out",
+    "en": [
+      { "t": "I'm going out", "role": "verb", "id": "v" },
+      { "t": "to throw away the trash", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "trash-[obj] throw-away-in-order-to", "role": "other", "id": "c" },
+      { "t": "go-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "쓰레기를 버리러", "role": "other", "id": "c" },
+      { "t": "나가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sseuregireul beorireo nagayo",
+    "wordIds": ["w_sseuregi", "w_beorida", "w_nagada"],
+    "note": "The apartment-life ritual: sorted bags, designated spot, designated day. -(으)러 rides M8's 나가다 this time — any motion verb can carry a purpose."
+  },
+  {
+    "id": "s13_station_five",
+    "en": [
+      { "t": "It takes", "role": "verb", "id": "v" },
+      { "t": "five minutes", "role": "other", "id": "t" },
+      { "t": "to the subway station", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "subway-station-until", "role": "place", "id": "p" },
+      { "t": "five minute", "role": "other", "id": "t" },
+      { "t": "takes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지하철역까지", "role": "place", "id": "p" },
+      { "t": "오 분", "role": "other", "id": "t" },
+      { "t": "걸려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jihacheollyeokkaji o bun geollyeoyo",
+    "wordIds": ["w_jihacheol", "w_yeok", "w_n_o", "w_c_bun", "w_geollida"],
+    "note": "The realtor's favorite sentence — station-distance sells apartments. M12's 걸리다 with M6's 까지, and 지하철역 says 지하철력, same liaison as 서울역."
+  },
+  {
+    "id": "s13_small_clean",
+    "en": [
+      { "t": "The room", "role": "subject", "id": "s" },
+      { "t": "is cramped, but", "role": "other", "id": "c" },
+      { "t": "it's clean", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "room-[as for]", "role": "subject", "id": "s" },
+      { "t": "is-cramped-but", "role": "other", "id": "c" },
+      { "t": "is-clean", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "방은", "role": "subject", "id": "s" },
+      { "t": "좁지만", "role": "other", "id": "c" },
+      { "t": "깨끗해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bangeun jopjiman kkaekkeuthaeyo",
+    "wordIds": ["w_bang", "w_jopda", "w_kkaekkeuthada"],
+    "note": "Every one-room listing ever written. M7's -지만 welds the concession, and 좁다 stays regular — 좁아요, no ㅂ-magic."
+  },
+  {
+    "id": "s13_noisy_window",
+    "en": [
+      { "t": "It was noisy outside, so", "role": "other", "id": "c" },
+      { "t": "I closed", "role": "verb", "id": "v" },
+      { "t": "the window", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "outside-[subj] is-noisy-because", "role": "other", "id": "c" },
+      { "t": "window-[obj]", "role": "object", "id": "o" },
+      { "t": "closed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "밖이 시끄러워서", "role": "other", "id": "c" },
+      { "t": "창문을", "role": "object", "id": "o" },
+      { "t": "닫았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bakki sikkeureowoseo changmuneul dadasseoyo",
+    "wordIds": ["w_bak", "w_sikkeureopda", "w_changmun", "w_datda"],
+    "note": "M10's -아/어서 chain: ㅂ-irregular 시끄럽다 → 시끄러워서, while 닫다 stays a law-abiding ㄷ — 닫았어요."
+  },
+  {
+    "id": "s13_warm_floor",
+    "en": [
+      { "t": "In winter", "role": "other", "id": "t" },
+      { "t": "the floor", "role": "subject", "id": "s" },
+      { "t": "is warm", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "winter-in", "role": "other", "id": "t" },
+      { "t": "floor-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-warm", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울에", "role": "other", "id": "t" },
+      { "t": "바닥이", "role": "subject", "id": "s" },
+      { "t": "따뜻해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeoure badagi ttatteuthaeyo",
+    "wordIds": ["w_gyeoul", "w_badak", "w_ttatteuthada"],
+    "note": "온돌 (gap deck): Korean heating lives under the floor, so winter's warmest seat is the ground. M11's season-에 sets the scene."
   }
 ]
