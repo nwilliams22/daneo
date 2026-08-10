@@ -676,5 +676,81 @@
 
   { "id": "w_puk", "ko": "푹", "rom": "puk", "en": "deeply / thoroughly (rest, sleep)", "pos": "noun", "moduleId": "m14", "notes": "푹 쉬세요, 푹 자요 — the adverb of proper rest. Doctors prescribe it verbatim." },
 
-  { "id": "w_ajik", "ko": "아직", "rom": "ajik", "en": "still / not yet", "pos": "noun", "moduleId": "m14", "notes": "아직 아파요 — still sick. With a negative it reads 'not yet': 아직 안 먹었어요." }
+  { "id": "w_ajik", "ko": "아직", "rom": "ajik", "en": "still / not yet", "pos": "noun", "moduleId": "m14", "notes": "아직 아파요 — still sick. With a negative it reads 'not yet': 아직 안 먹었어요." },
+
+  { "id": "w_chodeunghakgyo", "ko": "초등학교", "rom": "chodeunghakgyo", "en": "elementary school", "pos": "noun", "moduleId": "m15", "notes": "초등 (beginning-level) + 학교. The ladder starts here: 초등 → 중 → 고등 → 대." },
+
+  { "id": "w_junghakgyo", "ko": "중학교", "rom": "junghakgyo", "en": "middle school", "pos": "noun", "moduleId": "m15", "notes": "중 = middle — the same 중 as 중국 (the 'middle country,' China)." },
+
+  { "id": "w_godeunghakgyo", "ko": "고등학교", "rom": "godeunghakgyo", "en": "high school", "pos": "noun", "moduleId": "m15", "notes": "고등 = high-level. Shortened to 고등학생's 고교 in headlines — Korean compresses what it says often." },
+
+  { "id": "w_daehakgyo", "ko": "대학교", "rom": "daehakgyo", "en": "university", "pos": "noun", "moduleId": "m15", "notes": "대 (big) + 학교: the big school. Casually just 대학." },
+
+  { "id": "w_daehaksaeng", "ko": "대학생", "rom": "daehaksaeng", "en": "university student", "pos": "noun", "moduleId": "m15", "notes": "대학 + 학생, overlapped into one word. Korean loves a shared syllable." },
+
+  { "id": "w_hangnyeon", "ko": "학년", "rom": "hangnyeon", "en": "grade / school year", "pos": "noun", "moduleId": "m15", "notes": "학 + 년 (year) — spelled 학년, said 항년: the sound interlude's nasalization rule, live. 몇 학년이에요?" },
+
+  { "id": "w_hagwon", "ko": "학원", "rom": "hagwon", "en": "cram school / academy", "pos": "noun", "moduleId": "m15", "notes": "학 (study) + 원 (the institute-원 of 병원). The second school day: most Korean kids go after regular school — math 학원, English 학원, piano 학원, taekwondo 학원." },
+
+  { "id": "w_ban_class", "ko": "반", "rom": "ban", "en": "class / homeroom", "pos": "noun", "moduleId": "m15", "notes": "M5's half, second job: your homeroom. 3학년 2반 — grade 3, class 2 — is how Korean schools address a kid." },
+
+  { "id": "w_gyosil", "ko": "교실", "rom": "gyosil", "en": "classroom", "pos": "noun", "moduleId": "m15", "notes": "교 (teach) + 실 (room) — the room-실 family from 화장실/침실/거실 goes to school." },
+
+  { "id": "w_gyogwaseo", "ko": "교과서", "rom": "gyogwaseo", "en": "textbook", "pos": "noun", "moduleId": "m15", "notes": "The teach-과목-book. 교과서 같다 — 'like a textbook' — describes suspiciously perfect people." },
+
+  { "id": "w_gongchaek", "ko": "공책", "rom": "gongchaek", "en": "notebook", "pos": "noun", "moduleId": "m15", "notes": "공 (blank) + 책 (book): a blank-book. M1's 책 finally builds a compound." },
+
+  { "id": "w_yeonpil", "ko": "연필", "rom": "yeonpil", "en": "pencil", "pos": "noun", "moduleId": "m15", "notes": "연 (lead) + 필 (writing tool). 연필로 쓰세요 — M6's (으)로 marking the tool." },
+
+  { "id": "w_pen", "ko": "펜", "rom": "pen", "en": "pen", "pos": "noun", "moduleId": "m15", "notes": "Konglish at its most efficient — one syllable, borrowed whole." },
+
+  { "id": "w_jongi", "ko": "종이", "rom": "jongi", "en": "paper", "pos": "noun", "moduleId": "m15" },
+
+  { "id": "w_jiugae", "ko": "지우개", "rom": "jiugae", "en": "eraser", "pos": "noun", "moduleId": "m15", "notes": "지우다 (to erase) + -개, the tool-maker suffix — M13's 베개 (lean-tool pillow) has a classmate. An eraser is an 'erase-tool.'" },
+
+  { "id": "w_chilpan", "ko": "칠판", "rom": "chilpan", "en": "blackboard", "pos": "noun", "moduleId": "m15", "notes": "칠 (paint) + 판 (board) — a painted board." },
+
+  { "id": "w_gyosunim", "ko": "교수님", "rom": "gyosunim", "en": "professor", "pos": "noun", "moduleId": "m15", "notes": "교수 + the respect-님 of 선생님/기사님. Address professors with it always — M12's title system applies double on campus." },
+
+  { "id": "w_suhak", "ko": "수학", "rom": "suhak", "en": "math", "pos": "noun", "moduleId": "m15", "notes": "수 (number) + 학 (study-of). The -학 suffix names every field — watch for it." },
+
+  { "id": "w_gwahak", "ko": "과학", "rom": "gwahak", "en": "science", "pos": "noun", "moduleId": "m15" },
+
+  { "id": "w_yeoksa", "ko": "역사", "rom": "yeoksa", "en": "history", "pos": "noun", "moduleId": "m15", "notes": "Not M6's train-역 — a homograph syllable in the wild. Korea's 역사 runs five thousand years and one alphabet promulgation you've already read about." },
+
+  { "id": "w_geurim", "ko": "그림", "rom": "geurim", "en": "picture / drawing", "pos": "noun", "moduleId": "m15", "notes": "그리다's noun — a drawing is 'a drawn.' The pair below." },
+
+  { "id": "w_oegugeo", "ko": "외국어", "rom": "oegugeo", "en": "foreign language", "pos": "noun", "moduleId": "m15", "notes": "외 (outside) + 국 (country) + 어 (language — the 어 of 한국어/영어/단어). You are, at this very moment, doing 외국어 공부." },
+
+  { "id": "w_jeomsu", "ko": "점수", "rom": "jeomsu", "en": "score / grade", "pos": "noun", "moduleId": "m15", "notes": "점 (points) + 수 (number). 백 점 — a hundred points — is perfection; M9's 백 moonlights in report cards." },
+
+  { "id": "w_dap", "ko": "답", "rom": "dap", "en": "answer", "pos": "noun", "moduleId": "m15", "notes": "The noun inside M10's 대답하다. 정답 — the correct answer — is the quiz-show word." },
+
+  { "id": "w_cheoeum", "ko": "처음", "rom": "cheoeum", "en": "the first time / beginning", "pos": "noun", "moduleId": "m15", "notes": "처음 배워요 — learning for the first time. Also inside the formal first-meeting greeting 처음 뵙겠습니다." },
+
+  { "id": "w_majimak", "ko": "마지막", "rom": "majimak", "en": "the last / final", "pos": "noun", "moduleId": "m15", "notes": "처음's opposite number. 마지막 수업, 마지막 문제 — and M12's 막차 carries the same 막." },
+
+  { "id": "w_gareuchida", "ko": "가르치다", "rom": "gareuchida", "en": "to teach", "pos": "verb", "moduleId": "m15", "notes": "배우다's other half. 선생님이 가르쳐요, 학생이 배워요 — the classroom in two verbs." },
+
+  { "id": "w_oeuda", "ko": "외우다", "rom": "oeuda", "en": "to memorize", "pos": "verb", "moduleId": "m15", "notes": "단어를 외워요 — this app's entire business model in one verb." },
+
+  { "id": "w_mureoboda", "ko": "물어보다", "rom": "mureoboda", "en": "to ask", "pos": "verb", "moduleId": "m15", "notes": "Ask + see: 보다 rides along to soften it — 'ask and see.' Not M1's 물 — the 물 here is from 묻다, to inquire." },
+
+  { "id": "w_teullida", "ko": "틀리다", "rom": "teullida", "en": "to be wrong / get wrong", "pos": "verb", "moduleId": "m15", "notes": "틀렸어요 — wrong answer. This app has been telling you this word's meaning every time you miss a quiz question." },
+
+  { "id": "w_matda", "ko": "맞다", "rom": "matda", "en": "to be right / correct", "pos": "verb", "moduleId": "m15", "notes": "맞아요! — you've heard it as 'that's right!' since forever. Also the receiving end of M14's 주사를 맞다." },
+
+  { "id": "w_ijda", "ko": "잊다", "rom": "itda", "en": "to forget", "pos": "verb", "moduleId": "m15", "notes": "Sounds exactly like 있다 (to exist) — 잊지 마세요 vs 있지요. Spelling tells them apart; context does the rest." },
+
+  { "id": "w_geurida", "ko": "그리다", "rom": "geurida", "en": "to draw", "pos": "verb", "moduleId": "m15", "notes": "그림을 그려요 — draw a drawing. Korean happily pairs a verb with its own noun." },
+
+  { "id": "w_joreophada", "ko": "졸업하다", "rom": "joreopada", "en": "to graduate", "pos": "verb", "moduleId": "m15", "notes": "졸업 = graduation. February in Korea: graduation season, flowers everywhere. Said 조러파다 — ㅎ merges per the sound interlude." },
+
+  { "id": "w_ttokttokhada", "ko": "똑똑하다", "rom": "ttokttokhada", "en": "to be smart", "pos": "adj", "moduleId": "m15", "notes": "Knock-knock — 똑똑 — is also the sound of knocking. A smart kid and a knocked door share an onomatopoeia." },
+
+  { "id": "w_bujireonhada", "ko": "부지런하다", "rom": "bujireonhada", "en": "to be diligent", "pos": "adj", "moduleId": "m15", "notes": "The highest Korean compliment a grandmother can pay." },
+
+  { "id": "w_geeureuda", "ko": "게으르다", "rom": "geeureuda", "en": "to be lazy", "pos": "adj", "moduleId": "m15", "notes": "부지런하다's shadow. 르-family: 게을러요 — lazy even in conjugation, dropping letters." },
+
+  { "id": "w_himdeulda", "ko": "힘들다", "rom": "himdeulda", "en": "to be tough / exhausting", "pos": "adj", "moduleId": "m15", "notes": "힘 (M14's energy) + 들다 (costs): something that takes your strength. 힘들어요 — the honest answer to how studying is going." }
 ]

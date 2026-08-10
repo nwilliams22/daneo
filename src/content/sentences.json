@@ -4026,5 +4026,275 @@
     "rom": "momi an joayo",
     "wordIds": ["w_mom", "w_jota"],
     "note": "Korean reports illness through the body: 'my body isn't good.' No 'I feel' verb required — M3's 안 does the softening."
+  },
+  {
+    "id": "s15_start_korean",
+    "en": [
+      { "t": "I started", "role": "verb", "id": "v" },
+      { "t": "learning Korean", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "Korean-[obj] learning", "role": "other", "id": "c" },
+      { "t": "started", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국어를 배우기", "role": "other", "id": "c" },
+      { "t": "시작했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hangugeoreul baeugi sijakhaesseoyo",
+    "wordIds": ["w_hangugeo", "w_baeuda", "w_sijakhada"],
+    "note": "The -기 from M13's 자기 전에, new machine: [verb]-기 + 시작하다 = start to. Also: this sentence is true of you, which feels good to say."
+  },
+  {
+    "id": "s15_rain_start",
+    "en": [
+      { "t": "It's starting", "role": "verb", "id": "v" },
+      { "t": "to rain", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] coming", "role": "other", "id": "c" },
+      { "t": "starts", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가 오기", "role": "other", "id": "c" },
+      { "t": "시작해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga ogi sijakhaeyo",
+    "wordIds": ["w_bi", "w_oda", "w_sijakhada"],
+    "note": "M11's rain-comes riding the new machine — the moment 장마 season announces itself. Weather verbs love -기 시작하다."
+  },
+  {
+    "id": "s15_class_sleep",
+    "en": [
+      { "t": "In the classroom,", "role": "place", "id": "p" },
+      { "t": "don't sleep", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "classroom-at", "role": "place", "id": "p" },
+      { "t": "sleep-don't-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "교실에서", "role": "place", "id": "p" },
+      { "t": "자지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyosireseo jaji maseyo",
+    "wordIds": ["w_gyosil", "w_jada"],
+    "note": "M14's don't-machine, first day at school. Given the 학원 schedule (vocab note), Korean teachers say this with real sympathy."
+  },
+  {
+    "id": "s15_dont_forget",
+    "en": [
+      { "t": "Don't forget", "role": "verb", "id": "v" },
+      { "t": "the homework", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "homework-[obj]", "role": "object", "id": "o" },
+      { "t": "forget-don't-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "숙제를", "role": "object", "id": "o" },
+      { "t": "잊지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sukjereul itji maseyo",
+    "wordIds": ["w_sukje", "w_ijda"],
+    "note": "잊다 sounds exactly like 있다 — but 잊지 마세요 vs 있지요 can't be confused in context. M10's 숙제 finally gets assigned."
+  },
+  {
+    "id": "s15_what_grade",
+    "en": [
+      { "t": "What grade", "role": "subject", "id": "s" },
+      { "t": "are you in?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "what grade", "role": "subject", "id": "s" },
+      { "t": "is?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "몇 학년", "role": "subject", "id": "s" },
+      { "t": "이에요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "myeot hangnyeonieyo?",
+    "wordIds": ["w_myeot", "w_hangnyeon"],
+    "note": "M5's 몇 counting school years, M4's copula asking. Spelled 학년, said 항년 — the interlude's nasalization rule grading papers."
+  },
+  {
+    "id": "s15_exam_memorize",
+    "en": [
+      { "t": "Before the exam,", "role": "other", "id": "c" },
+      { "t": "I memorize", "role": "verb", "id": "v" },
+      { "t": "words", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "exam-before", "role": "other", "id": "c" },
+      { "t": "word-[obj]", "role": "object", "id": "o" },
+      { "t": "memorize", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시험 전에", "role": "other", "id": "c" },
+      { "t": "단어를", "role": "object", "id": "o" },
+      { "t": "외워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "siheom jeone daneoreul oewoyo",
+    "wordIds": ["w_siheom", "w_daneo", "w_oeuda"],
+    "note": "M13's noun-전에 on M10's exam, and 외우다 doing what this app is named for — 단어, one word at a time."
+  },
+  {
+    "id": "s15_teacher_science",
+    "en": [
+      { "t": "The teacher", "role": "subject", "id": "s" },
+      { "t": "teaches", "role": "verb", "id": "v" },
+      { "t": "science", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "teacher-[subj]", "role": "subject", "id": "s" },
+      { "t": "science-[obj]", "role": "object", "id": "o" },
+      { "t": "teaches", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "선생님이", "role": "subject", "id": "s" },
+      { "t": "과학을", "role": "object", "id": "o" },
+      { "t": "가르쳐요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seonsaengnimi gwahageul gareuchyeoyo",
+    "wordIds": ["w_seonsaengnim", "w_gwahak", "w_gareuchida"],
+    "note": "The classroom's two verbs meet: 선생님이 가르쳐요, 학생이 배워요. M4's teacher finally teaching."
+  },
+  {
+    "id": "s15_had_question",
+    "en": [
+      { "t": "I had a question, so", "role": "other", "id": "c" },
+      { "t": "I asked", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "question-[subj] exists-because", "role": "other", "id": "c" },
+      { "t": "asked", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "질문이 있어서", "role": "other", "id": "c" },
+      { "t": "물어봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jilmuni isseoseo mureobwasseoyo",
+    "wordIds": ["w_jilmun", "w_itda", "w_mureoboda"],
+    "note": "Questions 'exist' before they're asked — the 있다-factory again. 물어보다 = ask-and-see; the 보다 makes the asking gentler."
+  },
+  {
+    "id": "s15_wrong_again",
+    "en": [
+      { "t": "The answer", "role": "subject", "id": "s" },
+      { "t": "is wrong.", "role": "verb", "id": "v1" },
+      { "t": "Do it again", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "answer-[subj]", "role": "subject", "id": "s" },
+      { "t": "got-wrong.", "role": "verb", "id": "v1" },
+      { "t": "again do-please", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "답이", "role": "subject", "id": "s" },
+      { "t": "틀렸어요.", "role": "verb", "id": "v1" },
+      { "t": "다시 하세요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "dabi teullyeosseoyo. dasi haseyo",
+    "wordIds": ["w_dap", "w_teullida", "w_dasi", "w_hada"],
+    "note": "The app's own feedback loop, spoken aloud. M10's 다시 — again — is how anything gets learned."
+  },
+  {
+    "id": "s15_test_well",
+    "en": [
+      { "t": "I did well", "role": "verb", "id": "a" },
+      { "t": "on the test", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "test-[obj]", "role": "object", "id": "o" },
+      { "t": "well saw", "role": "verb", "id": "a" }
+    ],
+    "ko": [
+      { "t": "시험을", "role": "object", "id": "o" },
+      { "t": "잘 봤어요", "role": "verb", "id": "a" }
+    ],
+    "rom": "siheomeul jal bwasseoyo",
+    "wordIds": ["w_siheom", "w_jal", "w_boda"],
+    "note": "Korean SEES exams — 시험을 보다 (gap deck). So doing well is seeing one well: 잘 봤어요. M1's 보다 picks up its strangest job."
+  },
+  {
+    "id": "s15_math_fun",
+    "en": [
+      { "t": "Math", "role": "subject", "id": "s" },
+      { "t": "is hard, but", "role": "other", "id": "c" },
+      { "t": "it's fun", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "math-[as for]", "role": "subject", "id": "s" },
+      { "t": "is-hard-but", "role": "other", "id": "c" },
+      { "t": "is-fun", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "수학은", "role": "subject", "id": "s" },
+      { "t": "어렵지만", "role": "other", "id": "c" },
+      { "t": "재미있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "suhageun eoryeopjiman jaemiisseoyo",
+    "wordIds": ["w_suhak", "w_eoryeopda", "w_jaemiitda"],
+    "note": "M7's -지만 with M7's ㅂ-irregular 어렵다 — 어렵지만 keeps its ㅂ because no vowel follows. Say it about any subject; the structure forgives."
+  },
+  {
+    "id": "s15_start_tomorrow",
+    "en": [
+      { "t": "Starting tomorrow,", "role": "other", "id": "t" },
+      { "t": "I'll start", "role": "verb", "id": "v" },
+      { "t": "exercising", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "tomorrow-from", "role": "other", "id": "t" },
+      { "t": "exercising", "role": "other", "id": "c" },
+      { "t": "start-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내일부터", "role": "other", "id": "t" },
+      { "t": "운동하기", "role": "other", "id": "c" },
+      { "t": "시작할 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naeilbuteo undonghagi sijakhal geoyeyo",
+    "wordIds": ["w_naeil", "w_undonghada", "w_sijakhada"],
+    "note": "The eternal resolution: M6's 부터 sets the start line, M8's future makes the promise, -기 시작하다 does the starting. Tomorrow."
+  },
+  {
+    "id": "s15_eyes_book",
+    "en": [
+      { "t": "My eyes hurt, so", "role": "other", "id": "c" },
+      { "t": "I'm not reading", "role": "verb", "id": "v" },
+      { "t": "books", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "eye-[subj] hurts-because", "role": "other", "id": "c" },
+      { "t": "book-[obj]", "role": "object", "id": "o" },
+      { "t": "not read", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "눈이 아파서", "role": "other", "id": "c" },
+      { "t": "책을", "role": "object", "id": "o" },
+      { "t": "안 읽어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nuni apaseo chaegeul an ilgeoyo",
+    "wordIds": ["w_nun_eye", "w_apeuda", "w_chaek", "w_ikda"],
+    "note": "M14's symptom machinery excusing you from M2's 읽다 — same blocks as last module, never the same sentence. 읽어요 says 일거요; the interlude explains."
+  },
+  {
+    "id": "s15_pencil_write",
+    "en": [
+      { "t": "Write", "role": "verb", "id": "v" },
+      { "t": "with a pencil", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "pencil-with", "role": "other", "id": "m" },
+      { "t": "write-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "연필로", "role": "other", "id": "m" },
+      { "t": "쓰세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeonpillo sseuseyo",
+    "wordIds": ["w_yeonpil", "w_sseuda"],
+    "note": "M6's (으)로 in its tool job — write BY MEANS OF pencil. Exam instructions in four syllables."
   }
 ]

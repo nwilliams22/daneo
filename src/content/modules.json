@@ -350,5 +350,31 @@
       "s14_stress_energy", "s14_get_well", "s14_water_after",
       "s14_eyes_sleep", "s14_body_bad"
     ]
+  },
+  {
+    "id": "m15",
+    "title": "School and Studying",
+    "order": 18,
+    "contentMd": "modules/module-15.md",
+    "wordIds": [
+      "w_chodeunghakgyo", "w_junghakgyo", "w_godeunghakgyo",
+      "w_daehakgyo", "w_daehaksaeng", "w_hangnyeon", "w_hagwon",
+      "w_ban_class",
+      "w_gyosil", "w_gyogwaseo", "w_gongchaek", "w_yeonpil",
+      "w_pen", "w_jongi", "w_jiugae", "w_chilpan",
+      "w_gyosunim",
+      "w_suhak", "w_gwahak", "w_yeoksa", "w_geurim", "w_oegugeo",
+      "w_jeomsu", "w_dap", "w_cheoeum", "w_majimak",
+      "w_gareuchida", "w_oeuda", "w_mureoboda", "w_teullida",
+      "w_matda", "w_ijda", "w_geurida", "w_joreophada",
+      "w_ttokttokhada", "w_bujireonhada", "w_geeureuda", "w_himdeulda"
+    ],
+    "sentenceIds": [
+      "s15_start_korean", "s15_rain_start", "s15_class_sleep",
+      "s15_dont_forget", "s15_what_grade", "s15_exam_memorize",
+      "s15_teacher_science", "s15_had_question", "s15_wrong_again",
+      "s15_test_well", "s15_math_fun", "s15_start_tomorrow",
+      "s15_eyes_book", "s15_pencil_write"
+    ]
   }
 ]
