@@ -5121,5 +5121,254 @@
     "rom": "honja meokneun geotdo gwaenchanayo",
     "wordIds": ["w_honja", "w_meokda", "w_gwaenchanta"],
     "note": "M17's nominalizer wearing M2's 도, absorbed by M7's all-purpose 괜찮아요. The gap deck's 혼밥 has made solo dining a named, normal thing — this sentence is its motto."
+  },
+  {
+    "id": "s19_hi_longtime",
+    "en": [
+      { "t": "Hey!", "role": "other", "id": "g" },
+      { "t": "Long time no see!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "hi!", "role": "other", "id": "g" },
+      { "t": "long-time-is!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "안녕!", "role": "other", "id": "g" },
+      { "t": "오랜만이야!", "role": "verb", "id": "v" }
+    ],
+    "rom": "annyeong! oraenmaniya!",
+    "wordIds": ["w_annyeong", "w_oraenman"],
+    "note": "M4's bare 안녕 finally gets its module — and 이야 is the casual copula, 이에요 with the formality snapped off. Welcome to 반말."
+  },
+  {
+    "id": "s19_whatcha_doing",
+    "en": [
+      { "t": "What", "role": "object", "id": "o" },
+      { "t": "are you doing?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "what", "role": "object", "id": "o" },
+      { "t": "do?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뭐", "role": "object", "id": "o" },
+      { "t": "해?", "role": "verb", "id": "v" }
+    ],
+    "rom": "mwo hae?",
+    "wordIds": ["w_mwo", "w_hada"],
+    "note": "The most-sent text message in Korea. Questions in 반말 need no machinery at all — drop the 요, raise the pitch, done."
+  },
+  {
+    "id": "s19_tteok_let's",
+    "en": [
+      { "t": "Let's go", "role": "verb", "id": "v" },
+      { "t": "eat tteokbokki", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "tteokbokki eat-in-order-to", "role": "other", "id": "c" },
+      { "t": "go-let's", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "떡볶이 먹으러", "role": "other", "id": "c" },
+      { "t": "가자", "role": "verb", "id": "v" }
+    ],
+    "rom": "tteokbokki meogeureo gaja",
+    "wordIds": ["w_tteokbokki", "w_meokda", "w_gada"],
+    "note": "-자: the let's-ending, 반말's own propositive — M9's -(으)ㅂ시다 with the tie loosened. M12's -(으)러 rides along; M18's 떡볶이 is the destination."
+  },
+  {
+    "id": "s19_matjip_really",
+    "en": [
+      { "t": "This place", "role": "subject", "id": "s" },
+      { "t": "is seriously the spot", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "here", "role": "subject", "id": "s" },
+      { "t": "really taste-house-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여기", "role": "subject", "id": "s" },
+      { "t": "진짜 맛집이야", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogi jinjja matjibiya",
+    "wordIds": ["w_yeogi", "w_jinjja", "w_matjip"],
+    "note": "반말 drops particles too — no 가 after 여기, casual speech travels light. M11's 진짜 is the native intensity setting for this register."
+  },
+  {
+    "id": "s19_party_come",
+    "en": [
+      { "t": "Come", "role": "verb", "id": "v" },
+      { "t": "to my birthday party!", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "my birthday party-to", "role": "place", "id": "p" },
+      { "t": "come!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내 생일 파티에", "role": "place", "id": "p" },
+      { "t": "와!", "role": "verb", "id": "v" }
+    ],
+    "rom": "nae saengil patie wa!",
+    "wordIds": ["w_nae", "w_saengil", "w_pati", "w_oda"],
+    "note": "와! — a whole command in one syllable: 오다 conjugated to 와요, minus the 요. Casual commands are just the -아/어 form, bare."
+  },
+  {
+    "id": "s19_happy_birthday",
+    "en": [
+      { "t": "Happy birthday!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "birthday congratulate!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "생일 축하해!", "role": "verb", "id": "v" }
+    ],
+    "rom": "saengil chukahae!",
+    "wordIds": ["w_saengil", "w_chukhahada"],
+    "note": "Said 추카해 — the ㅎ-merge the sound interlude promised. Add -요 for politeness, 합니다 for ceremony; the song uses this exact casual form."
+  },
+  {
+    "id": "s19_sorry_mad",
+    "en": [
+      { "t": "I'm sorry.", "role": "verb", "id": "v1" },
+      { "t": "Are you mad?", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "sorry.", "role": "verb", "id": "v1" },
+      { "t": "anger-came-out?", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "미안해.", "role": "verb", "id": "v1" },
+      { "t": "화났어?", "role": "verb", "id": "v2" }
+    ],
+    "rom": "mianhae. hwanasseo?",
+    "wordIds": ["w_mianhaeyo", "w_hwanada"],
+    "note": "M4's register ladder in action: 죄송합니다 → 미안해요 → 미안해. And 화나다 — anger COMES OUT, weather-style, like 비가 와요. Feelings arrive on their own in Korean."
+  },
+  {
+    "id": "s19_no_fine",
+    "en": [
+      { "t": "No,", "role": "other", "id": "n" },
+      { "t": "it's fine", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "not-is,", "role": "other", "id": "n" },
+      { "t": "is-fine", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아니야,", "role": "other", "id": "n" },
+      { "t": "괜찮아", "role": "verb", "id": "v" }
+    ],
+    "rom": "aniya, gwaenchana",
+    "wordIds": ["w_anida", "w_gwaenchanta"],
+    "note": "아니다 — the negative copula you've conjugated since M4's 아니에요 — in its casual skin. 괜찮아, minus its 요, still absorbs everything."
+  },
+  {
+    "id": "s19_best",
+    "en": [
+      { "t": "You", "role": "subject", "id": "s" },
+      { "t": "are the best!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "you-[as for]", "role": "subject", "id": "s" },
+      { "t": "the-best-is!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "너는", "role": "subject", "id": "s" },
+      { "t": "최고야!", "role": "verb", "id": "v" }
+    ],
+    "rom": "neoneun choegoya!",
+    "wordIds": ["w_neo", "w_choego"],
+    "note": "너 — the 'you' Korean spends most of its energy avoiding — is safe here, between friends. 최고야: highest praise, lowest register."
+  },
+  {
+    "id": "s19_joke_laugh",
+    "en": [
+      { "t": "It's a joke.", "role": "verb", "id": "v1" },
+      { "t": "Laugh!", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "joke-is.", "role": "verb", "id": "v1" },
+      { "t": "laugh!", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "농담이야.", "role": "verb", "id": "v1" },
+      { "t": "웃어!", "role": "verb", "id": "v2" }
+    ],
+    "rom": "nongdamiya. useo!",
+    "wordIds": ["w_nongdam", "w_utda"],
+    "note": "M7's 웃다 as a bare casual command: 웃어! The full escalation available: 웃으세요 (please laugh) → 웃어 (laugh!) → silence (the joke failed)."
+  },
+  {
+    "id": "s19_dont_lie",
+    "en": [
+      { "t": "Don't lie!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "lie-do-don't!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "거짓말하지 마!", "role": "verb", "id": "v" }
+    ],
+    "rom": "geojinmalhaji ma!",
+    "wordIds": ["w_geojinmal", "w_hada"],
+    "note": "M14's -지 마세요 loses its 세요 and becomes -지 마 — the casual prohibition. Same machine, shorter lever. Often really means 'no WAY!'"
+  },
+  {
+    "id": "s19_weekend_play",
+    "en": [
+      { "t": "This weekend,", "role": "other", "id": "t" },
+      { "t": "let's hang out", "role": "verb", "id": "v" },
+      { "t": "together", "role": "other", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "weekend-on", "role": "other", "id": "t" },
+      { "t": "together", "role": "other", "id": "w" },
+      { "t": "play-let's", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "t" },
+      { "t": "같이", "role": "other", "id": "w" },
+      { "t": "놀자", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare gachi nolja",
+    "wordIds": ["w_jumal", "w_gachi", "w_nolda"],
+    "note": "놀다 — play as a kid, hang out as an adult, no embarrassment either way. 놀자 is the friendship imperative; the ㄹ stays put before -자."
+  },
+  {
+    "id": "s19_secret",
+    "en": [
+      { "t": "It's a secret.", "role": "verb", "id": "v1" },
+      { "t": "Don't tell", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "secret-is.", "role": "verb", "id": "v1" },
+      { "t": "speak-don't", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "비밀이야.", "role": "verb", "id": "v1" },
+      { "t": "말하지 마", "role": "verb", "id": "v2" }
+    ],
+    "rom": "bimiriya. malhaji ma",
+    "wordIds": ["w_bimil", "w_malhada"],
+    "note": "The sentence that starts every rumor. -지 마 again — in 반말, prohibitions come in two syllables and are ignored in one."
+  },
+  {
+    "id": "s19_eat_out_casual",
+    "en": [
+      { "t": "Tonight,", "role": "other", "id": "t" },
+      { "t": "let's eat out", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "today evening-at", "role": "other", "id": "t" },
+      { "t": "eat-out-let's", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘 저녁에", "role": "other", "id": "t" },
+      { "t": "외식하자", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneul jeonyeoge oesikhaja",
+    "wordIds": ["w_oneul", "w_jeonyeok", "w_oesikhada"],
+    "note": "Module 18 said 오늘 같이 외식해요; a friend says 외식하자 — same happy plan, register swapped. That shift IS this module."
   }
 ]
