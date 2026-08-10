@@ -1,6 +1,7 @@
 export interface QuizOptionView {
   id: string;
   label: string;
+  korean?: boolean; // render the label in the Korean face (e.g. pick-the-word)
 }
 
 /** Shared answer-option grid with the prototype's feedback coloring:
@@ -38,7 +39,7 @@ export default function QuizOptions({
             onClick={() => onPick(o.id)}
             className={`rounded-xl border px-3 py-3.5 font-semibold transition-colors ${
               columns === 1 ? "text-left text-sm" : "text-center text-[16px]"
-            } ${cls} ${pickedId ? "" : "cursor-pointer"}`}
+            } ${o.korean ? "font-korean" : ""} ${cls} ${pickedId ? "" : "cursor-pointer"}`}
           >
             {o.label}
           </button>

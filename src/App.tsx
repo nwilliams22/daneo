@@ -5,6 +5,7 @@ import AppShell from "./components/AppShell";
 import Onboarding from "./features/onboarding/Onboarding";
 import LearnPage from "./features/learn/LearnPage";
 import ModulePage from "./features/learn/ModulePage";
+import ModuleTestRoute from "./features/learn/ModuleTest";
 import DrillHubPage from "./features/drills/DrillHubPage";
 import ConfusablesDrill from "./features/drills/confusables/ConfusablesDrill";
 import CrossFontReader from "./features/drills/crossfont/CrossFontReader";
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/" element={<Navigate to="/learn" replace />} />
         <Route path="/learn" element={<LearnPage />} />
         <Route path="/learn/:moduleId" element={<ModulePage />} />
+        <Route path="/learn/:moduleId/test" element={<ModuleTestRoute />} />
         <Route path="/drill" element={<DrillHubPage />} />
         <Route
           path="/drill/confusables"

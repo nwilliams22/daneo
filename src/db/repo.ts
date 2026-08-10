@@ -48,6 +48,20 @@ export function logDrillResult(opts: {
   });
 }
 
+/** Records a finished module test: last score always updates, best sticks. */
+export function recordModuleTest(moduleId: string, pct: number) {
+  return db.transaction("rw", db.moduleTests, async () => {
+    const prior = await db.moduleTests.get(moduleId);
+    await db.moduleTests.put({
+      moduleId,
+      bestPct: Math.max(pct, prior?.bestPct ?? 0),
+      lastPct: pct,
+      attempts: (prior?.attempts ?? 0) + 1,
+      at: Date.now(),
+    });
+  });
+}
+
 export function saveTranslation(result: TranslationResult) {
   return db.savedTranslations.add({ savedAt: Date.now(), result });
 }
@@ -59,18 +73,19 @@ export function deleteTranslation(id: number) {
 export async function snapshot(
   settings: PersistedSettings,
 ): Promise<ExportSnapshot> {
-  const [knownWords, drillResults, srsCards, savedTranslations] =
+  const [knownWords, drillResults, srsCards, savedTranslations, moduleTests] =
     await Promise.all([
       db.knownWords.toArray(),
       db.drillResults.toArray(),
       db.srsCards.toArray(),
       db.savedTranslations.toArray(),
+      db.moduleTests.toArray(),
     ]);
   return {
     version: 1,
     exportedAt: Date.now(),
     settings,
-    tables: { knownWords, drillResults, srsCards, savedTranslations },
+    tables: { knownWords, drillResults, srsCards, savedTranslations, moduleTests },
   };
 }
 
@@ -79,19 +94,27 @@ export async function snapshot(
 export async function restore(snap: ExportSnapshot) {
   await db.transaction(
     "rw",
-    [db.knownWords, db.drillResults, db.srsCards, db.savedTranslations],
+    [
+      db.knownWords,
+      db.drillResults,
+      db.srsCards,
+      db.savedTranslations,
+      db.moduleTests,
+    ],
     async () => {
       await Promise.all([
         db.knownWords.clear(),
         db.drillResults.clear(),
         db.srsCards.clear(),
         db.savedTranslations.clear(),
+        db.moduleTests.clear(),
       ]);
       await Promise.all([
         db.knownWords.bulkAdd(snap.tables.knownWords),
         db.drillResults.bulkAdd(snap.tables.drillResults),
         db.srsCards.bulkAdd(snap.tables.srsCards),
         db.savedTranslations.bulkAdd(snap.tables.savedTranslations),
+        db.moduleTests.bulkAdd(snap.tables.moduleTests ?? []),
       ]);
     },
   );

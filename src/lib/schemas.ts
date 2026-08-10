@@ -19,6 +19,7 @@ export const drillKindSchema = z.enum([
   "gap",
   "font",
   "typing",
+  "word",
 ]);
 
 export const wordSchema = z.object({
@@ -184,5 +185,17 @@ export const exportSnapshotSchema = z.object({
         result: translationResultSchema,
       }),
     ),
+    // Module-test results — optional so pre-test backups still import
+    moduleTests: z
+      .array(
+        z.object({
+          moduleId: z.string(),
+          bestPct: z.number(),
+          lastPct: z.number(),
+          attempts: z.number(),
+          at: z.number(),
+        }),
+      )
+      .optional(),
   }),
 });

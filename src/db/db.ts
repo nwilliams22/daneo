@@ -2,6 +2,7 @@ import Dexie, { type EntityTable, type Table } from "dexie";
 import type {
   KnownWord,
   DrillResult,
+  ModuleTestResult,
   SrsCard,
   SavedTranslation,
 } from "../types";
@@ -14,6 +15,7 @@ export const db = new Dexie("daneo") as Dexie & {
   drillResults: EntityTable<DrillResult, "id">;
   srsCards: Table<SrsCard, [string, string]>;
   savedTranslations: EntityTable<SavedTranslation, "id">;
+  moduleTests: EntityTable<ModuleTestResult, "moduleId">;
 };
 
 db.version(1).stores({
@@ -21,4 +23,9 @@ db.version(1).stores({
   drillResults: "++id, kind, itemId, at, [kind+itemId], [kind+at]",
   srsCards: "[kind+itemId], due, kind",
   savedTranslations: "++id, savedAt",
+});
+
+// v2 — module-end tests (2026-08-10): one row per module, best score sticks.
+db.version(2).stores({
+  moduleTests: "moduleId, at",
 });

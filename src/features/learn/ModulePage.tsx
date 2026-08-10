@@ -1,8 +1,12 @@
 import { useState } from "react";
 import { Link, useParams, Navigate } from "react-router";
+import { useLiveQuery } from "dexie-react-hooks";
+import { db } from "../../db/db";
 import { moduleById, moduleMarkdown } from "../../content";
 import { splitModuleMarkdown } from "./splitModuleMarkdown";
 import { useSettings } from "../../state/settings";
+import { PASS_PCT } from "../../lib/moduleTest";
+import type { Module } from "../../types";
 import Markdown from "../../components/Markdown";
 import VocabChecklist from "./VocabChecklist";
 import SentenceList from "./SentenceList";
@@ -43,6 +47,41 @@ function HangulSection({ md }: { md: string }) {
   );
 }
 
+/** End-of-module test card (Nick, 2026-08-10) — vocab modules only. */
+function TestCta({ module }: { module: Module }) {
+  const result = useLiveQuery(() => db.moduleTests.get(module.id), [module.id]);
+  const passed = !!result && result.bestPct >= PASS_PCT;
+  return (
+    <div className="my-6 rounded-2xl border border-line bg-panel px-5 py-4">
+      <div className="flex items-center justify-between gap-3">
+        <div>
+          <div className="text-sm font-bold">Module test</div>
+          <div className="mt-0.5 text-[13px] text-muted">
+            {result ? (
+              <>
+                Best {result.bestPct}%{passed && " · passed"} ·{" "}
+                {result.attempts} attempt{result.attempts === 1 ? "" : "s"}
+              </>
+            ) : (
+              "A fresh sample of this module's words and sentences — misses feed the review queue."
+            )}
+          </div>
+        </div>
+        <Link
+          to={`/learn/${module.id}/test`}
+          className={`shrink-0 rounded-full px-4 py-2 text-sm font-bold transition-opacity hover:opacity-90 ${
+            passed
+              ? "border border-teal text-teal"
+              : "bg-ink text-paper"
+          }`}
+        >
+          {result ? "Retake" : "Take the test"}
+        </Link>
+      </div>
+    </div>
+  );
+}
+
 export default function ModulePage() {
   const { moduleId } = useParams();
   const module = moduleId ? moduleById.get(moduleId) : undefined;
@@ -71,6 +110,7 @@ export default function ModulePage() {
             return <SentenceList key={i} module={module} />;
         }
       })}
+      {module.wordIds.length > 0 && <TestCta module={module} />}
     </div>
   );
 }
