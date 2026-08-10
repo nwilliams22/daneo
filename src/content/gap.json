@@ -745,5 +745,32 @@
     "lit": "Korea Train eXpress",
     "real": "the country, shrunk to three hours",
     "note": "Seoul to Busan in under three hours — the bullet train made the whole peninsula a day trip, and 당일치기 (same-day round trip) a lifestyle. Book a window seat on the right side heading south; the 바다 appears just before 부산 and the whole carriage looks up."
+  },
+  {
+    "id": "g24_maldo_andwae",
+    "cat": "phrase",
+    "ko": "말도 안 돼",
+    "rom": "maldo an dwae",
+    "lit": "it doesn't even become words",
+    "real": "no way! / that's nonsense",
+    "note": "Fully decodable with owned parts: M4's 말 + M2's 도 + M10's 안 돼요 (here in M19's 반말). A claim so wrong it can't even assemble into speech. The reflex reaction to 소문, 거짓말, and prices in 명동. Polite version: 말도 안 돼요."
+  },
+  {
+    "id": "g24_teullida_dareuda",
+    "cat": "concept",
+    "ko": "틀려요!",
+    "rom": "teullyeoyo",
+    "lit": "it's wrong!",
+    "real": "(very often) it's just different",
+    "note": "Koreans habitually say 틀리다 (to be wrong — M15) where 다르다 (to be different — M24) belongs: 우리는 성격이 틀려요 means 'our personalities are DIFFERENT,' not wrong. Textbooks scold; speech ignores. Remember the split the other way: 맞고/틀리고 is for answers, 같고/다르고 is for comparisons — and enjoy owning a distinction natives blur."
+  },
+  {
+    "id": "g24_aneun_mankeum",
+    "cat": "phrase",
+    "ko": "아는 만큼 보인다",
+    "rom": "aneun mankeum boinda",
+    "lit": "as much as you know, it is seen",
+    "real": "you see what you know",
+    "note": "The saying behind every museum trip (popularized by art historian 유홍준) — built on M24's own machinery: 아는 is 알다 wearing the -는 badge, ㄹ dropped. 만큼 ('as much as') is Ring 2 glue, previewed. Why the 궁 you visited in M23 gets better with every module you finish."
   }
 ]

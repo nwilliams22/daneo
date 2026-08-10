@@ -580,5 +580,31 @@
       "s23_souvenir_market", "s23_lost", "s23_plane_pricier",
       "s23_home_best", "s23_almost_there"
     ]
+  },
+  {
+    "id": "m24",
+    "title": "Opinions and Modifiers",
+    "order": 27,
+    "contentMd": "modules/module-24.md",
+    "wordIds": [
+      "w_uigyeon", "w_iyu", "w_sasil", "w_nyuseu", "w_somun",
+      "w_iyagi", "w_daehwa", "w_gwansim", "w_jinsim", "w_ohae",
+      "w_bandae", "w_yennal", "w_eoreun",
+      "w_eotteon", "w_ireon", "w_geureon", "w_jeoreon",
+      "w_gatda_same", "w_ttokgatda", "w_dareuda", "w_biseuthada",
+      "w_eotteota", "w_gunggeumhada", "w_chakhada", "w_isanghada",
+      "w_teukbyeolhada", "w_museopda", "w_daedanhada", "w_bureopda",
+      "w_jeomda", "w_soljikhada",
+      "w_seolmyeonghada",
+      "w_geunyang", "w_ama", "w_mullon", "w_hoksi", "w_seoro",
+      "w_geulsseyo"
+    ],
+    "sentenceIds": [
+      "s24_good_idea", "s24_cafe_often", "s24_favorite_song",
+      "s24_kind_best", "s24_tourist_places", "s24_souvenir_bought",
+      "s24_just_ask", "s24_dont_believe", "s24_exactly_same",
+      "s24_actually_different", "s24_what_music", "s24_curious",
+      "s24_movie_how", "s24_why_just"
+    ]
   }
 ]
