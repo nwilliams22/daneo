@@ -77,7 +77,7 @@ function labelFor(
     const g = gapById.get(itemId);
     if (g) return { big: g.ko, small: g.real };
   }
-  if (kind === "typing") {
+  if (kind === "typing" || kind === "word") {
     const w = wordById.get(itemId);
     if (w) return { big: w.ko, small: w.en };
   }

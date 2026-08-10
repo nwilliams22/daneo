@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "../../db/db";
@@ -8,11 +8,13 @@ import {
   generateConfusableOptions,
   generateGapOptions,
   generateSentenceOptions,
+  generateWordOptions,
   sentenceEnglish,
 } from "../../lib/distractors";
 import { shuffle } from "../../lib/rng";
 import {
   allSentences,
+  allWords,
   confusables,
   confusableById,
   fontFaces,
@@ -32,19 +34,15 @@ import type {
 import PageHeader from "../../components/PageHeader";
 import AudioButton from "../../components/AudioButton";
 import Rom from "../../components/Rom";
-import QuizOptions, { type QuizOptionView } from "../drills/engine/QuizOptions";
 import GlyphCard from "../drills/engine/GlyphCard";
 import WhyWrong from "../drills/engine/WhyWrong";
-import TypingFeedback from "../drills/typing/TypingFeedback";
-import { FACE_FONT, FACE_LABEL, randomAltFace } from "../drills/engine/faceFont";
-import { useDrillKeys } from "../drills/engine/useDrillKeys";
-import KoreanKeyboard from "../drills/typing/KoreanKeyboard";
 import {
-  composerReduce,
-  renderComposer,
-  EMPTY_COMPOSER,
-} from "../../lib/hangul/composer";
-import { jamoForKey } from "../../lib/hangul/keymap";
+  ChoiceQuestion,
+  TypingQuestion,
+  WordMeaningQuestion,
+  glyphExplainWrong,
+} from "../drills/engine/questions";
+import { FACE_FONT, FACE_LABEL, randomAltFace } from "../drills/engine/faceFont";
 import { useGapPool, type GapPool } from "../drills/gap/useGapPool";
 
 // Phase A.2 — the daily queue as ONE session mixing every drill kind,
@@ -57,7 +55,8 @@ type Question =
   | { key: string; kind: "font"; item: FontLetterRow; options: FontLetterRow[]; face: FontFace }
   | { key: string; kind: "gap"; item: GapItem; options: GapItem[] }
   | { key: string; kind: "anatomy"; item: Sentence; options: Sentence[] }
-  | { key: string; kind: "typing"; item: Word };
+  | { key: string; kind: "typing"; item: Word }
+  | { key: string; kind: "word"; item: Word; options: Word[] };
 
 function fontLetterOptions(target: FontLetterRow): FontLetterRow[] {
   const distractors: FontLetterRow[] = [];
@@ -117,230 +116,18 @@ function buildQueue(cards: SrsCard[], gapPool: GapPool): Question[] {
     } else if (card.kind === "typing") {
       const item = wordById.get(card.itemId);
       if (item) out.push({ key, kind: "typing", item });
+    } else if (card.kind === "word") {
+      const item = wordById.get(card.itemId);
+      if (item)
+        out.push({
+          key,
+          kind: "word",
+          item,
+          options: generateWordOptions(item, allWords),
+        });
     }
   }
   return out;
-}
-
-/** Shared why-wrong builder for the two glyph→sound kinds (confusable and
- *  cross-font rows have the same c / r / note shape). */
-const glyphExplainWrong =
-  <T extends { id: string; c: string; r: string; note: string }>(
-    options: T[],
-    item: T,
-  ) =>
-  (pickedId: string) => {
-    const p = options.find((o) => o.id === pickedId);
-    return p ? (
-      <WhyWrong
-        picked={{
-          title: (
-            <>
-              <span className="font-korean">{p.c}</span> is {p.r}
-            </>
-          ),
-          body: p.note,
-        }}
-        answer={{
-          title: (
-            <>
-              <span className="font-korean">{item.c}</span> is {item.r}
-            </>
-          ),
-          body: item.note,
-        }}
-      />
-    ) : null;
-  };
-
-function NextButton({ onClick }: { onClick: () => void }) {
-  return (
-    <button
-      onClick={onClick}
-      className="mt-3.5 w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"
-    >
-      Next <span className="font-normal opacity-70">(Enter)</span>
-    </button>
-  );
-}
-
-/** Shared 4-choice question: prompt above, options below, explanation +
- *  Next after a pick. Keyed by question so per-item state resets itself. */
-function ChoiceQuestion({
-  prompt,
-  options,
-  answerId,
-  explain,
-  explainWrong,
-  columns = 2,
-  onAnswer,
-  onNext,
-}: {
-  prompt: React.ReactNode;
-  options: QuizOptionView[];
-  answerId: string;
-  explain: React.ReactNode;
-  /** Both-sides feedback for a wrong pick ("why was I wrong") — falls back
-   *  to `explain` when absent or when the pick can't be resolved. */
-  explainWrong?: (pickedId: string) => React.ReactNode;
-  columns?: 1 | 2;
-  onAnswer: (correct: boolean) => void;
-  onNext: () => void;
-}) {
-  const [picked, setPicked] = useState<string | null>(null);
-  const pick = (id: string) => {
-    if (picked) return;
-    setPicked(id);
-    onAnswer(id === answerId);
-  };
-  useDrillKeys({
-    onNumber: !picked
-      ? (n) => {
-          const o = options[n - 1];
-          if (o) pick(o.id);
-        }
-      : undefined,
-    onEnter: picked ? onNext : undefined,
-  });
-  return (
-    <div>
-      {prompt}
-      <QuizOptions
-        options={options}
-        pickedId={picked}
-        answerId={answerId}
-        onPick={pick}
-        columns={columns}
-      />
-      {picked && (
-        <div className="mt-3.5 border-t border-line pt-3">
-          {(picked !== answerId && explainWrong?.(picked)) || (
-            <div className="text-[13.5px] leading-relaxed text-muted">
-              {explain}
-            </div>
-          )}
-          <NextButton onClick={onNext} />
-        </div>
-      )}
-    </div>
-  );
-}
-
-/** Production practice for word cards: type the Korean, in-app composition. */
-function TypingQuestion({
-  word,
-  onAnswer,
-  onNext,
-}: {
-  word: Word;
-  onAnswer: (correct: boolean) => void;
-  onNext: () => void;
-}) {
-  const [state, dispatch] = useReducer(composerReduce, EMPTY_COMPOSER);
-  const [shift, setShift] = useState(false);
-  const [answered, setAnswered] = useState<boolean | null>(null);
-  const typed = renderComposer(state);
-
-  const submit = () => {
-    if (answered !== null || typed.length === 0) return;
-    const ok = typed === word.ko;
-    setAnswered(ok);
-    onAnswer(ok);
-  };
-
-  useEffect(() => {
-    const onKeyDown = (e: KeyboardEvent) => {
-      if (e.metaKey || e.ctrlKey || e.altKey) return;
-      if (e.key === "Enter") {
-        e.preventDefault();
-        if (answered !== null) onNext();
-        else submit();
-        return;
-      }
-      if (answered !== null) return;
-      if (e.key === "Backspace") {
-        e.preventDefault();
-        dispatch({ type: "backspace" });
-        return;
-      }
-      if (e.key === " ") {
-        e.preventDefault();
-        dispatch({ type: "space" });
-        return;
-      }
-      const jamo = jamoForKey(e.code, e.shiftKey);
-      if (jamo) {
-        e.preventDefault();
-        dispatch({ type: "jamo", jamo });
-      }
-    };
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  });
-
-  return (
-    <div>
-      <div className="text-center">
-        <div className="text-[11px] tracking-[0.2em] text-muted uppercase">
-          Type this word
-        </div>
-        <div className="mt-1 flex items-center justify-center gap-1.5 text-xl font-bold">
-          {word.en}
-          <AudioButton text={word.ko} />
-        </div>
-        <Rom text={word.rom} className="mt-0.5 block" />
-      </div>
-
-      <div
-        className={`mx-auto mt-4 flex min-h-16 max-w-sm items-center justify-center rounded-xl border-[1.5px] bg-paper px-4 py-3 ${
-          answered === null
-            ? "border-line"
-            : answered
-              ? "border-teal"
-              : "border-clay"
-        }`}
-      >
-        <span className="font-korean text-[34px] leading-tight tracking-wide">
-          {typed}
-          {answered === null && (
-            <span className="ml-0.5 inline-block h-8 w-px animate-pulse bg-muted align-middle" />
-          )}
-        </span>
-      </div>
-
-      {answered === null ? (
-        <button
-          onClick={submit}
-          disabled={typed.length === 0}
-          className={`mt-3.5 w-full rounded-xl py-3 text-sm font-bold text-on-accent transition-opacity ${
-            typed.length > 0 ? "bg-teal hover:opacity-90" : "bg-teal/35"
-          }`}
-        >
-          Check <span className="font-normal opacity-70">(Enter)</span>
-        </button>
-      ) : answered ? (
-        <div className="mt-3.5 text-center">
-          <div className="text-sm font-bold text-teal">Correct!</div>
-          <NextButton onClick={onNext} />
-        </div>
-      ) : (
-        <TypingFeedback
-          typed={typed}
-          ko={word.ko}
-          rom={word.rom}
-          onNext={onNext}
-        />
-      )}
-
-      <KoreanKeyboard
-        shift={shift}
-        onShift={setShift}
-        onJamo={(j) => dispatch({ type: "jamo", jamo: j })}
-        onBackspace={() => dispatch({ type: "backspace" })}
-        disabled={answered !== null}
-      />
-    </div>
-  );
 }
 
 const KIND_LABEL: Record<Question["kind"], string> = {
@@ -349,6 +136,7 @@ const KIND_LABEL: Record<Question["kind"], string> = {
   gap: "Literal vs. real",
   anatomy: "Sentence anatomy",
   typing: "Typing",
+  word: "Vocabulary",
 };
 
 function ReviewSession({ queue }: { queue: Question[] }) {
@@ -578,6 +366,16 @@ function ReviewSession({ queue }: { queue: Question[] }) {
           <TypingQuestion
             key={q.key}
             word={q.item}
+            onAnswer={answer(q.kind, q.item.id)}
+            onNext={next}
+          />
+        )}
+
+        {q.kind === "word" && (
+          <WordMeaningQuestion
+            key={q.key}
+            word={q.item}
+            options={q.options}
             onAnswer={answer(q.kind, q.item.id)}
             onNext={next}
           />

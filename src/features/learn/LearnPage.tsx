@@ -1,8 +1,11 @@
 import { Link } from "react-router";
+import { useLiveQuery } from "dexie-react-hooks";
 import PageHeader from "../../components/PageHeader";
 import { modulesOrdered } from "../../content";
+import { db } from "../../db/db";
 import { useKnownWords } from "../../db/useKnownWords";
 import { moduleProgress, isModuleComplete } from "../../lib/gating";
+import { PASS_PCT } from "../../lib/moduleTest";
 
 // Vocab modules and readings number themselves separately, so "Module N"
 // always matches the numbers the course prose refers to — interludes can
@@ -22,6 +25,10 @@ const LABELS: Record<string, string> = (() => {
 
 export default function LearnPage() {
   const known = useKnownWords();
+  const tests = useLiveQuery(async () => {
+    const rows = await db.moduleTests.toArray();
+    return new Map(rows.map((r) => [r.moduleId, r]));
+  }, []);
 
   return (
     <div>
@@ -48,17 +55,36 @@ export default function LearnPage() {
                   </div>
                   <div className="mt-1 text-[15px] font-bold">{m.title}</div>
                 </div>
-                {!isReading && progress && (
-                  <div
-                    className={`shrink-0 rounded-full border px-3 py-1 text-xs font-bold ${
-                      complete
-                        ? "border-teal bg-teal text-on-accent"
-                        : "border-line text-muted"
-                    }`}
-                  >
-                    {progress.done}/{progress.total}
-                  </div>
-                )}
+                <div className="flex shrink-0 items-center gap-2">
+                  {!isReading &&
+                    (() => {
+                      const t = tests?.get(m.id);
+                      return t ? (
+                        <span
+                          className={`rounded-full border px-2.5 py-1 text-xs font-bold ${
+                            t.bestPct >= PASS_PCT
+                              ? "border-teal text-teal"
+                              : "border-line text-muted"
+                          }`}
+                          title={`Module test — best ${t.bestPct}%`}
+                        >
+                          {t.bestPct >= PASS_PCT ? "✓ " : ""}
+                          {t.bestPct}%
+                        </span>
+                      ) : null;
+                    })()}
+                  {!isReading && progress && (
+                    <div
+                      className={`rounded-full border px-3 py-1 text-xs font-bold ${
+                        complete
+                          ? "border-teal bg-teal text-on-accent"
+                          : "border-line text-muted"
+                      }`}
+                    >
+                      {progress.done}/{progress.total}
+                    </div>
+                  )}
+                </div>
               </div>
               {!isReading && !complete && (
                 <div className="mt-3 h-1 overflow-hidden rounded-full bg-line">

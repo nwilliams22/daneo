@@ -3,7 +3,13 @@
 // Shared primitives
 export type Role = "subject" | "object" | "place" | "verb" | "other";
 export type FontFace = "gothic" | "myeongjo" | "hand";
-export type DrillKind = "confusable" | "anatomy" | "gap" | "font" | "typing";
+export type DrillKind =
+  | "confusable"
+  | "anatomy"
+  | "gap"
+  | "font"
+  | "typing"
+  | "word"; // vocab meaning MCQ — introduced with module tests (2026-08-10)
 
 export interface Word {
   id: string; // "w_mul"
@@ -126,6 +132,15 @@ export interface SavedTranslation {
   result: TranslationResult;
 }
 
+// Module-test outcomes (one row per module; best score sticks)
+export interface ModuleTestResult {
+  moduleId: string;
+  bestPct: number; // 0–100, highest score ever
+  lastPct: number; // most recent attempt
+  attempts: number;
+  at: number; // when the last attempt finished
+}
+
 // Settings persisted by the zustand store (also embedded in export backups)
 export interface PersistedSettings {
   romanizationVisible: boolean;
@@ -145,5 +160,6 @@ export interface ExportSnapshot {
     drillResults: DrillResult[];
     srsCards: SrsCard[];
     savedTranslations: SavedTranslation[];
+    moduleTests?: ModuleTestResult[]; // optional — pre-test backups still import
   };
 }
