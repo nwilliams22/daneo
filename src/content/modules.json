@@ -795,5 +795,30 @@
       "s_s1_iced_americano", "s_s1_dad_kkondae", "s_s1_simkung",
       "s_s1_gapbunssa", "s_s1_gatsaeng"
     ]
+  },
+  {
+    "id": "s2",
+    "title": "The Written Register",
+    "order": 37,
+    "contentMd": "modules/module-s2.md",
+    "wordIds": [
+      "w_s2_mit", "w_s2_ttoneun", "w_s2_jeuk", "w_s2_geureomeuro",
+      "w_s2_deung",
+      "w_s2_geumji", "w_s2_juui", "w_s2_sayong", "w_s2_bisanggu",
+      "w_s2_gojang", "w_s2_yeongeop", "w_s2_gongsa", "w_s2_jung",
+      "w_s2_milda", "w_s2_danggida"
+    ],
+    "sentenceIds": [
+      "s_s2_pull_door", "s_s2_no_swimming", "s_s2_construction",
+      "s_s2_closed_sunday", "s_s2_entrance_south", "s_s2_headline"
+    ]
+  },
+  {
+    "id": "s3",
+    "title": "Hanja, the Cheat Code",
+    "order": 38,
+    "contentMd": "modules/module-s3.md",
+    "wordIds": [],
+    "sentenceIds": []
   }
 ]

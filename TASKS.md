@@ -79,6 +79,9 @@
 - [x] Interlude: Konglish — the Adaptation Machine (order 35, Reading 5): the sound converter (F→ㅍ, V→ㅂ, Z→ㅈ, TH→ㅅ, 으-cushions), the clip machine (셀카/에어컨/아파트/알바 — German via two borrowings), made-in-Korea English (핸드폰/원피스/스킨십/아이쇼핑), the false-friends table (미팅/컨닝/샤프/비닐/핸들/헬스 joining 사이다/서비스), and the long-haul immigrants (빵's Portuguese passport) *(2026-08-10)*
 - [ ] Decide Ring 2 module format (leaner than the M3–M26 contract; pipeline-assisted per CURRICULUM.md §1)
 
+- [x] Appendix S2 — The Written Register (order 37): the stiff connectives 및/또는/즉/그러므로/등 as recognition vocabulary, the sign-decoding kit (금지/주의/사용/비상구/고장/영업/공사 + door verbs 밀다/당기다), the ○○ 중 busy-sign machine (word + gap item), the 하오체 ghost register (미시오/당기시오 gap item; -지 마시오 as sign-costume -지 마세요), and headline grammar (김치, 세계로 가다); 6 sentences transcribed from doors/shutters/front pages incl. -지 않다 in 합니다체 — the register map complete: 합니다체/해요체/반말/texting/written *(2026-08-10)*
+- [x] Appendix S3 — Hanja, the Cheat Code (order 38, wordless reading): the ~60 stealth-taught Sino roots lined up in decoder tables (people/places/time/doing/qualities, each row citing owned words), the reveal that the homograph radar was hanja-collision detection all along (화 話/火, 문 文/門, 미 美/未, 남 南/男, 교 校/敎), the guess-before-lookup method (수학/대학생/음식점), and the Ring 2 pitch: grade-B vocabulary is two-root compounds of this page *(2026-08-10)* — **the Ring 1 shelf is fully shipped: 30 modules + 5 readings + 3 appendices**
+
 ## Phase B — Sharing (do not start without explicit decision)
 - [ ] Deploy static build + proxy; simple auth; per-user state sync
 

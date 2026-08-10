@@ -1970,5 +1970,35 @@
 
   { "id": "w_s1_gapjil", "ko": "갑질", "rom": "gapjil", "en": "power abuse (by the stronger party)", "pos": "noun", "moduleId": "s1", "notes": "갑 (the stronger contract party — gap deck explains the 갑/을 system) + -질 (the doing-of, derogatory): pulling rank, made famous by airline-nut incidents. Slang serious enough for newspaper headlines." },
 
-  { "id": "w_s1_sohwakhaeng", "ko": "소확행", "rom": "sohwakhaeng", "en": "small but certain happiness", "pos": "noun", "moduleId": "s1", "notes": "소소하지만 확실한 행복, first-syllabled: the good coffee, the clean bed, the 아아 at 3pm. Borrowed from a Murakami essay, naturalized completely — the anti-갓생, and its roommate." }
+  { "id": "w_s1_sohwakhaeng", "ko": "소확행", "rom": "sohwakhaeng", "en": "small but certain happiness", "pos": "noun", "moduleId": "s1", "notes": "소소하지만 확실한 행복, first-syllabled: the good coffee, the clean bed, the 아아 at 3pm. Borrowed from a Murakami essay, naturalized completely — the anti-갓생, and its roommate." },
+
+  { "id": "w_s2_mit", "ko": "및", "rom": "mit", "en": "and (written, in lists)", "pos": "phrase", "moduleId": "s2", "notes": "The written 하고: 커피 및 차. Forms, menus, regulations — reading only. Say it aloud and the room checks whether you're reading a contract." },
+
+  { "id": "w_s2_ttoneun", "ko": "또는", "rom": "ttoneun", "en": "or (written)", "pos": "phrase", "moduleId": "s2", "notes": "전화 또는 문자 — choose one, in print. M29's 또 (again/also) + 는: the or-word of forms and instructions. Its literary twin 혹은 haunts older books." },
+
+  { "id": "w_s2_jeuk", "ko": "즉", "rom": "jeuk", "en": "that is / i.e.", "pos": "phrase", "moduleId": "s2", "notes": "The restater: [complicated thing]. 즉, [simple thing]. Textbooks and news lean on it; teachers say it aloud as a verbal colon — the one written connective that escapes into speech." },
+
+  { "id": "w_s2_geureomeuro", "ko": "그러므로", "rom": "geureomeuro", "en": "therefore (written)", "pos": "phrase", "moduleId": "s2", "notes": "The 그렇다 machine's most formal child (M29's family, in a judge's robe) — proofs, editorials, sermons. Speech uses 그래서/그러니까; print concludes with 그러므로." },
+
+  { "id": "w_s2_deung", "ko": "등", "rom": "deung", "en": "etc. / and so on", "pos": "noun", "moduleId": "s2", "notes": "The list-closer: 사과, 포도, 딸기 등. Doubled — 등등 — it trails off aloud. On every receipt, syllabus, and ingredients label; also 'back' (등이 아파요) — the radar files a homograph." },
+
+  { "id": "w_s2_geumji", "ko": "금지", "rom": "geumji", "en": "prohibited", "pos": "noun", "moduleId": "s2", "notes": "The forbidding suffix-noun: 주차 금지 (no parking), 사진 촬영 금지 (no photos), 출입 금지 (keep out). [Anything] + 금지 = don't. The sign vocabulary's sternest word." },
+
+  { "id": "w_s2_juui", "ko": "주의", "rom": "juui", "en": "caution", "pos": "noun", "moduleId": "s2", "notes": "One notch below 금지: 머리 조심? No — that's 조심; 주의 is the printed form: 미끄럼 주의 (slippery), 개 조심/맹견 주의 (beware of dog). Yellow signs speak it fluently." },
+
+  { "id": "w_s2_sayong", "ko": "사용", "rom": "sayong", "en": "use (the noun)", "pos": "noun", "moduleId": "s2", "notes": "사용 중 (in use — the bathroom door's word), 사용 금지 (do not use), 사용법 (instructions). The verb is 사용하다 — 쓰다 (M10) in a lab coat." },
+
+  { "id": "w_s2_bisanggu", "ko": "비상구", "rom": "bisanggu", "en": "emergency exit", "pos": "noun", "moduleId": "s2", "notes": "비상 (emergency) + 구 (opening — 입구/출구's 구, M12): the green running man above every theater door. The one sign word worth knowing before you need it." },
+
+  { "id": "w_s2_gojang", "ko": "고장", "rom": "gojang", "en": "out of order / breakdown", "pos": "noun", "moduleId": "s2", "notes": "고장 났어요 — it broke (breakdowns ERUPT, with M28's 나다); the taped-up sign reads 고장. What vending machines announce and elevators threaten." },
+
+  { "id": "w_s2_yeongeop", "ko": "영업", "rom": "yeongeop", "en": "business (operations)", "pos": "noun", "moduleId": "s2", "notes": "영업 중 — open; 영업 종료 — closed for the day; 24시간 영업 — the 편의점 promise. The shutter vocabulary of every shop street." },
+
+  { "id": "w_s2_gongsa", "ko": "공사", "rom": "gongsa", "en": "construction (work)", "pos": "noun", "moduleId": "s2", "notes": "공사 중 — under construction: the sign, the detour, the 6 a.m. drilling. Korea rebuilds constantly; this word narrates it." },
+
+  { "id": "w_s2_jung", "ko": "중", "rom": "jung", "en": "in the middle of (suffix)", "pos": "noun", "moduleId": "s2", "notes": "중국's middle-中, hung after any noun: 영업 중, 공사 중, 통화 중, 회의 중. The busy-sign machine — see the gap deck for the full system. Also plain 'among': 이 중에서 — among these." },
+
+  { "id": "w_s2_milda", "ko": "밀다", "rom": "milda", "en": "to push", "pos": "verb", "moduleId": "s2", "notes": "The verb on half of Korea's doors (미시오 — its 하오체 costume) and the 밀 of S1's 밀당. ㄹ-family: 밀어요. Pushing paperwork too: 미루다 is its procrastinating cousin." },
+
+  { "id": "w_s2_danggida", "ko": "당기다", "rom": "danggida", "en": "to pull", "pos": "verb", "moduleId": "s2", "notes": "The other half of the doors (당기시오), the 당 of 밀당, and appetite's verb: 입맛이 당기다 — a craving PULLS. Every door you've hesitated at, resolved." }
 ]
