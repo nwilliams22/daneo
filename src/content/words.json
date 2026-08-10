@@ -600,5 +600,81 @@
 
   { "id": "w_p_jeone", "ko": "전에", "rom": "jeone", "en": "before", "pos": "particle", "moduleId": "m13", "notes": "After a plain noun (수업 전에) or a verb wearing -기 (자기 전에). 전 = the time before." },
 
-  { "id": "w_p_hue", "ko": "후에", "rom": "hue", "en": "after", "pos": "particle", "moduleId": "m13", "notes": "After a plain noun (수업 후에) or a verb stamped past with -(으)ㄴ (먹은 후에). 후 = the time after." }
+  { "id": "w_p_hue", "ko": "후에", "rom": "hue", "en": "after", "pos": "particle", "moduleId": "m13", "notes": "After a plain noun (수업 후에) or a verb stamped past with -(으)ㄴ (먹은 후에). 후 = the time after." },
+
+  { "id": "w_mom", "ko": "몸", "rom": "mom", "en": "body", "pos": "noun", "moduleId": "m14", "notes": "몸이 안 좋아요 — 'my body isn't good' — is how Korean says 'I'm unwell' without naming anything." },
+
+  { "id": "w_nun_eye", "ko": "눈", "rom": "nun", "en": "eye", "pos": "noun", "moduleId": "m14", "notes": "M11's snow, same syllable — the homograph finally lands its second job. 눈이 와요, snow comes; 눈이 아파요, your eye hurts. Context referees." },
+
+  { "id": "w_ko", "ko": "코", "rom": "ko", "en": "nose", "pos": "noun", "moduleId": "m14", "notes": "코가 막혀요 — a blocked nose runs on M12's 막히다, the traffic-jam verb. Sinus congestion is nasal traffic." },
+
+  { "id": "w_ip", "ko": "입", "rom": "ip", "en": "mouth", "pos": "noun", "moduleId": "m14", "notes": "입이 무거워요 — a 'heavy mouth' keeps secrets. The gap deck has more body-idioms like it." },
+
+  { "id": "w_gwi", "ko": "귀", "rom": "gwi", "en": "ear", "pos": "noun", "moduleId": "m14" },
+
+  { "id": "w_mok", "ko": "목", "rom": "mok", "en": "neck / throat", "pos": "noun", "moduleId": "m14", "notes": "One word for both — 목이 아파요 covers sore throats and stiff necks; context decides which hurts." },
+
+  { "id": "w_eokkae", "ko": "어깨", "rom": "eokkae", "en": "shoulder", "pos": "noun", "moduleId": "m14" },
+
+  { "id": "w_pal", "ko": "팔", "rom": "pal", "en": "arm", "pos": "noun", "moduleId": "m14", "notes": "Sounds exactly like Sino 팔 (eight, M2). You have two arms, not eight — 팔이 두 개." },
+
+  { "id": "w_dari", "ko": "다리", "rom": "dari", "en": "leg", "pos": "noun", "moduleId": "m14", "notes": "Also 'bridge' — a river's legs. Two homographs in one module; the 눈 problem is everywhere." },
+
+  { "id": "w_bal", "ko": "발", "rom": "bal", "en": "foot", "pos": "noun", "moduleId": "m14", "notes": "손 (hand) has 손가락, finger; 발 has 발가락 — 'foot-fingers.' Korean names toes with perfect logic." },
+
+  { "id": "w_mureup", "ko": "무릎", "rom": "mureup", "en": "knee", "pos": "noun", "moduleId": "m14", "notes": "Final ㅍ — 무릅 alone, but 무릎이 (mureupi) wakes it with a vowel. 부엌's rule, new letter." },
+
+  { "id": "w_heori", "ko": "허리", "rom": "heori", "en": "lower back / waist", "pos": "noun", "moduleId": "m14", "notes": "The part that hurts from desks and floors alike. 허리가 아파요 — half of Korea, daily." },
+
+  { "id": "w_pi", "ko": "피", "rom": "pi", "en": "blood", "pos": "noun", "moduleId": "m14" },
+
+  { "id": "w_kopi", "ko": "코피", "rom": "kopi", "en": "nosebleed", "pos": "noun", "moduleId": "m14", "notes": "코 + 피: nose-blood. In K-dramas, studying too hard always ends in 코피. One vowel from 커피 (coffee) — order carefully." },
+
+  { "id": "w_nunmul", "ko": "눈물", "rom": "nunmul", "en": "tears", "pos": "noun", "moduleId": "m14", "notes": "눈 + 물: eye-water. The body compounds itself from parts you own." },
+
+  { "id": "w_gamgi", "ko": "감기", "rom": "gamgi", "en": "a cold", "pos": "noun", "moduleId": "m14", "notes": "감기에 걸리다 — you get 'caught' by a cold. M12's 걸리다 moonlighting; the same verb hangs, catches, and takes time." },
+
+  { "id": "w_yeol_fever", "ko": "열", "rom": "yeol", "en": "fever", "pos": "noun", "moduleId": "m14", "notes": "M5's ten, M13's 열다/열쇠 — and now body heat. 열이 있어요, there's a fever. The 열 syllable works three jobs." },
+
+  { "id": "w_gichim", "ko": "기침", "rom": "gichim", "en": "cough", "pos": "noun", "moduleId": "m14", "notes": "기침을 해요 — coughing is something you 'do' in Korean." },
+
+  { "id": "w_byeong_ill", "ko": "병", "rom": "byeong", "en": "illness", "pos": "noun", "moduleId": "m14", "notes": "병 (illness) + 원 (house) = 병원 — M6's hospital, finally decomposed. M5's bottle-counter 병 is a homograph; get well before you count bottles." },
+
+  { "id": "w_geongang", "ko": "건강", "rom": "geongang", "en": "health", "pos": "noun", "moduleId": "m14", "notes": "건강에 좋아요 — 'good for the health' — is printed on half the food packaging in Korea." },
+
+  { "id": "w_seuteureseu", "ko": "스트레스", "rom": "seuteureseu", "en": "stress", "pos": "noun", "moduleId": "m14", "notes": "Konglish. 스트레스를 받다 — you 'receive' stress (M9's 받다, promoted to psychology); 풀다 unties it." },
+
+  { "id": "w_maseukeu", "ko": "마스크", "rom": "maseukeu", "en": "mask", "pos": "noun", "moduleId": "m14", "notes": "Konglish. Standard kit in 미세먼지 season (M11's fifth season) and cold season alike." },
+
+  { "id": "w_jusa", "ko": "주사", "rom": "jusa", "en": "injection / shot", "pos": "noun", "moduleId": "m14", "notes": "The thing every Korean kid fears at the 병원. 주사를 맞다 — you 'receive' a shot, verb arriving in a later module." },
+
+  { "id": "w_ganhosa", "ko": "간호사", "rom": "ganhosa", "en": "nurse", "pos": "noun", "moduleId": "m14", "notes": "간호 (nursing) + the job-사 from 요리사 and 의사. M4's build-a-job machine still runs." },
+
+  { "id": "w_dambae", "ko": "담배", "rom": "dambae", "en": "cigarettes", "pos": "noun", "moduleId": "m14", "notes": "담배를 피우다 — see the verb below for the smoke-as-bloom poetry." },
+
+  { "id": "w_apeuda", "ko": "아프다", "rom": "apeuda", "en": "to hurt / be sick", "pos": "adj", "moduleId": "m14", "notes": "The ㅡ-drop family's patriarch finally enrolls: 아프 + 아요 → 아파요. You've been saying its shape since M3's 배고파요." },
+
+  { "id": "w_natda_recover", "ko": "낫다", "rom": "natda", "en": "to get better / recover", "pos": "verb", "moduleId": "m14", "notes": "A NEW irregular family — ㅅ vanishes before vowels: 나 + 아요 → 나아요. Rare and mostly used to wish people well: 빨리 나으세요. Sounds identical to M7's 낮다 (low) — this module's homograph festival extends to sound-twins." },
+
+  { "id": "w_dachida", "ko": "다치다", "rom": "dachida", "en": "to get hurt / injured", "pos": "verb", "moduleId": "m14", "notes": "For the moment of injury — 다쳤어요, I got hurt. 아프다 is for the hurting after." },
+
+  { "id": "w_nupda", "ko": "눕다", "rom": "nupda", "en": "to lie down", "pos": "verb", "moduleId": "m14", "notes": "ㅂ-irregular: 누워요. The doctor's 여기에 누우세요 — lie down here — runs on it." },
+
+  { "id": "w_seoda", "ko": "서다", "rom": "seoda", "en": "to stand", "pos": "verb", "moduleId": "m14", "notes": "M12's 세우다 (stop the taxi) was this verb's causative cousin — 'make it stand.'" },
+
+  { "id": "w_piuda", "ko": "피우다", "rom": "piuda", "en": "to smoke (a cigarette)", "pos": "verb", "moduleId": "m14", "notes": "Literally 'to make bloom' — 꽃이 피다, flowers bloom. Korean gave smoking its grimmest poetry." },
+
+  { "id": "w_geokjeonghada", "ko": "걱정하다", "rom": "geokjeonghada", "en": "to worry", "pos": "verb", "moduleId": "m14", "notes": "걱정 alone is the noun. 걱정하지 마세요 — the sentence this module exists for." },
+
+  { "id": "w_geonganghada", "ko": "건강하다", "rom": "geonganghada", "en": "to be healthy", "pos": "adj", "moduleId": "m14", "notes": "The toast, the birthday wish, the grandmother's sign-off: 건강하세요." },
+
+  { "id": "w_jukda", "ko": "죽다", "rom": "jukda", "en": "to die", "pos": "verb", "moduleId": "m14", "notes": "Darker on paper than in speech — casual Korean 'dies' of hunger, heat, and homework hourly. The gap deck explains 죽겠어요." },
+
+  { "id": "w_mongmareuda", "ko": "목마르다", "rom": "mongmareuda", "en": "to be thirsty", "pos": "adj", "moduleId": "m14", "notes": "목 (throat) + 마르다 (dries): thirst is a drying throat. 르-family conjugation: 목말라요." },
+
+  { "id": "w_him", "ko": "힘", "rom": "him", "en": "strength / energy", "pos": "noun", "moduleId": "m14", "notes": "힘이 없어요 — no energy: the universal symptom. 힘내세요! — the universal encouragement." },
+
+  { "id": "w_puk", "ko": "푹", "rom": "puk", "en": "deeply / thoroughly (rest, sleep)", "pos": "noun", "moduleId": "m14", "notes": "푹 쉬세요, 푹 자요 — the adverb of proper rest. Doctors prescribe it verbatim." },
+
+  { "id": "w_ajik", "ko": "아직", "rom": "ajik", "en": "still / not yet", "pos": "noun", "moduleId": "m14", "notes": "아직 아파요 — still sick. With a negative it reads 'not yet': 아직 안 먹었어요." }
 ]

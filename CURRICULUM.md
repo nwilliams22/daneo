@@ -142,10 +142,12 @@ Every vocab module ships, in one session-sized unit:
      **never seen written**, proving transfer, not memory;
    - **≥3 sentences** carry the *previous* module's glue or signature vocab
      as their visible payload — again in fresh combinations;
-   - **no sentence, and no distinctive compositional phrase, appears twice
-     anywhere in the course** — enforced by the validator
-     (`dup-sentence-text`). Fixed formulas (잘 먹겠습니다, 어서 오세요…)
-     are exempt: those are memorized verbatim by design;
+   - **no sentence appears twice anywhere in the course** — enforced by the
+     validator (`dup-sentence-text`). Phrase-level overlap between sentences
+     is acceptable when the natural sentence wants it (Nick, 2026-08-09) —
+     the more unique the better, but don't contort content to dodge a shared
+     phrase. Fixed formulas (잘 먹겠습니다, 어서 오세요…) are exempt
+     entirely: those are memorized verbatim by design;
    - practice keeps 1–2 cumulative items; vocab notes cross-reference
      decomposable earlier parts (the standing convention, now required).
    The FSRS queue handles item-level retention; this keeps the content

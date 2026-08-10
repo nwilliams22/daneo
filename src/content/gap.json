@@ -475,5 +475,32 @@
     "lit": "I want to go home",
     "real": "I'm exhausted / so done with today",
     "note": "Said at desks, in classrooms, in queues — and, famously, while already at home. When there's no energy left for anything, the stated destination is 집, even if you're sitting in it. M3's -고 싶어요 doing emotional heavy-lifting."
+  },
+  {
+    "id": "g14_momsal",
+    "cat": "concept",
+    "ko": "몸살",
+    "rom": "momsal",
+    "lit": "body-ache",
+    "real": "the flattened-by-overwork illness",
+    "note": "Not quite flu, not quite fatigue: the full-body collapse Korean recognizes as its own named disease — 몸살이 났어요, and everyone nods. Doctors prescribe 푹 쉬세요; grandmothers prescribe soup. That the language needs this word says something about the work culture."
+  },
+  {
+    "id": "g14_jukgesseoyo",
+    "cat": "phrase",
+    "ko": "배고파 죽겠어요",
+    "rom": "baegopa jukgesseoyo",
+    "lit": "I'm hungry to death",
+    "real": "I'm SO hungry",
+    "note": "Korean hyperbole's favorite engine: [feeling] + 죽겠어요 = dying of it. 더워 죽겠어요 (dying of heat), 힘들어 죽겠어요 (dying of hardship). Nobody is dying; everybody says it hourly. English does 'starving to death' — Korean industrialized the pattern."
+  },
+  {
+    "id": "g14_sonkeuda",
+    "cat": "phrase",
+    "ko": "손이 크다",
+    "rom": "soni keuda",
+    "lit": "one's hands are big",
+    "real": "generous (always over-caters)",
+    "note": "Said of the host who cooks for twelve when four are coming. The body is Korean's favorite metaphor kit: 코가 높다 (high nose — arrogant), 입이 무겁다 (heavy mouth — keeps secrets), 귀가 얇다 (thin ears — easily swayed). Glove size is not the point."
   }
 ]
