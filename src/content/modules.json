@@ -732,5 +732,31 @@
       "s29_together_trip", "s29_weather_cham", "s29_favorite_season",
       "s29_already_end", "s29_life_how"
     ]
+  },
+  {
+    "id": "m30",
+    "title": "Counting II and the Household",
+    "order": 33,
+    "contentMd": "modules/module-30.md",
+    "wordIds": [
+      "w_seoreun", "w_maheun", "w_swin", "w_yesun", "w_ilheun",
+      "w_yeodeun", "w_aheun",
+      "w_cheotjjae", "w_duljjae", "w_setjjae",
+      "w_miteo", "w_peosenteu", "w_dalleo", "w_gaewol", "w_c_jang",
+      "w_kal", "w_siktak", "w_sugeon", "w_binu", "w_chiyak",
+      "w_chissol", "w_hyuji",
+      "w_subak", "w_ttalgi", "w_podo", "w_orenji",
+      "w_dak", "w_dwaeji",
+      "w_galbi", "w_naengmyeon", "w_satang", "w_chokollit",
+      "w_saendeuwichi", "w_haembeogeo", "w_pija", "w_kolla",
+      "w_huinsaek", "w_gaseum"
+    ],
+    "sentenceIds": [
+      "s30_age_thirty", "s30_first_daughter", "s30_just_one",
+      "s30_strawberry_grapes", "s30_watermelon_best", "s30_two_photos",
+      "s30_three_months", "s30_twenty_percent", "s30_rooster",
+      "s30_naengmyeon_hot", "s30_toothbrush_paste", "s30_pizza_big",
+      "s30_burger_cola", "s30_thousand_words"
+    ]
   }
 ]
