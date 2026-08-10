@@ -82,11 +82,26 @@
 - [x] Appendix S2 — The Written Register (order 37): the stiff connectives 및/또는/즉/그러므로/등 as recognition vocabulary, the sign-decoding kit (금지/주의/사용/비상구/고장/영업/공사 + door verbs 밀다/당기다), the ○○ 중 busy-sign machine (word + gap item), the 하오체 ghost register (미시오/당기시오 gap item; -지 마시오 as sign-costume -지 마세요), and headline grammar (김치, 세계로 가다); 6 sentences transcribed from doors/shutters/front pages incl. -지 않다 in 합니다체 — the register map complete: 합니다체/해요체/반말/texting/written *(2026-08-10)*
 - [x] Appendix S3 — Hanja, the Cheat Code (order 38, wordless reading): the ~60 stealth-taught Sino roots lined up in decoder tables (people/places/time/doing/qualities, each row citing owned words), the reveal that the homograph radar was hanja-collision detection all along (화 話/火, 문 文/門, 미 美/未, 남 南/男, 교 校/敎), the guess-before-lookup method (수학/대학생/음식점), and the Ring 2 pitch: grade-B vocabulary is two-root compounds of this page *(2026-08-10)* — **the Ring 1 shelf is fully shipped: 30 modules + 5 readings + 3 appendices**
 
+## Content — Ring 2 (scoped with Nick 2026-08-10; map + trimmed contract in CURRICULUM.md §2b)
+- [x] Scope decisions (Nick, 2026-08-10, one question at a time): **trimmed depth** (~44 words w/ full notes, 8 sentences, slim md, 0–3 gaps — module tests still work) · **three bands** (Band 4 grammar engine II M31–M39 ordered; Band 5 themes II ~20 order-free; Band 6 long-tail packs ~10) · **slice-script + hand-author pipeline** (no external APIs; 기초사전 reference-only per CC BY-SA)
+- [x] Tooling: `npm run ring2:plan` (scripts/ring2-plan.ts) + `reference/ring2-slices.tsv` assignment ledger — validates collisions/grade/staleness, reports per-module progress + the unassigned pool by rank (1,730 words at kickoff; 259 grade-B already taught) *(2026-08-10)*
+- [ ] M31 Korea on the Map (provinces/cities/mountains/palaces + world places; 마다) — Band 4 opens
+- [ ] M32 Society & the News (-다고/-라고 quoting)
+- [ ] M33 Saying & Asking II (-냐고/-자고/-아 달라고 · indirect -는지)
+- [ ] M34 Thoughts & Seemings (-(으)ㄹ 것 같다 · -나 보다)
+- [ ] M35 Becoming (-아/어지다 · -게 되다)
+- [ ] M36 Done-To (passive 이/히/리/기)
+- [ ] M37 Making-Do (causatives · -게 하다)
+- [ ] M38 While & As Soon As (-(으)면서 · -자마자 · -는 동안)
+- [ ] M39 Even If, Only If (-아/어도 · -아/어야 · 밖에) — Band 4 complete
+- [ ] …Band 5 themes II + Band 6 packs per CURRICULUM.md §2b (check off as they ship)
+
 ## Phase B — Sharing (do not start without explicit decision)
 - [ ] Deploy static build + proxy; simple auth; per-user state sync
 
 ## Discovered work
 - (add items here with dates)
+- 2026-08-10 · App task from Ring 2 scoping: **Learn-page ring dividers** — with 40 more modules coming, the Learn list needs section headers (Ring 1 / Ring 2, maybe collapsible bands). Small UI work; do early in Ring 2 authoring before the list gets unwieldy.
 - 2026-08-10 · Content ideas (Nick, via howtostudykorean.com's coverage): **abbreviations/준말** (것→거, 저는→전, 이게/그게, texting clips — S1-adjacent), **Konglish as a system** (not just scattered loanwords: the adaptation rules — ㅍ for f, clipped compounds like 셀카/아파트, false friends like 서비스/컨닝 — could be a reading interlude), **archaic/formal connectors still alive today** (그러나, 및, 또는, 즉, 그러므로 — the written-register set; 그러나 is already on the NIKL A-gap list). Fold into the A-gap sweep + S1 planning.
 - 2026-08-10 · Feature idea (Nick): **module-end tests** — a quiz at the end of each module in the spirit of howtostudykorean.com's unit tests: mixed questions over the module's vocab, sentences, and grammar, with a score at the end. Fits the existing machinery (distractors, ChoiceQuestion kinds, why-wrong feedback, logDrillResult funnel). *(✅ Done 2026-08-10, session 18 — see log.)*
 - 2026-08-10 · Follow-up from the module-test build: the Review page's per-kind "missed items" sections don't yet list the new `word` kind (vocab-MCQ misses still cycle through the daily queue; they're just absent from the missed-items strip, which needs a re-drill route to exist first — the module test itself is the natural target).
