@@ -553,5 +553,32 @@
       "s22_autumn_sky", "s22_climb_sneakers", "s22_our_neighborhood",
       "s22_moms_cooking", "s22_rainbow"
     ]
+  },
+  {
+    "id": "m23",
+    "title": "Travel and Asking the Way",
+    "order": 26,
+    "contentMd": "modules/module-23.md",
+    "wordIds": [
+      "w_yeogwon", "w_bija", "w_gwangwang", "w_gwangwanggaek",
+      "w_gwangwangji", "w_oeguk", "w_oegugin", "w_ginyeompum",
+      "w_nara",
+      "w_hotel", "w_bangmulgwan", "w_misulgwan", "w_gung",
+      "w_badatga", "w_oncheon", "w_annaeso", "w_gwangjang",
+      "w_seong",
+      "w_jjok", "w_geonneopyeon", "w_ttokbaro", "w_sageori",
+      "w_hoengdanbodo", "w_ganpan",
+      "w_iljeong", "w_yuryo", "w_segye", "w_jayu", "w_danche",
+      "w_tteonada", "w_doraoda", "w_doragada", "w_hwanjeonhada",
+      "w_jinaeda", "w_mukda",
+      "w_beolsseo", "w_geoui"
+    ],
+    "sentenceIds": [
+      "s23_just_subway", "s23_where_museum", "s23_turn_left",
+      "s23_is_it_far", "s23_airport_early", "s23_passport",
+      "s23_heavy_luggage", "s23_busan_beach", "s23_palace_tour",
+      "s23_souvenir_market", "s23_lost", "s23_plane_pricier",
+      "s23_home_best", "s23_almost_there"
+    ]
   }
 ]

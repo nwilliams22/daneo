@@ -6180,5 +6180,275 @@
     "rom": "biga geuchin hue mujigaereul bwasseoyo",
     "wordIds": ["w_bi", "w_geuchida", "w_mujigae", "w_boda"],
     "note": "M11's 그치다 through M13's 후에, resolved by plain old seeing — 보다's first job, for the prettiest payoff. Three bands of the course in one sky."
+  },
+  {
+    "id": "s23_just_subway",
+    "en": [
+      { "t": "From here,", "role": "place", "id": "p" },
+      { "t": "just take the subway", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "here-from", "role": "place", "id": "p" },
+      { "t": "subway-[obj] ride-if okay", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여기서", "role": "place", "id": "p" },
+      { "t": "지하철을 타면 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogiseo jihacheoreul tamyeon dwaeyo",
+    "wordIds": ["w_yeogi", "w_jihacheol", "w_tada", "w_doeda"],
+    "note": "-(으)면 돼요: 'if you do X, it's fine' = JUST do X. M20 gave you the must-not (누르면 안 돼요); flip the polarity and directions become this easy."
+  },
+  {
+    "id": "s23_where_museum",
+    "en": [
+      { "t": "Excuse me,", "role": "other", "id": "g" },
+      { "t": "where is", "role": "verb", "id": "v" },
+      { "t": "the museum?", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "here-please,", "role": "other", "id": "g" },
+      { "t": "museum-[subj]", "role": "subject", "id": "s" },
+      { "t": "where-at exists?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여기요,", "role": "other", "id": "g" },
+      { "t": "박물관이", "role": "subject", "id": "s" },
+      { "t": "어디에 있어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogiyo, bangmulgwani eodie isseoyo?",
+    "wordIds": ["w_yeogiyo", "w_bangmulgwan", "w_eodi"],
+    "note": "M9's attention-getter opens, M6's 어디 asks, the 있다-frame locates. 박물관 says 방물관 — the interlude's nasalization, museum edition."
+  },
+  {
+    "id": "s23_turn_left",
+    "en": [
+      { "t": "Over there,", "role": "place", "id": "p" },
+      { "t": "just turn left", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "there-from", "role": "place", "id": "p" },
+      { "t": "left-toward go-if okay", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저기서", "role": "place", "id": "p" },
+      { "t": "왼쪽으로 가면 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeogiseo oenjjogeuro gamyeon dwaeyo",
+    "wordIds": ["w_jeogi", "w_oenjjok", "w_gada", "w_doeda"],
+    "note": "M6's 왼쪽 was a 쪽-compound all along — this module hands over the raw 쪽. Directions in Korea come as chains of exactly this sentence."
+  },
+  {
+    "id": "s23_is_it_far",
+    "en": [
+      { "t": "Is it far", "role": "verb", "id": "v" },
+      { "t": "from here?", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "here-from", "role": "place", "id": "p" },
+      { "t": "is-far?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여기서", "role": "place", "id": "p" },
+      { "t": "멀어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogiseo meoreoyo?",
+    "wordIds": ["w_yeogi", "w_meolda"],
+    "note": "Four syllables that decide whether you walk or wave down a taxi. M6's 멀다 keeps its ㄹ: 멀어요."
+  },
+  {
+    "id": "s23_airport_early",
+    "en": [
+      { "t": "Two hours before,", "role": "other", "id": "c" },
+      { "t": "just arrive", "role": "verb", "id": "v" },
+      { "t": "at the airport", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "two hour before-at", "role": "other", "id": "c" },
+      { "t": "airport-at", "role": "place", "id": "p" },
+      { "t": "arrive-if okay", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "두 시간 전에", "role": "other", "id": "c" },
+      { "t": "공항에", "role": "place", "id": "p" },
+      { "t": "도착하면 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "du sigan jeone gonghange dochakhamyeon dwaeyo",
+    "wordIds": ["w_dul", "w_sigan", "w_gonghang", "w_dochakhada"],
+    "note": "M5's counted hours through M13's 전에 into the it's-fine machine — three modules of glue delivering one piece of airport advice."
+  },
+  {
+    "id": "s23_passport",
+    "en": [
+      { "t": "Don't forget", "role": "verb", "id": "v" },
+      { "t": "your passport!", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "passport-[obj]", "role": "object", "id": "o" },
+      { "t": "forget-don't-please!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여권을", "role": "object", "id": "o" },
+      { "t": "잊지 마세요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogwoneul itji maseyo!",
+    "wordIds": ["w_yeogwon", "w_ijda"],
+    "note": "M14's don't-machine guarding M15's forget-verb at the front door. The one item with no workaround — everything else, 공항에서 사면 돼요."
+  },
+  {
+    "id": "s23_heavy_luggage",
+    "en": [
+      { "t": "The luggage", "role": "subject", "id": "s" },
+      { "t": "is too", "role": "other", "id": "a" },
+      { "t": "heavy", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "luggage-[subj]", "role": "subject", "id": "s" },
+      { "t": "too", "role": "other", "id": "a" },
+      { "t": "is-heavy", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "짐이", "role": "subject", "id": "s" },
+      { "t": "너무", "role": "other", "id": "a" },
+      { "t": "무거워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jimi neomu mugeowoyo",
+    "wordIds": ["w_jim", "w_neomu", "w_mugeopda"],
+    "note": "M13's 짐 meets M21's 무겁다 — the eternal packing verdict. Said at check-in counters worldwide, one kilo over."
+  },
+  {
+    "id": "s23_busan_beach",
+    "en": [
+      { "t": "In Busan,", "role": "subject", "id": "s" },
+      { "t": "the beaches", "role": "other", "id": "o" },
+      { "t": "are the most famous", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Busan-[as for]", "role": "subject", "id": "s" },
+      { "t": "seaside-[subj]", "role": "other", "id": "o" },
+      { "t": "most is-famous", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부산은", "role": "subject", "id": "s" },
+      { "t": "바닷가가", "role": "other", "id": "o" },
+      { "t": "제일 유명해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "busaneun badatgaga jeil yumyeonghaeyo",
+    "wordIds": ["w_busan", "w_badatga", "w_jeil", "w_yumyeonghada"],
+    "note": "M22's 제일 ranking M12's second city. 바닷가 — the sea's edge — is M11's 바다 grown a shoreline."
+  },
+  {
+    "id": "s23_palace_tour",
+    "en": [
+      { "t": "In Seoul,", "role": "place", "id": "p" },
+      { "t": "I toured", "role": "verb", "id": "v" },
+      { "t": "a palace", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Seoul-at", "role": "place", "id": "p" },
+      { "t": "palace-[obj]", "role": "object", "id": "o" },
+      { "t": "sightsaw", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서울에서", "role": "place", "id": "p" },
+      { "t": "궁을", "role": "object", "id": "o" },
+      { "t": "구경했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoureseo gungeul gugyeonghaesseoyo",
+    "wordIds": ["w_seoul", "w_gung", "w_gugyeonghada"],
+    "note": "M22's leisure-looking applied to six hundred years of architecture. Arrive in M21's 한복 and 경복궁 waives the ticket — the course's best-dressed discount."
+  },
+  {
+    "id": "s23_souvenir_market",
+    "en": [
+      { "t": "I'm going to the market", "role": "verb", "id": "v" },
+      { "t": "to buy souvenirs", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "souvenir-[obj] buy-in-order-to", "role": "other", "id": "c" },
+      { "t": "market-to go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "기념품을 사러", "role": "other", "id": "c" },
+      { "t": "시장에 가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ginyeompumeul sareo sijange gayo",
+    "wordIds": ["w_ginyeompum", "w_sada", "w_sijang"],
+    "note": "M12's purpose-러 on a shopping mission. 기념품 = memory-goods; M3's 시장 is where they're cheapest and 깎아 주세요 still works."
+  },
+  {
+    "id": "s23_lost",
+    "en": [
+      { "t": "I'm lost", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "road-[obj] lost-completely", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "길을 잃어버렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gireul ireobeoryeosseoyo",
+    "wordIds": ["w_gil", "w_ireobeorida"],
+    "note": "You lose the ROAD in Korean — M20's lost-and-gone verb applied to M12's 길. The 길치 of M17's gap deck says this often, cheerfully."
+  },
+  {
+    "id": "s23_plane_pricier",
+    "en": [
+      { "t": "Plane tickets", "role": "subject", "id": "s" },
+      { "t": "are more expensive", "role": "verb", "id": "v" },
+      { "t": "than train tickets", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "plane-ticket-[subj]", "role": "subject", "id": "s" },
+      { "t": "train-ticket-than", "role": "other", "id": "c" },
+      { "t": "more is-expensive", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비행기표가", "role": "subject", "id": "s" },
+      { "t": "기차표보다", "role": "other", "id": "c" },
+      { "t": "더 비싸요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bihaenggipyoga gichapyoboda deo bissayo",
+    "wordIds": ["w_bihaenggi", "w_gicha", "w_pyo", "w_deo", "w_bissada"],
+    "note": "M22's comparison machine doing trip math with M12's tickets — 표 gluing onto its vehicle exactly as promised back then. The KTX (gap deck) is why the train usually wins."
+  },
+  {
+    "id": "s23_home_best",
+    "en": [
+      { "t": "After a trip,", "role": "other", "id": "t" },
+      { "t": "coming home", "role": "other", "id": "c" },
+      { "t": "is the best", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "travel after", "role": "other", "id": "t" },
+      { "t": "home-to return-when", "role": "other", "id": "c" },
+      { "t": "most is-good", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여행 후에", "role": "other", "id": "t" },
+      { "t": "집에 돌아오면", "role": "other", "id": "c" },
+      { "t": "제일 좋아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeohaeng hue jibe oraomyeon jeil joayo",
+    "wordIds": ["w_yeohaeng", "w_jip", "w_doraoda", "w_jeil", "w_jota"],
+    "note": "M13's 후에, M20's hinge, M22's 제일 — and the gap deck's 집 떠나면 고생이다 proverb, proven again. Every journey's real destination."
+  },
+  {
+    "id": "s23_almost_there",
+    "en": [
+      { "t": "We're almost", "role": "other", "id": "a" },
+      { "t": "there", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "almost all", "role": "other", "id": "a" },
+      { "t": "came", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "거의 다", "role": "other", "id": "a" },
+      { "t": "왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geoui da wasseoyo",
+    "wordIds": ["w_geoui", "w_da", "w_oda"],
+    "note": "Literally 'almost all came' — arrival measured by the coming already done. The sentence every backseat wants and every driver stretches."
   }
 ]

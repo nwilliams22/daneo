@@ -1288,5 +1288,79 @@
 
   { "id": "w_jeil", "ko": "제일", "rom": "jeil", "en": "the most / number one", "pos": "noun", "moduleId": "m22", "notes": "제 (order) + 일 (one — M2's Sino!): literally 'number one.' Park it before any adjective: 제일 맛있어요, 제일 좋아요." },
 
-  { "id": "w_p_boda", "ko": "보다", "rom": "boda", "en": "than (comparison)", "pos": "particle", "moduleId": "m22", "notes": "A PARTICLE spelled exactly like the busiest verb in the course — 보다's fifth job, and this one isn't even a verb. B보다 A가 더 커요: A is bigger than B. The syllable has now fully unionized." }
+  { "id": "w_p_boda", "ko": "보다", "rom": "boda", "en": "than (comparison)", "pos": "particle", "moduleId": "m22", "notes": "A PARTICLE spelled exactly like the busiest verb in the course — 보다's fifth job, and this one isn't even a verb. B보다 A가 더 커요: A is bigger than B. The syllable has now fully unionized." },
+
+  { "id": "w_yeogwon", "ko": "여권", "rom": "yeogwon", "en": "passport", "pos": "noun", "moduleId": "m23", "notes": "여 (travel — 여행's 여) + 권 (document — M5's book-counter 권, promoted to paperwork). The one thing 잊으면 안 돼요." },
+
+  { "id": "w_bija", "ko": "비자", "rom": "bija", "en": "visa", "pos": "noun", "moduleId": "m23", "notes": "Konglish. Not the card — the stamp. Korea waives it for most tourists; the word matters going the other way." },
+
+  { "id": "w_gwangwang", "ko": "관광", "rom": "gwangwang", "en": "sightseeing / tourism", "pos": "noun", "moduleId": "m23", "notes": "관 (view) + 광 (light): viewing-the-sights. The whole industry in two syllables — and the base for the next two words." },
+
+  { "id": "w_gwangwanggaek", "ko": "관광객", "rom": "gwangwanggaek", "en": "tourist", "pos": "noun", "moduleId": "m23", "notes": "관광 + 객 (guest — 손님's formal cousin). Tourists are guests of the view." },
+
+  { "id": "w_gwangwangji", "ko": "관광지", "rom": "gwangwangji", "en": "tourist attraction", "pos": "noun", "moduleId": "m23", "notes": "관광 + 지 (place). Where the 관광객 and their cameras concentrate." },
+
+  { "id": "w_oeguk", "ko": "외국", "rom": "oeguk", "en": "foreign country", "pos": "noun", "moduleId": "m23", "notes": "외 (outside) + 국 (country) — M15's 외국어 minus its language. 외국에 가 봤어요? — been abroad?" },
+
+  { "id": "w_oegugin", "ko": "외국인", "rom": "oegugin", "en": "foreigner", "pos": "noun", "moduleId": "m23", "notes": "외국 + 인 (person). What immigration forms — and curious grandmothers — will call you. Wear it lightly." },
+
+  { "id": "w_ginyeompum", "ko": "기념품", "rom": "ginyeompum", "en": "souvenir", "pos": "noun", "moduleId": "m23", "notes": "기념 (commemoration) + 품 (goods — M21's 명품's 품). Memory-goods: the 추억, purchasable." },
+
+  { "id": "w_nara", "ko": "나라", "rom": "nara", "en": "country / nation", "pos": "noun", "moduleId": "m23", "notes": "The native word — 우리나라, 'our country,' is how Koreans say Korea (M4's 우리 at national scale). Sino 국 does the compounds; 나라 stands alone." },
+
+  { "id": "w_hotel", "ko": "호텔", "rom": "hotel", "en": "hotel", "pos": "noun", "moduleId": "m23", "notes": "Konglish. Budget alternatives with their own flavor: 모텔, 게스트하우스, and the 찜질방 floor (M17's gap deck) for the brave." },
+
+  { "id": "w_bangmulgwan", "ko": "박물관", "rom": "bangmulgwan", "en": "museum", "pos": "noun", "moduleId": "m23", "notes": "박물 (broad things) + 관 (hall). The -관 suffix builds public buildings: 박물관, 미술관, 영화관." },
+
+  { "id": "w_misulgwan", "ko": "미술관", "rom": "misulgwan", "en": "art museum", "pos": "noun", "moduleId": "m23", "notes": "미술 (fine art — where M15's 그림 hangs when it grows up) + 관. The -관 family's second member." },
+
+  { "id": "w_gung", "ko": "궁", "rom": "gung", "en": "palace", "pos": "noun", "moduleId": "m23", "notes": "Seoul keeps five. 경복궁 — the grandest — waives admission if you arrive in M21's 한복: the rental shops next door are no coincidence." },
+
+  { "id": "w_badatga", "ko": "바닷가", "rom": "badatga", "en": "beach / seaside", "pos": "noun", "moduleId": "m23", "notes": "M11's 바다 + 가 (edge): the sea's edge. 해수욕장 is the official swimming beach; 바닷가 is anywhere the land runs out." },
+
+  { "id": "w_oncheon", "ko": "온천", "rom": "oncheon", "en": "hot spring", "pos": "noun", "moduleId": "m23", "notes": "온 (warm — 온돌's 온!) + 천 (spring). The floor-heating syllable, applied to bathing." },
+
+  { "id": "w_annaeso", "ko": "안내소", "rom": "annaeso", "en": "information center", "pos": "noun", "moduleId": "m23", "notes": "안내 (guidance) + 소 (place). The 관광 안내소 marks itself with an ⓘ and speaks English; this module aims to make that optional." },
+
+  { "id": "w_jjok", "ko": "쪽", "rom": "jjok", "en": "side / direction", "pos": "noun", "moduleId": "m23", "notes": "The direction-maker: 이쪽 (this way), 저쪽 (that way) — and M6's 왼쪽/오른쪽 were 쪽-compounds all along. 어느 쪽이에요? — which way?" },
+
+  { "id": "w_geonneopyeon", "ko": "건너편", "rom": "geonneopyeon", "en": "the other side / across", "pos": "noun", "moduleId": "m23", "notes": "M12's 건너다 (cross) + 편 (side): the crossed-to side. 길 건너편에 있어요 — it's across the street." },
+
+  { "id": "w_ttokbaro", "ko": "똑바로", "rom": "ttokbaro", "en": "straight ahead", "pos": "noun", "moduleId": "m23", "notes": "똑바로 가세요 — go straight. Also 'properly': 똑바로 하세요 is what teachers say when it isn't." },
+
+  { "id": "w_sageori", "ko": "사거리", "rom": "sageori", "en": "intersection", "pos": "noun", "moduleId": "m23", "notes": "사 (four — M2's Sino) + 거리 (streets): a four-streets. A 삼거리 has three; Korean names junctions by counting." },
+
+  { "id": "w_hoengdanbodo", "ko": "횡단보도", "rom": "hoengdanbodo", "en": "crosswalk", "pos": "noun", "moduleId": "m23", "notes": "Four syllables of pure Sino bureaucracy meaning 'crossing-walk-way.' M12's 신호등 stands guard over it." },
+
+  { "id": "w_ganpan", "ko": "간판", "rom": "ganpan", "en": "sign(board)", "pos": "noun", "moduleId": "m23", "notes": "The 판 of M15's 칠판 — a board again, now advertising. Korean streets stack 간판 five stories high; reading them is free vocabulary practice." },
+
+  { "id": "w_iljeong", "ko": "일정", "rom": "iljeong", "en": "itinerary / schedule", "pos": "noun", "moduleId": "m23", "notes": "일정이 어떻게 돼요? — what's the schedule? Works for trips and Tuesdays alike." },
+
+  { "id": "w_yuryo", "ko": "유료", "rom": "yuryo", "en": "paid (not free)", "pos": "noun", "moduleId": "m23", "notes": "유 (having) + 료 (fee) — M20's 무료 finally meets its twin. Check which one the 안내소 says before queueing." },
+
+  { "id": "w_segye", "ko": "세계", "rom": "segye", "en": "the world (geographic)", "pos": "noun", "moduleId": "m23", "notes": "M22's 세상 is the lived-in world; 세계 is the atlas one — 세계 여행 (world travel), 세계 지도 (world map). Feelings take 세상; geography takes 세계." },
+
+  { "id": "w_jayu", "ko": "자유", "rom": "jayu", "en": "freedom", "pos": "noun", "moduleId": "m23", "notes": "자유 여행 — independent travel, no flag-following. The next word is its opposite number." },
+
+  { "id": "w_danche", "ko": "단체", "rom": "danche", "en": "group (organized)", "pos": "noun", "moduleId": "m23", "notes": "단체 여행 — the guided tour: matching hats, a raised flag, military scheduling. 단체 사진 — the group photo — nobody escapes." },
+
+  { "id": "w_gwangjang", "ko": "광장", "rom": "gwangjang", "en": "public square", "pos": "noun", "moduleId": "m23", "notes": "광 (wide) + 장 (place — 주차장's 장). 광화문 광장 is where Seoul gathers to celebrate and to protest, sometimes the same week." },
+
+  { "id": "w_seong", "ko": "성", "rom": "seong", "en": "castle / fortress", "pos": "noun", "moduleId": "m23", "notes": "수원 화성 — the fortress wall you can walk at sunset. Also the 성 in 성격 (M19) and family names; the radar logs a triple." },
+
+  { "id": "w_tteonada", "ko": "떠나다", "rom": "tteonada", "en": "to leave / depart", "pos": "verb", "moduleId": "m23", "notes": "여행을 떠나요 — you 'leave on' a trip. More romantic than M8's 출발하다, which is for buses; 떠나다 is for chapters." },
+
+  { "id": "w_doraoda", "ko": "돌아오다", "rom": "doraoda", "en": "to come back / return", "pos": "verb", "moduleId": "m23", "notes": "돌아 (turning) + 오다: come back around. Every trip's final verb." },
+
+  { "id": "w_doragada", "ko": "돌아가다", "rom": "doragada", "en": "to go back", "pos": "verb", "moduleId": "m23", "notes": "돌아오다's mirror — back TOWARD somewhere else. 집에 돌아가요, said from the trip; 집에 돌아와요, said from home. M6's 오다/가다 geometry, still governing." },
+
+  { "id": "w_hwanjeonhada", "ko": "환전하다", "rom": "hwanjeonhada", "en": "to exchange money", "pos": "verb", "moduleId": "m23", "notes": "환 (exchange) + 전 (money): swap-money-do. Airport rates are famously the worst; the 명동 booths famously better." },
+
+  { "id": "w_jinaeda", "ko": "지내다", "rom": "jinaeda", "en": "to spend time / get along", "pos": "verb", "moduleId": "m23", "notes": "The verb hiding inside M1's 잘 지냈어요? all along — 'have you been passing time well?' Twenty-two modules later, the machinery surfaces." },
+
+  { "id": "w_mukda", "ko": "묵다", "rom": "mukda", "en": "to stay (lodge)", "pos": "verb", "moduleId": "m23", "notes": "호텔에서 묵다 — overnighting, specifically. 지내다 spends time; 묵다 spends nights." },
+
+  { "id": "w_beolsseo", "ko": "벌써", "rom": "beolsseo", "en": "already", "pos": "noun", "moduleId": "m23", "notes": "벌써 도착했어요? — here already? M14's 아직 (not yet) finally gets its opposite. Time flies; 벌써 is how Korean gasps about it." },
+
+  { "id": "w_geoui", "ko": "거의", "rom": "geoui", "en": "almost", "pos": "noun", "moduleId": "m23", "notes": "거의 다 왔어요 — almost there: the sentence every backseat wants and every driver stretches." }
 ]

@@ -718,5 +718,32 @@
     "lit": "a frog inside a well",
     "real": "someone who thinks their small world is the whole world",
     "note": "The classic proverb — the frog believes the circle of sky above its well is all the sky there is. Deployed for provincialism of every kind, including one's own: 저는 우물 안 개구리였어요 is a humble way to say travel changed you. M6's position noun 안 doing literary work."
+  },
+  {
+    "id": "g23_geumgangsan",
+    "cat": "phrase",
+    "ko": "금강산도 식후경",
+    "rom": "geumgangsando sikhugyeong",
+    "lit": "even Geumgang Mountain, viewing-after-eating",
+    "real": "food first, everything else second",
+    "note": "The proverb ranks Korea's most legendary mountain BELOW lunch: even the finest scenery is best 식후 — after eating (M13's 후!) — 경 (the viewing of 경치). Quoted before every itinerary is rearranged around a 맛집. The national priorities, notarized in proverb form."
+  },
+  {
+    "id": "g23_jip_tteonamyeon",
+    "cat": "phrase",
+    "ko": "집 떠나면 고생이다",
+    "rom": "jip tteonamyeon gosaengida",
+    "lit": "leave home and it's hardship",
+    "real": "there's no place like home",
+    "note": "고생 (suffering) begins at your own 현관, says the proverb — beds too hard, food too strange, 짐 too heavy. Said half-jokingly while packing and wholly sincerely while unpacking. Where Dorothy needed ruby slippers, Korean needed one conditional — M20's -면, doing folk wisdom."
+  },
+  {
+    "id": "g23_ktx",
+    "cat": "concept",
+    "ko": "KTX",
+    "rom": "keitiekseu",
+    "lit": "Korea Train eXpress",
+    "real": "the country, shrunk to three hours",
+    "note": "Seoul to Busan in under three hours — the bullet train made the whole peninsula a day trip, and 당일치기 (same-day round trip) a lifestyle. Book a window seat on the right side heading south; the 바다 appears just before 부산 and the whole carriage looks up."
   }
 ]
