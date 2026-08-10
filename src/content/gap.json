@@ -637,5 +637,32 @@
     "lit": "to ride a something",
     "real": "to be in the flirty maybe-stage",
     "note": "From English 'something' — as in, there's SOMETHING between them. The named stage before 사귀다: texting too often, denying it to friends. 썸 타는 중이야 — I'm riding a something. English needed this word and never made it; Korean borrowed the raw material and built it."
+  },
+  {
+    "id": "g20_katok",
+    "cat": "concept",
+    "ko": "카톡",
+    "rom": "katok",
+    "lit": "Ka-Talk (KakaoTalk)",
+    "real": "Korea's messaging operating system",
+    "note": "Not an app — infrastructure. Work, family, 회식 planning, wedding invites, paying friends back: all 카톡. 카톡해! replaced 전화해! for a generation, and 단톡방 — the group chat — is where Korean social life actually lives. The yellow icon is on every phone in the country; opting out is a lifestyle statement."
+  },
+  {
+    "id": "g20_ikssip",
+    "cat": "phrase",
+    "ko": "읽씹",
+    "rom": "iksip",
+    "lit": "read-and-chewed",
+    "real": "left on read",
+    "note": "읽다 (read) + 씹다 (to chew — slang for ignoring): they READ your message and said nothing. The 1 next to your 카톡 message disappears when read — so 읽씹 is provable, timestamped, and litigated between friends accordingly. English got 'left on read' years later; Korea had already compressed it to two syllables."
+  },
+  {
+    "id": "g20_injeungsyat",
+    "cat": "concept",
+    "ko": "인증샷",
+    "rom": "injeungsyat",
+    "lit": "certification shot",
+    "real": "the proof photo",
+    "note": "인증 (verification) + 샷 (shot): the photo that PROVES it — you ran, you voted, you found the 맛집, you actually met. Korean internet culture treats experiences as claims requiring evidence; the 인증샷 is the receipt. It's why the 셀카 arm extends before the food gets touched."
   }
 ]

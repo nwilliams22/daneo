@@ -5370,5 +5370,269 @@
     "rom": "oneul jeonyeoge oesikhaja",
     "wordIds": ["w_oneul", "w_jeonyeok", "w_oesikhada"],
     "note": "Module 18 said 오늘 같이 외식해요; a friend says 외식하자 — same happy plan, register swapped. That shift IS this module."
+  },
+  {
+    "id": "s20_hello_who",
+    "en": [
+      { "t": "Hello?", "role": "other", "id": "g" },
+      { "t": "Who is this?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "hello-(phone)?", "role": "other", "id": "g" },
+      { "t": "who-are-you?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여보세요?", "role": "other", "id": "g" },
+      { "t": "누구세요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeoboseyo? nuguseyo?",
+    "wordIds": ["w_yeoboseyo", "w_nugu"],
+    "note": "여보세요 — phone-only, never face to face. M10's 누구 wearing M9's -세요: the politest possible 'who ARE you.'"
+  },
+  {
+    "id": "s20_if_time",
+    "en": [
+      { "t": "If you have time,", "role": "other", "id": "c" },
+      { "t": "please call me", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "time-[subj] exists-if", "role": "other", "id": "c" },
+      { "t": "call-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시간이 있으면", "role": "other", "id": "c" },
+      { "t": "전화해 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sigani isseumyeon jeonhwahae juseyo",
+    "wordIds": ["w_sigan", "w_itda", "w_jeonhwahada"],
+    "note": "-(으)면: the if/when hinge. Consonant stems take 으면 (있으면), vowel stems take 면 — the vowel-checking habit you've had since -(으)세요."
+  },
+  {
+    "id": "s20_if_unknown",
+    "en": [
+      { "t": "If you don't know,", "role": "other", "id": "c" },
+      { "t": "try searching", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "not-know-if", "role": "other", "id": "c" },
+      { "t": "search-try-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "모르면", "role": "other", "id": "c" },
+      { "t": "검색해 보세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "moreumyeon geomsaekhae boseyo",
+    "wordIds": ["w_moreuda", "w_geomsaekhada"],
+    "note": "M4's 모르다 straight into the new hinge — 르-verbs keep their dictionary shape before -면. M16's try-machine finishes the advice. The whole modern epistemology in five syllables."
+  },
+  {
+    "id": "s20_if_rain",
+    "en": [
+      { "t": "If it rains,", "role": "other", "id": "c" },
+      { "t": "I'll stay", "role": "verb", "id": "v" },
+      { "t": "home", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] comes-if", "role": "other", "id": "c" },
+      { "t": "home-at", "role": "place", "id": "p" },
+      { "t": "be-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가 오면", "role": "other", "id": "c" },
+      { "t": "집에", "role": "place", "id": "p" },
+      { "t": "있을 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga omyeon jibe isseul geoyeyo",
+    "wordIds": ["w_bi", "w_oda", "w_jip", "w_itda"],
+    "note": "M11's weather-comes through the conditional into M8's future — three modules, one lazy Sunday plan."
+  },
+  {
+    "id": "s20_battery_dead",
+    "en": [
+      { "t": "My battery died, so", "role": "other", "id": "c" },
+      { "t": "I couldn't call", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "battery-[subj] not-exists-because", "role": "other", "id": "c" },
+      { "t": "call-[obj] couldn't do", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "배터리가 없어서", "role": "other", "id": "c" },
+      { "t": "전화를 못 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "baeteoriga eopseoseo jeonhwareul mot haesseoyo",
+    "wordIds": ["w_baeteori", "w_eopda", "w_jeonhwa"],
+    "note": "The modern alibi, fully machined: batteries 'don't exist' when dead, M10's -어서 files the excuse, M3's 못 confirms the incapacity."
+  },
+  {
+    "id": "s20_lost_phone",
+    "en": [
+      { "t": "I lost my phone!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "phone-[obj] lost-completely!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "핸드폰을 잃어버렸어요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "haendeuponeul ireobeoryeosseoyo!",
+    "wordIds": ["w_haendeupon", "w_ireobeorida"],
+    "note": "잃다 + M13's 버리다 as the oops-completely auxiliary: lost AND gone. The modern nightmare in one verb; Korea's lost-and-found culture is your best hope — phones actually come back."
+  },
+  {
+    "id": "s20_your_number",
+    "en": [
+      { "t": "What", "role": "other", "id": "q" },
+      { "t": "is your phone number?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "phone-number-[subj]", "role": "verb", "id": "v" },
+      { "t": "what-is?", "role": "other", "id": "q" }
+    ],
+    "ko": [
+      { "t": "전화번호가", "role": "verb", "id": "v" },
+      { "t": "뭐예요?", "role": "other", "id": "q" }
+    ],
+    "rom": "jeonhwabeonhoga mwoyeyo?",
+    "wordIds": ["w_jeonhwa", "w_beonho", "w_mwo"],
+    "note": "전화 + 번호, self-assembling. Korean numbers recite digit by digit with M2's Sino set — 공일공 (010) opens nearly all of them."
+  },
+  {
+    "id": "s20_text_reply",
+    "en": [
+      { "t": "Did you see my text?", "role": "other", "id": "q" },
+      { "t": "Reply!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "text saw?", "role": "other", "id": "q" },
+      { "t": "reply-do!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "문자 봤어?", "role": "other", "id": "q" },
+      { "t": "답장해!", "role": "verb", "id": "v" }
+    ],
+    "rom": "munja bwasseo? dapjanghae!",
+    "wordIds": ["w_munja", "w_boda", "w_dapjang"],
+    "note": "Pure M19 반말 — particles dropped, 요 gone, urgency intact. The gap deck's 읽씹 is what this sentence is fighting against."
+  },
+  {
+    "id": "s20_selfie_post",
+    "en": [
+      { "t": "I took a selfie.", "role": "verb", "id": "v1" },
+      { "t": "And", "role": "other", "id": "c" },
+      { "t": "I posted it on social media", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "selfie-[obj] took.", "role": "verb", "id": "v1" },
+      { "t": "and", "role": "other", "id": "c" },
+      { "t": "SNS-onto raised", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "셀카를 찍었어요.", "role": "verb", "id": "v1" },
+      { "t": "그리고", "role": "other", "id": "c" },
+      { "t": "에스엔에스에 올렸어요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "selkareul jjigeosseoyo. geurigo eseueneseue ollyeosseoyo",
+    "wordIds": ["w_selka", "w_jjikda", "w_eseueneseu", "w_ollida"],
+    "note": "M17's 찍다 aims at yourself, then 올리다 LIFTS the result onto the internet — Korean uploads by raising. The 인증샷 culture (gap deck) explains the why."
+  },
+  {
+    "id": "s20_if_contact",
+    "en": [
+      { "t": "If you contact me,", "role": "other", "id": "c" },
+      { "t": "we can hang out", "role": "verb", "id": "v" },
+      { "t": "together", "role": "other", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "contact-if", "role": "other", "id": "c" },
+      { "t": "together", "role": "other", "id": "w" },
+      { "t": "play-can", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "연락하면", "role": "other", "id": "c" },
+      { "t": "같이", "role": "other", "id": "w" },
+      { "t": "놀 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeollakhamyeon gachi nol su isseoyo",
+    "wordIds": ["w_yeollakhada", "w_gachi", "w_nolda"],
+    "note": "M19's 연락하다 through the hinge into M10's can-machine — 놀다 keeps its ㄹ before -(으)ㄹ 수: 놀 수. An open invitation, fully grammatical."
+  },
+  {
+    "id": "s20_forgot_password",
+    "en": [
+      { "t": "I forgot", "role": "verb", "id": "v" },
+      { "t": "the password", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "secret-number-[obj]", "role": "object", "id": "o" },
+      { "t": "forgot", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비밀번호를", "role": "object", "id": "o" },
+      { "t": "잊었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bimilbeonhoreul ijeosseoyo",
+    "wordIds": ["w_bimilbeonho", "w_ijda"],
+    "note": "M19's 비밀 + 번호 = a secret-number, promptly forgotten with M15's 잊다. Intensify honestly with 잊어버렸어요 — forgot-and-gone, like 잃어버리다."
+  },
+  {
+    "id": "s20_free_wifi",
+    "en": [
+      { "t": "Here,", "role": "subject", "id": "s" },
+      { "t": "the wi-fi", "role": "other", "id": "o" },
+      { "t": "is free", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "here", "role": "subject", "id": "s" },
+      { "t": "wi-fi-[subj]", "role": "other", "id": "o" },
+      { "t": "free-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여기", "role": "subject", "id": "s" },
+      { "t": "와이파이가", "role": "other", "id": "o" },
+      { "t": "무료예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogi waipaiga muryoyeyo",
+    "wordIds": ["w_yeogi", "w_waipai", "w_muryo"],
+    "note": "True of nearly every café in the country. Follow-up you can now build yourself: 비밀번호가 뭐예요?"
+  },
+  {
+    "id": "s20_alarm_again",
+    "en": [
+      { "t": "If I turn off the alarm,", "role": "other", "id": "c" },
+      { "t": "I sleep", "role": "verb", "id": "v" },
+      { "t": "again", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "alarm-[obj] turn-off-if", "role": "other", "id": "c" },
+      { "t": "again", "role": "other", "id": "a" },
+      { "t": "sleep", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "알람을 끄면", "role": "other", "id": "c" },
+      { "t": "다시", "role": "other", "id": "a" },
+      { "t": "자요", "role": "verb", "id": "v" }
+    ],
+    "rom": "allameul kkeumyeon dasi jayo",
+    "wordIds": ["w_allam", "w_kkeuda", "w_dasi"],
+    "note": "M13's 끄다 before -면 keeps its ㅡ (the drop only happens before 아/어). A conditional stating a law of nature."
+  },
+  {
+    "id": "s20_dont_press",
+    "en": [
+      { "t": "You must not press", "role": "verb", "id": "v" },
+      { "t": "this", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "this-thing", "role": "object", "id": "o" },
+      { "t": "press-if not-okay", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이거", "role": "object", "id": "o" },
+      { "t": "누르면 안 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "igeo nureumyeon an dwaeyo",
+    "wordIds": ["w_igeo", "w_nureuda", "w_doeda"],
+    "note": "The hinge composes: -(으)면 + M10's 안 돼요 = 'if you press it, not okay' — Korean's standard must-not. You've unlocked a whole family of warnings for free."
   }
 ]
