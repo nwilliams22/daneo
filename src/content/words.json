@@ -1058,5 +1058,81 @@
 
   { "id": "w_keopeul", "ko": "커플", "rom": "keopeul", "en": "couple", "pos": "noun", "moduleId": "m19", "notes": "Konglish — and a lifestyle: 커플티 (matching shirts), 커플룩, couple rings. Korean coupledom is proudly uniformed." },
 
-  { "id": "w_sollo", "ko": "솔로", "rom": "sollo", "en": "single (not dating)", "pos": "noun", "moduleId": "m19", "notes": "Konglish. 솔로예요 — I'm single — said with pride, resignation, or strategy depending on the party." }
+  { "id": "w_sollo", "ko": "솔로", "rom": "sollo", "en": "single (not dating)", "pos": "noun", "moduleId": "m19", "notes": "Konglish. 솔로예요 — I'm single — said with pride, resignation, or strategy depending on the party." },
+
+  { "id": "w_jeonhwa", "ko": "전화", "rom": "jeonhwa", "en": "phone / phone call", "pos": "noun", "moduleId": "m20", "notes": "M8's 전화하다 was this noun wearing 하다. 전화번호 — phone number — self-assembles two entries down." },
+
+  { "id": "w_munja", "ko": "문자", "rom": "munja", "en": "text message", "pos": "noun", "moduleId": "m20", "notes": "Literally 'characters' — a text is just letters sent. 문자 보내 / 문자했어요 both work." },
+
+  { "id": "w_inteonet", "ko": "인터넷", "rom": "inteonet", "en": "internet", "pos": "noun", "moduleId": "m20", "notes": "Konglish. Korea's is famously the world's fastest; complain accordingly." },
+
+  { "id": "w_waipai", "ko": "와이파이", "rom": "waipai", "en": "wi-fi", "pos": "noun", "moduleId": "m20", "notes": "와이파이 있어요? — free in nearly every Korean café; asking is routine, not rude." },
+
+  { "id": "w_aep", "ko": "앱", "rom": "aep", "en": "app", "pos": "noun", "moduleId": "m20", "notes": "One syllable of Konglish. Older speakers say 어플 (from 'application') — both survive." },
+
+  { "id": "w_baeteori", "ko": "배터리", "rom": "baeteori", "en": "battery", "pos": "noun", "moduleId": "m20", "notes": "배터리가 없어요 — the modern emergency. Not M3's 배, not M18's 배달's 배 — the radar logs another." },
+
+  { "id": "w_hwamyeon", "ko": "화면", "rom": "hwamyeon", "en": "screen", "pos": "noun", "moduleId": "m20", "notes": "화 (picture) + 면 (surface): picture-surface. The thing you're reading this on." },
+
+  { "id": "w_beonho", "ko": "번호", "rom": "beonho", "en": "number (assigned)", "pos": "noun", "moduleId": "m20", "notes": "M12's 번 grown up: 전화번호, 방 번호, waiting-line 번호표. Numbers that LABEL, not count." },
+
+  { "id": "w_yeongsang", "ko": "영상", "rom": "yeongsang", "en": "video (clip)", "pos": "noun", "moduleId": "m20", "notes": "영상을 봐요 — what half of all screen time is. 영화 is the theatrical big sibling." },
+
+  { "id": "w_selka", "ko": "셀카", "rom": "selka", "en": "selfie", "pos": "noun", "moduleId": "m20", "notes": "Konglish compression: SELf + CAmera → 셀카. Korea coined it before 'selfie' reached English dictionaries." },
+
+  { "id": "w_kamera", "ko": "카메라", "rom": "kamera", "en": "camera", "pos": "noun", "moduleId": "m20" },
+
+  { "id": "w_noteubuk", "ko": "노트북", "rom": "noteubuk", "en": "laptop", "pos": "noun", "moduleId": "m20", "notes": "Konglish 'notebook' — meaning the computer, always. The paper kind is M15's 공책." },
+
+  { "id": "w_dapjang", "ko": "답장", "rom": "dapjang", "en": "reply (to a message)", "pos": "noun", "moduleId": "m20", "notes": "M15's 답 (answer) + 장 (letter): an answer-letter. 답장해! — text back! The gap deck's 읽씹 is what happens instead." },
+
+  { "id": "w_tonghwa", "ko": "통화", "rom": "tonghwa", "en": "a phone call (in progress)", "pos": "noun", "moduleId": "m20", "notes": "통화 중이에요 — on the line. 영상통화 — video call — assembles from parts you now own." },
+
+  { "id": "w_yeongsangtonghwa", "ko": "영상통화", "rom": "yeongsangtonghwa", "en": "video call", "pos": "noun", "moduleId": "m20", "notes": "영상 + 통화, exactly as advertised. Grandparents' favorite feature, worldwide." },
+
+  { "id": "w_bimilbeonho", "ko": "비밀번호", "rom": "bimilbeonho", "en": "password", "pos": "noun", "moduleId": "m20", "notes": "M19's 비밀 (secret) + 번호 (number): a secret-number. The compound machine at its most literal — and the café wi-fi's second question." },
+
+  { "id": "w_mesiji", "ko": "메시지", "rom": "mesiji", "en": "message", "pos": "noun", "moduleId": "m20", "notes": "The generic term; 문자 is specifically SMS-style texts. In practice, everything is 카톡 anyway (gap deck)." },
+
+  { "id": "w_seumateupon", "ko": "스마트폰", "rom": "seumateupon", "en": "smartphone", "pos": "noun", "moduleId": "m20", "notes": "The formal word; M6's 핸드폰 remains the everyday one. Both Konglish, both everywhere." },
+
+  { "id": "w_saiteu", "ko": "사이트", "rom": "saiteu", "en": "website", "pos": "noun", "moduleId": "m20" },
+
+  { "id": "w_daetgeul", "ko": "댓글", "rom": "daetgeul", "en": "comment (online)", "pos": "noun", "moduleId": "m20", "notes": "댓 (responding) + 글 (writing). 악플 — malicious comments — is its dark twin; Korean internet culture takes both seriously." },
+
+  { "id": "w_imotikon", "ko": "이모티콘", "rom": "imotikon", "en": "emoticon / sticker", "pos": "noun", "moduleId": "m20", "notes": "In Korea this means the big character stickers — a paid economy of bears and rabbits doing feelings for you." },
+
+  { "id": "w_allam", "ko": "알람", "rom": "allam", "en": "alarm", "pos": "noun", "moduleId": "m20", "notes": "Konglish. Set five, trust none." },
+
+  { "id": "w_jindong", "ko": "진동", "rom": "jindong", "en": "vibrate mode", "pos": "noun", "moduleId": "m20", "notes": "진동으로 하세요 — put it on vibrate: the cinema's opening announcement." },
+
+  { "id": "w_sosik", "ko": "소식", "rom": "sosik", "en": "news (of someone)", "pos": "noun", "moduleId": "m20", "notes": "Not headline news — personal news: 소식 있어요? Any word from them? 소식이 없어요 is how distance is measured." },
+
+  { "id": "w_muryo", "ko": "무료", "rom": "muryo", "en": "free (no cost)", "pos": "noun", "moduleId": "m20", "notes": "무 (without) + 료 (fee/material — genuinely the same 료 as in 음료수). Fee-less. Opposite: 유료, with-fee." },
+
+  { "id": "w_yeoboseyo", "ko": "여보세요", "rom": "yeoboseyo", "en": "hello? (on the phone)", "pos": "phrase", "moduleId": "m20", "notes": "Phone-only — never in person. From 여기 보세요 (look here), worn smooth by a century of calls." },
+
+  { "id": "w_chungjeonhada", "ko": "충전하다", "rom": "chungjeonhada", "en": "to charge (a battery)", "pos": "verb", "moduleId": "m20", "notes": "Also tops up transit cards (M12's 교통카드를 충전해요) — one verb refills both phones and fares." },
+
+  { "id": "w_nureuda", "ko": "누르다", "rom": "nureuda", "en": "to press / click", "pos": "verb", "moduleId": "m20", "notes": "르-family: 눌러요. Buttons, links, elevator floors, and the 좋아요 below." },
+
+  { "id": "w_geomsaekhada", "ko": "검색하다", "rom": "geomsaekhada", "en": "to search (online)", "pos": "verb", "moduleId": "m20", "notes": "검색해 보세요 — try searching it. What 모르다 leads to now." },
+
+  { "id": "w_ollida", "ko": "올리다", "rom": "ollida", "en": "to upload / post", "pos": "verb", "moduleId": "m20", "notes": "Literally 'to raise' — you LIFT content onto the internet. 사진을 올렸어요." },
+
+  { "id": "w_jiuda", "ko": "지우다", "rom": "jiuda", "en": "to erase / delete", "pos": "verb", "moduleId": "m20", "notes": "M15's 지우개 was this verb + the tool suffix all along. Files, texts, chalkboards, regrettable posts — one verb erases all." },
+
+  { "id": "w_jeojanghada", "ko": "저장하다", "rom": "jeojanghada", "en": "to save (a file / contact)", "pos": "verb", "moduleId": "m20", "notes": "저장 = storage — the 장 of 냉장고, refrigerating your data. 번호를 저장했어요 — saved your number." },
+
+  { "id": "w_ireobeorida", "ko": "잃어버리다", "rom": "ireobeorida", "en": "to lose (an object)", "pos": "verb", "moduleId": "m20", "notes": "잃다 (lose) + M13's 버리다 (throw away) as an oops-completely auxiliary: lost-and-gone. 잊어버리다 does the same for memories — M15's 잊다, intensified." },
+
+  { "id": "w_kkeunta", "ko": "끊다", "rom": "kkeunta", "en": "to hang up / cut off", "pos": "verb", "moduleId": "m20", "notes": "전화를 끊다 — end the call (politely: after the elder hangs up first). Also quits things: 담배를 끊었어요 — M14's cigarettes, cut." },
+
+  { "id": "w_hwaginhada", "ko": "확인하다", "rom": "hwaginhada", "en": "to check / confirm", "pos": "verb", "moduleId": "m20", "notes": "문자를 확인해요 — check your texts. The verb of the modern reflex; 확인 alone stamps documents and dialog boxes." },
+
+  { "id": "w_geolda", "ko": "걸다", "rom": "geolda", "en": "to make (a call) / hang", "pos": "verb", "moduleId": "m20", "notes": "전화를 걸다 — you HANG a call, the same verb as hanging a picture. M12's 걸리다 (be caught/take time) is its passive cousin — the family reunion." },
+
+  { "id": "w_eseueneseu", "ko": "에스엔에스", "rom": "eseueneseu", "en": "social media (SNS)", "pos": "noun", "moduleId": "m20", "notes": "Korea says SNS — es-en-es — where English says social media. Konglish that recycled an acronym English itself abandoned." },
+
+  { "id": "w_joayo_like", "ko": "좋아요", "rom": "joayo", "en": "a 'like' (on social media)", "pos": "noun", "moduleId": "m20", "notes": "M1's verb form, frozen into a noun: 좋아요를 눌러 주세요 — press the like. Grammar becoming furniture; the internet does this to every language." }
 ]

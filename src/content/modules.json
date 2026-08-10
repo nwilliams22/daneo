@@ -476,5 +476,31 @@
       "s19_dont_lie", "s19_weekend_play", "s19_secret",
       "s19_matjip_really", "s19_eat_out_casual"
     ]
+  },
+  {
+    "id": "m20",
+    "title": "Phones, Internet, and Messages",
+    "order": 23,
+    "contentMd": "modules/module-20.md",
+    "wordIds": [
+      "w_jeonhwa", "w_munja", "w_inteonet", "w_waipai", "w_aep",
+      "w_baeteori", "w_hwamyeon", "w_beonho", "w_yeongsang",
+      "w_selka", "w_kamera", "w_noteubuk", "w_dapjang",
+      "w_tonghwa", "w_yeongsangtonghwa", "w_bimilbeonho",
+      "w_mesiji", "w_seumateupon", "w_saiteu", "w_daetgeul",
+      "w_imotikon", "w_allam", "w_jindong", "w_sosik", "w_muryo",
+      "w_yeoboseyo",
+      "w_chungjeonhada", "w_nureuda", "w_geomsaekhada",
+      "w_ollida", "w_jiuda", "w_jeojanghada", "w_ireobeorida",
+      "w_kkeunta", "w_hwaginhada", "w_geolda",
+      "w_eseueneseu", "w_joayo_like"
+    ],
+    "sentenceIds": [
+      "s20_hello_who", "s20_if_time", "s20_if_unknown",
+      "s20_if_rain", "s20_battery_dead", "s20_lost_phone",
+      "s20_your_number", "s20_text_reply", "s20_selfie_post",
+      "s20_if_contact", "s20_forgot_password", "s20_free_wifi",
+      "s20_alarm_again", "s20_dont_press"
+    ]
   }
 ]
