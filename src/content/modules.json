@@ -682,5 +682,29 @@
       "s27_meet_theater", "s27_nice_meet", "s27_russia_big",
       "s27_everyone_culture", "s27_professor_hanja"
     ]
+  },
+  {
+    "id": "m28",
+    "title": "In and Out, Up and Down",
+    "order": 31,
+    "contentMd": "modules/module-28.md",
+    "wordIds": [
+      "w_deureogada", "w_deureooda", "w_naoda", "w_ollagada",
+      "w_naeryeogada", "w_naeryeooda", "w_georeogada", "w_georeooda",
+      "w_danyeooda", "w_gajyeooda",
+      "w_deulda", "w_naeda", "w_gajida", "w_japda", "w_neota",
+      "w_nota", "w_palda", "w_anda_hug", "w_mutda_ask", "w_ilta",
+      "w_ttwida", "w_nalda", "w_saenggida", "w_dopda", "w_nada",
+      "w_sok", "w_mit", "w_gaunde", "w_kkeut", "w_jam", "w_nat",
+      "w_dongan", "w_songarak",
+      "w_gapjagi", "w_baro", "w_gyesok", "w_hanbeon", "w_jamkkan"
+    ],
+    "sentenceIds": [
+      "s28_sun_east", "s28_no_entry", "s28_not_spicy",
+      "s28_no_meat_formal", "s28_book_in_bag", "s28_problem_arose",
+      "s28_bring_passport", "s28_grandma_visit", "s28_sudden_rain_ran",
+      "s28_post_between", "s28_night_no_sleep", "s28_walk_here",
+      "s28_help_each", "s28_to_the_end"
+    ]
   }
 ]

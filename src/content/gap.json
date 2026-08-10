@@ -853,5 +853,32 @@
     "lit": "east-west-south-north",
     "real": "the four directions (in Korean order)",
     "note": "English says north-south-east-west; Korean says 동서남북 — east first, where the sun rises. The order is fixed like a spell: compass apps, feng-shui talk, and the idiom 동서남북을 모르다 (to not know east from west — to be utterly lost) all run east-first. M27's compass words, in their native sort order."
+  },
+  {
+    "id": "g28_jami_anwayo",
+    "cat": "structure",
+    "ko": "잠이 안 와요",
+    "rom": "jami an wayo",
+    "lit": "sleep doesn't come",
+    "real": "I can't sleep",
+    "note": "You don't fail to sleep in Korean — sleep fails to ARRIVE. Same forecast grammar as 비가 와요 (M11) and 화가 나요 (M19): inner states are weather, and you're just the reporter. Related bulletins: 생각이 안 나요 (the thought won't surface), 이해가 안 돼요 (understanding won't engage)."
+  },
+  {
+    "id": "g28_danyeogetseumnida",
+    "cat": "phrase",
+    "ko": "학교 다녀오겠습니다",
+    "rom": "hakgyo danyeogetseumnida",
+    "lit": "I shall go to school and come back",
+    "real": "bye — leaving for school!",
+    "note": "The departure formula every Korean child fires at the front door — M28's round-trip verb wearing M18's -겠- (the 잘 먹겠습니다 machinery). The promise built into the verb is the point: not just going — returning. The parental reply: 다녀와 (M19's 반말, warm edition), or 잘 다녀오세요 going up the ladder."
+  },
+  {
+    "id": "g28_nune_neoeodo",
+    "cat": "phrase",
+    "ko": "눈에 넣어도 안 아프다",
+    "rom": "nune neoeodo an apeuda",
+    "lit": "even put in the eye, it wouldn't hurt",
+    "real": "utterly precious (usually a grandchild)",
+    "note": "The maximum-affection idiom: M28's 넣다 putting a beloved somewhere famously intolerant of foreign objects (M14's 눈 + 아프다), and the eye not minding. Grandmothers deploy it about grandchildren; couples about each other in early episodes. Anatomically alarming, emotionally exact."
   }
 ]
