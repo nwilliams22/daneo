@@ -3750,5 +3750,281 @@
     "rom": "gyeoure badagi ttatteuthaeyo",
     "wordIds": ["w_gyeoul", "w_badak", "w_ttatteuthada"],
     "note": "온돌 (gap deck): Korean heating lives under the floor, so winter's warmest seat is the ground. M11's season-에 sets the scene."
+  },
+  {
+    "id": "s14_dont_worry",
+    "en": [
+      { "t": "Don't worry", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "worry-don't-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "걱정하지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geokjeonghaji maseyo",
+    "wordIds": ["w_geokjeonghada"],
+    "note": "The don't-machine: stem + -지 마세요, no sound rules, no exceptions. This is its most-said sentence in the language."
+  },
+  {
+    "id": "s14_head_throat",
+    "en": [
+      { "t": "My head", "role": "subject", "id": "s1" },
+      { "t": "hurts.", "role": "verb", "id": "v1" },
+      { "t": "My throat", "role": "subject", "id": "s2" },
+      { "t": "hurts too", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "head-[subj]", "role": "subject", "id": "s1" },
+      { "t": "hurts.", "role": "verb", "id": "v1" },
+      { "t": "throat-also", "role": "subject", "id": "s2" },
+      { "t": "hurts", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "머리가", "role": "subject", "id": "s1" },
+      { "t": "아파요.", "role": "verb", "id": "v1" },
+      { "t": "목도", "role": "subject", "id": "s2" },
+      { "t": "아파요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "meoriga apayo. mokdo apayo",
+    "wordIds": ["w_meori", "w_apeuda", "w_mok"],
+    "note": "The symptom template: [body part]가 아파요. Swap M2's 도 in when the list grows — and with 아프다 the ㅡ-drop patriarch is finally official."
+  },
+  {
+    "id": "s14_caught_cold",
+    "en": [
+      { "t": "I caught", "role": "verb", "id": "v" },
+      { "t": "a cold", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "cold-at", "role": "other", "id": "c" },
+      { "t": "got-caught", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "감기에", "role": "other", "id": "c" },
+      { "t": "걸렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gamgie geollyeosseoyo",
+    "wordIds": ["w_gamgi", "w_geollida"],
+    "note": "M12's 걸리다 with its other job: to be caught. A cold catches YOU in Korean — 감기에 걸리다, caught on the illness like a coat on a hook."
+  },
+  {
+    "id": "s14_medicine_rest",
+    "en": [
+      { "t": "After taking the medicine,", "role": "other", "id": "c" },
+      { "t": "rest well", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "medicine-[obj] eaten-after", "role": "other", "id": "c" },
+      { "t": "deeply rest-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "약을 먹은 후에", "role": "other", "id": "c" },
+      { "t": "푹 쉬세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yageul meogeun hue puk swiseyo",
+    "wordIds": ["w_yak", "w_meokda", "w_puk", "w_swida"],
+    "note": "Korean EATS medicine — 약을 먹다, no swallowing verb needed. M13's -(으)ㄴ 후에 sequences the doctor's orders; 푹 makes the rest thorough."
+  },
+  {
+    "id": "s14_brush_teeth",
+    "en": [
+      { "t": "Before sleeping,", "role": "other", "id": "c" },
+      { "t": "brush", "role": "verb", "id": "v" },
+      { "t": "your teeth", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "sleeping-before", "role": "other", "id": "c" },
+      { "t": "tooth-[obj]", "role": "object", "id": "o" },
+      { "t": "brush-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "자기 전에", "role": "other", "id": "c" },
+      { "t": "이를", "role": "object", "id": "o" },
+      { "t": "닦으세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jagi jeone ireul dakkeuseyo",
+    "wordIds": ["w_jada", "w_i_tooth", "w_dakda"],
+    "note": "M13's -기 전에 carrying M8's tooth-이 and 닦다 — same blocks, never the same sentence. The 이 syllable's fourth job stays employed."
+  },
+  {
+    "id": "s14_fever_hospital",
+    "en": [
+      { "t": "I have a fever, so", "role": "other", "id": "c" },
+      { "t": "I'm going", "role": "verb", "id": "v" },
+      { "t": "to the hospital", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "fever-[subj] exists-because", "role": "other", "id": "c" },
+      { "t": "hospital-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "열이 있어서", "role": "other", "id": "c" },
+      { "t": "병원에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeori isseoseo byeongwone gayo",
+    "wordIds": ["w_yeol_fever", "w_itda", "w_byeongwon", "w_gada"],
+    "note": "A fever 'exists' — the 있다-factory does diagnostics. And 병원 finally decomposes: 병 (illness) + 원 (house), the illness-house."
+  },
+  {
+    "id": "s14_no_smoking",
+    "en": [
+      { "t": "In the hospital,", "role": "place", "id": "p" },
+      { "t": "don't smoke", "role": "verb", "id": "v" },
+      { "t": "cigarettes", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "hospital-at", "role": "place", "id": "p" },
+      { "t": "cigarette-[obj]", "role": "object", "id": "o" },
+      { "t": "smoke-don't-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "병원에서", "role": "place", "id": "p" },
+      { "t": "담배를", "role": "object", "id": "o" },
+      { "t": "피우지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "byeongwoneseo dambaereul piuji maseyo",
+    "wordIds": ["w_byeongwon", "w_dambae", "w_piuda"],
+    "note": "-지 마세요 on a full sentence frame — place, object, prohibition. Read it off every wall in Korea as 금연."
+  },
+  {
+    "id": "s14_lie_down",
+    "en": [
+      { "t": "Lie down", "role": "verb", "id": "v" },
+      { "t": "here", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "here-at", "role": "place", "id": "p" },
+      { "t": "lie-down-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여기에", "role": "place", "id": "p" },
+      { "t": "누우세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogie nuuseyo",
+    "wordIds": ["w_yeogi", "w_nupda"],
+    "note": "The examination-table sentence. ㅂ-irregular 눕다 goes 누우- before -(으)세요 — the 더워요 rule, now taking requests."
+  },
+  {
+    "id": "s14_dont_late",
+    "en": [
+      { "t": "Today,", "role": "other", "id": "t" },
+      { "t": "don't be late", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "today-[as for]", "role": "other", "id": "t" },
+      { "t": "be-late-don't-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "늦지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneureun neutji maseyo",
+    "wordIds": ["w_oneul", "w_neutda"],
+    "note": "-지 마세요 attaches to adjectives too — M8's 늦다 takes the prohibition. M8's contrast-은 hints today matters more than usual."
+  },
+  {
+    "id": "s14_stress_energy",
+    "en": [
+      { "t": "I've been getting stress, so", "role": "other", "id": "c" },
+      { "t": "I have no", "role": "verb", "id": "v" },
+      { "t": "energy", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "stress-[obj] received-because", "role": "other", "id": "c" },
+      { "t": "energy-[subj]", "role": "subject", "id": "s" },
+      { "t": "not-exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "스트레스를 받아서", "role": "other", "id": "c" },
+      { "t": "힘이", "role": "subject", "id": "s" },
+      { "t": "없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seuteureseureul badaseo himi eopseoyo",
+    "wordIds": ["w_seuteureseu", "w_batda", "w_him", "w_eopda"],
+    "note": "Stress is 'received' in Korean — M9's 받다 promoted to psychology — and energy 'doesn't exist.' Two structural gaps in one diagnosis."
+  },
+  {
+    "id": "s14_get_well",
+    "en": [
+      { "t": "Get better", "role": "verb", "id": "v" },
+      { "t": "soon", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "quickly", "role": "other", "id": "a" },
+      { "t": "recover-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "빨리", "role": "other", "id": "a" },
+      { "t": "나으세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ppalli naeuseyo",
+    "wordIds": ["w_ppalli", "w_natda_recover"],
+    "note": "THE get-well-soon. 낫다 opens Korean's rarest irregular family: the ㅅ vanishes before vowels — 나으세요, 나아요. M12's 빨리 sets the tempo."
+  },
+  {
+    "id": "s14_water_after",
+    "en": [
+      { "t": "After exercising,", "role": "other", "id": "c" },
+      { "t": "I drink", "role": "verb", "id": "v" },
+      { "t": "water", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "exercised-after", "role": "other", "id": "c" },
+      { "t": "water-[obj]", "role": "object", "id": "o" },
+      { "t": "drink", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "운동한 후에", "role": "other", "id": "c" },
+      { "t": "물을", "role": "object", "id": "o" },
+      { "t": "마셔요", "role": "verb", "id": "v" }
+    ],
+    "rom": "undonghan hue mureul masyeoyo",
+    "wordIds": ["w_undonghada", "w_mul", "w_masida"],
+    "note": "M13's -(으)ㄴ 후에 on a 하다-verb: 운동하다 → 운동한. Module 1's very first noun, still hydrating."
+  },
+  {
+    "id": "s14_eyes_sleep",
+    "en": [
+      { "t": "My eyes", "role": "subject", "id": "s" },
+      { "t": "hurt.", "role": "verb", "id": "v1" },
+      { "t": "So", "role": "other", "id": "c" },
+      { "t": "I'll sleep early", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "eye-[subj]", "role": "subject", "id": "s" },
+      { "t": "hurts.", "role": "verb", "id": "v1" },
+      { "t": "so", "role": "other", "id": "c" },
+      { "t": "early sleep-will", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "눈이", "role": "subject", "id": "s" },
+      { "t": "아파요.", "role": "verb", "id": "v1" },
+      { "t": "그래서", "role": "other", "id": "c" },
+      { "t": "일찍 잘 거예요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "nuni apayo. geuraeseo iljjik jal geoyeyo",
+    "wordIds": ["w_nun_eye", "w_apeuda", "w_geuraeseo", "w_iljjik", "w_jada"],
+    "note": "눈이 아파요 — the eye, not the snow; the homograph earns its keep. M7's 그래서 chains into M8's future, and 자다 contracts: 잘 거예요."
+  },
+  {
+    "id": "s14_body_bad",
+    "en": [
+      { "t": "I'm", "role": "subject", "id": "s" },
+      { "t": "not feeling well", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "body-[subj]", "role": "subject", "id": "s" },
+      { "t": "not good", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "몸이", "role": "subject", "id": "s" },
+      { "t": "안 좋아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "momi an joayo",
+    "wordIds": ["w_mom", "w_jota"],
+    "note": "Korean reports illness through the body: 'my body isn't good.' No 'I feel' verb required — M3's 안 does the softening."
   }
 ]

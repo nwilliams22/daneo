@@ -325,5 +325,30 @@
       "s13_trash_out", "s13_station_five", "s13_small_clean",
       "s13_noisy_window", "s13_warm_floor"
     ]
+  },
+  {
+    "id": "m14",
+    "title": "Body and Health",
+    "order": 17,
+    "contentMd": "modules/module-14.md",
+    "wordIds": [
+      "w_mom", "w_nun_eye", "w_ko", "w_ip", "w_gwi",
+      "w_mok", "w_eokkae", "w_pal", "w_dari", "w_bal",
+      "w_mureup", "w_heori", "w_pi", "w_kopi", "w_nunmul",
+      "w_gamgi", "w_yeol_fever", "w_gichim", "w_byeong_ill",
+      "w_geongang", "w_seuteureseu", "w_maseukeu", "w_jusa",
+      "w_ganhosa", "w_dambae",
+      "w_apeuda", "w_natda_recover", "w_dachida", "w_nupda", "w_seoda",
+      "w_piuda", "w_geokjeonghada", "w_geonganghada", "w_jukda",
+      "w_mongmareuda",
+      "w_him", "w_puk", "w_ajik"
+    ],
+    "sentenceIds": [
+      "s14_dont_worry", "s14_head_throat", "s14_caught_cold",
+      "s14_medicine_rest", "s14_brush_teeth", "s14_fever_hospital",
+      "s14_no_smoking", "s14_lie_down", "s14_dont_late",
+      "s14_stress_energy", "s14_get_well", "s14_water_after",
+      "s14_eyes_sleep", "s14_body_bad"
+    ]
   }
 ]
