@@ -8067,5 +8067,266 @@
     "rom": "hanguk saenghwari eottaeyo?",
     "wordIds": ["w_hanguk", "w_saenghwal", "w_eotteota"],
     "note": "The question every 외국인 fields weekly, built from 생활 — life as lived — and M24's 어때요. The expected answer opens with 아 and ends with 재미있어요."
+  },
+  {
+    "id": "s30_age_thirty",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am thirty years old", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s" },
+      { "t": "thirty years-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "서른 살이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun seoreun sarieyo",
+    "wordIds": ["w_jeo", "w_seoreun", "w_c_sal"],
+    "note": "M5's age counter meets the new native tens — your thirties are pronounced in the old numbers. K-dramas treat 서른 as a plot point; the grammar treats it like any other 살."
+  },
+  {
+    "id": "s30_first_daughter",
+    "en": [
+      { "t": "The firstborn", "role": "subject", "id": "s" },
+      { "t": "is a daughter", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "first-[topic]", "role": "subject", "id": "s" },
+      { "t": "daughter-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "첫째는", "role": "subject", "id": "s" },
+      { "t": "딸이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheotjjaeneun ttarieyo",
+    "wordIds": ["w_cheotjjae", "w_ttal"],
+    "note": "Ordinals double as birth order — 첫째 is a job title for life in Korean families. M4's 딸, finally ranked."
+  },
+  {
+    "id": "s30_just_one",
+    "en": [
+      { "t": "Just one,", "role": "object", "id": "o" },
+      { "t": "please", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "one-only", "role": "object", "id": "o" },
+      { "t": "give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "하나만", "role": "object", "id": "o" },
+      { "t": "주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hanaman juseyo",
+    "wordIds": ["w_hana", "w_juda"],
+    "note": "만 replaces the object particle and narrows the world to one: M9's 주세요 machine, with a limiter installed. 조금만요! — just a little! — runs the same circuit."
+  },
+  {
+    "id": "s30_strawberry_grapes",
+    "en": [
+      { "t": "I bought", "role": "verb", "id": "v" },
+      { "t": "strawberries and grapes", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "strawberry-and grape-[obj]", "role": "object", "id": "o" },
+      { "t": "bought", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "딸기랑 포도를", "role": "object", "id": "o" },
+      { "t": "샀어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ttalgirang podoreul sasseoyo",
+    "wordIds": ["w_ttalgi", "w_podo", "w_sada"],
+    "note": "랑 — the casual and — debuts at the fruit stand. M2's 하고 would be neutral, 와 would be formal; the shopping bag doesn't care, but the register ladder does."
+  },
+  {
+    "id": "s30_watermelon_best",
+    "en": [
+      { "t": "In summer,", "role": "other", "id": "t" },
+      { "t": "watermelon", "role": "subject", "id": "s" },
+      { "t": "is the tastiest", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "summer-in-[topic]", "role": "other", "id": "t" },
+      { "t": "watermelon-[subj]", "role": "subject", "id": "s" },
+      { "t": "most is-delicious", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여름에는", "role": "other", "id": "t" },
+      { "t": "수박이", "role": "subject", "id": "s" },
+      { "t": "가장 맛있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeoreumeneun subagi gajang masisseoyo",
+    "wordIds": ["w_yeoreum", "w_subak", "w_gajang", "w_masitda"],
+    "note": "M29's formal superlative crowns the water-gourd. Stacked particles 에+는 (M8's contrast-는 on a time) — old machinery, summer fuel."
+  },
+  {
+    "id": "s30_two_photos",
+    "en": [
+      { "t": "Please take", "role": "verb", "id": "v" },
+      { "t": "two photos", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "photo two flat-things", "role": "object", "id": "o" },
+      { "t": "take-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사진 두 장", "role": "object", "id": "o" },
+      { "t": "찍어 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sajin du jang jjigeo juseyo",
+    "wordIds": ["w_sajin", "w_dul", "w_c_jang", "w_jjikda", "w_juda"],
+    "note": "장 — the flat-things counter — with M5's contracted 두 and M17's photo verb through the do-for-me machine. The tourist sentence that earns a stranger's best effort, twice."
+  },
+  {
+    "id": "s30_three_months",
+    "en": [
+      { "t": "I studied", "role": "verb", "id": "v" },
+      { "t": "Korean", "role": "object", "id": "o" },
+      { "t": "for three months", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "three month-units during", "role": "other", "id": "t" },
+      { "t": "Korean-[obj]", "role": "object", "id": "o" },
+      { "t": "learned", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "삼 개월 동안", "role": "other", "id": "t" },
+      { "t": "한국어를", "role": "object", "id": "o" },
+      { "t": "배웠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sam gaewol dongan hangugeoreul baewosseoyo",
+    "wordIds": ["w_n_sam", "w_gaewol", "w_dongan", "w_hangugeo", "w_baeuda"],
+    "note": "Sino + 개월 (= native 세 달 — the hybrid rule holds), held open by M28's 동안. A true sentence for many learners; adjust the number to yours."
+  },
+  {
+    "id": "s30_twenty_percent",
+    "en": [
+      { "t": "Today", "role": "other", "id": "t" },
+      { "t": "it's twenty percent cheaper", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "today-[topic]", "role": "other", "id": "t" },
+      { "t": "twenty percent is-cheap", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "이십 퍼센트 싸요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneureun isip peosenteu ssayo",
+    "wordIds": ["w_oneul", "w_n_i", "w_n_sip", "w_peosenteu", "w_ssada"],
+    "note": "퍼센트 rides the Sino rails like every unit — 이십, assembled from M2's parts. The sign that reroutes shopping trips nationwide."
+  },
+  {
+    "id": "s30_rooster",
+    "en": [
+      { "t": "The rooster", "role": "subject", "id": "s" },
+      { "t": "crows", "role": "verb", "id": "v" },
+      { "t": "in the morning", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "chicken-[subj]", "role": "subject", "id": "s" },
+      { "t": "morning-in", "role": "other", "id": "t" },
+      { "t": "cries", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "닭이", "role": "subject", "id": "s" },
+      { "t": "아침에", "role": "other", "id": "t" },
+      { "t": "울어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dalgi achime ureoyo",
+    "wordIds": ["w_dak", "w_achim", "w_ulda"],
+    "note": "M7's 울다 covers crying AND crowing — animals 울어요 whatever sound they make. 닭이 says 달기: the ㄺ batchim releasing both letters before a vowel, the liaison's last exhibit."
+  },
+  {
+    "id": "s30_naengmyeon_hot",
+    "en": [
+      { "t": "When it's hot,", "role": "other", "id": "c" },
+      { "t": "naengmyeon is the best", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "hot-when-[topic]", "role": "other", "id": "c" },
+      { "t": "cold-noodles-[subj] the-best-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "더울 때는", "role": "other", "id": "c" },
+      { "t": "냉면이 최고예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "deoul ttaeneun naengmyeoni choegoyeyo",
+    "wordIds": ["w_deopda", "w_ttae", "w_naengmyeon", "w_choego"],
+    "note": "M25's when-machine on M11's ㅂ-irregular (더울 — the 워 flip in badge position), crowning the cold-noodle with M19's 최고. Scissors will be offered; accept."
+  },
+  {
+    "id": "s30_toothbrush_paste",
+    "en": [
+      { "t": "I absolutely must buy", "role": "verb", "id": "v" },
+      { "t": "a toothbrush and toothpaste", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "toothbrush-and toothpaste-[obj]", "role": "object", "id": "o" },
+      { "t": "surely buy-must", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "칫솔하고 치약을", "role": "object", "id": "o" },
+      { "t": "꼭 사야 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chissolhago chiyageul kkok saya dwaeyo",
+    "wordIds": ["w_chissol", "w_chiyak", "w_kkok", "w_sada"],
+    "note": "M29's 꼭 hardening M10's obligation — the packing-list sentence. 칫솔/치약: the 치-family (Sino tooth) covering what M8's 이 brushes."
+  },
+  {
+    "id": "s30_pizza_big",
+    "en": [
+      { "t": "That pizza", "role": "subject", "id": "s" },
+      { "t": "is very big", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that pizza-[topic]", "role": "subject", "id": "s" },
+      { "t": "very is-big", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 피자는", "role": "subject", "id": "s" },
+      { "t": "매우 커요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu pijaneun maeu keoyo",
+    "wordIds": ["w_geu_det", "w_pija", "w_maeu", "w_keuda"],
+    "note": "M29's bare 그 and formal 매우, pointed at dinner — the pizza we both mean, described in its Sunday best. Korean pizza believes in corn; brace yourself."
+  },
+  {
+    "id": "s30_burger_cola",
+    "en": [
+      { "t": "A hamburger and a cola,", "role": "object", "id": "o" },
+      { "t": "please", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "hamburger-and cola", "role": "object", "id": "o" },
+      { "t": "give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "햄버거랑 콜라", "role": "object", "id": "o" },
+      { "t": "주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haembeogeorang kolla juseyo",
+    "wordIds": ["w_haembeogeo", "w_kolla", "w_juda"],
+    "note": "The counter script: 랑 linking the order, 주세요 closing it, object particle casually dropped — fast food at full speed. The gap deck explains why you shouldn't order 사이다 expecting cider."
+  },
+  {
+    "id": "s30_thousand_words",
+    "en": [
+      { "t": "I know", "role": "verb", "id": "v" },
+      { "t": "a thousand words!", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "word-[obj] thousand units", "role": "object", "id": "o" },
+      { "t": "know!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "단어를 천 개", "role": "object", "id": "o" },
+      { "t": "알아요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "daneoreul cheon gae arayo!",
+    "wordIds": ["w_daneo", "w_cheon", "w_c_gae", "w_alda"],
+    "note": "M10's 단어 — this app's name — counted by M9's 천 and M5's 개: Band 3's closing claim, and as of this module, an understatement. 시작이 반이다 was right."
   }
 ]

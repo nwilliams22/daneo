@@ -1830,5 +1830,91 @@
 
   { "id": "w_geunal", "ko": "그날", "rom": "geunal", "en": "that day", "pos": "noun", "moduleId": "m29", "notes": "그 + M11's 날, fused solid: the day we both mean. 그날 밤 — that night — is how every Korean story turns its most important corner." },
 
-  { "id": "w_geudongan", "ko": "그동안", "rom": "geudongan", "en": "meanwhile / all this time", "pos": "noun", "moduleId": "m29", "notes": "그 + M28's 동안: the span since we last met. 그동안 잘 지냈어요? — the catch-up greeting M1's 잘 지냈어요 grows into once there's a gap worth naming." }
+  { "id": "w_geudongan", "ko": "그동안", "rom": "geudongan", "en": "meanwhile / all this time", "pos": "noun", "moduleId": "m29", "notes": "그 + M28's 동안: the span since we last met. 그동안 잘 지냈어요? — the catch-up greeting M1's 잘 지냈어요 grows into once there's a gap worth naming." },
+
+  { "id": "w_seoreun", "ko": "서른", "rom": "seoreun", "en": "thirty (native)", "pos": "noun", "moduleId": "m30", "notes": "The tens continue past M5's 스물: 서른 살 — thirty years old, the age every K-drama treats as a deadline. Ages native, money Sino — the split holds." },
+
+  { "id": "w_maheun", "ko": "마흔", "rom": "maheun", "en": "forty (native)", "pos": "noun", "moduleId": "m30", "notes": "마흔 살. Confucius called forty 불혹 — the age of no doubts; Korean forty-somethings quote it wryly while doubting plenty." },
+
+  { "id": "w_swin", "ko": "쉰", "rom": "swin", "en": "fifty (native)", "pos": "noun", "moduleId": "m30", "notes": "쉰 살 — and the aigo-when-sitting age (M29's gap deck). One syllable; the ages get shorter as they get bigger." },
+
+  { "id": "w_yesun", "ko": "예순", "rom": "yesun", "en": "sixty (native)", "pos": "noun", "moduleId": "m30", "notes": "예순 살 — the year before 환갑, the sixty-first-birthday feast that once earned its own 잔치 (M25). Modern medicine demoted the party; the word survives." },
+
+  { "id": "w_ilheun", "ko": "일흔", "rom": "ilheun", "en": "seventy (native)", "pos": "noun", "moduleId": "m30", "notes": "일흔 살. Not M2's Sino 일 — native through and through; the radar stays sharp to the end." },
+
+  { "id": "w_yeodeun", "ko": "여든", "rom": "yeodeun", "en": "eighty (native)", "pos": "noun", "moduleId": "m30", "notes": "여든 살 — grandmother territory, where 아이고 예뻐라 (M29) gets said about YOU for visiting." },
+
+  { "id": "w_aheun", "ko": "아흔", "rom": "aheun", "en": "ninety (native)", "pos": "noun", "moduleId": "m30", "notes": "아흔 살. Beyond it, 백 살 borrows M9's Sino hundred — the native system retires at ninety-nine, like most of its speakers don't." },
+
+  { "id": "w_cheotjjae", "ko": "첫째", "rom": "cheotjjae", "en": "first / the firstborn", "pos": "noun", "moduleId": "m30", "notes": "M26's 첫 (first-) + -째: first-in-order — and the firstborn child: 첫째는 딸이에요. Birth order is a lifelong job title in Korean families." },
+
+  { "id": "w_duljjae", "ko": "둘째", "rom": "duljjae", "en": "second / second child", "pos": "noun", "moduleId": "m30", "notes": "M5's 둘 + -째. 둘째 딸, 둘째 문제 — second in any lineup. The pattern continues: 넷째, 다섯째, as far as families and lists go." },
+
+  { "id": "w_setjjae", "ko": "셋째", "rom": "setjjae", "en": "third / third child", "pos": "noun", "moduleId": "m30", "notes": "M5's 셋 + -째. 첫째, 둘째, 셋째 — how Korean numbers its arguments, its children, and its New Year resolutions." },
+
+  { "id": "w_miteo", "ko": "미터", "rom": "miteo", "en": "meter (unit)", "pos": "noun", "moduleId": "m30", "notes": "Rides like a counter, Sino numbers in front: 백 미터 — 100m. 센티미터 for the small stuff — 키 (M27) gets measured in it: 백칠십 센티미터." },
+
+  { "id": "w_peosenteu", "ko": "퍼센트", "rom": "peosenteu", "en": "percent", "pos": "noun", "moduleId": "m30", "notes": "Sino numbers in front: 이십 퍼센트 — 20%, the discount that starts wallets. Native alternative: 프로 (from Dutch 'procent') — older shopkeepers say 이십 프로." },
+
+  { "id": "w_dalleo", "ko": "달러", "rom": "dalleo", "en": "dollar", "pos": "noun", "moduleId": "m30", "notes": "What M23's 환전하다 converts 원 into. 십 달러 — ten dollars, Sino like all money. Not M16's 달 (month-moon) — the radar files the near-miss." },
+
+  { "id": "w_gaewol", "ko": "개월", "rom": "gaewol", "en": "months (duration, Sino)", "pos": "noun", "moduleId": "m30", "notes": "M5's 개 + M25's 월: month-units. Sino + 개월 = native + 달: 삼 개월 = 세 달, both three months. The hybrid-clock rule (M5), running one more system." },
+
+  { "id": "w_c_jang", "ko": "장", "rom": "jang", "en": "counter — flat things", "pos": "noun", "moduleId": "m30", "notes": "Paper, photos, tickets, blankets: 종이 한 장, 사진 두 장, 표 세 장. NOT the place-장 of 주차장 or the paste-장 of 된장 — the radar's busiest syllable gains a fourth job." },
+
+  { "id": "w_kal", "ko": "칼", "rom": "kal", "en": "knife", "pos": "noun", "moduleId": "m30", "notes": "The kitchen's missing tool — 칼국수 is knife-noodles (hand-cut). 부부 싸움은 칼로 물 베기 (M25's proverb) finally shows its blade. 칼퇴 — knife-sharp on-time leaving — is office slang worth knowing." },
+
+  { "id": "w_siktak", "ko": "식탁", "rom": "siktak", "en": "dining table", "pos": "noun", "moduleId": "m30", "notes": "식 (eat — 식당/식사's 식) + 탁 (table): the eating-table, where M18's 그릇 stays put and homework happens anyway. 책상 studies, 식탁 feeds." },
+
+  { "id": "w_sugeon", "ko": "수건", "rom": "sugeon", "en": "towel", "pos": "noun", "moduleId": "m30", "notes": "The bathroom shelf begins. Korean gyms and 찜질방 fold them into 양머리 — sheep-head hats — a national craft skill acquired in childhood." },
+
+  { "id": "w_binu", "ko": "비누", "rom": "binu", "en": "soap", "pos": "noun", "moduleId": "m30", "notes": "Native word, no decode needed — a rarity by Module 30. 비누로 손을 씻으세요 — wash with soap; M13's 씻다 gets its tool." },
+
+  { "id": "w_chiyak", "ko": "치약", "rom": "chiyak", "en": "toothpaste", "pos": "noun", "moduleId": "m30", "notes": "치 (tooth — the Sino twin of M8's 이) + M10's 약 (medicine): tooth-medicine. The compound machine does dental care." },
+
+  { "id": "w_chissol", "ko": "칫솔", "rom": "chissol", "en": "toothbrush", "pos": "noun", "moduleId": "m30", "notes": "치 + 솔 (brush), with the ㅅ glue the spacing interlude flagged (바닷가's trick). 칫솔이랑 치약 — the travel kit, in this module's own particle." },
+
+  { "id": "w_hyuji", "ko": "휴지", "rom": "hyuji", "en": "tissue / toilet paper", "pos": "noun", "moduleId": "m30", "notes": "휴 (discard) + 지 (paper). Housewarming gift #1 in Korea (M13's 집들이): may your troubles unroll as easily. 휴지통 — the wastebasket it ends up in." },
+
+  { "id": "w_subak", "ko": "수박", "rom": "subak", "en": "watermelon", "pos": "noun", "moduleId": "m30", "notes": "수 (water) + 박 (gourd): the water-gourd, summer's fruit-king — sold whole, halved at home, eaten by the family around one 식탁. 수박 화채 is the punch-bowl upgrade." },
+
+  { "id": "w_ttalgi", "ko": "딸기", "rom": "ttalgi", "en": "strawberry", "pos": "noun", "moduleId": "m30", "notes": "Winter fruit in Korea — greenhouse season peaks in January, and 딸기 뷔페 (strawberry buffets) sell out hotels. Not related to 딸 (daughter, M4); the radar checks anyway." },
+
+  { "id": "w_podo", "ko": "포도", "rom": "podo", "en": "grapes", "pos": "noun", "moduleId": "m30", "notes": "포도 한 송이 — one bunch. 청포도 the green kind, 포도주 the drink it becomes (주 = alcohol, 소주's 주 — the compound machine pours)." },
+
+  { "id": "w_orenji", "ko": "오렌지", "rom": "orenji", "en": "orange", "pos": "noun", "moduleId": "m30", "notes": "Konglish; the native citrus is 귤 — Jeju's tiny mandarin, winter's national snack. 오렌지주스 — the breakfast loanword double-header." },
+
+  { "id": "w_dak", "ko": "닭", "rom": "dak", "en": "chicken (the bird)", "pos": "noun", "moduleId": "m30", "notes": "Said 닥 — the ㄺ batchim keeping only ㄱ (sound interlude, final exhibit). The animal behind M3's 치킨: 닭고기 is the meat, 닭갈비 the dish, 닭살 the goosebumps (gap deck)." },
+
+  { "id": "w_dwaeji", "ko": "돼지", "rom": "dwaeji", "en": "pig", "pos": "noun", "moduleId": "m30", "notes": "The animal inside M18's 돼지고기, finally on the hoof. Dreaming of one (돼지꿈) means money's coming — buy a lottery ticket, tradition insists." },
+
+  { "id": "w_galbi", "ko": "갈비", "rom": "galbi", "en": "galbi (ribs)", "pos": "noun", "moduleId": "m30", "notes": "Ribs, grilled tableside: 소갈비, 돼지갈비, 닭갈비 — this module's animals, deliciously sorted. 갈비찜 for holidays (M25's 명절 tables groan under it)." },
+
+  { "id": "w_naengmyeon", "ko": "냉면", "rom": "naengmyeon", "en": "naengmyeon (cold noodles)", "pos": "noun", "moduleId": "m30", "notes": "냉 (cold — 냉장고's 냉, M13) + 면 (noodles — 라면's 면): cold-noodles, summer's answer. 물냉면 swims, 비빔냉면 gets M18's 비비다 treatment. Scissors arrive; say yes." },
+
+  { "id": "w_satang", "ko": "사탕", "rom": "satang", "en": "candy", "pos": "noun", "moduleId": "m30", "notes": "What 어린이날 (M25) distributes and dentists forgive. 사탕발림 — candy-coating — is flattery; Korean noticed the connection early." },
+
+  { "id": "w_chokollit", "ko": "초콜릿", "rom": "chokollit", "en": "chocolate", "pos": "noun", "moduleId": "m30", "notes": "Konglish. Valentine's in Korea runs backwards: women give 초콜릿 on Feb 14; men answer with candy on White Day, March 14. 솔로 (M19) observe Black Day in April, eating 자장면." },
+
+  { "id": "w_saendeuwichi", "ko": "샌드위치", "rom": "saendeuwichi", "en": "sandwich", "pos": "noun", "moduleId": "m30", "notes": "Konglish, five syllables. Also a scheduling word: a 샌드위치 데이 is the workday squeezed between two holidays — the 연휴 (M25) everyone petitions to bridge." },
+
+  { "id": "w_haembeogeo", "ko": "햄버거", "rom": "haembeogeo", "en": "hamburger", "pos": "noun", "moduleId": "m30", "notes": "Konglish. 햄버거랑 콜라 주세요 — the counter script, in this module's own particle. Korean chains stack 불고기 patties; the machine adapts everything." },
+
+  { "id": "w_pija", "ko": "피자", "rom": "pija", "en": "pizza", "pos": "noun", "moduleId": "m30", "notes": "Konglish — the ㅍ handles the p-f border zone as usual. Korean pizza believes in corn, sweet potato, and 불고기; Italy has filed complaints." },
+
+  { "id": "w_kolla", "ko": "콜라", "rom": "kolla", "en": "cola", "pos": "noun", "moduleId": "m30", "notes": "Konglish. Its partner 사이다 is NOT cider — see the gap deck for the false friend and the slang it spawned. 치킨엔 콜라, the pairing law says." },
+
+  { "id": "w_huinsaek", "ko": "흰색", "rom": "huinsaek", "en": "white", "pos": "noun", "moduleId": "m30", "notes": "M7's color set had a hole — the most Korean color of all: the 한복 of old was undyed 흰색, earning Koreans the name 백의민족, the white-clad people. 하얀색 is its softer twin." },
+
+  { "id": "w_gaseum", "ko": "가슴", "rom": "gaseum", "en": "chest / heart (seat of feeling)", "pos": "noun", "moduleId": "m30", "notes": "The physical chest — and where feelings physically land: 가슴이 아파요 hurts sadder than M14's 아프다 usually does. M19's 마음 is the mind-heart; 가슴 is where it beats." },
+
+  { "id": "w_p_man", "ko": "만", "rom": "man", "en": "particle — only / just", "pos": "particle", "moduleId": "m30", "notes": "하나만 — just one; 너만 — only you. REPLACES 을/를 and 이/가 like M2's 도: 커피만 마셔요. Not M9's 만 (10,000) — the radar's final homograph filing." },
+
+  { "id": "w_p_rang", "ko": "랑", "rom": "rang", "en": "particle — and / with (casual, after vowel)", "pos": "particle", "moduleId": "m30", "notes": "딸기랑 포도 — strawberries and grapes, casually. M2's 하고's friendly twin; M19's register rules apply to particles too." },
+
+  { "id": "w_p_irang", "ko": "이랑", "rom": "irang", "en": "particle — and / with (casual, after consonant)", "pos": "particle", "moduleId": "m30", "notes": "빵이랑 우유 — batchim words take 이랑, the 은/는 convention one more time. Friends and texts live here; formal writing switches suits." },
+
+  { "id": "w_p_wa", "ko": "와", "rom": "wa", "en": "particle — and / with (formal, after vowel)", "pos": "particle", "moduleId": "m30", "notes": "딸기와 포도 — the written and. Books, news, invitations; 함께 (M29) is its favorite companion: 가족과 함께." },
+
+  { "id": "w_p_gwa", "ko": "과", "rom": "gwa", "en": "particle — and / with (formal, after consonant)", "pos": "particle", "moduleId": "m30", "notes": "빵과 우유 — batchim takes 과, vowel takes 와 (backwards from your instinct; everyone's, at first). The and-with trio is complete: 하고 neutral, (이)랑 casual, 와/과 formal." }
 ]

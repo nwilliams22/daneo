@@ -907,5 +907,32 @@
     "lit": "indeed it is so",
     "real": "I know, right?",
     "note": "The 그렇다 machine's agreement setting: warm, low-effort, endlessly repeatable. 날씨가 덥네요 — 그러게요. Someone states the obvious; you co-sign it; society functions. Casual form 그러게, often doubled (그러게 말이야 — you're TELLING me)."
+  },
+  {
+    "id": "g30_saida",
+    "cat": "concept",
+    "ko": "사이다",
+    "rom": "saida",
+    "lit": "cider",
+    "real": "clear lemon-lime soda — and a satisfying moment",
+    "note": "The false friend of the beverage aisle: 사이다 is Sprite-style soda, no apples involved. Its slang career is better: a 사이다 moment is one that fizzes away frustration — the sharp comeback, the villain's comeuppance. The opposite is 고구마 (sweet potato): dense, dry, stuck in your throat. Korean reviews grade dramas in soda and root vegetables."
+  },
+  {
+    "id": "g30_daksal",
+    "cat": "phrase",
+    "ko": "닭살",
+    "rom": "daksal",
+    "lit": "chicken flesh",
+    "real": "goosebumps — especially at couples' PDA",
+    "note": "M30's 닭 + 살 (flesh): goosebumps, from cold, from horror — and, most productively, from public displays of affection. A 닭살 커플 (M19's 커플) is one whose sweetness raises bumps on bystanders. 닭살 돋아! — I've got goosebumps! — is the standard heckle, deployed with love."
+  },
+  {
+    "id": "g30_geurimui_tteok",
+    "cat": "phrase",
+    "ko": "그림의 떡",
+    "rom": "geurimui tteok",
+    "lit": "rice cake in a picture",
+    "real": "something you can see but never have",
+    "note": "M15's 그림 + M18's 떡: the painted rice cake feeds nobody. Deployed at real-estate listings, sports cars, and 딸기 뷔페 reservations that sold out. English pies live in the sky; Korean rice cakes hang in frames — both stay uneaten."
   }
 ]
