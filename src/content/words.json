@@ -1134,5 +1134,81 @@
 
   { "id": "w_eseueneseu", "ko": "에스엔에스", "rom": "eseueneseu", "en": "social media (SNS)", "pos": "noun", "moduleId": "m20", "notes": "Korea says SNS — es-en-es — where English says social media. Konglish that recycled an acronym English itself abandoned." },
 
-  { "id": "w_joayo_like", "ko": "좋아요", "rom": "joayo", "en": "a 'like' (on social media)", "pos": "noun", "moduleId": "m20", "notes": "M1's verb form, frozen into a noun: 좋아요를 눌러 주세요 — press the like. Grammar becoming furniture; the internet does this to every language." }
+  { "id": "w_joayo_like", "ko": "좋아요", "rom": "joayo", "en": "a 'like' (on social media)", "pos": "noun", "moduleId": "m20", "notes": "M1's verb form, frozen into a noun: 좋아요를 눌러 주세요 — press the like. Grammar becoming furniture; the internet does this to every language." },
+
+  { "id": "w_baji", "ko": "바지", "rom": "baji", "en": "pants", "pos": "noun", "moduleId": "m21" },
+
+  { "id": "w_cheongbaji", "ko": "청바지", "rom": "cheongbaji", "en": "jeans", "pos": "noun", "moduleId": "m21", "notes": "청 (blue) + 바지: blue-pants. The 청 is the deep blue of 청바지 and celadon pottery both." },
+
+  { "id": "w_chima", "ko": "치마", "rom": "chima", "en": "skirt", "pos": "noun", "moduleId": "m21", "notes": "Also the bottom half of a 한복 — the word predates the miniskirt by centuries." },
+
+  { "id": "w_tisyeocheu", "ko": "티셔츠", "rom": "tisyeocheu", "en": "t-shirt", "pos": "noun", "moduleId": "m21", "notes": "Konglish, casually just 티 — as in M16's 커플티." },
+
+  { "id": "w_syeocheu", "ko": "셔츠", "rom": "syeocheu", "en": "shirt", "pos": "noun", "moduleId": "m21" },
+
+  { "id": "w_koteu", "ko": "코트", "rom": "koteu", "en": "coat", "pos": "noun", "moduleId": "m21", "notes": "Konglish. What M11's 겨울 demands and every drama's autumn scene is styled around." },
+
+  { "id": "w_seuweteo", "ko": "스웨터", "rom": "seuweteo", "en": "sweater", "pos": "noun", "moduleId": "m21" },
+
+  { "id": "w_wonpiseu", "ko": "원피스", "rom": "wonpiseu", "en": "dress", "pos": "noun", "moduleId": "m21", "notes": "Konglish 'one-piece' — a dress is one piece of clothing. Logic English forgot to apply." },
+
+  { "id": "w_jamot", "ko": "잠옷", "rom": "jamot", "en": "pajamas", "pos": "noun", "moduleId": "m21", "notes": "잠 (sleep — 자다's noun) + 옷: sleep-clothes. The outfit 집에 오면 갈아입어요." },
+
+  { "id": "w_gyobok", "ko": "교복", "rom": "gyobok", "en": "school uniform", "pos": "noun", "moduleId": "m21", "notes": "교 (school) + 복 (clothing): the -복 suffix dresses whole categories. Korean middle and high schoolers wear one; the drama industry never recovered." },
+
+  { "id": "w_suyeongbok", "ko": "수영복", "rom": "suyeongbok", "en": "swimsuit", "pos": "noun", "moduleId": "m21", "notes": "M17's 수영 + 복: swim-clothes. The -복 family assembles itself." },
+
+  { "id": "w_hanbok", "ko": "한복", "rom": "hanbok", "en": "hanbok (traditional dress)", "pos": "noun", "moduleId": "m21", "notes": "한 (Korea — 한식's 한) + 복: Korea-clothes. Worn now for holidays, weddings, and palace photo days — rent one near 경복궁 and admission is free." },
+
+  { "id": "w_undonghwa", "ko": "운동화", "rom": "undonghwa", "en": "sneakers", "pos": "noun", "moduleId": "m21", "notes": "M8's 운동 + 화 (shoe): exercise-shoes. The -화 suffix walks: 운동화, 등산화 (hiking boots — M17's 등산)." },
+
+  { "id": "w_gudu", "ko": "구두", "rom": "gudu", "en": "dress shoes", "pos": "noun", "moduleId": "m21", "notes": "The office-and-occasions shoes; 운동화's formal rival. The 출근 uniform, ankle-down." },
+
+  { "id": "w_yangmal", "ko": "양말", "rom": "yangmal", "en": "socks", "pos": "noun", "moduleId": "m21", "notes": "Mandatory visibility: shoes come off at every 현관 (M13), so Korean sock game is played in public." },
+
+  { "id": "w_angyeong", "ko": "안경", "rom": "angyeong", "en": "glasses", "pos": "noun", "moduleId": "m21", "notes": "안경을 쓰다 OR 끼다 — head-things and fitted things share custody. The wear-verb table in Part 3 sorts it out." },
+
+  { "id": "w_mokgeori", "ko": "목걸이", "rom": "mokgeori", "en": "necklace", "pos": "noun", "moduleId": "m21", "notes": "M14's 목 (neck) + M20's 걸다 (hang) + 이: a neck-hanger. Two modules old and one module new, snapped together." },
+
+  { "id": "w_gwigeori", "ko": "귀걸이", "rom": "gwigeori", "en": "earrings", "pos": "noun", "moduleId": "m21", "notes": "귀 + 걸다 + 이: ear-hangers. Same machine as 목걸이 — once you see the pattern, jewelry names itself." },
+
+  { "id": "w_banji", "ko": "반지", "rom": "banji", "en": "ring", "pos": "noun", "moduleId": "m21", "notes": "커플 반지 — matching rings at 100 days — is standard relationship infrastructure (M19's 커플 culture, jewelry division)." },
+
+  { "id": "w_jigap", "ko": "지갑", "rom": "jigap", "en": "wallet", "pos": "noun", "moduleId": "m21", "notes": "지갑을 잃어버렸어요 — the classic emergency, M20's verb ready to report it." },
+
+  { "id": "w_janggap", "ko": "장갑", "rom": "janggap", "en": "gloves", "pos": "noun", "moduleId": "m21", "notes": "장갑을 끼다 — gloves are fitted things, so they take 끼다. The taxonomy holds." },
+
+  { "id": "w_mokdori", "ko": "목도리", "rom": "mokdori", "en": "scarf", "pos": "noun", "moduleId": "m21", "notes": "M14's 목 again — the neck stays busy: 목걸이 hangs on it, 목도리 wraps it, 목소리 comes out of it." },
+
+  { "id": "w_jumeoni", "ko": "주머니", "rom": "jumeoni", "en": "pocket", "pos": "noun", "moduleId": "m21", "notes": "Where the 지갑 lives. 주머니가 가벼워요 — a light pocket — is a poetic way to be broke." },
+
+  { "id": "w_saekkkal", "ko": "색깔", "rom": "saekkkal", "en": "color", "pos": "noun", "moduleId": "m21", "notes": "M7 taught the colors as [hue]+색; 색깔 is the word for color itself. 무슨 색깔이에요? — what color?" },
+
+  { "id": "w_yuhaeng", "ko": "유행", "rom": "yuhaeng", "en": "trend / fashion", "pos": "noun", "moduleId": "m21", "notes": "유행이에요 — it's in style. Korean trends move at 빨리빨리 speed; last season is archaeology." },
+
+  { "id": "w_seutail", "ko": "스타일", "rom": "seutail", "en": "style", "pos": "noun", "moduleId": "m21", "notes": "Konglish. 제 스타일이에요 — it's my style — works for clothes, food, and, notably, people." },
+
+  { "id": "w_gagyeok", "ko": "가격", "rom": "gagyeok", "en": "price", "pos": "noun", "moduleId": "m21", "notes": "The formal twin of M9's 값-flavored asking. 가격이 어때요? — how's the price?" },
+
+  { "id": "w_nektai", "ko": "넥타이", "rom": "nektai", "en": "necktie", "pos": "noun", "moduleId": "m21", "notes": "Konglish. An accessory, so it takes 하다 — 넥타이를 해요 — and quietly rules M16's 출근 dress code." },
+
+  { "id": "w_sinda", "ko": "신다", "rom": "sinda", "en": "to wear (on the feet)", "pos": "verb", "moduleId": "m21", "notes": "Shoes and socks only — 신발을 신다, its own noun built in. Korean assigns wear-verbs by body zone; the table in this module's Part 3 is the map." },
+
+  { "id": "w_kkida", "ko": "끼다", "rom": "kkida", "en": "to wear (fitted things)", "pos": "verb", "moduleId": "m21", "notes": "Rings, gloves, glasses — anything that grips: 반지를 끼다, 장갑을 끼다. The snug-fit verb." },
+
+  { "id": "w_beotda", "ko": "벗다", "rom": "beotda", "en": "to take off (clothing)", "pos": "verb", "moduleId": "m21", "notes": "One removal verb undoes all the wearing verbs — democratic. 신발을 벗으세요: the 현관's standing order." },
+
+  { "id": "w_garaipda", "ko": "갈아입다", "rom": "garaipda", "en": "to change (clothes)", "pos": "verb", "moduleId": "m21", "notes": "갈아 (switch) + 입다 — the same 갈아 as M12's 갈아타다, transferring between outfits instead of trains." },
+
+  { "id": "w_eoullida", "ko": "어울리다", "rom": "eoullida", "en": "to suit / look good on", "pos": "verb", "moduleId": "m21", "notes": "잘 어울려요! — it suits you! Also for couples and food pairings: things that harmonize 어울리다." },
+
+  { "id": "w_kkakda", "ko": "깎다", "rom": "kkakda", "en": "to cut (a price) / peel", "pos": "verb", "moduleId": "m21", "notes": "Peels apples, trims hair, and — at markets — cuts prices: 좀 깎아 주세요. Works at 시장 stalls; department stores will only smile." },
+
+  { "id": "w_meositda", "ko": "멋있다", "rom": "meositda", "en": "to be cool / stylish", "pos": "adj", "moduleId": "m21", "notes": "멋 (style/flair) + 있다: style-exists — the 있다-factory's fashion branch. 멋있어요! works on outfits, people, and buildings." },
+
+  { "id": "w_eorida", "ko": "어리다", "rom": "eorida", "en": "to be young", "pos": "adj", "moduleId": "m21", "notes": "어려 보여요 — you look young — lands as a top-tier compliment in age-aware Korea (M19's gap deck explains the stakes)." },
+
+  { "id": "w_gabyeopda", "ko": "가볍다", "rom": "gabyeopda", "en": "to be light (weight)", "pos": "adj", "moduleId": "m21", "notes": "ㅂ-irregular: 가벼워요. Jackets, bags, footsteps, and — per M19 — thin-eared people who believe everything." },
+
+  { "id": "w_mugeopda", "ko": "무겁다", "rom": "mugeopda", "en": "to be heavy", "pos": "adj", "moduleId": "m21", "notes": "ㅂ-irregular: 무거워요. 가볍다's counterweight — and M19's heavy mouth (입이 무겁다) keeps secrets with it." }
 ]

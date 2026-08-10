@@ -5634,5 +5634,260 @@
     "rom": "igeo nureumyeon an dwaeyo",
     "wordIds": ["w_igeo", "w_nureuda", "w_doeda"],
     "note": "The hinge composes: -(으)면 + M10's 안 돼요 = 'if you press it, not okay' — Korean's standard must-not. You've unlocked a whole family of warnings for free."
+  },
+  {
+    "id": "s21_look_cool",
+    "en": [
+      { "t": "Today", "role": "other", "id": "t" },
+      { "t": "you look great!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "stylish-appear!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘", "role": "other", "id": "t" },
+      { "t": "멋있어 보여요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneul meosisseo boyeoyo!",
+    "wordIds": ["w_oneul", "w_meositda"],
+    "note": "The looks-machine: -아/어 + 보이다 — it APPEARS stylish. 보다's fourth career (see, watch-exams, try, and now seem). Deploy generously; it costs nothing."
+  },
+  {
+    "id": "s21_look_tired",
+    "en": [
+      { "t": "You look tired.", "role": "verb", "id": "v1" },
+      { "t": "Are you okay?", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "tired-appear.", "role": "verb", "id": "v1" },
+      { "t": "okay?", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "피곤해 보여요.", "role": "verb", "id": "v1" },
+      { "t": "괜찮아요?", "role": "verb", "id": "v2" }
+    ],
+    "rom": "pigonhae boyeoyo. gwaenchanayo?",
+    "wordIds": ["w_pigonhada", "w_gwaenchanta"],
+    "note": "The looks-machine as care: noticing counts as kindness in Korean, and this pair is how it's said. M16's 야근 usually explains the answer."
+  },
+  {
+    "id": "s21_look_young",
+    "en": [
+      { "t": "You look young!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "young-appear!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어려 보여요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoryeo boyeoyo!",
+    "wordIds": ["w_eorida"],
+    "note": "In age-calibrated Korea (M19's gap deck), looking younger than your years is elite news — this might be the country's most reliable compliment. Accept with 아니에요 and visible delight."
+  },
+  {
+    "id": "s21_try_on",
+    "en": [
+      { "t": "Try it on", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "wear-try-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "입어 보세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ibeo boseyo",
+    "wordIds": ["w_ipda"],
+    "note": "M16's try-machine in the fitting room — wear-and-see. The shopkeeper's invitation; the 탈의실 (changing room) is where it leads."
+  },
+  {
+    "id": "s21_winter_coat",
+    "en": [
+      { "t": "In winter,", "role": "other", "id": "t" },
+      { "t": "I wear", "role": "verb", "id": "v" },
+      { "t": "a coat", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "winter-in-[as for]", "role": "other", "id": "t" },
+      { "t": "coat-[obj]", "role": "object", "id": "o" },
+      { "t": "wear", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울에는", "role": "other", "id": "t" },
+      { "t": "코트를", "role": "object", "id": "o" },
+      { "t": "입어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeoureneun koteureul ibeoyo",
+    "wordIds": ["w_gyeoul", "w_koteu", "w_ipda"],
+    "note": "에 + 는 stack — in-winter, as-for: particles compound like Lego. M8's 입다 covers the torso; the wear-verb table covers the rest of you."
+  },
+  {
+    "id": "s21_jeans_comfy",
+    "en": [
+      { "t": "Jeans", "role": "subject", "id": "s" },
+      { "t": "are comfortable", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "jeans-[subj]", "role": "subject", "id": "s" },
+      { "t": "are-comfortable", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "청바지가", "role": "subject", "id": "s" },
+      { "t": "편해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheongbajiga pyeonhaeyo",
+    "wordIds": ["w_cheongbaji", "w_pyeonhada"],
+    "note": "M12's 편하다 — comfortable — migrating from subway seats to denim. Blue-pants: the compound tells you the color."
+  },
+  {
+    "id": "s21_change_home",
+    "en": [
+      { "t": "When I get home,", "role": "other", "id": "c" },
+      { "t": "I change", "role": "verb", "id": "v" },
+      { "t": "into pajamas", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "home-to come-when", "role": "other", "id": "c" },
+      { "t": "pajamas-into", "role": "other", "id": "m" },
+      { "t": "change-clothes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "집에 오면", "role": "other", "id": "c" },
+      { "t": "잠옷으로", "role": "other", "id": "m" },
+      { "t": "갈아입어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jibe omyeon jamoseuro garaibeoyo",
+    "wordIds": ["w_jip", "w_oda", "w_jamot", "w_garaipda"],
+    "note": "M20's hinge on its 'when' setting, M6's (으)로 marking the destination outfit, and 갈아입다 — M12's 갈아타다 transferring between clothes instead of trains."
+  },
+  {
+    "id": "s21_suits_you",
+    "en": [
+      { "t": "It really suits you!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "well suits!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "잘 어울려요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "jal eoullyeoyo!",
+    "wordIds": ["w_jal", "w_eoullida"],
+    "note": "The shop's second-favorite sentence, and — unlike some of its favorites — often true. Also said of couples and food pairings: harmony is harmony."
+  },
+  {
+    "id": "s21_discount",
+    "en": [
+      { "t": "Please cut the price", "role": "verb", "id": "v" },
+      { "t": "a little", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "a-little", "role": "other", "id": "a" },
+      { "t": "cut-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "좀", "role": "other", "id": "a" },
+      { "t": "깎아 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jom kkakka juseyo",
+    "wordIds": ["w_jogeum", "w_kkakda"],
+    "note": "M9's softener 좀 + the price-cutting verb through the do-for-me machine. Live ammunition at 시장 stalls; a warm smile at department stores. Know your venue."
+  },
+  {
+    "id": "s21_if_expensive",
+    "en": [
+      { "t": "If it's expensive,", "role": "other", "id": "c" },
+      { "t": "I won't buy it", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "is-expensive-if", "role": "other", "id": "c" },
+      { "t": "not buy-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비싸면", "role": "other", "id": "c" },
+      { "t": "안 살 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bissamyeon an sal geoyeyo",
+    "wordIds": ["w_bissada", "w_sada"],
+    "note": "M20's hinge + M3's 안 + M8's future: a budget, fully grammaticalized. 사다 keeps its ㄹ-future shape: 살 거예요."
+  },
+  {
+    "id": "s21_hanbok_pretty",
+    "en": [
+      { "t": "Hanbok", "role": "subject", "id": "s" },
+      { "t": "is really", "role": "other", "id": "a" },
+      { "t": "beautiful", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "hanbok-[subj]", "role": "subject", "id": "s" },
+      { "t": "really", "role": "other", "id": "a" },
+      { "t": "is-pretty", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한복이", "role": "subject", "id": "s" },
+      { "t": "진짜", "role": "other", "id": "a" },
+      { "t": "예뻐요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hanbogi jinjja yeppeoyo",
+    "wordIds": ["w_hanbok", "w_jinjja", "w_yeppeuda"],
+    "note": "Korea-clothes, per the compound. M1's ㅡ-drop 예쁘다 doing what it was born for. Rent one near a palace and admission is free — the deal of the tourism century."
+  },
+  {
+    "id": "s21_wrong_size",
+    "en": [
+      { "t": "The size", "role": "subject", "id": "s" },
+      { "t": "doesn't fit", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "size-[subj]", "role": "subject", "id": "s" },
+      { "t": "not fits", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사이즈가", "role": "subject", "id": "s" },
+      { "t": "안 맞아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "saijeuga an majayo",
+    "wordIds": ["w_saijeu", "w_matda"],
+    "note": "M15's 맞다 — right answers then, right fit now: correctness and fitting share a verb in Korean. The fitting room's most common verdict."
+  },
+  {
+    "id": "s21_uniform",
+    "en": [
+      { "t": "Students", "role": "subject", "id": "s" },
+      { "t": "wear", "role": "verb", "id": "v" },
+      { "t": "school uniforms", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "student-[as for]", "role": "subject", "id": "s" },
+      { "t": "uniform-[obj]", "role": "object", "id": "o" },
+      { "t": "wear", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "학생은", "role": "subject", "id": "s" },
+      { "t": "교복을", "role": "object", "id": "o" },
+      { "t": "입어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haksaengeun gyobogeul ibeoyo",
+    "wordIds": ["w_haksaeng", "w_gyobok", "w_ipda"],
+    "note": "The -복 suffix at work: 교복, 수영복, 한복 — one syllable clothes entire contexts. M15's school system, now in uniform."
+  },
+  {
+    "id": "s21_online_cheap",
+    "en": [
+      { "t": "If you buy clothes online,", "role": "other", "id": "c" },
+      { "t": "it's cheap", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "internet-at clothes-[obj] buy-if", "role": "other", "id": "c" },
+      { "t": "is-cheap", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "인터넷에서 옷을 사면", "role": "other", "id": "c" },
+      { "t": "싸요", "role": "verb", "id": "v" }
+    ],
+    "rom": "inteoneseseo oseul samyeon ssayo",
+    "wordIds": ["w_inteonet", "w_ot", "w_sada", "w_ssada"],
+    "note": "M20's internet meets M20's hinge meets M7's 싸다 — the sentence behind Korea's overflowing delivery lobbies. 사면/싸요: one tense vowel apart; the confusables drill trained you for this."
   }
 ]

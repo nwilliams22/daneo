@@ -664,5 +664,32 @@
     "lit": "certification shot",
     "real": "the proof photo",
     "note": "인증 (verification) + 샷 (shot): the photo that PROVES it — you ran, you voted, you found the 맛집, you actually met. Korean internet culture treats experiences as claims requiring evidence; the 인증샷 is the receipt. It's why the 셀카 arm extends before the food gets touched."
+  },
+  {
+    "id": "g21_otnalgae",
+    "cat": "phrase",
+    "ko": "옷이 날개다",
+    "rom": "osi nalgaeda",
+    "lit": "clothes are wings",
+    "real": "clothes make the person",
+    "note": "The proverb behind every makeover scene: dress someone well and they fly. Where English clothes 'make the man,' Korean gives them wings — same wisdom, better aerodynamics. Quoted whenever someone shows up unexpectedly well-dressed."
+  },
+  {
+    "id": "g21_myeongpum",
+    "cat": "concept",
+    "ko": "명품",
+    "rom": "myeongpum",
+    "lit": "name-goods",
+    "real": "luxury brands (and the culture around them)",
+    "note": "명 (name — 별명's 명) + 품 (goods): goods with a NAME. Korea is a per-capita luxury heavyweight — department-store lines before opening, first-job bag rituals. The word carries the whole phenomenon: aspiration, gifting etiquette, and the gravitational pull of a logo."
+  },
+  {
+    "id": "g21_keopeullook",
+    "cat": "concept",
+    "ko": "커플룩",
+    "rom": "keopeulluk",
+    "lit": "couple look",
+    "real": "deliberately matching couple outfits",
+    "note": "M19's 커플 + look: dressing identically ON PURPOSE — matching tees, jackets, down to 커플 신발. Peak commitment display at theme parks and Jeju. Western couples match by accident and apologize; Korean couples match by appointment and photograph it (인증샷, naturally)."
   }
 ]
