@@ -979,5 +979,23 @@
     "lit": "party A and party B",
     "real": "the strong and the weak (in any relationship)",
     "note": "Contract language escaped the contract: 갑 is the stronger party, 을 the weaker — landlord/tenant, brand/franchisee, boss/intern. 갑질 is 갑 abusing the slope; 을의 눈물 (the eul's tears) headlines labor news. Two legal placeholders that became a national vocabulary of power — and yes, that's M30's formal 과 holding them together."
+  },
+  {
+    "id": "g_s2_misio",
+    "cat": "concept",
+    "ko": "미시오 / 당기시오",
+    "rom": "misio / danggisio",
+    "lit": "push / pull (in a dead politeness level)",
+    "real": "every door in Korea, speaking a ghost register",
+    "note": "하오체 — the semi-formal register of period dramas — died out of speech a century ago but was never fired from signage: 미시오, 당기시오, -지 마시오, 멈추시오. Korea's doors address you like a Joseon official addressing a peer. Answer them in the same register and you've walked into a costume drama; just read, push, and pull."
+  },
+  {
+    "id": "g_s2_jung_system",
+    "cat": "structure",
+    "ko": "영업 중",
+    "rom": "yeongeop jung",
+    "lit": "business — middle",
+    "real": "open / currently in operation",
+    "note": "The ○○ 중 machine: hang 중 (middle, 中) after any noun and it means in-the-middle-of-it — 영업 중 (open), 공사 중 (under construction), 통화 중 (on a call), 회의 중 (in a meeting), 사용 중 (occupied), 다이어트 중 (don't offer cake). One borrowed syllable runs every busy-sign, door hanger, and status message in the country."
   }
 ]

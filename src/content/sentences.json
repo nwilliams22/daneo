@@ -8475,5 +8475,113 @@
     "rom": "olhaeneun gatsaengeul sal geoya!",
     "wordIds": ["w_olhae", "w_s1_gatsaeng", "w_salda"],
     "note": "M25's 올해 + M8's future in its 반말 suit (-ㄹ 거야) + the adapted-and-welded 갓생: the resolution sentence of the 2020s. Its gentle opposite — 소확행 — forgives you in March."
+  },
+  {
+    "id": "s_s2_pull_door",
+    "en": [
+      { "t": "Pull", "role": "verb", "id": "v" },
+      { "t": "the door", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "door-[obj]", "role": "object", "id": "o" },
+      { "t": "pull-[sign register]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "문을", "role": "object", "id": "o" },
+      { "t": "당기시오", "role": "verb", "id": "v" }
+    ],
+    "rom": "muneul danggisio",
+    "wordIds": ["w_mun", "w_s2_danggida"],
+    "note": "하오체 — the ghost register that survives only on doors and buttons. Real doors usually skip the 문을 and just say 당기시오 (or 미시오 — push). Read it; never say it."
+  },
+  {
+    "id": "s_s2_no_swimming",
+    "en": [
+      { "t": "No swimming", "role": "verb", "id": "v" },
+      { "t": "here", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "this-place-at", "role": "place", "id": "p" },
+      { "t": "swim-don't-[sign register]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이곳에서", "role": "place", "id": "p" },
+      { "t": "수영하지 마시오", "role": "verb", "id": "v" }
+    ],
+    "rom": "igoseseo suyeonghaji masio",
+    "wordIds": ["w_igot", "w_suyeonghada"],
+    "note": "M14's -지 마세요 in its sign costume (-지 마시오), standing at M29's formal 이곳. The pool sign 이곳's own note promised — delivered, register and all."
+  },
+  {
+    "id": "s_s2_construction",
+    "en": [
+      { "t": "Under construction.", "role": "other", "id": "a" },
+      { "t": "We apologize.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "construction middle-is", "role": "other", "id": "a" },
+      { "t": "apologize", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "공사 중입니다.", "role": "other", "id": "a" },
+      { "t": "죄송합니다.", "role": "verb", "id": "v" }
+    ],
+    "rom": "gongsa jungimnida. joesonghamnida",
+    "wordIds": ["w_s2_gongsa", "w_s2_jung", "w_joesong"],
+    "note": "The ○○ 중 machine in the wild, dressed in M4's 합니다체 — signs apologize formally. The same pair guards elevators (점검 중) and kitchens (준비 중) nationwide."
+  },
+  {
+    "id": "s_s2_closed_sunday",
+    "en": [
+      { "t": "On Sundays", "role": "other", "id": "t" },
+      { "t": "we are closed", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Sunday-on-[topic]", "role": "other", "id": "t" },
+      { "t": "operate-not-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "일요일에는", "role": "other", "id": "t" },
+      { "t": "영업하지 않습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "iryoireneun yeongeophaji anseumnida",
+    "wordIds": ["w_iryoil", "w_s2_yeongeop"],
+    "note": "M28's long negation in M4's 합니다체 — exactly the register -지 않다 was built for. The shutter sentence of every Sunday disappointment; M5's day-words, still working."
+  },
+  {
+    "id": "s_s2_entrance_south",
+    "en": [
+      { "t": "The entrance", "role": "subject", "id": "s" },
+      { "t": "is on the south side", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "entrance-[topic]", "role": "subject", "id": "s" },
+      { "t": "south-side-at exists-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "입구는", "role": "subject", "id": "s" },
+      { "t": "남쪽에 있습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "ipguneun namjjoge itseumnida",
+    "wordIds": ["w_ipgu", "w_namjjok", "w_itda"],
+    "note": "The museum-placard sentence: M12's 입구, M27's compass, M6's location frame — in the 합니다체 all public signage prefers. You've read this sentence at every 궁 you visited."
+  },
+  {
+    "id": "s_s2_headline",
+    "en": [
+      { "t": "Kimchi", "role": "subject", "id": "s" },
+      { "t": "goes global", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "kimchi", "role": "subject", "id": "s" },
+      { "t": "world-toward go-[headline]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "김치,", "role": "subject", "id": "s" },
+      { "t": "세계로 가다", "role": "verb", "id": "v" }
+    ],
+    "rom": "gimchi, segyero gada",
+    "wordIds": ["w_gimchi", "w_segye", "w_gada"],
+    "note": "Headline grammar: particles overboard, verb in bare dictionary form — the newspaper's own 반말. M3's kimchi, M23's world, M6's (으)로, and a register you can now read over anyone's shoulder."
   }
 ]
