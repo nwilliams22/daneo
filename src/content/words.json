@@ -1438,5 +1438,81 @@
 
   { "id": "w_seoro", "ko": "서로", "rom": "seoro", "en": "each other", "pos": "noun", "moduleId": "m24", "notes": "서로 달라요 — different from each other; 서로 도와요 — help each other. The mutuality word: what M4's 우리 does internally." },
 
-  { "id": "w_geulsseyo", "ko": "글쎄요", "rom": "geulsseyo", "en": "well… / hmm", "pos": "phrase", "moduleId": "m24", "notes": "The opinion airbag — deployed between question and answer to soften whatever's coming. 글쎄요… commits you to nothing. Drop the 요 among friends; M19 rules apply." }
+  { "id": "w_geulsseyo", "ko": "글쎄요", "rom": "geulsseyo", "en": "well… / hmm", "pos": "phrase", "moduleId": "m24", "notes": "The opinion airbag — deployed between question and answer to soften whatever's coming. 글쎄요… commits you to nothing. Drop the 요 among friends; M19 rules apply." },
+
+  { "id": "w_nyeon", "ko": "년", "rom": "nyeon", "en": "year (in dates)", "pos": "noun", "moduleId": "m25", "notes": "Sino numbers in front: 이천이십육 년. M11's native 해 does the poetry (새해); 년 does the paperwork." },
+
+  { "id": "w_wol", "ko": "월", "rom": "wol", "en": "month (in dates)", "pos": "noun", "moduleId": "m25", "notes": "The months are just Sino numbers + 월: 일월, 이월… 십이월 — nothing to memorize. Two got sanded smooth: June is 유월 (not 육월), October is 시월 (not 십월)." },
+
+  { "id": "w_il_day", "ko": "일", "rom": "il", "en": "day (in dates)", "pos": "noun", "moduleId": "m25", "notes": "The third 일 on your radar: one (M2), work (일하다), and now DAY — 구 일, the 9th. M2's 내일 was 'the coming day' all along; a number in front means a date." },
+
+  { "id": "w_naljja", "ko": "날짜", "rom": "naljja", "en": "date (on the calendar)", "pos": "noun", "moduleId": "m25", "notes": "M11's native 날, grown official. 날짜가 어떻게 돼요? — what's the date? — is what you ask before booking 기차표." },
+
+  { "id": "w_dallyeok", "ko": "달력", "rom": "dallyeok", "en": "calendar", "pos": "noun", "moduleId": "m25", "notes": "달 (M16's month-moon) + 력 (record): the month-book on the wall. Korean ones print 설날 and 추석 in red — the days everything closes." },
+
+  { "id": "w_myeochil", "ko": "며칠", "rom": "myeochil", "en": "what day (of the month)", "pos": "noun", "moduleId": "m25", "notes": "M5's 몇 + 일, fused and softened: 오늘 며칠이에요? — what's the date today? Spelled 며칠, never 몇일 — a spelling rule even natives wobble on." },
+
+  { "id": "w_jangnyeon", "ko": "작년", "rom": "jangnyeon", "en": "last year", "pos": "noun", "moduleId": "m25", "notes": "The year that just left, said 장년 — the nasal slide again. 작년 겨울 — last winter." },
+
+  { "id": "w_olhae", "ko": "올해", "rom": "olhae", "en": "this year", "pos": "noun", "moduleId": "m25", "notes": "올 + M11's 해 — the year we're standing in; no Sino version needed. 올해도… — 'this year too…' — the opening sigh of every resolution." },
+
+  { "id": "w_naenyeon", "ko": "내년", "rom": "naenyeon", "en": "next year", "pos": "noun", "moduleId": "m25", "notes": "내 (coming — 내일's 내!) + 년: the coming year. Tomorrow and next year share a prefix; Korean optimism is decodable." },
+
+  { "id": "w_ttae", "ko": "때", "rom": "ttae", "en": "time / when", "pos": "noun", "moduleId": "m25", "notes": "The when-noun. Bare after events: 추석 때, 시험 때. With the third badge for verbs: 어릴 때 — when I was little. (M1's 시간 is duration; 때 is the moment.)" },
+
+  { "id": "w_geuttae", "ko": "그때", "rom": "geuttae", "en": "then / that time", "pos": "noun", "moduleId": "m25", "notes": "그 + 때. 그때 봐요! — see you then! Also the storyteller's pivot: 그때… — and THAT's when everything changed." },
+
+  { "id": "w_jinanju", "ko": "지난주", "rom": "jinanju", "en": "last week", "pos": "noun", "moduleId": "m25", "notes": "M12's 지나다 wearing M24's past badge + M8's 주: the passed-week. 지난달, 지난번 — the prefix works the whole calendar. The badge builds words now, not just phrases." },
+
+  { "id": "w_myeongjeol", "ko": "명절", "rom": "myeongjeol", "en": "traditional holiday", "pos": "noun", "moduleId": "m25", "notes": "The umbrella over 설날 and 추석 — the days half the country drives to visit the other half. 명절 연휴 is when the whole nation shares the same road at the same time." },
+
+  { "id": "w_seollal", "ko": "설날", "rom": "seollal", "en": "Lunar New Year", "pos": "noun", "moduleId": "m25", "notes": "Korea's biggest 명절, said 설랄: new clothes, deep bows to elders (세배 — rewarded in cash, 세뱃돈), and 떡국 for breakfast. Buses book out a month ahead." },
+
+  { "id": "w_tteokguk", "ko": "떡국", "rom": "tteokguk", "en": "rice-cake soup", "pos": "noun", "moduleId": "m25", "notes": "M18's 떡 + M18's 국, self-assembled. Eaten on 설날 morning; finishing a bowl officially makes you one year older. Some children request seconds." },
+
+  { "id": "w_chuseok", "ko": "추석", "rom": "chuseok", "en": "Chuseok (harvest festival)", "pos": "noun", "moduleId": "m25", "notes": "The autumn 명절 — thanks for the harvest, food for the ancestors, 송편 for everyone. Fifteenth day of the eighth lunar month, so the 달 is always full." },
+
+  { "id": "w_songpyeon", "ko": "송편", "rom": "songpyeon", "en": "half-moon rice cake", "pos": "noun", "moduleId": "m25", "notes": "The 추석 떡: pine-steamed, sesame- or honey-filled, folded into a half-moon. Family legend says shape a pretty 송편, get a pretty child. Grandmothers judge." },
+
+  { "id": "w_yeonhyu", "ko": "연휴", "rom": "yeonhyu", "en": "long holiday weekend", "pos": "noun", "moduleId": "m25", "notes": "연 (linked) + 휴 (rest — 휴가's 휴, M11): rest-days holding hands. 삼일 연휴 — a three-day weekend — is what the whole country scans the 달력 for." },
+
+  { "id": "w_keuriseumaseu", "ko": "크리스마스", "rom": "keuriseumaseu", "en": "Christmas", "pos": "noun", "moduleId": "m25", "notes": "Konglish, five syllables of it. In Korea it's a COUPLE holiday — closer to Valentine's than to family dinner; M19's 솔로 famously suffer." },
+
+  { "id": "w_ginyeomil", "ko": "기념일", "rom": "ginyeomil", "en": "anniversary", "pos": "noun", "moduleId": "m25", "notes": "기념 (commemoration — M23's 기념품's first half) + 일 (this module's day): a marked day. Young couples run monthly ones — the 백일-counting culture of the gap deck." },
+
+  { "id": "w_gyeolhonsik", "ko": "결혼식", "rom": "gyeolhonsik", "en": "wedding ceremony", "pos": "noun", "moduleId": "m25", "notes": "결혼 + 식 (ceremony — the suffix behind 졸업식 graduations and 입학식 school entrances). Korean wedding-hall ceremonies run famously efficient; the buffet is where the reunion happens." },
+
+  { "id": "w_janchi", "ko": "잔치", "rom": "janchi", "en": "feast / traditional party", "pos": "noun", "moduleId": "m25", "notes": "The native party. 돌잔치 — M22's 돌 note pays off: the first-birthday feast. 잔치국수 — feast noodles — because long noodles mean long life." },
+
+  { "id": "w_saehae", "ko": "새해", "rom": "saehae", "en": "the new year", "pos": "noun", "moduleId": "m25", "notes": "M13's 새 + M11's 해, exactly as 해's note promised. 새해 복 많이 받으세요 — the formula the whole country exchanges at midnight." },
+
+  { "id": "w_chukje", "ko": "축제", "rom": "chukje", "en": "festival", "pos": "noun", "moduleId": "m25", "notes": "축 (celebrate — 축하하다's 축, M19) + 제: universities throw them in May, regions all year — mud, cherry blossoms, fireworks. The 불꽃축제 fills M22's 한강 every autumn." },
+
+  { "id": "w_agi", "ko": "아기", "rom": "agi", "en": "baby", "pos": "noun", "moduleId": "m25", "notes": "Smaller than M4's 아이. Star of the 백일 and 돌잔치 in the gap deck — Korean babies headline two parties before they can walk." },
+
+  { "id": "w_bubu", "ko": "부부", "rom": "bubu", "en": "married couple", "pos": "noun", "moduleId": "m25", "notes": "M19's 커플, upgraded by paperwork. 부부 싸움 — a married quarrel — has its own proverb: 칼로 물 베기, 'cutting water with a knife.' No lasting damage." },
+
+  { "id": "w_taeeonada", "ko": "태어나다", "rom": "taeeonada", "en": "to be born", "pos": "verb", "moduleId": "m25", "notes": "몇 년에 태어났어요? — what year were you born? Age-aware Korea (M4's gap deck) asks early. Everyone's first verb, grammatically always in the past." },
+
+  { "id": "w_gyeolhonhada", "ko": "결혼하다", "rom": "gyeolhonhada", "en": "to marry", "pos": "verb", "moduleId": "m25", "notes": "결혼했어요? is small talk, not a proposal — family curiosity, asked warmly. The noun 결혼 stands alone; add -식 for the ceremony, 신혼 for what follows." },
+
+  { "id": "w_moida", "ko": "모이다", "rom": "moida", "en": "to gather", "pos": "verb", "moduleId": "m25", "notes": "가족이 모여요 — the family gathers: the whole point of a 명절. 모임 — a meetup — is this verb turned noun." },
+
+  { "id": "w_mirae", "ko": "미래", "rom": "mirae", "en": "the future", "pos": "noun", "moduleId": "m25", "notes": "미 (not-yet) + 래 (come — 내일's coming-내 in another coat): the not-yet-come. What M8's 꿈 and 계획 are made of." },
+
+  { "id": "w_insaeng", "ko": "인생", "rom": "insaeng", "en": "life (a human life)", "pos": "noun", "moduleId": "m25", "notes": "인 (person — 외국인's 인, M23) + 생 (life — 생일's 생): one person's run through time. Modern slang stacks it on anything peak: 인생 사진 — the best photo you've ever taken." },
+
+  { "id": "w_apeuro", "ko": "앞으로", "rom": "apeuro", "en": "from now on", "pos": "noun", "moduleId": "m25", "notes": "M6's 앞 + M6's (으)로: toward-the-front — in TIME. The future is ahead, and M24's 옛날 is behind; Korean walks facing forward." },
+
+  { "id": "w_miyeokguk", "ko": "미역국", "rom": "miyeokguk", "en": "seaweed soup", "pos": "noun", "moduleId": "m25", "notes": "미역 (seaweed) + M18's 국. New mothers eat it to recover; everyone eats it on their birthday in tribute to mom. NEVER before an exam — the gap deck explains the slip." },
+
+  { "id": "w_bok", "ko": "복", "rom": "bok", "en": "luck / fortune", "pos": "noun", "moduleId": "m25", "notes": "Received, not had: 복 많이 받으세요 — get lots of luck. Korean fortune is a delivery, and at New Year the whole country wishes you a big shipment." },
+
+  { "id": "w_cho_candle", "ko": "초", "rom": "cho", "en": "candle", "pos": "noun", "moduleId": "m25", "notes": "초를 불어요 — blow out the candles, with M11's 불다. On the radar: 초 is also 'second' (the clock's tick) and the start-syllable of 초등학교 (M15). This one melts." },
+
+  { "id": "w_hangeullal", "ko": "한글날", "rom": "hangeullal", "en": "Hangul Day (Oct 9)", "pos": "noun", "moduleId": "m25", "notes": "The alphabet from this course's first reading gets a national holiday — Sejong's 1446 promulgation, celebrated with a day off. Said 한글랄; the only holiday honoring a writing system you now read." },
+
+  { "id": "w_eobeoinal", "ko": "어버이날", "rom": "eobeoinal", "en": "Parents' Day (May 8)", "pos": "noun", "moduleId": "m25", "notes": "어버이 — the old word covering both 어머니 and 아버지 (M4) — plus 날. Carnations pinned to parents' chests, phone calls home. Not a day off; the affection is mandatory anyway." },
+
+  { "id": "w_sinhonyeohaeng", "ko": "신혼여행", "rom": "sinhonyeohaeng", "en": "honeymoon", "pos": "noun", "moduleId": "m25", "notes": "신 (new — 신문's new-신) + 혼 (marriage — 결혼's 혼) + M11's 여행: new-marriage-travel, self-assembled. M22's 제주도 built an industry on it." }
 ]

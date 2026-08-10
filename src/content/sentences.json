@@ -6714,5 +6714,275 @@
     "rom": "wae joahaeyo? geunyang joahaeyo",
     "wordIds": ["w_wae", "w_joahada", "w_geunyang"],
     "note": "The national why-deflector, straight from the gap deck's oldest resident: sometimes there is no reason, and Korean has one word for saying so politely."
+  },
+  {
+    "id": "s25_what_date",
+    "en": [
+      { "t": "What's the date", "role": "verb", "id": "v" },
+      { "t": "today?", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "today-[topic]", "role": "other", "id": "t" },
+      { "t": "what-month what-day-is?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "몇 월 며칠이에요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneureun myeot wol myeochirieyo?",
+    "wordIds": ["w_oneul", "w_myeot", "w_wol", "w_myeochil"],
+    "note": "The date machine's asking mode: M5's 몇 in front of 월, and its fused fossil 며칠 for the day. Big-to-small, month before day, always."
+  },
+  {
+    "id": "s25_my_birthday",
+    "en": [
+      { "t": "My birthday", "role": "subject", "id": "s" },
+      { "t": "is October 9th", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "my birthday-[topic]", "role": "subject", "id": "s" },
+      { "t": "ten-month nine day-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제 생일은", "role": "subject", "id": "s" },
+      { "t": "시월 구 일이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "je saengireun siwol gu irieyo",
+    "wordIds": ["w_je", "w_saengil", "w_wol", "w_il_day"],
+    "note": "시월, not 십월 — one of the two sanded months. And October 9th is 한글날: a birthday shared with the alphabet is a birthday nobody forgets."
+  },
+  {
+    "id": "s25_born_2000",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "was born", "role": "verb", "id": "v" },
+      { "t": "in the year 2000", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s" },
+      { "t": "two-thousand year-in", "role": "other", "id": "t" },
+      { "t": "was-born", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "이천 년에", "role": "other", "id": "t" },
+      { "t": "태어났어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun icheon nyeone taeeonasseoyo",
+    "wordIds": ["w_jeo", "w_cheon", "w_nyeon", "w_taeeonada"],
+    "note": "M9's big Sino numbers finally date a life: 이천 년 — the year 2000. The question that gets you here — 몇 년에 태어났어요? — is how age-aware Korea (M4's gap deck) does the math."
+  },
+  {
+    "id": "s25_seollal_soup",
+    "en": [
+      { "t": "On New Year's morning", "role": "other", "id": "t" },
+      { "t": "we eat", "role": "verb", "id": "v" },
+      { "t": "tteokguk", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Seollal morning-on", "role": "other", "id": "t" },
+      { "t": "rice-cake-soup-[obj]", "role": "object", "id": "o" },
+      { "t": "eat", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "설날 아침에", "role": "other", "id": "t" },
+      { "t": "떡국을", "role": "object", "id": "o" },
+      { "t": "먹어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seollal achime tteokgugeul meogeoyo",
+    "wordIds": ["w_seollal", "w_achim", "w_tteokguk", "w_meokda"],
+    "note": "M18's 떡 and 국, self-assembled into the New Year's breakfast. Finish the bowl, gain a year — the soup IS the birthday. Dropped subject: on 설날, everyone is the subject."
+  },
+  {
+    "id": "s25_chuseok_gather",
+    "en": [
+      { "t": "At Chuseok", "role": "other", "id": "t" },
+      { "t": "the family", "role": "subject", "id": "s" },
+      { "t": "gathers", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Chuseok time", "role": "other", "id": "t" },
+      { "t": "family-[subj]", "role": "subject", "id": "s" },
+      { "t": "gathers", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "추석 때", "role": "other", "id": "t" },
+      { "t": "가족이", "role": "subject", "id": "s" },
+      { "t": "모여요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chuseok ttae gajogi moyeoyo",
+    "wordIds": ["w_chuseok", "w_ttae", "w_gajok", "w_moida"],
+    "note": "때 in its bare setting: [event] 때 — at the time of. No badge needed after a noun; the holiday itself carries the when."
+  },
+  {
+    "id": "s25_young_busan",
+    "en": [
+      { "t": "When I was little,", "role": "other", "id": "c" },
+      { "t": "I lived", "role": "verb", "id": "v" },
+      { "t": "in Busan", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "young-when", "role": "other", "id": "c" },
+      { "t": "Busan-in", "role": "place", "id": "p" },
+      { "t": "lived", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어릴 때", "role": "other", "id": "c" },
+      { "t": "부산에", "role": "place", "id": "p" },
+      { "t": "살았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoril ttae busane sarasseoyo",
+    "wordIds": ["w_eorida", "w_ttae", "w_busan", "w_salda"],
+    "note": "The third badge carries 때 onto a verb: 어릴 때 — 'young-time,' when I was little. M21's 어리다 opens every childhood story in the language."
+  },
+  {
+    "id": "s25_call_when_free",
+    "en": [
+      { "t": "Please call me", "role": "verb", "id": "v" },
+      { "t": "when you have time", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "time-[subj] exist-when", "role": "other", "id": "c" },
+      { "t": "phone-do give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시간이 있을 때", "role": "other", "id": "c" },
+      { "t": "전화해 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sigani isseul ttae jeonhwahae juseyo",
+    "wordIds": ["w_sigan", "w_itda", "w_ttae", "w_jeonhwahada", "w_juda"],
+    "note": "있을 때 — when-time-exists — through M9's do-for-me machine. The polite version of 'no rush' that still means 'call me.'"
+  },
+  {
+    "id": "s25_happy_birthday",
+    "en": [
+      { "t": "Congrats on", "role": "verb", "id": "v" },
+      { "t": "your birthday!", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "birth-day", "role": "object", "id": "o" },
+      { "t": "congratulate!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "생일", "role": "object", "id": "o" },
+      { "t": "축하해요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "saengil chukahaeyo!",
+    "wordIds": ["w_saengil", "w_chukhahada"],
+    "note": "THE formula — sung, said, and typed into 카톡 with a cake emoji. Fixed by design (memorize verbatim), and said 추카 — the ㅎ-merge M19's 축하하다 promised. Elders get 생신 축하드려요."
+  },
+  {
+    "id": "s25_much_todo",
+    "en": [
+      { "t": "I have a lot", "role": "verb", "id": "v" },
+      { "t": "to do", "role": "subject", "id": "s" },
+      { "t": "this weekend", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "weekend-on", "role": "other", "id": "t" },
+      { "t": "do-[badge] work-[subj]", "role": "subject", "id": "s" },
+      { "t": "are-many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "t" },
+      { "t": "할 일이", "role": "subject", "id": "s" },
+      { "t": "많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare hal iri manayo",
+    "wordIds": ["w_jumal", "w_hada", "w_ilhada", "w_manta"],
+    "note": "The badge before an ordinary noun: 할 일 — to-do work, things to do. The 일-work of 일하다, modified by a yet-to-happen 하다. Existence does the having, as always."
+  },
+  {
+    "id": "s25_new_year",
+    "en": [
+      { "t": "Receive lots of", "role": "verb", "id": "v" },
+      { "t": "New Year luck!", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "new-year luck", "role": "object", "id": "o" },
+      { "t": "much receive-please!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새해 복", "role": "object", "id": "o" },
+      { "t": "많이 받으세요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "saehae bok mani badeuseyo!",
+    "wordIds": ["w_saehae", "w_bok", "w_mani", "w_batda"],
+    "note": "The midnight formula, fully decodable: M13's 새 + M11's 해 + 복 + M17's 많이 + M9's 받다 through the -(으)세요 machine. Korean luck is a delivery, and everyone wishes you a big shipment."
+  },
+  {
+    "id": "s25_special_day",
+    "en": [
+      { "t": "Tomorrow", "role": "other", "id": "t" },
+      { "t": "is a very special day", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "tomorrow-[topic]", "role": "other", "id": "t" },
+      { "t": "very special-[turned] day-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내일은", "role": "other", "id": "t" },
+      { "t": "아주 특별한 날이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naeireun aju teukbyeolhan narieyo",
+    "wordIds": ["w_naeil", "w_aju", "w_teukbyeolhada", "w_nal"],
+    "note": "M24's 특별하다 note promised a whole module of special days — here it is, wearing the badge over M11's 날. Which day? The 달력 knows."
+  },
+  {
+    "id": "s25_wedding_how",
+    "en": [
+      { "t": "How was", "role": "verb", "id": "v" },
+      { "t": "the wedding last week?", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "passed-week wedding", "role": "subject", "id": "s" },
+      { "t": "how-was?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지난주 결혼식", "role": "subject", "id": "s" },
+      { "t": "어땠어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "jinanju gyeolhonsik eottaesseoyo?",
+    "wordIds": ["w_jinanju", "w_gyeolhonsik", "w_eotteota"],
+    "note": "지난주 — M12's 지나다 wearing M24's past badge, fused into the calendar — and M24's 어땠어요 asking after it. The badge machinery, one module later, already just IS vocabulary."
+  },
+  {
+    "id": "s25_next_year_trip",
+    "en": [
+      { "t": "Next year", "role": "other", "id": "t" },
+      { "t": "I'm leaving", "role": "verb", "id": "v" },
+      { "t": "on a world trip", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "coming-year-in", "role": "other", "id": "t" },
+      { "t": "world travel-[obj]", "role": "object", "id": "o" },
+      { "t": "leave-[badge] thing-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내년에", "role": "other", "id": "t" },
+      { "t": "세계 여행을", "role": "object", "id": "o" },
+      { "t": "떠날 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naenyeone segye yeohaengeul tteonal geoyeyo",
+    "wordIds": ["w_naenyeon", "w_segye", "w_yeohaeng", "w_tteonada"],
+    "note": "X-ray the future one last time: 떠날 거예요 = 떠나다 + third badge + 거 (것!) + 예요 — 'a to-leave thing is.' M8's tense, dissected; M23's 떠나다 and 세계, back on the road."
+  },
+  {
+    "id": "s25_travel_young",
+    "en": [
+      { "t": "While you're young,", "role": "other", "id": "c" },
+      { "t": "travel a lot", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "young-when", "role": "other", "id": "c" },
+      { "t": "travel-[obj] much do-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "젊을 때", "role": "other", "id": "c" },
+      { "t": "여행을 많이 하세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeolmeul ttae yeohaengeul mani haseyo",
+    "wordIds": ["w_jeomda", "w_ttae", "w_yeohaeng", "w_hada"],
+    "note": "M24's 젊다 through the new when-machine — with the ㄻ batchim's liaison exhibit live one more time (절믈). The module's parting advice; the gap deck's 집 떠나면 고생이다 respectfully disagrees."
   }
 ]
