@@ -556,5 +556,32 @@
     "lit": "Mon-Tue-Wed-Thu-Fri-Fri-Fri",
     "real": "the week with no weekend",
     "note": "Take M5's weekday names, delete the weekend, photocopy Friday over it: the seven-day workweek as dark comedy. Office workers say it the way soldiers sing marching songs. Its existence — like 몸살's — is a cultural x-ray."
+  },
+  {
+    "id": "g17_bang",
+    "cat": "concept",
+    "ko": "노래방 / PC방 / 찜질방",
+    "rom": "noraebang / pissibang / jjimjilbang",
+    "lit": "song-room / PC-room / steam-room",
+    "real": "Korea's rented-room leisure economy",
+    "note": "M8's humble 방 runs a business empire: rooms you rent by the hour to sing, game, or sweat. Small apartments plus dense cities equals leisure that happens in rented rooms — the -방 suffix maps an entire way of socializing."
+  },
+  {
+    "id": "g17_chi",
+    "cat": "concept",
+    "ko": "음치 / 몸치 / 길치",
+    "rom": "eumchi / momchi / gilchi",
+    "lit": "sound-fool / body-fool / road-fool",
+    "real": "hopeless at singing / dancing / directions",
+    "note": "The -치 suffix names cheerful incompetence: tone-deaf, dance-clumsy, direction-blind (M14's 몸 and M12's 길 doing the describing). Declaring 저 음치예요 before the 노래방 mic is self-defense, tradition, and usually a lie told by the best singer in the room."
+  },
+  {
+    "id": "g17_daebak",
+    "cat": "phrase",
+    "ko": "대박",
+    "rom": "daebak",
+    "lit": "big gourd",
+    "real": "awesome! / no way! / jackpot",
+    "note": "From folktale gourds that split open full of treasure. Now the all-purpose amazement word — a goal, a plot twist, a friend's news, a good 치킨 place. Positive or scandalized depending entirely on the eyebrows."
   }
 ]

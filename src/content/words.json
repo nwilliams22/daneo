@@ -828,5 +828,83 @@
 
   { "id": "w_jungyohada", "ko": "중요하다", "rom": "jungyohada", "en": "to be important", "pos": "adj", "moduleId": "m16", "notes": "중요한 것? Coming in M17. For now: 회의가 중요해요." },
 
-  { "id": "w_piryohada", "ko": "필요하다", "rom": "piryohada", "en": "to be needed", "pos": "adj", "moduleId": "m16", "notes": "Korean needs backwards: 돈이 필요해요 — 'money is needed (to me).' The wanter takes a back seat, 있어요-style." }
+  { "id": "w_piryohada", "ko": "필요하다", "rom": "piryohada", "en": "to be needed", "pos": "adj", "moduleId": "m16", "notes": "Korean needs backwards: 돈이 필요해요 — 'money is needed (to me).' The wanter takes a back seat, 있어요-style." },
+
+  { "id": "w_chwimi", "ko": "취미", "rom": "chwimi", "en": "hobby", "pos": "noun", "moduleId": "m17", "notes": "취미가 뭐예요? — the universal small-talk opener, right after job and age." },
+
+  { "id": "w_chukgu", "ko": "축구", "rom": "chukgu", "en": "soccer", "pos": "noun", "moduleId": "m17", "notes": "축 (kick) + 구 (ball). The -구 family names every ball game — watch it repeat below." },
+
+  { "id": "w_yagu", "ko": "야구", "rom": "yagu", "en": "baseball", "pos": "noun", "moduleId": "m17", "notes": "야 (field) + 구 (ball) — NOT the night-야 of 야근. Same syllable, different ancestor; the homograph radar stays on." },
+
+  { "id": "w_nonggu", "ko": "농구", "rom": "nonggu", "en": "basketball", "pos": "noun", "moduleId": "m17", "notes": "농 (basket) + 구. The -구 family complete: 축구, 야구, 농구." },
+
+  { "id": "w_teniseu", "ko": "테니스", "rom": "teniseu", "en": "tennis", "pos": "noun", "moduleId": "m17", "notes": "Konglish. Racket sports take 치다 — hit-play — like the piano." },
+
+  { "id": "w_suyeong", "ko": "수영", "rom": "suyeong", "en": "swimming", "pos": "noun", "moduleId": "m17", "notes": "수 (water — the 수 in 수요일's water-day!) + 영 (swim). M10's 수영하다 was this noun wearing 하다." },
+
+  { "id": "w_deungsan", "ko": "등산", "rom": "deungsan", "en": "hiking", "pos": "noun", "moduleId": "m17", "notes": "등 (climb) + M11's 산: mountain-climbing — the national pastime of everyone's parents. Full gear mandatory, summit optional." },
+
+  { "id": "w_noraebang", "ko": "노래방", "rom": "noraebang", "en": "karaoke room", "pos": "noun", "moduleId": "m17", "notes": "M7's 노래 + M8's 방: the song-room. 회식 round two, friendship's pressure test, and the gap deck's -방 economy flagship." },
+
+  { "id": "w_chum", "ko": "춤", "rom": "chum", "en": "dance", "pos": "noun", "moduleId": "m17", "notes": "춤을 추다 — dance a dance, the way you draw a drawing (그림을 그리다). Korean likes its verbs to bring their own nouns." },
+
+  { "id": "w_sajin", "ko": "사진", "rom": "sajin", "en": "photo", "pos": "noun", "moduleId": "m17", "notes": "사진을 찍다 — photos are 'stamped,' not taken. 사진 찍어 주세요 gets you a stranger's best effort anywhere in Korea." },
+
+  { "id": "w_gyeonggi", "ko": "경기", "rom": "gyeonggi", "en": "match / game (sports)", "pos": "noun", "moduleId": "m17", "notes": "축구 경기, 야구 경기. Also the province around Seoul, 경기도 — homograph, different hanja, same spelling." },
+
+  { "id": "w_seonsu", "ko": "선수", "rom": "seonsu", "en": "athlete / player", "pos": "noun", "moduleId": "m17", "notes": "손흥민 선수 — the title follows the name like 님 does. Also slang for anyone suspiciously good at anything." },
+
+  { "id": "w_gong", "ko": "공", "rom": "gong", "en": "ball", "pos": "noun", "moduleId": "m17", "notes": "Not 공원's 공, not 공책's 공 — this one bounces. Third job for the syllable; the count is now routine for you." },
+
+  { "id": "w_piano", "ko": "피아노", "rom": "piano", "en": "piano", "pos": "noun", "moduleId": "m17", "notes": "피아노를 치다 — struck, not played. Same verb as tennis; Korean files keys and rackets together." },
+
+  { "id": "w_gita", "ko": "기타", "rom": "gita", "en": "guitar", "pos": "noun", "moduleId": "m17", "notes": "Konglish — and a perfect homograph of Sino 기타, 'et cetera.' On forms, 기타 means 'other'; in bands, it means six strings." },
+
+  { "id": "w_dokseo", "ko": "독서", "rom": "dokseo", "en": "reading (as a hobby)", "pos": "noun", "moduleId": "m17", "notes": "독 (read) + 서 (book — 교과서's 서). What 책 읽는 것 becomes on a résumé." },
+
+  { "id": "w_manhwa", "ko": "만화", "rom": "manhwa", "en": "comics", "pos": "noun", "moduleId": "m17", "notes": "Korea's comics — ancestor of the webtoon, the format Korea exported to the world's phones." },
+
+  { "id": "w_deurama", "ko": "드라마", "rom": "deurama", "en": "drama / TV series", "pos": "noun", "moduleId": "m17", "notes": "Konglish, but meaning K-drama specifically. Source of the 코피 nosebleed lore and half the world's Korean learners." },
+
+  { "id": "w_nakksi", "ko": "낚시", "rom": "nakksi", "en": "fishing", "pos": "noun", "moduleId": "m17", "notes": "That ㄲ batchim collapses to ㄱ — 낙씨-ish. Also internet slang for clickbait: getting 낚시'd is getting hooked." },
+
+  { "id": "w_chida", "ko": "치다", "rom": "chida", "en": "to play (instrument / racket) / to hit", "pos": "verb", "moduleId": "m17", "notes": "The strike-play verb: 피아노를 치다, 기타를 치다, 테니스를 치다. If it's hit or plucked, it's 치다." },
+
+  { "id": "w_chuda", "ko": "추다", "rom": "chuda", "en": "to dance", "pos": "verb", "moduleId": "m17", "notes": "Only ever with its own noun: 춤을 추다. A verb with one loyal partner." },
+
+  { "id": "w_jjikda", "ko": "찍다", "rom": "jjikda", "en": "to take (a photo) / stamp", "pos": "verb", "moduleId": "m17", "notes": "Photos, stamps, dots, votes — 찍다 is the precise-press verb. 사진을 찍어요." },
+
+  { "id": "w_igida", "ko": "이기다", "rom": "igida", "en": "to win", "pos": "verb", "moduleId": "m17", "notes": "우리 팀이 이겼어요! — the sentence this verb lives for." },
+
+  { "id": "w_jida_lose", "ko": "지다", "rom": "jida", "en": "to lose (a game)", "pos": "verb", "moduleId": "m17", "notes": "Also what the sun does at dusk — 해가 지다. Losing and sunsets share a verb; make of that what you will." },
+
+  { "id": "w_eungwonhada", "ko": "응원하다", "rom": "eungwonhada", "en": "to cheer / root for", "pos": "verb", "moduleId": "m17", "notes": "What 화이팅 is for. Korean cheering culture is choreographed, drummed, and completely sincere." },
+
+  { "id": "w_dallida", "ko": "달리다", "rom": "dallida", "en": "to run", "pos": "verb", "moduleId": "m17", "notes": "달리기 — running, the noun — is the -기 you know from 자기 전에 and 배우기, promoted to a hobby's name." },
+
+  { "id": "w_sanchaekhada", "ko": "산책하다", "rom": "sanchaekhada", "en": "to take a walk", "pos": "verb", "moduleId": "m17", "notes": "NOT M11's mountain-산 — a stroll, not a summit. 공원에서 산책해요." },
+
+  { "id": "w_yeohaenghada", "ko": "여행하다", "rom": "yeohaenghada", "en": "to travel", "pos": "verb", "moduleId": "m17", "notes": "M11's 여행 wearing 하다 — the pattern 수영/수영하다 taught you, running in reverse." },
+
+  { "id": "w_moeuda", "ko": "모으다", "rom": "moeuda", "en": "to collect", "pos": "verb", "moduleId": "m17", "notes": "ㅡ-drop: 모아요. Stamps, figures, photocards, money — the collector's verb." },
+
+  { "id": "w_jeulgida", "ko": "즐기다", "rom": "jeulgida", "en": "to enjoy", "pos": "verb", "moduleId": "m17", "notes": "주말을 즐기세요 — enjoy your weekend. The hobby module's mission statement." },
+
+  { "id": "w_jalhada", "ko": "잘하다", "rom": "jalhada", "en": "to be good at", "pos": "verb", "moduleId": "m17", "notes": "M10's 잘 fused into a verb: 노래를 잘해요. You've deflected with 잘 못 해요 since the gap deck — here's the machinery." },
+
+  { "id": "w_mothada", "ko": "못하다", "rom": "mothada", "en": "to be bad at", "pos": "verb", "moduleId": "m17", "notes": "잘하다's shadow: 요리를 못해요. Said 모타다 — the ㅎ-merge from the sound interlude." },
+
+  { "id": "w_yumyeonghada", "ko": "유명하다", "rom": "yumyeonghada", "en": "to be famous", "pos": "adj", "moduleId": "m17", "notes": "유명한 것들 await M17's own glue. For now: 이 선수가 유명해요." },
+
+  { "id": "w_ingi", "ko": "인기", "rom": "ingi", "en": "popularity", "pos": "noun", "moduleId": "m17", "notes": "Possessed, 있다-style: 인기가 많아요 — 'has much popularity' — is how Korean says something's a hit." },
+
+  { "id": "w_maeju", "ko": "매주", "rom": "maeju", "en": "every week", "pos": "noun", "moduleId": "m17", "notes": "The 매-family: M5's 매일 (every day), 매주, 매달, 매년. One prefix, the whole calendar." },
+
+  { "id": "w_mani", "ko": "많이", "rom": "mani", "en": "a lot / much", "pos": "noun", "moduleId": "m17", "notes": "M7's 많다 as an adverb — and long overdue. 많이 먹어요! — eat a lot! — is Korean hospitality's core command. Said 마니; the ㅎ vanishes per the interlude." },
+
+  { "id": "w_byeollo", "ko": "별로", "rom": "byeollo", "en": "not really / not much", "pos": "noun", "moduleId": "m17", "notes": "Always with a negative: 별로 안 좋아해요 — don't really like it. The politest possible shrug. Alone — 별로예요 — it's a review score." },
+
+  { "id": "w_je", "ko": "제", "rom": "je", "en": "my (humble)", "pos": "noun", "moduleId": "m17", "notes": "M4's 저 + possessive 의, squeezed into one syllable: 제 취미, 제 친구. The humble 'my' that matches 저." },
+
+  { "id": "w_p_geot", "ko": "것", "rom": "geot", "en": "thing (the nominalizer)", "pos": "particle", "moduleId": "m17", "notes": "The thing-word — casually 거, which you've already met inside 이거/그거/저거 (이 것 → 이거). With -는 in front, it turns whole verbs into things: 먹는 것, eating." }
 ]
