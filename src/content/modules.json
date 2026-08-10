@@ -606,5 +606,31 @@
       "s24_actually_different", "s24_what_music", "s24_curious",
       "s24_movie_how", "s24_why_just"
     ]
+  },
+  {
+    "id": "m25",
+    "title": "Dates and Life Events",
+    "order": 28,
+    "contentMd": "modules/module-25.md",
+    "wordIds": [
+      "w_nyeon", "w_wol", "w_il_day", "w_naljja", "w_dallyeok",
+      "w_myeochil", "w_jangnyeon", "w_olhae", "w_naenyeon",
+      "w_ttae", "w_geuttae", "w_jinanju",
+      "w_myeongjeol", "w_seollal", "w_tteokguk", "w_chuseok",
+      "w_songpyeon", "w_yeonhyu", "w_keuriseumaseu", "w_ginyeomil",
+      "w_gyeolhonsik", "w_janchi", "w_saehae", "w_chukje",
+      "w_agi", "w_bubu",
+      "w_taeeonada", "w_gyeolhonhada", "w_moida",
+      "w_mirae", "w_insaeng", "w_apeuro", "w_miyeokguk", "w_bok",
+      "w_cho_candle", "w_hangeullal", "w_eobeoinal",
+      "w_sinhonyeohaeng"
+    ],
+    "sentenceIds": [
+      "s25_what_date", "s25_my_birthday", "s25_born_2000",
+      "s25_seollal_soup", "s25_chuseok_gather", "s25_young_busan",
+      "s25_call_when_free", "s25_happy_birthday", "s25_much_todo",
+      "s25_new_year", "s25_special_day", "s25_wedding_how",
+      "s25_next_year_trip", "s25_travel_young"
+    ]
   }
 ]

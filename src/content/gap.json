@@ -772,5 +772,32 @@
     "lit": "as much as you know, it is seen",
     "real": "you see what you know",
     "note": "The saying behind every museum trip (popularized by art historian 유홍준) — built on M24's own machinery: 아는 is 알다 wearing the -는 badge, ㄹ dropped. 만큼 ('as much as') is Ring 2 glue, previewed. Why the 궁 you visited in M23 gets better with every module you finish."
+  },
+  {
+    "id": "g25_miyeokguk",
+    "cat": "phrase",
+    "ko": "미역국을 먹다",
+    "rom": "miyeokgugeul meokda",
+    "lit": "to eat seaweed soup",
+    "real": "birthday ritual — or exam failure",
+    "note": "Two jobs, one bowl. New mothers eat 미역국 to recover, so every birthday you eat it in tribute to yours. But said after an exam — 미역국 먹었어요 — it means you FAILED: seaweed is slippery, and you slipped right off the pass list. 시험 때 (this module's glue) it is banned from the table; that's how seriously the superstition is taken."
+  },
+  {
+    "id": "g25_doljabi",
+    "cat": "concept",
+    "ko": "돌잡이",
+    "rom": "doljabi",
+    "lit": "first-birthday grab",
+    "real": "the baby picks its future",
+    "note": "The centerpiece of the 돌잔치 (M22's 돌 + M25's 잔치 — the note that promised a party delivers). Objects are spread before the one-year-old: 실 (thread) for long life, 돈 for wealth, 연필 for scholarship — modern tables add microphones, stethoscopes, and computer mice. The baby grabs one; destiny is declared; the room cheers; the photo lasts forever."
+  },
+  {
+    "id": "g25_baegil",
+    "cat": "concept",
+    "ko": "백일",
+    "rom": "baegil",
+    "lit": "one hundred days",
+    "real": "the milestone worth a party",
+    "note": "M9's 백 + M25's 일, self-assembled. Babies get a 백일 celebration — from the era when surviving a hundred days was the hard part — and couples count 백일 anniversaries before switching to years (M19's 커플 culture, timestamped). Korea counts what it treasures, in days."
   }
 ]
