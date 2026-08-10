@@ -799,5 +799,32 @@
     "lit": "one hundred days",
     "real": "the milestone worth a party",
     "note": "M9's 백 + M25's 일, self-assembled. Babies get a 백일 celebration — from the era when surviving a hundred days was the hard part — and couples count 백일 anniversaries before switching to years (M19's 커플 culture, timestamped). Korea counts what it treasures, in days."
+  },
+  {
+    "id": "g26_sijaki_banida",
+    "cat": "phrase",
+    "ko": "시작이 반이다",
+    "rom": "sijagi banida",
+    "lit": "the beginning is half",
+    "real": "well begun is half done",
+    "note": "M8's 시작하다's noun + M5's 반 (half) + the plain copula: starting IS half the work. Quoted at every January gym, every first Korean lesson — and at the end of Ring 1, where the math finally flatters you: you started at 안녕하세요, so the rest was the other half."
+  },
+  {
+    "id": "g26_gosaeng",
+    "cat": "phrase",
+    "ko": "고생했어요",
+    "rom": "gosaenghaesseoyo",
+    "lit": "you suffered",
+    "real": "good job / well done",
+    "note": "Korean praises the STRUGGLE, not the result — 'you suffered' is the warm thing said after exams, work, and long days, kin to M16's 수고하셨습니다. The 고생 of M23's 집 떠나면 고생이다, now aimed at you kindly. Reply: 아니에요 — or say it back."
+  },
+  {
+    "id": "g26_gimchitguk",
+    "cat": "phrase",
+    "ko": "김칫국부터 마시다",
+    "rom": "gimchitgukbuteo masida",
+    "lit": "to drink the kimchi soup first",
+    "real": "counting your chickens",
+    "note": "The full proverb: someone promises you 떡, and you drink the digestive kimchi-water before the rice cake even arrives. M6's 부터 (starting-from) doing idiom work: celebrating FROM the soup onward, prematurely. Said, smiling, to anyone planning the victory party early."
   }
 ]
