@@ -7263,5 +7263,281 @@
     "rom": "hangugeo gongbuneun ije sijagineyo",
     "wordIds": ["w_hangugeo", "w_gongbuhada", "w_ije", "w_sijakhada"],
     "note": "Ring 1's final sentence notices something true: it was all beginning. 시작이 반이다, says the gap deck — the beginning is half — and you've done rather more than begin."
+  },
+  {
+    "id": "s27_which_country",
+    "en": [
+      { "t": "Which country", "role": "place", "id": "p" },
+      { "t": "are you from?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "which country-from", "role": "place", "id": "p" },
+      { "t": "came?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어느 나라에서", "role": "place", "id": "p" },
+      { "t": "왔어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoneu naraeseo wasseoyo?",
+    "wordIds": ["w_eoneu", "w_nara", "w_oda"],
+    "note": "The question every foreigner in Korea fields weekly. 어느 picks from a set (which one); Korean asks where you CAME from — past tense, journey included."
+  },
+  {
+    "id": "s27_from_america",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am from America", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s" },
+      { "t": "America-from came", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "미국에서 왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun migugeseo wasseoyo",
+    "wordIds": ["w_jeo", "w_miguk", "w_oda"],
+    "note": "The answer's shape: [country]에서 왔어요 — 'came from' does the work of 'I'm from.' Swap in any of this module's nine countries and the sentence is yours."
+  },
+  {
+    "id": "s27_hometown",
+    "en": [
+      { "t": "Your hometown", "role": "subject", "id": "s" },
+      { "t": "— where is it?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "hometown-[subj]", "role": "subject", "id": "s" },
+      { "t": "where-is?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "고향이", "role": "subject", "id": "s" },
+      { "t": "어디예요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "gohyangi eodiyeyo?",
+    "wordIds": ["w_gohyang", "w_eodi"],
+    "note": "The warm follow-up — country establishes, hometown connects. Koreans ask each other too; the answer explains accents, food loyalties, and half of every 명절 traffic report."
+  },
+  {
+    "id": "s27_friends_presents",
+    "en": [
+      { "t": "I gave", "role": "verb", "id": "v" },
+      { "t": "presents", "role": "object", "id": "o" },
+      { "t": "to my friends", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "friend-[plural]-to", "role": "other", "id": "d" },
+      { "t": "present-[obj]", "role": "object", "id": "o" },
+      { "t": "gave", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구들한테", "role": "other", "id": "d" },
+      { "t": "선물을", "role": "object", "id": "o" },
+      { "t": "줬어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chingudeulhante seonmureul jwosseoyo",
+    "wordIds": ["w_chingu", "w_seonmul", "w_juda"],
+    "note": "Both new particles in one word: 친구 + 들 (plural — people, many-ness matters) + 한테 (TO a person). M9's 주다 finally learns who's receiving."
+  },
+  {
+    "id": "s27_call_parents",
+    "en": [
+      { "t": "I call", "role": "verb", "id": "v" },
+      { "t": "my parents", "role": "other", "id": "d" },
+      { "t": "often", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "parents-to-[hon]", "role": "other", "id": "d" },
+      { "t": "often", "role": "other", "id": "a" },
+      { "t": "phone-do", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부모님께", "role": "other", "id": "d" },
+      { "t": "자주", "role": "other", "id": "a" },
+      { "t": "전화해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bumonimkke jaju jeonhwahaeyo",
+    "wordIds": ["w_bumonim", "w_jaju", "w_jeonhwahada"],
+    "note": "The M8 IOU, paid: 전화하다's note promised 'the person you call takes 한테/에게 — arriving soon.' Nineteen modules later — and for parents, the honorific 께."
+  },
+  {
+    "id": "s27_husband_german",
+    "en": [
+      { "t": "My husband", "role": "subject", "id": "s" },
+      { "t": "is German", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "husband-[topic]", "role": "subject", "id": "s" },
+      { "t": "Germany person-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "남편은", "role": "subject", "id": "s" },
+      { "t": "독일 사람이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nampyeoneun dogil saramieyo",
+    "wordIds": ["w_nampyeon", "w_dogil", "w_saram"],
+    "note": "[Country] + 사람 = a national — no suffix, no adjective, just apposition. And the spouse vocabulary finally arrives, twenty-six modules after the in-laws."
+  },
+  {
+    "id": "s27_wife_letter",
+    "en": [
+      { "t": "I wrote", "role": "verb", "id": "v" },
+      { "t": "a letter", "role": "object", "id": "o" },
+      { "t": "to my wife", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "wife-to", "role": "other", "id": "d" },
+      { "t": "letter-[obj]", "role": "object", "id": "o" },
+      { "t": "wrote", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아내한테", "role": "other", "id": "d" },
+      { "t": "편지를", "role": "object", "id": "o" },
+      { "t": "썼어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "anaehante pyeonjireul sseosseoyo",
+    "wordIds": ["w_anae", "w_pyeonji", "w_sseuda"],
+    "note": "한테 with M10's 쓰다 in its writing job. 아내 for your own wife; 부인 for anyone else's — the humble/honorific split (M4) sorting the household."
+  },
+  {
+    "id": "s27_busan_south",
+    "en": [
+      { "t": "Busan", "role": "subject", "id": "s" },
+      { "t": "is south", "role": "verb", "id": "v" },
+      { "t": "of Seoul", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "Busan-[topic]", "role": "subject", "id": "s" },
+      { "t": "Seoul-from", "role": "place", "id": "p" },
+      { "t": "south-side-at exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부산은", "role": "subject", "id": "s" },
+      { "t": "서울에서", "role": "place", "id": "p" },
+      { "t": "남쪽에 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "busaneun seoureseo namjjoge isseoyo",
+    "wordIds": ["w_busan", "w_seoul", "w_namjjok", "w_itda"],
+    "note": "The compass in the location frame: [from-here]에서 [direction]에 있어요. M6's position grammar, M23's 쪽, and the new 남 — geography self-assembles."
+  },
+  {
+    "id": "s27_kpop_france",
+    "en": [
+      { "t": "K-pop", "role": "subject", "id": "s" },
+      { "t": "is popular", "role": "verb", "id": "v" },
+      { "t": "in France too", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "K-pop-[topic]", "role": "subject", "id": "s" },
+      { "t": "France-in-also", "role": "place", "id": "p" },
+      { "t": "popularity-[subj] is-much", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "케이팝은", "role": "subject", "id": "s" },
+      { "t": "프랑스에서도", "role": "place", "id": "p" },
+      { "t": "인기가 많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "keipabeun peurangseueseodo ingiga manayo",
+    "wordIds": ["w_keipap", "w_peurangseu", "w_ingi", "w_manta"],
+    "note": "M26's 케이팝 goes abroad on M2's stacked 에서+도. The 한류 (M26), measured country by country — France's K-pop conventions predate most of Europe's."
+  },
+  {
+    "id": "s27_meet_theater",
+    "en": [
+      { "t": "Let's meet", "role": "verb", "id": "v" },
+      { "t": "in front of the theater!", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "theater front-at", "role": "place", "id": "p" },
+      { "t": "meet!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "극장 앞에서", "role": "place", "id": "p" },
+      { "t": "만나요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "geukjang apeseo mannayo!",
+    "wordIds": ["w_geukjang", "w_ap", "w_mannada"],
+    "note": "M6's position nouns still setting every 약속 장소. Present tense as let's — the softest proposal, no -(으)ㅂ시다 needed among friends."
+  },
+  {
+    "id": "s27_nice_meet",
+    "en": [
+      { "t": "Glad", "role": "verb", "id": "v" },
+      { "t": "to meet you", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "meet-so", "role": "other", "id": "c" },
+      { "t": "am-glad", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "만나서", "role": "other", "id": "c" },
+      { "t": "반갑습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "mannaseo bangapseumnida",
+    "wordIds": ["w_mannada", "w_bangapda"],
+    "note": "The introduction formula: M10's because-아서 (glad FROM meeting) in M4's 합니다-register, because first meetings run formal. Fixed by design — memorize verbatim, deploy forever."
+  },
+  {
+    "id": "s27_russia_big",
+    "en": [
+      { "t": "Russia", "role": "subject", "id": "s" },
+      { "t": "is really big!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Russia-[topic]", "role": "subject", "id": "s" },
+      { "t": "really is-big-[noticed]!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "러시아는", "role": "subject", "id": "s" },
+      { "t": "정말 크네요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "reosianeun jeongmal keuneyo!",
+    "wordIds": ["w_reosia", "w_jeongmal", "w_keuda"],
+    "note": "M26's noticing ending, aimed at a world map — the -네요 of genuine discovery, since maps in Korean classrooms put the peninsula center-frame and Russia sprawling above."
+  },
+  {
+    "id": "s27_everyone_culture",
+    "en": [
+      { "t": "Everyone,", "role": "other", "id": "a" },
+      { "t": "are you interested", "role": "verb", "id": "v" },
+      { "t": "in Korean culture?", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "everyone", "role": "other", "id": "a" },
+      { "t": "Korea culture-in", "role": "other", "id": "t" },
+      { "t": "interest-[subj] exists?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여러분,", "role": "other", "id": "a" },
+      { "t": "한국 문화에", "role": "other", "id": "t" },
+      { "t": "관심이 있어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeoreobun, hanguk munhwae gwansimi isseoyo?",
+    "wordIds": ["w_yeoreobun", "w_hanguk", "w_munhwa", "w_gwansim", "w_itda"],
+    "note": "여러분 — the room-addressing word — opening a teacher's question built from M26's 문화 and M24's 관심. Interest attaches with 에; existence measures it, as always."
+  },
+  {
+    "id": "s27_professor_hanja",
+    "en": [
+      { "t": "The professor", "role": "subject", "id": "s" },
+      { "t": "explained", "role": "verb", "id": "v" },
+      { "t": "the hanja", "role": "object", "id": "o" },
+      { "t": "for us", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "professor-[hon]-[subj]", "role": "subject", "id": "s" },
+      { "t": "hanja-[obj]", "role": "object", "id": "o" },
+      { "t": "explain-give-[hon]-did", "role": "verb", "id": "v" },
+      { "t": "", "role": "other", "id": "b" }
+    ],
+    "ko": [
+      { "t": "교수님이", "role": "subject", "id": "s" },
+      { "t": "한자를", "role": "object", "id": "o" },
+      { "t": "설명해 주셨어요", "role": "verb", "id": "v" },
+      { "t": "", "role": "other", "id": "b" }
+    ],
+    "rom": "gyosunimi hanjareul seolmyeonghae jusyeosseoyo",
+    "wordIds": ["w_gyosu", "w_hanja_word", "w_seolmyeonghada", "w_juda"],
+    "note": "Full machinery stack: M24's 설명하다 through M9's do-for-me 주다, wearing M4's honorific -(으)시- (주셨어요) because the professor outranks us. 'For us' vanishes into the verb — Korean folds the favor in."
   }
 ]
