@@ -7812,5 +7812,260 @@
     "rom": "kkeutkkaji yeolsimhi haseyo!",
     "wordIds": ["w_kkeut", "w_yeolsimhi", "w_hada"],
     "note": "끝 — the noun 끝나다 was hiding — with M6's 까지 stretching to it. The sweep's motto, and every 화이팅 (M15's gap deck) in sentence form."
+  },
+  {
+    "id": "s29_really_didnt_know",
+    "en": [
+      { "t": "Really?", "role": "other", "id": "q" },
+      { "t": "I didn't know!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "is-that-so?", "role": "other", "id": "q" },
+      { "t": "didn't-know!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그래요?", "role": "other", "id": "q" },
+      { "t": "몰랐어요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "geuraeyo? mollasseoyo!",
+    "wordIds": ["w_geureota", "w_moreuda"],
+    "note": "그렇다 conjugated is half of Korean listening: 그래요? keeps every story going. 몰랐어요 — M4's 르-irregular in past tense — supplies the surprise."
+  },
+  {
+    "id": "s29_then_tomorrow",
+    "en": [
+      { "t": "Well then,", "role": "other", "id": "a" },
+      { "t": "see you tomorrow!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "then", "role": "other", "id": "a" },
+      { "t": "tomorrow see!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그럼,", "role": "other", "id": "a" },
+      { "t": "내일 봐요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "geureom, naeil bwayo!",
+    "wordIds": ["w_geureom", "w_naeil", "w_boda"],
+    "note": "그럼 — 그러면 through the 준말 shrinker — closing a conversation the way Koreans actually close them. 봐요 as 'see you': M1's 보다, social edition."
+  },
+  {
+    "id": "s29_hard_but_fun",
+    "en": [
+      { "t": "Korean is hard.", "role": "other", "id": "c" },
+      { "t": "But it's fun.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Korean-[topic] is-hard", "role": "other", "id": "c" },
+      { "t": "however is-fun", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국어는 어려워요.", "role": "other", "id": "c" },
+      { "t": "그렇지만 재미있어요.", "role": "verb", "id": "v" }
+    ],
+    "rom": "hangugeoneun eoryeowoyo. geureochiman jaemiisseoyo",
+    "wordIds": ["w_hangugeo", "w_eoryeopda", "w_geureochiman", "w_jaemiitda"],
+    "note": "Every learner's thesis statement, joined by 그렇지만 — the mid-register however between casual 그런데 and written 그러나. All three are 그렇다 in different jackets."
+  },
+  {
+    "id": "s29_winter_but",
+    "en": [
+      { "t": "Winter came.", "role": "other", "id": "c" },
+      { "t": "But it was not cold.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "winter-[subj] came", "role": "other", "id": "c" },
+      { "t": "however cold-not-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울이 왔어요.", "role": "other", "id": "c" },
+      { "t": "그러나 춥지 않았어요.", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeouri wasseoyo. geureona chupji anasseoyo",
+    "wordIds": ["w_gyeoul", "w_geureona", "w_chupda"],
+    "note": "Narration mode: written-register 그러나 with M28's -지 않다 in the past — the voice of every Korean short story. Read it aloud once to feel why nobody SAYS it."
+  },
+  {
+    "id": "s29_nobody_here",
+    "en": [
+      { "t": "Nobody", "role": "subject", "id": "s" },
+      { "t": "is here", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "anyone-even", "role": "subject", "id": "s" },
+      { "t": "not-exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아무도", "role": "subject", "id": "s" },
+      { "t": "없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "amudo eopseoyo",
+    "wordIds": ["w_amu", "w_eopda"],
+    "note": "아무 + M2's 도 + a negative = nobody: Korean builds its empty rooms from any-even-not. 아무것도 몰라요 (I know nothing) runs the same machine over things."
+  },
+  {
+    "id": "s29_dont_worry",
+    "en": [
+      { "t": "Don't", "role": "verb", "id": "v" },
+      { "t": "worry!", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "worry-do", "role": "object", "id": "o" },
+      { "t": "don't!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "걱정하지", "role": "object", "id": "o" },
+      { "t": "마세요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "geokjeonghaji maseyo!",
+    "wordIds": ["w_geokjeong", "w_hada"],
+    "note": "M14's -지 마세요 at its kindest. 걱정 + 하다 makes the verb; the prohibition unmakes the feeling. Said with a pat on the shoulder, nationally."
+  },
+  {
+    "id": "s29_everyone_knows",
+    "en": [
+      { "t": "Everyone", "role": "subject", "id": "s" },
+      { "t": "knows", "role": "verb", "id": "v" },
+      { "t": "that story", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "every person-[subj]", "role": "subject", "id": "s" },
+      { "t": "that story-[obj]", "role": "object", "id": "o" },
+      { "t": "knows", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "모든 사람이", "role": "subject", "id": "s" },
+      { "t": "그 이야기를", "role": "object", "id": "o" },
+      { "t": "알아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "modeun sarami geu iyagireul arayo",
+    "wordIds": ["w_modeun", "w_saram", "w_geu_det", "w_iyagi", "w_alda"],
+    "note": "Two new pointers in one sentence: 모든 (every) and bare 그 doing the-work — THE story, the one we both mean. Rank 9 in the language, legal at last."
+  },
+  {
+    "id": "s29_bad_dream",
+    "en": [
+      { "t": "Because of a bad dream,", "role": "other", "id": "c" },
+      { "t": "I couldn't sleep", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "bad dream because-of", "role": "other", "id": "c" },
+      { "t": "sleep-[obj] couldn't slept", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "나쁜 꿈 때문에", "role": "other", "id": "c" },
+      { "t": "잠을 못 잤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nappeun kkum ttaemune jameul mot jasseoyo",
+    "wordIds": ["w_nappeuda", "w_kkum", "w_ttaemun", "w_jam", "w_jada"],
+    "note": "때문에 assigns the blame, 나쁘다 (finally official) wears M24's badge, and M28's 잠 takes the hit — 잠을 자다, sleeping a sleep, undone by M3's 못."
+  },
+  {
+    "id": "s29_late_taxi",
+    "en": [
+      { "t": "We're late.", "role": "other", "id": "c" },
+      { "t": "So let's take a taxi", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "late-became", "role": "other", "id": "c" },
+      { "t": "so-then taxi-[obj] let's-ride", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "늦었어요.", "role": "other", "id": "c" },
+      { "t": "그러니까 택시를 탑시다", "role": "verb", "id": "v" }
+    ],
+    "rom": "neujeosseoyo. geureonikka taeksireul tapsida",
+    "wordIds": ["w_neutda", "w_geureonikka", "w_taeksi", "w_tada"],
+    "note": "그러니까 — because-it's-so — doing M10's -(으)니까 job between sentences, then M9's -(으)ㅂ시다 proposing the fix. M12's taxi economics, still sound."
+  },
+  {
+    "id": "s29_together_trip",
+    "en": [
+      { "t": "I traveled", "role": "verb", "id": "v" },
+      { "t": "together with friends", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "friend-[plural]-with together", "role": "other", "id": "a" },
+      { "t": "travel-[obj] went", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구들하고 함께", "role": "other", "id": "a" },
+      { "t": "여행을 갔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chingudeulhago hamkke yeohaengeul gasseoyo",
+    "wordIds": ["w_chingu", "w_hamkke", "w_yeohaeng", "w_gada"],
+    "note": "함께 — 같이's ceremony suit — with M27's plural 들 and M2's 하고. Speech would say 같이; the wedding invitation and the anthem say 함께."
+  },
+  {
+    "id": "s29_weather_cham",
+    "en": [
+      { "t": "The weather", "role": "subject", "id": "s" },
+      { "t": "is truly nice!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "weather-[subj]", "role": "subject", "id": "s" },
+      { "t": "truly good-[noticed]!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "날씨가", "role": "subject", "id": "s" },
+      { "t": "참 좋네요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "nalssiga cham jonneyo!",
+    "wordIds": ["w_nalssi", "w_cham", "w_jota"],
+    "note": "참 — the warm truly — with M26's noticing ending: the bench-conversation opener of every Korean park. 좋네요 says 존네요, nasalized per the interlude."
+  },
+  {
+    "id": "s29_favorite_season",
+    "en": [
+      { "t": "Which season", "role": "object", "id": "o" },
+      { "t": "do you like most?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "which season-[obj]", "role": "object", "id": "o" },
+      { "t": "most like?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어느 계절을", "role": "object", "id": "o" },
+      { "t": "가장 좋아해요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoneu gyejeoreul gajang joahaeyo?",
+    "wordIds": ["w_eoneu", "w_gyejeol", "w_gajang", "w_joahada"],
+    "note": "M27's 어느 picking from M11's four seasons, crowned by 가장 — 제일's written twin. Same ladder, dressier rung; the answer is 가을, statistically."
+  },
+  {
+    "id": "s29_already_end",
+    "en": [
+      { "t": "Oh my,", "role": "other", "id": "a" },
+      { "t": "it's already the end!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "oh-dear", "role": "other", "id": "a" },
+      { "t": "already end-is-[noticed]!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아이고,", "role": "other", "id": "a" },
+      { "t": "벌써 끝이네요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "aigo, beolsseo kkeuchineyo!",
+    "wordIds": ["w_aigo", "w_beolsseo", "w_kkeut"],
+    "note": "아이고 earning its keep over M23's 벌써 and M28's 끝, sealed with -네요. 끝이네요 says 끄치네요 — the ㅌ softening before 이, one last sound-interlude exhibit."
+  },
+  {
+    "id": "s29_life_how",
+    "en": [
+      { "t": "How is", "role": "verb", "id": "v" },
+      { "t": "life in Korea?", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "Korea life-[subj]", "role": "subject", "id": "s" },
+      { "t": "how-is?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국 생활이", "role": "subject", "id": "s" },
+      { "t": "어때요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "hanguk saenghwari eottaeyo?",
+    "wordIds": ["w_hanguk", "w_saenghwal", "w_eotteota"],
+    "note": "The question every 외국인 fields weekly, built from 생활 — life as lived — and M24's 어때요. The expected answer opens with 아 and ends with 재미있어요."
   }
 ]
