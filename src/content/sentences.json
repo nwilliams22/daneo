@@ -4296,5 +4296,284 @@
     "rom": "yeonpillo sseuseyo",
     "wordIds": ["w_yeonpil", "w_sseuda"],
     "note": "M6's (으)로 in its tool job — write BY MEANS OF pencil. Exam instructions in four syllables."
+  },
+  {
+    "id": "s16_try_this",
+    "en": [
+      { "t": "Try eating", "role": "verb", "id": "v" },
+      { "t": "this", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "this-thing", "role": "object", "id": "o" },
+      { "t": "eat-try-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이거", "role": "object", "id": "o" },
+      { "t": "먹어 보세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "igeo meogeo boseyo",
+    "wordIds": ["w_igeo", "w_meokda"],
+    "note": "The try-machine: verb-아/어 + 보다 — do it AND SEE. M15 taught 보다 to watch exams; now it watches attempts. Every Korean host says this sentence."
+  },
+  {
+    "id": "s16_try_speak",
+    "en": [
+      { "t": "Try speaking", "role": "verb", "id": "v" },
+      { "t": "in Korean", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "Korean-with", "role": "other", "id": "m" },
+      { "t": "speak-try-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국어로", "role": "other", "id": "m" },
+      { "t": "말해 보세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hangugeoro malhae boseyo",
+    "wordIds": ["w_hangugeo", "w_malhada"],
+    "note": "M6's (으)로 marking the tool — the tool is the language. The try-flavor is what makes it kind: no stakes, just see how it goes."
+  },
+  {
+    "id": "s16_try_memorize",
+    "en": [
+      { "t": "Try memorizing", "role": "verb", "id": "v" },
+      { "t": "new words", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "new word-[obj]", "role": "object", "id": "o" },
+      { "t": "memorize-try-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새 단어를", "role": "object", "id": "o" },
+      { "t": "외워 보세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sae daneoreul oewo boseyo",
+    "wordIds": ["w_sae", "w_daneo", "w_oeuda"],
+    "note": "M15's 외우다 through the try-machine, carrying M13's 새 — the app's daily request, now in the app's own language."
+  },
+  {
+    "id": "s16_commute",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "work at", "role": "verb", "id": "v" },
+      { "t": "a company", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "I-[as for]", "role": "subject", "id": "s" },
+      { "t": "company-to", "role": "place", "id": "p" },
+      { "t": "attend", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "회사에", "role": "place", "id": "p" },
+      { "t": "다녀요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun hoesae danyeoyo",
+    "wordIds": ["w_jeo", "w_hoesa", "w_danida"],
+    "note": "다니다 — the enrolled-going verb. 가다 is one trip; 다니다 says the place expects you back. Works for 학교, 학원, 교회, gyms you pay for and visit twice."
+  },
+  {
+    "id": "s16_leave_six",
+    "en": [
+      { "t": "I get off work", "role": "verb", "id": "v" },
+      { "t": "at six", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "six o'clock-at", "role": "other", "id": "t" },
+      { "t": "leave-work", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여섯 시에", "role": "other", "id": "t" },
+      { "t": "퇴근해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeoseot sie toegeunhaeyo",
+    "wordIds": ["w_yeoseot", "w_c_si", "w_toegeunhada"],
+    "note": "M5's native-number clock scheduling the day's sweetest verb. The 근-family tells the whole workday: 출근, 퇴근, 야근."
+  },
+  {
+    "id": "s16_overtime_tired",
+    "en": [
+      { "t": "I worked late yesterday, so", "role": "other", "id": "c" },
+      { "t": "I'm tired", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "yesterday night-worked-because", "role": "other", "id": "c" },
+      { "t": "am-tired", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제 야근해서", "role": "other", "id": "c" },
+      { "t": "피곤해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje yageunhaeseo pigonhaeyo",
+    "wordIds": ["w_eoje", "w_yageunhada", "w_pigonhada"],
+    "note": "M10's -아/어서 filing the honest report. The gap deck's 월화수목금금금 explains the schedule that makes this sentence so common."
+  },
+  {
+    "id": "s16_meeting_ontime",
+    "en": [
+      { "t": "Today's meeting", "role": "subject", "id": "s" },
+      { "t": "is important.", "role": "verb", "id": "v1" },
+      { "t": "Don't be late", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "today meeting-[as for]", "role": "subject", "id": "s" },
+      { "t": "is-important.", "role": "verb", "id": "v1" },
+      { "t": "be-late-don't-please", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "오늘 회의는", "role": "subject", "id": "s" },
+      { "t": "중요해요.", "role": "verb", "id": "v1" },
+      { "t": "지각하지 마세요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "oneul hoeuineun jungyohaeyo. jigakhaji maseyo",
+    "wordIds": ["w_oneul", "w_hoeui", "w_jungyohada", "w_jigakhada"],
+    "note": "M14's don't-machine meets the office's sternest verb — 지각 is lateness as an official offense, not just M8's casual 늦다."
+  },
+  {
+    "id": "s16_email_docs",
+    "en": [
+      { "t": "I sent", "role": "verb", "id": "v" },
+      { "t": "the documents", "role": "object", "id": "o" },
+      { "t": "by email", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "document-[obj]", "role": "object", "id": "o" },
+      { "t": "email-by", "role": "other", "id": "m" },
+      { "t": "sent", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서류를", "role": "object", "id": "o" },
+      { "t": "이메일로", "role": "other", "id": "m" },
+      { "t": "보냈어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoryureul imeillo bonaesseoyo",
+    "wordIds": ["w_seoryu", "w_imeil", "w_bonaeda"],
+    "note": "M6's (으)로 in its by-means-of job again — pencil, language, email; the particle doesn't care what the tool is."
+  },
+  {
+    "id": "s16_sibling_start",
+    "en": [
+      { "t": "My little sibling", "role": "subject", "id": "s" },
+      { "t": "started working", "role": "verb", "id": "v" },
+      { "t": "at a company", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "little-sibling-[as for]", "role": "subject", "id": "s" },
+      { "t": "company-at working", "role": "place", "id": "p" },
+      { "t": "started", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생은", "role": "subject", "id": "s" },
+      { "t": "회사에서 일하기", "role": "place", "id": "p" },
+      { "t": "시작했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengeun hoesaeseo ilhagi sijakhaesseoyo",
+    "wordIds": ["w_dongsaeng", "w_hoesa", "w_ilhada", "w_sijakhada"],
+    "note": "M15's start-machine on M2's oldest verb — first job energy. Family news travels in exactly this sentence shape."
+  },
+  {
+    "id": "s16_mistake_okay",
+    "en": [
+      { "t": "I made a mistake.", "role": "verb", "id": "v1" },
+      { "t": "But", "role": "other", "id": "c" },
+      { "t": "it's okay", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "made-mistake.", "role": "verb", "id": "v1" },
+      { "t": "but", "role": "other", "id": "c" },
+      { "t": "is-okay", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "실수했어요.", "role": "verb", "id": "v1" },
+      { "t": "하지만", "role": "other", "id": "c" },
+      { "t": "괜찮아요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "silsuhaesseoyo. hajiman gwaenchanayo",
+    "wordIds": ["w_silsuhada", "w_hajiman", "w_gwaenchanta"],
+    "note": "M15's 틀리다 is wrong answers; 실수 is wrong actions — and M7's 괜찮아요 still absorbs both. The healthiest sentence in the module."
+  },
+  {
+    "id": "s16_earn_spend",
+    "en": [
+      { "t": "I earn", "role": "verb", "id": "v1" },
+      { "t": "money.", "role": "object", "id": "o" },
+      { "t": "And", "role": "other", "id": "c" },
+      { "t": "I spend it", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "money-[obj]", "role": "object", "id": "o" },
+      { "t": "earn.", "role": "verb", "id": "v1" },
+      { "t": "and", "role": "other", "id": "c" },
+      { "t": "spend", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "돈을", "role": "object", "id": "o" },
+      { "t": "벌어요.", "role": "verb", "id": "v1" },
+      { "t": "그리고", "role": "other", "id": "c" },
+      { "t": "써요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "doneul beoreoyo. geurigo sseoyo",
+    "wordIds": ["w_don", "w_beolda", "w_geurigo", "w_sseuda"],
+    "note": "쓰다's job collection grows again: write (연필로 쓰세요), use, and now spend. One ㅡ-drop verb, three careers. The sentence is also just true."
+  },
+  {
+    "id": "s16_no_copy",
+    "en": [
+      { "t": "Don't photocopy", "role": "verb", "id": "v" },
+      { "t": "the textbook", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "textbook-[obj]", "role": "object", "id": "o" },
+      { "t": "copy-don't-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "교과서를", "role": "object", "id": "o" },
+      { "t": "복사하지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyogwaseoreul boksahaji maseyo",
+    "wordIds": ["w_gyogwaseo", "w_boksahada"],
+    "note": "M14's don't-machine, M15's textbook, this module's copier — three modules, one copyright notice."
+  },
+  {
+    "id": "s16_busy_month",
+    "en": [
+      { "t": "This month", "role": "subject", "id": "s" },
+      { "t": "is very", "role": "other", "id": "a" },
+      { "t": "busy", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this month-[as for]", "role": "subject", "id": "s" },
+      { "t": "very", "role": "other", "id": "a" },
+      { "t": "is-busy", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이번 달은", "role": "subject", "id": "s" },
+      { "t": "아주", "role": "other", "id": "a" },
+      { "t": "바빠요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ibeon dareun aju bappayo",
+    "wordIds": ["w_ibeon", "w_dal", "w_aju", "w_bappeuda"],
+    "note": "이번 + 달: this-turn's month. M4's ㅡ-drop 바쁘다 doing what it does most — 바빠요, said with a sigh."
+  },
+  {
+    "id": "s16_vacation_next",
+    "en": [
+      { "t": "The business trip ended.", "role": "verb", "id": "v1" },
+      { "t": "Now", "role": "other", "id": "t" },
+      { "t": "it's vacation", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "business-trip-[subj] ended.", "role": "verb", "id": "v1" },
+      { "t": "now", "role": "other", "id": "t" },
+      { "t": "vacation-is", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "출장이 끝났어요.", "role": "verb", "id": "v1" },
+      { "t": "지금은", "role": "other", "id": "t" },
+      { "t": "휴가예요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "chuljangi kkeunnasseoyo. jigeumeun hyugayeyo",
+    "wordIds": ["w_chuljang", "w_kkeunnada", "w_jigeum", "w_hyuga"],
+    "note": "끝나다 — it ended by itself (compare 끝내다, where you end it). M11's 휴가 as the reward, with contrast-은 marking the turn: NOW, vacation. Fun fact: the first draft of this sentence was rejected by the app's own no-repeats validator — 다음 주부터 휴가예요 already exists in Module 11."
   }
 ]

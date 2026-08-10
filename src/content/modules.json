@@ -376,5 +376,31 @@
       "s15_test_well", "s15_math_fun", "s15_start_tomorrow",
       "s15_eyes_book", "s15_pencil_write"
     ]
+  },
+  {
+    "id": "m16",
+    "title": "Work and the Office",
+    "order": 19,
+    "contentMd": "modules/module-16.md",
+    "wordIds": [
+      "w_samusil", "w_hoeuisil", "w_jigeop", "w_jigwon",
+      "w_dongnyo", "w_tim", "w_bujangnim",
+      "w_gyeongchal", "w_gija", "w_byeonhosa",
+      "w_myeongham", "w_seoryu", "w_imeil", "w_wolgeup",
+      "w_chuljang", "w_hoesik", "w_pyeongil", "w_ibeon", "w_dal",
+      "w_igeo", "w_geugeo", "w_jeogeo",
+      "w_danida", "w_chulgeunhada", "w_toegeunhada", "w_yageunhada",
+      "w_bonaeda", "w_butakhada", "w_kkeunnaeda", "w_beolda",
+      "w_sogaehada", "w_boksahada", "w_jigakhada", "w_silsuhada",
+      "w_balpyohada", "w_geumanduda",
+      "w_jungyohada", "w_piryohada"
+    ],
+    "sentenceIds": [
+      "s16_try_this", "s16_try_speak", "s16_try_memorize",
+      "s16_commute", "s16_leave_six", "s16_overtime_tired",
+      "s16_meeting_ontime", "s16_email_docs", "s16_sibling_start",
+      "s16_mistake_okay", "s16_earn_spend", "s16_no_copy",
+      "s16_busy_month", "s16_vacation_next"
+    ]
   }
 ]

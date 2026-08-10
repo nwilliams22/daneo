@@ -752,5 +752,81 @@
 
   { "id": "w_geeureuda", "ko": "게으르다", "rom": "geeureuda", "en": "to be lazy", "pos": "adj", "moduleId": "m15", "notes": "부지런하다's shadow. 르-family: 게을러요 — lazy even in conjugation, dropping letters." },
 
-  { "id": "w_himdeulda", "ko": "힘들다", "rom": "himdeulda", "en": "to be tough / exhausting", "pos": "adj", "moduleId": "m15", "notes": "힘 (M14's energy) + 들다 (costs): something that takes your strength. 힘들어요 — the honest answer to how studying is going." }
+  { "id": "w_himdeulda", "ko": "힘들다", "rom": "himdeulda", "en": "to be tough / exhausting", "pos": "adj", "moduleId": "m15", "notes": "힘 (M14's energy) + 들다 (costs): something that takes your strength. 힘들어요 — the honest answer to how studying is going." },
+
+  { "id": "w_samusil", "ko": "사무실", "rom": "samusil", "en": "office (room)", "pos": "noun", "moduleId": "m16", "notes": "사무 (office work) + 실 — the room-실 family (교실, 침실, 거실…) clocks in." },
+
+  { "id": "w_hoeuisil", "ko": "회의실", "rom": "hoeuisil", "en": "meeting room", "pos": "noun", "moduleId": "m16", "notes": "M10's 회의 + 실. By now you can name any room in the building." },
+
+  { "id": "w_jigeop", "ko": "직업", "rom": "jigeop", "en": "job / occupation", "pos": "noun", "moduleId": "m16", "notes": "무슨 직업이에요? — M10's 무슨 asking the small-talk classic." },
+
+  { "id": "w_jigwon", "ko": "직원", "rom": "jigwon", "en": "employee / staff", "pos": "noun", "moduleId": "m16", "notes": "직 (duty) + 원 (member — the one in 회사원). Also who you call over in any shop: 직원." },
+
+  { "id": "w_dongnyo", "ko": "동료", "rom": "dongnyo", "en": "colleague", "pos": "noun", "moduleId": "m16" },
+
+  { "id": "w_tim", "ko": "팀", "rom": "tim", "en": "team", "pos": "noun", "moduleId": "m16", "notes": "Konglish. 우리 팀 — M4's warm 우리 extends to the office." },
+
+  { "id": "w_bujangnim", "ko": "부장님", "rom": "bujangnim", "en": "department head", "pos": "noun", "moduleId": "m16", "notes": "The title ladder in one office: 사장님 above, 부장님 mid-floor — always with 님, never a bare name. M12's title system pays rent here." },
+
+  { "id": "w_gyeongchal", "ko": "경찰", "rom": "gyeongchal", "en": "police officer", "pos": "noun", "moduleId": "m16" },
+
+  { "id": "w_gija", "ko": "기자", "rom": "gija", "en": "reporter", "pos": "noun", "moduleId": "m16", "notes": "기 (record) + 자 (person). The 기 of 일기 (diary) and, yes, 기차 tickets — busy syllable." },
+
+  { "id": "w_byeonhosa", "ko": "변호사", "rom": "byeonhosa", "en": "lawyer", "pos": "noun", "moduleId": "m16", "notes": "The job-사 family grows: 요리사, 간호사, 변호사. Hear -사 at a job's end and you can guess the shape." },
+
+  { "id": "w_myeongham", "ko": "명함", "rom": "myeongham", "en": "business card", "pos": "noun", "moduleId": "m16", "notes": "Received with two hands, read carefully, placed on the table — never pocketed unread. The card IS the person; treat it accordingly." },
+
+  { "id": "w_seoryu", "ko": "서류", "rom": "seoryu", "en": "documents / paperwork", "pos": "noun", "moduleId": "m16" },
+
+  { "id": "w_imeil", "ko": "이메일", "rom": "imeil", "en": "email", "pos": "noun", "moduleId": "m16", "notes": "Konglish. 메일 alone also works — Korean rarely means postal mail by it." },
+
+  { "id": "w_wolgeup", "ko": "월급", "rom": "wolgeup", "en": "salary", "pos": "noun", "moduleId": "m16", "notes": "월 (month — the one starting 월요일) + 급 (pay): month-pay. 월급날 — payday — is a small national holiday." },
+
+  { "id": "w_chuljang", "ko": "출장", "rom": "chuljang", "en": "business trip", "pos": "noun", "moduleId": "m16", "notes": "출 (out — the one in 출구 and 출발) + 장. Going out on duty." },
+
+  { "id": "w_hoesik", "ko": "회식", "rom": "hoesik", "en": "company dinner", "pos": "noun", "moduleId": "m16", "notes": "회 (gather — 회사/회의's 회) + 식 (eat — 식당's 식): the after-hours team dinner that is officially optional and practically not. Round two is 노래방." },
+
+  { "id": "w_pyeongil", "ko": "평일", "rom": "pyeongil", "en": "weekday", "pos": "noun", "moduleId": "m16", "notes": "평 (ordinary) + 일 (day): M2's 주말 finally gets its opposite." },
+
+  { "id": "w_ibeon", "ko": "이번", "rom": "ibeon", "en": "this (time / week / month)", "pos": "noun", "moduleId": "m16", "notes": "이번 주, 이번 달, 이번 회의 — 'this current one.' M12's 번 (number/turn) behind it: this-turn." },
+
+  { "id": "w_dal", "ko": "달", "rom": "dal", "en": "month / the moon", "pos": "noun", "moduleId": "m16", "notes": "The native month — 이번 달, 다음 달 — and also the moon in the sky. One 달 orbits, the other invoices." },
+
+  { "id": "w_igeo", "ko": "이거", "rom": "igeo", "en": "this (thing)", "pos": "noun", "moduleId": "m16", "notes": "M6 gave you here/there/over-there for PLACES — 이거/그거/저거 is the same trio for THINGS. 이거 주세요 has been waiting since M9." },
+
+  { "id": "w_geugeo", "ko": "그거", "rom": "geugeo", "en": "that (thing, near you)", "pos": "noun", "moduleId": "m16", "notes": "그 = near the listener, like 거기. 그거 뭐예요? — what's that you've got?" },
+
+  { "id": "w_jeogeo", "ko": "저거", "rom": "jeogeo", "en": "that (thing, over there)", "pos": "noun", "moduleId": "m16", "notes": "저 = far from both, like 저기. Point across the room: 저거." },
+
+  { "id": "w_danida", "ko": "다니다", "rom": "danida", "en": "to attend / go regularly", "pos": "verb", "moduleId": "m16", "notes": "The enrolled-going verb: 회사에 다녀요, 학교에 다녀요, 학원에 다녀요. 가다 is one trip; 다니다 is a routine with your name on it." },
+
+  { "id": "w_chulgeunhada", "ko": "출근하다", "rom": "chulgeunhada", "en": "to go to work", "pos": "verb", "moduleId": "m16", "notes": "출 (out) + 근 (duty): heading out to duty. Said 출그나다? No — 출근해요, straightforward." },
+
+  { "id": "w_toegeunhada", "ko": "퇴근하다", "rom": "toegeunhada", "en": "to get off work", "pos": "verb", "moduleId": "m16", "notes": "퇴 (retreat) + 근 (duty): the day's sweetest verb. 퇴근했어요? doubles as evening small talk." },
+
+  { "id": "w_yageunhada", "ko": "야근하다", "rom": "yageunhada", "en": "to work overtime (at night)", "pos": "verb", "moduleId": "m16", "notes": "야 (night) + 근 (duty). The 근-family tells the whole workday: 출근, 퇴근, and when things go wrong, 야근." },
+
+  { "id": "w_bonaeda", "ko": "보내다", "rom": "bonaeda", "en": "to send", "pos": "verb", "moduleId": "m16", "notes": "Email, packages, texts, people to the airport — and time: 주말 잘 보내세요, 'send your weekend well.'" },
+
+  { "id": "w_butakhada", "ko": "부탁하다", "rom": "butakhada", "en": "to ask a favor", "pos": "verb", "moduleId": "m16", "notes": "부탁 is the favor itself. 부탁해요 — please do this for me; 잘 부탁드립니다 — the formal 'I'm in your hands' that opens every working relationship in Korea." },
+
+  { "id": "w_kkeunnaeda", "ko": "끝내다", "rom": "kkeunnaeda", "en": "to finish (something)", "pos": "verb", "moduleId": "m16", "notes": "M8's 끝나다 is 'it ends'; 끝내다 is 'I end it.' One vowel of agency: 일이 끝났어요 vs 일을 끝냈어요." },
+
+  { "id": "w_beolda", "ko": "벌다", "rom": "beolda", "en": "to earn (money)", "pos": "verb", "moduleId": "m16", "notes": "돈을 벌다 — the reason for all the 근-verbs above." },
+
+  { "id": "w_sogaehada", "ko": "소개하다", "rom": "sogaehada", "en": "to introduce", "pos": "verb", "moduleId": "m16", "notes": "People, restaurants, yourself: 제 소개를 하겠습니다 opens a thousand first meetings. 소개해 주세요 — set me up (also, famously, with dates)." },
+
+  { "id": "w_boksahada", "ko": "복사하다", "rom": "boksahada", "en": "to copy / photocopy", "pos": "verb", "moduleId": "m16", "notes": "복사기 — the copy machine — adds M15's tool logic to the 기 of 세탁기." },
+
+  { "id": "w_jigakhada", "ko": "지각하다", "rom": "jigakhada", "en": "to be late (for work / school)", "pos": "verb", "moduleId": "m16", "notes": "M8's 늦다 is late in general; 지각 is the official offense, recorded and frowned upon. 지각하지 마세요." },
+
+  { "id": "w_silsuhada", "ko": "실수하다", "rom": "silsuhada", "en": "to make a mistake", "pos": "verb", "moduleId": "m16", "notes": "M15's 틀리다 is wrong answers; 실수 is wrong actions. 실수했어요 — own it, then move on." },
+
+  { "id": "w_balpyohada", "ko": "발표하다", "rom": "balpyohada", "en": "to present / announce", "pos": "verb", "moduleId": "m16", "notes": "발표 = the presentation. Feared equally in 교실 and 회의실." },
+
+  { "id": "w_geumanduda", "ko": "그만두다", "rom": "geumanduda", "en": "to quit", "pos": "verb", "moduleId": "m16", "notes": "일을 그만뒀어요 — I quit my job. 그만! alone means 'stop it!' — parents' favorite syllables." },
+
+  { "id": "w_jungyohada", "ko": "중요하다", "rom": "jungyohada", "en": "to be important", "pos": "adj", "moduleId": "m16", "notes": "중요한 것? Coming in M17. For now: 회의가 중요해요." },
+
+  { "id": "w_piryohada", "ko": "필요하다", "rom": "piryohada", "en": "to be needed", "pos": "adj", "moduleId": "m16", "notes": "Korean needs backwards: 돈이 필요해요 — 'money is needed (to me).' The wanter takes a back seat, 있어요-style." }
 ]
