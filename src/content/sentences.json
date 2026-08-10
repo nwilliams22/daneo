@@ -6450,5 +6450,269 @@
     "rom": "geoui da wasseoyo",
     "wordIds": ["w_geoui", "w_da", "w_oda"],
     "note": "Literally 'almost all came' — arrival measured by the coming already done. The sentence every backseat wants and every driver stretches."
+  },
+  {
+    "id": "s24_good_idea",
+    "en": [
+      { "t": "A good", "role": "other", "id": "m" },
+      { "t": "idea!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "good-[turned]", "role": "other", "id": "m" },
+      { "t": "thought-it-is!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "좋은", "role": "other", "id": "m" },
+      { "t": "생각이에요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "joeun saenggagieyo",
+    "wordIds": ["w_jota", "w_saenggakhada"],
+    "note": "The IOU from M10's 생각하다 note, paid in full: 좋다 wears the badge and parks in front of the noun. 좋은 said 조은 — the ㅎ vanishing per the sound interlude."
+  },
+  {
+    "id": "s24_cafe_often",
+    "en": [
+      { "t": "It's the cafe", "role": "verb", "id": "v" },
+      { "t": "I go to often", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "often go-[turned]", "role": "other", "id": "m" },
+      { "t": "cafe-it-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "자주 가는", "role": "other", "id": "m" },
+      { "t": "카페예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jaju ganeun kapeyeyo",
+    "wordIds": ["w_jaju", "w_gada", "w_kape"],
+    "note": "A verb clause parked before a noun: 자주 가는 카페 — 'the often-go cafe.' No 'that I' anywhere; the -는 badge IS the relative pronoun."
+  },
+  {
+    "id": "s24_favorite_song",
+    "en": [
+      { "t": "It's the song", "role": "verb", "id": "v" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "like the most", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "I-[subj]", "role": "subject", "id": "s" },
+      { "t": "most like-[turned]", "role": "other", "id": "m" },
+      { "t": "song-it-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제가", "role": "subject", "id": "s" },
+      { "t": "제일 좋아하는", "role": "other", "id": "m" },
+      { "t": "노래예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jega jeil joahaneun noraeyeyo",
+    "wordIds": ["w_jeo", "w_jeil", "w_joahada", "w_norae"],
+    "note": "A whole clause — subject, M22's 제일, verb — wearing one badge. Introductions to songs, foods, and people all run on this shape."
+  },
+  {
+    "id": "s24_kind_best",
+    "en": [
+      { "t": "People", "role": "subject", "id": "s" },
+      { "t": "with kind hearts", "role": "other", "id": "m" },
+      { "t": "are the best", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "heart-[subj] kind-[turned]", "role": "other", "id": "m" },
+      { "t": "person-[subj]", "role": "subject", "id": "s" },
+      { "t": "the-best-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "마음이 착한", "role": "other", "id": "m" },
+      { "t": "사람이", "role": "subject", "id": "s" },
+      { "t": "최고예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "maeumi chakhan sarami choegoyeyo",
+    "wordIds": ["w_maeum", "w_chakhada", "w_saram", "w_choego"],
+    "note": "The module's power move: 마음이 착한 — 'heart-is-kind' — a full subject-verb clause turned adjective. Korean has no who/that/which; the badge does it all. M19's 마음 meets M19's 최고."
+  },
+  {
+    "id": "s24_tourist_places",
+    "en": [
+      { "t": "Places", "role": "subject", "id": "s" },
+      { "t": "with many tourists", "role": "other", "id": "m" },
+      { "t": "are always crowded", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "tourist-[subj] many-[turned]", "role": "other", "id": "m" },
+      { "t": "place-[topic]", "role": "subject", "id": "s" },
+      { "t": "always is-crowded", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "관광객이 많은", "role": "other", "id": "m" },
+      { "t": "곳은", "role": "subject", "id": "s" },
+      { "t": "항상 복잡해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gwangwanggaegi maneun goseun hangsang bokjaphaeyo",
+    "wordIds": ["w_gwangwanggaek", "w_manta", "w_got_place", "w_hangsang", "w_bokjaphada"],
+    "note": "M23's tourists meet the badge: 관광객이 많은 곳 — 'a tourists-are-many place.' 곳's own M12 note promised this parse; delivered."
+  },
+  {
+    "id": "s24_souvenir_bought",
+    "en": [
+      { "t": "It's a souvenir", "role": "verb", "id": "v" },
+      { "t": "I bought on my trip", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "trip-at bought-[turned]", "role": "other", "id": "m" },
+      { "t": "souvenir-it-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여행에서 산", "role": "other", "id": "m" },
+      { "t": "기념품이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeohaengeseo san ginyeompumieyo",
+    "wordIds": ["w_yeohaeng", "w_sada", "w_ginyeompum"],
+    "note": "The past badge on M9's 사다: 산 — one syllable carrying a whole backstory. (Not the mountain 산 — the homograph radar stays on.) M23's memory-goods, modified."
+  },
+  {
+    "id": "s24_just_ask",
+    "en": [
+      { "t": "If you don't know,", "role": "other", "id": "c" },
+      { "t": "just ask", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "not-know-if", "role": "other", "id": "c" },
+      { "t": "ask-if it-works", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "모르면", "role": "other", "id": "c" },
+      { "t": "물어보면 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "moreumyeon mureobomyeon dwaeyo",
+    "wordIds": ["w_moreuda", "w_mureoboda", "w_doeda"],
+    "note": "M23's just-do-X machine at double -면: if-you-don't-know, ask-and-it's-fine. The learner's licence, notarized. 혹시 몰라서 — just in case — is its cousin."
+  },
+  {
+    "id": "s24_dont_believe",
+    "en": [
+      { "t": "Don't believe", "role": "verb", "id": "v" },
+      { "t": "that kind of story", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "that-kind story-[obj]", "role": "object", "id": "o" },
+      { "t": "believe-don't", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그런 이야기를", "role": "object", "id": "o" },
+      { "t": "믿지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geureon iyagireul mitji maseyo",
+    "wordIds": ["w_geureon", "w_iyagi", "w_mitda"],
+    "note": "그런 — 그렇다 with the badge — meets M14's -지 마세요. And M7's 그런데 stands revealed: 그런 + 데, 'that kind of situation, and…'"
+  },
+  {
+    "id": "s24_exactly_same",
+    "en": [
+      { "t": "We", "role": "subject", "id": "s" },
+      { "t": "think", "role": "other", "id": "t" },
+      { "t": "exactly the same", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "we-[topic]", "role": "subject", "id": "s" },
+      { "t": "thought-[subj]", "role": "other", "id": "t" },
+      { "t": "is-identical", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리는", "role": "subject", "id": "s" },
+      { "t": "생각이", "role": "other", "id": "t" },
+      { "t": "똑같아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "urineun saenggagi ttokgatayo",
+    "wordIds": ["w_uri", "w_saenggakhada", "w_ttokgatda"],
+    "note": "The double-subject trick: as-for-us, thoughts-are-identical. 똑 — the 'exactly' of M23's 똑바로 and the knock of M15's 똑똑하다 — bolted onto 같다."
+  },
+  {
+    "id": "s24_actually_different",
+    "en": [
+      { "t": "Actually,", "role": "other", "id": "t" },
+      { "t": "it's a little different", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "fact-[topic]", "role": "other", "id": "t" },
+      { "t": "a-little is-different", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사실은", "role": "other", "id": "t" },
+      { "t": "조금 달라요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sasireun jogeum dallayo",
+    "wordIds": ["w_sasil", "w_jogeum", "w_dareuda"],
+    "note": "사실 topic-marked shifts into confession gear. 달라요 is 다르다 in 르-family dress — the 몰라요/빨라요/불러요 shape gains its most-argued member."
+  },
+  {
+    "id": "s24_what_music",
+    "en": [
+      { "t": "What kind of music", "role": "object", "id": "o" },
+      { "t": "do you listen to?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "what-kind music-[obj]", "role": "object", "id": "o" },
+      { "t": "listen?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어떤 음악을", "role": "object", "id": "o" },
+      { "t": "들어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "eotteon eumageul deureoyo",
+    "wordIds": ["w_eotteon", "w_eumak", "w_deutda"],
+    "note": "어떤 — 어떻다 wearing the badge — asks for a KIND, not a name. 들어요: M2's ㄷ-irregular, still flipping after 22 modules."
+  },
+  {
+    "id": "s24_curious",
+    "en": [
+      { "t": "I have", "role": "verb", "id": "v" },
+      { "t": "something I'm curious about", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "curious-[turned] thing-[subj]", "role": "subject", "id": "s" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "궁금한 것이", "role": "subject", "id": "s" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gunggeumhan geosi isseoyo",
+    "wordIds": ["w_gunggeumhada", "w_itda"],
+    "note": "The politest way to raise a hand: a curious thing exists. New badge + M17's 것 + the 있다-chassis — every part already owned."
+  },
+  {
+    "id": "s24_movie_how",
+    "en": [
+      { "t": "How was", "role": "verb", "id": "v" },
+      { "t": "the movie you saw yesterday?", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "yesterday saw-[turned] movie", "role": "subject", "id": "s" },
+      { "t": "how-was?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제 본 영화", "role": "subject", "id": "s" },
+      { "t": "어땠어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje bon yeonghwa eottaesseoyo",
+    "wordIds": ["w_eoje", "w_boda", "w_yeonghwa", "w_eotteota"],
+    "note": "Two exhibits in one: 본 (the past badge on M1's 보다) and 어땠어요 (어떻다 in past tense). Casual speech drops the particle after 영화 — questions move fast."
+  },
+  {
+    "id": "s24_why_just",
+    "en": [
+      { "t": "Why do you like it?", "role": "other", "id": "q" },
+      { "t": "I just do.", "role": "verb", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "why like?", "role": "other", "id": "q" },
+      { "t": "just like", "role": "verb", "id": "a" }
+    ],
+    "ko": [
+      { "t": "왜 좋아해요?", "role": "other", "id": "q" },
+      { "t": "그냥 좋아해요", "role": "verb", "id": "a" }
+    ],
+    "rom": "wae joahaeyo? geunyang joahaeyo",
+    "wordIds": ["w_wae", "w_joahada", "w_geunyang"],
+    "note": "The national why-deflector, straight from the gap deck's oldest resident: sometimes there is no reason, and Korean has one word for saying so politely."
   }
 ]

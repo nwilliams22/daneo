@@ -1362,5 +1362,81 @@
 
   { "id": "w_beolsseo", "ko": "벌써", "rom": "beolsseo", "en": "already", "pos": "noun", "moduleId": "m23", "notes": "벌써 도착했어요? — here already? M14's 아직 (not yet) finally gets its opposite. Time flies; 벌써 is how Korean gasps about it." },
 
-  { "id": "w_geoui", "ko": "거의", "rom": "geoui", "en": "almost", "pos": "noun", "moduleId": "m23", "notes": "거의 다 왔어요 — almost there: the sentence every backseat wants and every driver stretches." }
+  { "id": "w_geoui", "ko": "거의", "rom": "geoui", "en": "almost", "pos": "noun", "moduleId": "m23", "notes": "거의 다 왔어요 — almost there: the sentence every backseat wants and every driver stretches." },
+
+  { "id": "w_uigyeon", "ko": "의견", "rom": "uigyeon", "en": "opinion", "pos": "noun", "moduleId": "m24", "notes": "A thought-view. 의견이 있어요? — any opinions? — opens the discussion; 좋은 의견이에요 approves one. Both run on this module's machinery." },
+
+  { "id": "w_iyu", "ko": "이유", "rom": "iyu", "en": "reason", "pos": "noun", "moduleId": "m24", "notes": "이유가 뭐예요? — what's the reason? The polite way to ask M10's 왜 after the fact. The answer, half the time: 그냥." },
+
+  { "id": "w_sasil", "ko": "사실", "rom": "sasil", "en": "fact / actually", "pos": "noun", "moduleId": "m24", "notes": "The noun is a fact; topic-marked — 사실은… — it shifts into confession gear: 'actually…'. Korean signals truth-telling before telling it." },
+
+  { "id": "w_nyuseu", "ko": "뉴스", "rom": "nyuseu", "en": "news", "pos": "noun", "moduleId": "m24", "notes": "Konglish — M8's 신문 on a screen. 뉴스에서 봤어요 (saw it on the news) is how 소문 gets promoted to fact." },
+
+  { "id": "w_somun", "ko": "소문", "rom": "somun", "en": "rumor", "pos": "noun", "moduleId": "m24", "notes": "Things-heard: the 문 of M8's 신문 (new-hearings), minus the fact-checking. 소문 들었어요? — did you hear? — travels faster than 뉴스." },
+
+  { "id": "w_iyagi", "ko": "이야기", "rom": "iyagi", "en": "story / talk", "pos": "noun", "moduleId": "m24", "notes": "The noun inside M10's 이야기하다, standing alone at last: a story, a talk, a topic. 옛날이야기 — an old-days story — is Korean for fairy tale. Shortens to 얘기 in speech." },
+
+  { "id": "w_daehwa", "ko": "대화", "rom": "daehwa", "en": "conversation", "pos": "noun", "moduleId": "m24", "notes": "대 (facing) + 화 (speech — 전화's 화): face-to-face speech, the thing M20's phones keep interrupting. 대화가 필요해요 — we need to talk — four syllables of dread." },
+
+  { "id": "w_gwansim", "ko": "관심", "rom": "gwansim", "en": "interest", "pos": "noun", "moduleId": "m24", "notes": "Measured on the 있다-chassis: 관심이 있어요/없어요. 관심 없어요 ends conversations; 관심 있어요 starts them." },
+
+  { "id": "w_jinsim", "ko": "진심", "rom": "jinsim", "en": "sincerity", "pos": "noun", "moduleId": "m24", "notes": "진 (true — 진짜's 진) + 심 (heart): true-heart. 진심이에요? — do you mean it? 진심으로 — from the heart." },
+
+  { "id": "w_ohae", "ko": "오해", "rom": "ohae", "en": "misunderstanding", "pos": "noun", "moduleId": "m24", "notes": "오 (wrong) + 해 (untangle — M10's 이해's 해): understanding, done wrong. 오해하지 마세요 — don't get me wrong — the sentence that always arrives one sentence too late." },
+
+  { "id": "w_bandae", "ko": "반대", "rom": "bandae", "en": "opposite / against", "pos": "noun", "moduleId": "m24", "notes": "반 (flip — not M19's half-반) + 대 (facing — 대화's 대): flipped-facing. 반대예요 — I'm against it. Also plain geometry: 반대쪽, the opposite side, with M23's 쪽." },
+
+  { "id": "w_yennal", "ko": "옛날", "rom": "yennal", "en": "the old days", "pos": "noun", "moduleId": "m24", "notes": "옛 (old) + 날 (day), said 옌날 — the interlude's nasal slide, live. 옛날 옛날에 — 'long, long ago' — is how every 옛날이야기 opens." },
+
+  { "id": "w_eoreun", "ko": "어른", "rom": "eoreun", "en": "adult / elder", "pos": "noun", "moduleId": "m24", "notes": "The person 존댓말 (M19) was invented for. 어른이 되면 — when you become one — the 반말 rules stop being simple." },
+
+  { "id": "w_eotteon", "ko": "어떤", "rom": "eotteon", "en": "what kind of", "pos": "noun", "moduleId": "m24", "notes": "어떻다 wearing this module's badge: what-KIND-of. 어떤 사람이에요? — what are they like? — the question behind every friend-recommendation (성격이 좋아요, M19)." },
+
+  { "id": "w_ireon", "ko": "이런", "rom": "ireon", "en": "this kind of", "pos": "noun", "moduleId": "m24", "notes": "이렇다 + -ㄴ: 이런 날 — a day like this. Alone — 이런! — it's a wince: oh no." },
+
+  { "id": "w_geureon", "ko": "그런", "rom": "geureon", "en": "that kind of", "pos": "noun", "moduleId": "m24", "notes": "그렇다 + -ㄴ — and M7's 그런데 was 그런 + 데 all along: 'that kind of situation, and…'. 그런 사람 아니에요 — I'm not that kind of person." },
+
+  { "id": "w_jeoreon", "ko": "저런", "rom": "jeoreon", "en": "that kind of (over there)", "pos": "noun", "moduleId": "m24", "notes": "The trio completes M6/M16's geometry: this-kind, that-kind, THAT-kind. Alone — 저런! — it's the national sympathy noise: oh dear." },
+
+  { "id": "w_gatda_same", "ko": "같다", "rom": "gatda", "en": "to be the same / be like", "pos": "adj", "moduleId": "m24", "notes": "같아요 — it's the same; 교과서 같아요 (M15) — like a textbook. And the course's oldest adverb decoded: M9's 같이 (together) is 같다's adverb — doing it 'the same.'" },
+
+  { "id": "w_ttokgatda", "ko": "똑같다", "rom": "ttokgatda", "en": "to be exactly the same", "pos": "adj", "moduleId": "m24", "notes": "똑 (exactly — 똑바로's 똑, M23, and the knock of M15's 똑똑하다) + 같다. 똑같아요! — identical! What twins and copied homework are." },
+
+  { "id": "w_dareuda", "ko": "다르다", "rom": "dareuda", "en": "to be different", "pos": "adj", "moduleId": "m24", "notes": "달라요 — 르-family, the 몰라요/빨라요/불러요 shape. Badge form 다른 also means OTHER: 다른 사람 — someone else. Different and other share a word; Korean shrugs." },
+
+  { "id": "w_biseuthada", "ko": "비슷하다", "rom": "biseuthada", "en": "to be similar", "pos": "adj", "moduleId": "m24", "notes": "비슷해요 — the diplomatic middle between 같아요 and 달라요. 비슷한 것 — something similar — is what the shop offers when they don't have it." },
+
+  { "id": "w_eotteota", "ko": "어떻다", "rom": "eotteota", "en": "to be how", "pos": "adj", "moduleId": "m24", "notes": "The question adjective: 어때요? — how is it? 어땠어요? — how was it? (The ㅎ vanishes and the vowels fuse.) Its children run this course: M10's 어떻게 is its adverb, 어떤 its badge form." },
+
+  { "id": "w_gunggeumhada", "ko": "궁금하다", "rom": "gunggeumhada", "en": "to be curious", "pos": "adj", "moduleId": "m24", "notes": "궁금해요 — I wonder. 궁금한 것이 있어요 — I have a question — is what 관심 sounds like when it's polite." },
+
+  { "id": "w_chakhada", "ko": "착하다", "rom": "chakhada", "en": "to be good-hearted", "pos": "adj", "moduleId": "m24", "notes": "착해요. M4's 친절하다 is kind BEHAVIOR; 착하다 is kind NATURE. 착한 사람 — a good soul. The compliment for kids and dogs alike." },
+
+  { "id": "w_isanghada", "ko": "이상하다", "rom": "isanghada", "en": "to be strange", "pos": "adj", "moduleId": "m24", "notes": "이상해요 — that's weird. 이상한 소문 — a strange rumor. The mildest alarm Korean has; often said mid-smile." },
+
+  { "id": "w_teukbyeolhada", "ko": "특별하다", "rom": "teukbyeolhada", "en": "to be special", "pos": "adj", "moduleId": "m24", "notes": "특별해요. 특별한 날 — a special day; M25 is a whole module of them. Restaurant menus charge extra for this adjective." },
+
+  { "id": "w_museopda", "ko": "무섭다", "rom": "museopda", "en": "to be scary / scared", "pos": "adj", "moduleId": "m24", "notes": "무서워요 — ㅂ-family; badge form 무서운, like 매운. Scary AND scared: Korean lets context pick fear's direction. 무서운 이야기 — what 옛날이야기 turns into after dark." },
+
+  { "id": "w_daedanhada", "ko": "대단하다", "rom": "daedanhada", "en": "to be amazing", "pos": "adj", "moduleId": "m24", "notes": "대단해요! — impressive! The all-purpose wow: for marathons, for 매운 것 survivors, for anyone who finished Band 1." },
+
+  { "id": "w_bureopda", "ko": "부럽다", "rom": "bureopda", "en": "to be envious", "pos": "adj", "moduleId": "m24", "notes": "부러워요! — I'm jealous! — said freely and warmly; in Korean, envy is a compliment. ㅂ-family, of course: 부러운." },
+
+  { "id": "w_jeomda", "ko": "젊다", "rom": "jeomda", "en": "to be young (adult)", "pos": "adj", "moduleId": "m24", "notes": "젊어요 — said 절머요, the ㄻ batchim handing its ㅁ across (sound interlude, live exhibit). 젊은 사람 — a young adult. For kids it's M21's 어리다: 어린이 — young-one — is the official word for child." },
+
+  { "id": "w_soljikhada", "ko": "솔직하다", "rom": "soljikhada", "en": "to be honest / frank", "pos": "adj", "moduleId": "m24", "notes": "솔직히 말하면 — honestly speaking — the opinion-starter that promises 진심 is coming. 솔직한 대답 — an honest answer — is what 글쎄요 postpones." },
+
+  { "id": "w_seolmyeonghada", "ko": "설명하다", "rom": "seolmyeonghada", "en": "to explain", "pos": "verb", "moduleId": "m24", "notes": "설명해 주세요 — please explain — M9's do-for-me machine pointed at confusion. What turns 오해 back into 이해." },
+
+  { "id": "w_geunyang", "ko": "그냥", "rom": "geunyang", "en": "just / no reason", "pos": "noun", "moduleId": "m24", "notes": "The answer to 왜? that ends the conversation: 그냥 — just because. The gap deck's oldest resident finally joins the checklist. Also a softener: 그냥 물어봤어요 — just asking." },
+
+  { "id": "w_ama", "ko": "아마", "rom": "ama", "en": "probably", "pos": "noun", "moduleId": "m24", "notes": "아마 비가 올 거예요 — it'll probably rain. Rides M8's guessing future; certainty is not the Korean way." },
+
+  { "id": "w_mullon", "ko": "물론", "rom": "mullon", "en": "of course", "pos": "noun", "moduleId": "m24", "notes": "물론이에요! — of course! Agreement at full volume; 물론 alone works too. Literally 'no need to discuss.'" },
+
+  { "id": "w_hoksi", "ko": "혹시", "rom": "hoksi", "en": "by any chance", "pos": "noun", "moduleId": "m24", "notes": "The question-softener: 혹시 알아요? — do you happen to know? Opens every polite ambush: 혹시… 시간 있어요? Also 'just in case': 혹시 몰라서 — because you never know." },
+
+  { "id": "w_seoro", "ko": "서로", "rom": "seoro", "en": "each other", "pos": "noun", "moduleId": "m24", "notes": "서로 달라요 — different from each other; 서로 도와요 — help each other. The mutuality word: what M4's 우리 does internally." },
+
+  { "id": "w_geulsseyo", "ko": "글쎄요", "rom": "geulsseyo", "en": "well… / hmm", "pos": "phrase", "moduleId": "m24", "notes": "The opinion airbag — deployed between question and answer to soften whatever's coming. 글쎄요… commits you to nothing. Drop the 요 among friends; M19 rules apply." }
 ]
