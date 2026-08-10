@@ -826,5 +826,32 @@
     "lit": "to drink the kimchi soup first",
     "real": "counting your chickens",
     "note": "The full proverb: someone promises you 떡, and you drink the digestive kimchi-water before the rice cake even arrives. M6's 부터 (starting-from) doing idiom work: celebrating FROM the soup onward, prematurely. Said, smiling, to anyone planning the victory party early."
+  },
+  {
+    "id": "g27_ajeossi",
+    "cat": "concept",
+    "ko": "아저씨 / 아줌마",
+    "rom": "ajeossi / ajumma",
+    "lit": "uncle / aunt",
+    "real": "any middle-aged stranger",
+    "note": "Korea extends the family tree to the entire country: strangers are uncles and aunts, shop ladies are 이모 (M18), older friends are 언니/오빠/형/누나 (M4). The catch: 아줌마 to a woman's face can land as 'you look old' — 이모님 or 사장님 flatters, 저기요 stays safe. The fictive-kinship system is warm, and it is a minefield."
+  },
+  {
+    "id": "g27_ki_keoyo",
+    "cat": "structure",
+    "ko": "키가 커요",
+    "rom": "kiga keoyo",
+    "lit": "height is big",
+    "real": "(someone) is tall",
+    "note": "Korean has no verb for 'to be tall' — height is a possession that is big or small: 키가 커요/작아요. Same chassis as 인기가 많아요 (M17) and 정이 많아요 (M26): pick a noun, measure it, let the subject own it. Asking someone's height: 키가 어떻게 되세요? — the polite how-does-it-become."
+  },
+  {
+    "id": "g27_dongseonambuk",
+    "cat": "concept",
+    "ko": "동서남북",
+    "rom": "dongseonambuk",
+    "lit": "east-west-south-north",
+    "real": "the four directions (in Korean order)",
+    "note": "English says north-south-east-west; Korean says 동서남북 — east first, where the sun rises. The order is fixed like a spell: compass apps, feng-shui talk, and the idiom 동서남북을 모르다 (to not know east from west — to be utterly lost) all run east-first. M27's compass words, in their native sort order."
   }
 ]

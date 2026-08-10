@@ -1590,5 +1590,93 @@
 
   { "id": "w_dayanghada", "ko": "다양하다", "rom": "dayanghada", "en": "to be diverse / varied", "pos": "adj", "moduleId": "m26", "notes": "다양한 문화, 다양한 음식 — the badge form does brochures and truth alike. 다 (many) + 양 (kinds): many-kinded." },
 
-  { "id": "w_jarangseureopda", "ko": "자랑스럽다", "rom": "jarangseureopda", "en": "to be proud", "pos": "adj", "moduleId": "m26", "notes": "ㅂ-family to the last: 자랑스러워요 — I'm proud. Of 한글, of the 태극기 at a stadium — and, permitted just this once without the modesty deflection: of finishing Ring 1." }
+  { "id": "w_jarangseureopda", "ko": "자랑스럽다", "rom": "jarangseureopda", "en": "to be proud", "pos": "adj", "moduleId": "m26", "notes": "ㅂ-family to the last: 자랑스러워요 — I'm proud. Of 한글, of the 태극기 at a stadium — and, permitted just this once without the modesty deflection: of finishing Ring 1." },
+
+  { "id": "w_miguk", "ko": "미국", "rom": "miguk", "en": "the United States", "pos": "noun", "moduleId": "m27", "notes": "미 (beautiful — chosen for the sound of 'America') + 국 (country, M23's 외국's 국). The flattery is accidental; the 국 is systematic." },
+
+  { "id": "w_ilbon", "ko": "일본", "rom": "ilbon", "en": "Japan", "pos": "noun", "moduleId": "m27", "notes": "일 (sun — the radar's FOURTH 일: one, work, day, sun) + 본 (origin): sun-origin, where the day starts seen from the continent. 일본어 — Japanese — by the -어 machine." },
+
+  { "id": "w_jungguk", "ko": "중국", "rom": "jungguk", "en": "China", "pos": "noun", "moduleId": "m27", "notes": "중 (middle — 중학교's 중, M15) + 국: the Middle Country. Not phonetics — a worldview, two thousand years old. 중국어 by the -어 machine." },
+
+  { "id": "w_yeongguk", "ko": "영국", "rom": "yeongguk", "en": "the United Kingdom", "pos": "noun", "moduleId": "m27", "notes": "영 + 국, from 'England' — and the -어 machine's famous exception: 영어 is England's language, so 미국 speaks 영국's word." },
+
+  { "id": "w_dogil", "ko": "독일", "rom": "dogil", "en": "Germany", "pos": "noun", "moduleId": "m27", "notes": "From 'Deutschland' via hanja, said 도길 — the liaison carrying the ㄱ across (sound interlude). 독일어, 독일 사람, 독일 빵 — every machine applies." },
+
+  { "id": "w_peurangseu", "ko": "프랑스", "rom": "peurangseu", "en": "France", "pos": "noun", "moduleId": "m27", "notes": "Phonetic loan — the ㅍ handling the F, as always. 프랑스어를 배우는 것보다 한국어가 쉬워요, some say. 빵 — bread — actually arrived through Portuguese and Japanese, not French, despite the vibes." },
+
+  { "id": "w_reosia", "ko": "러시아", "rom": "reosia", "en": "Russia", "pos": "noun", "moduleId": "m27", "notes": "Phonetic loan. 러시아어. On a world map in a Korean classroom, the biggest thing on it — 정말 크네요." },
+
+  { "id": "w_kanada", "ko": "캐나다", "rom": "kaenada", "en": "Canada", "pos": "noun", "moduleId": "m27", "notes": "Phonetic loan. A top destination for 어학연수 (language study abroad) and working holidays — many Koreans' first 외국." },
+
+  { "id": "w_hoju", "ko": "호주", "rom": "hoju", "en": "Australia", "pos": "noun", "moduleId": "m27", "notes": "호 + 주 (continent) — the hanja shorthand for Australia. The other working-holiday giant; opposite seasons, so 호주 크리스마스 is a beach day." },
+
+  { "id": "w_dongjjok", "ko": "동쪽", "rom": "dongjjok", "en": "east", "pos": "noun", "moduleId": "m27", "notes": "동 (east) + M23's 쪽. The 동 of 동대문 (the East Gate) — old Seoul reads itself once you own the compass. The sun rises over the 동해." },
+
+  { "id": "w_seojjok", "ko": "서쪽", "rom": "seojjok", "en": "west", "pos": "noun", "moduleId": "m27", "notes": "서 + 쪽. Also the 서 of 서울? No — that one's native; the radar warns against over-decoding. Sunsets and the 서해 live this way." },
+
+  { "id": "w_namjjok", "ko": "남쪽", "rom": "namjjok", "en": "south", "pos": "noun", "moduleId": "m27", "notes": "남 + 쪽 — the 남 of 남대문 (Great South Gate) and 남학생. Warm winds, 부산, and 제주도 are all 남쪽에." },
+
+  { "id": "w_bukjjok", "ko": "북쪽", "rom": "bukjjok", "en": "north", "pos": "noun", "moduleId": "m27", "notes": "북 + 쪽. Colder weather comes from here, and the peninsula's other half is politely called 북한 — north-Korea, by this compass." },
+
+  { "id": "w_gohyang", "ko": "고향", "rom": "gohyang", "en": "hometown", "pos": "noun", "moduleId": "m27", "notes": "고향이 어디예요? — the warm follow-up once your country is known. Where 명절 traffic jams point (M25), and what 아리랑 aches about (M26)." },
+
+  { "id": "w_nampyeon", "ko": "남편", "rom": "nampyeon", "en": "husband", "pos": "noun", "moduleId": "m27", "notes": "남 (male) + 편 (side — 건너편's 편, M23): the male side of a 부부 (M25). Somehow twenty-six modules of family vocabulary arrived before the spouses did." },
+
+  { "id": "w_anae", "ko": "아내", "rom": "anae", "en": "wife (one's own)", "pos": "noun", "moduleId": "m27", "notes": "Your own wife. Someone ELSE's wife gets the honorific 부인 — the M4 noun-upgrade pattern (나이/연세, 집/댁), still sorting the world." },
+
+  { "id": "w_buin", "ko": "부인", "rom": "buin", "en": "wife (someone else's, honorific)", "pos": "noun", "moduleId": "m27", "notes": "The honorific wife: 사장님 부인 — the boss's wife. Never your own (that's 아내 — humility rules, M4). Also a polite address for married women of a certain era." },
+
+  { "id": "w_ajeossi", "ko": "아저씨", "rom": "ajeossi", "en": "middle-aged man / mister", "pos": "noun", "moduleId": "m27", "notes": "Technically an uncle-by-marriage; practically every man over forty — the taxi 기사님's off-duty name. The gap deck explains the fictive-kinship system before you misfire it." },
+
+  { "id": "w_ajumma", "ko": "아줌마", "rom": "ajumma", "en": "middle-aged woman / ma'am", "pos": "noun", "moduleId": "m27", "notes": "The casual clip of 아주머니 — the restaurant-running, line-cutting, umbrella-armed backbone of the nation. Address one as 이모 (M18) in a restaurant and eat better." },
+
+  { "id": "w_juin", "ko": "주인", "rom": "juin", "en": "owner", "pos": "noun", "moduleId": "m27", "notes": "주 (master) + 인 (person — 외국인's 인): the shop's 주인, the dog's 주인. 주인아저씨/주인아줌마 — the owner, street-titled — runs every 가게 you've shopped at since M1." },
+
+  { "id": "w_gyosu", "ko": "교수", "rom": "gyosu", "en": "professor", "pos": "noun", "moduleId": "m27", "notes": "교 (teach — 교실/교과서's 교, M15) + 수. Address as 교수님, always — the 님-ladder (M16) has no day off on campus." },
+
+  { "id": "w_hwanja", "ko": "환자", "rom": "hwanja", "en": "patient", "pos": "noun", "moduleId": "m27", "notes": "The person M14's 병원 exists for. The -자 is a person-suffix (기자, 학자 — reporter, scholar); 환자 is the suffering-person." },
+
+  { "id": "w_gunin", "ko": "군인", "rom": "gunin", "en": "soldier", "pos": "noun", "moduleId": "m27", "notes": "군 (army) + 인 (person). Nearly every Korean man serves ~18 months — 군대 (the army) is where friendships pause, dramas set flashbacks, and 눈치 gets professionally trained." },
+
+  { "id": "w_yeoreobun", "ko": "여러분", "rom": "yeoreobun", "en": "everyone (addressing)", "pos": "noun", "moduleId": "m27", "notes": "여러 (several) + 분 (M5's counter wearing its honorific person-hat): 'honored severals.' How teachers, MCs, and flight attendants open every sentence aimed at a room." },
+
+  { "id": "w_malsseum", "ko": "말씀", "rom": "malsseum", "en": "words / speech (honorific)", "pos": "noun", "moduleId": "m27", "notes": "M4's 말, honorific edition — the noun-upgrade pattern's flagship. 말씀하세요 — please speak. Humble twist: it also lowers YOUR words to an elder (말씀 드릴게요 — Ring 2 machinery, previewed)." },
+
+  { "id": "w_daek", "ko": "댁", "rom": "daek", "en": "home (honorific)", "pos": "noun", "moduleId": "m27", "notes": "M1's 집, upgraded for elders: 댁이 어디세요? — where do you live, honored one? The noun-honorific shelf now holds 나이/연세, 말/말씀, 집/댁 — and M25's 생일/생신." },
+
+  { "id": "w_gyohoe", "ko": "교회", "rom": "gyohoe", "en": "church", "pos": "noun", "moduleId": "m27", "notes": "교 (teaching) + 회 (gathering — 회사/회의's 회, M16). Korea's skylines glow with red crosses at night; about a third of the country attends one." },
+
+  { "id": "w_geukjang", "ko": "극장", "rom": "geukjang", "en": "theater / cinema", "pos": "noun", "moduleId": "m27", "notes": "극 (drama) + 장 (place — 주차장/광장's 장). The older, broader word; 영화관 (M23's -관 family) is specifically the movies." },
+
+  { "id": "w_seojeom", "ko": "서점", "rom": "seojeom", "en": "bookstore", "pos": "noun", "moduleId": "m27", "notes": "서 (writing) + 점 (shop). Where 책 (M1), 사전 (M26), and this course's imaginary paper edition live. The big ones double as Seoul's favorite meeting spots." },
+
+  { "id": "w_ucheguk", "ko": "우체국", "rom": "ucheguk", "en": "post office", "pos": "noun", "moduleId": "m27", "notes": "우체 (mail) + 국 (office — a THIRD 국 for the radar: country 미국, soup 떡국, office 우체국). Where 편지 and 소포 begin their journeys." },
+
+  { "id": "w_daesagwan", "ko": "대사관", "rom": "daesagwan", "en": "embassy", "pos": "noun", "moduleId": "m27", "notes": "대사 (ambassador) + M23's -관 (public building). The place your 여권 (M23) hopes you never urgently need." },
+
+  { "id": "w_gisuksa", "ko": "기숙사", "rom": "gisuksa", "en": "dormitory", "pos": "noun", "moduleId": "m27", "notes": "Where 유학 (study abroad) usually starts — shared rooms, curfews, and the fastest Korean immersion money can't buy. M15's school world gains a bedroom." },
+
+  { "id": "w_geori", "ko": "거리", "rom": "geori", "en": "street", "pos": "noun", "moduleId": "m27", "notes": "The raw street inside M23's 사거리 (four-streets), extracted. 길 (M12) is the way you take; 거리 is the street scene — 먹자거리, the let's-eat street, is the best compound in urban planning." },
+
+  { "id": "w_jangso", "ko": "장소", "rom": "jangso", "en": "place / venue", "pos": "noun", "moduleId": "m27", "notes": "장 (place) + 소 (place — 안내소's 소): place-place, the formal one. 곳 (M12) is anywhere; 장소 is a venue with a purpose — 약속 장소, the meeting spot." },
+
+  { "id": "w_ki", "ko": "키", "rom": "ki", "en": "height (of a person)", "pos": "noun", "moduleId": "m27", "notes": "키가 커요/작아요 — height IS big or small; Korean has no 'tall.' The gap deck files the pattern next to 인기가 많아요 — measure by possession, as always." },
+
+  { "id": "w_pyeonji", "ko": "편지", "rom": "pyeonji", "en": "letter (mail)", "pos": "noun", "moduleId": "m27", "notes": "편지를 쓰다/받다 — written with M10's 쓰다, received with M9's 받다, sent 한테 someone with this module's glue. Handwritten ones still rule Korean romance." },
+
+  { "id": "w_hanja_word", "ko": "한자", "rom": "hanja", "en": "hanja (Chinese characters)", "pos": "noun", "moduleId": "m27", "notes": "한 (China's Han dynasty — NOT Korea's 한국-한; the radar's subtlest catch) + 자 (character). The roots behind every compound this course decodes; 한글 replaced them for writing, but they still power the vocabulary." },
+
+  { "id": "w_urinara", "ko": "우리나라", "rom": "urinara", "en": "Korea (lit. our country)", "pos": "noun", "moduleId": "m27", "notes": "M4's 우리-warmth at national scale: Koreans say OUR country, rarely 한국, when speaking Korean to Koreans. One word, written solid — the possessive pronoun fused into the map." },
+
+  { "id": "w_eoneu", "ko": "어느", "rom": "eoneu", "en": "which (of a set)", "pos": "noun", "moduleId": "m27", "notes": "무슨 (M10) asks what KIND; 어느 asks WHICH ONE: 어느 나라, 어느 쪽 (M23's note, finally legal). Point at a set, pick a member." },
+
+  { "id": "w_bangapda", "ko": "반갑다", "rom": "bangapda", "en": "to be glad (to meet)", "pos": "adj", "moduleId": "m27", "notes": "만나서 반갑습니다 — glad from meeting you — the introduction formula. ㅂ-family: 반가워요, casually 반가워! The joy specific to seeing a person." },
+
+  { "id": "w_p_hante", "ko": "한테", "rom": "hante", "en": "particle — to (a person, spoken)", "pos": "particle", "moduleId": "m27", "notes": "People take 한테 where places take 에: 친구한테 줬어요. The everyday spoken form; 에게 in writing. FROM a person is 한테서." },
+
+  { "id": "w_p_ege", "ko": "에게", "rom": "ege", "en": "particle — to (a person, written)", "pos": "particle", "moduleId": "m27", "notes": "한테's formal twin — letters, lyrics, and books use 에게; conversation uses 한테. Same job, different register: the M19 lesson, applied to particles." },
+
+  { "id": "w_p_kke", "ko": "께", "rom": "kke", "en": "particle — to (an elder, honorific)", "pos": "particle", "moduleId": "m27", "notes": "The honorific upgrade of 한테/에게: 부모님께, 선생님께, 사장님께. Travels with -(으)시- and 드리다 (M4/M9) — the politeness machinery moves as a set." },
+
+  { "id": "w_p_deul", "ko": "들", "rom": "deul", "en": "particle — plural marker (optional)", "pos": "particle", "moduleId": "m27", "notes": "Korean plurals are optional — 들 appears mostly on people (사람들, 친구들) when the many-ness matters. Never where a number already counts: 세 명, not 세 명들." }
 ]

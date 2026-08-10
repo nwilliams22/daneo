@@ -103,10 +103,41 @@ the payload now.
 | M25 | Dates & Life Events | 년/월/일 dates · -(으)ㄹ 때 (when) |
 | M26 | Korea & Culture (capstone) | -네요 (noticing) — and sentences that mine every prior module |
 
+### Band 3 — the Ring 1 sweep (M27–M30) *(added 2026-08-10)*
+
+Driven by data, not themes-first: the NIKL coverage report (`npm run
+coverage:nikl`) surfaced 307 grade-A headwords the thematic modules never
+had a home for, and a howtostudykorean.com survey confirmed several **glue
+debts** — high-frequency machinery their beginner unit teaches that Ring 1
+skipped. Each sweep module clears one coherent cluster of both. Same
+authoring contract as Band 2.
+
+| # | Theme | Payload (words) | New glue |
+|---|---|---|---|
+| M27 | The World and Its People | countries (미국/일본/중국/영국/독일/프랑스/러시아/캐나다/호주), compass 동/서/남/북쪽, 고향, spouses 남편/아내 + 부모님, street titles 아저씨/아줌마, roles 교수/환자/군인/경찰/주인, buildings 교회/극장/서점/우체국/대사관/기숙사, 여러분/말씀/분, 키/편지/반갑다/오랜만 | **에게/한테/께** (to-a-person — pays M8's 전화하다 IOU) · **-들** (plural) · the 어느-나라 kit |
+| M28 | In and Out, Up and Down | the 가다/오다 compound-motion system (들어가다/들어오다/나오다/올라가다/내려가다/내려오다/다녀오다/가져오다/걸어가다…), hands verbs (들다/내다/가지다/잡다/넣다/놓다/팔다/안다/묻다/잃다/뛰다/날다/생기다/돕다/나다), inside-words 속/밑/가운데/끝, 잠/낮 | **-지 않다** (long negation — the missing third negation) |
+| M29 | The 그렇다 Machine and the Little Words | bare determiners 이/그/저 + 모든/여러/아무/다른, adverbs 가장/매우/모두/함께/또/꼭/계속/갑자기/바로/언제나/참/잠깐, interjections 아/그래/아니/참, 나쁘다(!)/즐겁다, 걱정/생활 | **그렇다** + its connective children (그러나/그러면/그럼/그러니까/그렇지만/왜냐하면) · **때문에** |
+| M30 | Counting II and the Household | native tens 서른–아흔 (ages 30+!), ordinals 첫째–, units 미터/센티미터/퍼센트/달러/개월/일주일 + counter 장, household 칼/식탁/수건/비누/치약/칫솔/휴지, fruit basket 수박/딸기/포도/오렌지, animals 닭/돼지, foods 갈비/냉면/사탕/초콜릿 + Konglish batch (샌드위치/햄버거/피자/콜라/테이블/라디오/슈퍼마켓), 흰색/장미/잎/가슴/손가락 | **만** (only) · **(이)랑 / 와·과** (and-with, casual + formal registers of M2's 하고) |
+
+Remaining A-gaps after the sweep are pattern-artifacts (months, -어
+languages, Sino tens, 하다-noun halves) tracked in the taught-as allowlist,
+plus a small dated tail (공중전화, 볼펜) left to Ring 2.
+
 ### Appendix — living content (outside the core ceiling)
 | # | Module | Notes |
 |---|---|---|
 | S1 | Slang & Texting *(Nick's flagged idea)* | ~25 items. The one module that's ALLOWED to date itself; refresh occasionally or feed it from translator discoveries. Gap-item heavy by nature. |
+| ~ | Interlude: 준말 — Korean Shrinks *(Nick, 2026-08-10, via HTSK)* | The contraction system as a system: 것→거, 저는→전, 나는→난, 이것이→이게, 무엇→뭐, 요즈음→요즘, 그러면→그럼, 오래간만→오랜만 — the learner has met a dozen of these as one-off notes; this reading unifies the rule (Korean shrinks what it says often). Texting clips (ㅋㅋ/ㅇㅇ/ㄱㅅ) hand off to S1. |
+| ~ | Interlude: Konglish — the Adaptation Machine *(Nick, 2026-08-10, via HTSK)* | The scattered loanword notes, systematized: how English maps into Hangul phonology (f→ㅍ, z→ㅈ, th→ㅅ, final consonants get 으/이), clipped compounds (셀카, 에어컨, 아파트), made-in-Korea English (핸드폰, 원피스, 서비스), false friends (미팅, 컨닝, 화이팅). After this, new Konglish is decodable on sight. |
+| S2 | The Written Register *(Nick's "archaic connectors" idea, 2026-08-10)* | The connectives you READ but rarely say: 및, 또는, 즉, 그러므로, ~(으)며, ~고자 — signs, forms, news headlines, exam instructions. Ties to M29's 그러나 (the spoken/written register table). Old forms still alive in fixed phrases get a corner (하오체 on elevator buttons: 미시오/당기시오). |
+| S3 | Hanja, the Cheat Code *(2026-08-10)* | The course teaches ~60 Sino roots by stealth (학/국/어/원/실/장/관/식/전/화/일/생…) — this appendix formalizes the decoder table: recognize the root, guess the word. Recognition only, no writing. HTSK runs a full hanja track; ours stays a lens on vocabulary already owned. |
+
+**Ring 2 glue notes (HTSK survey, 2026-08-10):** their lower-intermediate
+unit slots these before we do — passive/causative pairs (보이다/들리다 are
+already vocab; the SYSTEM is Ring 2 glue), -아/어지다 (become), ~적/~스럽다
+word-builders (자랑스럽다 already models the latter), indefinite compounds
+(아무도/누구나/뭔가), quoting -다고. All noted for the Ring 2 format
+decision — none block Ring 1.
 
 ## 3. Glue coverage checklist — Ring 1 (the beginner set)
 

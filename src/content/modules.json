@@ -657,5 +657,30 @@
       "s26_hallyu", "s26_jeong", "s26_rainy_makgeolli",
       "s26_can_converse", "s26_just_beginning"
     ]
+  },
+  {
+    "id": "m27",
+    "title": "The World and Its People",
+    "order": 30,
+    "contentMd": "modules/module-27.md",
+    "wordIds": [
+      "w_miguk", "w_ilbon", "w_jungguk", "w_yeongguk", "w_dogil",
+      "w_peurangseu", "w_reosia", "w_kanada", "w_hoju",
+      "w_dongjjok", "w_seojjok", "w_namjjok", "w_bukjjok",
+      "w_gohyang", "w_nampyeon", "w_anae", "w_buin",
+      "w_ajeossi", "w_ajumma", "w_juin", "w_gyosu", "w_hwanja",
+      "w_gunin", "w_yeoreobun", "w_malsseum", "w_daek",
+      "w_gyohoe", "w_geukjang", "w_seojeom", "w_ucheguk",
+      "w_daesagwan", "w_gisuksa", "w_geori", "w_jangso",
+      "w_ki", "w_pyeonji", "w_hanja_word", "w_urinara",
+      "w_eoneu", "w_bangapda"
+    ],
+    "sentenceIds": [
+      "s27_which_country", "s27_from_america", "s27_hometown",
+      "s27_friends_presents", "s27_call_parents", "s27_husband_german",
+      "s27_wife_letter", "s27_busan_south", "s27_kpop_france",
+      "s27_meet_theater", "s27_nice_meet", "s27_russia_big",
+      "s27_everyone_culture", "s27_professor_hanja"
+    ]
   }
 ]
