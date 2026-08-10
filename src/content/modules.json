@@ -528,5 +528,30 @@
       "s21_if_expensive", "s21_hanbok_pretty", "s21_wrong_size",
       "s21_uniform", "s21_online_cheap"
     ]
+  },
+  {
+    "id": "m22",
+    "title": "City and Nature",
+    "order": 25,
+    "contentMd": "modules/module-22.md",
+    "wordIds": [
+      "w_dosi", "w_sigol", "w_dongne", "w_geonmul", "w_gang",
+      "w_hangang", "w_golmok", "w_noriteo", "w_maeul",
+      "w_namu", "w_pul", "w_ttang", "w_seom", "w_jejudo",
+      "w_hosu", "w_sup", "w_dol", "w_sae_bird", "w_byeol",
+      "w_gonggi", "w_jayeon", "w_gyeongchi", "w_dongmul",
+      "w_gangaji", "w_goyangi", "w_mulgogi", "w_mujigae",
+      "w_sesang", "w_beolle", "w_sopung", "w_yagyeong",
+      "w_gipda", "w_areumdapda", "w_bokjaphada",
+      "w_gugyeonghada", "w_oreuda", "w_pida",
+      "w_jeil"
+    ],
+    "sentenceIds": [
+      "s22_seoul_bigger", "s22_subway_faster", "s22_jeju_beautiful",
+      "s22_winter_clothes", "s22_hangang_chicken", "s22_night_view",
+      "s22_cat_quieter", "s22_flowers_bloom", "s22_country_air",
+      "s22_autumn_sky", "s22_climb_sneakers", "s22_our_neighborhood",
+      "s22_moms_cooking", "s22_rainbow"
+    ]
   }
 ]

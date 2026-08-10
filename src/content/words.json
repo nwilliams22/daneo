@@ -1210,5 +1210,83 @@
 
   { "id": "w_gabyeopda", "ko": "가볍다", "rom": "gabyeopda", "en": "to be light (weight)", "pos": "adj", "moduleId": "m21", "notes": "ㅂ-irregular: 가벼워요. Jackets, bags, footsteps, and — per M19 — thin-eared people who believe everything." },
 
-  { "id": "w_mugeopda", "ko": "무겁다", "rom": "mugeopda", "en": "to be heavy", "pos": "adj", "moduleId": "m21", "notes": "ㅂ-irregular: 무거워요. 가볍다's counterweight — and M19's heavy mouth (입이 무겁다) keeps secrets with it." }
+  { "id": "w_mugeopda", "ko": "무겁다", "rom": "mugeopda", "en": "to be heavy", "pos": "adj", "moduleId": "m21", "notes": "ㅂ-irregular: 무거워요. 가볍다's counterweight — and M19's heavy mouth (입이 무겁다) keeps secrets with it." },
+
+  { "id": "w_dosi", "ko": "도시", "rom": "dosi", "en": "city", "pos": "noun", "moduleId": "m22", "notes": "Half of South Korea lives in one metro area — 도시 is where the 아파트 towers and the 지하철 map both live." },
+
+  { "id": "w_sigol", "ko": "시골", "rom": "sigol", "en": "countryside", "pos": "noun", "moduleId": "m22", "notes": "Where 할머니 lives, the air is 좋다, and every K-drama hero eventually returns to heal." },
+
+  { "id": "w_dongne", "ko": "동네", "rom": "dongne", "en": "neighborhood", "pos": "noun", "moduleId": "m22", "notes": "The walkable world: your 편의점, your 맛집, your 세탁소. 우리 동네 — M4's warm 우리 applies automatically." },
+
+  { "id": "w_geonmul", "ko": "건물", "rom": "geonmul", "en": "building", "pos": "noun", "moduleId": "m22" },
+
+  { "id": "w_gang", "ko": "강", "rom": "gang", "en": "river", "pos": "noun", "moduleId": "m22", "notes": "Rivers get 다리 — and M14 warned you: a bridge is a river's legs." },
+
+  { "id": "w_hangang", "ko": "한강", "rom": "hangang", "en": "the Han River", "pos": "noun", "moduleId": "m22", "notes": "한 (the Korea-한 of 한식/한복) + 강: Seoul's river and its living room — see the gap deck for the 치킨-and-picnic civilization on its banks." },
+
+  { "id": "w_golmok", "ko": "골목", "rom": "golmok", "en": "alley", "pos": "noun", "moduleId": "m22", "notes": "Where the real 맛집s hide. Korean urban charm is measured in 골목s per block." },
+
+  { "id": "w_noriteo", "ko": "놀이터", "rom": "noriteo", "en": "playground", "pos": "noun", "moduleId": "m22", "notes": "M19's 놀다 + 이 + 터 (site): a playing-place. Every 아파트 complex has one at its center." },
+
+  { "id": "w_namu", "ko": "나무", "rom": "namu", "en": "tree / wood", "pos": "noun", "moduleId": "m22" },
+
+  { "id": "w_pul", "ko": "풀", "rom": "pul", "en": "grass", "pos": "noun", "moduleId": "m22", "notes": "Also means glue — the school kind. M15's pencil case and the lawn share a syllable; the radar shrugs and logs it." },
+
+  { "id": "w_ttang", "ko": "땅", "rom": "ttang", "en": "ground / land", "pos": "noun", "moduleId": "m22" },
+
+  { "id": "w_seom", "ko": "섬", "rom": "seom", "en": "island", "pos": "noun", "moduleId": "m22", "notes": "Korea has over three thousand. The famous one is next in the checklist." },
+
+  { "id": "w_jejudo", "ko": "제주도", "rom": "jejudo", "en": "Jeju Island", "pos": "noun", "moduleId": "m22", "notes": "The honeymoon-and-holiday island: volcanic, tangerine-scented, with its own dialect Seoulites can't follow. The -도 suffix marks islands and provinces both." },
+
+  { "id": "w_hosu", "ko": "호수", "rom": "hosu", "en": "lake", "pos": "noun", "moduleId": "m22", "notes": "The 수 is water again — 수영's and 음료수's 수, pooled." },
+
+  { "id": "w_sup", "ko": "숲", "rom": "sup", "en": "forest", "pos": "noun", "moduleId": "m22", "notes": "One dense syllable with a rare ㅍ batchim — 숲에 (supe) wakes it, per the interlude." },
+
+  { "id": "w_dol", "ko": "돌", "rom": "dol", "en": "stone", "pos": "noun", "moduleId": "m22", "notes": "Also a baby's first birthday — the 돌잔치. Stones and first birthdays share a syllable; only one gets a party." },
+
+  { "id": "w_sae_bird", "ko": "새", "rom": "sae", "en": "bird", "pos": "noun", "moduleId": "m22", "notes": "M13's 새 (new) has a flying homograph. 새 새 — a new bird — is legal Korean and a tiny poem." },
+
+  { "id": "w_byeol", "ko": "별", "rom": "byeol", "en": "star", "pos": "noun", "moduleId": "m22", "notes": "The 별 in M19's 별명 (special-name) and M17's 별로 — the sky's version is the original. City skies ration them; 시골 skies pay out." },
+
+  { "id": "w_gonggi", "ko": "공기", "rom": "gonggi", "en": "air", "pos": "noun", "moduleId": "m22", "notes": "공기가 좋아요/나빠요 — checked daily like weather, because M11's 미세먼지 made air quality a conversation topic." },
+
+  { "id": "w_jayeon", "ko": "자연", "rom": "jayeon", "en": "nature", "pos": "noun", "moduleId": "m22" },
+
+  { "id": "w_gyeongchi", "ko": "경치", "rom": "gyeongchi", "en": "scenery / view", "pos": "noun", "moduleId": "m22", "notes": "경치가 좋아요 — the view is good: the sentence every 등산 summit and café window exists to earn." },
+
+  { "id": "w_dongmul", "ko": "동물", "rom": "dongmul", "en": "animal", "pos": "noun", "moduleId": "m22", "notes": "동 (moving) + 물 (thing): a moving-thing. 동물원 — the animal-house — is the zoo; the 원 you know from 병원 and 학원." },
+
+  { "id": "w_gangaji", "ko": "강아지", "rom": "gangaji", "en": "puppy / dog", "pos": "noun", "moduleId": "m22", "notes": "Technically puppy, practically every dog — Korean pet-speak upgrades all dogs to puppies forever. Also a term of endearment for children." },
+
+  { "id": "w_goyangi", "ko": "고양이", "rom": "goyangi", "en": "cat", "pos": "noun", "moduleId": "m22", "notes": "The sound interlude promised this word — go-yang-i, the batchim ㅇ that never slides. Street cats are 길고양이: M12's road + cat." },
+
+  { "id": "w_mulgogi", "ko": "물고기", "rom": "mulgogi", "en": "fish (live)", "pos": "noun", "moduleId": "m22", "notes": "물 (water) + 고기 (meat): water-meat — Korean names the animal by its destiny. On the plate it's 생선; swimming, it's already dinner-in-waiting." },
+
+  { "id": "w_mujigae", "ko": "무지개", "rom": "mujigae", "en": "rainbow", "pos": "noun", "moduleId": "m22", "notes": "비가 그친 후에 — after the rain quits (M11's 그치다) — this is what the sky apologizes with." },
+
+  { "id": "w_sesang", "ko": "세상", "rom": "sesang", "en": "the world", "pos": "noun", "moduleId": "m22", "notes": "세상에서 제일 — 'the most in the world' — is the superlative's favorite stage. 세상에! alone gasps 'oh my goodness!'" },
+
+  { "id": "w_beolle", "ko": "벌레", "rom": "beolle", "en": "bug / insect", "pos": "noun", "moduleId": "m22", "notes": "벌레가 있어요! — the apartment emergency. Also a suffix for obsessives: 공부벌레, a study-bug, is M15's hardest worker." },
+
+  { "id": "w_sopung", "ko": "소풍", "rom": "sopung", "en": "picnic", "pos": "noun", "moduleId": "m22", "notes": "The school-trip picnic of every Korean childhood — 김밥 mandatory, mothers up at dawn rolling it." },
+
+  { "id": "w_yagyeong", "ko": "야경", "rom": "yagyeong", "en": "night view", "pos": "noun", "moduleId": "m22", "notes": "야 (night — 야근's 야, not 야구's field) + 경 (scenery — 경치's 경). Seoul's 야경 from a mountain fortress is the tourism board's entire argument." },
+
+  { "id": "w_maeul", "ko": "마을", "rom": "maeul", "en": "village", "pos": "noun", "moduleId": "m22", "notes": "Smaller and older than a 동네 — the word carries stone walls and persimmon trees in it." },
+
+  { "id": "w_gipda", "ko": "깊다", "rom": "gipda", "en": "to be deep", "pos": "adj", "moduleId": "m22", "notes": "Water, forests, night, and thoughts — 깊다 measures them all. 밤이 깊었어요: the night has deepened." },
+
+  { "id": "w_areumdapda", "ko": "아름답다", "rom": "areumdapda", "en": "to be beautiful", "pos": "adj", "moduleId": "m22", "notes": "ㅂ-irregular: 아름다워요. M1's 예쁘다 is pretty; 아름답다 is beautiful — scenery, music, and moments earn the bigger word." },
+
+  { "id": "w_bokjaphada", "ko": "복잡하다", "rom": "bokjaphada", "en": "to be crowded / complicated", "pos": "adj", "moduleId": "m22", "notes": "Streets, subways, and feelings — one word for overcrowded and overcomplicated. 머리가 복잡해요: my head is complicated (= too much going on)." },
+
+  { "id": "w_gugyeonghada", "ko": "구경하다", "rom": "gugyeonghada", "en": "to look around / sightsee", "pos": "verb", "moduleId": "m22", "notes": "Looking as leisure: 시장 구경, 꽃 구경 (gap deck). 구경만 할게요 — just browsing — is shop-Korean survival kit." },
+
+  { "id": "w_oreuda", "ko": "오르다", "rom": "oreuda", "en": "to climb / go up", "pos": "verb", "moduleId": "m22", "notes": "르-family: 올라요. Mountains, stairs, and prices — all things that 오르다. M17's 등산 is this verb's noun habitat." },
+
+  { "id": "w_pida", "ko": "피다", "rom": "pida", "en": "to bloom", "pos": "verb", "moduleId": "m22", "notes": "꽃이 피어요 — M14's 피우다 (make bloom → smoke) was this verb's causative all along. The 벚꽃 forecast tracks it nationally, to the day." },
+
+  { "id": "w_jeil", "ko": "제일", "rom": "jeil", "en": "the most / number one", "pos": "noun", "moduleId": "m22", "notes": "제 (order) + 일 (one — M2's Sino!): literally 'number one.' Park it before any adjective: 제일 맛있어요, 제일 좋아요." },
+
+  { "id": "w_p_boda", "ko": "보다", "rom": "boda", "en": "than (comparison)", "pos": "particle", "moduleId": "m22", "notes": "A PARTICLE spelled exactly like the busiest verb in the course — 보다's fifth job, and this one isn't even a verb. B보다 A가 더 커요: A is bigger than B. The syllable has now fully unionized." }
 ]
