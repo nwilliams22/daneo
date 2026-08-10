@@ -583,5 +583,32 @@
     "lit": "big gourd",
     "real": "awesome! / no way! / jackpot",
     "note": "From folktale gourds that split open full of treasure. Now the all-purpose amazement word — a goal, a plot twist, a friend's news, a good 치킨 place. Positive or scandalized depending entirely on the eyebrows."
+  },
+  {
+    "id": "g18_siksa",
+    "cat": "phrase",
+    "ko": "식사하셨어요?",
+    "rom": "siksahasyeosseoyo?",
+    "lit": "have you had your meal?",
+    "real": "hello / how are you",
+    "note": "A greeting, not a lunch offer — from eras when the answer wasn't guaranteed to be yes. 밥 먹었어요? is its casual twin. Answer 네 and move on; nobody is feeding anybody. Caring about someone's meals IS caring about them — the whole culture in one question."
+  },
+  {
+    "id": "g18_honbap",
+    "cat": "concept",
+    "ko": "혼밥",
+    "rom": "honbap",
+    "lit": "alone-rice",
+    "real": "eating alone (as a named act)",
+    "note": "혼자 + 밥, compressed. That Korean NEEDED this word says everything: meals were so default-communal that solo dining required naming. The family grows — 혼술 (drinking alone), 혼영 (movies alone) — as the culture makes peace with company-of-one."
+  },
+  {
+    "id": "g18_imo",
+    "cat": "concept",
+    "ko": "이모!",
+    "rom": "imo!",
+    "lit": "(maternal) aunt!",
+    "real": "excuse me! (to a restaurant auntie)",
+    "note": "In casual restaurants, the middle-aged server is summoned as family — 이모, mom's-side aunt, the warmest title available. It buys better 반찬 refills than 저기요 ever will. Use only where aprons and floor seating suggest it; the 부장님's French place, not so much."
   }
 ]

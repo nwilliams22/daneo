@@ -426,5 +426,30 @@
       "s17_cheer_korea", "s17_photos_mountain", "s17_not_really",
       "s17_walk_park", "s17_drama_popular"
     ]
+  },
+  {
+    "id": "m18",
+    "title": "Restaurants and Ordering",
+    "order": 21,
+    "contentMd": "modules/module-18.md",
+    "wordIds": [
+      "w_jeotgarak", "w_sutgarak", "w_sujeo", "w_geureut",
+      "w_jeopsi", "w_keop",
+      "w_jjigae", "w_doenjang", "w_gochujang", "w_mandu",
+      "w_guksu", "w_tteok", "w_tteokbokki", "w_samgyeopsal",
+      "w_dwaejigogi", "w_sogogi", "w_hoe", "w_gim", "w_dubu", "w_yachae",
+      "w_yeyakhada", "w_chucheonhada", "w_baedal", "w_eumnyosu",
+      "w_dijeoteu", "w_matjip", "w_mat",
+      "w_singgeopda", "w_tteugeopda", "w_chagapda",
+      "w_gupda", "w_bokda", "w_kkeurida", "w_bibida",
+      "w_anju", "w_geonbae", "w_hansik", "w_oesikhada"
+    ],
+    "sentenceIds": [
+      "s18_formula_before", "s18_formula_after", "s18_recommend",
+      "s18_chicken_match", "s18_grill_family", "s18_bibim_important",
+      "s18_ramyeon_hungry", "s18_tteok_spicy", "s18_bowl_hot",
+      "s18_hansik_banchan", "s18_matjip", "s18_eat_out",
+      "s18_cheers", "s18_solo_okay"
+    ]
   }
 ]
