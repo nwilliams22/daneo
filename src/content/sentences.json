@@ -9753,5 +9753,170 @@
     "rom": "jumalmada setakgireul dollyeoyo",
     "wordIds": ["w_jumal", "w_setakgi", "w_dollida"],
     "note": "돌리다 in its modern uniform: appliances are things you make-spin (M13's 세탁기 does physically rotate; Korean noticed). M31's 마다 schedules the ritual. Also runs 청소기, 에어컨, and — figuratively — 머리 (돌리다 your head = think it over)."
+  },
+  {
+    "id": "s_m38_music_study",
+    "en": [
+      { "t": "I study", "role": "verb", "id": "v" },
+      { "t": "while listening", "role": "other", "id": "a" },
+      { "t": "to music", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "music-[obj]", "role": "object", "id": "o" },
+      { "t": "listen-while", "role": "other", "id": "a" },
+      { "t": "study", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "음악을", "role": "object", "id": "o" },
+      { "t": "들으면서", "role": "other", "id": "a" },
+      { "t": "공부해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eumageul deureumyeonseo gongbuhaeyo",
+    "wordIds": ["w_eumak", "w_deutda", "w_gongbuhada"],
+    "note": "-(으)면서's debut on the classic multitask — and M2's ㄷ-irregular holds inside it: 듣다 → 들으면서 (the ㄷ softens exactly as it did in 들어요). One subject, two verbs, zero guilt: the 면서 lifestyle."
+  },
+  {
+    "id": "s_m38_eyes_phone",
+    "en": [
+      { "t": "In the morning,", "role": "other", "id": "a" },
+      { "t": "the second I open my eyes", "role": "other", "id": "b" },
+      { "t": "I check", "role": "verb", "id": "v" },
+      { "t": "my phone", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "morning-at", "role": "other", "id": "a" },
+      { "t": "eye-[obj] open-as-soon-as", "role": "other", "id": "b" },
+      { "t": "handphone-[obj]", "role": "object", "id": "o" },
+      { "t": "look-at", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아침에", "role": "other", "id": "a" },
+      { "t": "눈을 뜨자마자", "role": "other", "id": "b" },
+      { "t": "핸드폰을", "role": "object", "id": "o" },
+      { "t": "봐요", "role": "verb", "id": "v" }
+    ],
+    "rom": "achime nuneul tteujamaja haendeuponeul bwayo",
+    "wordIds": ["w_achim", "w_nun_eye", "w_tteuda", "w_haendeupon", "w_boda"],
+    "note": "-자마자 straight onto the stem (뜨자마자 — no tense inside; the ending's own past/present does the work). The sentence itself is a global confession: M14's eye, this module's 뜨다, and the scroll reflex nobody planned. 자마자 = the zero-gap connector."
+  },
+  {
+    "id": "s_m38_waiting_read",
+    "en": [
+      { "t": "While waiting", "role": "other", "id": "a" },
+      { "t": "I read", "role": "verb", "id": "v" },
+      { "t": "a book", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "wait-[badge] during", "role": "other", "id": "a" },
+      { "t": "book-[obj]", "role": "object", "id": "o" },
+      { "t": "read", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "기다리는 동안", "role": "other", "id": "a" },
+      { "t": "책을", "role": "object", "id": "o" },
+      { "t": "읽었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gidarineun dongan chaegeul ilgeosseoyo",
+    "wordIds": ["w_gidarida", "w_chaek", "w_ikda"],
+    "note": "-는 동안 is pure assembly: M24's badge + M28's 동안 — 'during the waiting-span'. Unlike -(으)면서, the subjects may differ: 제가 기다리는 동안 친구는 커피를 샀어요 works fine. 면서 shares one body; 동안 just shares the clock."
+  },
+  {
+    "id": "s_m38_driving_psa",
+    "en": [
+      { "t": "While driving,", "role": "other", "id": "a" },
+      { "t": "don't use your phone", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "drive-while", "role": "other", "id": "a" },
+      { "t": "phone-do-not-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "운전하면서", "role": "other", "id": "a" },
+      { "t": "전화하지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "unjeonhamyeonseo jeonhwahaji maseyo",
+    "wordIds": ["w_unjeonhada", "w_jeonhwahada"],
+    "note": "-(으)면서 in its public-service uniform: the simultaneity that shouldn't happen. M14's -지 마세요 makes it law; every bus and taxi placard in Korea agrees. The 면서-of-two-things-you-shouldn't-combine also powers 걸으면서 폰 보지 마세요 — Seoul sidewalks thank you."
+  },
+  {
+    "id": "s_m38_overslept",
+    "en": [
+      { "t": "I overslept,", "role": "other", "id": "a" },
+      { "t": "so I was late", "role": "verb", "id": "v" },
+      { "t": "to work", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "late-sleep-[obj] sleep-because", "role": "other", "id": "a" },
+      { "t": "company-to", "role": "place", "id": "p" },
+      { "t": "was-late", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "늦잠을 자서", "role": "other", "id": "a" },
+      { "t": "회사에", "role": "place", "id": "p" },
+      { "t": "지각했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "neutjameul jaseo hoesae jigakhaesseoyo",
+    "wordIds": ["w_neutjam", "w_jada", "w_hoesa", "w_jigakhada"],
+    "note": "늦잠 in its natural confession: the cognate-object pattern (잠을 자다 — sleep the sleep, M34's 꿈을 꾸다 logic) plus M10's -아서 chain of blame. M16's 지각하다 receives the consequence. The alarm (맞췄어요, M37) is not accepting responsibility."
+  },
+  {
+    "id": "s_m38_vacation_alba",
+    "en": [
+      { "t": "During vacation", "role": "other", "id": "a" },
+      { "t": "I worked", "role": "verb", "id": "v" },
+      { "t": "a part-time job", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "vacation during", "role": "other", "id": "a" },
+      { "t": "part-time-job-[obj]", "role": "object", "id": "o" },
+      { "t": "did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "방학 동안", "role": "other", "id": "a" },
+      { "t": "아르바이트를", "role": "object", "id": "o" },
+      { "t": "했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "banghak dongan areubaiteureul haesseoyo",
+    "wordIds": ["w_banghak", "w_areubaiteu", "w_hada"],
+    "note": "동안 with a bare noun — no badge needed when the span already IS a noun: 방학 동안, 여름 동안, 회의 동안. M11's school-vacation split pays again, and 아르바이트 clips to 알바 the moment you say this out loud (준말 law, enforced)."
+  },
+  {
+    "id": "s_m38_game_rain",
+    "en": [
+      { "t": "As soon as the game ended,", "role": "other", "id": "a" },
+      { "t": "the rain", "role": "subject", "id": "s" },
+      { "t": "came down", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "game-[subj] end-as-soon-as", "role": "other", "id": "a" },
+      { "t": "rain-[subj]", "role": "subject", "id": "s" },
+      { "t": "came", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "경기가 끝나자마자", "role": "other", "id": "a" },
+      { "t": "비가", "role": "subject", "id": "s" },
+      { "t": "왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeonggiga kkeunnajamaja biga wasseoyo",
+    "wordIds": ["w_gyeonggi", "w_kkeunnada", "w_bi", "w_oda"],
+    "note": "-자마자 with two different subjects — the ending doesn't care who does what, only that no time passed between. M17's 경기, M16's 끝나다, M11's weather-comes: three modules, one perfectly timed sky. Stadium luck, in grammar form."
+  },
+  {
+    "id": "s_m38_hurry",
+    "en": [
+      { "t": "There's no time.", "role": "verb", "id": "v" },
+      { "t": "Hurry!", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "time-[subj] not-exists.", "role": "verb", "id": "v" },
+      { "t": "hurry-please!", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "시간이 없어요.", "role": "verb", "id": "v" },
+      { "t": "서두르세요!", "role": "verb", "id": "w" }
+    ],
+    "rom": "sigani eopseoyo. seodureuseyo!",
+    "wordIds": ["w_sigan", "w_eopda", "w_seodureuda"],
+    "note": "The two-sentence sprint: M1's oldest frame (시간이 없어요 — the 있다-factory's most stressful product) plus 서두르다 in the imperative. Note the 르-family fine print: 서두르세요 keeps its 르 (only -아/어 forms trigger 서둘러). Now go — 얼른!"
   }
 ]

@@ -991,5 +991,29 @@
       "s_m37_leave_message", "s_m37_set_alarm", "s_m37_song_smile",
       "s_m37_errand", "s_m37_laundry_weekend"
     ]
+  },
+  {
+    "id": "m38",
+    "title": "While and As Soon As",
+    "order": 46,
+    "ring": 2,
+    "contentMd": "modules/module-38.md",
+    "wordIds": [
+      "w_dongsi", "w_sungan", "w_saebyeok", "w_jongil",
+      "w_pyeongso", "w_ilsang", "w_hancham", "w_yosae",
+      "w_dangsi", "w_neutjam", "w_gigan", "w_segi",
+      "w_georeum", "w_areubaiteu", "w_sinho", "w_doro",
+      "w_sunsikgan", "w_banggeum", "w_geumbang", "w_akka",
+      "w_ittaga", "w_miri", "w_neul", "w_jakku",
+      "w_eoneusae", "w_juro", "w_hwolssin", "w_maenyeon",
+      "w_gamanhi", "w_yeojeonhi", "w_eolleun", "w_tteuda",
+      "w_seodureuda", "w_miruda", "w_bamsaeda", "w_jinagada",
+      "w_geuphada", "w_ttaettaero", "w_ireuda"
+    ],
+    "sentenceIds": [
+      "s_m38_music_study", "s_m38_eyes_phone", "s_m38_waiting_read",
+      "s_m38_driving_psa", "s_m38_overslept", "s_m38_vacation_alba",
+      "s_m38_game_rain", "s_m38_hurry"
+    ]
   }
 ]
