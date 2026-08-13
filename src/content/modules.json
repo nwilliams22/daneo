@@ -820,5 +820,30 @@
     "contentMd": "modules/module-s3.md",
     "wordIds": [],
     "sentenceIds": []
+  },
+  {
+    "id": "m31",
+    "title": "Korea on the Map",
+    "order": 39,
+    "ring": 2,
+    "contentMd": "modules/module-31.md",
+    "wordIds": [
+      "w_daehanminguk", "w_bukhan", "w_sudo", "w_tongil",
+      "w_gyeonggido", "w_gangwondo", "w_chungcheongdo", "w_jeollado",
+      "w_gyeongsangdo", "w_incheon", "w_daegu", "w_daejeon",
+      "w_gwangju", "w_ulsan", "w_gyeongju", "w_namsan",
+      "w_jongno", "w_dongdaemun", "w_deoksugung", "w_sicheong",
+      "w_hallasan", "w_seoraksan", "w_baekdusan", "w_gukga",
+      "w_jiyeok", "w_banghyang", "w_wichi", "w_jubyeon",
+      "w_bugeun", "w_gungnae", "w_haeoe", "w_jeonguk",
+      "w_gukje", "w_dongyang", "w_seoyang", "w_asia",
+      "w_yureop", "w_apeurika", "w_nyuyok", "w_dokyo",
+      "w_beijing", "w_pari", "w_reondeon"
+    ],
+    "sentenceIds": [
+      "s_m31_region_food", "s_m31_capital", "s_m31_namsan_weekend",
+      "s_m31_hallasan_tallest", "s_m31_baekdusan_border", "s_m31_overseas_trip",
+      "s_m31_tokyo_flight", "s_m31_gyeongju_old_korea"
+    ]
   }
 ]
