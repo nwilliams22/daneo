@@ -8754,5 +8754,173 @@
     "rom": "gyeongjueseo yennal hangugeul bol su isseoyo",
     "wordIds": ["w_gyeongju", "w_yennal", "w_hanguk", "w_boda"],
     "note": "M10's can-machine as tour guide, M24's 옛날 as the destination. A millennium of Silla sits in open air — the burial mounds share downtown with the coffee shops."
+  },
+  {
+    "id": "s_m32_news_rain",
+    "en": [
+      { "t": "The news", "role": "other", "id": "a" },
+      { "t": "says", "role": "verb", "id": "v" },
+      { "t": "it'll rain tomorrow", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "news-at", "role": "other", "id": "a" },
+      { "t": "tomorrow rain-[subj] comes-[quote]", "role": "object", "id": "o" },
+      { "t": "says", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뉴스에서", "role": "other", "id": "a" },
+      { "t": "내일 비가 온다고", "role": "object", "id": "o" },
+      { "t": "해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nyuseueseo naeil biga ondago haeyo",
+    "wordIds": ["w_nyuseu", "w_naeil", "w_bi", "w_oda", "w_hada"],
+    "note": "The quoting machine's debut: the reported sentence (내일 비가 와요, M11's chassis) shifts to plain form, takes -ㄴ다고, and becomes the OBJECT of 해요. One sentence swallowed by another — Korean's reported speech in a single move."
+  },
+  {
+    "id": "s_m32_what_called",
+    "en": [
+      { "t": "What do you call", "role": "verb", "id": "v" },
+      { "t": "this", "role": "subject", "id": "s" },
+      { "t": "in Korean?", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "this-[topic]", "role": "subject", "id": "s" },
+      { "t": "Korea-language-by", "role": "other", "id": "a" },
+      { "t": "what-[quote] say?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이거는", "role": "subject", "id": "s" },
+      { "t": "한국어로", "role": "other", "id": "a" },
+      { "t": "뭐라고 해요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "igeoneun hangugeoro mworago haeyo?",
+    "wordIds": ["w_igeo", "w_hangugeo", "w_mwo", "w_hada"],
+    "note": "Your new most-used sentence. -(이)라고 is the quote-form for nouns, and 뭐 is a noun — so 뭐라고 해요? = 'they say it as WHAT?'. M6's instrumental (으)로 marks the language you're asking in. Point at anything; fill your deck."
+  },
+  {
+    "id": "s_m32_society_changing",
+    "en": [
+      { "t": "They say society", "role": "subject", "id": "s" },
+      { "t": "is changing", "role": "verb", "id": "v" },
+      { "t": "fast", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "society-[subj]", "role": "subject", "id": "s" },
+      { "t": "fast", "role": "other", "id": "a" },
+      { "t": "changes-[quote] say", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사회가", "role": "subject", "id": "s" },
+      { "t": "빨리", "role": "other", "id": "a" },
+      { "t": "변한다고 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sahoega ppalli byeonhandago haeyo",
+    "wordIds": ["w_sahoe", "w_ppalli", "w_byeonhada", "w_hada"],
+    "note": "M26's 변하다 through the quote-machine: 변한다 (plain) + -고 해요. Vowel-stem verbs take -ㄴ다고, batchim stems take -는다고 (먹는다고) — the only conjugation the machine asks of you. The sentiment: every generation's, in every society."
+  },
+  {
+    "id": "s_m32_president_education",
+    "en": [
+      { "t": "The president", "role": "subject", "id": "s" },
+      { "t": "said", "role": "verb", "id": "v" },
+      { "t": "education matters", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "president-[subj]", "role": "subject", "id": "s" },
+      { "t": "education-[subj] important-[quote]", "role": "object", "id": "o" },
+      { "t": "said", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "대통령이", "role": "subject", "id": "s" },
+      { "t": "교육이 중요하다고", "role": "object", "id": "o" },
+      { "t": "말했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daetongnyeongi gyoyugi jungyohadago malhaesseoyo",
+    "wordIds": ["w_daetongnyeong", "w_gyoyuk", "w_jungyohada", "w_malhada"],
+    "note": "Adjectives quote lazily: 중요하다 keeps its dictionary form + -고, no -ㄴ- needed (M16's 중요하다 unchanged). 말하다 replaces 하다 when you want the saying explicit — the headline sentence of every 대통령, every year."
+  },
+  {
+    "id": "s_m32_economy_according",
+    "en": [
+      { "t": "According to the news,", "role": "other", "id": "a" },
+      { "t": "these days", "role": "other", "id": "b" },
+      { "t": "the economy", "role": "subject", "id": "s" },
+      { "t": "is rough, they say", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "news-at follow-if", "role": "other", "id": "a" },
+      { "t": "these-days", "role": "other", "id": "b" },
+      { "t": "economy-[subj]", "role": "subject", "id": "s" },
+      { "t": "difficult-[quote] say", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뉴스에 따르면", "role": "other", "id": "a" },
+      { "t": "요즘", "role": "other", "id": "b" },
+      { "t": "경제가", "role": "subject", "id": "s" },
+      { "t": "어렵다고 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nyuseue ttareumyeon yojeum gyeongjega eoryeopdago haeyo",
+    "wordIds": ["w_nyuseu", "w_ttareuda", "w_yojeum", "w_gyeongje", "w_eoryeopda", "w_hada"],
+    "note": "에 따르면 = 따르다 (follow) + M20's -(으)면: 'if you follow the news…' = according to. The citation frame and the quote-machine were built for each other — this pairing is most of broadcast Korean. The claim itself is evergreen."
+  },
+  {
+    "id": "s_m32_namsan_called",
+    "en": [
+      { "t": "This mountain", "role": "object", "id": "o" },
+      { "t": "is called Namsan", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this mountain-[obj]", "role": "object", "id": "o" },
+      { "t": "Namsan-[quote] call", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 산을", "role": "object", "id": "o" },
+      { "t": "남산이라고 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i saneul namsanirago haeyo",
+    "wordIds": ["w_i_det", "w_san", "w_namsan", "w_hada"],
+    "note": "-(이)라고 해요's second job: naming. X을/를 Y(이)라고 해요 = X is called Y — the sentence museums, maps, and introductions run on. M31's mountain gets its formal introduction one module late; M29's bare 이 points at it."
+  },
+  {
+    "id": "s_m32_jeju_heard",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "heard", "role": "verb", "id": "v" },
+      { "t": "Jeju is really beautiful", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "Jeju-[subj] really beautiful-[quote]", "role": "object", "id": "o" },
+      { "t": "heard", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "제주도가 정말 아름답다고", "role": "object", "id": "o" },
+      { "t": "들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jejudoga jeongmal areumdapdago deureosseoyo",
+    "wordIds": ["w_jejudo", "w_jeongmal", "w_areumdapda", "w_deutda"],
+    "note": "Swap the reporting verb and the machine changes direction: -다고 들었어요 = I HEARD that… (M2's 듣다, receiving end). This is how you pass along everything Korea tells you about 제주도 — which is exactly this, constantly. It's true, by the way."
+  },
+  {
+    "id": "s_m32_marry_next_year",
+    "en": [
+      { "t": "My little sibling", "role": "subject", "id": "s" },
+      { "t": "said they'll get married", "role": "verb", "id": "v" },
+      { "t": "next year", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "coming-year-at", "role": "other", "id": "a" },
+      { "t": "marry-will-[quote] said", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "내년에", "role": "other", "id": "a" },
+      { "t": "결혼할 거라고 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengi naenyeone gyeolhonhal georago haesseoyo",
+    "wordIds": ["w_dongsaeng", "w_naenyeon", "w_gyeolhonhada", "w_hada"],
+    "note": "The future quotes through its own X-ray: 결혼할 거예요 = badge + 거(것) + copula (M25's reveal) — and copulas quote with -라고. So: 결혼할 거라고. If you can decode 거예요, this conjugation is free. Family news travels on exactly this sentence."
   }
 ]

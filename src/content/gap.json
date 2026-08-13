@@ -1024,5 +1024,32 @@
     "lit": "eight provinces",
     "real": "all of Korea — everywhere in the country",
     "note": "Joseon carved the country into eight 도 in 1413 — 경기, 강원, 충청, 전라, 경상, plus three now north of the border (평안, 함경, 황해). The count stuck as an idiom for 'the whole country' centuries after the map moved on: 팔도 사투리 (dialects from everywhere), 전국 팔도, and the 팔도 instant-noodle brand in every convenience store. M14's 팔 + this module's 도 — two syllables, six hundred years of map."
+  },
+  {
+    "id": "g_m32_mworagoyo",
+    "cat": "phrase",
+    "ko": "뭐라고요?",
+    "rom": "mworagoyo?",
+    "lit": "you say — what?",
+    "real": "sorry, what did you say? (or, with heat: WHAT?!)",
+    "note": "The quote-machine as a reflex: 뭐라고 (해요) with the reporting verb dropped entirely. Flat intonation = 'come again?'; rising heat = the last thing said was outrageous. Among friends it's 뭐라고? — and in texts it shrinks further to 머라고/뭐라구. One quoting particle, the whole spectrum from hard-of-hearing to how-dare-you."
+  },
+  {
+    "id": "g_m32_daeyo",
+    "cat": "structure",
+    "ko": "온대요",
+    "rom": "ondaeyo",
+    "lit": "come — (says, shrunk)",
+    "real": "I hear they're coming — hearsay in one syllable",
+    "note": "-다고 해요 compressed to -대요 (and -라고 해요 to -래요) — the 준말 reading's frequency-pressure law applied to grammar itself. 온다고 해요 → 온대요; 학생이라고 해요 → 학생이래요. This is gossip's native gear: 결혼한대요! (I hear they're getting married!). Recognize it now; Ring 2 will have you producing it soon enough."
+  },
+  {
+    "id": "g_m32_gungmin_prefix",
+    "cat": "concept",
+    "ko": "국민 여동생",
+    "rom": "gungmin yeodongsaeng",
+    "lit": "the nation's little sister",
+    "real": "a star the whole country has adopted",
+    "note": "국민 as a prefix nationalizes affection: 국민 여동생 (여자 + M4's 동생 — the beloved young star everyone claims as family), 국민 MC (the host in every living room), 국민 간식 (the national snack — 떡볶이 holds the title). When fifty million people agree on something, Korean files it under the family register — 우리나라 logic (M27), one shelf over."
   }
 ]
