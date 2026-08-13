@@ -1063,5 +1063,28 @@
       "s_m41_baby_skin", "s_m41_cat_yawn", "s_m41_voice_tremble", "s_m41_eyes_sleep",
       "s_m41_sigh_homework", "s_m41_eyebrows_dad", "s_m41_wet_hands", "s_m41_bread_smell"
     ]
+  },
+  {
+    "id": "m42",
+    "title": "You Know, You See",
+    "order": 50,
+    "ring": 2,
+    "contentMd": "modules/module-42.md",
+    "wordIds": [
+      "w_gamjeong", "w_maeumsok", "w_gippeum", "w_seulpeum",
+      "w_ureum", "w_jeulgeoum", "w_haengbok", "w_geop",
+      "w_ginjang", "w_chunggyeok", "w_gamdong", "w_pyeonanhada",
+      "w_buranhada", "w_bulman", "w_iksukhada", "w_natseolda",
+      "w_eosaekhada", "w_nollapda", "w_danghwanghada", "w_changpihada",
+      "w_seotureuda", "w_bulssanghada", "w_antakkapda", "w_goeropda",
+      "w_mipda", "w_miwohada", "w_geuripda", "w_sarangseureopda",
+      "w_seounhada", "w_seolleda", "w_nunchi", "w_pyohyeonhada",
+      "w_gidaehada", "w_gominhada", "w_amuraedo", "w_eojjeonji",
+      "w_dangyeonhi", "w_hwaksilhi", "w_dahaenghi", "w_geumankeum"
+    ],
+    "sentenceIds": [
+      "s_m42_told_you", "s_m42_slow_please", "s_m42_dont_be_nervous", "s_m42_exam_reason",
+      "s_m42_strange_used", "s_m42_express_hard", "s_m42_winter_miss", "s_m42_no_wonder"
+    ]
   }
 ]

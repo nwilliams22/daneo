@@ -1267,5 +1267,32 @@
     "lit": "fire falls on the instep",
     "real": "the deadline is HERE — panic mode, now",
     "note": "M36's great faller delivers M13's 불 onto this module's 발등: when fire lands on the top of your foot, you stop planning and start hopping. 발등에 불이 떨어졌어요 = it's due tomorrow and I've done nothing. M38's 미루다 is how the fire got scheduled; M15's exam culture keeps the matches."
+  },
+  {
+    "id": "g_m42_miun_jeong",
+    "cat": "concept",
+    "ko": "미운 정 고운 정",
+    "rom": "miun jeong goun jeong",
+    "lit": "hateful jeong, lovely jeong",
+    "real": "the bond that grows through friction as much as fondness",
+    "note": "M26's untranslatable 정 meets this module's 밉다: long relationships accumulate BOTH kinds — the affection from good times (고운 정 — 곱다, lovely, ㅂ-family like 밉다 itself) and the stranger attachment that grows through quarrels, annoyance, and years of putting up with each other (미운 정). Old couples cite it, siblings embody it, and 정떨어지다 — jeong falling off — is the only real divorce. You can 미워하다 someone and be bound to them anyway; Korean saw no contradiction and named it."
+  },
+  {
+    "id": "g_m42_jwigumeong",
+    "cat": "phrase",
+    "ko": "쥐구멍에 숨고 싶다",
+    "rom": "jwigumeonge sumgo sipda",
+    "lit": "to want to hide in a mouse hole",
+    "real": "to be dying of embarrassment",
+    "note": "창피함's official escape plan: 쥐 (mouse) + 구멍 (hole) + M37's 숨다 + M3's -고 싶다 — when the embarrassment peaks, Korean shrinks you to mouse size and starts scanning the baseboards. 너무 창피해서 쥐구멍에 숨고 싶었어요 = I wanted to disappear. The proverb cousin promises the mouse hole its day in the sun (쥐구멍에도 볕 들 날 있다 — even mouse holes get sunshine); until yours arrives, it remains an emergency exit."
+  },
+  {
+    "id": "g_m42_gippeum_nanugi",
+    "cat": "phrase",
+    "ko": "기쁨은 나누면 배가 되고 슬픔은 나누면 반이 된다",
+    "rom": "gippeumeun nanumyeon baega doego seulpeumeun nanumyeon bani doenda",
+    "lit": "joy, divided, becomes double; sorrow, divided, becomes half",
+    "real": "share your feelings — it multiplies the good and shrinks the bad",
+    "note": "The proverb runs entirely on this module's -ㅁ factory: 기쁨 and 슬픔, freshly minted, plus 나누다 (to divide/share — worth keeping) and M35's 되다 doing the arithmetic. Radar inside: this 배 is 倍 (times, double) — not M3's belly — and 반 is M5's half, keeping its old job. Korean emotional culture in one equation: feelings are meant to be split among people, and the math always favors telling someone."
   }
 ]
