@@ -967,5 +967,29 @@
       "s_m36_thief_caught", "s_m36_mosquito_bite", "s_m36_failed_exam",
       "s_m36_stress_gone", "s_m36_phone_died"
     ]
+  },
+  {
+    "id": "m37",
+    "title": "Making-Do",
+    "order": 45,
+    "ring": 2,
+    "contentMd": "modules/module-37.md",
+    "wordIds": [
+      "w_meogida", "w_jugida", "w_buchida", "w_nopida",
+      "w_sallida", "w_allida", "w_ullida", "w_dollida",
+      "w_dolda", "w_neullida", "w_jurida", "w_matgida",
+      "w_matda_take", "w_namgida", "w_sumda", "w_sumgida",
+      "w_kkaeuda", "w_jaeuda", "w_taeuda", "w_biuda",
+      "w_chaeuda", "w_natchuda", "w_matchuda", "w_kkeulta",
+      "w_bida", "w_anchida", "w_iphida", "w_inhyeong",
+      "w_yuchiwon", "w_juk", "w_simbureum", "w_mogyok",
+      "w_sesu", "w_setakso", "w_juchajang", "w_yongdon",
+      "w_jangnangam", "w_jangnan", "w_hwabun", "w_yejeol"
+    ],
+    "sentenceIds": [
+      "s_m37_feed_baby", "s_m37_woke_sibling", "s_m37_dry_cleaner",
+      "s_m37_leave_message", "s_m37_set_alarm", "s_m37_song_smile",
+      "s_m37_errand", "s_m37_laundry_weekend"
+    ]
   }
 ]

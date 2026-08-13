@@ -1159,5 +1159,32 @@
     "lit": "good fortune amid misfortune",
     "real": "the silver lining — it could have been so much worse",
     "note": "The phrase Korea reaches for after every fender-bender: 불행 (불- the un- prefix + 행복's happy-행 = misfortune) + S2's 중 (amid) + this module's 다행. 다리를 다쳤지만 불행 중 다행이에요 — broke a leg, but it wasn't the neck. The 불- prefix is a machine of its own (불가능 impossible, 불편 uncomfortable — M12's 편하다 negated); file it, Ring 2 keeps paying it."
+  },
+  {
+    "id": "g_m37_maeum_biuda",
+    "cat": "phrase",
+    "ko": "마음을 비우다",
+    "rom": "maeumeul biuda",
+    "lit": "to empty the heart/mind",
+    "real": "to let go of expectations — want nothing, hurt less",
+    "note": "Korea's standing prescription for disappointment: before exam results, after breakups, during job hunts — 마음을 비웠어요 means you've released the wanting. Temple-stay Buddhism runs through it (the monks mean it literally), but so does test-day pragmatism: expect nothing, and the result can only surprise you upward. M19's 마음 + this module's 비우다: the heart as a container you can, with practice, pour out."
+  },
+  {
+    "id": "g_m37_saram_sallyeo",
+    "cat": "phrase",
+    "ko": "사람 살려!",
+    "rom": "saram sallyeo!",
+    "lit": "save the person!",
+    "real": "HELP! — the emergency scream",
+    "note": "Not 도와주세요 (that's for directions and heavy boxes) — real danger screams 사람 살려!: make-the-person-LIVE, this module's 살리다 in the imperative, particles abandoned because emergencies don't gate. Also deployed in mock horror: buried under work, tickled by friends, facing a spider. The causative party's loudest member; may you only ever use it for the spider."
+  },
+  {
+    "id": "g_m37_son_manhi_gada",
+    "cat": "phrase",
+    "ko": "손이 많이 가다",
+    "rom": "soni mani gada",
+    "lit": "many hands go (into it)",
+    "real": "high-maintenance — it takes a lot of care",
+    "note": "Fully decodable: M8's 손 + M17's 많이 + 가다 — your hands GO to the thing, repeatedly. Said of fiddly recipes (잡채 is the canonical example), needy pets, delicate plants, and — fondly — certain people: 손이 많이 가는 스타일. The caretaking module's own summary: everything in it, from 아기 to 화분, is something 손이 많이 가는. Affection, measured in trips."
   }
 ]
