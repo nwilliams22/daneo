@@ -9918,5 +9918,161 @@
     "rom": "sigani eopseoyo. seodureuseyo!",
     "wordIds": ["w_sigan", "w_eopda", "w_seodureuda"],
     "note": "The two-sentence sprint: M1's oldest frame (시간이 없어요 — the 있다-factory's most stressful product) plus 서두르다 in the imperative. Note the 르-family fine print: 서두르세요 keeps its 르 (only -아/어 forms trigger 서둘러). Now go — 얼른!"
+  },
+  {
+    "id": "s_m39_rain_go",
+    "en": [
+      { "t": "Even if it rains,", "role": "other", "id": "a" },
+      { "t": "I'm going", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] come-even-if", "role": "other", "id": "a" },
+      { "t": "go-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가 와도", "role": "other", "id": "a" },
+      { "t": "갈 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga wado gal geoyeyo",
+    "wordIds": ["w_bi", "w_oda", "w_gada"],
+    "note": "-아/어도's debut: concede the condition, keep the plan — rain granted, going anyway. M11's weather-comes plus M8's future machine, hinged on two syllables. The umbrella is implied; the determination is grammatical."
+  },
+  {
+    "id": "s_m39_may_i_eat",
+    "en": [
+      { "t": "May I eat", "role": "verb", "id": "v" },
+      { "t": "this?", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "this-thing", "role": "object", "id": "o" },
+      { "t": "eat-even-if becomes?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이거", "role": "object", "id": "o" },
+      { "t": "먹어도 돼요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "igeo meogeodo dwaeyo?",
+    "wordIds": ["w_igeo", "w_meokda", "w_doeda"],
+    "note": "The permission machine, finally licensed: -아/어도 돼요 = 'even if I do it, is it OK?' — the frame M33's 여쭈다 had to tiptoe around. The permission panel completes: 안 돼요 (M10, forbidden), -(으)면 돼요 (M23, just do X), -아/어도 돼요 (allowed). Ask it before every shared plate."
+  },
+  {
+    "id": "s_m39_no_matter_busy",
+    "en": [
+      { "t": "No matter how busy I am,", "role": "other", "id": "a" },
+      { "t": "I always eat", "role": "verb", "id": "v" },
+      { "t": "breakfast", "role": "object", "id": "o" },
+      { "t": "without fail", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "no-matter-how busy-even-if", "role": "other", "id": "a" },
+      { "t": "breakfast-[obj]", "role": "object", "id": "o" },
+      { "t": "surely", "role": "other", "id": "b" },
+      { "t": "eat", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아무리 바빠도", "role": "other", "id": "a" },
+      { "t": "아침을", "role": "object", "id": "o" },
+      { "t": "꼭", "role": "other", "id": "b" },
+      { "t": "먹어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "amuri bappado achimeul kkok meogeoyo",
+    "wordIds": ["w_amuri", "w_bappeuda", "w_achim", "w_kkok", "w_meokda"],
+    "note": "아무리 announces the -아/어도 the way 만약 announces a -면 (M33) — adverb first, concession second, and M29's 꼭 seals the vow. Note 아침 doing double duty as 'breakfast' — morning IS the meal in Korean, an economy English forgot."
+  },
+  {
+    "id": "s_m39_ticket_only",
+    "en": [
+      { "t": "Only with a ticket", "role": "other", "id": "a" },
+      { "t": "can you enter", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "ticket-[subj] exist-only-if", "role": "other", "id": "a" },
+      { "t": "enter-can", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "표가 있어야", "role": "other", "id": "a" },
+      { "t": "들어갈 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pyoga isseoya deureogal su isseoyo",
+    "wordIds": ["w_pyo", "w_itda", "w_deureogada"],
+    "note": "-아/어야 bare: only-if — the gate stays shut until the condition opens it. And the retro-decode Band 1 has waited 29 modules for: M10's -아/어야 돼요 was THIS + 되다 all along — 'only if you do it does it become OK'. The obligation machine was an only-if machine wearing a coat."
+  },
+  {
+    "id": "s_m39_only_1000",
+    "en": [
+      { "t": "I only have", "role": "verb", "id": "v" },
+      { "t": "a thousand won", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "thousand won-outside-of", "role": "object", "id": "o" },
+      { "t": "not-exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "천 원밖에", "role": "object", "id": "o" },
+      { "t": "없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheon wonbakke eopseoyo",
+    "wordIds": ["w_cheon", "w_won", "w_eopda"],
+    "note": "밖에's whole trick in four words: 'outside of 1,000 won — nothing exists.' M6's 밖 (outside) became a particle of scarcity, and it DEMANDS a negative — 밖에 있어요 is ungrammatical lament. Compare M30's 만: 천 원만 있어요 states; 천 원밖에 없어요 sighs."
+  },
+  {
+    "id": "s_m39_little_time",
+    "en": [
+      { "t": "There's only", "role": "verb", "id": "v" },
+      { "t": "a little time", "role": "subject", "id": "s" },
+      { "t": "left", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "time-[subj]", "role": "subject", "id": "s" },
+      { "t": "a-little-outside-of", "role": "other", "id": "a" },
+      { "t": "not remained", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시간이", "role": "subject", "id": "s" },
+      { "t": "조금밖에", "role": "other", "id": "a" },
+      { "t": "안 남았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sigani jogeumbakke an namasseoyo",
+    "wordIds": ["w_sigan", "w_jogeum", "w_namda"],
+    "note": "밖에 + M3's 안 + M35's 남다: only a little time remains — the exam proctor's sentence, the deadline's whisper. Note the double negative that isn't one: 밖에 needs the 안 to mean 'only'. Korean scarcity always travels with its negative bodyguard."
+  },
+  {
+    "id": "s_m39_credo",
+    "en": [
+      { "t": "Korean is hard.", "role": "verb", "id": "v" },
+      { "t": "Even so,", "role": "other", "id": "a" },
+      { "t": "it's fun!", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "Korea-language-[topic] difficult.", "role": "verb", "id": "v" },
+      { "t": "even-so", "role": "other", "id": "a" },
+      { "t": "fun!", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "한국어는 어려워요.", "role": "verb", "id": "v" },
+      { "t": "그래도", "role": "other", "id": "a" },
+      { "t": "재미있어요!", "role": "verb", "id": "w" }
+    ],
+    "rom": "hangugeoneun eoryeowoyo. geuraedo jaemiisseoyo!",
+    "wordIds": ["w_hangugeo", "w_eoryeopda", "w_geuraedo", "w_jaemiitda"],
+    "note": "The learner's credo, in the learner's grammar: 그래도 = 그렇다 + -아/어도, M29's machine running this module's glue. Thirty-nine modules of evidence for the first clause; thirty-nine modules of proof for the second. Band 4 rests its case."
+  },
+  {
+    "id": "s_m39_no_regrets",
+    "en": [
+      { "t": "I gave it my best,", "role": "other", "id": "a" },
+      { "t": "so I have no regrets", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "utmost-[obj] did-all-because", "role": "other", "id": "a" },
+      { "t": "regret-[topic] not-exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "최선을 다했으니까", "role": "other", "id": "a" },
+      { "t": "후회는 없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "choeseoneul dahaesseunikka huhoeneun eopseoyo",
+    "wordIds": ["w_choeseon", "w_da", "w_hada", "w_huhoehada", "w_eopda"],
+    "note": "최선을 다하다 — do-it-ALL (M9's 다, promoted to verb-part) — with M10's -(으)니까 drawing the conclusion and M34's 후회 declining to attend. The sentence to say after every module test, win or lose. Band 4: 최선을 다했습니다."
   }
 ]
