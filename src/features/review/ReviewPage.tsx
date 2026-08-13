@@ -2,16 +2,21 @@ import { Link } from "react-router";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "../../db/db";
 import PageHeader from "../../components/PageHeader";
-import { currentlyMissed, type MissedRef } from "../../lib/stats";
+import {
+  currentlyMissed,
+  missedWordsByModule,
+  type MissedRef,
+} from "../../lib/stats";
 import { dueNow, nextDueAt } from "../../lib/srs";
 import {
   confusableById,
   sentenceById,
   wordById,
   fontLetterById,
+  modulesOrdered,
 } from "../../content";
 import { useGapPool, type GapPool } from "../drills/gap/useGapPool";
-import type { DrillKind, GapItem } from "../../types";
+import type { DrillKind, GapItem, Word } from "../../types";
 
 interface ResolvedMiss {
   id: string;
@@ -149,14 +154,38 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
     byKind.set(m.kind, list);
   }
 
-  const sections = kindSections(gapPool.byId)
-    .map((k) => ({
-      ...k,
-      items: (byKind.get(k.kind) ?? [])
-        .map((m) => k.resolve(m.itemId))
-        .filter((x): x is ResolvedMiss => x !== null),
-    }))
-    .filter((s) => s.items.length > 0);
+  const drillSections = kindSections(gapPool.byId).map((k) => ({
+    key: k.kind,
+    title: k.title,
+    drillTo: k.drillTo,
+    cta: "Drill these",
+    items: (byKind.get(k.kind) ?? [])
+      .map((m) => k.resolve(m.itemId))
+      .filter((x): x is ResolvedMiss => x !== null),
+  }));
+
+  // Vocab-MCQ misses (kind "word") come from module tests, so the re-drill
+  // route is per module: one card per module, its test as the CTA.
+  const wordsByModule = missedWordsByModule(
+    missed,
+    (id) => wordById.get(id)?.moduleId,
+  );
+  const vocabSections = modulesOrdered
+    .filter((m) => wordsByModule.has(m.id))
+    .map((m) => ({
+      key: `word:${m.id}`,
+      title: `Vocabulary · ${m.title}`,
+      drillTo: `/learn/${m.id}/test`,
+      cta: "Retake test",
+      items: (wordsByModule.get(m.id) ?? [])
+        .map((id) => wordById.get(id))
+        .filter((w): w is Word => w !== undefined)
+        .map((w) => ({ id: w.id, big: w.ko, small: w.en })),
+    }));
+
+  const sections = [...drillSections, ...vocabSections].filter(
+    (s) => s.items.length > 0,
+  );
 
   if (sections.length === 0)
     return (
@@ -164,8 +193,8 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
         <div className="font-korean text-4xl">✨</div>
         <div className="mt-3 text-sm font-semibold">Nothing to review</div>
         <p className="mx-auto mt-1.5 max-w-xs text-[13px] leading-relaxed text-muted">
-          Miss something in any drill and it will appear here until you answer
-          it correctly.
+          Miss something in any drill or module test and it will appear here
+          until you answer it correctly.
         </p>
       </div>
     );
@@ -174,7 +203,7 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
     <div className="flex flex-col gap-4">
       {sections.map((s) => (
         <div
-          key={s.kind}
+          key={s.key}
           className="rounded-2xl border border-line bg-panel px-4 py-3.5"
         >
           <div className="mb-2.5 flex items-center justify-between">
@@ -185,7 +214,7 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
               to={s.drillTo}
               className="rounded-full bg-ink px-3.5 py-1.5 text-xs font-bold text-paper transition-opacity hover:opacity-90"
             >
-              Drill these
+              {s.cta}
             </Link>
           </div>
           <div className="flex flex-wrap gap-2">

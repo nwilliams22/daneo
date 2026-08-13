@@ -26,6 +26,26 @@ export function currentlyMissed(results: DrillResult[]): MissedRef[] {
     .map((r) => ({ kind: r.kind, itemId: r.itemId }));
 }
 
+/** Word-kind misses bucketed by owning module — the Review strip gives each
+ *  module's missed vocab one card whose re-drill is that module's test.
+ *  Preserves input order within a module (newest miss first, per
+ *  currentlyMissed); misses that resolve to no module are dropped. */
+export function missedWordsByModule(
+  missed: MissedRef[],
+  moduleOf: (itemId: string) => string | undefined,
+): Map<string, string[]> {
+  const byModule = new Map<string, string[]>();
+  for (const m of missed) {
+    if (m.kind !== "word") continue;
+    const moduleId = moduleOf(m.itemId);
+    if (!moduleId) continue;
+    const list = byModule.get(moduleId) ?? [];
+    list.push(m.itemId);
+    byModule.set(moduleId, list);
+  }
+  return byModule;
+}
+
 export interface Accuracy {
   seen: number;
   correct: number;
