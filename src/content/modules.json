@@ -845,5 +845,31 @@
       "s_m31_hallasan_tallest", "s_m31_baekdusan_border", "s_m31_overseas_trip",
       "s_m31_tokyo_flight", "s_m31_gyeongju_old_korea"
     ]
+  },
+  {
+    "id": "m32",
+    "title": "Society and the News",
+    "order": 40,
+    "ring": 2,
+    "contentMd": "modules/module-32.md",
+    "wordIds": [
+      "w_sahoe", "w_gyeongje", "w_jeongchi", "w_jeongbu",
+      "w_daetongnyeong", "w_gungmin", "w_gyoyuk", "w_bangsong",
+      "w_gwanggo", "w_peurogeuraem", "w_ingan", "w_yeoseong",
+      "w_namseong", "w_minjok", "w_jagi", "w_dangsin",
+      "w_jeonjaeng", "w_pyeonghwa", "w_gyeongu", "w_jeongdo",
+      "w_bangbeop", "w_gyeolgwa", "w_naeyong", "w_uimi",
+      "w_gwangye", "w_byeonhwa", "w_hwangyeong", "w_yeongu",
+      "w_bubun", "w_daebubun", "w_jeom", "w_geul",
+      "w_gaji", "w_isang", "w_choegeun", "w_gyeolguk",
+      "w_daehada", "w_wihada", "w_tonghada", "w_ttareuda",
+      "w_natanada", "w_neukkida", "w_teukhi", "w_imi",
+      "w_yeoksi", "w_eopsi"
+    ],
+    "sentenceIds": [
+      "s_m32_news_rain", "s_m32_what_called", "s_m32_society_changing",
+      "s_m32_president_education", "s_m32_economy_according", "s_m32_namsan_called",
+      "s_m32_jeju_heard", "s_m32_marry_next_year"
+    ]
   }
 ]
