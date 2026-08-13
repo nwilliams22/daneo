@@ -871,5 +871,29 @@
       "s_m32_president_education", "s_m32_economy_according", "s_m32_namsan_called",
       "s_m32_jeju_heard", "s_m32_marry_next_year"
     ]
+  },
+  {
+    "id": "m33",
+    "title": "Saying and Asking II",
+    "order": 41,
+    "ring": 2,
+    "contentMd": "modules/module-33.md",
+    "wordIds": [
+      "w_ireoke", "w_geureoke", "w_jeoreoke", "w_ye",
+      "w_seongham", "w_jemok", "w_inteobyu", "w_butak",
+      "w_pyohyeon", "w_munjang", "w_hoehwa", "w_chingchan",
+      "w_jeongbo", "w_sokdam", "w_sangdaebang", "w_anbu",
+      "w_manyak", "w_gyeongheom", "w_gihoe", "w_mokjeok",
+      "w_gyeoljeonghada", "w_seontaekhada", "w_jeonghada", "w_aradeutda",
+      "w_yeojjuda", "w_sagwahada", "w_geojeolhada", "w_sillyehada",
+      "w_jeonhada", "w_joyonghi", "w_soljikhi", "w_geuman",
+      "w_eojjaetdeun", "w_useum", "w_miso", "w_sogae",
+      "w_sunseo", "w_sanghwang", "w_taedo", "w_saturi"
+    ],
+    "sentenceIds": [
+      "s_m33_asked_when", "s_m33_suggested_movie", "s_m33_regards",
+      "s_m33_wonder_weekend", "s_m33_didnt_catch", "s_m33_excuse_name",
+      "s_m33_if_problem", "s_m33_like_this"
+    ]
   }
 ]
