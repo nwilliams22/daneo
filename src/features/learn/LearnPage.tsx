@@ -7,6 +7,23 @@ import { useKnownWords } from "../../db/useKnownWords";
 import { moduleProgress, isModuleComplete } from "../../lib/gating";
 import { PASS_PCT } from "../../lib/moduleTest";
 
+// Ring section headers (CURRICULUM.md §1). Dividers render only once the
+// list actually spans more than one ring, so Ring 1 never wears a lone label.
+const RING_META: Record<number, { label: string; blurb: string }> = {
+  1: {
+    label: "Ring 1 · Beginner",
+    blurb: "The full grammar engine and your first ~1,000 words.",
+  },
+  2: {
+    label: "Ring 2 · Intermediate",
+    blurb: "Quoting, passives, and the NIKL grade-B vocabulary — ~1,700 words deeper.",
+  },
+  3: {
+    label: "Ring 3 · Advanced",
+    blurb: "The rest of the list — full learner-list coverage.",
+  },
+};
+
 // Vocab modules and readings number themselves separately, so "Module N"
 // always matches the numbers the course prose refers to — interludes can
 // never shift them (Nick, 2026-08-02).
@@ -27,6 +44,9 @@ const LABELS: Record<string, string> = (() => {
   );
 })();
 
+const multiRing =
+  new Set(modulesOrdered.map((m) => m.ring ?? 1)).size > 1;
+
 export default function LearnPage() {
   const known = useKnownWords();
   const tests = useLiveQuery(async () => {
@@ -42,11 +62,15 @@ export default function LearnPage() {
         blurb="Words first, then the glue, then sentences built only from words you know."
       />
       <div className="flex flex-col gap-3">
-        {modulesOrdered.map((m) => {
+        {modulesOrdered.map((m, i) => {
           const progress = known ? moduleProgress(m, known) : undefined;
           const complete = known ? isModuleComplete(m, known) : false;
           const isReading = m.wordIds.length === 0;
-          return (
+          const ring = m.ring ?? 1;
+          const prevRing = i > 0 ? (modulesOrdered[i - 1].ring ?? 1) : null;
+          const divider =
+            multiRing && ring !== prevRing ? RING_META[ring] : undefined;
+          const card = (
             <Link
               key={m.id}
               to={`/learn/${m.id}`}
@@ -103,6 +127,21 @@ export default function LearnPage() {
                 </div>
               )}
             </Link>
+          );
+          if (!divider) return card;
+          return (
+            <div key={m.id} className="contents">
+              <div className={i > 0 ? "mt-3" : ""}>
+                <div className="flex items-center gap-3">
+                  <span className="text-[11px] font-bold tracking-[0.25em] text-teal uppercase">
+                    {divider.label}
+                  </span>
+                  <div className="h-px flex-1 bg-line" />
+                </div>
+                <p className="mt-1 text-xs text-muted">{divider.blurb}</p>
+              </div>
+              {card}
+            </div>
           );
         })}
       </div>

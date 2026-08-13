@@ -60,6 +60,7 @@ export interface Module {
   id: string;
   title: string;
   order: number;
+  ring?: number; // CURRICULUM.md ring (1 beginner / 2 intermediate / 3 advanced); absent = 1
   contentMd: string; // path to markdown
   wordIds: string[]; // vocab unlocked on completion
   sentenceIds: string[];
