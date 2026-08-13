@@ -1086,5 +1086,30 @@
       "s_m42_told_you", "s_m42_slow_please", "s_m42_dont_be_nervous", "s_m42_exam_reason",
       "s_m42_strange_used", "s_m42_express_hard", "s_m42_winter_miss", "s_m42_no_wonder"
     ]
+  },
+  {
+    "id": "m40",
+    "title": "The Make-Ahead Kitchen",
+    "order": 48,
+    "ring": 2,
+    "contentMd": "modules/module-40.md",
+    "wordIds": [
+      "w_jaeryo", "w_sseolda", "w_jareuda", "w_seokda",
+      "w_jeotda_stir", "w_ppurida", "w_damda_dish", "w_damgeuda",
+      "w_buchida_jeon", "w_samda", "w_ikda_ripen", "w_sikda",
+      "w_eolda", "w_eoreum", "w_ganjang", "w_yangnyeom",
+      "w_chamgireum", "w_gireum", "w_gochutgaru", "w_sikcho",
+      "w_soseu", "w_beoteo", "w_chijeu", "w_kkul",
+      "w_danmat", "w_maneul", "w_yangpa", "w_pa",
+      "w_mu", "w_baechu", "w_gamja", "w_goguma",
+      "w_beoseot", "w_kong", "w_dalgyal", "w_kkeopjil",
+      "w_naembi", "w_ttukkeong", "w_bapsot", "w_gaseu",
+      "w_gungmul", "w_gansik", "w_sang", "w_charida",
+      "w_chaenggida", "w_duda"
+    ],
+    "sentenceIds": [
+      "s_m40_banchan_ahead", "s_m40_table_ready", "s_m40_freeze_soup", "s_m40_gimjang_family",
+      "s_m40_sesame_finish", "s_m40_bbq_justice", "s_m40_too_salty", "s_m40_self_care"
+    ]
   }
 ]
