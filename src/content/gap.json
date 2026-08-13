@@ -1240,5 +1240,32 @@
     "lit": "picking a star from the sky",
     "real": "next to impossible",
     "note": "M11's sky and star, plus 따다 (to pick/pluck — apples, licenses, and here, stars): the impossibility idiom — 서울에서 집 사기는 하늘의 별 따기예요 (buying a Seoul apartment = star-picking; M31's 서울 공화국 gap agrees). Note the -기 nominalizer (M13) turning the whole heist into a noun. When 불가능하다 feels too clinical, reach up."
+  },
+  {
+    "id": "g_m41_son_ttam",
+    "cat": "phrase",
+    "ko": "손에 땀을 쥐다",
+    "rom": "sone ttameul jwida",
+    "lit": "to grip sweat in one's hand",
+    "real": "nail-biting — edge-of-your-seat suspense",
+    "note": "Three of this module's words in one clench: the palm sweats (땀), the hand closes on it (쥐다), and the tension holds. Usually worn as a badge: 손에 땀을 쥐는 경기 (M17's 경기 — a match watched with wet fists), 손에 땀을 쥐는 영화 (M2's 영화). English bites its nails; Korean grips its own weather."
+  },
+  {
+    "id": "g_m41_baekkop_utda",
+    "cat": "phrase",
+    "ko": "배꼽 빠지게 웃다",
+    "rom": "baekkop ppajige utda",
+    "lit": "to laugh so your belly button falls out",
+    "real": "to laugh yourself silly",
+    "note": "M35's 빠지다 — the faller-outer of teeth and weight — applied to the navel, with -게 turning catastrophe into a degree: laughed TO THE POINT OF navel loss. 배꼽 빠지게 웃었어요 = we were in stitches. Anatomy objects; comedy insists; M7's 웃다 does the work either way."
+  },
+  {
+    "id": "g_m41_baldeung_bul",
+    "cat": "phrase",
+    "ko": "발등에 불이 떨어지다",
+    "rom": "baldeunge buri tteoreojida",
+    "lit": "fire falls on the instep",
+    "real": "the deadline is HERE — panic mode, now",
+    "note": "M36's great faller delivers M13's 불 onto this module's 발등: when fire lands on the top of your foot, you stop planning and start hopping. 발등에 불이 떨어졌어요 = it's due tomorrow and I've done nothing. M38's 미루다 is how the fire got scheduled; M15's exam culture keeps the matches."
   }
 ]

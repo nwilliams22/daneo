@@ -1039,5 +1039,29 @@
       "s_m39_ticket_only", "s_m39_only_1000", "s_m39_little_time",
       "s_m39_credo", "s_m39_no_regrets"
     ]
+  },
+  {
+    "id": "m41",
+    "title": "The Body, Up Close",
+    "order": 49,
+    "ring": 2,
+    "contentMd": "modules/module-41.md",
+    "wordIds": [
+      "w_ima", "w_nunsseop", "w_ppyam", "w_teok",
+      "w_suyeom", "w_ipsul", "w_hyeo", "w_ssipda",
+      "w_pibu", "w_teol", "w_ppyeo", "w_ttam",
+      "w_sum", "w_hansum", "w_hapum", "w_jaechaegi",
+      "w_tteolda", "w_tteollida", "w_jumeok", "w_sonbadak",
+      "w_sontop", "w_balgarak", "w_baldeung", "w_baekkop",
+      "w_jwida", "w_manjida", "w_heundeulda", "w_sugida",
+      "w_gamda", "w_budeureopda", "w_seda", "w_geot",
+      "w_naemsae", "w_hyanggi", "w_p_cheoreom", "w_damda",
+      "w_jalsaenggida", "w_miin", "w_nunbit", "w_insang",
+      "w_chejung", "w_ttungttunghada"
+    ],
+    "sentenceIds": [
+      "s_m41_baby_skin", "s_m41_cat_yawn", "s_m41_voice_tremble", "s_m41_eyes_sleep",
+      "s_m41_sigh_homework", "s_m41_eyebrows_dad", "s_m41_wet_hands", "s_m41_bread_smell"
+    ]
   }
 ]
