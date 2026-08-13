@@ -9585,5 +9585,173 @@
     "rom": "hoeui junge haendeuponi kkeojyeosseoyo",
     "wordIds": ["w_hoeui", "w_s2_jung", "w_haendeupon", "w_kkeojida"],
     "note": "꺼지다 in its natural disaster: S2's ○○ 중 sets the scene (mid-meeting), and the phone turns ITSELF off — the battery accepts no blame it didn't earn. M35's -아/어지다 machine running on M13's 끄다, exactly as that module promised."
+  },
+  {
+    "id": "s_m37_feed_baby",
+    "en": [
+      { "t": "I fed", "role": "verb", "id": "v" },
+      { "t": "the baby", "role": "other", "id": "a" },
+      { "t": "rice", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "baby-to", "role": "other", "id": "a" },
+      { "t": "rice-[obj]", "role": "object", "id": "o" },
+      { "t": "made-eat", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아기한테", "role": "other", "id": "a" },
+      { "t": "밥을", "role": "object", "id": "o" },
+      { "t": "먹였어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "agihante babeul meogyeosseoyo",
+    "wordIds": ["w_agi", "w_bap", "w_meogida"],
+    "note": "The causative's cast of three: you (doer), the baby (한테 — receiving the action), the rice (still the object). Compare M36: 모기한테 물렸어요 had 한테 marking the CULPRIT; here it marks the beneficiary. Same particle, opposite luck — context referees, as always."
+  },
+  {
+    "id": "s_m37_woke_sibling",
+    "en": [
+      { "t": "In the morning", "role": "other", "id": "a" },
+      { "t": "I woke", "role": "verb", "id": "v" },
+      { "t": "my little sibling", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "morning-at", "role": "other", "id": "a" },
+      { "t": "younger-sibling-[obj]", "role": "object", "id": "o" },
+      { "t": "made-wake", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아침에", "role": "other", "id": "a" },
+      { "t": "동생을", "role": "object", "id": "o" },
+      { "t": "깨웠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "achime dongsaengeul kkaewosseoyo",
+    "wordIds": ["w_achim", "w_dongsaeng", "w_kkaeuda"],
+    "note": "깨다 (M36 — wake by yourself) vs 깨우다 (drag someone else out): the person you wake is a plain object, 을/를 and all. The 우-crew's flagship in its natural morning habitat; the 동생's opinion of this sentence is not recorded."
+  },
+  {
+    "id": "s_m37_dry_cleaner",
+    "en": [
+      { "t": "I left", "role": "verb", "id": "v" },
+      { "t": "my clothes", "role": "object", "id": "o" },
+      { "t": "at the dry cleaner's", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "dry-cleaner-at", "role": "place", "id": "p" },
+      { "t": "clothes-[obj]", "role": "object", "id": "o" },
+      { "t": "entrusted", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "세탁소에", "role": "place", "id": "p" },
+      { "t": "옷을", "role": "object", "id": "o" },
+      { "t": "맡겼어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "setaksoe oseul matgyeosseoyo",
+    "wordIds": ["w_setakso", "w_ot", "w_matgida"],
+    "note": "맡기다's errand frame: [place]에 [thing]을 맡기다 — works for laundry, luggage (호텔에 짐을), kids (부모님께, with the honorific particle), and your fate (운명에, in ballads). The neighborhood 세탁소 아저씨 remembers everyone's coats; this sentence is why."
+  },
+  {
+    "id": "s_m37_leave_message",
+    "en": [
+      { "t": "Please leave", "role": "verb", "id": "v" },
+      { "t": "a message", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "message-[obj]", "role": "object", "id": "o" },
+      { "t": "leave-behind-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "메시지를", "role": "object", "id": "o" },
+      { "t": "남겨 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mesijireul namgyeo juseyo",
+    "wordIds": ["w_mesiji", "w_namgida"],
+    "note": "남기다 through M9's favor machine: make-it-remain, for me. The voicemail formula — and the comment-section one: 댓글을 남겨 주세요, says every Korean YouTuber at the exact same timestamp. M35's 남다 stays behind; 남기다 decides what does."
+  },
+  {
+    "id": "s_m37_set_alarm",
+    "en": [
+      { "t": "I set", "role": "verb", "id": "v" },
+      { "t": "my alarm", "role": "object", "id": "o" },
+      { "t": "for seven o'clock", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "alarm-[obj]", "role": "object", "id": "o" },
+      { "t": "seven o'clock-at", "role": "other", "id": "a" },
+      { "t": "tuned-set", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "알람을", "role": "object", "id": "o" },
+      { "t": "일곱 시에", "role": "other", "id": "a" },
+      { "t": "맞췄어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "allameul ilgop sie matchwosseoyo",
+    "wordIds": ["w_allam", "w_ilgop", "w_c_si", "w_matchuda"],
+    "note": "맞추다 the tuner: make the alarm FIT seven o'clock (M5's native-number clock, still keeping time). M20's 알람 finally meets its verb — and tomorrow, 깨우다 meets its excuse. The snooze button remains untranslated and universal."
+  },
+  {
+    "id": "s_m37_song_smile",
+    "en": [
+      { "t": "This song", "role": "subject", "id": "s" },
+      { "t": "always", "role": "other", "id": "a" },
+      { "t": "makes me smile", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this song-[topic]", "role": "subject", "id": "s" },
+      { "t": "always", "role": "other", "id": "a" },
+      { "t": "me-[obj] laugh-make", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 노래는", "role": "subject", "id": "s" },
+      { "t": "항상", "role": "other", "id": "a" },
+      { "t": "저를 웃게 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i noraeneun hangsang jeoreul utge haeyo",
+    "wordIds": ["w_i_det", "w_norae", "w_hangsang", "w_jeo", "w_utda", "w_hada"],
+    "note": "-게 하다: the universal causative for everything the suffix party doesn't cover — M33's -게 (third job now) + 하다: make-so-that. 웃게 해요 = makes me smile; 울게 해요 = the sad playlist's job. The party is exclusive; -게 하다 is the machine that takes walk-ins."
+  },
+  {
+    "id": "s_m37_errand",
+    "en": [
+      { "t": "Mom", "role": "subject", "id": "s" },
+      { "t": "sent", "role": "verb", "id": "v" },
+      { "t": "me", "role": "other", "id": "a" },
+      { "t": "on an errand", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "mom-[subj]", "role": "subject", "id": "s" },
+      { "t": "me-to", "role": "other", "id": "a" },
+      { "t": "errand-[obj]", "role": "object", "id": "o" },
+      { "t": "made-do", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "엄마가", "role": "subject", "id": "s" },
+      { "t": "저한테", "role": "other", "id": "a" },
+      { "t": "심부름을", "role": "object", "id": "o" },
+      { "t": "시켰어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eommaga jeohante simbureumeul sikyeosseoyo",
+    "wordIds": ["w_eomma", "w_jeo", "w_simbureum", "w_sikida"],
+    "note": "시키다's mask comes off: M3 taught it as 'to order (food)' — but ordering was always its whole job. [noun]을 시키다 = make someone do it: 심부름을 시켜요, 공부를 시켜요, 목욕을 시켜요. The waiter and the errand-kid receive the same verb; only the tip differs."
+  },
+  {
+    "id": "s_m37_laundry_weekend",
+    "en": [
+      { "t": "Every weekend", "role": "other", "id": "a" },
+      { "t": "I run", "role": "verb", "id": "v" },
+      { "t": "the washing machine", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "weekend-every", "role": "other", "id": "a" },
+      { "t": "wash-machine-[obj]", "role": "object", "id": "o" },
+      { "t": "make-spin", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말마다", "role": "other", "id": "a" },
+      { "t": "세탁기를", "role": "object", "id": "o" },
+      { "t": "돌려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumalmada setakgireul dollyeoyo",
+    "wordIds": ["w_jumal", "w_setakgi", "w_dollida"],
+    "note": "돌리다 in its modern uniform: appliances are things you make-spin (M13's 세탁기 does physically rotate; Korean noticed). M31's 마다 schedules the ritual. Also runs 청소기, 에어컨, and — figuratively — 머리 (돌리다 your head = think it over)."
   }
 ]
