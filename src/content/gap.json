@@ -1213,5 +1213,32 @@
     "lit": "Korean Time",
     "real": "the old custom of running fashionably late",
     "note": "Konglish, self-deprecating: mid-century Korea joked that appointments ran on 코리안 타임 — 30 minutes behind, no apology needed. The 빨리빨리 era (M8's gap deck) killed it dead: today's Korea is punctual to the minute, and KTX doors forgive nothing. The phrase survives as a tease for late friends — 또 코리안 타임이야? Deploy gently; receive it never (M33's 미리 연락 exists for a reason)."
+  },
+  {
+    "id": "g_m39_eojjeol_su",
+    "cat": "phrase",
+    "ko": "어쩔 수 없어요",
+    "rom": "eojjeol su eopseoyo",
+    "lit": "there is no way-to-do-how",
+    "real": "it can't be helped — that's just how it is",
+    "note": "The great Korean concession: 어쩔 (어찌 + 할 — the 'however-done' stem from M33's 어쨌든 family) + M10's way-exists machine, negated. Rain on moving day, sold-out tickets, the boss's schedule — 어쩔 수 없어요 accepts them all with a shrug that took centuries to perfect. Deploy it and locals will assume you've lived here years; it's the sound of Korean equanimity."
+  },
+  {
+    "id": "g_m39_noryeok_baesin",
+    "cat": "phrase",
+    "ko": "노력은 배신하지 않는다",
+    "rom": "noryeogeun baesinhaji anneunda",
+    "lit": "effort does not betray",
+    "real": "hard work always pays off",
+    "note": "Study-culture scripture, written on desk stickers and gym walls: this module's 노력 + 배신하다 (to betray — a drama-vocabulary loan worth keeping) + M28's -지 않다 in the plain form the quote-machine taught you to read. Athletes tattoo it, 수험생s (M15's world) whisper it, and skeptics note that 재능 (talent) never signed the contract. Believe it anyway; it's load-bearing."
+  },
+  {
+    "id": "g_m39_haneul_byeol",
+    "cat": "phrase",
+    "ko": "하늘의 별 따기",
+    "rom": "haneure byeol ttagi",
+    "lit": "picking a star from the sky",
+    "real": "next to impossible",
+    "note": "M11's sky and star, plus 따다 (to pick/pluck — apples, licenses, and here, stars): the impossibility idiom — 서울에서 집 사기는 하늘의 별 따기예요 (buying a Seoul apartment = star-picking; M31's 서울 공화국 gap agrees). Note the -기 nominalizer (M13) turning the whole heist into a noun. When 불가능하다 feels too clinical, reach up."
   }
 ]

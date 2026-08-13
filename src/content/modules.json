@@ -1015,5 +1015,29 @@
       "s_m38_driving_psa", "s_m38_overslept", "s_m38_vacation_alba",
       "s_m38_game_rain", "s_m38_hurry"
     ]
+  },
+  {
+    "id": "m39",
+    "title": "Even If, Only If",
+    "order": 47,
+    "ring": 2,
+    "contentMd": "modules/module-39.md",
+    "wordIds": [
+      "w_geuraedo", "w_amuri", "w_chamda", "w_gyeondida",
+      "w_beotida", "w_choeseon", "w_choeak", "w_jogeon",
+      "w_mujogeon", "w_gyuchik", "w_beop", "w_yeoe",
+      "w_gijun", "w_hangye", "w_iha", "w_chaegim",
+      "w_daesin", "w_ganeunghada", "w_bulganeunghada", "w_chungbunhada",
+      "w_bujokhada", "w_wanbyeokhada", "w_simhada", "w_manjokhada",
+      "w_sanggwaneopda", "w_jeoldae", "w_jeonhyeo", "w_bandeusi",
+      "w_jebal", "w_ohiryeo", "w_noryeok", "w_gosaeng",
+      "w_yonggi", "w_jasingam", "w_uiji", "w_pinggye",
+      "w_jangjeom", "w_danjeom"
+    ],
+    "sentenceIds": [
+      "s_m39_rain_go", "s_m39_may_i_eat", "s_m39_no_matter_busy",
+      "s_m39_ticket_only", "s_m39_only_1000", "s_m39_little_time",
+      "s_m39_credo", "s_m39_no_regrets"
+    ]
   }
 ]
