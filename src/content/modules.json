@@ -895,5 +895,29 @@
       "s_m33_wonder_weekend", "s_m33_didnt_catch", "s_m33_excuse_name",
       "s_m33_if_problem", "s_m33_like_this"
     ]
+  },
+  {
+    "id": "m34",
+    "title": "Thoughts and Seemings",
+    "order": 42,
+    "ring": 2,
+    "contentMd": "modules/module-34.md",
+    "wordIds": [
+      "w_gieok", "w_ihae", "w_gomin", "w_jeongsin",
+      "w_neukkim", "w_mideum", "w_huimang", "w_gidae",
+      "w_yesang", "w_pandan", "w_uisim", "w_aidieo",
+      "w_moseup", "w_pyojeong", "w_moyang", "w_sangtae",
+      "w_sangsanghada", "w_gyeolsimhada", "w_huhoehada", "w_barada",
+      "w_wonhada", "w_goreuda", "w_ginjanghada", "w_hwaksilhada",
+      "w_dangyeonhada", "w_bunmyeonghada", "w_gippeuda", "w_oeropda",
+      "w_bukkeureopda", "w_dapdaphada", "w_uulhada", "w_aswipda",
+      "w_jjajeung", "w_eojjeomyeon", "w_waenji", "w_machi",
+      "w_gwaenhi", "w_ilbureo", "w_charari", "w_hetgallida"
+    ],
+    "sentenceIds": [
+      "s_m34_snow_likely", "s_m34_bit_hard", "s_m34_tired_evidence",
+      "s_m34_guests_shoes", "s_m34_like_dream", "s_m34_dont_get_it",
+      "s_m34_somehow_good", "s_m34_interview_nervous"
+    ]
   }
 ]

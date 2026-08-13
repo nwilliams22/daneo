@@ -9093,5 +9093,167 @@
     "rom": "ireoke hamyeon dwaeyo",
     "wordIds": ["w_ireoke", "w_hada", "w_doeda"],
     "note": "The demo sentence: 이렇게 (the manner trio's pointer) + M23's just-do-X machine (-(으)면 돼요). Two words, and it teaches anything — cooking, typing, bowing. Every Korean tutorial video says this eleven times."
+  },
+  {
+    "id": "s_m34_snow_likely",
+    "en": [
+      { "t": "This afternoon", "role": "other", "id": "a" },
+      { "t": "it looks like", "role": "verb", "id": "v" },
+      { "t": "snow is coming", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "afternoon-at", "role": "other", "id": "a" },
+      { "t": "snow-[subj]", "role": "subject", "id": "s" },
+      { "t": "come-[future badge] thing same-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오후에", "role": "other", "id": "a" },
+      { "t": "눈이", "role": "subject", "id": "s" },
+      { "t": "올 것 같아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ohue nuni ol geot gatayo",
+    "wordIds": ["w_ohu", "w_nun_snow", "w_oda", "w_gatda_same"],
+    "note": "The hedge machine, fully decodable: M25's -(으)ㄹ badge + M17's 것 + M24's 같다 — 'it's the same as a coming-thing' = it'll probably snow. Every part was already yours; the glue is assembly, not vocabulary."
+  },
+  {
+    "id": "s_m34_bit_hard",
+    "en": [
+      { "t": "This problem", "role": "subject", "id": "s" },
+      { "t": "seems a bit hard,", "role": "verb", "id": "v" },
+      { "t": "I think", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "this problem-[topic]", "role": "subject", "id": "s" },
+      { "t": "a-bit", "role": "other", "id": "a" },
+      { "t": "difficult-[badge] thing same-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 문제는", "role": "subject", "id": "s" },
+      { "t": "좀", "role": "other", "id": "a" },
+      { "t": "어려운 것 같아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i munjeneun jom eoryeoun geot gatayo",
+    "wordIds": ["w_i_det", "w_munje", "w_jogeum", "w_eoryeopda", "w_gatda_same"],
+    "note": "The politeness hedge in its natural habitat: you're SURE it's hard, but 어려워요 sounds like a verdict — 어려운 것 같아요 (M24's badge) files an impression instead. Add M9's softener 좀 and the opinion arrives in slippers. This is how Korean disagrees."
+  },
+  {
+    "id": "s_m34_tired_evidence",
+    "en": [
+      { "t": "My little sibling", "role": "subject", "id": "s" },
+      { "t": "keeps sleeping.", "role": "verb", "id": "v" },
+      { "t": "Guess they're tired", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "continuously sleeps.", "role": "verb", "id": "v" },
+      { "t": "tired-[inference] see", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "계속 자요.", "role": "verb", "id": "v" },
+      { "t": "피곤한가 봐요", "role": "verb", "id": "w" }
+    ],
+    "rom": "dongsaengi gyesok jayo. pigonhanga bwayo",
+    "wordIds": ["w_dongsaeng", "w_gyesok", "w_jada", "w_pigonhada", "w_boda"],
+    "note": "-나 보다's adjective form: -(으)ㄴ가 보다 (피곤한가 봐요). The structure IS the reasoning: evidence first (keeps sleeping), inference second (must be tired). 것 같다 can be a pure hunch; -나/-(으)ㄴ가 보다 wants a clue you can point at."
+  },
+  {
+    "id": "s_m34_guests_shoes",
+    "en": [
+      { "t": "There are lots of shoes", "role": "verb", "id": "v" },
+      { "t": "by the door.", "role": "place", "id": "p" },
+      { "t": "Guests must have come", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "door front-at", "role": "place", "id": "p" },
+      { "t": "shoe-[subj] many.", "role": "verb", "id": "v" },
+      { "t": "guest-[subj] came-[inference] see", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "문 앞에", "role": "place", "id": "p" },
+      { "t": "신발이 많아요.", "role": "verb", "id": "v" },
+      { "t": "손님이 왔나 봐요", "role": "verb", "id": "w" }
+    ],
+    "rom": "mun ape sinbari manayo. sonnimi wanna bwayo",
+    "wordIds": ["w_mun", "w_ap", "w_sinbal", "w_manta", "w_sonnim", "w_oda", "w_boda"],
+    "note": "-나 보다 on a verb, past tense inside (왔나 봐요) — and the most Korean evidence there is: shoes at the door (M13's no-shoes-inside floor culture doing detective work). M6's position nouns set the scene; 보다 clocks its sixth career — see the glue notes."
+  },
+  {
+    "id": "s_m34_like_dream",
+    "en": [
+      { "t": "It's just", "role": "other", "id": "a" },
+      { "t": "like", "role": "verb", "id": "v" },
+      { "t": "a dream", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "as-if", "role": "other", "id": "a" },
+      { "t": "dream", "role": "object", "id": "o" },
+      { "t": "same-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "마치", "role": "other", "id": "a" },
+      { "t": "꿈", "role": "object", "id": "o" },
+      { "t": "같아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "machi kkum gatayo",
+    "wordIds": ["w_machi", "w_kkum", "w_gatda_same"],
+    "note": "Bare-noun 같다: [noun] 같아요 = it's like a [noun] — no badge needed when comparing to a thing. 마치 announces the simile up front, the way 만약 (M33) announces an if. M8's 꿈 finally gets its poetry."
+  },
+  {
+    "id": "s_m34_dont_get_it",
+    "en": [
+      { "t": "This expression", "role": "subject", "id": "s" },
+      { "t": "I just don't get", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this expression-[topic]", "role": "subject", "id": "s" },
+      { "t": "understanding-[subj] not becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 표현은", "role": "subject", "id": "s" },
+      { "t": "이해가 안 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i pyohyeoneun ihaega an dwaeyo",
+    "wordIds": ["w_i_det", "w_pyohyeon", "w_ihae", "w_doeda"],
+    "note": "The 이해가 안 돼요 frame: understanding is something that HAPPENS (되다), so when it doesn't, you report the malfunction — no 나는 needed. M33's 표현 takes the blame, not you. Politer and more precise than 몰라요; use it on this app freely."
+  },
+  {
+    "id": "s_m34_somehow_good",
+    "en": [
+      { "t": "Today", "role": "other", "id": "a" },
+      { "t": "somehow", "role": "other", "id": "b" },
+      { "t": "I'm in a good mood", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "today-[topic]", "role": "other", "id": "a" },
+      { "t": "why-it-is (somehow)", "role": "other", "id": "b" },
+      { "t": "mood-[subj] good", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘은", "role": "other", "id": "a" },
+      { "t": "왠지", "role": "other", "id": "b" },
+      { "t": "기분이 좋아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneureun waenji gibuni joayo",
+    "wordIds": ["w_oneul", "w_waenji", "w_gibun", "w_jota"],
+    "note": "왠지 = 왜 + M33's -인지, fossilized: a reason exists, you just can't name it. M7's 기분 frame carries the mood; the sentence is what you say on the first warm day of spring. May all your 왠지 days run this direction."
+  },
+  {
+    "id": "s_m34_interview_nervous",
+    "en": [
+      { "t": "I have an interview tomorrow,", "role": "other", "id": "a" },
+      { "t": "so I'm really nervous", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "tomorrow interview-[subj] exists-because", "role": "other", "id": "a" },
+      { "t": "very tension-becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내일 인터뷰가 있어서", "role": "other", "id": "a" },
+      { "t": "너무 긴장돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naeil inteobyuga isseoseo neomu ginjangdwaeyo",
+    "wordIds": ["w_naeil", "w_inteobyu", "w_itda", "w_ginjanghada"],
+    "note": "긴장돼요 — the tension happens TO you (M10's 되다), same chassis as 기대돼요. M10's -아서 supplies the because; M33's 인터뷰 supplies the reason. Prescription: M9's 잠깐만요, three deep breaths, and 화이팅 (M15's gap deck)."
   }
 ]
