@@ -1186,5 +1186,32 @@
     "lit": "many hands go (into it)",
     "real": "high-maintenance — it takes a lot of care",
     "note": "Fully decodable: M8's 손 + M17's 많이 + 가다 — your hands GO to the thing, repeatedly. Said of fiddly recipes (잡채 is the canonical example), needy pets, delicate plants, and — fondly — certain people: 손이 많이 가는 스타일. The caretaking module's own summary: everything in it, from 아기 to 화분, is something 손이 많이 가는. Affection, measured in trips."
+  },
+  {
+    "id": "g_m38_haruachime",
+    "cat": "concept",
+    "ko": "하루아침에",
+    "rom": "haruachime",
+    "lit": "in one morning",
+    "real": "overnight — all at once, out of nowhere",
+    "note": "M8's 하루 + M2's 아침 + 에: change compressed into a single morning — 하루아침에 유명해졌어요 (famous overnight — M35's machine at full speed), 하루아침에 바뀌지 않아요 (it won't change overnight — every coach's caveat). Korean picked morning, English picked night; both agree real change usually takes longer than either."
+  },
+  {
+    "id": "g_m38_nunko",
+    "cat": "phrase",
+    "ko": "눈코 뜰 새 없다",
+    "rom": "nunko tteul sae eopda",
+    "lit": "no gap to open eyes and nose",
+    "real": "utterly swamped — not a second to breathe",
+    "note": "M14's 눈 and 코 + this module's 뜨다 + 새 — and that 새 is the worn-down 사이 (gap, M6) you just met inside 요새 and 어느새: too busy to open your eyes, let alone the nose (how one opens a nose is not addressed; that's how busy). 눈코 뜰 새 없이 바빴어요 = the week, summarized. The 있다-factory's most breathless product."
+  },
+  {
+    "id": "g_m38_korean_time",
+    "cat": "concept",
+    "ko": "코리안 타임",
+    "rom": "korian taim",
+    "lit": "Korean Time",
+    "real": "the old custom of running fashionably late",
+    "note": "Konglish, self-deprecating: mid-century Korea joked that appointments ran on 코리안 타임 — 30 minutes behind, no apology needed. The 빨리빨리 era (M8's gap deck) killed it dead: today's Korea is punctual to the minute, and KTX doors forgive nothing. The phrase survives as a tease for late friends — 또 코리안 타임이야? Deploy gently; receive it never (M33's 미리 연락 exists for a reason)."
   }
 ]
