@@ -1078,5 +1078,32 @@
     "lit": "empty words",
     "real": "polite formulas nobody means literally",
     "note": "언제 밥 한번 먹어요! (let's grab a meal sometime!) usually isn't an invitation — it's a warm goodbye. 놀러 오세요! doesn't always mean come over. 빈말 (비다 empty + 말 speech) is the lubricant register: kindness performed, not promised. The test: a real invitation comes with a date (M25's machine). Don't be hurt when the meal never happens — and learn to make the noises back."
+  },
+  {
+    "id": "g_m34_jeongsin_eopda",
+    "cat": "phrase",
+    "ko": "정신이 없어요",
+    "rom": "jeongsini eopseoyo",
+    "lit": "there is no mind/spirit",
+    "real": "frazzled — too swamped to think straight",
+    "note": "The national state of being: mornings, Mondays, moving day, parenthood — all 정신이 없어요. It doubles as an apology-adjacent greeting (요즘 정신이 없어서 연락 못 했어요 = sorry, life ate me) and the adverb 정신없이 means 'in a blur': 정신없이 바빴어요. The 있다-factory's spookiest product — Korean measures sanity in stock levels."
+  },
+  {
+    "id": "g_m34_woryobyeong",
+    "cat": "concept",
+    "ko": "월요병",
+    "rom": "woryobyeong",
+    "lit": "Monday sickness",
+    "real": "the Monday blues, diagnosed",
+    "note": "월요일 (M5's Moon-day) + 병 (M14's illness): the Monday blues, but Korean files it as a medical condition — and everyone claims the diagnosis. 월요병 때문에 우울해요 is a complete, socially valid excuse. The -병 suffix productively diagnoses anything: 공주병 (princess sickness — vanity), 게으름병 (chronic laziness). The five-day workweek's most honest word."
+  },
+  {
+    "id": "g_m34_dream_dont",
+    "cat": "phrase",
+    "ko": "꿈도 꾸지 마",
+    "rom": "kkumdo kkuji ma",
+    "lit": "don't even dream the dream",
+    "real": "don't even THINK about it",
+    "note": "Fully decodable ambition-crushing: M8's 꿈 + M2's 도 (even) + dream-verb 꾸다 + M19's bare -지 마. Korean dreams are 'dreamed' with their own verb (꿈을 꾸다 — cognate object, like singing a song: 노래를 부르다), so forbidding the dream forbids the wanting. Deploy on friends eyeing your last piece of 치킨."
   }
 ]
