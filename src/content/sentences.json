@@ -10074,5 +10074,164 @@
     "rom": "choeseoneul dahaesseunikka huhoeneun eopseoyo",
     "wordIds": ["w_choeseon", "w_da", "w_hada", "w_huhoehada", "w_eopda"],
     "note": "최선을 다하다 — do-it-ALL (M9's 다, promoted to verb-part) — with M10's -(으)니까 drawing the conclusion and M34's 후회 declining to attend. The sentence to say after every module test, win or lose. Band 4: 최선을 다했습니다."
+  },
+  {
+    "id": "s_m41_baby_skin",
+    "en": [
+      { "t": "It's soft", "role": "verb", "id": "v" },
+      { "t": "like baby skin", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "baby skin-like", "role": "other", "id": "a" },
+      { "t": "soft", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아기 피부처럼", "role": "other", "id": "a" },
+      { "t": "부드러워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "agi pibucheoreom budeureowoyo",
+    "wordIds": ["w_agi", "w_pibu", "w_budeureopda"],
+    "note": "처럼's debut: stick it to a noun and the noun becomes a standard of comparison — baby-skin-ly soft. M24's 같다 could only park the verdict at the end (아기 피부 같아요); 처럼 rides mid-sentence and lets the real adjective finish. The ㅂ-family delivers 부드러워요 (M21's 무겁다 rules)."
+  },
+  {
+    "id": "s_m41_cat_yawn",
+    "en": [
+      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "yawns", "role": "verb", "id": "v" },
+      { "t": "like a cat", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[topic]", "role": "subject", "id": "s" },
+      { "t": "cat-like", "role": "other", "id": "a" },
+      { "t": "yawn-[obj] does", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생은", "role": "subject", "id": "s" },
+      { "t": "고양이처럼", "role": "other", "id": "a" },
+      { "t": "하품을 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengeun goyangicheoreom hapumeul haeyo",
+    "wordIds": ["w_dongsaeng", "w_goyangi", "w_hapum", "w_hada"],
+    "note": "처럼 again, wearing whiskers — any noun can be the standard. 하품을 하다 and 하품이 나오다 both work: do the yawn, or let it exit (M28's 나오다) — Korean offers both degrees of responsibility. M22's 고양이 remains the reigning champion of the unbothered yawn."
+  },
+  {
+    "id": "s_m41_voice_tremble",
+    "en": [
+      { "t": "When I gave the presentation,", "role": "other", "id": "a" },
+      { "t": "my voice", "role": "subject", "id": "s" },
+      { "t": "trembled", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "present-do-when", "role": "other", "id": "a" },
+      { "t": "voice-[subj]", "role": "subject", "id": "s" },
+      { "t": "trembled", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "발표할 때", "role": "other", "id": "a" },
+      { "t": "목소리가", "role": "subject", "id": "s" },
+      { "t": "떨렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "balpyohal ttae moksoriga tteollyeosseoyo",
+    "wordIds": ["w_balpyohada", "w_ttae", "w_moksori", "w_tteollida"],
+    "note": "떨리다 in its natural habitat: M36's 리-machine reporting your own nerves back to you — the voice trembles; you merely own it. 이/가 marks the body part as the actor (M35's do/happen split, aimed inward). M16's 발표하다 + M25's 때 set the scene every office worker knows."
+  },
+  {
+    "id": "s_m41_eyes_sleep",
+    "en": [
+      { "t": "The moment I closed my eyes,", "role": "other", "id": "a" },
+      { "t": "I fell asleep", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "eye-[obj] close-as-soon-as", "role": "other", "id": "a" },
+      { "t": "sleep-[subj] entered", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "눈을 감자마자", "role": "other", "id": "a" },
+      { "t": "잠이 들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nuneul gamjamaja jami deureosseoyo",
+    "wordIds": ["w_nun_eye", "w_gamda", "w_jam", "w_deulda"],
+    "note": "M38 opened the day with 눈을 뜨자마자; this module closes it — 뜨다/감다 now bookend consciousness, and -자마자 still promises zero gap. 잠이 들다 = sleep ENTERS (M28's 들다, the same entering M36's burglar used): falling asleep is a visit, says Korean."
+  },
+  {
+    "id": "s_m41_sigh_homework",
+    "en": [
+      { "t": "I do", "role": "verb", "id": "v" },
+      { "t": "my homework", "role": "object", "id": "o" },
+      { "t": "while sighing", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "sigh-[obj] breathe-while", "role": "other", "id": "a" },
+      { "t": "homework-[obj]", "role": "object", "id": "o" },
+      { "t": "do", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한숨을 쉬면서", "role": "other", "id": "a" },
+      { "t": "숙제를", "role": "object", "id": "o" },
+      { "t": "해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hansumeul swimyeonseo sukjereul haeyo",
+    "wordIds": ["w_hansum", "w_swida", "w_sukje", "w_hada"],
+    "note": "M38's -(으)면서 — one body, two actions — except the second one is involuntary. And catch the homograph mid-flight: this 쉬다 breathes (숨을/한숨을 쉬다); M8's 쉬다 rests. The student in this sentence is doing neither, really. M10's 숙제 remains undefeated."
+  },
+  {
+    "id": "s_m41_eyebrows_dad",
+    "en": [
+      { "t": "Right down to the eyebrows,", "role": "other", "id": "a" },
+      { "t": "I take after", "role": "verb", "id": "v" },
+      { "t": "my dad", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "eyebrow-even-up-to", "role": "other", "id": "a" },
+      { "t": "dad-[obj]", "role": "object", "id": "o" },
+      { "t": "resembled", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "눈썹까지", "role": "other", "id": "a" },
+      { "t": "아빠를", "role": "object", "id": "o" },
+      { "t": "닮았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nunsseopkkaji appareul dalmasseoyo",
+    "wordIds": ["w_nunsseop", "w_appa", "w_damda"],
+    "note": "닮다 takes 을/를 — you resemble SOMEONE, transitively — and reports in the frozen past: the resembling happened at birth and stuck. M6's 까지 stretches from 'as far as' to 'even including'. Pronounce the exhibit: 닮았어요 [달마써요] — M24's 젊다 rule, running again."
+  },
+  {
+    "id": "s_m41_wet_hands",
+    "en": [
+      { "t": "Don't touch it", "role": "verb", "id": "v" },
+      { "t": "with wet hands", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "wet-[badge] hand-with", "role": "other", "id": "a" },
+      { "t": "touch-do-not-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "젖은 손으로", "role": "other", "id": "a" },
+      { "t": "만지지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeojeun soneuro manjiji maseyo",
+    "wordIds": ["w_jeotda", "w_son", "w_manjida"],
+    "note": "The warning label speaks fluent recycling: M36's 젖다 wears M24's badge (젖은 — wetness, adjectived), M6's (으)로 marks the instrument, and M14's -지 마세요 closes the door. 만지다 is the fingertip verb — what museums, fresh paint, and other people's phones all forbid."
+  },
+  {
+    "id": "s_m41_bread_smell",
+    "en": [
+      { "t": "From the kitchen,", "role": "place", "id": "p" },
+      { "t": "the smell of bread", "role": "subject", "id": "s" },
+      { "t": "is drifting out", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "kitchen-from", "role": "place", "id": "p" },
+      { "t": "bread smell-[subj]", "role": "subject", "id": "s" },
+      { "t": "emerges", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부엌에서", "role": "place", "id": "p" },
+      { "t": "빵 냄새가", "role": "subject", "id": "s" },
+      { "t": "나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bueokeseo ppang naemsaega nayo",
+    "wordIds": ["w_bueok", "w_ppang", "w_naemsae", "w_nada"],
+    "note": "냄새가 나다 — the smell ERUPTS through M28's all-purpose door for happenings (its note already listed 땀이 나다; here's the nose's version). To go get a smell on purpose, switch verbs: 냄새를 맡다 (M37's 맡다, exactly as promised). Smells happen TO you; sniffing is a choice."
   }
 ]
