@@ -10233,5 +10233,200 @@
     "rom": "bueokeseo ppang naemsaega nayo",
     "wordIds": ["w_bueok", "w_ppang", "w_naemsae", "w_nada"],
     "note": "냄새가 나다 — the smell ERUPTS through M28's all-purpose door for happenings (its note already listed 땀이 나다; here's the nose's version). To go get a smell on purpose, switch verbs: 냄새를 맡다 (M37's 맡다, exactly as promised). Smells happen TO you; sniffing is a choice."
+  },
+  {
+    "id": "s_m42_told_you",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "told you", "role": "verb", "id": "v" },
+      { "t": "yesterday, remember?", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "I-[subj]", "role": "subject", "id": "s" },
+      { "t": "yesterday", "role": "other", "id": "a" },
+      { "t": "said-you-know", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제가", "role": "subject", "id": "s" },
+      { "t": "어제", "role": "other", "id": "a" },
+      { "t": "말했잖아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jega eoje malhaetjanayo",
+    "wordIds": ["w_jeo", "w_eoje", "w_malhada"],
+    "note": "-잖아요's debut on home turf: shared knowledge, gently pointed at — I told you, and you were there. Warmth and danger share the ending: to a forgetful friend it's a nudge; to a stranger it's an accusation. Aim it only where the common ground is real."
+  },
+  {
+    "id": "s_m42_slow_please",
+    "en": [
+      { "t": "Please speak", "role": "verb", "id": "v" },
+      { "t": "a bit slowly —", "role": "other", "id": "a" },
+      { "t": "my Korean", "role": "subject", "id": "s" },
+      { "t": "is still", "role": "other", "id": "b" },
+      { "t": "rough, you see", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "a-little slowly", "role": "other", "id": "a" },
+      { "t": "speak-give-please.", "role": "verb", "id": "v" },
+      { "t": "Korean-[subj]", "role": "subject", "id": "s" },
+      { "t": "still", "role": "other", "id": "b" },
+      { "t": "clumsy-here's-why", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "조금 천천히", "role": "other", "id": "a" },
+      { "t": "말해 주세요.", "role": "verb", "id": "v" },
+      { "t": "한국어가", "role": "subject", "id": "s" },
+      { "t": "아직", "role": "other", "id": "b" },
+      { "t": "서투르거든요", "role": "verb", "id": "w" }
+    ],
+    "rom": "jogeum cheoncheonhi malhae juseyo. hangugeoga ajik seotureugeodeunyo",
+    "wordIds": ["w_jogeum", "w_cheoncheonhi", "w_malhada", "w_hangugeo", "w_ajik", "w_seotureuda"],
+    "note": "-거든요's debut: request first, then the background the listener was missing, delivered with a small bow. M9's favor machine carries the ask; 서투르다 keeps its 르 intact (only -아/어 triggers 서툴러 — M7's table, still enforced). The learner's own credentials, now in the learner's own grammar."
+  },
+  {
+    "id": "s_m42_dont_be_nervous",
+    "en": [
+      { "t": "Don't be nervous —", "role": "verb", "id": "v" },
+      { "t": "you practiced", "role": "verb", "id": "w" },
+      { "t": "a lot, you know", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "nervous-do-not-please.", "role": "verb", "id": "v" },
+      { "t": "a-lot", "role": "other", "id": "a" },
+      { "t": "practiced-you-know", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "긴장하지 마세요.", "role": "verb", "id": "v" },
+      { "t": "많이", "role": "other", "id": "a" },
+      { "t": "연습했잖아요", "role": "verb", "id": "w" }
+    ],
+    "rom": "ginjanghaji maseyo. mani yeonseuphaetjanayo",
+    "wordIds": ["w_ginjanghada", "w_mani", "w_yeonseuphada"],
+    "note": "The warm -잖아요: comfort built from evidence the listener already owns — you practiced, you KNOW you did. M34's 긴장하다 (whose noun joins the shelf today) takes M14's -지 마세요, and the coach's ending does the rest. Common ground as kindness."
+  },
+  {
+    "id": "s_m42_exam_reason",
+    "en": [
+      { "t": "Today", "role": "other", "id": "a" },
+      { "t": "I have to leave", "role": "verb", "id": "v" },
+      { "t": "early.", "role": "other", "id": "b" },
+      { "t": "See, tomorrow", "role": "other", "id": "c" },
+      { "t": "I have an exam", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "today-[topic]", "role": "other", "id": "a" },
+      { "t": "early", "role": "other", "id": "b" },
+      { "t": "go-must.", "role": "verb", "id": "v" },
+      { "t": "tomorrow", "role": "other", "id": "c" },
+      { "t": "exam-[subj] exists-here's-why", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "오늘은", "role": "other", "id": "a" },
+      { "t": "일찍", "role": "other", "id": "b" },
+      { "t": "가야 돼요.", "role": "verb", "id": "v" },
+      { "t": "내일", "role": "other", "id": "c" },
+      { "t": "시험이 있거든요", "role": "verb", "id": "w" }
+    ],
+    "rom": "oneureun iljjik gaya dwaeyo. naeil siheomi itgeodeunyo",
+    "wordIds": ["w_oneul", "w_iljjik", "w_gada", "w_naeil", "w_siheom", "w_itda"],
+    "note": "-거든요 as the polite exit: state your move, then hand over the reason nobody could have known. 가야 돼요 is M10's obligation machine — the one M39 X-rayed into only-if + 되다 — and 있거든요 explains without apologizing. New info delivered; conversation intact."
+  },
+  {
+    "id": "s_m42_strange_used",
+    "en": [
+      { "t": "At first,", "role": "other", "id": "a" },
+      { "t": "everything", "role": "subject", "id": "s" },
+      { "t": "was unfamiliar.", "role": "verb", "id": "v" },
+      { "t": "But now", "role": "other", "id": "b" },
+      { "t": "I've gotten used to it", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "first-at-[topic]", "role": "other", "id": "a" },
+      { "t": "every thing-[subj]", "role": "subject", "id": "s" },
+      { "t": "was-unfamiliar.", "role": "verb", "id": "v" },
+      { "t": "but now-[topic]", "role": "other", "id": "b" },
+      { "t": "familiar-became", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "처음에는", "role": "other", "id": "a" },
+      { "t": "모든 게", "role": "subject", "id": "s" },
+      { "t": "낯설었어요.", "role": "verb", "id": "v" },
+      { "t": "그런데 지금은", "role": "other", "id": "b" },
+      { "t": "익숙해졌어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "cheoeumeneun modeun ge natseoreosseoyo. geureonde jigeumeun iksukhaejyeosseoyo",
+    "wordIds": ["w_cheoeum", "w_modeun", "w_natseolda", "w_geureonde", "w_jigeum", "w_iksukhada"],
+    "note": "The expat arc in two clauses: 낯설다 (the un-placeable face) gives way to 익숙해지다 — M35's -아/어지다 doing exactly what it was built for, an adjective becoming its own change-verb. Every learner's timeline, pre-conjugated."
+  },
+  {
+    "id": "s_m42_express_hard",
+    "en": [
+      { "t": "Expressing", "role": "other", "id": "a" },
+      { "t": "my feelings", "role": "object", "id": "o" },
+      { "t": "is still", "role": "other", "id": "b" },
+      { "t": "hard", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "emotion-[obj]", "role": "object", "id": "o" },
+      { "t": "express-[badge] thing-[subj]", "role": "other", "id": "a" },
+      { "t": "still", "role": "other", "id": "b" },
+      { "t": "difficult", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "감정을", "role": "object", "id": "o" },
+      { "t": "표현하는 게", "role": "other", "id": "a" },
+      { "t": "아직", "role": "other", "id": "b" },
+      { "t": "어려워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gamjeongeul pyohyeonhaneun ge ajik eoryeowoyo",
+    "wordIds": ["w_gamjeong", "w_pyohyeonhada", "w_ajik", "w_eoryeopda"],
+    "note": "감정 meets its verb 표현하다 inside M17's -는 것 nominalizer: the expressing-thing is what's hard. The intermediate learner's exact coordinates — the feelings are all there; the words lag behind. This module is the catching-up."
+  },
+  {
+    "id": "s_m42_winter_miss",
+    "en": [
+      { "t": "When winter comes,", "role": "other", "id": "a" },
+      { "t": "I miss", "role": "verb", "id": "v" },
+      { "t": "my hometown", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "winter-[subj] become-if", "role": "other", "id": "a" },
+      { "t": "hometown-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-longed-for", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울이 되면", "role": "other", "id": "a" },
+      { "t": "고향이", "role": "subject", "id": "s" },
+      { "t": "그리워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeouri doemyeon gohyangi geuriwoyo",
+    "wordIds": ["w_gyeoul", "w_doeda", "w_gohyang", "w_geuripda"],
+    "note": "그립다 is adjective-shaped: the missed thing takes 이/가 (고향이 그리워요) — 좋다's grammar with an ache in it. M35's 되다 turns the season and M20's -면 makes it a standing rule. For missing PEOPLE, M3's 보고 싶다 still holds the post — Korean splits longing by its object."
+  },
+  {
+    "id": "s_m42_no_wonder",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "heard good news", "role": "verb", "id": "v" },
+      { "t": "yesterday, see —", "role": "other", "id": "a" },
+      { "t": "no wonder", "role": "other", "id": "b" },
+      { "t": "she seemed so happy", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "yesterday", "role": "other", "id": "a" },
+      { "t": "good news-[obj] heard-here's-why.", "role": "verb", "id": "v" },
+      { "t": "no-wonder", "role": "other", "id": "b" },
+      { "t": "mood-[subj] good-looked", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "어제", "role": "other", "id": "a" },
+      { "t": "좋은 소식을 들었거든요.", "role": "verb", "id": "v" },
+      { "t": "어쩐지", "role": "other", "id": "b" },
+      { "t": "기분이 좋아 보였어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "chinguga eoje joeun sosigeul deureotgeodeunyo. eojjeonji gibuni joa boyeosseoyo",
+    "wordIds": ["w_chingu", "w_eoje", "w_jota", "w_sosik", "w_deutda", "w_eojjeonji", "w_gibun", "w_boida"],
+    "note": "The module's two machines shake hands: storytelling -거든요 feeds the listener the setup, and 어쩐지 is the sound of it clicking — no WONDER she seemed happy. 좋아 보이다 is M36's 보이다 in its seventh career (-아/어 보이다, decoded at the party). M20's 소식 supplies the plot."
   }
 ]
