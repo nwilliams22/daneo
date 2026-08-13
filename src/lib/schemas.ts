@@ -70,6 +70,7 @@ export const moduleSchema = z.object({
   id: z.string().min(1),
   title: z.string().min(1),
   order: z.number().int().positive(),
+  ring: z.number().int().positive().optional(),
   contentMd: z.string().min(1),
   wordIds: z.array(z.string().min(1)),
   sentenceIds: z.array(z.string().min(1)),
