@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import {
   currentlyMissed,
+  missedWordsByModule,
   accuracy,
   weakestItems,
   accuracyByGroup,
@@ -55,6 +56,48 @@ describe("currentlyMissed (latest-result semantics)", () => {
       r("b", false, 5),
     ]);
     expect(missed.map((m) => m.itemId)).toEqual(["b", "a"]);
+  });
+});
+
+describe("missedWordsByModule", () => {
+  const moduleMap: Record<string, string> = {
+    w_mul: "m1",
+    w_bap: "m1",
+    w_gage: "m2",
+  };
+  const moduleOf = (id: string) => moduleMap[id];
+
+  it("groups word-kind misses by owning module, preserving order", () => {
+    const missed = currentlyMissed([
+      r("w_bap", false, 1, "word"),
+      r("w_gage", false, 2, "word"),
+      r("w_mul", false, 3, "word"),
+    ]);
+    const byModule = missedWordsByModule(missed, moduleOf);
+    expect(byModule.get("m1")).toEqual(["w_mul", "w_bap"]); // newest first
+    expect(byModule.get("m2")).toEqual(["w_gage"]);
+    expect(byModule.size).toBe(2);
+  });
+
+  it("ignores non-word kinds and words with no module", () => {
+    const byModule = missedWordsByModule(
+      [
+        { kind: "typing", itemId: "w_mul" }, // same word, wrong kind
+        { kind: "confusable", itemId: "cf_wa" },
+        { kind: "word", itemId: "w_gone" }, // no owning module
+        { kind: "word", itemId: "w_bap" },
+      ],
+      moduleOf,
+    );
+    expect([...byModule.entries()]).toEqual([["m1", ["w_bap"]]]);
+  });
+
+  it("clears once the word is answered correctly later", () => {
+    const missed = currentlyMissed([
+      r("w_mul", false, 1, "word"),
+      r("w_mul", true, 2, "word"),
+    ]);
+    expect(missedWordsByModule(missed, moduleOf).size).toBe(0);
   });
 });
 
