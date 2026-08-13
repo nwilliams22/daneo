@@ -8583,5 +8583,176 @@
     "rom": "gimchi, segyero gada",
     "wordIds": ["w_gimchi", "w_segye", "w_gada"],
     "note": "Headline grammar: particles overboard, verb in bare dictionary form — the newspaper's own 반말. M3's kimchi, M23's world, M6's (으)로, and a register you can now read over anyone's shoulder."
+  },
+  {
+    "id": "s_m31_region_food",
+    "en": [
+      { "t": "In every region", "role": "other", "id": "a" },
+      { "t": "the food", "role": "subject", "id": "s" },
+      { "t": "is different", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "region-every", "role": "other", "id": "a" },
+      { "t": "food-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-different", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지역마다", "role": "other", "id": "a" },
+      { "t": "음식이", "role": "subject", "id": "s" },
+      { "t": "달라요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jiyeongmada eumsigi dallayo",
+    "wordIds": ["w_jiyeok", "w_eumsik", "w_dareuda"],
+    "note": "마다's debut doing what it does best — distributing. 지역마다 is said 지영마다 (ㄱ before ㅁ nasalizes). M24's 르-verb 다르다 conjugates to 달라요, and the sentence is simply true: ask any Korean about 전라도 food."
+  },
+  {
+    "id": "s_m31_capital",
+    "en": [
+      { "t": "South Korea's", "role": "other", "id": "a" },
+      { "t": "capital", "role": "subject", "id": "s" },
+      { "t": "is Seoul", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "great-Han-nation", "role": "other", "id": "a" },
+      { "t": "head-city-[topic]", "role": "subject", "id": "s" },
+      { "t": "Seoul-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "대한민국", "role": "other", "id": "a" },
+      { "t": "수도는", "role": "subject", "id": "s" },
+      { "t": "서울이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daehanminguk sudoneun seourieyo",
+    "wordIds": ["w_daehanminguk", "w_sudo", "w_seoul"],
+    "note": "Korean stacks nouns owner-first with nothing between them — 대한민국 수도 = Korea('s) capital, no possessive particle needed. The official country name in its natural register: statements of fact."
+  },
+  {
+    "id": "s_m31_namsan_weekend",
+    "en": [
+      { "t": "Every weekend", "role": "other", "id": "a" },
+      { "t": "I go up", "role": "verb", "id": "v" },
+      { "t": "Namsan", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "weekend-every", "role": "other", "id": "a" },
+      { "t": "Namsan-to", "role": "place", "id": "p" },
+      { "t": "go-up", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말마다", "role": "other", "id": "a" },
+      { "t": "남산에", "role": "place", "id": "p" },
+      { "t": "올라가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumalmada namsane ollagayo",
+    "wordIds": ["w_jumal", "w_namsan", "w_ollagada"],
+    "note": "마다 on a time word = 'every X'. M28's compound-motion machine (올라가다, up-and-go) pointed at a real hill — the actual weekend ritual of half of Seoul, trail shoes and all."
+  },
+  {
+    "id": "s_m31_hallasan_tallest",
+    "en": [
+      { "t": "The tallest mountain", "role": "subject", "id": "s" },
+      { "t": "in South Korea", "role": "place", "id": "p" },
+      { "t": "is Hallasan", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "great-Han-nation-in", "role": "place", "id": "p" },
+      { "t": "most tall-[badge] mountain-[topic]", "role": "subject", "id": "s" },
+      { "t": "Hallasan-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "대한민국에서", "role": "place", "id": "p" },
+      { "t": "제일 높은 산은", "role": "subject", "id": "s" },
+      { "t": "한라산이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daehanmingugeseo jeil nopeun saneun hallasanieyo",
+    "wordIds": ["w_daehanminguk", "w_jeil", "w_nopda", "w_san", "w_hallasan"],
+    "note": "M22's superlative 제일 + M24's badge on 높다 = 제일 높은 산, the tallest mountain. Note the fine print: 대한민국에서 — because the peninsula's tallest is 백두산, and it's not in the South. Geography enforcing grammar precision."
+  },
+  {
+    "id": "s_m31_baekdusan_border",
+    "en": [
+      { "t": "Baekdusan", "role": "subject", "id": "s" },
+      { "t": "sits", "role": "verb", "id": "v" },
+      { "t": "between North Korea and China", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "white-head-mountain-[topic]", "role": "subject", "id": "s" },
+      { "t": "north-Han and middle-country between-at", "role": "place", "id": "p" },
+      { "t": "exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "백두산은", "role": "subject", "id": "s" },
+      { "t": "북한하고 중국 사이에", "role": "place", "id": "p" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "baekdusaneun bukhanhago jungguk saie isseoyo",
+    "wordIds": ["w_baekdusan", "w_bukhan", "w_jungguk", "w_sai", "w_itda"],
+    "note": "M6's position noun 사이 (between) doing geopolitics: the border runs through the crater lake itself. M2's 하고 lists the neighbors; the anthem's mountain, located at last."
+  },
+  {
+    "id": "s_m31_overseas_trip",
+    "en": [
+      { "t": "Next year", "role": "other", "id": "a" },
+      { "t": "I'm going to go", "role": "verb", "id": "v" },
+      { "t": "on a trip", "role": "object", "id": "o" },
+      { "t": "overseas", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "coming-year-at", "role": "other", "id": "a" },
+      { "t": "sea-outside-toward", "role": "place", "id": "p" },
+      { "t": "travel-[obj]", "role": "object", "id": "o" },
+      { "t": "go-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내년에", "role": "other", "id": "a" },
+      { "t": "해외로", "role": "place", "id": "p" },
+      { "t": "여행을", "role": "object", "id": "o" },
+      { "t": "갈 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naenyeone haeoero yeohaengeul gal geoyeyo",
+    "wordIds": ["w_naenyeon", "w_haeoe", "w_yeohaeng", "w_gada"],
+    "note": "해외 = beyond-the-sea, and from South Korea that's literal — every trip out crosses water. M25's 내년, M6's (으)로 pointing the way out, M8's future machine making the plan."
+  },
+  {
+    "id": "s_m31_tokyo_flight",
+    "en": [
+      { "t": "To Tokyo", "role": "place", "id": "p" },
+      { "t": "by plane", "role": "other", "id": "a" },
+      { "t": "it takes two hours", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Tokyo-up-to", "role": "place", "id": "p" },
+      { "t": "fly-machine-by", "role": "other", "id": "a" },
+      { "t": "two hour takes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "도쿄까지", "role": "place", "id": "p" },
+      { "t": "비행기로", "role": "other", "id": "a" },
+      { "t": "두 시간 걸려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dokyokkaji bihaenggiro du sigan geollyeoyo",
+    "wordIds": ["w_dokyo", "w_bihaenggi", "w_dul", "w_sigan", "w_geollida"],
+    "note": "M12's 걸리다 (takes-time) goes international: M6's 까지 marks the far end, (으)로 the means, M5's native 두 counts the hours. Seoul to Tokyo really is about two — closer than 제주도 feels in summer traffic."
+  },
+  {
+    "id": "s_m31_gyeongju_old_korea",
+    "en": [
+      { "t": "In Gyeongju", "role": "place", "id": "p" },
+      { "t": "you can see", "role": "verb", "id": "v" },
+      { "t": "old Korea", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Gyeongju-at", "role": "place", "id": "p" },
+      { "t": "old-days Korea-[obj]", "role": "object", "id": "o" },
+      { "t": "see-can", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "경주에서", "role": "place", "id": "p" },
+      { "t": "옛날 한국을", "role": "object", "id": "o" },
+      { "t": "볼 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeongjueseo yennal hangugeul bol su isseoyo",
+    "wordIds": ["w_gyeongju", "w_yennal", "w_hanguk", "w_boda"],
+    "note": "M10's can-machine as tour guide, M24's 옛날 as the destination. A millennium of Silla sits in open air — the burial mounds share downtown with the coffee shops."
   }
 ]
