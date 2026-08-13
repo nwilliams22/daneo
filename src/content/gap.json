@@ -1294,5 +1294,32 @@
     "lit": "joy, divided, becomes double; sorrow, divided, becomes half",
     "real": "share your feelings — it multiplies the good and shrinks the bad",
     "note": "The proverb runs entirely on this module's -ㅁ factory: 기쁨 and 슬픔, freshly minted, plus 나누다 (to divide/share — worth keeping) and M35's 되다 doing the arithmetic. Radar inside: this 배 is 倍 (times, double) — not M3's belly — and 반 is M5's half, keeping its old job. Korean emotional culture in one equation: feelings are meant to be split among people, and the math always favors telling someone."
+  },
+  {
+    "id": "g_m40_sonmat",
+    "cat": "concept",
+    "ko": "손맛",
+    "rom": "sonmat",
+    "lit": "hand-taste",
+    "real": "the flavor that comes from the cook's own hands",
+    "note": "M8's 손 + M18's 맛: the conviction that the same recipe tastes different depending on WHOSE hands made it. 할머니 손맛 is the gold standard; restaurants advertise 어머니의 손맛 like a certification. It's why 김장 (M26) uses no measuring cups — just hands that know how much 고춧가루 is enough. Science shrugs; Korea does not argue with grandmothers."
+  },
+  {
+    "id": "g_m40_gungmul_eopda",
+    "cat": "phrase",
+    "ko": "국물도 없다",
+    "rom": "gungmuldo eopda",
+    "lit": "there isn't even broth",
+    "real": "you'll get nothing — no mercy, no leftovers, no second chances",
+    "note": "In a broth-first food culture, 국물 is the minimum a meal owes you — so denying even THAT is total denial: 늦게 오면 국물도 없어요 = show up late and you get nothing. M2's 도 (even) plus M1's 없다 do the threatening; the kitchen supplies the metaphor. Another negative-polarity build, straight from M39's school: Korean measures scarcity in soup."
+  },
+  {
+    "id": "g_m40_chochida",
+    "cat": "phrase",
+    "ko": "초를 치다",
+    "rom": "choreul chida",
+    "lit": "to pour vinegar on it",
+    "real": "to rain on the parade — deflate the mood, spoil the plan",
+    "note": "식초's 초, weaponized: dump vinegar into a dish and the flavor collapses, so 초 치지 마세요 = don't ruin this for me (said mid-plan, mid-dream, mid-toast — with M14's -지 마세요 doing the pleading). M17's 치다 handles the splash. English brings rain, Korean brings vinegar; both agree somebody always arrives with the wrong liquid."
   }
 ]

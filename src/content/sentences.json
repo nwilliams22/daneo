@@ -10428,5 +10428,191 @@
     "rom": "chinguga eoje joeun sosigeul deureotgeodeunyo. eojjeonji gibuni joa boyeosseoyo",
     "wordIds": ["w_chingu", "w_eoje", "w_jota", "w_sosik", "w_deutda", "w_eojjeonji", "w_gibun", "w_boida"],
     "note": "The module's two machines shake hands: storytelling -거든요 feeds the listener the setup, and 어쩐지 is the sound of it clicking — no WONDER she seemed happy. 좋아 보이다 is M36's 보이다 in its seventh career (-아/어 보이다, decoded at the party). M20's 소식 supplies the plot."
+  },
+  {
+    "id": "s_m40_banchan_ahead",
+    "en": [
+      { "t": "On the weekend,", "role": "other", "id": "t" },
+      { "t": "if you make", "role": "other", "id": "a" },
+      { "t": "side dishes", "role": "object", "id": "o" },
+      { "t": "ahead and set them by,", "role": "other", "id": "b" },
+      { "t": "the whole week", "role": "subject", "id": "s" },
+      { "t": "is easy", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "weekend-at", "role": "other", "id": "t" },
+      { "t": "side-dish-[obj]", "role": "object", "id": "o" },
+      { "t": "ahead", "role": "other", "id": "b" },
+      { "t": "make-set-down-if", "role": "other", "id": "a" },
+      { "t": "one week-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-comfortable", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "t" },
+      { "t": "반찬을", "role": "object", "id": "o" },
+      { "t": "미리", "role": "other", "id": "b" },
+      { "t": "만들어 놓으면", "role": "other", "id": "a" },
+      { "t": "한 주가", "role": "subject", "id": "s" },
+      { "t": "편해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare banchaneul miri mandeureo noeumyeon han juga pyeonhaeyo",
+    "wordIds": ["w_jumal", "w_banchan", "w_miri", "w_mandeulda", "w_nota", "w_hana", "w_ju", "w_pyeonhada"],
+    "note": "-아/어 놓다's debut, carrying its whole philosophy: M28's 놓다 welds onto 만들다 — do it and SET THE RESULT STANDING. This is 밑반찬 culture as grammar: M38's 미리 does the scheduling, M20's -(으)면 draws the payoff. Korea batch-cooks the future; this ending is how."
+  },
+  {
+    "id": "s_m40_table_ready",
+    "en": [
+      { "t": "Before the guests came,", "role": "other", "id": "a" },
+      { "t": "I set", "role": "verb", "id": "v" },
+      { "t": "the table", "role": "object", "id": "o" },
+      { "t": "and had it ready", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "guest-[subj] come-before", "role": "other", "id": "a" },
+      { "t": "table-[obj]", "role": "object", "id": "o" },
+      { "t": "set-out", "role": "verb", "id": "v" },
+      { "t": "placed-standing", "role": "other", "id": "b" }
+    ],
+    "ko": [
+      { "t": "손님이 오기 전에", "role": "other", "id": "a" },
+      { "t": "상을", "role": "object", "id": "o" },
+      { "t": "차려", "role": "verb", "id": "v" },
+      { "t": "놓았어요", "role": "other", "id": "b" }
+    ],
+    "rom": "sonnimi ogi jeone sangeul charyeo noasseoyo",
+    "wordIds": ["w_sonnim", "w_oda", "w_sang", "w_charida", "w_nota"],
+    "note": "The collocation 상을 차리다 (set the meal table) meets the glue: 차려 놓았어요 = set it AND it stood ready when the doorbell rang. M13's -기 전에 sets the deadline; -아/어 놓다 banks the work before it. The resultant-state ending in its natural habitat: hospitality."
+  },
+  {
+    "id": "s_m40_freeze_soup",
+    "en": [
+      { "t": "Leftover soup —", "role": "object", "id": "o" },
+      { "t": "freeze it and store it", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "remained-[badge] soup-[topic]", "role": "object", "id": "o" },
+      { "t": "freeze-store-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "남은 국은", "role": "object", "id": "o" },
+      { "t": "얼려 두세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nameun gugeun eollyeo duseyo",
+    "wordIds": ["w_namda", "w_guk", "w_eolda", "w_duda"],
+    "note": "-아/어 두다's debut at the freezer door: 얼다 + M37's causative 리 = 얼리다 (freeze it yourself), then 두다 stores the result long-term. M35's 남다 wears M24's badge (남은 = that-which-remained). 놓다 sets it on the counter for tonight; 두다 files it away for whenever."
+  },
+  {
+    "id": "s_m40_gimjang_family",
+    "en": [
+      { "t": "Every winter,", "role": "other", "id": "t" },
+      { "t": "the family", "role": "subject", "id": "s" },
+      { "t": "makes", "role": "verb", "id": "v" },
+      { "t": "kimchi", "role": "object", "id": "o" },
+      { "t": "all together", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "winter-every", "role": "other", "id": "t" },
+      { "t": "family-[subj]", "role": "subject", "id": "s" },
+      { "t": "all together", "role": "other", "id": "b" },
+      { "t": "kimchi-[obj]", "role": "object", "id": "o" },
+      { "t": "immerse-pickle", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울마다", "role": "other", "id": "t" },
+      { "t": "가족이", "role": "subject", "id": "s" },
+      { "t": "다 같이", "role": "other", "id": "b" },
+      { "t": "김치를", "role": "object", "id": "o" },
+      { "t": "담가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeoulmada gajogi da gachi gimchireul damgayo",
+    "wordIds": ["w_gyeoul", "w_gajok", "w_da", "w_gachi", "w_gimchi", "w_damgeuda"],
+    "note": "M31's 마다 puts kimjang on the calendar, and 담그다 shows its ㅡ-drop: 담가요. This sentence IS M26's 김장, conjugated — the UNESCO-listed November gathering where a hundred cabbages become a winter of dinners. The most institutional -아/어 두다 culture on earth, in nine syllables."
+  },
+  {
+    "id": "s_m40_sesame_finish",
+    "en": [
+      { "t": "At the end,", "role": "other", "id": "t" },
+      { "t": "add", "role": "other", "id": "a" },
+      { "t": "sesame oil", "role": "object", "id": "o" },
+      { "t": "and stir well", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "last-at", "role": "other", "id": "t" },
+      { "t": "sesame-oil-[obj]", "role": "object", "id": "o" },
+      { "t": "put-in-and", "role": "other", "id": "a" },
+      { "t": "well stir-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "마지막에", "role": "other", "id": "t" },
+      { "t": "참기름을", "role": "object", "id": "o" },
+      { "t": "넣고", "role": "other", "id": "a" },
+      { "t": "잘 저으세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "majimage chamgireumeul neoko jal jeoeuseyo",
+    "wordIds": ["w_majimak", "w_chamgireum", "w_neota", "w_jal", "w_jeotda_stir"],
+    "note": "Every Korean recipe video ends on this cadence — 참기름 last, always. And 저으세요 is the ㅅ-irregular live: 젓 + 으세요 drops its ㅅ (M14's 낫다 family, second member sworn in). M28's 넣다 and M10's -고 run the assembly line."
+  },
+  {
+    "id": "s_m40_bbq_justice",
+    "en": [
+      { "t": "The second the meat was done,", "role": "other", "id": "a" },
+      { "t": "my little brother", "role": "subject", "id": "s" },
+      { "t": "ate", "role": "verb", "id": "v" },
+      { "t": "all of it", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "meat-[subj] be-cooked-as-soon-as", "role": "other", "id": "a" },
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "all", "role": "other", "id": "b" },
+      { "t": "ate", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "고기가 익자마자", "role": "other", "id": "a" },
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "다", "role": "other", "id": "b" },
+      { "t": "먹었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gogiga ikjamaja dongsaengi da meogeosseoyo",
+    "wordIds": ["w_gogi", "w_ikda_ripen", "w_dongsaeng", "w_da", "w_meokda"],
+    "note": "M38's -자마자 (zero gap, subjects free to differ) referees the BBQ table: 익다 declares the meat ready and the window of opportunity closes instantly. Grill-side justice is swift, and it is always the 동생."
+  },
+  {
+    "id": "s_m40_too_salty",
+    "en": [
+      { "t": "It seems a little salty.", "role": "verb", "id": "v" },
+      { "t": "I sprinkled on too much salt.", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "a-little salty-[badge] thing seems.", "role": "verb", "id": "v" },
+      { "t": "salt-[obj] too much sprinkled.", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "조금 짠 것 같아요.", "role": "verb", "id": "v" },
+      { "t": "소금을 너무 많이 뿌렸어요.", "role": "verb", "id": "w" }
+    ],
+    "rom": "jogeum jjan geot gatayo. sogeumeul neomu mani ppuryeosseoyo",
+    "wordIds": ["w_jogeum", "w_jjada", "w_gatda_same", "w_sogeum", "w_neomu", "w_mani", "w_ppurida"],
+    "note": "The cook's autopsy, in two clauses: M34's hedge (것 같다) delivers the diagnosis gently — M3's 짜다 wearing M24's badge — and 뿌리다 confesses the cause. The 간 was not 맞다; next time, taste before you scatter."
+  },
+  {
+    "id": "s_m40_self_care",
+    "en": [
+      { "t": "Even though I live alone,", "role": "other", "id": "a" },
+      { "t": "I make sure to eat", "role": "verb", "id": "v" },
+      { "t": "proper meals", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "alone live-even-if", "role": "other", "id": "a" },
+      { "t": "rice-[obj]", "role": "object", "id": "o" },
+      { "t": "well gather-eat", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "혼자 살아도", "role": "other", "id": "a" },
+      { "t": "밥을", "role": "object", "id": "o" },
+      { "t": "잘 챙겨 먹어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "honja sarado babeul jal chaenggyeo meogeoyo",
+    "wordIds": ["w_honja", "w_salda", "w_bap", "w_chaenggida", "w_meokda"],
+    "note": "M39's -아/어도 concedes the solitude; 챙기다 overrules it — the caretaking verb turned inward. 밥 잘 챙겨 먹어요 is the sentence every Korean parent texts; this is the adult answering it truthfully. The module's whole caretaking thesis in seven syllables."
   }
 ]
