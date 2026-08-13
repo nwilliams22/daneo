@@ -1051,5 +1051,32 @@
     "lit": "the nation's little sister",
     "real": "a star the whole country has adopted",
     "note": "국민 as a prefix nationalizes affection: 국민 여동생 (여자 + M4's 동생 — the beloved young star everyone claims as family), 국민 MC (the host in every living room), 국민 간식 (the national snack — 떡볶이 holds the title). When fifty million people agree on something, Korean files it under the family register — 우리나라 logic (M27), one shelf over."
+  },
+  {
+    "id": "g_m33_jal_butak",
+    "cat": "phrase",
+    "ko": "잘 부탁드립니다",
+    "rom": "jal butakdeurimnida",
+    "lit": "I entrust (it/myself) to you well",
+    "real": "please take care of me — the first-meeting formula",
+    "note": "Said when joining a team, meeting in-laws, starting lessons — anywhere a relationship begins. English has no slot for it: you're formally handing yourself over and trusting the other side to be kind. Built from owned parts: M10's 잘 + this module's 부탁 + M9's humble 드리다 in M4's 합니다체. Answer it with a smile and the same phrase back."
+  },
+  {
+    "id": "g_m33_a_eo_dareuda",
+    "cat": "phrase",
+    "ko": "아 다르고 어 다르다",
+    "rom": "a dareugo eo dareuda",
+    "lit": "ah is one thing, eo is another",
+    "real": "HOW you say it changes everything",
+    "note": "A 속담 about speech itself, built from two Module-1 vowels: swap ㅏ for ㅓ and the word changes — 맛 becomes 멋 (taste becomes style, M3/M21), 살 becomes 설. So mind your delivery: the same message lands warm or cold depending on the syllable you pick. The proverb your confusables drill has been acting out since day one. Deploy it when someone says the right thing the wrong way."
+  },
+  {
+    "id": "g_m33_binmal",
+    "cat": "concept",
+    "ko": "빈말",
+    "rom": "binmal",
+    "lit": "empty words",
+    "real": "polite formulas nobody means literally",
+    "note": "언제 밥 한번 먹어요! (let's grab a meal sometime!) usually isn't an invitation — it's a warm goodbye. 놀러 오세요! doesn't always mean come over. 빈말 (비다 empty + 말 speech) is the lubricant register: kindness performed, not promised. The test: a real invitation comes with a date (M25's machine). Don't be hurt when the meal never happens — and learn to make the noises back."
   }
 ]

@@ -8922,5 +8922,176 @@
     "rom": "dongsaengi naenyeone gyeolhonhal georago haesseoyo",
     "wordIds": ["w_dongsaeng", "w_naenyeon", "w_gyeolhonhada", "w_hada"],
     "note": "The future quotes through its own X-ray: 결혼할 거예요 = badge + 거(것) + copula (M25's reveal) — and copulas quote with -라고. So: 결혼할 거라고. If you can decode 거예요, this conjugation is free. Family news travels on exactly this sentence."
+  },
+  {
+    "id": "s_m33_asked_when",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "asked", "role": "verb", "id": "v" },
+      { "t": "when I'm coming", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "when come-[quote-Q]", "role": "object", "id": "o" },
+      { "t": "asked", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "언제 오냐고", "role": "object", "id": "o" },
+      { "t": "물어봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga eonje onyago mureobwasseoyo",
+    "wordIds": ["w_chingu", "w_eonje", "w_oda", "w_mureoboda"],
+    "note": "The question gear: -냐고 straight onto the stem (오냐고), handed to M15's 물어보다. M32 quoted statements; this quotes the asking itself. M10's question-word kit slots in unchanged: 언제/어디/뭐/왜 + -냐고."
+  },
+  {
+    "id": "s_m33_suggested_movie",
+    "en": [
+      { "t": "She", "role": "subject", "id": "s" },
+      { "t": "suggested we see", "role": "verb", "id": "v" },
+      { "t": "a movie together", "role": "object", "id": "o" },
+      { "t": "this weekend", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "weekend-at", "role": "other", "id": "a" },
+      { "t": "together movie-[obj]", "role": "object", "id": "o" },
+      { "t": "see-[quote-let's] said", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "주말에", "role": "other", "id": "a" },
+      { "t": "같이 영화를", "role": "object", "id": "o" },
+      { "t": "보자고 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare gachi yeonghwareul bojago haesseoyo",
+    "wordIds": ["w_jumal", "w_gachi", "w_yeonghwa", "w_boda", "w_hada"],
+    "note": "The suggestion gear: M19's -자 (보자! — let's watch) + -고 = 보자고, a quoted let's. Whoever's speaking passes the invitation along — Korean gossip includes the plans, not just the news."
+  },
+  {
+    "id": "s_m33_regards",
+    "en": [
+      { "t": "Mom", "role": "subject", "id": "s" },
+      { "t": "asked me to pass along", "role": "verb", "id": "v" },
+      { "t": "her regards", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "mom-[subj]", "role": "subject", "id": "s" },
+      { "t": "regards-[obj]", "role": "object", "id": "o" },
+      { "t": "convey-[quote-for-me] said", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "엄마가", "role": "subject", "id": "s" },
+      { "t": "안부를", "role": "object", "id": "o" },
+      { "t": "전해 달라고 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eommaga anbureul jeonhae dallago haesseoyo",
+    "wordIds": ["w_eomma", "w_anbu", "w_jeonhada", "w_hada"],
+    "note": "The request-for-me gear: quoting a 주세요 swaps 주다 for its suppletive quote-form 달라 — 전해 주세요 becomes 전해 달라고. (If the favor went to someone ELSE, it stays 주라고 — Korean tracks who benefits inside the quote.) Two new words do the errand: 안부, peace-or-not, conveyed."
+  },
+  {
+    "id": "s_m33_wonder_weekend",
+    "en": [
+      { "t": "I wonder", "role": "verb", "id": "v" },
+      { "t": "what you're doing", "role": "object", "id": "o" },
+      { "t": "tomorrow", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "tomorrow", "role": "other", "id": "a" },
+      { "t": "what do-[whether]", "role": "object", "id": "o" },
+      { "t": "curious-am", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내일", "role": "other", "id": "a" },
+      { "t": "뭐 하는지", "role": "object", "id": "o" },
+      { "t": "궁금해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naeil mwo haneunji gunggeumhaeyo",
+    "wordIds": ["w_naeil", "w_mwo", "w_hada", "w_gunggeumhada"],
+    "note": "Indirect -는지: fold a question INSIDE a sentence without quoting anyone — 뭐 하는지 = 'what (you're) doing', served to M24's 궁금하다. The wondering verbs it feeds: 궁금해요, 몰라요, 알아요. This is how Korean wonders out loud."
+  },
+  {
+    "id": "s_m33_didnt_catch",
+    "en": [
+      { "t": "I'm sorry, but", "role": "other", "id": "a" },
+      { "t": "I didn't catch that.", "role": "verb", "id": "v" },
+      { "t": "Please say it again", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "sorry-but", "role": "other", "id": "a" },
+      { "t": "not hear-understood.", "role": "verb", "id": "v" },
+      { "t": "again say-give-please", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "죄송하지만", "role": "other", "id": "a" },
+      { "t": "못 알아들었어요.", "role": "verb", "id": "v" },
+      { "t": "다시 말해 주세요", "role": "verb", "id": "w" }
+    ],
+    "rom": "joesonghajiman mot aradeureosseoyo. dasi malhae juseyo",
+    "wordIds": ["w_joesong", "w_aradeutda", "w_dasi", "w_malhada"],
+    "note": "The honest learner's macro, fully assembled: M4's apology + M7's -지만 + M3's 못 + this module's 알아듣다 (ㄷ-irregular: 알아들었어요) + M9's please-machine. Say it proudly — asking again in Korean IS speaking Korean."
+  },
+  {
+    "id": "s_m33_excuse_name",
+    "en": [
+      { "t": "Excuse me, but", "role": "other", "id": "a" },
+      { "t": "your name", "role": "subject", "id": "s" },
+      { "t": "may I ask?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "discourtesy-but", "role": "other", "id": "a" },
+      { "t": "honorific-name-[subj]", "role": "subject", "id": "s" },
+      { "t": "how becomes-[honorific]?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "실례지만,", "role": "other", "id": "a" },
+      { "t": "성함이", "role": "subject", "id": "s" },
+      { "t": "어떻게 되세요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "sillyejiman, seonghami eotteoke doeseyo?",
+    "wordIds": ["w_sillyehada", "w_seongham", "w_eotteoke", "w_doeda"],
+    "note": "The polite-asking formula, word for word how desks say it: announce the discourtesy (실례지만), then ask how the name 'becomes' — 어떻게 되세요? softens any personal question (나이가 어떻게 되세요? works too). M10's 되다 doing hospitality."
+  },
+  {
+    "id": "s_m33_if_problem",
+    "en": [
+      { "t": "If", "role": "other", "id": "a" },
+      { "t": "there's a problem,", "role": "other", "id": "b" },
+      { "t": "contact", "role": "verb", "id": "v" },
+      { "t": "me", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "if", "role": "other", "id": "a" },
+      { "t": "problem-[subj] exists-if", "role": "other", "id": "b" },
+      { "t": "me-to", "role": "place", "id": "p" },
+      { "t": "contact-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "만약", "role": "other", "id": "a" },
+      { "t": "문제가 있으면", "role": "other", "id": "b" },
+      { "t": "저한테", "role": "place", "id": "p" },
+      { "t": "연락하세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "manyak munjega isseumyeon jeohante yeollakhaseyo",
+    "wordIds": ["w_manyak", "w_munje", "w_itda", "w_jeo", "w_yeollakhada"],
+    "note": "만약 announces, -(으)면 (M20) delivers — ten-thousand-if plus the real conditional, the standard two-piece. M27's 한테 points the contact; M19's 연락하다 makes it. The sentence on the back of every business card."
+  },
+  {
+    "id": "s_m33_like_this",
+    "en": [
+      { "t": "Just do it", "role": "verb", "id": "v" },
+      { "t": "like this", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "like-this", "role": "other", "id": "a" },
+      { "t": "do-if becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이렇게", "role": "other", "id": "a" },
+      { "t": "하면 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ireoke hamyeon dwaeyo",
+    "wordIds": ["w_ireoke", "w_hada", "w_doeda"],
+    "note": "The demo sentence: 이렇게 (the manner trio's pointer) + M23's just-do-X machine (-(으)면 돼요). Two words, and it teaches anything — cooking, typing, bowing. Every Korean tutorial video says this eleven times."
   }
 ]
