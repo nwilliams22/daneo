@@ -9255,5 +9255,173 @@
     "rom": "naeil inteobyuga isseoseo neomu ginjangdwaeyo",
     "wordIds": ["w_naeil", "w_inteobyu", "w_itda", "w_ginjanghada"],
     "note": "긴장돼요 — the tension happens TO you (M10's 되다), same chassis as 기대돼요. M10's -아서 supplies the because; M33's 인터뷰 supplies the reason. Prescription: M9's 잠깐만요, three deep breaths, and 화이팅 (M15's gap deck)."
+  },
+  {
+    "id": "s_m35_colder",
+    "en": [
+      { "t": "The weather", "role": "subject", "id": "s" },
+      { "t": "is getting colder", "role": "verb", "id": "v" },
+      { "t": "bit by bit", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "weather-[subj]", "role": "subject", "id": "s" },
+      { "t": "gradually", "role": "other", "id": "a" },
+      { "t": "cold-becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "날씨가", "role": "subject", "id": "s" },
+      { "t": "점점", "role": "other", "id": "a" },
+      { "t": "추워져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nalssiga jeomjeom chuwojyeoyo",
+    "wordIds": ["w_nalssi", "w_jeomjeom", "w_chupda"],
+    "note": "-아/어지다's debut on M11's ㅂ-irregular: 춥다 → 추워 + 지다 = gets cold. The adjective stops describing and starts MOVING — and 점점 sets the speed. Every autumn small-talk exchange runs on exactly this sentence."
+  },
+  {
+    "id": "s_m35_skill_grew",
+    "en": [
+      { "t": "My Korean skills", "role": "subject", "id": "s" },
+      { "t": "have really improved", "role": "verb", "id": "v" },
+      { "t": "a lot", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "Korean skill-[subj]", "role": "subject", "id": "s" },
+      { "t": "much", "role": "other", "id": "a" },
+      { "t": "increased", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국어 실력이", "role": "subject", "id": "s" },
+      { "t": "많이", "role": "other", "id": "a" },
+      { "t": "늘었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hangugeo sillyeogi mani neureosseoyo",
+    "wordIds": ["w_hangugeo", "w_sillyeok", "w_mani", "w_neulda"],
+    "note": "늘다's signature frame, and by module 35 it's simply a fact — say it about yourself without the M34 hedge. M26 gave you 실력; this module gives you the verb it grows with. ㄹ-drop: 늘어요 → 늘었어요."
+  },
+  {
+    "id": "s_m35_seoul_job",
+    "en": [
+      { "t": "Starting next month", "role": "other", "id": "a" },
+      { "t": "it's worked out that I'll be working", "role": "verb", "id": "v" },
+      { "t": "in Seoul", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "next month-from", "role": "other", "id": "a" },
+      { "t": "Seoul-at", "role": "place", "id": "p" },
+      { "t": "work-so-becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다음 달부터", "role": "other", "id": "a" },
+      { "t": "서울에서", "role": "place", "id": "p" },
+      { "t": "일하게 됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daeum dalbuteo seoureseo ilhage dwaesseoyo",
+    "wordIds": ["w_daeum", "w_dal", "w_seoul", "w_ilhada", "w_doeda"],
+    "note": "-게 되다's specialty: the modest announcement. 일하게 됐어요 says circumstances arranged it — no boasting, no agency, just news. This is how Koreans announce jobs, moves, and weddings; the humility is built into the grammar."
+  },
+  {
+    "id": "s_m35_kpop_love",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "ended up loving", "role": "verb", "id": "v" },
+      { "t": "K-pop", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "K-pop-[obj]", "role": "object", "id": "o" },
+      { "t": "like-so-became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "", "role": "subject", "id": "s" },
+      { "t": "케이팝을", "role": "object", "id": "o" },
+      { "t": "좋아하게 됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "keipabeul joahage dwaesseoyo",
+    "wordIds": ["w_keipap", "w_joahada", "w_doeda"],
+    "note": "-게 되다 for gradual arrivals: you didn't decide to love it — it happened to you, one 노래방 night at a time (M26's 케이팝 claiming another victim). The same frame delivers 알게 됐어요 (came to know) and 좋아하게 됐어요's sadder cousin, 헤어지게 됐어요."
+  },
+  {
+    "id": "s_m35_doctor",
+    "en": [
+      { "t": "My little sibling", "role": "subject", "id": "s" },
+      { "t": "became", "role": "verb", "id": "v" },
+      { "t": "a doctor", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "doctor-[subj]", "role": "other", "id": "a" },
+      { "t": "became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "의사가", "role": "other", "id": "a" },
+      { "t": "됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengi uisaga dwaesseoyo",
+    "wordIds": ["w_dongsaeng", "w_uisa", "w_doeda"],
+    "note": "되다's original job, finally official: [noun]이/가 되다 = become the noun. M10 taught you 안 돼요 and M23 taught -(으)면 돼요 — the become-verb was underneath all along. Note the particle: Korean becomes a doctor with 가, not 를 — M14's 의사 takes the subject suit."
+  },
+  {
+    "id": "s_m35_dream_true",
+    "en": [
+      { "t": "At last,", "role": "other", "id": "a" },
+      { "t": "my dream", "role": "subject", "id": "s" },
+      { "t": "came true", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "finally", "role": "other", "id": "a" },
+      { "t": "dream-[subj]", "role": "subject", "id": "s" },
+      { "t": "realized-became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "드디어", "role": "other", "id": "a" },
+      { "t": "꿈이", "role": "subject", "id": "s" },
+      { "t": "이루어졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "deudieo kkumi irueojyeosseoyo",
+    "wordIds": ["w_deudieo", "w_kkum", "w_irueojida"],
+    "note": "이루다/이루어지다 — the do/happen pair in action: someone 이루다s a dream, but from the dream's side it 이루어지다s. 꿈은 이루어진다 was the 2002 World Cup slogan; add 드디어 and you have this sentence, suitable for exam results and visa approvals."
+  },
+  {
+    "id": "s_m35_diet",
+    "en": [
+      { "t": "I've gained a bit of weight.", "role": "verb", "id": "v" },
+      { "t": "I'm going to start", "role": "verb", "id": "w" },
+      { "t": "a diet", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "flesh-[subj] a-bit gained.", "role": "verb", "id": "v" },
+      { "t": "diet-[obj]", "role": "object", "id": "o" },
+      { "t": "begin-will", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "살이 좀 쪘어요.", "role": "verb", "id": "v" },
+      { "t": "다이어트를", "role": "object", "id": "o" },
+      { "t": "시작할 거예요", "role": "verb", "id": "w" }
+    ],
+    "rom": "sari jom jjyeosseoyo. daieoteureul sijakhal geoyeyo",
+    "wordIds": ["w_c_sal", "w_jogeum", "w_jjida", "w_daieoteu", "w_sijakhada"],
+    "note": "The national two-sentence unit: confession (the FLESH gained — 살이 쪘어요, grammar deflecting blame), then resolution (M8's future machine pointing at 다이어트). Traditionally recited while the delivery app is open. M5's 살 moonlights as flesh — one syllable, ages and waistlines both."
+  },
+  {
+    "id": "s_m35_time_flies",
+    "en": [
+      { "t": "The years", "role": "subject", "id": "s" },
+      { "t": "really", "role": "other", "id": "a" },
+      { "t": "do fly", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "years-[subj]", "role": "subject", "id": "s" },
+      { "t": "truly", "role": "other", "id": "a" },
+      { "t": "fast", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "세월이", "role": "subject", "id": "s" },
+      { "t": "참", "role": "other", "id": "a" },
+      { "t": "빨라요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sewori cham ppallayo",
+    "wordIds": ["w_sewol", "w_cham", "w_ppareuda"],
+    "note": "세월 + M12's 르-family 빠르다: time flies, the standing sigh of every adult conversation. M29's 참 keeps it wistful rather than urgent. Thirty-five modules in, you've earned the right to say it about your own studies."
   }
 ]

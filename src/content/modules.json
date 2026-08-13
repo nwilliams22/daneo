@@ -919,5 +919,29 @@
       "s_m34_guests_shoes", "s_m34_like_dream", "s_m34_dont_get_it",
       "s_m34_somehow_good", "s_m34_interview_nervous"
     ]
+  },
+  {
+    "id": "m35",
+    "title": "Becoming",
+    "order": 43,
+    "ring": 2,
+    "contentMd": "modules/module-35.md",
+    "wordIds": [
+      "w_eorini", "w_cheongsonyeon", "w_jarada", "w_neukda",
+      "w_jjida", "w_ppajida", "w_daieoteu", "w_mommuge",
+      "w_seupgwan", "w_beoreut", "w_seonggonghada", "w_silpaehada",
+      "w_baljeonhada", "w_pogihada", "w_gyesokhada", "w_iruda",
+      "w_irueojida", "w_neulda", "w_julda", "w_eotda",
+      "w_namda", "w_butda", "w_bakkwida", "w_sarajida",
+      "w_dallajida", "w_heureuda", "w_kiuda", "w_gireuda",
+      "w_gwageo", "w_hyeonjae", "w_sewol", "w_yejeon",
+      "w_saero", "w_saeropda", "w_seongjeok", "w_singmul",
+      "w_oraedoeda", "w_jeomjeom", "w_machimnae", "w_deudieo"
+    ],
+    "sentenceIds": [
+      "s_m35_colder", "s_m35_skill_grew", "s_m35_seoul_job",
+      "s_m35_kpop_love", "s_m35_doctor", "s_m35_dream_true",
+      "s_m35_diet", "s_m35_time_flies"
+    ]
   }
 ]
