@@ -9423,5 +9423,167 @@
     "rom": "sewori cham ppallayo",
     "wordIds": ["w_sewol", "w_cham", "w_ppareuda"],
     "note": "세월 + M12's 르-family 빠르다: time flies, the standing sigh of every adult conversation. M29's 참 keeps it wistful rather than urgent. Thirty-five modules in, you've earned the right to say it about your own studies."
+  },
+  {
+    "id": "s_m36_namsan_visible",
+    "en": [
+      { "t": "From the window", "role": "place", "id": "p" },
+      { "t": "you can see", "role": "verb", "id": "v" },
+      { "t": "Namsan", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "window-from", "role": "place", "id": "p" },
+      { "t": "Namsan-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-seen", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "창문에서", "role": "place", "id": "p" },
+      { "t": "남산이", "role": "subject", "id": "s" },
+      { "t": "보여요", "role": "verb", "id": "v" }
+    ],
+    "rom": "changmuneseo namsani boyeoyo",
+    "wordIds": ["w_changmun", "w_namsan", "w_boida"],
+    "note": "The perception flip: English sees the mountain; Korean lets the mountain be seen — 남산이 (subject!) 보여요. The real-estate listing sentence (M31's hill selling M6's window). 잘 보여요? is also how every video call begins."
+  },
+  {
+    "id": "s_m36_strange_sound",
+    "en": [
+      { "t": "From outside", "role": "place", "id": "p" },
+      { "t": "I hear", "role": "verb", "id": "v" },
+      { "t": "a strange sound", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "outside-from", "role": "place", "id": "p" },
+      { "t": "strange-[badge] sound-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-heard", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "밖에서", "role": "place", "id": "p" },
+      { "t": "이상한 소리가", "role": "subject", "id": "s" },
+      { "t": "들려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bakkeseo isanghan soriga deullyeoyo",
+    "wordIds": ["w_bak", "w_isanghada", "w_sori", "w_deullida"],
+    "note": "들리다 completes the perception pair: sounds arrive; you receive. M24's badge dresses the noise (이상한), and the sentence is the first line of every Korean horror movie. Checking is optional; the audience advises against it."
+  },
+  {
+    "id": "s_m36_door_wont_open",
+    "en": [
+      { "t": "The door", "role": "subject", "id": "s" },
+      { "t": "won't open", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "door-[subj]", "role": "subject", "id": "s" },
+      { "t": "not opens-itself", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "문이", "role": "subject", "id": "s" },
+      { "t": "안 열려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "muni an yeollyeoyo",
+    "wordIds": ["w_mun", "w_yeollida"],
+    "note": "The locked-out present tense: 열리다 negated with M3's 안. Note what the grammar blames — the DOOR fails to open itself; your keys, your memory, and your landlord all escape mention. Say it while jiggling the handle; everyone does."
+  },
+  {
+    "id": "s_m36_thief_caught",
+    "en": [
+      { "t": "The thief", "role": "subject", "id": "s" },
+      { "t": "was caught", "role": "verb", "id": "v" },
+      { "t": "by the police", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "thief-[subj]", "role": "subject", "id": "s" },
+      { "t": "police-by", "role": "other", "id": "a" },
+      { "t": "was-caught", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "도둑이", "role": "subject", "id": "s" },
+      { "t": "경찰한테", "role": "other", "id": "a" },
+      { "t": "잡혔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dodugi gyeongchalhante japhyeosseoyo",
+    "wordIds": ["w_doduk", "w_gyeongchal", "w_japhida"],
+    "note": "The textbook passive, agent and all: 한테 (M27's to-a-person particle) picks up the 'by' job — whoever did it to you wears 한테/에게. M16's 경찰 finally makes an arrest; the evening news writes itself."
+  },
+  {
+    "id": "s_m36_mosquito_bite",
+    "en": [
+      { "t": "I got bitten", "role": "verb", "id": "v" },
+      { "t": "on the arm", "role": "object", "id": "o" },
+      { "t": "by a mosquito", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "mosquito-by", "role": "other", "id": "a" },
+      { "t": "arm-[obj]", "role": "object", "id": "o" },
+      { "t": "was-bitten", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "모기한테", "role": "other", "id": "a" },
+      { "t": "팔을", "role": "object", "id": "o" },
+      { "t": "물렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mogihante pareul mullyeosseoyo",
+    "wordIds": ["w_mogi", "w_pal", "w_mullida"],
+    "note": "The national summer sentence. Korean keeps the bitten part as an object (팔을) while YOU stay the suffering subject — you weren't just present at a bite; you got arm-bitten. M14's 팔, sacrificed; the perpetrator, two millimeters long, wears 한테 like any criminal."
+  },
+  {
+    "id": "s_m36_failed_exam",
+    "en": [
+      { "t": "I failed the exam.", "role": "verb", "id": "v" },
+      { "t": "But", "role": "other", "id": "a" },
+      { "t": "I won't give up", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "exam-at fell.", "role": "verb", "id": "v" },
+      { "t": "but", "role": "other", "id": "a" },
+      { "t": "give-up-not will", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "시험에 떨어졌어요.", "role": "verb", "id": "v" },
+      { "t": "하지만", "role": "other", "id": "a" },
+      { "t": "포기하지 않을 거예요", "role": "verb", "id": "w" }
+    ],
+    "rom": "siheome tteoreojyeosseoyo. hajiman pogihaji aneul geoyeyo",
+    "wordIds": ["w_siheom", "w_tteoreojida", "w_hajiman", "w_pogihada"],
+    "note": "Falling is failing (떨어지다) — 붙다's doom-twin lands, but M35's 포기하다 refuses in the same breath: long negation (M28) + future (M8) = a vow. The resilience couplet of every study blog; may you only ever need its second half."
+  },
+  {
+    "id": "s_m36_stress_gone",
+    "en": [
+      { "t": "All my stress", "role": "subject", "id": "s" },
+      { "t": "melted away", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "stress-[subj]", "role": "subject", "id": "s" },
+      { "t": "all came-untied", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "스트레스가", "role": "subject", "id": "s" },
+      { "t": "다 풀렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seuteureseuga da pullyeosseoyo",
+    "wordIds": ["w_seuteureseu", "w_da", "w_pullida"],
+    "note": "풀리다 doing its healthiest work: stress unties ITSELF once you take it to 노래방 (M17's -방 economy exists for this sentence). M14's Konglish 스트레스 + M9's 다 — the after-photo of Korean self-care."
+  },
+  {
+    "id": "s_m36_phone_died",
+    "en": [
+      { "t": "In the middle of a meeting,", "role": "other", "id": "a" },
+      { "t": "my phone", "role": "subject", "id": "s" },
+      { "t": "died", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "meeting middle-at", "role": "other", "id": "a" },
+      { "t": "handphone-[subj]", "role": "subject", "id": "s" },
+      { "t": "turned-itself-off", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회의 중에", "role": "other", "id": "a" },
+      { "t": "핸드폰이", "role": "subject", "id": "s" },
+      { "t": "꺼졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoeui junge haendeuponi kkeojyeosseoyo",
+    "wordIds": ["w_hoeui", "w_s2_jung", "w_haendeupon", "w_kkeojida"],
+    "note": "꺼지다 in its natural disaster: S2's ○○ 중 sets the scene (mid-meeting), and the phone turns ITSELF off — the battery accepts no blame it didn't earn. M35's -아/어지다 machine running on M13's 끄다, exactly as that module promised."
   }
 ]

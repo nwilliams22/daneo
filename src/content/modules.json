@@ -943,5 +943,29 @@
       "s_m35_kpop_love", "s_m35_doctor", "s_m35_dream_true",
       "s_m35_diet", "s_m35_time_flies"
     ]
+  },
+  {
+    "id": "m36",
+    "title": "Done-To",
+    "order": 44,
+    "ring": 2,
+    "contentMd": "modules/module-36.md",
+    "wordIds": [
+      "w_boida", "w_deullida", "w_yeollida", "w_dathida",
+      "w_japhida", "w_pallida", "w_noida", "w_sseuida",
+      "w_kkeungida", "w_mulda", "w_mullida", "w_tteoreojida",
+      "w_neomeojida", "w_kkaejida", "w_kyeojida", "w_kkeojida",
+      "w_pullida", "w_kkaeda", "w_pulda", "w_makda_block",
+      "w_neomda", "w_sago", "w_sageon", "w_doduk",
+      "w_yuri", "w_jeongi", "w_mogi", "w_sangcheo",
+      "w_dahaeng", "w_un", "w_haengun", "w_doum",
+      "w_anjeonhada", "w_jeotda", "w_mareuda", "w_sanghada",
+      "w_teojida", "w_pihada", "w_millida"
+    ],
+    "sentenceIds": [
+      "s_m36_namsan_visible", "s_m36_strange_sound", "s_m36_door_wont_open",
+      "s_m36_thief_caught", "s_m36_mosquito_bite", "s_m36_failed_exam",
+      "s_m36_stress_gone", "s_m36_phone_died"
+    ]
   }
 ]

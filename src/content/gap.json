@@ -1132,5 +1132,32 @@
     "lit": "a dragon rises from a ditch",
     "real": "greatness can come from humble beginnings",
     "note": "용 = dragon, 개천 = a roadside stream: the classic rags-to-riches proverb, powered by M28's 나다 (the eruption verb — dragons ERUPT from ditches; the grammar knew). Modern Korea argues about whether it's still true — 'the ditch-dragon era is over' is a whole newspaper genre (M32 gave you the vocabulary for that debate). Either way: when a night-shift kid passes the bar exam, this is the headline."
+  },
+  {
+    "id": "g_m36_maeum_noida",
+    "cat": "phrase",
+    "ko": "마음이 놓여요",
+    "rom": "maeumi noyeoyo",
+    "lit": "the heart gets set down",
+    "real": "what a relief — I can stop worrying now",
+    "note": "Korean worry is a carried object: you hold your 마음 (M19) tight until the news is good, then 놓이다 — this module's passive — sets it down for you. Said after the call comes, the test results post, the kid texts back. The active version exists too: 마음을 놓다 = let yourself relax. English exhales; Korean puts the heart down. Same relief, better physics."
+  },
+  {
+    "id": "g_m36_barammatda",
+    "cat": "phrase",
+    "ko": "바람맞았어요",
+    "rom": "barammajasseoyo",
+    "lit": "I got hit by the wind",
+    "real": "I got stood up",
+    "note": "You dressed up, you waited, they never came — you stood in the wind and the wind is all that showed. M11's 바람 + 맞다 (to be hit — the homograph of M15's 맞다 'correct': one syllable, right answers and rainstorms). The doer's side exists too: 바람맞히다 = to stand someone up. Related but worse: 바람(을) 피우다 = to cheat — in Korean, wind is never good news for couples."
+  },
+  {
+    "id": "g_m36_bulhaeng_jung",
+    "cat": "concept",
+    "ko": "불행 중 다행",
+    "rom": "bulhaeng jung dahaeng",
+    "lit": "good fortune amid misfortune",
+    "real": "the silver lining — it could have been so much worse",
+    "note": "The phrase Korea reaches for after every fender-bender: 불행 (불- the un- prefix + 행복's happy-행 = misfortune) + S2's 중 (amid) + this module's 다행. 다리를 다쳤지만 불행 중 다행이에요 — broke a leg, but it wasn't the neck. The 불- prefix is a machine of its own (불가능 impossible, 불편 uncomfortable — M12's 편하다 negated); file it, Ring 2 keeps paying it."
   }
 ]
