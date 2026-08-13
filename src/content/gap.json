@@ -1105,5 +1105,32 @@
     "lit": "don't even dream the dream",
     "real": "don't even THINK about it",
     "note": "Fully decodable ambition-crushing: M8's 꿈 + M2's 도 (even) + dream-verb 꾸다 + M19's bare -지 마. Korean dreams are 'dreamed' with their own verb (꿈을 꾸다 — cognate object, like singing a song: 노래를 부르다), so forbidding the dream forbids the wanting. Deploy on friends eyeing your last piece of 치킨."
+  },
+  {
+    "id": "g_m35_habit_eighty",
+    "cat": "phrase",
+    "ko": "세 살 버릇 여든까지 간다",
+    "rom": "se sal beoreut yeodeunkkaji ganda",
+    "lit": "a three-year-old's habit goes until eighty",
+    "real": "old habits die hard — so raise them well from the start",
+    "note": "Nearly every word is yours: M5's 세 살, this module's 버릇, M30's 여든, M6's 까지, and 가다 in the plain form the quote-machine taught you to read. Korea's most-quoted parenting proverb — deployed on nail-biters, phone-checkers, and anyone whose 버릇 outlived its excuse. The pedagogy checks out: this module is literally about what sticks."
+  },
+  {
+    "id": "g_m35_fall_in_love",
+    "cat": "phrase",
+    "ko": "사랑에 빠지다",
+    "rom": "sarange ppajida",
+    "lit": "to fall into love",
+    "real": "to fall in love — same accident, same grammar",
+    "note": "Korean and English independently agreed: love is a hole you fall into (빠지다 — the same verb as falling into water). No one 사랑에 걸어 들어가다 (walks in); the grammar insists it's an accident. The verb's other jobs sharpen the joke — 드라마에 빠지다, 게임에 빠지다: obsession is just love with worse posture."
+  },
+  {
+    "id": "g_m35_dragon",
+    "cat": "concept",
+    "ko": "개천에서 용 난다",
+    "rom": "gaecheoneseo yong nanda",
+    "lit": "a dragon rises from a ditch",
+    "real": "greatness can come from humble beginnings",
+    "note": "용 = dragon, 개천 = a roadside stream: the classic rags-to-riches proverb, powered by M28's 나다 (the eruption verb — dragons ERUPT from ditches; the grammar knew). Modern Korea argues about whether it's still true — 'the ditch-dragon era is over' is a whole newspaper genre (M32 gave you the vocabulary for that debate). Either way: when a night-shift kid passes the bar exam, this is the headline."
   }
 ]
