@@ -10791,5 +10791,194 @@
     "rom": "uri hoesaneun suipboda suchuri deo manayo",
     "wordIds": ["w_uri", "w_hoesa", "w_suip", "w_suchul", "w_deo", "w_manta"],
     "note": "The trade pair balances on M22's 보다: 수입보다 수출이 — more goes out than comes in, which is the sentence every export economy wants to say. And the homograph winks: read 수입 as income instead and the sentence still parses — earnings versus shipments — which is exactly why the word note runs both readings."
+  },
+  {
+    "id": "s_m44_pass_study",
+    "en": [
+      { "t": "To pass the exam,", "role": "other", "id": "a" },
+      { "t": "every night", "role": "other", "id": "t" },
+      { "t": "I study", "role": "verb", "id": "v" },
+      { "t": "hard", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "exam-at pass-in-order-to", "role": "other", "id": "a" },
+      { "t": "night-every", "role": "other", "id": "t" },
+      { "t": "diligently", "role": "other", "id": "b" },
+      { "t": "study", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시험에 합격하기 위해서", "role": "other", "id": "a" },
+      { "t": "밤마다", "role": "other", "id": "t" },
+      { "t": "열심히", "role": "other", "id": "b" },
+      { "t": "공부해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "siheome hapgyeokhagi wihaeseo bammada yeolsimhi gongbuhaeyo",
+    "wordIds": ["w_siheom", "w_hapgyeok", "w_bam", "w_yeolsimhi", "w_gongbuhada"],
+    "note": "-기 위해(서)'s debut: M32 taught the noun frame (가족을 위해서); bolt M13's -기 onto any verb and 위해서 now serves purposes, not just people — 합격하기 위해서 = in-order-to-pass. M31's 마다 schedules the grind nightly, and 합격하다 verbs the module's biggest noun. The whole exam economy in one sentence."
+  },
+  {
+    "id": "s_m44_abroad_saving",
+    "en": [
+      { "t": "To go study abroad,", "role": "other", "id": "a" },
+      { "t": "I'm saving up", "role": "verb", "id": "v" },
+      { "t": "money", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "study-abroad-[obj] go-in-order-to", "role": "other", "id": "a" },
+      { "t": "money-[obj]", "role": "object", "id": "o" },
+      { "t": "gather-ing-am", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "유학을 가기 위해서", "role": "other", "id": "a" },
+      { "t": "돈을", "role": "object", "id": "o" },
+      { "t": "모으고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yuhageul gagi wihaeseo doneul moeugo isseoyo",
+    "wordIds": ["w_yuhak", "w_gada", "w_don", "w_moeuda"],
+    "note": "The glue again, aimed at a life plan: 유학을 가다 is THE collocation — studying abroad is somewhere you GO. M17's 모으다 collects the funds inside Ring 1's progressive (-고 있다): the purpose sits up front, the slow work runs in the present. If a 장학금 lands, the next sentence takes over."
+  },
+  {
+    "id": "s_m44_scholarship_for",
+    "en": [
+      { "t": "There are also", "role": "verb", "id": "v" },
+      { "t": "scholarships", "role": "subject", "id": "s" },
+      { "t": "for international students", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "study-abroad-student-[obj] for-[badge]", "role": "other", "id": "a" },
+      { "t": "scholarship-also", "role": "subject", "id": "s" },
+      { "t": "exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "유학생을 위한", "role": "other", "id": "a" },
+      { "t": "장학금도", "role": "subject", "id": "s" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yuhaksaengeul wihan janghakgeumdo isseoyo",
+    "wordIds": ["w_yuhak", "w_haksaeng", "w_wihada", "w_janghakgeum", "w_itda"],
+    "note": "위하다's third outfit: wear M24's badge and 위한 + noun = a thing FOR someone — 학생을 위한 책, 유학생을 위한 장학금. 유학 and 학생 overlap into 유학생 the way M15's 대학생 taught you Korean loves a shared syllable. M2's 도 delivers the good news: also, there's money."
+  },
+  {
+    "id": "s_m44_gradschool_working",
+    "en": [
+      { "t": "My older brother", "role": "subject", "id": "s" },
+      { "t": "attends", "role": "verb", "id": "v" },
+      { "t": "grad school", "role": "place", "id": "p" },
+      { "t": "while working", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "older-brother-[topic]", "role": "subject", "id": "s" },
+      { "t": "work-while", "role": "other", "id": "a" },
+      { "t": "graduate-school-to", "role": "place", "id": "p" },
+      { "t": "attends", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "형은", "role": "subject", "id": "s" },
+      { "t": "일하면서", "role": "other", "id": "a" },
+      { "t": "대학원에", "role": "place", "id": "p" },
+      { "t": "다녀요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hyeongeun ilhamyeonseo daehagwone danyeoyo",
+    "wordIds": ["w_hyeong", "w_ilhada", "w_daehagwon", "w_danida"],
+    "note": "M38's -(으)면서 holds two lives in parallel — day job and 대학원, the standard Korean mid-career move. 다니다 (M16) is the attend-verb for anywhere you go regularly; add the institute-院 of 병원/학원 to 대학교 (M15) and the place grants degrees. Respect the 형; he is tired."
+  },
+  {
+    "id": "s_m44_check_answers",
+    "en": [
+      { "t": "The second the exam ended,", "role": "other", "id": "a" },
+      { "t": "I looked up", "role": "verb", "id": "v" },
+      { "t": "the answers", "role": "object", "id": "o" },
+      { "t": "with my friend", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "exam-[subj] end-as-soon-as", "role": "other", "id": "a" },
+      { "t": "friend-with", "role": "other", "id": "b" },
+      { "t": "correct-answer-[obj]", "role": "object", "id": "o" },
+      { "t": "find-tried", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시험이 끝나자마자", "role": "other", "id": "a" },
+      { "t": "친구하고", "role": "other", "id": "b" },
+      { "t": "정답을", "role": "object", "id": "o" },
+      { "t": "찾아봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "siheomi kkeunnajamaja chinguhago jeongdabeul chajabwasseoyo",
+    "wordIds": ["w_siheom", "w_kkeunnada", "w_chingu", "w_jeongdap", "w_chatda"],
+    "note": "M38's -자마자 clocks the post-exam ritual: doors open, phones out, answers hunted — M16's -아/어 보다 makes 찾아보다 the look-it-up verb. Whether the next sound is a cheer or 아, 바보야 depends entirely on what surfaces."
+  },
+  {
+    "id": "s_m44_library_focus",
+    "en": [
+      { "t": "Today", "role": "other", "id": "t" },
+      { "t": "I have to go", "role": "verb", "id": "v" },
+      { "t": "to the library.", "role": "place", "id": "p" },
+      { "t": "At home, see,", "role": "place", "id": "a" },
+      { "t": "focus", "role": "subject", "id": "s" },
+      { "t": "just doesn't happen", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "today-[topic]", "role": "other", "id": "t" },
+      { "t": "library-to", "role": "place", "id": "p" },
+      { "t": "go-must.", "role": "verb", "id": "v" },
+      { "t": "home-at-[topic]", "role": "place", "id": "a" },
+      { "t": "concentration-[subj]", "role": "subject", "id": "s" },
+      { "t": "not become-here's-why", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "도서관에", "role": "place", "id": "p" },
+      { "t": "가야 돼요.", "role": "verb", "id": "v" },
+      { "t": "집에서는", "role": "place", "id": "a" },
+      { "t": "집중이", "role": "subject", "id": "s" },
+      { "t": "안 되거든요", "role": "verb", "id": "w" }
+    ],
+    "rom": "oneureun doseogwane gaya dwaeyo. jibeseoneun jipjungi an doegeodeunyo",
+    "wordIds": ["w_oneul", "w_doseogwan", "w_gada", "w_jip", "w_jipjung", "w_doeda"],
+    "note": "집중이 안 돼요 — focus refuses to happen (M10's 되다, politely declining) — is the studying world's truest sentence, and M42's -거든요 hands it over as the background nobody had. 집에서는 stacks 에서 with the contrast-는, so the library wins by elimination. Every 시험 기간 (M38) runs on exactly this logic."
+  },
+  {
+    "id": "s_m44_failure_mother",
+    "en": [
+      { "t": "Even if you fail the exam,", "role": "other", "id": "a" },
+      { "t": "it's okay.", "role": "verb", "id": "v" },
+      { "t": "Failure", "role": "subject", "id": "s" },
+      { "t": "is the mother of success, you know", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "exam-at fall-even-if", "role": "other", "id": "a" },
+      { "t": "is-okay.", "role": "verb", "id": "v" },
+      { "t": "failure-[topic]", "role": "subject", "id": "s" },
+      { "t": "success-of mother-is-you-know", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "시험에 떨어져도", "role": "other", "id": "a" },
+      { "t": "괜찮아요.", "role": "verb", "id": "v" },
+      { "t": "실패는", "role": "subject", "id": "s" },
+      { "t": "성공의 어머니잖아요", "role": "verb", "id": "w" }
+    ],
+    "rom": "siheome tteoreojyeodo gwaenchanayo. silpaeneun seonggongui eomeonijanayo",
+    "wordIds": ["w_siheom", "w_tteoreojida", "w_gwaenchanta", "w_silpae", "w_seonggong", "w_eomeoni"],
+    "note": "Comfort, fully machined: M36's 떨어지다 (the exam-faller) concedes through M39's -아/어도, and the classroom proverb arrives wearing M42's -잖아요 — aimed exactly right, because everyone really does know it. 실패 and 성공, M35's verb-pair nouned, formally introduced as family."
+  },
+  {
+    "id": "s_m44_slides_ready",
+    "en": [
+      { "t": "I prepared", "role": "verb", "id": "v" },
+      { "t": "the presentation materials", "role": "object", "id": "o" },
+      { "t": "in advance, and they're standing by", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "presentation material-[obj]", "role": "object", "id": "o" },
+      { "t": "in-advance", "role": "other", "id": "b" },
+      { "t": "prepare-set-down", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "발표 자료를", "role": "object", "id": "o" },
+      { "t": "미리", "role": "other", "id": "b" },
+      { "t": "준비해 놓았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "balpyo jaryoreul miri junbihae noasseoyo",
+    "wordIds": ["w_balpyo", "w_jaryo", "w_miri", "w_junbihada"],
+    "note": "M40's -아/어 놓다, one module on, banking schoolwork instead of side dishes: prepare it and let it stand ready. 발표 자료 is the collocation every seminar room and office runs on — two of this module's nouns, already colleagues. M38's 미리 does what 미리 does; the night before the 발표 thanks you."
   }
 ]
