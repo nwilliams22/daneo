@@ -1456,5 +1456,32 @@
     "lit": "in-laws'-house living",
     "real": "life under the husband's family — the hard lot of the traditional daughter-in-law",
     "note": "시집 + 살이 (living, from M4's 살다): the bride's traditional existence inside the 시집, under the 시어머니's command — measured in labor, patience, and silence. A whole folk-song genre runs on it, and the proverbial verdict says the chili is hot, but 시집살이 is hotter. Modern Korea largely dismantled the arrangement; the word stays employed describing residue — and any workplace with a tyrannical boss: 회사 시집살이."
+  },
+  {
+    "id": "g_m46_gangsan",
+    "cat": "phrase",
+    "ko": "십 년이면 강산도 변한다",
+    "rom": "sip nyeonimyeon gangsando byeonhanda",
+    "lit": "ten years, and even the rivers and mountains change",
+    "real": "given enough time, everything changes — the decade as Korea's unit of deep change",
+    "note": "Every part already yours: 십 (M2) + 년 (M25) + M20's -(으)면 + 강 (M22) + 산 (M11) + 도 + 변하다 (M26), in the plain -ㄴ다 form M32's quote machine taught you to read. 강산 — rivers-and-mountains — is Korean for the land itself, and the proverb is why 년대-thinking runs so deep: ten years remakes the skyline, the neighborhood, and you. Said while revisiting a hometown, an old school, or a photo album."
+  },
+  {
+    "id": "g_m46_sewol_yak",
+    "cat": "phrase",
+    "ko": "세월이 약이다",
+    "rom": "sewori yagida",
+    "lit": "the passing years are medicine",
+    "real": "time heals — grief, breakups, embarrassment: the calendar is the prescription",
+    "note": "M35's 세월 note flagged this proverb in passing; here is the full filing. 세월 — time as the heavy thing that passes — plus M10's 약: Korean prescribes the calendar for what no pharmacy stocks. Said with a pat on the shoulder to the freshly heartbroken, usually as 세월이 약이야. The gap deck's gentlest entry, and the one you will eventually test yourself."
+  },
+  {
+    "id": "g_m46_ganeun_jul",
+    "cat": "phrase",
+    "ko": "시간 가는 줄 몰랐어요",
+    "rom": "sigan ganeun jul mollasseoyo",
+    "lit": "I didn't know time was going",
+    "real": "I completely lost track of time — the highest compliment to good company",
+    "note": "Keep it frozen: 시간 (M1) + 가다 (M1) wearing the -는 badge that M24 named + 줄 (a dependent noun for facts-you-supposed — a Ring 2 machine for a later module; today it stays welded inside this phrase) + M4's 모르다, past tense. Said after good conversations, good books, and every successful date: 재미있어서 시간 가는 줄 몰랐어요. It's 어느덧, reported from inside the moment."
   }
 ]
