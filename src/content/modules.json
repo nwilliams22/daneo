@@ -1157,5 +1157,26 @@
       "s_m44_pass_study", "s_m44_abroad_saving", "s_m44_scholarship_for", "s_m44_gradschool_working",
       "s_m44_check_answers", "s_m44_library_focus", "s_m44_failure_mother", "s_m44_slides_ready"
     ]
+  },
+  {
+    "id": "m45",
+    "title": "Character",
+    "order": 53,
+    "ring": 2,
+    "contentMd": "modules/module-45.md",
+    "wordIds": [
+      "w_teukjing", "w_seongjil", "w_maeryeok", "w_imiji",
+      "w_yoksim", "w_gojip", "w_yumeo", "w_yeoyu",
+      "w_iseong", "w_sunsuhada", "w_pyeongbeomhada", "w_hwalbalhada",
+      "w_jeok", "w_gaeinjeok", "w_ilbanjeok", "w_guchejeok",
+      "w_jeonchejeok", "w_daepyojeok", "w_jeokgeukjeok", "w_geungjeongjeok",
+      "w_sahoejeok", "w_segyejeok", "w_gyeongjejeok", "w_jeongchijeok",
+      "w_yeoksajeok", "w_gwahakjeok", "w_jeontongjeok", "w_jeongsinjeok",
+      "w_jayeonseureopda", "w_josimseureopda", "w_geokjeongseureopda", "w_jayuropda"
+    ],
+    "sentenceIds": [
+      "s_m45_interview_self", "s_m45_think_positive", "s_m45_worried_face", "s_m45_natural_korean",
+      "s_m45_be_yourself", "s_m45_reason_feeling", "s_m45_stubborn_dad", "s_m45_no_margin"
+    ]
   }
 ]
