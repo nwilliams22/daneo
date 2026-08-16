@@ -1135,5 +1135,27 @@
       "s_m43_commute_or", "s_m43_interview_hours", "s_m43_payday_ramen", "s_m43_save_little",
       "s_m43_salary_gone", "s_m43_humble_hire", "s_m43_report_banked", "s_m43_trade_balance"
     ]
+  },
+  {
+    "id": "m44",
+    "title": "In Order to Pass",
+    "order": 52,
+    "ring": 2,
+    "contentMd": "modules/module-44.md",
+    "wordIds": [
+      "w_iphak", "w_joreop", "w_hakgi", "w_daehagwon",
+      "w_baksa", "w_jeongong", "w_yuhak", "w_janghakgeum",
+      "w_gwamok", "w_gugeo", "w_cheyuk", "w_misul",
+      "w_yesul", "w_munhak", "w_gisul", "w_gangui",
+      "w_yeonguhada", "w_nonmun", "w_toron", "w_jaryo",
+      "w_josa", "w_geomsa", "w_balpyo", "w_girokhada",
+      "w_gwaje", "w_hakseup", "w_bokseup", "w_jipjung",
+      "w_neungnyeok", "w_jeongdap", "w_hapgyeok", "w_seonggong",
+      "w_silpae", "w_jisik", "w_babo", "w_piltong"
+    ],
+    "sentenceIds": [
+      "s_m44_pass_study", "s_m44_abroad_saving", "s_m44_scholarship_for", "s_m44_gradschool_working",
+      "s_m44_check_answers", "s_m44_library_focus", "s_m44_failure_mother", "s_m44_slides_ready"
+    ]
   }
 ]

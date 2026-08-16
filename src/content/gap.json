@@ -1348,5 +1348,32 @@
     "lit": "the throat is the police bureau",
     "real": "one must eat — hunger will drive a person to do anything, including work they hate",
     "note": "M14's 목 (throat) + 구멍 (hole — the one M42's embarrassed mouse hid in) + 포도청, the Joseon dynasty's thief-catching bureau: the throat COMPELS the way the law does, so people take the 야근, keep the awful 직장, sell what they'd rather not. Said with a sigh while accepting unpleasant work: 목구멍이 포도청이라… — 'well, the throat is the police bureau.' Grim, ancient, and still filed under: reasons everyone showed up Monday."
+  },
+  {
+    "id": "g_m44_wangdo",
+    "cat": "phrase",
+    "ko": "공부에는 왕도가 없다",
+    "rom": "gongbueneun wangdoga eopda",
+    "lit": "in studying, there is no royal road",
+    "real": "there are no shortcuts in learning",
+    "note": "Euclid told a king there was no royal road to geometry; Korean filed the ruling under 공부. M26's 왕 + 도 (the way-道 inside 태권도, M26) + M1's 없다: even kings walk the whole path. Desk-sticker canon beside M39's 노력은 배신하지 않는다 — study culture quotes itself in proverbs, and this one closes every shortcut you were about to search for."
+  },
+  {
+    "id": "g_m44_seodang_gae",
+    "cat": "phrase",
+    "ko": "서당 개 삼 년이면 풍월을 읊는다",
+    "rom": "seodang gae sam nyeonimyeon pungworeul eumneunda",
+    "lit": "after three years, even the schoolhouse dog recites poetry",
+    "real": "hang around long enough and it rubs off on you",
+    "note": "서당 is the old village school — hanja by rote, one stern teacher; 풍월 is wind-and-moon poetry; the dog is unqualified and succeeds anyway. 삼 년 (M2's 삼, M25's 년) of proximity beats zero years of talent — said to comfort anyone learning by osmosis. If you've been marinating in dramas and song lyrics: you are the dog, and it's working."
+  },
+  {
+    "id": "g_m44_hapgyeok_yeot",
+    "cat": "concept",
+    "ko": "합격 엿",
+    "rom": "hapgyeok yeot",
+    "lit": "pass-taffy",
+    "real": "the sticky exam-day gift",
+    "note": "Before big exams Koreans gift 엿 (taffy) and 찹쌀떡 (sticky rice cake — M18's 떡, at its stickiest), and M35's 붙다 taught you the physics: passing IS sticking (시험에 붙다), so you eat sticky things to adhere to the list. The inverse superstition already sits in M25's gap deck — slippery 미역국, banned from the exam-week table. A complete folk science of admission, run entirely on texture."
   }
 ]
