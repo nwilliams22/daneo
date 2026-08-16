@@ -10980,5 +10980,185 @@
     "rom": "balpyo jaryoreul miri junbihae noasseoyo",
     "wordIds": ["w_balpyo", "w_jaryo", "w_miri", "w_junbihada"],
     "note": "M40's -아/어 놓다, one module on, banking schoolwork instead of side dishes: prepare it and let it stand ready. 발표 자료 is the collocation every seminar room and office runs on — two of this module's nouns, already colleagues. M38's 미리 does what 미리 does; the night before the 발표 thanks you."
+  },
+  {
+    "id": "s_m45_interview_self",
+    "en": [
+      { "t": "I'm", "role": "subject", "id": "s" },
+      { "t": "a proactive,", "role": "other", "id": "a" },
+      { "t": "positive", "role": "other", "id": "b" },
+      { "t": "person", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s" },
+      { "t": "proactive-and", "role": "other", "id": "a" },
+      { "t": "positive-[badge]", "role": "other", "id": "b" },
+      { "t": "person-am", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "적극적이고", "role": "other", "id": "a" },
+      { "t": "긍정적인", "role": "other", "id": "b" },
+      { "t": "사람이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun jeokgeukjeogigo geungjeongjeogin saramieyo",
+    "wordIds": ["w_jeo", "w_jeokgeukjeok", "w_geungjeongjeok", "w_saram"],
+    "note": "The interview answer, assembled from the power pair. The -적 products are still nouns at heart, so they run through 이다: -적이고 rides M10's -고, and 긍정적인 wears M24's badge to reach 사람. Memorize the chassis, swap the traits."
+  },
+  {
+    "id": "s_m45_think_positive",
+    "en": [
+      { "t": "If you think", "role": "verb", "id": "v" },
+      { "t": "positively,", "role": "other", "id": "a" },
+      { "t": "your mind", "role": "subject", "id": "s" },
+      { "t": "eases up", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "positively", "role": "other", "id": "a" },
+      { "t": "think-if,", "role": "verb", "id": "v" },
+      { "t": "mind-[subj]", "role": "subject", "id": "s" },
+      { "t": "comfortable-becomes", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "긍정적으로", "role": "other", "id": "a" },
+      { "t": "생각하면", "role": "verb", "id": "v" },
+      { "t": "마음이", "role": "subject", "id": "s" },
+      { "t": "편해져요", "role": "verb", "id": "w" }
+    ],
+    "rom": "geungjeongjeogeuro saenggakhamyeon maeumi pyeonhaejyeoyo",
+    "wordIds": ["w_geungjeongjeok", "w_saenggakhada", "w_maeum", "w_pyeonhada"],
+    "note": "-적으로 — the adverb half of every -적 word's life. M20's -(으)면 sets the condition and M35's -아/어지다 delivers the payoff: 편하다 becoming 편해지다, comfort as a process. The national coping strategy, diagrammed."
+  },
+  {
+    "id": "s_m45_worried_face",
+    "en": [
+      { "t": "Mom", "role": "subject", "id": "s" },
+      { "t": "looked at", "role": "verb", "id": "v" },
+      { "t": "me", "role": "object", "id": "o" },
+      { "t": "with a worried face", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "mom-[subj]", "role": "subject", "id": "s" },
+      { "t": "worried-[badge] face-with", "role": "other", "id": "a" },
+      { "t": "me-[obj]", "role": "object", "id": "o" },
+      { "t": "looked-at", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "엄마가", "role": "subject", "id": "s" },
+      { "t": "걱정스러운 얼굴로", "role": "other", "id": "a" },
+      { "t": "저를", "role": "object", "id": "o" },
+      { "t": "봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eommaga geokjeongseureoun eolgullo jeoreul bwasseoyo",
+    "wordIds": ["w_eomma", "w_geokjeongseureopda", "w_eolgul", "w_jeo", "w_boda"],
+    "note": "-스럽다 in badge form — ㅂ obeying the family rule: 걱정스럽- → 걱정스러운. M29's 걱정돼요 reports the feeling from inside; 걱정스러운 얼굴 is what it looks like from across the table, and (으)로 carries the manner. The factory painting a quality onto a face."
+  },
+  {
+    "id": "s_m45_natural_korean",
+    "en": [
+      { "t": "I want to speak", "role": "verb", "id": "v" },
+      { "t": "naturally,", "role": "other", "id": "b" },
+      { "t": "like my Korean friends", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "Korea friend-like", "role": "other", "id": "a" },
+      { "t": "naturally", "role": "other", "id": "b" },
+      { "t": "speak-want", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국 친구처럼", "role": "other", "id": "a" },
+      { "t": "자연스럽게", "role": "other", "id": "b" },
+      { "t": "말하고 싶어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hanguk chingucheoreom jayeonseureopge malhago sipeoyo",
+    "wordIds": ["w_hanguk", "w_chingu", "w_jayeonseureopda", "w_malhada"],
+    "note": "The learner's mission statement: M41's 처럼 sets the target, M33's -게 turns the factory's flagship into manner, and M3's -고 싶다 supplies the wanting. 자연스럽다, conjugating naturally — the proof is in the sentence."
+  },
+  {
+    "id": "s_m45_be_yourself",
+    "en": [
+      { "t": "Just do it like YOU —", "role": "other", "id": "a" },
+      { "t": "that's enough", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "you-worthily", "role": "other", "id": "a" },
+      { "t": "do-if okay", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "너답게", "role": "other", "id": "a" },
+      { "t": "하면 돼", "role": "verb", "id": "v" }
+    ],
+    "rom": "neodapge hamyeon dwae",
+    "wordIds": ["w_neo", "w_hada"],
+    "note": "-답다's whole philosophy in four syllables: X답게 하다 = act like the X you already are. M23's -(으)면 돼요 machine, dropped to 반말 by M19's rules — 너 sentences shed the 요. Said before interviews, first dates, and stage doors."
+  },
+  {
+    "id": "s_m45_reason_feeling",
+    "en": [
+      { "t": "More than feeling,", "role": "other", "id": "a" },
+      { "t": "reason", "role": "subject", "id": "s" },
+      { "t": "is sometimes what you need", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "feeling-than", "role": "other", "id": "a" },
+      { "t": "reason-[subj]", "role": "subject", "id": "s" },
+      { "t": "needed-time-even exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "감정보다", "role": "other", "id": "a" },
+      { "t": "이성이", "role": "subject", "id": "s" },
+      { "t": "필요할 때도 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gamjeongboda iseongi piryohal ttaedo isseoyo",
+    "wordIds": ["w_gamjeong", "w_iseong", "w_piryohada", "w_ttae", "w_itda"],
+    "note": "The module's philosophical corner: M42's 감정 meets its counterweight, with M22's 보다 doing the weighing and M25's -(으)ㄹ 때 marking when the scales tip. Radar on duty: say this on a 소개팅 and 이성 means something else entirely."
+  },
+  {
+    "id": "s_m45_stubborn_dad",
+    "en": [
+      { "t": "Dad", "role": "subject", "id": "s" },
+      { "t": "is stubborn, but", "role": "verb", "id": "v" },
+      { "t": "his heart", "role": "subject", "id": "t" },
+      { "t": "is warm", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "dad-[topic]", "role": "subject", "id": "s" },
+      { "t": "stubbornness-[subj] strong-but", "role": "verb", "id": "v" },
+      { "t": "heart-[topic]", "role": "subject", "id": "t" },
+      { "t": "warm-is", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "아빠는", "role": "subject", "id": "s" },
+      { "t": "고집이 세지만", "role": "verb", "id": "v" },
+      { "t": "마음은", "role": "subject", "id": "t" },
+      { "t": "따뜻해요", "role": "verb", "id": "w" }
+    ],
+    "rom": "appaneun gojibi sejiman maeumeun ttatteuthaeyo",
+    "wordIds": ["w_appa", "w_gojip", "w_seda", "w_maeum", "w_ttatteuthada"],
+    "note": "고집이 세다 — the trait-noun frame the brief of every Korean family runs on, paying M41's 세다 its character wages. -지만 files the objection, and the 은/는 contrast does the real work: stubborn HE may be, his heart is another ledger. Every 아빠 eulogy in one sentence."
+  },
+  {
+    "id": "s_m45_no_margin",
+    "en": [
+      { "t": "I want to rest", "role": "verb", "id": "v" },
+      { "t": "on weekends too.", "role": "other", "id": "a" },
+      { "t": "See, these days", "role": "other", "id": "b" },
+      { "t": "I've got no slack", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "weekend-on-even", "role": "other", "id": "a" },
+      { "t": "rest-want.", "role": "verb", "id": "v" },
+      { "t": "these-days", "role": "other", "id": "b" },
+      { "t": "margin-[subj] not-exist-here's-why", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "주말에도", "role": "other", "id": "a" },
+      { "t": "쉬고 싶어요.", "role": "verb", "id": "v" },
+      { "t": "요즘", "role": "other", "id": "b" },
+      { "t": "여유가 없거든요", "role": "verb", "id": "w" }
+    ],
+    "rom": "jumaredo swigo sipeoyo. yojeum yeoyuga eopgeodeunyo",
+    "wordIds": ["w_jumal", "w_swida", "w_yojeum", "w_yeoyu", "w_eopda"],
+    "note": "여유, measured the way Korea usually measures it — by its absence. M42's -거든요 hands over the background politely: here's the part you didn't know. 에 + 도 stacks 'even on weekends' without ceremony. The anti-여유 society, self-reporting."
   }
 ]

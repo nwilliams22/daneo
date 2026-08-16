@@ -1375,5 +1375,32 @@
     "lit": "pass-taffy",
     "real": "the sticky exam-day gift",
     "note": "Before big exams Koreans gift 엿 (taffy) and 찹쌀떡 (sticky rice cake — M18's 떡, at its stickiest), and M35's 붙다 taught you the physics: passing IS sticking (시험에 붙다), so you eat sticky things to adhere to the list. The inverse superstition already sits in M25's gap deck — slippery 미역국, banned from the exam-week table. A complete folk science of admission, run entirely on texture."
+  },
+  {
+    "id": "g_m45_nune_angyeong",
+    "cat": "phrase",
+    "ko": "제 눈에 안경",
+    "rom": "je nune angyeong",
+    "lit": "glasses for my own eyes",
+    "real": "beauty is in the eye of the beholder — attraction is a personal prescription",
+    "note": "M14's 눈 wearing M21's 안경: a lens ground for exactly one person — which is why your friend's baffling boyfriend makes perfect sense to her. Said with a shrug whenever 매력 refuses to be argued: 제 눈에 안경. The proverb concedes what this module's vocabulary keeps measuring — 매력 is real, but the instrument is never calibrated the same way twice."
+  },
+  {
+    "id": "g_m45_geot_sok_dareuda",
+    "cat": "phrase",
+    "ko": "겉 다르고 속 다르다",
+    "rom": "geot dareugo sok dareuda",
+    "lit": "the outside is one way and the inside is another",
+    "real": "two-faced — the public self and the private self don't match",
+    "note": "M41's 겉 (the surface) and M28's 속 (the interior), audited by M24's 다르다 twice over and linked with M10's -고. The four-word integrity test this module was built to fail or pass: when someone's 이미지 and 성질 never meet, this is the filing. The compliment is its negation — 겉과 속이 같은 사람, someone whose outside and inside agree."
+  },
+  {
+    "id": "g_m45_yeol_gil_mulsok",
+    "cat": "phrase",
+    "ko": "열 길 물속은 알아도 한 길 사람 속은 모른다",
+    "rom": "yeol gil mulsogeun arado han gil saram sogeun moreunda",
+    "lit": "you can know ten fathoms of water, but not one fathom of a person's insides",
+    "real": "you never really know anyone — people are deeper than water",
+    "note": "M5's 열 and a 길 that isn't the road: M12's radar gains a tenant — 길 the fathom, an old body-length unit for depth. M39's -아/어도 concedes the easy half (water, transparent to ten lengths) before the verdict: a person is opaque at one. M28's 속 holds both meanings down. Filed beside 눈치 (M42) as the reason the radar has to exist at all."
   }
 ]
