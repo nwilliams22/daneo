@@ -5,16 +5,16 @@ app at `/mnt/t7/Projects/daneo`. Your module brief file names the module id, ord
 title theme, glue point(s), and the exact word slice.
 
 **You must NOT edit any repo files.** All output goes to NEW files in
-`/tmp/claude-1000/-mnt-t7-Projects-daneo/b958afff-5c30-4173-948e-1c90e25d9af9/scratchpad/`.
+`/tmp/claude-1000/-mnt-t7-Projects-daneo/4836ed73-347d-47dd-a13d-692128495d0d/scratchpad/`.
 Do not commit anything.
 
 ## Read these first (mandatory, in this order)
 
 1. `CURRICULUM.md` — §2b (the trimmed contract + Band 5) and §4 (content principles).
-2. `src/content/modules/module-40.md` and `module-42.md` — the slim-md exemplars.
-3. In `src/content/words.json`: every entry with `"moduleId": "m40"` or `"m42"` —
+2. `src/content/modules/module-40.md` and `module-44.md` — the slim-md exemplars.
+3. In `src/content/words.json`: every entry with `"moduleId": "m40"` or `"m44"` —
    this is the note voice you are imitating.
-4. In `src/content/sentences.json`: all `s_m40_*` and `s_m42_*` entries — the
+4. In `src/content/sentences.json`: all `s_m40_*` and `s_m44_*` entries — the
    three-layer format and note voice.
 5. Last ~10 entries of `src/content/gap.json`.
 
@@ -30,7 +30,10 @@ Do not commit anything.
   ㅅ-irregular (낫다) = M14, second member 젓다 = M40 · -지 마세요 = M14 ·
   -아/어 보다 try-machine = M16 · badge -(으)ㄴ/-는 = M24 · -(으)ㄹ 때 = M25 ·
   passive party = M36 · causative party = M37 · 것 같다 = M34 · -아/어도/-아/어야/밖에 = M39 ·
-  -잖아요/-거든요 = M42 · 처럼 = M41 · -아/어 놓다/두다 = M40 · 마다 = M31.
+  -잖아요/-거든요 = M42 · 처럼 = M41 · -아/어 놓다/두다 = M40 · 마다 = M31 ·
+  (이)나 = M43 · 씩 = M43 · -기 위해(서) = M44 · 위한+noun = M44 ·
+  -적/-스럽다/-답다/-롭다 factories = M45 · -게 adverbializer = M33 ·
+  -자마자/-(으)면서/-는 동안 = M38 · -아/어지다/-게 되다 = M35.
 - **NIKL sense collapse:** the ledger tracks base strings, so if your slice word's
   NIKL entry is a different sense than your primary teaching sense (check
   `reference/nikl-5965.tsv` — the 4th column hints hanja/sense), your note MUST
@@ -47,7 +50,7 @@ payoffs (this word completes something an earlier module promised).
 Never cite a module or an earlier word's note from memory — check every single one.
 If a word you want to lean on isn't taught, don't reference it as taught.
 Module numbers: word `moduleId` fields map m1→Module 1 etc. Words with moduleId
-m31–m39 are Ring 2 Band 4; everything lower is Ring 1.
+m31–m39 are Ring 2 Band 4, m40–m45 are shipped Band 5; everything lower is Ring 1.
 
 ## Output files (all in the scratchpad dir; NN = your module number)
 
