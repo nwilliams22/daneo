@@ -1200,5 +1200,28 @@
       "s_m48_diary_resolve", "s_m48_show_promise", "s_m48_novelist_reporter", "s_m48_famous_painter",
       "s_m48_actor_allrounder", "s_m48_hundred_channels", "s_m48_grandma_tales", "s_m48_filming_quiet"
     ]
+  },
+  {
+    "id": "m47",
+    "title": "The Second Ladder",
+    "order": 55,
+    "ring": 2,
+    "contentMd": "modules/module-47.md",
+    "wordIds": [
+      "w_abeonim", "w_eomeonim", "w_yeonse", "w_saengsin",
+      "w_jumusida", "w_japsusida", "w_boepda", "w_mosida",
+      "w_doragasida", "w_chincheok", "w_samchon", "w_oesamchon",
+      "w_gomo", "w_oehalmeoni", "w_sonja", "w_sonnyeo",
+      "w_joka", "w_hyeongje", "w_nammae", "w_sillang",
+      "w_sinbu", "w_sijip", "w_jangga", "w_sieomeoni",
+      "w_siabeoji", "w_myeoneuri", "w_sawi", "w_ihon",
+      "w_imsin", "w_nata", "w_ssangdungi", "w_ae",
+      "w_jasik", "w_mangnae", "w_dolboda", "w_gajeong",
+      "w_noin", "w_sedae", "w_p_kkeseo", "w_p_mankeum"
+    ],
+    "sentenceIds": [
+      "s_m47_father_news", "s_m47_grandma_bedtime", "s_m47_youngest_tall", "s_m47_live_with_parents",
+      "s_m47_twin_nephews", "s_m47_working_mom", "s_m47_seollal_visit", "s_m47_grandfather_passed"
+    ]
   }
 ]
