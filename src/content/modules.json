@@ -1178,5 +1178,27 @@
       "s_m45_interview_self", "s_m45_think_positive", "s_m45_worried_face", "s_m45_natural_korean",
       "s_m45_be_yourself", "s_m45_reason_feeling", "s_m45_stubborn_dad", "s_m45_no_margin"
     ]
+  },
+  {
+    "id": "m48",
+    "title": "The Makers",
+    "order": 56,
+    "ring": 2,
+    "contentMd": "modules/module-48.md",
+    "wordIds": [
+      "w_jakga", "w_soseol", "w_soseolga", "w_siin",
+      "w_jeoja", "w_hwaga", "w_eumakga", "w_yesulga",
+      "w_baeu", "w_yeongi", "w_anaunseo", "w_jakpum",
+      "w_juje", "w_inmul", "w_juingong", "w_jangmyeon",
+      "w_ilgi", "w_donghwa", "w_yennariyagi", "w_japji",
+      "w_weptun", "w_bangsongguk", "w_chaeneol", "w_chwaryeong",
+      "w_nogeum", "w_gongyeon", "w_gisa", "w_eollon",
+      "w_tongsin", "w_daejung", "w_gwangaek", "w_sicheongja",
+      "w_dokja"
+    ],
+    "sentenceIds": [
+      "s_m48_diary_resolve", "s_m48_show_promise", "s_m48_novelist_reporter", "s_m48_famous_painter",
+      "s_m48_actor_allrounder", "s_m48_hundred_channels", "s_m48_grandma_tales", "s_m48_filming_quiet"
+    ]
   }
 ]
