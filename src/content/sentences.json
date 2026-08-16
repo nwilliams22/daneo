@@ -11541,5 +11541,203 @@
     "rom": "harabeojikkeseo jangnyeone doragasyeosseoyo. jigeumeun halmeoni honja gyeseyo",
     "wordIds": ["w_harabeoji", "w_jangnyeon", "w_doragasida", "w_jigeum", "w_halmeoni", "w_honja", "w_gyesida"],
     "note": "The garnish verb at its real job: 돌아가시다 — M23's 돌아가다 plus the honor marker — is how Korean says an elder passed: he went back. 께서 holds the honor through the loss, and M4's 계시다 keeps it running in the present tense: grandmother remains, honored, alone. Factual and warm — exactly how families say it."
+  },
+  {
+    "id": "s_m46_learning_year",
+    "en": [
+      { "t": "Since I started learning", "role": "other", "id": "a" },
+      { "t": "Korean,", "role": "object", "id": "o" },
+      { "t": "more than a year", "role": "subject", "id": "s" },
+      { "t": "has passed", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Korean-[obj]", "role": "object", "id": "o" },
+      { "t": "learned-[badge] since", "role": "other", "id": "a" },
+      { "t": "one year-[subj]", "role": "subject", "id": "s" },
+      { "t": "exceeded", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국어를", "role": "object", "id": "o" },
+      { "t": "배운 지", "role": "other", "id": "a" },
+      { "t": "일 년이", "role": "subject", "id": "s" },
+      { "t": "넘었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hangugeoreul baeun ji il nyeoni neomeosseoyo",
+    "wordIds": ["w_hangugeo", "w_baeuda", "w_ji", "w_n_il", "w_nyeon", "w_neomda"],
+    "note": "The glue's flagship — the sentence every learner earns on day 366: M24's past badge stamps 배우다 finished, 지 opens the stopwatch, and M36's 넘다 reads it past the one-year mark. The finisher rotates freely — 됐어요, 지났어요, 넘었어요 — and the duration slot takes anything M25's date shelf stocks."
+  },
+  {
+    "id": "s_m46_how_long_here",
+    "en": [
+      { "t": "How long", "role": "other", "id": "b" },
+      { "t": "has it been", "role": "verb", "id": "v" },
+      { "t": "since you started living", "role": "other", "id": "a" },
+      { "t": "here?", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "here-at", "role": "place", "id": "p" },
+      { "t": "lived-[badge] since", "role": "other", "id": "a" },
+      { "t": "how-long", "role": "other", "id": "b" },
+      { "t": "became?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여기에서", "role": "place", "id": "p" },
+      { "t": "산 지", "role": "other", "id": "a" },
+      { "t": "얼마나", "role": "other", "id": "b" },
+      { "t": "됐어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeogieseo san ji eolmana dwaesseoyo?",
+    "wordIds": ["w_yeogi", "w_salda", "w_ji", "w_eolmana", "w_doeda"],
+    "note": "The small-talk workhorse: ask it of anyone, about anything. ㄹ-stem 살다 drops into the badge as 산 — M24 taught the drop, and this 산 is neither M11's mountain nor the souvenir-buying 산 from M24's own example; context holds the lease. M11's 얼마나 + M10's 되다 close the question."
+  },
+  {
+    "id": "s_m46_married_decade",
+    "en": [
+      { "t": "Since we got married,", "role": "other", "id": "a" },
+      { "t": "before we even noticed,", "role": "other", "id": "b" },
+      { "t": "ten years", "role": "subject", "id": "s" },
+      { "t": "have gone by", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "married-[badge] since", "role": "other", "id": "a" },
+      { "t": "before-one-knew", "role": "other", "id": "b" },
+      { "t": "ten year-[subj]", "role": "subject", "id": "s" },
+      { "t": "passed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "결혼한 지", "role": "other", "id": "a" },
+      { "t": "어느덧", "role": "other", "id": "b" },
+      { "t": "십 년이", "role": "subject", "id": "s" },
+      { "t": "지났어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeolhonhan ji eoneudeot sip nyeoni jinasseoyo",
+    "wordIds": ["w_gyeolhonhada", "w_ji", "w_eoneudeot", "w_n_sip", "w_nyeon", "w_jinada"],
+    "note": "The stopwatch's third finisher: M12's 지나다 — the parent of the whole 지난- family — closes a decade that 어느덧 admits nobody was watching. M25's 결혼하다 starts the clock. This is how anniversaries are actually announced: slightly stunned."
+  },
+  {
+    "id": "s_m46_dad_nineties",
+    "en": [
+      { "t": "My dad", "role": "subject", "id": "s" },
+      { "t": "still", "role": "other", "id": "b" },
+      { "t": "listens to", "role": "verb", "id": "v" },
+      { "t": "90s music", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "our father-[topic]", "role": "subject", "id": "s" },
+      { "t": "still-even", "role": "other", "id": "b" },
+      { "t": "ninety decade music-[obj]", "role": "object", "id": "o" },
+      { "t": "listens", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 아버지는", "role": "subject", "id": "s" },
+      { "t": "아직도", "role": "other", "id": "b" },
+      { "t": "구십 년대 음악을", "role": "object", "id": "o" },
+      { "t": "들어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri abeojineun ajikdo gusip nyeondae eumageul deureoyo",
+    "wordIds": ["w_uri", "w_abeoji", "w_ajik", "w_n_gu", "w_n_sip", "w_nyeondae", "w_eumak", "w_deutda"],
+    "note": "년대's debut: M25's 년 + 시대's 代 = the decade machine, written 90년대 and read 구십 년대. M14's 아직 wearing 도 = still-even-now, filial affection with an eye-roll. M2's 듣다 flips its ㄷ as always — and somewhere a 노래방 queue fills with the same three songs."
+  },
+  {
+    "id": "s_m46_after_graduation",
+    "en": [
+      { "t": "After graduation,", "role": "other", "id": "a" },
+      { "t": "for a while", "role": "other", "id": "b" },
+      { "t": "I couldn't see", "role": "verb", "id": "v" },
+      { "t": "my friends", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "graduation after-at", "role": "other", "id": "a" },
+      { "t": "friend-s-[obj]", "role": "object", "id": "o" },
+      { "t": "a-while", "role": "other", "id": "b" },
+      { "t": "cannot met", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "졸업 이후에", "role": "other", "id": "a" },
+      { "t": "친구들을", "role": "object", "id": "o" },
+      { "t": "한동안", "role": "other", "id": "b" },
+      { "t": "못 만났어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "joreop ihue chingudeureul handongan mot mannasseoyo",
+    "wordIds": ["w_joreop", "w_ihu", "w_chingu", "w_handongan", "w_mannada"],
+    "note": "이후 promoted from M13's -(으)ㄴ 후에: no verb needed — any noun becomes a boundary, and M44's 졸업 is the classic one. 한동안 measures the drift; M3's 못 admits it wasn't by choice. The reunion sentence that usually follows is two entries back on the 지-machine."
+  },
+  {
+    "id": "s_m46_second_exam",
+    "en": [
+      { "t": "With my second exam", "role": "object", "id": "o" },
+      { "t": "coming up,", "role": "other", "id": "a" },
+      { "t": "these days", "role": "other", "id": "t" },
+      { "t": "I'm constantly", "role": "other", "id": "b" },
+      { "t": "busy", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "two -th exam-[obj]", "role": "object", "id": "o" },
+      { "t": "ahead-keep-ing-so", "role": "other", "id": "a" },
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "continuously", "role": "other", "id": "b" },
+      { "t": "am-busy", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "두 번째 시험을", "role": "object", "id": "o" },
+      { "t": "앞두고 있어서", "role": "other", "id": "a" },
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "계속", "role": "other", "id": "b" },
+      { "t": "바빠요", "role": "verb", "id": "v" }
+    ],
+    "rom": "du beonjjae siheomeul apdugo isseoseo yojeum gyesok bappayo",
+    "wordIds": ["w_dul", "w_beonjjae", "w_siheom", "w_apduda", "w_yojeum", "w_gyesok", "w_bappeuda"],
+    "note": "The ordinal machine live — M5's 둘 in combining form + 번째 = second — and 앞두다 in its signature pose: -고 있다 holds the exam parked ahead while M28's 계속 keeps the pressure on. M4's 바쁘다 does its ㅡ-drop (바빠요), as busy as ever since Ring 1."
+  },
+  {
+    "id": "s_m46_yearend_now",
+    "en": [
+      { "t": "Start", "role": "verb", "id": "v" },
+      { "t": "right now.", "role": "other", "id": "b" },
+      { "t": "The year's end", "role": "subject", "id": "s" },
+      { "t": "is almost here, you know", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "now right-on-the-spot", "role": "other", "id": "b" },
+      { "t": "start-please.", "role": "verb", "id": "v" },
+      { "t": "year-end-[subj]", "role": "subject", "id": "s" },
+      { "t": "much not remained-you-know", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "지금 당장", "role": "other", "id": "b" },
+      { "t": "시작하세요.", "role": "verb", "id": "v" },
+      { "t": "연말이", "role": "subject", "id": "s" },
+      { "t": "얼마 안 남았잖아요", "role": "verb", "id": "w" }
+    ],
+    "rom": "jigeum dangjang sijakhaseyo. yeonmari eolma an namatjanayo",
+    "wordIds": ["w_jigeum", "w_dangjang", "w_sijakhada", "w_yeonmal", "w_eolma", "w_namda"],
+    "note": "지금 당장 — now, THIS spot — the ultimatum register, softened one notch by M42's -잖아요: we can both see the calendar. M35's 남다 counts what's left of the year (얼마 안 남았다 = almost none), and 연말 names the deadline every December speech runs on."
+  },
+  {
+    "id": "s_m46_sunset_missing",
+    "en": [
+      { "t": "When I look at", "role": "other", "id": "b" },
+      { "t": "the sky", "role": "object", "id": "o" },
+      { "t": "around sunset,", "role": "other", "id": "a" },
+      { "t": "I miss", "role": "verb", "id": "v" },
+      { "t": "my childhood", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "sun-[subj] set-[badge] around-of", "role": "other", "id": "a" },
+      { "t": "sky-[obj]", "role": "object", "id": "o" },
+      { "t": "see-if", "role": "other", "id": "b" },
+      { "t": "young-[badge] days-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-missed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "해가 질 무렵의", "role": "other", "id": "a" },
+      { "t": "하늘을", "role": "object", "id": "o" },
+      { "t": "보면", "role": "other", "id": "b" },
+      { "t": "어린 시절이", "role": "subject", "id": "s" },
+      { "t": "그리워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haega jil muryeobui haneureul bomyeon eorin sijeori geuriwoyo",
+    "wordIds": ["w_hae", "w_jida_lose", "w_muryeop", "w_haneul", "w_boda", "w_eorida", "w_sijeol", "w_geuripda"],
+    "note": "무렵 rides M25's third badge exactly like 때 — but fuzzier, because dusk has no timestamp. M17's 지다 finally works the sunset job its note promised, 어린 시절 is M21's 어리다 wearing M24's badge on nostalgia's own noun, and M42's 그립다 does the missing. The module's whole thesis in one exhale."
   }
 ]

@@ -1223,5 +1223,27 @@
       "s_m47_father_news", "s_m47_grandma_bedtime", "s_m47_youngest_tall", "s_m47_live_with_parents",
       "s_m47_twin_nephews", "s_m47_working_mom", "s_m47_seollal_visit", "s_m47_grandfather_passed"
     ]
+  },
+  {
+    "id": "m46",
+    "title": "It's Been Years",
+    "order": 54,
+    "ring": 2,
+    "contentMd": "modules/module-46.md",
+    "wordIds": [
+      "w_hyeondae", "w_nyeondae", "w_oneulnal", "w_ijeon",
+      "w_ihu", "w_jinanhae", "w_jinanbeon", "w_inal",
+      "w_yeonmal", "w_sijeol", "w_pyeongsaeng", "w_jangnae",
+      "w_eonjenga", "w_hanttae", "w_yet", "w_yeongwonhada",
+      "w_yeongwonhi", "w_cheot", "w_beonjjae", "w_cheonnal",
+      "w_choecho", "w_charye", "w_choban", "w_huban",
+      "w_dangjang", "w_dangbungan", "w_handongan", "w_oraetdongan",
+      "w_eoneudeot", "w_muryeop", "w_apduda", "w_gyesokdoeda",
+      "w_ji"
+    ],
+    "sentenceIds": [
+      "s_m46_learning_year", "s_m46_how_long_here", "s_m46_married_decade", "s_m46_dad_nineties",
+      "s_m46_after_graduation", "s_m46_second_exam", "s_m46_yearend_now", "s_m46_sunset_missing"
+    ]
   }
 ]
