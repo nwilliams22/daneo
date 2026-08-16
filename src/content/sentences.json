@@ -10614,5 +10614,182 @@
     "rom": "honja sarado babeul jal chaenggyeo meogeoyo",
     "wordIds": ["w_honja", "w_salda", "w_bap", "w_chaenggida", "w_meokda"],
     "note": "M39's -아/어도 concedes the solitude; 챙기다 overrules it — the caretaking verb turned inward. 밥 잘 챙겨 먹어요 is the sentence every Korean parent texts; this is the adult answering it truthfully. The module's whole caretaking thesis in seven syllables."
+  },
+  {
+    "id": "s_m43_commute_or",
+    "en": [
+      { "t": "When I head to work,", "role": "other", "id": "a" },
+      { "t": "I take", "role": "verb", "id": "v" },
+      { "t": "the bus or the subway", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "go-to-work-[when]", "role": "other", "id": "a" },
+      { "t": "bus-or subway-[obj]", "role": "object", "id": "o" },
+      { "t": "ride", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "출근할 때", "role": "other", "id": "a" },
+      { "t": "버스나 지하철을", "role": "object", "id": "o" },
+      { "t": "타요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chulgeunhal ttae beoseuna jihacheoreul tayo",
+    "wordIds": ["w_chulgeun", "w_ttae", "w_beoseu", "w_jihacheol", "w_tada"],
+    "note": "(이)나's job 1 debuts on the commute: the flat or between nouns — 버스나 지하철, either will do, and the 을 rides on the second noun only. M25's -(으)ㄹ 때 turns the new noun 출근 back into a when-clause, and M6's transit pair reports for the 출퇴근 시간 it was taught for."
+  },
+  {
+    "id": "s_m43_interview_hours",
+    "en": [
+      { "t": "The interview", "role": "subject", "id": "s" },
+      { "t": "took", "role": "verb", "id": "v" },
+      { "t": "three WHOLE hours", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "interview-[subj]", "role": "subject", "id": "s" },
+      { "t": "three hour-no-less", "role": "other", "id": "a" },
+      { "t": "took", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "면접이", "role": "subject", "id": "s" },
+      { "t": "세 시간이나", "role": "other", "id": "a" },
+      { "t": "걸렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "myeonjeobi se siganina geollyeosseoyo",
+    "wordIds": ["w_myeonjeop", "w_set", "w_sigan", "w_geollida"],
+    "note": "Job 2, the whopping reading: 이나 after 시간 doesn't offer a choice — it raises the speaker's eyebrows at the amount. THREE hours. M12's 걸리다 catches the time as usual; the particle files the complaint. Drop 이나 and the sentence merely reports; keep it and the sentence sighs."
+  },
+  {
+    "id": "s_m43_payday_ramen",
+    "en": [
+      { "t": "Until payday,", "role": "other", "id": "a" },
+      { "t": "I'll just eat", "role": "verb", "id": "v" },
+      { "t": "ramen or whatever", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "payday-until", "role": "other", "id": "a" },
+      { "t": "ramen-or-something", "role": "object", "id": "o" },
+      { "t": "eat-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "월급날까지", "role": "other", "id": "a" },
+      { "t": "라면이나", "role": "object", "id": "o" },
+      { "t": "먹을 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "wolgeumnalkkaji ramyeonina meogeul geoyeyo",
+    "wordIds": ["w_wolgeupnal", "w_ramyeon", "w_meokda"],
+    "note": "Job 3, the settling shrug: 라면이나 = ramen, I guess — not a choice, not an amount, but a lowered expectation with a particle on it. M6's 까지 draws the finish line at 월급날, and the whole sentence is the office worker's end-of-month register. Note 이나 sitting where 을 would — it ate the object particle whole."
+  },
+  {
+    "id": "s_m43_save_little",
+    "en": [
+      { "t": "If you want to become rich,", "role": "other", "id": "a" },
+      { "t": "save", "role": "verb", "id": "v" },
+      { "t": "a little at a time", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "rich-person-[subj] become-want-if", "role": "other", "id": "a" },
+      { "t": "little-by-little-each", "role": "other", "id": "b" },
+      { "t": "save-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부자가 되고 싶으면", "role": "other", "id": "a" },
+      { "t": "조금씩", "role": "other", "id": "b" },
+      { "t": "저축하세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bujaga doego sipeumyeon jogeumssik jeochukhaseyo",
+    "wordIds": ["w_buja", "w_doeda", "w_jogeum", "w_jeochuk"],
+    "note": "씩's debut is the module's own financial advice: 조금씩 = a little, each time, on schedule — the particle that turns an amount into a habit. M3's -고 싶다 states the dream, M20's -(으)면 sets the condition, and the gap deck holds the proverb this sentence is quietly quoting (dust, mountains)."
+  },
+  {
+    "id": "s_m43_salary_gone",
+    "en": [
+      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "the moment he gets", "role": "other", "id": "a" },
+      { "t": "his salary,", "role": "object", "id": "o" },
+      { "t": "spends it all", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[topic]", "role": "subject", "id": "s" },
+      { "t": "salary-[obj]", "role": "object", "id": "o" },
+      { "t": "receive-as-soon-as", "role": "other", "id": "a" },
+      { "t": "all spends", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생은", "role": "subject", "id": "s" },
+      { "t": "월급을", "role": "object", "id": "o" },
+      { "t": "받자마자", "role": "other", "id": "a" },
+      { "t": "다 써요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengeun wolgeubeul batjamaja da sseoyo",
+    "wordIds": ["w_dongsaeng", "w_wolgeup", "w_batda", "w_da", "w_sseuda"],
+    "note": "M38's -자마자 measures the gap between payday and broke: zero. M10's 쓰다 shows its money job — 돈을 쓰다 is 'using' won out of existence — and the present tense makes it a monthly ritual, not a one-time lapse. The gap deck files the poetic version: the salary that merely grazes the bankbook."
+  },
+  {
+    "id": "s_m43_humble_hire",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "ended up getting a job", "role": "verb", "id": "v" },
+      { "t": "at a bank", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "bank-at", "role": "place", "id": "p" },
+      { "t": "get-job-came-to-be", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "은행에", "role": "place", "id": "p" },
+      { "t": "취직하게 됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga eunhaenge chwijikhage dwaesseoyo",
+    "wordIds": ["w_chingu", "w_eunhaeng", "w_chwijik"],
+    "note": "How Korean announces a hiring: M35's -게 되다 frames the triumph as something that worked out — 취직하게 됐어요, not 취직했어요, when modesty matters (and in Korean job news, it always does). 취직 + 하다 conjugates the new noun; M6's 은행 supplies the good fortune."
+  },
+  {
+    "id": "s_m43_report_banked",
+    "en": [
+      { "t": "Before the meeting,", "role": "other", "id": "a" },
+      { "t": "I wrote up", "role": "verb", "id": "v" },
+      { "t": "the report", "role": "object", "id": "o" },
+      { "t": "in advance and had it ready", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "meeting before-at", "role": "other", "id": "a" },
+      { "t": "report-[obj]", "role": "object", "id": "o" },
+      { "t": "in-advance", "role": "other", "id": "b" },
+      { "t": "write-set-down", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회의 전에", "role": "other", "id": "a" },
+      { "t": "보고서를", "role": "object", "id": "o" },
+      { "t": "미리", "role": "other", "id": "b" },
+      { "t": "써 놓았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoeui jeone bogoseoreul miri sseo noasseoyo",
+    "wordIds": ["w_hoeui", "w_bogoseo", "w_miri", "w_sseuda", "w_nota"],
+    "note": "M40's -아/어 놓다 clocks in at the office one module after the kitchen: write the 보고서 and LEAVE IT STANDING, ready for the meeting — banked work is banked work, whether it's 반찬 or paperwork. M13's 전에 sets the deadline, M38's 미리 beats it. The make-ahead culture wears a lanyard now."
+  },
+  {
+    "id": "s_m43_trade_balance",
+    "en": [
+      { "t": "At our company,", "role": "other", "id": "a" },
+      { "t": "exports", "role": "subject", "id": "s" },
+      { "t": "outnumber", "role": "verb", "id": "v" },
+      { "t": "imports", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "our company-[topic]", "role": "other", "id": "a" },
+      { "t": "import-than", "role": "other", "id": "b" },
+      { "t": "export-[subj]", "role": "subject", "id": "s" },
+      { "t": "more is-many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 회사는", "role": "other", "id": "a" },
+      { "t": "수입보다", "role": "other", "id": "b" },
+      { "t": "수출이", "role": "subject", "id": "s" },
+      { "t": "더 많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri hoesaneun suipboda suchuri deo manayo",
+    "wordIds": ["w_uri", "w_hoesa", "w_suip", "w_suchul", "w_deo", "w_manta"],
+    "note": "The trade pair balances on M22's 보다: 수입보다 수출이 — more goes out than comes in, which is the sentence every export economy wants to say. And the homograph winks: read 수입 as income instead and the sentence still parses — earnings versus shipments — which is exactly why the word note runs both readings."
   }
 ]
