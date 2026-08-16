@@ -11160,5 +11160,194 @@
     "rom": "jumaredo swigo sipeoyo. yojeum yeoyuga eopgeodeunyo",
     "wordIds": ["w_jumal", "w_swida", "w_yojeum", "w_yeoyu", "w_eopda"],
     "note": "여유, measured the way Korea usually measures it — by its absence. M42's -거든요 hands over the background politely: here's the part you didn't know. 에 + 도 stacks 'even on weekends' without ceremony. The anti-여유 society, self-reporting."
+  },
+  {
+    "id": "s_m48_diary_resolve",
+    "en": [
+      { "t": "Starting this year,", "role": "other", "id": "t" },
+      { "t": "I've decided to write", "role": "verb", "id": "v" },
+      { "t": "in my diary", "role": "object", "id": "o" },
+      { "t": "every day", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "this-year-from", "role": "other", "id": "t" },
+      { "t": "every-day", "role": "other", "id": "b" },
+      { "t": "diary-[obj]", "role": "object", "id": "o" },
+      { "t": "write-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "올해부터", "role": "other", "id": "t" },
+      { "t": "매일", "role": "other", "id": "b" },
+      { "t": "일기를", "role": "object", "id": "o" },
+      { "t": "쓰기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "olhaebuteo maeil ilgireul sseugiro haesseoyo",
+    "wordIds": ["w_olhae", "w_maeil", "w_ilgi", "w_sseuda"],
+    "note": "-기로 하다's debut, in its natural habitat — the past: M13's -기 turns the verb into a noun, M6's (으)로 points a direction at it, and 하다 commits. A decision is a direction taken, and 했어요 doesn't mean the deciding is over — it means the decision STANDS. New Year's grammar, aimed at 일기 (the diary half of the word; the weather half stays in the forecast)."
+  },
+  {
+    "id": "s_m48_show_promise",
+    "en": [
+      { "t": "On Saturday,", "role": "other", "id": "t" },
+      { "t": "my friend and I", "role": "other", "id": "b" },
+      { "t": "agreed to go see", "role": "verb", "id": "v" },
+      { "t": "a show", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Saturday-on", "role": "other", "id": "t" },
+      { "t": "friend-with", "role": "other", "id": "b" },
+      { "t": "performance-[obj]", "role": "object", "id": "o" },
+      { "t": "see-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "토요일에", "role": "other", "id": "t" },
+      { "t": "친구하고", "role": "other", "id": "b" },
+      { "t": "공연을", "role": "object", "id": "o" },
+      { "t": "보기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "toyoire chinguhago gongyeoneul bogiro haesseoyo",
+    "wordIds": ["w_toyoil", "w_chingu", "w_gongyeon", "w_boda"],
+    "note": "The glue's second reading: between two people, -기로 했어요 is an APPOINTMENT — we agreed, it's on the calendar. Not M34's -(으)ㄹ 것 같아요 (a guess) and not M8's 볼 거예요 (a plan you alone hold): a commitment on record, which is why cancelling one comes with an apology. 공연 debuts on the receiving end."
+  },
+  {
+    "id": "s_m48_novelist_reporter",
+    "en": [
+      { "t": "The writer", "role": "subject", "id": "s" },
+      { "t": "who wrote this novel", "role": "other", "id": "a" },
+      { "t": "used to be a reporter", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this novel-[obj] wrote-[badge]", "role": "other", "id": "a" },
+      { "t": "writer-[topic]", "role": "subject", "id": "s" },
+      { "t": "reporter-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 소설을 쓴", "role": "other", "id": "a" },
+      { "t": "작가는", "role": "subject", "id": "s" },
+      { "t": "기자였어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i soseoreul sseun jakganeun gijayeosseoyo",
+    "wordIds": ["w_i_det", "w_soseol", "w_sseuda", "w_jakga", "w_gija"],
+    "note": "M24's badge in past tense (쓴) hangs a whole résumé line on 작가, and 기자 (M16) supplies the backstory — the newsroom-to-novel pipeline is a real Korean literary tradition. 記者 records the day, 作家 makes one up; the sentence walks the one street between them."
+  },
+  {
+    "id": "s_m48_famous_painter",
+    "en": [
+      { "t": "A famous painter", "role": "subject", "id": "s" },
+      { "t": "painted", "role": "verb", "id": "v" },
+      { "t": "that piece", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "that work-[topic]", "role": "object", "id": "o" },
+      { "t": "famous-[badge] painter-[subj]", "role": "subject", "id": "s" },
+      { "t": "drew", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 작품은", "role": "object", "id": "o" },
+      { "t": "유명한 화가가", "role": "subject", "id": "s" },
+      { "t": "그렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu jakpumeun yumyeonghan hwagaga geuryeosseoyo",
+    "wordIds": ["w_geu_det", "w_jakpum", "w_yumyeonghada", "w_hwaga", "w_geurida"],
+    "note": "The topic-은 hands the 작품 to the audience while 이/가 keeps the painter on the hook — Ring 1's two particles doing their oldest trick. M17's 유명하다 wears M24's badge, and 그리다 (M15) finally meets its professional. Module giggle, for the record: 화가가 화가 나면 (M19's 화나다) — the homograph argues with itself."
+  },
+  {
+    "id": "s_m48_actor_allrounder",
+    "en": [
+      { "t": "That actor", "role": "subject", "id": "s" },
+      { "t": "sings well", "role": "other", "id": "a" },
+      { "t": "and acts well too, you know", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that actor-[topic]", "role": "subject", "id": "s" },
+      { "t": "song-also does-well-and", "role": "other", "id": "a" },
+      { "t": "acting-also does-well-you-know", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 배우는", "role": "subject", "id": "s" },
+      { "t": "노래도 잘하고", "role": "other", "id": "a" },
+      { "t": "연기도 잘하잖아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu baeuneun noraedo jalhago yeongido jalhajanayo",
+    "wordIds": ["w_geu_det", "w_baeu", "w_norae", "w_jalhada", "w_yeongi"],
+    "note": "M42's -잖아요 appeals to what fandom already knows, M10's -고 stacks the résumé, and M2's 도 doubles it — the idol-to-actor pipeline in one approving breath. 연기 here is 演技, the acting kind; if 연기가 나요 instead, stop praising and call 119."
+  },
+  {
+    "id": "s_m48_hundred_channels",
+    "en": [
+      { "t": "There are", "role": "verb", "id": "v" },
+      { "t": "a whole hundred", "role": "other", "id": "b" },
+      { "t": "channels.", "role": "subject", "id": "s" },
+      { "t": "But", "role": "other", "id": "c" },
+      { "t": "a fun program", "role": "subject", "id": "x" },
+      { "t": "is nowhere to be found", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "channel-[subj]", "role": "subject", "id": "s" },
+      { "t": "hundred [counter]-no-less", "role": "other", "id": "b" },
+      { "t": "exist.", "role": "verb", "id": "v" },
+      { "t": "but", "role": "other", "id": "c" },
+      { "t": "fun-[badge] program-[subj]", "role": "subject", "id": "x" },
+      { "t": "not-exist", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "채널이", "role": "subject", "id": "s" },
+      { "t": "백 개나", "role": "other", "id": "b" },
+      { "t": "있어요.", "role": "verb", "id": "v" },
+      { "t": "그런데", "role": "other", "id": "c" },
+      { "t": "재미있는 프로그램이", "role": "subject", "id": "x" },
+      { "t": "없어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "chaeneori baek gaena isseoyo. geureonde jaemiinneun peurogeuraemi eopseoyo",
+    "wordIds": ["w_chaeneol", "w_baek", "w_c_gae", "w_itda", "w_geureonde", "w_jaemiitda", "w_peurogeuraem", "w_eopda"],
+    "note": "M43's (이)나 files the amount as absurd — a hundred, no less — and M24's badge goes hunting for 재미있는 anything. The couch's oldest complaint, now sayable in Korean; 프로그램 (M32) reruns on the new 채널. The particle rides the counter, so the number reads as 'that many, can you believe it.'"
+  },
+  {
+    "id": "s_m48_grandma_tales",
+    "en": [
+      { "t": "When I was little,", "role": "other", "id": "a" },
+      { "t": "my grandmother", "role": "subject", "id": "s" },
+      { "t": "told me", "role": "verb", "id": "v" },
+      { "t": "folktales", "role": "object", "id": "o" },
+      { "t": "every night", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "young-was-when", "role": "other", "id": "a" },
+      { "t": "grandmother-[subj]", "role": "subject", "id": "s" },
+      { "t": "night-every", "role": "other", "id": "t" },
+      { "t": "old-days-story-[obj]", "role": "object", "id": "o" },
+      { "t": "do-give-[hon]-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어렸을 때", "role": "other", "id": "a" },
+      { "t": "할머니가", "role": "subject", "id": "s" },
+      { "t": "밤마다", "role": "other", "id": "t" },
+      { "t": "옛날이야기를", "role": "object", "id": "o" },
+      { "t": "해 주셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoryeosseul ttae halmeoniga bammada yennariyagireul hae jusyeosseoyo",
+    "wordIds": ["w_eorida", "w_ttae", "w_halmeoni", "w_bam", "w_yennariyagi", "w_hada"],
+    "note": "M25's -(으)ㄹ 때 opens the memory, M31's 마다 makes it nightly, and M9's -아/어 주다 wears the honorific 시 for 할머니 — three machines, one bedtime. 옛날이야기 arrives exactly as M24 promised it would: beginning, always, with 옛날 옛날에."
+  },
+  {
+    "id": "s_m48_filming_quiet",
+    "en": [
+      { "t": "Right now", "role": "other", "id": "t" },
+      { "t": "we're mid-shoot.", "role": "verb", "id": "v" },
+      { "t": "Please keep it quiet", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "now", "role": "other", "id": "t" },
+      { "t": "filming in-the-middle-of-is.", "role": "verb", "id": "v" },
+      { "t": "quietly do-give-please", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "지금", "role": "other", "id": "t" },
+      { "t": "촬영 중이에요.", "role": "verb", "id": "v" },
+      { "t": "조용히 해 주세요", "role": "verb", "id": "w" }
+    ],
+    "rom": "jigeum chwaryeong jungieyo. joyonghi hae juseyo",
+    "wordIds": ["w_jigeum", "w_chwaryeong", "w_s2_jung", "w_joyonghi", "w_hada"],
+    "note": "The busy-sign 중 (the written register's sign machine: 영업 중, 회의 중) hangs after 촬영 and the studio door closes. M33's 조용히 plus M9's -아/어 주세요 is the entire job description of the person guarding the set — reusable at libraries, temples, and nap times."
   }
 ]

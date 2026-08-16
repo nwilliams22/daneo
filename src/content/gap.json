@@ -1402,5 +1402,32 @@
     "lit": "you can know ten fathoms of water, but not one fathom of a person's insides",
     "real": "you never really know anyone — people are deeper than water",
     "note": "M5's 열 and a 길 that isn't the road: M12's radar gains a tenant — 길 the fathom, an old body-length unit for depth. M39's -아/어도 concedes the easy half (water, transparent to ten lengths) before the verdict: a person is opaque at one. M28's 속 holds both meanings down. Filed beside 눈치 (M42) as the reason the radar has to exist at all."
+  },
+  {
+    "id": "g_m48_soseol_sseujima",
+    "cat": "phrase",
+    "ko": "소설 쓰지 마",
+    "rom": "soseol sseuji ma",
+    "lit": "don't write a novel",
+    "real": "stop making things up — quit spinning theories",
+    "note": "소설's job description, weaponized: when someone's speculation outruns the facts — who likes whom, why the boss frowned — Korean tells them to stop drafting fiction. M14's don't-machine at its bluntest (-지 마), usually dropped to 반말 because the accusation is rarely formal (소설 쓰지 마세요 exists for politer conspiracies). The internet grades especially florid theories 소설 쓰네 — 'writing a whole novel over there.'"
+  },
+  {
+    "id": "g_m48_bonbang_sasu",
+    "cat": "concept",
+    "ko": "본방 사수",
+    "rom": "bonbang sasu",
+    "lit": "defend the original broadcast",
+    "real": "watch it live at airtime — fandom's ratings duty",
+    "note": "본방 (the first-run 방송 — not the rerun, not the stream) + 사수 (死守, defend to the death — a military word, chosen on purpose). Ratings still crown winners in Korean TV, so fandoms mobilize to watch live and be counted: 본방 사수하세요! closes every cast interview. The 시청자 as soldier; appointment television as an oath — and after today you can parse both halves."
+  },
+  {
+    "id": "g_m48_chaekbeolle",
+    "cat": "phrase",
+    "ko": "책벌레",
+    "rom": "chaekbeolle",
+    "lit": "book bug",
+    "real": "a bookworm — a devoted reader",
+    "note": "책 (M1) + 벌레 (M22): the same insect English keeps, but in Korean the bug is a productive SUFFIX for anyone consumed by a habit — 공부벌레 (study-grind), 일벌레 (workaholic), 잠벌레 (champion sleeper). Affection and mild concern in equal parts. The 독자 every publisher dreams of."
   }
 ]
