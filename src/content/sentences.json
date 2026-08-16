@@ -11349,5 +11349,197 @@
     "rom": "jigeum chwaryeong jungieyo. joyonghi hae juseyo",
     "wordIds": ["w_jigeum", "w_chwaryeong", "w_s2_jung", "w_joyonghi", "w_hada"],
     "note": "The busy-sign 중 (the written register's sign machine: 영업 중, 회의 중) hangs after 촬영 and the studio door closes. M33's 조용히 plus M9's -아/어 주세요 is the entire job description of the person guarding the set — reusable at libraries, temples, and nap times."
+  },
+  {
+    "id": "s_m47_father_news",
+    "en": [
+      { "t": "Every morning,", "role": "other", "id": "t" },
+      { "t": "father", "role": "subject", "id": "s" },
+      { "t": "reads", "role": "verb", "id": "v" },
+      { "t": "the newspaper", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "morning-every", "role": "other", "id": "t" },
+      { "t": "father-[hon.subj]", "role": "subject", "id": "s" },
+      { "t": "newspaper-[obj]", "role": "object", "id": "o" },
+      { "t": "reads-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아침마다", "role": "other", "id": "t" },
+      { "t": "아버님께서", "role": "subject", "id": "s" },
+      { "t": "신문을", "role": "object", "id": "o" },
+      { "t": "읽으세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "achimmada abeonimkkeseo sinmuneul ilgeuseyo",
+    "wordIds": ["w_achim", "w_abeonim", "w_sinmun", "w_ikda"],
+    "note": "께서's debut: the honored subject retires 이/가 and takes the throne particle, and the verb salutes with -(으)세요 — M4's marker, meeting its particle at last. M8's 신문 note called 신문을 읽어요 'the classic morning verb-noun pair'; here it is honored, and scheduled by M31's 마다. Note 읽으세요, not 읽어요: the honor travels the whole sentence."
+  },
+  {
+    "id": "s_m47_grandma_bedtime",
+    "en": [
+      { "t": "Grandmother", "role": "subject", "id": "s" },
+      { "t": "goes to sleep", "role": "verb", "id": "v" },
+      { "t": "at nine at night", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "grandmother-[hon.subj]-[topic]", "role": "subject", "id": "s" },
+      { "t": "night nine o'clock-at", "role": "other", "id": "t" },
+      { "t": "sleeps-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "할머니께서는", "role": "subject", "id": "s" },
+      { "t": "밤 아홉 시에", "role": "other", "id": "t" },
+      { "t": "주무세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "halmeonikkeseoneun bam ahop sie jumuseyo",
+    "wordIds": ["w_halmeoni", "w_bam", "w_ahop", "w_c_si", "w_jumusida"],
+    "note": "께서 stacks like its plain twins: 께서 + 는 = the honored subject as topic. And 주무시다 pays M4's swap table (자다 → 주무시다, promised forty-three modules ago), the 시 fusing into 주무세요. M5's native-number clock sets grandmother's bedtime; the grammar sets her rank."
+  },
+  {
+    "id": "s_m47_youngest_tall",
+    "en": [
+      { "t": "The youngest", "role": "subject", "id": "s" },
+      { "t": "already", "role": "other", "id": "b" },
+      { "t": "stands", "role": "verb", "id": "v" },
+      { "t": "as tall as his older brother", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "youngest-[subj]", "role": "subject", "id": "s" },
+      { "t": "already", "role": "other", "id": "b" },
+      { "t": "older-brother-as-much-as", "role": "other", "id": "a" },
+      { "t": "is-big", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "막내가", "role": "subject", "id": "s" },
+      { "t": "벌써", "role": "other", "id": "b" },
+      { "t": "형만큼", "role": "other", "id": "a" },
+      { "t": "커요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mangnaega beolsseo hyeongmankeum keoyo",
+    "wordIds": ["w_mangnae", "w_beolsseo", "w_hyeong", "w_keuda"],
+    "note": "만큼's debut: bolt it to a noun and the sentence measures EQUAL — 형만큼 = to big-brother's exact height. M22's 보다 would rank them (형보다 커요, taller); 만큼 declares the tie; 처럼 (M41) would only paint a resemblance. M23's 벌써 files the parental disbelief at the measuring wall."
+  },
+  {
+    "id": "s_m47_live_with_parents",
+    "en": [
+      { "t": "We", "role": "subject", "id": "s" },
+      { "t": "live with and care for", "role": "verb", "id": "v" },
+      { "t": "our parents", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "we-[topic]", "role": "subject", "id": "s" },
+      { "t": "parents-[obj]", "role": "object", "id": "o" },
+      { "t": "serve-accompany live", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리는", "role": "subject", "id": "s" },
+      { "t": "부모님을", "role": "object", "id": "o" },
+      { "t": "모시고 살아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "urineun bumonimeul mosigo sarayo",
+    "wordIds": ["w_uri", "w_bumonim", "w_mosida", "w_salda"],
+    "note": "모시다 + M10's -고 + M4's 살다: the live-with-and-care construction, Korean's standard phrasing for multigenerational life — where 같이 살아요 would merely share the address, 모시고 살아요 shoulders the care. Fewer households say it every census; the sentence still anchors the culture."
+  },
+  {
+    "id": "s_m47_twin_nephews",
+    "en": [
+      { "t": "My older sister", "role": "subject", "id": "s" },
+      { "t": "had", "role": "verb", "id": "v" },
+      { "t": "twins.", "role": "object", "id": "o" },
+      { "t": "I gained two whole nephews!", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "older-sister-[subj]", "role": "subject", "id": "s" },
+      { "t": "twins-[obj]", "role": "object", "id": "o" },
+      { "t": "gave-birth.", "role": "verb", "id": "v" },
+      { "t": "nephew-[subj] two-as-many-as came-to-be", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "언니가", "role": "subject", "id": "s" },
+      { "t": "쌍둥이를", "role": "object", "id": "o" },
+      { "t": "낳았어요.", "role": "verb", "id": "v" },
+      { "t": "조카가 둘이나 생겼어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "eonniga ssangdungireul naasseoyo. jokaga durina saenggyeosseoyo",
+    "wordIds": ["w_eonni", "w_ssangdungi", "w_nata", "w_joka", "w_dul", "w_saenggida"],
+    "note": "낳았어요 says 나았어요 — the ㅎ vanishes between vowels, colliding head-on with what M14's 낫다 conjugates to; only spelling keeps the maternity ward and the pharmacy apart. Then M43's (이)나 does its editorializing job (두 시간이나's logic): not two nephews — two WHOLE nephews, arriving via M28's 생기다: they came into being at you."
+  },
+  {
+    "id": "s_m47_working_mom",
+    "en": [
+      { "t": "My older sister", "role": "subject", "id": "s" },
+      { "t": "works", "role": "verb", "id": "v" },
+      { "t": "from home", "role": "place", "id": "p" },
+      { "t": "while looking after", "role": "other", "id": "a" },
+      { "t": "the kids", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "older-sister-[topic]", "role": "subject", "id": "s" },
+      { "t": "kids-[obj]", "role": "object", "id": "o" },
+      { "t": "look-after-while", "role": "other", "id": "a" },
+      { "t": "home-at", "role": "place", "id": "p" },
+      { "t": "works", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "누나는", "role": "subject", "id": "s" },
+      { "t": "애들을", "role": "object", "id": "o" },
+      { "t": "돌보면서", "role": "other", "id": "a" },
+      { "t": "집에서", "role": "place", "id": "p" },
+      { "t": "일해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nunaneun aedeureul dolbomyeonseo jibeseo ilhaeyo",
+    "wordIds": ["w_nuna", "w_ae", "w_dolboda", "w_jip", "w_ilhada"],
+    "note": "M38's -(으)면서 runs both jobs in parallel — childcare and the home office, a sentence half the country has lived. 애들 is M4's 아이 clipped by the 준말 law and pluralized by M27's 들: the everyday kids. 돌보다 is the tending verb — continuous, eyes-on — not 챙기다's (M40) burst provisioning."
+  },
+  {
+    "id": "s_m47_seollal_visit",
+    "en": [
+      { "t": "On Lunar New Year,", "role": "other", "id": "t" },
+      { "t": "we go", "role": "verb", "id": "v" },
+      { "t": "to Busan", "role": "place", "id": "p" },
+      { "t": "to see", "role": "other", "id": "a" },
+      { "t": "our grandmother", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Lunar-New-Year-on", "role": "other", "id": "t" },
+      { "t": "maternal-grandmother-[obj]", "role": "object", "id": "o" },
+      { "t": "humbly-see-in-order-to", "role": "other", "id": "a" },
+      { "t": "Busan-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "설날에", "role": "other", "id": "t" },
+      { "t": "외할머니를", "role": "object", "id": "o" },
+      { "t": "뵈러", "role": "other", "id": "a" },
+      { "t": "부산에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seollare oehalmeonireul boereo busane gayo",
+    "wordIds": ["w_seollal", "w_oehalmeoni", "w_boepda", "w_busan", "w_gada"],
+    "note": "M12's errand-form -(으)러 aims the trip, and 뵙다 supplies the humble verb (뵈- before vowels): at 설날 (M25) you don't just SEE a grandmother, you 뵙다 her. 외할머니 maps the route — mom's side — and 부산 (M12) supplies the distance: this sentence, nationalized, is the 귀성길, the great holiday homecoming traffic jam."
+  },
+  {
+    "id": "s_m47_grandfather_passed",
+    "en": [
+      { "t": "Grandfather", "role": "subject", "id": "s" },
+      { "t": "passed away", "role": "verb", "id": "v" },
+      { "t": "last year.", "role": "other", "id": "t" },
+      { "t": "Now grandmother lives alone.", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "grandfather-[hon.subj]", "role": "subject", "id": "s" },
+      { "t": "last-year-in", "role": "other", "id": "t" },
+      { "t": "returned-[hon] (passed away).", "role": "verb", "id": "v" },
+      { "t": "now-[topic] grandmother alone stays-[hon]", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "할아버지께서", "role": "subject", "id": "s" },
+      { "t": "작년에", "role": "other", "id": "t" },
+      { "t": "돌아가셨어요.", "role": "verb", "id": "v" },
+      { "t": "지금은 할머니 혼자 계세요", "role": "verb", "id": "w" }
+    ],
+    "rom": "harabeojikkeseo jangnyeone doragasyeosseoyo. jigeumeun halmeoni honja gyeseyo",
+    "wordIds": ["w_harabeoji", "w_jangnyeon", "w_doragasida", "w_jigeum", "w_halmeoni", "w_honja", "w_gyesida"],
+    "note": "The garnish verb at its real job: 돌아가시다 — M23's 돌아가다 plus the honor marker — is how Korean says an elder passed: he went back. 께서 holds the honor through the loss, and M4's 계시다 keeps it running in the present tense: grandmother remains, honored, alone. Factual and warm — exactly how families say it."
   }
 ]

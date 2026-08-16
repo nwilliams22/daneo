@@ -1429,5 +1429,32 @@
     "lit": "book bug",
     "real": "a bookworm — a devoted reader",
     "note": "책 (M1) + 벌레 (M22): the same insect English keeps, but in Korean the bug is a productive SUFFIX for anyone consumed by a habit — 공부벌레 (study-grind), 일벌레 (workaholic), 잠벌레 (champion sleeper). Affection and mild concern in equal parts. The 독자 every publisher dreams of."
+  },
+  {
+    "id": "g_m47_pal_aneuro",
+    "cat": "phrase",
+    "ko": "팔은 안으로 굽는다",
+    "rom": "pareun aneuro gumneunda",
+    "lit": "the arm bends inward",
+    "real": "blood is thicker than water — people side with their own",
+    "note": "M14's 팔 + M6's 안 + 굽다 — but NOT M18's grill-굽다: this is its homograph, bend-굽다, and the pair even split conjugations (grilling goes ㅂ-irregular, 구워요; bending stays regular, 굽어요). Anatomy as ethics: an arm physically cannot bend outward, so of course the judge favors his 조카. Said with a shrug to explain favoritism — or to excuse your own: 팔은 안으로 굽는다잖아요."
+  },
+  {
+    "id": "g_m47_ttal_babo",
+    "cat": "concept",
+    "ko": "딸 바보",
+    "rom": "ttal babo",
+    "lit": "daughter-fool",
+    "real": "a parent hopelessly besotted with their daughter",
+    "note": "M4's 딸 + M44's 바보: a parent — classically a father — rendered foolish by his daughter: camera roll full, wallet photos ready, objectivity zero. Not an insult but a claimed identity: 저 딸 바보예요, said proudly. The mold extends wherever love beats dignity — 아들 바보, 조카 바보, 손자 바보 — and this module stocks every target."
+  },
+  {
+    "id": "g_m47_sijipsari",
+    "cat": "concept",
+    "ko": "시집살이",
+    "rom": "sijipsari",
+    "lit": "in-laws'-house living",
+    "real": "life under the husband's family — the hard lot of the traditional daughter-in-law",
+    "note": "시집 + 살이 (living, from M4's 살다): the bride's traditional existence inside the 시집, under the 시어머니's command — measured in labor, patience, and silence. A whole folk-song genre runs on it, and the proverbial verdict says the chili is hot, but 시집살이 is hotter. Modern Korea largely dismantled the arrangement; the word stays employed describing residue — and any workplace with a tyrannical boss: 회사 시집살이."
   }
 ]
