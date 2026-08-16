@@ -1321,5 +1321,32 @@
     "lit": "to pour vinegar on it",
     "real": "to rain on the parade — deflate the mood, spoil the plan",
     "note": "식초's 초, weaponized: dump vinegar into a dish and the flavor collapses, so 초 치지 마세요 = don't ruin this for me (said mid-plan, mid-dream, mid-toast — with M14's -지 마세요 doing the pleading). M17's 치다 handles the splash. English brings rain, Korean brings vinegar; both agree somebody always arrives with the wrong liquid."
+  },
+  {
+    "id": "g_m43_tikkeul_taesan",
+    "cat": "phrase",
+    "ko": "티끌 모아 태산",
+    "rom": "tikkeul moa taesan",
+    "lit": "gather dust and it becomes a great mountain",
+    "real": "small savings add up — every little bit counts",
+    "note": "The savings culture's founding document: 티끌 (a dust mote — worth keeping) + M17's 모으다 (gathered: 모아, the ㅡ dropping as taught) + 태산 (the legendary great mountain — China's Mt. Tai, proverbially the biggest thing imaginable). It's 조금씩 저축하세요 as folklore, printed inside bank apps and said while dropping 동전 into jars. Works beyond money too — study minutes, gym visits, vocabulary words: this app is a 티끌 모아 태산 operation and admits it."
+  },
+  {
+    "id": "g_m43_wolgeup_seuchida",
+    "cat": "phrase",
+    "ko": "월급이 통장을 스쳐 간다",
+    "rom": "wolgeubi tongjangeul seuchyeo ganda",
+    "lit": "the salary grazes the bankbook and goes",
+    "real": "the pay is gone the moment it lands — rent, bills, and card payments take it all",
+    "note": "The modern office worker's lament, alive in every group chat around 월급날: M16's 월급 arrives in this module's 통장, and 스치다 (to graze, brush past — the verb K-dramas use for near-touch moments, worth keeping) is all the contact they get before autopay sweeps it out. The plain-form -ㄴ다 ending is the one M32's quote machine taught you to read. Same physics as this module's 받자마자 다 써요 sentence — except here nobody even got to do the spending."
+  },
+  {
+    "id": "g_m43_mokgumeong_podocheong",
+    "cat": "phrase",
+    "ko": "목구멍이 포도청",
+    "rom": "mokgumeongi podocheong",
+    "lit": "the throat is the police bureau",
+    "real": "one must eat — hunger will drive a person to do anything, including work they hate",
+    "note": "M14's 목 (throat) + 구멍 (hole — the one M42's embarrassed mouse hid in) + 포도청, the Joseon dynasty's thief-catching bureau: the throat COMPELS the way the law does, so people take the 야근, keep the awful 직장, sell what they'd rather not. Said with a sigh while accepting unpleasant work: 목구멍이 포도청이라… — 'well, the throat is the police bureau.' Grim, ancient, and still filed under: reasons everyone showed up Monday."
   }
 ]

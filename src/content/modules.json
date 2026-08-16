@@ -1111,5 +1111,29 @@
       "s_m40_banchan_ahead", "s_m40_table_ready", "s_m40_freeze_soup", "s_m40_gimjang_family",
       "s_m40_sesame_finish", "s_m40_bbq_justice", "s_m40_too_salty", "s_m40_self_care"
     ]
+  },
+  {
+    "id": "m43",
+    "title": "Payday",
+    "order": 51,
+    "ring": 2,
+    "contentMd": "modules/module-43.md",
+    "wordIds": [
+      "w_chulgeun", "w_toegeun", "w_geunmu", "w_jikjang",
+      "w_sawon", "w_bogoseo", "w_chwijik", "w_myeonjeop",
+      "w_guhada", "w_gyeyak", "w_imgeum", "w_bongtu",
+      "w_wolgeupnal", "w_tongjang", "w_jeochuk", "w_jeokgeum",
+      "w_dongjeon", "w_gyesangi", "w_segeum", "w_boheom",
+      "w_biyong", "w_saeop", "w_jangsa", "w_muyeok",
+      "w_suchul", "w_suip", "w_gyeongyeong", "w_gongjang",
+      "w_jepum", "w_sangpum", "w_panmae", "w_panmaehada",
+      "w_harin", "w_sobija", "w_iik", "w_budongsan",
+      "w_jaesan", "w_buja", "w_gananhada", "w_p_na",
+      "w_p_ina", "w_p_ssik"
+    ],
+    "sentenceIds": [
+      "s_m43_commute_or", "s_m43_interview_hours", "s_m43_payday_ramen", "s_m43_save_little",
+      "s_m43_salary_gone", "s_m43_humble_hire", "s_m43_report_banked", "s_m43_trade_balance"
+    ]
   }
 ]
