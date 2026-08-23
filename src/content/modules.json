@@ -1403,5 +1403,27 @@
       "s_m56_subway_stats", "s_m56_class_discussion", "s_m56_gov_results", "s_m56_history_interest",
       "s_m56_brother_trouble", "s_m56_pizza_share", "s_m56_station_accident", "s_m56_review_first"
     ]
+  },
+  {
+    "id": "m55",
+    "title": "The Little Words II",
+    "order": 63,
+    "ring": 2,
+    "contentMd": "modules/module-55.md",
+    "wordIds": [
+      "w_jul", "w_de", "w_gunde", "w_ppun",
+      "w_teo", "w_deusi", "w_sik", "w_oe",
+      "w_gan", "w_pyeon", "w_dae", "w_on",
+      "w_maen", "w_ttan", "w_dan", "w_gak",
+      "w_myeonmyeot", "w_handu", "w_duse", "w_seoneo",
+      "w_yae", "w_gyae", "w_jyae", "w_neohui",
+      "w_jeohui", "w_mueo", "w_ireohada", "w_geureohada",
+      "w_jeoreota", "w_iri", "w_jeori", "w_igeotjeogeot",
+      "w_amugeot", "w_machangaji"
+    ],
+    "sentenceIds": [
+      "s_m55_drive_knowhow", "s_m55_rain_mistake", "s_m55_kimchi_only", "s_m55_no_place_eat",
+      "s_m55_famous_line", "s_m55_two_computers", "s_m55_knowitall", "s_m55_tired_rest"
+    ]
   }
 ]

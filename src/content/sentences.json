@@ -13194,5 +13194,182 @@
     "rom": "useon jaryobuteo gachi salpyeobopsida",
     "wordIds": ["w_useon", "w_jaryo", "w_gachi", "w_salpyeoboda"],
     "note": "우선 opens the meeting the way M8's 먼저 opens a queue — agenda-first. 부터 (M6) picks the starting point, Ring 1's -(으)ㅂ시다 keeps it collegial, and 살펴보다 does what it was hired for: the details, together, before anyone decides anything. M44's 자료 gets its inspection at last."
+  },
+  {
+    "id": "s_m55_drive_knowhow",
+    "en": [
+      { "t": "I know how to drive, but", "role": "other", "id": "a" },
+      { "t": "I don't have", "role": "verb", "id": "v" },
+      { "t": "a car", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "drive-[badge] know-how know-but", "role": "other", "id": "a" },
+      { "t": "car-[subj]", "role": "subject", "id": "s" },
+      { "t": "not-exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "운전할 줄 알지만", "role": "other", "id": "a" },
+      { "t": "자동차가", "role": "subject", "id": "s" },
+      { "t": "없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "unjeonhal jul aljiman jadongchaga eopseoyo",
+    "wordIds": ["w_unjeonhada", "w_jul", "w_alda", "w_jadongcha", "w_eopda"],
+    "note": "The know-how machine's debut: -(으)ㄹ 줄 알다 = the skill is in your hands. Radar against Ring 1's very own sentence 저는 운전할 수 없어요 (M10): 수 measures whether a way exists, 줄 whether you've learned the trick — you can hold the license and still lack the 자동차 (M50). M7's -지만 files the tragedy."
+  },
+  {
+    "id": "s_m55_rain_mistake",
+    "en": [
+      { "t": "I thought it would rain, but", "role": "other", "id": "a" },
+      { "t": "snow", "role": "subject", "id": "s" },
+      { "t": "came down", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] come-[badge] know-how thought-but-situation", "role": "other", "id": "a" },
+      { "t": "snow-[subj]", "role": "subject", "id": "s" },
+      { "t": "came", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가 올 줄 알았는데", "role": "other", "id": "a" },
+      { "t": "눈이", "role": "subject", "id": "s" },
+      { "t": "왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga ol jul aranneunde nuni wasseoyo",
+    "wordIds": ["w_bi", "w_oda", "w_jul", "w_alda", "w_nun_snow"],
+    "note": "줄's second job: past-tense 줄 알았어요 flips from skill to MISTAKEN BELIEF — I thought it would rain, and the sky disagreed. M53's fresh -는데 stages the correction (알았는데 = thought-so, but…), and M11's 비/눈 pair plays both weathers. Korean files bad forecasts and unlearned skills in the same little noun."
+  },
+  {
+    "id": "s_m55_kimchi_only",
+    "en": [
+      { "t": "In our class,", "role": "place", "id": "p" },
+      { "t": "the person who knows how to make kimchi", "role": "subject", "id": "s" },
+      { "t": "is only me", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "our class-in", "role": "place", "id": "p" },
+      { "t": "kimchi-[obj] pickle-[badge] know-how know-[badge] person-[topic]", "role": "subject", "id": "s" },
+      { "t": "me-only-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 반에서", "role": "place", "id": "p" },
+      { "t": "김치를 담글 줄 아는 사람은", "role": "subject", "id": "s" },
+      { "t": "저뿐이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri baneseo gimchireul damgeul jul aneun sarameun jeoppunieyo",
+    "wordIds": ["w_uri", "w_ban_class", "w_gimchi", "w_damgeuda", "w_jul", "w_alda", "w_saram", "w_jeo", "w_ppun"],
+    "note": "Two dependent nouns shake hands: the know-how clause wears M24's badge to modify 사람 (담글 줄 아는 사람 — note M40's 담그다 dropping its ㅡ), and 뿐 seals the census: 저뿐 = me, full stop. The ballad version runs 너뿐이야; the kimchi version is more useful and better fed."
+  },
+  {
+    "id": "s_m55_no_place_eat",
+    "en": [
+      { "t": "Around here,", "role": "place", "id": "p" },
+      { "t": "there isn't", "role": "verb", "id": "v" },
+      { "t": "even one spot —", "role": "other", "id": "b" },
+      { "t": "a place to eat", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "this vicinity-at-[topic]", "role": "place", "id": "p" },
+      { "t": "rice eat-[badge] place-[subj]", "role": "subject", "id": "s" },
+      { "t": "one spot-even", "role": "other", "id": "b" },
+      { "t": "not-exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 근처에는", "role": "place", "id": "p" },
+      { "t": "밥 먹을 데가", "role": "subject", "id": "s" },
+      { "t": "한 군데도", "role": "other", "id": "b" },
+      { "t": "없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i geuncheoeneun bap meogeul dega han gundedo eopseoyo",
+    "wordIds": ["w_i_det", "w_geuncheo", "w_bap", "w_meokda", "w_de", "w_hana", "w_gunde", "w_eopda"],
+    "note": "데's place-habitat with the prospective badge M25 taught inside -(으)ㄹ 때: 먹을 데 = a to-eat spot. Then 군데 counts what 데 names — the same 데 riding inside the counter — and the 도-negative frame from M29's 아무도 empties the map. The office-park lunch crisis, in one sentence."
+  },
+  {
+    "id": "s_m55_famous_line",
+    "en": [
+      { "t": "At famous restaurants,", "role": "place", "id": "p" },
+      { "t": "you have to stand", "role": "verb", "id": "v" },
+      { "t": "in line", "role": "object", "id": "o" },
+      { "t": "for an hour or two", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "famous-[badge] restaurant-at-[topic]", "role": "place", "id": "p" },
+      { "t": "one-two hour", "role": "other", "id": "b" },
+      { "t": "line-[obj]", "role": "object", "id": "o" },
+      { "t": "stand-must", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "유명한 식당에서는", "role": "place", "id": "p" },
+      { "t": "한두 시간", "role": "other", "id": "b" },
+      { "t": "줄을", "role": "object", "id": "o" },
+      { "t": "서야 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yumyeonghan sikdangeseoneun handu sigan jureul seoya dwaeyo",
+    "wordIds": ["w_yumyeonghada", "w_sikdang", "w_handu", "w_sigan", "w_jul", "w_seoda", "w_doeda"],
+    "note": "줄's rope-sense on duty: 줄을 서다 (M14's 서다) = stand in line — the 맛집 (M18) liturgy. 한두 opens the estimate ladder: weld M5's counter-forms and 'about' comes free. Ring 1's -아야 돼요 (M10) makes the wait a law of nature, which in Korea it is."
+  },
+  {
+    "id": "s_m55_two_computers",
+    "en": [
+      { "t": "At our house,", "role": "place", "id": "p" },
+      { "t": "we have", "role": "verb", "id": "v" },
+      { "t": "two", "role": "other", "id": "b" },
+      { "t": "computers", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "our(humble) house-at-[topic]", "role": "place", "id": "p" },
+      { "t": "computer-[subj]", "role": "subject", "id": "s" },
+      { "t": "two machine-[counter]", "role": "other", "id": "b" },
+      { "t": "exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저희 집에는", "role": "place", "id": "p" },
+      { "t": "컴퓨터가", "role": "subject", "id": "s" },
+      { "t": "두 대", "role": "other", "id": "b" },
+      { "t": "있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeohui jibeneun keompyuteoga du dae isseoyo",
+    "wordIds": ["w_jeohui", "w_jip", "w_keompyuteo", "w_dul", "w_dae", "w_itda"],
+    "note": "Two slice words shake hands: 저희 (M4's 우리 bowed low — 'our' said to an outsider) and 대, the machine-counter M5's emergency 개 was covering for. 두 shapeshifts before its counter exactly as M5 drilled; the humility shapeshifts by audience — to your own family it's 우리 집 again."
+  },
+  {
+    "id": "s_m55_knowitall",
+    "en": [
+      { "t": "That kid", "role": "subject", "id": "s" },
+      { "t": "always", "role": "other", "id": "t" },
+      { "t": "talks", "role": "verb", "id": "v" },
+      { "t": "as if he knows everything", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "that-kid-[topic]", "role": "subject", "id": "s" },
+      { "t": "always", "role": "other", "id": "t" },
+      { "t": "all know-[badge] as-if", "role": "other", "id": "b" },
+      { "t": "speaks", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "걔는", "role": "subject", "id": "s" },
+      { "t": "항상", "role": "other", "id": "t" },
+      { "t": "다 아는 듯이", "role": "other", "id": "b" },
+      { "t": "말해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyaeneun hangsang da aneun deusi malhaeyo",
+    "wordIds": ["w_gyae", "w_hangsang", "w_da", "w_alda", "w_deusi", "w_malhada"],
+    "note": "걔 = 그 애 through the 준말 press (M29's pointer + M47's 애) — how friends actually say 'he'. Then 듯이 rides the badged clause: 아는 듯이 = as-if-knowing — M41's 처럼 does this for nouns, 듯이 for whole claims. Every group chat has this 걔."
+  },
+  {
+    "id": "s_m55_tired_rest",
+    "en": [
+      { "t": "You must be tired —", "role": "other", "id": "a" },
+      { "t": "get a little rest", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "tired-[badge] grounds-situation", "role": "other", "id": "a" },
+      { "t": "a-little rest-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "피곤할 텐데", "role": "other", "id": "a" },
+      { "t": "좀 쉬세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pigonhal tende jom swiseyo",
+    "wordIds": ["w_pigonhada", "w_teo", "w_jogeum", "w_swida"],
+    "note": "터's grammar face, squeezed: 터 + 이다 + M53's -ㄴ데 = 텐데 — 'the ground truth will be that you're tired, and given that situation…'. Expectation plus the situation-setter, welded into Korean's gentlest nag. M7's 피곤하다 and M8's 쉬다 have waited fifty modules for this exact kindness."
   }
 ]
