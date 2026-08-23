@@ -1358,5 +1358,28 @@
       "s_m54_build_country", "s_m54_move_plan", "s_m54_arrive_call", "s_m54_decorate_free",
       "s_m54_box_leave", "s_m54_washer_old", "s_m54_upstairs_noise", "s_m54_fan_cool"
     ]
+  },
+  {
+    "id": "m53",
+    "title": "The Waiting Room",
+    "order": 61,
+    "ring": 2,
+    "contentMd": "modules/module-53.md",
+    "wordIds": [
+      "w_jeungsang", "w_jeungse", "w_dutong", "w_apeum",
+      "w_gotong", "w_momsal", "w_onmom", "w_eojireopda",
+      "w_alta", "w_byeongdeulda", "w_sinche", "w_ippal",
+      "w_meorikarak", "w_sonmok", "w_balmok", "w_chiryo",
+      "w_chigwa", "w_susul", "w_ibwon", "w_toewon",
+      "w_hoebokhada", "w_piro", "w_jichida", "w_masaji",
+      "w_bitamin", "w_joajida", "w_nappajida", "w_simhaejida",
+      "w_ppaeda", "w_mojarada", "w_geokjeongdoeda", "w_buran",
+      "w_pyeonchanta", "w_jugeum", "w_am", "w_geumyeon",
+      "w_geumjihada", "w_geunde"
+    ],
+    "sentenceIds": [
+      "s_m53_momsal_guess", "s_m53_medicine_but", "s_m53_pharmacy_trail", "s_m53_grandma_arc",
+      "s_m53_symptoms_dialog", "s_m53_chart_up", "s_m53_quit_smoking", "s_m53_worn_down"
+    ]
   }
 ]

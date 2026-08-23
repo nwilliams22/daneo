@@ -12768,5 +12768,212 @@
     "rom": "eeokeoni eopseodo seonpunggireul teulmyeon siwonhaeyo",
     "wordIds": ["w_eeokeon", "w_eopda", "w_seonpunggi", "w_teulda", "w_siwonhada"],
     "note": "M39's -아/어도 concedes the missing 에어컨 (M11); M51's 틀다 — whose note already listed the fan among things that flow — sets the 선풍기 spinning through M20's -(으)면. Summer, solved on a budget. Just mind the timer dial; the word note explains why."
+  },
+  {
+    "id": "s_m53_momsal_guess",
+    "en": [
+      { "t": "Since yesterday,", "role": "other", "id": "t" },
+      { "t": "my whole body", "role": "subject", "id": "s" },
+      { "t": "has been aching, and", "role": "other", "id": "a" },
+      { "t": "I think it's momsal", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "yesterday-from", "role": "other", "id": "t" },
+      { "t": "whole-body-[subj]", "role": "subject", "id": "s" },
+      { "t": "hurts-[background]", "role": "other", "id": "a" },
+      { "t": "momsal-is seems", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제부터", "role": "other", "id": "t" },
+      { "t": "온몸이", "role": "subject", "id": "s" },
+      { "t": "아픈데", "role": "other", "id": "a" },
+      { "t": "몸살인 것 같아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eojebuteo onmomi apeunde momsarin geot gatayo",
+    "wordIds": ["w_eoje", "w_onmom", "w_apeuda", "w_momsal", "w_gatda_same"],
+    "note": "-는데's debut, job one — background-setting: state the situation (어제부터 온몸이 아픈데 —), then make your move inside it. The move here is the 것 같다 hedge from M34, on its noun-인 row: 몸살인 것 같아요 — self-diagnosing the overwork illness this module names. The doctor will agree; Korea always does."
+  },
+  {
+    "id": "s_m53_medicine_but",
+    "en": [
+      { "t": "I took", "role": "other", "id": "a" },
+      { "t": "the medicine,", "role": "object", "id": "o" },
+      { "t": "but still", "role": "other", "id": "b" },
+      { "t": "haven't gotten better", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "medicine-[obj]", "role": "object", "id": "o" },
+      { "t": "ate-but", "role": "other", "id": "a" },
+      { "t": "yet", "role": "other", "id": "b" },
+      { "t": "not recovered", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "약을", "role": "object", "id": "o" },
+      { "t": "먹었는데", "role": "other", "id": "a" },
+      { "t": "아직", "role": "other", "id": "b" },
+      { "t": "안 나았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yageul meogeonneunde ajik an naasseoyo",
+    "wordIds": ["w_yak", "w_meokda", "w_ajik", "w_natda_recover"],
+    "note": "Job two — soft contrast: -았/었는데 = 'I did, BUT.' M7's -지만 argues the mismatch; -는데 just notes it and waits. M10's 약 gets eaten (Korean's way since that module), M14's 아직 still means still, and M14's 낫다 shows its ㅅ-irregular past: 나 + 았 → 나았어요. The pharmacist's follow-up question is already loading."
+  },
+  {
+    "id": "s_m53_pharmacy_trail",
+    "en": [
+      { "t": "My throat", "role": "subject", "id": "s" },
+      { "t": "kind of", "role": "other", "id": "b" },
+      { "t": "hurts, you see…", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "throat-[subj]", "role": "subject", "id": "s" },
+      { "t": "a-little", "role": "other", "id": "b" },
+      { "t": "hurts-you-see…", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "목이", "role": "subject", "id": "s" },
+      { "t": "좀", "role": "other", "id": "b" },
+      { "t": "아픈데요…", "role": "verb", "id": "v" }
+    ],
+    "rom": "mogi jom apeundeyo…",
+    "wordIds": ["w_mok", "w_jogeum", "w_apeuda"],
+    "note": "Job three — the trailing-off -는데요…: land soft and let the listener finish. Walk up to the 약국 counter with exactly this and the pharmacist takes over — that's the design: the unfinished clause hands them the turn. M14's 목 covers throat and neck both; M9's 조금, clipped to 좀, softens; and the -는데요 ending is Korea's politest incompletion."
+  },
+  {
+    "id": "s_m53_grandma_arc",
+    "en": [
+      { "t": "Grandma", "role": "subject", "id": "s" },
+      { "t": "had", "role": "other", "id": "a" },
+      { "t": "surgery", "role": "object", "id": "o" },
+      { "t": "last week,", "role": "other", "id": "t" },
+      { "t": "and tomorrow", "role": "other", "id": "u" },
+      { "t": "she leaves the hospital", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "grandmother-[hon.subj]", "role": "subject", "id": "s" },
+      { "t": "last-week-at", "role": "other", "id": "t" },
+      { "t": "surgery-[obj]", "role": "object", "id": "o" },
+      { "t": "received-[hon]-and", "role": "other", "id": "a" },
+      { "t": "tomorrow", "role": "other", "id": "u" },
+      { "t": "leaves-hospital-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "할머니께서", "role": "subject", "id": "s" },
+      { "t": "지난주에", "role": "other", "id": "t" },
+      { "t": "수술을", "role": "object", "id": "o" },
+      { "t": "받으셨는데", "role": "other", "id": "a" },
+      { "t": "내일", "role": "other", "id": "u" },
+      { "t": "퇴원하세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "halmeonikkeseo jinanjue susureul badeusyeonneunde naeil toewonhaseyo",
+    "wordIds": ["w_halmeoni", "w_jinanju", "w_susul", "w_batda", "w_naeil", "w_toewon"],
+    "note": "The treatment arc, honorifically: M47's 께서 and the -(으)시- it agrees with (받으셨-) carry 할머니 from 수술 to tomorrow's 퇴원, while -는데 does its background job between the clauses. 수술을 받다: operations, like M36's 상처, are received (M9's 받다). Good news in hospital Korean sounds exactly like this."
+  },
+  {
+    "id": "s_m53_symptoms_dialog",
+    "en": [
+      { "t": "What symptoms", "role": "subject", "id": "s" },
+      { "t": "do you have?", "role": "verb", "id": "v" },
+      { "t": "I have a fever and", "role": "other", "id": "a" },
+      { "t": "I'm dizzy", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "what-kind symptom-[subj]", "role": "subject", "id": "s" },
+      { "t": "have-[hon]?", "role": "verb", "id": "v" },
+      { "t": "fever-[subj] erupts-and", "role": "other", "id": "a" },
+      { "t": "dizzy", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "어떤 증상이", "role": "subject", "id": "s" },
+      { "t": "있으세요?", "role": "verb", "id": "v" },
+      { "t": "열이 나고", "role": "other", "id": "a" },
+      { "t": "어지러워요", "role": "verb", "id": "w" }
+    ],
+    "rom": "eotteon jeungsangi isseuseyo? yeori nago eojireowoyo",
+    "wordIds": ["w_eotteon", "w_jeungsang", "w_itda", "w_yeol_fever", "w_nada", "w_eojireopda"],
+    "note": "The consultation opener and its answer: M24's 어떤 asks what KIND, wearing the -(으)세요 courtesy M4 planted and M47 systematized. The reply itemizes — M14's 열 through M28's eruption-나다 (fevers COME OUT, like everything that erupts), then 어지럽다 conjugated by M11's ㅂ-family: 어지러워요. You can now give a history, not just a location."
+  },
+  {
+    "id": "s_m53_chart_up",
+    "en": [
+      { "t": "These days", "role": "other", "id": "t" },
+      { "t": "I exercise", "role": "other", "id": "a" },
+      { "t": "every day, so", "role": "other", "id": "b" },
+      { "t": "my health", "role": "subject", "id": "s" },
+      { "t": "is gradually", "role": "other", "id": "c" },
+      { "t": "getting better", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "every-day", "role": "other", "id": "b" },
+      { "t": "exercise-do-so", "role": "other", "id": "a" },
+      { "t": "health-[subj]", "role": "subject", "id": "s" },
+      { "t": "gradually", "role": "other", "id": "c" },
+      { "t": "better-becoming-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "매일", "role": "other", "id": "b" },
+      { "t": "운동해서", "role": "other", "id": "a" },
+      { "t": "건강이", "role": "subject", "id": "s" },
+      { "t": "점점", "role": "other", "id": "c" },
+      { "t": "좋아지고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeum maeil undonghaeseo geongangi jeomjeom joajigo isseoyo",
+    "wordIds": ["w_yojeum", "w_maeil", "w_undonghada", "w_geongang", "w_jeomjeom", "w_joajida"],
+    "note": "The chart, plotted upward: M35's 점점 rejoins the -아/어지다 machine it was sold with — 좋아지다, inside Ring 1's -고 있다, is improvement in progress. M8's 운동하다 takes the credit via -아/어서, and M14's 건강 collects it. The sentence every 의사 hopes to hear at the follow-up."
+  },
+  {
+    "id": "s_m53_quit_smoking",
+    "en": [
+      { "t": "For his health,", "role": "other", "id": "a" },
+      { "t": "Dad", "role": "subject", "id": "s" },
+      { "t": "this year", "role": "other", "id": "t" },
+      { "t": "decided to quit smoking", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "father-[topic]", "role": "subject", "id": "s" },
+      { "t": "health-[obj] for-the-sake-of", "role": "other", "id": "a" },
+      { "t": "this-year", "role": "other", "id": "t" },
+      { "t": "quit-smoking-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아버지는", "role": "subject", "id": "s" },
+      { "t": "건강을 위해서", "role": "other", "id": "a" },
+      { "t": "올해", "role": "other", "id": "t" },
+      { "t": "금연하기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "abeojineun geongangeul wihaeseo olhae geumyeonhagiro haesseoyo",
+    "wordIds": ["w_abeoji", "w_geongang", "w_wihada", "w_olhae", "w_geumyeon"],
+    "note": "New Year's Korean: the -기로 하다 resolution machine (M48) locks in 금연, and M32's 위하다 aims it at M14's 건강 — the noun frame (건강을 위해서), still serving. 금연하다 is what M20's 끊다 note already did to 담배, made official. The 아버지 of this sentence has announced it to an audience; the family enforces."
+  },
+  {
+    "id": "s_m53_worn_down",
+    "en": [
+      { "t": "Because of stress,", "role": "other", "id": "a" },
+      { "t": "I'm thoroughly", "role": "other", "id": "b" },
+      { "t": "worn out.", "role": "verb", "id": "v" },
+      { "t": "So", "role": "other", "id": "c" },
+      { "t": "this weekend", "role": "other", "id": "t" },
+      { "t": "I'm going to rest up properly", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "stress because-of", "role": "other", "id": "a" },
+      { "t": "a-lot", "role": "other", "id": "b" },
+      { "t": "got-worn-out.", "role": "verb", "id": "v" },
+      { "t": "so", "role": "other", "id": "c" },
+      { "t": "this weekend-at-[topic]", "role": "other", "id": "t" },
+      { "t": "deeply rest-intending", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "스트레스 때문에", "role": "other", "id": "a" },
+      { "t": "많이", "role": "other", "id": "b" },
+      { "t": "지쳤어요.", "role": "verb", "id": "v" },
+      { "t": "그래서", "role": "other", "id": "c" },
+      { "t": "이번 주말에는", "role": "other", "id": "t" },
+      { "t": "푹 쉬려고 해요", "role": "verb", "id": "w" }
+    ],
+    "rom": "seuteureseu ttaemune mani jichyeosseoyo. geuraeseo ibeon jumareneun puk swiryeogo haeyo",
+    "wordIds": ["w_seuteureseu", "w_ttaemun", "w_mani", "w_jichida", "w_geuraeseo", "w_ibeon", "w_jumal", "w_puk", "w_swida"],
+    "note": "The burnout confession and its cure: 지치다 reports the long wear — M14's 스트레스 and M29's 때문 assign blame — then M7's 그래서 pivots to the plan, built with M50's -(으)려고 하다: M14's 푹 (doctors prescribe it verbatim) plus M8's 쉬다. Rest, intended. Whether the weekend agrees is another module."
   }
 ]
