@@ -13713,5 +13713,200 @@
     "rom": "jejudo gonghangeneun \"honjeoopseoye\"rago keuge sseuyeo isseoyo",
     "wordIds": ["w_jejudo", "w_gonghang", "w_s4_honjeoopseoye", "w_keuda", "w_sseuida"],
     "note": "M36's 쓰이다 holds the sign up (written-and-staying, the passive + -아/어 있다 state), M33's -게 sizes the letters, and the island's own hello does the greeting. First word of 제주어 most visitors meet; for most, the entire vocabulary of a critically endangered language, on a souvenir mug."
+  },
+  {
+    "id": "s_m59_grandpa_farming",
+    "en": [
+      { "t": "Grandfather", "role": "subject", "id": "s" },
+      { "t": "has been farming", "role": "other", "id": "a" },
+      { "t": "for over forty years", "role": "verb", "id": "v" },
+      { "t": "already", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "grandfather-[hon.subj]", "role": "subject", "id": "s" },
+      { "t": "farming-[obj] did-[hon] since", "role": "other", "id": "a" },
+      { "t": "already", "role": "other", "id": "b" },
+      { "t": "forty year-[subj] exceeded", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "할아버지께서", "role": "subject", "id": "s" },
+      { "t": "농사를 지으신 지", "role": "other", "id": "a" },
+      { "t": "벌써", "role": "other", "id": "b" },
+      { "t": "사십 년이 넘었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "harabeojikkeseo nongsareul jieusin ji beolsseo sasip nyeoni neomeosseoyo",
+    "wordIds": ["w_harabeoji", "w_nongsa", "w_jitda", "w_ji", "w_beolsseo", "w_n_sa", "w_n_sip", "w_nyeon", "w_neomda"],
+    "note": "농사를 짓다 debuts — the collocation that completes M54's maker list — inside two Band 5 machines running at once: 께서 (M47) honors the farmer and the time-since frame -(으)ㄴ 지 (M46) counts his years. The ㅅ-irregular melts before the honorific: 짓 + 으신 = 지으신, exactly as M54 drilled."
+  },
+  {
+    "id": "s_m59_market_fresh",
+    "en": [
+      { "t": "At the market,", "role": "place", "id": "p" },
+      { "t": "I bought", "role": "other", "id": "a" },
+      { "t": "cucumbers and lettuce,", "role": "object", "id": "o" },
+      { "t": "and they were really fresh", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "market-at", "role": "place", "id": "p" },
+      { "t": "cucumber-and lettuce-[obj]", "role": "object", "id": "o" },
+      { "t": "bought-and", "role": "other", "id": "a" },
+      { "t": "very was-fresh", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시장에서", "role": "place", "id": "p" },
+      { "t": "오이하고 상추를", "role": "object", "id": "o" },
+      { "t": "샀는데", "role": "other", "id": "a" },
+      { "t": "아주 신선했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sijangeseo oihago sangchureul sanneunde aju sinseonhaesseoyo",
+    "wordIds": ["w_sijang", "w_oi", "w_sangchu", "w_sada", "w_aju", "w_sinseonhada"],
+    "note": "The greengrocer scene, hinged on -는데 (M53): the purchase is background, the freshness is the news. 신선하다 doing its produce-aisle job on M3's 시장 run — the sentence every satisfied shopper says on the walk home."
+  },
+  {
+    "id": "s_m59_rice_soak",
+    "en": [
+      { "t": "Wash", "role": "other", "id": "a" },
+      { "t": "the rice", "role": "object", "id": "o" },
+      { "t": "and leave it soaking", "role": "verb", "id": "v" },
+      { "t": "in water", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "rice-[obj]", "role": "object", "id": "o" },
+      { "t": "wash-and", "role": "other", "id": "a" },
+      { "t": "water-in", "role": "other", "id": "b" },
+      { "t": "immerse-store-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "쌀을", "role": "object", "id": "o" },
+      { "t": "씻어서", "role": "other", "id": "a" },
+      { "t": "물에", "role": "other", "id": "b" },
+      { "t": "담가 두세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ssareul ssiseoseo mure damga duseyo",
+    "wordIds": ["w_ssal", "w_ssitda", "w_mul", "w_damgeuda", "w_duda"],
+    "note": "쌀's first job is the rice-pot's first step, run on M40 machinery: 담그다 immerses (담가 — the ㅡ-drop), -아/어 두다 banks the soak for later. Between M8's 씻다 and the cooker's button lies this sentence — the quiet ritual under every bowl of 밥."
+  },
+  {
+    "id": "s_m59_spring_planting",
+    "en": [
+      { "t": "Every spring,", "role": "other", "id": "t" },
+      { "t": "we plant", "role": "verb", "id": "v" },
+      { "t": "beans and corn", "role": "object", "id": "o" },
+      { "t": "in the field", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "spring-every", "role": "other", "id": "t" },
+      { "t": "field-in", "role": "place", "id": "p" },
+      { "t": "bean-and corn-[obj]", "role": "object", "id": "o" },
+      { "t": "plant", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "봄마다", "role": "other", "id": "t" },
+      { "t": "밭에", "role": "place", "id": "p" },
+      { "t": "콩하고 옥수수를", "role": "object", "id": "o" },
+      { "t": "심어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bommada bate konghago oksusureul simeoyo",
+    "wordIds": ["w_bom", "w_bat", "w_kong", "w_oksusu", "w_simda"],
+    "note": "마다 (M31) sets the farm calendar, and 심다 debuts with M40's 콩 in the ground — the proverb crop, planted where beans will come up (the gap deck knows). 밭에 shows the field's soft ㅌ: 바테. The subject drops, as Korean fieldwork does — everyone knows who's planting."
+  },
+  {
+    "id": "s_m59_apples_rot",
+    "en": [
+      { "t": "If you don't pick", "role": "other", "id": "a" },
+      { "t": "the apples,", "role": "object", "id": "o" },
+      { "t": "they fall to the ground", "role": "other", "id": "b" },
+      { "t": "and rot away completely", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "apple-[obj]", "role": "object", "id": "o" },
+      { "t": "not pick-if", "role": "other", "id": "a" },
+      { "t": "ground-to fall-and", "role": "other", "id": "b" },
+      { "t": "rot-completely", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사과를", "role": "object", "id": "o" },
+      { "t": "안 따면", "role": "other", "id": "a" },
+      { "t": "땅에 떨어져서", "role": "other", "id": "b" },
+      { "t": "썩어 버려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sagwareul an ttamyeon ttange tteoreojyeoseo sseogeo beoryeoyo",
+    "wordIds": ["w_sagwa", "w_ttada", "w_ttang", "w_tteoreojida", "w_sseokda", "w_beorida"],
+    "note": "The orchard's verdict, delivered by -아/어 버리다 (M52): the rot is total and past helping. -(으)면 (M20) issues the warning, M36's 떨어지다 does the falling, and 따다 meets 썩다 in one cause-and-effect chain — pick on time or the tree keeps the lesson."
+  },
+  {
+    "id": "s_m59_morning_juice",
+    "en": [
+      { "t": "In the mornings,", "role": "other", "id": "t" },
+      { "t": "I grind up", "role": "other", "id": "a" },
+      { "t": "tomatoes and carrots", "role": "object", "id": "o" },
+      { "t": "and make", "role": "verb", "id": "v" },
+      { "t": "juice", "role": "object", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "morning-in-[topic]", "role": "other", "id": "t" },
+      { "t": "tomato-and carrot-[obj]", "role": "object", "id": "o" },
+      { "t": "grind-and", "role": "other", "id": "a" },
+      { "t": "juice-[obj]", "role": "object", "id": "w" },
+      { "t": "make", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아침에는", "role": "other", "id": "t" },
+      { "t": "토마토하고 당근을", "role": "object", "id": "o" },
+      { "t": "갈아서", "role": "other", "id": "a" },
+      { "t": "주스를", "role": "object", "id": "w" },
+      { "t": "만들어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "achimeneun tomatohago danggeuneul garaseo juseureul mandeureoyo",
+    "wordIds": ["w_achim", "w_tomato", "w_danggeun", "w_galda", "w_juseu", "w_mandeulda"],
+    "note": "갈다's grind-sense at breakfast — the ㄹ-verb runs smooth into 갈아서, no irregular drama. The contrast-는 on 아침에는 flags mornings as the virtuous shift (M8's old topic trick), and two of the greengrocer's brightest go into the blender."
+  },
+  {
+    "id": "s_m59_ox_family",
+    "en": [
+      { "t": "In the old farming villages,", "role": "place", "id": "p" },
+      { "t": "the ox", "role": "subject", "id": "s" },
+      { "t": "was as important", "role": "verb", "id": "v" },
+      { "t": "as family", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "old-days farm-village-in-[topic]", "role": "place", "id": "p" },
+      { "t": "ox-[subj]", "role": "subject", "id": "s" },
+      { "t": "family-as-much-as", "role": "other", "id": "b" },
+      { "t": "was-important", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "옛날 농촌에서는", "role": "place", "id": "p" },
+      { "t": "소가", "role": "subject", "id": "s" },
+      { "t": "가족만큼", "role": "other", "id": "b" },
+      { "t": "중요했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yennal nongchoneseoneun soga gajongmankeum jungyohaesseoyo",
+    "wordIds": ["w_yennal", "w_nongchon", "w_so", "w_gajok", "w_jungyohada"],
+    "note": "만큼 (M47) declares the amounts equal, and history agrees: the ox was the tractor, the savings account, and a family member with a name — households wept at its sale. This is the weight M56's barn proverb assumed; now you know why fixing the 외양간 late was tragedy, not carelessness."
+  },
+  {
+    "id": "s_m59_flour_everything",
+    "en": [
+      { "t": "Ramen, bread —", "role": "object", "id": "o" },
+      { "t": "it's all", "role": "other", "id": "b" },
+      { "t": "made", "role": "verb", "id": "v" },
+      { "t": "from wheat flour, right?", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "ramen-too bread-too", "role": "object", "id": "o" },
+      { "t": "all", "role": "other", "id": "b" },
+      { "t": "wheat-flour-from", "role": "other", "id": "a" },
+      { "t": "make-right?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "라면도 빵도", "role": "object", "id": "o" },
+      { "t": "다", "role": "other", "id": "b" },
+      { "t": "밀가루로", "role": "other", "id": "a" },
+      { "t": "만들죠", "role": "verb", "id": "v" }
+    ],
+    "rom": "ramyeondo ppangdo da milgaruro mandeuljyo",
+    "wordIds": ["w_ramyeon", "w_ppang", "w_da", "w_milgaru", "w_mandeulda"],
+    "note": "-죠 (M51) invites agreement with the obvious — and the obvious is true: the postwar wheat pivot put 밀가루 under half the modern menu. The doubled 도 (M2's particle, twice) sweeps both carbs into one basket; (으)로 names the raw material, as it has since Ring 1."
   }
 ]
