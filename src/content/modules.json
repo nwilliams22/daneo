@@ -1381,5 +1381,27 @@
       "s_m53_momsal_guess", "s_m53_medicine_but", "s_m53_pharmacy_trail", "s_m53_grandma_arc",
       "s_m53_symptoms_dialog", "s_m53_chart_up", "s_m53_quit_smoking", "s_m53_worn_down"
     ]
+  },
+  {
+    "id": "m56",
+    "title": "The Written Verbs",
+    "order": 64,
+    "ring": 2,
+    "contentMd": "modules/module-56.md",
+    "wordIds": [
+      "w_balkida", "w_ireukida", "w_natanaeda", "w_allyeojida",
+      "w_neureonada", "w_gatda", "w_machida", "w_nanuda",
+      "w_beorida_wage", "w_salpyeoboda", "w_badadeurida", "w_maryeonhada",
+      "w_balsaenghada", "w_balgyeonhada", "w_baldalhada", "w_josahada",
+      "w_iyonghada", "w_bigyohada", "w_haegyeolhada", "w_pohamhada",
+      "w_jujanghada", "w_gangjohada", "w_yoguhada", "w_uihada",
+      "w_gwanhada", "w_gwallyeon", "w_ttohan", "w_hanpyeon",
+      "w_hogeun", "w_useon", "w_gakgak", "w_jikjeop",
+      "w_seuseuro", "w_wanjeonhi", "w_yakgan"
+    ],
+    "sentenceIds": [
+      "s_m56_subway_stats", "s_m56_class_discussion", "s_m56_gov_results", "s_m56_history_interest",
+      "s_m56_brother_trouble", "s_m56_pizza_share", "s_m56_station_accident", "s_m56_review_first"
+    ]
   }
 ]
