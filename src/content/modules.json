@@ -1508,5 +1508,26 @@
       "s_m60_winter_summer", "s_m60_rain_thickens", "s_m60_dense_fog", "s_m60_coffee_dial",
       "s_m60_worldcup_red", "s_m60_necktie", "s_m60_last_piece", "s_m60_paper_boat"
     ]
+  },
+  {
+    "id": "m58",
+    "title": "Titles, Not Names",
+    "order": 67,
+    "ring": 2,
+    "contentMd": "modules/module-58.md",
+    "wordIds": [
+      "w_hoejang", "w_chongjang", "w_gwajang", "w_bujang",
+      "w_banjang", "w_chaegimja", "w_biseo", "w_samonim",
+      "w_seonbae", "w_hubae", "w_sinipsaeng", "w_joreopsaeng",
+      "w_jeonmunga", "w_gongmuwon", "w_gukhoeuiwon", "w_nodongja",
+      "w_jongeobwon", "w_hoewon", "w_gogaek", "w_inwon",
+      "w_jubu", "w_sonyeon", "w_sonyeo", "w_jeolmeuni",
+      "w_seongin", "w_agassi", "w_nyeoseok", "w_hyeongnim",
+      "w_yeobo", "w_gun", "w_gundae", "w_janggun"
+    ],
+    "sentenceIds": [
+      "s_m58_hallway_titles", "s_m58_seonbae_bill", "s_m58_army_facts", "s_m58_freshman_grad",
+      "s_m58_civil_exam", "s_m58_call_center", "s_m58_banjang_voice", "s_m58_call_expert"
+    ]
   }
 ]

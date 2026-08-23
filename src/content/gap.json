@@ -1771,5 +1771,23 @@
     "lit": "the navel is bigger than the belly",
     "real": "the extras outgrew the main thing — shipping that beats the item price",
     "note": "Every word is already yours: M3's 배 in its belly career (that note filed pear and boat too), 배꼽 (M41 — anchor of the polite bow), the comparative 보다 (M22), and M1's 크다. Deployed at checkout whenever the 배송비 (shipping fee, riding frozen) beats the item, or when the wrapping outclasses the gift. The anatomy is impossible; the economics are daily."
+  },
+  {
+    "id": "g_m58_gundae_question",
+    "cat": "concept",
+    "ko": "군대 다녀왔어요?",
+    "rom": "gundae danyeowasseoyo?",
+    "lit": "did you go-and-come-back from the army?",
+    "real": "standard small talk between Korean men — service status as biography",
+    "note": "M28's round-trip verb — the same one the 학교 다녀오겠습니다 formula (M28's gap deck) sent to school — aimed at the year and a half that sorts Korean male biographies into before and after. The answer calibrates everything: which years the stories come from, who outranks whom in shared suffering, whether mud-season 축구 counts as a hobby. Foreign men get asked too; 'my country doesn't have conscription' is a legal answer and a reliable conversation-extender."
+  },
+  {
+    "id": "g_m58_seonbae_first",
+    "cat": "concept",
+    "ko": "선배님 먼저",
+    "rom": "seonbaenim meonjeo",
+    "lit": "senior first",
+    "real": "the rank choreography — doors, elevators, first bites, and beer pours all run in seniority order",
+    "note": "먼저 (M8) — whose own note taught the office goodbye 먼저 가요 — promoted to a traffic rule: the 선배 walks first, sits first, lifts the spoon first; the 후배 holds the door and pours with two hands. Reversed — 후배 먼저 — it becomes a graciousness the 선배 collects credit for. Watch any company dinner seat itself and you'll see this sentence running silently."
   }
 ]
