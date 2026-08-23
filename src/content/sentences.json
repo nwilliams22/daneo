@@ -12138,5 +12138,224 @@
     "rom": "saenggageul neomu mani haeseo uri jibeul jinachyeosseoyo",
     "wordIds": ["w_saenggakhada", "w_neomu", "w_mani", "w_uri", "w_jip", "w_jinachida"],
     "note": "지나치다's street sense in its natural habitat: the overshot door, the missed stop — M12's 지나다, pushed past its target. The cause arrives through Ring 1's -아/어서 with M11's 너무 doing the overdoing — which is the pun: too much thinking is 지나친 생각, the adjective sense riding shotgun. M4's 우리 집 makes it worse: he missed his OWN house."
+  },
+  {
+    "id": "s_m49_forecast",
+    "en": [
+      { "t": "Tomorrow", "role": "other", "id": "t" },
+      { "t": "the whole country", "role": "subject", "id": "s" },
+      { "t": "will be clear.", "role": "verb", "id": "v" },
+      { "t": "Temperatures", "role": "subject", "id": "a" },
+      { "t": "will climb", "role": "verb", "id": "w" },
+      { "t": "higher than yesterday", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "tomorrow-[topic]", "role": "other", "id": "t" },
+      { "t": "whole-country-[subj]", "role": "subject", "id": "s" },
+      { "t": "be-clear-will.", "role": "verb", "id": "v" },
+      { "t": "air-temperature-[topic]", "role": "subject", "id": "a" },
+      { "t": "yesterday-than more", "role": "other", "id": "b" },
+      { "t": "go-up-will", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "내일은", "role": "other", "id": "t" },
+      { "t": "전국이", "role": "subject", "id": "s" },
+      { "t": "맑겠습니다.", "role": "verb", "id": "v" },
+      { "t": "기온은", "role": "subject", "id": "a" },
+      { "t": "어제보다 더", "role": "other", "id": "b" },
+      { "t": "올라가겠습니다", "role": "verb", "id": "w" }
+    ],
+    "rom": "naeireun jeongugi makgetseumnida. gioneun eojeboda deo ollagagetseumnida",
+    "wordIds": ["w_naeil", "w_jeonguk", "w_makda", "w_gion", "w_eoje", "w_deo", "w_ollagada"],
+    "note": "-겠-'s first job, in its natural habitat: the TV forecast, which runs entirely on it — 맑겠습니다, 흐리겠습니다, 비가 오겠습니다. Weather is the one future nobody controls, so Korean announces it as inference, not plan. M31's 전국 gives the caster's sweep, M22's 보다-than sets the comparison, and M11's 맑다 — your elevator smalltalk word — puts on the broadcast suit."
+  },
+  {
+    "id": "s_m49_storm_soon",
+    "en": [
+      { "t": "The sky", "role": "subject", "id": "s" },
+      { "t": "suddenly", "role": "other", "id": "b" },
+      { "t": "turned black.", "role": "verb", "id": "v" },
+      { "t": "Any minute now", "role": "other", "id": "c" },
+      { "t": "thunder and lightning", "role": "subject", "id": "a" },
+      { "t": "are going to strike", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "sky-[subj]", "role": "subject", "id": "s" },
+      { "t": "suddenly", "role": "other", "id": "b" },
+      { "t": "black-became.", "role": "verb", "id": "v" },
+      { "t": "soon", "role": "other", "id": "c" },
+      { "t": "thunder lightning-[subj]", "role": "subject", "id": "a" },
+      { "t": "strike-will-surely", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "하늘이", "role": "subject", "id": "s" },
+      { "t": "갑자기", "role": "other", "id": "b" },
+      { "t": "까매졌어요.", "role": "verb", "id": "v" },
+      { "t": "곧", "role": "other", "id": "c" },
+      { "t": "천둥 번개가", "role": "subject", "id": "a" },
+      { "t": "치겠어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "haneuri gapjagi kkamaejyeosseoyo. got cheondung beongaega chigesseoyo",
+    "wordIds": ["w_haneul", "w_gapjagi", "w_kkamata", "w_got", "w_cheondung", "w_beongae", "w_chida"],
+    "note": "Evidence-겠 doing what M8's -(으)ㄹ 거예요 can't: reading the sky in front of you. The clouds are the proof; -겠- states the verdict. 까매졌어요 runs M35's -아/어지다 straight over the ㅎ-drop (까맣- → 까매-), and 천둥 번개 takes M17's 치다 — thunder STRIKES in Korean, same verb as the piano."
+  },
+  {
+    "id": "s_m49_tteok_yum",
+    "en": [
+      { "t": "This tteok", "role": "subject", "id": "s" },
+      { "t": "looks really", "role": "other", "id": "b" },
+      { "t": "delicious!", "role": "verb", "id": "v" },
+      { "t": "I", "role": "subject", "id": "a" },
+      { "t": "shall taste it", "role": "verb", "id": "w" },
+      { "t": "first", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "this tteok", "role": "subject", "id": "s" },
+      { "t": "really", "role": "other", "id": "b" },
+      { "t": "delicious-will-be!", "role": "verb", "id": "v" },
+      { "t": "I-[subj]", "role": "subject", "id": "a" },
+      { "t": "first", "role": "other", "id": "c" },
+      { "t": "eat-try-will-[formal]", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "이 떡", "role": "subject", "id": "s" },
+      { "t": "정말", "role": "other", "id": "b" },
+      { "t": "맛있겠다!", "role": "verb", "id": "v" },
+      { "t": "제가", "role": "subject", "id": "a" },
+      { "t": "먼저", "role": "other", "id": "c" },
+      { "t": "먹어 보겠습니다", "role": "verb", "id": "w" }
+    ],
+    "rom": "i tteok jeongmal masitgetda! jega meonjeo meogeo bogetseumnida",
+    "wordIds": ["w_i_det", "w_tteok", "w_jeongmal", "w_masitda", "w_je", "w_meonjeo", "w_meokda"],
+    "note": "Both -겠-s at one table. 맛있겠다! is the reaction — inference blurted in M19's plain form, said half to yourself the moment the plate lands. Then the volunteer's -겠-: 먹어 보겠습니다 (M16's try-machine aboard), the mock-formal 'I shall go first' every mukbang host performs. Same syllable reads the food, then claims it."
+  },
+  {
+    "id": "s_m49_surf_resolve",
+    "en": [
+      { "t": "This summer", "role": "other", "id": "t" },
+      { "t": "riding the waves", "role": "object", "id": "o" },
+      { "t": "no matter what,", "role": "other", "id": "b" },
+      { "t": "I will learn", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this summer-at-[topic]", "role": "other", "id": "t" },
+      { "t": "wave ride-[badge] thing-[obj]", "role": "object", "id": "o" },
+      { "t": "surely", "role": "other", "id": "b" },
+      { "t": "learn-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이번 여름에는", "role": "other", "id": "t" },
+      { "t": "파도 타는 것을", "role": "object", "id": "o" },
+      { "t": "꼭", "role": "other", "id": "b" },
+      { "t": "배우겠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ibeon yeoreumeneun pado taneun geoseul kkok baeugesseoyo",
+    "wordIds": ["w_ibeon", "w_yeoreum", "w_pado", "w_tada", "w_kkok", "w_baeuda"],
+    "note": "Volition-겠 as a vow: 배우겠어요 stakes the speaker's will on it, harder than 배울 거예요's mere schedule — M29's 꼭 tightens the screw. 파도를 타다 is M6's ride-verb at the beach: surfing is wave-riding, verbatim, and the nominalizer -는 것 (M17's machine) packages the whole sport into a learnable thing."
+  },
+  {
+    "id": "s_m49_gaze_sea",
+    "en": [
+      { "t": "We", "role": "subject", "id": "s" },
+      { "t": "sat", "role": "other", "id": "a" },
+      { "t": "on a boulder", "role": "place", "id": "p" },
+      { "t": "and gazed out at", "role": "verb", "id": "v" },
+      { "t": "the blue-green sea", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "we-[topic]", "role": "subject", "id": "s" },
+      { "t": "boulder top-at", "role": "place", "id": "p" },
+      { "t": "sit-and", "role": "other", "id": "a" },
+      { "t": "blue-green-[badge] sea-[obj]", "role": "object", "id": "o" },
+      { "t": "gazed-at", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리는", "role": "subject", "id": "s" },
+      { "t": "바위 위에", "role": "place", "id": "p" },
+      { "t": "앉아서", "role": "other", "id": "a" },
+      { "t": "푸른 바다를", "role": "object", "id": "o" },
+      { "t": "바라봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "urineun bawi wie anjaseo pureun badareul barabwasseoyo",
+    "wordIds": ["w_uri", "w_bawi", "w_wi", "w_anda", "w_pureuda", "w_bada", "w_baraboda"],
+    "note": "The module's postcard: 바라보다 doing what M1's 보다 can't — facing the view and staying. 푸른 wears M24's badge on the nature-blue M7's gap deck promised — the old color that owns sky, sea, and forest at once — and M9's 앉다 plus -아서 sets the posture first. Korean scenery is something you sit down for."
+  },
+  {
+    "id": "s_m49_shade_rest",
+    "en": [
+      { "t": "When the sun", "role": "subject", "id": "s" },
+      { "t": "is blazing hot,", "role": "other", "id": "a" },
+      { "t": "in the shade", "role": "place", "id": "p" },
+      { "t": "take your rest", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "sunshine-[subj]", "role": "subject", "id": "s" },
+      { "t": "hot-when-[topic]", "role": "other", "id": "a" },
+      { "t": "shade-at", "role": "place", "id": "p" },
+      { "t": "rest-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "햇볕이", "role": "subject", "id": "s" },
+      { "t": "뜨거울 때는", "role": "other", "id": "a" },
+      { "t": "그늘에서", "role": "place", "id": "p" },
+      { "t": "쉬세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haetbyeochi tteugeoul ttaeneun geuneureseo swiseyo",
+    "wordIds": ["w_haetbyeot", "w_tteugeopda", "w_geuneul", "w_swida"],
+    "note": "The 해-triple's warmth member meets its opposite: 햇볕 is the sun you feel, 그늘 is where you stop feeling it. M18's 뜨겁다 — hot to the TOUCH, not M11's 덥다 — is precisely why 볕 takes it, and M25's -(으)ㄹ 때 with the contrast-는 turns the advice into a standing rule. Every Korean park bench obeys it by August."
+  },
+  {
+    "id": "s_m49_sunrise_decision",
+    "en": [
+      { "t": "On New Year's Day", "role": "other", "id": "t" },
+      { "t": "we decided to go", "role": "verb", "id": "v" },
+      { "t": "to the sea", "role": "place", "id": "p" },
+      { "t": "to watch", "role": "other", "id": "a" },
+      { "t": "the rising sun", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "new-year first-day-on", "role": "other", "id": "t" },
+      { "t": "rise-up-[badge] sun-[obj]", "role": "object", "id": "o" },
+      { "t": "see-in-order-to", "role": "other", "id": "a" },
+      { "t": "sea-to", "role": "place", "id": "p" },
+      { "t": "go-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새해 첫날에", "role": "other", "id": "t" },
+      { "t": "떠오르는 태양을", "role": "object", "id": "o" },
+      { "t": "보러", "role": "other", "id": "a" },
+      { "t": "바다에", "role": "place", "id": "p" },
+      { "t": "가기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "saehae cheonnare tteooreuneun taeyangeul boreo badae gagiro haesseoyo",
+    "wordIds": ["w_saehae", "w_cheot", "w_nal", "w_tteooreuda", "w_taeyang", "w_boda", "w_bada", "w_gada"],
+    "note": "M48's -기로 하다, one module later, booking Korea's most popular resolution: the New Year sunrise pilgrimage — east-coast beaches fill in the dark to watch the year's first 태양 떠오르다. The verb wears the -는 badge from M24, M12's -(으)러 carries the errand, and 첫날 welds M46's 첫 onto M11's 날. Bring gloves; the sun is punctual."
+  },
+  {
+    "id": "s_m49_autumn_turns",
+    "en": [
+      { "t": "When autumn comes,", "role": "other", "id": "a" },
+      { "t": "the leaves", "role": "subject", "id": "s" },
+      { "t": "turn yellow", "role": "verb", "id": "v" },
+      { "t": "and the fallen leaves", "role": "subject", "id": "b" },
+      { "t": "come down", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "autumn-[subj] come-if", "role": "other", "id": "a" },
+      { "t": "tree-leaf-[subj]", "role": "subject", "id": "s" },
+      { "t": "yellow-become-and", "role": "verb", "id": "v" },
+      { "t": "fallen-leaf-[subj]", "role": "subject", "id": "b" },
+      { "t": "fall", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "가을이 오면", "role": "other", "id": "a" },
+      { "t": "나뭇잎이", "role": "subject", "id": "s" },
+      { "t": "노래지고", "role": "verb", "id": "v" },
+      { "t": "낙엽이", "role": "subject", "id": "b" },
+      { "t": "떨어져요", "role": "verb", "id": "w" }
+    ],
+    "rom": "gaeuri omyeon namunnipi noraejigo nagyeopi tteoreojyeoyo",
+    "wordIds": ["w_gaeul", "w_oda", "w_namunnip", "w_norata", "w_nagyeop", "w_tteoreojida"],
+    "note": "The season as a machine: M20's -(으)면 sets the condition, M35's -아/어지다 turns the color (노랗- drops its ㅎ and fuses: 노래져요), M10's -고 hands the plot to M36's 떨어지다. 나뭇잎 says 나문닙 — listen for the smuggled ㄴ. One sentence, four modules of glue, and the entire month of October."
   }
 ]

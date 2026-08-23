@@ -1528,5 +1528,32 @@
     "lit": "there's no gap to set a foot in",
     "real": "packed solid — rush-hour trains, festival streets, any place that went viral",
     "note": "M14's 발 is yours; the phrase carries the rest frozen: 디디다 (to set your foot down) wearing the prospective -(으)ㄹ badge you've met inside -(으)ㄹ 때 (M25), and 틈 (a crack, a sliver of space). When even one footfall can't find floor, the place is FULL — 주말의 명동은 발 디딜 틈이 없어요. The rush-hour 전철's official condition, and the highest compliment a 맛집 can receive."
+  },
+  {
+    "id": "g_m49_horangi_mal",
+    "cat": "phrase",
+    "ko": "호랑이도 제 말 하면 온다",
+    "rom": "horangido je mal hamyeon onda",
+    "lit": "even the tiger comes if you talk about it",
+    "real": "speak of the devil — the person you're discussing walks in",
+    "note": "Korea's speak-of-the-devil keeps its apex predator on call: gossip loudly enough and even a 호랑이 materializes. Every part is yours — 도, M4's 말, M20's -(으)면, M1's 오다 in the plain -ㄴ다 form M32's quote machine taught you to read — except 제, which here is not M17's humble 'my' but its reflexive cousin: 'its OWN talk'. Deployed with a grin the second the discussed party enters the room, usually trailing off at 호랑이도 제 말 하면…"
+  },
+  {
+    "id": "g_m49_deowi_tada",
+    "cat": "structure",
+    "ko": "더위를 타다 / 추위를 타다",
+    "rom": "deowireul tada / chuwireul tada",
+    "lit": "to ride the heat / ride the cold",
+    "real": "to suffer badly from heat / from cold — to be the sensitive one",
+    "note": "M6's 타다 at its strangest job: not boarding a bus but being RIDDEN by a season — 저는 더위를 많이 타요 = summer wrecks me, the standard self-diagnosis when someone melts in June or shivers in October. The pattern is a whole susceptibility machine: 부끄럼을 타다 (blush easily), 가을을 타다 (catch autumn melancholy — the annual national mood). What you 타다, you can't help."
+  },
+  {
+    "id": "g_m49_horangi_dambae",
+    "cat": "phrase",
+    "ko": "호랑이 담배 피우던 시절",
+    "rom": "horangi dambae piudeon sijeol",
+    "lit": "the days when tigers smoked tobacco",
+    "real": "once upon a time — the folktale opener for a very long time ago",
+    "note": "Korean fairy tales don't start 'once upon a time'; they start when tigers still smoked — often at full length: 옛날 옛적 호랑이 담배 피우던 시절에, where M24's 옛날 brings 옛적 along as its archaic echo. You own the strange parts already: M14 taught both 담배 and 피우다, M46 taught 시절; the -던 is a looking-back badge from a later module — today it stays frozen in the formula. Also deployed sarcastically about anything outdated: that phone is from the tiger-smoking era."
   }
 ]
