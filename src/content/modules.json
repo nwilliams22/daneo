@@ -1573,5 +1573,27 @@
       "s_m62_mak_both", "s_m62_monsoon_ends", "s_m62_fridge_full", "s_m62_all_white",
       "s_m62_surprise_party", "s_m62_umbrella_gone", "s_m62_station_close", "s_m62_ten_a_day"
     ]
+  },
+  {
+    "id": "m63",
+    "title": "Right and Wrong",
+    "order": 72,
+    "ring": 2,
+    "contentMd": "modules/module-63.md",
+    "wordIds": [
+      "w_jalmot", "w_jalmothada", "w_jaldoeda", "w_jalmotdoeda",
+      "w_silsu", "w_olta", "w_bareuda", "w_jeonghwakhada",
+      "w_almatda", "w_teullimeopda", "w_gandanhada", "w_dansunhada",
+      "w_ganghada", "w_yakhada", "w_simgakhada", "w_hullyunghada",
+      "w_usuhada", "w_gopda", "w_sumanta", "w_eongttunghada",
+      "w_amureota", "w_geumanhada", "w_saijota", "w_soyongeopda",
+      "w_munjejeom", "w_kkadak", "w_geujung", "w_hanjjok",
+      "w_yang", "w_ioe", "w_choedae", "w_choesohan",
+      "w_gakjong"
+    ],
+    "sentenceIds": [
+      "s_m63_confession", "s_m63_blessing", "s_m63_calibration", "s_m63_wrong_address",
+      "s_m63_choose_answer", "s_m63_ointment", "s_m63_strongest_team", "s_m63_no_use_crying"
+    ]
   }
 ]

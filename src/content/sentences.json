@@ -14724,5 +14724,185 @@
     "rom": "maeil daneoreul jeogeodo yeol gaessik oeumyeon sillyeogi jogeumssik joajyeoyo",
     "wordIds": ["w_maeil", "w_daneo", "w_jeogeodo", "w_yeol", "w_c_gae", "w_oeuda", "w_sillyeok", "w_jogeumssik", "w_joajida"],
     "note": "적어도 sets the negotiator's floor — M7's 적다 through M39's even-if machine, 'even at its fewest' — and M43's 씩 doses it per day. 조금씩 delivers the payoff M43's deck made folklore (조금씩 저축하세요), aimed at M26's 실력 instead of the bank. This app's entire business plan, in one conditional."
+  },
+  {
+    "id": "s_m63_confession",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "was in the wrong.", "role": "verb", "id": "v" },
+      { "t": "I'm sorry,", "role": "verb", "id": "v2" },
+      { "t": "truly.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "I-[subj]", "role": "subject", "id": "s" },
+      { "t": "wrong-did.", "role": "verb", "id": "v" },
+      { "t": "really", "role": "other", "id": "b" },
+      { "t": "am-sorry", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "제가", "role": "subject", "id": "s" },
+      { "t": "잘못했어요.", "role": "verb", "id": "v" },
+      { "t": "정말", "role": "other", "id": "b" },
+      { "t": "미안해요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "jega jalmothaesseoyo. jeongmal mianhaeyo",
+    "wordIds": ["w_jeo", "w_jalmothada", "w_jeongmal", "w_mianhaeyo"],
+    "note": "잘못하다's confession, in the order Korean gives it: fault first, feeling second. One rung below M4's apology pair — 미안해요 regrets, 잘못했어요 ADMITS. Kids deliver it with both hands raised; adults deliver it when regret alone won't cover the bill."
+  },
+  {
+    "id": "s_m63_blessing",
+    "en": [
+      { "t": "Don't worry", "role": "verb", "id": "v" },
+      { "t": "too much.", "role": "other", "id": "a" },
+      { "t": "It'll all", "role": "other", "id": "b" },
+      { "t": "turn out well.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "too-much", "role": "other", "id": "a" },
+      { "t": "worry-don't-please.", "role": "verb", "id": "v" },
+      { "t": "all", "role": "other", "id": "b" },
+      { "t": "well-become-will", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "너무", "role": "other", "id": "a" },
+      { "t": "걱정하지 마세요.", "role": "verb", "id": "v" },
+      { "t": "다", "role": "other", "id": "b" },
+      { "t": "잘될 거예요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "neomu geokjeonghaji maseyo. da jaldoel geoyeyo",
+    "wordIds": ["w_neomu", "w_geokjeonghada", "w_da", "w_jaldoeda"],
+    "note": "The blessing, finally legal: M10's 잘 and 되다 fused into 잘되다 and sent into the future -(으)ㄹ 거예요 (M8), while -지 마세요 (M14) clears the worry first — M14's own 걱정하다 doing the worrying. Said before exams, interviews, and surgeries: Korean optimism is grammar-shaped."
+  },
+  {
+    "id": "s_m63_calibration",
+    "en": [
+      { "t": "Once", "role": "subject", "id": "s" },
+      { "t": "is a mistake,", "role": "verb", "id": "v" },
+      { "t": "twice", "role": "subject", "id": "s2" },
+      { "t": "is a fault.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "one time-[topic]", "role": "subject", "id": "s" },
+      { "t": "mistake-is-but", "role": "verb", "id": "v" },
+      { "t": "two time-[topic]", "role": "subject", "id": "s2" },
+      { "t": "fault-is", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "한 번은", "role": "subject", "id": "s" },
+      { "t": "실수지만", "role": "verb", "id": "v" },
+      { "t": "두 번은", "role": "subject", "id": "s2" },
+      { "t": "잘못이에요", "role": "verb", "id": "v2" }
+    ],
+    "rom": "han beoneun silsujiman du beoneun jalmosieyo",
+    "wordIds": ["w_hana", "w_beon", "w_silsu", "w_dul", "w_jalmot"],
+    "note": "The calibration, run as arithmetic: M5's numbers count M12's 번, and -지만 (M7) draws the line. A 실수 slips once and gets a laugh; repeat it with the warning in hand and it becomes 잘못, which owes an apology. M16's deck confessed 실수했어요 long ago — today the noun takes the stand."
+  },
+  {
+    "id": "s_m63_wrong_address",
+    "en": [
+      { "t": "This address", "role": "subject", "id": "s" },
+      { "t": "seems to be wrong.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this address-[subj]", "role": "subject", "id": "s" },
+      { "t": "wrong-became-[badge] thing seems-[softener]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 주소가", "role": "subject", "id": "s" },
+      { "t": "잘못된 것 같은데요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i jusoga jalmotdoen geot gateundeyo",
+    "wordIds": ["w_i_det", "w_juso", "w_jalmotdoeda"],
+    "note": "잘못되다 behind a triple hedge: M24's badge freezes the damage (잘못된), the seems-machine (M34) declines to swear to it, and the trailing -는데요 softener (M53) leaves the sentence open for the listener to fix things. Blame the address (M12's 주소), never the person — Korean customer service in one line."
+  },
+  {
+    "id": "s_m63_choose_answer",
+    "en": [
+      { "t": "From the following,", "role": "other", "id": "a" },
+      { "t": "pick", "role": "verb", "id": "v" },
+      { "t": "the fitting", "role": "other", "id": "b" },
+      { "t": "answer.", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "next among-from", "role": "other", "id": "a" },
+      { "t": "fitting-[badge]", "role": "other", "id": "b" },
+      { "t": "answer-[obj]", "role": "object", "id": "o" },
+      { "t": "choose-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다음 중에서", "role": "other", "id": "a" },
+      { "t": "알맞은", "role": "other", "id": "b" },
+      { "t": "답을", "role": "object", "id": "o" },
+      { "t": "고르세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daeum jungeseo almajeun dabeul goreuseyo",
+    "wordIds": ["w_daeum", "w_s2_jung", "w_almatda", "w_dap", "w_goreuda"],
+    "note": "Textbook Korean's stage direction — the line printed above half of all exercises. 알맞다 wears M24's badge, M34's 고르다 does the picking (the market version was 골라 골라!), and S2's among-중 locates the candidates: 다음 중에서 = from among the following. M15's 답 has waited since Ring 1 to be chosen this properly."
+  },
+  {
+    "id": "s_m63_ointment",
+    "en": [
+      { "t": "Before bed,", "role": "other", "id": "a" },
+      { "t": "apply", "role": "verb", "id": "v" },
+      { "t": "the ointment", "role": "object", "id": "o" },
+      { "t": "to the wound.", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "sleep-before", "role": "other", "id": "a" },
+      { "t": "wound-on", "role": "place", "id": "p" },
+      { "t": "medicine-[obj]", "role": "object", "id": "o" },
+      { "t": "spread-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "자기 전에", "role": "other", "id": "a" },
+      { "t": "상처에", "role": "place", "id": "p" },
+      { "t": "약을", "role": "object", "id": "o" },
+      { "t": "바르세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jagi jeone sangcheoe yageul bareuseyo",
+    "wordIds": ["w_jada", "w_sangcheo", "w_yak", "w_bareuda"],
+    "note": "바르다's second job on its first day: M10's 약 spread onto M36's 상처, on the -기 전에 timer (M13). The same verb that keeps your posture 바른 keeps the wound medicated — uprightness and ointment share one spelling, and the pharmacist doesn't blink."
+  },
+  {
+    "id": "s_m63_strongest_team",
+    "en": [
+      { "t": "Among them,", "role": "other", "id": "a" },
+      { "t": "this team", "role": "subject", "id": "s" },
+      { "t": "is the strongest.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that-among-from", "role": "other", "id": "a" },
+      { "t": "this team-[subj]", "role": "subject", "id": "s" },
+      { "t": "most strong-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그중에서", "role": "other", "id": "a" },
+      { "t": "이 팀이", "role": "subject", "id": "s" },
+      { "t": "제일 강해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geujungeseo i timi jeil ganghaeyo",
+    "wordIds": ["w_geujung", "w_i_det", "w_tim", "w_jeil", "w_ganghada"],
+    "note": "그중에서 opens the superlative frame M22 built for 제일, and 강하다 debuts in the Sino suit — M16's 팀, graded. Radar in the stands: M41's 세다 flexes native muscle (힘이 세다); 강하다 rates teams, signals, and coffee. The 強 rode frozen through M56's 강조하다; today it plays."
+  },
+  {
+    "id": "s_m63_no_use_crying",
+    "en": [
+      { "t": "Even if you cry", "role": "other", "id": "b" },
+      { "t": "now,", "role": "other", "id": "a" },
+      { "t": "it's no use.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "now", "role": "other", "id": "a" },
+      { "t": "cry-even-if", "role": "other", "id": "b" },
+      { "t": "use-not-exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지금", "role": "other", "id": "a" },
+      { "t": "울어도", "role": "other", "id": "b" },
+      { "t": "소용없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jigeum ureodo soyongeopseoyo",
+    "wordIds": ["w_jigeum", "w_ulda", "w_soyongeopda"],
+    "note": "소용없다 closes the door that the -아/어도 concession (M39) opens: the tears are granted — cry away (M7's 울다) — and the outcome still doesn't move. Blunter than 괜찮아요: not 'it's okay' but 'it won't help.' Said by parents at toy-store exits nationwide."
   }
 ]
