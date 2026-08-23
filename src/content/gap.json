@@ -1825,5 +1825,32 @@
     "lit": "separately, again together",
     "real": "together but independent — the Korean philosophy of shared life with breathing room",
     "note": "Three adverbs, all yours: today's 따로, M29's 또, M9's 같이 — and together they name a whole social contract: couples with separate hobbies, friends who order 따로 and eat 같이, grown children living apart who gather every 명절. Restaurants run the doubled form at the register (따로따로 계산해 주세요 — M9's 계산하다, split evenly); families run this one at the scale of a lifetime. The rare idiom that is pure grammar: no frozen words, just three adverbs holding hands at arm's length."
+  },
+  {
+    "id": "g_m63_jal_tat",
+    "cat": "phrase",
+    "ko": "잘되면 제 탓, 못되면 조상 탓",
+    "rom": "jaldoemyeon je tat, motdoemyeon josang tat",
+    "lit": "if it goes well, my doing; if it goes badly, the ancestors' fault",
+    "real": "claiming credit for success while outsourcing blame — the human default, named",
+    "note": "This module's 잘되다 and its unlisted cousin 못되다 (go badly — riding frozen) run the fork through the -(으)면 condition (M20), while M17's 제 claims the good half. Two fossils ride frozen and glossed: 탓 (blame — the accusatory cousin of this module's 잘못) and 조상 (ancestors — a later shelf's word). Quoted with a raised eyebrow whenever a teammate inherits the blame; the proverb's real target is always the speaker."
+  },
+  {
+    "id": "g_m63_bareun_goun",
+    "cat": "concept",
+    "ko": "바른 말 고운 말",
+    "rom": "bareun mal goun mal",
+    "lit": "upright words, lovely words",
+    "real": "the national kind-speech campaign — the poster phrase for talking properly",
+    "note": "Two of this module's adjectives wearing M24's badge on M4's 말: 바르다 supplies the correctness, 곱다 the kindness. The phrase hangs in every elementary classroom and broadcast-standards office in Korea — the institutional answer to playground trash talk, and the reason M57's proverb about words that round-trip (가는 말이 고와야…) rings like a school bell to Korean ears."
+  },
+  {
+    "id": "g_m63_geumanhagil",
+    "cat": "structure",
+    "ko": "그만하길 다행이에요",
+    "rom": "geumanhagil dahaengieyo",
+    "lit": "it's much-fortune that it stopped at that much",
+    "real": "thank goodness it wasn't worse — the accident scene's official consolation",
+    "note": "그만하다's adjective reading in its natural frame: the damage measured out at that-much and no further, and M36's 다행 — whose note filed it 'said after every near-miss' — banks the relief. The -기 nominalizer (M13) plus a clipped 을/를 gives 그만하길. Said over fender-benders, sprained ankles, and burnt dinners: Korean gratitude runs on comparisons to worse."
   }
 ]
