@@ -33,7 +33,8 @@ Do not commit anything.
   -잖아요/-거든요 = M42 · 처럼 = M41 · -아/어 놓다/두다 = M40 · 마다 = M31 ·
   (이)나 = M43 · 씩 = M43 · -기 위해(서) = M44 · 위한+noun = M44 ·
   -적/-스럽다/-답다/-롭다 factories = M45 · -(으)ㄴ 지 time-since = M46 ·
-  께서 = M47 · 만큼 = M47 · -기로 하다 = M48 · -게 adverbializer = M33 ·
+  께서 = M47 · 만큼 = M47 · -기로 하다 = M48 · -겠- full nuances = M49 ·
+  -(으)려고 (하다) = M50 · -죠 = M51 · -게 adverbializer = M33 ·
   -자마자/-(으)면서/-는 동안 = M38 · -아/어지다/-게 되다 = M35.
 - **NIKL sense collapse:** the ledger tracks base strings, so if your slice word's
   NIKL entry is a different sense than your primary teaching sense (check
@@ -51,7 +52,7 @@ payoffs (this word completes something an earlier module promised).
 Never cite a module or an earlier word's note from memory — check every single one.
 If a word you want to lean on isn't taught, don't reference it as taught.
 Module numbers: word `moduleId` fields map m1→Module 1 etc. Words with moduleId
-m31–m39 are Ring 2 Band 4, m40–m48 are shipped Band 5; everything lower is Ring 1.
+m31–m39 are Ring 2 Band 4, m40–m51 are shipped Band 5; everything lower is Ring 1.
 
 ## Output files (all in the scratchpad dir; NN = your module number)
 
