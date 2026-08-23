@@ -12975,5 +12975,224 @@
     "rom": "seuteureseu ttaemune mani jichyeosseoyo. geuraeseo ibeon jumareneun puk swiryeogo haeyo",
     "wordIds": ["w_seuteureseu", "w_ttaemun", "w_mani", "w_jichida", "w_geuraeseo", "w_ibeon", "w_jumal", "w_puk", "w_swida"],
     "note": "The burnout confession and its cure: 지치다 reports the long wear — M14's 스트레스 and M29's 때문 assign blame — then M7's 그래서 pivots to the plan, built with M50's -(으)려고 하다: M14's 푹 (doctors prescribe it verbatim) plus M8's 쉬다. Rest, intended. Whether the weekend agrees is another module."
+  },
+  {
+    "id": "s_m56_subway_stats",
+    "en": [
+      { "t": "According to the news,", "role": "other", "id": "a" },
+      { "t": "the people who use the subway", "role": "subject", "id": "s" },
+      { "t": "have increased, they say", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "news-according-to", "role": "other", "id": "a" },
+      { "t": "subway-[obj] use-[badge] people-[subj]", "role": "subject", "id": "s" },
+      { "t": "increased-[quote] says-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뉴스에 의하면", "role": "other", "id": "a" },
+      { "t": "지하철을 이용하는 사람들이", "role": "subject", "id": "s" },
+      { "t": "늘어났다고 합니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "nyuseue uihamyeon jihacheoreul iyonghaneun saramdeuri neureonatdago hamnida",
+    "wordIds": ["w_nyuseu", "w_uihada", "w_jihacheol", "w_iyonghada", "w_saram", "w_neureonada", "w_hada"],
+    "note": "에 의하면 debuts welded to M32's quote machine — the exact pairing M32 built with 에 따르면, one verb stiffer. 이용하다 picks its object the way PA announcements do (a service, not a thing), 이용하는 wears the -는 badge (M24), and 늘어났다고 합니다 is the shape of half of all broadcast statistics: source, claim, relay."
+  },
+  {
+    "id": "s_m56_class_discussion",
+    "en": [
+      { "t": "In class,", "role": "other", "id": "a" },
+      { "t": "we shared", "role": "verb", "id": "v" },
+      { "t": "a conversation", "role": "object", "id": "o" },
+      { "t": "about Korean culture", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "class time-at", "role": "other", "id": "a" },
+      { "t": "Korea culture-concerning", "role": "other", "id": "b" },
+      { "t": "talk-[obj]", "role": "object", "id": "o" },
+      { "t": "divided-shared", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "수업 시간에", "role": "other", "id": "a" },
+      { "t": "한국 문화에 관해서", "role": "other", "id": "b" },
+      { "t": "이야기를", "role": "object", "id": "o" },
+      { "t": "나눴어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sueop sigane hanguk munhwae gwanhaeseo iyagireul nanwosseoyo",
+    "wordIds": ["w_sueop", "w_sigan", "w_hanguk", "w_munhwa", "w_gwanhada", "w_iyagi", "w_nanuda"],
+    "note": "에 관해서 debuts exactly where the 에 대해서 frame (M32) taught you to stand — swap the verb, gain a register. And 이야기를 나누다 is the module's thesis in miniature: Korean conversations are SHARED, not held — 나누다 splitting cake and talk with the same verb."
+  },
+  {
+    "id": "s_m56_gov_results",
+    "en": [
+      { "t": "Yesterday", "role": "other", "id": "t" },
+      { "t": "the government", "role": "subject", "id": "s" },
+      { "t": "made public", "role": "verb", "id": "v" },
+      { "t": "the investigation results.", "role": "object", "id": "o" },
+      { "t": "Moreover,", "role": "other", "id": "b" },
+      { "t": "it announced", "role": "verb", "id": "v2" },
+      { "t": "a new plan as well", "role": "object", "id": "o2" }
+    ],
+    "gloss": [
+      { "t": "government-[subj]", "role": "subject", "id": "s" },
+      { "t": "yesterday", "role": "other", "id": "t" },
+      { "t": "investigation result-[obj]", "role": "object", "id": "o" },
+      { "t": "made-bright-revealed-[formal].", "role": "verb", "id": "v" },
+      { "t": "moreover", "role": "other", "id": "b" },
+      { "t": "new-[badge] plan-also", "role": "object", "id": "o2" },
+      { "t": "announced-[formal]", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "정부가", "role": "subject", "id": "s" },
+      { "t": "어제", "role": "other", "id": "t" },
+      { "t": "조사 결과를", "role": "object", "id": "o" },
+      { "t": "밝혔습니다.", "role": "verb", "id": "v" },
+      { "t": "또한", "role": "other", "id": "b" },
+      { "t": "새로운 계획도", "role": "object", "id": "o2" },
+      { "t": "발표했습니다", "role": "verb", "id": "v2" }
+    ],
+    "rom": "jeongbuga eoje josa gyeolgwareul balkyeotseumnida. ttohan saeroun gyehoekdo balpyohaetseumnida",
+    "wordIds": ["w_jeongbu", "w_eoje", "w_josa", "w_gyeolgwa", "w_balkida", "w_ttohan", "w_saeropda", "w_gyehoek", "w_balpyohada"],
+    "note": "The X-ray live: M13's 밝다 through M37's causative 히 — make-bright — and the metaphor never blinks: the results were dark, the government lit them. Then 또한 pivots to the second clause the way every article's second paragraph does. 합니다체 (M4) throughout, because this is a wire-service sentence; the literal lamp (불을 밝히다) waits in the word note."
+  },
+  {
+    "id": "s_m56_history_interest",
+    "en": [
+      { "t": "Me too —", "role": "subject", "id": "s" },
+      { "t": "I've come to take", "role": "verb", "id": "v" },
+      { "t": "an interest", "role": "object", "id": "o" },
+      { "t": "in Korean history", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "I-also", "role": "subject", "id": "s" },
+      { "t": "Korea history-at", "role": "other", "id": "b" },
+      { "t": "interest-[obj]", "role": "object", "id": "o" },
+      { "t": "hold-came-to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저도", "role": "subject", "id": "s" },
+      { "t": "한국 역사에", "role": "other", "id": "b" },
+      { "t": "관심을", "role": "object", "id": "o" },
+      { "t": "갖게 됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeodo hanguk yeoksae gwansimeul gatge dwaesseoyo",
+    "wordIds": ["w_jeo", "w_hanguk", "w_yeoksa", "w_gwansim", "w_gatda"],
+    "note": "M28's 가지다 note promised the squeeze — 'Spoken Korean squeezes it to 갖다' — and here it pays out, riding M35's -게 되다: the interest HAPPENED to you. 관심을 갖다 is the collocation print prefers over plain 있다 (M24's 관심 ran on the 있다-chassis): interest as a thing you hold, not just have around."
+  },
+  {
+    "id": "s_m56_brother_trouble",
+    "en": [
+      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "stirred up", "role": "other", "id": "a" },
+      { "t": "trouble", "role": "object", "id": "o" },
+      { "t": "again,", "role": "other", "id": "b" },
+      { "t": "so I", "role": "subject", "id": "s2" },
+      { "t": "sorted it out", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "again", "role": "other", "id": "b" },
+      { "t": "problem-[obj]", "role": "object", "id": "o" },
+      { "t": "raise-cause-so", "role": "other", "id": "a" },
+      { "t": "I-[subj]", "role": "subject", "id": "s2" },
+      { "t": "solved", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "또", "role": "other", "id": "b" },
+      { "t": "문제를", "role": "object", "id": "o" },
+      { "t": "일으켜서", "role": "other", "id": "a" },
+      { "t": "제가", "role": "subject", "id": "s2" },
+      { "t": "해결했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengi tto munjereul ireukyeoseo jega haegyeolhaesseoyo",
+    "wordIds": ["w_dongsaeng", "w_tto", "w_munje", "w_ireukida", "w_je", "w_haegyeolhada"],
+    "note": "The second X-ray: M8's 일어나다 (happen) through M37's party = make-happen — 문제를 일으키다, the news collocation, here at kitchen-table scale. 해결하다 answers it in the same breath: one sibling raises what the other unties (解). Ring 1's -아/어서 chains cause to cleanup, and M29's 또 confirms this is not the first time."
+  },
+  {
+    "id": "s_m56_pizza_share",
+    "en": [
+      { "t": "Today,", "role": "other", "id": "t" },
+      { "t": "after finishing", "role": "other", "id": "a" },
+      { "t": "class,", "role": "object", "id": "o" },
+      { "t": "I split", "role": "verb", "id": "v" },
+      { "t": "a pizza", "role": "object", "id": "o2" },
+      { "t": "with my friends", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "class-[obj]", "role": "object", "id": "o" },
+      { "t": "finish-and", "role": "other", "id": "a" },
+      { "t": "friend-[plural]-with", "role": "other", "id": "b" },
+      { "t": "pizza-[obj]", "role": "object", "id": "o2" },
+      { "t": "divide-ate", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘", "role": "other", "id": "t" },
+      { "t": "수업을", "role": "object", "id": "o" },
+      { "t": "마치고", "role": "other", "id": "a" },
+      { "t": "친구들하고", "role": "other", "id": "b" },
+      { "t": "피자를", "role": "object", "id": "o2" },
+      { "t": "나눠 먹었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneul sueobeul machigo chingudeulhago pijareul nanwo meogeosseoyo",
+    "wordIds": ["w_oneul", "w_sueop", "w_machida", "w_chingu", "w_pija", "w_nanuda", "w_meokda"],
+    "note": "M10's 수업 note ran 수업이 끝났어요; 수업을 마치고 is the same bell, one register up — and M10's -고 chains it into the evening. Then the table verb: 나눠 먹다, dividing as eating — one 피자 (M30), several hands. The formal verb and the shared meal in one breath: written Korean, spoken life."
+  },
+  {
+    "id": "s_m56_station_accident",
+    "en": [
+      { "t": "This morning,", "role": "other", "id": "t" },
+      { "t": "an accident", "role": "subject", "id": "s" },
+      { "t": "occurred", "role": "verb", "id": "v" },
+      { "t": "at the subway station.", "role": "place", "id": "p" },
+      { "t": "The police", "role": "subject", "id": "s2" },
+      { "t": "are investigating", "role": "verb", "id": "v2" },
+      { "t": "now", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "today morning", "role": "other", "id": "t" },
+      { "t": "subway-station-at", "role": "place", "id": "p" },
+      { "t": "accident-[subj]", "role": "subject", "id": "s" },
+      { "t": "occurred-[formal].", "role": "verb", "id": "v" },
+      { "t": "police-[subj]", "role": "subject", "id": "s2" },
+      { "t": "now", "role": "other", "id": "b" },
+      { "t": "investigating-are-[formal]", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "오늘 아침", "role": "other", "id": "t" },
+      { "t": "지하철역에서", "role": "place", "id": "p" },
+      { "t": "사고가", "role": "subject", "id": "s" },
+      { "t": "발생했습니다.", "role": "verb", "id": "v" },
+      { "t": "경찰이", "role": "subject", "id": "s2" },
+      { "t": "지금", "role": "other", "id": "b" },
+      { "t": "조사하고 있습니다", "role": "verb", "id": "v2" }
+    ],
+    "rom": "oneul achim jihacheollyeogeseo sagoga balsaenghaetseumnida. gyeongchari jigeum josahago itseumnida",
+    "wordIds": ["w_oneul", "w_achim", "w_jihacheol", "w_yeok", "w_sago", "w_balsaenghada", "w_gyeongchal", "w_jigeum", "w_josahada"],
+    "note": "M36's 사고 note filed 사고가 났어요 as 나다 'in its grimmest job'; 발생했습니다 is the same eruption in print — the register pair, side by side, is this module's whole thesis. Then 조사하다 takes over: M44's noun conjugated at last, running the -고 있다 progressive every breaking-news crawl runs on."
+  },
+  {
+    "id": "s_m56_review_first",
+    "en": [
+      { "t": "First,", "role": "other", "id": "b" },
+      { "t": "let's look through", "role": "verb", "id": "v" },
+      { "t": "the data", "role": "object", "id": "o" },
+      { "t": "together", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "first-of-all", "role": "other", "id": "b" },
+      { "t": "data-starting-from", "role": "object", "id": "o" },
+      { "t": "together", "role": "other", "id": "a" },
+      { "t": "look-over-let's", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우선", "role": "other", "id": "b" },
+      { "t": "자료부터", "role": "object", "id": "o" },
+      { "t": "같이", "role": "other", "id": "a" },
+      { "t": "살펴봅시다", "role": "verb", "id": "v" }
+    ],
+    "rom": "useon jaryobuteo gachi salpyeobopsida",
+    "wordIds": ["w_useon", "w_jaryo", "w_gachi", "w_salpyeoboda"],
+    "note": "우선 opens the meeting the way M8's 먼저 opens a queue — agenda-first. 부터 (M6) picks the starting point, Ring 1's -(으)ㅂ시다 keeps it collegial, and 살펴보다 does what it was hired for: the details, together, before anyone decides anything. M44's 자료 gets its inspection at last."
   }
 ]
