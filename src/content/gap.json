@@ -1555,5 +1555,32 @@
     "lit": "the days when tigers smoked tobacco",
     "real": "once upon a time — the folktale opener for a very long time ago",
     "note": "Korean fairy tales don't start 'once upon a time'; they start when tigers still smoked — often at full length: 옛날 옛적 호랑이 담배 피우던 시절에, where M24's 옛날 brings 옛적 along as its archaic echo. You own the strange parts already: M14 taught both 담배 and 피우다, M46 taught 시절; the -던 is a looking-back badge from a later module — today it stays frozen in the formula. Also deployed sarcastically about anything outdated: that phone is from the tiger-smoking era."
+  },
+  {
+    "id": "g_m52_geumgangsan",
+    "cat": "phrase",
+    "ko": "금강산도 식후경",
+    "rom": "geumgangsando sikhugyeong",
+    "lit": "even Geumgang Mountain comes after the meal",
+    "real": "food first — even the world's best sight can wait until you've eaten",
+    "note": "금강산 — the Diamond Mountain, Korea's most storied peak, across the northern border — stays frozen; the rest decodes: 食後景 is 식사's food-食 (M3), the after-後 that M5's 오후 and M13's -(으)ㄴ 후에 carried for you, and 경치's view-景 (M22). Deployed at every trailhead and palace gate the moment someone's stomach growls: itinerary second, lunch first. The national travel philosophy in seven syllables."
+  },
+  {
+    "id": "g_m52_jip_tteonamyeon",
+    "cat": "phrase",
+    "ko": "집 떠나면 고생이다",
+    "rom": "jip tteonamyeon gosaengida",
+    "lit": "leave home and it's hardship",
+    "real": "there's no place like home — travel is glamorous until you're actually in it",
+    "note": "Every part is yours: M1's 집, M23's 떠나다 (the verb 'for chapters'), M20's -(으)면, and M39's 고생 — hardship, the thing Korea praises you for surviving — in the plain -이다 form laws of nature are written in. Said by parents as you pack, and by you, sincerely, three days in when the 숙소 has no hot water. The proverb 배웅s you out the door."
+  },
+  {
+    "id": "g_m52_bagaji",
+    "cat": "phrase",
+    "ko": "바가지를 쓰다",
+    "rom": "bagajireul sseuda",
+    "lit": "to wear the gourd-bowl",
+    "real": "to get ripped off — pay tourist prices",
+    "note": "바가지, the hollowed-gourd scoop of old kitchens, stays frozen; the verb is M10's 쓰다 in the wear-sense its note filed under headgear. Somehow having a bowl planted on your head became paying triple, and the grammar assigns blame: the vendor 씌워요 (M37's causative — puts it ON you), you 써요. 바가지 요금 = rip-off pricing — the accusation every 관광지 review stands ready to make; check the menu before the seafood arrives."
   }
 ]

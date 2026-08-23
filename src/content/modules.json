@@ -1313,5 +1313,27 @@
       "s_m49_forecast", "s_m49_storm_soon", "s_m49_tteok_yum", "s_m49_surf_resolve",
       "s_m49_gaze_sea", "s_m49_shade_rest", "s_m49_sunrise_decision", "s_m49_autumn_turns"
     ]
+  },
+  {
+    "id": "m52",
+    "title": "There and Back",
+    "order": 60,
+    "ring": 2,
+    "contentMd": "modules/module-52.md",
+    "wordIds": [
+      "w_yeohaengsa", "w_haeoeyeohaeng", "w_yeyak", "w_yemaehada",
+      "w_chwisohada", "w_chulbal", "w_dojung", "w_sukso",
+      "w_yeogwan", "w_meomureuda", "w_iteul", "w_saheul",
+      "w_yeolheul", "w_more", "w_eotgeuje", "w_annaehada",
+      "w_gaideu", "w_derida", "w_deryeogada", "w_deryeooda",
+      "w_gajyeogada", "w_gajyeodajuda", "w_majung", "w_baeung",
+      "w_danyeogada", "w_oechul", "w_churip", "w_sopo",
+      "w_yeopseo", "w_upyo", "w_hyeonji", "w_gyopo",
+      "w_yuhaksaeng", "w_gwigukhada", "w_doraboda"
+    ],
+    "sentenceIds": [
+      "s_m52_train_gone", "s_m52_just_book", "s_m52_rain_cancel", "s_m52_jeju_grandma",
+      "s_m52_airport_greet", "s_m52_souvenir_parcel", "s_m52_inn_two_days", "s_m52_feels_yesterday"
+    ]
   }
 ]
