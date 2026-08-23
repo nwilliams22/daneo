@@ -14097,5 +14097,206 @@
     "rom": "aideuri jongireul jeobeoseo jageun baereul mandeureosseoyo",
     "wordIds": ["w_ai", "w_jongi", "w_jeopda", "w_jakda", "w_bae", "w_mandeulda"],
     "note": "접다's debut, and a radar going live: this 배 is the BOAT — the third career M3's 배 note filed ('also pear and boat'). 종이 (M15) folds into 종이접기 territory, and -아서 chains the folding to the launching. Fleet-building remains a rainy-day national pastime."
+  },
+  {
+    "id": "s_m58_hallway_titles",
+    "en": [
+      { "t": "Manager —", "role": "other", "id": "a" },
+      { "t": "the department head", "role": "subject", "id": "s" },
+      { "t": "is waiting", "role": "verb", "id": "v" },
+      { "t": "in the meeting room", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "section-chief-[hon.] —", "role": "other", "id": "a" },
+      { "t": "department-head-[hon. subj]", "role": "subject", "id": "s" },
+      { "t": "meeting-room-at", "role": "place", "id": "p" },
+      { "t": "waits-[hon.]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "과장님,", "role": "other", "id": "a" },
+      { "t": "부장님께서", "role": "subject", "id": "s" },
+      { "t": "회의실에서", "role": "place", "id": "p" },
+      { "t": "기다리세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gwajangnim, bujangnimkkeseo hoeuisireseo gidariseyo",
+    "wordIds": ["w_gwajang", "w_bujangnim", "w_hoeuisil", "w_gidarida"],
+    "note": "The title culture in one hallway: the vocative 과장님 — never a bare name, per the law M16's 부장님 note laid down ('always with 님') — then 께서 (M47) because the 부장님 outranks everyone in earshot, and the verb agreeing through -(으)시- (M4). Rank is grammar here: one sentence, three honorific systems, zero names."
+  },
+  {
+    "id": "s_m58_seonbae_bill",
+    "en": [
+      { "t": "If the senior", "role": "subject", "id": "s" },
+      { "t": "buys", "role": "other", "id": "a" },
+      { "t": "the meal,", "role": "object", "id": "o" },
+      { "t": "the junior", "role": "subject", "id": "u" },
+      { "t": "buys", "role": "verb", "id": "v" },
+      { "t": "the coffee", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "senior-[subj]", "role": "subject", "id": "s" },
+      { "t": "meal-[obj]", "role": "object", "id": "o" },
+      { "t": "buy-if", "role": "other", "id": "a" },
+      { "t": "junior-[topic]", "role": "subject", "id": "u" },
+      { "t": "coffee-[obj]", "role": "object", "id": "c" },
+      { "t": "buys", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "선배가", "role": "subject", "id": "s" },
+      { "t": "밥을", "role": "object", "id": "o" },
+      { "t": "사면", "role": "other", "id": "a" },
+      { "t": "후배는", "role": "subject", "id": "u" },
+      { "t": "커피를", "role": "object", "id": "c" },
+      { "t": "사요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seonbaega babeul samyeon hubaeneun keopireul sayo",
+    "wordIds": ["w_seonbae", "w_bap", "w_sada", "w_hubae", "w_keopi"],
+    "note": "The rank choreography, catered: entry date decides who pays bigger — the 선배 covers the meal, the 후배 answers with coffee, and -(으)면 (M20) files the custom as a standing law. Seniority is expensive by design; juniors repay it later, downward, to 후배 of their own."
+  },
+  {
+    "id": "s_m58_army_facts",
+    "en": [
+      { "t": "Korean men", "role": "subject", "id": "s" },
+      { "t": "usually", "role": "other", "id": "b" },
+      { "t": "go", "role": "verb", "id": "v" },
+      { "t": "to the army", "role": "place", "id": "p" },
+      { "t": "during their university years", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "Korea man-[topic]", "role": "subject", "id": "s" },
+      { "t": "usually", "role": "other", "id": "b" },
+      { "t": "university-student time", "role": "other", "id": "t" },
+      { "t": "army-to", "role": "place", "id": "p" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한국 남자는", "role": "subject", "id": "s" },
+      { "t": "보통", "role": "other", "id": "b" },
+      { "t": "대학생 때", "role": "other", "id": "t" },
+      { "t": "군대에", "role": "place", "id": "p" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hanguk namjaneun botong daehaksaeng ttae gundaee gayo",
+    "wordIds": ["w_hanguk", "w_namja", "w_botong", "w_daehaksaeng", "w_ttae", "w_gundae", "w_gada"],
+    "note": "The factual sentence under a thousand dramas: conscription interrupts most degrees midway — M27's 군인 note counted the ~18 months. 대학생 때 (때, M25) timestamps it; 보통 (M8) makes it statistics, not destiny. 군대에 가요 states it the way Korea does: no drama, total consequence."
+  },
+  {
+    "id": "s_m58_freshman_grad",
+    "en": [
+      { "t": "In my freshman days", "role": "other", "id": "t" },
+      { "t": "everything", "role": "subject", "id": "s" },
+      { "t": "felt new —", "role": "verb", "id": "a" },
+      { "t": "and already", "role": "other", "id": "b" },
+      { "t": "I've become a graduate", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "freshman time-[topic]", "role": "other", "id": "t" },
+      { "t": "every thing-[subj]", "role": "subject", "id": "s" },
+      { "t": "was-new-but", "role": "verb", "id": "a" },
+      { "t": "already", "role": "other", "id": "b" },
+      { "t": "graduate-[subj] became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "신입생 때는", "role": "other", "id": "t" },
+      { "t": "모든 게", "role": "subject", "id": "s" },
+      { "t": "새로웠는데", "role": "verb", "id": "a" },
+      { "t": "벌써", "role": "other", "id": "b" },
+      { "t": "졸업생이 됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sinipsaeng ttaeneun modeun ge saerowonneunde beolsseo joreopsaengi dwaesseoyo",
+    "wordIds": ["w_sinipsaeng", "w_ttae", "w_modeun", "w_saeropda", "w_beolsseo", "w_joreopsaeng", "w_doeda"],
+    "note": "-는데 (M53) hinges freshman nostalgia to the graduating present, and 새롭다 (M35 — 'new-to-the-heart') is exactly the freshman feeling. 신입생 and 졸업생 bookend the -생 economy the way 입학/졸업 (M44) bookended the paperwork; 벌써 (M23) does what 벌써 always does — arrives too soon."
+  },
+  {
+    "id": "s_m58_civil_exam",
+    "en": [
+      { "t": "These days", "role": "other", "id": "t" },
+      { "t": "young people", "role": "subject", "id": "s" },
+      { "t": "prepare", "role": "verb", "id": "v" },
+      { "t": "hard", "role": "other", "id": "b" },
+      { "t": "for the exam", "role": "object", "id": "o" },
+      { "t": "to become civil servants", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "young-person-[plural]-[topic]", "role": "subject", "id": "s" },
+      { "t": "civil-servant-[subj] become-intending", "role": "other", "id": "a" },
+      { "t": "diligently", "role": "other", "id": "b" },
+      { "t": "exam-[obj]", "role": "object", "id": "o" },
+      { "t": "prepare", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "젊은이들은", "role": "subject", "id": "s" },
+      { "t": "공무원이 되려고", "role": "other", "id": "a" },
+      { "t": "열심히", "role": "other", "id": "b" },
+      { "t": "시험을", "role": "object", "id": "o" },
+      { "t": "준비해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeum jeolmeunideureun gongmuwoni doeryeogo yeolsimhi siheomeul junbihaeyo",
+    "wordIds": ["w_yojeum", "w_jeolmeuni", "w_gongmuwon", "w_doeda", "w_yeolsimhi", "w_siheom", "w_junbihada"],
+    "note": "-(으)려고 (M50) aims a generation: the 공무원 시험 is Korea's stability lottery, complete with prep towns and repeat years. 요즘 젊은이들은 is the eternal editorial opener — now you can read the op-ed AND sit the exam it worries about. 되다 (M10) plus intention: become, on purpose."
+  },
+  {
+    "id": "s_m58_call_center",
+    "en": [
+      { "t": "Sir/ma'am,", "role": "other", "id": "a" },
+      { "t": "one moment please —", "role": "other", "id": "b" },
+      { "t": "please hold", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "customer-[hon.],", "role": "other", "id": "a" },
+      { "t": "moment-only", "role": "other", "id": "b" },
+      { "t": "wait-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "고객님,", "role": "other", "id": "a" },
+      { "t": "잠시만", "role": "other", "id": "b" },
+      { "t": "기다려 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gogaengnim, jamsiman gidaryeo juseyo",
+    "wordIds": ["w_gogaek", "w_jamsi", "w_gidarida"],
+    "note": "Every call center's opening liturgy, word for word: 고객님 first — the ROLE honored, no name needed — then 잠시 (M29, the formal moment) wearing 만 (M30), then the request machinery -아/어 주세요 (M9). Dial any service line in Korea and this sentence answers back."
+  },
+  {
+    "id": "s_m58_banjang_voice",
+    "en": [
+      { "t": "Our class president", "role": "subject", "id": "s" },
+      { "t": "has the loudest voice", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "our class class-president-[topic]", "role": "subject", "id": "s" },
+      { "t": "voice-[subj] most is-big", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 반 반장은", "role": "subject", "id": "s" },
+      { "t": "목소리가 제일 커요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri ban banjangeun moksoriga jeil keoyo",
+    "wordIds": ["w_uri", "w_ban_class", "w_banjang", "w_moksori", "w_jeil", "w_keuda"],
+    "note": "The double-subject frame Korean measures people with — the possession chassis of 인기가 많아요 (M17): the 반장 owns a voice, the voice owns the superlative (제일, M22). 반장 = 반 (M15) + chief-長: the ladder's first rung, elected by classmates and enforced by lungs."
+  },
+  {
+    "id": "s_m58_call_expert",
+    "en": [
+      { "t": "For this problem,", "role": "object", "id": "o" },
+      { "t": "asking", "role": "other", "id": "b" },
+      { "t": "an expert", "role": "other", "id": "a" },
+      { "t": "would be best", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this problem-[topic]", "role": "object", "id": "o" },
+      { "t": "expert-to", "role": "other", "id": "a" },
+      { "t": "ask-[badge] thing-[subj]", "role": "other", "id": "b" },
+      { "t": "good-would-be", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 문제는", "role": "object", "id": "o" },
+      { "t": "전문가한테", "role": "other", "id": "a" },
+      { "t": "물어보는 게", "role": "other", "id": "b" },
+      { "t": "좋겠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i munjeneun jeonmungahante mureoboneun ge jokesseoyo",
+    "wordIds": ["w_i_det", "w_munje", "w_jeonmunga", "w_mureoboda", "w_jota"],
+    "note": "The IOU pays on schedule: M57's 전문 note promised 'a wink now, a word later' — later is now. -는 것 (M17) packages the asking, -겠- (M49) hedges it into a suggestion, and 한테 (M27) hands the problem to the person built to hold it: the polite Korean way to say 'call a professional.'"
   }
 ]
