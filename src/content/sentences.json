@@ -12561,5 +12561,212 @@
     "rom": "gwigukhan ji beolsseo yeolheuri dwaesseoyo. yeohaengi eotgeuje gatayo",
     "wordIds": ["w_gwigukhada", "w_beolsseo", "w_yeolheul", "w_doeda", "w_yeohaeng", "w_eotgeuje", "w_gatda_same"],
     "note": "M46's -(으)ㄴ 지 stopwatch, wound with this module's parts: 귀국하다 starts the count, 열흘 fills the duration slot, and M23's 벌써 gasps at the number. Then 엊그제 does its real job — 엊그제 같아요, the feels-like-yesterday sigh every trip earns. M19's 추억 is what's actually being measured."
+  },
+  {
+    "id": "s_m54_build_country",
+    "en": [
+      { "t": "We", "role": "subject", "id": "s" },
+      { "t": "decided to build", "role": "verb", "id": "v" },
+      { "t": "a small house", "role": "object", "id": "o" },
+      { "t": "in the countryside", "role": "place", "id": "p" },
+      { "t": "next year", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "we-[topic]", "role": "subject", "id": "s" },
+      { "t": "next-year-at", "role": "other", "id": "t" },
+      { "t": "countryside-in", "role": "place", "id": "p" },
+      { "t": "small-[badge] house-[obj]", "role": "object", "id": "o" },
+      { "t": "build-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리는", "role": "subject", "id": "s" },
+      { "t": "내년에", "role": "other", "id": "t" },
+      { "t": "시골에", "role": "place", "id": "p" },
+      { "t": "작은 집을", "role": "object", "id": "o" },
+      { "t": "짓기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "urineun naenyeone sigore jageun jibeul jitgiro haesseoyo",
+    "wordIds": ["w_uri", "w_naenyeon", "w_sigol", "w_jakda", "w_jip", "w_jitda"],
+    "note": "짓다's headline job, sealed with M48's decide-machine (-기로 하다) — and watch the irregular hold its ground: before the consonant of -기로, the ㅅ stays (짓기로); vowels melt it (지어요). M22's 시골 is where Korean retirement dreams build. The ㅅ-family — 낫다 (M14), 젓다 (M40), now 짓다 — is officially a trio."
+  },
+  {
+    "id": "s_m54_move_plan",
+    "en": [
+      { "t": "The move", "role": "subject", "id": "s" },
+      { "t": "according to plan,", "role": "other", "id": "a" },
+      { "t": "wrapped up", "role": "other", "id": "b" },
+      { "t": "so today", "role": "other", "id": "t" },
+      { "t": "I'm resting", "role": "verb", "id": "v" },
+      { "t": "soundly", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "move-[subj]", "role": "subject", "id": "s" },
+      { "t": "plan-as", "role": "other", "id": "a" },
+      { "t": "end-so", "role": "other", "id": "b" },
+      { "t": "today-[topic]", "role": "other", "id": "t" },
+      { "t": "soundly", "role": "other", "id": "c" },
+      { "t": "rest", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이사가", "role": "subject", "id": "s" },
+      { "t": "계획대로", "role": "other", "id": "a" },
+      { "t": "끝나서", "role": "other", "id": "b" },
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "푹", "role": "other", "id": "c" },
+      { "t": "쉬어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "isaga gyehoekdaero kkeunnaseo oneureun puk swieoyo",
+    "wordIds": ["w_isa", "w_gyehoek", "w_kkeunnada", "w_oneul", "w_puk", "w_swida"],
+    "note": "Noun + 대로's debut, paying M33's receipt by name: its 순서 note promised '대로 arrives later in Ring 2' — delivered. M8's 계획 states the standard; 대로 pledges conformity — as-the-plan-said. M39's 법 note already ran 법대로 on credit; the machine is now official. M14's 푹 does the recovering."
+  },
+  {
+    "id": "s_m54_arrive_call",
+    "en": [
+      { "t": "As soon as you arrive", "role": "other", "id": "a" },
+      { "t": "at the new house,", "role": "place", "id": "p" },
+      { "t": "please contact", "role": "verb", "id": "v" },
+      { "t": "me", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "new house-at", "role": "place", "id": "p" },
+      { "t": "arrive-[badge] as-soon-as", "role": "other", "id": "a" },
+      { "t": "me-to", "role": "other", "id": "b" },
+      { "t": "contact-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새 집에", "role": "place", "id": "p" },
+      { "t": "도착하는 대로", "role": "other", "id": "a" },
+      { "t": "저한테", "role": "other", "id": "b" },
+      { "t": "연락해 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sae jibe dochakhaneun daero jeohante yeollakhae juseyo",
+    "wordIds": ["w_sae", "w_jip", "w_dochakhada", "w_jeo", "w_yeollakhada", "w_juda"],
+    "note": "The badge setting: M24's badge (-는) + 대로 = the-moment-it-happens. Radar vs M38's -자마자: -자마자 clocks the instant two events touched; -는 대로 makes a PROMISE about the follow-through — which is why requests and 연락 love it. M13's 새 hands over the keys; M8's 도착하다 turns them."
+  },
+  {
+    "id": "s_m54_decorate_free",
+    "en": [
+      { "t": "This room,", "role": "object", "id": "o" },
+      { "t": "you're welcome to decorate", "role": "verb", "id": "v" },
+      { "t": "however you like", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "this room-[topic]", "role": "object", "id": "o" },
+      { "t": "as-you-please", "role": "other", "id": "a" },
+      { "t": "decorate-even-if is-okay", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 방은", "role": "object", "id": "o" },
+      { "t": "마음대로", "role": "other", "id": "a" },
+      { "t": "꾸며도 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i bangeun maeumdaero kkumyeodo dwaeyo",
+    "wordIds": ["w_i_det", "w_bang", "w_maeumdaero", "w_kkumida", "w_doeda"],
+    "note": "Fossil number one meets M39's permission frame (-아/어도 돼요): decorate as your 마음 points — allowed. 마음대로 blesses here; said colder, it warns. 꾸미다 clocks in at its day job, and the deposit quietly hopes you mean posters, not paint."
+  },
+  {
+    "id": "s_m54_box_leave",
+    "en": [
+      { "t": "Leave", "role": "verb", "id": "v" },
+      { "t": "the heavy boxes", "role": "object", "id": "o" },
+      { "t": "just as they are.", "role": "other", "id": "a" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "will move them", "role": "verb", "id": "w" },
+      { "t": "later", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "heavy-[badge] box-[topic]", "role": "object", "id": "o" },
+      { "t": "as-is", "role": "other", "id": "a" },
+      { "t": "leave-please.", "role": "verb", "id": "v" },
+      { "t": "I-[subj]", "role": "subject", "id": "s" },
+      { "t": "later", "role": "other", "id": "t" },
+      { "t": "move-will", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "무거운 상자는", "role": "object", "id": "o" },
+      { "t": "그대로", "role": "other", "id": "a" },
+      { "t": "두세요.", "role": "verb", "id": "v" },
+      { "t": "제가", "role": "subject", "id": "s" },
+      { "t": "나중에", "role": "other", "id": "t" },
+      { "t": "옮길 거예요", "role": "verb", "id": "w" }
+    ],
+    "rom": "mugeoun sangjaneun geudaero duseyo. jega najunge omgil geoyeyo",
+    "wordIds": ["w_mugeopda", "w_sangja", "w_geudaero", "w_duda", "w_jeo", "w_najung", "w_omgida"],
+    "note": "Fossil number two in its natural habitat: 그대로 두세요 — M40's 두다 keeping custody of things exactly as they stand. Then M50's 옮기다 volunteers for the heavy lifting, because moving day runs on exactly this division of labor. M21's 무겁다 wears M24's badge and means it."
+  },
+  {
+    "id": "s_m54_washer_old",
+    "en": [
+      { "t": "Because the washing machine is worn out,", "role": "other", "id": "a" },
+      { "t": "the laundry", "role": "subject", "id": "s" },
+      { "t": "doesn't come out", "role": "verb", "id": "v" },
+      { "t": "properly", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "washer-[subj] worn-out-so", "role": "other", "id": "a" },
+      { "t": "laundry-[subj]", "role": "subject", "id": "s" },
+      { "t": "properly", "role": "other", "id": "b" },
+      { "t": "not become", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "세탁기가 낡아서", "role": "other", "id": "a" },
+      { "t": "빨래가", "role": "subject", "id": "s" },
+      { "t": "제대로", "role": "other", "id": "b" },
+      { "t": "안 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "setakgiga nalgaseo ppallaega jedaero an dwaeyo",
+    "wordIds": ["w_setakgi", "w_nakda", "w_ppallae", "w_jedaero", "w_doeda"],
+    "note": "Fossil number three: 제대로 안 되다 — the national diagnosis for anything malfunctioning, built on M10's 되다 politely refusing. M13's 세탁기 finally meets its base noun (세탁, this shelf) and its true adjective: 낡다 is wear you can see, and 낡아서 wakes both cluster letters — 날가서."
+  },
+  {
+    "id": "s_m54_upstairs_noise",
+    "en": [
+      { "t": "Every night", "role": "other", "id": "t" },
+      { "t": "from upstairs", "role": "place", "id": "p" },
+      { "t": "noise comes through, so", "role": "other", "id": "a" },
+      { "t": "I can't get", "role": "verb", "id": "v" },
+      { "t": "any sleep", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "night-every", "role": "other", "id": "t" },
+      { "t": "upstairs-from", "role": "place", "id": "p" },
+      { "t": "sound-[subj] erupt-so", "role": "other", "id": "a" },
+      { "t": "sleep-[obj]", "role": "object", "id": "o" },
+      { "t": "cannot sleep", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "밤마다", "role": "other", "id": "t" },
+      { "t": "위층에서", "role": "place", "id": "p" },
+      { "t": "소리가 나서", "role": "other", "id": "a" },
+      { "t": "잠을", "role": "object", "id": "o" },
+      { "t": "못 자요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bammada wicheungeseo soriga naseo jameul mot jayo",
+    "wordIds": ["w_bam", "w_wicheung", "w_sori", "w_nada", "w_jam", "w_jada"],
+    "note": "M31's 마다 schedules the misery nightly, and 소리가 나다 — the collocation M28's 나다 note filed — lets the noise ERUPT. 위층 stacks M6's 위 on M13's 층; M28's 잠 is what you lose. The gap deck names the war this sentence enlists in: 층간 소음."
+  },
+  {
+    "id": "s_m54_fan_cool",
+    "en": [
+      { "t": "Even without an air conditioner,", "role": "other", "id": "a" },
+      { "t": "if you turn on", "role": "other", "id": "b" },
+      { "t": "the fan,", "role": "object", "id": "o" },
+      { "t": "it's cool", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "AC-[subj] not-exist-even-if", "role": "other", "id": "a" },
+      { "t": "electric-fan-[obj]", "role": "object", "id": "o" },
+      { "t": "turn-on-if", "role": "other", "id": "b" },
+      { "t": "is-cool", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "에어컨이 없어도", "role": "other", "id": "a" },
+      { "t": "선풍기를", "role": "object", "id": "o" },
+      { "t": "틀면", "role": "other", "id": "b" },
+      { "t": "시원해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eeokeoni eopseodo seonpunggireul teulmyeon siwonhaeyo",
+    "wordIds": ["w_eeokeon", "w_eopda", "w_seonpunggi", "w_teulda", "w_siwonhada"],
+    "note": "M39's -아/어도 concedes the missing 에어컨 (M11); M51's 틀다 — whose note already listed the fan among things that flow — sets the 선풍기 spinning through M20's -(으)면. Summer, solved on a budget. Just mind the timer dial; the word note explains why."
   }
 ]
