@@ -1600,5 +1600,32 @@
     "lit": "neighbor-cousin",
     "real": "a close neighbor is as good as family",
     "note": "M13's 이웃 note made this exact promise — 'neighbor-cousins: the saying that a close neighbor beats a distant relative' — and here is the full filing. The 사촌 (四寸, four-degrees-removed: a cousin — untaught, frozen here) is who the neighbor outranks: the long form runs 먼 사촌보다 가까운 이웃이 낫다, with M22's 보다 doing the ranking and M14's 낫다 the judging. Born when villages shared their 마당s; tested daily now by the gap deck's other entry."
+  },
+  {
+    "id": "g_m53_byeong_yak",
+    "cat": "phrase",
+    "ko": "병 주고 약 준다",
+    "rom": "byeong jugo yak junda",
+    "lit": "gives the illness, then gives the medicine",
+    "real": "hurt someone, then play the healer — kindness after harm doesn't cancel the harm",
+    "note": "Every brick is Ring 1: M14's 병, M9's 주다 twice, M10's 약, chained by M10's -고 and closed in the plain -ㄴ다 form M32's quote machine taught you to read. Said of the friend who insults your cooking and then compliments your apron, the boss who cuts the budget and buys pizza — the order of operations IS the accusation. Deploy it with a raised eyebrow, not a raised voice."
+  },
+  {
+    "id": "g_m53_sseun_yak",
+    "cat": "phrase",
+    "ko": "입에 쓴 약이 병에는 좋다",
+    "rom": "ibe sseun yagi byeongeneun jota",
+    "lit": "medicine bitter in the mouth is good for the illness",
+    "real": "harsh advice helps — the unpleasant truth is the effective one",
+    "note": "M10's 쓰다 note flagged the bitter sense ('as an adjective, bitter') — here it finally works, wearing M24's badge: 쓴 약, the bitter medicine that M14's 입 refuses and M14's 병 needs. Korea deploys it to justify criticism roughly one breath before delivering the criticism — if you hear this proverb, brace. The contrast-는 on 병에는 is M8's old trick, still seasoning sentences."
+  },
+  {
+    "id": "g_m53_cheon_nyang",
+    "cat": "phrase",
+    "ko": "몸이 천 냥이면 눈이 구백 냥",
+    "rom": "momi cheon nyangimyeon nuni gubaek nyang",
+    "lit": "if the body is a thousand nyang, the eyes are nine hundred",
+    "real": "nothing you have matters like your eyes — protect them first",
+    "note": "M9's 천 prices the whole 몸 (M14), M2's 구 and M9's 백 price the 눈 (M14's), and M20's -(으)면 sets up the ledger; the fossil is 냥 — the old brass coin that survives only in proverbs and historical dramas. The accounting says your eyes are ninety percent of you, which is why grandmothers cite it against phone screens in dark rooms — and why the 안과 waiting room believes it."
   }
 ]
