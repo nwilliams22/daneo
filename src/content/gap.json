@@ -1690,5 +1690,32 @@
     "lit": "even a sheet of blank paper is better lifted together",
     "real": "many hands make light work — even trivial jobs go better shared",
     "note": "백지장 (白紙張, a sheet of white paper) and 맞들다 (to lift together — 들다 M28 with a facing partner) ride frozen; the rest is owned: M2's 도 concedes 'even', M20's -(으)면 sets the condition, and M14's 낫다 judges — in its comparative job, the one M38's 훨씬 note flagged with 이게 훨씬 나아요. Quoted whenever someone refuses help out of politeness; the paper does not care who carries it. 나머지는 같이 하면 돼요."
+  },
+  {
+    "id": "g_s4_gaga",
+    "cat": "concept",
+    "ko": "가가 가가?",
+    "rom": "gaga gaga?",
+    "lit": "ga-ga ga-ga?",
+    "real": "'Is that kid THAT kid?' — four identical syllables, sorted entirely by pitch (Gyeongsang)",
+    "note": "In 표준어: 걔가 그 애야? (M55's 걔, two shelves ago). In 경상도: the same four-syllable 가 — and a native speaker parses it instantly, because the southeast kept the PITCH ACCENT standard Korean flattened out: which 가 rises tells you which 가 is the kid, the subject particle, the question. The party-trick sentence of Korean dialectology, and proof that 사투리 is systems, not slang. Longer versions exist (가가 가가가?) and are deployed on Seoul friends as a hazing ritual."
+  },
+  {
+    "id": "g_s4_dol",
+    "cat": "concept",
+    "ko": "아버지, 돌 굴러가유~",
+    "rom": "abeoji, dol gulleogayu~",
+    "lit": "father, a stone is rolling~ (Chungcheong)",
+    "real": "the national joke about Chungcheong speech-speed — the warning arrives after the boulder",
+    "note": "The setup: a 충청도 son sees a boulder (M22's 돌) rolling toward his father and calls out — but by the time the unhurried -유 lands, so has the rock. Korea's most retold dialect joke, and 충청도 tells it about itself with pride: the region's real signature isn't slowness but UNHURRIEDNESS — a courtesy of never rushing you, packaged with the ambiguity of 괜찮아유. (굴러가유 = 굴러가요, rolls-along — riding frozen.)"
+  },
+  {
+    "id": "g_s4_niga_gara",
+    "cat": "phrase",
+    "ko": "니가 가라, 하와이",
+    "rom": "niga gara, hawai",
+    "lit": "YOU go — Hawaii (Busan)",
+    "real": "the most famous 사투리 line in Korean film: deflecting an offer back at the offerer",
+    "note": "From 친구 (2001), the Busan gangster classic — one friend offers the other an escape to Hawaii and gets the escape handed back. 니 is the southern 네/너 (dodging the 내/네 sound-collision the confusables drill knows all about), 가라 is the plain command M33 taught you to read, and the word order is pure shrug. Quoted nationwide whenever anyone deflects a chore: 설거지? 니가 가라. The line made 부산 사투리 briefly the coolest sound in Korea — the export pipeline's proof of concept."
   }
 ]

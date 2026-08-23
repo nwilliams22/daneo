@@ -13548,5 +13548,170 @@
     "rom": "uri hoesa daepyonimeun wollae gasuyeosseoyo",
     "wordIds": ["w_uri", "w_hoesa", "w_daepyo", "w_wollae", "w_gasu"],
     "note": "대표님 — the title every startup hallway echoes with, 님 attached the way 선수 (M17) taught you titles ride names. 원래 files the backstory in one word (said 월래), and the past copula 였어요 closes the case. Office gossip register: two of today's words, zero extra grammar."
+  },
+  {
+    "id": "s_s4_busan_lunch",
+    "en": [
+      { "t": "A Busan friend", "role": "subject", "id": "s" },
+      { "t": "asked", "role": "verb", "id": "v" },
+      { "t": "over the phone:", "role": "other", "id": "a" },
+      { "t": "have you eaten?", "role": "other", "id": "q" }
+    ],
+    "gloss": [
+      { "t": "Busan friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "phone-by", "role": "other", "id": "a" },
+      { "t": "asked:", "role": "verb", "id": "v" },
+      { "t": "rice ate-? (dialect)", "role": "other", "id": "q" }
+    ],
+    "ko": [
+      { "t": "부산 친구가", "role": "subject", "id": "s" },
+      { "t": "전화로", "role": "other", "id": "a" },
+      { "t": "물어봤어요:", "role": "verb", "id": "v" },
+      { "t": "밥 뭇나?", "role": "other", "id": "q" }
+    ],
+    "rom": "busan chinguga jeonhwaro mureobwasseoyo: bap mutna?",
+    "wordIds": ["w_busan", "w_chingu", "w_jeonhwa", "w_mureoboda", "w_s4_bap_mutna"],
+    "note": "The recognition frame this appendix drills: standard Korean carries the story, the dialect arrives as a quote. 밥 뭇나? is 밥 먹었나 — the -나 marks it yes/no by the fork rule — and it means what 밥 먹었어? has meant since M1: I'm checking on you. Answer in 표준어; smile in any dialect."
+  },
+  {
+    "id": "s_s4_grandma_dandi",
+    "en": [
+      { "t": "Grandma", "role": "subject", "id": "s" },
+      { "t": "always", "role": "other", "id": "t" },
+      { "t": "says,", "role": "verb", "id": "v" },
+      { "t": "'do it properly'", "role": "other", "id": "q" }
+    ],
+    "gloss": [
+      { "t": "grandmother-[topic]", "role": "subject", "id": "s" },
+      { "t": "always", "role": "other", "id": "t" },
+      { "t": "'properly do'-[quote]", "role": "other", "id": "q" },
+      { "t": "says-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "할머니는", "role": "subject", "id": "s" },
+      { "t": "항상", "role": "other", "id": "t" },
+      { "t": "\"단디 해라\"라고", "role": "other", "id": "q" },
+      { "t": "하세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "halmeonineun hangsang \"dandi haera\"rago haseyo",
+    "wordIds": ["w_halmeoni", "w_hangsang", "w_s4_dandi", "w_hada"],
+    "note": "M32's quote machine doing exactly what it was built for: relaying speech you can hear but wouldn't produce. 단디 해라 — 단단히 pressed flat plus the plain -라 command M33 taught you to read inside quotes — is the southern grandmother's entire parenting philosophy in four syllables."
+  },
+  {
+    "id": "s_s4_market_cheap",
+    "en": [
+      { "t": "The market auntie", "role": "subject", "id": "s" },
+      { "t": "shouted,", "role": "verb", "id": "v" },
+      { "t": "'crazy cheap!'", "role": "other", "id": "q" }
+    ],
+    "gloss": [
+      { "t": "market auntie-[subj]", "role": "subject", "id": "s" },
+      { "t": "'hugely cheap!'-[quote]", "role": "other", "id": "q" },
+      { "t": "shouted", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시장 아지매가", "role": "subject", "id": "s" },
+      { "t": "\"억수로 싸다!\"라고", "role": "other", "id": "q" },
+      { "t": "소리쳤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sijang ajimaega \"eoksuro ssada!\"rago sorichyeosseoyo",
+    "wordIds": ["w_sijang", "w_s4_ajimae", "w_s4_eoksuro", "w_ssada", "w_sorichida"],
+    "note": "M51's 소리치다 launches the sales pitch, and two S4 words ride it: 아지매 (아줌마, southern edition) and 억수로 (intensity measured in rainfall). M3's 시장 has sounded exactly like this since Module 3 — now you can hear WHERE the stall is from."
+  },
+  {
+    "id": "s_s4_matda_aiga",
+    "en": [
+      { "t": "'Right, isn't it!'", "role": "other", "id": "q" },
+      { "t": "my friend", "role": "subject", "id": "s" },
+      { "t": "said", "role": "verb", "id": "v" },
+      { "t": "while laughing", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "'right isn't-it!' (dialect)", "role": "other", "id": "q" },
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "laugh-while", "role": "other", "id": "a" },
+      { "t": "said", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "\"맞다 아이가!\"", "role": "other", "id": "q" },
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "웃으면서", "role": "other", "id": "a" },
+      { "t": "말했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "\"matda aiga!\" chinguga useumyeonseo malhaesseoyo",
+    "wordIds": ["w_matda", "w_s4_aiga", "w_chingu", "w_utda", "w_malhada"],
+    "note": "아이가 is M42's -잖아요 in 경상 uniform — we-both-know, tagged on with a grin. M38's -(으)면서 keeps the laughing and the saying in one body, and M15's 맞다 supplies the verdict being celebrated. The most exportable sentence in the southern catalog."
+  },
+  {
+    "id": "s_s4_jeolla_tasty",
+    "en": [
+      { "t": "My Jeolla friend,", "role": "subject", "id": "s" },
+      { "t": "when something's delicious,", "role": "other", "id": "a" },
+      { "t": "says", "role": "verb", "id": "v" },
+      { "t": "'crazy good'", "role": "other", "id": "q" }
+    ],
+    "gloss": [
+      { "t": "Jeolla friend-[topic]", "role": "subject", "id": "s" },
+      { "t": "delicious-if", "role": "other", "id": "a" },
+      { "t": "'hugely delicious'-[quote]", "role": "other", "id": "q" },
+      { "t": "says", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "전라도 친구는", "role": "subject", "id": "s" },
+      { "t": "맛있으면", "role": "other", "id": "a" },
+      { "t": "\"겁나 맛있다\"라고", "role": "other", "id": "q" },
+      { "t": "해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeollado chinguneun masisseumyeon \"geomna masitda\"rago haeyo",
+    "wordIds": ["w_jeollado", "w_chingu", "w_masitda", "w_s4_geomna", "w_hada"],
+    "note": "M20's -(으)면 sets the standing law, and 겁나 does the intensifying — fear, worn down into WOW, exactly the path 억수로 took through rain. M31's 전라도 gains its sound; the 맛집 shows that made this word national were mostly filmed there."
+  },
+  {
+    "id": "s_s4_chungcheong_slow",
+    "en": [
+      { "t": "The Chungcheong grandfather", "role": "subject", "id": "s" },
+      { "t": "answered", "role": "verb", "id": "v" },
+      { "t": "slowly:", "role": "other", "id": "a" },
+      { "t": "'it's fine~'", "role": "other", "id": "q" }
+    ],
+    "gloss": [
+      { "t": "Chungcheong grandfather-[topic]", "role": "subject", "id": "s" },
+      { "t": "'fine-yu'-[quote]", "role": "other", "id": "q" },
+      { "t": "slowly", "role": "other", "id": "a" },
+      { "t": "answered-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "충청도 할아버지는", "role": "subject", "id": "s" },
+      { "t": "\"괜찮아유\"라고", "role": "other", "id": "q" },
+      { "t": "천천히", "role": "other", "id": "a" },
+      { "t": "대답하셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chungcheongdo harabeojineun \"gwaenchanayu\"rago cheoncheonhi daedapasyeosseoyo",
+    "wordIds": ["w_chungcheongdo", "w_harabeoji", "w_s4_gwaenchanayu", "w_cheoncheonhi", "w_daedaphada"],
+    "note": "M10's 대답하다 wearing M4's -(으)시- for the elder, M10's 천천히 setting the pace the stereotype expects — and 괜찮아유 meaning, per regional custom, anything from yes to no to we'll-see. The tempo is real, the ambiguity is the actual dialect."
+  },
+  {
+    "id": "s_s4_jeju_sign",
+    "en": [
+      { "t": "At Jeju airport,", "role": "place", "id": "p" },
+      { "t": "'honjeo-opseoye'", "role": "other", "id": "q" },
+      { "t": "is written", "role": "verb", "id": "v" },
+      { "t": "in big letters", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "Jeju-Island airport-at-[topic]", "role": "place", "id": "p" },
+      { "t": "'welcome' (Jeju)-[quote]", "role": "other", "id": "q" },
+      { "t": "big-ly", "role": "other", "id": "a" },
+      { "t": "written-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제주도 공항에는", "role": "place", "id": "p" },
+      { "t": "\"혼저옵서예\"라고", "role": "other", "id": "q" },
+      { "t": "크게", "role": "other", "id": "a" },
+      { "t": "쓰여 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jejudo gonghangeneun \"honjeoopseoye\"rago keuge sseuyeo isseoyo",
+    "wordIds": ["w_jejudo", "w_gonghang", "w_s4_honjeoopseoye", "w_keuda", "w_sseuida"],
+    "note": "M36's 쓰이다 holds the sign up (written-and-staying, the passive + -아/어 있다 state), M33's -게 sizes the letters, and the island's own hello does the greeting. First word of 제주어 most visitors meet; for most, the entire vocabulary of a critically endangered language, on a souvenir mug."
   }
 ]

@@ -1447,5 +1447,22 @@
       "s_m57_train_schedule", "s_m57_building_height", "s_m57_health_care", "s_m57_height_diff",
       "s_m57_rest_tomorrow", "s_m57_morning_roads", "s_m57_work_calls", "s_m57_ceo_singer"
     ]
+  },
+  {
+    "id": "s4",
+    "title": "사투리 — Korean, Bent by Region",
+    "order": 66,
+    "contentMd": "modules/module-s4.md",
+    "wordIds": [
+      "w_s4_bap_mutna", "w_s4_mwo_hano", "w_s4_marakano", "w_s4_aiga",
+      "w_s4_ma", "w_s4_eodeye", "w_s4_dandi", "w_s4_eoksuro",
+      "w_s4_halmae", "w_s4_ajimae", "w_s4_geosigi", "w_s4_geomna",
+      "w_s4_atta", "w_s4_gwaenchanayu", "w_s4_mworaneungyeo", "w_s4_honjeoopseoye",
+      "w_s4_hareubang", "w_s4_gamsugwang", "w_s4_haetdeuraeyo"
+    ],
+    "sentenceIds": [
+      "s_s4_busan_lunch", "s_s4_grandma_dandi", "s_s4_market_cheap", "s_s4_matda_aiga",
+      "s_s4_jeolla_tasty", "s_s4_chungcheong_slow", "s_s4_jeju_sign"
+    ]
   }
 ]
