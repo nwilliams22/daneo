@@ -12357,5 +12357,209 @@
     "rom": "gaeuri omyeon namunnipi noraejigo nagyeopi tteoreojyeoyo",
     "wordIds": ["w_gaeul", "w_oda", "w_namunnip", "w_norata", "w_nagyeop", "w_tteoreojida"],
     "note": "The season as a machine: M20's -(으)면 sets the condition, M35's -아/어지다 turns the color (노랗- drops its ㅎ and fuses: 노래져요), M10's -고 hands the plot to M36's 떨어지다. 나뭇잎 says 나문닙 — listen for the smuggled ㄴ. One sentence, four modules of glue, and the entire month of October."
+  },
+  {
+    "id": "s_m52_train_gone",
+    "en": [
+      { "t": "I got up late,", "role": "other", "id": "a" },
+      { "t": "and the train —", "role": "object", "id": "o" },
+      { "t": "I missed it, and it's GONE", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "late get-up-because", "role": "other", "id": "a" },
+      { "t": "train-[obj]", "role": "object", "id": "o" },
+      { "t": "miss-threw-away", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "늦게 일어나서", "role": "other", "id": "a" },
+      { "t": "기차를", "role": "object", "id": "o" },
+      { "t": "놓쳐 버렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "neutge ireonaseo gichareul nochyeo beoryeosseoyo",
+    "wordIds": ["w_neutda", "w_ireonada", "w_gicha", "w_nochida", "w_beorida"],
+    "note": "-아/어 버리다's debut, dismay side: M12's 놓치다 (버스를 놓쳤어요 — 'the universal excuse') upgrades to the train, and M13's 버리다 welds on — do the verb and THROW IT AWAY behind you. 놓쳤어요 reports a fact; 놓쳐 버렸어요 reports a small tragedy: missed, gone, nothing to be done. The -아서 because-machine (M10) supplies the sad cause."
+  },
+  {
+    "id": "s_m52_just_book",
+    "en": [
+      { "t": "The tickets", "role": "subject", "id": "s" },
+      { "t": "are almost gone, you see —", "role": "verb", "id": "v" },
+      { "t": "just", "role": "other", "id": "b" },
+      { "t": "book them today and be DONE with it", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "ticket-[subj]", "role": "subject", "id": "s" },
+      { "t": "much not remained-here's-why.", "role": "verb", "id": "v" },
+      { "t": "just", "role": "other", "id": "b" },
+      { "t": "today reserve-buy-throw-away-please", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "표가", "role": "subject", "id": "s" },
+      { "t": "얼마 안 남았거든요.", "role": "verb", "id": "v" },
+      { "t": "그냥", "role": "other", "id": "b" },
+      { "t": "오늘 예매해 버리세요", "role": "verb", "id": "w" }
+    ],
+    "rom": "pyoga eolma an namatgeodeunyo. geunyang oneul yemaehae beoriseyo",
+    "wordIds": ["w_pyo", "w_eolma", "w_namda", "w_geunyang", "w_oneul", "w_yemaehada", "w_beorida"],
+    "note": "The glue's other mood: decisiveness as relief. 예매해 버리세요 = book it and get it off your mind — the 버리다 of finished business, not disaster. M42's -거든요 hands over the background (M35's 남다: not many seats left), and M24's 그냥 sweeps the hesitation off the table. Korean shops, quits, and confesses on exactly this ending."
+  },
+  {
+    "id": "s_m52_rain_cancel",
+    "en": [
+      { "t": "It rained so hard", "role": "other", "id": "a" },
+      { "t": "that I cancelled", "role": "verb", "id": "v" },
+      { "t": "the lodging reservation", "role": "object", "id": "o" },
+      { "t": "— completely, done", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] much come-because", "role": "other", "id": "a" },
+      { "t": "lodging reservation-[obj]", "role": "object", "id": "o" },
+      { "t": "cancel-", "role": "verb", "id": "v" },
+      { "t": "threw-away", "role": "other", "id": "b" }
+    ],
+    "ko": [
+      { "t": "비가 많이 와서", "role": "other", "id": "a" },
+      { "t": "숙소 예약을", "role": "object", "id": "o" },
+      { "t": "취소해", "role": "verb", "id": "v" },
+      { "t": "버렸어요", "role": "other", "id": "b" }
+    ],
+    "rom": "biga mani waseo sukso yeyageul chwisohae beoryeosseoyo",
+    "wordIds": ["w_bi", "w_mani", "w_oda", "w_sukso", "w_yeyak", "w_chwisohada", "w_beorida"],
+    "note": "The booking shelf meets the glue: 예약 (M18's 예약하다, nouned today) + 취소하다, its take-and-erase enemy — and 버리다 makes the cancellation FINAL, with a sigh in it. The trip that will not happen now. M11's 비 plays the villain through the -아서 because-machine (M10); the 확인/취소 buttons never felt so heavy."
+  },
+  {
+    "id": "s_m52_jeju_grandma",
+    "en": [
+      { "t": "At Chuseok,", "role": "other", "id": "t" },
+      { "t": "we escorted", "role": "other", "id": "a" },
+      { "t": "grandmother", "role": "object", "id": "o" },
+      { "t": "to Jeju Island", "role": "place", "id": "p" },
+      { "t": "and made it there and back", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Chuseok-at", "role": "other", "id": "t" },
+      { "t": "grandmother-[obj]", "role": "object", "id": "o" },
+      { "t": "escort-and", "role": "other", "id": "a" },
+      { "t": "Jeju-to", "role": "place", "id": "p" },
+      { "t": "go-come-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "추석에", "role": "other", "id": "t" },
+      { "t": "할머니를", "role": "object", "id": "o" },
+      { "t": "모시고", "role": "other", "id": "a" },
+      { "t": "제주도에", "role": "place", "id": "p" },
+      { "t": "다녀왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chuseoge halmeonireul mosigo jejudoe danyeowasseoyo",
+    "wordIds": ["w_chuseok", "w_halmeoni", "w_mosida", "w_jejudo", "w_danyeooda"],
+    "note": "The take/bring grid's top row: people ride 데리고, and grandmother rides M47's 모시다 — the respectful escort, exactly where its note promised (할머니를 모시고). M28's 다녀오다 files the whole holiday as one round trip, and M25's 추석 supplies the occasion. Three generations, one 비행기."
+  },
+  {
+    "id": "s_m52_airport_greet",
+    "en": [
+      { "t": "My parents", "role": "subject", "id": "s" },
+      { "t": "arrive the day after tomorrow,", "role": "other", "id": "t" },
+      { "t": "so", "role": "other", "id": "a" },
+      { "t": "I'm taking the little one along", "role": "object", "id": "o" },
+      { "t": "and going out to the airport", "role": "place", "id": "p" },
+      { "t": "to meet them", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "parents-[hon.subj]", "role": "subject", "id": "s" },
+      { "t": "day-after-tomorrow", "role": "other", "id": "t" },
+      { "t": "arrive-[hon]-because", "role": "other", "id": "a" },
+      { "t": "child-[obj] take-along-and", "role": "object", "id": "o" },
+      { "t": "airport-to", "role": "place", "id": "p" },
+      { "t": "greeting go-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부모님께서", "role": "subject", "id": "s" },
+      { "t": "모레", "role": "other", "id": "t" },
+      { "t": "도착하셔서", "role": "other", "id": "a" },
+      { "t": "아이를 데리고", "role": "object", "id": "o" },
+      { "t": "공항에", "role": "place", "id": "p" },
+      { "t": "마중 나가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bumonimkkeseo more dochakhasyeoseo aireul derigo gonghange majung nagayo",
+    "wordIds": ["w_bumonim", "w_more", "w_dochakhada", "w_ai", "w_derida", "w_gonghang", "w_majung", "w_nagada"],
+    "note": "The grid's two rows in one itinerary: the child rides 데리고, and the arriving parents get 마중 — you don't wait for guests in Korea, you intercept them (M8's 나가다 does the going out). M47's 께서 and the -시- inside 도착하셔서 keep the elders honored, and 모레 clocks it: the day-line's newest panel, already useful."
+  },
+  {
+    "id": "s_m52_souvenir_parcel",
+    "en": [
+      { "t": "The souvenirs", "role": "object", "id": "o" },
+      { "t": "I bought mid-trip,", "role": "other", "id": "a" },
+      { "t": "I mailed home", "role": "verb", "id": "v" },
+      { "t": "as a parcel", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "travel midway-at bought-[badge]", "role": "other", "id": "a" },
+      { "t": "souvenir-[obj]", "role": "object", "id": "o" },
+      { "t": "parcel-by", "role": "other", "id": "b" },
+      { "t": "mailed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여행 도중에 산", "role": "other", "id": "a" },
+      { "t": "기념품을", "role": "object", "id": "o" },
+      { "t": "소포로", "role": "other", "id": "b" },
+      { "t": "부쳤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeohaeng dojunge san ginyeompumeul soporo buchyeosseoyo",
+    "wordIds": ["w_yeohaeng", "w_dojung", "w_sada", "w_ginyeompum", "w_sopo", "w_buchida_jeon"],
+    "note": "Three IOUs settle at the post office: M40's 부치다 finally works its MAIL shift (the homophone its note filed beside the frying pan), M27's 우체국 note promised this is where 소포 begins its journey, and M23's 기념품 — 'the 추억, purchasable' — is the cargo. 도중 clocks the mid-trip purchase through M24's badge (산 = that-was-bought)."
+  },
+  {
+    "id": "s_m52_inn_two_days",
+    "en": [
+      { "t": "In Busan,", "role": "place", "id": "p" },
+      { "t": "at an inn near the sea,", "role": "place", "id": "a" },
+      { "t": "we stayed", "role": "verb", "id": "v" },
+      { "t": "for two days", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "Busan-at-[topic]", "role": "place", "id": "p" },
+      { "t": "sea near inn-at", "role": "place", "id": "a" },
+      { "t": "two-days during", "role": "other", "id": "t" },
+      { "t": "stayed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부산에서는", "role": "place", "id": "p" },
+      { "t": "바다 근처 여관에", "role": "place", "id": "a" },
+      { "t": "이틀 동안", "role": "other", "id": "t" },
+      { "t": "머물렀어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "busaneseoneun bada geuncheo yeogwane iteul dongan meomulleosseoyo",
+    "wordIds": ["w_busan", "w_bada", "w_geuncheo", "w_yeogwan", "w_iteul", "w_dongan", "w_meomureuda"],
+    "note": "The lodging ladder in use: an old-style 여관 by the water, chosen for the atmosphere. 머무르다 shows its M7 르-family colors — 머물렀어요 — and 이틀 puts the native day-counter into M28's 동안 frame: a two-day stay, counted the way Korean actually counts trips. M23's 묵다 would count the nights; 머무르다 spans the stay."
+  },
+  {
+    "id": "s_m52_feels_yesterday",
+    "en": [
+      { "t": "Since I came home,", "role": "other", "id": "a" },
+      { "t": "already", "role": "other", "id": "b" },
+      { "t": "ten days", "role": "subject", "id": "s" },
+      { "t": "have passed.", "role": "verb", "id": "v" },
+      { "t": "The trip", "role": "subject", "id": "c" },
+      { "t": "feels like just yesterday", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "return-to-country-[badge] since", "role": "other", "id": "a" },
+      { "t": "already", "role": "other", "id": "b" },
+      { "t": "ten-days-[subj]", "role": "subject", "id": "s" },
+      { "t": "became.", "role": "verb", "id": "v" },
+      { "t": "trip-[subj]", "role": "subject", "id": "c" },
+      { "t": "day-or-two-ago is-like", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "귀국한 지", "role": "other", "id": "a" },
+      { "t": "벌써", "role": "other", "id": "b" },
+      { "t": "열흘이", "role": "subject", "id": "s" },
+      { "t": "됐어요.", "role": "verb", "id": "v" },
+      { "t": "여행이", "role": "subject", "id": "c" },
+      { "t": "엊그제 같아요", "role": "verb", "id": "w" }
+    ],
+    "rom": "gwigukhan ji beolsseo yeolheuri dwaesseoyo. yeohaengi eotgeuje gatayo",
+    "wordIds": ["w_gwigukhada", "w_beolsseo", "w_yeolheul", "w_doeda", "w_yeohaeng", "w_eotgeuje", "w_gatda_same"],
+    "note": "M46's -(으)ㄴ 지 stopwatch, wound with this module's parts: 귀국하다 starts the count, 열흘 fills the duration slot, and M23's 벌써 gasps at the number. Then 엊그제 does its real job — 엊그제 같아요, the feels-like-yesterday sigh every trip earns. M19's 추억 is what's actually being measured."
   }
 ]
