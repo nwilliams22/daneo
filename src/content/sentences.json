@@ -14298,5 +14298,200 @@
     "rom": "i munjeneun jeonmungahante mureoboneun ge jokesseoyo",
     "wordIds": ["w_i_det", "w_munje", "w_jeonmunga", "w_mureoboda", "w_jota"],
     "note": "The IOU pays on schedule: M57's 전문 note promised 'a wink now, a word later' — later is now. -는 것 (M17) packages the asking, -겠- (M49) hedges it into a suggestion, and 한테 (M27) hands the problem to the person built to hold it: the polite Korean way to say 'call a professional.'"
+  },
+  {
+    "id": "s_m61_stage_somehow",
+    "en": [
+      { "t": "One thing led to another,", "role": "other", "id": "a" },
+      { "t": "and I ended up singing", "role": "verb", "id": "v" },
+      { "t": "a song", "role": "object", "id": "o" },
+      { "t": "on stage", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "somehow-having-done-seeing", "role": "other", "id": "a" },
+      { "t": "stage-on", "role": "place", "id": "p" },
+      { "t": "song-[obj]", "role": "object", "id": "o" },
+      { "t": "sing-came-to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어쩌다 보니", "role": "other", "id": "a" },
+      { "t": "무대에서", "role": "place", "id": "p" },
+      { "t": "노래를", "role": "object", "id": "o" },
+      { "t": "부르게 됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eojjeoda boni mudaeeseo noraereul bureuge dwaesseoyo",
+    "wordIds": ["w_eojjeoda", "w_mudae", "w_norae", "w_bureuda", "w_doeda"],
+    "note": "어쩌다 보니 (gap deck) opens the story every Korean tells about their own life, and M35's -게 되다 closes it: circumstances did this, not planning. Between them, M51's 무대 hosts. The two machines together are the national humble-brag — nothing was intended, everything happened."
+  },
+  {
+    "id": "s_m61_kimchi_baksa",
+    "en": [
+      { "t": "My grandmother", "role": "subject", "id": "s" },
+      { "t": "is called", "role": "verb", "id": "v" },
+      { "t": "the kimchi expert", "role": "other", "id": "q" },
+      { "t": "around the neighborhood", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "our grandmother-[topic]", "role": "subject", "id": "s" },
+      { "t": "neighborhood-in", "role": "place", "id": "p" },
+      { "t": "kimchi doctor-[quote]", "role": "other", "id": "q" },
+      { "t": "is-called", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 할머니는", "role": "subject", "id": "s" },
+      { "t": "동네에서", "role": "place", "id": "p" },
+      { "t": "김치 박사라고", "role": "other", "id": "q" },
+      { "t": "불려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri halmeonineun dongneeseo gimchi baksarago bullyeoyo",
+    "wordIds": ["w_uri", "w_halmeoni", "w_dongne", "w_gimchi", "w_baksa", "w_bullida"],
+    "note": "The naming frame: M32's quote-라고 + 불리다 = is-called-X, how titles get pinned on people. M44's 박사 note licensed the honorary use — any impressive know-it-all — and M36's passive 리 turns M19's 부르다 around: the neighborhood does the calling; 할머니 just receives the crown."
+  },
+  {
+    "id": "s_m61_team_best",
+    "en": [
+      { "t": "We lost, but", "role": "other", "id": "a" },
+      { "t": "our team", "role": "subject", "id": "s" },
+      { "t": "gave", "role": "verb", "id": "v" },
+      { "t": "its utmost", "role": "object", "id": "o" },
+      { "t": "until the very end", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "lost-but", "role": "other", "id": "a" },
+      { "t": "our team-[topic]", "role": "subject", "id": "s" },
+      { "t": "last-until", "role": "other", "id": "b" },
+      { "t": "utmost-[obj]", "role": "object", "id": "o" },
+      { "t": "did-all", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "졌지만", "role": "other", "id": "a" },
+      { "t": "우리 팀은", "role": "subject", "id": "s" },
+      { "t": "마지막까지", "role": "other", "id": "b" },
+      { "t": "최선을", "role": "object", "id": "o" },
+      { "t": "다했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jyeotjiman uri timeun majimakkkaji choeseoneul dahaesseoyo",
+    "wordIds": ["w_jida_lose", "w_uri", "w_tim", "w_majimak", "w_choeseon", "w_dahada"],
+    "note": "M39's 최선 note called 최선을 다하다 'the sentence that closes exams, interviews, and this band' — today the verb inside it finally gets its own card. -지만 (Ring 1) concedes the scoreboard to M17's 지다; 다하다 keeps the receipt: effort fully spent, with M15's 마지막 as the finish line."
+  },
+  {
+    "id": "s_m61_noraebang_scream",
+    "en": [
+      { "t": "At the karaoke room,", "role": "place", "id": "p" },
+      { "t": "if you let out", "role": "other", "id": "a" },
+      { "t": "a proper shout,", "role": "object", "id": "o" },
+      { "t": "the stress you've piled up", "role": "subject", "id": "s" },
+      { "t": "comes untied", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "karaoke-room-at", "role": "place", "id": "p" },
+      { "t": "sound-[obj]", "role": "object", "id": "o" },
+      { "t": "yell-if", "role": "other", "id": "a" },
+      { "t": "piled-up stress-[subj]", "role": "subject", "id": "s" },
+      { "t": "is-relieved", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "노래방에서", "role": "place", "id": "p" },
+      { "t": "소리를", "role": "object", "id": "o" },
+      { "t": "지르면", "role": "other", "id": "a" },
+      { "t": "쌓인 스트레스가", "role": "subject", "id": "s" },
+      { "t": "풀려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "noraebangeseo sorireul jireumyeon ssain seuteureseuga pullyeoyo",
+    "wordIds": ["w_noraebang", "w_sori", "w_jireuda", "w_ssaida", "w_seuteureseu", "w_pullida"],
+    "note": "The module's stress cycle in one sentence: 쌓이다 piles it (wearing M24's badge — 쌓인), M36's 풀리다 unties it, and 소리를 지르다 is the folk remedy in between. M20's -(으)면 writes the prescription; M17's 노래방 fills it nightly."
+  },
+  {
+    "id": "s_m61_trip_topic",
+    "en": [
+      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "suddenly", "role": "other", "id": "b" },
+      { "t": "brought up", "role": "verb", "id": "v" },
+      { "t": "talk of a trip,", "role": "object", "id": "o" },
+      { "t": "and I was startled", "role": "other", "id": "r" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "suddenly", "role": "other", "id": "b" },
+      { "t": "travel story-[obj]", "role": "object", "id": "o" },
+      { "t": "take-out-so", "role": "verb", "id": "v" },
+      { "t": "was-surprised", "role": "other", "id": "r" }
+    ],
+    "ko": [
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "갑자기", "role": "other", "id": "b" },
+      { "t": "여행 이야기를", "role": "object", "id": "o" },
+      { "t": "꺼내서", "role": "verb", "id": "v" },
+      { "t": "놀랐어요", "role": "other", "id": "r" }
+    ],
+    "rom": "dongsaengi gapjagi yeohaeng iyagireul kkeonaeseo nollasseoyo",
+    "wordIds": ["w_dongsaeng", "w_gapjagi", "w_yeohaeng", "w_iyagi", "w_kkeonaeda", "w_nollada"],
+    "note": "이야기를 꺼내다 = bring it up — the take-out verb's conversational second job: topics get pulled from pockets like wallets. M28's 갑자기 does the timing, and Ring 1's -아서 hands the surprise downstream to M26's 놀라다. The dropped subject of the second clause is you, mid-sip."
+  },
+  {
+    "id": "s_m61_spring_visits",
+    "en": [
+      { "t": "The cold winter", "role": "subject", "id": "a" },
+      { "t": "passed,", "role": "other", "id": "b" },
+      { "t": "and the warm spring", "role": "subject", "id": "s" },
+      { "t": "came calling", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "cold winter-[subj]", "role": "subject", "id": "a" },
+      { "t": "pass-and", "role": "other", "id": "b" },
+      { "t": "warm spring-[subj]", "role": "subject", "id": "s" },
+      { "t": "seek-came", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "추운 겨울이", "role": "subject", "id": "a" },
+      { "t": "지나고", "role": "other", "id": "b" },
+      { "t": "따뜻한 봄이", "role": "subject", "id": "s" },
+      { "t": "찾아왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chuun gyeouri jinago ttatteuthan bomi chajawasseoyo",
+    "wordIds": ["w_chupda", "w_gyeoul", "w_jinada", "w_ttatteuthada", "w_bom", "w_chajaoda"],
+    "note": "Seasons don't just arrive in Korean — they come seeking you: 봄이 찾아오다 is the standard warmth of every March broadcast. M10's -고 chains the handover, M12's 지나다 escorts winter out, and both seasons wear M24's badge (추운, 따뜻한). File 찾아오다 for guests, chances, and weather alike."
+  },
+  {
+    "id": "s_m61_meeting_underway",
+    "en": [
+      { "t": "The meeting", "role": "subject", "id": "s" },
+      { "t": "is proceeding", "role": "verb", "id": "v" },
+      { "t": "according to plan", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "meeting-[subj]", "role": "subject", "id": "s" },
+      { "t": "plan-as-per", "role": "other", "id": "b" },
+      { "t": "be-under-way-ing", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회의가", "role": "subject", "id": "s" },
+      { "t": "계획대로", "role": "other", "id": "b" },
+      { "t": "진행되고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoeuiga gyehoekdaero jinhaengdoego isseoyo",
+    "wordIds": ["w_hoeui", "w_gyehoek", "w_jinhaengdoeda"],
+    "note": "The 되다-tail in its natural register: the swap-the-하다 machine (M36) on a frozen parent (진행하다 = conduct), announcing that things are under way. M54's 대로 measures reality against M8's 계획, and Ring 1's -고 있다 keeps the verb running. Read it in the voice of a wedding MC."
+  },
+  {
+    "id": "s_m61_going_crazy",
+    "en": [
+      { "t": "These days", "role": "other", "id": "t" },
+      { "t": "I'm so busy", "role": "other", "id": "a" },
+      { "t": "I'm about to go out of my mind", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "too busy-so", "role": "other", "id": "a" },
+      { "t": "go-crazy-will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "너무 바빠서", "role": "other", "id": "a" },
+      { "t": "미치겠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeum neomu bappaseo michigesseoyo",
+    "wordIds": ["w_yojeum", "w_neomu", "w_bappeuda", "w_michida"],
+    "note": "미치다's second life, calibrated for the office: M49's -겠- makes the madness imminent rather than achieved — 미치겠어요 = I'm ABOUT to lose it, which is exactly the distance that keeps it sayable to coworkers. Ring 1's -아서 supplies the cause. The reach-sense stays in the newspapers; this sense does the sweating."
   }
 ]

@@ -1789,5 +1789,23 @@
     "lit": "senior first",
     "real": "the rank choreography — doors, elevators, first bites, and beer pours all run in seniority order",
     "note": "먼저 (M8) — whose own note taught the office goodbye 먼저 가요 — promoted to a traffic rule: the 선배 walks first, sits first, lifts the spoon first; the 후배 holds the door and pours with two hands. Reversed — 후배 먼저 — it becomes a graciousness the 선배 collects credit for. Watch any company dinner seat itself and you'll see this sentence running silently."
+  },
+  {
+    "id": "g_m61_eojjeoda_boni",
+    "cat": "structure",
+    "ko": "어쩌다 보니",
+    "rom": "eojjeoda boni",
+    "lit": "having somehow done it, when I looked",
+    "real": "one thing led to another — the all-purpose opener for outcomes nobody planned",
+    "note": "어쩌다 (do-somehow) + 보니 (upon seeing): glance up mid-life and find yourself somewhere. There is real grammar inside the chunk, but Koreans deploy it whole, as one word of fate — careers, marriages, and hobbies all officially begin with 어쩌다 보니, because taking credit for your own success is bad manners."
+  },
+  {
+    "id": "g_m61_san_neomeo_san",
+    "cat": "phrase",
+    "ko": "산 넘어 산",
+    "rom": "san neomeo san",
+    "lit": "over the mountain, another mountain",
+    "real": "one problem solved, a bigger one waiting — it never ends",
+    "note": "M36's 넘다 doing the climbing, M11's 산 doing the multiplying. Sighed at bureaucracy, renovations, and level bosses: you crest the ridge that was blocking the view, and the view is another ridge. Deploy it with a slow exhale for full effect."
   }
 ]
