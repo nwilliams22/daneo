@@ -11946,5 +11946,197 @@
     "rom": "geu taelleonteuneun yojeum museun peuroe churyeonhaeyo",
     "wordIds": ["w_geu_det", "w_taelleonteu", "w_yojeum", "w_museun", "w_peuro", "w_churyeonhada"],
     "note": "프로 in its TV sense — the clip M32's 프로그램 note promised, now on duty with M10's 무슨. 출연하다 is how Korean gets ON a screen (out through 출구's 出, performing with 공연's 演), and 탤런트 is the false friend behaving itself: a drama actor, no talent implied or denied."
+  },
+  {
+    "id": "s_m50_commute_early",
+    "en": [
+      { "t": "At rush hour,", "role": "other", "id": "t" },
+      { "t": "I headed out", "role": "verb", "id": "v" },
+      { "t": "early", "role": "other", "id": "b" },
+      { "t": "to catch", "role": "other", "id": "a" },
+      { "t": "the subway", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "commute time-at", "role": "other", "id": "t" },
+      { "t": "subway-[obj]", "role": "object", "id": "o" },
+      { "t": "ride-in-order-to", "role": "other", "id": "a" },
+      { "t": "early", "role": "other", "id": "b" },
+      { "t": "came-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "출근 시간에", "role": "other", "id": "t" },
+      { "t": "지하철을", "role": "object", "id": "o" },
+      { "t": "타려고", "role": "other", "id": "a" },
+      { "t": "일찍", "role": "other", "id": "b" },
+      { "t": "나왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chulgeun sigane jihacheoreul taryeogo iljjik nawasseoyo",
+    "wordIds": ["w_chulgeun", "w_sigan", "w_jihacheol", "w_tada", "w_iljjik", "w_naoda"],
+    "note": "-(으)려고's debut pays M12's oldest IOU: -(으)러 rides only the 가다/오다 family — M12's fine print said other purposes 'wait for later modules,' and this is that module. 타러 나왔어요 names an errand; 타려고 나왔어요 carries a plan, and -(으)려고 rides ANY verb in the language. M43's 출근 시간 sets the scene: the morning crush, beaten by leaving early."
+  },
+  {
+    "id": "s_m50_weekend_downtown",
+    "en": [
+      { "t": "On the weekend,", "role": "other", "id": "t" },
+      { "t": "I'm planning to look around", "role": "verb", "id": "v" },
+      { "t": "downtown", "role": "object", "id": "o" },
+      { "t": "by public transit", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "weekend-at", "role": "other", "id": "t" },
+      { "t": "public-transit-by", "role": "other", "id": "a" },
+      { "t": "downtown-[obj]", "role": "object", "id": "o" },
+      { "t": "look-around-planning-to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "t" },
+      { "t": "대중교통으로", "role": "other", "id": "a" },
+      { "t": "시내를", "role": "object", "id": "o" },
+      { "t": "둘러보려고 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare daejunggyotongeuro sinaereul dulleoboryeogo haeyo",
+    "wordIds": ["w_jumal", "w_daejunggyotong", "w_sinae", "w_dulleoboda"],
+    "note": "-(으)려고 하다 stands alone as a plan — the 하다 holds the intention in the air, no main clause needed. 대중교통 arrives exactly as M48's 대중 note promised, riding M6's (으)로; 둘러보다 sweeps M12's 시내 at browsing speed. Register check: 둘러보기 위해서 would turn this outing into a city-planning memo."
+  },
+  {
+    "id": "s_m50_bus_verge",
+    "en": [
+      { "t": "The bus", "role": "subject", "id": "s" },
+      { "t": "is about to leave.", "role": "verb", "id": "v" },
+      { "t": "Get on", "role": "verb", "id": "w" },
+      { "t": "quickly", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "bus-[subj]", "role": "subject", "id": "s" },
+      { "t": "depart-about-to.", "role": "verb", "id": "v" },
+      { "t": "quickly", "role": "other", "id": "b" },
+      { "t": "ride-please", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "버스가", "role": "subject", "id": "s" },
+      { "t": "출발하려고 해요.", "role": "verb", "id": "v" },
+      { "t": "빨리", "role": "other", "id": "b" },
+      { "t": "타세요", "role": "verb", "id": "w" }
+    ],
+    "rom": "beoseuga chulbalharyeogo haeyo. ppalli taseyo",
+    "wordIds": ["w_beoseu", "w_chulbalhada", "w_ppalli", "w_tada"],
+    "note": "The on-the-verge job: -(으)려고 하다 on a subject with no will of its own — the bus 'intends' to depart, which is Korean for ANY moment now. The same grammar reads the sky: 비가 오려고 해요. M8's 출발하다 supplies the departure, M12's 빨리 the national tempo; the doors close either way."
+  },
+  {
+    "id": "s_m50_jibang_seoul",
+    "en": [
+      { "t": "The provinces", "role": "subject", "id": "s" },
+      { "t": "aren't as crowded", "role": "verb", "id": "v" },
+      { "t": "as Seoul", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "provinces-[topic]", "role": "subject", "id": "s" },
+      { "t": "Seoul-as-much-as", "role": "other", "id": "a" },
+      { "t": "crowded-not", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지방은", "role": "subject", "id": "s" },
+      { "t": "서울만큼", "role": "other", "id": "a" },
+      { "t": "복잡하지 않아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jibangeun seoulmankeum bokjaphaji anayo",
+    "wordIds": ["w_jibang", "w_seoul", "w_bokjaphada"],
+    "note": "M47's 만큼 runs its equative in the negative — not to Seoul's extent — through M28's long negation, and states Korea's oldest geography: the 중심, and everywhere else. 복잡하다 (M22) covers crowds and complications alike. This 지방 is the map's 地方; the snack label's 脂肪 stays on its shelf."
+  },
+  {
+    "id": "s_m50_street_photo",
+    "en": [
+      { "t": "On a street", "role": "place", "id": "p" },
+      { "t": "where people come and go,", "role": "other", "id": "a" },
+      { "t": "I took", "role": "verb", "id": "v" },
+      { "t": "photos", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "people-[subj] come-and-go-[badge]", "role": "other", "id": "a" },
+      { "t": "street-at", "role": "place", "id": "p" },
+      { "t": "photo-[obj]", "role": "object", "id": "o" },
+      { "t": "stamped", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사람들이 오가는", "role": "other", "id": "a" },
+      { "t": "길거리에서", "role": "place", "id": "p" },
+      { "t": "사진을", "role": "object", "id": "o" },
+      { "t": "찍었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "saramdeuri oganeun gilgeorieseo sajineul jjigeosseoyo",
+    "wordIds": ["w_saram", "w_ogada", "w_gilgeori", "w_sajin", "w_jjikda"],
+    "note": "오가다 — M1's 오다 and 가다 welded nose-to-tail — wears M24's badge (-는) and becomes the city's establishing shot: a street with people flowing through it. M27's optional -들 marks the many-ness, and M17's 사진을 찍다 stamps the picture. Street photography, fully machined."
+  },
+  {
+    "id": "s_m50_highway_jam",
+    "en": [
+      { "t": "On the highway,", "role": "place", "id": "p" },
+      { "t": "there was an accident, so", "role": "other", "id": "a" },
+      { "t": "the cars", "role": "subject", "id": "s" },
+      { "t": "aren't moving", "role": "verb", "id": "v" },
+      { "t": "at all", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "highway-at", "role": "place", "id": "p" },
+      { "t": "traffic-accident-[subj] erupt-so", "role": "other", "id": "a" },
+      { "t": "car-[subj]", "role": "subject", "id": "s" },
+      { "t": "at-all", "role": "other", "id": "b" },
+      { "t": "move-not", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "고속도로에서", "role": "place", "id": "p" },
+      { "t": "교통사고가 나서", "role": "other", "id": "a" },
+      { "t": "자동차가", "role": "subject", "id": "s" },
+      { "t": "전혀", "role": "other", "id": "b" },
+      { "t": "움직이지 않아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gosokdoroeseo gyotongsagoga naseo jadongchaga jeonhyeo umjigiji anayo",
+    "wordIds": ["w_gosokdoro", "w_gyotongsago", "w_nada", "w_jadongcha", "w_jeonhyeo", "w_umjigida"],
+    "note": "Two debts settle on one road: M38's 도로 note promised 고속도로 was fully decodable, and M36's 사고 note pre-built 교통사고 — both cashed mid-jam. The accident erupts through M28's 나다, exactly as M36 filed it, and M39's 전혀 demands the negative it always travels with. 움직이다 declines to."
+  },
+  {
+    "id": "s_m50_skyline",
+    "en": [
+      { "t": "These days,", "role": "other", "id": "t" },
+      { "t": "all over downtown,", "role": "place", "id": "p" },
+      { "t": "tall buildings", "role": "subject", "id": "s" },
+      { "t": "are going up", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "downtown place-place-at", "role": "place", "id": "p" },
+      { "t": "tall-[badge] building-[subj]", "role": "subject", "id": "s" },
+      { "t": "step-in-ing-are", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "시내 곳곳에", "role": "place", "id": "p" },
+      { "t": "높은 빌딩이", "role": "subject", "id": "s" },
+      { "t": "들어서고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeum sinae gotgose nopeun bildingi deureoseogo isseoyo",
+    "wordIds": ["w_yojeum", "w_sinae", "w_gotgot", "w_nopda", "w_bilding", "w_deureoseoda"],
+    "note": "들어서다's second job, live: buildings STEP INTO streets, and in Korea they do it in Ring 1's progressive — -고 있다 watching the skyline change in real time. 곳곳 doubles M12's 곳 into the written-register everywhere, M7's 높다 wears M24's badge, and M26's 요즘 timestamps it: this decade, like every decade."
+  },
+  {
+    "id": "s_m50_passed_house",
+    "en": [
+      { "t": "I was thinking so much that", "role": "other", "id": "a" },
+      { "t": "I walked right past", "role": "verb", "id": "v" },
+      { "t": "our own house", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "thought-[obj] too much do-because", "role": "other", "id": "a" },
+      { "t": "our house-[obj]", "role": "object", "id": "o" },
+      { "t": "passed-right-by", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "생각을 너무 많이 해서", "role": "other", "id": "a" },
+      { "t": "우리 집을", "role": "object", "id": "o" },
+      { "t": "지나쳤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "saenggageul neomu mani haeseo uri jibeul jinachyeosseoyo",
+    "wordIds": ["w_saenggakhada", "w_neomu", "w_mani", "w_uri", "w_jip", "w_jinachida"],
+    "note": "지나치다's street sense in its natural habitat: the overshot door, the missed stop — M12's 지나다, pushed past its target. The cause arrives through Ring 1's -아/어서 with M11's 너무 doing the overdoing — which is the pun: too much thinking is 지나친 생각, the adjective sense riding shotgun. M4's 우리 집 makes it worse: he missed his OWN house."
   }
 ]
