@@ -1551,5 +1551,27 @@
       "s_m61_stage_somehow", "s_m61_kimchi_baksa", "s_m61_team_best", "s_m61_noraebang_scream",
       "s_m61_trip_topic", "s_m61_spring_visits", "s_m61_meeting_underway", "s_m61_going_crazy"
     ]
+  },
+  {
+    "id": "m62",
+    "title": "The Adverb Drawer",
+    "order": 71,
+    "ring": 2,
+    "contentMd": "modules/module-62.md",
+    "wordIds": [
+      "w_mucheok", "w_mopsi", "w_neomuna", "w_kkwae",
+      "w_geuri", "w_gyeou", "w_danji", "w_jeogeodo",
+      "w_magu", "w_mak", "w_hamburo", "w_mollae",
+      "w_saljjak", "w_kkamjjak", "w_gadeuk", "w_jantteuk",
+      "w_ontong", "w_jogeumssik", "w_machim", "w_kkeutnae",
+      "w_inje", "w_jeomcha", "w_heunhi", "w_meolli",
+      "w_gakkai", "w_gipi", "w_ttaro", "w_bunmyeonghi",
+      "w_jeongmallo", "w_jeoldaero", "w_ttokgachi", "w_yunanhi",
+      "w_chungbunhi", "w_gedaga", "w_deoguna"
+    ],
+    "sentenceIds": [
+      "s_m62_mak_both", "s_m62_monsoon_ends", "s_m62_fridge_full", "s_m62_all_white",
+      "s_m62_surprise_party", "s_m62_umbrella_gone", "s_m62_station_close", "s_m62_ten_a_day"
+    ]
   }
 ]

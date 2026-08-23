@@ -14493,5 +14493,236 @@
     "rom": "yojeum neomu bappaseo michigesseoyo",
     "wordIds": ["w_yojeum", "w_neomu", "w_bappeuda", "w_michida"],
     "note": "미치다's second life, calibrated for the office: M49's -겠- makes the madness imminent rather than achieved — 미치겠어요 = I'm ABOUT to lose it, which is exactly the distance that keeps it sayable to coworkers. Ring 1's -아서 supplies the cause. The reach-sense stays in the newspapers; this sense does the sweating."
+  },
+  {
+    "id": "s_m62_mak_both",
+    "en": [
+      { "t": "Right when I'd just gotten", "role": "other", "id": "a" },
+      { "t": "home,", "role": "place", "id": "p" },
+      { "t": "my little brother", "role": "subject", "id": "s" },
+      { "t": "was wolfing down", "role": "verb", "id": "v" },
+      { "t": "the snacks", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "home-at", "role": "place", "id": "p" },
+      { "t": "just-now arrived-when", "role": "other", "id": "a" },
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "snacks-[obj]", "role": "object", "id": "o" },
+      { "t": "wildly eat-ing-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "집에", "role": "place", "id": "p" },
+      { "t": "막 도착했을 때", "role": "other", "id": "a" },
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "과자를", "role": "object", "id": "o" },
+      { "t": "막 먹고 있었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jibe mak dochakhaesseul ttae dongsaengi gwajareul mak meokgo isseosseoyo",
+    "wordIds": ["w_jip", "w_mak", "w_dochakhada", "w_dongsaeng", "w_gwaja", "w_meokda"],
+    "note": "막's two dictionary rows in one house: 막 도착했을 때 (M25's -(으)ㄹ 때 catching the moment) is the just-now 막; 막 먹고 있었어요 is 마구 clipped — no aim, no napkin. Same syllable, sorted entirely by its neighbor: an arrival makes it timing, a mess makes it manner."
+  },
+  {
+    "id": "s_m62_monsoon_ends",
+    "en": [
+      { "t": "The monsoon rains", "role": "subject", "id": "s" },
+      { "t": "have finally", "role": "other", "id": "b" },
+      { "t": "stopped.", "role": "verb", "id": "v" },
+      { "t": "And as luck would have it,", "role": "other", "id": "c" },
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "isn't even that hot", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "monsoon-[subj]", "role": "subject", "id": "s" },
+      { "t": "at-long-last", "role": "other", "id": "b" },
+      { "t": "stopped.", "role": "verb", "id": "v" },
+      { "t": "just-in-time", "role": "other", "id": "c" },
+      { "t": "today-[topic]", "role": "other", "id": "t" },
+      { "t": "that-much hot-even not-oh!", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "장마가", "role": "subject", "id": "s" },
+      { "t": "마침내", "role": "other", "id": "b" },
+      { "t": "그쳤어요.", "role": "verb", "id": "v" },
+      { "t": "마침", "role": "other", "id": "c" },
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "그리 덥지도 않네요", "role": "verb", "id": "w" }
+    ],
+    "rom": "jangmaga machimnae geuchyeosseoyo. machim oneureun geuri deopjido anneyo",
+    "wordIds": ["w_jangma", "w_machimnae", "w_geuchida", "w_machim", "w_oneul", "w_geuri", "w_deopda"],
+    "note": "The timing pair, calibrated live: M35's 마침내 releases what was long awaited (M11's 장마, finally 그치다-ed); 마침 credits the lucky coincidence that followed. Then 그리 measures the heat downward with its mandatory negative, and M26's -네요 notices it in real time. Three adverbs, three different clocks."
+  },
+  {
+    "id": "s_m62_fridge_full",
+    "en": [
+      { "t": "At the market", "role": "place", "id": "p" },
+      { "t": "I bought a heap of", "role": "other", "id": "a" },
+      { "t": "fruit", "role": "object", "id": "o" },
+      { "t": "and filled up", "role": "verb", "id": "v" },
+      { "t": "the fridge", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "market-at", "role": "place", "id": "p" },
+      { "t": "fruit-[obj]", "role": "object", "id": "o" },
+      { "t": "loads buy-and", "role": "other", "id": "a" },
+      { "t": "fridge-[obj]", "role": "object", "id": "b" },
+      { "t": "brimful filled", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시장에서", "role": "place", "id": "p" },
+      { "t": "과일을", "role": "object", "id": "o" },
+      { "t": "잔뜩 사서", "role": "other", "id": "a" },
+      { "t": "냉장고를", "role": "object", "id": "b" },
+      { "t": "가득 채웠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sijangeseo gwaireul jantteuk saseo naengjanggoreul gadeuk chaewosseoyo",
+    "wordIds": ["w_sijang", "w_gwail", "w_jantteuk", "w_sada", "w_naengjanggo", "w_gadeuk", "w_chaeuda"],
+    "note": "The quantity set calibrating itself mid-errand: 잔뜩 loads the arms, 가득 tops off the container. M37's 채우다 — whose note decoded the be-full verb 차다 hiding inside it — does the filling, and M13's 냉장고 receives. One shopping trip, two different fullnesses."
+  },
+  {
+    "id": "s_m62_all_white",
+    "en": [
+      { "t": "It snowed, and", "role": "other", "id": "a" },
+      { "t": "the world", "role": "subject", "id": "s" },
+      { "t": "is white all over.", "role": "verb", "id": "v" },
+      { "t": "This winter", "role": "other", "id": "t" },
+      { "t": "seems unusually cold", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "snow-[subj] come-so", "role": "other", "id": "a" },
+      { "t": "world-[subj]", "role": "subject", "id": "s" },
+      { "t": "all-over is-white.", "role": "verb", "id": "v" },
+      { "t": "this-year winter-[topic]", "role": "other", "id": "t" },
+      { "t": "unusually cold-[badge] thing seems", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "눈이 와서", "role": "other", "id": "a" },
+      { "t": "세상이", "role": "subject", "id": "s" },
+      { "t": "온통 하얘요.", "role": "verb", "id": "v" },
+      { "t": "올해 겨울은", "role": "other", "id": "t" },
+      { "t": "유난히 추운 것 같아요", "role": "verb", "id": "w" }
+    ],
+    "rom": "nuni waseo sesangi ontong hayaeyo. olhae gyeoureun yunanhi chuun geot gatayo",
+    "wordIds": ["w_nun_snow", "w_oda", "w_sesang", "w_ontong", "w_hayata", "w_olhae", "w_gyeoul", "w_chupda", "w_yunanhi", "w_gatda_same"],
+    "note": "온통 paints M22's 세상 edge to edge — M49's 하얗다 keeping its ㅑ in 하얘요, exactly as its note drilled — and 유난히 upgrades the weather smalltalk with M34's hedge riding shotgun. Two new adverbs doing what this module promises: same sentence you could always build, now tuned."
+  },
+  {
+    "id": "s_m62_surprise_party",
+    "en": [
+      { "t": "We", "role": "subject", "id": "s" },
+      { "t": "secretly prepared", "role": "verb", "id": "v" },
+      { "t": "a birthday party", "role": "object", "id": "o" },
+      { "t": "and had it waiting.", "role": "other", "id": "d" },
+      { "t": "The second our friend opened the door,", "role": "other", "id": "a" },
+      { "t": "she jumped in surprise", "role": "other", "id": "b" },
+      { "t": "and absolutely loved it", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "we-[topic]", "role": "subject", "id": "s" },
+      { "t": "birthday party-[obj]", "role": "object", "id": "o" },
+      { "t": "secretly prepare", "role": "verb", "id": "v" },
+      { "t": "set-standing.", "role": "other", "id": "d" },
+      { "t": "friend-[subj] door-[obj] open-as-soon-as", "role": "other", "id": "a" },
+      { "t": "startled be-surprised-and", "role": "other", "id": "b" },
+      { "t": "very-much liked", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "우리는", "role": "subject", "id": "s" },
+      { "t": "생일 파티를", "role": "object", "id": "o" },
+      { "t": "몰래 준비해", "role": "verb", "id": "v" },
+      { "t": "놓았어요.", "role": "other", "id": "d" },
+      { "t": "친구가 문을 열자마자", "role": "other", "id": "a" },
+      { "t": "깜짝 놀라고", "role": "other", "id": "b" },
+      { "t": "무척 좋아했어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "urineun saengil patireul mollae junbihae noasseoyo. chinguga muneul yeoljamaja kkamjjak nollago mucheok joahaesseoyo",
+    "wordIds": ["w_uri", "w_saengil", "w_pati", "w_mollae", "w_junbihada", "w_nota", "w_chingu", "w_mun", "w_yeolda", "w_kkamjjak", "w_nollada", "w_mucheok", "w_joahada"],
+    "note": "The manner corner throws a party: 몰래 keeps the secret, M40's -아/어 놓다 banks the preparations, M38's -자마자 times the door, and 깜짝 놀라다 lands the collocation M26's 놀라다 note rehearsed ('깜짝 is the jump itself'). 무척 closes it on the feelings beat, where it lives."
+  },
+  {
+    "id": "s_m62_umbrella_gone",
+    "en": [
+      { "t": "I definitely", "role": "other", "id": "b" },
+      { "t": "put and left", "role": "other", "id": "a" },
+      { "t": "my umbrella", "role": "object", "id": "o" },
+      { "t": "in my bag,", "role": "place", "id": "p" },
+      { "t": "but now", "role": "other", "id": "t" },
+      { "t": "it's not there", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "definitely", "role": "other", "id": "b" },
+      { "t": "umbrella-[obj]", "role": "object", "id": "o" },
+      { "t": "bag-in", "role": "place", "id": "p" },
+      { "t": "put-in stored-but", "role": "other", "id": "a" },
+      { "t": "now", "role": "other", "id": "t" },
+      { "t": "not-exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "분명히", "role": "other", "id": "b" },
+      { "t": "우산을", "role": "object", "id": "o" },
+      { "t": "가방에", "role": "place", "id": "p" },
+      { "t": "넣어 뒀는데", "role": "other", "id": "a" },
+      { "t": "지금", "role": "other", "id": "t" },
+      { "t": "없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bunmyeonghi usaneul gabange neoeo dwonneunde jigeum eopseoyo",
+    "wordIds": ["w_bunmyeonghi", "w_usan", "w_gabang", "w_neota", "w_duda", "w_jigeum", "w_eopda"],
+    "note": "분명히 pays the debt M34's 분명하다 note wrote ('분명히 봤어요 = I DEFINITELY saw it'): eyewitness certainty, sworn. M40's -아/어 두다 filed the umbrella away; M53's -는데 sets up the betrayal. The more 분명히 a Korean sentence starts with, the more missing the umbrella turns out to be."
+  },
+  {
+    "id": "s_m62_station_close",
+    "en": [
+      { "t": "Since I live", "role": "other", "id": "a" },
+      { "t": "close to the station,", "role": "place", "id": "p" },
+      { "t": "to the office", "role": "place", "id": "q" },
+      { "t": "barely ten minutes", "role": "other", "id": "b" },
+      { "t": "is all it takes", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "station near-at", "role": "place", "id": "p" },
+      { "t": "live-so", "role": "other", "id": "a" },
+      { "t": "office-up-to", "role": "place", "id": "q" },
+      { "t": "barely ten minute-only", "role": "other", "id": "b" },
+      { "t": "not takes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "역 가까이에", "role": "place", "id": "p" },
+      { "t": "살아서", "role": "other", "id": "a" },
+      { "t": "회사까지", "role": "place", "id": "q" },
+      { "t": "겨우 십 분밖에", "role": "other", "id": "b" },
+      { "t": "안 걸려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeok gakkaie saraseo hoesakkaji gyeou sip bunbakke an geollyeoyo",
+    "wordIds": ["w_yeok", "w_gakkai", "w_salda", "w_hoesa", "w_gyeou", "w_n_sip", "w_c_bun", "w_geollida"],
+    "note": "가까이 in its noun calling — 역 가까이에 = in the station's near, the second job the list grants it — and 겨우 belittling the commute with M39's 밖에 co-signing the smallness. M12's 걸리다 takes the time; there's barely any to take. The apartment listing writes this exact brag."
+  },
+  {
+    "id": "s_m62_ten_a_day",
+    "en": [
+      { "t": "Every day,", "role": "other", "id": "t" },
+      { "t": "if you memorize", "role": "other", "id": "a" },
+      { "t": "at least ten", "role": "other", "id": "b" },
+      { "t": "words,", "role": "object", "id": "o" },
+      { "t": "your skills", "role": "subject", "id": "s" },
+      { "t": "improve bit by bit", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "every-day", "role": "other", "id": "t" },
+      { "t": "word-[obj]", "role": "object", "id": "o" },
+      { "t": "at-least ten thing-apiece", "role": "other", "id": "b" },
+      { "t": "memorize-if", "role": "other", "id": "a" },
+      { "t": "skill-[subj]", "role": "subject", "id": "s" },
+      { "t": "bit-by-bit gets-better", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "매일", "role": "other", "id": "t" },
+      { "t": "단어를", "role": "object", "id": "o" },
+      { "t": "적어도 열 개씩", "role": "other", "id": "b" },
+      { "t": "외우면", "role": "other", "id": "a" },
+      { "t": "실력이", "role": "subject", "id": "s" },
+      { "t": "조금씩 좋아져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "maeil daneoreul jeogeodo yeol gaessik oeumyeon sillyeogi jogeumssik joajyeoyo",
+    "wordIds": ["w_maeil", "w_daneo", "w_jeogeodo", "w_yeol", "w_c_gae", "w_oeuda", "w_sillyeok", "w_jogeumssik", "w_joajida"],
+    "note": "적어도 sets the negotiator's floor — M7's 적다 through M39's even-if machine, 'even at its fewest' — and M43's 씩 doses it per day. 조금씩 delivers the payoff M43's deck made folklore (조금씩 저축하세요), aimed at M26's 실력 instead of the bank. This app's entire business plan, in one conditional."
   }
 ]
