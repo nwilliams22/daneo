@@ -1425,5 +1425,27 @@
       "s_m55_drive_knowhow", "s_m55_rain_mistake", "s_m55_kimchi_only", "s_m55_no_place_eat",
       "s_m55_famous_line", "s_m55_two_computers", "s_m55_knowitall", "s_m55_tired_rest"
     ]
+  },
+  {
+    "id": "m57",
+    "title": "The Measuring Words",
+    "order": 65,
+    "ring": 2,
+    "contentMd": "modules/module-57.md",
+    "wordIds": [
+      "w_keugi", "w_giri", "w_nopi", "w_muge",
+      "w_sokdo", "w_jeonche", "w_ilbu", "w_nameoji",
+      "w_chai", "w_hyogwa", "w_ganeungseong", "w_gyeoljeong",
+      "w_baljeon", "w_hwaldong", "w_yejeong", "w_gwalli",
+      "w_eommu", "w_yeokhal", "w_haengdong", "w_daepyo",
+      "w_sangdae", "w_gaein", "w_jache", "w_gibon",
+      "w_gicho", "w_ilban", "w_jeonmun", "w_teukbyeol",
+      "w_juyo", "w_jongnyu", "w_jonghap", "w_jilseo",
+      "w_juwi", "w_baegyeong", "w_wollae"
+    ],
+    "sentenceIds": [
+      "s_m57_train_schedule", "s_m57_building_height", "s_m57_health_care", "s_m57_height_diff",
+      "s_m57_rest_tomorrow", "s_m57_morning_roads", "s_m57_work_calls", "s_m57_ceo_singer"
+    ]
   }
 ]

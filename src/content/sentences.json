@@ -13371,5 +13371,182 @@
     "rom": "pigonhal tende jom swiseyo",
     "wordIds": ["w_pigonhada", "w_teo", "w_jogeum", "w_swida"],
     "note": "터's grammar face, squeezed: 터 + 이다 + M53's -ㄴ데 = 텐데 — 'the ground truth will be that you're tired, and given that situation…'. Expectation plus the situation-setter, welded into Korean's gentlest nag. M7's 피곤하다 and M8's 쉬다 have waited fifty modules for this exact kindness."
+  },
+  {
+    "id": "s_m57_train_schedule",
+    "en": [
+      { "t": "The train", "role": "subject", "id": "s" },
+      { "t": "is scheduled to depart", "role": "verb", "id": "v" },
+      { "t": "at nine o'clock", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "train-[as for]", "role": "subject", "id": "s" },
+      { "t": "nine o'clock-at", "role": "other", "id": "t" },
+      { "t": "depart-will schedule-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "기차는", "role": "subject", "id": "s" },
+      { "t": "아홉 시에", "role": "other", "id": "t" },
+      { "t": "출발할 예정입니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "gichaneun ahop sie chulbalhal yejeongimnida",
+    "wordIds": ["w_gicha", "w_ahop", "w_c_si", "w_chulbalhada", "w_yejeong"],
+    "note": "The frame's debut: verb + -(으)ㄹ (the prospective badge you've been using since -(으)ㄹ 때, M25) + 예정입니다 = it is scheduled to. Station boards, itineraries, and wedding invitations all run on it, in 합니다체 — schedules wear suits. M8's 출발하다 supplies the course's oldest departure."
+  },
+  {
+    "id": "s_m57_building_height",
+    "en": [
+      { "t": "That building", "role": "subject", "id": "s" },
+      { "t": "is about a hundred meters", "role": "verb", "id": "v" },
+      { "t": "in height", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "that building-[as for]", "role": "subject", "id": "s" },
+      { "t": "height-[subj]", "role": "other", "id": "a" },
+      { "t": "hundred meter about-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 건물은", "role": "subject", "id": "s" },
+      { "t": "높이가", "role": "other", "id": "a" },
+      { "t": "백 미터 정도예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu geonmureun nopiga baek miteo jeongdoyeyo",
+    "wordIds": ["w_geonmul", "w_nopi", "w_baek", "w_miteo", "w_jeongdo"],
+    "note": "The measure factory delivering: 높다 nouned to 높이, then measured on the double-subject chassis 인기가 많아요 taught you (the building's HEIGHT is the thing that equals 100m). M30's 미터 finally gets a sentence, and M32's 정도 fuzzes the number exactly as its note promised."
+  },
+  {
+    "id": "s_m57_health_care",
+    "en": [
+      { "t": "To manage my health,", "role": "other", "id": "a" },
+      { "t": "I exercise", "role": "verb", "id": "v" },
+      { "t": "every morning", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "health-[obj] manage-in-order-to", "role": "other", "id": "a" },
+      { "t": "morning-every", "role": "other", "id": "t" },
+      { "t": "exercise", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "건강을 관리하기 위해서", "role": "other", "id": "a" },
+      { "t": "아침마다", "role": "other", "id": "t" },
+      { "t": "운동해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geongangeul gwallihagi wihaeseo achimmada undonghaeyo",
+    "wordIds": ["w_geongang", "w_gwalli", "w_achim", "w_undonghada"],
+    "note": "관리 verbs with 하다 the moment it lands, and M44's -기 위해서 aims it: in-order-to-manage. M31's 마다 schedules the regimen, M8's 운동하다 executes it. 건강 관리 is the collocation on every pharmacy poster — self-management, the national hobby."
+  },
+  {
+    "id": "s_m57_height_diff",
+    "en": [
+      { "t": "My older brother and I", "role": "subject", "id": "s" },
+      { "t": "don't really differ", "role": "verb", "id": "v" },
+      { "t": "in height", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "older-brother-with I-[as for]", "role": "subject", "id": "s" },
+      { "t": "height difference-[subj]", "role": "other", "id": "a" },
+      { "t": "not-really not come-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "형하고 저는", "role": "subject", "id": "s" },
+      { "t": "키 차이가", "role": "other", "id": "a" },
+      { "t": "별로 안 나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hyeonghago jeoneun ki chaiga byeollo an nayo",
+    "wordIds": ["w_hyeong", "w_jeo", "w_ki", "w_chai", "w_byeollo", "w_nada"],
+    "note": "차이가 나다: differences ERUPT through M28's 나다, the same door 화가 나다 and 기억나다 use. M17's 별로 demands its negative, as always, and M27's 키 keeps the people-height job so 높이 can keep the buildings. Fully spoken register — brothers get measured back to back."
+  },
+  {
+    "id": "s_m57_rest_tomorrow",
+    "en": [
+      { "t": "Today", "role": "other", "id": "a" },
+      { "t": "I'm doing just a part,", "role": "other", "id": "b" },
+      { "t": "and I plan to do", "role": "verb", "id": "v" },
+      { "t": "the rest", "role": "object", "id": "o" },
+      { "t": "tomorrow", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "today-[as for]", "role": "other", "id": "a" },
+      { "t": "a-part-only do-and", "role": "other", "id": "b" },
+      { "t": "the-rest-[as for]", "role": "object", "id": "o" },
+      { "t": "tomorrow", "role": "other", "id": "t" },
+      { "t": "do-intend", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘은", "role": "other", "id": "a" },
+      { "t": "일부만 하고", "role": "other", "id": "b" },
+      { "t": "나머지는", "role": "object", "id": "o" },
+      { "t": "내일", "role": "other", "id": "t" },
+      { "t": "하려고 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneureun ilbuman hago nameojineun naeil haryeogo haeyo",
+    "wordIds": ["w_oneul", "w_ilbu", "w_hada", "w_nameoji", "w_naeil"],
+    "note": "The fraction trio at work: 일부 now, 나머지 later, the 전체 implied and postponed. M50's -(으)려고 하다 carries the intention, M10's -고 stitches the halves, and 만 rations the effort. Procrastination, but with precise vocabulary."
+  },
+  {
+    "id": "s_m57_morning_roads",
+    "en": [
+      { "t": "Generally,", "role": "other", "id": "a" },
+      { "t": "in the morning", "role": "other", "id": "t" },
+      { "t": "the roads", "role": "subject", "id": "s" },
+      { "t": "are badly congested", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "general-ly", "role": "other", "id": "a" },
+      { "t": "morning-at-[as for]", "role": "other", "id": "t" },
+      { "t": "road-[subj]", "role": "subject", "id": "s" },
+      { "t": "much is-blocked", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "일반적으로", "role": "other", "id": "a" },
+      { "t": "아침에는", "role": "other", "id": "t" },
+      { "t": "길이", "role": "subject", "id": "s" },
+      { "t": "많이 막혀요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ilbanjeogeuro achimeneun giri mani makhyeoyo",
+    "wordIds": ["w_ilban", "w_achim", "w_gil", "w_mani", "w_makhida"],
+    "note": "M45's -적으로 demoed 일반적으로 before the root existed for you; today the root reports and the adverb is legal. Bonus radar, live: this 길이 is M12's road wearing the subject particle — the OTHER 길이 measures trousers. M12's 막히다 does what it has done since s12."
+  },
+  {
+    "id": "s_m57_work_calls",
+    "en": [
+      { "t": "During work hours,", "role": "other", "id": "t" },
+      { "t": "I don't take", "role": "verb", "id": "v" },
+      { "t": "personal calls", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "work-duty time-at-[as for]", "role": "other", "id": "t" },
+      { "t": "individual phone-[obj]", "role": "object", "id": "o" },
+      { "t": "not receive", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "업무 시간에는", "role": "other", "id": "t" },
+      { "t": "개인 전화를", "role": "object", "id": "o" },
+      { "t": "안 받아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eommu siganeneun gaein jeonhwareul an badayo",
+    "wordIds": ["w_eommu", "w_sigan", "w_gaein", "w_jeonhwa", "w_batda"],
+    "note": "업무 and 개인 drawing the line every office draws: work-as-filed versus the individual. The contrast-는 (M8's oldest trick) rules the clause, M20's 전화 gets M9's 받다 refused by 안. When the door sign says 업무 중 (S2's busy-sign machine), this sentence is its policy."
+  },
+  {
+    "id": "s_m57_ceo_singer",
+    "en": [
+      { "t": "Our company's CEO", "role": "subject", "id": "s" },
+      { "t": "was originally", "role": "other", "id": "a" },
+      { "t": "a singer", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "our company representative-[hon.]-[as for]", "role": "subject", "id": "s" },
+      { "t": "originally", "role": "other", "id": "a" },
+      { "t": "singer-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 회사 대표님은", "role": "subject", "id": "s" },
+      { "t": "원래", "role": "other", "id": "a" },
+      { "t": "가수였어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri hoesa daepyonimeun wollae gasuyeosseoyo",
+    "wordIds": ["w_uri", "w_hoesa", "w_daepyo", "w_wollae", "w_gasu"],
+    "note": "대표님 — the title every startup hallway echoes with, 님 attached the way 선수 (M17) taught you titles ride names. 원래 files the backstory in one word (said 월래), and the past copula 였어요 closes the case. Office gossip register: two of today's words, zero extra grammar."
   }
 ]
