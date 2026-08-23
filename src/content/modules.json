@@ -1335,5 +1335,28 @@
       "s_m52_train_gone", "s_m52_just_book", "s_m52_rain_cancel", "s_m52_jeju_grandma",
       "s_m52_airport_greet", "s_m52_souvenir_parcel", "s_m52_inn_two_days", "s_m52_feels_yesterday"
     ]
+  },
+  {
+    "id": "m54",
+    "title": "Under One Roof",
+    "order": 62,
+    "ring": 2,
+    "contentMd": "modules/module-54.md",
+    "wordIds": [
+      "w_jitda", "w_isa", "w_hasukjip", "w_opiseutel",
+      "w_jibung", "w_daemun", "w_madang", "w_jeongwon",
+      "w_oksang", "w_wicheung", "w_araecheung", "w_iutjip",
+      "w_maru", "w_yoksil", "w_mogyoktang", "w_sudonmul",
+      "w_gagu", "w_seorap", "w_keoteun", "w_sangja",
+      "w_sseuregitong", "w_jeongibapsot", "w_seonpunggi", "w_gawi",
+      "w_seolgeoji", "w_ppallae", "w_setak", "w_chiuda",
+      "w_jeongni", "w_kkumida", "w_deopda_cover", "w_nakda",
+      "w_heon", "w_teunteunhada", "w_neolpida", "w_geudaero",
+      "w_maeumdaero", "w_jedaero", "w_p_daero"
+    ],
+    "sentenceIds": [
+      "s_m54_build_country", "s_m54_move_plan", "s_m54_arrive_call", "s_m54_decorate_free",
+      "s_m54_box_leave", "s_m54_washer_old", "s_m54_upstairs_noise", "s_m54_fan_cool"
+    ]
   }
 ]
