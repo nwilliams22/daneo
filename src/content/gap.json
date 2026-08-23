@@ -1672,5 +1672,23 @@
     "lit": "if the price is the same, the crimson skirt",
     "real": "same cost — take the prettier one",
     "note": "M24's 같다 wearing its badge, M20's -(으)면 setting the condition, M21's 치마 wearing the color; 값 (price) and 다홍 (deep crimson) ride frozen. If two things cost the same, why not the beautiful one? Korea's official permission slip for the nicer option — quoted over menus, phone upgrades, and 원룸 listings, anywhere the spreadsheet ties and the heart casts the deciding vote."
+  },
+  {
+    "id": "g_m57_ganeun_mal",
+    "cat": "phrase",
+    "ko": "가는 말이 고와야 오는 말이 곱다",
+    "rom": "ganeun mari gowaya oneun mari gopda",
+    "lit": "only if the going words are lovely are the coming words lovely",
+    "real": "speak kindly if you want to be spoken to kindly — speech round-trips",
+    "note": "The grammar is all yours: M24's badge puts 가다 and 오다 to work as 가는/오는, and M39's -아/어야 sets the only-if condition its module drilled. The fossil is 곱다 (to be fine, lovely — untaught, riding frozen; a ㅂ-irregular, so 고와야). Deployed as a referee's whistle mid-argument: the tone you send is the tone you get back — 상대 included."
+  },
+  {
+    "id": "g_m57_baekjijang",
+    "cat": "phrase",
+    "ko": "백지장도 맞들면 낫다",
+    "rom": "baekjijangdo matdeulmyeon natda",
+    "lit": "even a sheet of blank paper is better lifted together",
+    "real": "many hands make light work — even trivial jobs go better shared",
+    "note": "백지장 (白紙張, a sheet of white paper) and 맞들다 (to lift together — 들다 M28 with a facing partner) ride frozen; the rest is owned: M2's 도 concedes 'even', M20's -(으)면 sets the condition, and M14's 낫다 judges — in its comparative job, the one M38's 훨씬 note flagged with 이게 훨씬 나아요. Quoted whenever someone refuses help out of politeness; the paper does not care who carries it. 나머지는 같이 하면 돼요."
   }
 ]
