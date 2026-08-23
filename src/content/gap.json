@@ -1717,5 +1717,32 @@
     "lit": "YOU go — Hawaii (Busan)",
     "real": "the most famous 사투리 line in Korean film: deflecting an offer back at the offerer",
     "note": "From 친구 (2001), the Busan gangster classic — one friend offers the other an escape to Hawaii and gets the escape handed back. 니 is the southern 네/너 (dodging the 내/네 sound-collision the confusables drill knows all about), 가라 is the plain command M33 taught you to read, and the word order is pure shrug. Quoted nationwide whenever anyone deflects a chore: 설거지? 니가 가라. The line made 부산 사투리 briefly the coolest sound in Korea — the export pipeline's proof of concept."
+  },
+  {
+    "id": "g_m59_kong_pat",
+    "cat": "phrase",
+    "ko": "콩 심은 데 콩 나고 팥 심은 데 팥 난다",
+    "rom": "kong simeun de kong nago pat simeun de pat nanda",
+    "lit": "where beans were planted, beans come up; where red beans were planted, red beans come up",
+    "real": "you reap what you sow — results follow what was actually planted, no exceptions",
+    "note": "A promise kept twice over: M40's 콩 note already quoted the short form (콩 심은 데 콩 난다), and M40's 뿌리다 note said farmers' seeds are 'where every harvest proverb begins' — here is the full harvest. Every part but one is yours: 심다 (this module) wearing the -(으)ㄴ badge (M24), the place-데 (M55), M28's 나다 sprouting on schedule, the -고 connector (M10), and the plain -ㄴ다 close laws of nature are written in. Only 팥 (the red bean) rides frozen. Deployed about parenting, politics, and half-studied exams — the ledger of the soil never miscounts."
+  },
+  {
+    "id": "g_m59_so_gwi",
+    "cat": "phrase",
+    "ko": "소 귀에 경 읽기",
+    "rom": "so gwie gyeong ikgi",
+    "lit": "reading scripture into an ox's ear",
+    "real": "talking to a wall — careful explanation wasted on someone who won't take it in",
+    "note": "소 unfroze one shelf ago, and its first idiom job is patience: M14's 귀 receives, M2's 읽다 nominalizes through -기 (M13), and 경 (the Buddhist sutra — riding frozen) goes unheard. The ox isn't stupid in this proverb — it simply has other priorities, which is exactly how it feels to explain twice. Parents say it about children, teachers about phones-out classrooms, and IT departments about password rules."
+  },
+  {
+    "id": "g_m59_wonsungi",
+    "cat": "phrase",
+    "ko": "원숭이도 나무에서 떨어진다",
+    "rom": "wonsungido namueseo tteoreojinda",
+    "lit": "even monkeys fall from trees",
+    "real": "even the expert slips — mastery doesn't cancel mistakes",
+    "note": "원숭이 (the monkey) rides frozen; everything else is owned — the even-도 (M2) concedes the expertise, M22's 나무 supplies the tree, M36's 떨어지다 does the falling, and the plain -ㄴ다 closes it like a law of nature, which it is. Crucially deployed as COMFORT, not mockery: said to the veteran who just fumbled, the native speaker who misspelled, the chef who burned the rice. You will want it handy for your own Korean."
   }
 ]

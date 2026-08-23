@@ -1464,5 +1464,27 @@
       "s_s4_busan_lunch", "s_s4_grandma_dandi", "s_s4_market_cheap", "s_s4_matda_aiga",
       "s_s4_jeolla_tasty", "s_s4_chungcheong_slow", "s_s4_jeju_sign"
     ]
+  },
+  {
+    "id": "m59",
+    "title": "From the Field",
+    "order": 68,
+    "ring": 2,
+    "contentMd": "modules/module-59.md",
+    "wordIds": [
+      "w_ssal", "w_nongsa", "w_nongeop", "w_nongchon",
+      "w_bat", "w_simda", "w_gakkuda", "w_ttada",
+      "w_galda", "w_sseokda", "w_sinseonhada", "w_gochu",
+      "w_oi", "w_danggeun", "w_sangchu", "w_yangbaechu",
+      "w_namul", "w_kongnamul", "w_oksusu", "w_ttangkong",
+      "w_tomato", "w_saeu", "w_ojingeo", "w_insam",
+      "w_so", "w_songaji", "w_al", "w_yeolmae",
+      "w_garu", "w_milgaru", "w_huchutgaru", "w_sigyongnyu",
+      "w_sikpum", "w_eumnyo"
+    ],
+    "sentenceIds": [
+      "s_m59_grandpa_farming", "s_m59_market_fresh", "s_m59_rice_soak", "s_m59_spring_planting",
+      "s_m59_apples_rot", "s_m59_morning_juice", "s_m59_ox_family", "s_m59_flour_everything"
+    ]
   }
 ]
