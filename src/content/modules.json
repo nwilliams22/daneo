@@ -1529,5 +1529,27 @@
       "s_m58_hallway_titles", "s_m58_seonbae_bill", "s_m58_army_facts", "s_m58_freshman_grad",
       "s_m58_civil_exam", "s_m58_call_center", "s_m58_banjang_voice", "s_m58_call_expert"
     ]
+  },
+  {
+    "id": "m61",
+    "title": "The Verb Sweep",
+    "order": 70,
+    "ring": 2,
+    "contentMd": "modules/module-61.md",
+    "wordIds": [
+      "w_chajaboda", "w_chajaoda", "w_chajagada", "w_ollaoda",
+      "w_neomeogada", "w_eojjeoda", "w_kkeonaeda", "w_naenota",
+      "w_naemilda", "w_tteda", "w_ppopda", "w_sitda",
+      "w_ssata", "w_ssaida", "w_jireuda", "w_data",
+      "w_michida", "w_chwihada", "w_dahada", "w_sokhada",
+      "w_jegonghada", "w_goryeohada", "w_neukkyeojida", "w_eopseojida",
+      "w_mandeureojida", "w_keojida", "w_beoreojida", "w_damgida",
+      "w_bullida", "w_balgyeondoeda", "w_jinhaengdoeda", "w_sayongdoeda",
+      "w_saenggakdoeda", "w_gwallyeondoeda"
+    ],
+    "sentenceIds": [
+      "s_m61_stage_somehow", "s_m61_kimchi_baksa", "s_m61_team_best", "s_m61_noraebang_scream",
+      "s_m61_trip_topic", "s_m61_spring_visits", "s_m61_meeting_underway", "s_m61_going_crazy"
+    ]
   }
 ]

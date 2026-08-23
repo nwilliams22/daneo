@@ -65,6 +65,7 @@ import moduleS4Md from "./modules/module-s4.md?raw";
 import module58Md from "./modules/module-58.md?raw";
 import module59Md from "./modules/module-59.md?raw";
 import module60Md from "./modules/module-60.md?raw";
+import module61Md from "./modules/module-61.md?raw";
 import moduleJunmalMd from "./modules/module-junmal.md?raw";
 import moduleKonglishMd from "./modules/module-konglish.md?raw";
 import moduleS1Md from "./modules/module-s1.md?raw";
@@ -177,6 +178,7 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-58.md": module58Md,
   "modules/module-59.md": module59Md,
   "modules/module-60.md": module60Md,
+  "modules/module-61.md": module61Md,
   "modules/module-junmal.md": moduleJunmalMd,
   "modules/module-konglish.md": moduleKonglishMd,
   "modules/module-s1.md": moduleS1Md,
