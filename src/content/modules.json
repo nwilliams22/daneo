@@ -1290,5 +1290,28 @@
       "s_m50_commute_early", "s_m50_weekend_downtown", "s_m50_bus_verge", "s_m50_jibang_seoul",
       "s_m50_street_photo", "s_m50_highway_jam", "s_m50_skyline", "s_m50_passed_house"
     ]
+  },
+  {
+    "id": "m49",
+    "title": "Reading the Sky",
+    "order": 57,
+    "ring": 2,
+    "contentMd": "modules/module-49.md",
+    "wordIds": [
+      "w_bit", "w_taeyang", "w_jigu", "w_haetbit",
+      "w_haetsal", "w_haetbyeot", "w_geurimja", "w_geuneul",
+      "w_gion", "w_ondo", "w_deowi", "w_chuwi",
+      "w_cheol", "w_sonagi", "w_angae", "w_beongae",
+      "w_cheondung", "w_heuk", "w_morae", "w_bawi",
+      "w_pado", "w_punggyeong", "w_baraboda", "w_ppuri",
+      "w_sonamu", "w_namunnip", "w_nagyeop", "w_horangi",
+      "w_gom", "w_tokki", "w_nalgae", "w_naragada",
+      "w_tteooreuda", "w_parata", "w_hayata", "w_kkamata",
+      "w_norata", "w_ppalgata", "w_pureuda"
+    ],
+    "sentenceIds": [
+      "s_m49_forecast", "s_m49_storm_soon", "s_m49_tteok_yum", "s_m49_surf_resolve",
+      "s_m49_gaze_sea", "s_m49_shade_rest", "s_m49_sunrise_decision", "s_m49_autumn_turns"
+    ]
   }
 ]
