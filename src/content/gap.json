@@ -1510,5 +1510,23 @@
     "lit": "leave while they're clapping",
     "real": "quit while you're ahead — exit at the top",
     "note": "박수 + 치다 (M17) wearing M25's -(으)ㄹ 때, then M23's 떠나다 in the plain command form M32's quote machine taught you to read: leave WHILE the applause is still going, not after it dies. Said of retiring athletes, long-running shows, and third helpings at dinner. The advice every 스타 hears and almost none of them take."
+  },
+  {
+    "id": "g_m50_moro_seoul",
+    "cat": "phrase",
+    "ko": "모로 가도 서울만 가면 된다",
+    "rom": "moro gado seoulman gamyeon doenda",
+    "lit": "even going sideways, as long as you reach Seoul, it's fine",
+    "real": "any road will do if it gets you there — ends over means",
+    "note": "모로 (sideways, crabwise) is the fossil — it barely exists outside this proverb; the rest is all yours: M39's -아/어도 concedes the crooked route, M30's 만 narrows the goal to one city, and 가면 된다 is M23's -(으)면 돼요 wearing the plain -ㄴ다 form M32's quote machine taught you to read. The destination is not incidental: for six hundred years, getting to 서울 (M12) has been the Korean definition of arriving — the whole 중심/지방 tension, folded into one shrug about methods."
+  },
+  {
+    "id": "g_m50_bal_didil",
+    "cat": "phrase",
+    "ko": "발 디딜 틈이 없다",
+    "rom": "bal didil teumi eopda",
+    "lit": "there's no gap to set a foot in",
+    "real": "packed solid — rush-hour trains, festival streets, any place that went viral",
+    "note": "M14's 발 is yours; the phrase carries the rest frozen: 디디다 (to set your foot down) wearing the prospective -(으)ㄹ badge you've met inside -(으)ㄹ 때 (M25), and 틈 (a crack, a sliver of space). When even one footfall can't find floor, the place is FULL — 주말의 명동은 발 디딜 틈이 없어요. The rush-hour 전철's official condition, and the highest compliment a 맛집 can receive."
   }
 ]

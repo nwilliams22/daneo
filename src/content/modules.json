@@ -1267,5 +1267,28 @@
       "s_m51_song_know", "s_m51_concert_yes", "s_m51_sibling_racket", "s_m51_cafe_gayo",
       "s_m51_stage_shout", "s_m51_worldcup_square", "s_m51_contest_resolve", "s_m51_talent_show"
     ]
+  },
+  {
+    "id": "m50",
+    "title": "The Moving City",
+    "order": 58,
+    "ring": 2,
+    "contentMd": "modules/module-50.md",
+    "wordIds": [
+      "w_daedosi", "w_jungsim", "w_jibang", "w_simin",
+      "w_bilding", "w_geonchuk", "w_siseol", "w_gonggan",
+      "w_wichihada", "w_gilgeori", "w_golmokgil", "w_gosokdoro",
+      "w_teoneol", "w_teomineol", "w_majeunpyeon", "w_gotgot",
+      "w_yeogijeogi", "w_daejunggyotong", "w_jeoncheol", "w_yeolcha",
+      "w_jadongcha", "w_seungyongcha", "w_unjeonja", "w_gyotongsago",
+      "w_jucha", "w_umjigida", "w_hyanghada", "w_naseoda",
+      "w_deureoseoda", "w_ogada", "w_geonneogada", "w_omgida",
+      "w_dulleoboda", "w_dagaoda", "w_meomchuda", "w_jinachida",
+      "w_buditchida"
+    ],
+    "sentenceIds": [
+      "s_m50_commute_early", "s_m50_weekend_downtown", "s_m50_bus_verge", "s_m50_jibang_seoul",
+      "s_m50_street_photo", "s_m50_highway_jam", "s_m50_skyline", "s_m50_passed_house"
+    ]
   }
 ]
