@@ -1245,5 +1245,27 @@
       "s_m46_learning_year", "s_m46_how_long_here", "s_m46_married_decade", "s_m46_dad_nineties",
       "s_m46_after_graduation", "s_m46_second_exam", "s_m46_yearend_now", "s_m46_sunset_missing"
     ]
+  },
+  {
+    "id": "m51",
+    "title": "Turn It Up",
+    "order": 59,
+    "ring": 2,
+    "contentMd": "modules/module-51.md",
+    "wordIds": [
+      "w_sorichida", "w_keunsori", "w_tteodeulda", "w_noraetsori",
+      "w_deullyeooda", "w_heulleonaoda", "w_deullyeojuda", "w_teulda",
+      "w_nogeumhada", "w_akgi", "w_buk", "w_rideum",
+      "w_baiollin", "w_baksu", "w_gayo", "w_gasa_lyrics",
+      "w_muyong", "w_mudae", "w_konseoteu", "w_yuhaenghada",
+      "w_seuta", "w_paen", "w_syo", "w_peuro",
+      "w_sirijeu", "w_taelleonteu", "w_churyeonhada", "w_daehoe",
+      "w_chamgahada", "w_gyeonggijang", "w_ollimpik", "w_woldeukeop",
+      "w_useung", "w_ssireum", "w_deonjida", "w_kkeulda"
+    ],
+    "sentenceIds": [
+      "s_m51_song_know", "s_m51_concert_yes", "s_m51_sibling_racket", "s_m51_cafe_gayo",
+      "s_m51_stage_shout", "s_m51_worldcup_square", "s_m51_contest_resolve", "s_m51_talent_show"
+    ]
   }
 ]
