@@ -1,8 +1,11 @@
 # Daneo module-draft brief — shared contract
 
-You are drafting ONE Ring 2 / Band 5 module for Daneo, a word-first Korean-learning
+You are drafting ONE Ring 2 module for Daneo, a word-first Korean-learning
 app at `/mnt/t7/Projects/daneo`. Your module brief file names the module id, order,
-title theme, glue point(s), and the exact word slice.
+title theme, glue point(s) or organizing machines, and the exact word slice.
+Band 6 packs (m55+) are frequency-sliced with root-flavored grouping and are
+GARNISH-FREE: zero beyond-list words — if a note needs an untaught word, it
+rides frozen and glossed.
 
 **You must NOT edit any repo files.** All output goes to NEW files in
 `/tmp/claude-1000/-mnt-t7-Projects-daneo/5875296d-d48e-4391-a030-4e1a50e9a768/scratchpad/`.
@@ -34,7 +37,8 @@ Do not commit anything.
   (이)나 = M43 · 씩 = M43 · -기 위해(서) = M44 · 위한+noun = M44 ·
   -적/-스럽다/-답다/-롭다 factories = M45 · -(으)ㄴ 지 time-since = M46 ·
   께서 = M47 · 만큼 = M47 · -기로 하다 = M48 · -겠- full nuances = M49 ·
-  -(으)려고 (하다) = M50 · -죠 = M51 · -게 adverbializer = M33 ·
+  -(으)려고 (하다) = M50 · -죠 = M51 · -아/어 버리다 = M52 ·
+  -는데/-(으)ㄴ데 = M53 · 대로 = M54 · -게 adverbializer = M33 ·
   -자마자/-(으)면서/-는 동안 = M38 · -아/어지다/-게 되다 = M35.
 - **NIKL sense collapse:** the ledger tracks base strings, so if your slice word's
   NIKL entry is a different sense than your primary teaching sense (check
@@ -52,7 +56,8 @@ payoffs (this word completes something an earlier module promised).
 Never cite a module or an earlier word's note from memory — check every single one.
 If a word you want to lean on isn't taught, don't reference it as taught.
 Module numbers: word `moduleId` fields map m1→Module 1 etc. Words with moduleId
-m31–m39 are Ring 2 Band 4, m40–m51 are shipped Band 5; everything lower is Ring 1.
+m31–m39 are Ring 2 Band 4, m40–m54 are shipped Band 5 (complete); everything
+lower is Ring 1. Band 6 opens at m55.
 
 ## Output files (all in the scratchpad dir; NN = your module number)
 
