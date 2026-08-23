@@ -13908,5 +13908,194 @@
     "rom": "ramyeondo ppangdo da milgaruro mandeuljyo",
     "wordIds": ["w_ramyeon", "w_ppang", "w_da", "w_milgaru", "w_mandeulda"],
     "note": "-죠 (M51) invites agreement with the obvious — and the obvious is true: the postwar wheat pivot put 밀가루 under half the modern menu. The doubled 도 (M2's particle, twice) sweeps both carbs into one basket; (으)로 names the raw material, as it has since Ring 1."
+  },
+  {
+    "id": "s_m60_winter_summer",
+    "en": [
+      { "t": "Winter clothes", "role": "subject", "id": "a" },
+      { "t": "are thick,", "role": "verb", "id": "v1" },
+      { "t": "and summer clothes", "role": "subject", "id": "b" },
+      { "t": "are thin", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "winter clothes-[as for]", "role": "subject", "id": "a" },
+      { "t": "thick-and", "role": "verb", "id": "v1" },
+      { "t": "summer clothes-[as for]", "role": "subject", "id": "b" },
+      { "t": "are-thin", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울 옷은", "role": "subject", "id": "a" },
+      { "t": "두껍고", "role": "verb", "id": "v1" },
+      { "t": "여름 옷은", "role": "subject", "id": "b" },
+      { "t": "얇아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeoul oseun dukkeopgo yeoreum oseun yalbayo",
+    "wordIds": ["w_gyeoul", "w_ot", "w_dukkeopda", "w_yeoreum", "w_yalda"],
+    "note": "The geometry law in one breath: clothes are FLAT, so they take 두껍다/얇다 — never 굵다/가늘다. The oldest connective -고 (M10) balances the pair while the contrast-는 does the seasonal bookkeeping. Say it while packing and the suitcase sorts itself."
+  },
+  {
+    "id": "s_m60_rain_thickens",
+    "en": [
+      { "t": "The rain", "role": "subject", "id": "s" },
+      { "t": "has gotten heavier, so", "role": "verb", "id": "v1" },
+      { "t": "open", "role": "verb", "id": "v" },
+      { "t": "your umbrella", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj]", "role": "subject", "id": "s" },
+      { "t": "thick-became-so", "role": "verb", "id": "v1" },
+      { "t": "umbrella-[obj]", "role": "object", "id": "o" },
+      { "t": "open-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가", "role": "subject", "id": "s" },
+      { "t": "굵어졌으니까", "role": "verb", "id": "v1" },
+      { "t": "우산을", "role": "object", "id": "o" },
+      { "t": "펴세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga gulgeojyeosseunikka usaneul pyeoseyo",
+    "wordIds": ["w_bi", "w_gukda", "w_usan", "w_pyeoda"],
+    "note": "Raindrops are ROUND, so growing rain 굵어져요 — 굵다 riding the -아/어지다 becoming-machine (M35), with -(으)니까 (M10) drawing the conclusion. 펴다 opens M9's 우산 the way it opens books and backs. English rain gets heavy; Korean rain gets thick."
+  },
+  {
+    "id": "s_m60_dense_fog",
+    "en": [
+      { "t": "This morning", "role": "other", "id": "t" },
+      { "t": "the fog", "role": "subject", "id": "s" },
+      { "t": "was so dense that", "role": "verb", "id": "v1" },
+      { "t": "up ahead", "role": "other", "id": "a" },
+      { "t": "you could barely see", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "morning-at", "role": "other", "id": "t" },
+      { "t": "fog-[subj]", "role": "subject", "id": "s" },
+      { "t": "dense-so", "role": "verb", "id": "v1" },
+      { "t": "front-[subj]", "role": "other", "id": "a" },
+      { "t": "well not was-seen", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아침에", "role": "other", "id": "t" },
+      { "t": "안개가", "role": "subject", "id": "s" },
+      { "t": "짙어서", "role": "verb", "id": "v1" },
+      { "t": "앞이", "role": "other", "id": "a" },
+      { "t": "잘 안 보였어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "achime angaega jiteoseo api jal an boyeosseoyo",
+    "wordIds": ["w_achim", "w_angae", "w_jitda_dense", "w_ap", "w_jal", "w_boida"],
+    "note": "짙다 on home turf — M49's 안개 finally gets its proper adjective. The passive party's 보이다 (M36) reports what reached the eye: 안 보였어요, nothing did. Calibrate the dial as you drive: fog is 짙다, never 진하다 — density, not strength."
+  },
+  {
+    "id": "s_m60_coffee_dial",
+    "en": [
+      { "t": "This coffee", "role": "subject", "id": "s" },
+      { "t": "is dark in color,", "role": "other", "id": "a" },
+      { "t": "but mild in taste", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this coffee-[as for]", "role": "subject", "id": "s" },
+      { "t": "color-[as for] is-dark-but", "role": "other", "id": "a" },
+      { "t": "taste-[as for] is-mild", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 커피는", "role": "subject", "id": "s" },
+      { "t": "색은 진한데", "role": "other", "id": "a" },
+      { "t": "맛은 연해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i keopineun saegeun jinhande maseun yeonhaeyo",
+    "wordIds": ["w_keopi", "w_saek", "w_jinhada", "w_mat", "w_yeonhada"],
+    "note": "Both knobs of the intensity dial in one cup: 진하다 up, 연하다 down, hinged on the -는데 contrast M53 formalized. The doubled contrast-는 (색은... 맛은) is the course's oldest trick doing precision work. Reviews of hand-drip cafés read exactly like this."
+  },
+  {
+    "id": "s_m60_worldcup_red",
+    "en": [
+      { "t": "During the World Cup,", "role": "other", "id": "t" },
+      { "t": "the whole city", "role": "subject", "id": "s" },
+      { "t": "was red", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "World-Cup time-[as for]", "role": "other", "id": "t" },
+      { "t": "whole city-[subj]", "role": "subject", "id": "s" },
+      { "t": "red-color-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "월드컵 때는", "role": "other", "id": "t" },
+      { "t": "온 도시가", "role": "subject", "id": "s" },
+      { "t": "붉은색이었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "woldeukeop ttaeneun on dosiga bulgeunsaegieosseoyo",
+    "wordIds": ["w_woldeukeop", "w_ttae", "w_on", "w_dosi", "w_bukda", "w_saek"],
+    "note": "M51's 월드컵 note put 'entire cities in red shirts' on the record; now you can SAY it — 붉다 wearing the badge, welded to 색 by the M7 rule that builds every color noun. 온 (M55) spreads the red over the whole 도시 (M22). The shirts belong to the 붉은 악마 — the Red Devils; the vocab note holds the name."
+  },
+  {
+    "id": "s_m60_necktie",
+    "en": [
+      { "t": "Father", "role": "subject", "id": "s" },
+      { "t": "in front of the mirror,", "role": "place", "id": "p" },
+      { "t": "is tying", "role": "verb", "id": "v" },
+      { "t": "his necktie", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "father-[hon.subj]", "role": "subject", "id": "s" },
+      { "t": "mirror front-at", "role": "place", "id": "p" },
+      { "t": "necktie-[obj]", "role": "object", "id": "o" },
+      { "t": "tie-ing is-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아버지께서", "role": "subject", "id": "s" },
+      { "t": "거울 앞에서", "role": "place", "id": "p" },
+      { "t": "넥타이를", "role": "object", "id": "o" },
+      { "t": "매고 계세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "abeojikkeseo geoul apeseo nektaireul maego gyeseyo",
+    "wordIds": ["w_abeoji", "w_geoul", "w_ap", "w_nektai", "w_maeda", "w_gyesida"],
+    "note": "매다 lands on the tie M21 dressed with the all-purpose 넥타이를 해요 — the knot finally has its own verb. 께서 (M47) lifts the subject and 계시다 (M4) lifts the progressive to match: honorifics agree end to end. 거울 (M13) frames the morning scene."
+  },
+  {
+    "id": "s_m60_last_piece",
+    "en": [
+      { "t": "There's only one piece", "role": "other", "id": "o" },
+      { "t": "of the cake", "role": "subject", "id": "s" },
+      { "t": "left", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "cake-[subj]", "role": "subject", "id": "s" },
+      { "t": "one piece-nothing-but", "role": "other", "id": "o" },
+      { "t": "not remained", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "케이크가", "role": "subject", "id": "s" },
+      { "t": "한 조각밖에", "role": "other", "id": "o" },
+      { "t": "안 남았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "keikeuga han jogakbakke an namasseoyo",
+    "wordIds": ["w_keikeu", "w_hana", "w_jogak", "w_namda"],
+    "note": "조각 on counter duty — 한 조각 of M19's 케이크 — inside the 밖에+negative frame M39 drilled: nothing-but-one-piece not-remains. 남다 (M35) files the leftovers. English says 'only one left'; the Korean grammar performs the scarcity."
+  },
+  {
+    "id": "s_m60_paper_boat",
+    "en": [
+      { "t": "The kids", "role": "subject", "id": "s" },
+      { "t": "folded", "role": "verb", "id": "v1" },
+      { "t": "paper", "role": "object", "id": "o" },
+      { "t": "and made", "role": "verb", "id": "v" },
+      { "t": "little boats", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "kids-[subj]", "role": "subject", "id": "s" },
+      { "t": "paper-[obj]", "role": "object", "id": "o" },
+      { "t": "fold-and-then", "role": "verb", "id": "v1" },
+      { "t": "small boat-[obj]", "role": "object", "id": "b" },
+      { "t": "made", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아이들이", "role": "subject", "id": "s" },
+      { "t": "종이를", "role": "object", "id": "o" },
+      { "t": "접어서", "role": "verb", "id": "v1" },
+      { "t": "작은 배를", "role": "object", "id": "b" },
+      { "t": "만들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "aideuri jongireul jeobeoseo jageun baereul mandeureosseoyo",
+    "wordIds": ["w_ai", "w_jongi", "w_jeopda", "w_jakda", "w_bae", "w_mandeulda"],
+    "note": "접다's debut, and a radar going live: this 배 is the BOAT — the third career M3's 배 note filed ('also pear and boat'). 종이 (M15) folds into 종이접기 territory, and -아서 chains the folding to the launching. Fleet-building remains a rainy-day national pastime."
   }
 ]

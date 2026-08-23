@@ -1744,5 +1744,32 @@
     "lit": "even monkeys fall from trees",
     "real": "even the expert slips — mastery doesn't cancel mistakes",
     "note": "원숭이 (the monkey) rides frozen; everything else is owned — the even-도 (M2) concedes the expertise, M22's 나무 supplies the tree, M36's 떨어지다 does the falling, and the plain -ㄴ다 closes it like a law of nature, which it is. Crucially deployed as COMFORT, not mockery: said to the veteran who just fumbled, the native speaker who misspelled, the chef who burned the rice. You will want it handy for your own Korean."
+  },
+  {
+    "id": "g_m60_munuiman",
+    "cat": "concept",
+    "ko": "무늬만 대학생",
+    "rom": "munuiman daehaksaeng",
+    "lit": "a college student in pattern only",
+    "real": "in name only — the label without the substance",
+    "note": "Take 무늬, add the only-particle 만 (M30), prefix any title: a 무늬만 대학생 (M15) never opens a book, a 무늬만 부부 (M25) share only the registry, a 무늬만 사장님 (M9) has no actual say. The pattern without the tiger — Korean files hollowness as a textile problem. Endlessly productive, and best deployed on yourself for charm: 저는 무늬만 학생이에요."
+  },
+  {
+    "id": "g_m60_geum_gutda",
+    "cat": "phrase",
+    "ko": "금을 긋다",
+    "rom": "geumeul geutda",
+    "lit": "to draw a line",
+    "real": "to draw THE line — set a boundary and mean it",
+    "note": "The C-sense of 금 at work: not gold but the LINE — the mark chalk leaves and floors crack into. 긋다 (to draw a line, riding frozen) is ㅅ-irregular, seat four in the family M14's 낫다 opened and M40's 젓다 and M54's 짓다 filled: 그어요, 그은. Negotiations, relationships, and siblings sharing a room all end the same way — 금을 긋고, this side mine, that side yours."
+  },
+  {
+    "id": "g_m60_bae_baekkop",
+    "cat": "phrase",
+    "ko": "배보다 배꼽이 크다",
+    "rom": "baeboda baekkobi keuda",
+    "lit": "the navel is bigger than the belly",
+    "real": "the extras outgrew the main thing — shipping that beats the item price",
+    "note": "Every word is already yours: M3's 배 in its belly career (that note filed pear and boat too), 배꼽 (M41 — anchor of the polite bow), the comparative 보다 (M22), and M1's 크다. Deployed at checkout whenever the 배송비 (shipping fee, riding frozen) beats the item, or when the wrapping outclasses the gift. The anatomy is impossible; the economics are daily."
   }
 ]

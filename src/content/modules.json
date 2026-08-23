@@ -1486,5 +1486,27 @@
       "s_m59_grandpa_farming", "s_m59_market_fresh", "s_m59_rice_soak", "s_m59_spring_planting",
       "s_m59_apples_rot", "s_m59_morning_juice", "s_m59_ox_family", "s_m59_flour_everything"
     ]
+  },
+  {
+    "id": "m60",
+    "title": "Shapes & Textures",
+    "order": 69,
+    "ring": 2,
+    "contentMd": "modules/module-60.md",
+    "wordIds": [
+      "w_gukda", "w_ganeulda", "w_dukkeopda", "w_yalda",
+      "w_yatda", "w_dunggeulda", "w_ttakttakhada", "w_jinhada",
+      "w_yeonhada", "w_jitda_dense", "w_huida", "w_geomda",
+      "w_bukda", "w_keodarata", "w_jogeumata", "w_kkamansaek",
+      "w_geomjeongsaek", "w_galsaek", "w_hoesaek", "w_noksaek",
+      "w_munui", "w_julmunui", "w_pok", "w_geum",
+      "w_gajuk", "w_gumeong", "w_jogak", "w_pyeoda",
+      "w_jeopda", "w_ppeotda", "w_beollida", "w_mukda_tie",
+      "w_maeda"
+    ],
+    "sentenceIds": [
+      "s_m60_winter_summer", "s_m60_rain_thickens", "s_m60_dense_fog", "s_m60_coffee_dial",
+      "s_m60_worldcup_red", "s_m60_necktie", "s_m60_last_piece", "s_m60_paper_boat"
+    ]
   }
 ]
