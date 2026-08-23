@@ -11739,5 +11739,212 @@
     "rom": "haega jil muryeobui haneureul bomyeon eorin sijeori geuriwoyo",
     "wordIds": ["w_hae", "w_jida_lose", "w_muryeop", "w_haneul", "w_boda", "w_eorida", "w_sijeol", "w_geuripda"],
     "note": "무렵 rides M25's third badge exactly like 때 — but fuzzier, because dusk has no timestamp. M17's 지다 finally works the sunset job its note promised, 어린 시절 is M21's 어리다 wearing M24's badge on nostalgia's own noun, and M42's 그립다 does the missing. The module's whole thesis in one exhale."
+  },
+  {
+    "id": "s_m51_song_know",
+    "en": [
+      { "t": "You know", "role": "verb", "id": "v" },
+      { "t": "this song,", "role": "object", "id": "a" },
+      { "t": "right? These days", "role": "other", "id": "t" },
+      { "t": "it's everywhere", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "this song", "role": "object", "id": "a" },
+      { "t": "know-right?", "role": "verb", "id": "v" },
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "trending-is", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "이 노래", "role": "object", "id": "a" },
+      { "t": "알죠?", "role": "verb", "id": "v" },
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "유행하고 있어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "i norae aljyo? yojeum yuhaenghago isseoyo",
+    "wordIds": ["w_i_det", "w_norae", "w_alda", "w_yojeum", "w_yuhaenghada"],
+    "note": "-죠's debut, in its tag-question job: the 준말 reading promised -지요 would collapse into -죠 for Ring 2 — paid. The tag points at ground you're SURE is shared and asks only for a nod — where M42's -잖아요 reminds and -거든요 informs, -죠 confirms. 유행하다 conjugates M21's 유행 inside Ring 1's progressive; particles drop off 이 노래 the way speech likes."
+  },
+  {
+    "id": "s_m51_concert_yes",
+    "en": [
+      { "t": "Shall we go", "role": "verb", "id": "v" },
+      { "t": "to a concert", "role": "place", "id": "p" },
+      { "t": "together?", "role": "other", "id": "b" },
+      { "t": "Sure!", "role": "verb", "id": "w" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "am a fan too", "role": "verb", "id": "x" },
+      { "t": "of that singer", "role": "other", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "together", "role": "other", "id": "b" },
+      { "t": "concert-to", "role": "place", "id": "p" },
+      { "t": "go-shall-we?", "role": "verb", "id": "v" },
+      { "t": "good-of-course!", "role": "verb", "id": "w" },
+      { "t": "I-also", "role": "subject", "id": "s" },
+      { "t": "that singer", "role": "other", "id": "o" },
+      { "t": "fan-am", "role": "verb", "id": "x" }
+    ],
+    "ko": [
+      { "t": "같이", "role": "other", "id": "b" },
+      { "t": "콘서트에", "role": "place", "id": "p" },
+      { "t": "갈까요?", "role": "verb", "id": "v" },
+      { "t": "좋죠!", "role": "verb", "id": "w" },
+      { "t": "저도", "role": "subject", "id": "s" },
+      { "t": "그 가수", "role": "other", "id": "o" },
+      { "t": "팬이에요", "role": "verb", "id": "x" }
+    ],
+    "rom": "gachi konseoteue galkkayo? jochyo! jeodo geu gasu paenieyo",
+    "wordIds": ["w_gachi", "w_konseoteu", "w_gada", "w_jota", "w_jeo", "w_geu_det", "w_gasu", "w_paen"],
+    "note": "-죠's second job: the of-course answer. M9's -(으)ㄹ까요 proposes; 좋죠! accepts with the warmth of 'obviously yes' — flat 좋아요 agrees, 좋죠 co-signs. Then 팬 clocks in on its fandom sense, the one Korea actually runs on. The whole exchange is two people confirming what they already share — -죠's entire worldview."
+  },
+  {
+    "id": "s_m51_sibling_racket",
+    "en": [
+      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "is making a racket", "role": "other", "id": "a" },
+      { "t": "so loudly", "role": "other", "id": "b" },
+      { "t": "in the next room", "role": "place", "id": "p" },
+      { "t": "that the music", "role": "subject", "id": "c" },
+      { "t": "is impossible to hear", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "next-room-at", "role": "place", "id": "p" },
+      { "t": "noisily", "role": "other", "id": "b" },
+      { "t": "racket-make-so", "role": "other", "id": "a" },
+      { "t": "music-[subj]", "role": "subject", "id": "c" },
+      { "t": "not is-heard", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "옆방에서", "role": "place", "id": "p" },
+      { "t": "시끄럽게", "role": "other", "id": "b" },
+      { "t": "떠들어서", "role": "other", "id": "a" },
+      { "t": "음악이", "role": "subject", "id": "c" },
+      { "t": "안 들려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengi yeopbangeseo sikkeureopge tteodeureoseo eumagi an deullyeoyo",
+    "wordIds": ["w_dongsaeng", "w_yeop", "w_bang", "w_sikkeureopda", "w_tteodeulda", "w_eumak", "w_deullida"],
+    "note": "떠들다 in its natural habitat, convicted by its own noise: M33's -게 turns M13's 시끄럽다 into the manner, Ring 1's -아서 chains cause to casualty, and M36's 들리다 files the damage report — with 안, perception denied. The 동생 remains, as in M40's BBQ verdict, the household's designated culprit."
+  },
+  {
+    "id": "s_m51_cafe_gayo",
+    "en": [
+      { "t": "When an old pop song", "role": "subject", "id": "s" },
+      { "t": "comes flowing out", "role": "other", "id": "a" },
+      { "t": "of a cafe,", "role": "place", "id": "p" },
+      { "t": "my mother comes to mind", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "cafe-from", "role": "place", "id": "p" },
+      { "t": "old-days pop-song-[subj]", "role": "subject", "id": "s" },
+      { "t": "flow-out-if", "role": "other", "id": "a" },
+      { "t": "mother thought-[subj] arises", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "카페에서", "role": "place", "id": "p" },
+      { "t": "옛날 가요가", "role": "subject", "id": "s" },
+      { "t": "흘러나오면", "role": "other", "id": "a" },
+      { "t": "어머니 생각이 나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "kapeeseo yennal gayoga heulleonaomyeon eomeoni saenggagi nayo",
+    "wordIds": ["w_kape", "w_yennal", "w_gayo", "w_heulleonaoda", "w_eomeoni", "w_saenggakhada", "w_nada"],
+    "note": "흐르다 (M35) + 나오다 (M28), welded: music escapes doorways in a stream. M20's -(으)면 makes it a standing law of the heart, and 생각이 나요 shows how Korean memories arrive — they erupt (M28's 나다), unbidden. 가요 does its register work: not a song but THE genre, the one whole decades hum in."
+  },
+  {
+    "id": "s_m51_stage_shout",
+    "en": [
+      { "t": "The moment the singer took the stage,", "role": "other", "id": "a" },
+      { "t": "the fans", "role": "subject", "id": "s" },
+      { "t": "screamed", "role": "verb", "id": "v" },
+      { "t": "while clapping along", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "singer-[subj] stage-on climb-as-soon-as", "role": "other", "id": "a" },
+      { "t": "fan-s-[subj]", "role": "subject", "id": "s" },
+      { "t": "applause-[obj] strike-while", "role": "other", "id": "b" },
+      { "t": "shouted", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "가수가 무대에 오르자마자", "role": "other", "id": "a" },
+      { "t": "팬들이", "role": "subject", "id": "s" },
+      { "t": "박수를 치면서", "role": "other", "id": "b" },
+      { "t": "소리쳤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gasuga mudaee oreujamaja paendeuri baksureul chimyeonseo sorichyeosseoyo",
+    "wordIds": ["w_gasu", "w_mudae", "w_oreuda", "w_paen", "w_baksu", "w_chida", "w_sorichida"],
+    "note": "M38 twice in one breath: -자마자 clocks the entrance, -(으)면서 runs hands and voice in parallel. 무대에 오르다 extends M22's 오르다 (mountains, stairs, prices — now performers), and 박수를 치다 hands M17's strike-play verb yet another job, beside 소리치다's. A Korean crowd claps ON the beat; this sentence is the sound of that."
+  },
+  {
+    "id": "s_m51_worldcup_square",
+    "en": [
+      { "t": "During the World Cup,", "role": "other", "id": "t" },
+      { "t": "we", "role": "subject", "id": "s" },
+      { "t": "all cheered", "role": "verb", "id": "v" },
+      { "t": "together", "role": "other", "id": "b" },
+      { "t": "in the square", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "World-Cup time", "role": "other", "id": "t" },
+      { "t": "we-[topic]", "role": "subject", "id": "s" },
+      { "t": "square-at", "role": "place", "id": "p" },
+      { "t": "all together", "role": "other", "id": "b" },
+      { "t": "cheered", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "월드컵 때", "role": "other", "id": "t" },
+      { "t": "우리는", "role": "subject", "id": "s" },
+      { "t": "광장에서", "role": "place", "id": "p" },
+      { "t": "다 같이", "role": "other", "id": "b" },
+      { "t": "응원했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "woldeukeop ttae urineun gwangjangeseo da gachi eungwonhaesseoyo",
+    "wordIds": ["w_woldeukeop", "w_ttae", "w_uri", "w_gwangjang", "w_da", "w_gachi", "w_eungwonhada"],
+    "note": "June 2002, the summer the country wore red: M23's 광장 note said Seoul gathers there to celebrate — this is the celebration it meant. M17's 응원하다 scales from one team to one nation, and noun + 때 (M25's machinery) timestamps a whole era. The chant itself waits in the gap deck, claps included."
+  },
+  {
+    "id": "s_m51_contest_resolve",
+    "en": [
+      { "t": "Next month", "role": "other", "id": "t" },
+      { "t": "I've decided to compete", "role": "verb", "id": "v" },
+      { "t": "in a Korean speaking contest", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "next month-at", "role": "other", "id": "t" },
+      { "t": "Korean speaking contest-in", "role": "other", "id": "a" },
+      { "t": "participate-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다음 달에", "role": "other", "id": "t" },
+      { "t": "한국어 말하기 대회에", "role": "other", "id": "a" },
+      { "t": "참가하기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daeum dare hangugeo malhagi daehoee chamgahagiro haesseoyo",
+    "wordIds": ["w_daeum", "w_dal", "w_hangugeo", "w_malhada", "w_daehoe", "w_chamgahada"],
+    "note": "M48's decision machine (-기로 하다) meets M13's -기 twice over: 말하기 nouns the speaking that names the 대회, and 참가하기로 puts your name on the roster. 대회에 참가하다 — the joining verb takes 에. Learner speaking contests are a real circuit in Korea; consider this sentence a dare."
+  },
+  {
+    "id": "s_m51_talent_show",
+    "en": [
+      { "t": "What show", "role": "other", "id": "a" },
+      { "t": "does that drama actor", "role": "subject", "id": "s" },
+      { "t": "appear on", "role": "verb", "id": "v" },
+      { "t": "these days?", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "that TV-actor-[topic]", "role": "subject", "id": "s" },
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "what program-on", "role": "other", "id": "a" },
+      { "t": "appears?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 탤런트는", "role": "subject", "id": "s" },
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "무슨 프로에", "role": "other", "id": "a" },
+      { "t": "출연해요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu taelleonteuneun yojeum museun peuroe churyeonhaeyo",
+    "wordIds": ["w_geu_det", "w_taelleonteu", "w_yojeum", "w_museun", "w_peuro", "w_churyeonhada"],
+    "note": "프로 in its TV sense — the clip M32's 프로그램 note promised, now on duty with M10's 무슨. 출연하다 is how Korean gets ON a screen (out through 출구's 出, performing with 공연's 演), and 탤런트 is the false friend behaving itself: a drama actor, no talent implied or denied."
   }
 ]
