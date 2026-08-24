@@ -14904,5 +14904,206 @@
     "rom": "jigeum ureodo soyongeopseoyo",
     "wordIds": ["w_jigeum", "w_ulda", "w_soyongeopda"],
     "note": "소용없다 closes the door that the -아/어도 concession (M39) opens: the tears are granted — cry away (M7's 울다) — and the outcome still doesn't move. Blunter than 괜찮아요: not 'it's okay' but 'it won't help.' Said by parents at toy-store exits nationwide."
+  },
+  {
+    "id": "s_m64_application_chain",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s1" },
+      { "t": "register the application", "role": "object", "id": "o1" },
+      { "t": "and when I", "role": "verb", "id": "v1" },
+      { "t": "submit it,", "role": "other", "id": "o2" },
+      { "t": "the confirmation", "role": "object", "id": "o3" },
+      { "t": "goes through", "role": "verb", "id": "v2" },
+      { "t": "and the report is relayed.", "role": "verb", "id": "v3" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s1" },
+      { "t": "application-[obj]", "role": "object", "id": "o1" },
+      { "t": "register-do-and", "role": "verb", "id": "v1" },
+      { "t": "submit-if", "role": "other", "id": "o2" },
+      { "t": "confirmation-[subj]", "role": "object", "id": "o3" },
+      { "t": "come-through-become", "role": "verb", "id": "v2" },
+      { "t": "report-relay-become", "role": "verb", "id": "v3" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s1" },
+      { "t": "신청을", "role": "object", "id": "o1" },
+      { "t": "등록하고", "role": "verb", "id": "v1" },
+      { "t": "제출하면", "role": "other", "id": "o2" },
+      { "t": "확인이", "role": "object", "id": "o3" },
+      { "t": "되고", "role": "verb", "id": "v2" },
+      { "t": "보고가 전달돼요.", "role": "verb", "id": "v3" }
+    ],
+    "rom": "jeoneun sincheongeul deungnokhago jechulhamyeon hwagini doego bogoga jeondaldwaeyo.",
+    "wordIds": ["w_jeo", "w_sincheong", "w_deungnok", "w_jechulhada", "w_hwagin", "w_doeda", "w_bogo", "w_jeondalhada"],
+    "note": "The application axis, run as one long verb chain: 신청 → 등록 → 제출 → 확인 (the noun) → 전달 — the five steps you now own. The -고 chaining (M10) hands each step to the next, and -면 (M20) gates the last two: file, register, submit, it comes through, it gets relayed. M6's 은행 sits at the far end of the counter, waiting for the whole chain."
+  },
+  {
+    "id": "s_m64_rule_ladder",
+    "en": [
+      { "t": "The firm", "role": "subject", "id": "s1" },
+      { "t": "hands down the order", "role": "verb", "id": "v1" },
+      { "t": "and the rule permits it;", "role": "other", "id": "o1" },
+      { "t": "it sets the cap;", "role": "other", "id": "o2" },
+      { "t": "cross the cap", "role": "other", "id": "o3" },
+      { "t": "and it becomes a violation.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "firm-[subj]", "role": "subject", "id": "s1" },
+      { "t": "order-hand-down-and", "role": "verb", "id": "v1" },
+      { "t": "rule-let-in-and", "role": "other", "id": "o1" },
+      { "t": "cap-set-and", "role": "other", "id": "o2" },
+      { "t": "cap-cross-if", "role": "other", "id": "o3" },
+      { "t": "violation-become", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "회사가", "role": "subject", "id": "s1" },
+      { "t": "명령하고", "role": "verb", "id": "v1" },
+      { "t": "규칙이 허용하고", "role": "other", "id": "o1" },
+      { "t": "제한하는데", "role": "other", "id": "o2" },
+      { "t": "넘으면", "role": "other", "id": "o3" },
+      { "t": "위반이 돼요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "hoesaga myeongnyeonghago gyuchigi heoyonghago jehanhaneunde neomeumyeon wibani dwaeyo.",
+    "wordIds": ["w_hoesa", "w_myeongnyeong", "w_gyuchik", "w_heoyonghada", "w_jehan", "w_neomda", "w_wiban", "w_doeda"],
+    "note": "The rule ladder, rung by rung: the firm (M2's 회사) hands down a 명령, the rule (M39's 규칙) lets it through (허용하다), the 제한 (limit) is set — and M36's 넘다 draws the line. Cross it and the 위반 (breach) fires, with M10's 되다 sealing the verdict. One axis: command → permission → cap → breach."
+  },
+  {
+    "id": "s_m64_credit_card",
+    "en": [
+      { "t": "If the credit is good,", "role": "other", "id": "o1" },
+      { "t": "the bank", "role": "subject", "id": "s1" },
+      { "t": "approves the card application.", "role": "verb", "id": "v1" }
+    ],
+    "gloss": [
+      { "t": "credit-good-[subj]-if", "role": "other", "id": "o1" },
+      { "t": "bank-[subj]", "role": "subject", "id": "s1" },
+      { "t": "card application-[obj] permit", "role": "verb", "id": "v1" }
+    ],
+    "ko": [
+      { "t": "신용이 좋으면", "role": "other", "id": "o1" },
+      { "t": "은행이", "role": "subject", "id": "s1" },
+      { "t": "카드 신청을 허용해요.", "role": "verb", "id": "v1" }
+    ],
+    "rom": "sinyongi joeumyeon eunhaengi kadeu sincheongeul heoyonghaeyo.",
+    "wordIds": ["w_sinyong", "w_jota", "w_eunhaeng", "w_kadeu", "w_sincheong", "w_heoyonghada"],
+    "note": "허용하다 meets the bank: M6's 은행 is the institution that says yes (here to M9's 카드), and it runs purely on 신용 — credit, the thin line between being trusted and being turned away. M1's 좋다 sets the bar, and -면 (M20) gates the whole thing: good credit, then the card."
+  },
+  {
+    "id": "s_m64_worker_advise",
+    "en": [
+      { "t": "The worker", "role": "subject", "id": "s1" },
+      { "t": "recommends the choice;", "role": "verb", "id": "v1" },
+      { "t": "requests the card;", "role": "verb", "id": "v2" },
+      { "t": "and attends the meeting.", "role": "verb", "id": "v3" }
+    ],
+    "gloss": [
+      { "t": "worker-[subj]", "role": "subject", "id": "s1" },
+      { "t": "choice-[obj] advise-do-and", "role": "verb", "id": "v1" },
+      { "t": "card-[obj] request-through-and", "role": "verb", "id": "v2" },
+      { "t": "meeting-[place] attend", "role": "verb", "id": "v3" }
+    ],
+    "ko": [
+      { "t": "근로자가", "role": "subject", "id": "s1" },
+      { "t": "선택을 권하고", "role": "verb", "id": "v1" },
+      { "t": "카드를 요청해서", "role": "verb", "id": "v2" },
+      { "t": "회의에 참석해요.", "role": "verb", "id": "v3" }
+    ],
+    "rom": "geullojaga seontaegeul gwonhago kadeureul yocheonghaeseo hoeuie chamseokhaeyo.",
+    "wordIds": ["w_geulloja", "w_seontaek", "w_gwonhada", "w_kadeu", "w_yocheong", "w_hoeui", "w_chamseokhada"],
+    "note": "The worker's day, three bureaucratic verbs in a row: the choice (선택, the noun over M33's 선택하다) gets advised (권하다 — radar: not M5's 권, the 'right/book'), the card (M9's 카드) gets requested (요청), and M10's 회의 gets the attendance (참석하다). The -고 chain (M10) links the first two verbs; -해서 folds the request into the reason for showing up."
+  },
+  {
+    "id": "s_m64_meeting_run",
+    "en": [
+      { "t": "Once the discussion is over,", "role": "object", "id": "o1" },
+      { "t": "the meeting", "role": "subject", "id": "s1" },
+      { "t": "advances the choice.", "role": "verb", "id": "v1" }
+    ],
+    "gloss": [
+      { "t": "discussion-[subj] end-if", "role": "object", "id": "o1" },
+      { "t": "meeting-[subj]", "role": "subject", "id": "s1" },
+      { "t": "choice-[obj] advance", "role": "verb", "id": "v1" }
+    ],
+    "ko": [
+      { "t": "논의가 끝나면", "role": "object", "id": "o1" },
+      { "t": "회의가", "role": "subject", "id": "s1" },
+      { "t": "선택을 진행해요.", "role": "verb", "id": "v1" }
+    ],
+    "rom": "nonuiga kkeunnamyeon hoeuiga seontaegeul jinhaenghaeyo.",
+    "wordIds": ["w_nonuihada", "w_kkeunnada", "w_hoeui", "w_seontaek", "w_jinhaenghada"],
+    "note": "The meeting machine: 논의 (the discussion) runs to its end — M8's 끝나다 doing the ending — and then M10's 회의 moves forward (진행하다) with the choice. -면 (M20) hands it off: once the talking is done, the institution executes the decision. It's the same choice (선택) the worker was advised on — now it's the meeting's move."
+  },
+  {
+    "id": "s_m64_worker_experience",
+    "en": [
+      { "t": "When the big firm", "role": "other", "id": "o1" },
+      { "t": "puts the worker to the work,", "role": "other", "id": "o2" },
+      { "t": "the experience", "role": "subject", "id": "s1" },
+      { "t": "piles up for the youth.", "role": "verb", "id": "v1" }
+    ],
+    "gloss": [
+      { "t": "big-firm-[subj]", "role": "other", "id": "o1" },
+      { "t": "worker-[obj] work-let-if", "role": "other", "id": "o2" },
+      { "t": "youth-[to]", "role": "subject", "id": "s1" },
+      { "t": "experience-[subj] build-up", "role": "verb", "id": "v1" }
+    ],
+    "ko": [
+      { "t": "대기업이 근로자를", "role": "other", "id": "o1" },
+      { "t": "활동시키면", "role": "other", "id": "o2" },
+      { "t": "청년에게", "role": "subject", "id": "s1" },
+      { "t": "경험이 쌓여요.", "role": "verb", "id": "v1" }
+    ],
+    "rom": "daegieobi geullojareul hwaldongsikimyeon cheongnyeonege gyeongheomi ssayeoyo.",
+    "wordIds": ["w_daegieop", "w_geulloja", "w_hwaldonghada", "w_cheongnyeon", "w_gyeongheom", "w_ssaida"],
+    "note": "The firm's investment in its people: 대기업 (the big firm) puts the worker (근로자) to the work (활동하다, M3's 시키다 forming the causative 활동시키다), and the youth (청년) — the people who will carry the firm's name — let the experience (M33's 경험) pile up. M61's 쌓이다 does the stacking on its own; the experience is the subject and the person takes 에게. You don't collect experience — you do work, and it piles up on you."
+  },
+  {
+    "id": "s_m64_demographics",
+    "en": [
+      { "t": "The firm", "role": "subject", "id": "s1" },
+      { "t": "reports the population,", "role": "verb", "id": "v1" },
+      { "t": "and relays the youth's request.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "firm-[subj]", "role": "subject", "id": "s1" },
+      { "t": "population-[obj] report-do-and", "role": "verb", "id": "v1" },
+      { "t": "youth-request-[obj] relay", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "회사가", "role": "subject", "id": "s1" },
+      { "t": "인구를 보고하고", "role": "verb", "id": "v1" },
+      { "t": "청년의 요청을 전달해요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "hoesaga ingureul bogohago cheongnyeonui yocheongeul jeondalhaeyo.",
+    "wordIds": ["w_hoesa", "w_ingu", "w_bogo", "w_cheongnyeon", "w_yocheong", "w_jeondalhada"],
+    "note": "The firm's two reporting jobs: the population (인구) is reported (보고 — the noun, the report you hand up), and the youth's (청년의) request (요청) is relayed (전달). M2's 회사 does the work, and M43's 보고서 is the paper form of the same 보고. One verb — 전달 — bridges the two clauses: you report a number and you pass on a want. The -고 chain (M10) glues the two jobs to the same doer."
+  },
+  {
+    "id": "s_m64_diplomacy",
+    "en": [
+      { "t": "The government", "role": "subject", "id": "s1" },
+      { "t": "permits the exchange,", "role": "verb", "id": "v1" },
+      { "t": "by way of the exchange,", "role": "other", "id": "o1" },
+      { "t": "and the credit", "role": "subject", "id": "o3" },
+      { "t": "builds up.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "government-[subj]", "role": "subject", "id": "s1" },
+      { "t": "exchange-[obj] let-in-and", "role": "verb", "id": "v1" },
+      { "t": "exchange-[by]", "role": "other", "id": "o1" },
+      { "t": "credit-[subj]", "role": "subject", "id": "o3" },
+      { "t": "pile-up", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "정부가", "role": "subject", "id": "s1" },
+      { "t": "교류를 허용하면", "role": "verb", "id": "v1" },
+      { "t": "교류로", "role": "other", "id": "o1" },
+      { "t": "신용이", "role": "subject", "id": "o3" },
+      { "t": "쌓여요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "jeongbuga gyoryureul heoyonghamyeon gyoryuro sinyongi ssayeoyo.",
+    "wordIds": ["w_jeongbu", "w_gyoryu", "w_heoyonghada", "w_sinyong", "w_ssaida"],
+    "note": "Diplomacy, run as arithmetic: the government (M32's 정부) permits the exchange (교류) — the flow of people and goods — and the credit (신용, the same 신용 the bank runs on) stacks up (M61's 쌓이다). M6's -로 marks the means: not by force, by trade. A nation's 신용 is built the same way a person's is, by letting things flow through."
   }
 ]

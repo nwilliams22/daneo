@@ -1595,5 +1595,27 @@
       "s_m63_confession", "s_m63_blessing", "s_m63_calibration", "s_m63_wrong_address",
       "s_m63_choose_answer", "s_m63_ointment", "s_m63_strongest_team", "s_m63_no_use_crying"
     ]
+  },
+  {
+    "id": "m64",
+    "title": "The Rule Book",
+    "order": 73,
+    "ring": 2,
+    "contentMd": "modules/module-64.md",
+    "wordIds": [
+      "w_jagyeok", "w_jehan", "w_wiban", "w_myeongnyeong",
+      "w_sincheong", "w_seontaek", "w_sinyong", "w_gangje",
+      "w_gyohwan", "w_deungnok", "w_hwagin", "w_yocheong",
+      "w_bogo", "w_bandaehada", "w_gwonhada", "w_heoyonghada",
+      "w_nonuihada", "w_sidohada", "w_jeogyonghada", "w_jeondalhada",
+      "w_damdanghada", "w_jinhaenghada", "w_jechulhada", "w_chamseokhada",
+      "w_geunmuhada", "w_hwaldonghada", "w_gyeongheomhada", "w_geulloja",
+      "w_cheongnyeon", "w_ingu", "w_daegieop", "w_oegyo",
+      "w_gyoryu"
+    ],
+    "sentenceIds": [
+      "s_m64_application_chain", "s_m64_rule_ladder", "s_m64_credit_card", "s_m64_worker_advise",
+      "s_m64_meeting_run", "s_m64_worker_experience", "s_m64_demographics", "s_m64_diplomacy"
+    ]
   }
 ]
