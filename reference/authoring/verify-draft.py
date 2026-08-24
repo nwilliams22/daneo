@@ -70,7 +70,10 @@ def check_ref(src, mod, token):
     mid = f"m{mod}"
     tok = re.sub(r"-note[s]?$", "", token)
     kor = re.findall(r"[가-힣]+", tok)
-    if not kor: return  # english token like "badge" — skip
+    if not kor:
+        # romanized-Korean citations dodge the hangul check — force a hand-verify
+        manual.append(f"{src}: M{mod}'s {tok} — non-hangul citation, verify by hand (house style: cite in hangul)")
+        return
     k = kor[-1]
     mods = by_ko.get(k) or by_ko.get(k + "다")
     if mods is None:
