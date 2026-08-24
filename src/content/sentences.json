@@ -6429,7 +6429,7 @@
       { "t": "집에 돌아오면", "role": "other", "id": "c" },
       { "t": "제일 좋아요", "role": "verb", "id": "v" }
     ],
-    "rom": "yeohaeng hue jibe oraomyeon jeil joayo",
+    "rom": "yeohaeng hue jibe doraomyeon jeil joayo",
     "wordIds": ["w_yeohaeng", "w_jip", "w_doraoda", "w_jeil", "w_jota"],
     "note": "M13's 후에, M20's hinge, M22's 제일 — and the gap deck's 집 떠나면 고생이다 proverb, proven again. Every journey's real destination."
   },
@@ -12354,7 +12354,7 @@
       { "t": "낙엽이", "role": "subject", "id": "b" },
       { "t": "떨어져요", "role": "verb", "id": "w" }
     ],
-    "rom": "gaeuri omyeon namunnipi noraejigo nagyeopi tteoreojyeoyo",
+    "rom": "gaeuri omyeon namunnipi noraejigo nagyeobi tteoreojyeoyo",
     "wordIds": ["w_gaeul", "w_oda", "w_namunnip", "w_norata", "w_nagyeop", "w_tteoreojida"],
     "note": "The season as a machine: M20's -(으)면 sets the condition, M35's -아/어지다 turns the color (노랗- drops its ㅎ and fuses: 노래져요), M10's -고 hands the plot to M36's 떨어지다. 나뭇잎 says 나문닙 — listen for the smuggled ㄴ. One sentence, four modules of glue, and the entire month of October."
   },
