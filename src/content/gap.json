@@ -1852,5 +1852,32 @@
     "lit": "it's much-fortune that it stopped at that much",
     "real": "thank goodness it wasn't worse — the accident scene's official consolation",
     "note": "그만하다's adjective reading in its natural frame: the damage measured out at that-much and no further, and M36's 다행 — whose note filed it 'said after every near-miss' — banks the relief. The -기 nominalizer (M13) plus a clipped 을/를 gives 그만하길. Said over fender-benders, sprained ankles, and burnt dinners: Korean gratitude runs on comparisons to worse."
+  },
+  {
+    "id": "g_m64_deungnok_an",
+    "cat": "structure",
+    "ko": "등록이 안 돼요",
+    "rom": "deungnogi an dwaeyo",
+    "lit": "the register come-not",
+    "real": "the application didn't go through — the frozen refusal every Korean office prints on your clipboard",
+    "note": "The application chain (신청 → 등록 → 제출) at its dead end: 등록 — this module's second link, the putting-on-the-books — refuses the 되다 slot, and M3's 안 wedges itself in to say no. It's not that you didn't file; the machine looked at the file and closed. The single most useful phrase in any government office, where a polite '안 돼요' is all the explanation you'll get for why the queue still moves without your name in it."
+  },
+  {
+    "id": "g_m64_sincheong_jagyeok",
+    "cat": "phrase",
+    "ko": "신청할 자격이 없어요",
+    "rom": "sincheonghal jagyeogi eopseoyo",
+    "lit": "the qualification-to-apply be absent",
+    "real": "I have no standing to apply — the polite refusal that ends the conversation before it starts",
+    "note": "The application axis judged at its front door: your qualification (자격 — the paper that says you are allowed in) is absent (M1's 없다), and the thing it gates is the application (신청). The whole office chain — file, register, submit, confirm — collapses into one closed door the moment the office checks the single document you don't have. You've learned every step past it; this is the step that decides whether the past exists for you."
+  },
+  {
+    "id": "g_m64_oegyo_gibon",
+    "cat": "concept",
+    "ko": "외교의 기본",
+    "rom": "oegyoui gibon",
+    "lit": "the basics of the outside-meeting",
+    "real": "diplomacy's fundamentals — the first-principles frame for dealing with the outside",
+    "note": "The outside-meeting (외교 — the crossing of borders into a meeting) wearing M57's 기본 (the basics): the phrase a briefing reaches for when the argument is about first principles, not tactics. 외교 is the noun this module hands you raw (nations meeting across a line); the frozen phrase is what it becomes in a policy memo — not the deal on the table, but the rules the table stands on, the same rules a firm runs with 자격 and 제한."
   }
 ]
