@@ -1617,5 +1617,26 @@
       "s_m64_application_chain", "s_m64_rule_ladder", "s_m64_credit_card", "s_m64_worker_advise",
       "s_m64_meeting_run", "s_m64_worker_experience", "s_m64_demographics", "s_m64_diplomacy"
     ]
+  },
+  {
+    "id": "m65",
+    "title": "Where in the House",
+    "order": 74,
+    "ring": 2,
+    "contentMd": "modules/module-65.md",
+    "wordIds": [
+      "w_jiban", "w_sikgu", "w_anbang", "w_bokdo",
+      "w_changbak", "w_sillae", "w_bulbit", "w_bakkat",
+      "w_mulsok", "w_nunap", "w_yangjjok", "w_anjjok",
+      "w_dwijjok", "w_wijjok", "w_araejjok", "w_yeopjip",
+      "w_yeopbang", "w_apdwi", "w_apgil", "w_apjjok",
+      "w_gaseumsok", "w_meoritsok", "w_kkumsok", "w_changgo",
+      "w_jijeom", "w_koneo", "w_senteo", "w_gangdang",
+      "w_kaempeoseu", "w_gyomun", "w_jeongmun", "w_churimmun"
+    ],
+    "sentenceIds": [
+      "s_m65_room_tour", "s_m65_sillae_window", "s_m65_mulsok_kkumsok", "s_m65_gaseum_meorit",
+      "s_m65_changbak_apgil", "s_m65_yeopbang_yeopjip", "s_m65_gangdang_gyomun", "s_m65_jijeom_jeongmun"
+    ]
   }
 ]

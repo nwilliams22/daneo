@@ -15105,5 +15105,179 @@
     "rom": "jeongbuga gyoryureul heoyonghamyeon gyoryuro sinyongi ssayeoyo.",
     "wordIds": ["w_jeongbu", "w_gyoryu", "w_heoyonghada", "w_sinyong", "w_ssaida"],
     "note": "Diplomacy, run as arithmetic: the government (M32's 정부) permits the exchange (교류) — the flow of people and goods — and the credit (신용, the same 신용 the bank runs on) stacks up (M61's 쌓이다). M6's -로 marks the means: not by force, by trade. A nation's 신용 is built the same way a person's is, by letting things flow through."
+  },
+  {
+    "id": "s_m65_room_tour",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s1" },
+      { "t": "wake in the inner room in the morning,", "role": "verb", "id": "v1" },
+      { "t": "walk the hallway", "role": "verb", "id": "v2" },
+      { "t": "and head toward the entryway.", "role": "verb", "id": "v3" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s1" },
+      { "t": "morning-[place] inner-room-[place] get-up-and", "role": "verb", "id": "v1" },
+      { "t": "hallway-[obj] walk-and", "role": "verb", "id": "v2" },
+      { "t": "entryway-[toward] go", "role": "verb", "id": "v3" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s1" },
+      { "t": "아침에 안방에서 일어나고", "role": "verb", "id": "v1" },
+      { "t": "복도를 걷고", "role": "verb", "id": "v2" },
+      { "t": "현관으로 가요.", "role": "verb", "id": "v3" }
+    ],
+    "rom": "jeoneun achime anbangeseo ireonago bokdoreul geotgo hyeongwaneuro gayo.",
+    "wordIds": ["w_jeo", "w_achim", "w_anbang", "w_ireonada", "w_bokdo", "w_geotda", "w_hyeongwan", "w_gada"],
+    "note": "The room tour, run as one walking chain: the inner room (안방, this module's heaviest room) sets the wake, the corridor (복도) carries the walk, and the entryway (현관, M13's 현관) is the go-to. M6's 걷다 and M1's 가다 do the moving; -고 (M10) hands each step to the next and -으로 marks the destination. The whole sentence stays inside the house — every room, one axis."
+  },
+  {
+    "id": "s_m65_sillae_window",
+    "en": [
+      { "t": "In the interior,", "role": "other", "id": "o1" },
+      { "t": "the sofa is there,", "role": "verb", "id": "v1" },
+      { "t": "and the upper", "role": "object", "id": "o2" },
+      { "t": "window has been replaced.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "interior-[topic]", "role": "other", "id": "o1" },
+      { "t": "sofa-[subj] exist-and", "role": "verb", "id": "v1" },
+      { "t": "upper-side window-[topic]", "role": "object", "id": "o2" },
+      { "t": "switch-become-past", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "실내에는", "role": "other", "id": "o1" },
+      { "t": "소파가 있고,", "role": "verb", "id": "v1" },
+      { "t": "위쪽 창문은", "role": "object", "id": "o2" },
+      { "t": "바뀌었어요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "sillaeeneun sopaga itgo, wijjok changmuneun bakkwieosseoyo.",
+    "wordIds": ["w_sillae", "w_sopa", "w_itda", "w_wijjok", "w_changmun", "w_bakkwida"],
+    "note": "The interior as a single volume (실내, 室 inside) holding a sofa (M13's 소파), and the upper-side window (위쪽 + M6's 창문) freshly replaced. M1's 있다 pins the sofa in place; M35's 바뀌다 is the renovation the window went through."
+  },
+  {
+    "id": "s_m65_mulsok_kkumsok",
+    "en": [
+      { "t": "In the water", "role": "other", "id": "o1" },
+      { "t": "a fish is there,", "role": "verb", "id": "v1" },
+      { "t": "in the dream", "role": "other", "id": "o2" },
+      { "t": "a friend is there.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "water-inside-[topic]", "role": "other", "id": "o1" },
+      { "t": "fish-[subj] exist-and", "role": "verb", "id": "v1" },
+      { "t": "dream-inside-[topic]", "role": "other", "id": "o2" },
+      { "t": "friend-[subj] exist", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "물속에는", "role": "other", "id": "o1" },
+      { "t": "물고기가 있고,", "role": "verb", "id": "v1" },
+      { "t": "꿈속에는", "role": "other", "id": "o2" },
+      { "t": "친구가 있어요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "mulsogeneun mulgogiga itgo, kkumsogeneun chinguga isseoyo.",
+    "wordIds": ["w_mulsok", "w_mulgogi", "w_itda", "w_kkumsok", "w_chingu"],
+    "note": "The X-inside factory applied twice: the fish (물고기, M22's 물고기) swims in the inside of water (물, M1's 물), and the friend (친구, M1's 친구) appears in the inside of the dream (꿈, M8's 꿈). The same 속 gives a body and a mind the same kind of inside; M28's 속 is the factory, M1's 있다 is the verb that puts something in each."
+  },
+  {
+    "id": "s_m65_gaseum_meorit",
+    "en": [
+      { "t": "Sorrow", "role": "subject", "id": "s1" },
+      { "t": "is in the chest,", "role": "verb", "id": "v1" },
+      { "t": "worry", "role": "subject", "id": "s2" },
+      { "t": "is in the head.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "sorrow-[topic]", "role": "subject", "id": "s1" },
+      { "t": "chest-inside-[place] exist-and", "role": "verb", "id": "v1" },
+      { "t": "worry-[topic]", "role": "subject", "id": "s2" },
+      { "t": "head-inside-[place] exist", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "슬픔은", "role": "subject", "id": "s1" },
+      { "t": "가슴속에 있고,", "role": "verb", "id": "v1" },
+      { "t": "걱정은", "role": "subject", "id": "s2" },
+      { "t": "머릿속에 있어요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "seulpeumeun gaseumsoge itgo, geokjeongeun meoritsoge isseoyo.",
+    "wordIds": ["w_seulpeum", "w_gaseumsok", "w_itda", "w_geokjeong", "w_meoritsok"],
+    "note": "The feeling-organs of the X-inside factory: 슬픔 (M42's 슬픔) lands in the chest's insides (가슴, M30's 가슴 + 속), and 걱정 (M29's 걱정) runs on in the head's insides (머리, M8's 머리 + 속). Same 속, two organs, two feelings."
+  },
+  {
+    "id": "s_m65_changbak_apgil",
+    "en": [
+      { "t": "Looking past the window,", "role": "other", "id": "o1" },
+      { "t": "the eye-front is wide,", "role": "verb", "id": "v1" },
+      { "t": "and walking the road-ahead,", "role": "other", "id": "o2" },
+      { "t": "the outside comes into view.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "window-outside-[obj] see-if", "role": "other", "id": "o1" },
+      { "t": "eye-front-[subj] wide-and", "role": "verb", "id": "v1" },
+      { "t": "road-ahead-[obj] walk-try-if", "role": "other", "id": "o2" },
+      { "t": "outside-[subj] appear", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "창밖을 보면", "role": "other", "id": "o1" },
+      { "t": "눈앞이 넓고,", "role": "verb", "id": "v1" },
+      { "t": "앞길을 걸어보면", "role": "other", "id": "o2" },
+      { "t": "바깥이 보여요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "changbakkeul bomyeon nunapi neolgo, apgireul georeobomyeon bakkachi boyeoyo.",
+    "wordIds": ["w_changbak", "w_boda", "w_nunap", "w_neopda", "w_apgil", "w_geotda", "w_bakkat", "w_boida"],
+    "note": "The outside as seen, not as touched: the window-outside (창밖, this module's look-through-the-glass) measured with M1's 보다, the eye-front (눈앞, M14's 눈 + M6's 앞) judged wide (M13's 넓다), the road-ahead (앞길, M6's 앞 + M12's 길) given a try on foot (M6's 걷다 riding M16's -아/어 보다 try-machine), and finally 바깥 (the outside as a place) coming into view on its own (M36's 보이다)."
+  },
+  {
+    "id": "s_m65_yeopbang_yeopjip",
+    "en": [
+      { "t": "The adjoining room is quiet,", "role": "verb", "id": "v1" },
+      { "t": "a sound comes out of the neighboring house.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "next-room-[topic] quiet-and", "role": "verb", "id": "v1" },
+      { "t": "next-house-[place] sound-[subj] emerge", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "옆방은 조용하고,", "role": "verb", "id": "v1" },
+      { "t": "옆집에서는 소리가 나요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "yeopbangeun joyonghago, yeopjibeseoneun soriga nayo.",
+    "wordIds": ["w_yeopbang", "w_joyonghada", "w_yeopjip", "w_sori", "w_nada"],
+    "note": "The next-door pair, built the same way: 옆방 is the room on the next side (M6's 옆 + M8's 방), 옆집 the house on the next side (M6's 옆 + M1's 집). M13's 조용하다 holds the quiet on one side; M19's 소리 rides M28's 나다 across the wall from the other. Quiet and loud share one axis."
+  },
+  {
+    "id": "s_m65_gangdang_gyomun",
+    "en": [
+      { "t": "The hall's door opens,", "role": "verb", "id": "v1" },
+      { "t": "and the school gate connects to the campus center.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "hall-door-[subj] open-and", "role": "verb", "id": "v1" },
+      { "t": "school-gate-and campus-center-[subj] connect-to", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "강당 문이 열리고,", "role": "verb", "id": "v1" },
+      { "t": "교문과 캠퍼스 센터가 통해요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "gangdang muni yeolligo, gyomungwa kaempeoseu senteoga tonghaeyo.",
+    "wordIds": ["w_gangdang", "w_mun", "w_yeollida", "w_gyomun", "w_kaempeoseu", "w_senteo", "w_tonghada"],
+    "note": "The school's gates, run as openings: the hall (강당, 講+堂) is the school's big room; its door (M6's 문) opens on its own (M36's 열리다); and the school-gate and the campus center (교문 + 캠퍼스 + 센터) connect (M32's 통하다) — the way a campus is one connected ground."
+  },
+  {
+    "id": "s_m65_jijeom_jeongmun",
+    "en": [
+      { "t": "The firm's branch is at the front-side corner,", "role": "verb", "id": "v1" },
+      { "t": "the main gate's door closes in the evening.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "firm-branch-[subj] front-side-corner-[place] exist-and", "role": "verb", "id": "v1" },
+      { "t": "main-gate entrance-door-[topic] evening-[at] close", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "회사 지점이 앞쪽 코너에 있고,", "role": "verb", "id": "v1" },
+      { "t": "정문 출입문은 저녁에 닫혀요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "hoesa jijeomi apjjok koneoe itgo, jeongmun churimmuneun jeonyeoge dathyeoyo.",
+    "wordIds": ["w_hoesa", "w_jijeom", "w_apjjok", "w_koneo", "w_itda", "w_jeongmun", "w_churimmun", "w_jeonyeok", "w_dathida"],
+    "note": "The firm's two doors: the branch (지점 — 支 branch-off + 店 shop, this slice's one C-grade word) sits at the front-side corner (앞쪽 + 코너), pinned there by M1's 있다; the main gate (정문, 正+門) has its entrance door (출입문) close on its own (M36's 닫히다) when the evening (M2's 저녁) comes. Same 정 sound, two different hanja — 正 the main, not M26's 정 the feeling."
   }
 ]
