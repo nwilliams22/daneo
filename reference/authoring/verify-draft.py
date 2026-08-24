@@ -51,6 +51,11 @@ for g in dg:
     if g["id"] in gap_ids: fails.append(f"gap id collision: {g['id']}")
     if g["cat"] not in ("phrase","concept","structure"): fails.append(f"{g['id']} bad cat {g['cat']}")
 
+# --- language-layer lint: romanization + gloss style ---
+sys.path.insert(0, SCRATCH)
+from lint_language import lint_content
+lint_content(dw, ds, dg, fails, manual)
+
 # --- cross-ref checks over all note text + md ---
 corpus = []
 for w in dw: corpus.append((w["id"], w["notes"]))
