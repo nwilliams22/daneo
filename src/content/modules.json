@@ -1638,5 +1638,25 @@
       "s_m65_room_tour", "s_m65_sillae_window", "s_m65_mulsok_kkumsok", "s_m65_gaseum_meorit",
       "s_m65_changbak_apgil", "s_m65_yeopbang_yeopjip", "s_m65_gangdang_gyomun", "s_m65_jijeom_jeongmun"
     ]
+  },
+  {
+    "id": "m66",
+    "title": "Push, Pour, Run",
+    "order": 75,
+    "ring": 2,
+    "contentMd": "modules/module-66.md",
+    "wordIds": [
+      "w_garida", "w_garikida", "w_jipda", "w_jupda",
+      "w_geonjida", "w_molda", "w_bikida", "w_meda",
+      "w_butda_pour", "w_heullida", "w_ssotda", "w_ssoda",
+      "w_jjireuda", "w_chada", "w_balda", "w_dudeurida",
+      "w_teotteurida", "w_tteoreotteurida", "w_dallyeogada", "w_dallyeooda",
+      "w_ttaragada", "w_ttaraoda", "w_daranada", "w_domanggada",
+      "w_dollyeojuda", "w_dwijipda", "w_teolda", "w_eonda"
+    ],
+    "sentenceIds": [
+      "s_m66_finger_point", "s_m66_cup_pour", "s_m66_river_run", "s_m66_ball_return",
+      "s_m66_ball_poke", "s_m66_ball_burst", "s_m66_baby_kick", "s_m66_book_layer"
+    ]
   }
 ]
