@@ -195,6 +195,16 @@ def check_gloss(sent, fails, warns):
                 elif kt.endswith(("은", "는")) and "[subj]" in gt:
                     warns.append(f"{sent['id']}: ko \"{kt}\" ends 은/는 but glossed [subj] — should be [topic]?")
 
+_BAD_CONJ = re.compile(r"[가-힣]*(?:[르리]요|리어요|키어요|주어요|뜨리어요)[.!?,]?$")
+
+def check_conjugation(sent, warns):
+    # stem+요 without -어 (찌르요, 두드리요) and uncontracted polite forms
+    # (가리키어요, 돌려주어요) are rom-consistent, so the rom check can't see them
+    for chunk in sent.get("ko", []):
+        for tok in chunk["t"].split():
+            if _BAD_CONJ.fullmatch(tok):
+                warns.append(f"{sent['id']}: ko \"{tok}\" looks unconjugated/uncontracted (expect e.g. 찔러요, 가리켜요, 돌려줘요)")
+
 def lint_content(words, sentences, gaps, fails, warns):
     exceptions = _load_exceptions()
     for w in words:
@@ -203,6 +213,7 @@ def lint_content(words, sentences, gaps, fails, warns):
         ko_join = " ".join(c["t"] for c in s["ko"])
         check_rom_pair(ko_join, s["rom"], f"sent {s['id']}", fails, exceptions)
         check_gloss(s, fails, warns)
+        check_conjugation(s, warns)
     for g in gaps:
         check_rom_pair(g["ko"], g["rom"], f"gap {g['id']}", fails, exceptions)
 
