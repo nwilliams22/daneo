@@ -15279,5 +15279,173 @@
     "rom": "hoesa jijeomi apjjok koneoe itgo, jeongmun churimmuneun jeonyeoge dathyeoyo.",
     "wordIds": ["w_hoesa", "w_jijeom", "w_apjjok", "w_koneo", "w_itda", "w_jeongmun", "w_churimmun", "w_jeonyeok", "w_dathida"],
     "note": "The firm's two doors: the branch (지점 — 支 branch-off + 店 shop, this slice's one C-grade word) sits at the front-side corner (앞쪽 + 코너), pinned there by M1's 있다; the main gate (정문, 正+門) has its entrance door (출입문) close on its own (M36's 닫히다) when the evening (M2's 저녁) comes. Same 정 sound, two different hanja — 正 the main, not M26's 정 the feeling."
+  },
+  {
+    "id": "s_m66_finger_point",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s1" },
+      { "t": "point at the fish with my finger,", "role": "verb", "id": "v1" },
+      { "t": "and the friend points at the river.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s1" },
+      { "t": "finger-[by] fish-[obj] point-at-and", "role": "verb", "id": "v1" },
+      { "t": "friend-[topic] river-[obj] point-at", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s1" },
+      { "t": "손가락으로 물고기를 가리키고,", "role": "verb", "id": "v1" },
+      { "t": "친구는 강을 가리켜요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "jeoneun songarageuro mulgogireul garikigo, chinguneun gangeul garikyeoyo.",
+    "wordIds": ["w_garikida", "w_songarak", "w_mulgogi", "w_chingu", "w_gang"],
+    "note": "The pointing finger (손가락, M28's 손가락) out, tip leading, the target named by direction. M22's 물고기 (fish) is what the finger says, and the river (M22's 강) is what the friend names. 가리키다 (point at) does both — the M66 pointing-finger verb used twice, at the small thing and the big one."
+  },
+  {
+    "id": "s_m66_cup_pour",
+    "en": [
+      { "t": "My dad", "role": "subject", "id": "s1" },
+      { "t": "pours water into the cup,", "role": "verb", "id": "v1" },
+      { "t": "and spills some water.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "dad-[subj]", "role": "subject", "id": "s1" },
+      { "t": "cup-[place] water-[obj] pour-and", "role": "verb", "id": "v1" },
+      { "t": "water-[obj] spill", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "아빠가", "role": "subject", "id": "s1" },
+      { "t": "컵에 물을 붓고,", "role": "verb", "id": "v1" },
+      { "t": "물을 흘려요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "appaga keobe mureul butgo, mureul heullyeoyo.",
+    "wordIds": ["w_butda_pour", "w_heullida", "w_mul", "w_keop", "w_appa"],
+    "note": "The pour-and-spread axis in one breath: M4's 아빠 (dad) tips M1's 물 (water) over the lip of M18's 컵 (cup), and the same water leaves its glass by accident. 붓다 (pour) is the liquid-pour verb, 흘리다 (spill) the thin run-out — the two pour-verbs of the module at the same cup, and 흘리다 is just M35's 흐르다 (flow) with a hand on it: the flow, caused."
+  },
+  {
+    "id": "s_m66_river_run",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s1" },
+      { "t": "runs toward the river,", "role": "verb", "id": "v1" },
+      { "t": "and I follow along.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s1" },
+      { "t": "river-[toward] run-and", "role": "verb", "id": "v1" },
+      { "t": "I-[topic] follow", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s1" },
+      { "t": "강으로 달려가고,", "role": "verb", "id": "v1" },
+      { "t": "나는 따라가요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "chinguga gangeuro dallyeogago, naneun ttaragayo.",
+    "wordIds": ["w_dallyeogada", "w_ttaragada", "w_gang", "w_chingu", "w_na"],
+    "note": "The run-and-chase axis, welded to M1's go/come verbs: M17's 달리다 (run) in its -어 coat gives 달려가다 (run to), and M32's 따르다 (follow) in its -어 coat gives 따라가다 (follow along). M1's 친구 runs toward M22's 강 and I run one step behind."
+  },
+  {
+    "id": "s_m66_ball_return",
+    "en": [
+      { "t": "If my friend gives the ball,", "role": "other", "id": "o1" },
+      { "t": "the baby", "role": "subject", "id": "s1" },
+      { "t": "gives it right back.", "role": "verb", "id": "v1" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj] ball-[obj] give-if", "role": "other", "id": "o1" },
+      { "t": "baby-[topic]", "role": "subject", "id": "s1" },
+      { "t": "give-back", "role": "verb", "id": "v1" }
+    ],
+    "ko": [
+      { "t": "친구가 공을 주면,", "role": "other", "id": "o1" },
+      { "t": "아기는", "role": "subject", "id": "s1" },
+      { "t": "돌려줘요.", "role": "verb", "id": "v1" }
+    ],
+    "rom": "chinguga gongeul jumyeon, agineun dollyeojwoyo.",
+    "wordIds": ["w_dollyeojuda", "w_agi", "w_gong", "w_chingu", "w_juda"],
+    "note": "The give-back compound doing the round trip: 돌려 (turning back) + M9's 주다 (give) makes 돌려주다 (give back). M25's 아기 (baby) receives M17's 공 (ball) from M1's 친구 (friend) and hands it right back — the two M9 give-verbs, one forward one return, with -(으)면 (M20) gating the trade."
+  },
+  {
+    "id": "s_m66_ball_poke",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s1" },
+      { "t": "pick up the ball with my finger,", "role": "verb", "id": "v1" },
+      { "t": "and give it a poke.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s1" },
+      { "t": "finger-[by] ball-[obj] pick-and", "role": "verb", "id": "v1" },
+      { "t": "ball-[obj] poke", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s1" },
+      { "t": "손가락으로 공을 집고,", "role": "verb", "id": "v1" },
+      { "t": "공을 찔러요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "jeoneun songarageuro gongeul jipgo, gongeul jjilleoyo.",
+    "wordIds": ["w_jipda", "w_jjireuda", "w_gong", "w_songarak"],
+    "note": "The fingers-act family on one ball: the thumb and two fingers close on M17's 공 (ball) with 집다 (pick up) and M28's 손가락 (finger), and the same hand goes sharp with 찌르다 (poke) — the tip leading, the point against the ball. Two finger-verbs, one soft one sharp, on the same thing — and 찌르다 is 르-family (M7): 찔러요."
+  },
+  {
+    "id": "s_m66_ball_burst",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s1" },
+      { "t": "pop the ball,", "role": "verb", "id": "v1" },
+      { "t": "and let the cup drop.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "I-[subj]", "role": "subject", "id": "s1" },
+      { "t": "ball-[obj] make-burst-and", "role": "verb", "id": "v1" },
+      { "t": "cup-[obj] make-fall", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "제가", "role": "subject", "id": "s1" },
+      { "t": "공을 터뜨리고,", "role": "verb", "id": "v1" },
+      { "t": "컵을 떨어뜨려요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "jega gongeul teotteurigo, keobeul tteoreotteuryeoyo.",
+    "wordIds": ["w_teotteurida", "w_tteoreotteurida", "w_gong", "w_keop"],
+    "note": "The burst-and-drop axis, both causative: M36's 터지다 with the -뜨리다 tail makes M17's 공 (ball) burst — 터뜨리다 — and M36's 떨어지다 with the same tail makes M18's 컵 (cup) fall — 떨어뜨리다. The two burst/fall verbs you met in M36, now with a hand behind them."
+  },
+  {
+    "id": "s_m66_baby_kick",
+    "en": [
+      { "t": "The baby", "role": "subject", "id": "s1" },
+      { "t": "kicks the ball,", "role": "verb", "id": "v1" },
+      { "t": "stomps it, and knocks on the door.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "baby-[subj]", "role": "subject", "id": "s1" },
+      { "t": "ball-[obj] kick-and", "role": "verb", "id": "v1" },
+      { "t": "ball-[obj] stomp-and, door-[obj] knock", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "아기가", "role": "subject", "id": "s1" },
+      { "t": "공을 차고,", "role": "verb", "id": "v1" },
+      { "t": "공을 밟고, 문을 두드려요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "agiga gongeul chago, gongeul balgo, muneul dudeuryeoyo.",
+    "wordIds": ["w_chada", "w_balda", "w_dudeurida", "w_gong", "w_mun", "w_agi"],
+    "note": "The foot-verbs running the full range on M17's 공 (ball): M25's 아기 (baby) swings the foot with 차다 (kick) — M14's 발 (foot) leading — then comes down on it with the heavier 밟다 (stomp on), and lands the fist flat on M6's 문 (door) with 두드리다 (knock). Three foot-and-fist verbs of the module, one kick one step one knock."
+  },
+  {
+    "id": "s_m66_book_layer",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s1" },
+      { "t": "flip the book over,", "role": "verb", "id": "v1" },
+      { "t": "shake out my hair, and rest my hand on the book.", "role": "verb", "id": "v2" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s1" },
+      { "t": "book-[obj] flip-and", "role": "verb", "id": "v1" },
+      { "t": "hair-[obj] shake-and, hand-[obj] book-top-[place] put-on", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s1" },
+      { "t": "책을 뒤집고,", "role": "verb", "id": "v1" },
+      { "t": "머리를 털고, 손을 책 위에 얹어요.", "role": "verb", "id": "v2" }
+    ],
+    "rom": "jeoneun chaegeul dwijipgo, meorireul teolgo, soneul chaek wie eonjeoyo.",
+    "wordIds": ["w_dwijipda", "w_teolda", "w_eonda", "w_chaek", "w_meori", "w_son"],
+    "note": "The turn-and-layer axis on one shelf: the front face of M1's 책 (book) goes over to the back with 뒤집다 (flip) — M6's 뒤 (back) + 집다 (pick up) — then M8's 머리 (hair) gets shaken out with 털다 (shake off), and M8's 손 (hand) comes to rest on top with 얹다 (put on top). Three turn-and-layer verbs: one flip, one shake, one rest."
   }
 ]

@@ -1897,5 +1897,23 @@
     "lit": "the fire-night-city",
     "real": "a city that does not sleep — the late-night lights, the all-night bustle, the city's waking",
     "note": "Three hanja stacked into a word: 불 (M13's 불, the flame) + 야 (night) + 성 (city). The city where the fire doesn't go out and the night doesn't take over — the all-night city you see from a high window at 2 a.m., the bars still lit, the delivery drivers still on the road. A three-syllable picture of a city that decided to stay awake: the same city as the anbang's quiet, just on the other side of the wall, on the other side of the sleep."
+  },
+  {
+    "id": "g_m66_mireobuchida",
+    "cat": "phrase",
+    "ko": "밀어붙이다",
+    "rom": "mireobuchida",
+    "lit": "push and attach",
+    "real": "to press forward with; to force through; to push someone or something onward",
+    "note": "Combines S2's 밀다 (push) with M37's 붙이다 (attach). The push that carries the object the rest of the way — a nudge turned into a shove, a half-measure turned into a full one. S2's 밀다 is one push; 밀어붙이다 is the push that does not stop until the thing is moved. The push family's forceful end."
+  },
+  {
+    "id": "g_m66_mureppajida",
+    "cat": "phrase",
+    "ko": "물에 빠지다",
+    "rom": "mure ppajida",
+    "lit": "in water fall",
+    "real": "to fall into the water; to sink into the water",
+    "note": "Binds M1's 물 (water) with M35's 빠지다 (fall in, sink in). M1's 물 is the same word the module's spill and pour verbs run out through; here it is the water that goes the wrong way, down, into the thing. Run-out is out through a lip; fall-in is down into the water."
   }
 ]
