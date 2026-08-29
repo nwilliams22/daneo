@@ -15447,5 +15447,182 @@
     "rom": "jeoneun chaegeul dwijipgo, meorireul teolgo, soneul chaek wie eonjeoyo.",
     "wordIds": ["w_dwijipda", "w_teolda", "w_eonda", "w_chaek", "w_meori", "w_son"],
     "note": "The turn-and-layer axis on one shelf: the front face of M1's 책 (book) goes over to the back with 뒤집다 (flip) — M6's 뒤 (back) + 집다 (pick up) — then M8's 머리 (hair) gets shaken out with 털다 (shake off), and M8's 손 (hand) comes to rest on top with 얹다 (put on top). Three turn-and-layer verbs: one flip, one shake, one rest."
+  },
+  {
+    "id": "s_m67_gift_joy",
+    "en": [
+      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "got his present and", "role": "other", "id": "a" },
+      { "t": "beamed", "role": "verb", "id": "v" },
+      { "t": "like a child", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "present-[obj] receive-and", "role": "other", "id": "a" },
+      { "t": "child-like", "role": "other", "id": "b" },
+      { "t": "showed-joy", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "선물을 받고", "role": "other", "id": "a" },
+      { "t": "아이처럼", "role": "other", "id": "b" },
+      { "t": "기뻐했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengi seonmureul batgo aicheoreom gippeohaesseoyo",
+    "wordIds": ["w_dongsaeng", "w_seonmul", "w_batda", "w_ai", "w_gippeohada"],
+    "note": "The factory's rule in the wild: his 기쁘다 is invisible; his 기뻐하다 you can film. M41's 처럼 does the simile, M9's 받다 hands over the trigger, and -고 (M10) strings receipt to reaction. To report someone ELSE's feeling in Korean, describe the performance."
+  },
+  {
+    "id": "s_m67_dark_sounds",
+    "en": [
+      { "t": "In the dark,", "role": "place", "id": "p" },
+      { "t": "even small sounds", "role": "subject", "id": "s" },
+      { "t": "come through", "role": "verb", "id": "v" },
+      { "t": "loud", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "darkness inside-at-[topic]", "role": "place", "id": "p" },
+      { "t": "small-[badge] sound-also", "role": "subject", "id": "s" },
+      { "t": "big-ly", "role": "other", "id": "b" },
+      { "t": "is-heard", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어둠 속에서는", "role": "place", "id": "p" },
+      { "t": "작은 소리도", "role": "subject", "id": "s" },
+      { "t": "크게", "role": "other", "id": "b" },
+      { "t": "들려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eodum sogeseoneun jageun sorido keuge deullyeoyo",
+    "wordIds": ["w_eodum", "w_sok", "w_jakda", "w_sori", "w_keuda", "w_deullida"],
+    "note": "어둠's debut in its natural habitat — M28's 속: the -(으)ㅁ freezer made a PLACE out of an adjective. M36's 들리다 (the passive party) reports what ears receive rather than what they do, and 크게 is 크다 through the -게 adverbializer (M33). Turn off the lights and the grammar goes passive with you."
+  },
+  {
+    "id": "s_m67_song_trigger",
+    "en": [
+      { "t": "Whenever I hear this song,", "role": "other", "id": "a" },
+      { "t": "an old friend", "role": "subject", "id": "s" },
+      { "t": "comes to mind", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this song-[obj] listen-if", "role": "other", "id": "a" },
+      { "t": "old-days friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "thought-erupts", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 노래를 들으면", "role": "other", "id": "a" },
+      { "t": "옛날 친구가", "role": "subject", "id": "s" },
+      { "t": "생각나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i noraereul deureumyeon yennal chinguga saenggangnayo",
+    "wordIds": ["w_i_det", "w_norae", "w_deutda", "w_yennal", "w_chingu", "w_saenggangnada"],
+    "note": "생각나다 needs no effort, only a trigger — the song opens M28's 나다-door and the friend walks through uninvited. -(으)면 (M20) sets the tripwire, and 듣다 (M2) shows its ㄷ-irregular colors: 들으면. Notice who the subject is: the FRIEND arrives; you do nothing."
+  },
+  {
+    "id": "s_m67_summon_home",
+    "en": [
+      { "t": "Close your eyes and", "role": "other", "id": "a" },
+      { "t": "the house back home —", "role": "object", "id": "o" },
+      { "t": "try to summon it", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "eye-[obj] close-and", "role": "other", "id": "a" },
+      { "t": "hometown house-[obj]", "role": "object", "id": "o" },
+      { "t": "summon-up try-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "눈을 감고", "role": "other", "id": "a" },
+      { "t": "고향 집을", "role": "object", "id": "o" },
+      { "t": "떠올려 보세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nuneul gamgo gohyang jibeul tteoollyeo boseyo",
+    "wordIds": ["w_nun_eye", "w_gamda", "w_gohyang", "w_jip", "w_tteoollida"],
+    "note": "The triangle's third corner, on command: 떠오르다 (M49) floats up on its own; the causative party (M37) hands you the crane — 떠올리다, you MAKE it float into 머릿속 (M65). 감다 (M41) closes the eyes and the try-machine (M16) makes it an invitation. Meditation apps run entirely on this sentence."
+  },
+  {
+    "id": "s_m67_scary_dream",
+    "en": [
+      { "t": "Last night", "role": "other", "id": "t" },
+      { "t": "I had such a scary dream that", "role": "other", "id": "a" },
+      { "t": "I couldn't sleep", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "yesterday night-at", "role": "other", "id": "t" },
+      { "t": "scary-[badge] dream-[obj] dream-so", "role": "other", "id": "a" },
+      { "t": "sleep-[obj] cannot slept", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제 밤에", "role": "other", "id": "t" },
+      { "t": "무서운 꿈을 꿔서", "role": "other", "id": "a" },
+      { "t": "잠을 못 잤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje bame museoun kkumeul kkwoseo jameul mot jasseoyo",
+    "wordIds": ["w_eoje", "w_bam", "w_museopda", "w_kkum", "w_kkuda", "w_jam", "w_jada"],
+    "note": "The doubled object, twice in one breath: 꿈을 꾸다 dreams a dream, 잠을 자다 sleeps a sleep — M28's 잠 note said Korean doubles up happily, and here is the proof running back to back. M24's 무섭다 wears the badge; -아/어서 chains cause to casualty."
+  },
+  {
+    "id": "s_m67_passport_trouble",
+    "en": [
+      { "t": "My passport —", "role": "object", "id": "o" },
+      { "t": "I've completely lost it.", "role": "verb", "id": "v" },
+      { "t": "This is big trouble!", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "passport-[obj]", "role": "object", "id": "o" },
+      { "t": "lost-completely.", "role": "verb", "id": "v" },
+      { "t": "big-matter erupted!", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "여권을", "role": "object", "id": "o" },
+      { "t": "잃어버렸어요.", "role": "verb", "id": "v" },
+      { "t": "큰일 났어요!", "role": "verb", "id": "w" }
+    ],
+    "rom": "yeogwoneul ireobeoryeosseoyo. keunnil nasseoyo!",
+    "wordIds": ["w_yeogwon", "w_ireobeorida", "w_keunnil", "w_nada"],
+    "note": "The national alarm phrase: a big matter just erupted through M28's 나다 — the same door memories and feelings use, now admitting a crisis. 잃어버리다 (M20) supplies the finality its 버리다 tail always promised. Shout 큰일 났어요 and every Korean within earshot turns around."
+  },
+  {
+    "id": "s_m67_wennil_visit",
+    "en": [
+      { "t": "At this hour,", "role": "other", "id": "t" },
+      { "t": "here?", "role": "place", "id": "p" },
+      { "t": "What's the occasion?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this time-at", "role": "other", "id": "t" },
+      { "t": "here", "role": "place", "id": "p" },
+      { "t": "what-occasion-is?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 시간에", "role": "other", "id": "t" },
+      { "t": "여기", "role": "place", "id": "p" },
+      { "t": "웬일이에요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "i sigane yeogi wennirieyo?",
+    "wordIds": ["w_i_det", "w_sigan", "w_yeogi", "w_wennil"],
+    "note": "웬일이에요 asks for no facts — it performs the double-take. The visit itself is the answer; the pleasure is the point. Its information-seeking cousin is 무슨 일이에요? (M10's 무슨): one investigates, the other celebrates. File this under greetings, not questions."
+  },
+  {
+    "id": "s_m67_boram_credo",
+    "en": [
+      { "t": "Even when it's tough,", "role": "other", "id": "a" },
+      { "t": "when the kids laugh,", "role": "other", "id": "b" },
+      { "t": "I feel", "role": "verb", "id": "v" },
+      { "t": "the worth of it", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "is-tough-even-if", "role": "other", "id": "a" },
+      { "t": "kids-[subj] laugh-when", "role": "other", "id": "b" },
+      { "t": "felt-worth-[obj]", "role": "object", "id": "o" },
+      { "t": "feel", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "힘들어도", "role": "other", "id": "a" },
+      { "t": "아이들이 웃을 때", "role": "other", "id": "b" },
+      { "t": "보람을", "role": "object", "id": "o" },
+      { "t": "느껴요", "role": "verb", "id": "v" }
+    ],
+    "rom": "himdeureodo aideuri useul ttae borameul neukkyeoyo",
+    "wordIds": ["w_himdeulda", "w_ai", "w_utda", "w_boram", "w_neukkida"],
+    "note": "The teacher's credo, fully machined: -아/어도 (M39) concedes the 고생, -(으)ㄹ 때 (M25) marks the payoff moment, and 보람 — the felt worth English has no word for — arrives through 느끼다 (M32): 보람을 느끼다 is THE collocation. 힘들다 (M15) drops its subject the way natural Korean does."
   }
 ]

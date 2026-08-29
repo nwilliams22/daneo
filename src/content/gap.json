@@ -1915,5 +1915,23 @@
     "lit": "in water fall",
     "real": "to fall into the water; to sink into the water",
     "note": "Binds M1's 물 (water) with M35's 빠지다 (fall in, sink in). M1's 물 is the same word the module's spill and pour verbs run out through; here it is the water that goes the wrong way, down, into the thing. Run-out is out through a lip; fall-in is down into the water."
+  },
+  {
+    "id": "g_m67_kkumdo_kkujima",
+    "cat": "phrase",
+    "ko": "꿈도 꾸지 마",
+    "rom": "kkumdo kkuji ma",
+    "lit": "don't even dream the dream",
+    "real": "don't even THINK about it — permission denied at the fantasy stage",
+    "note": "This module's 꾸다 negated one stage before action: not only may you not DO it, you may not run the preview in 꿈속 (M65). The 도 (M2) delivers the 'even'; -지 마세요 (M14) does the forbidding, stripped here to bare 반말 마. Parents, bosses, and rom-com rivals all issue it; the genre-mandated response is to keep dreaming."
+  },
+  {
+    "id": "g_m67_bukkeureoum_mok",
+    "cat": "concept",
+    "ko": "부끄러움은 나의 몫",
+    "rom": "bukkeureoumeun naui mok",
+    "lit": "the shame is my share",
+    "real": "secondhand embarrassment — they did the cringe, I carry the shame",
+    "note": "Internet-era Korean for vicarious embarrassment: someone else does the embarrassing thing and the 부끄러움 lands on YOU — a friend's karaoke solo, a parent haggling loudly. 몫 (share, portion — untaught, riding frozen) is the slice that falls to a person; this module's 부끄러움 turns out to be transferable property, exactly the kind of THING the -(으)ㅁ freezer promised feelings could become."
   }
 ]
