@@ -1700,5 +1700,25 @@
       "s_m68_nod_listen", "s_m68_stare_shy", "s_m68_lookdown_small", "s_m68_turn_gone",
       "s_m68_bell_out", "s_m68_first_handshake", "s_m68_baby_hand", "s_m68_anthem_hand"
     ]
+  },
+  {
+    "id": "m69",
+    "title": "Gather and Believe",
+    "order": 78,
+    "ring": 2,
+    "contentMd": "modules/module-69.md",
+    "wordIds": [
+      "w_jonggyo", "w_bulgyo", "w_yugyo", "w_bucheo",
+      "w_seunim", "w_tap", "w_moksa", "w_sin",
+      "w_gido", "w_bilda", "w_billida", "w_josang",
+      "w_hwangap", "w_udeoreun", "w_moim", "w_haengsa",
+      "w_dongari", "w_dongchang", "w_miting", "w_chuka",
+      "w_hwanyeong", "w_chocheongjang", "w_insamal", "w_eorininal",
+      "w_deokbun"
+    ],
+    "sentenceIds": [
+      "s_m69_temple_yard", "s_m69_grandma_wish", "s_m69_borrow_stack", "s_m69_reunion_resolve",
+      "s_m69_hwangap_ready", "s_m69_all_thanks", "s_m69_club_welcome", "s_m69_speech_nerves"
+    ]
   }
 ]

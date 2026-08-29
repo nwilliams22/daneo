@@ -15819,5 +15819,215 @@
     "rom": "oreunsoneul gaseume ollyeonoko noraereul bulleosseoyo",
     "wordIds": ["w_oreunson", "w_gaseum", "w_ollyeonota", "w_norae", "w_bureuda"],
     "note": "The flag-ceremony posture: 올려놓다 lifts the grid's first cell onto M30's 가슴, M10's -고 chains the gesture to the song, and M19's 부르다 sings it — 노래를 부르다, its note's own collocation. Body language formal enough to have a national protocol; the rom shows the ㅎ-merge live: 올려놓고 says 올려노코."
+  },
+  {
+    "id": "s_m69_temple_yard",
+    "en": [
+      { "t": "In the temple courtyard", "role": "place", "id": "a" },
+      { "t": "an old pagoda", "role": "subject", "id": "s" },
+      { "t": "stands,", "role": "verb", "id": "v" },
+      { "t": "and a monk", "role": "subject", "id": "b" },
+      { "t": "in front of it", "role": "place", "id": "p" },
+      { "t": "is praying", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "temple courtyard-at", "role": "place", "id": "a" },
+      { "t": "old-[badge] pagoda-[subj]", "role": "subject", "id": "s" },
+      { "t": "exist-and", "role": "verb", "id": "v" },
+      { "t": "monk-[subj]", "role": "subject", "id": "b" },
+      { "t": "that front-at", "role": "place", "id": "p" },
+      { "t": "pray-ing is-[hon]", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "절 마당에", "role": "place", "id": "a" },
+      { "t": "오래된 탑이", "role": "subject", "id": "s" },
+      { "t": "있고,", "role": "verb", "id": "v" },
+      { "t": "스님이", "role": "subject", "id": "b" },
+      { "t": "그 앞에서", "role": "place", "id": "p" },
+      { "t": "기도하고 계세요", "role": "verb", "id": "w" }
+    ],
+    "rom": "jeol madange oraedoen tabi itgo, seunimi geu apeseo gidohago gyeseyo",
+    "wordIds": ["w_jeol_bow", "w_madang", "w_oraedoeda", "w_tap", "w_itda", "w_seunim", "w_geu_det", "w_ap", "w_gido", "w_gyesida"],
+    "note": "The temple set assembles on M26's 절 — whose note promised 'context bows to context'; here context says building. M54's 마당 holds the 탑, M35's 오래되다 wears M24's badge to describe it, and the 스님 prays inside Ring 1's progressive with M4's 계시다 swapped in — the respect and the grammar rising together."
+  },
+  {
+    "id": "s_m69_grandma_wish",
+    "en": [
+      { "t": "Every time she goes to the temple,", "role": "other", "id": "a" },
+      { "t": "Grandmother", "role": "subject", "id": "s" },
+      { "t": "wishes for", "role": "verb", "id": "v" },
+      { "t": "the family's health", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "grandmother-[hon.subj]-[topic]", "role": "subject", "id": "s" },
+      { "t": "temple-to go-[hon] time-every", "role": "other", "id": "a" },
+      { "t": "family-of health-[obj]", "role": "object", "id": "o" },
+      { "t": "wish-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "할머니께서는", "role": "subject", "id": "s" },
+      { "t": "절에 가실 때마다", "role": "other", "id": "a" },
+      { "t": "가족의 건강을", "role": "object", "id": "o" },
+      { "t": "비세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "halmeonikkeseoneun jeore gasil ttaemada gajogui geongangeul biseyo",
+    "wordIds": ["w_halmeoni", "w_jeol_bow", "w_gada", "w_ttae", "w_gajok", "w_geongang", "w_bilda"],
+    "note": "M47's 께서 honors the subject while M25's -(으)ㄹ 때 and M31's 마다 stack into 가실 때마다 — every single visit. Then 빌다 shows its ㄹ-stem manners: the ㄹ bows out before ㅅ, so the honored wish is 비세요, not 빌으세요. What she asks for never changes; M14's 건강 is the Korean grandmother's entire portfolio."
+  },
+  {
+    "id": "s_m69_borrow_stack",
+    "en": [
+      { "t": "Because of next week's exam,", "role": "other", "id": "a" },
+      { "t": "I borrowed", "role": "verb", "id": "v" },
+      { "t": "no fewer than five", "role": "other", "id": "b" },
+      { "t": "books", "role": "object", "id": "o" },
+      { "t": "from the library", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "next week exam because-of", "role": "other", "id": "a" },
+      { "t": "library-at", "role": "place", "id": "p" },
+      { "t": "book-[obj]", "role": "object", "id": "o" },
+      { "t": "five volume-no-less", "role": "other", "id": "b" },
+      { "t": "borrowed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다음 주 시험 때문에", "role": "other", "id": "a" },
+      { "t": "도서관에서", "role": "place", "id": "p" },
+      { "t": "책을", "role": "object", "id": "o" },
+      { "t": "다섯 권이나", "role": "other", "id": "b" },
+      { "t": "빌렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daeum ju siheom ttaemune doseogwaneseo chaegeul daseot gwonina billyeosseoyo",
+    "wordIds": ["w_daeum", "w_ju", "w_siheom", "w_ttaemun", "w_doseogwan", "w_chaek", "w_daseot", "w_c_gwon", "w_billida"],
+    "note": "The radar pair's other half, at the library counter: 빌리다 contracts to 빌렸어요 — never 빌리었-. M43's (이)나 raises an eyebrow at the count (five WHOLE books, M5's 권 doing the counting), and M29's 때문에 files the exam as cause, not credit — when it goes well, 덕분에 takes over the paperwork."
+  },
+  {
+    "id": "s_m69_reunion_resolve",
+    "en": [
+      { "t": "It's been over ten years", "role": "other", "id": "a" },
+      { "t": "since I last saw", "role": "other", "id": "b" },
+      { "t": "my high-school classmates,", "role": "object", "id": "o" },
+      { "t": "so this time", "role": "other", "id": "c" },
+      { "t": "I've decided without fail to go", "role": "verb", "id": "v" },
+      { "t": "to the reunion", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "high-school classmate-[plural]-[obj]", "role": "object", "id": "o" },
+      { "t": "not see-[badge] since", "role": "other", "id": "b" },
+      { "t": "ten year-[subj] exceed-so", "role": "other", "id": "a" },
+      { "t": "this-time", "role": "other", "id": "c" },
+      { "t": "gathering-to-[topic]", "role": "place", "id": "p" },
+      { "t": "surely go-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "고등학교 동창들을", "role": "object", "id": "o" },
+      { "t": "못 본 지", "role": "other", "id": "b" },
+      { "t": "십 년이 넘어서,", "role": "other", "id": "a" },
+      { "t": "이번", "role": "other", "id": "c" },
+      { "t": "모임에는", "role": "place", "id": "p" },
+      { "t": "꼭 가기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "godeunghakgyo dongchangdeureul mot bon ji sip nyeoni neomeoseo, ibeon moimeneun kkok gagiro haesseoyo",
+    "wordIds": ["w_godeunghakgyo", "w_dongchang", "w_boda", "w_ji", "w_n_sip", "w_nyeon", "w_neomda", "w_ibeon", "w_moim", "w_kkok", "w_gada"],
+    "note": "M46's stopwatch noun counts the drought — 못 본 지 십 년, ten years since the last look — M36's 넘다 pushes the count over the line, and M48's -기로 하다 turns the 모임 into a commitment, not a maybe. 동창 does what the word does everywhere in Korea: it pulls you back. M29's 꼭 signs the promise."
+  },
+  {
+    "id": "s_m69_hwangap_ready",
+    "en": [
+      { "t": "For Mother's sixtieth-birthday feast,", "role": "other", "id": "a" },
+      { "t": "I've booked and set aside", "role": "verb", "id": "v" },
+      { "t": "a restaurant", "role": "object", "id": "o" },
+      { "t": "in advance", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "mother-of sixty-cycle feast-[obj] for-the-sake-of", "role": "other", "id": "a" },
+      { "t": "restaurant-[obj]", "role": "object", "id": "o" },
+      { "t": "ahead", "role": "other", "id": "b" },
+      { "t": "reserve-set-down", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어머니의 환갑 잔치를 위해서", "role": "other", "id": "a" },
+      { "t": "식당을", "role": "object", "id": "o" },
+      { "t": "미리", "role": "other", "id": "b" },
+      { "t": "예약해 놓았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eomeoniui hwangap janchireul wihaeseo sikdangeul miri yeyakhae noasseoyo",
+    "wordIds": ["w_eomeoni", "w_hwangap", "w_janchi", "w_wihada", "w_sikdang", "w_miri", "w_yeyakhada", "w_nota"],
+    "note": "The celebration circuit at speed: M32's 위해서 aims the errand at the 환갑 잔치 — M25's 잔치 feeding its biggest party since the first birthday — and M40's -아/어 놓다 banks the reservation: M18's 예약하다 done early (M38's 미리) and left standing ready. Sixty years earns a booked-out 식당."
+  },
+  {
+    "id": "s_m69_all_thanks",
+    "en": [
+      { "t": "That I passed", "role": "subject", "id": "s" },
+      { "t": "is entirely", "role": "other", "id": "b" },
+      { "t": "thanks to you, Teacher", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "I-[subj] pass-[badge] thing-[topic]", "role": "subject", "id": "s" },
+      { "t": "all", "role": "other", "id": "b" },
+      { "t": "teacher virtue-share-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제가 합격한 것은", "role": "subject", "id": "s" },
+      { "t": "다", "role": "other", "id": "b" },
+      { "t": "선생님 덕분이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jega hapgyeokhan geoseun da seonsaengnim deokbunieyo",
+    "wordIds": ["w_je", "w_hapgyeok", "w_da", "w_seonsaengnim", "w_deokbun"],
+    "note": "덕분 in its natural frame: M17's 것 nouns the achievement, M24's badge marks it done, M9's 다 hands over ALL of the credit, and 덕분이에요 closes the transfer. This is the Korean thank-you that promotes the other person — M44's 합격 never travels alone, and M29's 때문 would sound like an accusation here."
+  },
+  {
+    "id": "s_m69_club_welcome",
+    "en": [
+      { "t": "In the new semester,", "role": "other", "id": "t" },
+      { "t": "every club", "role": "subject", "id": "s" },
+      { "t": "holds", "role": "verb", "id": "v" },
+      { "t": "a welcome event", "role": "object", "id": "o" },
+      { "t": "for the freshmen", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "new semester-at-[topic]", "role": "other", "id": "t" },
+      { "t": "club-every", "role": "subject", "id": "s" },
+      { "t": "freshman-[obj] for-[badge]", "role": "other", "id": "a" },
+      { "t": "welcome event-[obj]", "role": "object", "id": "o" },
+      { "t": "open", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새 학기에는", "role": "other", "id": "t" },
+      { "t": "동아리마다", "role": "subject", "id": "s" },
+      { "t": "신입생을 위한", "role": "other", "id": "a" },
+      { "t": "환영 행사를", "role": "object", "id": "o" },
+      { "t": "열어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sae hakgieneun dongarimada sinipsaengeul wihan hwanyeong haengsareul yeoreoyo",
+    "wordIds": ["w_sae", "w_hakgi", "w_dongari", "w_sinipsaeng", "w_wihada", "w_hwanyeong", "w_haengsa", "w_yeolda"],
+    "note": "March logic: 새 학기 (M13's 새 on M44's 학기) resets campus, M31's 마다 hands the ritual to every 동아리, and M44's 위한 badge aims the event at its guests — 신입생을 위한 환영 행사, stacked exactly the way Korean posters write it. M13's 열다 opens events as readily as doors; M58's 신입생 walks through both."
+  },
+  {
+    "id": "s_m69_speech_nerves",
+    "en": [
+      { "t": "My congratulatory speech", "role": "object", "id": "o" },
+      { "t": "I had prepared and stored away, but", "role": "other", "id": "a" },
+      { "t": "at the wedding", "role": "place", "id": "p" },
+      { "t": "I got so nervous that", "role": "other", "id": "b" },
+      { "t": "I forgot it all, completely", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "congratulation greeting-words-[obj]", "role": "object", "id": "o" },
+      { "t": "prepare-store-but", "role": "other", "id": "a" },
+      { "t": "wedding-at", "role": "place", "id": "p" },
+      { "t": "too get-nervous-so", "role": "other", "id": "b" },
+      { "t": "all forget-threw-away", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "축하 인사말을", "role": "object", "id": "o" },
+      { "t": "준비해 두었는데,", "role": "other", "id": "a" },
+      { "t": "결혼식에서", "role": "place", "id": "p" },
+      { "t": "너무 긴장해서", "role": "other", "id": "b" },
+      { "t": "다 잊어버렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chuka insamareul junbihae dueonneunde, gyeolhonsigeseo neomu ginjanghaeseo da ijeobeoryeosseoyo",
+    "wordIds": ["w_chuka", "w_insamal", "w_junbihada", "w_duda", "w_gyeolhonsik", "w_neomu", "w_ginjang", "w_ijda", "w_beorida", "w_da"],
+    "note": "The module's warmest words meet its most human ending: the 축하 인사말 was banked with M40's -아/어 두다, M53's -는데 pivots to the 결혼식 (M25), and 긴장 (M42) plus M52's -아/어 버리다 make the forgetting total — 잊다 (M15), thrown away with a sigh. The speech is gone; the toast survives on feeling."
   }
 ]
