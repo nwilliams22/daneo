@@ -15624,5 +15624,200 @@
     "rom": "himdeureodo aideuri useul ttae borameul neukkyeoyo",
     "wordIds": ["w_himdeulda", "w_ai", "w_utda", "w_boram", "w_neukkida"],
     "note": "The teacher's credo, fully machined: -아/어도 (M39) concedes the 고생, -(으)ㄹ 때 (M25) marks the payoff moment, and 보람 — the felt worth English has no word for — arrives through 느끼다 (M32): 보람을 느끼다 is THE collocation. 힘들다 (M15) drops its subject the way natural Korean does."
+  },
+  {
+    "id": "s_m68_nod_listen",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "nodded along", "role": "verb", "id": "v" },
+      { "t": "while listening", "role": "other", "id": "a" },
+      { "t": "to my story", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "friend-[topic]", "role": "subject", "id": "s" },
+      { "t": "my story-[obj]", "role": "object", "id": "o" },
+      { "t": "listen-while", "role": "other", "id": "a" },
+      { "t": "head-[obj] nodded", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구는", "role": "subject", "id": "s" },
+      { "t": "제 이야기를", "role": "object", "id": "o" },
+      { "t": "들으면서", "role": "other", "id": "a" },
+      { "t": "고개를 끄덕였어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguneun je iyagireul deureumyeonseo gogaereul kkeudeogyeosseoyo",
+    "wordIds": ["w_chingu", "w_je", "w_iyagi", "w_deutda", "w_gogae", "w_kkeudeogida"],
+    "note": "The nod, live: 고개를 끄덕이다 with its polite contraction on display — 끄덕였어요, never 끄덕이었어요. M38's -(으)면서 runs the listening and the nodding in parallel, which is exactly how Korean agreement works: on the beat, while you talk. M2's 듣다 shows its ㄷ-irregular on the way in — 들으면서."
+  },
+  {
+    "id": "s_m68_stare_shy",
+    "en": [
+      { "t": "Don't stare at me", "role": "verb", "id": "v" },
+      { "t": "like that.", "role": "other", "id": "a" },
+      { "t": "You know it's embarrassing", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "like-that", "role": "other", "id": "a" },
+      { "t": "stare-don't.", "role": "verb", "id": "v" },
+      { "t": "be-shy-you-know", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "그렇게", "role": "other", "id": "a" },
+      { "t": "쳐다보지 마세요.", "role": "verb", "id": "v" },
+      { "t": "부끄럽잖아요", "role": "verb", "id": "w" }
+    ],
+    "rom": "geureoke chyeodaboji maseyo. bukkeureopjanayo",
+    "wordIds": ["w_geureoke", "w_chyeodaboda", "w_bukkeureopda"],
+    "note": "-지 마세요 from M14, aimed at the module's bluntest gaze: held eye contact is a challenge or a crush, and either way the watched party feels it. M34's 부끄럽다 explains itself through M42's -잖아요 — you KNOW it's embarrassing — while M33's 그렇게 measures the manner. The politest possible way to say stop looking at me."
+  },
+  {
+    "id": "s_m68_lookdown_small",
+    "en": [
+      { "t": "From the mountaintop,", "role": "place", "id": "p" },
+      { "t": "if you look down", "role": "other", "id": "a" },
+      { "t": "at the city,", "role": "object", "id": "o" },
+      { "t": "your worries", "role": "subject", "id": "s" },
+      { "t": "look small", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "mountain top-from", "role": "place", "id": "p" },
+      { "t": "city-[obj]", "role": "object", "id": "o" },
+      { "t": "look-down-if", "role": "other", "id": "a" },
+      { "t": "worry-[subj]", "role": "subject", "id": "s" },
+      { "t": "small-appear", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "산 위에서", "role": "place", "id": "p" },
+      { "t": "도시를", "role": "object", "id": "o" },
+      { "t": "내려다보면", "role": "other", "id": "a" },
+      { "t": "걱정이", "role": "subject", "id": "s" },
+      { "t": "작아 보여요", "role": "verb", "id": "v" }
+    ],
+    "rom": "san wieseo dosireul naeryeodabomyeon geokjeongi jaga boyeoyo",
+    "wordIds": ["w_san", "w_wi", "w_dosi", "w_naeryeodaboda", "w_geokjeong", "w_jakda", "w_boida"],
+    "note": "내려다보다 doing its literal job from M11's 산 — M22's 오르다 got you up here — with M20's -(으)면 drawing the payoff and M36's 보이다 reporting how things LOOK rather than how they are. Perspective as grammar: climb, look down, and M29's 걱정 shrinks on its own."
+  },
+  {
+    "id": "s_m68_turn_gone",
+    "en": [
+      { "t": "I called their name, but", "role": "other", "id": "a" },
+      { "t": "my friend", "role": "subject", "id": "s" },
+      { "t": "just turned away", "role": "other", "id": "b" },
+      { "t": "and was gone", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "I-[subj] name-[obj] called-but", "role": "other", "id": "a" },
+      { "t": "friend-[topic]", "role": "subject", "id": "s" },
+      { "t": "just turn-away-and", "role": "other", "id": "b" },
+      { "t": "go-threw-away", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제가 이름을 불렀는데", "role": "other", "id": "a" },
+      { "t": "친구는", "role": "subject", "id": "s" },
+      { "t": "그냥 돌아서서", "role": "other", "id": "b" },
+      { "t": "가 버렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jega ireumeul bulleonneunde chinguneun geunyang doraseoseo ga beoryeosseoyo",
+    "wordIds": ["w_jeo", "w_ireum", "w_bureuda", "w_chingu", "w_geunyang", "w_doraseoda", "w_gada", "w_beorida"],
+    "note": "돌아서다's whole drama in one motion: M53's -는데 sets the scene and drops the 'but,' then M52's -아/어 버리다 closes the door — 가 버렸어요: gone, nothing to be done. M19's 부르다 shows its 르-shape (불렀-). The turned back says more than the mouth ever did."
+  },
+  {
+    "id": "s_m68_bell_out",
+    "en": [
+      { "t": "The second class ended,", "role": "other", "id": "a" },
+      { "t": "the kids", "role": "subject", "id": "s" },
+      { "t": "bolted", "role": "verb", "id": "v" },
+      { "t": "outside", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "class-[subj] end-as-soon-as", "role": "other", "id": "a" },
+      { "t": "child-plural-[subj]", "role": "subject", "id": "s" },
+      { "t": "outside-toward", "role": "place", "id": "p" },
+      { "t": "ran-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "수업이 끝나자마자", "role": "other", "id": "a" },
+      { "t": "아이들이", "role": "subject", "id": "s" },
+      { "t": "밖으로", "role": "place", "id": "p" },
+      { "t": "뛰어나갔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sueobi kkeunnajamaja aideuri bakkeuro ttwieonagasseoyo",
+    "wordIds": ["w_sueop", "w_kkeunnada", "w_ai", "w_bak", "w_ttwieonagada"],
+    "note": "The 뛰어- squadron's maiden flight on M66's chassis — the same weld as 달려가다, other engine: M28's 뛰다 + M8's 나가다. M38's -자마자 clocks the zero-second gap between M8's 끝나다 and the stampede through M6's 밖. Every classroom in the country empties exactly like this."
+  },
+  {
+    "id": "s_m68_first_handshake",
+    "en": [
+      { "t": "When we first met,", "role": "other", "id": "a" },
+      { "t": "we", "role": "subject", "id": "s" },
+      { "t": "stood face-to-face", "role": "other", "id": "b" },
+      { "t": "and shook hands", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "first met-when", "role": "other", "id": "a" },
+      { "t": "we-[topic]", "role": "subject", "id": "s" },
+      { "t": "face-to-face stand-and", "role": "other", "id": "b" },
+      { "t": "handshake-[obj] did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "처음 만났을 때", "role": "other", "id": "a" },
+      { "t": "우리는", "role": "subject", "id": "s" },
+      { "t": "마주 서서", "role": "other", "id": "b" },
+      { "t": "악수를 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheoeum mannasseul ttae urineun maju seoseo aksureul haesseoyo",
+    "wordIds": ["w_cheoeum", "w_mannada", "w_ttae", "w_uri", "w_maju", "w_seoda", "w_aksu", "w_hada"],
+    "note": "마주 puts M14's 서다 front-to-front and 악수하다 seals it — 오른손, remember, 왼손 in support if respect is due. M25's -(으)ㄹ 때 frames the moment, and M15's 처음 note already filed the spoken half of this ritual (처음 뵙겠습니다); this is the body half. Bow, shake, or — Korean default — both at once."
+  },
+  {
+    "id": "s_m68_baby_hand",
+    "en": [
+      { "t": "I edged closer", "role": "other", "id": "c" },
+      { "t": "to the baby", "role": "other", "id": "a" },
+      { "t": "slowly", "role": "other", "id": "b" },
+      { "t": "and took", "role": "verb", "id": "v" },
+      { "t": "her hand", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "baby-to", "role": "other", "id": "a" },
+      { "t": "slowly", "role": "other", "id": "b" },
+      { "t": "approach-and", "role": "other", "id": "c" },
+      { "t": "hand-[obj]", "role": "object", "id": "o" },
+      { "t": "grabbed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아기에게", "role": "other", "id": "a" },
+      { "t": "천천히", "role": "other", "id": "b" },
+      { "t": "다가가서", "role": "other", "id": "c" },
+      { "t": "손을", "role": "object", "id": "o" },
+      { "t": "잡았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "agiege cheoncheonhi dagagaseo soneul jabasseoyo",
+    "wordIds": ["w_agi", "w_cheoncheonhi", "w_dagagada", "w_son", "w_japda"],
+    "note": "다가가다 pays M50's IOU — 다가오다's note promised the mirror that approaches away from you, and here it is, aimed at M25's 아기 with M10's 천천히 doing the caution. M28's 잡다 lands on its oldest collocation, 손을 잡다. Approach is a verb you conjugate carefully around small humans."
+  },
+  {
+    "id": "s_m68_anthem_hand",
+    "en": [
+      { "t": "I placed", "role": "other", "id": "a" },
+      { "t": "my right hand", "role": "object", "id": "o" },
+      { "t": "on my chest", "role": "place", "id": "p" },
+      { "t": "and sang the song", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "right-hand-[obj]", "role": "object", "id": "o" },
+      { "t": "chest-on", "role": "place", "id": "p" },
+      { "t": "put-up-on-and", "role": "other", "id": "a" },
+      { "t": "song-[obj] sang", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오른손을", "role": "object", "id": "o" },
+      { "t": "가슴에", "role": "place", "id": "p" },
+      { "t": "올려놓고", "role": "other", "id": "a" },
+      { "t": "노래를 불렀어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oreunsoneul gaseume ollyeonoko noraereul bulleosseoyo",
+    "wordIds": ["w_oreunson", "w_gaseum", "w_ollyeonota", "w_norae", "w_bureuda"],
+    "note": "The flag-ceremony posture: 올려놓다 lifts the grid's first cell onto M30's 가슴, M10's -고 chains the gesture to the song, and M19's 부르다 sings it — 노래를 부르다, its note's own collocation. Body language formal enough to have a national protocol; the rom shows the ㅎ-merge live: 올려놓고 says 올려노코."
   }
 ]
