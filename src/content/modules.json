@@ -1679,5 +1679,26 @@
       "s_m67_gift_joy", "s_m67_dark_sounds", "s_m67_song_trigger", "s_m67_summon_home",
       "s_m67_scary_dream", "s_m67_passport_trouble", "s_m67_wennil_visit", "s_m67_boram_credo"
     ]
+  },
+  {
+    "id": "m68",
+    "title": "Nod, Glance, Reach",
+    "order": 77,
+    "ring": 2,
+    "contentMd": "modules/module-68.md",
+    "wordIds": [
+      "w_gogae", "w_kkeudeogida", "w_chyeodaboda", "w_naeryeodaboda",
+      "w_deuryeodaboda", "w_maju", "w_dagagada", "w_doraseoda",
+      "w_matseoda", "w_apseoda", "w_neomeoseoda", "w_ttwieodeulda",
+      "w_ttwieonagada", "w_ttwieooda", "w_ttwieodanida", "w_naraoda",
+      "w_geonneooda", "w_ollyeonota", "w_naeryeonota", "w_oreunson",
+      "w_oenson", "w_oreunbal", "w_oenbal", "w_sonbal",
+      "w_sonjabi", "w_sonsugeon", "w_sonppyeok", "w_aksu",
+      "w_jit"
+    ],
+    "sentenceIds": [
+      "s_m68_nod_listen", "s_m68_stare_shy", "s_m68_lookdown_small", "s_m68_turn_gone",
+      "s_m68_bell_out", "s_m68_first_handshake", "s_m68_baby_hand", "s_m68_anthem_hand"
+    ]
   }
 ]
