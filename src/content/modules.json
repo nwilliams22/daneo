@@ -1658,5 +1658,26 @@
       "s_m66_finger_point", "s_m66_cup_pour", "s_m66_river_run", "s_m66_ball_return",
       "s_m66_ball_poke", "s_m66_ball_burst", "s_m66_baby_kick", "s_m66_book_layer"
     ]
+  },
+  {
+    "id": "m67",
+    "title": "The Inner Weather",
+    "order": 76,
+    "ring": 2,
+    "contentMd": "modules/module-67.md",
+    "wordIds": [
+      "w_gippeohada", "w_seulpeohada", "w_bureowohada", "w_jeulgeowohada",
+      "w_ssaum", "w_mannam", "w_mureum", "w_eoryeoum",
+      "w_eodum", "w_bukkeureoum", "w_gieongnada", "w_saenggangnada",
+      "w_tteoollida", "w_kkuda", "w_kkumkkuda", "w_sangsang",
+      "w_uisimhada", "w_jaranghada", "w_yeomnyeohada", "w_gosaenghada",
+      "w_boram", "w_heungmi", "w_giun", "w_simni",
+      "w_kompeullekseu", "w_pirohada", "w_bulhaenghada", "w_keunnil",
+      "w_wennil"
+    ],
+    "sentenceIds": [
+      "s_m67_gift_joy", "s_m67_dark_sounds", "s_m67_song_trigger", "s_m67_summon_home",
+      "s_m67_scary_dream", "s_m67_passport_trouble", "s_m67_wennil_visit", "s_m67_boram_credo"
+    ]
   }
 ]
