@@ -1740,5 +1740,25 @@
       "s_m70_winter_days", "s_m70_grown_close", "s_m70_learners_growing", "s_m70_date_ready",
       "s_m70_sudden_rain", "s_m70_easy_read", "s_m70_bath_time", "s_m70_oil_water"
     ]
+  },
+  {
+    "id": "m71",
+    "title": "The Spoken Floor",
+    "order": 80,
+    "ring": 2,
+    "contentMd": "modules/module-71.md",
+    "wordIds": [
+      "w_ya_hey", "w_eung", "w_eueung", "w_eottae",
+      "w_geureochi", "w_aniya", "w_anyo", "w_ja_now",
+      "w_eum_hmm", "w_geulsse", "w_eomeo", "w_haha",
+      "w_hayeoteun", "w_amuteun", "w_bunmyeong", "w_amado",
+      "w_kkamppak", "w_jakkuman", "w_malsseumdeurida", "w_boeda",
+      "w_daphada", "w_daehwahada", "w_sugohada", "w_hanjan",
+      "w_hanjanhada", "w_eotteokhada", "w_saekki"
+    ],
+    "sentenceIds": [
+      "s_m71_ya_eottae", "s_m71_eung_geureochi", "s_m71_aniya_bunmyeong", "s_m71_malsseum_deuril",
+      "s_m71_geureom_bwaeyo", "s_m71_ja_sugo_hanjan", "s_m71_eomeo_kkamppak", "s_m71_cat_litter"
+    ]
   }
 ]

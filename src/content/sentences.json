@@ -16218,5 +16218,218 @@
     "rom": "mulgwa gireumeun amuri jeoeodo an seokkyeoyo",
     "wordIds": ["w_mul", "w_gireum", "w_amuri", "w_jeotda_stir", "w_seokkida"],
     "note": "M40's 섞다 + 이 → 섞이다: mixing that fails on its own, no cook blamed (M3's 안 does the refusing). M40's 젓다 shows its ㅅ-irregular under the -아/어도 concession from M39 (저어도 — the ㅅ gone), with M39's 아무리 fronting it: no matter how. M30's 과 joins M1's 물 to M40's 기름 — the science-class sentence, and the one Koreans use about two people who will never get along."
+  },
+  {
+    "id": "s_m71_ya_eottae",
+    "en": [
+      { "t": "Hey,", "role": "other", "id": "a" },
+      { "t": "how about", "role": "verb", "id": "v" },
+      { "t": "this one?", "role": "subject", "id": "s" },
+      { "t": "I", "role": "subject", "id": "t" },
+      { "t": "made it.", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "hey,", "role": "other", "id": "a" },
+      { "t": "this-thing", "role": "subject", "id": "s" },
+      { "t": "how-is?", "role": "verb", "id": "v" },
+      { "t": "I-[subj]", "role": "subject", "id": "t" },
+      { "t": "made.", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "야,", "role": "other", "id": "a" },
+      { "t": "이거", "role": "subject", "id": "s" },
+      { "t": "어때?", "role": "verb", "id": "v" },
+      { "t": "내가", "role": "subject", "id": "t" },
+      { "t": "만들었어.", "role": "verb", "id": "w" }
+    ],
+    "rom": "ya, igeo eottae? naega mandeureosseo.",
+    "wordIds": ["w_ya_hey", "w_igeo", "w_eottae", "w_na", "w_mandeulda"],
+    "note": "야 in its natural habitat: Module 19's vocative — 민수야! — with the name removed, then 어때 doing M24's 어떻다 in its 어때요 form with the collar off, and M1's 나 as 내가 (its irregular subject form) on M3's 만들다. Three 반말 signals in six syllables; say it to a friend and it is warm, to a coworker and it is a resignation letter."
+  },
+  {
+    "id": "s_m71_eung_geureochi",
+    "en": [
+      { "t": "Yeah,", "role": "other", "id": "a" },
+      { "t": "right?", "role": "verb", "id": "v" },
+      { "t": "For me too,", "role": "subject", "id": "s" },
+      { "t": "that song", "role": "subject", "id": "t" },
+      { "t": "keeps on and on", "role": "other", "id": "b" },
+      { "t": "popping into my head.", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "yeah,", "role": "other", "id": "a" },
+      { "t": "is-so-right?", "role": "verb", "id": "v" },
+      { "t": "I-also", "role": "subject", "id": "s" },
+      { "t": "keeps-on-and-on", "role": "other", "id": "b" },
+      { "t": "that song-[subj]", "role": "subject", "id": "t" },
+      { "t": "comes-to-mind.", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "응,", "role": "other", "id": "a" },
+      { "t": "그렇지?", "role": "verb", "id": "v" },
+      { "t": "나도", "role": "subject", "id": "s" },
+      { "t": "자꾸만", "role": "other", "id": "b" },
+      { "t": "그 노래가", "role": "subject", "id": "t" },
+      { "t": "생각나.", "role": "verb", "id": "w" }
+    ],
+    "rom": "eung, geureochi? nado jakkuman geu noraega saenggangna.",
+    "wordIds": ["w_eung", "w_geureochi", "w_na", "w_jakkuman", "w_geu_det", "w_norae", "w_saenggangnada"],
+    "note": "Two new noises and one recent verb: 응 answers, 그렇지? hands the agreement back with the bare -지 tag from M51, and M67's 생각나다 — the eruption verb — runs on 자꾸만, which is M38's 자꾸 with M30's 만 bolted on for the sigh. The double subject (나도… 그 노래가) is Korean's normal shape for 'that song, for me too'; M29's 그 makes it the song we both mean."
+  },
+  {
+    "id": "s_m71_aniya_bunmyeong",
+    "en": [
+      { "t": "No,", "role": "other", "id": "a" },
+      { "t": "it's not a joke.", "role": "verb", "id": "v" },
+      { "t": "Something", "role": "subject", "id": "s" },
+      { "t": "is definitely", "role": "other", "id": "b" },
+      { "t": "going on.", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "no,", "role": "other", "id": "a" },
+      { "t": "joke not-is.", "role": "verb", "id": "v" },
+      { "t": "definitely", "role": "other", "id": "b" },
+      { "t": "some matter-[subj]", "role": "subject", "id": "s" },
+      { "t": "exists.", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "아니야,", "role": "other", "id": "a" },
+      { "t": "농담 아니야.", "role": "verb", "id": "v" },
+      { "t": "분명", "role": "other", "id": "b" },
+      { "t": "무슨 일이", "role": "subject", "id": "s" },
+      { "t": "있어.", "role": "verb", "id": "w" }
+    ],
+    "rom": "aniya, nongdam aniya. bunmyeong museun iri isseo.",
+    "wordIds": ["w_aniya", "w_nongdam", "w_anida", "w_bunmyeong", "w_museun", "w_n_il", "w_itda"],
+    "note": "아니야 twice, doing both its jobs: the interjection that opens (no,) and M19's 아니다 that closes — 농담 아니야 on M19's 농담, the same denial M37's 장난 note ran as 장난 아니야. Then 분명, the inferring 'definitely' (not M62's 분명히, the eyewitness word), over M10's 무슨 and M2's 일 in its work-or-matter sense: something is going on, and I have deduced it."
+  },
+  {
+    "id": "s_m71_malsseum_deuril",
+    "en": [
+      { "t": "Sir,", "role": "other", "id": "a" },
+      { "t": "there's something", "role": "subject", "id": "s" },
+      { "t": "I need to tell you", "role": "verb", "id": "v" },
+      { "t": "for a moment.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "department-head,", "role": "other", "id": "a" },
+      { "t": "a-moment", "role": "other", "id": "b" },
+      { "t": "humbly-tell-[will] thing-[subj]", "role": "subject", "id": "s" },
+      { "t": "exists.", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부장님,", "role": "other", "id": "a" },
+      { "t": "잠깐", "role": "other", "id": "b" },
+      { "t": "말씀드릴 게", "role": "subject", "id": "s" },
+      { "t": "있어요.", "role": "verb", "id": "v" }
+    ],
+    "rom": "bujangnim, jamkkan malsseumdeuril ge isseoyo.",
+    "wordIds": ["w_bujangnim", "w_jamkkan", "w_malsseumdeurida", "w_itda"],
+    "note": "M27's 말씀 note promised '말씀 드릴게요 — Ring 2 machinery, previewed'; the machinery is here. 말씀드릴 게 is the prospective -(으)ㄹ (the same one inside -(으)ㄹ 때, M25) on the humble verb, with M17's 것 squeezed to 게 as the subject of 있어요 — the 'have' frame where the thing exists for you; M28's 잠깐 buys the minute. Said to M16's 부장님, and only upward: to a friend the same sentence is 잠깐 할 말 있어."
+  },
+  {
+    "id": "s_m71_geureom_bwaeyo",
+    "en": [
+      { "t": "Well then,", "role": "other", "id": "a" },
+      { "t": "I'll see you", "role": "verb", "id": "v" },
+      { "t": "tomorrow", "role": "other", "id": "t" },
+      { "t": "at the office.", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "then,", "role": "other", "id": "a" },
+      { "t": "tomorrow", "role": "other", "id": "t" },
+      { "t": "company-at", "role": "place", "id": "p" },
+      { "t": "humbly-see.", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그럼", "role": "other", "id": "a" },
+      { "t": "내일", "role": "other", "id": "t" },
+      { "t": "회사에서", "role": "place", "id": "p" },
+      { "t": "봬요.", "role": "verb", "id": "v" }
+    ],
+    "rom": "geureom naeil hoesaeseo bwaeyo.",
+    "wordIds": ["w_geureom", "w_naeil", "w_hoesa", "w_boeda"],
+    "note": "M29's 그럼 note closed conversations with 그럼, 내일 봐요; this is that sign-off aimed upward. 봬요 is 뵈다 + 어요 — the vowel-side twin of M47's 뵙다, exactly where that note said 뵈- appears 'before vowels' — at M2's 회사. Say it leaving a senior, a client, a professor; leaving a friend, M1's 보다 as bare 봐 is enough, and 봬요 would sound like a job interview."
+  },
+  {
+    "id": "s_m71_ja_sugo_hanjan",
+    "en": [
+      { "t": "Right then —", "role": "other", "id": "a" },
+      { "t": "your hard work", "role": "subject", "id": "s" },
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "was much appreciated.", "role": "verb", "id": "v" },
+      { "t": "Shall we get off work and", "role": "other", "id": "b" },
+      { "t": "have a drink?", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "now-then,", "role": "other", "id": "a" },
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "effort", "role": "subject", "id": "s" },
+      { "t": "was-much-[hon].", "role": "verb", "id": "v" },
+      { "t": "leave-work-and", "role": "other", "id": "b" },
+      { "t": "have-a-drink-shall-we?", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "자,", "role": "other", "id": "a" },
+      { "t": "오늘", "role": "other", "id": "t" },
+      { "t": "수고", "role": "subject", "id": "s" },
+      { "t": "많으셨어요.", "role": "verb", "id": "v" },
+      { "t": "퇴근하고", "role": "other", "id": "b" },
+      { "t": "한잔할까요?", "role": "verb", "id": "w" }
+    ],
+    "rom": "ja, oneul sugo maneusyeosseoyo. toegeunhago hanjanhalkkayo?",
+    "wordIds": ["w_ja_now", "w_oneul", "w_sugohada", "w_manta", "w_toegeunhada", "w_hanjanhada"],
+    "note": "The six-o'clock script. 자 gathers the room; 수고 많으셨어요 is 수고하다 as its bare noun under M7's 많다 wearing the honorific -(으)시- from M4 — the warm register of the gap-deck formula 수고하셨습니다 — aimed sideways and down at the team, never up; then M16's 퇴근하다 hands off through the -고 connective from M10 to 한잔하다 riding the -(으)ㄹ까요 shall-we from M9. The engine of M16's 회식, in two sentences."
+  },
+  {
+    "id": "s_m71_eomeo_kkamppak",
+    "en": [
+      { "t": "Oh no,", "role": "other", "id": "a" },
+      { "t": "I forgot", "role": "verb", "id": "v" },
+      { "t": "my umbrella", "role": "object", "id": "o" },
+      { "t": "completely.", "role": "other", "id": "b" },
+      { "t": "What do I do?", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "oh-my,", "role": "other", "id": "a" },
+      { "t": "umbrella-[obj]", "role": "object", "id": "o" },
+      { "t": "in-a-blink", "role": "other", "id": "b" },
+      { "t": "forgot-completely.", "role": "verb", "id": "v" },
+      { "t": "do-how-hm?", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "어머,", "role": "other", "id": "a" },
+      { "t": "우산을", "role": "object", "id": "o" },
+      { "t": "깜빡", "role": "other", "id": "b" },
+      { "t": "잊어버렸어요.", "role": "verb", "id": "v" },
+      { "t": "어떡하지?", "role": "verb", "id": "w" }
+    ],
+    "rom": "eomeo, usaneul kkamppak ijeobeoryeosseoyo. eotteokhaji?",
+    "wordIds": ["w_eomeo", "w_usan", "w_kkamppak", "w_ijda", "w_beorida", "w_eotteokhada"],
+    "note": "어머 opens (surprise, feminine-coded), 깜빡 names the slip, and M15's 잊다 rides the -아/어 버리다 ending from M52 — forgotten and GONE, M9's 우산 with it. Then the module's panic verb: 어떡하지? is asked of yourself, so it takes the bare -지 tag from M51 even inside a polite conversation; to the listener it would be 어떡해요? The pair 어머, 어떡해 that M29's 아이고 note previewed is now fully yours."
+  },
+  {
+    "id": "s_m71_cat_litter",
+    "en": [
+      { "t": "Our cat", "role": "subject", "id": "s" },
+      { "t": "had", "role": "verb", "id": "v" },
+      { "t": "four", "role": "other", "id": "b" },
+      { "t": "kittens.", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "our house cat-[subj]", "role": "subject", "id": "s" },
+      { "t": "young-[obj]", "role": "object", "id": "o" },
+      { "t": "four animal-count", "role": "other", "id": "b" },
+      { "t": "gave-birth.", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 집 고양이가", "role": "subject", "id": "s" },
+      { "t": "새끼를", "role": "object", "id": "o" },
+      { "t": "네 마리", "role": "other", "id": "b" },
+      { "t": "낳았어요.", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri jip goyangiga saekkireul ne mari naasseoyo.",
+    "wordIds": ["w_uri", "w_jip", "w_goyangi", "w_saekki", "w_net", "w_c_mari", "w_nata"],
+    "note": "새끼 where it belongs: M22's 고양이 and M47's 낳다 (said 나았어요 — the ㅎ falls silent, as that note warned), counted by M5's 마리 with M5's 넷 in its counter form 네. M4's 우리 집 makes it our cat, as Korean does. This is the only sentence shape the word should ever take from you — young animals, counted."
   }
 ]

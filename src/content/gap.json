@@ -1996,5 +1996,23 @@
     "lit": "sleep pours down",
     "real": "to be overwhelmed by sleepiness — drowsiness arriving all at once, like a downpour",
     "note": "This module's 쏟아지다 with M28's 잠 as the liquid: sleep doesn't come, it POURS — the same verb as 비가 쏟아지다, aimed at eyelids. 수업 시간에 잠이 쏟아져요 (M10's 수업, M1's 시간) is the honest student's confession, and 잠을 자다 (the doubled pair M28's 잠 note taught) is what it leads to. Korean files drowsiness under weather; the umbrella is coffee."
+  },
+  {
+    "id": "g_m71_nune_boeneun_ge_eopda",
+    "cat": "phrase",
+    "ko": "눈에 뵈는 게 없다",
+    "rom": "nune boeneun ge eopda",
+    "lit": "nothing is visible to the eye",
+    "real": "blind with rage — so worked up that nothing and no one in front of you registers",
+    "note": "This module's 뵈다 in its FIRST dictionary sense — M36's 보이다 contracted — wearing the -는 badge from M24, on M14's 눈, with M17's 것 squeezed to 게 and M1's 없다 closing: nothing shows up to the eye. Said of someone charging ahead in fury (화가 나서 눈에 뵈는 게 없었어요 — M19's 화나다), and by elders AT the young and reckless: 눈에 뵈는 게 없어? = have you lost your senses? A set phrase is where the contracted verb survived; this is the one to recognize."
+  },
+  {
+    "id": "g_m71_geulsse_mariya",
+    "cat": "phrase",
+    "ko": "글쎄 말이야",
+    "rom": "geulsse mariya",
+    "lit": "well, it's what I say",
+    "real": "I know, right? / tell me about it — the commiserating agreement",
+    "note": "This module's 글쎄 plus M4's 말 in the casual copula M19 installed (말 + 이야): the hedge that suddenly agrees completely. Someone sighs 요즘 너무 바빠 — 글쎄 말이야 = tell me about it. The polite floor says 글쎄 말이에요, the formal 글쎄 말입니다. Radar: 글쎄 alone commits to nothing; 글쎄 말이야 commits to everything the other person just said."
   }
 ]
