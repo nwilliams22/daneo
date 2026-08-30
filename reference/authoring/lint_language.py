@@ -16,6 +16,13 @@ eye-spellings, deliberate house calls) live in rom-exceptions.json:
 Also lints gloss chunks: polite 요 glossed "-yes" is a FAIL; case-tag vs
 particle mismatches ([subj]/[topic]/[obj]) are WARNs.
 
+Also lints chunk ROLES (2026-08-29 — the Sentence Roles drill grades them):
+a sentence with no `verb`, a sentence-closing predicate tagged `other`, a
+bare 이/가 noun glossed [subj] but not tagged subject (double subjects and
+있어요/없어요 "have" frames included; the 되다 complement is exempt), a
+verb-tagged noun, or a chunk whose role differs across layers are FAILs;
+a likely double subject left as `other` is a WARN.
+
 Usage:
   lint_language.py --draft m64     # lint a draft bundle in this directory
   lint_language.py --module m64    # lint one module's merged content
@@ -205,6 +212,56 @@ def check_conjugation(sent, warns):
             if _BAD_CONJ.fullmatch(tok):
                 warns.append(f"{sent['id']}: ko \"{tok}\" looks unconjugated/uncontracted (expect e.g. 찔러요, 가리켜요, 돌려줘요)")
 
+# --- chunk roles (2026-08-29) -------------------------------------------
+# Roles are GRADED by the Sentence Roles drill (src/lib/roleLabel.ts), not
+# just coloured, so the tags must follow the corpus convention:
+#   - the predicate that closes a sentence (last chunk, or one ending . ! ?)
+#     is `verb` — auxiliaries too (차려 | 놓았어요: both verb)
+#   - a bare 이/가 noun is `subject` even inside a double-subject or a
+#     "have" frame (한식은 반찬이 많아요, 시간이 없어요 — 반찬이/시간이 are
+#     subjects; English "have" is the trap); the [noun]이/가 되다 complement
+#     (의사가 됐어요) stays `other`
+#   - subordinate clauses and connective verb forms (늦어서, 모르면, 친구가
+#     문을 열자마자) are `other`; time words and adverbs are `other`
+#   - the same chunk id carries the same role in en / gloss / ko
+_VERB_END = re.compile(r"(요|다|죠|까|네|세요|습니다|ㅂ니다|어|아|지|자|야|래|군|는데|거든)[.!?~]*$")
+_NOUN_PARTICLE = re.compile(r"(이|가|을|를|은|는)$")
+_BECOME = ("되", "됐", "돼")
+
+def check_roles(sent, fails, warns):
+    sid = sent["id"]
+    ko = sent.get("ko", [])
+    visible = [c for c in ko if c["t"]]
+    if not any(c["role"] == "verb" for c in ko):
+        fails.append(f"{sid}: no chunk tagged verb — the closing predicate must be `verb`")
+    role_of = {}
+    for layer in ("en", "gloss", "ko"):
+        for c in sent.get(layer, []):
+            prior = role_of.setdefault(c["id"], c["role"])
+            if prior != c["role"]:
+                fails.append(f"{sid}: chunk \"{c['id']}\" is {c['role']} in {layer} but {prior} elsewhere")
+    gloss_by_id = {c["id"]: c["t"] for c in sent.get("gloss", [])}
+    for i, c in enumerate(visible):
+        t, role = c["t"], c["role"]
+        closing = i == len(visible) - 1 or re.search(r"[.!?]$", t)
+        if closing and role == "other" and _VERB_END.search(t):
+            fails.append(f"{sid}: \"{t}\" closes a sentence and looks like a predicate but is tagged other — should be verb")
+        single = " " not in t
+        if single and role == "verb" and len(t) > 1 and _NOUN_PARTICLE.search(t):
+            fails.append(f"{sid}: \"{t}\" ends in a noun particle but is tagged verb")
+        g = gloss_by_id.get(c["id"], "")
+        if single and " " not in g:
+            nxt = visible[i + 1]["t"] if i + 1 < len(visible) else ""
+            complement = nxt.startswith(_BECOME)
+            if "[subj]" in g and role != "subject" and not complement:
+                fails.append(f"{sid}: \"{t}\" glossed [subj] but tagged {role} — bare 이/가 nouns are subjects (double-subject and 있어요/없어요 frames included)")
+            if "[obj]" in g and role != "object":
+                fails.append(f"{sid}: \"{t}\" glossed [obj] but tagged {role}")
+        if i + 1 < len(visible):
+            n = visible[i + 1]
+            if role == "subject" and re.search(r"(은|는)$", t) and " " not in n["t"] and re.search(r"(이|가)$", n["t"]) and n["role"] == "other":
+                warns.append(f"{sid}: \"{t} {n['t']}\" reads as a double subject — should {n['t']} be subject?")
+
 def lint_content(words, sentences, gaps, fails, warns):
     exceptions = _load_exceptions()
     for w in words:
@@ -214,6 +271,7 @@ def lint_content(words, sentences, gaps, fails, warns):
         check_rom_pair(ko_join, s["rom"], f"sent {s['id']}", fails, exceptions)
         check_gloss(s, fails, warns)
         check_conjugation(s, warns)
+        check_roles(s, fails, warns)
     for g in gaps:
         check_rom_pair(g["ko"], g["rom"], f"gap {g['id']}", fails, exceptions)
 

@@ -25,6 +25,15 @@ Do not commit anything.
 
 - **Sentence chunk roles** are ONLY `subject`, `object`, `place`, `verb`, `other`
   (zod enum). There is NO `time` role — time expressions use `other`.
+  Roles are GRADED by the Sentence Roles drill (learners label them), so tag
+  by Korean grammar, not by the English: the predicate that closes a sentence
+  is `verb` (auxiliaries too — 차려 | 놓았어요 both `verb`; in a two-sentence
+  item the first closer `피곤해요.` is `verb`); any bare 이/가 noun is `subject`
+  even where English says "have" (시간이 없어요 → 시간이 subject) or in a
+  double subject (한식은 반찬이 많아요 → both subject); the 되다 complement
+  (의사가 됐어요) is `other`; subordinate clauses and connective verb forms
+  (늦어서, 모르면, 친구가 문을 열자마자), adverbs, and time words are `other`.
+  `lint_language.py` FAILs on the violations it can see.
 - **Particle word entries** (pos `particle`) must NEVER appear in any sentence's
   `wordIds` (validator rule particle-in-word-ids). The particle still gets its
   word entry; sentences just don't list it.

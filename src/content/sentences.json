@@ -148,15 +148,15 @@
     "en": [
       { "t": "I", "role": "subject", "id": "s" },
       { "t": "don't have", "role": "verb", "id": "v" },
-      { "t": "time", "role": "object", "id": "o" }
+      { "t": "time", "role": "subject", "id": "o" }
     ],
     "gloss": [
-      { "t": "time-[subj]", "role": "object", "id": "o" },
+      { "t": "time-[subj]", "role": "subject", "id": "o" },
       { "t": "not-exist", "role": "verb", "id": "v" },
       { "t": "(for me)", "role": "subject", "id": "s" }
     ],
     "ko": [
-      { "t": "시간이", "role": "object", "id": "o" },
+      { "t": "시간이", "role": "subject", "id": "o" },
       { "t": "없어요", "role": "verb", "id": "v" },
       { "t": "", "role": "subject", "id": "s" }
     ],
@@ -1400,18 +1400,18 @@
     "en": [
       { "t": "I", "role": "subject", "id": "s" },
       { "t": "have", "role": "verb", "id": "v" },
-      { "t": "plans", "role": "object", "id": "o" },
+      { "t": "plans", "role": "subject", "id": "o" },
       { "t": "on Saturday", "role": "other", "id": "t" }
     ],
     "gloss": [
       { "t": "Saturday-on", "role": "other", "id": "t" },
-      { "t": "plans-[subj]", "role": "object", "id": "o" },
+      { "t": "plans-[subj]", "role": "subject", "id": "o" },
       { "t": "exist", "role": "verb", "id": "v" },
       { "t": "(for me)", "role": "subject", "id": "s" }
     ],
     "ko": [
       { "t": "토요일에", "role": "other", "id": "t" },
-      { "t": "약속이", "role": "object", "id": "o" },
+      { "t": "약속이", "role": "subject", "id": "o" },
       { "t": "있어요", "role": "verb", "id": "v" },
       { "t": "", "role": "subject", "id": "s" }
     ],
@@ -2038,15 +2038,15 @@
     "en": [
       { "t": "I", "role": "subject", "id": "s" },
       { "t": "have lots of", "role": "verb", "id": "v" },
-      { "t": "time", "role": "object", "id": "o" }
+      { "t": "time", "role": "subject", "id": "o" }
     ],
     "gloss": [
-      { "t": "time-[subj]", "role": "object", "id": "o" },
+      { "t": "time-[subj]", "role": "subject", "id": "o" },
       { "t": "is-much", "role": "verb", "id": "v" },
       { "t": "(for me)", "role": "subject", "id": "s" }
     ],
     "ko": [
-      { "t": "시간이", "role": "object", "id": "o" },
+      { "t": "시간이", "role": "subject", "id": "o" },
       { "t": "많아요", "role": "verb", "id": "v" },
       { "t": "", "role": "subject", "id": "s" }
     ],
@@ -2703,20 +2703,20 @@
     "id": "s10_must_study",
     "en": [
       { "t": "I have", "role": "verb", "id": "v1" },
-      { "t": "an exam.", "role": "object", "id": "o" },
+      { "t": "an exam.", "role": "subject", "id": "o" },
       { "t": "So", "role": "other", "id": "c" },
       { "t": "I have to study", "role": "verb", "id": "v2" },
       { "t": "hard", "role": "other", "id": "d" }
     ],
     "gloss": [
-      { "t": "exam-[subj]", "role": "object", "id": "o" },
+      { "t": "exam-[subj]", "role": "subject", "id": "o" },
       { "t": "exists.", "role": "verb", "id": "v1" },
       { "t": "therefore", "role": "other", "id": "c" },
       { "t": "diligently", "role": "other", "id": "d" },
       { "t": "study-must", "role": "verb", "id": "v2" }
     ],
     "ko": [
-      { "t": "시험이", "role": "object", "id": "o" },
+      { "t": "시험이", "role": "subject", "id": "o" },
       { "t": "있어요.", "role": "verb", "id": "v1" },
       { "t": "그래서", "role": "other", "id": "c" },
       { "t": "열심히", "role": "other", "id": "d" },
@@ -4579,16 +4579,16 @@
   {
     "id": "s17_hobby_what",
     "en": [
-      { "t": "What", "role": "other", "id": "q" },
-      { "t": "is your hobby?", "role": "verb", "id": "v" }
+      { "t": "What is", "role": "verb", "id": "q" },
+      { "t": "your hobby?", "role": "subject", "id": "v" }
     ],
     "gloss": [
-      { "t": "hobby-[subj]", "role": "verb", "id": "v" },
-      { "t": "what-is?", "role": "other", "id": "q" }
+      { "t": "hobby-[subj]", "role": "subject", "id": "v" },
+      { "t": "what-is?", "role": "verb", "id": "q" }
     ],
     "ko": [
-      { "t": "취미가", "role": "verb", "id": "v" },
-      { "t": "뭐예요?", "role": "other", "id": "q" }
+      { "t": "취미가", "role": "subject", "id": "v" },
+      { "t": "뭐예요?", "role": "verb", "id": "q" }
     ],
     "rom": "chwimiga mwoyeyo?",
     "wordIds": ["w_chwimi", "w_mwo"],
@@ -4885,15 +4885,15 @@
   {
     "id": "s18_recommend",
     "en": [
-      { "t": "What's good here?", "role": "other", "id": "q" },
+      { "t": "What's good here?", "role": "verb", "id": "q" },
       { "t": "Please recommend something", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "what-[subj] is-tasty?", "role": "other", "id": "q" },
+      { "t": "what-[subj] is-tasty?", "role": "verb", "id": "q" },
       { "t": "recommend-give-please", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "뭐가 맛있어요?", "role": "other", "id": "q" },
+      { "t": "뭐가 맛있어요?", "role": "verb", "id": "q" },
       { "t": "추천해 주세요", "role": "verb", "id": "v" }
     ],
     "rom": "mwoga masisseoyo? chucheonhae juseyo",
@@ -5034,16 +5034,16 @@
     "en": [
       { "t": "Korean food", "role": "subject", "id": "s" },
       { "t": "comes with many", "role": "verb", "id": "v" },
-      { "t": "side dishes", "role": "other", "id": "o" }
+      { "t": "side dishes", "role": "subject", "id": "o" }
     ],
     "gloss": [
       { "t": "Korean-food-[as for]", "role": "subject", "id": "s" },
-      { "t": "side-dish-[subj]", "role": "other", "id": "o" },
+      { "t": "side-dish-[subj]", "role": "subject", "id": "o" },
       { "t": "are-many", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "한식은", "role": "subject", "id": "s" },
-      { "t": "반찬이", "role": "other", "id": "o" },
+      { "t": "반찬이", "role": "subject", "id": "o" },
       { "t": "많아요", "role": "verb", "id": "v" }
     ],
     "rom": "hansigeun banchani manayo",
@@ -5374,15 +5374,15 @@
   {
     "id": "s20_hello_who",
     "en": [
-      { "t": "Hello?", "role": "other", "id": "g" },
+      { "t": "Hello?", "role": "verb", "id": "g" },
       { "t": "Who is this?", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "hello-(phone)?", "role": "other", "id": "g" },
+      { "t": "hello-(phone)?", "role": "verb", "id": "g" },
       { "t": "who-are-you?", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "여보세요?", "role": "other", "id": "g" },
+      { "t": "여보세요?", "role": "verb", "id": "g" },
       { "t": "누구세요?", "role": "verb", "id": "v" }
     ],
     "rom": "yeoboseyo? nuguseyo?",
@@ -5482,16 +5482,16 @@
   {
     "id": "s20_your_number",
     "en": [
-      { "t": "What", "role": "other", "id": "q" },
-      { "t": "is your phone number?", "role": "verb", "id": "v" }
+      { "t": "What is", "role": "verb", "id": "q" },
+      { "t": "your phone number?", "role": "subject", "id": "v" }
     ],
     "gloss": [
-      { "t": "phone-number-[subj]", "role": "verb", "id": "v" },
-      { "t": "what-is?", "role": "other", "id": "q" }
+      { "t": "phone-number-[subj]", "role": "subject", "id": "v" },
+      { "t": "what-is?", "role": "verb", "id": "q" }
     ],
     "ko": [
-      { "t": "전화번호가", "role": "verb", "id": "v" },
-      { "t": "뭐예요?", "role": "other", "id": "q" }
+      { "t": "전화번호가", "role": "subject", "id": "v" },
+      { "t": "뭐예요?", "role": "verb", "id": "q" }
     ],
     "rom": "jeonhwabeonhoga mwoyeyo?",
     "wordIds": ["w_jeonhwa", "w_beonho", "w_mwo"],
@@ -5500,15 +5500,15 @@
   {
     "id": "s20_text_reply",
     "en": [
-      { "t": "Did you see my text?", "role": "other", "id": "q" },
+      { "t": "Did you see my text?", "role": "verb", "id": "q" },
       { "t": "Reply!", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "text saw?", "role": "other", "id": "q" },
+      { "t": "text saw?", "role": "verb", "id": "q" },
       { "t": "reply-do!", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "문자 봤어?", "role": "other", "id": "q" },
+      { "t": "문자 봤어?", "role": "verb", "id": "q" },
       { "t": "답장해!", "role": "verb", "id": "v" }
     ],
     "rom": "munja bwasseo? dapjanghae!",
@@ -5578,18 +5578,18 @@
   {
     "id": "s20_free_wifi",
     "en": [
-      { "t": "Here,", "role": "subject", "id": "s" },
-      { "t": "the wi-fi", "role": "other", "id": "o" },
+      { "t": "Here,", "role": "place", "id": "s" },
+      { "t": "the wi-fi", "role": "subject", "id": "o" },
       { "t": "is free", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "here", "role": "subject", "id": "s" },
-      { "t": "wi-fi-[subj]", "role": "other", "id": "o" },
+      { "t": "here", "role": "place", "id": "s" },
+      { "t": "wi-fi-[subj]", "role": "subject", "id": "o" },
       { "t": "free-is", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "여기", "role": "subject", "id": "s" },
-      { "t": "와이파이가", "role": "other", "id": "o" },
+      { "t": "여기", "role": "place", "id": "s" },
+      { "t": "와이파이가", "role": "subject", "id": "o" },
       { "t": "무료예요", "role": "verb", "id": "v" }
     ],
     "rom": "yeogi waipaiga muryoyeyo",
@@ -5997,16 +5997,16 @@
     "en": [
       { "t": "Seoul", "role": "subject", "id": "s" },
       { "t": "is famous for", "role": "verb", "id": "v" },
-      { "t": "its night view", "role": "other", "id": "o" }
+      { "t": "its night view", "role": "subject", "id": "o" }
     ],
     "gloss": [
       { "t": "Seoul-[as for]", "role": "subject", "id": "s" },
-      { "t": "night-view-[subj]", "role": "other", "id": "o" },
+      { "t": "night-view-[subj]", "role": "subject", "id": "o" },
       { "t": "is-famous", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "서울은", "role": "subject", "id": "s" },
-      { "t": "야경이", "role": "other", "id": "o" },
+      { "t": "야경이", "role": "subject", "id": "o" },
       { "t": "유명해요", "role": "verb", "id": "v" }
     ],
     "rom": "seoureun yagyeongi yumyeonghaeyo",
@@ -6320,17 +6320,17 @@
     "id": "s23_busan_beach",
     "en": [
       { "t": "In Busan,", "role": "subject", "id": "s" },
-      { "t": "the beaches", "role": "other", "id": "o" },
+      { "t": "the beaches", "role": "subject", "id": "o" },
       { "t": "are the most famous", "role": "verb", "id": "v" }
     ],
     "gloss": [
       { "t": "Busan-[as for]", "role": "subject", "id": "s" },
-      { "t": "seaside-[subj]", "role": "other", "id": "o" },
+      { "t": "seaside-[subj]", "role": "subject", "id": "o" },
       { "t": "most is-famous", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "부산은", "role": "subject", "id": "s" },
-      { "t": "바닷가가", "role": "other", "id": "o" },
+      { "t": "바닷가가", "role": "subject", "id": "o" },
       { "t": "제일 유명해요", "role": "verb", "id": "v" }
     ],
     "rom": "busaneun badatgaga jeil yumyeonghaeyo",
@@ -6608,17 +6608,17 @@
     "id": "s24_exactly_same",
     "en": [
       { "t": "We", "role": "subject", "id": "s" },
-      { "t": "think", "role": "other", "id": "t" },
+      { "t": "think", "role": "subject", "id": "t" },
       { "t": "exactly the same", "role": "verb", "id": "v" }
     ],
     "gloss": [
       { "t": "we-[topic]", "role": "subject", "id": "s" },
-      { "t": "thought-[subj]", "role": "other", "id": "t" },
+      { "t": "thought-[subj]", "role": "subject", "id": "t" },
       { "t": "is-identical", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "우리는", "role": "subject", "id": "s" },
-      { "t": "생각이", "role": "other", "id": "t" },
+      { "t": "생각이", "role": "subject", "id": "t" },
       { "t": "똑같아요", "role": "verb", "id": "v" }
     ],
     "rom": "urineun saenggagi ttokgatayo",
@@ -6700,15 +6700,15 @@
   {
     "id": "s24_why_just",
     "en": [
-      { "t": "Why do you like it?", "role": "other", "id": "q" },
+      { "t": "Why do you like it?", "role": "verb", "id": "q" },
       { "t": "I just do.", "role": "verb", "id": "a" }
     ],
     "gloss": [
-      { "t": "why like?", "role": "other", "id": "q" },
+      { "t": "why like?", "role": "verb", "id": "q" },
       { "t": "just like", "role": "verb", "id": "a" }
     ],
     "ko": [
-      { "t": "왜 좋아해요?", "role": "other", "id": "q" },
+      { "t": "왜 좋아해요?", "role": "verb", "id": "q" },
       { "t": "그냥 좋아해요", "role": "verb", "id": "a" }
     ],
     "rom": "wae joahaeyo? geunyang joahaeyo",
@@ -7816,15 +7816,15 @@
   {
     "id": "s29_really_didnt_know",
     "en": [
-      { "t": "Really?", "role": "other", "id": "q" },
+      { "t": "Really?", "role": "verb", "id": "q" },
       { "t": "I didn't know!", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "is-that-so?", "role": "other", "id": "q" },
+      { "t": "is-that-so?", "role": "verb", "id": "q" },
       { "t": "didn't-know!", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "그래요?", "role": "other", "id": "q" },
+      { "t": "그래요?", "role": "verb", "id": "q" },
       { "t": "몰랐어요!", "role": "verb", "id": "v" }
     ],
     "rom": "geuraeyo? mollasseoyo!",
@@ -7852,15 +7852,15 @@
   {
     "id": "s29_hard_but_fun",
     "en": [
-      { "t": "Korean is hard.", "role": "other", "id": "c" },
+      { "t": "Korean is hard.", "role": "verb", "id": "c" },
       { "t": "But it's fun.", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "Korean-[topic] is-hard", "role": "other", "id": "c" },
+      { "t": "Korean-[topic] is-hard", "role": "verb", "id": "c" },
       { "t": "however is-fun", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "한국어는 어려워요.", "role": "other", "id": "c" },
+      { "t": "한국어는 어려워요.", "role": "verb", "id": "c" },
       { "t": "그렇지만 재미있어요.", "role": "verb", "id": "v" }
     ],
     "rom": "hangugeoneun eoryeowoyo. geureochiman jaemiisseoyo",
@@ -7870,15 +7870,15 @@
   {
     "id": "s29_winter_but",
     "en": [
-      { "t": "Winter came.", "role": "other", "id": "c" },
+      { "t": "Winter came.", "role": "verb", "id": "c" },
       { "t": "But it was not cold.", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "winter-[subj] came", "role": "other", "id": "c" },
+      { "t": "winter-[subj] came", "role": "verb", "id": "c" },
       { "t": "however cold-not-was", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "겨울이 왔어요.", "role": "other", "id": "c" },
+      { "t": "겨울이 왔어요.", "role": "verb", "id": "c" },
       { "t": "그러나 춥지 않았어요.", "role": "verb", "id": "v" }
     ],
     "rom": "gyeouri wasseoyo. geureona chupji anasseoyo",
@@ -7963,15 +7963,15 @@
   {
     "id": "s29_late_taxi",
     "en": [
-      { "t": "We're late.", "role": "other", "id": "c" },
+      { "t": "We're late.", "role": "verb", "id": "c" },
       { "t": "So let's take a taxi", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "late-became", "role": "other", "id": "c" },
+      { "t": "late-became", "role": "verb", "id": "c" },
       { "t": "so-then taxi-[obj] let's-ride", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "늦었어요.", "role": "other", "id": "c" },
+      { "t": "늦었어요.", "role": "verb", "id": "c" },
       { "t": "그러니까 택시를 탑시다", "role": "verb", "id": "v" }
     ],
     "rom": "neujeosseoyo. geureonikka taeksireul tapsida",
@@ -8368,15 +8368,15 @@
   {
     "id": "s_s1_bulgeum",
     "en": [
-      { "t": "It's Friday!", "role": "other", "id": "a" },
+      { "t": "It's Friday!", "role": "verb", "id": "a" },
       { "t": "Let's go out together!", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "burning-Friday-is!", "role": "other", "id": "a" },
+      { "t": "burning-Friday-is!", "role": "verb", "id": "a" },
       { "t": "together play-let's!", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "불금이야!", "role": "other", "id": "a" },
+      { "t": "불금이야!", "role": "verb", "id": "a" },
       { "t": "같이 놀자!", "role": "verb", "id": "v" }
     ],
     "rom": "bulgeumiya! gachi nolja!",
@@ -8425,15 +8425,15 @@
   {
     "id": "s_s1_simkung",
     "en": [
-      { "t": "I saw my bias at a cafe.", "role": "other", "id": "c" },
+      { "t": "I saw my bias at a cafe.", "role": "verb", "id": "c" },
       { "t": "Heart attack!", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "cafe-at favorite singer-[obj] saw", "role": "other", "id": "c" },
+      { "t": "cafe-at favorite singer-[obj] saw", "role": "verb", "id": "c" },
       { "t": "heart-thumped!", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "카페에서 최애 가수를 봤어.", "role": "other", "id": "c" },
+      { "t": "카페에서 최애 가수를 봤어.", "role": "verb", "id": "c" },
       { "t": "심쿵했어!", "role": "verb", "id": "v" }
     ],
     "rom": "kapeeseo choeae gasureul bwasseo. simkunghaesseo!",
@@ -8515,15 +8515,15 @@
   {
     "id": "s_s2_construction",
     "en": [
-      { "t": "Under construction.", "role": "other", "id": "a" },
+      { "t": "Under construction.", "role": "verb", "id": "a" },
       { "t": "We apologize.", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "construction middle-is", "role": "other", "id": "a" },
+      { "t": "construction middle-is", "role": "verb", "id": "a" },
       { "t": "apologize", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "공사 중입니다.", "role": "other", "id": "a" },
+      { "t": "공사 중입니다.", "role": "verb", "id": "a" },
       { "t": "죄송합니다.", "role": "verb", "id": "v" }
     ],
     "rom": "gongsa jungimnida. joesonghamnida",
@@ -10465,19 +10465,19 @@
       { "t": "Before the guests came,", "role": "other", "id": "a" },
       { "t": "I set", "role": "verb", "id": "v" },
       { "t": "the table", "role": "object", "id": "o" },
-      { "t": "and had it ready", "role": "other", "id": "b" }
+      { "t": "and had it ready", "role": "verb", "id": "b" }
     ],
     "gloss": [
       { "t": "guest-[subj] come-before", "role": "other", "id": "a" },
       { "t": "table-[obj]", "role": "object", "id": "o" },
       { "t": "set-out", "role": "verb", "id": "v" },
-      { "t": "placed-standing", "role": "other", "id": "b" }
+      { "t": "placed-standing", "role": "verb", "id": "b" }
     ],
     "ko": [
       { "t": "손님이 오기 전에", "role": "other", "id": "a" },
       { "t": "상을", "role": "object", "id": "o" },
       { "t": "차려", "role": "verb", "id": "v" },
-      { "t": "놓았어요", "role": "other", "id": "b" }
+      { "t": "놓았어요", "role": "verb", "id": "b" }
     ],
     "rom": "sonnimi ogi jeone sangeul charyeo noasseoyo",
     "wordIds": ["w_sonnim", "w_oda", "w_sang", "w_charida", "w_nota"],
@@ -12409,19 +12409,19 @@
       { "t": "It rained so hard", "role": "other", "id": "a" },
       { "t": "that I cancelled", "role": "verb", "id": "v" },
       { "t": "the lodging reservation", "role": "object", "id": "o" },
-      { "t": "— completely, done", "role": "other", "id": "b" }
+      { "t": "— completely, done", "role": "verb", "id": "b" }
     ],
     "gloss": [
       { "t": "rain-[subj] much come-because", "role": "other", "id": "a" },
       { "t": "lodging reservation-[obj]", "role": "object", "id": "o" },
       { "t": "cancel-", "role": "verb", "id": "v" },
-      { "t": "threw-away", "role": "other", "id": "b" }
+      { "t": "threw-away", "role": "verb", "id": "b" }
     ],
     "ko": [
       { "t": "비가 많이 와서", "role": "other", "id": "a" },
       { "t": "숙소 예약을", "role": "object", "id": "o" },
       { "t": "취소해", "role": "verb", "id": "v" },
-      { "t": "버렸어요", "role": "other", "id": "b" }
+      { "t": "버렸어요", "role": "verb", "id": "b" }
     ],
     "rom": "biga mani waseo sukso yeyageul chwisohae beoryeosseoyo",
     "wordIds": ["w_bi", "w_mani", "w_oda", "w_sukso", "w_yeyak", "w_chwisohada", "w_beorida"],
@@ -13398,16 +13398,16 @@
     "en": [
       { "t": "That building", "role": "subject", "id": "s" },
       { "t": "is about a hundred meters", "role": "verb", "id": "v" },
-      { "t": "in height", "role": "other", "id": "a" }
+      { "t": "in height", "role": "subject", "id": "a" }
     ],
     "gloss": [
       { "t": "that building-[as for]", "role": "subject", "id": "s" },
-      { "t": "height-[subj]", "role": "other", "id": "a" },
+      { "t": "height-[subj]", "role": "subject", "id": "a" },
       { "t": "hundred meter about-is", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "그 건물은", "role": "subject", "id": "s" },
-      { "t": "높이가", "role": "other", "id": "a" },
+      { "t": "높이가", "role": "subject", "id": "a" },
       { "t": "백 미터 정도예요", "role": "verb", "id": "v" }
     ],
     "rom": "geu geonmureun nopiga baek miteo jeongdoyeyo",
@@ -13963,21 +13963,21 @@
       { "t": "This morning", "role": "other", "id": "t" },
       { "t": "the fog", "role": "subject", "id": "s" },
       { "t": "was so dense that", "role": "verb", "id": "v1" },
-      { "t": "up ahead", "role": "other", "id": "a" },
+      { "t": "up ahead", "role": "subject", "id": "a" },
       { "t": "you could barely see", "role": "verb", "id": "v" }
     ],
     "gloss": [
       { "t": "morning-at", "role": "other", "id": "t" },
       { "t": "fog-[subj]", "role": "subject", "id": "s" },
       { "t": "dense-so", "role": "verb", "id": "v1" },
-      { "t": "front-[subj]", "role": "other", "id": "a" },
+      { "t": "front-[subj]", "role": "subject", "id": "a" },
       { "t": "well not was-seen", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "아침에", "role": "other", "id": "t" },
       { "t": "안개가", "role": "subject", "id": "s" },
       { "t": "짙어서", "role": "verb", "id": "v1" },
-      { "t": "앞이", "role": "other", "id": "a" },
+      { "t": "앞이", "role": "subject", "id": "a" },
       { "t": "잘 안 보였어요", "role": "verb", "id": "v" }
     ],
     "rom": "achime angaega jiteoseo api jal an boyeosseoyo",
@@ -14408,21 +14408,21 @@
       { "t": "suddenly", "role": "other", "id": "b" },
       { "t": "brought up", "role": "verb", "id": "v" },
       { "t": "talk of a trip,", "role": "object", "id": "o" },
-      { "t": "and I was startled", "role": "other", "id": "r" }
+      { "t": "and I was startled", "role": "verb", "id": "r" }
     ],
     "gloss": [
       { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
       { "t": "suddenly", "role": "other", "id": "b" },
       { "t": "travel story-[obj]", "role": "object", "id": "o" },
       { "t": "take-out-so", "role": "verb", "id": "v" },
-      { "t": "was-surprised", "role": "other", "id": "r" }
+      { "t": "was-surprised", "role": "verb", "id": "r" }
     ],
     "ko": [
       { "t": "동생이", "role": "subject", "id": "s" },
       { "t": "갑자기", "role": "other", "id": "b" },
       { "t": "여행 이야기를", "role": "object", "id": "o" },
       { "t": "꺼내서", "role": "verb", "id": "v" },
-      { "t": "놀랐어요", "role": "other", "id": "r" }
+      { "t": "놀랐어요", "role": "verb", "id": "r" }
     ],
     "rom": "dongsaengi gapjagi yeohaeng iyagireul kkeonaeseo nollasseoyo",
     "wordIds": ["w_dongsaeng", "w_gapjagi", "w_yeohaeng", "w_iyagi", "w_kkeonaeda", "w_nollada"],
@@ -14611,7 +14611,7 @@
       { "t": "We", "role": "subject", "id": "s" },
       { "t": "secretly prepared", "role": "verb", "id": "v" },
       { "t": "a birthday party", "role": "object", "id": "o" },
-      { "t": "and had it waiting.", "role": "other", "id": "d" },
+      { "t": "and had it waiting.", "role": "verb", "id": "d" },
       { "t": "The second our friend opened the door,", "role": "other", "id": "a" },
       { "t": "she jumped in surprise", "role": "other", "id": "b" },
       { "t": "and absolutely loved it", "role": "verb", "id": "w" }
@@ -14620,7 +14620,7 @@
       { "t": "we-[topic]", "role": "subject", "id": "s" },
       { "t": "birthday party-[obj]", "role": "object", "id": "o" },
       { "t": "secretly prepare", "role": "verb", "id": "v" },
-      { "t": "set-standing.", "role": "other", "id": "d" },
+      { "t": "set-standing.", "role": "verb", "id": "d" },
       { "t": "friend-[subj] door-[obj] open-as-soon-as", "role": "other", "id": "a" },
       { "t": "startled be-surprised-and", "role": "other", "id": "b" },
       { "t": "very-much liked", "role": "verb", "id": "w" }
@@ -14629,7 +14629,7 @@
       { "t": "우리는", "role": "subject", "id": "s" },
       { "t": "생일 파티를", "role": "object", "id": "o" },
       { "t": "몰래 준비해", "role": "verb", "id": "v" },
-      { "t": "놓았어요.", "role": "other", "id": "d" },
+      { "t": "놓았어요.", "role": "verb", "id": "d" },
       { "t": "친구가 문을 열자마자", "role": "other", "id": "a" },
       { "t": "깜짝 놀라고", "role": "other", "id": "b" },
       { "t": "무척 좋아했어요", "role": "verb", "id": "w" }
@@ -14912,7 +14912,7 @@
       { "t": "register the application", "role": "object", "id": "o1" },
       { "t": "and when I", "role": "verb", "id": "v1" },
       { "t": "submit it,", "role": "other", "id": "o2" },
-      { "t": "the confirmation", "role": "object", "id": "o3" },
+      { "t": "the confirmation", "role": "subject", "id": "o3" },
       { "t": "goes through", "role": "verb", "id": "v2" },
       { "t": "and the report is relayed.", "role": "verb", "id": "v3" }
     ],
@@ -14921,7 +14921,7 @@
       { "t": "application-[obj]", "role": "object", "id": "o1" },
       { "t": "register-do-and", "role": "verb", "id": "v1" },
       { "t": "submit-if", "role": "other", "id": "o2" },
-      { "t": "confirmation-[subj]", "role": "object", "id": "o3" },
+      { "t": "confirmation-[subj]", "role": "subject", "id": "o3" },
       { "t": "come-through-become", "role": "verb", "id": "v2" },
       { "t": "report-relay-become", "role": "verb", "id": "v3" }
     ],
@@ -14930,7 +14930,7 @@
       { "t": "신청을", "role": "object", "id": "o1" },
       { "t": "등록하고", "role": "verb", "id": "v1" },
       { "t": "제출하면", "role": "other", "id": "o2" },
-      { "t": "확인이", "role": "object", "id": "o3" },
+      { "t": "확인이", "role": "subject", "id": "o3" },
       { "t": "되고", "role": "verb", "id": "v2" },
       { "t": "보고가 전달돼요.", "role": "verb", "id": "v3" }
     ],
