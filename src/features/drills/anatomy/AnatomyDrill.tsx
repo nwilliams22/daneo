@@ -1,11 +1,12 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router";
+import { Link, useSearchParams } from "react-router";
 import { allSentences } from "../../../content";
-import type { Chunk, Role, Sentence } from "../../../types";
+import type { Chunk, Sentence } from "../../../types";
 import { useKnownWords } from "../../../db/useKnownWords";
 import { unlockedSentences } from "../../../lib/gating";
 import { logDrillResult } from "../../../db/repo";
 import { firstArrangeMismatch } from "../../../lib/feedback";
+import { labelable } from "../../../lib/roleLabel";
 import { shuffle } from "../../../lib/rng";
 import { useDrillKeys } from "../engine/useDrillKeys";
 import DrillScaffold from "../engine/DrillScaffold";
@@ -15,23 +16,16 @@ import Rom from "../../../components/Rom";
 import { useReviewFilter } from "../../review/useReviewFilter";
 import ReviewBanner from "../../review/ReviewBanner";
 import ReviewEmpty from "../../review/ReviewEmpty";
+import RoleLabelQuestion from "./RoleLabelQuestion";
+import { ROLE_COLOR, ROLE_LEGEND } from "./roles";
 
-const ROLE_COLOR: Record<Role, { text: string; border: string }> = {
-  subject: { text: "text-subject", border: "border-subject" },
-  object: { text: "text-object", border: "border-object" },
-  place: { text: "text-place", border: "border-place" },
-  verb: { text: "text-verb", border: "border-verb" },
-  other: { text: "text-ink", border: "border-ink" },
-};
-
-const ROLE_LEGEND: { role: Role; dot: string; label: string }[] = [
-  { role: "subject", dot: "bg-subject", label: "subject" },
-  { role: "object", dot: "bg-object", label: "object" },
-  { role: "place", dot: "bg-place", label: "place" },
-  { role: "verb", dot: "bg-verb", label: "verb" },
-];
-
-type Mode = "study" | "arrange";
+// Three modes over the same unlocked sentences: Study (trace the layers),
+// Arrange (tile them into Korean order), Label (tag subject/object/place/
+// verb yourself — Nick's tutor exercise, 2026-08-29). Label logs under its
+// own drill kind ("role") so the review queue tracks it separately.
+type Mode = "study" | "arrange" | "label";
+const MODES: Mode[] = ["study", "arrange", "label"];
+const isMode = (v: string | null): v is Mode => MODES.includes(v as Mode);
 
 /** Arrange-mode answer = the gloss chunks minus droppables/parentheticals. */
 const arrangeAnswer = (s: Sentence) =>
@@ -80,15 +74,25 @@ function Layer({
   );
 }
 
-function AnatomyDrill({ reviewIds }: { reviewIds?: Set<string> }) {
+function AnatomyDrill({
+  reviewIds,
+  initialMode,
+}: {
+  reviewIds?: Set<string>;
+  initialMode?: Mode;
+}) {
   const known = useKnownWords();
+  const [mode, setMode] = useState<Mode>(
+    initialMode ?? (reviewIds ? "arrange" : "study"),
+  );
   const pool = useMemo(() => {
     const base = known ? unlockedSentences(allSentences, known) : [];
-    return reviewIds ? base.filter((s) => reviewIds.has(s.id)) : base;
-  }, [known, reviewIds]);
+    const scoped = reviewIds ? base.filter((s) => reviewIds.has(s.id)) : base;
+    // Label mode skips one-piece sentences — nothing to find in 고마워요.
+    return mode === "label" ? scoped.filter(labelable) : scoped;
+  }, [known, reviewIds, mode]);
 
   const [si, setSi] = useState(0);
-  const [mode, setMode] = useState<Mode>(reviewIds ? "arrange" : "study");
   const [highlight, setHighlight] = useState<string | null>(null);
   const [placed, setPlaced] = useState<Chunk[]>([]);
   const [bank, setBank] = useState<Chunk[]>([]);
@@ -205,7 +209,11 @@ function AnatomyDrill({ reviewIds }: { reviewIds?: Set<string> }) {
     <DrillScaffold
       eyebrow="한국어 · Sentence anatomy"
       title="How Korean Orders a Sentence"
-      blurb="English → English in Korean order → Korean. Tap any piece to trace it through all three layers."
+      blurb={
+        mode === "label"
+          ? "Find the subject, object, place, and verb yourself — the particles tell you which is which."
+          : "English → English in Korean order → Korean. Tap any piece to trace it through all three layers."
+      }
       seen={seen}
       correct={correct}
       pct={seen ? Math.round((correct / seen) * 100) : 0}
@@ -244,6 +252,7 @@ function AnatomyDrill({ reviewIds }: { reviewIds?: Set<string> }) {
             modes={[
               { value: "study", label: "Study" },
               { value: "arrange", label: "Arrange" },
+              { value: "label", label: "Label" },
             ]}
             value={mode}
             onChange={switchMode}
@@ -252,7 +261,23 @@ function AnatomyDrill({ reviewIds }: { reviewIds?: Set<string> }) {
         </div>
       }
     >
-      {mode === "study" ? (
+      {mode === "label" ? (
+        <RoleLabelQuestion
+          key={s.id}
+          sentence={s}
+          nextLabel="Next sentence"
+          onAnswer={(ok) => {
+            setSeen((n) => n + 1);
+            if (ok) setCorrect((c) => c + 1);
+            else
+              setMissed((m) =>
+                m.some((x) => x.id === s.id) ? m : [...m, s],
+              );
+            logDrillResult({ kind: "role", itemId: s.id, correct: ok });
+          }}
+          onNext={() => goTo((si + 1) % pool.length)}
+        />
+      ) : mode === "study" ? (
         <div>
           <Layer
             label="Natural English"
@@ -412,12 +437,20 @@ function AnatomyDrill({ reviewIds }: { reviewIds?: Set<string> }) {
 }
 
 export default function AnatomyDrillRoute() {
-  const { active, ids } = useReviewFilter("anatomy");
+  // `?mode=label` opens straight into Label (the hub's Sentence Roles door
+  // and the Review area's re-drill link); its misses live under kind "role".
+  const [params] = useSearchParams();
+  const modeParam = params.get("mode");
+  const initialMode = isMode(modeParam) ? modeParam : undefined;
+  const { active, ids } = useReviewFilter(
+    initialMode === "label" ? "role" : "anatomy",
+  );
   if (active && !ids) return null;
   return (
     <AnatomyDrill
-      key={active ? "review" : "normal"}
+      key={`${active ? "review" : "normal"}:${initialMode ?? "default"}`}
       reviewIds={active ? ids : undefined}
+      initialMode={initialMode}
     />
   );
 }

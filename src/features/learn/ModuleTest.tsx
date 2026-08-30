@@ -26,6 +26,7 @@ import {
   TypingQuestion,
   WordMeaningQuestion,
 } from "../drills/engine/questions";
+import RoleLabelQuestion from "../drills/anatomy/RoleLabelQuestion";
 
 // Module-end test (Nick, 2026-08-10): one pass over a sample of the module's
 // vocab and sentences. Answers grade through logDrillResult, so a test is
@@ -36,6 +37,7 @@ const KIND_LABEL: Record<TestQuestion["kind"], string> = {
   wordPick: "Vocabulary",
   sentence: "Sentences",
   typing: "Typing",
+  role: "Sentence roles",
 };
 
 function sentenceKo(s: Sentence): string {
@@ -269,6 +271,16 @@ function TestRun({ module }: { module: Module }) {
           <TypingQuestion
             key={q.key}
             word={q.item}
+            onAnswer={answer}
+            onNext={next}
+          />
+        )}
+
+        {q.kind === "role" && (
+          <RoleLabelQuestion
+            key={q.key}
+            sentence={q.item}
+            nextLabel={last ? "See results" : undefined}
             onAnswer={answer}
             onNext={next}
           />

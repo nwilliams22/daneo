@@ -65,7 +65,7 @@ function labelFor(
     const c = confusableById.get(itemId);
     if (c) return { big: c.c, small: c.r };
   }
-  if (kind === "anatomy") {
+  if (kind === "anatomy" || kind === "role") {
     const s = sentenceById.get(itemId);
     if (s)
       return {
