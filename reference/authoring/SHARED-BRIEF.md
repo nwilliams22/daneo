@@ -8,7 +8,7 @@ GARNISH-FREE: zero beyond-list words — if a note needs an untaught word, it
 rides frozen and glossed.
 
 **You must NOT edit any repo files.** All output goes to NEW files in
-`/tmp/claude-1000/-mnt-t7-Projects-daneo/7a5ed274-ef97-4b8b-b298-75817cba9f5b/scratchpad/`.
+`/tmp/claude-1000/-mnt-t7-Projects-daneo/8e786894-3743-45eb-a53e-6bb563981039/scratchpad/`.
 Do not commit anything.
 
 ## Read these first (mandatory, in this order)
