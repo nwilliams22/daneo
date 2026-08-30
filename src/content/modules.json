@@ -1720,5 +1720,25 @@
       "s_m69_temple_yard", "s_m69_grandma_wish", "s_m69_borrow_stack", "s_m69_reunion_resolve",
       "s_m69_hwangap_ready", "s_m69_all_thanks", "s_m69_club_welcome", "s_m69_speech_nerves"
     ]
+  },
+  {
+    "id": "m70",
+    "title": "The Becoming Machine",
+    "order": 79,
+    "ring": 2,
+    "contentMd": "modules/module-70.md",
+    "wordIds": [
+      "w_nopajida", "w_manajida", "w_meoreojida", "w_iksukhaejida",
+      "w_neolbeojida", "w_gakkawojida", "w_jjalbajida", "w_jagajida",
+      "w_jeogeojida", "w_eoduwojida", "w_sireojida", "w_ssodajida",
+      "w_irwojida", "w_pyeolchyeojida", "w_jeonhaejida", "w_sewojida",
+      "w_geuryeojida", "w_jeonghaejida", "w_kkeuneojida", "w_gyeoljeongdoeda",
+      "w_pohamdoeda", "w_maryeondoeda", "w_sogaedoeda", "w_junbidoeda",
+      "w_ilkhida", "w_meokhida", "w_seokkida", "w_beotgida"
+    ],
+    "sentenceIds": [
+      "s_m70_winter_days", "s_m70_grown_close", "s_m70_learners_growing", "s_m70_date_ready",
+      "s_m70_sudden_rain", "s_m70_easy_read", "s_m70_bath_time", "s_m70_oil_water"
+    ]
   }
 ]

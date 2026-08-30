@@ -1978,5 +1978,23 @@
     "lit": "the day the Buddha came",
     "real": "Buddha's birthday — the late-spring lantern holiday, a national day off",
     "note": "The holiday's official name is a whole grammar lesson: this module's 부처 + the -님 of M16's ladder, then 오다 (M1) lifted by the honorific -시- and wearing M24's badge, landing on M11's 날 — 'the day he honorably came.' For weeks before it, 연등 (lotus lanterns — riding frozen) hang in rivers of color over temple courtyards and shopping streets; the 절 (M26) throws its gates open, and everyone comes for the lanterns whether or not they come for the Buddha."
+  },
+  {
+    "id": "g_m70_out_of_sight",
+    "cat": "phrase",
+    "ko": "눈에서 멀어지면 마음에서도 멀어진다",
+    "rom": "nuneseo meoreojimyeon maeumeseodo meoreojinda",
+    "lit": "if it gets far from the eye, it gets far from the heart too",
+    "real": "out of sight, out of mind — distance in the eyes becomes distance in the heart",
+    "note": "This module's 멀어지다 twice — once from M14's 눈, once from M19's 마음 — hinged by -(으)면 (M20) with M2's 도 supplying the 'too'. The bare -ㄴ다 ending is the proverb register M35's 이루어지다 note already showed you in 꿈은 이루어진다: dictionary-form present, no 요. Koreans quote it about long-distance couples and friends who moved abroad — the conveyor running on hearts, twice in one breath."
+  },
+  {
+    "id": "g_m70_jami_ssodajida",
+    "cat": "phrase",
+    "ko": "잠이 쏟아지다",
+    "rom": "jami ssodajida",
+    "lit": "sleep pours down",
+    "real": "to be overwhelmed by sleepiness — drowsiness arriving all at once, like a downpour",
+    "note": "This module's 쏟아지다 with M28's 잠 as the liquid: sleep doesn't come, it POURS — the same verb as 비가 쏟아지다, aimed at eyelids. 수업 시간에 잠이 쏟아져요 (M10's 수업, M1's 시간) is the honest student's confession, and 잠을 자다 (the doubled pair M28's 잠 note taught) is what it leads to. Korean files drowsiness under weather; the umbrella is coffee."
   }
 ]

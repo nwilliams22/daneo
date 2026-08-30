@@ -16029,5 +16029,194 @@
     "rom": "chuka insamareul junbihae dueonneunde, gyeolhonsigeseo neomu ginjanghaeseo da ijeobeoryeosseoyo",
     "wordIds": ["w_chuka", "w_insamal", "w_junbihada", "w_duda", "w_gyeolhonsik", "w_neomu", "w_ginjang", "w_ijda", "w_beorida", "w_da"],
     "note": "The module's warmest words meet its most human ending: the 축하 인사말 was banked with M40's -아/어 두다, M53's -는데 pivots to the 결혼식 (M25), and 긴장 (M42) plus M52's -아/어 버리다 make the forgetting total — 잊다 (M15), thrown away with a sigh. The speech is gone; the toast survives on feeling."
+  },
+  {
+    "id": "s_m70_winter_days",
+    "en": [
+      { "t": "When winter comes,", "role": "other", "id": "a" },
+      { "t": "the days", "role": "subject", "id": "s" },
+      { "t": "get shorter", "role": "verb", "id": "v" },
+      { "t": "and shorter", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "winter-[subj] become-if", "role": "other", "id": "a" },
+      { "t": "sun-[subj]", "role": "subject", "id": "s" },
+      { "t": "gradually", "role": "other", "id": "b" },
+      { "t": "gets-short", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "겨울이 되면", "role": "other", "id": "a" },
+      { "t": "해가", "role": "subject", "id": "s" },
+      { "t": "점점", "role": "other", "id": "b" },
+      { "t": "짧아져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeouri doemyeon haega jeomjeom jjalbajyeoyo",
+    "wordIds": ["w_gyeoul", "w_doeda", "w_hae", "w_jeomjeom", "w_jjalbajida"],
+    "note": "The conveyor with its pacer: M35's 점점 — 'glued to -아/어지다 so often they're practically sold together' — and M7's 짧다 at the belt's end, its buried ㅂ surfacing (jjalbajyeoyo). 겨울이 되면 runs the [noun]이/가 되다 frame M35 opened with (겨울이 됐어요), gated by the -(으)면 clause from M20. M11's 해 (the sun) is how Korean measures daylight: the sun gets short, and so does the afternoon."
+  },
+  {
+    "id": "s_m70_grown_close",
+    "en": [
+      { "t": "In the past", "role": "other", "id": "a" },
+      { "t": "we", "role": "subject", "id": "s" },
+      { "t": "weren't close, but", "role": "other", "id": "b" },
+      { "t": "these days", "role": "other", "id": "c" },
+      { "t": "we've gotten a lot closer", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "old-days-at-[topic]", "role": "other", "id": "a" },
+      { "t": "between-[subj]", "role": "subject", "id": "s" },
+      { "t": "was-far-but", "role": "other", "id": "b" },
+      { "t": "these-days-[topic]", "role": "other", "id": "c" },
+      { "t": "a-lot got-close", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "예전에는", "role": "other", "id": "a" },
+      { "t": "사이가", "role": "subject", "id": "s" },
+      { "t": "멀었는데", "role": "other", "id": "b" },
+      { "t": "요즘은", "role": "other", "id": "c" },
+      { "t": "많이 가까워졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yejeoneneun saiga meoreonneunde yojeumeun mani gakkawojyeosseoyo",
+    "wordIds": ["w_yejeon", "w_sai", "w_meolda", "w_yojeum", "w_mani", "w_gakkawojida"],
+    "note": "The past-tense conveyor — 'it got X': M6's 가깝다 keeps its ㅂ-irregular 워 inside the change-verb, then takes the past tense on top. M6's 사이 (between) is how Korean names a relationship — 사이가 멀다/가깝다, distance as the metric — and the -는데 hinge from M53 swings from the old distance (M6's 멀다, in the past) to the new closeness. M35's 예전 dates the before; M26's 요즘 dates the after."
+  },
+  {
+    "id": "s_m70_learners_growing",
+    "en": [
+      { "t": "These days,", "role": "other", "id": "t" },
+      { "t": "the number of foreigners learning Korean", "role": "subject", "id": "s" },
+      { "t": "keeps growing", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "Korean-[obj] learn-[badge] foreigner-[subj]", "role": "subject", "id": "s" },
+      { "t": "become-many-ing-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "한국어를 배우는 외국인이", "role": "subject", "id": "s" },
+      { "t": "많아지고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeum hangugeoreul baeuneun oegugini manajigo isseoyo",
+    "wordIds": ["w_yojeum", "w_hangugeo", "w_baeuda", "w_oegugin", "w_manajida", "w_itda"],
+    "note": "The M35 md ran 많아지고 있어요 as its example — 'there's more and more' — and here it is, seated: M7's 많다 on the conveyor with the -고 있다 progressive from M8 stacked on top, the ㅎ silent all the way (manajigo). The badge -는 from M24 turns M2's 배우다 into the foreigners' job description (M23's 외국인). Korean counts a crowd's growth with 많아지다, never with a number."
+  },
+  {
+    "id": "s_m70_date_ready",
+    "en": [
+      { "t": "The meeting date —", "role": "subject", "id": "s" },
+      { "t": "has it been set?", "role": "verb", "id": "v" },
+      { "t": "Yes,", "role": "other", "id": "a" },
+      { "t": "everything", "role": "other", "id": "b" },
+      { "t": "is ready", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "meeting date-[topic]", "role": "subject", "id": "s" },
+      { "t": "got-set?", "role": "verb", "id": "v" },
+      { "t": "yes,", "role": "other", "id": "a" },
+      { "t": "all", "role": "other", "id": "b" },
+      { "t": "got-prepared", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "회의 날짜는", "role": "subject", "id": "s" },
+      { "t": "정해졌어요?", "role": "verb", "id": "v" },
+      { "t": "네,", "role": "other", "id": "a" },
+      { "t": "다", "role": "other", "id": "b" },
+      { "t": "준비됐어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "hoeui naljjaneun jeonghaejyeosseoyo? ne, da junbidwaesseoyo",
+    "wordIds": ["w_hoeui", "w_naljja", "w_jeonghaejida", "w_ne", "w_da", "w_junbidoeda"],
+    "note": "Two happen-forms, one office: 정해지다 (M33's 정하다 through the -지다 wing) sets M25's 날짜 with nobody's name on it, and 준비되다 — the 되다-row member M36 named — answers for the whole room. 준비됐어요? is the doorway, restaurant, and exam question; 다 준비됐어요 (M9's 다) is the only answer anyone wants. The M61 md called the 되다-row 'formal furniture' — this pair is the one it uses at dinner too."
+  },
+  {
+    "id": "s_m70_sudden_rain",
+    "en": [
+      { "t": "The rain suddenly came pouring down, so", "role": "other", "id": "a" },
+      { "t": "my clothes", "role": "subject", "id": "s" },
+      { "t": "completely", "role": "other", "id": "b" },
+      { "t": "got soaked", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "suddenly rain-[subj] pour-down-so", "role": "other", "id": "a" },
+      { "t": "clothes-[subj]", "role": "subject", "id": "s" },
+      { "t": "all", "role": "other", "id": "b" },
+      { "t": "get-wet-ended-up", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "갑자기 비가 쏟아져서", "role": "other", "id": "a" },
+      { "t": "옷이", "role": "subject", "id": "s" },
+      { "t": "다", "role": "other", "id": "b" },
+      { "t": "젖어 버렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gapjagi biga ssodajyeoseo osi da jeojeo beoryeosseoyo",
+    "wordIds": ["w_gapjagi", "w_bi", "w_ssodajida", "w_ot", "w_da", "w_jeotda", "w_beorida"],
+    "note": "The -지다 wing at full volume: M66's 쏟다 (the overflow verb) becomes 쏟아지다 and the sky does the dumping — M11's 비, with M28's 갑자기 as the weather's only warning. The -아/어서 cause from M10 hands the consequence to M36's 젖다 (비에 젖었어요, that note's own example), which takes the done-and-regretted tail -아/어 버리다 from M52. Happen-verb causes happen-verb; nobody in the sentence did anything."
+  },
+  {
+    "id": "s_m70_easy_read",
+    "en": [
+      { "t": "Please recommend", "role": "verb", "id": "v" },
+      { "t": "one", "role": "other", "id": "b" },
+      { "t": "novel that reads easily", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "well be-read-[badge] novel-[obj]", "role": "object", "id": "o" },
+      { "t": "one volume", "role": "other", "id": "b" },
+      { "t": "introduce-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "잘 읽히는 소설을", "role": "object", "id": "o" },
+      { "t": "한 권", "role": "other", "id": "b" },
+      { "t": "소개해 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jal ilkineun soseoreul han gwon sogaehae juseyo",
+    "wordIds": ["w_jal", "w_ilkhida", "w_soseol", "w_hana", "w_c_gwon", "w_sogaehada", "w_juda"],
+    "note": "The party guest wearing the badge from M24: 잘 읽히는 소설 = a novel that reads easily — the passive as a book review, M48's 소설 on the receiving end, and the sound rule live (ilkineun: the buried ㄹ back, the ㄱ fused with ㅎ). M16's 소개하다 rides M9's 주다 in its do-for-me job (소개해 주세요), and 한 권 counts it with M5's 권. Korean asks for book recommendations with the same verb that sets up blind dates."
+  },
+  {
+    "id": "s_m70_bath_time",
+    "en": [
+      { "t": "Mom", "role": "subject", "id": "s" },
+      { "t": "took off", "role": "other", "id": "b" },
+      { "t": "the child's clothes", "role": "object", "id": "o" },
+      { "t": "and gave the kid a bath", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "mom-[subj]", "role": "subject", "id": "s" },
+      { "t": "child clothes-[obj]", "role": "object", "id": "o" },
+      { "t": "make-take-off-and", "role": "other", "id": "b" },
+      { "t": "bath-[obj] ordered", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "엄마가", "role": "subject", "id": "s" },
+      { "t": "아이 옷을", "role": "object", "id": "o" },
+      { "t": "벗기고", "role": "other", "id": "b" },
+      { "t": "목욕을 시켰어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eommaga ai oseul beotgigo mogyogeul sikyeosseoyo",
+    "wordIds": ["w_eomma", "w_ai", "w_ot", "w_beotgida", "w_mogyok", "w_sikida"],
+    "note": "The bedtime routine the M37 md left as table-only guests (눕히다, 씻기다, 신기다) gains its missing step: 벗기다 = make-undress, M21's 벗다 with the causative 기 — an M37 invitation, not an M36 one. Then the order machine M37 built on M3's 시키다 — 목욕을 시키다, with M37's 목욕 — bathes the child by decree. Two make-do machines in one breath, the suffix party and the walk-in 시키다, chained by -고 (M10); M4's 엄마 and 아이 supply the cast."
+  },
+  {
+    "id": "s_m70_oil_water",
+    "en": [
+      { "t": "Water and oil", "role": "subject", "id": "s" },
+      { "t": "no matter how much you stir,", "role": "other", "id": "a" },
+      { "t": "won't mix", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "water-and oil-[topic]", "role": "subject", "id": "s" },
+      { "t": "no-matter-how stir-even-if", "role": "other", "id": "a" },
+      { "t": "not get-mixed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "물과 기름은", "role": "subject", "id": "s" },
+      { "t": "아무리 저어도", "role": "other", "id": "a" },
+      { "t": "안 섞여요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mulgwa gireumeun amuri jeoeodo an seokkyeoyo",
+    "wordIds": ["w_mul", "w_gireum", "w_amuri", "w_jeotda_stir", "w_seokkida"],
+    "note": "M40's 섞다 + 이 → 섞이다: mixing that fails on its own, no cook blamed (M3's 안 does the refusing). M40's 젓다 shows its ㅅ-irregular under the -아/어도 concession from M39 (저어도 — the ㅅ gone), with M39's 아무리 fronting it: no matter how. M30's 과 joins M1's 물 to M40's 기름 — the science-class sentence, and the one Koreans use about two people who will never get along."
   }
 ]
