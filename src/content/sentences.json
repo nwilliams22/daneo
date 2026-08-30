@@ -16431,5 +16431,194 @@
     "rom": "uri jip goyangiga saekkireul ne mari naasseoyo.",
     "wordIds": ["w_uri", "w_jip", "w_goyangi", "w_saekki", "w_net", "w_c_mari", "w_nata"],
     "note": "새끼 where it belongs: M22's 고양이 and M47's 낳다 (said 나았어요 — the ㅎ falls silent, as that note warned), counted by M5's 마리 with M5's 넷 in its counter form 네. M4's 우리 집 makes it our cat, as Korean does. This is the only sentence shape the word should ever take from you — young animals, counted."
+  },
+  {
+    "id": "s_m72_lab_analysis",
+    "en": [
+      { "t": "At the research institute,", "role": "place", "id": "p" },
+      { "t": "the scientists", "role": "subject", "id": "s" },
+      { "t": "are analyzing", "role": "verb", "id": "v" },
+      { "t": "new data", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "research-institute-at", "role": "place", "id": "p" },
+      { "t": "scientist-[plural]-[subj]", "role": "subject", "id": "s" },
+      { "t": "new-[badge] data-[obj]", "role": "object", "id": "o" },
+      { "t": "analyze-ing-are", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "연구소에서", "role": "place", "id": "p" },
+      { "t": "과학자들이", "role": "subject", "id": "s" },
+      { "t": "새로운 자료를", "role": "object", "id": "o" },
+      { "t": "분석하고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeongusoeseo gwahakjadeuri saeroun jaryoreul bunseokhago isseoyo",
+    "wordIds": ["w_yeonguso", "w_gwahakja", "w_saeropda", "w_jaryo", "w_bunseokhada"],
+    "note": "The lab, staffed: 연구소 is the place-所 building, 과학자들 the person-者 crew (M27's 들 pluralizing because the many-ness matters), and 분석하다 divides M44's 자료 until it's bright. M35's 새롭다 wears the -(으)ㄴ badge (M24), and Ring 1's -고 있다 progressive keeps the analysis running — the sentence every science feature opens on."
+  },
+  {
+    "id": "s_m72_ten_years_watching",
+    "en": [
+      { "t": "That researcher", "role": "subject", "id": "s" },
+      { "t": "observed", "role": "verb", "id": "v" },
+      { "t": "animal behavior", "role": "object", "id": "o" },
+      { "t": "for ten years", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "that researcher-[topic]", "role": "subject", "id": "s" },
+      { "t": "ten year during", "role": "other", "id": "t" },
+      { "t": "animal-of behavior-[obj]", "role": "object", "id": "o" },
+      { "t": "observed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 연구자는", "role": "subject", "id": "s" },
+      { "t": "십 년 동안", "role": "other", "id": "t" },
+      { "t": "동물의 행동을", "role": "object", "id": "o" },
+      { "t": "관찰했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu yeongujaneun sip nyeon dongan dongmurui haengdongeul gwanchalhaesseoyo",
+    "wordIds": ["w_geu_det", "w_yeonguja", "w_n_sip", "w_nyeon", "w_dongan", "w_dongmul", "w_haengdong", "w_gwanchalhada"],
+    "note": "관찰하다 in its native habitat — the field, not the lab: M28's 동안 gives the decade a container (십 년 동안), M57's 행동 supplies what gets watched, and M22's 동물 supplies who. 연구자 rather than 연구원, because the sentence is about the category, not the badge. Ten years of looking on purpose is the whole difference between 보다 and 관찰하다."
+  },
+  {
+    "id": "s_m72_wifi_auto",
+    "en": [
+      { "t": "The moment I walked into the café,", "role": "other", "id": "a" },
+      { "t": "the wifi", "role": "subject", "id": "s" },
+      { "t": "connected", "role": "verb", "id": "v" },
+      { "t": "automatically", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "café-to enter-as-soon-as", "role": "other", "id": "a" },
+      { "t": "wifi-[subj]", "role": "subject", "id": "s" },
+      { "t": "automatic-ly", "role": "other", "id": "b" },
+      { "t": "became-connected", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "카페에 들어가자마자", "role": "other", "id": "a" },
+      { "t": "와이파이가", "role": "subject", "id": "s" },
+      { "t": "자동으로", "role": "other", "id": "b" },
+      { "t": "연결됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "kapee deureogajamaja waipaiga jadongeuro yeongyeoldwaesseoyo",
+    "wordIds": ["w_kape", "w_deureogada", "w_waipai", "w_jadong", "w_yeongyeoldoeda"],
+    "note": "The everyday-tech sentence, fully machined: -자마자 (M38) clocks the doorway, M20's 와이파이 does the connecting by itself through the 되다-row (M36), and 자동으로 — 자동 + M6's 으로 — says nobody touched anything. M28's 들어가다 carries you in. 연결됐어요 is the one 되다-verb on this shelf you will say aloud daily, usually with relief."
+  },
+  {
+    "id": "s_m72_electric_cars",
+    "en": [
+      { "t": "These days,", "role": "other", "id": "t" },
+      { "t": "cars that run on electricity", "role": "subject", "id": "s" },
+      { "t": "instead of oil", "role": "other", "id": "a" },
+      { "t": "are on the rise", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "these-days-[topic]", "role": "other", "id": "t" },
+      { "t": "petroleum instead-of", "role": "other", "id": "a" },
+      { "t": "electricity-by move-[badge] car-[subj]", "role": "subject", "id": "s" },
+      { "t": "increase-ing-are", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘은", "role": "other", "id": "t" },
+      { "t": "석유 대신", "role": "other", "id": "a" },
+      { "t": "전기로 움직이는 자동차가", "role": "subject", "id": "s" },
+      { "t": "늘어나고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeumeun seogyu daesin jeongiro umjigineun jadongchaga neureonago isseoyo",
+    "wordIds": ["w_yojeum", "w_seogyu", "w_daesin", "w_jeongi", "w_umjigida", "w_jadongcha", "w_neureonada"],
+    "note": "석유 in its commodity register — the thing being replaced. M39's 대신 makes the swap, M36's 전기 powers it through M6's 로, M50's 움직이다 wears the -는 badge (M24) to build the subject (전기로 움직이는 자동차 — the 전기차 M36's 전기 note filed), and M56's 늘어나다 counts them the way statistics prefer. Korea's roads, in one clause."
+  },
+  {
+    "id": "s_m72_research_says",
+    "en": [
+      { "t": "According to the research findings,", "role": "other", "id": "a" },
+      { "t": "with the development of technology", "role": "other", "id": "b" },
+      { "t": "our daily lives", "role": "subject", "id": "s" },
+      { "t": "have changed", "role": "verb", "id": "v" },
+      { "t": "greatly, it says", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "research result-according-to", "role": "other", "id": "a" },
+      { "t": "technology-of development-by", "role": "other", "id": "b" },
+      { "t": "our life-[subj]", "role": "subject", "id": "s" },
+      { "t": "great-ly", "role": "other", "id": "c" },
+      { "t": "changed-[quote] says-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "연구 결과에 따르면", "role": "other", "id": "a" },
+      { "t": "기술의 발달로", "role": "other", "id": "b" },
+      { "t": "우리 생활이", "role": "subject", "id": "s" },
+      { "t": "크게", "role": "other", "id": "c" },
+      { "t": "변화했다고 합니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeongu gyeolgwae ttareumyeon gisurui baldallo uri saenghwari keuge byeonhwahaetdago hamnida",
+    "wordIds": ["w_yeongu", "w_gyeolgwa", "w_ttareuda", "w_gisul", "w_baldal", "w_uri", "w_saenghwal", "w_keuda", "w_byeonhwahada", "w_hada"],
+    "note": "M32's 연구 note promised this exact frame — '연구 결과에 따르면… = according to research findings' — and the quote machine (M32) relays the claim in 합니다체 (M4), the register the wire-service sentences of M56 ran. 발달 stands bare after M44's 기술, M6's 로 makes it the means, 변화하다 prints what 변하다 would have said, and the -게 adverbializer (M33) turns M1's 크다 into the adverb. A news feature's first paragraph, verbatim in shape."
+  },
+  {
+    "id": "s_m72_method_hospitals",
+    "en": [
+      { "t": "This method", "role": "subject", "id": "s" },
+      { "t": "is still", "role": "other", "id": "t" },
+      { "t": "widely used", "role": "verb", "id": "v" },
+      { "t": "in hospitals", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "this method-[topic]", "role": "subject", "id": "s" },
+      { "t": "now-also", "role": "other", "id": "t" },
+      { "t": "hospital-at", "role": "place", "id": "p" },
+      { "t": "much be-used-ing-is-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 방법은", "role": "subject", "id": "s" },
+      { "t": "지금도", "role": "other", "id": "t" },
+      { "t": "병원에서", "role": "place", "id": "p" },
+      { "t": "많이 이용되고 있습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "i bangbeobeun jigeumdo byeongwoneseo mani iyongdoego itseumnida",
+    "wordIds": ["w_i_det", "w_bangbeop", "w_jigeum", "w_byeongwon", "w_mani", "w_iyongdoeda"],
+    "note": "이용되다 debuts exactly where M61's 진행되다 stood (회의가 계획대로 진행되고 있어요): the 되다-row inside the -고 있다 progressive, closed by 합니다체 — announcements breathe like this. M32's 방법 is the service-shaped thing being used, M6's 병원 the venue, M2's 지금 with M2's 도 the 'still'. Print says 널리 here; M17's 많이 says the same thing without a frozen word."
+  },
+  {
+    "id": "s_m72_zoom_photo",
+    "en": [
+      { "t": "If you can't see the photo well,", "role": "other", "id": "a" },
+      { "t": "zoom in", "role": "verb", "id": "v" },
+      { "t": "with your fingers", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "photo-[subj] well not be-visible-if", "role": "other", "id": "a" },
+      { "t": "finger-with", "role": "other", "id": "b" },
+      { "t": "enlarge-and see-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사진이 잘 안 보이면", "role": "other", "id": "a" },
+      { "t": "손가락으로", "role": "other", "id": "b" },
+      { "t": "확대해서 보세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sajini jal an boimyeon songarageuro hwakdaehaeseo boseyo",
+    "wordIds": ["w_sajin", "w_jal", "w_boida", "w_songarak", "w_hwakdaehada", "w_boda"],
+    "note": "확대하다 at phone scale: -(으)면 from M20 sets the condition, M36's 보이다 reports the photo failing to show itself, M28's 손가락 does the pinching through M6's 으로, and Ring 1's -아/어서 chains the zoom to the look. 사진을 확대하다 is the collocation; the grandparent teaching this to a grandchild is the scene."
+  },
+  {
+    "id": "s_m72_solve_tools",
+    "en": [
+      { "t": "To solve the problem,", "role": "other", "id": "a" },
+      { "t": "I tried making use of", "role": "verb", "id": "v" },
+      { "t": "all kinds of tools", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "problem solution-[obj] for-the-sake-of", "role": "other", "id": "a" },
+      { "t": "several kind tool-[obj]", "role": "object", "id": "o" },
+      { "t": "utilize-tried", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "문제 해결을 위해서", "role": "other", "id": "a" },
+      { "t": "여러 가지 도구를", "role": "object", "id": "o" },
+      { "t": "활용해 봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "munje haegyeoreul wihaeseo yeoreo gaji dogureul hwaryonghae bwasseoyo",
+    "wordIds": ["w_munje", "w_haegyeol", "w_wihada", "w_yeoreo", "w_gaji", "w_dogu", "w_hwaryonghada", "w_boda"],
+    "note": "해결 stacks bare on M7's 문제 (문제 해결 — the résumé phrase), and the 을 위해서 frame from M32 aims the effort at it. 활용하다 is the third use: not 사용 (a thing), not 이용 (a service), but squeezing M29's 여러 가지 도구 for everything they had — inside the try-machine -아/어 보다 (M16), because that is what 활용 feels like from the inside."
   }
 ]

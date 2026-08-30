@@ -1760,5 +1760,26 @@
       "s_m71_ya_eottae", "s_m71_eung_geureochi", "s_m71_aniya_bunmyeong", "s_m71_malsseum_deuril",
       "s_m71_geureom_bwaeyo", "s_m71_ja_sugo_hanjan", "s_m71_eomeo_kkamppak", "s_m71_cat_litter"
     ]
+  },
+  {
+    "id": "m72",
+    "title": "The Laboratory",
+    "order": 81,
+    "ring": 2,
+    "contentMd": "modules/module-72.md",
+    "wordIds": [
+      "w_gwahakja", "w_yeonguja", "w_yeonguso", "w_gigye",
+      "w_eneoji", "w_jeonja", "w_sanso", "w_seogyu",
+      "w_jadong", "w_model", "w_dogu", "w_samul",
+      "w_silje", "w_gaebalhada", "w_baldal", "w_bunseokhada",
+      "w_gwanchalhada", "w_uimihada", "w_gwallyeonhada", "w_iyong",
+      "w_iyongdoeda", "w_hwaryonghada", "w_byeonhwahada", "w_hwakdaehada",
+      "w_hwakdaedoeda", "w_yeongyeolhada", "w_yeongyeoldoeda", "w_haegyeol",
+      "w_balgyeon", "w_balsaeng"
+    ],
+    "sentenceIds": [
+      "s_m72_lab_analysis", "s_m72_ten_years_watching", "s_m72_wifi_auto", "s_m72_electric_cars",
+      "s_m72_research_says", "s_m72_method_hospitals", "s_m72_zoom_photo", "s_m72_solve_tools"
+    ]
   }
 ]
