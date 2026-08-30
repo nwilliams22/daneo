@@ -1,6 +1,7 @@
 import type { Module, Sentence, Word } from "../types";
 import { shuffle, type Rng } from "./rng";
 import { generateWordOptions, generateSentenceOptions } from "./distractors";
+import { labelable } from "./roleLabel";
 
 // Module-end test builder (Nick, 2026-08-10 — in the spirit of
 // howtostudykorean's unit tests). Pure: content in, question list out, so the
@@ -16,13 +17,15 @@ export const TEST_SHAPE = {
   wordPick: 4, // English → pick the Korean
   sentence: 4, // ko sentence → pick the translation
   typing: 3, // English → type the Korean
+  role: 2, // ko sentence → label subject/object/place/verb (2026-08-29)
 } as const;
 
 export type TestQuestion =
   | { key: string; kind: "wordMeaning"; item: Word; options: Word[] }
   | { key: string; kind: "wordPick"; item: Word; options: Word[] }
   | { key: string; kind: "sentence"; item: Sentence; options: Sentence[] }
-  | { key: string; kind: "typing"; item: Word };
+  | { key: string; kind: "typing"; item: Word }
+  | { key: string; kind: "role"; item: Sentence };
 
 /** Words a module can test: its own checklist, particles excluded (they are
  *  glue, drilled through sentences, and their `en` glosses collide). */
@@ -82,15 +85,21 @@ export function buildModuleTest(
     });
   for (const w of nextWords(TEST_SHAPE.typing))
     out.push({ key: `typing:${w.id}`, kind: "typing", item: w });
-  // Sentences close the test — recognition, production, then synthesis (and
-  // the last question is always a choice, so "See results" can label it).
-  for (const s of sentences.slice(0, TEST_SHAPE.sentence))
+  // Sentences close the test — recognition, production, then synthesis.
+  const mcq = sentences.slice(0, TEST_SHAPE.sentence);
+  for (const s of mcq)
     out.push({
       key: `sentence:${s.id}`,
       kind: "sentence",
       item: s,
       options: generateSentenceOptions(s, sentencePool, rng),
     });
+  // Then the anatomy itself: label the parts of sentences the MCQs didn't
+  // use when the module has enough, falling back to the MCQ'd ones.
+  const fresh = sentences.slice(TEST_SHAPE.sentence).filter(labelable);
+  const reused = mcq.filter(labelable);
+  for (const s of [...fresh, ...reused].slice(0, TEST_SHAPE.role))
+    out.push({ key: `role:${s.id}`, kind: "role", item: s });
 
   return out;
 }
@@ -99,6 +108,7 @@ export function buildModuleTest(
  *  directions track the same per-word "word" card. */
 export function drillKindFor(q: TestQuestion) {
   if (q.kind === "sentence") return "anatomy" as const;
+  if (q.kind === "role") return "role" as const;
   if (q.kind === "typing") return "typing" as const;
   return "word" as const;
 }

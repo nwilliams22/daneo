@@ -43,6 +43,8 @@ import {
   glyphExplainWrong,
 } from "../drills/engine/questions";
 import { FACE_FONT, FACE_LABEL, randomAltFace } from "../drills/engine/faceFont";
+import RoleLabelQuestion from "../drills/anatomy/RoleLabelQuestion";
+import { labelable } from "../../lib/roleLabel";
 import { useGapPool, type GapPool } from "../drills/gap/useGapPool";
 
 // Phase A.2 — the daily queue as ONE session mixing every drill kind,
@@ -56,7 +58,8 @@ type Question =
   | { key: string; kind: "gap"; item: GapItem; options: GapItem[] }
   | { key: string; kind: "anatomy"; item: Sentence; options: Sentence[] }
   | { key: string; kind: "typing"; item: Word }
-  | { key: string; kind: "word"; item: Word; options: Word[] };
+  | { key: string; kind: "word"; item: Word; options: Word[] }
+  | { key: string; kind: "role"; item: Sentence };
 
 function fontLetterOptions(target: FontLetterRow): FontLetterRow[] {
   const distractors: FontLetterRow[] = [];
@@ -125,6 +128,9 @@ function buildQueue(cards: SrsCard[], gapPool: GapPool): Question[] {
           item,
           options: generateWordOptions(item, allWords),
         });
+    } else if (card.kind === "role") {
+      const item = sentenceById.get(card.itemId);
+      if (item && labelable(item)) out.push({ key, kind: "role", item });
     }
   }
   return out;
@@ -137,6 +143,7 @@ const KIND_LABEL: Record<Question["kind"], string> = {
   anatomy: "Sentence anatomy",
   typing: "Typing",
   word: "Vocabulary",
+  role: "Sentence roles",
 };
 
 function ReviewSession({ queue }: { queue: Question[] }) {
@@ -376,6 +383,15 @@ function ReviewSession({ queue }: { queue: Question[] }) {
             key={q.key}
             word={q.item}
             options={q.options}
+            onAnswer={answer(q.kind, q.item.id)}
+            onNext={next}
+          />
+        )}
+
+        {q.kind === "role" && (
+          <RoleLabelQuestion
+            key={q.key}
+            sentence={q.item}
             onAnswer={answer(q.kind, q.item.id)}
             onNext={next}
           />

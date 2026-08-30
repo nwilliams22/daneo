@@ -39,6 +39,13 @@ const DRILLS: {
     available: true,
   },
   {
+    to: "/drill/anatomy?mode=label",
+    ko: "주",
+    title: "Sentence Roles",
+    blurb: "Find the subject, object, place, and verb — label the pieces yourself.",
+    available: true,
+  },
+  {
     to: "/drill/gap/browse",
     ko: "정",
     title: "Literal vs. Real · Browse",

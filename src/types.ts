@@ -9,7 +9,8 @@ export type DrillKind =
   | "gap"
   | "font"
   | "typing"
-  | "word"; // vocab meaning MCQ — introduced with module tests (2026-08-10)
+  | "word" // vocab meaning MCQ — introduced with module tests (2026-08-10)
+  | "role"; // label a sentence's subject/object/place/verb (2026-08-29)
 
 export interface Word {
   id: string; // "w_mul"

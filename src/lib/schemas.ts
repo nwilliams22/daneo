@@ -20,6 +20,7 @@ export const drillKindSchema = z.enum([
   "font",
   "typing",
   "word",
+  "role",
 ]);
 
 export const wordSchema = z.object({

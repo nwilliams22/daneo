@@ -41,8 +41,18 @@ describe("buildModuleTest", () => {
     expect(qs.filter((q) => q.kind === "sentence")).toHaveLength(
       TEST_SHAPE.sentence,
     );
-    // sentences close the test, so the last question is always a choice
-    expect(qs[qs.length - 1].kind).toBe("sentence");
+    expect(qs.filter((q) => q.kind === "role")).toHaveLength(TEST_SHAPE.role);
+    // sentence work closes the test: translation MCQs, then labelling
+    expect(qs[qs.length - 1].kind).toBe("role");
+  });
+
+  it("labels sentences the translation MCQs did not use when it can", () => {
+    const qs = build("m24");
+    const mcq = new Set(
+      qs.filter((q) => q.kind === "sentence").map((q) => q.item.id),
+    );
+    for (const q of qs)
+      if (q.kind === "role") expect(mcq.has(q.item.id)).toBe(false);
   });
 
   it("samples only the module's own content", () => {
@@ -50,7 +60,8 @@ describe("buildModuleTest", () => {
     const wordSet = new Set(m.wordIds);
     const sentenceSet = new Set(m.sentenceIds);
     for (const q of build("m25")) {
-      if (q.kind === "sentence") expect(sentenceSet.has(q.item.id)).toBe(true);
+      if (q.kind === "sentence" || q.kind === "role")
+        expect(sentenceSet.has(q.item.id)).toBe(true);
       else expect(wordSet.has(q.item.id)).toBe(true);
     }
   });
@@ -58,14 +69,14 @@ describe("buildModuleTest", () => {
   it("never repeats a word across word questions", () => {
     const qs = build("m3");
     const wordIds = qs
-      .filter((q) => q.kind !== "sentence")
+      .filter((q) => q.kind !== "sentence" && q.kind !== "role")
       .map((q) => q.item.id);
     expect(new Set(wordIds).size).toBe(wordIds.length);
   });
 
   it("keeps MCQ options 4-wide, answer included, labels distinct", () => {
     for (const q of build("m19")) {
-      if (q.kind === "typing") continue;
+      if (q.kind === "typing" || q.kind === "role") continue;
       expect(q.options).toHaveLength(4);
       expect(q.options.some((o) => o.id === q.item.id)).toBe(true);
       if (q.kind === "sentence") continue;
@@ -99,7 +110,8 @@ describe("buildModuleTest", () => {
       TEST_SHAPE.wordMeaning +
       TEST_SHAPE.wordPick +
       TEST_SHAPE.typing +
-      TEST_SHAPE.sentence;
+      TEST_SHAPE.sentence +
+      TEST_SHAPE.role;
     for (const m of modulesOrdered) {
       if (m.wordIds.length === 0) continue;
       expect(build(m.id)).toHaveLength(total);
@@ -113,6 +125,7 @@ describe("drillKindFor", () => {
     for (const q of qs) {
       const kind = drillKindFor(q);
       if (q.kind === "sentence") expect(kind).toBe("anatomy");
+      else if (q.kind === "role") expect(kind).toBe("role");
       else if (q.kind === "typing") expect(kind).toBe("typing");
       else expect(kind).toBe("word");
     }

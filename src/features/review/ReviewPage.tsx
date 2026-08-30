@@ -24,6 +24,17 @@ interface ResolvedMiss {
   small: string;
 }
 
+const sentenceMiss = (id: string): ResolvedMiss | null => {
+  const s = sentenceById.get(id);
+  return s
+    ? {
+        id,
+        big: s.ko.map((c) => c.t).filter(Boolean).join(" "),
+        small: s.en.map((c) => c.t).filter(Boolean).join(" "),
+      }
+    : null;
+};
+
 const kindSections = (
   gapById: Map<string, GapItem>,
 ): {
@@ -45,16 +56,13 @@ const kindSections = (
     kind: "anatomy",
     title: "Sentence anatomy",
     drillTo: "/drill/anatomy?review=1",
-    resolve: (id) => {
-      const s = sentenceById.get(id);
-      return s
-        ? {
-            id,
-            big: s.ko.map((c) => c.t).filter(Boolean).join(" "),
-            small: s.en.map((c) => c.t).filter(Boolean).join(" "),
-          }
-        : null;
-    },
+    resolve: sentenceMiss,
+  },
+  {
+    kind: "role",
+    title: "Sentence roles",
+    drillTo: "/drill/anatomy?review=1&mode=label",
+    resolve: sentenceMiss,
   },
   {
     kind: "gap",
