@@ -166,6 +166,7 @@ Vitest suites, minimum:
 - ✅ **Phase A.4 — Module 2 content** *(done 2026-08-02)*: numbers, time, past tense, 도/에서/하고 in the content format (32 words, 12 sentences, new confusable + gap items); validator proves cross-module gating.
 - **Phase B — Share:** deploy static build + proxy (Fly/Railway), household auth, per-user Dexie→server sync (only if actually sharing).
 - **Phase C — Commercial (decide later):** real accounts, paid TTS, content CMS. Out of scope for all current sessions.
+- **Phase D — Local AI (decide 2026-08-24, after core done):** local LLM engine (in-process llama.cpp crate) for the translator + a Daneo-specific tutor, optional model download from HuggingFace (4B std / 3B Lite), mobile (3B+) later via native plugin. **Full plan: [`PLAN-local-model.md`](PLAN-local-model.md).** Blocked until core features are complete; Phase B is first to be decided.
 
 ## 8. Working agreements for Claude Code sessions
 - Keep `TASKS.md` current: check items off, add discovered work with date stamps.

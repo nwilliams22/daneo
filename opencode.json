@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "skill": {
+      "*": "deny",
+      "git": "allow",
+      "documentation": "allow",
+      "security": "allow",
+      "anti-fabrication": "allow",
+      "grill-me": "allow",
+      "planner": "allow",
+      "context-audit": "allow",
+      "tauri": "allow",
+      "tauri-commands": "allow",
+      "tauri-plugins": "allow",
+      "tauri-testing": "allow",
+      "react": "allow",
+      "react-hooks": "allow",
+      "react-components": "allow",
+      "typescript": "allow",
+      "vitest": "allow",
+      "testing": "allow",
+      "thermo-nuclear-code-quality-review": "allow"
+    }
+  }
+}
