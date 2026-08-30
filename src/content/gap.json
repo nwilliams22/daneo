@@ -2014,5 +2014,23 @@
     "lit": "well, it's what I say",
     "real": "I know, right? / tell me about it — the commiserating agreement",
     "note": "This module's 글쎄 plus M4's 말 in the casual copula M19 installed (말 + 이야): the hedge that suddenly agrees completely. Someone sighs 요즘 너무 바빠 — 글쎄 말이야 = tell me about it. The polite floor says 글쎄 말이에요, the formal 글쎄 말입니다. Radar: 글쎄 alone commits to nothing; 글쎄 말이야 commits to everything the other person just said."
+  },
+  {
+    "id": "g_m72_baengmun_buryeoilgyeon",
+    "cat": "phrase",
+    "ko": "백문이 불여일견",
+    "rom": "baengmuni buryeoilgyeon",
+    "lit": "a hundred hearings are not equal to one seeing",
+    "real": "seeing is believing — go and observe it yourself",
+    "note": "百聞不如一見, a Chinese four-character line Korean speaks whole: M9's 백 (hundred) + hear-聞 (the 문 of 신문, M8), then the un-prefix 불- that M39's 불가능하다 note credited to the M36 gap deck + 여 (like) + M2's 일 (one) + the view-見 that M56's 발견하다 note lifted from 의견. The observer's proverb, and this module's thesis: the 과학자 who 관찰하다-s beats the hundred who only heard about it. Said 뱅무니 부려일견 — 백's ㄱ nasalizes before ㅁ, and 불's ㄹ slides onto 여."
+  },
+  {
+    "id": "g_m72_samullori",
+    "cat": "concept",
+    "ko": "사물놀이",
+    "rom": "samullori",
+    "lit": "four-things play",
+    "real": "the four-drum percussion ensemble — 꽹과리, 징, 장구, and the 북 — Korea's loudest folk music, and the reason 사물 has a homograph",
+    "note": "四物놀이: four-四 (M2's 사, wearing hanja) + thing-物 + M26's 놀이 — four instruments standing for thunder, wind, rain, and clouds, played by farmers' bands and now by every university 동아리 (M69) with a rehearsal room to lose. M51's 북 note called it the drum's heartbeat; this module's 사물 (事物, matter-thing) is a DIFFERENT 사 in the same spelling. The radar catch is the culture: when a Korean says 사물놀이, count to four."
   }
 ]
