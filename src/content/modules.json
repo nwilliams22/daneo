@@ -1803,5 +1803,25 @@
       "s_m73_less_spicy", "s_m73_famous_not_fun", "s_m73_shoes_fit", "s_m73_dutch_pay",
       "s_m73_briefly_three", "s_m73_longer_summers", "s_m73_old_friend", "s_m73_steady_not_once"
     ]
+  },
+  {
+    "id": "m74",
+    "title": "Two Words, One Verb",
+    "order": 83,
+    "ring": 2,
+    "contentMd": "modules/module-74.md",
+    "wordIds": [
+      "w_saenggyeonada", "w_jaranada", "w_somunnada", "w_chajanaeda",
+      "w_jamdeulda", "w_heulleogada", "w_neomchida", "w_hapchida",
+      "w_deohada", "w_jalsalda", "w_bamneutda", "w_eopsaeda",
+      "w_deulleuda", "w_jolda", "w_ppalda", "w_pyeollihada",
+      "w_bulpyeonhada", "w_hwaryeohada", "w_gwiyeopda", "w_gadeukhada",
+      "w_ssikssikhada", "w_meot", "w_geojit", "w_gajja",
+      "w_gongjja", "w_nam", "w_bollil", "w_bammat"
+    ],
+    "sentenceIds": [
+      "s_m74_late_doze", "s_m74_lullaby_first", "s_m74_subway_rush", "s_m74_fake_bag",
+      "s_m74_cup_overflow", "s_m74_others_free", "s_m74_plucky_answer", "s_m74_rumored_stop"
+    ]
   }
 ]

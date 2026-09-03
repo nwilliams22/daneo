@@ -2059,5 +2059,32 @@
     "lit": "each-self plans-living",
     "real": "everyone fends for themselves — the survival idiom of the news cycle",
     "note": "各自圖生: this module's 각자 + the plan-圖 that M64's 시도하다 decoded ('圖 (plan)') + 生, life — the 생 of 학생 (M4). Four hanja in a row, the classic 사자성어 shape (a four-character idiom — riding frozen), and it went from old proverb to headline: 각자도생 사회 (M32's 사회) = a society where nobody is coming to help. Said with a shrug about housing, jobs, and the pandemic years — the cold mirror of M62's 따로 또 같이."
+  },
+  {
+    "id": "g_m74_namui_tteok",
+    "cat": "phrase",
+    "ko": "남의 떡이 더 커 보인다",
+    "rom": "namui tteogi deo keo boinda",
+    "lit": "the other person's rice cake looks bigger",
+    "real": "the grass is always greener — what others have always looks better than what you hold",
+    "note": "This module's 남 owning M18's 떡 (the rice cake its note hands out for moving day, birthdays, and exams), measured by M9's 더 ('더 커요 — bigger') and judged through -아/어 보이다, the seen-as machine M36's 보이다 note unmasked ('is SEEN as cool'). The bare -ㄴ다 is the proverb register M35's 이루어지다 note showed in 꿈은 이루어진다. Its sibling has hung in the gap deck since M30: 그림의 떡, the rice cake you can see but never eat — this one you could eat, and you still want the neighbor's."
+  },
+  {
+    "id": "g_m74_gongjja_daemeori",
+    "cat": "phrase",
+    "ko": "공짜 좋아하면 대머리 된다",
+    "rom": "gongjja joahamyeon daemeori doenda",
+    "lit": "if you like free things, you go bald",
+    "real": "there's no such thing as a free lunch — the folk warning against loving freebies",
+    "note": "This module's 공짜 + M1's 좋아하다, hinged by -(으)면 from M20 and landing on M10's 되다 in the bare -ㄴ다 proverb register: love free stuff and you'll end up 대머리 — bald head, riding frozen (a native 대, not the big-大, in front of M8's 머리). Nobody believes the hair part; everyone quotes it — at the friend who never pays, the uncle who hoards hotel soap, and yourself at the sample counter. The 공짜 grin, with a warning label."
+  },
+  {
+    "id": "g_m74_bollil_boda",
+    "cat": "phrase",
+    "ko": "볼일 보다",
+    "rom": "bollil boda",
+    "lit": "to see the thing-to-see-to",
+    "real": "to take care of some business — and, with a straight face, to use the restroom",
+    "note": "This module's 볼일 with M1's 보다, the verb already welded inside it: doing what needs doing. 볼일 좀 보고 올게요 = I'll take care of something and be right back — which is exactly why the same sentence is the polite way to leave for the bathroom: 볼일(을) 보다 is the euphemism Korean uses where English says 'the restroom', and 큰 볼일 / 작은 볼일 (M1's 크다 and 작다, badged) sort number two from number one. Say it to excuse yourself; never ask which kind."
   }
 ]
