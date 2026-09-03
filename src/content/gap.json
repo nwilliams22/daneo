@@ -2032,5 +2032,32 @@
     "lit": "four-things play",
     "real": "the four-drum percussion ensemble — 꽹과리, 징, 장구, and the 북 — Korea's loudest folk music, and the reason 사물 has a homograph",
     "note": "四物놀이: four-四 (M2's 사, wearing hanja) + thing-物 + M26's 놀이 — four instruments standing for thunder, wind, rain, and clouds, played by farmers' bands and now by every university 동아리 (M69) with a rehearsal room to lose. M51's 북 note called it the drum's heartbeat; this module's 사물 (事物, matter-thing) is a DIFFERENT 사 in the same spelling. The radar catch is the culture: when a Korean says 사물놀이, count to four."
+  },
+  {
+    "id": "g_m73_ttagieyo",
+    "cat": "structure",
+    "ko": "딱이에요",
+    "rom": "ttagieyo",
+    "lit": "it is exactly",
+    "real": "that's just the thing / a perfect fit — the standalone verdict, no adjective needed",
+    "note": "This module's 딱 promoted to a predicate: the adverb plus the copula (the 이에요 that M4's 선생님 first wore, in 선생님이에요) and nothing else — the click IS the review. 이 옷은 너한테 딱이야 (M7's 옷, M19's 너, the casual copula) = this is SO you; 점심으로 딱이에요 (M3's 점심) = perfect for lunch; 딱이네요! (-네요 from M26) = oh, that's just right. Where English reaches for 'perfect', Korean says the lid landed on the right box."
+  },
+  {
+    "id": "g_m73_guji",
+    "cat": "phrase",
+    "ko": "굳이?",
+    "rom": "guji",
+    "lit": "insistently?",
+    "real": "why bother? / was that really necessary? — the one-word retort",
+    "note": "This module's 굳이, alone, with a rising tone: someone announces they'll drive forty minutes to return a pen, and the whole reply is 굳이? — must you? It judges your own choices too: 굳이 갔어요 = I went, though nobody needed me to. Said 구지, by the ㄷ+이 rule the word's own note filed beside M9's 같이; the flatter you say it, the more it means."
+  },
+  {
+    "id": "g_m73_gakjadosaeng",
+    "cat": "concept",
+    "ko": "각자도생",
+    "rom": "gakjadosaeng",
+    "lit": "each-self plans-living",
+    "real": "everyone fends for themselves — the survival idiom of the news cycle",
+    "note": "各自圖生: this module's 각자 + the plan-圖 that M64's 시도하다 decoded ('圖 (plan)') + 生, life — the 생 of 학생 (M4). Four hanja in a row, the classic 사자성어 shape (a four-character idiom — riding frozen), and it went from old proverb to headline: 각자도생 사회 (M32's 사회) = a society where nobody is coming to help. Said with a shrug about housing, jobs, and the pandemic years — the cold mirror of M62's 따로 또 같이."
   }
 ]

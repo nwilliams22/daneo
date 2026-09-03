@@ -1781,5 +1781,27 @@
       "s_m72_lab_analysis", "s_m72_ten_years_watching", "s_m72_wifi_auto", "s_m72_electric_cars",
       "s_m72_research_says", "s_m72_method_hospitals", "s_m72_zoom_photo", "s_m72_solve_tools"
     ]
+  },
+  {
+    "id": "m73",
+    "title": "Turning the Dial",
+    "order": 82,
+    "ring": 2,
+    "contentMd": "modules/module-73.md",
+    "wordIds": [
+      "w_jeonghwakhi", "w_gandanhi", "w_dansunhi", "w_teukbyeolhi",
+      "w_daedanhi", "w_goengjanghi", "w_jasehi", "w_jeokdanghada",
+      "w_jeokdanghi", "w_kkujunhi", "w_uyeonhi", "w_pyeonhi",
+      "w_kkaekkeusi", "w_guji", "w_deol", "w_doege",
+      "w_jebeop", "w_geudaji", "w_bigyo", "w_bigyojeok",
+      "w_ttak", "w_gotbaro", "w_jeuksi", "w_hankkeobeone",
+      "w_ojik", "w_naeji", "w_gakja", "w_jeonbu",
+      "w_haemada", "w_naenae", "w_ttodasi", "w_oraedorok",
+      "w_oraen"
+    ],
+    "sentenceIds": [
+      "s_m73_less_spicy", "s_m73_famous_not_fun", "s_m73_shoes_fit", "s_m73_dutch_pay",
+      "s_m73_briefly_three", "s_m73_longer_summers", "s_m73_old_friend", "s_m73_steady_not_once"
+    ]
   }
 ]

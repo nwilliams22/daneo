@@ -16620,5 +16620,230 @@
     "rom": "munje haegyeoreul wihaeseo yeoreo gaji dogureul hwaryonghae bwasseoyo",
     "wordIds": ["w_munje", "w_haegyeol", "w_wihada", "w_yeoreo", "w_gaji", "w_dogu", "w_hwaryonghada", "w_boda"],
     "note": "해결 stacks bare on M7's 문제 (문제 해결 — the résumé phrase), and the 을 위해서 frame from M32 aims the effort at it. 활용하다 is the third use: not 사용 (a thing), not 이용 (a service), but squeezing M29's 여러 가지 도구 for everything they had — inside the try-machine -아/어 보다 (M16), because that is what 활용 feels like from the inside."
+  },
+  {
+    "id": "s_m73_less_spicy",
+    "en": [
+      { "t": "Could you make", "role": "other", "id": "a" },
+      { "t": "this stew", "role": "object", "id": "o" },
+      { "t": "less spicy,", "role": "other", "id": "b" },
+      { "t": "and more", "role": "other", "id": "c" },
+      { "t": "rice,", "role": "object", "id": "p" },
+      { "t": "please?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this stew-[topic]", "role": "object", "id": "o" },
+      { "t": "less spicy-ly", "role": "other", "id": "b" },
+      { "t": "make-give-and", "role": "other", "id": "a" },
+      { "t": "rice-[topic]", "role": "object", "id": "p" },
+      { "t": "more", "role": "other", "id": "c" },
+      { "t": "give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 찌개는", "role": "object", "id": "o" },
+      { "t": "덜 맵게", "role": "other", "id": "b" },
+      { "t": "해 주시고", "role": "other", "id": "a" },
+      { "t": "밥은", "role": "object", "id": "p" },
+      { "t": "더", "role": "other", "id": "c" },
+      { "t": "주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i jjigaeneun deol maepge hae jusigo babeun deo juseyo",
+    "wordIds": ["w_i_det", "w_jjigae", "w_deol", "w_maepda", "w_hada", "w_juda", "w_bap", "w_deo"],
+    "note": "The dial's two directions in one order: 덜 turns M3's 맵다 down through the -게 adverb (M33) and the do-for-me machine (M9), then M9's 더 turns the rice up. 덜 맵게 해 주세요 is THE restaurant sentence — the rung 더 never had, finally installed. The -고 from M10 chains the two requests; the honorific 주시고 keeps the server on your side."
+  },
+  {
+    "id": "s_m73_famous_not_fun",
+    "en": [
+      { "t": "This movie", "role": "subject", "id": "s" },
+      { "t": "is really famous, but", "role": "other", "id": "a" },
+      { "t": "to me", "role": "subject", "id": "t" },
+      { "t": "it wasn't all that", "role": "other", "id": "b" },
+      { "t": "interesting", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this movie-[topic]", "role": "subject", "id": "s" },
+      { "t": "really famous-but", "role": "other", "id": "a" },
+      { "t": "I-[topic]", "role": "subject", "id": "t" },
+      { "t": "not-that-much", "role": "other", "id": "b" },
+      { "t": "fun-exist-not-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 영화는", "role": "subject", "id": "s" },
+      { "t": "되게 유명한데", "role": "other", "id": "a" },
+      { "t": "저는", "role": "subject", "id": "t" },
+      { "t": "그다지", "role": "other", "id": "b" },
+      { "t": "재미있지 않았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i yeonghwaneun doege yumyeonghande jeoneun geudaji jaemiitji anasseoyo",
+    "wordIds": ["w_i_det", "w_yeonghwa", "w_doege", "w_yumyeonghada", "w_jeo", "w_geudaji", "w_jaemiitda"],
+    "note": "The dial's top and floor in one breath: 되게 cranks M17's 유명하다 up in the spoken register, then 그다지 measures the fun down — and, like M62's 그리 and M17's 별로 before it, only works because a negative (-지 않다) follows. The -는데 from M53 hinges the two verdicts; the world's opinion and yours, calibrated on one line."
+  },
+  {
+    "id": "s_m73_shoes_fit",
+    "en": [
+      { "t": "These shoes —", "role": "subject", "id": "s" },
+      { "t": "the size", "role": "subject", "id": "a" },
+      { "t": "fits exactly, and", "role": "other", "id": "b" },
+      { "t": "the price", "role": "subject", "id": "c" },
+      { "t": "is reasonable too", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this shoe-[topic]", "role": "subject", "id": "s" },
+      { "t": "size-also", "role": "subject", "id": "a" },
+      { "t": "exactly fits-and", "role": "other", "id": "b" },
+      { "t": "price-also", "role": "subject", "id": "c" },
+      { "t": "is-suitable", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 신발은", "role": "subject", "id": "s" },
+      { "t": "사이즈도", "role": "subject", "id": "a" },
+      { "t": "딱 맞고", "role": "other", "id": "b" },
+      { "t": "가격도", "role": "subject", "id": "c" },
+      { "t": "적당해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i sinbareun saijeudo ttak matgo gagyeokdo jeokdanghaeyo",
+    "wordIds": ["w_i_det", "w_sinbal", "w_saijeu", "w_ttak", "w_matda", "w_gagyeok", "w_jeokdanghada"],
+    "note": "딱 맞다 — the click of the fit, with M15's 맞다 doing the fitting — in its natural habitat, M9's shoe store (신발, 사이즈). Then 적당하다 debuts on the price tag: M21's 가격 is not perfect, just right-sized, which is what 適當 means. Two 도s (M2) stack the good news, and the -고 from M10 carries it; a double subject frame, the way Korean grades a purchase."
+  },
+  {
+    "id": "s_m73_dutch_pay",
+    "en": [
+      { "t": "Today,", "role": "other", "id": "t" },
+      { "t": "each of us", "role": "other", "id": "a" },
+      { "t": "pays our own share.", "role": "verb", "id": "v" },
+      { "t": "Last time", "role": "other", "id": "b" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "paid for", "role": "verb", "id": "w" },
+      { "t": "all of it, remember?", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "today-[topic]", "role": "other", "id": "t" },
+      { "t": "each-self", "role": "other", "id": "a" },
+      { "t": "calculate-pay.", "role": "verb", "id": "v" },
+      { "t": "last-time-at-[topic]", "role": "other", "id": "b" },
+      { "t": "I-[subj]", "role": "subject", "id": "s" },
+      { "t": "all-of-it", "role": "other", "id": "c" },
+      { "t": "paid-you-know", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "각자", "role": "other", "id": "a" },
+      { "t": "계산해요.", "role": "verb", "id": "v" },
+      { "t": "지난번에는", "role": "other", "id": "b" },
+      { "t": "제가", "role": "subject", "id": "s" },
+      { "t": "전부", "role": "other", "id": "c" },
+      { "t": "계산했잖아요", "role": "verb", "id": "w" }
+    ],
+    "rom": "oneureun gakja gyesanhaeyo. jinanbeoneneun jega jeonbu gyesanhaetjanayo",
+    "wordIds": ["w_oneul", "w_gakja", "w_gyesanhada", "w_jinanbeon", "w_jeo", "w_jeonbu"],
+    "note": "The register, in two rounds: 각자 splits the bill — the Dutch-pay line M62's 따로 doubled as 따로따로 — and 전부 totals it, both riding M9's 계산하다, where paying is calculating. The -잖아요 from M42 delivers the reminder as shared knowledge; M46's 지난번 dates the grievance. Korea's check-splitting etiquette, machined."
+  },
+  {
+    "id": "s_m73_briefly_three",
+    "en": [
+      { "t": "To put it briefly,", "role": "other", "id": "a" },
+      { "t": "the meeting", "role": "subject", "id": "s" },
+      { "t": "starts", "role": "verb", "id": "v" },
+      { "t": "at exactly three", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "briefly speak-if,", "role": "other", "id": "a" },
+      { "t": "meeting-[topic]", "role": "subject", "id": "s" },
+      { "t": "exactly three o'clock-at", "role": "other", "id": "b" },
+      { "t": "starts", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "간단히 말하면,", "role": "other", "id": "a" },
+      { "t": "회의는", "role": "subject", "id": "s" },
+      { "t": "정확히 세 시에", "role": "other", "id": "b" },
+      { "t": "시작해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gandanhi malhamyeon, hoeuineun jeonghwakhi se sie sijakhaeyo",
+    "wordIds": ["w_gandanhi", "w_malhada", "w_hoeui", "w_jeonghwakhi", "w_set", "w_c_si", "w_sijakhada"],
+    "note": "Two -히 adverbs off two M63 adjectives — 간단히 from 간단하다, 정확히 from 정확하다 — and the pair rule live: that module wrote 간단하게 말하면; this is the same opener one syllable shorter and a shade more written. -(으)면 from M20 frames the preamble, M5's 셋 (clipped to 세 before its counter) sets the clock, and M10's 회의 starts on it. Korean office punctuality, adverbed."
+  },
+  {
+    "id": "s_m73_longer_summers",
+    "en": [
+      { "t": "Every year", "role": "other", "id": "t" },
+      { "t": "the summer", "role": "subject", "id": "s" },
+      { "t": "seems to be getting", "role": "verb", "id": "v" },
+      { "t": "longer", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "year-every", "role": "other", "id": "t" },
+      { "t": "summer-[subj]", "role": "subject", "id": "s" },
+      { "t": "more", "role": "other", "id": "b" },
+      { "t": "long-becoming-[badge] thing seems", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "해마다", "role": "other", "id": "t" },
+      { "t": "여름이", "role": "subject", "id": "s" },
+      { "t": "더", "role": "other", "id": "b" },
+      { "t": "길어지는 것 같아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haemada yeoreumi deo gireojineun geot gatayo",
+    "wordIds": ["w_haemada", "w_yeoreum", "w_deo", "w_gilda", "w_gatda_same"],
+    "note": "해마다 pays M38's 매년 note ('매년 = 해마다, same promise, different register') on the native side of the rail: M11's 해 + M31's 마다. Then M9's 더 — the dial's other direction after 덜 — drives M7's 길다 through the becoming-machine (-아/어지다 from M35), and M34's hedge (것 같다) declines to swear to the climate. Weather smalltalk, upgraded to an annual trend."
+  },
+  {
+    "id": "s_m73_old_friend",
+    "en": [
+      { "t": "On the subway", "role": "place", "id": "p" },
+      { "t": "I ran into", "role": "verb", "id": "v" },
+      { "t": "an old friend", "role": "object", "id": "o" },
+      { "t": "by chance.", "role": "other", "id": "a" },
+      { "t": "All winter", "role": "other", "id": "t" },
+      { "t": "I hadn't seen them, you see", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "subway-at", "role": "place", "id": "p" },
+      { "t": "long-standing friend-[obj]", "role": "object", "id": "o" },
+      { "t": "by-chance", "role": "other", "id": "a" },
+      { "t": "met.", "role": "verb", "id": "v" },
+      { "t": "winter throughout", "role": "other", "id": "t" },
+      { "t": "not saw-here's-why", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "지하철에서", "role": "place", "id": "p" },
+      { "t": "오랜 친구를", "role": "object", "id": "o" },
+      { "t": "우연히", "role": "other", "id": "a" },
+      { "t": "만났어요.", "role": "verb", "id": "v" },
+      { "t": "겨울 내내", "role": "other", "id": "t" },
+      { "t": "못 봤거든요", "role": "verb", "id": "w" }
+    ],
+    "rom": "jihacheoreseo oraen chingureul uyeonhi mannasseoyo. gyeoul naenae mot bwatgeodeunyo",
+    "wordIds": ["w_jihacheol", "w_oraen", "w_chingu", "w_uyeonhi", "w_mannada", "w_gyeoul", "w_naenae", "w_boda"],
+    "note": "The time rack's determiner and stretch in one story: 오랜 친구 — old by duration, not by M35's 늙다 — met 우연히, by chance and not by M62's helpful 마침, on M6's 지하철. Then 내내 follows M11's 겨울 to say the whole season went by unseen, and the -거든요 from M42 hands that over as the background you didn't have. M3's 못 does the not-managing."
+  },
+  {
+    "id": "s_m73_steady_not_once",
+    "en": [
+      { "t": "Don't do it", "role": "verb", "id": "v" },
+      { "t": "all at once.", "role": "other", "id": "a" },
+      { "t": "Every day,", "role": "other", "id": "t" },
+      { "t": "bit by bit,", "role": "other", "id": "b" },
+      { "t": "keep at it", "role": "verb", "id": "w" },
+      { "t": "steadily", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "all-at-once", "role": "other", "id": "a" },
+      { "t": "do-don't-please.", "role": "verb", "id": "v" },
+      { "t": "every-day", "role": "other", "id": "t" },
+      { "t": "bit-by-bit", "role": "other", "id": "b" },
+      { "t": "steadily", "role": "other", "id": "c" },
+      { "t": "do-please", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "한꺼번에", "role": "other", "id": "a" },
+      { "t": "하지 마세요.", "role": "verb", "id": "v" },
+      { "t": "매일", "role": "other", "id": "t" },
+      { "t": "조금씩", "role": "other", "id": "b" },
+      { "t": "꾸준히", "role": "other", "id": "c" },
+      { "t": "하세요", "role": "verb", "id": "w" }
+    ],
+    "rom": "hankkeobeone haji maseyo. maeil jogeumssik kkujunhi haseyo",
+    "wordIds": ["w_hankkeobeone", "w_hada", "w_maeil", "w_jogeumssik", "w_kkujunhi"],
+    "note": "The all-at-once versus the every-day: 한꺼번에 — one GO, where M28's 한번 counts one TIME — gets refused by -지 마세요 from M14, and the alternative arrives as three stacked adverbs: M5's 매일 schedules it, M62's 조금씩 doses it, 꾸준히 keeps it going. This app's method, restated: not one burning night (열심히) but a lasting habit."
   }
 ]
