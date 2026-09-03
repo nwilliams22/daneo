@@ -1823,5 +1823,26 @@
       "s_m74_late_doze", "s_m74_lullaby_first", "s_m74_subway_rush", "s_m74_fake_bag",
       "s_m74_cup_overflow", "s_m74_others_free", "s_m74_plucky_answer", "s_m74_rumored_stop"
     ]
+  },
+  {
+    "id": "m75",
+    "title": "Mount and Dismount",
+    "order": 84,
+    "ring": 2,
+    "contentMd": "modules/module-75.md",
+    "wordIds": [
+      "w_haengdonghada", "w_saenghwalhada", "w_chiryohada", "w_ibwonhada",
+      "w_iphakhada", "w_bokseuphada", "w_bareumhada", "w_gyehoekhada",
+      "w_suiphada", "w_suchulhada", "w_useunghada", "w_oechulhada",
+      "w_ihonhada", "w_chwiso", "w_gwiguk", "w_boksa",
+      "w_musihada", "w_bipanhada", "w_bogwanhada", "w_bangmunhada",
+      "w_bangmun", "w_pyosihada", "w_gamsanghada", "w_gamsang",
+      "w_banbokhada", "w_yangbohada", "w_jeoryakhada", "w_singo",
+      "w_beonyeok", "w_jinchul", "w_haeseok", "w_banhada"
+    ],
+    "sentenceIds": [
+      "s_m75_export_contrast", "s_m75_son_enters_uni", "s_m75_subway_seat", "s_m75_client_visit_prep",
+      "s_m75_cancel_text", "s_m75_friend_returns", "s_m75_repeat_pronounce", "s_m75_company_expansion"
+    ]
   }
 ]

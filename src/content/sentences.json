@@ -17040,5 +17040,215 @@
     "rom": "toegeunhaneun gire somunnan matjibe jamkkan deulleosseoyo",
     "wordIds": ["w_toegeunhada", "w_gil", "w_somunnada", "w_matjip", "w_jamkkan", "w_deulleuda"],
     "note": "The noun + verb weld wearing its badge: 소문나다 (M24's 소문 + M28's 나다) → 소문난, the exact sign on the door of M18's 맛집. 들르다 conjugates by the 르-family table from M7 — 들렀어요, one vowel from 들렸어요 (M36's 들리다) — and M28's 잠깐 keeps the detour honest. 퇴근하다 (M16) under the -는 badge (M24) + M12's 길 = the commute home, the hour every 맛집 was built for."
+  },
+  {
+    "id": "s_m75_export_contrast",
+    "en": [
+      { "t": "Korea", "role": "subject", "id": "s" },
+      { "t": "exports", "role": "verb", "id": "v" },
+      { "t": "a lot of", "role": "other", "id": "b" },
+      { "t": "cars.", "role": "object", "id": "o" },
+      { "t": "By contrast,", "role": "other", "id": "a" },
+      { "t": "it imports", "role": "verb", "id": "v2" },
+      { "t": "almost all of", "role": "other", "id": "c" },
+      { "t": "its coffee", "role": "object", "id": "o2" }
+    ],
+    "gloss": [
+      { "t": "Korea-[topic]", "role": "subject", "id": "s" },
+      { "t": "car-[obj]", "role": "object", "id": "o" },
+      { "t": "much", "role": "other", "id": "b" },
+      { "t": "exports-[formal].", "role": "verb", "id": "v" },
+      { "t": "this-to counter-to", "role": "other", "id": "a" },
+      { "t": "coffee-[topic]", "role": "object", "id": "o2" },
+      { "t": "almost all", "role": "other", "id": "c" },
+      { "t": "imports-[formal]", "role": "verb", "id": "v2" }
+    ],
+    "ko": [
+      { "t": "한국은", "role": "subject", "id": "s" },
+      { "t": "자동차를", "role": "object", "id": "o" },
+      { "t": "많이", "role": "other", "id": "b" },
+      { "t": "수출합니다.", "role": "verb", "id": "v" },
+      { "t": "이에 반해", "role": "other", "id": "a" },
+      { "t": "커피는", "role": "object", "id": "o2" },
+      { "t": "거의 다", "role": "other", "id": "c" },
+      { "t": "수입합니다", "role": "verb", "id": "v2" }
+    ],
+    "rom": "hangugeun jadongchareul mani suchulhamnida. ie banhae keopineun geoui da suiphamnida",
+    "wordIds": ["w_hanguk", "w_jadongcha", "w_mani", "w_suchulhada", "w_banhada", "w_keopi", "w_geoui", "w_da", "w_suiphada"],
+    "note": "The news pair, mounted: M43's 수출 and 수입 become verbs in the 합니다체 (M4) that the wire-service sentences of M56 ran, and 이에 반해 — 반하다 in its B-row sense — pivots between them the way M56's 또한 pivoted forward. 수입하다 here is ship-in; the income 수입 could never take this verb. M50's 자동차 goes out, M1's 커피 comes in, and M23's 거의 with M9's 다 measures the imbalance."
+  },
+  {
+    "id": "s_m75_son_enters_uni",
+    "en": [
+      { "t": "As soon as he entered", "role": "other", "id": "a" },
+      { "t": "university,", "role": "place", "id": "p" },
+      { "t": "my son", "role": "subject", "id": "s" },
+      { "t": "started living", "role": "verb", "id": "v" },
+      { "t": "on his own", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "son-[subj]", "role": "subject", "id": "s" },
+      { "t": "university-to", "role": "place", "id": "p" },
+      { "t": "enter-school-as-soon-as", "role": "other", "id": "a" },
+      { "t": "alone", "role": "other", "id": "b" },
+      { "t": "live-life-ing started", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아들이", "role": "subject", "id": "s" },
+      { "t": "대학교에", "role": "place", "id": "p" },
+      { "t": "입학하자마자", "role": "other", "id": "a" },
+      { "t": "혼자", "role": "other", "id": "b" },
+      { "t": "생활하기 시작했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "adeuri daehakgyoe iphakhajamaja honja saenghwalhagi sijakhaesseoyo",
+    "wordIds": ["w_adeul", "w_daehakgyo", "w_iphakhada", "w_honja", "w_saenghwalhada", "w_sijakhada"],
+    "note": "Two mounts in one breath: 입학하다 takes 에 for M15's 대학교 (you enter INTO it), and 생활하다 runs the life that follows — 혼자 (M10) 생활하다, exactly the collocation its note drew against 살다. -자마자 from M38 clocks the zero gap between the entrance ceremony and the first solo 라면, and -기 시작하다 from M15 starts the adult chapter. Every Korean parent's March."
+  },
+  {
+    "id": "s_m75_subway_seat",
+    "en": [
+      { "t": "On the subway,", "role": "place", "id": "p" },
+      { "t": "you have to give up", "role": "verb", "id": "v" },
+      { "t": "your seat", "role": "object", "id": "o" },
+      { "t": "for a grandmother or grandfather", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "subway-at-[topic]", "role": "place", "id": "p" },
+      { "t": "grandmother-or grandfather-to(hon.)", "role": "other", "id": "a" },
+      { "t": "seat-[obj]", "role": "object", "id": "o" },
+      { "t": "yield-must", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지하철에서는", "role": "place", "id": "p" },
+      { "t": "할머니나 할아버지께", "role": "other", "id": "a" },
+      { "t": "자리를", "role": "object", "id": "o" },
+      { "t": "양보해야 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jihacheoreseoneun halmeonina harabeojikke jarireul yangbohaeya dwaeyo",
+    "wordIds": ["w_jihacheol", "w_halmeoni", "w_harabeoji", "w_jari", "w_yangbohada", "w_doeda"],
+    "note": "The subway sentence the verb was built for: M12's 자리 yielded on M6's 지하철, with -아/어야 돼요 from M10 making it a rule and not a kindness. (이)나 from M43 offers either grandparent (M4's 할머니, 할아버지), and the honorific 께 from M27 aims the yielding upward — 한테 would be rude here. The gap deck has the seats themselves: 노약자석."
+  },
+  {
+    "id": "s_m75_client_visit_prep",
+    "en": [
+      { "t": "Before the client visit,", "role": "other", "id": "a" },
+      { "t": "prepare", "role": "verb", "id": "v" },
+      { "t": "the materials", "role": "object", "id": "o" },
+      { "t": "in advance and have them ready", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "client visit-before", "role": "other", "id": "a" },
+      { "t": "material-[obj]", "role": "object", "id": "o" },
+      { "t": "in-advance", "role": "other", "id": "b" },
+      { "t": "prepare-set-down-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "고객 방문 전에", "role": "other", "id": "a" },
+      { "t": "자료를", "role": "object", "id": "o" },
+      { "t": "미리", "role": "other", "id": "b" },
+      { "t": "준비해 놓으세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gogaek bangmun jeone jaryoreul miri junbihae noeuseyo",
+    "wordIds": ["w_gogaek", "w_bangmun", "w_jaryo", "w_miri", "w_junbihada", "w_nota"],
+    "note": "방문 in its 訪問 sense, stacked bare on M58's 고객 the way print stacks nouns — 고객 방문 = the client visit — and hung on 전에 from M13. Then the office runs M44's 발표 자료 routine one more time: M38's 미리 schedules it, and -아/어 놓다 from M40 banks M44's 자료 so it stands ready. The room-door 방문 could not take this sentence; only a visit has a before."
+  },
+  {
+    "id": "s_m75_cancel_text",
+    "en": [
+      { "t": "A cancellation text", "role": "subject", "id": "s" },
+      { "t": "came, but", "role": "other", "id": "a" },
+      { "t": "I don't know", "role": "verb", "id": "v" },
+      { "t": "the reason", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "cancellation text-[subj]", "role": "subject", "id": "s" },
+      { "t": "came-but", "role": "other", "id": "a" },
+      { "t": "reason-[obj]", "role": "object", "id": "o" },
+      { "t": "not-know", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "취소 문자가", "role": "subject", "id": "s" },
+      { "t": "왔는데", "role": "other", "id": "a" },
+      { "t": "이유를", "role": "object", "id": "o" },
+      { "t": "모르겠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chwiso munjaga wanneunde iyureul moreugesseoyo",
+    "wordIds": ["w_chwiso", "w_munja", "w_oda", "w_iyu", "w_moreuda"],
+    "note": "취소 dismounted and stacked on M20's 문자: the cancellation text, subject of its own small mystery. -는데 from M53 sets the scene and leaves the question hanging, M24's 이유 is what's missing, and 모르겠어요 softens M4's 모르다 with the -겠- that M49 unpacked — I couldn't say why, rather than a flat I don't know. The booking economy M52 opened, seen from the receiving end."
+  },
+  {
+    "id": "s_m75_friend_returns",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "said they'll work", "role": "verb", "id": "v" },
+      { "t": "at a Korean company", "role": "place", "id": "p" },
+      { "t": "after going back home", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "return-home after", "role": "other", "id": "a" },
+      { "t": "Korea company-at", "role": "place", "id": "p" },
+      { "t": "work-[quote] said", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "귀국 후에", "role": "other", "id": "a" },
+      { "t": "한국 회사에서", "role": "place", "id": "p" },
+      { "t": "일한다고 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga gwiguk hue hanguk hoesaeseo ilhandago haesseoyo",
+    "wordIds": ["w_chingu", "w_gwiguk", "w_hanguk", "w_hoesa", "w_ilhada", "w_hada"],
+    "note": "귀국 dismounted onto 후에 from M13 — 귀국 후에, the phrase every 유학생's plan begins with — and relayed through the quote machine (M32): 일한다고 했어요, the bare -ㄴ다 inside -다고 that M72's 의미하다 note pointed at. M2's 일하다 at M2's 회사 with 에서, because work is an action and happens somewhere. The verb 귀국하다 (M52) could have said it; the noun says it on a résumé."
+  },
+  {
+    "id": "s_m75_repeat_pronounce",
+    "en": [
+      { "t": "To pronounce it accurately,", "role": "other", "id": "a" },
+      { "t": "I repeated", "role": "verb", "id": "v" },
+      { "t": "the same sentence", "role": "object", "id": "o" },
+      { "t": "several times", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "accurate-ly pronounce-in-order-to", "role": "other", "id": "a" },
+      { "t": "same-[badge] sentence-[obj]", "role": "object", "id": "o" },
+      { "t": "several times", "role": "other", "id": "b" },
+      { "t": "repeated", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "정확하게 발음하기 위해서", "role": "other", "id": "a" },
+      { "t": "같은 문장을", "role": "object", "id": "o" },
+      { "t": "여러 번", "role": "other", "id": "b" },
+      { "t": "반복했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeonghwakhage bareumhagi wihaeseo gateun munjangeul yeoreo beon banbokhaesseoyo",
+    "wordIds": ["w_jeonghwakhada", "w_bareumhada", "w_gatda_same", "w_munjang", "w_yeoreo", "w_beon", "w_banbokhada"],
+    "note": "The learner's sentence, built from two of today's verbs: 발음하다 rides -기 위해서 from M44 as the goal, 반복하다 is the method. M63's 정확하다 turns adverb through the -게 adverbializer (M33), M24's 같다 wears the badge on M33's 문장, and M29's 여러 with M12's 번 counts the reps. This is the whole app in one sentence — and 반복 is 반대's flip plus 복습's again, so even the verb was a review."
+  },
+  {
+    "id": "s_m75_company_expansion",
+    "en": [
+      { "t": "Our company", "role": "subject", "id": "s" },
+      { "t": "is planning", "role": "other", "id": "a" },
+      { "t": "an overseas expansion", "role": "object", "id": "o" },
+      { "t": "and is developing", "role": "verb", "id": "v" },
+      { "t": "a new model", "role": "object", "id": "o2" }
+    ],
+    "gloss": [
+      { "t": "our company-[topic]", "role": "subject", "id": "s" },
+      { "t": "overseas expansion-[obj]", "role": "object", "id": "o" },
+      { "t": "plan-and", "role": "other", "id": "a" },
+      { "t": "new model-[obj]", "role": "object", "id": "o2" },
+      { "t": "develop-ing-is-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 회사는", "role": "subject", "id": "s" },
+      { "t": "해외 진출을", "role": "object", "id": "o" },
+      { "t": "계획하고", "role": "other", "id": "a" },
+      { "t": "새 모델을", "role": "object", "id": "o2" },
+      { "t": "개발하고 있습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri hoesaneun haeoe jinchureul gyehoekhago sae modereul gaebalhago itseumnida",
+    "wordIds": ["w_uri", "w_hoesa", "w_haeoe", "w_jinchul", "w_gyehoekhada", "w_sae", "w_model", "w_gaebalhada"],
+    "note": "The press release: 해외 진출 — M31's 해외 with today's 진출; companies 진출, goods 수출 — is the object of 계획하다, the mounted verb print prefers to 계획을 세우다, and verb--고 from M10 chains it to M72's 개발하다 with M72's 모델 as its object — the lab module's verb in the boardroom. -고 있다 keeps both under way, 합니다체 (M4) makes it official. M4's 우리 회사, because Korean companies are always 'ours' from the inside."
   }
 ]
