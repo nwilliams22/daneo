@@ -16845,5 +16845,200 @@
     "rom": "hankkeobeone haji maseyo. maeil jogeumssik kkujunhi haseyo",
     "wordIds": ["w_hankkeobeone", "w_hada", "w_maeil", "w_jogeumssik", "w_kkujunhi"],
     "note": "The all-at-once versus the every-day: 한꺼번에 — one GO, where M28's 한번 counts one TIME — gets refused by -지 마세요 from M14, and the alternative arrives as three stacked adverbs: M5's 매일 schedules it, M62's 조금씩 doses it, 꾸준히 keeps it going. This app's method, restated: not one burning night (열심히) but a lasting habit."
+  },
+  {
+    "id": "s_m74_late_doze",
+    "en": [
+      { "t": "Yesterday", "role": "other", "id": "t" },
+      { "t": "I studied until late at night, so", "role": "other", "id": "a" },
+      { "t": "in class", "role": "other", "id": "b" },
+      { "t": "I dozed off", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "yesterday", "role": "other", "id": "t" },
+      { "t": "night-late-ly-until study-so", "role": "other", "id": "a" },
+      { "t": "class time-at", "role": "other", "id": "b" },
+      { "t": "dozed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제", "role": "other", "id": "t" },
+      { "t": "밤늦게까지 공부해서", "role": "other", "id": "a" },
+      { "t": "수업 시간에", "role": "other", "id": "b" },
+      { "t": "졸았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje bamneutgekkaji gongbuhaeseo sueop sigane jorasseoyo",
+    "wordIds": ["w_eoje", "w_bamneutda", "w_gongbuhada", "w_sueop", "w_sigan", "w_jolda"],
+    "note": "Two welds in one confession: 밤늦다 (M8's 밤 + M8's 늦다) lives here in its native habitat — the -게 adverbializer from M33 plus 까지 from M6, 밤늦게까지 = until late at night — and 졸다 closes it, the doze that loses. The -아/어서 because-machine hands the blame to last night; M10's 수업 supplies the crime scene. The sleep shelf's failed crossing, in nine syllables."
+  },
+  {
+    "id": "s_m74_lullaby_first",
+    "en": [
+      { "t": "To get the baby to sleep", "role": "other", "id": "a" },
+      { "t": "I sang a song, but", "role": "other", "id": "b" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "was the one who dropped off", "role": "verb", "id": "v" },
+      { "t": "first", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "baby-[obj] put-to-sleep-intending", "role": "other", "id": "a" },
+      { "t": "song-[obj] sang-but", "role": "other", "id": "b" },
+      { "t": "I-[subj]", "role": "subject", "id": "s" },
+      { "t": "first", "role": "other", "id": "c" },
+      { "t": "fell-asleep-ended-up", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아기를 재우려고", "role": "other", "id": "a" },
+      { "t": "노래를 불렀는데", "role": "other", "id": "b" },
+      { "t": "제가", "role": "subject", "id": "s" },
+      { "t": "먼저", "role": "other", "id": "c" },
+      { "t": "잠들어 버렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "agireul jaeuryeogo noraereul bulleonneunde jega meonjeo jamdeureo beoryeosseoyo",
+    "wordIds": ["w_agi", "w_jaeuda", "w_norae", "w_bureuda", "w_jeo", "w_meonjeo", "w_jamdeulda", "w_beorida"],
+    "note": "The sleep shelf at bedtime: 재우다 (M37 — 자다 with the causative 이우, make-sleep) is the plan, 잠들다 (M28's 잠 + M28's 들다, welded) is what actually happened, and -아/어 버리다 from M52 delivers it as a small defeat — asleep, gone, no undo. -(으)려고 from M50 states the intent, -는데 from M53 turns on it, and 부르다 (M19) shows its 르-family colors in 불렀는데. Every parent has lost this exact contest."
+  },
+  {
+    "id": "s_m74_subway_rush",
+    "en": [
+      { "t": "The subway", "role": "subject", "id": "s" },
+      { "t": "is convenient, but", "role": "other", "id": "a" },
+      { "t": "at rush hour", "role": "other", "id": "t" },
+      { "t": "it's far too", "role": "other", "id": "b" },
+      { "t": "uncomfortable", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "subway-[topic]", "role": "subject", "id": "s" },
+      { "t": "is-convenient-but", "role": "other", "id": "a" },
+      { "t": "commute time-at-[topic]", "role": "other", "id": "t" },
+      { "t": "too", "role": "other", "id": "b" },
+      { "t": "is-uncomfortable", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지하철은", "role": "subject", "id": "s" },
+      { "t": "편리하지만", "role": "other", "id": "a" },
+      { "t": "출근 시간에는", "role": "other", "id": "t" },
+      { "t": "너무", "role": "other", "id": "b" },
+      { "t": "불편해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jihacheoreun pyeollihajiman chulgeun siganeneun neomu bulpyeonhaeyo",
+    "wordIds": ["w_jihacheol", "w_pyeollihada", "w_chulgeun", "w_sigan", "w_neomu", "w_bulpyeonhada"],
+    "note": "The 편 family, split live: 편리하다 (便利) rates the service — M6's 지하철 as a system — and 불편하다 (不便) rates your body inside it at 출근 시간, the morning crush M43's 출근 note named. Ring 1's -지만 holds the two verdicts apart; the stacked 에는 on 시간 (M1) makes rush hour the exception. Neither adjective is 편안하다 (M42) — nobody is at peace on line 2 at 8:30."
+  },
+  {
+    "id": "s_m74_fake_bag",
+    "en": [
+      { "t": "That bag", "role": "subject", "id": "s" },
+      { "t": "is a fake, and yet", "role": "other", "id": "a" },
+      { "t": "it looks", "role": "verb", "id": "v" },
+      { "t": "just like the real thing", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "that bag-[topic]", "role": "subject", "id": "s" },
+      { "t": "fake-is-but", "role": "other", "id": "a" },
+      { "t": "real-like", "role": "other", "id": "b" },
+      { "t": "is-seen", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 가방은", "role": "subject", "id": "s" },
+      { "t": "가짜인데", "role": "other", "id": "a" },
+      { "t": "진짜처럼", "role": "other", "id": "b" },
+      { "t": "보여요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu gabangeun gajjainde jinjjacheoreom boyeoyo",
+    "wordIds": ["w_geu_det", "w_gabang", "w_gajja", "w_jinjja", "w_boida"],
+    "note": "The -짜 family's two poles in one breath: 가짜 (假) on the copula, 진짜 (M11, 眞) on 처럼 (M41), and M36's 보이다 — 'is SEEN as' — delivering the verdict the eye reaches on its own. -(으)ㄴ데 from M53 pivots between fact and appearance; M29's 그 points at the bag we both mean, on M6's 가방. The knockoff economy's whole sales pitch, and its whole warning."
+  },
+  {
+    "id": "s_m74_cup_overflow",
+    "en": [
+      { "t": "I poured way too much", "role": "other", "id": "a" },
+      { "t": "water", "role": "object", "id": "o" },
+      { "t": "into the cup, and", "role": "place", "id": "p" },
+      { "t": "the water", "role": "subject", "id": "s" },
+      { "t": "spilled over", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "cup-into", "role": "place", "id": "p" },
+      { "t": "water-[obj]", "role": "object", "id": "o" },
+      { "t": "too much pour-so", "role": "other", "id": "a" },
+      { "t": "water-[subj]", "role": "subject", "id": "s" },
+      { "t": "overflowed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "컵에", "role": "place", "id": "p" },
+      { "t": "물을", "role": "object", "id": "o" },
+      { "t": "너무 많이 부어서", "role": "other", "id": "a" },
+      { "t": "물이", "role": "subject", "id": "s" },
+      { "t": "넘쳤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "keobe mureul neomu mani bueoseo muri neomchyeosseoyo",
+    "wordIds": ["w_keop", "w_mul", "w_neomu", "w_mani", "w_butda_pour", "w_neomchida"],
+    "note": "The weld with its parts on the table: 넘치다 = M36's 넘다 (go over) + the with-force -치다 tail — over-hard = overflow — and M66's 붓다 does the pouring that causes it, ㅅ vanishing before the vowel (부어서), the family's third member since 낫다 and 젓다. M1's 물 is object then subject: you pour it, then it acts. 붓다 moves the liquid, 흘리다 (M66) would spill it, 넘치다 is the cup giving up."
+  },
+  {
+    "id": "s_m74_others_free",
+    "en": [
+      { "t": "Don't try to get", "role": "verb", "id": "v" },
+      { "t": "other people's things", "role": "object", "id": "o" },
+      { "t": "for free", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "others-of thing-[obj]", "role": "object", "id": "o" },
+      { "t": "free-ly", "role": "other", "id": "a" },
+      { "t": "obtain-intending do-not please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "남의 것을", "role": "object", "id": "o" },
+      { "t": "공짜로", "role": "other", "id": "a" },
+      { "t": "얻으려고 하지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "namui geoseul gongjjaro eodeuryeogo haji maseyo",
+    "wordIds": ["w_nam", "w_gongjja", "w_eotda"],
+    "note": "Two of the true-and-false nouns in one scolding: 남 — the not-us people, on the possessive 의 — and 공짜 riding M6's 으로 as the manner of getting. 얻다 (M35 — where 받다 is handed things, 얻다 works for them) sits inside -(으)려고 하다 from M50 for the attempt, and -지 마세요 from M14 refuses it. The gap deck files what happens to people who ignore this sentence: they go bald."
+  },
+  {
+    "id": "s_m74_plucky_answer",
+    "en": [
+      { "t": "Because the child answered so pluckily,", "role": "other", "id": "a" },
+      { "t": "the parents", "role": "subject", "id": "s" },
+      { "t": "beamed", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "child-[subj] spiritedly answer-so", "role": "other", "id": "a" },
+      { "t": "parents-[subj]", "role": "subject", "id": "s" },
+      { "t": "showed-joy-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아이가 씩씩하게 대답해서", "role": "other", "id": "a" },
+      { "t": "부모님이", "role": "subject", "id": "s" },
+      { "t": "기뻐하셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "aiga ssikssikhage daedaphaeseo bumonimi gippeohasyeosseoyo",
+    "wordIds": ["w_ai", "w_ssikssikhada", "w_daedaphada", "w_bumonim", "w_gippeohada"],
+    "note": "씩씩하다 in its kindergarten job — M4's 아이 answering up through M10's 대답하다, the -게 adverbializer (M33) turning the adjective into the manner — and M67's 기뻐하다 doing what that factory promised: the parents' joy reported from the outside, where it shows. The honorific -시- lifts 부모님 (M4) as it always must; -아/어서 chains the plucky answer to the beaming. Pep in, visible joy out."
+  },
+  {
+    "id": "s_m74_rumored_stop",
+    "en": [
+      { "t": "On the way home from work,", "role": "other", "id": "a" },
+      { "t": "I stopped in", "role": "verb", "id": "v" },
+      { "t": "at that restaurant everyone talks about", "role": "place", "id": "p" },
+      { "t": "for a bit", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "leave-work-[badge] way-on", "role": "other", "id": "a" },
+      { "t": "rumored-[badge] famous-restaurant-at", "role": "place", "id": "p" },
+      { "t": "briefly", "role": "other", "id": "b" },
+      { "t": "stopped-by", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "퇴근하는 길에", "role": "other", "id": "a" },
+      { "t": "소문난 맛집에", "role": "place", "id": "p" },
+      { "t": "잠깐", "role": "other", "id": "b" },
+      { "t": "들렀어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "toegeunhaneun gire somunnan matjibe jamkkan deulleosseoyo",
+    "wordIds": ["w_toegeunhada", "w_gil", "w_somunnada", "w_matjip", "w_jamkkan", "w_deulleuda"],
+    "note": "The noun + verb weld wearing its badge: 소문나다 (M24's 소문 + M28's 나다) → 소문난, the exact sign on the door of M18's 맛집. 들르다 conjugates by the 르-family table from M7 — 들렀어요, one vowel from 들렸어요 (M36's 들리다) — and M28's 잠깐 keeps the detour honest. 퇴근하다 (M16) under the -는 badge (M24) + M12's 길 = the commute home, the hour every 맛집 was built for."
   }
 ]
