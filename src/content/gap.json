@@ -2113,5 +2113,32 @@
     "lit": "old-weak-person seat",
     "real": "the priority seats at the ends of every subway car — and the etiquette that empties them",
     "note": "老弱者席: the old-老 that M47's 노인 note decoded + 약 (weak — the 弱 inside M63's 약하다, decoded here; NOT M10's 약, which is 藥, medicine) + the person-者 that M27's 환자 note introduced + 석 (seat — riding frozen). The seats stay empty even on a packed train, and this module's 양보하다 is the verb that keeps them so: 자리를 양보하다 is expected everywhere in the car, but in the 노약자석 it is not a courtesy, it is the rule — a young person sitting there draws stares and, occasionally, a lecture. Newer cars add the pink 임산부 배려석 (for expectant mothers — riding frozen) at the middle doors. The whole system is M12's 자리 with a moral attached."
+  },
+  {
+    "id": "g_m77_bamnat_bakkwida",
+    "cat": "phrase",
+    "ko": "밤낮이 바뀌다",
+    "rom": "bamnaji bakkwida",
+    "lit": "night-and-day gets switched",
+    "real": "one's sleep schedule is flipped — up all night, asleep all day: jet lag, night shifts, exam season, and the school break",
+    "note": "This module's 밤낮 as the subject of M35's 바뀌다 — it happened to you, nobody did it — the sentence Korea says about jet lag (시차 — the time difference, riding frozen), the night shift, 시험 기간 (M38's 기간), and every student's August. 밤낮이 바뀌었어요 is the confession, and the sentence deck says it with -아/어 버리다 from M52 for the regret; the cure is one brutal day of not sleeping, M38's 밤새다 run in daylight. Korean names the disorder with the two words it welded and puts the night first; English says the clock is off."
+  },
+  {
+    "id": "g_m77_imsi_gonghyuil",
+    "cat": "concept",
+    "ko": "임시 공휴일",
+    "rom": "imsi gonghyuil",
+    "lit": "temporary public holiday",
+    "real": "a one-off holiday the government declares by cabinet decision — usually to bridge a weekday between a 명절 and a weekend",
+    "note": "This module's 임시 + 공휴일 (공 public + 휴일 — the pattern M25's 연휴 note glossed, rest-휴 + M25's 일): a holiday that exists exactly once, by cabinet decision, announced weeks ahead and sometimes days. The classic move is bridging — a Monday or Friday wedged between M25's 추석 and a weekend, so a 연휴 grows from three days to five or six; the announcement trends, and half the country reopens its 예약 apps (M52). Its cousin 대체 공휴일 (the substitute holiday — riding frozen) is the automatic one, granted when a holiday lands on a weekend. Read the word on the news and you know one thing for certain: someone's 일정 (M23) just changed."
+  },
+  {
+    "id": "g_m77_samhansaon",
+    "cat": "concept",
+    "ko": "삼한사온",
+    "rom": "samhansaon",
+    "lit": "three cold, four warm",
+    "real": "the Korean winter's weekly rhythm — three freezing days, then four milder ones — and the folk phrase everyone still says when the cold snap breaks",
+    "note": "三寒四溫: M2's 삼 and 사 in hanja, 한 (cold-寒 — riding frozen; not the one-한 of M46's 한때) and the warm-溫 of M49's 온도 ('溫度 warm-degree'). The old observation that a Korean winter breathes in sevens — the Siberian high presses down for three days and relaxes for four — filed as a four-character idiom the way the M73 gap deck filed 각자도생. Forecasters still use it, grandparents still plan by it, and the internet updated it: 삼한사미 — three cold days, four days of M11's 미세먼지 — is the current, grimmer version. Say it when the thaw comes; everyone will nod."
   }
 ]
