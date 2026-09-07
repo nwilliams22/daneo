@@ -1844,5 +1844,25 @@
       "s_m75_export_contrast", "s_m75_son_enters_uni", "s_m75_subway_seat", "s_m75_client_visit_prep",
       "s_m75_cancel_text", "s_m75_friend_returns", "s_m75_repeat_pronounce", "s_m75_company_expansion"
     ]
+  },
+  {
+    "id": "m77",
+    "title": "The Calendar's Corners",
+    "order": 86,
+    "ring": 2,
+    "contentMd": "modules/module-77.md",
+    "wordIds": [
+      "w_naheul", "w_datsae", "w_jeonnal", "w_iteunnal",
+      "w_geudaeum", "w_geuhae", "w_eojetbam", "w_jaejangnyeon",
+      "w_geumnyeon", "w_jeobeon", "w_oraejeon", "w_sunyeon",
+      "w_jeomsimttae", "w_jeonyeokttae", "w_bamjung", "w_bamnat",
+      "w_yeoreumcheol", "w_gyeoulcheol", "w_sagyejeol", "w_mudeowi",
+      "w_ilsangsaenghwal", "w_gyuchikjeok", "w_seukejul", "w_imsi",
+      "w_bollae", "w_manil"
+    ],
+    "sentenceIds": [
+      "s_m77_next_morning_letter", "s_m77_jeju_four_days", "s_m77_heat_forecast", "s_m77_schedule_change",
+      "s_m77_morning_walk", "s_m77_flipped_clock", "s_m77_temp_holiday", "s_m77_cafe_again"
+    ]
   }
 ]

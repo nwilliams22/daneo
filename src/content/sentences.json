@@ -17250,5 +17250,221 @@
     "rom": "uri hoesaneun haeoe jinchureul gyehoekhago sae modereul gaebalhago itseumnida",
     "wordIds": ["w_uri", "w_hoesa", "w_haeoe", "w_jinchul", "w_gyehoekhada", "w_sae", "w_model", "w_gaebalhada"],
     "note": "The press release: 해외 진출 — M31's 해외 with today's 진출; companies 진출, goods 수출 — is the object of 계획하다, the mounted verb print prefers to 계획을 세우다, and verb--고 from M10 chains it to M72's 개발하다 with M72's 모델 as its object — the lab module's verb in the boardroom. -고 있다 keeps both under way, 합니다체 (M4) makes it official. M4's 우리 회사, because Korean companies are always 'ours' from the inside."
+  },
+  {
+    "id": "s_m77_next_morning_letter",
+    "en": [
+      { "t": "The next morning,", "role": "other", "id": "a" },
+      { "t": "as soon as she got up,", "role": "other", "id": "b" },
+      { "t": "Grandmother", "role": "subject", "id": "s" },
+      { "t": "read", "role": "verb", "id": "v" },
+      { "t": "that letter", "role": "object", "id": "o" },
+      { "t": "again", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "next-day morning-at", "role": "other", "id": "a" },
+      { "t": "grandmother-[topic]", "role": "subject", "id": "s" },
+      { "t": "get-up-as-soon-as", "role": "other", "id": "b" },
+      { "t": "that letter-[obj]", "role": "object", "id": "o" },
+      { "t": "again", "role": "other", "id": "c" },
+      { "t": "read", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이튿날 아침에", "role": "other", "id": "a" },
+      { "t": "할머니는", "role": "subject", "id": "s" },
+      { "t": "일어나자마자", "role": "other", "id": "b" },
+      { "t": "그 편지를", "role": "object", "id": "o" },
+      { "t": "다시", "role": "other", "id": "c" },
+      { "t": "읽었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "iteunnal achime halmeonineun ireonajamaja geu pyeonjireul dasi ilgeosseoyo",
+    "wordIds": ["w_iteunnal", "w_achim", "w_halmeoni", "w_ireonada", "w_geu_det", "w_pyeonji", "w_dasi", "w_ikda"],
+    "note": "이튿날 in its home register — the folktale morning — with -자마자 from M38 clocking the zero gap between waking and reading. M4's 할머니 takes the topic-는 as the story's fixed point, M29's 그 makes it THE letter we already know about (M27's 편지), and M10's 다시 tells you she read it the night before too. Say it 이튼날: the ㄷ slides to ㄴ, the same slide M25's 작년 wears."
+  },
+  {
+    "id": "s_m77_jeju_four_days",
+    "en": [
+      { "t": "This vacation,", "role": "other", "id": "a" },
+      { "t": "on Jeju", "role": "place", "id": "p" },
+      { "t": "I decided to rest", "role": "verb", "id": "v" },
+      { "t": "for four days,", "role": "other", "id": "b" },
+      { "t": "doing nothing at all", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "this-time vacation-at-[topic]", "role": "other", "id": "a" },
+      { "t": "Jeju-Island-at", "role": "place", "id": "p" },
+      { "t": "four-days during", "role": "other", "id": "b" },
+      { "t": "anything-even not do-and", "role": "other", "id": "c" },
+      { "t": "rest-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이번 휴가에는", "role": "other", "id": "a" },
+      { "t": "제주도에서", "role": "place", "id": "p" },
+      { "t": "나흘 동안", "role": "other", "id": "b" },
+      { "t": "아무것도 안 하고", "role": "other", "id": "c" },
+      { "t": "쉬기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ibeon hyugaeneun jejudoeseo naheul dongan amugeotdo an hago swigiro haesseoyo",
+    "wordIds": ["w_ibeon", "w_hyuga", "w_jejudo", "w_naheul", "w_dongan", "w_amugeot", "w_hada", "w_swida"],
+    "note": "The trip sentence the 흘-family exists for: 나흘 동안 — M28's 동안 measuring a native span, exactly as M52's 이틀 did in its inn sentence — and -기로 하다 from M48 filing the decision. M11's 휴가 with M16's 이번, M22's 제주도 for the where, and 아무것도 (M55's 아무것 wearing 도 from M2) for the plan, which is no plan; verb--고 from M10 chains the not-doing to the resting. 3박 4일, in the family's own words."
+  },
+  {
+    "id": "s_m77_heat_forecast",
+    "en": [
+      { "t": "After the monsoon ends,", "role": "other", "id": "a" },
+      { "t": "the sultry heat", "role": "subject", "id": "s" },
+      { "t": "will continue", "role": "verb", "id": "v" },
+      { "t": "for a while", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "monsoon-[subj] ended-[badge] after-[topic]", "role": "other", "id": "a" },
+      { "t": "muggy-heat-[subj]", "role": "subject", "id": "s" },
+      { "t": "for-a-while", "role": "other", "id": "b" },
+      { "t": "continue-will-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "장마가 끝난 후에는", "role": "other", "id": "a" },
+      { "t": "무더위가", "role": "subject", "id": "s" },
+      { "t": "한동안", "role": "other", "id": "b" },
+      { "t": "계속되겠습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "jangmaga kkeunnan hueneun mudeowiga handongan gyesokdoegetseumnida",
+    "wordIds": ["w_jangma", "w_kkeunnada", "w_mudeowi", "w_handongan", "w_gyesokdoeda"],
+    "note": "The forecast register, straight off the evening news: 무더위 as subject, -겠- from M49 as the forecaster's prediction, 합니다체 (M4) closing it. M11's 장마 wears the badge from M24 onto 후에 from M13 (끝난 후에 = after it has ended), M46's 한동안 sizes the stretch, and M46's 계속되다 lets the heat continue by itself — nobody is doing it. 무더위, not 더위: the wet grade, the one the anchor means."
+  },
+  {
+    "id": "s_m77_schedule_change",
+    "en": [
+      { "t": "If by any chance", "role": "other", "id": "a" },
+      { "t": "the schedule", "role": "subject", "id": "s" },
+      { "t": "changes,", "role": "other", "id": "b" },
+      { "t": "please let me know", "role": "verb", "id": "v" },
+      { "t": "in advance", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "if-by-any-chance", "role": "other", "id": "a" },
+      { "t": "schedule-[subj]", "role": "subject", "id": "s" },
+      { "t": "get-changed-if", "role": "other", "id": "b" },
+      { "t": "in-advance", "role": "other", "id": "c" },
+      { "t": "inform-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "만일", "role": "other", "id": "a" },
+      { "t": "스케줄이", "role": "subject", "id": "s" },
+      { "t": "바뀌면", "role": "other", "id": "b" },
+      { "t": "미리", "role": "other", "id": "c" },
+      { "t": "알려 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "manil seukejuri bakkwimyeon miri allyeo juseyo",
+    "wordIds": ["w_manil", "w_seukejul", "w_bakkwida", "w_miri", "w_allida", "w_juda"],
+    "note": "만일 announcing -(으)면 from M20, exactly the way M33's 만약 does — the adverb clears its throat, the 면 does the grammar. 스케줄 takes M35's 바뀌다 because schedules change ON you (M9's 바꾸다 would mean you changed it), and M38's 미리 with M37's 알리다 delivers the request that note already ran (미리 알려 주세요) on the favor machine from M9. Office Korean, whole, with both registers in one line: 만일 from the notice board, 스케줄 from the group chat."
+  },
+  {
+    "id": "s_m77_morning_walk",
+    "en": [
+      { "t": "For my health,", "role": "other", "id": "a" },
+      { "t": "I walk", "role": "verb", "id": "v" },
+      { "t": "regularly,", "role": "other", "id": "c" },
+      { "t": "every morning,", "role": "other", "id": "b" },
+      { "t": "thirty minutes at a time", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "health-[obj] for-the-sake-of", "role": "other", "id": "a" },
+      { "t": "morning-every", "role": "other", "id": "b" },
+      { "t": "regular-ly", "role": "other", "id": "c" },
+      { "t": "thirty minutes-each", "role": "other", "id": "d" },
+      { "t": "walk", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "건강을 위해서", "role": "other", "id": "a" },
+      { "t": "아침마다", "role": "other", "id": "b" },
+      { "t": "규칙적으로", "role": "other", "id": "c" },
+      { "t": "삼십 분씩", "role": "other", "id": "d" },
+      { "t": "걸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geongangeul wihaeseo achimmada gyuchikjeogeuro samsip bunssik georeoyo",
+    "wordIds": ["w_geongang", "w_wihada", "w_achim", "w_gyuchikjeok", "w_n_sam", "w_n_sip", "w_c_bun", "w_geotda"],
+    "note": "규칙적으로 — the -적 word turned adverb with -으로, the form M45's 개인적 ran — inside the routine machinery: 마다 from M31 sets the day, 씩 from M43 sets the dose (삼십 분씩 = thirty minutes a time), and M32's 위하다 aims it all at M14's 건강. M6's 걷다 is the ㄷ-irregular live: 걸어요. 규칙적인 생활, as M39's 규칙 note promised, now conjugated and out the door."
+  },
+  {
+    "id": "s_m77_flipped_clock",
+    "en": [
+      { "t": "Over the school break,", "role": "other", "id": "a" },
+      { "t": "my nights and days", "role": "subject", "id": "s" },
+      { "t": "got completely flipped.", "role": "verb", "id": "v" },
+      { "t": "Last night, too,", "role": "other", "id": "b" },
+      { "t": "I went to sleep", "role": "verb", "id": "w" },
+      { "t": "at four in the morning", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "vacation during", "role": "other", "id": "a" },
+      { "t": "night-day-[subj]", "role": "subject", "id": "s" },
+      { "t": "get-switched-completely-did.", "role": "verb", "id": "v" },
+      { "t": "last-night-at-also", "role": "other", "id": "b" },
+      { "t": "dawn four o'clock-at", "role": "other", "id": "c" },
+      { "t": "slept", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "방학 동안", "role": "other", "id": "a" },
+      { "t": "밤낮이", "role": "subject", "id": "s" },
+      { "t": "바뀌어 버렸어요.", "role": "verb", "id": "v" },
+      { "t": "어젯밤에도", "role": "other", "id": "b" },
+      { "t": "새벽 네 시에", "role": "other", "id": "c" },
+      { "t": "잤어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "banghak dongan bamnaji bakkwieo beoryeosseoyo. eojetbamedo saebyeok ne sie jasseoyo",
+    "wordIds": ["w_banghak", "w_dongan", "w_bamnat", "w_bakkwida", "w_beorida", "w_eojetbam", "w_saebyeok", "w_net", "w_c_si", "w_jada"],
+    "note": "The gap deck's diagnosis, live: 밤낮이 바뀌다 — M35's 바뀌다 (it happened TO you) with -아/어 버리다 from M52 adding the regret — after M11's 방학 spent on M28's 동안. Then 어젯밤 files the evidence: M38's 새벽 with M5's native 네 in front of the hour-counter = 4 a.m., because the small hours start at midnight there. Two welds, one spoken register, every student's August."
+  },
+  {
+    "id": "s_m77_temp_holiday",
+    "en": [
+      { "t": "As the government announced,", "role": "other", "id": "a" },
+      { "t": "October 2 of this year", "role": "subject", "id": "s" },
+      { "t": "is a temporary public holiday", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "government-[subj] announced-[badge] as", "role": "other", "id": "a" },
+      { "t": "this-year October two day-[topic]", "role": "subject", "id": "s" },
+      { "t": "temporary public-holiday-is-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "정부가 발표한 대로", "role": "other", "id": "a" },
+      { "t": "금년 시월 이 일은", "role": "subject", "id": "s" },
+      { "t": "임시 공휴일입니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeongbuga balpyohan daero geumnyeon siwol i ireun imsi gonghyuirimnida",
+    "wordIds": ["w_jeongbu", "w_balpyohada", "w_geumnyeon", "w_n_i", "w_il_day", "w_imsi"],
+    "note": "The print register, two slice words in one notice: 금년 where speech says 올해, and 임시 공휴일 stacked bare the way signs stack nouns. M32's 정부 does what it does, 대로 from M54 rides the badge from M24 on M16's 발표하다 (발표한 대로 = as announced), 시월 이 일 is M25's date machine — the month that drops its ㅂ, then M2's 이 on M25's 일 — and 입니다 (M4) seals it like a memo on the office door. The gap deck explains why the whole country checks its 연휴 math when this word appears."
+  },
+  {
+    "id": "s_m77_cafe_again",
+    "en": [
+      { "t": "Let's go", "role": "verb", "id": "v" },
+      { "t": "again", "role": "other", "id": "b" },
+      { "t": "to that cafe we went to together last time.", "role": "place", "id": "p" },
+      { "t": "The coffee", "role": "subject", "id": "s" },
+      { "t": "really", "role": "other", "id": "c" },
+      { "t": "was delicious, you know", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "last-time together went-[badge] that cafe-to", "role": "place", "id": "p" },
+      { "t": "again", "role": "other", "id": "b" },
+      { "t": "go.", "role": "verb", "id": "v" },
+      { "t": "coffee-[subj]", "role": "subject", "id": "s" },
+      { "t": "really", "role": "other", "id": "c" },
+      { "t": "was-delicious-you-know", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "저번에 같이 간 그 카페에", "role": "place", "id": "p" },
+      { "t": "또", "role": "other", "id": "b" },
+      { "t": "가요.", "role": "verb", "id": "v" },
+      { "t": "커피가", "role": "subject", "id": "s" },
+      { "t": "진짜", "role": "other", "id": "c" },
+      { "t": "맛있었잖아요", "role": "verb", "id": "w" }
+    ],
+    "rom": "jeobeone gachi gan geu kapee tto gayo. keopiga jinjja masisseotjanayo",
+    "wordIds": ["w_jeobeon", "w_gachi", "w_gada", "w_geu_det", "w_kape", "w_tto", "w_keopi", "w_jinjja", "w_masitda"],
+    "note": "The spoken register: 저번에 — 저번 with 에 — where the news would say 지난번에, on M2's 카페 under the badge from M24 (같이 간 = that we went to together, M9's 같이), and -잖아요 from M42 reminding the listener of what they already know about M1's 커피. M29's 또 asks for the repeat, M11's 진짜 does the endorsing, and M29's 그 points at the one cafe you both mean. Same slot M46's 지난번 filled — this is how it sounds on a Friday."
   }
 ]
