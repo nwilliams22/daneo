@@ -2167,5 +2167,32 @@
     "lit": "fourth floor, written F",
     "real": "tetraphobia — hospitals and older buildings skip the 4, because 사 (four) is also 死 (death)",
     "note": "This module's 숫자 with a superstition attached: M2's 사 (four) sounds exactly like the hanja for death, so the floor gets a letter — F, for four — the way Western hotels skip the thirteenth. Look for it in hospital elevators and older apartment blocks; newer towers have mostly stopped, but gift etiquette has not: never four of anything to someone in a hospital bed. The lucky 숫자 is 7 — M36's 행운 note ran 행운의 숫자 — and 3 does well too: 삼세판 (best of three, riding frozen) is how Koreans settle everything from rock-paper-scissors to the bill."
+  },
+  {
+    "id": "g_m78_chobo_unjeon",
+    "cat": "concept",
+    "ko": "초보 운전",
+    "rom": "chobo unjeon",
+    "lit": "beginner driving",
+    "real": "the new-driver sticker on the rear window — and the mercy it buys on the road",
+    "note": "This module's 초보 + 운전, the noun inside M10's 운전하다 — the same bare 운전 that M75's 양보하다 note ran on highway signs as 양보 운전 — printed on a sticker and stuck to the back of every newly licensed car. No law requires it; the culture supplies it, and increasingly with jokes: 아이가 타고 있어요 (with M4's 아이 and M6's 타다 — the baby-on-board cousin), 저도 제가 무서워요 (with M24's 무섭다 — I scare myself too). What it buys: a wider gap, fewer horns, and a licence to stall at the light while the 택시 (M6) behind you sighs instead of leaning on the horn. Peeled off after a year or so — or never, by drivers who have learned what it is worth."
+  },
+  {
+    "id": "g_m78_go3",
+    "cat": "concept",
+    "ko": "고3",
+    "rom": "gosam",
+    "lit": "high (school) 3",
+    "real": "a third-year high-schooler — in Korea, a household identity rather than a grade",
+    "note": "고등학교 3학년 (M15's 고등학교, M15's 학년) clipped through this module's 고교 and read 고삼, with M2's 삼. The M15 gap deck owns the exam day — 수능, 'the exam that stops the nation'; this entry owns the person the year makes: the 고3 gets the quiet room and the late dinner, skips the 명절 (M25) trip, and hears 고3이니까 as the reason for everything — 우리 집에 고3이 있어요 is said the way other countries announce an invalid in the house, and neighbours lower their voices. 수험생 (exam-taker, riding frozen) is the formal word; 고3 is the one parents whisper. The identity ends the day the 수능 does — the freed 고3 gets a haircut, a phone, and a driving lesson, hence 초보 운전, one entry over."
+  },
+  {
+    "id": "g_m78_hyeongbu_maehyeong",
+    "cat": "structure",
+    "ko": "언니의 남편은 형부, 누나의 남편은 매형",
+    "rom": "eonniui nampyeoneun hyeongbu, nunaui nampyeoneun maehyeong",
+    "lit": "an 언니's husband is 형부, a 누나's husband is 매형",
+    "real": "in-law titles fork by the SPEAKER's gender, exactly as 언니/누나 did — whom you call what depends on who you are",
+    "note": "The speaker-gender grid M4 started (형/오빠, 누나/언니 — who you are decides what you call your older sibling) runs into the in-laws: a woman's 언니 (M4) has a 형부 (this module); a man's 누나 (M4) has a 매형 (妹兄 — riding frozen), M27's 남편 either way. The younger side forks too: a younger sister's husband is 제부 to a woman and 매제 to a man (both riding frozen), and M58's 형님 note already showed kinship outranking gender in the other direction — a wife calling her husband's older sister 형님. Korean does not ask who the husband is; it asks who YOU are — the grid the M47 md drew ('Korean kinship is a coordinate system, not a word list'), with the speaker sitting at the origin. Learners get this wrong in one direction only: a man saying 형부 marks himself, gently, as having learned Korean from his girlfriend's dramas."
   }
 ]

@@ -17664,5 +17664,221 @@
     "rom": "yojeum seoul apateuneun sibeogi neomneun gotdo manayo",
     "wordIds": ["w_yojeum", "w_seoul", "w_apateu", "w_n_sip", "w_eok", "w_neomda", "w_got_place", "w_manta"],
     "note": "억 in its natural habitat — M13's 아파트, the 'whole skylines of numbered towers' — with 십억 = a billion won, the figure Seoul housing news repeats nightly. M36's 넘다 exceeds it under the badge from M24 (십억이 넘는 = that top a billion), M12's 곳 counts the places, and Ring 1's double-subject chassis holds it: the topic is the market (서울 아파트는), the subject is the places (곳도), and M7's 많다 closes. M26's 요즘 files it as the complaint it is."
+  },
+  {
+    "id": "s_m78_hyeongbu_sings",
+    "en": [
+      { "t": "My brother-in-law", "role": "subject", "id": "s" },
+      { "t": "is as good at", "role": "verb", "id": "v" },
+      { "t": "singing", "role": "object", "id": "o" },
+      { "t": "as my older sister", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "our brother-in-law-[topic]", "role": "subject", "id": "s" },
+      { "t": "older-sister-as-much-as", "role": "other", "id": "a" },
+      { "t": "song-[obj]", "role": "object", "id": "o" },
+      { "t": "does-well", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 형부는", "role": "subject", "id": "s" },
+      { "t": "언니만큼", "role": "other", "id": "a" },
+      { "t": "노래를", "role": "object", "id": "o" },
+      { "t": "잘해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri hyeongbuneun eonnimankeum noraereul jalhaeyo",
+    "wordIds": ["w_uri", "w_hyeongbu", "w_eonni", "w_norae", "w_jalhada"],
+    "note": "The equative 만큼 (M47) measures the in-law against the sibling he married: 형부 is by definition the 언니's husband, so the whole sentence is spoken by a woman — a man would have said 매형 and 누나. M7's 노래 + M17's 잘하다 is the collocation that verb's own note ran (노래를 잘해요), and M4's 우리 makes him the family's brother-in-law the way Korean families own their members. Three particles compare — 보다 (M22) ranks, 만큼 equates, 처럼 (M41) paints — and this one calls it a tie."
+  },
+  {
+    "id": "s_m78_imo_broth",
+    "en": [
+      { "t": "Auntie,", "role": "other", "id": "c" },
+      { "t": "over here —", "role": "place", "id": "p" },
+      { "t": "a little more", "role": "other", "id": "b" },
+      { "t": "broth,", "role": "object", "id": "o" },
+      { "t": "please!", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "auntie,", "role": "other", "id": "c" },
+      { "t": "here", "role": "place", "id": "p" },
+      { "t": "broth a-little", "role": "object", "id": "o" },
+      { "t": "more", "role": "other", "id": "b" },
+      { "t": "give-please!", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이모,", "role": "other", "id": "c" },
+      { "t": "여기", "role": "place", "id": "p" },
+      { "t": "국물 좀", "role": "object", "id": "o" },
+      { "t": "더", "role": "other", "id": "b" },
+      { "t": "주세요!", "role": "verb", "id": "v" }
+    ],
+    "rom": "imo, yeogi gungmul jom deo juseyo!",
+    "wordIds": ["w_imo", "w_yeogi", "w_gungmul", "w_jogeum", "w_deo", "w_juda"],
+    "note": "The M18 gap deck's summons, finally attached to the aunt it borrows: 이모 as address, the vocative that buys better refills than the 저기요! M6's 저기 note filed. -아/어 주세요 from M9 does the asking, M9's 조금 clipped to 좀 softens it (its note called 좀 the request-softener), M9's 더 asks for more, and M40's 국물 is what you are asking for — the broth that note called the POINT of the dish. Say it only where floor seating and aprons make her an 이모; at the 부장님's French place, the same sentence starts with 저기요."
+  },
+  {
+    "id": "s_m78_go3_damim",
+    "en": [
+      { "t": "When I was in my last year of high school,", "role": "other", "id": "a" },
+      { "t": "my homeroom teacher", "role": "subject", "id": "s" },
+      { "t": "stayed", "role": "verb", "id": "v" },
+      { "t": "at school", "role": "place", "id": "p" },
+      { "t": "until late at night", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "I-[subj] go-sam(senior-year)-was-when", "role": "other", "id": "a" },
+      { "t": "homeroom teacher-[hon.subj]", "role": "subject", "id": "s" },
+      { "t": "night late-until", "role": "other", "id": "b" },
+      { "t": "school-at", "role": "place", "id": "p" },
+      { "t": "was-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제가 고삼이었을 때", "role": "other", "id": "a" },
+      { "t": "담임 선생님께서", "role": "subject", "id": "s" },
+      { "t": "밤 늦게까지", "role": "other", "id": "b" },
+      { "t": "학교에", "role": "place", "id": "p" },
+      { "t": "계셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jega gosamieosseul ttae damim seonsaengnimkkeseo bam neutgekkaji hakgyoe gyesyeosseoyo",
+    "wordIds": ["w_jeo", "w_n_sam", "w_ttae", "w_damim", "w_seonsaengnim", "w_bam", "w_neutda", "w_hakgyo", "w_gyesida"],
+    "note": "-(으)ㄹ 때 from M25 on the copula — 고삼이었을 때, when I WAS a 고3 (written 고3, read 고삼) — sets the year the gap deck files as an identity, and 께서 from M47 honors the 담임 선생님 while M4's 계시다 agrees: the honorific 있다, for a teacher who is physically still in the building. M8's 밤 + M8's 늦다 wearing the -게 adverbializer (M33) + 까지 stretch the shift; the 담임 of a 고3 class famously keeps 수능 hours alongside the kids. The sentence every Korean adult can say about one particular teacher."
+  },
+  {
+    "id": "s_m78_diplomat_decade",
+    "en": [
+      { "t": "Since I became a diplomat", "role": "other", "id": "a" },
+      { "t": "ten years", "role": "subject", "id": "s" },
+      { "t": "have passed, but", "role": "other", "id": "b" },
+      { "t": "life abroad", "role": "subject", "id": "s2" },
+      { "t": "is still", "role": "other", "id": "c" },
+      { "t": "hard", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "diplomat-[subj] became-[badge] since", "role": "other", "id": "a" },
+      { "t": "ten year-[subj]", "role": "subject", "id": "s" },
+      { "t": "became-but", "role": "other", "id": "b" },
+      { "t": "still-even", "role": "other", "id": "c" },
+      { "t": "foreign-country life-[subj]", "role": "subject", "id": "s2" },
+      { "t": "is-hard", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "외교관이 된 지", "role": "other", "id": "a" },
+      { "t": "십 년이", "role": "subject", "id": "s" },
+      { "t": "됐는데", "role": "other", "id": "b" },
+      { "t": "아직도", "role": "other", "id": "c" },
+      { "t": "외국 생활이", "role": "subject", "id": "s2" },
+      { "t": "힘들어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oegyogwani doen ji sip nyeoni dwaenneunde ajikdo oeguk saenghwari himdeureoyo",
+    "wordIds": ["w_oegyogwan", "w_doeda", "w_ji", "w_n_sip", "w_nyeon", "w_ajik", "w_oeguk", "w_saenghwal", "w_himdeulda"],
+    "note": "The stopwatch noun 지 (M46) counts the years since the 되다-complement 외교관이 됐다 — 된 지 십 년이 됐다, the frame that note built (past badge + 지 + duration + 됐어요) — and -는데 from M53 turns the count into a but. Then a double subject: 십 년이 and 외국 생활이 both wear 이 and both grade as subjects, the second one M23's 외국 stacked on M29's 생활 (whose note asked 한국 생활이 어때요? — this is the answer from the other side of the posting). M14's 아직 + 도 = still, even now; M15's 힘들다 is the honest verdict. A diplomat's whole career is 외국 생활."
+  },
+  {
+    "id": "s_m78_pm_visit",
+    "en": [
+      { "t": "According to the news,", "role": "other", "id": "a" },
+      { "t": "the British prime minister", "role": "subject", "id": "s" },
+      { "t": "will visit", "role": "verb", "id": "v" },
+      { "t": "Korea", "role": "object", "id": "o" },
+      { "t": "next week", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "news-according-to", "role": "other", "id": "a" },
+      { "t": "Britain prime-minister-[subj]", "role": "subject", "id": "s" },
+      { "t": "next week-on", "role": "other", "id": "t" },
+      { "t": "Korea-[obj]", "role": "object", "id": "o" },
+      { "t": "visits-[quote] says-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뉴스에 의하면", "role": "other", "id": "a" },
+      { "t": "영국 수상이", "role": "subject", "id": "s" },
+      { "t": "다음 주에", "role": "other", "id": "t" },
+      { "t": "한국을", "role": "object", "id": "o" },
+      { "t": "방문한다고 합니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "nyuseue uihamyeon yeongguk susangi daeum jue hangugeul bangmunhandago hamnida",
+    "wordIds": ["w_nyuseu", "w_uihada", "w_yeongguk", "w_susang", "w_daeum", "w_ju", "w_hanguk", "w_bangmunhada", "w_hada"],
+    "note": "The headline frame, fully machined: 에 의하면 — M56's 의하다 in its frame one, the source in front — pins the claim to M24's 뉴스, and the quote machine (M32) relays it in 합니다체 from M4: 방문한다고 합니다 — the bare -ㄴ다 on M75's 방문하다, the news verb for a trip with a purpose, exactly as that note assigned it. 수상 here is 首相: M27's 영국 has one; Korea has a 총리 (frozen) under M32's 대통령, so the word almost always points abroad. M8's 다음 + M8's 주 set the date. Had the sentence said 수상했다고 합니다, someone would have won a prize instead."
+  },
+  {
+    "id": "s_m78_beginner_app",
+    "en": [
+      { "t": "This design app", "role": "subject", "id": "s" },
+      { "t": "is for beginners, so", "role": "other", "id": "a" },
+      { "t": "once you make", "role": "other", "id": "b" },
+      { "t": "just a username", "role": "object", "id": "o" },
+      { "t": "you can start", "role": "verb", "id": "v" },
+      { "t": "right away", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "this design app-[topic]", "role": "subject", "id": "s" },
+      { "t": "beginner-[obj] for-[badge] thing-because", "role": "other", "id": "a" },
+      { "t": "user name-only", "role": "object", "id": "o" },
+      { "t": "make-if", "role": "other", "id": "b" },
+      { "t": "right-away", "role": "other", "id": "c" },
+      { "t": "start-can", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 디자인 앱은", "role": "subject", "id": "s" },
+      { "t": "초보자를 위한 거니까", "role": "other", "id": "a" },
+      { "t": "사용자 이름만", "role": "object", "id": "o" },
+      { "t": "만들면", "role": "other", "id": "b" },
+      { "t": "바로", "role": "other", "id": "c" },
+      { "t": "시작할 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i dijain aebeun chobojareul wihan geonikka sayongja ireumman mandeulmyeon baro sijakhal su isseoyo",
+    "wordIds": ["w_i_det", "w_dijain", "w_aep", "w_choboja", "w_wihada", "w_sayongja", "w_ireum", "w_mandeulda", "w_baro", "w_sijakhada", "w_itda"],
+    "note": "위한 + noun from M44 (초보자를 위한) makes the app FOR someone, and the casual 것 → 거 (the 준말 interlude's clip) + -(이)니까 turns that into the reason; -(으)면 from M20 sets the one condition, and 만 limits it to the username — 사용자 이름, M1's 이름 on the 使用者, the software collocation the note filed. M28's 바로 + the can-machine -(으)ㄹ 수 있다 from M10 deliver the promise every onboarding screen makes. 디자인 rides as a bare modifier on M20's 앱 the way loanwords stack — 디자인 앱, no particle, no 하다. Three of this module's words in one sentence, and the sentence is about you."
+  },
+  {
+    "id": "s_m78_eldest_son",
+    "en": [
+      { "t": "My older brother, the eldest son,", "role": "subject", "id": "s" },
+      { "t": "as soon as he married,", "role": "other", "id": "a" },
+      { "t": "ended up living with and caring for", "role": "verb", "id": "v" },
+      { "t": "our parents", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "eldest-son-[badge] older-brother-[topic]", "role": "subject", "id": "s" },
+      { "t": "marry-as-soon-as", "role": "other", "id": "a" },
+      { "t": "parents-[obj]", "role": "object", "id": "o" },
+      { "t": "attend-and live-came-to-be", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "장남인 형은", "role": "subject", "id": "s" },
+      { "t": "결혼하자마자", "role": "other", "id": "a" },
+      { "t": "부모님을", "role": "object", "id": "o" },
+      { "t": "모시고 살게 됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jangnamin hyeongeun gyeolhonhajamaja bumonimeul mosigo salge dwaesseoyo",
+    "wordIds": ["w_jangnam", "w_hyeong", "w_gyeolhonhada", "w_bumonim", "w_mosida", "w_salda", "w_doeda"],
+    "note": "장남 wears the copula badge -(이)ㄴ on M4's 형 — 장남인 형, my older brother who is the eldest son — and the grammar hands him the duty: -자마자 from M38 clocks zero gap after M25's 결혼하다, -게 되다 from M35 says it happened TO him rather than by choice, and M47's 모시다 carries M4's 부모님 upward in the -고 chain from M10 that the M47 md called the module's credo (부모님을 모시고 살아요). The speaker is male (형, not 오빠); the culture is the whole shelf: the 장남 inherits, and what he inherits first is the parents."
+  },
+  {
+    "id": "s_m78_exercise_lack",
+    "en": [
+      { "t": "These days", "role": "other", "id": "t" },
+      { "t": "I seem to be short on exercise, so", "role": "other", "id": "a" },
+      { "t": "I've decided to walk", "role": "verb", "id": "v" },
+      { "t": "thirty minutes at a time", "role": "other", "id": "c" },
+      { "t": "every morning", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "exercise shortage-is-[badge] thing seems-so", "role": "other", "id": "a" },
+      { "t": "every morning", "role": "other", "id": "b" },
+      { "t": "thirty minute-apiece", "role": "other", "id": "c" },
+      { "t": "walk-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "운동 부족인 것 같아서", "role": "other", "id": "a" },
+      { "t": "매일 아침", "role": "other", "id": "b" },
+      { "t": "삼십 분씩", "role": "other", "id": "c" },
+      { "t": "걷기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeum undong bujogin geot gataseo maeil achim samsip bunssik geotgiro haesseoyo",
+    "wordIds": ["w_yojeum", "w_undonghada", "w_bujok", "w_gatda_same", "w_maeil", "w_achim", "w_n_sam", "w_n_sip", "w_c_bun", "w_geotda", "w_hada"],
+    "note": "부족 in its 不足 sense, stacked bare on 운동 — the noun inside M8's 운동하다, dismounted the way M75 taught — and hung on the copula under 것 같다 from M34: 운동 부족인 것 같아서, I seem to be exercise-deficient, so. The cure recycles three Band 5 pieces: M5's 매일 + M2's 아침 schedule it, 씩 (M43) doses it — 삼십 분씩, thirty minutes a go, M2's 삼 and 십 on M5's 분 — and -기로 하다 from M48 makes M6's 걷다 a resolution. The national condition M39's 부족하다 diagnosed as 잠이 부족해요 has a sibling; this is the January sentence for it."
   }
 ]
