@@ -40,7 +40,7 @@ word	mechanism	where
 고등학생	pattern	M15 고등학교 + M4 학생
 운동장	pattern	M8 운동하다 + place-장 (M23 광장 note)
 수영장	pattern	M1-era 수영 + place-장
-경찰관	pattern	M16 경찰 + M23 -관 public-building suffix
+경찰관	pattern	M16 경찰 + official-官 (decoded at M78 외교관; not M23 building-館)
 경찰서	pattern	M16 경찰 + 서 (station; -관 logic)
 점심시간	pattern	M3 점심 + M1 시간
 잠자다	pattern	M28 잠 + M1 자다 (M28 잠 note: 잠을 자다)
