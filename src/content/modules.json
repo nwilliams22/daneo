@@ -1885,5 +1885,27 @@
       "s_m76_forecast_minus_ten", "s_m76_grill_two_servings", "s_m76_which_line", "s_m76_half_drink_coffee",
       "s_m76_mom_by_my_side", "s_m76_five_kilos", "s_m76_summit_not_yet", "s_m76_billion_won_apartments"
     ]
+  },
+  {
+    "id": "m78",
+    "title": "Who's Who",
+    "order": 87,
+    "ring": 2,
+    "contentMd": "modules/module-78.md",
+    "wordIds": [
+      "w_imo", "w_sachon", "w_hyeongbu", "w_gomobu",
+      "w_jangnam", "w_chanam", "w_sibumo", "w_sinhonbubu",
+      "w_aein", "w_bujatjip", "w_eorinai", "w_eorinae",
+      "w_yeo", "w_yeodaesaeng", "w_gogyo", "w_yeogosaeng",
+      "w_yeojigwon", "w_damim", "w_daehakgyosu", "w_jeomwon",
+      "w_weiteo", "w_unjeongisa", "w_oegyogwan", "w_yeoksaga",
+      "w_dijain", "w_dijaineo", "w_chobo", "w_choboja",
+      "w_sayongja", "w_chaempieon", "w_gangdo", "w_susang",
+      "w_bujok", "w_seongbyeol"
+    ],
+    "sentenceIds": [
+      "s_m78_hyeongbu_sings", "s_m78_imo_broth", "s_m78_go3_damim", "s_m78_diplomat_decade",
+      "s_m78_pm_visit", "s_m78_beginner_app", "s_m78_eldest_son", "s_m78_exercise_lack"
+    ]
   }
 ]
