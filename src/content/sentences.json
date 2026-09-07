@@ -17466,5 +17466,203 @@
     "rom": "jeobeone gachi gan geu kapee tto gayo. keopiga jinjja masisseotjanayo",
     "wordIds": ["w_jeobeon", "w_gachi", "w_gada", "w_geu_det", "w_kape", "w_tto", "w_keopi", "w_jinjja", "w_masitda"],
     "note": "The spoken register: 저번에 — 저번 with 에 — where the news would say 지난번에, on M2's 카페 under the badge from M24 (같이 간 = that we went to together, M9's 같이), and -잖아요 from M42 reminding the listener of what they already know about M1's 커피. M29's 또 asks for the repeat, M11's 진짜 does the endorsing, and M29's 그 points at the one cafe you both mean. Same slot M46's 지난번 filled — this is how it sounds on a Friday."
+  },
+  {
+    "id": "s_m76_forecast_minus_ten",
+    "en": [
+      { "t": "Tomorrow morning", "role": "other", "id": "t" },
+      { "t": "the temperature", "role": "subject", "id": "s" },
+      { "t": "will drop", "role": "verb", "id": "v" },
+      { "t": "to ten below zero", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "tomorrow morning", "role": "other", "id": "t" },
+      { "t": "air-temperature-[topic]", "role": "subject", "id": "s" },
+      { "t": "below-zero ten degree-until", "role": "other", "id": "a" },
+      { "t": "fall-will-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내일 아침", "role": "other", "id": "t" },
+      { "t": "기온은", "role": "subject", "id": "s" },
+      { "t": "영하 십 도까지", "role": "other", "id": "a" },
+      { "t": "떨어지겠습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "naeil achim gioneun yeongha sip dokkaji tteoreojigetseumnida",
+    "wordIds": ["w_naeil", "w_achim", "w_gion", "w_yeongha", "w_n_sip", "w_tteoreojida"],
+    "note": "The TV forecast M49 built (its sentence deck ran 맑겠습니다 and 올라가겠습니다), now reading the cold end: 영하 fronts the number, the degree-도 that M49's 온도 taught closes it, and 까지 from M6 marks the floor. -겠- from M49 is the caster's inference, 합니다체 (M4) the suit, and M36's 떨어지다 does what temperatures, prices, and exam-takers all do. The forecast itself — 일기 예보 — rides in M48's 일기 note."
+  },
+  {
+    "id": "s_m76_grill_two_servings",
+    "en": [
+      { "t": "Pork belly", "role": "object", "id": "o" },
+      { "t": "can be ordered", "role": "verb", "id": "v" },
+      { "t": "from two servings up", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "pork-belly-[topic]", "role": "object", "id": "o" },
+      { "t": "two serving-from", "role": "other", "id": "a" },
+      { "t": "order-can", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "삼겹살은", "role": "object", "id": "o" },
+      { "t": "이 인분부터", "role": "other", "id": "a" },
+      { "t": "주문할 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "samgyeopsareun i inbunbuteo jumunhal su isseoyo",
+    "wordIds": ["w_samgyeopsal", "w_n_i", "w_inbun", "w_jumunhada", "w_itda"],
+    "note": "The grill rule as a sentence: 인분 counts plates with Sino 이 in front, 부터 from M6 sets the minimum, and -(으)ㄹ 수 있다 from M10 states what the kitchen allows — which is that M18's 삼겹살 is never fired for one. M3's 주문하다 is the restaurant verb; the topic-marked 삼겹살은 is still the thing being ordered. Solo diners learn this rule at the door, then order 이 인분 anyway."
+  },
+  {
+    "id": "s_m76_which_line",
+    "en": [
+      { "t": "At Seoul Station,", "role": "place", "id": "p" },
+      { "t": "which line", "role": "other", "id": "a" },
+      { "t": "do I have to transfer to?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "Seoul-Station-at", "role": "place", "id": "p" },
+      { "t": "what line-to", "role": "other", "id": "a" },
+      { "t": "transfer-must?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서울역에서", "role": "place", "id": "p" },
+      { "t": "몇 호선으로", "role": "other", "id": "a" },
+      { "t": "갈아타야 돼요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoullyeogeseo myeot hoseoneuro garataya dwaeyo",
+    "wordIds": ["w_seoul", "w_yeok", "w_myeot", "w_hoseon", "w_garatada", "w_doeda"],
+    "note": "The transfer question: 호선 labels the line, so M5's 몇 asks which, not how many, and 으로 from M6 aims the change. M12's 갈아타다 — the verb of the announcement its note promised you would hear — rides -아/어야 돼요 from M10, because at 서울역 (M12's 서울 + M6's 역) the choice is not optional. Said 서울력 — the ㄴ-insertion the rom writes as seoullyeogeseo, the same call the app already made for 서울역에."
+  },
+  {
+    "id": "s_m76_half_drink_coffee",
+    "en": [
+      { "t": "According to a survey,", "role": "other", "id": "a" },
+      { "t": "more than half of the population", "role": "subject", "id": "s" },
+      { "t": "reportedly drinks", "role": "verb", "id": "v" },
+      { "t": "coffee", "role": "object", "id": "o" },
+      { "t": "every day", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "survey-according-to", "role": "other", "id": "a" },
+      { "t": "citizens-of half more-than-[subj]", "role": "subject", "id": "s" },
+      { "t": "every-day", "role": "other", "id": "b" },
+      { "t": "coffee-[obj]", "role": "object", "id": "o" },
+      { "t": "drink-[quote] says-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "조사에 의하면", "role": "other", "id": "a" },
+      { "t": "국민의 절반 이상이", "role": "subject", "id": "s" },
+      { "t": "매일", "role": "other", "id": "b" },
+      { "t": "커피를", "role": "object", "id": "o" },
+      { "t": "마신다고 합니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "josae uihamyeon gungminui jeolban isangi maeil keopireul masindago hamnida",
+    "wordIds": ["w_josa", "w_uihada", "w_gungmin", "w_jeolban", "w_isang", "w_maeil", "w_keopi", "w_masida", "w_hada"],
+    "note": "The statistic in its native register: 절반 이상 — M32's 이상 stacked on today's exact half — is how the news counts, 에 의하면 from M56 names the source (M44's 조사, the survey), and the quote machine from M32 relays the claim in 합니다체 (M4): source, figure, relay. M32's 국민 on the possessive 의 makes it national; M1's 커피 and 마시다 make it true. 절반 rather than 반, because print never leaves a half ambiguous."
+  },
+  {
+    "id": "s_m76_mom_by_my_side",
+    "en": [
+      { "t": "When things were hard,", "role": "other", "id": "t" },
+      { "t": "Mom", "role": "subject", "id": "s" },
+      { "t": "always", "role": "other", "id": "b" },
+      { "t": "stayed", "role": "verb", "id": "v" },
+      { "t": "by my side", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "hard-when-[topic]", "role": "other", "id": "t" },
+      { "t": "always", "role": "other", "id": "b" },
+      { "t": "mom-[subj]", "role": "subject", "id": "s" },
+      { "t": "side-at", "role": "place", "id": "p" },
+      { "t": "be-give-(hon.)-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "힘들 때는", "role": "other", "id": "t" },
+      { "t": "항상", "role": "other", "id": "b" },
+      { "t": "엄마가", "role": "subject", "id": "s" },
+      { "t": "곁에", "role": "place", "id": "p" },
+      { "t": "있어 주셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "himdeul ttaeneun hangsang eommaga gyeote isseo jusyeosseoyo",
+    "wordIds": ["w_himdeulda", "w_ttae", "w_hangsang", "w_eomma", "w_gyeot", "w_itda", "w_juda"],
+    "note": "곁 in its home register: not a position on a floor plan but a person staying. -(으)ㄹ 때 from M25 opens the hard stretch (M15's 힘들다), M8's 항상 makes it every time, and -아/어 주다 from M9 turns 있다 into a favor done for you — wearing the honorific -(으)시- from M4 because it is 엄마 (M4) doing it. Swap in 옆에 and the sentence goes cold: 옆 says where she stood, 곁 says she stayed."
+  },
+  {
+    "id": "s_m76_five_kilos",
+    "en": [
+      { "t": "My weight", "role": "subject", "id": "s" },
+      { "t": "went up", "role": "other", "id": "a" },
+      { "t": "by five whole kilos, so", "role": "other", "id": "k" },
+      { "t": "I walk", "role": "verb", "id": "v" },
+      { "t": "every day,", "role": "other", "id": "b" },
+      { "t": "an hour at a time", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "body-weight-[subj]", "role": "subject", "id": "s" },
+      { "t": "five kilo-as-many-as", "role": "other", "id": "k" },
+      { "t": "increase-so", "role": "other", "id": "a" },
+      { "t": "every-day", "role": "other", "id": "b" },
+      { "t": "one hour-each", "role": "other", "id": "c" },
+      { "t": "walk", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "몸무게가", "role": "subject", "id": "s" },
+      { "t": "오 킬로나", "role": "other", "id": "k" },
+      { "t": "늘어서", "role": "other", "id": "a" },
+      { "t": "매일", "role": "other", "id": "b" },
+      { "t": "한 시간씩", "role": "other", "id": "c" },
+      { "t": "걸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mommugega o killona neureoseo maeil han siganssik georeoyo",
+    "wordIds": ["w_mommuge", "w_n_o", "w_killo", "w_neulda", "w_maeil", "w_hana", "w_sigan", "w_geotda"],
+    "note": "킬로 on the scale — M35's 몸무게 decides which unit the clip means — with (이)나 from M43 groaning at the size of the number (five WHOLE kilos), M35's 늘다 reporting it, and the -아/어서 cause from M10 handing it to the remedy: 씩 from M43 doses the walking an hour at a time, M5's 매일 makes it a regimen. M6's 걷다 does its ㄷ-irregular thing: 걸어요. The M35 note called the anxiety universal; this is what it sounds like with a plan."
+  },
+  {
+    "id": "s_m76_summit_not_yet",
+    "en": [
+      { "t": "I thought the summit was near, but", "role": "other", "id": "a" },
+      { "t": "still", "role": "other", "id": "b" },
+      { "t": "a whole hour", "role": "other", "id": "c" },
+      { "t": "remains", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "summit-[subj] near-[badge] know-how thought-but", "role": "other", "id": "a" },
+      { "t": "still", "role": "other", "id": "b" },
+      { "t": "one hour-as-many-as", "role": "other", "id": "c" },
+      { "t": "remained", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "정상이 가까운 줄 알았는데", "role": "other", "id": "a" },
+      { "t": "아직", "role": "other", "id": "b" },
+      { "t": "한 시간이나", "role": "other", "id": "c" },
+      { "t": "남았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeongsangi gakkaun jul aranneunde ajik han siganina namasseoyo",
+    "wordIds": ["w_jeongsang", "w_gakkapda", "w_jul", "w_alda", "w_ajik", "w_hana", "w_sigan", "w_namda"],
+    "note": "정상 as the climber's word, inside the mistaken-belief frame -(으)ㄹ 줄 알다 from M55 — the shape its sentence deck ran as 비가 올 줄 알았는데 — with M6's 가깝다 under the badge from M24 and -는데 from M53 turning the corner. Then the bad news: M14's 아직, and (이)나 from M43 measuring how much M35's 남다 has left. Every Korean trailhead sign lies the same way; 꼭대기 would be the child's word for the same disappointment."
+  },
+  {
+    "id": "s_m76_billion_won_apartments",
+    "en": [
+      { "t": "These days,", "role": "other", "id": "t" },
+      { "t": "among Seoul apartments,", "role": "subject", "id": "s" },
+      { "t": "there are plenty of", "role": "verb", "id": "v" },
+      { "t": "places that top a billion won", "role": "subject", "id": "s2" }
+    ],
+    "gloss": [
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "Seoul apartment-[topic]", "role": "subject", "id": "s" },
+      { "t": "ten-eok-[subj] exceed-[badge] place-also", "role": "subject", "id": "s2" },
+      { "t": "are-many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "서울 아파트는", "role": "subject", "id": "s" },
+      { "t": "십억이 넘는 곳도", "role": "subject", "id": "s2" },
+      { "t": "많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeum seoul apateuneun sibeogi neomneun gotdo manayo",
+    "wordIds": ["w_yojeum", "w_seoul", "w_apateu", "w_n_sip", "w_eok", "w_neomda", "w_got_place", "w_manta"],
+    "note": "억 in its natural habitat — M13's 아파트, the 'whole skylines of numbered towers' — with 십억 = a billion won, the figure Seoul housing news repeats nightly. M36's 넘다 exceeds it under the badge from M24 (십억이 넘는 = that top a billion), M12's 곳 counts the places, and Ring 1's double-subject chassis holds it: the topic is the market (서울 아파트는), the subject is the places (곳도), and M7's 많다 closes. M26's 요즘 files it as the complaint it is."
   }
 ]

@@ -2140,5 +2140,32 @@
     "lit": "three cold, four warm",
     "real": "the Korean winter's weekly rhythm — three freezing days, then four milder ones — and the folk phrase everyone still says when the cold snap breaks",
     "note": "三寒四溫: M2's 삼 and 사 in hanja, 한 (cold-寒 — riding frozen; not the one-한 of M46's 한때) and the warm-溫 of M49's 온도 ('溫度 warm-degree'). The old observation that a Korean winter breathes in sevens — the Siberian high presses down for three days and relaxes for four — filed as a four-character idiom the way the M73 gap deck filed 각자도생. Forecasters still use it, grandparents still plan by it, and the internet updated it: 삼한사미 — three cold days, four days of M11's 미세먼지 — is the current, grimmer version. Say it when the thaw comes; everyone will nod."
+  },
+  {
+    "id": "g_m76_wiaraega_eopda",
+    "cat": "phrase",
+    "ko": "위아래가 없다",
+    "rom": "wiaraega eopda",
+    "lit": "there is no up-and-down",
+    "real": "to have no sense of rank — to treat elders and juniors alike, which Korean does not admire",
+    "note": "This module's 위아래 hung on M1's 없다: the vertical axis turned social. The two ladders the M47 lesson named ('Korean runs TWO politeness ladders') are the up and the down; a person who 위아래가 없다 climbs neither — 반말 (M19) to an 어른 (M24), first through the door, first to the food. Said by elders about juniors, almost never the reverse, and it is the verdict behind every these-kids-today. The compliment form exists too: 위아래를 알다 (M4's 알다) = to know one's place — which in Korea is praise."
+  },
+  {
+    "id": "g_m76_eokkaeneomeoro",
+    "cat": "phrase",
+    "ko": "어깨너머로 배우다",
+    "rom": "eokkaeneomeoro baeuda",
+    "lit": "to learn from over the shoulder",
+    "real": "to pick up a skill by watching someone do it — never formally taught, often better than school",
+    "note": "This module's 너머 welded onto M14's 어깨 and aimed through M6's 로 at M2's 배우다: learning from the far side of someone's shoulder. It is how apprentices learned before there were courses — and how most Koreans say they learned to cook (엄마 어깨너머로), to fix things, to pour a drink properly. The spelling is the module's law in one word: 너머 the noun, because you were standing beyond the shoulder, not crossing it. Said with modesty about your own skills and with a little awe about a 할머니's (M4)."
+  },
+  {
+    "id": "g_m76_four_floor",
+    "cat": "concept",
+    "ko": "4층 → F",
+    "rom": "sacheung → F",
+    "lit": "fourth floor, written F",
+    "real": "tetraphobia — hospitals and older buildings skip the 4, because 사 (four) is also 死 (death)",
+    "note": "This module's 숫자 with a superstition attached: M2's 사 (four) sounds exactly like the hanja for death, so the floor gets a letter — F, for four — the way Western hotels skip the thirteenth. Look for it in hospital elevators and older apartment blocks; newer towers have mostly stopped, but gift etiquette has not: never four of anything to someone in a hospital bed. The lucky 숫자 is 7 — M36's 행운 note ran 행운의 숫자 — and 3 does well too: 삼세판 (best of three, riding frozen) is how Koreans settle everything from rock-paper-scissors to the bill."
   }
 ]

@@ -1864,5 +1864,26 @@
       "s_m77_next_morning_letter", "s_m77_jeju_four_days", "s_m77_heat_forecast", "s_m77_schedule_change",
       "s_m77_morning_walk", "s_m77_flipped_clock", "s_m77_temp_holiday", "s_m77_cafe_again"
     ]
+  },
+  {
+    "id": "m76",
+    "title": "Weights, Measures, and Where Things Sit",
+    "order": 85,
+    "ring": 2,
+    "contentMd": "modules/module-76.md",
+    "wordIds": [
+      "w_geuraem", "w_killogeuraem", "w_killo", "w_millimiteo",
+      "w_killomiteo", "w_ton", "w_seopssi", "w_yeongha",
+      "w_eok", "w_myeotsip", "w_handul", "w_sutja",
+      "w_gyesan", "w_jeolban", "w_dasu", "w_ildeung",
+      "w_inbun", "w_bu_copies", "w_tong", "w_songi",
+      "w_hoseon", "w_nyeondo", "w_en_yen", "w_ttaem",
+      "w_garo", "w_sero", "w_wiarae", "w_junggan",
+      "w_jeongsang", "w_kkokdaegi", "w_gyeot", "w_neomeo"
+    ],
+    "sentenceIds": [
+      "s_m76_forecast_minus_ten", "s_m76_grill_two_servings", "s_m76_which_line", "s_m76_half_drink_coffee",
+      "s_m76_mom_by_my_side", "s_m76_five_kilos", "s_m76_summit_not_yet", "s_m76_billion_won_apartments"
+    ]
   }
 ]
