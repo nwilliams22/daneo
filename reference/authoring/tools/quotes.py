@@ -24,7 +24,7 @@ for src, t in draft:
     parts = t.split('"')
     for i in range(1, len(parts), 2): spans.append(parts[i])
     spans += re.findall(r"\('([^']{6,}?)'\)", t)
-    spans += re.findall(r"(?<![A-Za-z])'([^']{12,}?)'(?![A-Za-z])", t)
+    spans += re.findall(r"(?<![A-Za-z0-9])'([^']{12,}?)'(?![A-Za-z])", t)
     for q in spans:
         q = q.strip()
         if len(q) < 8 and not re.search(r"[가-힣]", q): continue
