@@ -1929,5 +1929,26 @@
       "s_m80_junggukjip_order", "s_m80_no_plastic_bag", "s_m80_disposable_rule", "s_m80_suljari_two_hands",
       "s_m80_cold_water_wake", "s_m80_dosirak_picnic", "s_m80_japangi_coffee", "s_m80_hangover_seolleongtang"
     ]
+  },
+  {
+    "id": "m81",
+    "title": "The Notice Board",
+    "order": 90,
+    "ring": 2,
+    "contentMd": "modules/module-81.md",
+    "wordIds": [
+      "w_anjeon", "w_yumyeong", "w_chinjeol", "w_jungyo",
+      "w_jungyoseong", "w_jeokgeuk", "w_gosok", "w_samu",
+      "w_idong", "w_boho", "w_gongdong", "w_jeongsik",
+      "w_geulja", "w_geulsseugi", "w_urimal", "w_gakguk",
+      "w_daejungmunhwa", "w_saenghwalhwangyeong", "w_deungnokgeum", "w_hangukjeok",
+      "w_dogireo", "w_sinmunsa", "w_yaoe", "w_sioe",
+      "w_jong", "w_jil", "w_gogeup", "w_yegeum",
+      "w_jutaek", "w_donggi", "w_bujagyong", "w_gungnip"
+    ],
+    "sentenceIds": [
+      "s_m81_bus_safety", "s_m81_kind_famous", "s_m81_three_kinds", "s_m81_cohort_ten_years",
+      "s_m81_side_effects", "s_m81_pop_culture_news", "s_m81_rain_indoors", "s_m81_house_deposit"
+    ]
   }
 ]
