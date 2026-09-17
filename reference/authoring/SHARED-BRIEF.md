@@ -8,7 +8,7 @@ GARNISH-FREE: zero beyond-list words — if a note needs an untaught word, it
 rides frozen and glossed.
 
 **You must NOT edit any repo files.** All output goes to NEW files in
-`/tmp/claude-1000/-mnt-t7-Projects-daneo/81e5ec82-b696-4c9c-9627-10b40a0c39ce/scratchpad/`.
+`/tmp/claude-1000/-mnt-t7-Projects-daneo/7a7d0db7-86b6-432a-9ea6-3df27d3f6ada/scratchpad/`.
 Do not commit anything.
 
 ## Read these first (mandatory, in this order)
@@ -49,6 +49,25 @@ Do not commit anything.
   -(으)려고 (하다) = M50 · -죠 = M51 · -아/어 버리다 = M52 ·
   -는데/-(으)ㄴ데 = M53 · 대로 = M54 · -게 adverbializer = M33 ·
   -자마자/-(으)면서/-는 동안 = M38 · -아/어지다/-게 되다 = M35.
+- **EN chunk order is natural English.** The `en` array reads as an English
+  sentence top to bottom; only the chunk `id`s map it to the Korean chunks.
+  Do NOT put EN chunks in Korean word order (batch 13 had 12 of 24 sentences
+  wrong this way). Open any shipped `s_m7x_*` entry and copy the pattern.
+- **No digits in sentence `ko`.** No shipped sentence carries a numeral — write
+  고삼, 이차, 백 그램. Gap `ko` may carry Latin/digits (KTX, PC방 precedent).
+- **Citation phrasing.** Never write a morpheme-possessive ("M14's -지 마세요",
+  "M17's -는 것") — write "-지 마세요 from M14"; hang 's only on a whole taught
+  word ("M57's 높이"). Never write "its M52's 예약". Every quoted span from a
+  shipped note must be VERBATIM (the reviewer runs
+  `reference/authoring/tools/quotes.py` over your draft — run it yourself:
+  `python3 reference/authoring/tools/quotes.py <scratchpad dir> mNN`).
+- **Self-verify before reporting.** Copy `verify-draft.py`, `lint_language.py`
+  and `rom-exceptions.json` from `reference/authoring/` into the scratchpad dir
+  (do not edit the repo copies) and run `python3 <scratchpad>/verify-draft.py mNN`
+  there until it reports 0 FAIL; list every remaining MANUAL line in your report.
+  `reference/authoring/tools/lookup.py 단어` prints a word's module/id/en/notes
+  (`--comp` decomposes a compound into taught parts); `tools/iou.py 문자열` finds
+  every shipped-note mention of a string. Use them instead of raw grep.
 - **NIKL sense collapse:** the ledger tracks base strings, so if your slice word's
   NIKL entry is a different sense than your primary teaching sense (check
   `reference/nikl-5965.tsv` — the 4th column hints hanja/sense), your note MUST
