@@ -18081,5 +18081,209 @@
     "rom": "eoje sureul mani masyeoseo achime tteugeoun seolleongtang han geureuseul meogeosseoyo",
     "wordIds": ["w_eoje", "w_sul", "w_mani", "w_masida", "w_achim", "w_tteugeopda", "w_seolleongtang", "w_hana", "w_geureut", "w_meokda"],
     "note": "The 탕 shelf's whole purpose in one confession: the hangover breakfast. -아/어서 chains cause to cure, M18's 뜨겁다 wears the badge -(으)ㄴ from M24 with its ㅂ softened (뜨거운), and M18's 그릇 counts the serving exactly as its note said (밥 한 그릇, one bowl) — 설렁탕 한 그릇을, the count riding after the noun. Korean eats soup for a hangover the way English drinks coffee; 해장국 (frozen — the hangover-soup category) is the umbrella, and 설렁탕 is its mildest, milkiest member. M9's 술 is the cause; nobody counts the bottles."
+  },
+  {
+    "id": "s_m81_bus_safety",
+    "en": [
+      { "t": "For safety,", "role": "other", "id": "a" },
+      { "t": "while the bus is moving,", "role": "other", "id": "b" },
+      { "t": "do not get up", "role": "verb", "id": "v" },
+      { "t": "from your seat", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "safety-[obj] for-the-sake-of", "role": "other", "id": "a" },
+      { "t": "movement middle-at-[topic]", "role": "other", "id": "b" },
+      { "t": "seat-from", "role": "place", "id": "p" },
+      { "t": "get-up-don't-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "안전을 위해서", "role": "other", "id": "a" },
+      { "t": "이동 중에는", "role": "other", "id": "b" },
+      { "t": "자리에서", "role": "place", "id": "p" },
+      { "t": "일어나지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "anjeoneul wihaeseo idong jungeneun jarieseo ireonaji maseyo",
+    "wordIds": ["w_anjeon", "w_wihada", "w_idong", "w_s2_jung", "w_jari", "w_ireonada"],
+    "note": "The bus notice, read off the wall: two dismounts in one breath. 안전 stands bare on M32's 위하다 (안전을 위해서 = for safety — the noun frame M44 later verbed), and 이동 hangs on the busy-sign 중 from S2 — 이동 중 = while in motion, the same machine as 공사 중. Then -지 마세요 from M14 issues the order on M8's 일어나다, with M12's 자리 as the place you stay in. Not one 하다 in the sentence; print never needed them."
+  },
+  {
+    "id": "s_m81_kind_famous",
+    "en": [
+      { "t": "This restaurant", "role": "subject", "id": "s" },
+      { "t": "is famous", "role": "verb", "id": "v" },
+      { "t": "in the neighborhood", "role": "place", "id": "p" },
+      { "t": "because the staff are kind, you know", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "this restaurant-[topic]", "role": "subject", "id": "s" },
+      { "t": "staff-[subj] kind-because", "role": "other", "id": "a" },
+      { "t": "neighborhood-in", "role": "place", "id": "p" },
+      { "t": "famous-you-know", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 식당은", "role": "subject", "id": "s" },
+      { "t": "직원이 친절해서", "role": "other", "id": "a" },
+      { "t": "동네에서", "role": "place", "id": "p" },
+      { "t": "유명하잖아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i sikdangeun jigwoni chinjeolhaeseo dongneeseo yumyeonghajanayo",
+    "wordIds": ["w_i_det", "w_sikdang", "w_jigwon", "w_chinjeolhada", "w_dongne", "w_yumyeonghada"],
+    "note": "The review, spoken — and the module's thesis run backwards: the sign says 친절 and 유명, the mouth puts the 하다 back on. M4's 친절하다 explains through Ring 1's -아/어서, M17's 유명하다 closes on -잖아요 from M42, aimed at someone who already knows the place. M16's 직원 is the one being kind; M22's 동네 is the radius of the fame. 이 식당은 and 직원이 stack as a double subject — the restaurant is the topic, the staff do the work."
+  },
+  {
+    "id": "s_m81_three_kinds",
+    "en": [
+      { "t": "Apples —", "role": "subject", "id": "s" },
+      { "t": "there are only three kinds, but", "role": "other", "id": "a" },
+      { "t": "the quality", "role": "subject", "id": "q" },
+      { "t": "of all of them", "role": "other", "id": "c" },
+      { "t": "is good, I see", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "apple-[topic]", "role": "subject", "id": "s" },
+      { "t": "three kind-only not-exist-but", "role": "other", "id": "a" },
+      { "t": "quality-[subj]", "role": "subject", "id": "q" },
+      { "t": "all", "role": "other", "id": "c" },
+      { "t": "good-I-notice", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사과는", "role": "subject", "id": "s" },
+      { "t": "세 종밖에 없는데", "role": "other", "id": "a" },
+      { "t": "질이", "role": "subject", "id": "q" },
+      { "t": "다", "role": "other", "id": "c" },
+      { "t": "좋네요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sagwaneun se jongbakke eomneunde jiri da jonneyo",
+    "wordIds": ["w_sagwa", "w_set", "w_jong", "w_eopda", "w_jil", "w_da", "w_jota"],
+    "note": "Two radar singles on one shelf: 종 counting kinds behind M5's 셋 (contracted to 세, the counter rule), and 질 riding the possession chassis — 질이 좋다, quality as a thing the apples have. 밖에 from M39 with M1's 없다 makes three the ceiling, -는데 from M53 turns the corner, and -네요 from M26 notices the good news in real time, on M1's 좋다 with M9's 다. M3's 사과 on the topic particle, 질이 on the subject: the double-subject frame, at the fruit stand."
+  },
+  {
+    "id": "s_m81_cohort_ten_years",
+    "en": [
+      { "t": "Since I graduated from the national university,", "role": "other", "id": "a" },
+      { "t": "it has been ten years, but", "role": "other", "id": "b" },
+      { "t": "I still often", "role": "other", "id": "c" },
+      { "t": "meet", "role": "verb", "id": "v" },
+      { "t": "my classmates from that intake", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "national university-[obj] graduated-[badge] since", "role": "other", "id": "a" },
+      { "t": "ten year-[subj] became-but", "role": "other", "id": "b" },
+      { "t": "cohort-[plural]-[obj]", "role": "object", "id": "o" },
+      { "t": "still often", "role": "other", "id": "c" },
+      { "t": "meet", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "국립 대학교를 졸업한 지", "role": "other", "id": "a" },
+      { "t": "십 년이 됐는데", "role": "other", "id": "b" },
+      { "t": "동기들을", "role": "object", "id": "o" },
+      { "t": "아직 자주", "role": "other", "id": "c" },
+      { "t": "만나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gungnip daehakgyoreul joreophan ji sip nyeoni dwaenneunde donggideureul ajik jaju mannayo",
+    "wordIds": ["w_gungnip", "w_daehakgyo", "w_joreophada", "w_n_sip", "w_nyeon", "w_doeda", "w_donggi", "w_ajik", "w_jaju", "w_mannada"],
+    "note": "The campus sentence, ten years on: 국립 stacks bare on M15's 대학교 — the notice-board word said 궁닙 — and 동기 arrives in its 同期 sense, the intake, on the plural 들 from M27. -(으)ㄴ 지 from M46 counts the time since M15's 졸업하다, closed by 십 년이 됐는데 with M2's 십, M25's 년, M10's 되다, and the -는데 from M53 that sets up the surprise; M14's 아직 and M8's 자주 deliver it. Had the sentence meant motive, 동기 could not take 들 and a coffee date."
+  },
+  {
+    "id": "s_m81_side_effects",
+    "en": [
+      { "t": "If side effects", "role": "subject", "id": "s" },
+      { "t": "arise", "role": "other", "id": "b" },
+      { "t": "after taking the medicine,", "role": "other", "id": "a" },
+      { "t": "go", "role": "verb", "id": "v" },
+      { "t": "to the hospital", "role": "place", "id": "p" },
+      { "t": "right away", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "medicine-[obj] eat-and", "role": "other", "id": "a" },
+      { "t": "side-effect-[subj]", "role": "subject", "id": "s" },
+      { "t": "arise-if", "role": "other", "id": "b" },
+      { "t": "right-away", "role": "other", "id": "c" },
+      { "t": "hospital-to", "role": "place", "id": "p" },
+      { "t": "go-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "약을 먹고", "role": "other", "id": "a" },
+      { "t": "부작용이", "role": "subject", "id": "s" },
+      { "t": "생기면", "role": "other", "id": "b" },
+      { "t": "바로", "role": "other", "id": "c" },
+      { "t": "병원에", "role": "place", "id": "p" },
+      { "t": "가세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yageul meokgo bujagyongi saenggimyeon baro byeongwone gaseyo",
+    "wordIds": ["w_yak", "w_meokda", "w_bujagyong", "w_saenggida", "w_baro", "w_byeongwon", "w_gada"],
+    "note": "The pharmacist's last line, over the counter: M10's 약 is eaten (M1's 먹다 — Korean eats medicine, that note said so), verb--고 from M10 sequences it, and 부작용 erupts through M28's 생기다 — side effects arise, nobody makes them. -(으)면 from M20 sets the condition, M28's 바로 the urgency, M6's 병원 the destination. 부작용이 is a bare subject inside the if-clause, so it keeps its seat."
+  },
+  {
+    "id": "s_m81_pop_culture_news",
+    "en": [
+      { "t": "According to a newspaper survey,", "role": "other", "id": "a" },
+      { "t": "the popularity of Korean pop culture", "role": "subject", "id": "s" },
+      { "t": "is reportedly rising", "role": "verb", "id": "v" },
+      { "t": "in countries around the world", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "one newspaper-company survey-according-to", "role": "other", "id": "a" },
+      { "t": "world each-country-in", "role": "place", "id": "p" },
+      { "t": "Korea pop-culture-of popularity-[subj]", "role": "subject", "id": "s" },
+      { "t": "rise-ing is-[quote] says-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "한 신문사 조사에 의하면", "role": "other", "id": "a" },
+      { "t": "세계 각국에서", "role": "place", "id": "p" },
+      { "t": "한국 대중문화의 인기가", "role": "subject", "id": "s" },
+      { "t": "높아지고 있다고 합니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "han sinmunsa josae uihamyeon segye gakgugeseo hanguk daejungmunhwaui ingiga nopajigo itdago hamnida",
+    "wordIds": ["w_hana", "w_sinmunsa", "w_josa", "w_uihada", "w_segye", "w_gakguk", "w_hanguk", "w_daejungmunhwa", "w_ingi", "w_nopda", "w_hada"],
+    "note": "A front page, machined: 에 의하면 from M56 pins the claim to a 신문사 and its 조사 (M44), 세계 각국 is the foreign-desk frame with M23's 세계, and 대중문화 stands as a field, M17's 인기 hanging off it on the possessive 의. M7's 높다 climbs through -아/어지다 from M35 inside -고 있다, and the quote machine from M32 relays the whole thing in the 합니다체 from M4. Three welds, one headline; the 한 is M5's 하나 in its one-newspaper job."
+  },
+  {
+    "id": "s_m81_rain_indoors",
+    "en": [
+      { "t": "If it rains,", "role": "other", "id": "a" },
+      { "t": "the outdoor performance", "role": "subject", "id": "s" },
+      { "t": "moves", "role": "verb", "id": "v" },
+      { "t": "indoors", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] come-if", "role": "other", "id": "a" },
+      { "t": "outdoor performance-[topic]", "role": "subject", "id": "s" },
+      { "t": "indoors-to", "role": "place", "id": "p" },
+      { "t": "moves-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가 오면", "role": "other", "id": "a" },
+      { "t": "야외 공연은", "role": "subject", "id": "s" },
+      { "t": "실내로", "role": "place", "id": "p" },
+      { "t": "이동합니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga omyeon yaoe gongyeoneun sillaero idonghamnida",
+    "wordIds": ["w_bi", "w_oda", "w_yaoe", "w_gongyeon", "w_sillae", "w_idong"],
+    "note": "The line at the bottom of every festival poster: 야외 stacks bare on M48's 공연, M65's 실내 is its mirror at the far end of M6's 로, and 이동 mounts its 하다 in the 합니다체 from M4 — the one place print does conjugate, because a poster is still speaking to you. -(으)면 from M20 supplies the rain clause on M11's 비 and M1's 오다. Speech would say 옮겨요 with M50's 옮기다; the poster says 이동합니다."
+  },
+  {
+    "id": "s_m81_house_deposit",
+    "en": [
+      { "t": "To buy a house,", "role": "other", "id": "a" },
+      { "t": "I'm depositing", "role": "verb", "id": "v" },
+      { "t": "half my salary", "role": "object", "id": "o" },
+      { "t": "every month", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "house-[obj] buy-in-order-to", "role": "other", "id": "a" },
+      { "t": "month-every", "role": "other", "id": "b" },
+      { "t": "salary-of half-[obj]", "role": "object", "id": "o" },
+      { "t": "deposit-ing-am", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주택을 사기 위해서", "role": "other", "id": "a" },
+      { "t": "달마다", "role": "other", "id": "b" },
+      { "t": "월급의 반을", "role": "object", "id": "o" },
+      { "t": "예금하고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jutaegeul sagi wihaeseo dalmada wolgeubui baneul yegeumhago isseoyo",
+    "wordIds": ["w_jutaek", "w_sada", "w_wihada", "w_dal", "w_wolgeup", "w_ban", "w_yegeum", "w_itda"],
+    "note": "The mortgage sentence: 주택 as the category you save toward (M2's 사다 on -기 위해서 from M44), 예금 mounting its 하다 inside -고 있다 because depositing is something you DO, month after month. 마다 from M31 on M16's 달 sets the rhythm; M16's 월급 gives up its 반 (M5) on the possessive 의. Speech would say 집을 사려고 with -(으)려고 from M50; the bank's brochure — and the plan you wrote down — say this."
   }
 ]
