@@ -17880,5 +17880,206 @@
     "rom": "yojeum undong bujogin geot gataseo maeil achim samsip bunssik geotgiro haesseoyo",
     "wordIds": ["w_yojeum", "w_undonghada", "w_bujok", "w_gatda_same", "w_maeil", "w_achim", "w_n_sam", "w_n_sip", "w_c_bun", "w_geotda", "w_hada"],
     "note": "부족 in its 不足 sense, stacked bare on 운동 — the noun inside M8's 운동하다, dismounted the way M75 taught — and hung on the copula under 것 같다 from M34: 운동 부족인 것 같아서, I seem to be exercise-deficient, so. The cure recycles three Band 5 pieces: M5's 매일 + M2's 아침 schedule it, 씩 (M43) doses it — 삼십 분씩, thirty minutes a go, M2's 삼 and 십 on M5's 분 — and -기로 하다 from M48 makes M6's 걷다 a resolution. The national condition M39's 부족하다 diagnosed as 잠이 부족해요 has a sibling; this is the January sentence for it."
+  },
+  {
+    "id": "s_m80_junggukjip_order",
+    "en": [
+      { "t": "For lunch today,", "role": "other", "id": "t" },
+      { "t": "shall we order", "role": "verb", "id": "v" },
+      { "t": "fried rice", "role": "object", "id": "o" },
+      { "t": "from the Chinese place?", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "today lunch-[topic]", "role": "other", "id": "t" },
+      { "t": "Chinese-place-from", "role": "place", "id": "p" },
+      { "t": "fried-rice-[obj]", "role": "object", "id": "o" },
+      { "t": "order-shall-we?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오늘 점심은", "role": "other", "id": "t" },
+      { "t": "중국집에서", "role": "place", "id": "p" },
+      { "t": "볶음밥을", "role": "object", "id": "o" },
+      { "t": "시킬까요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "oneul jeomsimeun junggukjibeseo bokkeumbabeul sikilkkayo?",
+    "wordIds": ["w_oneul", "w_jeomsim", "w_junggukjip", "w_bokkeumbap", "w_sikida"],
+    "note": "The office lunch vote, machined: -(으)ㄹ까요 from M9 makes the proposal and M3's 시키다 — the delivery verb M18's 배달 note called the operative phrase — carries it. 중국집에서 with 에서 is the source the food comes FROM, the way delivery Korean always phrases it; the 중국집 is where you order, not where you eat. M2's 오늘 + M3's 점심 wearing the topic 은 frame the day, and 볶음밥 is the safe vote when the table cannot agree on 자장면 or 짬뽕."
+  },
+  {
+    "id": "s_m80_no_plastic_bag",
+    "en": [
+      { "t": "I don't need", "role": "verb", "id": "v" },
+      { "t": "a plastic bag.", "role": "subject", "id": "s" },
+      { "t": "I can just put it", "role": "verb", "id": "w" },
+      { "t": "in my bag", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "plastic-bag-[topic]", "role": "subject", "id": "s" },
+      { "t": "need not-exist.", "role": "verb", "id": "v" },
+      { "t": "bag-in", "role": "place", "id": "p" },
+      { "t": "put-in-if is-fine", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "비닐봉지는", "role": "subject", "id": "s" },
+      { "t": "필요 없어요.", "role": "verb", "id": "v" },
+      { "t": "가방에", "role": "place", "id": "p" },
+      { "t": "넣으면 돼요", "role": "verb", "id": "w" }
+    ],
+    "rom": "binilbongjineun piryo eopseoyo. gabange neoeumyeon dwaeyo",
+    "wordIds": ["w_binilbongji", "w_piryohada", "w_eopda", "w_gabang", "w_neota", "w_doeda"],
+    "note": "The checkout answer, since 2019 the polite one: 필요 없어요 is M16's 필요하다 with its 하다 swapped for M1's 없다 — need does-not-exist — and 비닐봉지는 wears the topic 은 but grades as the subject of that 없어요 frame, the have-trap the M78 sentences already ran. Then -(으)면 돼요 from M23 grants the workaround: M28's 넣다 into M6's 가방, and it is fine. The cashier asked 봉투 필요하세요? in the words of M43's 봉투 note; this is the reply that saves a hundred won and a turtle."
+  },
+  {
+    "id": "s_m80_disposable_rule",
+    "en": [
+      { "t": "Inside the café,", "role": "place", "id": "p" },
+      { "t": "you must not use", "role": "verb", "id": "v" },
+      { "t": "disposable cups", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "café inside-at-[topic]", "role": "place", "id": "p" },
+      { "t": "single-use cup-[obj]", "role": "object", "id": "o" },
+      { "t": "use-if not is-okay", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "카페 안에서는", "role": "place", "id": "p" },
+      { "t": "일회용 컵을", "role": "object", "id": "o" },
+      { "t": "사용하면 안 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "kape aneseoneun ilhoeyong keobeul sayonghamyeon an dwaeyo",
+    "wordIds": ["w_kape", "w_an_inside", "w_ilhoeyong", "w_keop", "w_sayonghada", "w_doeda"],
+    "note": "The 2022 café rule as a sentence: -(으)면 안 돼요 from M20 — the prohibition machine, -(으)면 conditioning the 안 돼요 veto from M10 — forbids M10's 사용하다 on 일회용 컵, the module's bare modifier sitting in front of M18's 컵 with no particle between. 카페 안에서는 stacks M6's position-안 (not the negation 안 three chunks later — both are here, telling them apart) with 에서 and a contrast-는: inside, this rule; for takeout, the paper cup returns. The sign on the counter says the same thing in three words: 일회용품 사용 금지."
+  },
+  {
+    "id": "s_m80_suljari_two_hands",
+    "en": [
+      { "t": "At a drinking gathering,", "role": "place", "id": "p" },
+      { "t": "you have to receive", "role": "verb", "id": "v" },
+      { "t": "the glass", "role": "object", "id": "o" },
+      { "t": "with both hands", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "drinking-gathering-at-[topic]", "role": "place", "id": "p" },
+      { "t": "drinking-glass-[obj]", "role": "object", "id": "o" },
+      { "t": "two hand-with", "role": "other", "id": "b" },
+      { "t": "receive-only-if is-okay", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "술자리에서는", "role": "place", "id": "p" },
+      { "t": "술잔을", "role": "object", "id": "o" },
+      { "t": "두 손으로", "role": "other", "id": "b" },
+      { "t": "받아야 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "suljarieseoneun suljaneul du soneuro badaya dwaeyo",
+    "wordIds": ["w_suljari", "w_suljan", "w_dul", "w_son", "w_batda", "w_doeda"],
+    "note": "Two of this module's 술 compounds in one rule, and the rule is the culture: the gap deck's pouring etiquette, sentenced. -아/어야 돼요 — the obligation machine M10 built and M39 X-rayed as only-if + 되다 — makes M9's 받다 mandatory, and 두 손으로 — M5's 둘 contracted before M8's 손, M6's 으로 as the instrument — is the whole ritual: both hands for the glass, both hands for the bottle, the junior turning away to drink as M18's 건배 note described. 술자리에서는 with the contrast-는 says: here, this law; at home, pour however you like."
+  },
+  {
+    "id": "s_m80_cold_water_wake",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "drink", "role": "verb", "id": "v" },
+      { "t": "a glass of", "role": "other", "id": "b" },
+      { "t": "cold water", "role": "object", "id": "o" },
+      { "t": "the moment I get up in the morning", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s" },
+      { "t": "morning-in get-up-as-soon-as", "role": "other", "id": "a" },
+      { "t": "cold-water-[obj]", "role": "object", "id": "o" },
+      { "t": "one glass", "role": "other", "id": "b" },
+      { "t": "drink", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "아침에 일어나자마자", "role": "other", "id": "a" },
+      { "t": "찬물을", "role": "object", "id": "o" },
+      { "t": "한 잔", "role": "other", "id": "b" },
+      { "t": "마셔요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun achime ireonajamaja chanmureul han jan masyeoyo",
+    "wordIds": ["w_jeo", "w_achim", "w_ireonada", "w_chanmul", "w_hana", "w_c_jan", "w_masida"],
+    "note": "-자마자 from M38 clocks zero gap between M8's 일어나다 and the glass — the morning-water habit half of Korea's health columns prescribe. 찬물 is 차다 in its cold sense welded to M1's 물, and the count rides after the object the Korean way: 찬물을 한 잔, M5's 하나 contracted before M5's 잔. Change one word and it is the M5 sentence's milk or the S1 deck's 아아; keep it and it is the pouring order the gap deck files — 찬물도 위아래가 있다 — with nobody older in the room."
+  },
+  {
+    "id": "s_m80_dosirak_picnic",
+    "en": [
+      { "t": "When I went on the school picnic,", "role": "other", "id": "a" },
+      { "t": "my mom", "role": "subject", "id": "s" },
+      { "t": "packed", "role": "verb", "id": "v" },
+      { "t": "a lunchbox", "role": "object", "id": "o" },
+      { "t": "for me", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "picnic go-when", "role": "other", "id": "a" },
+      { "t": "mom-[subj]", "role": "subject", "id": "s" },
+      { "t": "lunchbox-[obj]", "role": "object", "id": "o" },
+      { "t": "for-me", "role": "other", "id": "b" },
+      { "t": "pack-gave-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "소풍 갈 때", "role": "other", "id": "a" },
+      { "t": "엄마가", "role": "subject", "id": "s" },
+      { "t": "도시락을", "role": "object", "id": "o" },
+      { "t": "", "role": "other", "id": "b" },
+      { "t": "챙겨 주셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sopung gal ttae eommaga dosirageul chaenggyeo jusyeosseoyo",
+    "wordIds": ["w_sopung", "w_gada", "w_ttae", "w_eomma", "w_dosirak", "w_chaenggida", "w_juda"],
+    "note": "M22's 소풍 note promised the scene (김밥 mandatory, mothers up at dawn rolling it); here it is from the child's side. -(으)ㄹ 때 from M25 sets the morning, M40's 챙기다 — the caretaking verb — does the packing, and -아/어 주다 from M9 with the honorific -시- inside (주셨어요) does what a Korean child does to a parent's verb: raises it. The for-me is invisible in the Korean; 주다 carries it. 도시락을 싸다 would be the packing itself; 챙겨 주다 is the love."
+  },
+  {
+    "id": "s_m80_japangi_coffee",
+    "en": [
+      { "t": "Vending-machine coffee", "role": "subject", "id": "s" },
+      { "t": "comes out", "role": "other", "id": "a" },
+      { "t": "in a paper cup, so", "role": "place", "id": "p" },
+      { "t": "it goes cold", "role": "verb", "id": "v" },
+      { "t": "fast", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "vending-machine coffee-[topic]", "role": "subject", "id": "s" },
+      { "t": "paper-cup-in", "role": "place", "id": "p" },
+      { "t": "come-out-because", "role": "other", "id": "a" },
+      { "t": "quickly", "role": "other", "id": "b" },
+      { "t": "cool-down-completely", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "자판기 커피는", "role": "subject", "id": "s" },
+      { "t": "종이컵에", "role": "place", "id": "p" },
+      { "t": "나오니까", "role": "other", "id": "a" },
+      { "t": "빨리", "role": "other", "id": "b" },
+      { "t": "식어 버려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "japangi keopineun jongikeobe naonikka ppalli sigeo beoryeoyo",
+    "wordIds": ["w_japangi", "w_keopi", "w_jongikeop", "w_naoda", "w_ppalli", "w_sikda", "w_beorida"],
+    "note": "Two packaging words meet in the office lobby: 자판기 stacked bare on M1's 커피 as a modifier, and 종이컵에 as the place the drink lands. -(으)니까 hands over the cause, M12's 빨리 the speed, and -아/어 버리다 from M52 — on M40's 식다, the heat-leaving verb — delivers the small regret: it went cold on you, completely, while you talked. 삼백 원 well spent anyway; the machine is the point, not the coffee."
+  },
+  {
+    "id": "s_m80_hangover_seolleongtang",
+    "en": [
+      { "t": "Yesterday", "role": "other", "id": "t" },
+      { "t": "I drank a lot, so", "role": "other", "id": "a" },
+      { "t": "in the morning", "role": "other", "id": "b" },
+      { "t": "I ate", "role": "verb", "id": "v" },
+      { "t": "a bowl of hot ox-bone soup", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "yesterday", "role": "other", "id": "t" },
+      { "t": "alcohol-[obj] a-lot drank-so", "role": "other", "id": "a" },
+      { "t": "morning-in", "role": "other", "id": "b" },
+      { "t": "hot-[badge] ox-bone-soup one bowl-[obj]", "role": "object", "id": "o" },
+      { "t": "ate", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제", "role": "other", "id": "t" },
+      { "t": "술을 많이 마셔서", "role": "other", "id": "a" },
+      { "t": "아침에", "role": "other", "id": "b" },
+      { "t": "뜨거운 설렁탕 한 그릇을", "role": "object", "id": "o" },
+      { "t": "먹었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje sureul mani masyeoseo achime tteugeoun seolleongtang han geureuseul meogeosseoyo",
+    "wordIds": ["w_eoje", "w_sul", "w_mani", "w_masida", "w_achim", "w_tteugeopda", "w_seolleongtang", "w_hana", "w_geureut", "w_meokda"],
+    "note": "The 탕 shelf's whole purpose in one confession: the hangover breakfast. -아/어서 chains cause to cure, M18's 뜨겁다 wears the badge -(으)ㄴ from M24 with its ㅂ softened (뜨거운), and M18's 그릇 counts the serving exactly as its note said (밥 한 그릇, one bowl) — 설렁탕 한 그릇을, the count riding after the noun. Korean eats soup for a hangover the way English drinks coffee; 해장국 (frozen — the hangover-soup category) is the umbrella, and 설렁탕 is its mildest, milkiest member. M9's 술 is the cause; nobody counts the bottles."
   }
 ]

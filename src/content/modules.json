@@ -1907,5 +1907,27 @@
       "s_m78_hyeongbu_sings", "s_m78_imo_broth", "s_m78_go3_damim", "s_m78_diplomat_decade",
       "s_m78_pm_visit", "s_m78_beginner_app", "s_m78_eldest_son", "s_m78_exercise_lack"
     ]
+  },
+  {
+    "id": "m80",
+    "title": "The Name Is the Recipe",
+    "order": 89,
+    "ring": 2,
+    "contentMd": "modules/module-80.md",
+    "wordIds": [
+      "w_bokkeumbap", "w_chobap", "w_bapgeureut", "w_sikppang",
+      "w_doenjangjjigae", "w_gimchijjigae", "w_seolleongtang", "w_galbitang",
+      "w_nokcha", "w_hongcha", "w_insamcha", "w_remon",
+      "w_chatjan", "w_chanmul", "w_gam", "w_suljan",
+      "w_sulbyeong", "w_suljari", "w_suljip", "w_podoju",
+      "w_wain", "w_junggukjip", "w_kare", "w_sosiji",
+      "w_dosirak", "w_jongikeop", "w_japangi", "w_bongji",
+      "w_binil", "w_binilbongji", "w_peullaseutik", "w_pojang",
+      "w_ilhoeyong", "w_ilhoeyongpum"
+    ],
+    "sentenceIds": [
+      "s_m80_junggukjip_order", "s_m80_no_plastic_bag", "s_m80_disposable_rule", "s_m80_suljari_two_hands",
+      "s_m80_cold_water_wake", "s_m80_dosirak_picnic", "s_m80_japangi_coffee", "s_m80_hangover_seolleongtang"
+    ]
   }
 ]
