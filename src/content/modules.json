@@ -1950,5 +1950,26 @@
       "s_m81_bus_safety", "s_m81_kind_famous", "s_m81_three_kinds", "s_m81_cohort_ten_years",
       "s_m81_side_effects", "s_m81_pop_culture_news", "s_m81_rain_indoors", "s_m81_house_deposit"
     ]
+  },
+  {
+    "id": "m79",
+    "title": "The Converter's Back Shelf",
+    "order": 88,
+    "ring": 2,
+    "contentMd": "modules/module-79.md",
+    "wordIds": [
+      "w_paesyeon", "w_belteu", "w_beoteun", "w_teseuteu",
+      "w_bakseu", "w_kaunteo", "w_meil", "w_midieo",
+      "w_paenti", "w_hompeiji", "w_pilleum", "w_geurup",
+      "w_pisi", "w_moniteo", "w_teipeu", "w_pail",
+      "w_aekseseori", "w_beullauseu", "w_reseutorang", "w_golpeu",
+      "w_golpeujang", "w_baedeuminteon", "w_seukijang", "w_seukeiteu",
+      "w_obeun", "w_raiteo", "w_renjeu", "w_poseuteo",
+      "w_memo", "w_paek", "w_kkeom"
+    ],
+    "sentenceIds": [
+      "s_m79_taxi_belt", "s_m79_button_door", "s_m79_apple_box", "s_m79_file_gone",
+      "s_m79_golf_weekends", "s_m79_skate_fall", "s_m79_quiz_trend", "s_m79_team_groups"
+    ]
   }
 ]

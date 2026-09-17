@@ -18285,5 +18285,194 @@
     "rom": "jutaegeul sagi wihaeseo dalmada wolgeubui baneul yegeumhago isseoyo",
     "wordIds": ["w_jutaek", "w_sada", "w_wihada", "w_dal", "w_wolgeup", "w_ban", "w_yegeum", "w_itda"],
     "note": "The mortgage sentence: 주택 as the category you save toward (M2's 사다 on -기 위해서 from M44), 예금 mounting its 하다 inside -고 있다 because depositing is something you DO, month after month. 마다 from M31 on M16's 달 sets the rhythm; M16's 월급 gives up its 반 (M5) on the possessive 의. Speech would say 집을 사려고 with -(으)려고 from M50; the bank's brochure — and the plan you wrote down — say this."
+  },
+  {
+    "id": "s_m79_taxi_belt",
+    "en": [
+      { "t": "When you get in a taxi,", "role": "other", "id": "a" },
+      { "t": "be sure to", "role": "other", "id": "b" },
+      { "t": "fasten", "role": "verb", "id": "v" },
+      { "t": "your seatbelt", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "taxi-[obj] ride-if", "role": "other", "id": "a" },
+      { "t": "safety-belt-[obj]", "role": "object", "id": "o" },
+      { "t": "surely", "role": "other", "id": "b" },
+      { "t": "fasten-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "택시를 타면", "role": "other", "id": "a" },
+      { "t": "안전벨트를", "role": "object", "id": "o" },
+      { "t": "꼭", "role": "other", "id": "b" },
+      { "t": "매세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "taeksireul tamyeon anjeonbelteureul kkok maeseyo",
+    "wordIds": ["w_taeksi", "w_tada", "w_anjeonhada", "w_belteu", "w_kkok", "w_maeda"],
+    "note": "The taxi sticker the 매다 note (M60) quoted ('안전벨트를 매세요 (seatbelt, riding frozen)'), unfrozen: 안전벨트 is M36's 안전하다 dismounted to its bare 안전 and welded to today's 벨트, and 매다 — the knot verb that note called the tie's OWN verb — takes it under -(으)세요 from M9. -(으)면 from M20 sets the condition on M6's 택시 and 타다; M29's 꼭 makes it non-negotiable, which in a Seoul taxi it is. The loan took the seatbelt and the fashion belt; the older 허리띠 kept the proverb."
+  },
+  {
+    "id": "s_m79_button_door",
+    "en": [
+      { "t": "If you press", "role": "other", "id": "a" },
+      { "t": "this button,", "role": "object", "id": "o" },
+      { "t": "the door", "role": "subject", "id": "s" },
+      { "t": "opens", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this button-[obj]", "role": "object", "id": "o" },
+      { "t": "press-if", "role": "other", "id": "a" },
+      { "t": "door-[subj]", "role": "subject", "id": "s" },
+      { "t": "opens-by-itself", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 버튼을", "role": "object", "id": "o" },
+      { "t": "누르면", "role": "other", "id": "a" },
+      { "t": "문이", "role": "subject", "id": "s" },
+      { "t": "열려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i beoteuneul nureumyeon muni yeollyeoyo",
+    "wordIds": ["w_i_det", "w_beoteun", "w_nureuda", "w_mun", "w_yeollida"],
+    "note": "The pair the 버튼 note promised — 버튼을 누르다 with M20's 누르다, whose note listed 'Buttons, links, elevator floors' before the word for button had landed — under -(으)면 from M20, and the door answers in the passive party (M36): 열려요, M36's 열리다, the door opening BY ITSELF because the button did the work. Nobody opens it; it opens — that is the whole difference between 열다 (M13) and 열리다, and every elevator in Korea runs the sentence. M29's 이 points at the button you should not be pressing."
+  },
+  {
+    "id": "s_m79_apple_box",
+    "en": [
+      { "t": "Bring", "role": "verb", "id": "v" },
+      { "t": "a box of apples", "role": "object", "id": "o" },
+      { "t": "to the counter", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "apple one box-[obj]", "role": "object", "id": "o" },
+      { "t": "counter-toward", "role": "place", "id": "p" },
+      { "t": "bring-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사과 한 박스를", "role": "object", "id": "o" },
+      { "t": "카운터로", "role": "place", "id": "p" },
+      { "t": "가져오세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sagwa han bakseureul kaunteoro gajyeooseyo",
+    "wordIds": ["w_sagwa", "w_hana", "w_bakseu", "w_kaunteo", "w_gajyeooda"],
+    "note": "Two of the shelf's Rule 4 words in one shop: 박스 working as a COUNTER — 사과 한 박스, M3's 사과 measured by the box the way M5 measures by the bottle, with 하나 contracted to 한 exactly as that module taught — and 카운터, the checkout M76's 계산 note called 계산대, reached through (으)로 from M6, the heading particle. M28's 가져오다 carries it under -(으)세요 from M9. The greengrocer would say 상자 in a dictionary and 박스 at the till; the till is where you are."
+  },
+  {
+    "id": "s_m79_file_gone",
+    "en": [
+      { "t": "The file", "role": "subject", "id": "s" },
+      { "t": "I hadn't saved", "role": "other", "id": "a" },
+      { "t": "is gone for good,", "role": "verb", "id": "v" },
+      { "t": "all of it", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "save not did-[badge]", "role": "other", "id": "a" },
+      { "t": "file-[subj]", "role": "subject", "id": "s" },
+      { "t": "all", "role": "other", "id": "b" },
+      { "t": "fly-away threw-away", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저장 안 한", "role": "other", "id": "a" },
+      { "t": "파일이", "role": "subject", "id": "s" },
+      { "t": "다", "role": "other", "id": "b" },
+      { "t": "날아가 버렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeojang an han pairi da naraga beoryeosseoyo",
+    "wordIds": ["w_jeojanghada", "w_pail", "w_da", "w_naragada", "w_beorida"],
+    "note": "M49's 날아가다 note wrote this sentence's grief in advance ('파일이 날아갔어요 = the unsaved file, mourned in every office'); today the file lands as a word and the loss gets its proper ending, -아/어 버리다 from M52 — gone, and there is nothing to be done. 저장 안 한 is M20's 저장하다 split around M3's 안 and wearing the past badge -(으)ㄴ from M24: the file that was not saved. M9's 다 makes it total. Every office has said this; the fix is the verb in the first chunk."
+  },
+  {
+    "id": "s_m79_golf_weekends",
+    "en": [
+      { "t": "I've decided to play", "role": "verb", "id": "v" },
+      { "t": "golf", "role": "object", "id": "o" },
+      { "t": "with my father", "role": "other", "id": "b" },
+      { "t": "every weekend", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "weekend-every", "role": "other", "id": "t" },
+      { "t": "father-with", "role": "other", "id": "b" },
+      { "t": "golf-[obj]", "role": "object", "id": "o" },
+      { "t": "hit-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말마다", "role": "other", "id": "t" },
+      { "t": "아버지하고", "role": "other", "id": "b" },
+      { "t": "골프를", "role": "object", "id": "o" },
+      { "t": "치기로 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumalmada abeojihago golpeureul chigiro haesseoyo",
+    "wordIds": ["w_jumal", "w_abeoji", "w_golpeu", "w_chida", "w_hada"],
+    "note": "골프를 치다 — the club joining M17's 치다 list ('The strike-play verb: 피아노를 치다, 기타를 치다, 테니스를 치다') — inside -기로 하다 from M48, the resolution machine, and 마다 from M31 makes it a standing date on M2's 주말. 하고 from M2 brings M4's 아버지, because golf in Korea is how fathers and sons talk without talking. Whether the round happens on grass or in a 스크린 골프 booth the gap deck files, the sentence is the same."
+  },
+  {
+    "id": "s_m79_skate_fall",
+    "en": [
+      { "t": "Since I don't know how to skate,", "role": "other", "id": "a" },
+      { "t": "I kept", "role": "other", "id": "b" },
+      { "t": "falling", "role": "verb", "id": "v" },
+      { "t": "on the ice", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "skate-[obj] ride-[badge] know-how not-know-because", "role": "other", "id": "a" },
+      { "t": "ice on-at", "role": "place", "id": "p" },
+      { "t": "continuously", "role": "other", "id": "b" },
+      { "t": "fell-over", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "스케이트를 탈 줄 몰라서", "role": "other", "id": "a" },
+      { "t": "얼음 위에서", "role": "place", "id": "p" },
+      { "t": "계속", "role": "other", "id": "b" },
+      { "t": "넘어졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seukeiteureul tal jul mollaseo eoreum wieseo gyesok neomeojyeosseoyo",
+    "wordIds": ["w_seukeiteu", "w_tada", "w_jul", "w_moreuda", "w_eoreum", "w_wi", "w_gyesok", "w_neomeojida"],
+    "note": "스케이트를 타다 — M6's 타다, the verb that has carried every vehicle since the bus — under the know-how machine -(으)ㄹ 줄 모르다 from M55, whose md drew the line: 수영할 수 있어요 = the pool allows it; 수영할 줄 알아요 = your arms know it. Here the feet do not know it, -아/어서 from M10 hands over the consequence, and M36's 넘어지다 delivers it on M40's 얼음 — 얼음 위에서, M6's 위 taking 에서 for where the falling happened. M28's 계속 makes it a whole afternoon."
+  },
+  {
+    "id": "s_m79_quiz_trend",
+    "en": [
+      { "t": "These days", "role": "other", "id": "t" },
+      { "t": "personality quizzes", "role": "subject", "id": "s" },
+      { "t": "are the trend", "role": "verb", "id": "v" },
+      { "t": "on social media", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "these-days", "role": "other", "id": "t" },
+      { "t": "SNS-at", "role": "place", "id": "p" },
+      { "t": "psychology test-[subj]", "role": "subject", "id": "s" },
+      { "t": "trend-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "요즘", "role": "other", "id": "t" },
+      { "t": "에스엔에스에서", "role": "place", "id": "p" },
+      { "t": "심리 테스트가", "role": "subject", "id": "s" },
+      { "t": "유행이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yojeum eseueneseueseo simni teseuteuga yuhaengieyo",
+    "wordIds": ["w_yojeum", "w_eseueneseu", "w_simni", "w_teseuteu", "w_yuhaeng"],
+    "note": "The 테스트 that is not a 시험: 심리 테스트, the collocation the 심리 note (M67) filed ('심리 테스트 is the personality quiz Korea loves') — nobody sits it, nobody grades it, you share the result. M20's 에스엔에스 is where, and its note is why the sentence does not say 소셜 미디어 ('Korea says SNS — es-en-es — where English says social media'); M21's 유행 closes it with the copula, the frame its own note gave (유행이에요 — it's in style). M26's 요즘 dates it, which is the point: by the time you read this, the quiz has changed."
+  },
+  {
+    "id": "s_m79_team_groups",
+    "en": [
+      { "t": "Our team", "role": "subject", "id": "s" },
+      { "t": "divides", "role": "other", "id": "a" },
+      { "t": "into three groups", "role": "other", "id": "b" },
+      { "t": "to work", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "our team-[topic]", "role": "subject", "id": "s" },
+      { "t": "three group-into", "role": "other", "id": "b" },
+      { "t": "divide-and", "role": "other", "id": "a" },
+      { "t": "work", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "우리 팀은", "role": "subject", "id": "s" },
+      { "t": "세 그룹으로", "role": "other", "id": "b" },
+      { "t": "나눠서", "role": "other", "id": "a" },
+      { "t": "일해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uri timeun se geurubeuro nanwoseo ilhaeyo",
+    "wordIds": ["w_uri", "w_tim", "w_set", "w_geurup", "w_nanuda", "w_ilhada"],
+    "note": "The neighbor-word thesis as a sentence: a 팀 (M16 — the office's own 우리, per its note) has a job, and 그룹 is what it becomes when you cut it — three loose sets, nothing in common but the cut. M56's 나누다 does the cutting, -아/어서 from M10 sequences it, and (으)로 from M6 in its result-state job says INTO three; M5's 셋 contracts to 세 in front of the loan the way it does in front of any counter. M2's 일하다 closes it. Korean borrowed 그룹 for exactly this — the group that is only a group."
   }
 ]
