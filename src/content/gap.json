@@ -2194,5 +2194,32 @@
     "lit": "an 언니's husband is 형부, a 누나's husband is 매형",
     "real": "in-law titles fork by the SPEAKER's gender, exactly as 언니/누나 did — whom you call what depends on who you are",
     "note": "The speaker-gender grid M4 started (형/오빠, 누나/언니 — who you are decides what you call your older sibling) runs into the in-laws: a woman's 언니 (M4) has a 형부 (this module); a man's 누나 (M4) has a 매형 (妹兄 — riding frozen), M27's 남편 either way. The younger side forks too: a younger sister's husband is 제부 to a woman and 매제 to a man (both riding frozen), and M58's 형님 note already showed kinship outranking gender in the other direction — a wife calling her husband's older sister 형님. Korean does not ask who the husband is; it asks who YOU are — the grid the M47 md drew ('Korean kinship is a coordinate system, not a word list'), with the speaker sitting at the origin. Learners get this wrong in one direction only: a man saying 형부 marks himself, gently, as having learned Korean from his girlfriend's dramas."
+  },
+  {
+    "id": "g_m80_chanmuldo_wiarae",
+    "cat": "phrase",
+    "ko": "찬물도 위아래가 있다",
+    "rom": "chanmuldo wiaraega itda",
+    "lit": "even cold water has an up and a down",
+    "real": "there is an order to everything, even a glass of water — the elder is served first",
+    "note": "This module's 찬물 hung on M76's 위아래 with M1's 있다: the positive law whose negative g_m76_wiaraega_eopda already filed (\"위아래가 없다 = to have no up-and-down — no sense of rank\"). If even water — free, cold, poured from the same 병 (M5) — goes to the eldest first, then everything does: who sits where, who lifts the spoon first (the M18 md's table rule), who gets the first 술잔. Said by an elder, half smiling, to a junior who reached for the glass; said by the junior about themselves, it is an apology. The proverb is the whole 술자리 in seven syllables."
+  },
+  {
+    "id": "g_m80_bapgeureut_ssaum",
+    "cat": "phrase",
+    "ko": "밥그릇 싸움",
+    "rom": "bapgeureut ssaum",
+    "lit": "a rice-bowl fight",
+    "real": "a turf war — departments, agencies, or professions fighting over who owns a job and its budget",
+    "note": "This module's 밥그릇 + M67's 싸움 (\"싸우다 (M19) + -(으)ㅁ: the fight, frozen solid enough to count\"): the bowl is the livelihood, so fighting over bowls is fighting over jobs. It is the newspaper's word for two ministries claiming one policy, two unions claiming one worksite, doctors and pharmacists claiming one prescription — never a fight about rice. Its verbs run the same metaphor: 밥그릇을 지키다 (M26's 지키다) = protect your position, 밥그릇을 뺏기다 (frozen — to have it snatched) = lose your job to someone. Korean measures a career in bowls; the M1 word for rice was the word for a living all along."
+  },
+  {
+    "id": "g_m80_pouring_rules",
+    "cat": "structure",
+    "ko": "두 손으로 따르고 두 손으로 받기",
+    "rom": "du soneuro ttareugo du soneuro batgi",
+    "lit": "pour with two hands, receive with two hands",
+    "real": "the 술자리 etiquette: never pour your own, pour for elders with both hands, receive with both, and turn away to drink",
+    "note": "M18's 건배 note has the clink (\"Juniors clink lower and turn slightly away to drink\"); this entry has the pour, which comes first. Rules, in order: you never fill your own 술잔 — someone fills it for you, and you watch theirs; the bottle goes in two hands (M5's 둘 on M8's 손, M32's 따르다 doing the pouring — its note ran 물을 따라 주세요 for water) when the receiver is older, and the glass is held in two when the pourer is; a junior turns the head and shoulders away to drink; an empty glass is an invitation and a full one is a refusal. The sentence deck runs the receiving half as a rule (받아야 돼요); the grammar is the obligation machine from M10, the culture is the politeness ladder of M4 holding a bottle. Learners get one thing wrong reliably: filling their own glass, which reads as a small announcement that nobody is looking after you."
   }
 ]
