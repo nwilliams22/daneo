@@ -18684,5 +18684,221 @@
     "rom": "binmuri changmune ssain meonjireul da ssiseo beoryeosseoyo",
     "wordIds": ["w_binmul", "w_changmun", "w_ssaida", "w_meonji", "w_da", "w_ssitda", "w_beorida"],
     "note": "Two welds meet on a window: 빗물 does the washing (said 빈물이 — the ㅅ nasalized, then the ㄹ liaising), 먼지 gets washed, and M61's 쌓이다 wears the badge -(으)ㄴ from M24 to say how the dust got there — piled up on its own, on M6's 창문. M8's 씻다 rides -아/어 버리다 from M52, the finished-and-gone ending, with M9's 다 making it total. Spring's 미세먼지 (M11) ends exactly this way, every year: one hard rain, and the sky is back."
+  },
+  {
+    "id": "s_m83_airport_plan",
+    "en": [
+      { "t": "Tomorrow before dawn,", "role": "other", "id": "t" },
+      { "t": "I'm scheduled to go", "role": "verb", "id": "v" },
+      { "t": "to Incheon Airport", "role": "place", "id": "p" },
+      { "t": "riding", "role": "other", "id": "a" },
+      { "t": "the airport bus", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "tomorrow dawn-at", "role": "other", "id": "t" },
+      { "t": "airport-bus-[obj]", "role": "object", "id": "o" },
+      { "t": "ride-and", "role": "other", "id": "a" },
+      { "t": "Incheon-Airport-to", "role": "place", "id": "p" },
+      { "t": "go-will schedule-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내일 새벽에", "role": "other", "id": "t" },
+      { "t": "공항버스를", "role": "object", "id": "o" },
+      { "t": "타고", "role": "other", "id": "a" },
+      { "t": "인천공항에", "role": "place", "id": "p" },
+      { "t": "갈 예정이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "naeil saebyeoge gonghangbeoseureul tago incheongonghange gal yejeongieyo",
+    "wordIds": ["w_naeil", "w_saebyeok", "w_gonghangbeoseu", "w_tada", "w_incheongonghang", "w_gada", "w_yejeong"],
+    "note": "The itinerary sentence: ~(으)ㄹ 예정이다 from M57 books the trip (the plan exists outside your head, that module said), and two of this module's welds ride it — 공항버스 on M6's 타다 with verb--고 from M10, 인천공항 as the destination on 에. M38's 새벽 sets the hour honestly: the first airport bus leaves while the city is still dark. M2's 내일 in front; the flight itself is the next module's problem."
+  },
+  {
+    "id": "s_m83_student_discount",
+    "en": [
+      { "t": "If you want to get", "role": "other", "id": "a" },
+      { "t": "the student discount,", "role": "object", "id": "o" },
+      { "t": "please show", "role": "verb", "id": "v" },
+      { "t": "your student ID", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "student discount-[obj]", "role": "object", "id": "o" },
+      { "t": "receive-want-if", "role": "other", "id": "a" },
+      { "t": "student-ID-[obj]", "role": "object", "id": "b" },
+      { "t": "show-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "학생 할인을", "role": "object", "id": "o" },
+      { "t": "받고 싶으면", "role": "other", "id": "a" },
+      { "t": "학생증을", "role": "object", "id": "b" },
+      { "t": "보여 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haksaeng harineul batgo sipeumyeon haksaengjeungeul boyeo juseyo",
+    "wordIds": ["w_haksaeng", "w_harin", "w_batda", "w_haksaengjeung", "w_boida", "w_juda"],
+    "note": "The counter's line: 학생 할인 is M43's 할인 with M4's 학생 stacked bare in front, received through M9's 받다 inside -고 싶다 from M3, and -(으)면 from M20 makes the deal conditional. Then 학생증 pays its own way — the card the M43 note said your ID exists for — on 보여 주세요: M36's 보이다 handed through -아/어 주세요 from M9, the show-me machine. Two objects, one sentence; the ID is the second."
+  },
+  {
+    "id": "s_m83_contact_change",
+    "en": [
+      { "t": "If your contact details", "role": "subject", "id": "s" },
+      { "t": "change,", "role": "other", "id": "a" },
+      { "t": "be sure to", "role": "other", "id": "b" },
+      { "t": "let me know", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "contact-details-[subj]", "role": "subject", "id": "s" },
+      { "t": "get-changed-if", "role": "other", "id": "a" },
+      { "t": "without-fail", "role": "other", "id": "b" },
+      { "t": "let-know-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "연락처가", "role": "subject", "id": "s" },
+      { "t": "바뀌면", "role": "other", "id": "a" },
+      { "t": "꼭", "role": "other", "id": "b" },
+      { "t": "알려 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeollakcheoga bakkwimyeon kkok allyeo juseyo",
+    "wordIds": ["w_yeollakcheo", "w_bakkwida", "w_kkok", "w_allida", "w_juda"],
+    "note": "The form's last line, spoken: 연락처 stands as a bare subject on 가, and M35's 바뀌다 — the passive of M9's 바꾸다 — lets the details change themselves, with -(으)면 from M20 as the hinge. Then M37's 알리다 through -아/어 주세요 from M9, the request that note called the most-texted in Korean (도착하면 알려 주세요), here with a new subject; M29's 꼭 makes it non-negotiable. Every 비상 연락처 field in the country ends with this sentence."
+  },
+  {
+    "id": "s_m83_handset",
+    "en": [
+      { "t": "The moment a call", "role": "subject", "id": "s" },
+      { "t": "came in,", "role": "other", "id": "a" },
+      { "t": "I picked up", "role": "verb", "id": "v" },
+      { "t": "the handset", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "phone-call-[subj]", "role": "subject", "id": "s" },
+      { "t": "come-as-soon-as", "role": "other", "id": "a" },
+      { "t": "handset-[obj]", "role": "object", "id": "o" },
+      { "t": "lifted", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "전화가", "role": "subject", "id": "s" },
+      { "t": "오자마자", "role": "other", "id": "a" },
+      { "t": "수화기를", "role": "object", "id": "o" },
+      { "t": "들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeonhwaga ojamaja suhwagireul deureosseoyo",
+    "wordIds": ["w_jeonhwa", "w_oda", "w_suhwagi", "w_deulda"],
+    "note": "The landline, in one reflex: a call COMES in Korean — 전화가 오다, M20's 전화 on M1's 오다, the way M11's 비 comes — and -자마자 from M38 leaves no gap before the hand moves. 수화기를 들다 is M28's 들다 in its lift job, the gesture this module's 수화기 note filed with its opposite, 수화기를 놓다. The office receptionist's whole day; the drama's whole plot twist."
+  },
+  {
+    "id": "s_m83_clean_ahead",
+    "en": [
+      { "t": "Before Mom got home,", "role": "other", "id": "a" },
+      { "t": "I ran", "role": "other", "id": "b" },
+      { "t": "the vacuum", "role": "object", "id": "o" },
+      { "t": "and wiped", "role": "verb", "id": "v" },
+      { "t": "the windows too,", "role": "object", "id": "c" },
+      { "t": "and had them ready", "role": "verb", "id": "w" }
+    ],
+    "gloss": [
+      { "t": "mom-[subj] come-[hon]-before", "role": "other", "id": "a" },
+      { "t": "vacuum-[obj]", "role": "object", "id": "o" },
+      { "t": "run-and", "role": "other", "id": "b" },
+      { "t": "glass-window-also", "role": "object", "id": "c" },
+      { "t": "wipe", "role": "verb", "id": "v" },
+      { "t": "set-down", "role": "verb", "id": "w" }
+    ],
+    "ko": [
+      { "t": "엄마가 오시기 전에", "role": "other", "id": "a" },
+      { "t": "청소기를", "role": "object", "id": "o" },
+      { "t": "돌리고", "role": "other", "id": "b" },
+      { "t": "유리창도", "role": "object", "id": "c" },
+      { "t": "닦아", "role": "verb", "id": "v" },
+      { "t": "놓았어요", "role": "verb", "id": "w" }
+    ],
+    "rom": "eommaga osigi jeone cheongsogireul dolligo yurichangdo dakka noasseoyo",
+    "wordIds": ["w_eomma", "w_oda", "w_cheongsogi", "w_dollida", "w_yurichang", "w_dakda", "w_nota"],
+    "note": "Chores banked before inspection: -아/어 놓다 from M40 on M8's 닦다 — wipe the pane and LEAVE it clean for when she walks in — with 청소기 running on M37's 돌리다 (that note's own phrase, 청소기를 돌려요, past-tensed) and verb--고 from M10 sequencing the two jobs. -기 전에 from M13 sets the deadline on M4's 엄마 with the honorific -(으)시- from M4 (오시기 — mothers are honored even in subordinate clauses). 유리창도 rides M2's 도: the windows were extra credit."
+  },
+  {
+    "id": "s_m83_volleyball_only",
+    "en": [
+      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "doesn't know how to kick", "role": "other", "id": "a" },
+      { "t": "a football, so", "role": "object", "id": "o" },
+      { "t": "he only plays", "role": "verb", "id": "v" },
+      { "t": "volleyball", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[topic]", "role": "subject", "id": "s" },
+      { "t": "football-[obj]", "role": "object", "id": "o" },
+      { "t": "kick-[badge] know-how not-know-because", "role": "other", "id": "a" },
+      { "t": "volleyball-only", "role": "object", "id": "b" },
+      { "t": "does", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생은", "role": "subject", "id": "s" },
+      { "t": "축구공을", "role": "object", "id": "o" },
+      { "t": "찰 줄 몰라서", "role": "other", "id": "a" },
+      { "t": "배구만", "role": "object", "id": "b" },
+      { "t": "해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengeun chukgugongeul chal jul mollaseo baeguman haeyo",
+    "wordIds": ["w_dongsaeng", "w_chukgugong", "w_chada", "w_jul", "w_moreuda", "w_baegu", "w_hada"],
+    "note": "The gym sentence: -(으)ㄹ 줄 모르다 from M55 — the know-how machine, negative — on M66's 차다 (the foot-swing verb that note aimed at M17's 공; here the ball is this module's 축구공), and Ring 1's -아/어서 turns the gap into a reason. 배구 takes 만 from M30 and the plain 하다 (M1) that every ball game runs on: 축구를 하다, 배구를 하다. M4's 동생 is the subject on the topic particle; the ㄹ-stem 몰라서 is M4's 모르다 in the 르-family from M7."
+  },
+  {
+    "id": "s_m83_standing_commute",
+    "en": [
+      { "t": "Every morning,", "role": "other", "id": "t" },
+      { "t": "I go to work", "role": "verb", "id": "v" },
+      { "t": "standing", "role": "other", "id": "b" },
+      { "t": "because there are no", "role": "other", "id": "a" },
+      { "t": "seats", "role": "subject", "id": "s" },
+      { "t": "on the city bus", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "morning-every", "role": "other", "id": "t" },
+      { "t": "city-bus-on", "role": "place", "id": "p" },
+      { "t": "seat-[subj]", "role": "subject", "id": "s" },
+      { "t": "not-exist-because", "role": "other", "id": "a" },
+      { "t": "standing", "role": "other", "id": "b" },
+      { "t": "go-to-work", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아침마다", "role": "other", "id": "t" },
+      { "t": "시내버스에", "role": "place", "id": "p" },
+      { "t": "좌석이", "role": "subject", "id": "s" },
+      { "t": "없어서", "role": "other", "id": "a" },
+      { "t": "서서", "role": "other", "id": "b" },
+      { "t": "출근해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "achimmada sinaebeoseue jwaseogi eopseoseo seoseo chulgeunhaeyo",
+    "wordIds": ["w_achim", "w_sinaebeoseu", "w_jwaseok", "w_eopda", "w_seoda", "w_chulgeunhada"],
+    "note": "The commute, measured in seats: 마다 from M31 on M2's 아침 sets the daily rhythm, 시내버스에 is the place, and 좌석이 stands as a bare subject of M1's 없다 — the seats do not exist, English's 'have' be damned. Then M14's 서다 doubled: 서서 is 서다 in -아/어서 doing manner work (standing, I commute), a job the connective has held since Ring 1, before M16's 출근하다 closes. The 자가용 in this module's shelf is the alternative the speaker is thinking about."
+  },
+  {
+    "id": "s_m83_dongdaemun_dawn",
+    "en": [
+      { "t": "Dongdaemun Market", "role": "subject", "id": "s" },
+      { "t": "opens", "role": "other", "id": "a" },
+      { "t": "its doors", "role": "object", "id": "o" },
+      { "t": "even at three in the morning, and", "role": "other", "id": "t" },
+      { "t": "there are so many", "role": "verb", "id": "v" },
+      { "t": "people", "role": "subject", "id": "q" }
+    ],
+    "gloss": [
+      { "t": "Dongdaemun-Market-[topic]", "role": "subject", "id": "s" },
+      { "t": "dawn three o'clock-at-even", "role": "other", "id": "t" },
+      { "t": "door-[obj]", "role": "object", "id": "o" },
+      { "t": "open-and-yet", "role": "other", "id": "a" },
+      { "t": "people-[subj]", "role": "subject", "id": "q" },
+      { "t": "really many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동대문시장은", "role": "subject", "id": "s" },
+      { "t": "새벽 세 시에도", "role": "other", "id": "t" },
+      { "t": "문을", "role": "object", "id": "o" },
+      { "t": "여는데", "role": "other", "id": "a" },
+      { "t": "사람이", "role": "subject", "id": "q" },
+      { "t": "정말 많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongdaemunsijangeun saebyeok se siedo muneul yeoneunde sarami jeongmal manayo",
+    "wordIds": ["w_dongdaemunsijang", "w_saebyeok", "w_set", "w_c_si", "w_mun", "w_yeolda", "w_saram", "w_jeongmal", "w_manta"],
+    "note": "The B-list's last sentence, at the market that never closes: -는데 from M53 turns the corner between the hour and the crowd. 새벽 세 시 is M38's 새벽 (that note: \"in Korea it starts at midnight\") with M5's 셋 contracted to 세 before the hour counter, and 에도 stacks M2's 도 on the time particle — even then. 문을 열다 is M13's 열다 on M6's 문, ㄹ dropped before -는데 (여는데); 사람이 is the second subject of a double-subject frame, closed by M7's 많다 with M11's 정말. Fashion buyers, carts, cash — see the gap deck."
   }
 ]
