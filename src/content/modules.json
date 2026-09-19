@@ -1992,5 +1992,27 @@
       "s_m82_trail_birdsong", "s_m82_zoo_elephant", "s_m82_forsythia_march", "s_m82_two_stops",
       "s_m82_moonlit_river", "s_m82_monkey_comfort", "s_m82_grandpa_barber", "s_m82_rain_washes_dust"
     ]
+  },
+  {
+    "id": "m83",
+    "title": "Kit and Carriage",
+    "order": 92,
+    "ring": 2,
+    "contentMd": "modules/module-83.md",
+    "wordIds": [
+      "w_jeonhwagi", "w_suhwagi", "w_sajingi", "w_cheongsogi",
+      "w_dojagi", "w_haksaengjeung", "w_yeollakcheo", "w_jwaseok",
+      "w_jagayong", "w_junbimul", "w_hwajangpum", "w_hyangsu",
+      "w_undongbok", "w_gukgi", "w_supyo", "w_baneul",
+      "w_bit_comb", "w_damyo", "w_sogot", "w_chaekgabang",
+      "w_yurichang", "w_sinmunji", "w_geulssi", "w_batchim",
+      "w_chukgugong", "w_gwontu", "w_baegu", "w_gosokbeoseu",
+      "w_sinaebeoseu", "w_gonghangbeoseu", "w_jihado", "w_gimpogonghang",
+      "w_incheongonghang", "w_dongdaemunsijang"
+    ],
+    "sentenceIds": [
+      "s_m83_airport_plan", "s_m83_student_discount", "s_m83_contact_change", "s_m83_handset",
+      "s_m83_clean_ahead", "s_m83_volleyball_only", "s_m83_standing_commute", "s_m83_dongdaemun_dawn"
+    ]
   }
 ]
