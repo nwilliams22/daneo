@@ -18474,5 +18474,215 @@
     "rom": "uri timeun se geurubeuro nanwoseo ilhaeyo",
     "wordIds": ["w_uri", "w_tim", "w_set", "w_geurup", "w_nanuda", "w_ilhada"],
     "note": "The neighbor-word thesis as a sentence: a 팀 (M16 — the office's own 우리, per its note) has a job, and 그룹 is what it becomes when you cut it — three loose sets, nothing in common but the cut. M56's 나누다 does the cutting, -아/어서 from M10 sequences it, and (으)로 from M6 in its result-state job says INTO three; M5's 셋 contracts to 세 in front of the loan the way it does in front of any counter. M2's 일하다 closes it. Korean borrowed 그룹 for exactly this — the group that is only a group."
+  },
+  {
+    "id": "s_m82_trail_birdsong",
+    "en": [
+      { "t": "Every weekend,", "role": "other", "id": "a" },
+      { "t": "while walking the trail up the back hill,", "role": "other", "id": "b" },
+      { "t": "I listen", "role": "verb", "id": "v" },
+      { "t": "to the birdsong", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "weekend-every", "role": "other", "id": "a" },
+      { "t": "back-hill trail-[obj] walk-while", "role": "other", "id": "b" },
+      { "t": "birdsong-[obj]", "role": "object", "id": "o" },
+      { "t": "listen", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말마다", "role": "other", "id": "a" },
+      { "t": "뒷산 등산로를 걸으면서", "role": "other", "id": "b" },
+      { "t": "새소리를", "role": "object", "id": "o" },
+      { "t": "들어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumalmada dwitsan deungsalloreul georeumyeonseo saesorireul deureoyo",
+    "wordIds": ["w_jumal", "w_dwitsan", "w_deungsallo", "w_geotda", "w_saesori", "w_deutda"],
+    "note": "The hike, at retiree pace: 뒷산 stacks bare on 등산로 — the back hill's trail, two welds in a row, said 뒫싼 등살로 — and -(으)면서 from M38 runs M6's 걷다 (ㄷ-irregular: 걸으-) alongside M2's 듣다 (걸으면서 들어요 — both stems soften before the vowel). 마다 from M31 on M2's 주말 makes it a habit; 새소리 is the object M36's 들리다 would have made a subject. Same trail, active voice this time."
+  },
+  {
+    "id": "s_m82_zoo_elephant",
+    "en": [
+      { "t": "At the zoo,", "role": "place", "id": "p" },
+      { "t": "the child", "role": "subject", "id": "s" },
+      { "t": "got to touch", "role": "verb", "id": "v" },
+      { "t": "an elephant", "role": "object", "id": "o" },
+      { "t": "for the first time", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "zoo-at", "role": "place", "id": "p" },
+      { "t": "child-[subj]", "role": "subject", "id": "s" },
+      { "t": "first-time-as", "role": "other", "id": "a" },
+      { "t": "elephant-[obj]", "role": "object", "id": "o" },
+      { "t": "touch-try-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동물원에서", "role": "place", "id": "p" },
+      { "t": "아이가", "role": "subject", "id": "s" },
+      { "t": "처음으로", "role": "other", "id": "a" },
+      { "t": "코끼리를", "role": "object", "id": "o" },
+      { "t": "만져 봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongmurwoneseo aiga cheoeumeuro kokkirireul manjyeo bwasseoyo",
+    "wordIds": ["w_dongmurwon", "w_ai", "w_cheoeum", "w_kokkiri", "w_manjida", "w_boda"],
+    "note": "The zoo, from a child's height: 동물원 is the place (said 동무뤈, the ㄹ liaising), 코끼리 the object, and -아/어 보다 from M16 turns M41's 만지다 into an experience — 만져 봤어요 = touched, and found out what an elephant feels like. M15's 처음 on 으로 stamps it as a first; M4's 아이 keeps the subject particle because the sentence is about what happened to them. The try-machine is how Korean files firsts."
+  },
+  {
+    "id": "s_m82_forsythia_march",
+    "en": [
+      { "t": "As soon as March came,", "role": "other", "id": "a" },
+      { "t": "forsythia", "role": "subject", "id": "s" },
+      { "t": "started blooming", "role": "verb", "id": "v" },
+      { "t": "along the roadside", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "March-[subj] become-as-soon-as", "role": "other", "id": "a" },
+      { "t": "roadside-at", "role": "place", "id": "p" },
+      { "t": "forsythia-[subj]", "role": "subject", "id": "s" },
+      { "t": "bloom-start-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "삼월이 되자마자", "role": "other", "id": "a" },
+      { "t": "길가에", "role": "place", "id": "p" },
+      { "t": "개나리가", "role": "subject", "id": "s" },
+      { "t": "피기 시작했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "samwori doejamaja gilgae gaenariga pigi sijakhaesseoyo",
+    "wordIds": ["w_n_sam", "w_wol", "w_doeda", "w_gilga", "w_gaenari", "w_pida", "w_sijakhada"],
+    "note": "Spring's first line, dated: 삼월 is the month pattern M25 set (Sino number + 월), M10's 되다 turns the calendar page, and -자마자 from M38 makes the bloom instantaneous — which, with 개나리, it nearly is. 길가 takes the location 에 as the hedge's address, and -기 시작하다 from M15 starts M22's 피다: 피기 시작했어요, the sentence the bloom forecast is written in. 진달래 follows a fortnight later; M11's 벚꽃 after that."
+  },
+  {
+    "id": "s_m82_two_stops",
+    "en": [
+      { "t": "Go out to the main road,", "role": "other", "id": "a" },
+      { "t": "take the bus,", "role": "other", "id": "b" },
+      { "t": "and go", "role": "verb", "id": "v" },
+      { "t": "two stops", "role": "other", "id": "c" },
+      { "t": "further", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "main-road-to go-out-and", "role": "other", "id": "a" },
+      { "t": "bus-[obj] ride-and", "role": "other", "id": "b" },
+      { "t": "two stop", "role": "other", "id": "c" },
+      { "t": "more", "role": "other", "id": "d" },
+      { "t": "go-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "큰길로 나가서", "role": "other", "id": "a" },
+      { "t": "버스를 타고", "role": "other", "id": "b" },
+      { "t": "두 정거장", "role": "other", "id": "c" },
+      { "t": "더", "role": "other", "id": "d" },
+      { "t": "가세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "keungillo nagaseo beoseureul tago du jeonggeojang deo gaseyo",
+    "wordIds": ["w_keungil", "w_nagada", "w_beoseu", "w_tada", "w_dul", "w_jeonggeojang", "w_deo", "w_gada"],
+    "note": "Directions, in the order feet take them: 큰길로 with M6's 로 (said 큰길로, the two ㄹs meeting), M8's 나가다 on -아/어서 for the first leg, M6's 버스 and 타다 on verb--고 from M10 for the second, and then the count — 두 정거장, M5's 둘 contracted before a counter, because 정거장 counts intervals. M9's 더 adds them; -(으)세요 from M9 on M1's 가다 hands the whole route over politely. The subway app says the same thing with numbers."
+  },
+  {
+    "id": "s_m82_moonlit_river",
+    "en": [
+      { "t": "Under the bright moonlight,", "role": "place", "id": "p" },
+      { "t": "the sound", "role": "subject", "id": "s" },
+      { "t": "of the river flowing", "role": "other", "id": "a" },
+      { "t": "could be heard", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "bright moonlight below-at", "role": "place", "id": "p" },
+      { "t": "river-water-[subj] flow-[badge]", "role": "other", "id": "a" },
+      { "t": "sound-[subj]", "role": "subject", "id": "s" },
+      { "t": "was-heard", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "밝은 달빛 아래에서", "role": "place", "id": "p" },
+      { "t": "강물이 흐르는", "role": "other", "id": "a" },
+      { "t": "소리가", "role": "subject", "id": "s" },
+      { "t": "들렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "balgeun dalbit araeeseo gangmuri heureuneun soriga deullyeosseoyo",
+    "wordIds": ["w_bakda", "w_dalbit", "w_arae", "w_gangmul", "w_heureuda", "w_sori", "w_deullida"],
+    "note": "The night scene, built from two badges and a passive: M13's 밝다 wears the badge -(으)ㄴ from M24 on 달빛, M35's 흐르다 wears the -는 badge on 강물 to modify M19's 소리, and M36's 들리다 closes it in the passive party's voice — the sound was heard, nobody listened on purpose. M6's 아래 with 에서 makes the moonlight a place you stand. 강물이 keeps its subject particle inside the modifier clause; 소리가 is the sentence's own subject — two 이/가, two clauses."
+  },
+  {
+    "id": "s_m82_monkey_comfort",
+    "en": [
+      { "t": "Since even monkeys", "role": "subject", "id": "s" },
+      { "t": "fall", "role": "other", "id": "a" },
+      { "t": "out of trees,", "role": "place", "id": "p" },
+      { "t": "it's okay", "role": "verb", "id": "v" },
+      { "t": "to make a mistake", "role": "other", "id": "b" },
+      { "t": "once", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "monkey-even", "role": "subject", "id": "s" },
+      { "t": "tree-from", "role": "place", "id": "p" },
+      { "t": "fall-because", "role": "other", "id": "a" },
+      { "t": "one time", "role": "other", "id": "c" },
+      { "t": "mistake-do-even-if", "role": "other", "id": "b" },
+      { "t": "is-okay", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "원숭이도", "role": "subject", "id": "s" },
+      { "t": "나무에서", "role": "place", "id": "p" },
+      { "t": "떨어지니까", "role": "other", "id": "a" },
+      { "t": "한 번", "role": "other", "id": "c" },
+      { "t": "실수해도", "role": "other", "id": "b" },
+      { "t": "괜찮아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "wonsungido namueseo tteoreojinikka han beon silsuhaedo gwaenchanayo",
+    "wordIds": ["w_wonsungi", "w_namu", "w_tteoreojida", "w_hana", "w_beon", "w_silsuhada", "w_gwaenchanta"],
+    "note": "The proverb g_m59_wonsungi filed, put to work as comfort: 원숭이 lands and carries the even-도 (M2), M22's 나무 and M36's 떨어지다 hold their places from the original, and -(으)니까 from M10 turns the law of nature into a reason. Then -아/어도 from M39 on M16's 실수하다 concedes the slip — 한 번, M5's 하나 before M12's 번 — and M7's 괜찮다 forgives it. Say it to the friend who just fumbled; say it to yourself after a Korean sentence goes wrong."
+  },
+  {
+    "id": "s_m82_grandpa_barber",
+    "en": [
+      { "t": "Grandfather", "role": "subject", "id": "s" },
+      { "t": "still", "role": "other", "id": "a" },
+      { "t": "gets his hair", "role": "object", "id": "o" },
+      { "t": "cut", "role": "verb", "id": "v" },
+      { "t": "at the neighborhood barbershop", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "grandfather-[hon.subj]-[topic]", "role": "subject", "id": "s" },
+      { "t": "still-even", "role": "other", "id": "a" },
+      { "t": "neighborhood barbershop-at", "role": "place", "id": "p" },
+      { "t": "hair-[obj]", "role": "object", "id": "o" },
+      { "t": "cuts-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "할아버지께서는", "role": "subject", "id": "s" },
+      { "t": "아직도", "role": "other", "id": "a" },
+      { "t": "동네 이발소에서", "role": "place", "id": "p" },
+      { "t": "머리를", "role": "object", "id": "o" },
+      { "t": "깎으세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "harabeojikkeseoneun ajikdo dongne ibalsoeseo meorireul kkakkeuseyo",
+    "wordIds": ["w_harabeoji", "w_ajik", "w_dongne", "w_ibalso", "w_meori", "w_kkakda"],
+    "note": "The barbershop's whole clientele in one sentence: M4's 할아버지 on 께서 from M47 (with the topic 는 stacked behind it, the way s_m47_grandma_bedtime stacked both on 할머니), M14's 아직 with the even-도 for the loyalty of it, and 이발소 stacked bare on M22's 동네. M21's 깎다 does the cutting — Korean cuts hair, it does not get it cut, as M40's 자르다 note already warned — and the honorific -(으)세요 from M9 keeps the verb respectful. Under fifty, the sentence would say 미용실."
+  },
+  {
+    "id": "s_m82_rain_washes_dust",
+    "en": [
+      { "t": "The rainwater", "role": "subject", "id": "s" },
+      { "t": "washed away", "role": "verb", "id": "v" },
+      { "t": "all", "role": "other", "id": "c" },
+      { "t": "the dust", "role": "object", "id": "o" },
+      { "t": "that had piled up on the window", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "rainwater-[subj]", "role": "subject", "id": "s" },
+      { "t": "window-on piled-[badge]", "role": "other", "id": "a" },
+      { "t": "dust-[obj]", "role": "object", "id": "o" },
+      { "t": "all", "role": "other", "id": "c" },
+      { "t": "wash-away-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "빗물이", "role": "subject", "id": "s" },
+      { "t": "창문에 쌓인", "role": "other", "id": "a" },
+      { "t": "먼지를", "role": "object", "id": "o" },
+      { "t": "다", "role": "other", "id": "c" },
+      { "t": "씻어 버렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "binmuri changmune ssain meonjireul da ssiseo beoryeosseoyo",
+    "wordIds": ["w_binmul", "w_changmun", "w_ssaida", "w_meonji", "w_da", "w_ssitda", "w_beorida"],
+    "note": "Two welds meet on a window: 빗물 does the washing (said 빈물이 — the ㅅ nasalized, then the ㄹ liaising), 먼지 gets washed, and M61's 쌓이다 wears the badge -(으)ㄴ from M24 to say how the dust got there — piled up on its own, on M6's 창문. M8's 씻다 rides -아/어 버리다 from M52, the finished-and-gone ending, with M9's 다 making it total. Spring's 미세먼지 (M11) ends exactly this way, every year: one hard rain, and the sky is back."
   }
 ]

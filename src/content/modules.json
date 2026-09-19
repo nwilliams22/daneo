@@ -1971,5 +1971,26 @@
       "s_m79_taxi_belt", "s_m79_button_door", "s_m79_apple_box", "s_m79_file_gone",
       "s_m79_golf_weekends", "s_m79_skate_fall", "s_m79_quiz_trend", "s_m79_team_groups"
     ]
+  },
+  {
+    "id": "m82",
+    "title": "Out of Doors",
+    "order": 91,
+    "ring": 2,
+    "contentMd": "modules/module-82.md",
+    "wordIds": [
+      "w_gangmul", "w_badanmul", "w_binmul", "w_namutgaji",
+      "w_dalbit", "w_dwitsan", "w_saesori", "w_kkonnip",
+      "w_sansok", "w_bulkkot", "w_dongmurwon", "w_julgi",
+      "w_meonji", "w_jwi", "w_baem", "w_gaeguri",
+      "w_yeou", "w_nabi", "w_ori", "w_wonsungi",
+      "w_saja", "w_kokkiri", "w_gaenari", "w_jindallae",
+      "w_keungil", "w_negeori", "w_gilga", "w_jeonggeojang",
+      "w_ibalso", "w_chaekbang", "w_deungsallo", "w_igotjeogot"
+    ],
+    "sentenceIds": [
+      "s_m82_trail_birdsong", "s_m82_zoo_elephant", "s_m82_forsythia_march", "s_m82_two_stops",
+      "s_m82_moonlit_river", "s_m82_monkey_comfort", "s_m82_grandpa_barber", "s_m82_rain_washes_dust"
+    ]
   }
 ]

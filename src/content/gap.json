@@ -2266,5 +2266,32 @@
     "lit": "screen golf",
     "real": "the indoor golf simulator bar — a booth, a projector, a real club and ball, and a city block's worth of them in every downtown",
     "note": "스크린 (screen — riding frozen; the loan for the projection surface, where M20's 화면 is the display) + this module's 골프: Korea's actual golf. The 골프장 costs an executive's afternoon and a two-hour drive; the 스크린 골프 booth is under the office, open past midnight, and priced per hour like M8's 방 note's 노래방 — the rented-room economy g17_bang filed, now with a driving range in it. Groups book it after 회식 (M16), beginners learn there before ever seeing grass, and the swing data on the wall is the same the pros use. Rule 3 in spirit: English parts, Korean assembly — a Korean company invented the industry, and the phrase has no English original."
+  },
+  {
+    "id": "g_m82_oribal",
+    "cat": "phrase",
+    "ko": "오리발 내밀다",
+    "rom": "oribal naemilda",
+    "lit": "to hold out a duck's foot",
+    "real": "to deny flatly, feign innocence — the interrogation-room verb, the caught-red-handed shrug",
+    "note": "This module's 오리 + M14's 발 (the duck's foot — the webbed one, and the swimmer's flipper) + 내밀다 (to stick out, riding frozen). The story under it: the man caught stealing a chicken (M30's 닭) holds out a duck's foot and says that is what he was carrying — the evidence is right there, and it is the wrong animal. 오리발 내밀지 마 (-지 마세요 from M14, casual) = don't play dumb; 끝까지 오리발을 내밀었어요 — M28's 끝, M6's 까지 — = denied it to the end — the drama's police room, the toddler with jam on his face, the politician at the podium. English says stonewall; Korean names the exact wrong foot."
+  },
+  {
+    "id": "g_m82_yeou_gom",
+    "cat": "structure",
+    "ko": "여우 같은 아내, 곰 같은 아내",
+    "rom": "yeou gateun anae, gom gateun anae",
+    "lit": "a fox-like wife, a bear-like wife",
+    "real": "the two-type wife cliché — the fox charms and manages, the bear endures and never complains; a dated frame that every Korean still recognizes on sight",
+    "note": "This module's 여우 and M49's 곰 (\"The bear — and Korea's first mother\") on M24's 같다 in its badge form (같은 — the like-machine's adjective coat), with M27's 아내 twice: the fox-wife reads her husband (M42's 눈치), praises him, gets her way; the bear-wife works, endures, and says nothing. The old joke has the punchline built in — men say they want the bear and marry the fox — and mothers-in-law once graded daughters-in-law on the axis. Told honestly: it is a cliché from an older marriage, and the words are still everywhere: 여우 같다 is a compliment with a raised eyebrow, 곰 같다 is affection with a sigh — both usable about anyone, either sex, any age. The 처럼 from M41 gives the adverb versions: 여우처럼, 곰처럼."
+  },
+  {
+    "id": "g_m82_cheonggaeguri",
+    "cat": "concept",
+    "ko": "청개구리",
+    "rom": "cheonggaeguri",
+    "lit": "green (tree-)frog",
+    "real": "a contrary child — someone who does the opposite of whatever they are told; and the tale of why frogs cry when it rains",
+    "note": "청 (the blue-green hanja twin M49's 푸르다 note filed — riding frozen) + this module's 개구리: the small green tree-frog, and the folk tale it stars in. The young frog does the reverse of everything his mother says — sent to the 산 (M11), he goes to the 강 (M22); told to sleep, he plays. Dying, she reasons in reverse and asks to be buried by the river, hoping he will do the opposite and choose the hill; grief makes him obey for the first time, and now every rain (M11's 비) threatens her grave, so the frogs cry at the riverbank. That is why 개구리 croak when it rains — and why a 청개구리 is any kid, employee, or partner who cannot take a suggestion straight: 우리 아이는 청개구리예요. The moral is aimed at children; the sadness is aimed at parents."
   }
 ]
