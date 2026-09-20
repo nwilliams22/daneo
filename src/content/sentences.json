@@ -21648,5 +21648,203 @@
     "rom": "geu sinhwaneun ama samguk sidaee girokdwaesseulgeoryo",
     "wordIds": ["w_sinhwa", "w_ama", "w_samguk", "w_sidae", "w_girok", "w_doeda"],
     "note": "-(으)ㄹ걸요 from M93 — that md's heading, \"I'd guess\" — with the adverb M93 paired it with (부장님도 아마 그 지적을 인정할걸요): M24's 아마 announces the guess, the 걸요 delivers it, and the past inside (기록됐을걸요) makes it a guess about history. 기록되다 is today's 기록 + M10's 되다 — the -되다 passive that hada-nouns wear, the way 구성되다 (M91) and 예상되다 (M93) do — so the myth was WRITTEN DOWN by no one in particular, which is how myths are. Three slice words in the historian's shrug: the 신화 itself, the 삼국 whose 시대 (M26) it was recorded in, and the 기록 that did the recording — the entry's 역사 기록, in verb form. Time expressions are other (삼국 시대에), the guess is the verb, and the whole sentence is what a docent says when the placard is missing."
+  },
+  {
+    "id": "s_m98_no_evidence_no_detention",
+    "en": [
+      { "t": "As long as there is no evidence,", "role": "other", "id": "a" },
+      { "t": "the police", "role": "subject", "id": "s" },
+      { "t": "cannot detain", "role": "verb", "id": "v" },
+      { "t": "that person", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "evidence-[subj] not-exist as-long-as", "role": "other", "id": "a" },
+      { "t": "police-[topic]", "role": "subject", "id": "s" },
+      { "t": "that person-[obj]", "role": "object", "id": "o" },
+      { "t": "detain-can not", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "증거가 없는 한", "role": "other", "id": "a" },
+      { "t": "경찰은", "role": "subject", "id": "s" },
+      { "t": "그 사람을", "role": "object", "id": "o" },
+      { "t": "구속할 수 없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeunggeoga eomneun han gyeongchareun geu sarameul gusokhal su eopseoyo",
+    "wordIds": ["w_jeunggeo", "w_eopda", "w_gyeongchal", "w_geu_det", "w_saram", "w_gusok"],
+    "note": "-는 한 from M95 — the fence that M95 md called \"the fence that stays up\": 증거가 없는 한 = as long as there is no evidence, the badge -는 from M24 on M1's 없다 with 한 (限) closing the clause, and the second clause holds inside the fence. Then the can-machine from M10 in the negative: 구속할 수 없어요 = cannot detain — today's 구속 with M1's 하다 in the -(으)ㄹ 수 없다 frame. Two law words in one breath — the proof and the arrest it licenses — and the sentence is the principle every M90 판결 stands on: no evidence, no custody. M16's 경찰 on 은/는, M29's 그 with M1's 사람 on 을."
+  },
+  {
+    "id": "s_m98_positions_plan_changed",
+    "en": [
+      { "t": "As a result of checking the positions of those involved,", "role": "other", "id": "a" },
+      { "t": "the government", "role": "subject", "id": "s" },
+      { "t": "changed", "role": "verb", "id": "v" },
+      { "t": "the plan", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "government-[topic]", "role": "subject", "id": "s" },
+      { "t": "concerned-persons-[plural]-[poss] position-[obj] check-[past] result", "role": "other", "id": "a" },
+      { "t": "plan-[obj]", "role": "object", "id": "o" },
+      { "t": "change-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "정부는", "role": "subject", "id": "s" },
+      { "t": "관계자들의 입장을 확인한 결과", "role": "other", "id": "a" },
+      { "t": "계획을", "role": "object", "id": "o" },
+      { "t": "바꿨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeongbuneun gwangyejadeurui ipjangeul hwaginhan gyeolgwa gyehoegeul bakkwosseoyo",
+    "wordIds": ["w_jeongbu", "w_gwangyeja", "w_ipjang", "w_hwaginhada", "w_gyehoek", "w_bakkuda"],
+    "note": "-(으)ㄴ 결과 from M90, the outcome frame: 확인한 결과 = as a result of checking — M20's 확인하다 in the past badge -(으)ㄴ from M24 with 결과 hanging bare, the connective M90 built for reports. On it ride two of today's words in their newsroom collocation: 관계자들의 입장 = the positions of the persons concerned — 관계자 with the plural 들 and the possessive 의, 입장 in its 立場 sense, the standpoint, not the wedding march. M32's 정부 does the checking and M9's 바꾸다 does the changing to M8's 계획; the whole sentence is the shape of a policy U-turn as the paper prints it."
+  },
+  {
+    "id": "s_m98_detective_finds_weapon",
+    "en": [
+      { "t": "The detective,", "role": "subject", "id": "s" },
+      { "t": "while looking for evidence", "role": "other", "id": "b" },
+      { "t": "at the accident scene,", "role": "place", "id": "p" },
+      { "t": "found", "role": "verb", "id": "v" },
+      { "t": "a weapon", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "detective-[topic]", "role": "subject", "id": "s" },
+      { "t": "accident scene-[loc]", "role": "place", "id": "p" },
+      { "t": "evidence-[obj] look-for-and-then", "role": "other", "id": "b" },
+      { "t": "weapon-[obj]", "role": "object", "id": "o" },
+      { "t": "discover-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "형사는", "role": "subject", "id": "s" },
+      { "t": "사고 현장에서", "role": "place", "id": "p" },
+      { "t": "증거를 찾다가", "role": "other", "id": "b" },
+      { "t": "무기를", "role": "object", "id": "o" },
+      { "t": "발견했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hyeongsaneun sago hyeonjangeseo jeunggeoreul chatdaga mugireul balgyeonhaesseoyo",
+    "wordIds": ["w_hyeongsa", "w_sago", "w_hyeonjang", "w_jeunggeo", "w_chatda", "w_mugi", "w_balgyeonhada"],
+    "note": "-다가 from M94, the interruption: 증거를 찾다가 = was looking for evidence when — M6's 찾다 cut off mid-act by the -다가 that M94 md filed as \"in the middle of, and then\", and the second clause is what the interruption turned up. Four of today's words hold the scene: 형사 (the detective, 刑事), 사고 현장 (M36's 사고 on 현장 — the accident scene, the 場 rail's second stop), 증거 (the evidence he wanted) and 무기 (the weapon he got instead), with M56's 발견하다 closing the find. 에서 from M6 marks where the looking happened; the plot is every crime drama's first ten minutes."
+  },
+  {
+    "id": "s_m98_principal_posture",
+    "en": [
+      { "t": "The closer the entrance exams came,", "role": "other", "id": "a" },
+      { "t": "the more the principal", "role": "subject", "id": "s" },
+      { "t": "stressed", "role": "verb", "id": "v" },
+      { "t": "the students' attitude", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "entrance-exam-[subj] become-near-the-more", "role": "other", "id": "a" },
+      { "t": "principal teacher-[hon]-[topic]", "role": "subject", "id": "s" },
+      { "t": "student-[plural]-[poss] attitude-[obj]", "role": "object", "id": "o" },
+      { "t": "more emphasize-[hon]-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "입시가 가까워질수록", "role": "other", "id": "a" },
+      { "t": "교장 선생님은", "role": "subject", "id": "s" },
+      { "t": "학생들의 자세를", "role": "object", "id": "o" },
+      { "t": "더 강조하셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ipsiga gakkawojilsurok gyojang seonsaengnimeun haksaengdeurui jasereul deo gangjohasyeosseoyo",
+    "wordIds": ["w_ipsi", "w_gakkapda", "w_gyojang", "w_seonsaengnim", "w_haksaeng", "w_jase", "w_deo", "w_gangjohada"],
+    "note": "-(으)ㄹ수록 from M89, the more-the-more: 입시가 가까워질수록 = the closer the entrance exams came — M6's 가깝다 through -아/어지다 from M35 (가까워지다, becoming near) and then the -(으)ㄹ수록 badge, with M9's 더 in the second clause answering it, the pairing M89 built. The school drawer fills the rest: 입시 (the exams that decide the door), 교장 선생님 (the principal, said the way the school says it — today's 교장 on M4's 선생님), and 학생들의 자세 (M4's 학생 in the plural possessive, then 자세 in its attitude sense — the stance, not the spine). M56's 강조하다 wears the honorific -(으)시- from M4 because the subject is the principal, and 하셨어요 is how a staff-room reports him."
+  },
+  {
+    "id": "s_m98_unit_training_attack",
+    "en": [
+      { "t": "The unit", "role": "subject", "id": "s" },
+      { "t": "was in the middle of training and, on top of that,", "role": "other", "id": "a" },
+      { "t": "was short of weapons too, so", "role": "other", "id": "b" },
+      { "t": "it could not block", "role": "verb", "id": "v" },
+      { "t": "the attack", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "unit-[topic]", "role": "subject", "id": "s" },
+      { "t": "training in-the-middle-of-be on-top-of", "role": "other", "id": "a" },
+      { "t": "weapon-even lacking-so", "role": "other", "id": "b" },
+      { "t": "attack-[obj]", "role": "object", "id": "o" },
+      { "t": "block-can not-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부대는", "role": "subject", "id": "s" },
+      { "t": "훈련 중인 데다가", "role": "other", "id": "a" },
+      { "t": "무기까지 부족해서", "role": "other", "id": "b" },
+      { "t": "공격을", "role": "object", "id": "o" },
+      { "t": "막을 수 없었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "budaeneun hullyeon jungin dedaga mugikkaji bujokhaeseo gonggyeogeul mageul su eopseosseoyo",
+    "wordIds": ["w_budae", "w_hullyeon", "w_s2_jung", "w_mugi", "w_bujokhada", "w_gonggyeok", "w_makda_block"],
+    "note": "-(으)ㄴ/는 데다가 from M92, the pile-on: 훈련 중인 데다가 = was in the middle of training and, on top of that — S2's busy-sign 중 on today's 훈련, then 이다 in the badge -(으)ㄴ from M24 with 데다가 stacking the second misfortune. That misfortune is 무기까지 부족해서 — 까지 from M12 in its even-job on 무기, M39's 부족하다 in -아/어서 from M9 — and the two together explain M36's 막다 failing in the can-machine from M10: 막을 수 없었어요. The ranks drawer, whole: 부대 (the unit), 훈련 (the drill it was in), 무기 (what it lacked), 공격 (what it could not stop) — four slice words, one bad day at the barracks."
+  },
+  {
+    "id": "s_m98_fear_attack_training",
+    "en": [
+      { "t": "For fear of coming under attack from outside,", "role": "other", "id": "a" },
+      { "t": "that country", "role": "subject", "id": "s" },
+      { "t": "increased", "role": "verb", "id": "v" },
+      { "t": "its military training", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "that country-[topic]", "role": "subject", "id": "s" },
+      { "t": "outside-[poss] attack-[obj] receive-might-for-fear", "role": "other", "id": "a" },
+      { "t": "military training-[obj]", "role": "object", "id": "o" },
+      { "t": "increase-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 나라는", "role": "subject", "id": "s" },
+      { "t": "외부의 공격을 받을까 봐", "role": "other", "id": "a" },
+      { "t": "군사 훈련을", "role": "object", "id": "o" },
+      { "t": "늘렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu naraneun oebuui gonggyeogeul badeulkka bwa gunsa hullyeoneul neullyeosseoyo",
+    "wordIds": ["w_geu_det", "w_nara", "w_oebu", "w_gonggyeok", "w_batda", "w_gunsa", "w_hullyeon", "w_neullida"],
+    "note": "-(으)ㄹ까 봐 from M93, the ending M93 md headed \"for fear that\": 공격을 받을까 봐 = for fear of coming under attack — M9's 받다 in the prospective badge with 까 봐, the worry that motivates the main clause. 외부의 공격 = an attack from outside, today's 외부 in the possessive fronting today's 공격; and the answer to the fear is 군사 훈련을 늘렸어요 — 군사 as the determiner it usually is (軍事, military affairs — the 士 soldier would take a particle), 훈련 as its noun, and M37's 늘리다 doing the increasing that M35's 늘다 only watches. M29's 그 on M23's 나라 keeps the country unnamed, which is how the foreign desk writes it."
+  },
+  {
+    "id": "s_m98_wrongdoing_bound_out",
+    "en": [
+      { "t": "Executives' wrongdoing", "role": "subject", "id": "s" },
+      { "t": "is bound to come to light", "role": "verb", "id": "v" },
+      { "t": "someday", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "executive-[plural]-[poss] wrongdoing-[topic]", "role": "subject", "id": "s" },
+      { "t": "someday", "role": "other", "id": "a" },
+      { "t": "be-revealed-bound-to-be", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "간부들의 부정은", "role": "subject", "id": "s" },
+      { "t": "언젠가", "role": "other", "id": "a" },
+      { "t": "드러나기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ganbudeurui bujeongeun eonjenga deureonagi maryeonieyo",
+    "wordIds": ["w_ganbu", "w_bujeong", "w_eonjenga", "w_deureonada", "w_maryeon"],
+    "note": "-기 마련이다 from M87, the ending that says a thing is in the nature of things: 드러나기 마련이에요 = is bound to come to light — M93's 드러나다 through the -기 of M13 onto M87's 마련 in its frame job. The subject is the law drawer's darkest pair: 간부들의 부정 = the wrongdoing of the executives — 간부 in the plural possessive, 부정 in its 不正 sense (foul play, corruption), not the 否定 that denies. M46's 언젠가 supplies the someday, and the sentence is the editorial's closing line after every scandal: it always comes out."
+  },
+  {
+    "id": "s_m98_law_ownership_acts",
+    "en": [
+      { "t": "This law", "role": "subject", "id": "s" },
+      { "t": "recognizes", "role": "other", "id": "b" },
+      { "t": "individual ownership", "role": "object", "id": "o" },
+      { "t": "and prohibits", "role": "verb", "id": "v" },
+      { "t": "unlawful acts", "role": "object", "id": "o2" }
+    ],
+    "gloss": [
+      { "t": "this law-[topic]", "role": "subject", "id": "s" },
+      { "t": "individual-[poss] ownership-[obj]", "role": "object", "id": "o" },
+      { "t": "recognize-and", "role": "other", "id": "b" },
+      { "t": "illegal act-[obj]", "role": "object", "id": "o2" },
+      { "t": "prohibit", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 법은", "role": "subject", "id": "s" },
+      { "t": "개인의 소유를", "role": "object", "id": "o" },
+      { "t": "인정하며", "role": "other", "id": "b" },
+      { "t": "불법 행위를", "role": "object", "id": "o2" },
+      { "t": "금지해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i beobeun gaeinui soyureul injeonghamyeo bulbeop haengwireul geumjihaeyo",
+    "wordIds": ["w_i_det", "w_beop", "w_gaein", "w_soyu", "w_injeonghada", "w_bulbeop", "w_haengwi", "w_geumjihada"],
+    "note": "-(으)며 from M85, the written and: 인정하며 = recognizes, and — M93's 인정하다 joined to the second clause by the -(으)며 that M85 md called \"the written and/while\", the connector a statute uses where the mouth would say -고 from M10. On either side of it, the law drawer in its natural phrases: 개인의 소유 (M57's 개인 in the possessive on today's 소유 — private ownership) and 불법 행위 (today's 불법 fronting today's 행위 — an unlawful act), with M39's 법 as the subject and M53's 금지하다 closing. Read it aloud and it sounds like the first article of something; that register is exactly what -(으)며 is for."
   }
 ]
