@@ -19314,5 +19314,203 @@
     "rom": "yeongu gyeolgwae ttareumyeon i yageun mome nappeun yeonghyangeul michindago haeyo",
     "wordIds": ["w_yeongu", "w_gyeolgwa", "w_ttareuda", "w_i_det", "w_yak", "w_mom", "w_nappeuda", "w_yeonghyang", "w_michida", "w_hada"],
     "note": "The collocation M61 promised, in the sentence shape the news uses: 영향을 미치다 — M61's 미치다 in its reach-sense, on 영향 — inside the quoting -다고 하다 from M32, so 미친다고 해요 reports what the study says rather than asserting it. 연구 결과에 따르면 is the source frame from M32's 따르다 (\"[source]에 따르면 = according to\") on M32's 연구 and 결과, the 결과 that today's 원인 pairs with. 이 약은 (M29's 이, M10's 약) on the topic, 몸에 (M14's 몸) as the target, 나쁜 영향 (M29's 나쁘다 in the badge) as the effect: a whole health headline, and every word of it was already yours except the influence."
+  },
+  {
+    "id": "s_m85_she_smiled",
+    "en": [
+      { "t": "She", "role": "subject", "id": "s" },
+      { "t": "answered", "role": "verb", "id": "v" },
+      { "t": "quietly,", "role": "other", "id": "q" },
+      { "t": "smiling", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "she-[topic]", "role": "subject", "id": "s" },
+      { "t": "smile-and-while", "role": "other", "id": "m" },
+      { "t": "quietly", "role": "other", "id": "q" },
+      { "t": "answered", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그녀는", "role": "subject", "id": "s" },
+      { "t": "웃으며", "role": "other", "id": "m" },
+      { "t": "조용히", "role": "other", "id": "q" },
+      { "t": "대답했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geunyeoneun useumyeo joyonghi daedaphaesseoyo",
+    "wordIds": ["w_geunyeo", "w_utda", "w_joyonghi", "w_daedaphada"],
+    "note": "The novel's line: 웃으며 — M7's 웃다 on -(으)며, the written twin of -(으)면서 from M38 (its md rule, 'One subject does both things', holds here: one face smiles and answers). Consonant stem, so 으며; 웃으면서 would be the same sentence said aloud. 그녀 is the pronoun print invented for exactly this sentence — the mouth would say 그 사람은 or her name — and M33's 조용히 sits just before the closer, M10's 대답하다. Read it in a novel; never hear it in a kitchen."
+  },
+  {
+    "id": "s_m85_hotel_wide_cheap",
+    "en": [
+      { "t": "This hotel:", "role": "subject", "id": "s" },
+      { "t": "the rooms", "role": "subject", "id": "r" },
+      { "t": "are spacious, and", "role": "other", "id": "a" },
+      { "t": "the price, too,", "role": "subject", "id": "p" },
+      { "t": "is quite low", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this hotel-[topic]", "role": "subject", "id": "s" },
+      { "t": "room-[subj]", "role": "subject", "id": "r" },
+      { "t": "spacious-and", "role": "other", "id": "a" },
+      { "t": "price-also", "role": "subject", "id": "p" },
+      { "t": "considerably cheap", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 호텔은", "role": "subject", "id": "s" },
+      { "t": "방이", "role": "subject", "id": "r" },
+      { "t": "넓으며", "role": "other", "id": "a" },
+      { "t": "가격도", "role": "subject", "id": "p" },
+      { "t": "상당히 싸요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i hotereun bangi neolbeumyeo gagyeokdo sangdanghi ssayo",
+    "wordIds": ["w_i_det", "w_hotel", "w_bang", "w_neopda", "w_gagyeok", "w_sangdanghi", "w_ssada"],
+    "note": "The ad's line — -(으)며 in its OTHER job, listing: 넓으며 — M13's 넓다 — is verb--고 from M10 in print, not 'while'. Only context tells the two jobs apart: two states listed = and; one body, two actions (the sentence above) = while. The frame is the double subject — 이 호텔은 sets the topic, then M8's 방 and M21's 가격 (방이, 가격도) each take their own predicate, exactly the shape s_m73_shoes_fit used with 도. 상당히 grades the price one suit above M62's 꽤: a review would print 상당히, a friend would say 꽤 싸요."
+  },
+  {
+    "id": "s_m85_elevator_stairs",
+    "en": [
+      { "t": "As the elevator is out of order,", "role": "other", "id": "a" },
+      { "t": "please use", "role": "verb", "id": "v" },
+      { "t": "the stairs", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "elevator-[subj] breakdown erupted-since", "role": "other", "id": "a" },
+      { "t": "stairs-[obj]", "role": "object", "id": "o" },
+      { "t": "use-[hon]-ing hope-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "엘리베이터가 고장 났으므로", "role": "other", "id": "a" },
+      { "t": "계단을", "role": "object", "id": "o" },
+      { "t": "이용하시기 바랍니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "ellibeiteoga gojang nasseumeuro gyedaneul iyonghasigi baramnida",
+    "wordIds": ["w_ellibeiteo", "w_s2_gojang", "w_nada", "w_gyedan", "w_iyonghada", "w_barada"],
+    "note": "The notice board, word for word: 고장 났으므로 — S2's 고장 on M28's 나다 in the past, then -(으)므로, the most formal because — and it CAN precede a request, which is the whole reason signs use it: 고장 났기 때문에 (-기 때문에 from M84) would be correct and could not take 바랍니다 after it; 고장 났으니까 (-(으)니까 from M10) could, but sounds like a caretaker talking, not a sign. The closer is the sign's fixed formula: 이용하시기 바랍니다 = M56's 이용하다 with the honorific -시- (M4's 드시다 shape), the -기 nominalizer from M13, and M34's 바라다 in the ㅂ니다 register — we hope for your using. M13 gave you the elevator and the stairs on the same day; today the elevator gives out."
+  },
+  {
+    "id": "s_m85_snow_stay_in",
+    "en": [
+      { "t": "Since it has snowed heavily,", "role": "other", "id": "a" },
+      { "t": "today", "role": "other", "id": "t" },
+      { "t": "don't go out", "role": "verb", "id": "v" },
+      { "t": "at all", "role": "other", "id": "q" }
+    ],
+    "gloss": [
+      { "t": "snow-[subj] a-lot came-since", "role": "other", "id": "a" },
+      { "t": "today-[topic]", "role": "other", "id": "t" },
+      { "t": "at-all", "role": "other", "id": "q" },
+      { "t": "go-out-don't", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "눈이 많이 왔으므로", "role": "other", "id": "a" },
+      { "t": "오늘은", "role": "other", "id": "t" },
+      { "t": "아예", "role": "other", "id": "q" },
+      { "t": "나가지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nuni mani wasseumeuro oneureun aye nagaji maseyo",
+    "wordIds": ["w_nun_snow", "w_mani", "w_oda", "w_oneul", "w_aye", "w_nagada"],
+    "note": "-(으)므로 before an order, the second time: M11's 눈 on M1's 오다 with M17's 많이, then the formal because, then -지 마세요 from M14 on M8's 나가다. Said by a person this would be 눈이 많이 왔으니까 나가지 마세요; printed on the building's notice it is 왔으므로 — the ending is the register, nothing else changes. 아예 is the module's all-the-way adverb doing its negative job: not 'don't go far', but don't set out in the first place — M39's 전혀 would say how little you went, 아예 says the attempt is cancelled."
+  },
+  {
+    "id": "s_m85_effort_exam",
+    "en": [
+      { "t": "Though I tried", "role": "other", "id": "a" },
+      { "t": "ceaselessly,", "role": "other", "id": "q" },
+      { "t": "I failed", "role": "verb", "id": "v" },
+      { "t": "the exam", "role": "other", "id": "e" }
+    ],
+    "gloss": [
+      { "t": "ceaselessly", "role": "other", "id": "q" },
+      { "t": "made-effort-but", "role": "other", "id": "a" },
+      { "t": "exam-at", "role": "other", "id": "e" },
+      { "t": "fell", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "끊임없이", "role": "other", "id": "q" },
+      { "t": "노력했으나", "role": "other", "id": "a" },
+      { "t": "시험에", "role": "other", "id": "e" },
+      { "t": "떨어졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "kkeunimeopsi noryeokhaesseuna siheome tteoreojyeosseoyo",
+    "wordIds": ["w_kkeunimeopsi", "w_noryeokhada", "w_siheom", "w_tteoreojida"],
+    "note": "-(으)나, the written but: 노력했으나 — M26's 노력하다 in the past + 으나 — is 노력했지만 in print; -지만 from M7 ('Only the final verb carries the 요; the welded one goes bare') is the mouth's, and the rule about the bare welded verb holds for both. 시험에 떨어지다 is M36's 떨어지다 in its 'to fail' sense — the fall-off-the-list reading s_m44_failure_mother ran with -아/어도. 끊임없이 decodes on sight: M20's 끊다 frozen by the -(으)ㅁ freezer from M67, plus M32's 없이 — without a cutting-off. A sad sentence, but every 수험생 has written it; the dropped subject is Korean's mercy."
+  },
+  {
+    "id": "s_m85_guy_took_money",
+    "en": [
+      { "t": "That guy,", "role": "subject", "id": "s" },
+      { "t": "even having taken", "role": "other", "id": "a" },
+      { "t": "the money,", "role": "object", "id": "o" },
+      { "t": "didn't keep", "role": "verb", "id": "v" },
+      { "t": "his promise", "role": "object", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "that guy-[topic]", "role": "subject", "id": "s" },
+      { "t": "money-[obj]", "role": "object", "id": "o" },
+      { "t": "receive-even-having", "role": "other", "id": "a" },
+      { "t": "promise-[obj]", "role": "object", "id": "p" },
+      { "t": "keep-not-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 놈은", "role": "subject", "id": "s" },
+      { "t": "돈을", "role": "object", "id": "o" },
+      { "t": "받고도", "role": "other", "id": "a" },
+      { "t": "약속을", "role": "object", "id": "p" },
+      { "t": "지키지 않았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu nomeun doneul batgodo yaksogeul jikiji anasseoyo",
+    "wordIds": ["w_geu_det", "w_nom", "w_don", "w_batda", "w_yaksok", "w_jikida"],
+    "note": "-고도, the even-having-done: 받고도 — M9's 받다 + verb--고 from M10 + M2's 도 — is -아/어도 from M39 for a COMPLETED act: 받아도 would concede a hypothetical (even if he takes it), 받고도 concedes a fact (he took it, and still). M5's 약속 on M26's 지키다, negated the long way (-지 않다 from M28). 그 놈 is the dependent noun at work — 놈 cannot stand alone, so M29's 그 props it — and the insult is mild enough for television and strong enough that you should not test it on anyone real."
+  },
+  {
+    "id": "s_m85_husband_paper",
+    "en": [
+      { "t": "My husband", "role": "subject", "id": "s" },
+      { "t": "usually", "role": "other", "id": "q" },
+      { "t": "reads", "role": "verb", "id": "v" },
+      { "t": "the paper", "role": "object", "id": "p" },
+      { "t": "after eating", "role": "other", "id": "a" },
+      { "t": "dinner", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "he-[topic] (my husband)", "role": "subject", "id": "s" },
+      { "t": "usually", "role": "other", "id": "q" },
+      { "t": "dinner-[obj]", "role": "object", "id": "o" },
+      { "t": "eat-and-then", "role": "other", "id": "a" },
+      { "t": "newspaper-[obj]", "role": "object", "id": "p" },
+      { "t": "reads", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그이는", "role": "subject", "id": "s" },
+      { "t": "대개", "role": "other", "id": "q" },
+      { "t": "저녁을", "role": "object", "id": "o" },
+      { "t": "먹고서", "role": "other", "id": "a" },
+      { "t": "신문을", "role": "object", "id": "p" },
+      { "t": "읽어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geuineun daegae jeonyeogeul meokgoseo sinmuneul ilgeoyo",
+    "wordIds": ["w_geui", "w_daegae", "w_jeonyeok", "w_meokda", "w_sinmun", "w_ikda"],
+    "note": "-고서, the sequence made explicit: 먹고서 — M1's 먹다 + verb--고 from M10 + 서 — says dinner is FINISHED before the paper opens; bare 먹고 would only list the two. A wife's sentence about her husband, which is why 그이 carries it: warmer than M27's 남편, and the older generation's word. 대개 is the shelf's 'usually' in print — M8's 보통 would be the spoken version of the same evening — and M8's 신문 on M2's 읽다 is the habit itself, unchanged since M2."
+  },
+  {
+    "id": "s_m85_grandfather_words",
+    "en": [
+      { "t": "When my grandfather said those words,", "role": "other", "id": "a" },
+      { "t": "only then", "role": "other", "id": "q" },
+      { "t": "did I understand", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "grandfather-[hon.subj] that words-[obj] said-[hon]-when", "role": "other", "id": "a" },
+      { "t": "only-then", "role": "other", "id": "q" },
+      { "t": "understood", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "할아버지께서 그 말씀을 하셨을 때", "role": "other", "id": "a" },
+      { "t": "비로소", "role": "other", "id": "q" },
+      { "t": "이해했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "harabeojikkeseo geu malsseumeul hasyeosseul ttae biroso ihaehaesseoyo",
+    "wordIds": ["w_harabeoji", "w_geu_det", "w_malsseum", "w_hada", "w_ihaehada", "w_biroso"],
+    "note": "비로소 pointing back at its condition: the grandfather's words are the threshold, and understanding arrives only once it is crossed — M10's 이해하다 in the past. The when-clause is -(으)ㄹ 때 from M25 on the honorific line: 께서 from M47 marks M4's 할아버지, M27's 말씀 is the honorific 말, and 하셨을 is 하다 with -시- inside the past — three honorifics for one grandfather, which is the correct number. Swap the adverb and the sentence changes: M35's 드디어 would cheer; M35's 마침내 would conclude; 비로소 explains WHY it was then and not before."
   }
 ]

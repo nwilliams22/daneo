@@ -2374,5 +2374,32 @@
     "lit": "to look at (someone's) circumstances for them",
     "real": "to make allowances, cut someone slack — the request 사정 좀 봐주세요 is how you ask a landlord, a teacher, or a traffic cop to bend",
     "note": "This module's 사정 as the object of M1's 보다 through the favour machine of M9 (봐 + 주다): to look at the circumstances on someone's behalf — and looking, in Korean, is agreeing to see them. 사정 좀 봐주세요 (좀 — M9's 조금 clipped, softening it) is the sentence said at the counter after the deadline, to the landlord in a thin month, to the officer with the ticket book open; the answer 사정은 알겠는데 (I see your situation, but — -는데 from M53) is the polite refusal it usually meets. The reverse, 사정없이 (without regard to circumstances — 사정 + M1's 없다 adverbed), means mercilessly: 사정없이 때리다 (때리다 — to hit, riding frozen; it belongs to M94). Personal circumstances are the one currency Korean bureaucracy will sometimes accept; this is the phrase that offers them."
+  },
+  {
+    "id": "g_m85_geunyeo_coinage",
+    "cat": "concept",
+    "ko": "그녀",
+    "rom": "geunyeo",
+    "lit": "that-woman",
+    "real": "the 'she' Korean built for print in the early twentieth century — read on every page of every novel, said aloud by nobody",
+    "note": "This module's 그녀 is younger than the grandmothers who read it: Korean had no separate 'she' until novelists of the 1920s, translating and imitating Japanese fiction, copied 彼女 (that-woman) character for character — M29's 그 + the 女 of M4's 여자 — to give their heroines a pronoun. Before that, prose used 그 for anyone, and it still does for men; 그녀 is the only gendered pronoun the language owns, and it never crossed into the mouth. Say 그녀 in conversation and you sound like a subtitle; the mouth points (그 사람, M55's 걔) or names (M4's 씨). The complaint that it is a Japanese import and should be retired surfaces every decade, and every decade the novels keep it. A word that shows what the written register is: not older Korean, but a Korean built for the page."
+  },
+  {
+    "id": "g_m85_you_ladder",
+    "cat": "structure",
+    "ko": "너 · 자네 · 당신 · 그쪽 · ○○ 씨",
+    "rom": "neo · jane · dangsin · geujjok · ○○ ssi",
+    "lit": "you (casual) · you (courtly) · you (formal/spousal) · that side · Mr./Ms. So-and-so",
+    "real": "the ladder of you's — five rungs, and the safe answer is the top one: a name or a title, never a pronoun",
+    "note": "Korean avoids 'you' and this module completes the reasons. M19's 너 ('반말-only') is for real friends and children. 자네 is said DOWN by a senior to a grown junior — the professor, the father-in-law — on the courtly 하게 level; hear it, don't say it. M32's 당신 is the formal, spousal, careful you — dear between spouses, a fight-starter to a stranger. 그쪽 — M29's 그 + M23's 쪽, that side — is the stranger's you: the other party at a counter, a blind date's first minutes, a phone call with a wrong number. And the rung everyone actually uses is not a pronoun at all: the name with M4's 씨, or the title (선생님, 사장님 — M4, M9). The written register adds one more: 그대 (thou — riding frozen), the you of poems and song lyrics only. Rule from M32 still holds: the more formal the 'you', the more dangerous it is to say."
+  },
+  {
+    "id": "g_m85_nom_bun_myeong",
+    "cat": "structure",
+    "ko": "놈 · 명 · 분",
+    "rom": "nom · myeong · bun",
+    "lit": "fellow · (person counter) · (honorific person counter)",
+    "real": "three ways to say 'person' after a number or a pointer — one counts, one counts with respect, one judges",
+    "note": "M5's 명 note put it in one line: '네 명 (four people). The honorific version is 분.' — 세 명 counts the room, 세 분 counts the guests, and neither has an opinion about anyone. This module's 놈 is the third slot with the opinion built in: 세 놈 = three rascals, 그 놈 = that guy (contempt or affection, tone decides). All three are dependent — they need a number or a pointer in front — and the radar is register: 분 upward (손님 두 분), 명 level (학생 두 명), 놈 downward (나쁜 놈 둘). The drama runs on the third; the restaurant on the first two. Its female twin 년 exists, is only ever an insult, and is not for learners to deploy — file it under words to recognize in a shouting match, not to use."
   }
 ]
