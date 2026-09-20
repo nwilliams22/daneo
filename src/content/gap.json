@@ -2590,5 +2590,32 @@
     "lit": "unfold-gaze platform",
     "real": "an observation deck — the physical version of today's 전망: a place built for looking out, and the standard Korean date, school trip and tourist-bus stop",
     "note": "전망 + 臺, the platform-臺 M51's 무대 read as \"舞臺 dance-platform\": the outlook, with a floor under it. Every Korean city has one and 서울 (M12) has the famous two: the tower on 남산 (M31) — walked up, or by 케이블카 (riding frozen) — whose 전망대 is ringed with 사랑의 자물쇠 (love-padlocks, riding frozen) that couples clip to the fence, and the deck on the tall 빌딩 (M50) by the 한강 (M22) where the 야경 (M22 — the night view) is the point. The verb is M28's 올라가다 (전망대에 올라가다 = go up to the deck) and the reward is M22's 경치 or 구경하다 (M22). The word carries the analyst's sense with it: 전망이 좋다 said on the deck means the view is good, said in the office means the outlook is — one word for both horizons, which is exactly what 展望 always meant."
+  },
+  {
+    "id": "g_m95_chimmugeun_geum",
+    "cat": "phrase",
+    "ko": "침묵은 금",
+    "rom": "chimmugeun geum",
+    "lit": "silence is gold",
+    "real": "silence is golden — the thing to say when someone should have said nothing, and the excuse of everyone who did",
+    "note": "This module's 침묵 on the topic particle, then M60's 금 — the metal that note finally gave you bare (\"金 the metal itself, at last\"). The full proverb has a first half Korean rarely bothers with: 웅변은 은, 침묵은 금 (웅변 — eloquence, riding frozen; 은 — silver, riding frozen, and a homograph of the topic particle it sits beside) = speech is silver, silence is gold. Said after a meeting where someone talked too long, or to oneself before hitting send; the reply that inverts it, 침묵은 금이 아니에요 (M19's 아니다) = silence is NOT golden, is the whistle-blower's line, and the reason s_m95_lose_position_silence refuses to 침묵을 지키다. Radar: the 금 is 金 the metal; the 금 of 금지 on S2's signs is 禁, and a sign saying 침묵 금지 would mean silence is forbidden."
+  },
+  {
+    "id": "g_m95_dongniphada",
+    "cat": "concept",
+    "ko": "독립하다",
+    "rom": "dongniphada",
+    "lit": "to become independent (獨立)",
+    "real": "to move out of your parents' home — the milestone Korean adulthood is measured by, and the one most people reach at marriage",
+    "note": "This module's 독립 + 하다, and the everyday sense outranks the national one: 독립했어요? does not ask whether your country is free — it asks whether you still live with your parents. In Korea the answer is often no until M25's 결혼하다: rents in M12's 서울 and a culture that reads a single person's flat as a small loneliness keep adult children at home, and 독립 is the word for the day that ends — 서른 살에 독립했어요 (M30's 서른, M5's 살) = I moved out at thirty. The economic version is 경제적 독립 (M32's 경제 through the -적 factory from M45) = paying your own way, which many achieve years before the flat. Radar: 독립운동 (the 운동 inside M8's 운동하다) is the history-textbook sense, the 1919 movement; the two never confuse each other because one comes with a date and the other with a moving van."
+  },
+  {
+    "id": "g_m95_seungbuyok",
+    "cat": "concept",
+    "ko": "승부욕",
+    "rom": "seungbuyok",
+    "lit": "win-lose-desire",
+    "real": "a competitive streak — the drive that turns a board game into a blood sport; praised in athletes, forgiven in children, watched carefully in colleagues",
+    "note": "This module's 승부 + the 욕 of M45's 욕심 (\"欲心 desire-heart\") without the heart: the desire for the decision itself. 승부욕이 강하다 (M63's 강하다) = fiercely competitive — the phrase every sports profile uses and every job interview (M43's 면접) hears as a virtue; 승부욕이 없다 = doesn't care about winning, said with a sigh by coaches and with relief by spouses. The word is the whole module in one noun: 승부 is the win-or-lose a match exists to produce, and 욕 is wanting it more than the other side does."
   }
 ]
