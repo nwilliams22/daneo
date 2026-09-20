@@ -19110,5 +19110,209 @@
     "rom": "ipi da tteoreojyeodo jangmineun bommada dasi pieoyo",
     "wordIds": ["w_ip_leaf", "w_da", "w_tteoreojida", "w_jangmi", "w_bom", "w_dasi", "w_pida"],
     "note": "The ring's last sentence, on its two Grade-A plants: 잎이 — and now you hear the difference, 이피, not the 이비 of M14's 입 — stands as a bare subject inside the concession, -아/어도 from M39 on M36's 떨어지다 with M9's 다 in front; 장미는 takes the topic as the sentence's real subject. 마다 from M31 on M11's 봄 makes it a law of the calendar, M10's 다시 makes it a return, and M22's 피다 — 피어요, the same form s22_flowers_bloom used — closes. No new glue; every part is a promise an earlier module kept."
+  },
+  {
+    "id": "s_m86_typhoon_damage",
+    "en": [
+      { "t": "Because of the typhoon,", "role": "other", "id": "a" },
+      { "t": "the region", "role": "subject", "id": "s" },
+      { "t": "suffered", "role": "verb", "id": "v" },
+      { "t": "heavy damage", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "typhoon-by due-to", "role": "other", "id": "a" },
+      { "t": "that region-[topic]", "role": "subject", "id": "s" },
+      { "t": "big damage-[obj]", "role": "object", "id": "o" },
+      { "t": "wear(suffer)-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "태풍으로 인해", "role": "other", "id": "a" },
+      { "t": "그 지역은", "role": "subject", "id": "s" },
+      { "t": "큰 피해를", "role": "object", "id": "o" },
+      { "t": "입었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "taepungeuro inhae geu jiyeogeun keun pihaereul ibeosseoyo",
+    "wordIds": ["w_taepung", "w_inhada", "w_geu_det", "w_jiyeok", "w_keuda", "w_pihae", "w_ipda"],
+    "note": "The report's because-of, on its most typical cause: 태풍으로 인해 — M11's 태풍 on 으로 (the consonant form of M6's 로), then 인하다 in -아/어 — is the frame that never conjugates any other way, and it carries no tone: compare 태풍 때문에, M29's 때문 in the noun job s_m84_typhoon_express ran, which a speaker can say with a sigh. 피해를 입었어요 is the module's key collocation — M8's 입다 wearing damage instead of clothes, the suffer job that note never mentioned — and 큰 피해 stacks M1's 크다 in the badge. 그 지역은 (M29's 그, M31's 지역) is the topic the news names first."
+  },
+  {
+    "id": "s_m86_despite_means",
+    "en": [
+      { "t": "Despite difficult circumstances,", "role": "other", "id": "a" },
+      { "t": "that student", "role": "subject", "id": "s" },
+      { "t": "got into", "role": "verb", "id": "v" },
+      { "t": "university", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "difficult means-at-even not-bound-and", "role": "other", "id": "a" },
+      { "t": "that student-[topic]", "role": "subject", "id": "s" },
+      { "t": "university-to", "role": "place", "id": "p" },
+      { "t": "pass-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어려운 형편에도 불구하고", "role": "other", "id": "a" },
+      { "t": "그 학생은", "role": "subject", "id": "s" },
+      { "t": "대학교에", "role": "place", "id": "p" },
+      { "t": "합격했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoryeoun hyeongpyeonedo bulguhago geu haksaengeun daehakgyoe hapgyeokhaesseoyo",
+    "wordIds": ["w_eoryeopda", "w_hyeongpyeon", "w_bulguhada", "w_geu_det", "w_haksaeng", "w_daehakgyo", "w_hapgyeok"],
+    "note": "The despite-verb in its only frame: 어려운 형편에도 불구하고 — M7's 어렵다 in the badge from M24 (ㅂ softening: 어려운) on 형편, the means-word of the circumstance shelf, then 에 + 도 from M2 + 불구하다 in -고 from M10 — is what 형편이 어려워도 (-아/어도 from M39) becomes on paper. 합격했어요 is M44's 합격 verbed, as s_m84_room_route's neighbour 합격하려면 already did, with M15's 대학교 on 에 as the target; 그 학생은 takes the topic. A hard-up student who got in anyway: the sentence every scholarship letter is built around."
+  },
+  {
+    "id": "s_m86_audience_reaction",
+    "en": [
+      { "t": "Compared to last year,", "role": "other", "id": "a" },
+      { "t": "the audience's reaction", "role": "subject", "id": "s" },
+      { "t": "this year", "role": "other", "id": "b" },
+      { "t": "was far better", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "last-year-to compared", "role": "other", "id": "a" },
+      { "t": "this-year-[topic]", "role": "other", "id": "b" },
+      { "t": "audience-[plural]-of reaction-[subj]", "role": "subject", "id": "s" },
+      { "t": "far good-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "작년에 비해", "role": "other", "id": "a" },
+      { "t": "올해는", "role": "other", "id": "b" },
+      { "t": "관객들의 반응이", "role": "subject", "id": "s" },
+      { "t": "훨씬 좋았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jangnyeone bihae olhaeneun gwangaekdeurui baneungi hwolssin joasseoyo",
+    "wordIds": ["w_jangnyeon", "w_bihada", "w_olhae", "w_gwangaek", "w_baneung", "w_hwolssin", "w_jota"],
+    "note": "The compare-verb: 작년에 비해 — M25's 작년 on 에, 비하다 in -아/어 — is 작년보다 (M22's 보다-particle) in print, and the comparison it opens lands on M38's 훨씬, the adverb that note built for exactly this frame. 관객들의 반응이 is a bare subject: M48's 관객 pluralized with 들 from M27, possessive 의, and 반응 — the crowd's reaction, the measure every 공연 is judged by. 올해는 (M25's 올해) is a time-topic, tagged other because it is not the one doing the being-better; M1's 좋다 in the past closes."
+  },
+  {
+    "id": "s_m86_salary_late",
+    "en": [
+      { "t": "Because the company's circumstances", "role": "subject", "id": "s" },
+      { "t": "had gotten difficult,", "role": "other", "id": "a" },
+      { "t": "salaries", "role": "subject", "id": "q" },
+      { "t": "came out", "role": "verb", "id": "v" },
+      { "t": "late", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "company circumstances-[subj]", "role": "subject", "id": "s" },
+      { "t": "difficult-become-[badge] blame-at", "role": "other", "id": "a" },
+      { "t": "salary-[subj]", "role": "subject", "id": "q" },
+      { "t": "late-ly", "role": "other", "id": "b" },
+      { "t": "come-out-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회사 사정이", "role": "subject", "id": "s" },
+      { "t": "어려워진 탓에", "role": "other", "id": "a" },
+      { "t": "월급이", "role": "subject", "id": "q" },
+      { "t": "늦게", "role": "other", "id": "b" },
+      { "t": "나왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoesa sajeongi eoryeowojin tase wolgeubi neutge nawasseoyo",
+    "wordIds": ["w_hoesa", "w_sajeong", "w_eoryeopda", "w_tat", "w_wolgeup", "w_neutda", "w_naoda"],
+    "note": "The blame ending: -(으)ㄴ 탓에 on 어려워지다 — M7's 어렵다 through -아/어지다 from M35, then the past badge from M24 — makes 어려워진 탓에, because (and it is nobody's credit) things had gotten hard. 탓 decides the tone that M29's 때문 leaves open: 회사 사정 때문에 would merely state the cause; 탓에 files a complaint. 회사 사정이 (M2's 회사 stacked bare on 사정, the personal circumstance-word) is the first bare subject and 월급이 (M16's 월급) the second — the double-subject frame — with 늦게 (M8's 늦다 through -게 from M33) and M28's 나오다 closing: pay came out late, and the reason is the excuse the company gave."
+  },
+  {
+    "id": "s_m86_solution_lunch",
+    "en": [
+      { "t": "I was so busy looking for", "role": "other", "id": "a" },
+      { "t": "a solution", "role": "object", "id": "o" },
+      { "t": "that I didn't even get to eat", "role": "verb", "id": "v" },
+      { "t": "lunch", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "solution plan-[obj]", "role": "object", "id": "o" },
+      { "t": "search-busy-because", "role": "other", "id": "a" },
+      { "t": "lunch-even", "role": "object", "id": "b" },
+      { "t": "can't eat-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "해결 방안을", "role": "object", "id": "o" },
+      { "t": "찾느라고", "role": "other", "id": "a" },
+      { "t": "점심도", "role": "object", "id": "b" },
+      { "t": "못 먹었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haegyeol banganeul channeurago jeomsimdo mot meogeosseoyo",
+    "wordIds": ["w_haegyeol", "w_bangan", "w_chatda", "w_jeomsim", "w_meokda"],
+    "note": "The busy-because: 찾느라고 — M6's 찾다 with -느라고 straight on the stem — says the speaker was occupied with one thing and paid for it with another, the same subject on both sides and always a cost: no lunch. 해결 방안 stacks M72's 해결 bare on 방안, the committee's phrase for a solution; 점심도 (M3's 점심) carries 도 from M2 in its even-job, so the object wears 도 instead of 을 and keeps its role. 못 from M3 with M1's 먹다 closes — the -느라고 sentence's classic ending, because what -느라고 explains is almost always something you failed to do."
+  },
+  {
+    "id": "s_m86_accident_dependence",
+    "en": [
+      { "t": "After the accident he suffered,", "role": "other", "id": "a" },
+      { "t": "the athlete", "role": "subject", "id": "s" },
+      { "t": "ended up", "role": "verb", "id": "v" },
+      { "t": "in a position of depending", "role": "other", "id": "c" },
+      { "t": "on his family", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "accident-[obj] suffer-[badge] after", "role": "other", "id": "a" },
+      { "t": "that athlete-[topic]", "role": "subject", "id": "s" },
+      { "t": "family-to", "role": "other", "id": "b" },
+      { "t": "depend-[badge] position-[subj]", "role": "other", "id": "c" },
+      { "t": "become-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사고를 당한 뒤", "role": "other", "id": "a" },
+      { "t": "그 선수는", "role": "subject", "id": "s" },
+      { "t": "가족에게", "role": "other", "id": "b" },
+      { "t": "의존하는 처지가", "role": "other", "id": "c" },
+      { "t": "됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sagoreul danghan dwi geu seonsuneun gajogege uijonhaneun cheojiga dwaesseoyo",
+    "wordIds": ["w_sago", "w_danghada", "w_dwi", "w_geu_det", "w_seonsu", "w_gajok", "w_uijonhada", "w_cheoji", "w_doeda"],
+    "note": "The noun-passive: 사고를 당한 — M36's 사고 as the object of 당하다, in the past badge from M24 — is the accident happening TO him, the get-[noun]-ed that the 이/히/리/기 of M36 cannot build from a noun; M6's 뒤 makes the clause an after. 의존하는 처지가 됐어요 is the 되다 frame from M10 with a whole badge-clause as its complement: 의존하다 on M4's 가족 with 에게, wearing -는 from M24, describes the 처지 — the plight-word of the shelf — and 처지가 is the complement, tagged other because becoming is not doing. M17's 선수 on the topic: an athlete whose position changed, told in the register of a sports page."
+  },
+  {
+    "id": "s_m86_burden_giveup",
+    "en": [
+      { "t": "My younger brother", "role": "subject", "id": "s" },
+      { "t": "felt", "role": "other", "id": "a" },
+      { "t": "so much pressure that", "role": "object", "id": "o" },
+      { "t": "he gave up", "role": "verb", "id": "v" },
+      { "t": "entering the competition", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "too big burden-[obj]", "role": "object", "id": "o" },
+      { "t": "feel-[badge] remainder", "role": "other", "id": "a" },
+      { "t": "my younger-sibling-[topic]", "role": "subject", "id": "s" },
+      { "t": "competition-to go-out-[badge] thing-[obj]", "role": "object", "id": "b" },
+      { "t": "give-up-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "너무 큰 부담을", "role": "object", "id": "o" },
+      { "t": "느낀 나머지", "role": "other", "id": "a" },
+      { "t": "제 동생은", "role": "subject", "id": "s" },
+      { "t": "대회에 나가는 것을", "role": "object", "id": "b" },
+      { "t": "포기했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "neomu keun budameul neukkin nameoji je dongsaengeun daehoee naganeun geoseul pogihaesseoyo",
+    "wordIds": ["w_neomu", "w_keuda", "w_budam", "w_neukkida", "w_nameoji", "w_je", "w_dongsaeng", "w_daehoe", "w_nagada", "w_pogihada"],
+    "note": "The excess ending: 느낀 나머지 — M32's 느끼다 in the past badge from M24, then M57's 나머지 as a dependent noun — reads as the remainder of having felt — Korean for so-much-that: the burden was felt to the point where something had to give. 너무 큰 부담 (M11's 너무, M1's 크다) is the excess itself, an object of the felt-clause; the giving-up is the result, M35's 포기하다 on 대회에 나가는 것 — M51's 대회, M8's 나가다, -는 것 from M17 wrapping the act into a thing. 제 동생은 (M17's 제, M4's 동생) is the subject that stands, in Korean, between the cause and the effect."
+  },
+  {
+    "id": "s_m86_research_effect",
+    "en": [
+      { "t": "According to the research results,", "role": "other", "id": "a" },
+      { "t": "this medicine", "role": "subject", "id": "s" },
+      { "t": "is said to have", "role": "verb", "id": "v" },
+      { "t": "a bad effect", "role": "object", "id": "o" },
+      { "t": "on the body", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "research result-at follow-if", "role": "other", "id": "a" },
+      { "t": "this medicine-[topic]", "role": "subject", "id": "s" },
+      { "t": "body-on", "role": "other", "id": "b" },
+      { "t": "bad influence-[obj]", "role": "object", "id": "o" },
+      { "t": "reach-[quote] say", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "연구 결과에 따르면", "role": "other", "id": "a" },
+      { "t": "이 약은", "role": "subject", "id": "s" },
+      { "t": "몸에", "role": "other", "id": "b" },
+      { "t": "나쁜 영향을", "role": "object", "id": "o" },
+      { "t": "미친다고 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeongu gyeolgwae ttareumyeon i yageun mome nappeun yeonghyangeul michindago haeyo",
+    "wordIds": ["w_yeongu", "w_gyeolgwa", "w_ttareuda", "w_i_det", "w_yak", "w_mom", "w_nappeuda", "w_yeonghyang", "w_michida", "w_hada"],
+    "note": "The collocation M61 promised, in the sentence shape the news uses: 영향을 미치다 — M61's 미치다 in its reach-sense, on 영향 — inside the quoting -다고 하다 from M32, so 미친다고 해요 reports what the study says rather than asserting it. 연구 결과에 따르면 is the source frame from M32's 따르다 (\"[source]에 따르면 = according to\") on M32's 연구 and 결과, the 결과 that today's 원인 pairs with. 이 약은 (M29's 이, M10's 약) on the topic, 몸에 (M14's 몸) as the target, 나쁜 영향 (M29's 나쁘다 in the badge) as the effect: a whole health headline, and every word of it was already yours except the influence."
   }
 ]

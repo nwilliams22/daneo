@@ -2347,5 +2347,32 @@
     "lit": "relief booth",
     "real": "the payphone booth reborn as a safety booth — a lockable glass box on the night street with an emergency button, a camera, and a defibrillator, kept because the law still requires a public phone",
     "note": "안심 (peace of mind — the 安 of M4's 안녕 and the 心 of M19's 마음, riding frozen) + 부스 (booth — riding frozen; the loan that also names the photo booth and the trade-show stall): what became of this module's 공중전화. The phones outlived their callers — M6's 핸드폰 took the job by the early 2000s, exactly as M83's 전화기 note said it took the landline's — but a public line is a legal obligation, so the boxes stayed on the corners, and the telecom found them new work: press the button and the door locks, the camera records, a siren sounds, and the police (M16's 경찰) are dialled; a defibrillator hangs on the wall for the other kind of emergency. Some booths lend an umbrella (M9's 우산); the phone itself still works. The drama's rain-soaked confession was made from this box; its sequel is a woman walking home at two in the morning with a glass room to step into. Korea does not tear down the obsolete; it gives it a second job."
+  },
+  {
+    "id": "g_m86_motdoemyeon_josang_tat",
+    "cat": "phrase",
+    "ko": "못되면 조상 탓",
+    "rom": "motdoemyeon josang tat",
+    "lit": "if it goes badly, the ancestors' fault",
+    "real": "blaming anyone upstream when a thing fails — the proverb's second half, quoted alone as an accusation of buck-passing",
+    "note": "The other half of g_m63_jal_tat (잘되면 제 탓, 못되면 조상 탓), which rode both 탓 and 조상 frozen; M69's 조상 landed the ancestors (\"M63's gap deck already blamed them (못되면 조상 탓, with this word riding frozen)\") and this module lands the blame, so the half that gets quoted alone finally has all its words. 못되다 (go badly — still riding frozen) through -(으)면 from M20, then M69's 조상 + this module's 탓, stacked bare: the fault of the forebears. Said alone, it is the accusation — 못되면 조상 탓이지 — thrown at the colleague who blames the previous team, the previous government, the weather. The first half is almost never quoted by itself, because nobody needs a proverb to claim credit."
+  },
+  {
+    "id": "g_m86_hyeongpyeoneopda",
+    "cat": "concept",
+    "ko": "형편없다",
+    "rom": "hyeongpyeoneopda",
+    "lit": "there is no shape (of things)",
+    "real": "terrible, dreadful, hopeless — the review's harshest everyday adjective, for food, service, grades, and a team's defence",
+    "note": "This module's 형편 + M1's 없다 on the 있다-chassis, fused into one adjective: the state of things does not exist. 형편 is one's means, how things stand — and when they stand nowhere, the word for it is the one every one-star review reaches for: 음식이 형편없었어요 (M1's 음식), 형편없는 점수 (M15's 점수, in the badge from M24), 형편없는 경기 (M17's 경기) for the match the defence slept through. Harsher than M29's 나쁘다, colder than M17's 별로, and one word with no space, the way 맛없다 and 재미없다 fused before it. The noun keeps its money sense in 형편이 어렵다; the adjective has forgotten money entirely."
+  },
+  {
+    "id": "g_m86_sajeong_bwajuda",
+    "cat": "phrase",
+    "ko": "사정을 봐주다",
+    "rom": "sajeongeul bwajuda",
+    "lit": "to look at (someone's) circumstances for them",
+    "real": "to make allowances, cut someone slack — the request 사정 좀 봐주세요 is how you ask a landlord, a teacher, or a traffic cop to bend",
+    "note": "This module's 사정 as the object of M1's 보다 through the favour machine of M9 (봐 + 주다): to look at the circumstances on someone's behalf — and looking, in Korean, is agreeing to see them. 사정 좀 봐주세요 (좀 — M9's 조금 clipped, softening it) is the sentence said at the counter after the deadline, to the landlord in a thin month, to the officer with the ticket book open; the answer 사정은 알겠는데 (I see your situation, but — -는데 from M53) is the polite refusal it usually meets. The reverse, 사정없이 (without regard to circumstances — 사정 + M1's 없다 adverbed), means mercilessly: 사정없이 때리다 (때리다 — to hit, riding frozen; it belongs to M94). Personal circumstances are the one currency Korean bureaucracy will sometimes accept; this is the phrase that offers them."
   }
 ]

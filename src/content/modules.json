@@ -2031,5 +2031,26 @@
       "s_m84_suit_promise", "s_m84_payphone_callback", "s_m84_urgent_meeting", "s_m84_form_rewrite",
       "s_m84_level_three_hedge", "s_m84_room_route", "s_m84_typhoon_express", "s_m84_roses_return"
     ]
+  },
+  {
+    "id": "m86",
+    "title": "Cause and Grounds",
+    "order": 95,
+    "ring": 2,
+    "contentMd": "modules/module-86.md",
+    "wordIds": [
+      "w_inhada", "w_bihada", "w_bulguhada", "w_birothada",
+      "w_birotdoeda", "w_danghada", "w_wonin", "w_geungeo",
+      "w_batang", "w_tat", "w_yeonghyang", "w_jagyong",
+      "w_jagyonghada", "w_gyeollon", "w_piryoseong", "w_haedanghada",
+      "w_sajeong", "w_hyeongpyeon", "w_cheoji", "w_siljeong",
+      "w_yeogeon", "w_baneung", "w_yogu", "w_pihae",
+      "w_budam", "w_amnyeok", "w_wigi", "w_uryeo",
+      "w_daechaek", "w_bangan", "w_uijonhada"
+    ],
+    "sentenceIds": [
+      "s_m86_typhoon_damage", "s_m86_despite_means", "s_m86_audience_reaction", "s_m86_salary_late",
+      "s_m86_solution_lunch", "s_m86_accident_dependence", "s_m86_burden_giveup", "s_m86_research_effect"
+    ]
   }
 ]
