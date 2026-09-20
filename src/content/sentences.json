@@ -21069,5 +21069,203 @@
     "rom": "ireumeul sseugo chamyeohagiman hamyeon dwaeyo",
     "wordIds": ["w_ireum", "w_sseuda", "w_chamyeohada", "w_doeda"],
     "note": "-기만 하면 on its debut, in the frame it lives in: 참여하기만 하면 돼요 = you only have to take part — today's 참여하다 through the -기 nominalizer from M13, 만 from M30 (only, just) picking that one act off the menu, -(으)면 from M20 making it the condition, and 돼요 (M10's 되다) saying that is enough. It is -(으)면 돼요 from M23 with a 만 inside — just do X, and ONLY X is needed — the sentence every sign-up sheet, raffle and school festival is built on. 이름을 쓰고 is M1's 이름 with M10's 쓰다 in its write-job and verb--고 from M10 listing the first step. Sort it against -아/어야 from M39 (that md's \"only if\"): 참여해야 돼요 says you MUST; 참여하기만 하면 돼요 says that is ALL you must — the first is a gate, the second an invitation."
+  },
+  {
+    "id": "s_m94_feelings_hidden",
+    "en": [
+      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "didn't say", "role": "verb", "id": "v" },
+      { "t": "a single word,", "role": "object", "id": "o" },
+      { "t": "keeping his feelings hidden", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[topic]", "role": "subject", "id": "s" },
+      { "t": "feelings-[obj] hidden-state", "role": "other", "id": "c" },
+      { "t": "any word-even", "role": "object", "id": "o" },
+      { "t": "do-not-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생은", "role": "subject", "id": "s" },
+      { "t": "감정을 감춘 채", "role": "other", "id": "c" },
+      { "t": "아무 말도", "role": "object", "id": "o" },
+      { "t": "하지 않았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengeun gamjeongeul gamchun chae amu maldo haji anasseoyo",
+    "wordIds": ["w_dongsaeng", "w_gamjeong", "w_gamchuda", "w_chae", "w_amu", "w_mal", "w_hada"],
+    "note": "-(으)ㄴ 채 on its debut: 감정을 감춘 채 = with his feelings hidden — today's 감추다 in the past badge -(으)ㄴ from M24, then 채, the dependent noun, closing the state and leaving it standing while the main clause happens. The 로 is optional and dropped here, as it usually is in speech. M42's 감정 takes the graver hiding-verb (that note ran 감정을 숨기다; the sort in today's 감추다 note says why this one), and the main clause is the emptiest sentence Korean has: M29's 아무 + M4's 말 + 도 from M2 + the long negation from M28 — 아무 말도 하지 않았어요 = said not a word. Read the shape: [state frozen in 채] + [what happened anyway]; the sibling's silence is the event, the hidden feelings its condition."
+  },
+  {
+    "id": "s_m94_coat_off_again",
+    "en": [
+      { "t": "I threw on", "role": "other", "id": "b" },
+      { "t": "my coat,", "role": "object", "id": "a" },
+      { "t": "but it was too hot, so", "role": "other", "id": "c" },
+      { "t": "I took it off", "role": "verb", "id": "v" },
+      { "t": "again", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "coat-[obj]", "role": "object", "id": "a" },
+      { "t": "threw-on-then", "role": "other", "id": "b" },
+      { "t": "too hot-so", "role": "other", "id": "c" },
+      { "t": "again", "role": "other", "id": "d" },
+      { "t": "took-off", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "코트를", "role": "object", "id": "a" },
+      { "t": "걸쳤다가", "role": "other", "id": "b" },
+      { "t": "너무 더워서", "role": "other", "id": "c" },
+      { "t": "다시", "role": "other", "id": "d" },
+      { "t": "벗었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "koteureul geolchyeotdaga neomu deowoseo dasi beoseosseoyo",
+    "wordIds": ["w_koteu", "w_geolchida", "w_neomu", "w_deopda", "w_dasi", "w_beotda"],
+    "note": "-다가 in its past coat: 걸쳤다가 = threw it on, and then — the -았/었 inside the ending means the first action was COMPLETED before the switch, so the second undoes it. Today's 걸치다 drapes M21's 코트 over the shoulders, M11's 너무 and 덥다 supply the reason on -아/어서 from M10, and M21's 벗다 with M10's 다시 reverses the whole sentence. Plain 걸치다가 would mean while still putting it on; 걸쳤다가 means it was on, and came off — the difference between interrupting an action and reversing one, and Part 3's whole lesson in one tense marker."
+  },
+  {
+    "id": "s_m94_work_drift",
+    "en": [
+      { "t": "Having clung to nothing but work,", "role": "other", "id": "a" },
+      { "t": "I drifted apart", "role": "verb", "id": "v" },
+      { "t": "from my friends", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "company work-at-only cling-do-see-so", "role": "other", "id": "a" },
+      { "t": "friends-with", "role": "other", "id": "b" },
+      { "t": "grew-distant", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회사 일에만 매달리다 보니", "role": "other", "id": "a" },
+      { "t": "친구들과", "role": "other", "id": "b" },
+      { "t": "멀어졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoesa ireman maedallida boni chingudeulgwa meoreojyeosseoyo",
+    "wordIds": ["w_hoesa", "w_maedallida", "w_boda", "w_chingu", "w_meoreojida"],
+    "note": "-다 보니 on its debut: 매달리다 보니 = having kept clinging (to work), I found — -다가 clipped to -다, M1's 보다 in the -(으)니 coat, and the discovery lands in the main clause. Today's 매달리다 takes 에 (you hang FROM the thing) — 회사 일에만, M2's 회사 with the work-일 and the only-만 of M30 — and M70's 멀어지다 is the verb that note built for exactly this: friends drifting. Part 4's rule is here to check: the speaker did not DECIDE to lose the friends; the clause before 보니 is what they kept doing, the clause after it is what they looked up and saw. Swap in -(으)니까 from M10 and it becomes a reason you are offering; 보니 makes it a thing you noticed too late."
+  },
+  {
+    "id": "s_m94_practice_master",
+    "en": [
+      { "t": "If you keep practising", "role": "other", "id": "b" },
+      { "t": "every day,", "role": "other", "id": "a" },
+      { "t": "you come to master", "role": "verb", "id": "v" },
+      { "t": "the skill", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "every-day", "role": "other", "id": "a" },
+      { "t": "practise-do-see-if", "role": "other", "id": "b" },
+      { "t": "skill-[obj]", "role": "object", "id": "c" },
+      { "t": "master-come-to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "매일", "role": "other", "id": "a" },
+      { "t": "연습하다 보면", "role": "other", "id": "b" },
+      { "t": "기술을", "role": "object", "id": "c" },
+      { "t": "익히게 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "maeil yeonseuphada bomyeon gisureul ikhige dwaeyo",
+    "wordIds": ["w_maeil", "w_yeonseuphada", "w_boda", "w_gisul", "w_ikhida", "w_doeda"],
+    "note": "-다 보면 = if you keep at it — the same -다 + 보다 as the sentence above, now closed with -(으)면 from M20 instead of -(으)니: not what I found, but what anyone will. M10's 연습하다 is the thing kept at, M5's 매일 the rate, and today's 익히다 in its second NIKL row — 기술을 익히다, M44's 기술 mastered — rides -게 되다 from M35, the ending for what comes about rather than what you do. Two endings both saying the result was not chosen: 보면 says keep going and it happens, 게 되다 says it happened to you. The consolation register Part 4 describes (살다 보면) and the teacher's promise are the same grammar."
+  },
+  {
+    "id": "s_m94_nearly_collapsed",
+    "en": [
+      { "t": "After going without", "role": "other", "id": "c" },
+      { "t": "sleep", "role": "object", "id": "b" },
+      { "t": "for several days,", "role": "other", "id": "a" },
+      { "t": "in the end", "role": "other", "id": "d" },
+      { "t": "I nearly collapsed", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "several-days during", "role": "other", "id": "a" },
+      { "t": "sleep-[obj]", "role": "object", "id": "b" },
+      { "t": "can't-sleep-and-then", "role": "other", "id": "c" },
+      { "t": "in-the-end", "role": "other", "id": "d" },
+      { "t": "collapse-almost-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "며칠 동안", "role": "other", "id": "a" },
+      { "t": "잠을", "role": "object", "id": "b" },
+      { "t": "못 자다가", "role": "other", "id": "c" },
+      { "t": "결국", "role": "other", "id": "d" },
+      { "t": "쓰러질 뻔했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "myeochil dongan jameul mot jadaga gyeolguk sseureojil ppeonhaesseoyo",
+    "wordIds": ["w_myeochil", "w_dongan", "w_jam", "w_jada", "w_gyeolguk", "w_sseureojida"],
+    "note": "-(으)ㄹ 뻔하다 on its debut: 쓰러질 뻔했어요 = I nearly collapsed — today's 쓰러지다 in the prospective badge, then 뻔 (the dependent noun, frozen) + 하다, and ALWAYS in the past, because a near-miss is only known afterwards. In front of it, plain -다가: 못 자다가 = while going without sleep, and then — M3's 못 on M1's 자다 with M28's 잠 as its object, the state that was under way when the switch came; M25's 며칠 with M28's 동안 sets the span and M32's 결국 (that note: \"the word every drama recap leans on\") announces the turn. The sort in today's 쓰러지다 note matters here: 넘어질 뻔했어요 would be a stumble on the ice; 쓰러질 뻔했어요 is the office and the ambulance that did not, quite, come."
+  },
+  {
+    "id": "s_m94_rumour_school",
+    "en": [
+      { "t": "A strange rumour", "role": "subject", "id": "s" },
+      { "t": "ended up spreading", "role": "verb", "id": "v" },
+      { "t": "through the whole school", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "strange rumour-[subj]", "role": "subject", "id": "s" },
+      { "t": "school whole-to", "role": "place", "id": "p" },
+      { "t": "spread-and-ended-up", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이상한 소문이", "role": "subject", "id": "s" },
+      { "t": "학교 전체에", "role": "place", "id": "p" },
+      { "t": "퍼지고 말았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "isanghan somuni hakgyo jeonchee peojigo marasseoyo",
+    "wordIds": ["w_isanghada", "w_somun", "w_hakgyo", "w_jeonche", "w_peojida"],
+    "note": "-고 말다 on its debut: 퍼지고 말았어요 = ended up spreading — today's 퍼지다 on verb--고 from M10, then 말다, the 말 of -지 마세요 from M14 working as an auxiliary: the action ran to its end, and the speaker wishes it had not. M24's 이상하다 in the badge -(으)ㄴ from M24 sits on M24's 소문 (that note: \"travels faster than 뉴스\"), and M57's 전체 after M1's 학교 with 에 names how far. Sort it against -아/어 버리다 from M52 — 퍼져 버렸어요 says the same thing with more feeling in the voice; -고 말다 is the narrator's version, the one a diary or a novel writes — and against -아/어지다 from M35 inside 퍼지다 itself, which already said nobody did this on purpose. A rumour is the perfect subject: no agent, no undoing, only regret."
+  },
+  {
+    "id": "s_m94_fans_yelling",
+    "en": [
+      { "t": "The fans", "role": "subject", "id": "s" },
+      { "t": "outside", "role": "place", "id": "p" },
+      { "t": "kept shouting", "role": "other", "id": "c" },
+      { "t": "his name, so", "role": "object", "id": "o" },
+      { "t": "the song", "role": "subject", "id": "s2" },
+      { "t": "couldn't be heard", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "fans-[subj]", "role": "subject", "id": "s" },
+      { "t": "outside-at", "role": "place", "id": "p" },
+      { "t": "name-[obj]", "role": "object", "id": "o" },
+      { "t": "shout-keep-on-so", "role": "other", "id": "c" },
+      { "t": "song-[subj]", "role": "subject", "id": "s2" },
+      { "t": "not heard-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "팬들이", "role": "subject", "id": "s" },
+      { "t": "밖에서", "role": "place", "id": "p" },
+      { "t": "이름을", "role": "object", "id": "o" },
+      { "t": "외쳐 대서", "role": "other", "id": "c" },
+      { "t": "노래가", "role": "subject", "id": "s2" },
+      { "t": "안 들렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "paendeuri bakkeseo ireumeul oechyeo daeseo noraega an deullyeosseoyo",
+    "wordIds": ["w_paen", "w_bak", "w_ireum", "w_oechida", "w_daeda", "w_norae", "w_deullida"],
+    "note": "-아/어 대다 on its debut: 외쳐 대서 = kept shouting (and so) — today's 외치다 in the -아/어 coat, then today's 대다 as an auxiliary: the action repeated, and the speaker's eyebrows are up. M51's 팬 with the plural 들 from M27 on the bare 이 is the first subject; M6's 밖 with 에서 places them; M1's 이름 is the WORD the shouting carried, which is what makes it 외치다 and not 소리치다. Then -아/어서 from M10 hands the result to a second subject — M7's 노래 on 가 — and M36's 들리다 in the passive party with M3's 안 closes it: the song was not heard. Take the 대다 out (외쳐서) and the sentence is neutral reporting; put it in and the speaker paid for the ticket and is not pleased."
+  },
+  {
+    "id": "s_m94_hurry_mistakes",
+    "en": [
+      { "t": "If you work", "role": "other", "id": "b" },
+      { "t": "in a hurry,", "role": "other", "id": "a" },
+      { "t": "you are forever making", "role": "verb", "id": "v" },
+      { "t": "mistakes", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "hurriedly", "role": "other", "id": "a" },
+      { "t": "work-if", "role": "other", "id": "b" },
+      { "t": "mistake-[obj]", "role": "object", "id": "c" },
+      { "t": "commit-ing is-the-habit", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "급하게", "role": "other", "id": "a" },
+      { "t": "일하면", "role": "other", "id": "b" },
+      { "t": "실수를", "role": "object", "id": "c" },
+      { "t": "저지르기 일쑤예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geuphage ilhamyeon silsureul jeojireugi ilssuyeyo",
+    "wordIds": ["w_geuphada", "w_ilhada", "w_silsu", "w_jeojireuda"],
+    "note": "-기 일쑤다 on its debut: 저지르기 일쑤예요 = is forever making (mistakes) — today's 저지르다 through the -기 nominalizer from M13, then 일쑤 (a dependent noun, frozen: the habitual mishap) closed with the copula. It is a verdict on a pattern, never on one event, and always on a BAD pattern: nobody 하기 일쑤예요-s their homework on time. M38's 급하다 wears the -게 adverbializer from M33 (that note ran 급하게 먹으면 체해요, the same warning about food), -(으)면 from M20 on M2's 일하다 sets the condition, and M63's 실수 is the object 저지르다 was built for. Part 5's table has the four endings side by side; this is the one for the colleague, not the accident."
   }
 ]

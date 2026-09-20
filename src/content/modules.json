@@ -2248,5 +2248,27 @@
       "s_m95_no_matter_competition", "s_m95_lose_position_silence", "s_m95_lose_match_harsh", "s_m95_member_or_not",
       "s_m95_instead_of_quarrel", "s_m95_competition_whereas", "s_m95_no_contact_no_conflict", "s_m95_just_write_name"
     ]
+  },
+  {
+    "id": "m94",
+    "title": "Motion and Mishap",
+    "order": 103,
+    "ring": 2,
+    "contentMd": "modules/module-94.md",
+    "wordIds": [
+      "w_geolchida", "w_dureuda", "w_daeda", "w_samda_take",
+      "w_gamchuda", "w_dulleossada", "w_deotbuchida", "w_maedallida",
+      "w_deurida_letin", "w_ikhida", "w_geoduda", "w_neomgida",
+      "w_jeojireuda", "w_ttaerida", "w_chireuda", "w_sseureojida",
+      "w_heuteojida", "w_ppajyeonagada", "w_peojida", "w_oechida",
+      "w_ireoseoda", "w_apjangseoda", "w_bichida", "w_bichuda",
+      "w_ttuida", "w_binnada", "w_sillida", "w_giurida",
+      "w_dajida", "w_maetda", "w_akkida", "w_deobulda",
+      "w_ireoda", "w_geureoda", "w_chae"
+    ],
+    "sentenceIds": [
+      "s_m94_feelings_hidden", "s_m94_coat_off_again", "s_m94_work_drift", "s_m94_practice_master",
+      "s_m94_nearly_collapsed", "s_m94_rumour_school", "s_m94_fans_yelling", "s_m94_hurry_mistakes"
+    ]
   }
 ]
