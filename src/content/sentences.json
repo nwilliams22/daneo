@@ -19926,5 +19926,200 @@
     "rom": "hoesaga muneojin jikhueneun hanmadido hal su eopseosseoyo",
     "wordIds": ["w_hoesa", "w_muneojida", "w_jikhu", "w_hanmadi", "w_hada", "w_eopda"],
     "note": "Three shelf words and no new glue — the recycling sentence. 무너진 직후에는: 무너지다 in the past badge from M24 (무너진 — collapsed) hands its moment to 직후, right after, which takes 에 and then the topic 는 — the whole time-phrase is other, and 회사가 (M2's 회사) is the bare-이 subject of 무너지다, tagged subject though it sits inside the modifier. 한마디도 = not even one word: 한마디 with M2's 도 in its even-job replacing the object 를 — still the object of 하다, and tagged object. The closer is the can-machine -(으)ㄹ 수 없다 from M10 in the past: 할 수 없었어요, one chunk. Compare 무너진 후에 (-(으)ㄴ 후에 from M13 — sometime after) and 무너진 이래 (this shelf — ever since): 직후 is the moment itself. The sentence said about 1997, about a bankruptcy, about the day the news came."
+  },
+  {
+    "id": "s_m89_city_scale",
+    "en": [
+      { "t": "The bigger a city's scale", "role": "subject", "id": "s" },
+      { "t": "gets,", "role": "other", "id": "a" },
+      { "t": "the more its traffic problems", "role": "subject", "id": "q" },
+      { "t": "increase as well.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "city-of scale-[subj]", "role": "subject", "id": "s" },
+      { "t": "grow-big-the-more", "role": "other", "id": "a" },
+      { "t": "traffic problem-also", "role": "subject", "id": "q" },
+      { "t": "increases", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "도시의 규모가", "role": "subject", "id": "s" },
+      { "t": "커질수록", "role": "other", "id": "a" },
+      { "t": "교통 문제도", "role": "subject", "id": "q" },
+      { "t": "증가해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dosiui gyumoga keojilsurok gyotong munjedo jeunggahaeyo",
+    "wordIds": ["w_dosi", "w_gyumo", "w_keuda", "w_gyotong", "w_munje", "w_jeunggahada"],
+    "note": "The-more machine on its first outing: M1's 크다 through -아/어지다 from M35 (커지다 = get bigger) takes -(으)ㄹ수록 — 커질수록 = the bigger it gets, the more… — and the second clause pays it off with the print verb 증가하다 where the mouth would say 늘어요 (M35's 늘다). Two measure words in one line: 규모 is the city's scale (M22's 도시 with the possessive 의), and 교통 문제 (M12's 교통, M7's 문제) carries 도 from M2 — problems increase TOO, in step. Both bare-particle nouns are subjects: 규모가 of the 수록-clause, 문제도 of the closer. The urbanist's sentence, and every Seoul commuter's."
+  },
+  {
+    "id": "s_m89_typhoon_damage",
+    "en": [
+      { "t": "The typhoon damage", "role": "subject", "id": "s" },
+      { "t": "was enormous", "role": "verb", "id": "v" },
+      { "t": "— to a degree you could not believe.", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "typhoon damage-[subj]", "role": "subject", "id": "s" },
+      { "t": "believe-can-not-degree-to", "role": "other", "id": "a" },
+      { "t": "was-enormous", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "태풍 피해가", "role": "subject", "id": "s" },
+      { "t": "믿을 수 없을 정도로", "role": "other", "id": "a" },
+      { "t": "엄청났어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "taepung pihaega mideul su eopseul jeongdoro eomcheongnasseoyo",
+    "wordIds": ["w_taepung", "w_pihae", "w_mitda", "w_jeongdo", "w_eomcheongnada"],
+    "note": "M32's 정도 as a clause-taker: M19's 믿다 in the can-machine from M10, negated (믿을 수 없다), wears the prospective badge and lands on 정도로 — 믿을 수 없을 정도로 = to a degree that cannot be believed, unbelievably. After a noun 정도 says about (한 시간 정도); after a clause it says how far, and the closer is the mouth's giant 엄청나다 in the past. M11's 태풍 and M86's 피해 make the compound subject with 가, the bare-particle subject rule holding across two nouns. Change 정도로 to 만큼 and nothing moves."
+  },
+  {
+    "id": "s_m89_doctor_experience",
+    "en": [
+      { "t": "That doctor's", "role": "subject", "id": "s" },
+      { "t": "experience", "role": "subject", "id": "q" },
+      { "t": "is not only abundant;", "role": "other", "id": "a" },
+      { "t": "his skill", "role": "subject", "id": "r" },
+      { "t": "is outstanding too.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that doctor-[topic]", "role": "subject", "id": "s" },
+      { "t": "experience-[subj]", "role": "subject", "id": "q" },
+      { "t": "abundant-only-not-but-also", "role": "other", "id": "a" },
+      { "t": "skill-also", "role": "subject", "id": "r" },
+      { "t": "outstanding", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 의사는", "role": "subject", "id": "s" },
+      { "t": "경험이", "role": "subject", "id": "q" },
+      { "t": "풍부할 뿐만 아니라", "role": "other", "id": "a" },
+      { "t": "실력도", "role": "subject", "id": "r" },
+      { "t": "뛰어나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu uisaneun gyeongheomi pungbuhal ppunman anira sillyeokdo ttwieonayo",
+    "wordIds": ["w_geu_det", "w_uisa", "w_gyeongheom", "w_pungbuhada", "w_ppun", "w_sillyeok", "w_ttwieonada"],
+    "note": "The not-only frame: 풍부하다 in the prospective badge + M55's 뿐 + 만 (M30) + 아니라 (M19's 아니다 in its -아/어 coat) — 풍부할 뿐만 아니라 = not only is it abundant. The second half needs 도 from M2 on its noun (실력도) to say but also; without the 도 the frame limps. Two scale adjectives sit at either end: 풍부하다 for M33's 경험 (experience as wealth), 뛰어나다 for M26's 실력 (skill that leaps out). And the double subject M24 first showed (한식은 반찬이 많아요) runs twice — 의사는 with 경험이, then 실력도 — the doctor topicalized, the two virtues each a bare subject."
+  },
+  {
+    "id": "s_m89_strict_rules",
+    "en": [
+      { "t": "The rules", "role": "subject", "id": "s" },
+      { "t": "are so strict that", "role": "other", "id": "a" },
+      { "t": "during class", "role": "other", "id": "p" },
+      { "t": "you can't drink", "role": "verb", "id": "v" },
+      { "t": "even water.", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "rule-[subj]", "role": "subject", "id": "s" },
+      { "t": "too strict-so", "role": "other", "id": "a" },
+      { "t": "class time-at-[topic]", "role": "other", "id": "p" },
+      { "t": "water-even", "role": "object", "id": "o" },
+      { "t": "cannot drink", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "규칙이", "role": "subject", "id": "s" },
+      { "t": "너무 엄격해서", "role": "other", "id": "a" },
+      { "t": "수업 시간에는", "role": "other", "id": "p" },
+      { "t": "물조차", "role": "object", "id": "o" },
+      { "t": "못 마셔요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyuchigi neomu eomgyeokhaeseo sueop siganeneun muljocha mot masyeoyo",
+    "wordIds": ["w_gyuchik", "w_neomu", "w_eomgyeokhada", "w_sueop", "w_sigan", "w_mul", "w_masida"],
+    "note": "조차 on its first outing, and on the least expected item: water. 물조차 못 마셔요 = you can't drink even WATER — the particle names the bottom of the scale (if not water, then nothing) and, as always, the closer is negative (못 from M3, M1's 마시다). It replaces the object particle the way 도 from M2 does; swap in 물도 and the sentence merely adds water to a list. 엄격하다 sets the cause on -아/어서 with M11's 너무, M39's 규칙 is its bare subject, and 수업 시간에는 (M10's 수업, M1's 시간) is the time frame with 는 for contrast — in class, as opposed to after."
+  },
+  {
+    "id": "s_m89_last_bus",
+    "en": [
+      { "t": "Having missed", "role": "other", "id": "a" },
+      { "t": "even the last bus,", "role": "object", "id": "o" },
+      { "t": "I could not possibly", "role": "other", "id": "d" },
+      { "t": "get", "role": "verb", "id": "v" },
+      { "t": "home.", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "last bus-even", "role": "object", "id": "o" },
+      { "t": "missed-so", "role": "other", "id": "a" },
+      { "t": "possibly-not", "role": "other", "id": "d" },
+      { "t": "home-to", "role": "place", "id": "p" },
+      { "t": "go-can-not-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "마지막 버스마저", "role": "object", "id": "o" },
+      { "t": "놓쳐서", "role": "other", "id": "a" },
+      { "t": "도저히", "role": "other", "id": "d" },
+      { "t": "집에", "role": "place", "id": "p" },
+      { "t": "갈 수 없었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "majimak beoseumajeo nochyeoseo dojeohi jibe gal su eopseosseoyo",
+    "wordIds": ["w_majimak", "w_beoseu", "w_nochida", "w_dojeohi", "w_jip", "w_gada"],
+    "note": "마저 on the last thing that could go: 마지막 버스마저 (M15's 마지막, M6's 버스) = even the last bus — the particle of the final straw, the one that comes after every other option is gone. Sort it against the water sentence: 조차 picks the least expected item, 마저 the last remaining one. M12's 놓치다 carries the cause on -아/어서, and 도저히 does what it only ever does — front a negative: 도저히 갈 수 없었어요 (M1's 가다 in the can-machine from M10, past) = could not possibly get there. 집에 is the place; the speaker is the dropped subject, stranded."
+  },
+  {
+    "id": "s_m89_balance_health",
+    "en": [
+      { "t": "Balance of body and mind, of all things,", "role": "subject", "id": "s" },
+      { "t": "is the basis of health.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "body-and mind-of balance-the-very", "role": "subject", "id": "s" },
+      { "t": "health-of basis-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "몸과 마음의 균형이야말로", "role": "subject", "id": "s" },
+      { "t": "건강의 기본이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "momgwa maeumui gyunhyeongiyamallo geongangui gibonieyo",
+    "wordIds": ["w_mom", "w_maeum", "w_gyunhyeong", "w_geongang", "w_gibon"],
+    "note": "-(이)야말로 on its first outing, paying M85's 그야말로 note in full: 균형이야말로 = balance, of all things, is what… — the particle replaces the subject 이/가 and crowns the noun as THE one. Consonant-final nouns take 이야말로, vowel-final take 야말로 (건강이야말로, 사랑이야말로, 지금이야말로). The noun it crowns is 균형, and the copula names what it is the basis of — M14's 건강 with M57's 기본. 몸과 마음 (M14's 몸, M19's 마음, joined by 과) is the balance being kept. The health column's opening line; every wellness poster in Korea ends with 기본이에요."
+  },
+  {
+    "id": "s_m89_customers_grew",
+    "en": [
+      { "t": "At first", "role": "other", "id": "a" },
+      { "t": "the customers", "role": "subject", "id": "s" },
+      { "t": "were a mere ten,", "role": "other", "id": "b" },
+      { "t": "but now", "role": "other", "id": "c" },
+      { "t": "they have grown considerably.", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "beginning-at-[topic]", "role": "other", "id": "a" },
+      { "t": "customer-[subj]", "role": "subject", "id": "s" },
+      { "t": "ten people-to merely-was-but", "role": "other", "id": "b" },
+      { "t": "now-[topic]", "role": "other", "id": "c" },
+      { "t": "considerably increased", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "처음에는", "role": "other", "id": "a" },
+      { "t": "손님이", "role": "subject", "id": "s" },
+      { "t": "열 명에 불과했지만", "role": "other", "id": "b" },
+      { "t": "지금은", "role": "other", "id": "c" },
+      { "t": "상당히 늘었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheoeumeneun sonnimi yeol myeonge bulgwahaetjiman jigeumeun sangdanghi neureosseoyo",
+    "wordIds": ["w_cheoeum", "w_sonnim", "w_yeol", "w_c_myeong", "w_bulgwahada", "w_jigeum", "w_sangdanghi", "w_neulda"],
+    "note": "The merely-frame: [noun]에 불과하다 — 열 명에 불과했지만 = were no more than ten, and the -지만 from M7 concedes it before the turn. M5's 열 with the counter 명 sits in the 에 slot; the verb says the number did not exceed that, and the disappointment rides inside it. Then the recovery: M85's 상당히 (the report's quite) on M35's 늘다 — 상당히 늘었어요 = have grown considerably — the spoken increase verb, since 증가하다 would make a shop sound like a ministry. 처음에는 and 지금은 (M15's 처음, M2's 지금) frame the before and after with contrastive 는; 손님이 (M9's 손님) is the bare subject between them."
+  },
+  {
+    "id": "s_m89_inspection",
+    "en": [
+      { "t": "To prevent a major accident,", "role": "other", "id": "a" },
+      { "t": "the government", "role": "subject", "id": "s" },
+      { "t": "thoroughly carried out", "role": "verb", "id": "v" },
+      { "t": "a large-scale inspection", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "large-size accident-[obj] block-in-order-to", "role": "other", "id": "a" },
+      { "t": "government-[topic]", "role": "subject", "id": "s" },
+      { "t": "large-scale inspection-[obj]", "role": "object", "id": "o" },
+      { "t": "thoroughly did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "대형 사고를 막기 위해서", "role": "other", "id": "a" },
+      { "t": "정부는", "role": "subject", "id": "s" },
+      { "t": "대규모 검사를", "role": "object", "id": "o" },
+      { "t": "철저하게 했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daehyeong sagoreul makgi wihaeseo jeongbuneun daegyumo geomsareul cheoljeohage haesseoyo",
+    "wordIds": ["w_daehyeong", "w_sago", "w_makda_block", "w_jeongbu", "w_daegyumo", "w_geomsa", "w_cheoljeohada"],
+    "note": "The two big-大 words in one line, sorted by what they size: 대형 사고 (M36's 사고) is a major accident — one THING, large; 대규모 검사 (M44's 검사) is a large-scale inspection — an UNDERTAKING, wide. 철저하다 closes it through the -게 adverbializer from M33 (철저하게 했어요 = did it thoroughly), which is how this shelf's adjectives usually reach a verb. The purpose rides -기 위해서 from M44 on M36's 막다 (to block, to prevent), M32's 정부 is the topic, and the whole thing reads like the second paragraph of a safety notice — which is where every word in it lives."
   }
 ]
