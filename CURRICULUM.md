@@ -216,6 +216,79 @@ candidates), dup-grep, author at trimmed depth, validate, ship, log. No
 external APIs; 기초사전 stays a human reference only (CC BY-SA — never copy
 its examples).
 
+## 2c. Ring 3 — the advanced ring *(scoped with Nick 2026-09-19)*
+
+**Target:** the ~2,500 remaining NIKL grade-C headwords (72% carry hanja;
+1,476 nouns / 625 verbs / 164 adverbs / 156 adjectives / 27 dependent
+nouns) + the advanced glue (~55 patterns, TOPIK II-high) that Ring 2 never
+touched — a grep of every shipped md found only 듯이, 만하다 and 덕분에
+mentioned, and only as word notes. The top of the C-list is the written
+register (과정/현실/구조/가치/기업/선거…) and its own dependent nouns
+(채/듯/바/셈/나름/마련) and grammar-verbs (인하다/비하다/불구하다/당하다)
+ARE the glue, so Ring 3 opens with a grammar band the way Ring 2 did.
+Module ids continue m85+.
+
+### The contract (decided: Band 6 as-is)
+
+Same pack contract as Band 6 — ~34 words (30–38 ok), 8 sentences, full
+house-depth notes, garnish-free, 0–3 gap items, slim md — for both bands.
+No new tooling: `verify-draft.py`, `lint_language.py`, `tools/`,
+`merge-draft.py` and SHARED-BRIEF all apply unchanged. Band 7 modules
+carry 3–5 glue parts each (the Band 4 shape); Band 8 packs carry none.
+
+### Band 7 — the grammar engine III (M85–M96, ordered)
+
+Twelve ordered modules on the top ~400 C-words by rank (the essay and
+newsroom core). Themes and glue are the working plan; exact slices are cut
+at reserve time into `reference/ring3-slices.tsv`.
+
+| # | Theme (word seeds) | New glue |
+|---|---|---|
+| M85 | The Written Voice — the prose adverbs and connectors (따라서 그리하여 더욱 다만 일단 달리 결코 실제로 과연 아울러 앞서 널리 아예 비로소 그야말로 참으로 워낙 문득 다소 대체로 대개 상당히 사실상 서서히) + prose pronouns 그녀/그이/자네 | -(으)며 · -(으)므로 · -(으)나 · -고서/-고도 |
+| M86 | Cause & Grounds (원인 근거 탓 바탕 영향 작용 인하다 비하다 불구하다 비롯하다 대책 방안 여건 사정 형편 처지 실정 반응 요구) | -(으)로 인해 · 에 비해 · 에도 불구하고 · -는 바람에 · -느라고 · -(으)ㄴ 탓에/덕분에 · -(으)ㄴ 나머지 |
+| M87 | Seeming & Worth — the dependent nouns (듯 듯하다 만하다 셈 나름 마련 바 여기다 여겨지다 뜻하다 판단하다 평가 인식하다 의식 관점 시각 견해 논리 상식 의문 진실 진리) | -(으)ㄹ 듯하다/-듯이 · -(으)ㄹ 만하다 · -(으)ㄴ/는 셈이다 · -(으)ㄹ 법하다 · -기 마련이다 · -(으)ㄹ 리가 없다 |
+| M88 | The Retrospective — time lived through (겪다 거치다 깨닫다 살아오다 살아가다 이래 직후 시기 시점 초기 중세 흐름 과정 단계 전환 회복 위기 운명 인연 삶) | -던 · -더니 · -았/었더니 · -더라고요 · -던데 |
+| M89 | Degree & Extent (수준 규모 범위 평균 단위 대형 대규모 상당하다 엄청나다 거대하다 위대하다 뛰어나다 못지않다 불과하다 드물다 흔하다 풍부하다 증가하다 줄어들다 균형) | -(으)ㄹ수록 · -(으)ㄹ 정도로/-(으)ㄹ 만큼 · -(으)ㄹ 뿐(만 아니라) · 조차/마저 · -(이)야말로 |
+| M90 | State & Society (기업 선거 의원 국회 장관 정당 후보 위원 위원장 주민 집단 조직 기관 기구 민주주의 민주화 민간 법률 법원 판결 재판 규정 권리 통제 지배하다 시위 범죄 폭력) | -고자 · -에 따라 · -에 의해 · -(으)ㄴ 결과 · 당하다-passives |
+| M91 | Process & Structure (과정 구조 형태 형식 방식 구성 구성하다 구성되다 형성 형성되다 기능 절차 틀 토대 핵심 초점 본질 근본 근본적 기본적 요소 체계 영역 부문 분야) | -(으)ㄴ/는 바 · -다시피 · -(으)ㄹ 겸 · -는 김에 |
+| M92 | Existence & Matter (삶 생명 존재 존재하다 우주 인류 물질 물체 목숨 현실 현상 정신 육체 심장 호흡 대기 기후 자원 태아 출산 자녀 신경 감각) | -(으)ㄹ 따름이다 · -기는 하다 · -기는커녕 · -(으)ㄴ/는 데다가 |
+| M93 | The Analyst's Verbs (드러나다 지니다 갖추다 다루다 이끌다 파악하다 제시하다 지적하다 인정하다 분석 밝혀지다 살피다 지켜보다 알아보다 주장 비판 우려 전망 예상되다 강조) | -(으)ㄹ 테니까/-(으)ㄹ 텐데 · -(으)ㄹ걸요 · -길래 · -(으)ㄹ까 봐 |
+| M94 | Motion & Mishap — the native verb shelf (잇다 걸치다 대다 삼다 두르다 감추다 매달리다 무너지다 흩어지다 흔들리다 빠져나가다 퍼지다 넘기다 거두다 저지르다 때리다 치르다 익히다 들이다 덧붙이다 둘러싸다 외치다 비치다 비추다 띄다 빛나다 실리다 이러다 그러다 일어서다) | -(으)ㄴ 채 · -다가 · -다 보니/-다 보면 · -(으)ㄹ 뻔하다 · -고 말다 · -아/어 대다 · -기 일쑤다 |
+| M95 | Concession & Choice (반면 갈등 경쟁 경쟁력 협력 대응 극복하다 거부하다 제외하다 통합 개선 개방 공개 참여 지원 투자 부담 아무런 온갖 어찌 도대체) | -더라도 · -(으)ㄹ지라도/-(으)ㄹ망정 · -든지 · 대신에/반면에 · -는 한 · -기만 하면 |
+| M96 | Culture, Stage & Press (연극 극 희곡 신화 철학 문화재 감독 연기자 매체 보도 화제 기록 비극 소재 제작 출신 학자 지식인 필자 스승 제자 용어 미 신분 세계관 이데올로기) | glue-light closer: whatever the checklist still owes |
+
+### Band 8 — the long tail (~60 packs, M97+, order-free)
+
+Everything left after Band 7, sliced by frequency rank with root-flavored
+grouping (S3's tables), exactly Band 6: garnish-free, no glue parts, notes
+still required. Batches of 2–3 packs via the drafter pipeline. The
+unranked proper nouns (고구려/금강산/대학로…, POS 고) sort last and are
+decided at the end — taught-as rows or a places pack.
+
+### Ring 3 glue checklist (~55 patterns)
+
+-(으)며 · -(으)므로 · -(으)나 · -고서/-고도 · -(으)로 인해 · 에 비해 ·
+에도 불구하고 · -는 바람에 · -느라고 · -(으)ㄴ 탓에/덕분에 · -(으)ㄴ 나머지
+· -(으)ㄹ 듯하다/-듯이 · -(으)ㄹ 만하다 · -(으)ㄴ/는 셈이다 · -(으)ㄹ 법하다
+· -기 마련이다 · -(으)ㄹ 리가 없다 · -던 · -더니 · -았/었더니 · -더라고요 ·
+-던데 · -(으)ㄹ수록 · -(으)ㄹ 정도로 · -(으)ㄹ 만큼 · -(으)ㄹ 뿐(만 아니라)
+· 조차 · 마저 · -(이)야말로 · -고자 · -에 따라 · -에 의해 · -(으)ㄴ 결과 ·
+당하다 · -(으)ㄴ/는 바 · -다시피 · -(으)ㄹ 겸 · -는 김에 · -(으)ㄹ 따름이다
+· -기는 하다 · -기는커녕 · -(으)ㄴ/는 데다가 · -(으)ㄹ 테니까/텐데 ·
+-(으)ㄹ걸요 · -길래 · -(으)ㄹ까 봐 · -(으)ㄴ 채 · -다가 · -다 보니/-다 보면
+· -(으)ㄹ 뻔하다 · -고 말다 · -아/어 대다 · -기 일쑤다 · -더라도 ·
+-(으)ㄹ지라도/-(으)ㄹ망정 · -든지 · 대신에/반면에 · -는 한 · -기만 하면.
+
+### Pipeline (unchanged, new ledger)
+
+`npm run ring3:plan` (the same scripts/ring2-plan.ts with `--ring 3`)
+validates `reference/ring3-slices.tsv` and reports the grade-C pool; grade
+A/B rows are flagged as lower-ring debt. Flow per batch = Band 6's:
+reserve slices + write `brief-mNN.md` (owners verified with `tools/lookup.py`
+and `tools/iou.py`, quotes checked) → commit → parallel drafters → review
+(`verify-draft.py`, `tools/quotes.py`) → `merge-draft.py` → index.ts →
+validate → one commit per module → push → delete drafts.
+
 ## 3. Glue coverage checklist — Ring 1 (the beginner set)
 
 Complete when the map above ships: all case/topic particles (은/는, 이/가,

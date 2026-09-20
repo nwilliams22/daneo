@@ -3,12 +3,19 @@
 // reports progress against the grade-B pool. Scoped with Nick 2026-08-10:
 // trimmed contract, three bands (CURRICULUM.md §2b), slice-and-hand-author
 // pipeline. Run: npm run ring2:plan [-- --pool 40]
+// Ring 3 (2026-09-19): the same ledger shape for the grade-C pool —
+// `npm run ring3:plan` sets --ring 3, which reads reference/ring3-slices.tsv
+// and reports against grade C (grade A/B rows are then flagged as debt).
 
 import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const ringArg = process.argv.indexOf("--ring");
+const RING = ringArg > 0 ? Number(process.argv[ringArg + 1]) : 2;
+const POOL_GRADE: "B" | "C" = RING === 3 ? "C" : "B";
+const LEDGER = RING === 3 ? "reference/ring3-slices.tsv" : "reference/ring2-slices.tsv";
 
 // ---- the NIKL list, collapsed to best-grade distinct headwords ----
 const gradePriority = { A: 0, B: 1, C: 2 } as const;
@@ -53,7 +60,7 @@ interface Slice {
   note: string;
 }
 const slices: Slice[] = readFileSync(
-  join(root, "reference/ring2-slices.tsv"),
+  join(root, LEDGER),
   "utf-8",
 )
   .trimEnd()
@@ -75,8 +82,15 @@ for (const s of slices) {
   seen.set(s.word, s.module);
   const nikl = byBase.get(s.word);
   if (!nikl) errors.push(`${s.word} (${s.module}) is not on the NIKL list`);
-  else if (nikl.grade === "A" && !daneoKo.has(s.word))
-    errors.push(`${s.word} (${s.module}) is grade A — that's Ring 1 debt, not Ring 2`);
+  else if (
+    gradePriority[nikl.grade] < gradePriority[POOL_GRADE] &&
+    !daneoKo.has(s.word)
+  )
+    errors.push(
+      `${s.word} (${s.module}) is grade ${nikl.grade} — that's Ring ${
+        gradePriority[nikl.grade] + 1
+      } debt, not Ring ${RING}`,
+    );
   if (daneoKo.has(s.word) && !shippedModules.has(s.module))
     errors.push(
       `${s.word} already taught but its module ${s.module} hasn't shipped — stale row?`,
@@ -85,9 +99,9 @@ for (const s of slices) {
 
 // ---- progress ----
 const bGaps = [...byBase.entries()]
-  .filter(([base, w]) => w.grade === "B" && !daneoKo.has(base))
+  .filter(([base, w]) => w.grade === POOL_GRADE && !daneoKo.has(base))
   .map(([base, w]) => ({ base, ...w }))
-  .sort((a, b) => a.rank - b.rank);
+  .sort((a, b) => (a.rank || 1e9) - (b.rank || 1e9)); // unranked (proper nouns) last
 const assigned = new Set(slices.map((s) => s.word));
 const pool = bGaps.filter((w) => !assigned.has(w.base));
 
@@ -98,14 +112,13 @@ for (const s of slices) {
   perModule.set(s.module, m);
 }
 
-console.log("Ring 2 plan — grade-B assignment ledger");
+console.log(`Ring ${RING} plan — grade-${POOL_GRADE} assignment ledger`);
 console.log("=".repeat(60));
-const bShipped = bGaps.length === 0 ? 0 : undefined;
 const taughtB = [...byBase.entries()].filter(
-  ([base, w]) => w.grade === "B" && daneoKo.has(base),
+  ([base, w]) => w.grade === POOL_GRADE && daneoKo.has(base),
 ).length;
 console.log(
-  `Grade B distinct headwords taught: ${taughtB} · assigned-not-yet-shipped: ${
+  `Grade ${POOL_GRADE} distinct headwords taught: ${taughtB} · assigned-not-yet-shipped: ${
     [...assigned].filter((w) => !daneoKo.has(w)).length
   } · unassigned pool: ${pool.length}`,
 );
