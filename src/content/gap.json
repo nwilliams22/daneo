@@ -2779,5 +2779,32 @@
     "lit": "a loss-seeing trade",
     "real": "a losing proposition, a deal not worth making — about business, favours, marriages and studying abroad",
     "note": "Today's 손해 + M1's 보다 in the badge -는 from M24 + M43's 장사: the trade that takes a loss. Its mirror is the idiom M43's 장사 note filed — \"남는 장사 = a deal that leaves something over — worth doing\" — so the pair gives you both verdicts: 남는 장사 (worth it) and 손해 보는 장사 (not). 손해 보는 장사는 안 해요 = I don't do deals that lose, the shopkeeper's creed and everyone else's; 그건 손해 보는 장사야 = you're getting the worse end of that. 장사 keeps the market-stall register even when the deal is a relationship, which is why the phrase lands as a friend's warning and not an accountant's. The verb inside it is the same 보다 that runs 이익을 보다 in M43's 이익 note — in Korean you SEE both your profit and your loss, and the trade is what showed them to you."
+  },
+  {
+    "id": "g_m101_ilhaengi_isseuseyo",
+    "cat": "phrase",
+    "ko": "일행이 있으세요?",
+    "rom": "ilhaengi isseuseyo",
+    "lit": "does a party exist (for you)?",
+    "real": "are you with a group? is anyone joining you? — the host's first question at the restaurant door, the hotel desk and the tour bus, before any table is given",
+    "note": "Today's 일행 on the bare 이 with M1's 있다 in the honorific -(으)세요 from M4: the sentence Korean hospitality opens with, because the seat depends on the count. The answers are Ring 1: 네, 두 명이에요 (M5's 명), 아니요, 혼자예요 (M10's 혼자), or 일행이 곧 와요 (M10's 곧) — the last one is why the deck's tour guide says 일행이 곧 도착할 테니까. The lower-register twin is 몇 분이세요? (M5's 몇 with the honorific people-counter 분 — riding frozen, a homograph of the minutes-분 M5 taught) = how many of you; 일행이 있으세요? asks not how many but whether you belong to anyone here. Hear it, and count before you answer."
+  },
+  {
+    "id": "g_m101_geomto_jung",
+    "cat": "phrase",
+    "ko": "검토 중",
+    "rom": "geomto jung",
+    "lit": "in the middle of review",
+    "real": "under review; we're looking into it — the email reply that is neither yes nor no, and the status a proposal can hold for months",
+    "note": "Today's 검토 hung on S2's 중, whose note called it \"The busy-sign machine\" (영업 중, 공사 중, 통화 중, 회의 중). The office adds its own sign: 검토 중입니다 = it is under review — the answer a 기획팀 (today's 기획 with M16's 팀) gives when the decision is someone else's, or nobody's. The verb form, 검토하고 있습니다, says the same thing with a person in it; 검토 중 removes the person, which is exactly why it is preferred. Its siblings on the desk: 진행 중 (M97's 진행) = in progress, 확인 중 (M20's 확인하다, the noun inside) = checking. Read 검토 중 in a reply and translate it as: not yet, and possibly not ever."
+  },
+  {
+    "id": "g_m101_suseok_hapgyeok",
+    "cat": "concept",
+    "ko": "수석 합격",
+    "rom": "suseok hapgyeok",
+    "lit": "head-seat passing",
+    "real": "passing in first place — the top scorer on a national exam, named in the newspaper, interviewed about their study habits, and asked which 학원 they attended",
+    "note": "Today's 수석 in front of M44's 합격 (\"合格 fit-the-frame\"): to fit the frame and to sit in the first seat while doing it. The phrase is a genre — every year the 수능 (the exam M15 toured and M32's 교육 note called \"The national obsession M15 toured\") and the bar exam produce a 수석 합격자 (the person-者 of M50's 운전자), and the papers print the same interview: 교과서 위주로 공부했어요, I mostly studied the textbook, which nobody believes. Its shelf-mates: 수석 졸업 (M44's 졸업) = top of the graduating class, 수석 입학 (M44's 입학) = entering first in the class. The gap the phrase closes: M30's 첫째 is first in a line; 수석 is first in a country."
   }
 ]

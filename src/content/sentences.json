@@ -22266,5 +22266,194 @@
     "rom": "sudogwon inguneun jisokjeogeuro neuneun banmyeone jibang inguneun julgo itseumnida",
     "wordIds": ["w_sudogwon", "w_ingu", "w_jisokjeok", "w_neulda", "w_banmyeon", "w_jibang", "w_julda", "w_itda"],
     "note": "Recycles 반면에 from M95 — M95's 반면 after the badge -는 from M24, which that md set apart from every other but: \"반면에 BALANCES two facts on a scale and leans on neither\". Two pans, each with its own 는, exactly as that md said the two halves take: 수도권 인구는 (수도권 + M64's 인구) on one side, 지방 인구는 (M50's 지방) on the other. 느는 반면에 is M35's 늘다 with its ㄹ dropped before -는, as M93's 이끌다 note showed for 이끄는; 지속적으로 (지속적 + 으로 from M6) is the report's adverb for the growing; and M35's 줄다 in the -고 있다 progressive from M10 (M1's 있다 in the 합니다체 from M4) closes the other pan. The demographer's sentence — and the reason 수도권 is a problem word, not a map word. Roles: two subjects, the roles drill tags both; 느는 반면에 is other."
+  },
+  {
+    "id": "s_m101_cord_pulled",
+    "en": [
+      { "t": "While cleaning,", "role": "other", "id": "a" },
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "went and pulled out", "role": "verb", "id": "v" },
+      { "t": "the computer's cord", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "clean-while-then", "role": "other", "id": "a" },
+      { "t": "I-[topic]", "role": "subject", "id": "s" },
+      { "t": "computer cord-[obj]", "role": "object", "id": "o" },
+      { "t": "pull-out-threw-away", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "청소하다가", "role": "other", "id": "a" },
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "컴퓨터 코드를", "role": "object", "id": "o" },
+      { "t": "뽑아 버렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheongsohadaga jeoneun keompyuteo kodeureul ppoba beoryeosseoyo",
+    "wordIds": ["w_cheongsohada", "w_jeo", "w_keompyuteo", "w_kodeu", "w_ppopda", "w_beorida"],
+    "note": "Recycles -다가 from M94 — that md: \"the first action was UNDER WAY when the second interrupted it\" — on M8's 청소하다: the cleaning was in progress when the plug came out. Today's 코드 in its THIRD job, the power cord, on M10's 컴퓨터 as a bare modifier; M61's 뽑다 is the pull-out verb, and -아/어 버리다 from M52 closes it with the regret that machine always carries — 뽑아 버렸어요 = went and pulled it out, and the unsaved file M79's 파일 note mourned goes with it. The roles drill: 청소하다가 is a connective form, other; 뽑아 버렸어요 is one predicate, verb. Say 코드 here and no Korean hears code — the vacuum cleaner has told them which 코드 you mean."
+  },
+  {
+    "id": "s_m101_review_production",
+    "en": [
+      { "t": "As the quality review", "role": "subject", "id": "s" },
+      { "t": "has not been completed,", "role": "other", "id": "a" },
+      { "t": "production", "role": "object", "id": "o" },
+      { "t": "cannot begin", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "quality review-[subj]", "role": "subject", "id": "s" },
+      { "t": "end-not-did-since", "role": "other", "id": "a" },
+      { "t": "production-[obj]", "role": "object", "id": "o" },
+      { "t": "begin-way not-exist-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "품질 검토가", "role": "subject", "id": "s" },
+      { "t": "끝나지 않았으므로", "role": "other", "id": "a" },
+      { "t": "생산을", "role": "object", "id": "o" },
+      { "t": "시작할 수 없습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "pumjil geomtoga kkeunnaji anasseumeuro saengsaneul sijakhal su eopseumnida",
+    "wordIds": ["w_pumjil", "w_geomto", "w_kkeunnada", "w_saengsan", "w_sijakhada", "w_eopda"],
+    "note": "Recycles -(으)므로 from M85 — the written because, which that md ranked \"the fourth row and the most formal of all\" — on M8's 끝나다 under the long negation -지 않다 from M28, with the past welded in: 끝나지 않았으므로. Two of today's ledger words stack as the subject — 품질 검토가, the review of the quality, on the bare 가 — and M97's 생산 is the object that cannot start: 시작할 수 없습니다, M8's 시작하다 in the can-machine -(으)ㄹ 수 없다 from M10, in the 합니다체 from M4. This is the memo the factory floor posts and the email the supplier receives; say it with -아/어서 and it becomes one engineer's apology. The roles drill takes 끝나지 않았으므로 as other — a connective, not the closer."
+  },
+  {
+    "id": "s_m101_software_features",
+    "en": [
+      { "t": "Compared to the old system,", "role": "other", "id": "a" },
+      { "t": "this software", "role": "subject", "id": "s" },
+      { "t": "has far more", "role": "verb", "id": "v" },
+      { "t": "features", "role": "subject", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "this software-[topic]", "role": "subject", "id": "s" },
+      { "t": "old system-to compared", "role": "other", "id": "a" },
+      { "t": "feature-[subj]", "role": "subject", "id": "t" },
+      { "t": "far many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 소프트웨어는", "role": "subject", "id": "s" },
+      { "t": "옛 시스템에 비해", "role": "other", "id": "a" },
+      { "t": "기능이", "role": "subject", "id": "t" },
+      { "t": "훨씬 많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i sopeuteuweeoneun yet siseuteme bihae gineungi hwolssin manayo",
+    "wordIds": ["w_i_det", "w_sopeuteuweeo", "w_yet", "w_siseutem", "w_bihada", "w_gineung", "w_hwolssin", "w_manta"],
+    "note": "Recycles 에 비해 from M86 — M86's 비하다 frozen in -아/어, and that md's line \"every frame has a spoken version you already own, and the difference is register\": 옛 시스템보다 is what you say across a desk, 옛 시스템에 비해 is what the release note prints. Two of today's loans face each other across the frame — 이 소프트웨어는 (M29's 이) the topic, 옛 시스템 (M46's 옛, worn in front of a noun as that note requires) the standard — and then the double-subject frame M24 first showed (한식은 반찬이 많아요): M91's 기능 on the bare 이, M38's 훨씬 and M7's 많다 closing. The roles drill tags both 소프트웨어는 and 기능이 as subject. Read the two loans as the module's thesis: the office bought both words from English, and neither one replaced 체계."
+  },
+  {
+    "id": "s_m101_senior_captain",
+    "en": [
+      { "t": "Now", "role": "other", "id": "t" },
+      { "t": "the senior I met in a club at university", "role": "subject", "id": "s" },
+      { "t": "has become, I found,", "role": "verb", "id": "v" },
+      { "t": "a ship's captain", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "university time club-at met-[badge] senior-[subj]", "role": "subject", "id": "s" },
+      { "t": "now-[topic]", "role": "other", "id": "t" },
+      { "t": "captain-[subj]", "role": "other", "id": "c" },
+      { "t": "became-I-saw", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "대학교 때 서클에서 만난 선배가", "role": "subject", "id": "s" },
+      { "t": "지금은", "role": "other", "id": "t" },
+      { "t": "선장이", "role": "other", "id": "c" },
+      { "t": "됐더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daehakgyo ttae seokeureseo mannan seonbaega jigeumeun seonjangi dwaetdeoragoyo",
+    "wordIds": ["w_daehakgyo", "w_ttae", "w_seokeul", "w_mannada", "w_seonbae", "w_jigeum", "w_seonjang", "w_doeda"],
+    "note": "Recycles -더라고요 from M88 — the eyewitness closer that md summed up as \"you watched, and now you tell\" — on M10's 되다 in the past: 됐더라고요 = had become, I discovered. Two of today's crew words hold the sentence: 서클, the dated word for the club, inside a long subject — M15's 대학교 with M25's 때, 에서 on the club, M2's 만나다 in the past badge -(으)ㄴ from M24, M58's 선배 on the bare 가 — and 선장이, the 되다 complement, which the roles drill tags other, never subject. 지금은 (M2's 지금) sets the contrast with the past. The speaker met the man again and reports it; -나 보다 from M34 would only have guessed — that md: \"-나 보다 infers from a clue, -더라고요 reports from the scene\". And the word 서클 itself dates the reunion: a speaker who says 동아리 is too young to have this senior."
+  },
+  {
+    "id": "s_m101_brain_muscle",
+    "en": [
+      { "t": "The brain,", "role": "subject", "id": "s" },
+      { "t": "like a muscle,", "role": "other", "id": "a" },
+      { "t": "gets better", "role": "verb", "id": "v" },
+      { "t": "the more you use it", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "brain-[topic]", "role": "subject", "id": "s" },
+      { "t": "muscle-like", "role": "other", "id": "a" },
+      { "t": "use-the-more", "role": "other", "id": "b" },
+      { "t": "good-becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뇌는", "role": "subject", "id": "s" },
+      { "t": "근육처럼", "role": "other", "id": "a" },
+      { "t": "쓸수록", "role": "other", "id": "b" },
+      { "t": "좋아져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "noeneun geunyukcheoreom sseulsurok joajyeoyo",
+    "wordIds": ["w_noe", "w_geunyuk", "w_sseuda", "w_joajida"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — that md: \"The clause it closes is the dial; the main clause is what the dial moves\" — with M10's 쓰다 on the dial (쓸수록, the ㄹ-stem keeping its ㄹ) and M53's 좋아지다, the -아/어지다 of M35 already built in, as what moves. Two of today's craft words make the comparison: 뇌는 the topic, 근육처럼 with 처럼 from M41 — the brain compared to a muscle, which is the pop-science shelf's one sentence. Four words, no particles beyond 는 and 처럼, and the roles drill has only 뇌는 as subject: 근육처럼 and 쓸수록 are both other. M8's 머리 would make this a proverb about being smart; 뇌 makes it a claim about an organ, which is why the neuroscience aisle says it this way."
+  },
+  {
+    "id": "s_m101_loan_by_sector",
+    "en": [
+      { "t": "Depending on the line of business,", "role": "other", "id": "a" },
+      { "t": "the loan amount", "role": "subject", "id": "s" },
+      { "t": "differs", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "sector-at follow-and", "role": "other", "id": "a" },
+      { "t": "loan sum-[subj]", "role": "subject", "id": "s" },
+      { "t": "different", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "업종에 따라", "role": "other", "id": "a" },
+      { "t": "대출 액수가", "role": "subject", "id": "s" },
+      { "t": "달라요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eopjonge ttara daechul aeksuga dallayo",
+    "wordIds": ["w_eopjong", "w_ttareuda", "w_daechul", "w_aeksu", "w_dareuda"],
+    "note": "Recycles 에 따라 from M90 — the frame that md glossed \"in accordance with, depending on\", the one M33's 상황 note had filed early as \"상황에 따라서 (M32's 따르다) = depends on the situation\" — on today's 업종: depending on the sector. Then two more ledger words stacked as one subject — 대출 액수가, the sum of the loan, on the bare 가 — and M24's 다르다 closing in the 르-family shape from M7, 달라요. Three of today's words in three chunks: this is the loan officer's sentence, and the small-business owner hears it every time the form asks 업종. The roles drill takes 업종에 따라 as other; the 서 the spoken form would add has dropped, as the M90 md said it does in print — but the sentence is said, not printed, and the bank says it both ways."
+  },
+  {
+    "id": "s_m101_party_vehicles",
+    "en": [
+      { "t": "The party", "role": "subject", "id": "s" },
+      { "t": "will arrive soon,", "role": "other", "id": "a" },
+      { "t": "so please prepare", "role": "verb", "id": "v" },
+      { "t": "the vehicles", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "party-[subj]", "role": "subject", "id": "s" },
+      { "t": "soon arrive-will-so", "role": "other", "id": "a" },
+      { "t": "vehicle-[obj]", "role": "object", "id": "o" },
+      { "t": "prepare-give-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "일행이", "role": "subject", "id": "s" },
+      { "t": "곧 도착할 테니까", "role": "other", "id": "a" },
+      { "t": "차량을", "role": "object", "id": "o" },
+      { "t": "준비해 주세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ilhaengi got dochakhal tenikka charyangeul junbihae juseyo",
+    "wordIds": ["w_ilhaeng", "w_got", "w_dochakhada", "w_teo", "w_charyang", "w_junbihada", "w_juda"],
+    "note": "Recycles -(으)ㄹ 테니까 from M93 — M55's 터 squeezed to 테 with -(으)니까 from M10, on M8's 도착하다 and M10's 곧: 곧 도착할 테니까 = they'll be arriving soon, so. The M93 md split the frame by person — \"FIRST person = intention\", \"THIRD person = supposition, a guess about the world\" — and this is the third-person half: the tour guide is guessing about the bus, not promising. Two of today's crew words carry it: 일행이 on the bare 이 is the party arriving, 차량을 is what gets readied — the vehicles, in the word the traffic report and the tour desk share; M8's 준비하다 with -아/어 주세요 from M9 closes. The roles drill: 도착할 테니까 is other, the request is the verb. M55's 터 note put the whole grammar in one line — \"Expectation is intention with the ground shifted.\" — and the gap deck runs the restaurant's version, 일행이 있으세요?"
+  },
+  {
+    "id": "s_m101_nature_whereas",
+    "en": [
+      { "t": "Personality", "role": "subject", "id": "s" },
+      { "t": "can change,", "role": "other", "id": "a" },
+      { "t": "whereas one's true nature", "role": "subject", "id": "t" },
+      { "t": "hardly changes at all", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "personality-[topic]", "role": "subject", "id": "s" },
+      { "t": "change-can-[badge] whereas", "role": "other", "id": "a" },
+      { "t": "true-nature-[topic]", "role": "subject", "id": "t" },
+      { "t": "well not changes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "성격은", "role": "subject", "id": "s" },
+      { "t": "바뀔 수 있는 반면에", "role": "other", "id": "a" },
+      { "t": "본성은", "role": "subject", "id": "t" },
+      { "t": "잘 안 바뀌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seonggyeogeun bakkwil su inneun banmyeone bonseongeun jal an bakkwieoyo",
+    "wordIds": ["w_seonggyeok", "w_bakkwida", "w_banmyeon", "w_bonseong", "w_jal"],
+    "note": "Recycles 반면에 from M95 — M95's 반면 after the badge -는 from M24, the frame that md said \"BALANCES two facts on a scale and leans on neither\" — with the can-machine -(으)ㄹ 수 있다 from M10 riding inside the badge clause: 바뀔 수 있는 반면에 = can change, whereas. The two pans are the module's own sort: M19's 성격 on one 은, today's 본성 on the other — the M95 md noted \"the two halves each take their own 은/는\", and the roles drill tags both as subject. M35's 바뀌다 does the changing twice, once under 수 있다 and once under M3's 안 with M10's 잘 — 잘 안 바뀌어요, the soft Korean never. Personality is what you show; nature is what you are — and the sentence says the second one is not for sale, which is the verdict every 본성 sentence delivers."
   }
 ]
