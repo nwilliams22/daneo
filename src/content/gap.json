@@ -2428,5 +2428,32 @@
     "lit": "it is the person's-own-way",
     "real": "it depends on the person — the answer to every generalization, and the polite refusal to make one",
     "note": "This module's 나름 after a bare noun, closed with 이다: [noun] 나름이다 = it depends on the [noun]. M1's 사람 is the noun most often in the slot — 사람 나름이에요 answers whether Koreans like spicy food, whether the job is hard, and every other question that wanted a rule. Swap the noun and the frame keeps working: 경우 나름 (M32's 경우) = case by case, 생각하기 나름 (the -기 nominalizer from M13 on M10's 생각하다) = it's how you look at it, 하기 나름 = it depends how you do it. Radar: 나름대로 (with 대로 from M54) means in one's own WAY; 나름이다 with no particle means it DEPENDS — the noun stands bare, the judgment stands relative. The sentence Korean reaches for when it declines to judge — on a shelf otherwise full of judging."
+  },
+  {
+    "id": "g_m88_otgit_inyeon",
+    "cat": "phrase",
+    "ko": "옷깃만 스쳐도 인연",
+    "rom": "otginman seuchyeodo inyeon",
+    "lit": "even sleeves brushing is a bond",
+    "real": "no meeting is an accident — the proverb Korea says about strangers, ex-lovers, and the person who sat next to you on the train",
+    "note": "This module's 인연 in its most-quoted sentence. 옷깃 (the collar or lapel of M7's 옷 — riding frozen) + only-만 from M30 + 스치다 (to brush past — riding frozen) on -아/어도 from M39: even if only your collars brush, it is 인연 — the cause-tie from a previous life that put you both on that platform. Buddhist in origin, secular in use: said warmly when two people discover they met before, said wistfully after a breakup (that was 인연 too), and said by every drama's narrator over the first accidental collision of the leads. The full form ends 인연이다; the mouth stops at 인연. Its cousin is on this shelf too — 운명 is what the meeting is CALLED once it turns out to matter; 인연 is the thread that was already there. The sentence to know before someone says it to you and expects you to smile."
+  },
+  {
+    "id": "g_m88_hanmadiro",
+    "cat": "phrase",
+    "ko": "한마디로",
+    "rom": "hanmadiro",
+    "lit": "with one word",
+    "real": "in a word, in short — the summarizer's opener, and the polite warning that a verdict is coming",
+    "note": "This module's 한마디 with M6's 로 in its by-means-of job: in one word. It fronts a sentence the way M32's 결국 ends one — 한마디로 말하면 (M4's 말하다 on -(으)면 from M20) = to put it in a word; 한마디로 대박이에요 (S1's 대박) = in short, a hit; 한마디로 안 돼요 = in a word, no. The word count is a lie: what follows is always more than one word, and often a paragraph — 한마디로 promises brevity to buy the room's attention, like the English long-story-short. The 마디 inside is a joint (of bamboo, of a finger, of a bar of music — riding frozen), so a 한마디 is one segment of speech; 몇 마디 = a few words, 두 마디 = two remarks. Written as one word; said as the throat-clearing before the verdict."
+  },
+  {
+    "id": "g_m88_aesseusyeotseumnida",
+    "cat": "structure",
+    "ko": "애쓰셨습니다 · 수고하셨습니다 · 고생하셨습니다",
+    "rom": "aesseusyeotseumnida · sugohasyeotseumnida · gosaenghasyeotseumnida",
+    "lit": "you strove · you exerted effort · you suffered",
+    "real": "three thank-yous for effort — and only the first is safe to send UP the ladder",
+    "note": "M71 wrote the rule: 수고하다 \"rates effort, and rating is a superior's privilege\" — 수고하셨습니다 travels sideways and down, \"never up at a boss\". The M16 gap deck's 수고하셨습니다 and the M26 gap deck's 고생했어요 both live in that band. This module's 애쓰다 is the one etiquette lets you aim upward: 애쓰셨습니다 (the honorific -(으)시- from M4, the -습니다 register) does not RATE the senior's effort, it acknowledges the strain of it, and so the professor, the team lead and the visiting official can hear it without the flinch that 수고하셨습니다 causes. Calibration: to the delivery driver, 수고하세요; to the colleague, 수고하셨어요; to the friend after exams, 고생했어요; to the boss who stayed late, 애쓰셨습니다 — or, safest of all, the version M71 filed for leaving a senior, 내일 뵙겠습니다, which thanks nobody and offends no one. The verb's honorific past, 애쓰셨어요, is the everyday form of the same sentence."
   }
 ]

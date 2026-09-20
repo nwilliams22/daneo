@@ -2096,5 +2096,27 @@
       "s_m87_professor_view", "s_m87_no_way_truth", "s_m87_book_worth", "s_m87_semester_done",
       "s_m87_bound_to_err", "s_m87_parents_treasure", "s_m87_own_angle", "s_m87_logic_doubt"
     ]
+  },
+  {
+    "id": "m88",
+    "title": "The Retrospective",
+    "order": 97,
+    "ring": 2,
+    "contentMd": "modules/module-88.md",
+    "wordIds": [
+      "w_sam", "w_gwajeong", "w_dangye", "w_sigi",
+      "w_sijeom", "w_chogi", "w_jikhu", "w_irae",
+      "w_heureum", "w_jeonhwan", "w_hoebok", "w_unmyeong",
+      "w_inyeon", "w_jjak", "w_hanmadi", "w_umjigim",
+      "w_gyeokda", "w_geochida", "w_kkaedatda", "w_saraoda",
+      "w_saragada", "w_jinida", "w_gatchuda", "w_itda_connect",
+      "w_ieojida", "w_naagada", "w_meomulda", "w_yujihada",
+      "w_jikyeoboda", "w_aesseuda", "w_irukhada", "w_heundeullida",
+      "w_muneojida"
+    ],
+    "sentenceIds": [
+      "s_m88_childhood_song", "s_m88_hard_times_meaning", "s_m88_since_graduation", "s_m88_sibling_dream",
+      "s_m88_rest_recovery", "s_m88_fated_bond", "s_m88_qualified_hire", "s_m88_after_collapse"
+    ]
   }
 ]
