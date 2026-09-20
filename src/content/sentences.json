@@ -19512,5 +19512,200 @@
     "rom": "harabeojikkeseo geu malsseumeul hasyeosseul ttae biroso ihaehaesseoyo",
     "wordIds": ["w_harabeoji", "w_geu_det", "w_malsseum", "w_hada", "w_ihaehada", "w_biroso"],
     "note": "비로소 pointing back at its condition: the grandfather's words are the threshold, and understanding arrives only once it is crossed — M10's 이해하다 in the past. The when-clause is -(으)ㄹ 때 from M25 on the honorific line: 께서 from M47 marks M4's 할아버지, M27's 말씀 is the honorific 말, and 하셨을 is 하다 with -시- inside the past — three honorifics for one grandfather, which is the correct number. Swap the adverb and the sentence changes: M35's 드디어 would cheer; M35's 마침내 would conclude; 비로소 explains WHY it was then and not before."
+  },
+  {
+    "id": "s_m87_professor_view",
+    "en": [
+      { "t": "That professor's view", "role": "subject", "id": "s" },
+      { "t": "seems to fit", "role": "verb", "id": "v" },
+      { "t": "common sense", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "that professor-of view-[topic]", "role": "subject", "id": "s" },
+      { "t": "common-sense-to", "role": "other", "id": "a" },
+      { "t": "fitting-seems", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 교수님의 견해는", "role": "subject", "id": "s" },
+      { "t": "상식에", "role": "other", "id": "a" },
+      { "t": "맞는 듯해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu gyosunimui gyeonhaeneun sangsige manneun deuthaeyo",
+    "wordIds": ["w_geu_det", "w_gyosunim", "w_gyeonhae", "w_sangsik", "w_matda", "w_deuthada"],
+    "note": "The written hedge's debut: M15's 맞다 wears the present badge from M24 and lands on 듯해요 — 맞는 듯해요 = seems to fit. Say it with 것 같다 from M34 and it is the same sentence in the mouth (맞는 것 같아요); 듯하다 is the essay's coat, and here it dresses a professor. Two judgment nouns in one breath: 견해, the view a person who has thought HOLDS (M15's 교수님 with the possessive 의), and 상식, what everyone is assumed to know — 상식에 맞다 = to square with common sense, the fit-verb on 에. The 는 on 견해 topicalizes it; the sentence is about the view, not the professor."
+  },
+  {
+    "id": "s_m87_no_way_truth",
+    "en": [
+      { "t": "There's no way", "role": "verb", "id": "v" },
+      { "t": "that person", "role": "subject", "id": "s" },
+      { "t": "told the truth", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "that person-[subj]", "role": "subject", "id": "s" },
+      { "t": "truth-[obj]", "role": "object", "id": "o" },
+      { "t": "said-would-reason-[subj] not-exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 사람이", "role": "subject", "id": "s" },
+      { "t": "진실을", "role": "object", "id": "o" },
+      { "t": "말했을 리가 없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu sarami jinsireul malhaesseul riga eopseoyo",
+    "wordIds": ["w_geu_det", "w_saram", "w_jinsil", "w_malhada", "w_eopda"],
+    "note": "The no-way machine: the past stem of M4's 말하다 takes the prospective badge — 말했을 — then 리 (a reason, riding frozen as the socket noun) with 가 and M1's 없다: no reason-in-the-order-of-things exists for it. It is the can-machine -(으)ㄹ 수 있다 from M10 with a different noun in the socket, and the gloss keeps the chassis visible. 진실 pays M74's 거짓 note (\"the formal pair is 진실 (truth — riding frozen) / 거짓\") on its first outing, as the object of the verb it was made for: 진실을 말하다. The whole closer is one chunk — 말했을 리가 없어요 is a single verdict, not a subject and a verb."
+  },
+  {
+    "id": "s_m87_book_worth",
+    "en": [
+      { "t": "That book", "role": "subject", "id": "s" },
+      { "t": "is worth reading", "role": "verb", "id": "v" },
+      { "t": "because its point of view", "role": "subject", "id": "q" },
+      { "t": "is fresh", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "that book-[topic]", "role": "subject", "id": "s" },
+      { "t": "viewpoint-[subj]", "role": "subject", "id": "q" },
+      { "t": "new-so", "role": "other", "id": "a" },
+      { "t": "read-worth-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 책은", "role": "subject", "id": "s" },
+      { "t": "관점이", "role": "subject", "id": "q" },
+      { "t": "새로워서", "role": "other", "id": "a" },
+      { "t": "읽을 만해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu chaegeun gwanjeomi saerowoseo ilgeul manhaeyo",
+    "wordIds": ["w_geu_det", "w_chaek", "w_gwanjeom", "w_saeropda", "w_ikda", "w_manhada"],
+    "note": "The worth-machine: M2's 읽다 takes the prospective badge and 만하다 closes — 읽을 만해요 = worth reading, the reviewer's verdict in three syllables. The reason rides Ring 1's -아/어서 on M35's 새롭다, a ㅂ-irregular (새로워서). Double subject, the shape M24 taught with 한식은 반찬이 많아요: the book is the topic, its 관점 the bare-이 subject inside it — the standpoint the author looks from, and the reason the book earns a 만하다. Both roles are tagged subject; the drill will ask."
+  },
+  {
+    "id": "s_m87_semester_done",
+    "en": [
+      { "t": "Since the evaluations", "role": "subject", "id": "s" },
+      { "t": "are over,", "role": "other", "id": "a" },
+      { "t": "this semester", "role": "subject", "id": "q" },
+      { "t": "is as good as all finished", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "evaluation-[subj]", "role": "subject", "id": "s" },
+      { "t": "ended-because", "role": "other", "id": "a" },
+      { "t": "this semester-[topic]", "role": "subject", "id": "q" },
+      { "t": "all ended-reckoning-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "평가가", "role": "subject", "id": "s" },
+      { "t": "끝났으니까", "role": "other", "id": "a" },
+      { "t": "이번 학기는", "role": "subject", "id": "q" },
+      { "t": "다 끝난 셈이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pyeonggaga kkeunnasseunikka ibeon hakgineun da kkeunnan semieyo",
+    "wordIds": ["w_pyeongga", "w_kkeunnada", "w_ibeon", "w_hakgi", "w_da", "w_sem"],
+    "note": "The reckoning frame: M8's 끝나다 in the past badge from M24 + 셈이에요 — 끝난 셈이에요 = it amounts to finished, as good as done; nothing is literally over, but the count says so. The reason rides -(으)니까 from M10 on the same verb in the past (끝났으니까), which is why the sentence can carry a conclusion. 평가 — the assessment, the school's word for the exams that decide the grade — stands as the bare subject of the first clause; M44's 학기 with M16's 이번 is the topic of the second, and M9's 다 does the rounding-up. The written 'effectively', spoken at the end of term."
+  },
+  {
+    "id": "s_m87_bound_to_err",
+    "en": [
+      { "t": "People,", "role": "subject", "id": "s" },
+      { "t": "every one of them,", "role": "other", "id": "a" },
+      { "t": "are bound to make mistakes", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "person-[topic]", "role": "subject", "id": "s" },
+      { "t": "whoever", "role": "other", "id": "a" },
+      { "t": "mistake-making bound-to-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사람은", "role": "subject", "id": "s" },
+      { "t": "누구나", "role": "other", "id": "a" },
+      { "t": "실수하기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sarameun nuguna silsuhagi maryeonieyo",
+    "wordIds": ["w_saram", "w_nugu", "w_silsuhada", "w_maryeon"],
+    "note": "The bound-to frame, on the sentence Korea says after every dropped plate: the -기 nominalizer from M13 turns M16's 실수하다 into a noun and 마련이에요 closes — there is a provision for it, so it happens. 마련 pays M56's 마련하다 in its dependent job. 누구나 is M10's 누구 with the 나 that M29's 아무 note showed opening things (\"with 나 it opens them (아무 때나 — whenever)\") — whoever, anyone at all — and it rides as other beside the topic 사람은. The consolation sentence: said to the friend, and to yourself."
+  },
+  {
+    "id": "s_m87_parents_treasure",
+    "en": [
+      { "t": "My parents", "role": "subject", "id": "s" },
+      { "t": "regard", "role": "verb", "id": "v" },
+      { "t": "family time", "role": "object", "id": "o" },
+      { "t": "as the most", "role": "other", "id": "a" },
+      { "t": "precious thing", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "parents-[topic]", "role": "subject", "id": "s" },
+      { "t": "family-of time-[obj]", "role": "object", "id": "o" },
+      { "t": "most", "role": "other", "id": "a" },
+      { "t": "preciously", "role": "other", "id": "b" },
+      { "t": "regard-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부모님은", "role": "subject", "id": "s" },
+      { "t": "가족의 시간을", "role": "object", "id": "o" },
+      { "t": "가장", "role": "other", "id": "a" },
+      { "t": "소중하게", "role": "other", "id": "b" },
+      { "t": "여기세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bumonimeun gajogui siganeul gajang sojunghage yeogiseyo",
+    "wordIds": ["w_bumonim", "w_gajok", "w_sigan", "w_gajang", "w_sojunghada", "w_yeogida"],
+    "note": "The regard-verb in its home frame: 소중하다 through the -게 adverbializer from M33, then 여기다 — 소중하게 여기다 = to hold dear, the phrase the two words were shelved together for. M4's 부모님 takes the honorific -(으)세요 from M4 on the verb (여기세요), and M29's 가장 superlatives the adverb. The object is a possessive stack, M4's 가족 + 의 + M1's 시간; 소중하게 is tagged other because it is an adverb, not the verb — the closer is 여기세요 alone. Radar in the drill: 여기 (M6, here) does not appear in this sentence, however it looks."
+  },
+  {
+    "id": "s_m87_own_angle",
+    "en": [
+      { "t": "Since everyone's", "role": "other", "id": "a" },
+      { "t": "angle", "role": "subject", "id": "s" },
+      { "t": "is different,", "role": "other", "id": "b" },
+      { "t": "it's fine to evaluate", "role": "verb", "id": "v" },
+      { "t": "in your own way", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "person-every", "role": "other", "id": "a" },
+      { "t": "viewing-angle-[subj]", "role": "subject", "id": "s" },
+      { "t": "different-because", "role": "other", "id": "b" },
+      { "t": "own-way-according-to", "role": "other", "id": "c" },
+      { "t": "evaluate-if fine-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사람마다", "role": "other", "id": "a" },
+      { "t": "시각이", "role": "subject", "id": "s" },
+      { "t": "다르니까", "role": "other", "id": "b" },
+      { "t": "나름대로", "role": "other", "id": "c" },
+      { "t": "평가하면 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sarammada sigagi dareunikka nareumdaero pyeonggahamyeon dwaeyo",
+    "wordIds": ["w_saram", "w_sigak", "w_dareuda", "w_nareum", "w_pyeonggahada", "w_doeda"],
+    "note": "Three recycled machines under two new nouns: 마다 from M31 on M1's 사람 (every person), -(으)니까 from M10 on M24's 다르다 for the reason, and -(으)면 돼요 from M23 closing 평가하다 — it's fine to rate it your way. 시각 is the angle you look from, the one that differs person to person; 나름대로 is that angle honored — 나름 with 대로 from M54, in one's own way. The word every Korean teacher says before a group critique, and the sentence that turns 사람마다 into permission."
+  },
+  {
+    "id": "s_m87_logic_doubt",
+    "en": [
+      { "t": "That paper's", "role": "subject", "id": "s" },
+      { "t": "logic", "role": "subject", "id": "q" },
+      { "t": "is sound, but", "role": "other", "id": "a" },
+      { "t": "questions", "role": "subject", "id": "r" },
+      { "t": "still", "role": "other", "id": "b" },
+      { "t": "remain", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that paper-[topic]", "role": "subject", "id": "s" },
+      { "t": "logic-[subj]", "role": "subject", "id": "q" },
+      { "t": "appropriate-but", "role": "other", "id": "a" },
+      { "t": "still", "role": "other", "id": "b" },
+      { "t": "doubt-[subj]", "role": "subject", "id": "r" },
+      { "t": "remains", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 논문은", "role": "subject", "id": "s" },
+      { "t": "논리가", "role": "subject", "id": "q" },
+      { "t": "적절하지만", "role": "other", "id": "a" },
+      { "t": "아직", "role": "other", "id": "b" },
+      { "t": "의문이", "role": "subject", "id": "r" },
+      { "t": "남아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu nonmuneun nolliga jeokjeolhajiman ajik uimuni namayo",
+    "wordIds": ["w_geu_det", "w_nonmun", "w_nolli", "w_jeokjeolhada", "w_ajik", "w_uimun", "w_namda"],
+    "note": "Three of the module's judgment words in one reviewer's sentence: 논리 (the argument, in order), 적절하다 (apt — the memo's fit-word, here on -지만 from M7 conceding before the turn), and 의문 (the doubt that stays in the head) as the bare subject of M35's 남다 — 의문이 남아요 = questions remain, the peer review's standard closing line. M44's 논문 is the topic; 논리가 is the bare-이 subject of the first clause, the double-subject shape again, and 의문이 the subject of the second — three subject tags, one verb. M14's 아직 keeps the doubt alive."
   }
 ]
