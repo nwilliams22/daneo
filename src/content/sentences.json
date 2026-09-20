@@ -22662,5 +22662,197 @@
     "rom": "hangugeoga teuigineun haetjiman sinmuneun ajik daechungbakke mot ilgeoyo",
     "wordIds": ["w_hangugeo", "w_teuida", "w_sinmun", "w_ajik", "w_daechung", "w_ikda"],
     "note": "-기는 하다 from M92, the concession inside the verb — that md: \"concedes INSIDE the first verb, before the second clause arrives\": 트이기는 했지만 = it has opened up, true, but — today's 트이다 frozen by the -기 nominalizer from M13, topicalized, and handed to a past 하다 with -지만 from M7 on its tail. M1's 한국어 is its subject, and the sentence is the learner's own: the tongue has come untied (말문이 트이다 is the gap deck's phrase), but M8's 신문 still yields only 대충 — today's adverb under 밖에 from M39 with M3's 못 and M2's 읽다: I can only read it roughly. M14's 아직 keeps the door open. Two subjects, the second a topic, and the 저 dropped where natural Korean drops it."
+  },
+  {
+    "id": "s_m103_noise_protest",
+    "en": [
+      { "t": "Because of the noise from the floor above,", "role": "other", "id": "a" },
+      { "t": "I made", "role": "verb", "id": "v" },
+      { "t": "a complaint call", "role": "object", "id": "o" },
+      { "t": "to the neighbour", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "floor-between noise fault-at", "role": "other", "id": "a" },
+      { "t": "neighbour-to", "role": "other", "id": "d" },
+      { "t": "protest call-[obj]", "role": "object", "id": "o" },
+      { "t": "did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "층간 소음 탓에", "role": "other", "id": "a" },
+      { "t": "이웃에게", "role": "other", "id": "d" },
+      { "t": "항의 전화를", "role": "object", "id": "o" },
+      { "t": "했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheunggan soeum tase iusege hangui jeonhwareul haesseoyo",
+    "wordIds": ["w_cheung", "w_gan", "w_soeum", "w_tat", "w_iut", "w_hangui", "w_jeonhwa", "w_hada"],
+    "note": "Recycles -(으)ㄴ 탓에 from M86 — that md's pairing, \"늦게 잔 탓에 늦었어요 files a fault; 도와준 덕분에 합격했어요 hands out the credit\" — here on a bare noun, the shape M86's 탓 note filed as \"[Culprit] 탓 = X's fault\": 층간 소음 탓에 = through the fault of the noise between floors, and the culprit is the one the M54 gap deck named (\"The gap deck names the war: 층간 소음\"). Two slice words, both from the heart drawer: 소음 is what came through the ceiling, 항의 전화 (M20's 전화) is what went back up — the complaint call, with M13's 이웃 on 에게 as its receiver and M1's 하다 closing it. Sort the cause: 소음 때문에 would leave the tone open (M29's 때문: \"credit or blame; tone decides\"); 탓에 has already decided, which is why nobody ever says 덕분에 about a neighbour's footsteps."
+  },
+  {
+    "id": "s_m103_pride_words",
+    "en": [
+      { "t": "Right before the meeting,", "role": "other", "id": "t" },
+      { "t": "I heard", "role": "verb", "id": "v" },
+      { "t": "words harsh enough", "role": "object", "id": "o" },
+      { "t": "to wound my pride", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "meeting right-before-at", "role": "other", "id": "t" },
+      { "t": "pride-[subj] be-hurt-extent-to", "role": "other", "id": "a" },
+      { "t": "severe words-[obj]", "role": "object", "id": "o" },
+      { "t": "heard", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회의 직전에", "role": "other", "id": "t" },
+      { "t": "자존심이 상할 정도로", "role": "other", "id": "a" },
+      { "t": "심한 말을", "role": "object", "id": "o" },
+      { "t": "들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoeui jikjeone jajonsimi sanghal jeongdoro simhan mareul deureosseoyo",
+    "wordIds": ["w_hoeui", "w_jikjeon", "w_jajonsim", "w_sanghada", "w_jeongdo", "w_simhada", "w_mal", "w_deutda"],
+    "note": "Recycles -(으)ㄹ 정도로 from M89 — that md's rule, \"정도로 measures INTENSITY, 만큼 measures AMOUNT\" — with the whole clause as the measure: 자존심이 상할 정도로 = to the degree that my pride got hurt, the gap-deck collocation 자존심 상하다 (M36's 상하다 in its feelings job) wearing the prospective badge under M32's 정도. Two slice words: 직전 opens it — 회의 직전에 (M10's 회의) = right before the meeting, the noun-plus-에 frame the note gives — and 자존심 is what took the hit. M39's 심하다 in the badge on M4's 말, M2's 듣다 in the past. Roles: 자존심이 sits inside a subordinate clause, so the whole 정도로 chunk is other, not subject — the sentence is about hearing, not about pride. English reaches for an adverb (terribly harsh); Korean, as the M89 md said, \"reaches for a noun and a clause\"."
+  },
+  {
+    "id": "s_m103_midthirties_spending",
+    "en": [
+      { "t": "Once I hit my mid-thirties,", "role": "other", "id": "a" },
+      { "t": "I found my spending", "role": "subject", "id": "s" },
+      { "t": "was greater", "role": "verb", "id": "v" },
+      { "t": "than my income", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "thirty bracket middle-[subj] become-since", "role": "other", "id": "a" },
+      { "t": "spending-[subj]", "role": "subject", "id": "s" },
+      { "t": "income-than", "role": "other", "id": "d" },
+      { "t": "many-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "삼십 대 중반이 되니까", "role": "other", "id": "a" },
+      { "t": "지출이", "role": "subject", "id": "s" },
+      { "t": "수입보다", "role": "other", "id": "d" },
+      { "t": "많더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "samsip dae jungbani doenikka jichuri suipboda manteoragoyo",
+    "wordIds": ["w_n_sam", "w_n_sip", "w_dae", "w_jungban", "w_doeda", "w_jichul", "w_suip", "w_manta"],
+    "note": "Recycles -더라고요 from M88 — that md's opening sort, \"맛있었어요 is a fact about the restaurant; 맛있더라고요 is a report from someone who ate there\" — and this is the report from someone who opened the household book: 많더라고요 = I found it was more, M7's 많다 on the witness stand. Two slice words carry the finding: 삼십 대 중반 = mid-thirties, in hangul, the 代 bracket M55's 대 note reached (\"30대 = the thirties\") on the Sino 삼십 M2 composes, with today's 중반 as the middle stone of the 초반/중반/후반 board M46's 초반 note drew; and 지출 against M43's 수입 in its income sense — the two columns, with the comparison 보다 from M22 between them. -(으)니까 from M10 on 되다 sets the moment (when I became mid-thirties). The M88 md's rule holds: \"always after the fact: you watched, and now you tell\" — and the thing watched was a bank balance."
+  },
+  {
+    "id": "s_m103_final_ratio",
+    "en": [
+      { "t": "The final ratio", "role": "subject", "id": "s" },
+      { "t": "was decided", "role": "verb", "id": "v" },
+      { "t": "by the two governments", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "final ratio-[topic]", "role": "subject", "id": "s" },
+      { "t": "both-country government-by", "role": "other", "id": "a" },
+      { "t": "decided-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "최종 비율은", "role": "subject", "id": "s" },
+      { "t": "양국 정부에 의해", "role": "other", "id": "a" },
+      { "t": "결정됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "choejong biyureun yangguk jeongbue uihae gyeoljeongdwaesseoyo",
+    "wordIds": ["w_choejong", "w_biyul", "w_yangguk", "w_jeongbu", "w_uihada", "w_gyeoljeongdoeda"],
+    "note": "Recycles 에 의해 from M90 — that md's own example, \"법원에 의해 결정되다 (M70's 결정되다) = decided by the court\", with the court swapped for two governments — and the radar it drew: \"A typhoon gets 로 인해; a government gets 에 의해\". Three slice words in six: 최종 비율은 = the final ratio, two determiner-nouns stacked and topic-marked, the quota line of a trade agreement; 양국 정부에 의해 = by the two governments, the diplomatic page's 양국 on M32's 정부, with M56's 의하다 frozen in the frame that note called \"the passive agent of print\". M70's 결정되다 closes it — the 되다-side, no decider named, which is exactly why 에 의해 has to name one. A seven-word headline, and every word except 의해 is a noun."
+  },
+  {
+    "id": "s_m103_extra_seats",
+    "en": [
+      { "t": "Far from securing", "role": "other", "id": "a" },
+      { "t": "extra seats,", "role": "object", "id": "o" },
+      { "t": "I couldn't buy", "role": "verb", "id": "v" },
+      { "t": "even a ticket", "role": "object", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "extra seat-[obj]", "role": "object", "id": "o" },
+      { "t": "secure-far-from", "role": "other", "id": "a" },
+      { "t": "ticket-even", "role": "object", "id": "d" },
+      { "t": "not-could bought", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "추가 자리를", "role": "object", "id": "o" },
+      { "t": "확보하기는커녕", "role": "other", "id": "a" },
+      { "t": "표도", "role": "object", "id": "d" },
+      { "t": "못 샀어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chuga jarireul hwakbohagineunkeonyeong pyodo mot sasseoyo",
+    "wordIds": ["w_chuga", "w_jari", "w_hwakbo", "w_hada", "w_pyo", "w_sada"],
+    "note": "Recycles -기는커녕 from M92 — that md's anatomy, \"[the expected, bigger thing]은/는커녕 [the lesser thing]도 + a negative\", and its verdict, \"It is always a step DOWN\". The bigger thing: 추가 자리를 확보하기 = securing extra seats, two slice words in one clause — 추가 stamped on M12's 자리, and 확보 with M1's 하다 welded on, the frozen 확보하다 the note promised, nominalized by -기 from M13 and dropped down the 커녕 step. The lesser thing: 표도 못 샀어요 = couldn't even buy a ticket — M12's 표 on 도 from M2, M3's 못 on M2's 사다. Concert night, K-pop edition. Roles: 표도 is a second object — 도 has replaced the 을, as the M89 md said the heavy particles do — and 확보하기는커녕 is the connective, other."
+  },
+  {
+    "id": "s_m103_spicy_overdo",
+    "en": [
+      { "t": "No matter how much", "role": "other", "id": "d" },
+      { "t": "you like", "role": "other", "id": "a" },
+      { "t": "strong, spicy food,", "role": "object", "id": "o" },
+      { "t": "don't overdo it", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "no-matter-how", "role": "other", "id": "d" },
+      { "t": "stimulating food-[obj]", "role": "object", "id": "o" },
+      { "t": "like-even-if", "role": "other", "id": "a" },
+      { "t": "overdo-not do-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아무리", "role": "other", "id": "d" },
+      { "t": "자극적인 음식을", "role": "object", "id": "o" },
+      { "t": "좋아하더라도", "role": "other", "id": "a" },
+      { "t": "무리하지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "amuri jageukjeogin eumsigeul joahadeorado murihaji maseyo",
+    "wordIds": ["w_amuri", "w_jageuk", "w_jeok", "w_eumsik", "w_joahada", "w_muri", "w_hada"],
+    "note": "Recycles -더라도 from M95 — that md's rung two, \"even if it were so — firmer, the -더- of M88 inside\", and its example, \"아무리 어렵더라도 = no matter how hard it should be\" — with M39's 아무리 announcing it exactly as that note said it announces -아/어도. Two slice words, both from the doctor: 자극적인 음식 = strong, irritating food — today's 자극 through the -적 factory of M45 in the badge, on M1's 음식 with M1's 좋아하다 taking the concession; and 무리하지 마세요 = don't overdo it — 무리 in its 無理 row with -지 마세요 from M14, the gap-deck line. The gastroenterologist's whole consultation in eight words. Roles: 좋아하더라도 is the conceded clause, other; 무리하지 마세요 is the command that closes, verb."
+  },
+  {
+    "id": "s_m103_survey_root",
+    "en": [
+      { "t": "As we kept surveying", "role": "other", "id": "a" },
+      { "t": "the real conditions of overseas Koreans,", "role": "object", "id": "o" },
+      { "t": "the root of the problem", "role": "subject", "id": "s" },
+      { "t": "came to light", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "overseas compatriot-[pl]-of real-state-[obj]", "role": "object", "id": "o" },
+      { "t": "survey-kept-and-found", "role": "other", "id": "a" },
+      { "t": "problem-of root-[subj]", "role": "subject", "id": "s" },
+      { "t": "came-to-light", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "해외 동포들의 실태를", "role": "object", "id": "o" },
+      { "t": "조사하다 보니", "role": "other", "id": "a" },
+      { "t": "문제의 근원이", "role": "subject", "id": "s" },
+      { "t": "드러났어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haeoe dongpodeurui siltaereul josahada boni munjeui geunwoni deureonasseoyo",
+    "wordIds": ["w_haeoe", "w_dongpo", "w_siltae", "w_josahada", "w_boda", "w_munje", "w_geunwon", "w_deureonada"],
+    "note": "Recycles -다 보니 from M94 — that md's insistence that \"the result came from keeping on, not from one act\", and that \"보니 says it already happened to me\" — with M56's 조사하다 as the thing kept at. Three slice words: 해외 동포들의 실태 = the actual conditions of Koreans overseas, M31's 해외 on 동포 with the plural 들, and 실태 as the surveyed noun the note sorts against 실정; then 문제의 근원 (M7's 문제) = the root of the problem, the cause under the causes. M93's 드러나다 closes it — the report's intransitive, exactly as its note filed it: \"조사 결과 드러났다 (M44's 조사, M32's 결과) is the headline's first line\". 실태 조사 is the collocation the 실태 note gives, and this sentence is what happens when you do one for long enough."
+  },
+  {
+    "id": "s_m103_small_fluctuation",
+    "en": [
+      { "t": "Even an extremely small fluctuation", "role": "subject", "id": "s" },
+      { "t": "is bound to have", "role": "verb", "id": "v" },
+      { "t": "an effect", "role": "object", "id": "o" },
+      { "t": "on prices", "role": "other", "id": "d" },
+      { "t": "in the end", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "extremely small fluctuation-even", "role": "subject", "id": "s" },
+      { "t": "in-the-end", "role": "other", "id": "t" },
+      { "t": "price-on", "role": "other", "id": "d" },
+      { "t": "influence-[obj]", "role": "object", "id": "o" },
+      { "t": "give-bound-to-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "극히 작은 변동도", "role": "subject", "id": "s" },
+      { "t": "결국", "role": "other", "id": "t" },
+      { "t": "가격에", "role": "other", "id": "d" },
+      { "t": "영향을", "role": "object", "id": "o" },
+      { "t": "주기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geukhi jageun byeondongdo gyeolguk gagyeoge yeonghyangeul jugi maryeonieyo",
+    "wordIds": ["w_geukhi", "w_jakda", "w_byeondong", "w_gyeolguk", "w_gagyeok", "w_yeonghyang", "w_juda", "w_maryeon"],
+    "note": "Recycles -기 마련이다 from M87 — that md's sort, \"셈 counts what has happened; 마련 says what was always going to\" — and M87's 마련 note's reading of the frame, \"used to say the world has already arranged it\": 영향을 주기 마련이에요 = is bound to have an effect. Two slice words open it: 극히 작은 변동도 = even an extremely small fluctuation — 극히, the report's very, on M1's 작다 in the badge, on 변동 in its chart sense, with 도 from M2 replacing the subject particle; then M32's 결국 and M21's 가격 on 에 set where the effect lands. 영향을 주다 is the everyday collocation M86's 영향 note filed (\"영향을 주다 (M9's 주다) = to influence (the everyday one)\"). The economics lecturer's sentence: a market has already arranged for every wobble to reach the price tag. Roles: 변동도 is the subject even under 도 — tag by the Korean grammar, not by the English even."
   }
 ]
