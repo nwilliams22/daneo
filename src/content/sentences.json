@@ -20310,5 +20310,194 @@
     "rom": "gungmini orae noryeokhan gyeolgwa minjuhwaga irueojyeosseoyo",
     "wordIds": ["w_gungmin", "w_orae", "w_noryeokhada", "w_gyeolgwa", "w_minjuhwa", "w_irueojida"],
     "note": "The second -(으)ㄴ 결과, with credit in it: 국민이 오래 노력한 결과 = as a result of the people's long effort — M26's 노력하다 in the past badge from M24, M10's 오래 stretching it over years, M32's 국민 on the bare 이 inside the clause. M39's 노력 note wrote 노력의 결과 as a noun phrase; today the clause version does the same work with a verb. 민주화가 이루어졌어요 pairs today's 민주화 with M35's 이루어지다 — democratization was REALIZED, the happen-form, nobody named as the one who did it — which is the sentence Korea writes about its June of demonstrations and the direct elections that followed (the year is in the word note). The register is the textbook's, and every word of it was yours except the -화 noun."
+  },
+  {
+    "id": "s_m91_report_three_parts",
+    "en": [
+      { "t": "As I mentioned earlier,", "role": "other", "id": "a" },
+      { "t": "this report", "role": "subject", "id": "s" },
+      { "t": "consists", "role": "verb", "id": "v" },
+      { "t": "of three parts", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "earlier told-[hon-humble]-as-with", "role": "other", "id": "a" },
+      { "t": "this report-[topic]", "role": "subject", "id": "s" },
+      { "t": "three part-into", "role": "other", "id": "b" },
+      { "t": "composed-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "앞서 말씀드린 바와 같이", "role": "other", "id": "a" },
+      { "t": "이 보고서는", "role": "subject", "id": "s" },
+      { "t": "세 부분으로", "role": "other", "id": "b" },
+      { "t": "구성되어 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "apseo malsseumdeurin bawa gachi i bogoseoneun se bubuneuro guseongdoeeo isseoyo",
+    "wordIds": ["w_apseo", "w_malsseumdeurida", "w_ba", "w_gachi", "w_i_det", "w_bogoseo", "w_bubun", "w_guseongdoeda", "w_itda"],
+    "note": "The connective 바 on its debut, in the frame every speech opens with: 앞서 말씀드린 바와 같이 = as I mentioned earlier — M85's 앞서, M71's 말씀드리다 in the past badge -(으)ㄴ from M24, M87's 바 as the clause-noun, and M9's 같이 in its as-job on 와. M87's 바 note promised exactly this: \"Today the NOUN only — the connective -(으)ㄴ/는 바 that opens a formal clause belongs to Module 91\". Then the shelf's first 되다-verb in the state form: 세 부분으로 구성되어 있어요 (M32's 부분, M6's 로 marking the parts, the counter contraction 세 from M5 — no digit) = consists of three parts, the 되어 있다 that M70's 포함되다 note preferred for a standing condition. Say it with the 하다 side and the sentence needs an author: 저는 이 보고서를 세 부분으로 구성했어요 = I organized this report into three parts. The report drops the author and keeps the structure; that is the whole difference between 구성하다 and 구성되다, and the whole register of M43's 보고서."
+  },
+  {
+    "id": "s_m91_survey_lifestyle",
+    "en": [
+      { "t": "According to what the government found,", "role": "other", "id": "a" },
+      { "t": "the way of life in that region", "role": "subject", "id": "s" },
+      { "t": "has changed", "role": "verb", "id": "v" },
+      { "t": "a great deal", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "government-[subj] investigated-that-which-at follow-if", "role": "other", "id": "a" },
+      { "t": "that region-[poss] life way-[subj]", "role": "subject", "id": "s" },
+      { "t": "a-lot", "role": "other", "id": "b" },
+      { "t": "got-changed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "정부가 조사한 바에 따르면", "role": "other", "id": "a" },
+      { "t": "그 지역의 생활 방식이", "role": "subject", "id": "s" },
+      { "t": "많이", "role": "other", "id": "b" },
+      { "t": "바뀌었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeongbuga josahan bae ttareumyeon geu jiyeogui saenghwal bangsigi mani bakkwieosseoyo",
+    "wordIds": ["w_jeongbu", "w_josahada", "w_ba", "w_ttareuda", "w_geu_det", "w_jiyeok", "w_saenghwal", "w_bangsik", "w_mani", "w_bakkwida"],
+    "note": "The second 바 frame: 조사한 바에 따르면 = according to what was found — M56's 조사하다 in the past badge from M24, 바 standing in for the findings, and 에 따르면 from M90 (M32's 따르다 under -(으)면 from M20) naming the source. Where M90 hung 에 따르면 on a noun (여론 조사에 따르면), today it hangs on a clause, and 바 is the hook. M32's 정부 investigates on the bare 가 inside the clause, exactly as M16's 경찰 did in the M90 sentence s_m90_investigation_innocent. Then today's 방식 in its most common compound: 생활 방식 (M29's 생활) = the way of life, the lifestyle — the STYLE of living, not a method for it — and M35's 바뀌다 says it changed on its own, nobody named as the changer. 그 지역의 (M29's 그, M31's 지역, the possessive 의) is the region the report is about, and the region is the topic in print as it would be in speech."
+  },
+  {
+    "id": "s_m91_app_features",
+    "en": [
+      { "t": "As you can see,", "role": "other", "id": "a" },
+      { "t": "this app", "role": "subject", "id": "s" },
+      { "t": "has", "role": "verb", "id": "v" },
+      { "t": "a great many features", "role": "subject", "id": "f" }
+    ],
+    "gloss": [
+      { "t": "see-[hon]-as-you-can", "role": "other", "id": "a" },
+      { "t": "this app-[topic]", "role": "subject", "id": "s" },
+      { "t": "feature-[subj]", "role": "subject", "id": "f" },
+      { "t": "really many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "보시다시피", "role": "other", "id": "a" },
+      { "t": "이 앱은", "role": "subject", "id": "s" },
+      { "t": "기능이", "role": "subject", "id": "f" },
+      { "t": "정말 많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bosidasipi i aebeun gineungi jeongmal manayo",
+    "wordIds": ["w_boda", "w_i_det", "w_aep", "w_gineung", "w_jeongmal", "w_manta"],
+    "note": "The presenter's opener: 보시다시피 = as you can see — M1's 보다 wearing the honorific -(으)시- from M4 and then -다시피, the ending that folds what the room already knows into the sentence. The -시- is not optional in a room: 보다시피 to a friend, 보시다시피 to an audience. What they can see is the double-subject frame the roles drill knows — 이 앱은 기능이 정말 많아요, M20's 앱 as the topic, today's 기능 on the bare 이, M7's 많다 closing with M11's 정말 in front: the app has features, many, and this is the 機能 reading, the one a device has. Say it with -잖아요 from M42 — 기능이 많잖아요 — and you are nudging a friend who already knows; -다시피 addresses everyone who can see the screen. The sales pitch every phone shop runs."
+  },
+  {
+    "id": "s_m91_procedure_time",
+    "en": [
+      { "t": "As you know,", "role": "other", "id": "a" },
+      { "t": "this procedure", "role": "subject", "id": "s" },
+      { "t": "takes", "role": "verb", "id": "v" },
+      { "t": "a lot of", "role": "other", "id": "b" },
+      { "t": "time", "role": "subject", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "know-as-you-do", "role": "other", "id": "a" },
+      { "t": "this procedure-[topic]", "role": "subject", "id": "s" },
+      { "t": "time-[subj]", "role": "subject", "id": "t" },
+      { "t": "a-lot", "role": "other", "id": "b" },
+      { "t": "takes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "알다시피", "role": "other", "id": "a" },
+      { "t": "이 절차는", "role": "subject", "id": "s" },
+      { "t": "시간이", "role": "subject", "id": "t" },
+      { "t": "많이", "role": "other", "id": "b" },
+      { "t": "걸려요", "role": "verb", "id": "v" }
+    ],
+    "rom": "aldasipi i jeolchaneun sigani mani geollyeoyo",
+    "wordIds": ["w_alda", "w_i_det", "w_jeolcha", "w_sigan", "w_mani", "w_geollida"],
+    "note": "알다시피 = as you know — M4's 알다 straight into -다시피, no honorific this time because the speaker is not deferring, only reminding: the whole office knows this. Then the frame every learner met in M12: 시간이 많이 걸려요 — M1's 시간 on the bare 이, M17's 많이, M12's 걸리다 doing its take-time job — with today's 절차 as the topic of the taking. A 절차 is the order a thing is REQUIRED to happen in (M33's 순서 is merely the order it does), and the sentence is the sigh of everyone who has ever been sent back to the 구청 (frozen — the district office) for one more stamp. Two subjects, one topic, one closer, and the ending on the front is the only thing in it you did not already own."
+  },
+  {
+    "id": "s_m91_walk_exercise",
+    "en": [
+      { "t": "I walked", "role": "verb", "id": "v" },
+      { "t": "all the way to the office,", "role": "place", "id": "p" },
+      { "t": "partly to get some exercise in", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "exercise-also do-in-order-to-both", "role": "other", "id": "a" },
+      { "t": "office-as-far-as", "role": "place", "id": "p" },
+      { "t": "walked-went", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "운동도 할 겸", "role": "other", "id": "a" },
+      { "t": "회사까지", "role": "place", "id": "p" },
+      { "t": "걸어갔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "undongdo hal gyeom hoesakkaji georeogasseoyo",
+    "wordIds": ["w_undonghada", "w_hada", "w_hoesa", "w_georeogada"],
+    "note": "-(으)ㄹ 겸 on its debut, in the frame it lives in: 운동도 할 겸 = partly to get some exercise too — M8's 운동하다 dismounted to 운동, M2's 도 (the also-particle, and it is nearly always there), M1's 하다 in the future badge -(으)ㄹ from M25's 때-machine, then 겸. The 겸 (兼) means both-at-once: the walk was for getting to work AND for the exercise, two purposes in one act. The main clause is plain: 회사까지 (M2's 회사 with M6's 까지 — as far as) 걸어갔어요 (M28's 걸어가다). Radar against -(으)면서 from M38: 걸으면서 운동했어요 says two things happened at the same time; 운동도 할 겸 걸어갔어요 says one thing was done for two reasons. Korea's favourite excuse for a detour, and the adverb 겸사겸사 in the gap deck is the same 겸 doubled."
+  },
+  {
+    "id": "s_m91_computer_install",
+    "en": [
+      { "t": "Since I was buying a new computer anyway,", "role": "other", "id": "a" },
+      { "t": "I installed", "role": "verb", "id": "v" },
+      { "t": "the program too", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "new computer-[obj] buy-ing while-at-it", "role": "other", "id": "a" },
+      { "t": "program-also", "role": "object", "id": "o" },
+      { "t": "installed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새 컴퓨터를 사는 김에", "role": "other", "id": "a" },
+      { "t": "프로그램도", "role": "object", "id": "o" },
+      { "t": "설치했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sae keompyuteoreul saneun gime peurogeuraemdo seolchihaesseoyo",
+    "wordIds": ["w_sae", "w_keompyuteo", "w_sada", "w_peurogeuraem", "w_seolchihada"],
+    "note": "-는 김에 = while I was at it: M2's 사다 in the present badge -는 from M24, then 김에 — the dependent noun 김 (the steam, the momentum; riding frozen) on M1's 에. The purchase (M13's 새 on M10's 컴퓨터) was already happening; the install rode its momentum. Then today's 설치하다 with M32's 프로그램 as the object, wearing the also-도 from M2 that this ending nearly always brings with it — the same 도 that -(으)ㄹ 겸 wanted a sentence ago. Sort the two: 운동도 할 겸 gives an act two PURPOSES; 사는 김에 rides an OCCASION that already exists. RADAR: this 김 is not M18's 김, the seaweed, and not the surname — and the M18 note already warned you the 김 of 김치 is a third thing."
+  },
+  {
+    "id": "s_m91_poll_nationwide",
+    "en": [
+      { "t": "Next week", "role": "other", "id": "a" },
+      { "t": "an opinion poll", "role": "subject", "id": "s" },
+      { "t": "will be conducted", "role": "verb", "id": "v" },
+      { "t": "nationwide", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "next week-at", "role": "other", "id": "a" },
+      { "t": "whole-country-at", "role": "place", "id": "p" },
+      { "t": "public-opinion survey-[subj]", "role": "subject", "id": "s" },
+      { "t": "gets-carried-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다음 주에", "role": "other", "id": "a" },
+      { "t": "전국에서", "role": "place", "id": "p" },
+      { "t": "여론 조사가", "role": "subject", "id": "s" },
+      { "t": "실시돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daeum jue jeongugeseo yeoron josaga silsidwaeyo",
+    "wordIds": ["w_daeum", "w_ju", "w_jeonguk", "w_yeoron", "w_josa", "w_silsidoeda"],
+    "note": "The headline's 되다: 여론 조사가 실시돼요 = an opinion poll will be conducted — M90's 여론 on M44's 조사, the poll the M90 sentence s_m90_poll_oppose reported the results of, here announced before it happens, on the bare 가 with today's 실시되다 closing. The 하다 side names the pollster — 정부가 여론 조사를 실시해요 — and the 되다 side is what the newspaper prints, because the newspaper is not the pollster. 다음 주에 (M8's 다음, M8's 주) is the time, tagged as other; 전국에서 (M31's 전국 on M2's 에서) is the place, and the 에서 is the one the roles drill wants. The present tense stands for the future here, as it does in every Korean schedule."
+  },
+  {
+    "id": "s_m91_study_focus",
+    "en": [
+      { "t": "This study", "role": "subject", "id": "s" },
+      { "t": "set", "role": "verb", "id": "v" },
+      { "t": "its focus", "role": "object", "id": "o" },
+      { "t": "on changes in social structure", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "this research-[topic]", "role": "subject", "id": "s" },
+      { "t": "society structure-[poss] change-on", "role": "other", "id": "a" },
+      { "t": "focus-[obj]", "role": "object", "id": "o" },
+      { "t": "set", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 연구는", "role": "subject", "id": "s" },
+      { "t": "사회 구조의 변화에", "role": "other", "id": "a" },
+      { "t": "초점을", "role": "object", "id": "o" },
+      { "t": "맞췄어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i yeonguneun sahoe gujoui byeonhwae chojeomeul matchwosseoyo",
+    "wordIds": ["w_i_det", "w_yeongu", "w_sahoe", "w_gujo", "w_byeonhwa", "w_chojeom", "w_matchuda"],
+    "note": "초점을 맞추다 = to focus on — today's 초점, the scorch-point, as the object of M37's 맞추다, the tuning verb whose note set alarms and checked answers; a lens is tuned the same way. What it is tuned to takes 에: 사회 구조의 변화에 — M32's 사회 on today's 구조 (the shelf's first word, in its commonest compound) with M32's 변화 hung on the 의 — the changes in social structure. M32's 연구 is the topic, as the study is always the topic of its own abstract. No 바, no 다시피, no 겸: the eighth sentence is the plain report, the register the other seven decorate, and two of the module's structure-nouns in one noun phrase."
   }
 ]

@@ -2162,5 +2162,27 @@
       "s_m90_solve_statute", "s_m90_minister_announce", "s_m90_lawmaker_trial", "s_m90_poll_oppose",
       "s_m90_court_decided", "s_m90_no_violence", "s_m90_investigation_innocent", "s_m90_effort_democratization"
     ]
+  },
+  {
+    "id": "m91",
+    "title": "Process and Structure",
+    "order": 100,
+    "ring": 2,
+    "contentMd": "modules/module-91.md",
+    "wordIds": [
+      "w_gujo", "w_hyeongtae", "w_hyeongsik", "w_bangsik",
+      "w_guseong", "w_guseonghada", "w_guseongdoeda", "w_hyeongseong",
+      "w_hyeongseonghada", "w_hyeongseongdoeda", "w_gineung", "w_jeolcha",
+      "w_teul", "w_todae", "w_haeksim", "w_chojeom",
+      "w_bonjil", "w_geunbon", "w_geunbonjeok", "w_gibonjeok",
+      "w_yeongyeok", "w_bumun", "w_bunya", "w_jageop",
+      "w_silsi", "w_silsihada", "w_silsidoeda", "w_cheori",
+      "w_jeopgeun", "w_jeopgeunhada", "w_jeongae", "w_tonghap",
+      "w_doip", "w_seolchihada"
+    ],
+    "sentenceIds": [
+      "s_m91_report_three_parts", "s_m91_survey_lifestyle", "s_m91_app_features", "s_m91_procedure_time",
+      "s_m91_walk_exercise", "s_m91_computer_install", "s_m91_poll_nationwide", "s_m91_study_focus"
+    ]
   }
 ]
