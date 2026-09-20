@@ -20691,5 +20691,203 @@
     "rom": "pyomyeoneul dakgineun dakkanneunde mulgiga ajik namasseoyo",
     "wordIds": ["w_pyomyeon", "w_dakda", "w_mulgi", "w_ajik", "w_namda"],
     "note": "The doubled form of -기는 하다: 닦기는 닦았는데 = wipe it I did, but — M8's 닦다 twice, first frozen as a -기 noun with 는 on it, then conjugated with the -는데 of M53 behind it, the verb conceding itself. Where 닦기는 했는데 hands the tense to 하다, the doubled form repeats the verb and sounds more like a shrug — technically, yes, I wiped it. 표면을 is today's 표면 as the object (the wet counter, the wiped table); 물기가 아직 남았어요 pairs today's 물기 on the bare 가 with M14's 아직 and M35's 남다 — the moisture that stayed, exactly the wet ON a thing the word note describes. Every kitchen argument has this sentence in it."
+  },
+  {
+    "id": "s_m93_handle_problem",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "will handle", "role": "other", "id": "a" },
+      { "t": "this problem,", "role": "object", "id": "o" },
+      { "t": "so don't worry", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this problem-[topic]", "role": "object", "id": "o" },
+      { "t": "I-[subj]", "role": "subject", "id": "s" },
+      { "t": "handle-will-so", "role": "other", "id": "a" },
+      { "t": "worry-don't-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 문제는", "role": "object", "id": "o" },
+      { "t": "제가", "role": "subject", "id": "s" },
+      { "t": "다룰 테니까", "role": "other", "id": "a" },
+      { "t": "걱정하지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i munjeneun jega darul tenikka geokjeonghaji maseyo",
+    "wordIds": ["w_i_det", "w_munje", "w_jeo", "w_daruda", "w_teo", "w_geokjeonghada"],
+    "note": "-(으)ㄹ 테니까 in its first-person job: 제가 다룰 테니까 = I'll handle it, so — the speaker's will stood on M55's 터 (that note ran \"금방 갈 테니까 (M10's -니까) = I'll be there soon, so\"), then -(으)니까 from M10 doing what that md said it does when \"the sentence ends in 주세요/-(으)세요\". 다루다 takes M7's 문제 in hand — the desk sense, not the instrument sense M51's 악기 filed — and the 는 on 이 문제는 (M29's 이) lifts the object to topic — as for THIS one. 걱정하지 마세요 is the sentence M14's 걱정하다 note was built for (-지 마세요 from M14), which is why the 니까 is there and not 서."
+  },
+  {
+    "id": "s_m93_result_soon",
+    "en": [
+      { "t": "The result", "role": "subject", "id": "s" },
+      { "t": "will probably come out", "role": "other", "id": "a" },
+      { "t": "soon,", "role": "other", "id": "t" },
+      { "t": "so just wait a little longer", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "result-[subj]", "role": "subject", "id": "s" },
+      { "t": "soon", "role": "other", "id": "t" },
+      { "t": "be-revealed-will-given-that", "role": "other", "id": "a" },
+      { "t": "a-little-only more wait-try-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "결과가", "role": "subject", "id": "s" },
+      { "t": "곧", "role": "other", "id": "t" },
+      { "t": "밝혀질 텐데", "role": "other", "id": "a" },
+      { "t": "조금만 더 기다려 보세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeolgwaga got balkyeojil tende jogeumman deo gidaryeo boseyo",
+    "wordIds": ["w_gyeolgwa", "w_got", "w_balkyeojida", "w_teo", "w_jogeum", "w_deo", "w_gidarida", "w_boda"],
+    "note": "-(으)ㄹ 텐데 in its third-person job: the result is not the speaker, so 밝혀질 텐데 is a supposition, not a pledge — it will probably be revealed, and given that… — M55's 터 wearing -는데 from M53, the shape s_m55_tired_rest ran as 피곤할 텐데. 밝혀지다 is the passive M87's 진실 note promised, on M32's 결과: a result that gets established by someone's lamp. The closer is a nag made of small parts: M9's 조금 with 만 (M30) = only a little, M9's 더, M8's 기다리다 through the try-machine -아/어 보다 from M16 in -(으)세요. M10's 곧 does the hoping."
+  },
+  {
+    "id": "s_m93_admit_point",
+    "en": [
+      { "t": "The department head", "role": "subject", "id": "s" },
+      { "t": "will probably admit", "role": "verb", "id": "v" },
+      { "t": "that criticism", "role": "object", "id": "o" },
+      { "t": "too, I'd guess", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "department-head-too", "role": "subject", "id": "s" },
+      { "t": "probably", "role": "other", "id": "a" },
+      { "t": "that pointing-out-[obj]", "role": "object", "id": "o" },
+      { "t": "admit-will-I'd-guess", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부장님도", "role": "subject", "id": "s" },
+      { "t": "아마", "role": "other", "id": "a" },
+      { "t": "그 지적을", "role": "object", "id": "o" },
+      { "t": "인정할걸요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bujangnimdo ama geu jijeogeul injeonghalgeoryo",
+    "wordIds": ["w_bujangnim", "w_ama", "w_geu_det", "w_jijeok", "w_injeonghada"],
+    "note": "The shrug ending on its debut: 인정할걸요 = will admit it, I'd guess — the future hook -(으)ㄹ from M8 + 걸요, a guess you would not bet on. M24's 아마 was built for it (that note: \"아마 비가 올 거예요 — it'll probably rain\") and here it trades the firm -(으)ㄹ 거예요 for the softer 걸요. Two of today's words in one office: 지적 as the thing pointed out — received, in the 받다 sense M75's 비판하다 note set up — and 인정하다 as the manager swallowing it. M16's 부장님 with 도 (M2): even he. Say 인정할 거예요 and you are predicting; say 인정할걸요 and you are guessing out loud, ready to be wrong."
+  },
+  {
+    "id": "s_m93_refused_proposed",
+    "en": [
+      { "t": "Seeing that the company", "role": "subject", "id": "s" },
+      { "t": "refused my request,", "role": "other", "id": "a" },
+      { "t": "I put forward", "role": "verb", "id": "v" },
+      { "t": "another plan", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "company-[subj]", "role": "subject", "id": "s" },
+      { "t": "my request-[obj] refuse-seeing-that", "role": "other", "id": "a" },
+      { "t": "other plan-[obj]", "role": "object", "id": "o" },
+      { "t": "put-forward", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회사가", "role": "subject", "id": "s" },
+      { "t": "제 요청을 거부하길래", "role": "other", "id": "a" },
+      { "t": "다른 방안을", "role": "object", "id": "o" },
+      { "t": "제시했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoesaga je yocheongeul geobuhagillae dareun banganeul jesihaesseoyo",
+    "wordIds": ["w_hoesa", "w_je", "w_yocheong", "w_geobuhada", "w_dareun", "w_bangan", "w_jesihada"],
+    "note": "-길래 = seeing that: the company refused (M2's 회사 as the -길래 subject — never the speaker), and having watched that, I acted (the main clause is mine, its 저 unsaid). 거부하다 is the right refusal for a 요청 (the noun M64 taught): a filed request pushed back, not a favour declined — the line M33's 거절하다 note drew. And the answer is M86's 방안 through today's 제시하다, the collocation that note wrote frozen (\"방안을 제시하다\"). Swap in -아/어서 and the causality is neutral; -(으)니까 from M10 and it is argued; -길래 says I saw it happen first. M29's 다른 is the other plan."
+  },
+  {
+    "id": "s_m93_fear_unrecognized",
+    "en": [
+      { "t": "I", "role": "subject", "id": "s" },
+      { "t": "was worried", "role": "verb", "id": "v" },
+      { "t": "that people", "role": "subject", "id": "a" },
+      { "t": "wouldn't recognize", "role": "other", "id": "b" },
+      { "t": "my ability", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "s" },
+      { "t": "people-[subj]", "role": "subject", "id": "a" },
+      { "t": "my skill-[obj]", "role": "object", "id": "o" },
+      { "t": "not recognize-might-lest", "role": "other", "id": "b" },
+      { "t": "worried", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "s" },
+      { "t": "사람들이", "role": "subject", "id": "a" },
+      { "t": "제 실력을", "role": "object", "id": "o" },
+      { "t": "못 알아볼까 봐", "role": "other", "id": "b" },
+      { "t": "걱정했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeoneun saramdeuri je sillyeogeul mot arabolkka bwa geokjeonghaesseoyo",
+    "wordIds": ["w_jeo", "w_saram", "w_je", "w_sillyeok", "w_araboda", "w_boda", "w_geokjeonghada"],
+    "note": "-(으)ㄹ까 봐 = for fear that: the wondering -(으)ㄹ까 from M9 (같이 먹을까요? with the 요 off) + M1's 보다 in its -아 coat — seeing whether they might not recognize… — and the fear closes on M14's 걱정하다. 알아보다 in its recognize job, the one M33's 알아듣다 note promised, with M3's 못 in front: 못 알아보다 = fail to recognize. M1's 사람 takes 들 (M27) because the many-ness is the point, and 제 실력 is M26's 실력 with M17's 제. Two subjects, two clauses: 저는 owns the worrying, 사람들이 owns the not-recognizing — the same double frame as 한식은 반찬이 많아요, one level up."
+  },
+  {
+    "id": "s_m93_analysis_matched",
+    "en": [
+      { "t": "When I analyzed", "role": "other", "id": "a" },
+      { "t": "the data,", "role": "object", "id": "o" },
+      { "t": "I found the results", "role": "subject", "id": "s" },
+      { "t": "matched", "role": "verb", "id": "v" },
+      { "t": "our expectation", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "data-[obj]", "role": "object", "id": "o" },
+      { "t": "analyzed-and-found", "role": "other", "id": "a" },
+      { "t": "results-[subj]", "role": "subject", "id": "s" },
+      { "t": "our expectation-with", "role": "other", "id": "b" },
+      { "t": "matched-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "자료를", "role": "object", "id": "o" },
+      { "t": "분석했더니", "role": "other", "id": "a" },
+      { "t": "결과가", "role": "subject", "id": "s" },
+      { "t": "우리 예상과", "role": "other", "id": "b" },
+      { "t": "일치하더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jaryoreul bunseokhaetdeoni gyeolgwaga uri yesanggwa ilchihadeoragoyo",
+    "wordIds": ["w_jaryo", "w_bunseokhada", "w_gyeolgwa", "w_uri", "w_yesang", "w_ilchihada"],
+    "note": "The -더- family from M88, both ends: 분석했더니 is -았/었더니 (I did X, and found Y — M88's md: \"The speaker acts; the world answers\") and 일치하더라고요 is -더라고요, the eyewitness closer. Between them, the lab's sentence of relief: M32's 결과 matched M34's 예상, with the written 과 from M30 doing the 'with'. M72's 분석하다 divides M44's 자료 until it's bright; today's 일치하다 says the two piles came out the same. Print would write 분석 결과 예상과 일치했다 — no witness, no 더; the mouth keeps the person in."
+  },
+  {
+    "id": "s_m93_reflected_improved",
+    "en": [
+      { "t": "The company, you know,", "role": "subject", "id": "s" },
+      { "t": "reflected the employees' opinions", "role": "other", "id": "a" },
+      { "t": "and improved", "role": "verb", "id": "v" },
+      { "t": "the office environment", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "company-[subj]", "role": "subject", "id": "s" },
+      { "t": "employees-of opinion-[obj] reflect-and", "role": "other", "id": "a" },
+      { "t": "office environment-[obj]", "role": "object", "id": "o" },
+      { "t": "improved-you-know", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회사가", "role": "subject", "id": "s" },
+      { "t": "직원들의 의견을 반영해서", "role": "other", "id": "a" },
+      { "t": "사무실 환경을", "role": "object", "id": "o" },
+      { "t": "개선했잖아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoesaga jigwondeurui uigyeoneul banyeonghaeseo samusil hwangyeongeul gaeseonhaetjanayo",
+    "wordIds": ["w_hoesa", "w_jigwon", "w_uigyeon", "w_banyeonghada", "w_samusil", "w_hwangyeong", "w_gaeseon", "w_hada"],
+    "note": "Two report verbs said across a table: 반영하다 on M24's 의견 — the committee's promise, kept — and 개선 with 하다 on, the improvement M81's 생활환경 note carried frozen, now done to M16's 사무실 and M32's 환경. The -아/어서 chain makes the first the means of the second, and -잖아요 from M42 (that md's \"you know this already\") reminds the listener they were there. M16's 직원 with 들 (M27) and the 의 of possession. In the memo this is 직원 의견을 반영하여 사무실 환경을 개선하였다; the -잖아요 is what turns the memo back into a person."
+  },
+  {
+    "id": "s_m93_economy_forecast",
+    "en": [
+      { "t": "The economic situation", "role": "subject", "id": "s" },
+      { "t": "is expected", "role": "verb", "id": "v" },
+      { "t": "to become more difficult", "role": "other", "id": "a" },
+      { "t": "next year", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "next-year-in-[topic]", "role": "other", "id": "t" },
+      { "t": "economy situation-[subj]", "role": "subject", "id": "s" },
+      { "t": "more difficult-become-will thing-as", "role": "other", "id": "a" },
+      { "t": "is-expected", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내년에는", "role": "other", "id": "t" },
+      { "t": "경제 상황이", "role": "subject", "id": "s" },
+      { "t": "더 어려워질 것으로", "role": "other", "id": "a" },
+      { "t": "예상됩니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "naenyeoneneun gyeongje sanghwangi deo eoryeowojil geoseuro yesangdoemnida",
+    "wordIds": ["w_naenyeon", "w_gyeongje", "w_sanghwang", "w_deo", "w_eoryeopda", "w_yesangdoeda"],
+    "note": "The one printed sentence in the deck, so you can hear the difference: -(으)ㄹ 것으로 예상됩니다 = is expected to — the future hook -(으)ㄹ from M8 on the 것 of M17, 으로 (M6), and today's 예상되다 in the 합니다체 from M4. Nobody expects it; it is expected. 어려워질 is M7's 어렵다 through -아/어지다 from M35 (get more difficult), on M32's 경제 and M33's 상황 with M9's 더. Say the same thing as a person and the whole module collapses into one ending: 내년에는 더 어려울걸요."
   }
 ]
