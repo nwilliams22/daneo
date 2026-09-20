@@ -2270,5 +2270,27 @@
       "s_m94_feelings_hidden", "s_m94_coat_off_again", "s_m94_work_drift", "s_m94_practice_master",
       "s_m94_nearly_collapsed", "s_m94_rumour_school", "s_m94_fans_yelling", "s_m94_hurry_mistakes"
     ]
+  },
+  {
+    "id": "m97",
+    "title": "The Economy Page",
+    "order": 106,
+    "ring": 2,
+    "contentMd": "modules/module-97.md",
+    "wordIds": [
+      "w_saneop", "w_gongeop", "w_saengsan", "w_saengsanhada",
+      "w_nodong", "w_nongmin", "w_nongsanmul", "w_singnyang",
+      "w_eopche", "w_jungsogieop", "w_geonseol", "w_geonseolhada",
+      "w_sodeuk", "w_suyo", "w_gonggeup", "w_mulga",
+      "w_yesan", "w_jaejeong", "w_jusik", "w_jeunggwon",
+      "w_sobi", "w_sangpyo", "w_seongjang", "w_seongjanghada",
+      "w_chujin", "w_chujinhada", "w_jinhaeng", "w_unyeonghada",
+      "w_guiphada", "w_gaebaldoeda", "w_seonjinguk", "w_gyeonghyang",
+      "w_jomiryo", "w_deungjanghada"
+    ],
+    "sentenceIds": [
+      "s_m97_survey_brand_price", "s_m97_supply_forecast", "s_m97_income_consumption", "s_m97_labor_hours",
+      "s_m97_budget_construction", "s_m97_growth_farmers", "s_m97_prices_salary", "s_m97_seasoning_debut"
+    ]
   }
 ]

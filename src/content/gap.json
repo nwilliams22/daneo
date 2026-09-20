@@ -2644,5 +2644,32 @@
     "lit": "to tilt one's ear",
     "real": "to lend an ear, to listen closely — what a good counsellor does, what a minister promises, what a parent asks a teenager for",
     "note": "This module's 기울이다 on M14's 귀: to tip the ear toward the speaker — the body's picture of attention, the same lean English keeps in lend an ear and Korean makes literal. It is the essay's and the podium's phrase: 국민의 목소리에 귀를 기울이다 (M32's 국민, M19's 목소리) = listen to the voice of the people, the promise on every campaign poster; 아이의 말에 귀를 기울여 주세요 (M4's 아이, M4's 말, the favour machine of M9) = please really listen to your child, the parenting column's. Sort: M2's 듣다 hears — sound arrives; 귀를 기울이다 is the act of arranging yourself so that it does. Its twin on the same verb, 관심을 기울이다 (M24's 관심), tips the mind instead of the ear; and 노력을 기울이다 (M39's 노력) tips the whole self. One verb, three things leaned into a cause."
+  },
+  {
+    "id": "g_m97_suyowa_gonggeup",
+    "cat": "structure",
+    "ko": "수요와 공급",
+    "rom": "suyowa gonggeup",
+    "lit": "demand and supply",
+    "real": "supply and demand — the economy page's first law, in Korean word order: demand first, supply second, and the price where they meet",
+    "note": "Today's 수요 and 공급 joined by the written 와 from M30 — M30's 와 note called it \"the written and\" — and the order is fixed: Korean says demand-and-supply, English says supply-and-demand, and neither will swap. 수요와 공급의 법칙 (M39's 법 with the 칙 of M39's 규칙 — 법칙, the law, riding frozen) = the law of supply and demand, the first sentence of every 경제 (M32) textbook; 수요와 공급이 맞다 (M15's 맞다) = supply meets demand; 공급이 수요를 따라가지 못하다 (M66's 따라가다, M3's 못) = supply cannot keep up — the phrase under every housing headline. The pair is the shelf's whole thesis: two Sino nouns, one particle, and a price that M21's 가격 and today's 물가 both report on."
+  },
+  {
+    "id": "g_m97_mulgaga_ollasseoyo",
+    "cat": "phrase",
+    "ko": "물가가 너무 올랐어요",
+    "rom": "mulgaga neomu ollasseoyo",
+    "lit": "the price level has climbed too much",
+    "real": "everything's gotten so expensive — the national grumble, said at the checkout, at the market, and at the start of every conversation about money",
+    "note": "Today's 물가 on the bare 가, M11's 너무, and M22's 오르다 in the past — the verb whose note listed \"Mountains, stairs, and prices — all things that 오르다\". The economy page writes it as 물가 상승 (상승 — a rise, riding frozen) and the mouth says this; both mean the same 라면 (M3) costs more than it did. Its answers are a shelf of their own: 월급은 안 오르는데 (M16's 월급, -는데 from M53) = but salaries don't; 장보기가 무서워요 (장을 보다 — to shop for groceries, riding frozen; M24's 무섭다) = I'm scared to go shopping; and the reckoning this module's sentence deck runs, 월급이 줄어든 셈이에요. Radar: 물가가 비싸요 (M7's 비싸다) is what a visitor says about a city; 물가가 올랐어요 is what a resident says about this year."
+  },
+  {
+    "id": "g_m97_daegieop_jungsogieop",
+    "cat": "concept",
+    "ko": "대기업 vs 중소기업",
+    "rom": "daegieop vs jungsogieop",
+    "lit": "big enterprise versus middle-small enterprise",
+    "real": "the two-tier job market — the chaebol and everyone else: the same job title, a different salary, a different pension, a different answer to 어디 다녀요?",
+    "note": "M64's 대기업 — that note read it as \"大 (big) + 企 (stand up to) + 業 (business)\" — against today's 중소기업, the pair M90's 기업 note called \"the other half of every economic headline\". The sort is not size but a class line: a 대기업 (삼성, 현대 — the 재벌, riding frozen) pays more, promotes slower, and answers 어디 다녀요? (M16's 다니다) with a name everyone knows; a 중소기업 employs most of the country and answers with a shrug. The gap between the two 월급 (M16) is the number the economy page prints every spring, and 취직 (M43) at a 대기업 is the reason for the 스펙 (the résumé's specs, riding frozen) that the exam shelf of M44 was built around. Radar: 중견기업 (a mid-sized firm, riding frozen) is the tier the ministry invented so that nobody has to be in the middle."
   }
 ]
