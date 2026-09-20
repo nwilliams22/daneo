@@ -2424,5 +2424,27 @@
       "s_m102_leaves_almost_fell", "s_m102_fog_accidents_died", "s_m102_wont_bend_will", "s_m102_texting_friend_cut_contact",
       "s_m102_govt_disclose_correct", "s_m102_guess_responsibility_follows", "s_m102_village_paddies_flood", "s_m102_korean_opened_newspaper_roughly"
     ]
+  },
+  {
+    "id": "m103",
+    "title": "The Abstract Shelf III",
+    "order": 112,
+    "ring": 2,
+    "contentMd": "modules/module-103.md",
+    "wordIds": [
+      "w_jeongmyeon", "w_jungban", "w_jikjeon", "w_choejong",
+      "w_daeryuk", "w_jungbu", "w_yangguk", "w_dongpo",
+      "w_deungjang", "w_silche", "w_jeogyong", "w_biyul",
+      "w_byeondong", "w_chuga", "w_jichul", "w_hwakbo",
+      "w_jeyak", "w_muri", "w_geukhi", "w_gunggeukjeok",
+      "w_bulgapihada", "w_jajonsim", "w_aejeong", "w_jeongseong",
+      "w_jageuk", "w_hangui", "w_deok", "w_hyang",
+      "w_soeum", "w_saengmul", "w_geunwon", "w_siltae",
+      "w_haedang", "w_daesinhada"
+    ],
+    "sentenceIds": [
+      "s_m103_noise_protest", "s_m103_pride_words", "s_m103_midthirties_spending", "s_m103_final_ratio",
+      "s_m103_extra_seats", "s_m103_spicy_overdo", "s_m103_survey_root", "s_m103_small_fluctuation"
+    ]
   }
 ]
