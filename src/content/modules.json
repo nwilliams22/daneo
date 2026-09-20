@@ -2379,5 +2379,27 @@
       "s_m100_pm_statement_warning", "s_m100_culprit_no_trace", "s_m100_socalled_experts_pr", "s_m100_election_support_capital",
       "s_m100_rage_pm_changed", "s_m100_democracy_law_punish", "s_m100_dispute_blame", "s_m100_capital_population_whereas"
     ]
+  },
+  {
+    "id": "m101",
+    "title": "The Trade and the Tool",
+    "order": 110,
+    "ring": 2,
+    "contentMd": "modules/module-101.md",
+    "wordIds": [
+      "w_sopeuteuweeo", "w_siseutem", "w_kodeu", "w_tekseuteu",
+      "w_seokeul", "w_charyang", "w_unjeonsa", "w_seonjang",
+      "w_baetsaram", "w_ilhaeng", "w_yeoin", "w_cheonyeo",
+      "w_suseok", "w_pumjil", "w_pummok", "w_eopjong",
+      "w_jangbi", "w_gihoek", "w_geomto", "w_daechul",
+      "w_aeksu", "w_saengsannyeok", "w_gukjehwa", "w_yeonhap",
+      "w_yeonchul", "w_gojeon", "w_uihak", "w_changjo",
+      "w_gibeop", "w_japan", "w_noe", "w_geunyuk",
+      "w_ingyeok", "w_bonseong"
+    ],
+    "sentenceIds": [
+      "s_m101_cord_pulled", "s_m101_review_production", "s_m101_software_features", "s_m101_senior_captain",
+      "s_m101_brain_muscle", "s_m101_loan_by_sector", "s_m101_party_vehicles", "s_m101_nature_whereas"
+    ]
   }
 ]
