@@ -21846,5 +21846,209 @@
     "rom": "i beobeun gaeinui soyureul injeonghamyeo bulbeop haengwireul geumjihaeyo",
     "wordIds": ["w_i_det", "w_beop", "w_gaein", "w_soyu", "w_injeonghada", "w_bulbeop", "w_haengwi", "w_geumjihada"],
     "note": "-(으)며 from M85, the written and: 인정하며 = recognizes, and — M93's 인정하다 joined to the second clause by the -(으)며 that M85 md called \"the written and/while\", the connector a statute uses where the mouth would say -고 from M10. On either side of it, the law drawer in its natural phrases: 개인의 소유 (M57's 개인 in the possessive on today's 소유 — private ownership) and 불법 행위 (today's 불법 fronting today's 행위 — an unlawful act), with M39's 법 as the subject and M53's 금지하다 closing. Read it aloud and it sounds like the first article of something; that register is exactly what -(으)며 is for."
+  },
+  {
+    "id": "s_m99_pollution_summer",
+    "en": [
+      { "t": "Owing to environmental pollution,", "role": "other", "id": "a" },
+      { "t": "this summer", "role": "subject", "id": "s" },
+      { "t": "was", "role": "verb", "id": "v" },
+      { "t": "even hotter", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "environment pollution-by owing-to", "role": "other", "id": "a" },
+      { "t": "this-year summer-[topic]", "role": "subject", "id": "s" },
+      { "t": "more", "role": "other", "id": "d" },
+      { "t": "hot-was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "환경 오염으로 인해", "role": "other", "id": "a" },
+      { "t": "올 여름은", "role": "subject", "id": "s" },
+      { "t": "더", "role": "other", "id": "d" },
+      { "t": "더웠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hwangyeong oyeomeuro inhae ol yeoreumeun deo deowosseoyo",
+    "wordIds": ["w_hwangyeong", "w_oyeom", "w_inhada", "w_ol_thisyear", "w_yeoreum", "w_deo", "w_deopda"],
+    "note": "Recycles -(으)로 인해 from M86 — that md's register line, \"눈 때문에 is what you say, 폭설로 인해 is what the sign says\" — and this is the sign: 환경 오염으로 인해 = owing to environmental pollution, M32's 환경 on today's 오염, then M86's 인하다 in the one shape it ever takes. Then today's 올 dismounted from M25's 올해 and set before M11's 여름: 올 여름은 = this summer, a topic-marked subject; M9's 더 and M11's 덥다 in the past close it. The mouth would say 오염 때문에 올여름 더 더웠어 — the same claim, and the 인해 is what makes it a headline. Two slice words, one cause-frame, and the sentence every August now prints."
+  },
+  {
+    "id": "s_m99_gymnastics_pain",
+    "en": [
+      { "t": "I practised", "role": "other", "id": "a" },
+      { "t": "the gymnastics moves", "role": "object", "id": "o" },
+      { "t": "every day,", "role": "other", "id": "t" },
+      { "t": "and the pain", "role": "subject", "id": "s" },
+      { "t": "went away", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "gymnastics movement-[obj]", "role": "object", "id": "o" },
+      { "t": "every-day", "role": "other", "id": "t" },
+      { "t": "practised-and-found", "role": "other", "id": "a" },
+      { "t": "pain-[subj]", "role": "subject", "id": "s" },
+      { "t": "disappeared", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "체조 동작을", "role": "object", "id": "o" },
+      { "t": "매일", "role": "other", "id": "t" },
+      { "t": "연습했더니", "role": "other", "id": "a" },
+      { "t": "통증이", "role": "subject", "id": "s" },
+      { "t": "사라졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chejo dongjageul maeil yeonseuphaetdeoni tongjeungi sarajyeosseoyo",
+    "wordIds": ["w_chejo", "w_dongjak", "w_maeil", "w_yeonseuphada", "w_tongjeung", "w_sarajida"],
+    "note": "Recycles -았/었더니 from M88 — that md's rule for the first-person twin, \"The speaker acts; the world answers; -았/었더니 reports the answer.\" — with M10's 연습하다 as the act and today's 통증 as the answer. Three slice words in a row: 체조 동작 = the gymnastics moves, two Sino nouns stacked with no particle, the lab-and-gym compound the physiotherapist writes on the sheet; 통증이 사라졌어요 (M35's 사라지다) = the pain vanished — the chart's verb for the chart's noun. M5's 매일 gives the routine its count. Sort the ending: 연습해서 (-아서, a reason) would explain; 연습했더니 reports what I found after — and the patient, not the doctor, is the witness."
+  },
+  {
+    "id": "s_m99_experiment_chemistry",
+    "en": [
+      { "t": "The more you try", "role": "other", "id": "a" },
+      { "t": "running experiments", "role": "object", "id": "o" },
+      { "t": "yourself,", "role": "other", "id": "d" },
+      { "t": "the more chemistry", "role": "subject", "id": "s" },
+      { "t": "gets interesting", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "directly", "role": "other", "id": "d" },
+      { "t": "experiment-[obj]", "role": "object", "id": "o" },
+      { "t": "do-try-the-more", "role": "other", "id": "a" },
+      { "t": "chemistry-[subj]", "role": "subject", "id": "s" },
+      { "t": "interesting-becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "직접", "role": "other", "id": "d" },
+      { "t": "실험을", "role": "object", "id": "o" },
+      { "t": "해 볼수록", "role": "other", "id": "a" },
+      { "t": "화학이", "role": "subject", "id": "s" },
+      { "t": "재미있어져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jikjeop silheomeul hae bolsurok hwahagi jaemiisseojyeoyo",
+    "wordIds": ["w_jikjeop", "w_silheom", "w_hada", "w_boda", "w_hwahak", "w_jaemiitda"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — that md: \"The clause it closes is the dial; the main clause is what the dial moves\" — with the try-machine -아/어 보다 from M16 turning the dial: 실험을 해 볼수록 = the more you try doing experiments, M1's 하다 in its -아/어 coat under 보다, then the prospective badge and 수록. Today's 실험 is the object; today's 화학 is what moves, in M7's 재미있다 through -아/어지다 from M35 — gets interesting, a slope not a state. M56's 직접 (that note: \"in person, firsthand\") is why: chemistry read from a page and chemistry done with your own hands are the two ends of the dial. The school-science-fair sentence, and the reason 체험 학습 exists."
+  },
+  {
+    "id": "s_m99_objectively_won",
+    "en": [
+      { "t": "Objectively", "role": "other", "id": "d" },
+      { "t": "speaking,", "role": "other", "id": "a" },
+      { "t": "our team", "role": "subject", "id": "s" },
+      { "t": "has effectively won", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "objective-ly", "role": "other", "id": "d" },
+      { "t": "look-if", "role": "other", "id": "a" },
+      { "t": "our group-[subj]", "role": "subject", "id": "s" },
+      { "t": "won-[badge] count-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "객관적으로", "role": "other", "id": "d" },
+      { "t": "보면", "role": "other", "id": "a" },
+      { "t": "우리 조가", "role": "subject", "id": "s" },
+      { "t": "이긴 셈이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gaekgwanjeogeuro bomyeon uri joga igin semieyo",
+    "wordIds": ["w_gaekgwanjeok", "w_boda", "w_uri", "w_jo_article", "w_igida", "w_sem"],
+    "note": "Recycles -(으)ㄴ/는 셈이다 from M87 — that md's own example ran 결국 이긴 셈이에요 (\"we effectively won\") and drew the line, \"셈 counts what has happened; 마련 says what was always going to.\" — so 이긴 셈이에요 = amounts to having won: M17's 이기다 in the past badge -(으)ㄴ from M24, then M87's 셈 with the copula. Two slice words carry it: 객관적으로 (today's 객관적 through the -적으로 adverb the M45 md built) = objectively, and 우리 조 = our group — the team-組 row, M4's 우리 in front, the class project's sentence. 보면 is M1's 보다 in -(으)면 from M20: if you look — objectively speaking. The reckoning is the point: nobody has handed out a trophy, but the count says we won."
+  },
+  {
+    "id": "s_m99_rite_old_dress",
+    "en": [
+      { "t": "Grandfather", "role": "subject", "id": "s" },
+      { "t": "held", "role": "verb", "id": "v" },
+      { "t": "the memorial rite", "role": "object", "id": "p" },
+      { "t": "still wearing", "role": "other", "id": "a" },
+      { "t": "the old-style clothes", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "grandfather-[topic]", "role": "subject", "id": "s" },
+      { "t": "old clothing-[obj]", "role": "object", "id": "o" },
+      { "t": "wear-[badge] in-state-of", "role": "other", "id": "a" },
+      { "t": "rite-[obj]", "role": "object", "id": "p" },
+      { "t": "held-[hon]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "할아버지는", "role": "subject", "id": "s" },
+      { "t": "옛 의복을", "role": "object", "id": "o" },
+      { "t": "입은 채", "role": "other", "id": "a" },
+      { "t": "제사를", "role": "object", "id": "p" },
+      { "t": "지내셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "harabeojineun yet uibogeul ibeun chae jesareul jinaesyeosseoyo",
+    "wordIds": ["w_harabeoji", "w_yet", "w_uibok", "w_ipda", "w_chae", "w_jesa", "w_jinaeda"],
+    "note": "Recycles -(으)ㄴ 채 from M94 — that md: \"Always the PAST badge, because the state was already made when the main clause began\" — and the state here is the dress: 옛 의복을 입은 채 = with the old clothes still on, M46's 옛 on today's 의복, M8's 입다 in the badge, then M94's 채. Today's 제사 takes M23's 지내다, the verb M46's 차례 note put on ritual duty, and M4's 할아버지 earns the honorific -(으)시- from M4 inside 지내셨어요. The md also said \"채 carries a faint shrug\" — and here the shrug is a grandchild's: he would not change out of the 한복 (M21) even for the night rite, or perhaps especially not. Two of the old house's words in one sentence, and the other three are watching from the shelf."
+  },
+  {
+    "id": "s_m99_child_spirit_hid",
+    "en": [
+      { "t": "For fear the child would lose heart,", "role": "other", "id": "a" },
+      { "t": "I hid", "role": "verb", "id": "v" },
+      { "t": "my honest feelings", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "child-[subj] spirit-[subj] die-might for-fear", "role": "other", "id": "a" },
+      { "t": "honest feeling-[topic]", "role": "object", "id": "o" },
+      { "t": "hid", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아이가 기가 죽을까 봐", "role": "other", "id": "a" },
+      { "t": "솔직한 심정은", "role": "object", "id": "o" },
+      { "t": "감췄어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "aiga giga jugeulkka bwa soljikhan simjeongeun gamchwosseoyo",
+    "wordIds": ["w_ai", "w_gi_energy", "w_jukda", "w_soljikhada", "w_simjeong", "w_gamchuda"],
+    "note": "Recycles -(으)ㄹ까 봐 from M93 — that md's sort, \"only the second one explains why you brought the umbrella\" — and the umbrella here is silence: 기가 죽을까 봐 = for fear their spirit would die, today's 기 (氣) with M14's 죽다 in the worry clause. 기가 죽다 is the frame the word note filed — to be cowed, deflated — and the whole clause belongs to M4's 아이, its subject, which is why it rides as one chunk: the child fears nothing; the speaker fears FOR the child. Then 솔직한 심정은 (M24's 솔직하다 in the badge, today's 심정) with a contrastive 은 — my honest feelings, THOSE I hid — an object still, as the 거친 말은 of M95's 거칠다 was; and M94's 감추다 closes, the verb that hides things on purpose. The parent's sentence, and the coach's."
+  },
+  {
+    "id": "s_m99_nutrition_taste",
+    "en": [
+      { "t": "This dish", "role": "subject", "id": "s" },
+      { "t": "is full of nutrients", "role": "subject", "id": "n" },
+      { "t": "— on the other hand,", "role": "other", "id": "a" },
+      { "t": "the taste", "role": "subject", "id": "m" },
+      { "t": "is a bit unusual", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this food-[topic]", "role": "subject", "id": "s" },
+      { "t": "nutrition-[subj]", "role": "subject", "id": "n" },
+      { "t": "abundant-[badge] whereas", "role": "other", "id": "a" },
+      { "t": "taste-[topic]", "role": "subject", "id": "m" },
+      { "t": "a-bit unique", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 음식은", "role": "subject", "id": "s" },
+      { "t": "영양이", "role": "subject", "id": "n" },
+      { "t": "풍부한 반면에", "role": "other", "id": "a" },
+      { "t": "맛은", "role": "subject", "id": "m" },
+      { "t": "좀 독특해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i eumsigeun yeongyangi pungbuhan banmyeone maseun jom dokteukhaeyo",
+    "wordIds": ["w_i_det", "w_eumsik", "w_yeongyang", "w_pungbuhada", "w_banmyeon", "w_mat", "w_dokteukhada"],
+    "note": "Recycles 반면에 from M95 — that md: \"반면에 BALANCES two facts on a scale and leans on neither\" — and the two pans here are today's 영양 and M18's 맛. 영양이 풍부한 (M89's 풍부하다 in the badge -(으)ㄴ from M24) = rich in nutrients, the label's boast; 맛은 좀 독특해요 = the taste is a bit unusual — today's 독특하다, softened by 좀 (M9's 조금 clipped, the gap-deck softener), which is the review's polite way of saying strange. The double subject is the 한식은 반찬이 많아요 shape from M24: 이 음식은 (M29's 이 on M1's 음식) is the topic, 영양이 the nested subject, and 맛은 the second pan with its own 은. The health-food shop's honest sentence — and the one every 청국장 (frozen) has heard."
+  },
+  {
+    "id": "s_m99_regulation_case",
+    "en": [
+      { "t": "Under the new regulations,", "role": "other", "id": "a" },
+      { "t": "the current government", "role": "subject", "id": "s" },
+      { "t": "is investigating", "role": "verb", "id": "v" },
+      { "t": "this case", "role": "object", "id": "o" },
+      { "t": "in earnest", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "new regulation-at according-to", "role": "other", "id": "a" },
+      { "t": "current government-[topic]", "role": "subject", "id": "s" },
+      { "t": "this case-[obj]", "role": "object", "id": "o" },
+      { "t": "full-scale-ly", "role": "other", "id": "d" },
+      { "t": "investigate-ing", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새 규정에 따라", "role": "other", "id": "a" },
+      { "t": "현 정부는", "role": "subject", "id": "s" },
+      { "t": "이 건을", "role": "object", "id": "o" },
+      { "t": "본격적으로", "role": "other", "id": "d" },
+      { "t": "조사하고 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sae gyujeonge ttara hyeon jeongbuneun i geoneul bongyeokjeogeuro josahago isseoyo",
+    "wordIds": ["w_sae", "w_gyujeong", "w_ttareuda", "w_hyeon_current", "w_jeongbu", "w_i_det", "w_geon_case", "w_bongyeokjeok", "w_josahada", "w_itda"],
+    "note": "Recycles 에 따라 from M90 — that md's list ran \"규정에 따라 by the regulation\" and noted \"the 서 drops in print\" — so 새 규정에 따라 (M13's 새 on M90's 규정, M32's 따르다 in the frame) = under the new regulations, and no 서, because this is print. Three slice words follow in the newsroom's register: 현 정부 (today's 현 on M32's 정부) = the current government, 이 건 (M29's 이 on today's 건) = this case, the matter on file, and 본격적으로 = in earnest, the adverb every second week gets. M56's 조사하다 in the -고 있어요 progressive from M8 closes. Every noun here is a headline noun; the only thing the mouth would change is 건 to 일."
   }
 ]

@@ -2335,5 +2335,27 @@
       "s_m98_no_evidence_no_detention", "s_m98_positions_plan_changed", "s_m98_detective_finds_weapon", "s_m98_principal_posture",
       "s_m98_unit_training_attack", "s_m98_fear_attack_training", "s_m98_wrongdoing_bound_out", "s_m98_law_ownership_acts"
     ]
+  },
+  {
+    "id": "m99",
+    "title": "One Syllable, Many Rows",
+    "order": 108,
+    "ring": 2,
+    "contentMd": "modules/module-99.md",
+    "wordIds": [
+      "w_myeon_side", "w_seon_line", "w_gol_goal", "w_kkol",
+      "w_gi_energy", "w_pyeong_unit", "w_geon_case", "w_jo_article",
+      "w_hyeon_current", "w_dong_same", "w_ol_thisyear", "w_mo_certain",
+      "w_ieo", "w_teukseong", "w_gaeseong", "w_dokteukhada",
+      "w_bongyeokjeok", "w_hyogwajeok", "w_sangdaejeok", "w_jikjeopjeok",
+      "w_gaekgwanjeok", "w_cheheom", "w_silheom", "w_hwahak",
+      "w_oyeom", "w_chejo", "w_dongjak", "w_buwi",
+      "w_tongjeung", "w_yeongyang", "w_jesa", "w_jihye",
+      "w_uibok", "w_gongpo", "w_simjeong"
+    ],
+    "sentenceIds": [
+      "s_m99_pollution_summer", "s_m99_gymnastics_pain", "s_m99_experiment_chemistry", "s_m99_objectively_won",
+      "s_m99_rite_old_dress", "s_m99_child_spirit_hid", "s_m99_nutrition_taste", "s_m99_regulation_case"
+    ]
   }
 ]
