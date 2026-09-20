@@ -2468,5 +2468,27 @@
       "s_m104_mother_bapsang", "s_m104_news_face_hardened", "s_m104_waves_ceiling", "s_m104_shop_ruined_hungry",
       "s_m104_laundry_indoors", "s_m104_room_bedding", "s_m104_company_quality", "s_m104_old_stories_buried"
     ]
+  },
+  {
+    "id": "m105",
+    "title": "The Office, and the Adverbs of the Page",
+    "order": 114,
+    "ring": 2,
+    "contentMd": "modules/module-105.md",
+    "wordIds": [
+      "w_micheo", "w_eolpit", "w_wen", "w_muryeo",
+      "w_julgot", "w_mareopsi", "w_iljjigi", "w_hagin",
+      "w_gojak", "w_geutorok", "w_gakgi", "w_choedaehan",
+      "w_seolchi", "w_seolchidoeda", "w_balpyodoeda", "w_hwagindoeda",
+      "w_seongnipdoeda", "w_jipjungdoeda", "w_haegyeoldoeda", "w_saengsandoeda",
+      "w_wongo", "w_munseo", "w_gyejwa", "w_maejang",
+      "w_myeongching", "w_sangeop", "w_silseup", "w_jayul",
+      "w_hyangsang", "w_hyusik", "w_jindan", "w_jilbyeong",
+      "w_cheryeok", "w_inche", "w_daehapsil"
+    ],
+    "sentenceIds": [
+      "s_m105_manuscript_announced", "s_m105_illness_stamina", "s_m105_wanted_resolved", "s_m105_waiting_room_thousand",
+      "s_m105_diagnosis_rest", "s_m105_bank_account_number", "s_m105_manuscript_three_sentences", "s_m105_store_camera"
+    ]
   }
 ]
