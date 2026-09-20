@@ -2490,5 +2490,26 @@
       "s_m105_manuscript_announced", "s_m105_illness_stamina", "s_m105_wanted_resolved", "s_m105_waiting_room_thousand",
       "s_m105_diagnosis_rest", "s_m105_bank_account_number", "s_m105_manuscript_three_sentences", "s_m105_store_camera"
     ]
+  },
+  {
+    "id": "m106",
+    "title": "Persons, Places and the -적 Shelf II",
+    "order": 115,
+    "ring": 2,
+    "contentMd": "modules/module-106.md",
+    "wordIds": [
+      "w_in", "w_soyuja", "w_pihaeja", "w_hakbumo",
+      "w_wonjang", "w_nongbu", "w_manura", "w_donghaeng",
+      "w_chowon", "w_gangnam", "w_bukbu", "w_hangaunde",
+      "w_giwonjeon", "w_malgi", "w_idal", "w_aecho",
+      "w_gaeguk", "w_changjojeok", "w_jeoldaejeok", "w_hamnijeok",
+      "w_pilsujeok", "w_jeonbanjeok", "w_bujeongjeok", "w_sahoejuui",
+      "w_jeunggwonsa", "w_hwangyeongoyeom", "w_jayeonhwangyeong", "w_gachigwan",
+      "w_hakbeon", "w_hagyongpum", "w_hogisim", "w_deungdeung"
+    ],
+    "sentenceIds": [
+      "s_m106_victims_negative", "s_m106_owner_not_absolute", "s_m106_creative_curious", "s_m106_environment_worse",
+      "s_m106_steppe_herders", "s_m106_gangnam_brokerage", "s_m106_director_parents_meeting", "s_m106_supplies_again"
+    ]
   }
 ]
