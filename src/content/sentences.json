@@ -23250,5 +23250,200 @@
     "rom": "geu maejangedo got kameraga seolchidoelgeoryo",
     "wordIds": ["w_geu_det", "w_maejang", "w_got", "w_kamera", "w_seolchidoeda"],
     "note": "Recycles -(으)ㄹ걸요 from M93 — \"the guess with a shrug in it\", the spoken end of the whole guess-family, and that md's radar decides everything about how you say it: \"Rising and to someone, a guess; falling and to yourself, a sigh.\" Today's 매장 takes 에도 (M29's 그 in front, the 도 from M2 behind) and today's 설치되다 takes the guess: 설치될걸요 — somebody will put a camera in, and the speaker neither knows nor needs to know who. M91's 설치하다 with a subject would have named the installer. The roles drill: 그 매장에도 is place, M10's 곧 is other, 카메라가 is subject, 설치될걸요 is verb."
+  },
+  {
+    "id": "s_m106_victims_negative",
+    "en": [
+      { "t": "Victims' reactions,", "role": "subject", "id": "s" },
+      { "t": "on the whole,", "role": "other", "id": "d" },
+      { "t": "are bound to be negative", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "victim-plural-'s reaction-[topic]", "role": "subject", "id": "s" },
+      { "t": "overall-ly", "role": "other", "id": "d" },
+      { "t": "negative-be bound-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "피해자들의 반응은", "role": "subject", "id": "s" },
+      { "t": "전반적으로", "role": "other", "id": "d" },
+      { "t": "부정적이기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pihaejadeurui baneungeun jeonbanjeogeuro bujeongjeogigi maryeonieyo",
+    "wordIds": ["w_pihaeja", "w_baneung", "w_jeonbanjeok", "w_bujeongjeok", "w_maryeon"],
+    "note": "Recycles -기 마련이다 from M87 — that md drew the line between its two reckonings, \"셈 counts what has happened; 마련 says what was always going to\", and this is the second: the -기 nominalizer from M13 on today's 부정적 plus M87's 마련, and the world has already arranged it. Three slice words in a row: 피해자들 (M27's 들 on today's 피해자), 전반적으로 — the -적으로 adverb the M45 factory built, and the shape this word spends most of its life in — and 부정적, landed at last from M45's 긍정적. M86's 반응 is what gets measured. The sentence is the press officer's shrug: of course the reaction was negative; whose wouldn't be."
+  },
+  {
+    "id": "s_m106_owner_not_absolute",
+    "en": [
+      { "t": "Even if you are the building's owner,", "role": "other", "id": "a" },
+      { "t": "you do not have", "role": "verb", "id": "v" },
+      { "t": "absolute rights", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "building-'s owner-even-if", "role": "other", "id": "a" },
+      { "t": "absolute-[badge] right-[topic]", "role": "subject", "id": "s" },
+      { "t": "not-exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "건물의 소유자이더라도", "role": "other", "id": "a" },
+      { "t": "절대적인 권리는", "role": "subject", "id": "s" },
+      { "t": "없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geonmurui soyujaideorado jeoldaejeogin gwollineun eopseoyo",
+    "wordIds": ["w_geonmul", "w_soyuja", "w_jeoldaejeok", "w_gwolli", "w_eopda"],
+    "note": "Recycles -더라도 from M95 — that md's own note on where it attaches, \"goes straight on the stem (오더라도, 어렵더라도, 학생이더라도)\", and 소유자이더라도 is the 학생이더라도 shape with today's noun in it; the mouth clips the copula to 소유자라도. Two slice words carry the claim: 소유자 (M98's 소유 on the person-者) and 절대적 in the badge from M24 — 절대적인 권리 = an absolute right, the phrase a property dispute turns on. M90's 권리 and M1's 없다 close it. Sort the concession: 소유자여도 would concede it lightly; -더라도 concedes it and then refuses anyway, which is what a court does."
+  },
+  {
+    "id": "s_m106_creative_curious",
+    "en": [
+      { "t": "The more creative the person,", "role": "other", "id": "a" },
+      { "t": "the more curiosity", "role": "subject", "id": "s" },
+      { "t": "they have", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "creative-[badge] person-the-more", "role": "other", "id": "a" },
+      { "t": "curiosity-[subj]", "role": "subject", "id": "s" },
+      { "t": "much-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "창조적인 사람일수록", "role": "other", "id": "a" },
+      { "t": "호기심이", "role": "subject", "id": "s" },
+      { "t": "많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "changjojeogin saramilsurok hogisimi manayo",
+    "wordIds": ["w_changjojeok", "w_saram", "w_hogisim", "w_manta"],
+    "note": "Recycles -(으)ㄹ수록 from M89 in the setting that md added last, \"On nouns through the copula: 학생일수록 = the more of a student one is\" — 사람일수록, a noun on the dial. Today's 창조적 wears the badge from M24 in front of it (창조적인 사람), and today's 호기심 rides the possession chassis with M7's 많다: 호기심이 많아요 = is a curious person, never has many curiosities. Two slice words and one claim that the -적 shelf could not have made a module ago: creativity measured against curiosity, both of them nouns Korean owns and English keeps as adjectives."
+  },
+  {
+    "id": "s_m106_environment_worse",
+    "en": [
+      { "t": "Far from the natural environment", "role": "subject", "id": "n" },
+      { "t": "getting better,", "role": "other", "id": "a" },
+      { "t": "pollution", "role": "subject", "id": "s" },
+      { "t": "has not even gone down", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "natural-environment-[subj]", "role": "subject", "id": "n" },
+      { "t": "good-become-far-from", "role": "other", "id": "a" },
+      { "t": "environmental-pollution-too", "role": "subject", "id": "s" },
+      { "t": "decrease-not-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "자연환경이", "role": "subject", "id": "n" },
+      { "t": "좋아지기는커녕", "role": "other", "id": "a" },
+      { "t": "환경오염도", "role": "subject", "id": "s" },
+      { "t": "줄어들지 않았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jayeonhwangyeongi joajigineunkeonyeong hwangyeongoyeomdo jureodeulji anasseoyo",
+    "wordIds": ["w_jayeonhwangyeong", "w_jota", "w_hwangyeongoyeom", "w_jureodeulda"],
+    "note": "Recycles -기는커녕 from M92 in the exact anatomy that md insisted on — \"[the expected, bigger thing]은/는커녕 [the lesser thing]도 + a negative\" — the bigger thing is the natural environment improving, the lesser is pollution merely dropping, and neither happened. Both slice words are compounds of halves you already owned: 자연환경 is M22's 자연 on M32's 환경, 환경오염 is that 환경 on M99's 오염. 좋아지기 is M1's 좋다 through -아/어지다 from M35 and the -기 nominalizer from M13; the close is M89's 줄어들다 under the long negation from M28. The step down is the point: 커녕 says the big thing did not happen and then reaches for the small one that did not either."
+  },
+  {
+    "id": "s_m106_steppe_herders",
+    "en": [
+      { "t": "From before the common era,", "role": "other", "id": "t" },
+      { "t": "the people who used to live", "role": "subject", "id": "s" },
+      { "t": "in the middle of the northern grassland", "role": "place", "id": "p" },
+      { "t": "raised", "role": "verb", "id": "v" },
+      { "t": "animals", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "BC-from", "role": "other", "id": "t" },
+      { "t": "north-part grassland dead-centre-at", "role": "place", "id": "p" },
+      { "t": "lived-[retro badge] person-plural-[topic]", "role": "subject", "id": "s" },
+      { "t": "animal-[obj]", "role": "object", "id": "o" },
+      { "t": "raised", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "기원전부터", "role": "other", "id": "t" },
+      { "t": "북부 초원 한가운데에서", "role": "place", "id": "p" },
+      { "t": "살던 사람들은", "role": "subject", "id": "s" },
+      { "t": "동물을", "role": "object", "id": "o" },
+      { "t": "키웠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "giwonjeonbuteo bukbu chowon hangaundeeseo saldeon saramdeureun dongmureul kiwosseoyo",
+    "wordIds": ["w_giwonjeon", "w_bukbu", "w_chowon", "w_hangaunde", "w_salda", "w_saram", "w_dongmul", "w_kiuda"],
+    "note": "Recycles -던 from M88, the retrospective badge, in its habitual reading — that md's own example was \"내가 살던 집 = the house I used to live in\", and 살던 사람들 is the same verb under the same badge, looking back at a way of living rather than at one finished act. Four slice words stack the place and the date: 기원전 (the museum caption's BC), 북부 (the compass on the section-部 M98's 남부 railed), 초원 (grass-plain — not M25's 초 and not M9's 원) and 한가운데 (M28's 가운데 with the intensifying 한- in front). M4's 살다, M1's 사람 with M27's 들, M22's 동물 and M35's 키우다 do the rest. Note what the badge buys: 산 사람들 would be the ones who lived and stopped; 살던 사람들 is a whole way of life, seen from outside it."
+  },
+  {
+    "id": "s_m106_gangnam_brokerage",
+    "en": [
+      { "t": "Since I had gone to Gangnam anyway,", "role": "other", "id": "a" },
+      { "t": "I asked", "role": "verb", "id": "v" },
+      { "t": "a friend who works at a securities firm", "role": "other", "id": "b" },
+      { "t": "about a sensible way to invest", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Gangnam-to went-[badge] occasion-on", "role": "other", "id": "a" },
+      { "t": "securities-firm-at attend-[badge] friend-to", "role": "other", "id": "b" },
+      { "t": "rational-[badge] investment method-[obj]", "role": "object", "id": "o" },
+      { "t": "asked-tried", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "강남에 간 김에", "role": "other", "id": "a" },
+      { "t": "증권사에 다니는 친구한테", "role": "other", "id": "b" },
+      { "t": "합리적인 투자 방법을", "role": "object", "id": "o" },
+      { "t": "물어봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gangname gan gime jeunggwonsae danineun chinguhante hamnijeogin tuja bangbeobeul mureobwasseoyo",
+    "wordIds": ["w_gangnam", "w_gada", "w_jeunggwonsa", "w_danida", "w_chingu", "w_hamnijeok", "w_tuja", "w_bangbeop", "w_mureoboda"],
+    "note": "Recycles -는 김에 from M91 on its past badge — that md set the split, \"The past badge -(으)ㄴ for an occasion already begun (온 김에 = while you're here), the present -는 for one under way\" — so 간 김에 = since the trip was happening anyway. Its radar still holds: the 김 here is the dependent noun, \"not M18's 김, the seaweed\". Three slice words ride the errand: 강남 (M22's 강 in its river-江 coat, south of it), 증권사 (M97's 증권 on the company-社), and 합리적 in the badge from M24 — 합리적인 투자 방법, the phrase every Korean bank ad ends on. M16's 다니다 is the verb for holding a job at a place; M95's 투자 and M32's 방법 are the question; M15's 물어보다 asks it."
+  },
+  {
+    "id": "s_m106_director_parents_meeting",
+    "en": [
+      { "t": "The academy's director", "role": "subject", "id": "s" },
+      { "t": "held", "role": "verb", "id": "v" },
+      { "t": "a meeting", "role": "object", "id": "o" },
+      { "t": "this month", "role": "other", "id": "t" },
+      { "t": "to talk about values", "role": "other", "id": "a" },
+      { "t": "with the parents", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "academy director-[hon]-[topic]", "role": "subject", "id": "s" },
+      { "t": "student-parent-plural-with", "role": "other", "id": "b" },
+      { "t": "values-about talk-in-order-to", "role": "other", "id": "a" },
+      { "t": "this-month-in", "role": "other", "id": "t" },
+      { "t": "meeting-[obj]", "role": "object", "id": "o" },
+      { "t": "opened", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "학원 원장님은", "role": "subject", "id": "s" },
+      { "t": "학부모들과", "role": "other", "id": "b" },
+      { "t": "가치관에 대해 이야기하고자", "role": "other", "id": "a" },
+      { "t": "이달에", "role": "other", "id": "t" },
+      { "t": "회의를", "role": "object", "id": "o" },
+      { "t": "열었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hagwon wonjangnimeun hakbumodeulgwa gachigwane daehae iyagihagoja idare hoeuireul yeoreosseoyo",
+    "wordIds": ["w_hagwon", "w_wonjang", "w_hakbumo", "w_gachigwan", "w_daehada", "w_iyagihada", "w_idal", "w_hoeui", "w_yeolda"],
+    "note": "Recycles -고자 from M90, the intention in a suit — that md: \"verb stem + 고자, no vowel/consonant fuss (하고자, 먹고자, 살고자)\", and its register line, \"Same machine as M50's, different paperwork\". A 학원 notice is exactly the paperwork it wants. Four slice words: 원장 (the 院 of M37's 유치원 under the chief-長), 학부모 (the school's word for parents, M78's 담임 note's frozen phrase landed), 가치관 (M87's 가치 on the see-觀), and 이달, the printed this-month that M16's 이번 달 says out loud. 에 대해 is M32's 대하다 in the only frame it ever takes; M10's 이야기하다, M10's 회의 and M13's 열다 close it. Read the register: a parent saying this aloud would use -(으)려고 from M50."
+  },
+  {
+    "id": "s_m106_supplies_again",
+    "en": [
+      { "t": "Since the kid", "role": "subject", "id": "s" },
+      { "t": "had lost all her school supplies,", "role": "other", "id": "a" },
+      { "t": "I bought her", "role": "verb", "id": "v" },
+      { "t": "pencils, notebooks and so on and so forth", "role": "object", "id": "o" },
+      { "t": "all over again", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "child-[subj]", "role": "subject", "id": "s" },
+      { "t": "school-supplies-[obj] all lost-seeing-that", "role": "other", "id": "a" },
+      { "t": "pencil, notebook etcetera-[obj]", "role": "object", "id": "o" },
+      { "t": "newly", "role": "other", "id": "d" },
+      { "t": "bought-gave", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아이가", "role": "subject", "id": "s" },
+      { "t": "학용품을 다 잃어버렸길래", "role": "other", "id": "a" },
+      { "t": "연필, 공책 등등을", "role": "object", "id": "o" },
+      { "t": "새로", "role": "other", "id": "d" },
+      { "t": "사 줬어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "aiga hagyongpumeul da ireobeoryeotgillae yeonpil gongchaek deungdeungeul saero sa jwosseoyo",
+    "wordIds": ["w_ai", "w_hagyongpum", "w_da", "w_ireobeorida", "w_yeonpil", "w_gongchaek", "w_deungdeung", "w_saero", "w_sada", "w_juda"],
+    "note": "Recycles -길래 from M93, the witnessed because — that md's rule of persons, \"the -길래 clause is NOT the speaker — it is the weather, the shop, the company, the other person — and the main clause IS: you watched, then you did\". The kid loses, the parent buys. Two slice words close the shelf: 학용품 (the study-用-品 stack, and M15's 연필 and 공책 are two of its members) and 등등, S2's 등 doubled and trailing off exactly as that note promised. M9's 다 totals the loss, M20's 잃어버리다 is the losing, M35's 새로 and M2's 사다 with M9's 주다 replace it. Say it with 등 instead of 등등 and the sentence turns into a receipt."
   }
 ]
