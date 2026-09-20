@@ -6,6 +6,10 @@ title theme, glue point(s) or organizing machines, and the exact word slice.
 Band 6 packs (m55+) are frequency-sliced with root-flavored grouping and are
 GARNISH-FREE: zero beyond-list words — if a note needs an untaught word, it
 rides frozen and glossed.
+Band 7 (m85+, Ring 3 — the Grade-C list) keeps the Band 6 pack contract AND
+adds 3–5 glue parts per module (the Band 4 shape); the module brief gives
+the md shape, which overrides the default shape below for Band 7 only.
+Ring 3 ledger rows go in reference/ring3-slices.tsv (band 7/8).
 
 **You must NOT edit any repo files.** All output goes to NEW files in
 `/tmp/claude-1000/-mnt-t7-Projects-daneo/e4383fb0-440d-443b-9786-0468844e3b69/scratchpad/`.
@@ -48,6 +52,7 @@ Do not commit anything.
   께서 = M47 · 만큼 = M47 · -기로 하다 = M48 · -겠- full nuances = M49 ·
   -(으)려고 (하다) = M50 · -죠 = M51 · -아/어 버리다 = M52 ·
   -는데/-(으)ㄴ데 = M53 · 대로 = M54 · -게 adverbializer = M33 ·
+  -(으)ㄹ게요/-기 때문에/-(으)ㄹ 수도 있다/-(으)려면 = M84 ·
   -자마자/-(으)면서/-는 동안 = M38 · -아/어지다/-게 되다 = M35.
 - **EN chunk order is natural English.** The `en` array reads as an English
   sentence top to bottom; only the chunk `id`s map it to the Korean chunks.
