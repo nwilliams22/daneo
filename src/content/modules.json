@@ -2140,5 +2140,27 @@
       "s_m89_city_scale", "s_m89_typhoon_damage", "s_m89_doctor_experience", "s_m89_strict_rules",
       "s_m89_last_bus", "s_m89_balance_health", "s_m89_customers_grew", "s_m89_inspection"
     ]
+  },
+  {
+    "id": "m90",
+    "title": "State and Society",
+    "order": 99,
+    "ring": 2,
+    "contentMd": "modules/module-90.md",
+    "wordIds": [
+      "w_gieop", "w_gukhoe", "w_jeongdang", "w_beobwon",
+      "w_gigwan", "w_gigu", "w_jojik", "w_jipdan",
+      "w_mingan", "w_uiwon", "w_janggwan", "w_hubo",
+      "w_wiwon", "w_wiwonjang", "w_jumin", "w_baekseong",
+      "w_damdang", "w_beomnyul", "w_pangyeol", "w_jaepan",
+      "w_gyujeong", "w_gwolli", "w_tongje", "w_joe",
+      "w_beomjoe", "w_pongnyeok", "w_seongeo", "w_siwi",
+      "w_yeoron", "w_gongsik", "w_myeongye", "w_uido",
+      "w_minjujuui", "w_minjuhwa", "w_jibaehada"
+    ],
+    "sentenceIds": [
+      "s_m90_solve_statute", "s_m90_minister_announce", "s_m90_lawmaker_trial", "s_m90_poll_oppose",
+      "s_m90_court_decided", "s_m90_no_violence", "s_m90_investigation_innocent", "s_m90_effort_democratization"
+    ]
   }
 ]

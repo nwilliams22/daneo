@@ -20121,5 +20121,194 @@
     "rom": "daehyeong sagoreul makgi wihaeseo jeongbuneun daegyumo geomsareul cheoljeohage haesseoyo",
     "wordIds": ["w_daehyeong", "w_sago", "w_makda_block", "w_jeongbu", "w_daegyumo", "w_geomsa", "w_cheoljeohada"],
     "note": "The two big-大 words in one line, sorted by what they size: 대형 사고 (M36's 사고) is a major accident — one THING, large; 대규모 검사 (M44's 검사) is a large-scale inspection — an UNDERTAKING, wide. 철저하다 closes it through the -게 adverbializer from M33 (철저하게 했어요 = did it thoroughly), which is how this shelf's adjectives usually reach a verb. The purpose rides -기 위해서 from M44 on M36's 막다 (to block, to prevent), M32's 정부 is the topic, and the whole thing reads like the second paragraph of a safety notice — which is where every word in it lives."
+  },
+  {
+    "id": "s_m90_solve_statute",
+    "en": [
+      { "t": "The government", "role": "subject", "id": "s" },
+      { "t": "made", "role": "verb", "id": "v" },
+      { "t": "a new statute", "role": "object", "id": "o" },
+      { "t": "in order to solve this problem", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "government-[topic]", "role": "subject", "id": "s" },
+      { "t": "this problem-[obj] solve-in-order-to", "role": "other", "id": "a" },
+      { "t": "new statute-[obj]", "role": "object", "id": "o" },
+      { "t": "made", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "정부는", "role": "subject", "id": "s" },
+      { "t": "이 문제를 해결하고자", "role": "other", "id": "a" },
+      { "t": "새로운 법률을", "role": "object", "id": "o" },
+      { "t": "만들었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeongbuneun i munjereul haegyeolhagoja saeroun beomnyureul mandeureosseoyo",
+    "wordIds": ["w_jeongbu", "w_i_det", "w_munje", "w_haegyeolhada", "w_saeropda", "w_beomnyul", "w_mandeulda"],
+    "note": "The formal intention on its debut: 해결하고자 = in order to solve, and the whole clause 이 문제를 해결하고자 (M29's 이, M7's 문제, M56's 해결하다) is the reason the statute exists. Say it with -(으)려고 from M50 — 해결하려고 — and it is the same sentence in the mouth; -고자 is the press release's coat, and M32's 정부 wears it every day. 새로운 법률 puts M35's 새롭다 in the badge -(으)ㄴ from M24 on today's 법률 — the written law, made (M3's 만들다) rather than kept — and M56's 해결하다 note already knew the register: \"문제를 해결했습니다 is what the press release says\"."
+  },
+  {
+    "id": "s_m90_minister_announce",
+    "en": [
+      { "t": "The minister", "role": "subject", "id": "s" },
+      { "t": "intends to announce", "role": "verb", "id": "v" },
+      { "t": "a new regulation", "role": "object", "id": "o" },
+      { "t": "at the National Assembly", "role": "place", "id": "p" },
+      { "t": "today", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "minister-[topic]", "role": "subject", "id": "s" },
+      { "t": "today", "role": "other", "id": "a" },
+      { "t": "National-Assembly-at", "role": "place", "id": "p" },
+      { "t": "new regulation-[obj]", "role": "object", "id": "o" },
+      { "t": "announce-intend-to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "장관은", "role": "subject", "id": "s" },
+      { "t": "오늘", "role": "other", "id": "a" },
+      { "t": "국회에서", "role": "place", "id": "p" },
+      { "t": "새 규정을", "role": "object", "id": "o" },
+      { "t": "발표하고자 합니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "janggwaneun oneul gukhoeeseo sae gyujeongeul balpyohagoja hamnida",
+    "wordIds": ["w_janggwan", "w_oneul", "w_gukhoe", "w_sae", "w_gyujeong", "w_balpyohada", "w_hada"],
+    "note": "-고자 with 하다 behind it: 발표하고자 합니다 = intends to announce — the shape -(으)려고 하다 from M50 takes when it puts on the 합니다체 M4 taught, because a 장관 speaking in the 국회 does not say 발표하려고 해요. Two of today's institutions frame the verb: the minister as subject, the Assembly as the place on 에서 (M2's 에서). 새 규정 is M13's 새 on the regulation — the rule with a document number — and M16's 발표하다 is the verb the news gives to every official who opens their mouth. Nothing in the sentence is a wish or a plan in the M50 sense; it is a schedule, printed."
+  },
+  {
+    "id": "s_m90_lawmaker_trial",
+    "en": [
+      { "t": "That lawmaker", "role": "subject", "id": "s" },
+      { "t": "was given", "role": "verb", "id": "v" },
+      { "t": "a trial", "role": "object", "id": "o" },
+      { "t": "in accordance with the law", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "that lawmaker-[topic]", "role": "subject", "id": "s" },
+      { "t": "law-at follow-and", "role": "other", "id": "a" },
+      { "t": "trial-[obj]", "role": "object", "id": "o" },
+      { "t": "received", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 의원은", "role": "subject", "id": "s" },
+      { "t": "법에 따라", "role": "other", "id": "a" },
+      { "t": "재판을", "role": "object", "id": "o" },
+      { "t": "받았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu uiwoneun beobe ttara jaepaneul badasseoyo",
+    "wordIds": ["w_geu_det", "w_uiwon", "w_beop", "w_ttareuda", "w_jaepan", "w_batda"],
+    "note": "법에 따라 = in accordance with the law: M32's 따르다 in its -아/어 coat on M39's 법, the frame M33's 상황 note previewed (\"상황에 따라서 (M32's 따르다) = depends on the situation\") — the 서 is optional, and the newspaper drops it. The 의원 is today's lawmaker, dismounted from M58's 국회의원, and the 그 (M29) is the reporter's way of not naming him. 재판을 받다 is the collocation from the shelf: M9's 받다, because in Korean you RECEIVE a trial as you receive an exam or a call. The whole sentence is a headline's second line — no opinion in it, only a procedure followed."
+  },
+  {
+    "id": "s_m90_poll_oppose",
+    "en": [
+      { "t": "According to the opinion poll,", "role": "other", "id": "a" },
+      { "t": "most of the people", "role": "subject", "id": "s" },
+      { "t": "are said to oppose", "role": "verb", "id": "v" },
+      { "t": "that plan", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "public-opinion survey-at follow-if", "role": "other", "id": "a" },
+      { "t": "people majority-[subj]", "role": "subject", "id": "s" },
+      { "t": "that plan-against", "role": "other", "id": "b" },
+      { "t": "oppose-[quote] say", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여론 조사에 따르면", "role": "other", "id": "a" },
+      { "t": "국민 대부분이", "role": "subject", "id": "s" },
+      { "t": "그 계획에", "role": "other", "id": "b" },
+      { "t": "반대한다고 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeoron josae ttareumyeon gungmin daebubuni geu gyehoege bandaehandago haeyo",
+    "wordIds": ["w_yeoron", "w_josa", "w_ttareuda", "w_gungmin", "w_daebubun", "w_geu_det", "w_gyehoek", "w_bandaehada", "w_hada"],
+    "note": "The source frame and the quoting machine in one breath, the way the M86 sentence s_m86_research_effect ran 연구 결과에 따르면 — here the source is a 여론 조사, today's 여론 on M44's 조사: the opinion poll. 에 따르면 (M32's 따르다 under -(으)면 from M20) names where the claim comes from; 반대한다고 해요 — M64's 반대하다 through the quoting -다고 하다 from M32 — refuses to assert it. 국민 대부분이 is M32's 국민 with M32's 대부분 on the bare 이: the majority as a subject. 그 계획에 (M8's 계획) is what they oppose — 반대하다 takes 에, not 을. A poll reported without a single number, which is how this course writes headlines."
+  },
+  {
+    "id": "s_m90_court_decided",
+    "en": [
+      { "t": "This election's result", "role": "subject", "id": "s" },
+      { "t": "was decided", "role": "verb", "id": "v" },
+      { "t": "in the end", "role": "other", "id": "a" },
+      { "t": "by the court", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "this-time election result-[topic]", "role": "subject", "id": "s" },
+      { "t": "in-the-end", "role": "other", "id": "a" },
+      { "t": "court-by", "role": "other", "id": "b" },
+      { "t": "got-decided", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이번 선거 결과는", "role": "subject", "id": "s" },
+      { "t": "결국", "role": "other", "id": "a" },
+      { "t": "법원에 의해", "role": "other", "id": "b" },
+      { "t": "결정됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ibeon seongeo gyeolgwaneun gyeolguk beobwone uihae gyeoljeongdwaesseoyo",
+    "wordIds": ["w_ibeon", "w_seongeo", "w_gyeolgwa", "w_gyeolguk", "w_beobwon", "w_uihada", "w_gyeoljeongdoeda"],
+    "note": "The agent of print: 법원에 의해 = by the court — M56's 의하다 in the second frame its note promised (\"[agent]에 의해(서) = by, the passive agent of print\"), attached to today's 법원. The passive it serves is M70's 결정되다, whose note called 결정됐어요 \"the committee's tense\" — no decider named — and 에 의해 is exactly how print names one after all. 이번 선거 결과 stacks M16's 이번, today's 선거 and M32's 결과 into one topic; M32's 결국 (in the end) tells you the result was contested first. Speech would say 법원이 결정했어요; the record says the result was decided, by the court."
+  },
+  {
+    "id": "s_m90_no_violence",
+    "en": [
+      { "t": "At yesterday's demonstration", "role": "place", "id": "p" },
+      { "t": "there was no", "role": "verb", "id": "v" },
+      { "t": "damage caused by violence", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "yesterday demonstration-at-[topic]", "role": "place", "id": "p" },
+      { "t": "violence-by-caused damage-[subj]", "role": "subject", "id": "s" },
+      { "t": "not-existed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제 시위에서는", "role": "place", "id": "p" },
+      { "t": "폭력에 의한 피해가", "role": "subject", "id": "s" },
+      { "t": "없었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje siwieseoneun pongnyeoge uihan pihaega eopseosseoyo",
+    "wordIds": ["w_eoje", "w_siwi", "w_pongnyeok", "w_uihada", "w_pihae", "w_eopda"],
+    "note": "에 의한 — 의하다 in the badge -(으)ㄴ from M24 — puts the agent in front of a noun instead of a verb: 폭력에 의한 피해 = damage caused by violence, the shape M86's 인하다 note gave 사고로 인한 피해. The two frames sit one line apart in every report, and the radar is the M86 one: 로 인한 files a CAUSE, 에 의한 files a DOER — and violence, in the newspaper, does things. 피해가 없었어요 is M86's 피해 on the bare 가 with M1's 없다: the 있다-factory reporting an absence, the best line a 시위 can get. 어제 시위에서는 (M2's 어제) is the place with 는 topicalizing it — the whole sentence is about the demonstration, and it exonerates it."
+  },
+  {
+    "id": "s_m90_investigation_innocent",
+    "en": [
+      { "t": "As a result of the police investigation,", "role": "other", "id": "a" },
+      { "t": "that person", "role": "subject", "id": "s" },
+      { "t": "had no", "role": "verb", "id": "v" },
+      { "t": "guilt", "role": "subject", "id": "g" }
+    ],
+    "gloss": [
+      { "t": "police-[subj] investigated-result", "role": "other", "id": "a" },
+      { "t": "that person-[topic]", "role": "subject", "id": "s" },
+      { "t": "guilt-[subj]", "role": "subject", "id": "g" },
+      { "t": "not-existed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "경찰이 조사한 결과", "role": "other", "id": "a" },
+      { "t": "그 사람은", "role": "subject", "id": "s" },
+      { "t": "죄가", "role": "subject", "id": "g" },
+      { "t": "없었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeongchari josahan gyeolgwa geu sarameun joega eopseosseoyo",
+    "wordIds": ["w_gyeongchal", "w_josahada", "w_gyeolgwa", "w_geu_det", "w_saram", "w_joe", "w_eopda"],
+    "note": "-(으)ㄴ 결과 as a hinge: 경찰이 조사한 결과 = as a result of the police having investigated — M56's 조사하다 in the past badge -(으)ㄴ from M24, then M32's 결과 taking the whole clause as its modifier and needing no particle after it. The report's favourite turn: what was done, then what came of it. M16's 경찰 investigates on the bare 이 inside the clause; 그 사람은 (M1's 사람) is the topic of the finding; and the finding is the double-subject frame the roles drill knows — 죄가 없었어요, today's 죄 with M1's 없다: no guilt, innocent, the verdict in two words. M56's 조사하다 note already put the police in this sentence's shoes: \"경찰이 사고를 조사하고 있습니다\"."
+  },
+  {
+    "id": "s_m90_effort_democratization",
+    "en": [
+      { "t": "As a result of the people's long effort,", "role": "other", "id": "a" },
+      { "t": "democratization", "role": "subject", "id": "s" },
+      { "t": "was achieved", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "people-[subj] long-time strove-result", "role": "other", "id": "a" },
+      { "t": "democratization-[subj]", "role": "subject", "id": "s" },
+      { "t": "got-realized", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "국민이 오래 노력한 결과", "role": "other", "id": "a" },
+      { "t": "민주화가", "role": "subject", "id": "s" },
+      { "t": "이루어졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gungmini orae noryeokhan gyeolgwa minjuhwaga irueojyeosseoyo",
+    "wordIds": ["w_gungmin", "w_orae", "w_noryeokhada", "w_gyeolgwa", "w_minjuhwa", "w_irueojida"],
+    "note": "The second -(으)ㄴ 결과, with credit in it: 국민이 오래 노력한 결과 = as a result of the people's long effort — M26's 노력하다 in the past badge from M24, M10's 오래 stretching it over years, M32's 국민 on the bare 이 inside the clause. M39's 노력 note wrote 노력의 결과 as a noun phrase; today the clause version does the same work with a verb. 민주화가 이루어졌어요 pairs today's 민주화 with M35's 이루어지다 — democratization was REALIZED, the happen-form, nobody named as the one who did it — which is the sentence Korea writes about its June of demonstrations and the direct elections that followed (the year is in the word note). The register is the textbook's, and every word of it was yours except the -화 noun."
   }
 ]

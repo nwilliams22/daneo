@@ -2482,5 +2482,32 @@
     "lit": "cannot possibly will-not-work",
     "real": "I just can't — it's not going to happen, and I've tried",
     "note": "This module's 도저히 in its native habitat: in front of 안 되다 (M10's 되다 in its it-works job, M3's 안) with the -겠- of M49 adding the speaker's verdict — 도저히 안 되겠어요 = there's no way this is going to work, I give up. It is the sentence you say putting down the wrench, the essay, the diet, the relationship; the 도저히 says you reached the bottom (到底) and found nothing there. Register-flexible: 도저히 안 되겠다 to yourself, 도저히 안 되겠어요 to the boss, 도저히 안 되겠습니다 to the client. Radar: 절대 안 돼요 with M39's 절대 forbids; 도저히 안 되겠어요 surrenders."
+  },
+  {
+    "id": "g_m90_chotbul_siwi",
+    "cat": "concept",
+    "ko": "촛불 시위",
+    "rom": "chotbul siwi",
+    "lit": "candle-fire demonstration",
+    "real": "the candlelight demonstrations — Korea's signature form of peaceful mass protest: families in a square holding candles, and on three occasions, a government changed",
+    "note": "This module's 시위 with 촛불 in front: M25's 초 (the candle) + M13's 불 (fire, light) with the linking-ㅅ that M82's 바닷물 note documented — 촛불, candlelight, said 초뿔. The form was born in 2002 (a vigil for two schoolgirls killed by a US army vehicle), returned in 2008 (against beef imports), and in the winter of 2016–17 filled 광화문 광장 (M23's 광장; 광화문 the gate, riding frozen) with over a million people every Saturday until the president was removed from office — the 촛불 혁명, as the papers named it (혁명 — revolution, frozen). The candle is the point: it says the crowd is peaceful, that it will be there after dark, and that it has brought its children. Where the 1987 of this module's 민주화 note is the story of 시위 that turned into tear gas, 촛불 시위 is the story the next generation tells instead — the same word, a different light. Pairs with M32's 국민 and today's 여론: a 촛불 시위 is public opinion made visible."
+  },
+  {
+    "id": "g_m90_jumin_deungnokjeung",
+    "cat": "concept",
+    "ko": "주민등록증",
+    "rom": "jumindeungnokjeung",
+    "lit": "resident-registration-certificate",
+    "real": "the national ID card — issued at seventeen, carried by every adult, demanded by every bank, phone shop, and bar; the number on it is your identity in every system in the country",
+    "note": "Three words from three modules: this module's 주민 (the resident) + M64's 등록 (the registration — putting it on the books) + the proof-證 that M83's 학생증 decoded (its note filed 신분증 as the ID card, riding frozen — 주민등록증 is the one it meant). Every Korean is registered to an address at birth, and at seventeen the card comes with a 13-digit 주민등록번호 (M20's 번호): birthdate, then a check number, and the number follows you into every form, every contract, every online sign-up — which is why Korean websites ask for it and why leaking it is a national scandal. The 동사무소, the neighbourhood office (riding frozen), issues it; the M27 gap deck's 민증 검사 at the door of a bar is a 주민등록증 check by its nickname, 민증. Foreigners carry its twin, the 외국인등록증 (M23's 외국인 + the same 등록증) — the card the immigration office gives you, and the one this course's readers will hold first."
+  },
+  {
+    "id": "g_m90_yeodang_yadang",
+    "cat": "structure",
+    "ko": "여당 · 야당",
+    "rom": "yeodang · yadang",
+    "lit": "the with-party · the field-party",
+    "real": "the ruling party and the opposition — the pair every political headline is written between",
+    "note": "Two words built on this module's 정당, and the hanja names the seating plan. 여당 is 與黨: 與, to give or to be WITH — the party with the government, the one that holds the presidency. 야당 is 野黨: 野, the open field — the 야 of M17's 야구 (\"야 (field) + 구 (ball)\") — the party out in the field, outside the palace walls. The two swap places at every 대통령 선거 (M32's 대통령 + today's 선거), and the newspaper's third word, 여야 (ruling-and-opposition, riding frozen), names them as a pair: 여야 합의 = a cross-party agreement. RADAR: this 여 is 與, not M78's 여 (the female prefix) and not the 輿 of today's 여론 — three 여s, three characters, and a headline can carry all of them: 여당은 여론에 따라 (Part 3), the ruling party according to public opinion."
   }
 ]
