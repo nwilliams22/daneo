@@ -236,7 +236,7 @@ No new tooling: `verify-draft.py`, `lint_language.py`, `tools/`,
 `merge-draft.py` and SHARED-BRIEF all apply unchanged. Band 7 modules
 carry 3–5 glue parts each (the Band 4 shape); Band 8 packs carry none.
 
-### Band 7 — the grammar engine III (M85–M96, ordered)
+### Band 7 — the grammar engine III (M85–M96, ordered) — ✅ shipped in full 2026-09-20
 
 Twelve ordered modules on the top ~400 C-words by rank (the essay and
 newsroom core). Themes and glue are the working plan; exact slices are cut
@@ -257,7 +257,7 @@ at reserve time into `reference/ring3-slices.tsv`.
 | M95 | Concession & Choice (반면 갈등 경쟁 경쟁력 협력 대응 극복하다 거부하다 제외하다 통합 개선 개방 공개 참여 지원 투자 부담 아무런 온갖 어찌 도대체) | -더라도 · -(으)ㄹ지라도/-(으)ㄹ망정 · -든지 · 대신에/반면에 · -는 한 · -기만 하면 |
 | M96 | Culture, Stage & Press (연극 극 희곡 신화 철학 문화재 감독 연기자 매체 보도 화제 기록 비극 소재 제작 출신 학자 지식인 필자 스승 제자 용어 미 신분 세계관 이데올로기) | glue-light closer: whatever the checklist still owes |
 
-### Band 8 — the long tail (~60 packs, M97+, order-free)
+### Band 8 — the long tail (~60 packs, M97+, order-free) *(opened 2026-09-20 with M97)*
 
 Everything left after Band 7, sliced by frequency rank with root-flavored
 grouping (S3's tables), exactly Band 6: garnish-free, no glue parts, notes
