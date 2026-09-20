@@ -60,7 +60,7 @@ eleven adverbs get the ink, because there is no rule that builds them.
    a set into groups), 묘사하다 (描寫 — 描 (to sketch, a first) + 寫 of M75's
    복사 ("複寫 double-write"): to depict, to describe — 인물을 묘사하다 (인물
    frozen), the novelist's and the witness's verb; vs M24's 설명하다 —
-   설명하다 explains, 묘사하다 paints), 완성하다 (完成 — 完 of M39's 완벽하다
+   설명하다 explains, 묘사하다 paints), 완성하다 (PAYS M108's 완성 if shipped — quote that note; else 完成 — 完 of M39's 완벽하다
    ("完璧 complete-jade") and M89's 완전하다 ("完全 complete-whole") + 成 of
    M35's 성공하다 ("成功 achieve-merit"): to complete (a work) — 작품을
    완성하다 (M48's 작품); vs M16's 끝내다 — 끝내다 stops it, 완성하다 finishes
@@ -95,14 +95,14 @@ eleven adverbs get the ink, because there is no rule that builds them.
 3. **THE 되다 FLIPS II (6) — quote M70's flip line once, then one receipt
    each:** 안정되다 (M95's 안정 flipped: to stabilize, to settle — 생활이
    안정되다 (M29's 생활)), 전달되다 (M64's 전달하다 → 되다: to be passed on —
-   메시지가 전달되다 (메시지 frozen), 뜻이 전달되다 (M10's 뜻)), 보장되다 (保障
+   메시지가 전달되다 (메시지 frozen), 뜻이 전달되다 (M10's 뜻)), 보장되다 (M108's 보장 flipped if shipped — quote that note; else 保障
    — 保 of M43's 보험 ("保險 guard-the-cliff-edge") and M81's 보호 + 障 (to
    screen, to block — a first): to be guaranteed — 자유가 보장되다 (M23's
-   자유); the noun 보장 rides frozen), 관계되다 (M32's 관계 + 되다: to be
+   자유)), 관계되다 (M32's 관계 + 되다: to be
    related to — 에 관계되다; and its adverb 관계없이 = regardless, whose
    mouth-twin the learner already owns: quote M39's 상관없다 note's exact
    "相關 mutual-connection + 없다: no-relation — 상관없어요" span), 분리되다
-   (分離 — 分 of M32's 부분 + 離 of M47's 이혼 ("離婚 part-marriage"): to be
+   (M108's 분리 flipped if shipped — quote that note; else 分離 — 分 of M32's 부분 + 離 of M47's 이혼 ("離婚 part-marriage"): to be
    separated — and the set phrase every household lives by: 분리수거 (M13's
    쓰레기) = sorted recycling, frozen as one word), 완성되다 (today's own
    완성하다 flipped — the pair lands in one module, which is the point: 건물이
