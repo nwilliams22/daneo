@@ -22050,5 +22050,221 @@
     "rom": "sae gyujeonge ttara hyeon jeongbuneun i geoneul bongyeokjeogeuro josahago isseoyo",
     "wordIds": ["w_sae", "w_gyujeong", "w_ttareuda", "w_hyeon_current", "w_jeongbu", "w_i_det", "w_geon_case", "w_bongyeokjeok", "w_josahada", "w_itda"],
     "note": "Recycles 에 따라 from M90 — that md's list ran \"규정에 따라 by the regulation\" and noted \"the 서 drops in print\" — so 새 규정에 따라 (M13's 새 on M90's 규정, M32's 따르다 in the frame) = under the new regulations, and no 서, because this is print. Three slice words follow in the newsroom's register: 현 정부 (today's 현 on M32's 정부) = the current government, 이 건 (M29's 이 on today's 건) = this case, the matter on file, and 본격적으로 = in earnest, the adverb every second week gets. M56's 조사하다 in the -고 있어요 progressive from M8 closes. Every noun here is a headline noun; the only thing the mouth would change is 건 to 일."
+  },
+  {
+    "id": "s_m100_pm_statement_warning",
+    "en": [
+      { "t": "The prime minister", "role": "subject", "id": "s" },
+      { "t": "issued", "role": "other", "id": "a" },
+      { "t": "a statement", "role": "object", "id": "o" },
+      { "t": "at a press conference", "role": "place", "id": "p" },
+      { "t": "and sent", "role": "verb", "id": "v" },
+      { "t": "a strong warning", "role": "object", "id": "b" },
+      { "t": "to the political class", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "prime-minister-[topic]", "role": "subject", "id": "s" },
+      { "t": "reporter meeting-at", "role": "place", "id": "p" },
+      { "t": "statement-[obj]", "role": "object", "id": "o" },
+      { "t": "announce-and", "role": "other", "id": "a" },
+      { "t": "political-circles-to", "role": "other", "id": "t" },
+      { "t": "strong warning-[obj]", "role": "object", "id": "b" },
+      { "t": "sent-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "총리는", "role": "subject", "id": "s" },
+      { "t": "기자 회견에서", "role": "place", "id": "p" },
+      { "t": "성명을", "role": "object", "id": "o" },
+      { "t": "발표하며", "role": "other", "id": "a" },
+      { "t": "정치권에", "role": "other", "id": "t" },
+      { "t": "강한 경고를", "role": "object", "id": "b" },
+      { "t": "보냈습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "chongnineun gija hoegyeoneseo seongmyeongeul balpyohamyeo jeongchigwone ganghan gyeonggoreul bonaetseumnida",
+    "wordIds": ["w_chongni", "w_gija", "w_hoegyeon", "w_seongmyeong", "w_balpyohada", "w_jeongchigwon", "w_ganghada", "w_gyeonggo", "w_bonaeda"],
+    "note": "Recycles -(으)며 from M85 — the written and/while, which that md sorted by one test: \"one body doing two things = while; two facts side by side = and\". Here one body: 발표하며 is M16's 발표하다 with 며 on its vowel stem — the prime minister issued the statement AND, in the same breath, sent the warning; aloud it would be 발표하면서, with -(으)면서 from M38, and the newsreader is the only mouth that says 며. Five of today's words ride it: 총리는 the topic, 기자 회견에서 (M16's 기자 + 회견, 에서 from M2) the place, 성명을 the object, 정치권에 the target, 강한 경고를 (M63's 강하다 in the badge -(으)ㄴ from M24) the second object, and M16's 보내다 closes in the 합니다체 from M4 — a warning is SENT, like a letter, because 경고하다 is not on today's shelf. The roles drill: 발표하며 is other (a connective form), and a sentence may carry two objects when two things are done."
+  },
+  {
+    "id": "s_m100_culprit_no_trace",
+    "en": [
+      { "t": "The culprit", "role": "subject", "id": "s" },
+      { "t": "disappeared", "role": "verb", "id": "v" },
+      { "t": "without leaving", "role": "other", "id": "a" },
+      { "t": "any trace", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "culprit-[topic]", "role": "subject", "id": "s" },
+      { "t": "any trace-even", "role": "object", "id": "o" },
+      { "t": "leave-not-ed state", "role": "other", "id": "a" },
+      { "t": "disappeared-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "범인은", "role": "subject", "id": "s" },
+      { "t": "아무 흔적도", "role": "object", "id": "o" },
+      { "t": "남기지 않은 채", "role": "other", "id": "a" },
+      { "t": "사라졌습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "beomineun amu heunjeokdo namgiji aneun chae sarajyeotseumnida",
+    "wordIds": ["w_beomin", "w_amu", "w_heunjeok", "w_namgida", "w_chae", "w_sarajida"],
+    "note": "Recycles -(으)ㄴ 채 from M94 — that md: \"one action is FROZEN, and the main clause happens inside it\" — with the frozen action a negative one: 남기지 않은 채 is M37's 남기다 under the -지 않다 long negation from M28, wearing the past badge -(으)ㄴ from M24, then M94's 채. Not having left a trace was the state; disappearing happened inside it. Two of today's law words: 범인은 is the topic and 아무 흔적도 (M29's 아무 + 흔적 + 도 from M2 — any trace at all, the 도 a negative sentence demands) the object; M35's 사라지다 closes in the 합니다체 from M4, because this is the report, not the detective. The M94 md said 채 \"carries a faint shrug\"; in a crime story the shrug is the police's. Roles: 남기지 않은 채 is other — the clause the main verb happens inside."
+  },
+  {
+    "id": "s_m100_socalled_experts_pr",
+    "en": [
+      { "t": "What the so-called experts say", "role": "subject", "id": "s" },
+      { "t": "in the end", "role": "other", "id": "a" },
+      { "t": "amounts to corporate PR", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "so-called expert-[plural]-[poss] word-[topic]", "role": "subject", "id": "s" },
+      { "t": "in-the-end", "role": "other", "id": "a" },
+      { "t": "company publicity-is count-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "소위 전문가들의 말은", "role": "subject", "id": "s" },
+      { "t": "결국", "role": "other", "id": "a" },
+      { "t": "기업 홍보인 셈이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sowi jeonmungadeurui mareun gyeolguk gieop hongboin semieyo",
+    "wordIds": ["w_sowi", "w_jeonmunga", "w_mal", "w_gyeolguk", "w_gieop", "w_hongbo", "w_sem"],
+    "note": "Recycles -(으)ㄴ/는 셈이다 from M87 — the reckoning shelf, where that md glossed 셈이다 as \"it amounts to\" — on its noun row: 홍보인 셈이에요, the copula's 인 badge on today's 홍보, then M87's 셈. It does not say the experts are PR; it counts up what they said and finds that the total is PR, which is the columnist's favourite arithmetic. Two of today's words open it: 소위 puts the tongs on M58's 전문가 (with the plural -들 from M27 and the possessive 의), and 기업 홍보 (M90's 기업 + 홍보) is what the sum comes to; M32's 결국 does the adding, and M4's 말 on 은 is the subject the whole sentence weighs. Said, not printed — 셈이에요 in the 요 register — because this is the reader at breakfast, talking back to the page."
+  },
+  {
+    "id": "s_m100_election_support_capital",
+    "en": [
+      { "t": "I looked at", "role": "other", "id": "a" },
+      { "t": "the election results", "role": "object", "id": "o" },
+      { "t": "and found that in the capital region", "role": "place", "id": "p" },
+      { "t": "support", "role": "subject", "id": "s" },
+      { "t": "had grown", "role": "verb", "id": "v" },
+      { "t": "considerably", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "election result-[obj]", "role": "object", "id": "o" },
+      { "t": "looked-and", "role": "other", "id": "a" },
+      { "t": "capital-region-in-[topic]", "role": "place", "id": "p" },
+      { "t": "support-[subj]", "role": "subject", "id": "s" },
+      { "t": "greatly", "role": "other", "id": "b" },
+      { "t": "had-increased-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "선거 결과를", "role": "object", "id": "o" },
+      { "t": "봤는데", "role": "other", "id": "a" },
+      { "t": "수도권에서는", "role": "place", "id": "p" },
+      { "t": "지지가", "role": "subject", "id": "s" },
+      { "t": "크게", "role": "other", "id": "b" },
+      { "t": "늘었더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seongeo gyeolgwareul bwanneunde sudogwoneseoneun jijiga keuge neureotdeoragoyo",
+    "wordIds": ["w_seongeo", "w_gyeolgwa", "w_boda", "w_sudogwon", "w_jiji", "w_keuda", "w_neulda"],
+    "note": "Recycles -더라고요 from M88 — the spoken retrospective closer, which that md summed up as \"you watched, and now you tell\": 늘었더라고요 is M35's 늘다 in the past, then 더라고요 — I looked, and here is what I found. The scene it reports is two of today's words: 지지가, support on the bare 가, grew 크게 (M1's 크다 through the -게 adverbializer from M33) 수도권에서는 — in the capital region, 에서 with the contrastive 는, because the provinces are implied to have gone the other way. 선거 결과를 봤는데 (M90's 선거 + M32's 결과, M1's 보다 under -는데 from M53) sets the scene the eyewitness stood in. The eyewitness rule from M88 holds: you cannot -더라고요 your own feeling, but you can a number on a screen. Roles: 봤는데 is other; 늘었더라고요 is the closer."
+  },
+  {
+    "id": "s_m100_rage_pm_changed",
+    "en": [
+      { "t": "The public's anger", "role": "subject", "id": "s" },
+      { "t": "was great enough", "role": "verb", "id": "v" },
+      { "t": "that the prime minister", "role": "subject", "id": "t" },
+      { "t": "was replaced", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "people-[poss] rage-[topic]", "role": "subject", "id": "s" },
+      { "t": "prime-minister-[subj]", "role": "subject", "id": "t" },
+      { "t": "change-will degree-to", "role": "other", "id": "a" },
+      { "t": "was-big-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "국민의 분노는", "role": "subject", "id": "s" },
+      { "t": "총리가", "role": "subject", "id": "t" },
+      { "t": "바뀔 정도로", "role": "other", "id": "a" },
+      { "t": "컸습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "gungminui bunnoneun chongniga bakkwil jeongdoro keotseumnida",
+    "wordIds": ["w_gungmin", "w_bunno", "w_chongni", "w_bakkwida", "w_jeongdo", "w_keuda"],
+    "note": "Recycles -(으)ㄹ 정도로 from M89 — M32's 정도 after a badge-clause, which that md set against its twin: \"정도로 measures INTENSITY, 만큼 measures AMOUNT\". This is intensity: 바뀔 정도로 is M35's 바뀌다 in the prospective badge -(으)ㄹ from M8, 정도, 으로 from M6 — to the degree that the prime minister was changed. Two of today's words hold the frame: 국민의 분노는 (M32's 국민 with 의) is the topic, the editorial's anger rather than the 화 of M19's 화나다, and 총리가 on the bare 가 is the subject of the inner clause — the roles drill tags both as subject, and the drill is right, because 총리가 바뀌다 is its own small sentence sitting inside the measurement. M1's 크다 closes in the 합니다체 from M4: 컸습니다 — anger, in Korean, is big before it is anything else."
+  },
+  {
+    "id": "s_m100_democracy_law_punish",
+    "en": [
+      { "t": "In a democratic state,", "role": "place", "id": "p" },
+      { "t": "even politicians", "role": "subject", "id": "s" },
+      { "t": "are subject to", "role": "verb", "id": "v" },
+      { "t": "punishment", "role": "object", "id": "o" },
+      { "t": "by the law", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "democratic nation-in-[topic]", "role": "place", "id": "p" },
+      { "t": "politician-also", "role": "subject", "id": "s" },
+      { "t": "law-by", "role": "other", "id": "a" },
+      { "t": "punishment-[obj]", "role": "object", "id": "o" },
+      { "t": "receive-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "민주 국가에서는", "role": "place", "id": "p" },
+      { "t": "정치인도", "role": "subject", "id": "s" },
+      { "t": "법에 의해", "role": "other", "id": "a" },
+      { "t": "처벌을", "role": "object", "id": "o" },
+      { "t": "받습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "minju gukgaeseoneun jeongchiindo beobe uihae cheobeoreul batseumnida",
+    "wordIds": ["w_minju", "w_gukga", "w_jeongchiin", "w_beop", "w_uihada", "w_cheobeol", "w_batda"],
+    "note": "Recycles 에 의해 from M90 — the agent of print, which that md closed with a rule: \"A typhoon gets 로 인해; a government gets 에 의해.\" The law is a doer here: 법에 의해 (M39's 법, M56's 의하다 in -아/어) = by the law, and 처벌을 받습니다 (M9's 받다 in the 합니다체 from M4) is the receiving that Korean does to punishment, criticism and treatment alike. Three of today's words in one civics line: 민주 국가에서는 (민주 as a prefix on M31's 국가, 에서 + 는) is the place, 정치인도 — politician, with 도 from M2 meaning even — the subject, and 처벌을 the object. Say it about a 범인 and it is a police report; say it about a 정치인 and it is the definition of a 민주 국가. Roles: 법에 의해 is other, the agent phrase, not a subject — nobody here is the law."
+  },
+  {
+    "id": "s_m100_dispute_blame",
+    "en": [
+      { "t": "The political class,", "role": "subject", "id": "s" },
+      { "t": "far from ending", "role": "other", "id": "a" },
+      { "t": "the controversy,", "role": "object", "id": "o" },
+      { "t": "did nothing but", "role": "verb", "id": "v" },
+      { "t": "hurl blame", "role": "object", "id": "b" },
+      { "t": "at each other", "role": "other", "id": "r" }
+    ],
+    "gloss": [
+      { "t": "political-circles-[topic]", "role": "subject", "id": "s" },
+      { "t": "dispute-[obj]", "role": "object", "id": "o" },
+      { "t": "end-ing-far-from", "role": "other", "id": "a" },
+      { "t": "each-other", "role": "other", "id": "r" },
+      { "t": "blame-only", "role": "object", "id": "b" },
+      { "t": "did-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "정치권은", "role": "subject", "id": "s" },
+      { "t": "논쟁을", "role": "object", "id": "o" },
+      { "t": "끝내기는커녕", "role": "other", "id": "a" },
+      { "t": "서로", "role": "other", "id": "r" },
+      { "t": "비난만", "role": "object", "id": "b" },
+      { "t": "했습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeongchigwoneun nonjaengeul kkeunnaegineunkeonyeong seoro binanman haetseumnida",
+    "wordIds": ["w_jeongchigwon", "w_nonjaeng", "w_kkeunnaeda", "w_seoro", "w_binan", "w_hada"],
+    "note": "Recycles -기는커녕 from M92 — far from, let alone — which that md ruled \"is always a step DOWN\": the big expected thing did not happen, and then the smaller thing that happened instead is worse. 끝내기는커녕 is M16's 끝내다 through the -기 nominalizer from M13, 는, and the frozen particle 커녕; the step down is 서로 비난만 했습니다 — M24's 서로, today's 비난 with 만 from M30, M1's 하다 in the 합니다체 from M4 — they did nothing but blame each other. Three of today's fight words in one line: 정치권은 the topic, 논쟁을 the object that should have been ended, 비난만 the object that was produced instead. The M92 rule wants the sentence to end badly, and 비난 is how every 논쟁 ends badly in Korean politics. Roles: 끝내기는커녕 is other; 비난만 is an object, because 하다 still has one."
+  },
+  {
+    "id": "s_m100_capital_population_whereas",
+    "en": [
+      { "t": "The capital region's population", "role": "subject", "id": "s" },
+      { "t": "steadily", "role": "other", "id": "b" },
+      { "t": "grows, whereas", "role": "other", "id": "a" },
+      { "t": "the provincial population", "role": "subject", "id": "t" },
+      { "t": "is shrinking", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "capital-region population-[topic]", "role": "subject", "id": "s" },
+      { "t": "continuous-ly", "role": "other", "id": "b" },
+      { "t": "grow-ing whereas", "role": "other", "id": "a" },
+      { "t": "provinces population-[topic]", "role": "subject", "id": "t" },
+      { "t": "decrease-ing is-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "수도권 인구는", "role": "subject", "id": "s" },
+      { "t": "지속적으로", "role": "other", "id": "b" },
+      { "t": "느는 반면에", "role": "other", "id": "a" },
+      { "t": "지방 인구는", "role": "subject", "id": "t" },
+      { "t": "줄고 있습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "sudogwon inguneun jisokjeogeuro neuneun banmyeone jibang inguneun julgo itseumnida",
+    "wordIds": ["w_sudogwon", "w_ingu", "w_jisokjeok", "w_neulda", "w_banmyeon", "w_jibang", "w_julda", "w_itda"],
+    "note": "Recycles 반면에 from M95 — M95's 반면 after the badge -는 from M24, which that md set apart from every other but: \"반면에 BALANCES two facts on a scale and leans on neither\". Two pans, each with its own 는, exactly as that md said the two halves take: 수도권 인구는 (수도권 + M64's 인구) on one side, 지방 인구는 (M50's 지방) on the other. 느는 반면에 is M35's 늘다 with its ㄹ dropped before -는, as M93's 이끌다 note showed for 이끄는; 지속적으로 (지속적 + 으로 from M6) is the report's adverb for the growing; and M35's 줄다 in the -고 있다 progressive from M10 (M1's 있다 in the 합니다체 from M4) closes the other pan. The demographer's sentence — and the reason 수도권 is a problem word, not a map word. Roles: two subjects, the roles drill tags both; 느는 반면에 is other."
   }
 ]

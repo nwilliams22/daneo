@@ -2357,5 +2357,27 @@
       "s_m99_pollution_summer", "s_m99_gymnastics_pain", "s_m99_experiment_chemistry", "s_m99_objectively_won",
       "s_m99_rite_old_dress", "s_m99_child_spirit_hid", "s_m99_nutrition_taste", "s_m99_regulation_case"
     ]
+  },
+  {
+    "id": "m100",
+    "title": "The Second Front Page",
+    "order": 109,
+    "ring": 2,
+    "contentMd": "modules/module-100.md",
+    "wordIds": [
+      "w_yeollak", "w_hoegyeon", "w_seongmyeong", "w_saseol",
+      "w_hongbo", "w_binan", "w_nonjaeng", "w_jiji",
+      "w_gyeonggo", "w_wihyeop", "w_chabyeol", "w_gubun",
+      "w_gubunhada", "w_bunno", "w_uimu", "w_seungni",
+      "w_jwau", "w_heunjeok", "w_jeongchigwon", "w_jeongchiin",
+      "w_chongni", "w_sudogwon", "w_minju", "w_sowi",
+      "w_chong", "w_susip", "w_daeryang", "w_teuksu",
+      "w_dongilhada", "w_jisokjeok", "w_cheobeol", "w_sarin",
+      "w_beomin", "w_sonhae"
+    ],
+    "sentenceIds": [
+      "s_m100_pm_statement_warning", "s_m100_culprit_no_trace", "s_m100_socalled_experts_pr", "s_m100_election_support_capital",
+      "s_m100_rage_pm_changed", "s_m100_democracy_law_punish", "s_m100_dispute_blame", "s_m100_capital_population_whereas"
+    ]
   }
 ]
