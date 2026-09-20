@@ -259,7 +259,7 @@ def check_roles(sent, fails, warns):
                 fails.append(f"{sid}: \"{t}\" glossed [obj] but tagged {role}")
         if i + 1 < len(visible):
             n = visible[i + 1]
-            if role == "subject" and re.search(r"(은|는)$", t) and " " not in n["t"] and re.search(r"(이|가)$", n["t"]) and n["role"] == "other":
+            if role == "subject" and re.search(r"(은|는)$", t) and " " not in n["t"] and re.search(r"(이|가)$", n["t"]) and n["role"] == "other" and "[subj]" in gloss_by_id.get(n["id"], ""):  # 언젠가-style adverbs end in 가 without being subjects
                 warns.append(f"{sid}: \"{t} {n['t']}\" reads as a double subject — should {n['t']} be subject?")
 
 def lint_content(words, sentences, gaps, fails, warns):
