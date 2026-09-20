@@ -2320,5 +2320,32 @@
     "lit": "Dongdaemun dawn market",
     "real": "the all-night wholesale run — shop owners from every city buying next week's stock between midnight and dawn",
     "note": "M31's 동대문 + M38's 새벽 + M3's 시장, three bare nouns: the market inside this module's 동대문시장 that only opens when the retail one shuts. From around ten at night the towers around the gate switch to 도매 (wholesale — riding frozen): buyers with rolling carts and rolls of cash, shopkeepers from 부산 (M12) and 대구 (M31) who drove up after closing, motorbikes shuttling bags to the 고속버스 터미널 (M50's 터미널) for the dawn departures. No fitting rooms, no single pieces, prices in the plural — and by six in the morning the same streets are quiet. It is the supply chain of every small clothing shop in the country, run on the 새벽 hours M38 said Korea refuses to sleep through; DDP (riding frozen) next door is the building tourists photograph while the real business happens across the road."
+  },
+  {
+    "id": "g_m84_geubi_dareuda",
+    "cat": "phrase",
+    "ko": "급이 다르다",
+    "rom": "geubi dareuda",
+    "lit": "the grade is different",
+    "real": "on another level entirely — out of one's league, in a class of its own; said of a rival, a restaurant, a girlfriend's new boyfriend",
+    "note": "This module's 급 as a bare subject of M24's 다르다: the grade differs. The ladder under it is real — TOPIK's 일 급 to 육 급, the taekwondo belts, M81's 고급 above 초급 and 중급 — and the idiom borrows its authority: 급이 달라요 concedes that the other side is not merely better but on a rung you are not on. Praise or surrender, tone decides (M29's 때문 note taught that rule for blame; it holds for rank): a fan says it of a singer, a losing team of the winner, a friend of the apartment you cannot afford. The 2010s' 클래스가 다르다 (클래스 — class, riding frozen) is the same sentence in a loanword; 급 is the older, shorter, and still the one the older generation reaches for. Never about yourself unless you are joking."
+  },
+  {
+    "id": "g_m84_beonjisu_teullida",
+    "cat": "phrase",
+    "ko": "번지수가 틀리다",
+    "rom": "beonjisuga teullida",
+    "lit": "the lot number is wrong",
+    "real": "barking up the wrong tree — you have come to the wrong person, the wrong place, the wrong idea; 번지수를 잘못 짚었어요 = you've got the wrong end of the stick",
+    "note": "This module's 번지 + 수 (number — the Sino 數 inside M76's 숫자, riding frozen as a suffix) as a bare subject of M15's 틀리다: the address on the envelope names a lot that is not this one. Born in the 번지 era, when finding a house meant matching a number to a plot, the idiom outlived the system — the road-name addresses of 2014 did not retire it — and it means every kind of misdirection: the complaint filed with the wrong office, the apology aimed at the wrong person, the argument that answers a question nobody asked. 번지수가 틀렸어요 is the polite way to say you are talking to the wrong man; 번지수를 잘못 짚다 (짚다 — to put a finger on, riding frozen) is the same wrong guess as a verb of your own doing. English aims at a tree; Korean aims at a lot."
+  },
+  {
+    "id": "g_m84_ansim_buseu",
+    "cat": "concept",
+    "ko": "안심 부스",
+    "rom": "ansim buseu",
+    "lit": "relief booth",
+    "real": "the payphone booth reborn as a safety booth — a lockable glass box on the night street with an emergency button, a camera, and a defibrillator, kept because the law still requires a public phone",
+    "note": "안심 (peace of mind — the 安 of M4's 안녕 and the 心 of M19's 마음, riding frozen) + 부스 (booth — riding frozen; the loan that also names the photo booth and the trade-show stall): what became of this module's 공중전화. The phones outlived their callers — M6's 핸드폰 took the job by the early 2000s, exactly as M83's 전화기 note said it took the landline's — but a public line is a legal obligation, so the boxes stayed on the corners, and the telecom found them new work: press the button and the door locks, the camera records, a siren sounds, and the police (M16's 경찰) are dialled; a defibrillator hangs on the wall for the other kind of emergency. Some booths lend an umbrella (M9's 우산); the phone itself still works. The drama's rain-soaked confession was made from this box; its sequel is a woman walking home at two in the morning with a glass room to step into. Korea does not tear down the obsolete; it gives it a second job."
   }
 ]

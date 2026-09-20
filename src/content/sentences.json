@@ -18900,5 +18900,215 @@
     "rom": "dongdaemunsijangeun saebyeok se siedo muneul yeoneunde sarami jeongmal manayo",
     "wordIds": ["w_dongdaemunsijang", "w_saebyeok", "w_set", "w_c_si", "w_mun", "w_yeolda", "w_saram", "w_jeongmal", "w_manta"],
     "note": "The B-list's last sentence, at the market that never closes: -는데 from M53 turns the corner between the hour and the crowd. 새벽 세 시 is M38's 새벽 (that note: \"in Korea it starts at midnight\") with M5's 셋 contracted to 세 before the hour counter, and 에도 stacks M2's 도 on the time particle — even then. 문을 열다 is M13's 열다 on M6's 문, ㄹ dropped before -는데 (여는데); 사람이 is the second subject of a double-subject frame, closed by M7's 많다 with M11's 정말. Fashion buyers, carts, cash — see the gap deck."
+  },
+  {
+    "id": "s_m84_suit_promise",
+    "en": [
+      { "t": "You have to wear", "role": "other", "id": "c" },
+      { "t": "formal wear", "role": "object", "id": "o" },
+      { "t": "to an interview,", "role": "other", "id": "a" },
+      { "t": "so I'll wear", "role": "verb", "id": "v" },
+      { "t": "my new suit", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "interview-to-[topic]", "role": "other", "id": "a" },
+      { "t": "formal-wear-[obj]", "role": "object", "id": "o" },
+      { "t": "wear-must-because", "role": "other", "id": "c" },
+      { "t": "new suit-[obj]", "role": "object", "id": "b" },
+      { "t": "wear-I-promise", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "면접에는", "role": "other", "id": "a" },
+      { "t": "정장을", "role": "object", "id": "o" },
+      { "t": "입어야 되니까", "role": "other", "id": "c" },
+      { "t": "새 양복을", "role": "object", "id": "b" },
+      { "t": "입을게요", "role": "verb", "id": "v" }
+    ],
+    "rom": "myeonjeobeneun jeongjangeul ibeoya doenikka sae yangbogeul ibeulgeyo",
+    "wordIds": ["w_myeonjeop", "w_jeongjang", "w_ipda", "w_doeda", "w_sae", "w_yangbok"],
+    "note": "The promise ending's debut, answering the question every parent asks before an interview: -(으)ㄹ게요 on M8's 입다 — 입을게요, consonant stem so 을게요, said 입을께요 — is an offer made to the listener, not a forecast; 입을 거예요 would merely announce the plan. The reason rides -아/어야 돼요 from M10 with -(으)니까 from M10 stacked on 되다 — the ending that precedes advice and offers alike. Both suit-words in one breath: 정장 is the CODE the interview demands, 양복 is the OBJECT on the hanger, with M13's 새 in front because it is the first wearing. M43's 면접 on 에는: the occasion, topicalized."
+  },
+  {
+    "id": "s_m84_payphone_callback",
+    "en": [
+      { "t": "My phone battery", "role": "subject", "id": "s" },
+      { "t": "is dead, so", "role": "other", "id": "a" },
+      { "t": "I'll call", "role": "verb", "id": "v" },
+      { "t": "again", "role": "other", "id": "b" },
+      { "t": "from a payphone", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "cellphone battery-[subj]", "role": "subject", "id": "s" },
+      { "t": "not-exist-so", "role": "other", "id": "a" },
+      { "t": "payphone-by", "role": "other", "id": "c" },
+      { "t": "again", "role": "other", "id": "b" },
+      { "t": "call-I-promise", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "핸드폰 배터리가", "role": "subject", "id": "s" },
+      { "t": "없어서", "role": "other", "id": "a" },
+      { "t": "공중전화로", "role": "other", "id": "c" },
+      { "t": "다시", "role": "other", "id": "b" },
+      { "t": "걸게요", "role": "verb", "id": "v" }
+    ],
+    "rom": "haendeupon baeteoriga eopseoseo gongjungjeonhwaro dasi geolgeyo",
+    "wordIds": ["w_haendeupon", "w_baeteori", "w_eopda", "w_gongjungjeonhwa", "w_dasi", "w_geolda"],
+    "note": "The second promise, and the ㄹ-stem rule in one word: M20's 걸다 keeps its ㄹ and takes 게요 straight — 걸게요, the call you HANG (that note's own image) pledged to the person on the other end. Ring 1's -아/어서 gives the excuse, and the battery stands as a bare subject of M1's 없다 — it does not exist, English's 'dead' be damned (M6's 핸드폰, M20's 배터리, stacked bare). 공중전화로 rides 로 from M6 in its by-means-of job: the payphone as the instrument, the drama's rain-soaked call replayed for a flat battery."
+  },
+  {
+    "id": "s_m84_urgent_meeting",
+    "en": [
+      { "t": "Because there is", "role": "other", "id": "a" },
+      { "t": "an emergency meeting,", "role": "subject", "id": "s" },
+      { "t": "the department head", "role": "subject", "id": "q" },
+      { "t": "went out", "role": "verb", "id": "v" },
+      { "t": "in a hurry", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "emergency meeting-[subj]", "role": "subject", "id": "s" },
+      { "t": "exist-because", "role": "other", "id": "a" },
+      { "t": "department-head-[hon-subj]", "role": "subject", "id": "q" },
+      { "t": "hurriedly", "role": "other", "id": "b" },
+      { "t": "go-out-[hon]-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "긴급 회의가", "role": "subject", "id": "s" },
+      { "t": "있기 때문에", "role": "other", "id": "a" },
+      { "t": "부장님께서", "role": "subject", "id": "q" },
+      { "t": "급히", "role": "other", "id": "b" },
+      { "t": "나가셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gingeup hoeuiga itgi ttaemune bujangnimkkeseo geuphi nagasyeosseoyo",
+    "wordIds": ["w_gingeup", "w_hoeui", "w_itda", "w_bujangnim", "w_geuphi", "w_nagada"],
+    "note": "The formal because, stated formally: the -기 nominalizer from M13 turns M1's 있다 into a noun, M29's 때문 takes it, 에 closes it — 있기 때문에 = because of there-being. The register is the office memo's, which is why the sentence also carries 께서 from M47 on M16's 부장님 with -(으)시- from M4 agreeing in 나가셨어요 (that is M8's 나가다), and 급히 rather than 급하게 — the written adverb for the written reason. 긴급 회의 stacks two of this module's nouns bare: an emergency meeting, the reason nobody questions."
+  },
+  {
+    "id": "s_m84_form_rewrite",
+    "en": [
+      { "t": "The reason I'm redoing", "role": "subject", "id": "s" },
+      { "t": "the application form", "role": "object", "id": "o" },
+      { "t": "is that the lot number", "role": "subject", "id": "b" },
+      { "t": "was wrong", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "application form-[obj]", "role": "object", "id": "o" },
+      { "t": "again write-[badge] thing-[topic]", "role": "subject", "id": "s" },
+      { "t": "lot-number-[subj]", "role": "subject", "id": "b" },
+      { "t": "be-wrong-did-because-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "신청 양식을", "role": "object", "id": "o" },
+      { "t": "다시 쓰는 것은", "role": "subject", "id": "s" },
+      { "t": "번지가", "role": "subject", "id": "b" },
+      { "t": "틀렸기 때문이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sincheong yangsigeul dasi sseuneun geoseun beonjiga teullyeotgi ttaemunieyo",
+    "wordIds": ["w_sincheong", "w_yangsik", "w_dasi", "w_sseuda", "w_beonji", "w_teullida"],
+    "note": "The sentence-final form — -기 때문이에요, the answer M29's 왜냐하면 note said the question 'lands on' — with the past tense inside it: 틀렸기 때문이에요, M15's 틀리다 in -았/었- then nominalized, because the mistake is already made. The subject is a whole act: -는 것 from M17 wraps 신청 양식을 다시 쓰다 — M64's 신청 stacked bare on 양식 in its 樣式 sense, M10's 쓰다 — into a thing on the topic particle, and 번지가 is the second subject of the double-subject frame. A form rewritten over one wrong lot number: the 도로명 주소 era's most common clerical grief."
+  },
+  {
+    "id": "s_m84_level_three_hedge",
+    "en": [
+      { "t": "If the level-three exam", "role": "subject", "id": "s" },
+      { "t": "is hard,", "role": "other", "id": "a" },
+      { "t": "you might fail it, so", "role": "other", "id": "c" },
+      { "t": "study", "role": "verb", "id": "v" },
+      { "t": "hard", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "three level exam-[subj]", "role": "subject", "id": "s" },
+      { "t": "difficult-if", "role": "other", "id": "a" },
+      { "t": "fall-[badge] way-also exist-because", "role": "other", "id": "c" },
+      { "t": "diligently", "role": "other", "id": "d" },
+      { "t": "study-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "삼 급 시험이", "role": "subject", "id": "s" },
+      { "t": "어려우면", "role": "other", "id": "a" },
+      { "t": "떨어질 수도 있으니까", "role": "other", "id": "c" },
+      { "t": "열심히", "role": "other", "id": "d" },
+      { "t": "공부하세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sam geup siheomi eoryeoumyeon tteoreojil sudo isseunikka yeolsimhi gongbuhaseyo",
+    "wordIds": ["w_n_sam", "w_geup", "w_siheom", "w_eoryeopda", "w_tteoreojida", "w_yeolsimhi", "w_gongbuhada"],
+    "note": "The might, in its most-used outfit — the hedge before advice: -(으)ㄹ 수 있다 from M10 with 도 from M2 on the 수 (a way exists, EVEN that one) and -(으)니까 from M10 closing it, so that 공부하세요 (-(으)세요 from M9, M1's 공부하다) can follow. M36's 떨어지다 is the exam-faller from its own note, wearing the prospective badge: 떨어질. 삼 급 시험 is the TOPIK level, Sino number in front because 급 labels; -(으)면 from M20 sets the condition on M7's 어렵다 (ㅂ softening: 어려우면). The door is not locked, says the ending; study, says the mouth."
+  },
+  {
+    "id": "s_m84_room_route",
+    "en": [
+      { "t": "To get to room 301,", "role": "other", "id": "a" },
+      { "t": "take", "role": "other", "id": "b" },
+      { "t": "the elevator", "role": "object", "id": "o" },
+      { "t": "and you have to get off", "role": "verb", "id": "v" },
+      { "t": "on the third floor", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "three-hundred-one room-number-to go-intend-if", "role": "other", "id": "a" },
+      { "t": "elevator-[obj]", "role": "object", "id": "o" },
+      { "t": "ride-and", "role": "other", "id": "b" },
+      { "t": "three floor-at", "role": "place", "id": "p" },
+      { "t": "get-off-must", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "삼백일 호실에 가려면", "role": "other", "id": "a" },
+      { "t": "엘리베이터를", "role": "object", "id": "o" },
+      { "t": "타고", "role": "other", "id": "b" },
+      { "t": "삼 층에서", "role": "place", "id": "p" },
+      { "t": "내려야 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sambaegil hosire garyeomyeon ellibeiteoreul tago sam cheungeseo naeryeoya dwaeyo",
+    "wordIds": ["w_n_sam", "w_baek", "w_n_il", "w_hosil", "w_gada", "w_ellibeiteo", "w_tada", "w_cheung", "w_naerida"],
+    "note": "The if-you-mean-to ending and its natural closer: 가려면 — M1's 가다 with -(으)려면, which is -(으)려고 from M50 welded to -(으)면 from M20 — sets the intention, and -아/어야 돼요 from M10 delivers the route on M6's 내리다. 삼백일 호실 is room 301 written out in Sino numbers (M2's 삼 and 일, M9's 백), the label counter doing what M76 said labels do; 삼 층 is M13's 층 on the same rule, and the two numbers agree the way hotel floors and room numbers do. M13's 엘리베이터 on M6's 타다 with verb--고 from M10: the whole direction in one sentence."
+  },
+  {
+    "id": "s_m84_typhoon_express",
+    "en": [
+      { "t": "Because of typhoon number eight,", "role": "other", "id": "a" },
+      { "t": "the express train", "role": "subject", "id": "s" },
+      { "t": "might be late", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "eight number typhoon because-of", "role": "other", "id": "a" },
+      { "t": "top-grade train-[subj]", "role": "subject", "id": "s" },
+      { "t": "be-late-[badge] way-also exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "팔 호 태풍 때문에", "role": "other", "id": "a" },
+      { "t": "특급 열차가", "role": "subject", "id": "s" },
+      { "t": "늦을 수도 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pal ho taepung ttaemune teukgeup yeolchaga neujeul sudo isseoyo",
+    "wordIds": ["w_n_pal", "w_ho", "w_taepung", "w_ttaemun", "w_teukgeup", "w_yeolcha", "w_neutda"],
+    "note": "The might standing alone, closing the sentence: 늦을 수도 있어요 — M8's 늦다 on the prospective badge, 수, 도, 있다 — says only that lateness is not ruled out; 늦을 거예요 would bet on it, 늦겠어요 would read it off the sky. The reason is the OTHER 때문: M29's 때문 in its noun job, straight on 태풍 (M11), no -기 needed because a typhoon is already a noun — the radar this module's Part 3 draws. 팔 호 labels the storm the way the news does (M2's 팔 in front of 호), and 특급 열차 stacks two grades: the top-rank train on M50's 열차, which even a typhoon can only maybe delay."
+  },
+  {
+    "id": "s_m84_roses_return",
+    "en": [
+      { "t": "Even when the leaves", "role": "subject", "id": "s" },
+      { "t": "all fall,", "role": "other", "id": "a" },
+      { "t": "roses", "role": "subject", "id": "q" },
+      { "t": "bloom", "role": "verb", "id": "v" },
+      { "t": "again", "role": "other", "id": "b" },
+      { "t": "every spring", "role": "other", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "leaf-[subj]", "role": "subject", "id": "s" },
+      { "t": "all fall-even-if", "role": "other", "id": "a" },
+      { "t": "rose-[topic]", "role": "subject", "id": "q" },
+      { "t": "spring-every", "role": "other", "id": "t" },
+      { "t": "again", "role": "other", "id": "b" },
+      { "t": "bloom", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "잎이", "role": "subject", "id": "s" },
+      { "t": "다 떨어져도", "role": "other", "id": "a" },
+      { "t": "장미는", "role": "subject", "id": "q" },
+      { "t": "봄마다", "role": "other", "id": "t" },
+      { "t": "다시", "role": "other", "id": "b" },
+      { "t": "피어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ipi da tteoreojyeodo jangmineun bommada dasi pieoyo",
+    "wordIds": ["w_ip_leaf", "w_da", "w_tteoreojida", "w_jangmi", "w_bom", "w_dasi", "w_pida"],
+    "note": "The ring's last sentence, on its two Grade-A plants: 잎이 — and now you hear the difference, 이피, not the 이비 of M14's 입 — stands as a bare subject inside the concession, -아/어도 from M39 on M36's 떨어지다 with M9's 다 in front; 장미는 takes the topic as the sentence's real subject. 마다 from M31 on M11's 봄 makes it a law of the calendar, M10's 다시 makes it a return, and M22's 피다 — 피어요, the same form s22_flowers_bloom used — closes. No new glue; every part is a promise an earlier module kept."
   }
 ]

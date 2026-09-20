@@ -2014,5 +2014,22 @@
       "s_m83_airport_plan", "s_m83_student_discount", "s_m83_contact_change", "s_m83_handset",
       "s_m83_clean_ahead", "s_m83_volleyball_only", "s_m83_standing_commute", "s_m83_dongdaemun_dawn"
     ]
+  },
+  {
+    "id": "m84",
+    "title": "Loose Ends",
+    "order": 93,
+    "ring": 2,
+    "contentMd": "modules/module-84.md",
+    "wordIds": [
+      "w_geup", "w_hakgeup", "w_teukgeup", "w_geuphi",
+      "w_gingeup", "w_ho", "w_hosil", "w_beonji",
+      "w_ip_leaf", "w_yangbok", "w_jeongjang", "w_yangsik",
+      "w_yangju", "w_gongjungjeonhwa", "w_gongjung", "w_jangmi"
+    ],
+    "sentenceIds": [
+      "s_m84_suit_promise", "s_m84_payphone_callback", "s_m84_urgent_meeting", "s_m84_form_rewrite",
+      "s_m84_level_three_hedge", "s_m84_room_route", "s_m84_typhoon_express", "s_m84_roses_return"
+    ]
   }
 ]
