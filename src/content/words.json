@@ -1384,7 +1384,7 @@
 
   { "id": "w_ohae", "ko": "오해", "rom": "ohae", "en": "misunderstanding", "pos": "noun", "moduleId": "m24", "notes": "오 (wrong) + 해 (untangle — M10's 이해's 해): understanding, done wrong. 오해하지 마세요 — don't get me wrong — the sentence that always arrives one sentence too late." },
 
-  { "id": "w_bandae", "ko": "반대", "rom": "bandae", "en": "opposite / against", "pos": "noun", "moduleId": "m24", "notes": "반 (flip — not M19's half-반) + 대 (facing — 대화's 대): flipped-facing. 반대예요 — I'm against it. Also plain geometry: 반대쪽, the opposite side, with M23's 쪽." },
+  { "id": "w_bandae", "ko": "반대", "rom": "bandae", "en": "opposite / against", "pos": "noun", "moduleId": "m24", "notes": "반 (flip — not M5's half-반) + 대 (facing — 대화's 대): flipped-facing. 반대예요 — I'm against it. Also plain geometry: 반대쪽, the opposite side, with M23's 쪽." },
 
   { "id": "w_yennal", "ko": "옛날", "rom": "yennal", "en": "the old days", "pos": "noun", "moduleId": "m24", "notes": "옛 (old) + 날 (day), said 옌날 — the interlude's nasal slide, live. 옛날 옛날에 — 'long, long ago' — is how every 옛날이야기 opens." },
 
