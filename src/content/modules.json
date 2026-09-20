@@ -2052,5 +2052,27 @@
       "s_m86_typhoon_damage", "s_m86_despite_means", "s_m86_audience_reaction", "s_m86_salary_late",
       "s_m86_solution_lunch", "s_m86_accident_dependence", "s_m86_burden_giveup", "s_m86_research_effect"
     ]
+  },
+  {
+    "id": "m85",
+    "title": "The Written Voice",
+    "order": 94,
+    "ring": 2,
+    "contentMd": "modules/module-85.md",
+    "wordIds": [
+      "w_ttaraseo", "w_deouk", "w_ildan", "w_dalli",
+      "w_daman", "w_gyeolko", "w_siljero", "w_gwayeon",
+      "w_dodaeche", "w_daso", "w_geujeo", "w_geurihayeo",
+      "w_apseo", "w_ttaero", "w_neolli", "w_biroso",
+      "w_aye", "w_eojji", "w_sangdanghi", "w_chameuro",
+      "w_daechero", "w_mundeuk", "w_daegae", "w_sasilsang",
+      "w_kkeunimeopsi", "w_aulleo", "w_seoseohi", "w_geunama",
+      "w_geuyamallo", "w_wonak", "w_sillo", "w_geunyeo",
+      "w_geui", "w_jane", "w_nom"
+    ],
+    "sentenceIds": [
+      "s_m85_she_smiled", "s_m85_hotel_wide_cheap", "s_m85_elevator_stairs", "s_m85_snow_stay_in",
+      "s_m85_effort_exam", "s_m85_guy_took_money", "s_m85_husband_paper", "s_m85_grandfather_words"
+    ]
   }
 ]

@@ -64,7 +64,7 @@ for g in dg: corpus.append((g["id"], g["note"]))
 corpus.append(("md", dmd))
 
 pat_poss = re.compile(r"M(\d+)(?:'s|’s)\s+([^\s,.;:()!?—]+)")
-pat_paren = re.compile(r"([가-힣]+)\s*\(M(\d+)(?![’']s)")  # skip house-style "phrase (Mnn's word)"
+pat_paren = re.compile(r"([가-힣]+)\s*\(M(\d+)(?!\d)(?![’']s)")  # skip house-style "phrase (Mnn's word)"
 
 def check_ref(src, mod, token):
     mid = f"m{mod}"
