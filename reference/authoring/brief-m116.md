@@ -77,7 +77,7 @@ which half moved and where the meaning drifted away from the sum.
    note's decode and say the hanja differ), 불리하다 (不利 — 不 of M39's
    부족하다 + 利 (advantage — verify a taught 利 and cite it): to be
    disadvantageous — 불리한 조건 (M39's 조건), 불리한 상황 (M33's 상황); the
-   mirror 유리하다 rides frozen, and RADAR: that 유리 is NOT M36's 유리, the
+   M108's 유리하다 if shipped is its mirror — quote that note; RADAR: that 유리 is NOT M36's 유리, the
    glass), 잘나다 (M10's 잘 + M28's 나다: to be full of oneself — the weld
    drifted all the way to sarcasm: 잘났어 = aren't you special; 못나다 (its
    mirror) rides frozen; a rare case where the sum tells you nothing),
