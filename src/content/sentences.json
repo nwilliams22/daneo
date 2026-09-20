@@ -23064,5 +23064,191 @@
     "rom": "oraedoen iyagineun gyeolguk yeoksae muchigi maryeonieyo",
     "wordIds": ["w_oraedoeda", "w_iyagi", "w_gyeolguk", "w_yeoksa", "w_muchida", "w_maryeon"],
     "note": "Recycles -기 마련이다 from M87 — the -기 nominalizer from M13 on 마련 — where that md's line was \"the world has already arranged it\", and it sorted the pair: \"셈 counts what has happened; 마련 says what was always going to\". The verb is the module's thesis in one word: 묻히다 is 묻다 (bury — riding frozen) through the passive party of M36, the homograph M28's 묻다 flagged in its own note (\"A homograph 묻다 buries things — context, as ever, decides.\"), and its second NIKL row is the dirt one, 옷에 흙을 묻히다. 오래된 is M35's 오래되다 under the badge -(으)ㄴ from M24. Roles: 역사에 is place, 결국 is other (an adverb), and the whole 묻히기 마련이에요 closes as verb."
+  },
+  {
+    "id": "s_m105_manuscript_announced",
+    "en": [
+      { "t": "The manuscript", "role": "subject", "id": "s" },
+      { "t": "has not yet been confirmed, so", "role": "other", "id": "a" },
+      { "t": "the result", "role": "subject", "id": "t" },
+      { "t": "will be announced", "role": "verb", "id": "v" },
+      { "t": "tomorrow", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "manuscript-[subj]", "role": "subject", "id": "s" },
+      { "t": "yet confirm-become-not-did-since", "role": "other", "id": "a" },
+      { "t": "result-[topic]", "role": "subject", "id": "t" },
+      { "t": "tomorrow", "role": "other", "id": "d" },
+      { "t": "announce-become-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "원고가", "role": "subject", "id": "s" },
+      { "t": "아직 확인되지 않았으므로", "role": "other", "id": "a" },
+      { "t": "결과는", "role": "subject", "id": "t" },
+      { "t": "내일", "role": "other", "id": "d" },
+      { "t": "발표됩니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "wongoga ajik hwagindoeji anasseumeuro gyeolgwaneun naeil balpyodoemnida",
+    "wordIds": ["w_wongo", "w_ajik", "w_hwagindoeda", "w_gyeolgwa", "w_naeil", "w_balpyodoeda"],
+    "note": "Recycles -(으)므로 from M85 — the written because that md ranked \"the fourth row and the most formal of all\", the one ending that can carry a notice and an instruction at once. Two of today's flips do the whole sentence's work: 확인되지 않았으므로 (M20's 확인하다 flipped, under the long negation -지 않다 from M28 with M14's 아직 in front) and 발표됩니다 in the 합니다체 from M4 — and between them no human being appears. That is the module's thesis in one line: the office writes 되다 precisely so it never has to name who checked the copy or who will post the notice. The roles drill: 아직 확인되지 않았으므로 is a connective, other; 원고가 and 결과는 are both subject; 발표됩니다 alone is verb."
+  },
+  {
+    "id": "s_m105_illness_stamina",
+    "en": [
+      { "t": "Because of the illness,", "role": "other", "id": "a" },
+      { "t": "my stamina", "role": "subject", "id": "s" },
+      { "t": "has weakened", "role": "verb", "id": "v" },
+      { "t": "a lot", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "disease-by due-to", "role": "other", "id": "a" },
+      { "t": "stamina-[subj]", "role": "subject", "id": "s" },
+      { "t": "much", "role": "other", "id": "d" },
+      { "t": "weak-became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "질병으로 인해", "role": "other", "id": "a" },
+      { "t": "체력이", "role": "subject", "id": "s" },
+      { "t": "많이", "role": "other", "id": "d" },
+      { "t": "약해졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jilbyeongeuro inhae cheryeogi mani yakhaejyeosseoyo",
+    "wordIds": ["w_jilbyeong", "w_inhada", "w_cheryeok", "w_mani", "w_yakhada"],
+    "note": "Recycles -(으)로 인해 from M86 — M86's 인하다 frozen in -아/어, the frame that md sorted by register: \"눈 때문에 is what you say, 폭설로 인해 is what the sign says\". Today's 질병 is exactly the noun that frame wants: 병 때문에 is the patient talking, 질병으로 인해 is the chart. Then today's 체력 on the bare 이 and M63's 약하다 under -아/어지다 from M35 — 약해졌어요, weakened over time rather than weak by nature, which is the whole point of that machine. The roles drill: 질병으로 인해 is other, 체력이 is subject even though English says my."
+  },
+  {
+    "id": "s_m105_wanted_resolved",
+    "en": [
+      { "t": "The thing I had wanted so badly", "role": "subject", "id": "s" },
+      { "t": "got resolved", "role": "verb", "id": "v" },
+      { "t": "without a word", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "that-much want-[past-badge] matter-[subj]", "role": "subject", "id": "s" },
+      { "t": "word-without", "role": "other", "id": "d" },
+      { "t": "solve-become-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그토록 원하던 일이", "role": "subject", "id": "s" },
+      { "t": "말없이", "role": "other", "id": "d" },
+      { "t": "해결됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geutorok wonhadeon iri mareopsi haegyeoldwaesseoyo",
+    "wordIds": ["w_geutorok", "w_wonhada", "w_n_il", "w_mareopsi", "w_haegyeoldoeda"],
+    "note": "Recycles -던 from M88 — the retrospective badge, in its habitual reading: \"내가 살던 집 = the house I used to live in\", and here 원하던 일 = the thing I kept on wanting, over a stretch that is now closed. Two of today's adverbs frame it: 그토록 sets the degree (M33's 그렇게 would say it aloud; 그토록 writes it) and 말없이 says nobody announced anything. The flip closes: 해결됐어요, M56's 해결하다 with the credit deliberately withheld — 해결했어요 would name the person who untied the knot, and this sentence is about the fact that no one did, visibly. The roles drill takes the whole long modifier 그토록 원하던 일이 as one subject chunk, and 말없이 as other."
+  },
+  {
+    "id": "s_m105_waiting_room_thousand",
+    "en": [
+      { "t": "In the waiting room,", "role": "place", "id": "p" },
+      { "t": "with not a seat left to sit in,", "role": "other", "id": "a" },
+      { "t": "a full thousand people", "role": "subject", "id": "s" },
+      { "t": "were waiting", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "waiting-room-in-[topic]", "role": "place", "id": "p" },
+      { "t": "sit-[fut] seat-[subj] not-exist-[fut] extent-to", "role": "other", "id": "a" },
+      { "t": "as-many-as thousand people-[subj]", "role": "subject", "id": "s" },
+      { "t": "wait-and was", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "대합실에는", "role": "place", "id": "p" },
+      { "t": "앉을 자리가 없을 정도로", "role": "other", "id": "a" },
+      { "t": "무려 천 명이", "role": "subject", "id": "s" },
+      { "t": "기다리고 있었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "daehapsireneun anjeul jariga eopseul jeongdoro muryeo cheon myeongi gidarigo isseosseoyo",
+    "wordIds": ["w_daehapsil", "w_anda", "w_jari", "w_eopda", "w_jeongdo", "w_muryeo", "w_cheon", "w_c_myeong", "w_gidarida"],
+    "note": "Recycles -(으)ㄹ 정도로 from M89 — the extent frame, which that md separated from its neighbour in one line: \"정도로 measures INTENSITY, 만큼 measures AMOUNT\". The clause 앉을 자리가 없을 정도로 (M9's 앉다 under the prospective badge, M12's 자리, M1's 없다) measures how crowded, not how many — the how many comes after it, in today's 무려 on M9's 천 and the counter 명 from M5. Written in hangul, never in digits, as every shipped sentence is. Today's 대합실 takes 에는, so the roles drill reads it as place; 앉을 자리가 없을 정도로 is a connective clause, other; 무려 천 명이 is the subject; only 기다리고 있었어요 is verb."
+  },
+  {
+    "id": "s_m105_diagnosis_rest",
+    "en": [
+      { "t": "As a result of getting a diagnosis from the doctor,", "role": "other", "id": "a" },
+      { "t": "I ended up taking", "role": "verb", "id": "v" },
+      { "t": "a rest", "role": "object", "id": "o" },
+      { "t": "for a long while", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "doctor-from diagnosis-[obj] receive-[past-badge] result", "role": "other", "id": "a" },
+      { "t": "long-while", "role": "other", "id": "d" },
+      { "t": "rest-[obj]", "role": "object", "id": "o" },
+      { "t": "take-became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "의사에게 진단을 받은 결과", "role": "other", "id": "a" },
+      { "t": "오랫동안", "role": "other", "id": "d" },
+      { "t": "휴식을", "role": "object", "id": "o" },
+      { "t": "취하게 됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "uisaege jindaneul badeun gyeolgwa oraetdongan hyusigeul chwihage dwaesseoyo",
+    "wordIds": ["w_uisa", "w_jindan", "w_batda", "w_gyeolgwa", "w_oraetdongan", "w_hyusik", "w_chwihada", "w_doeda"],
+    "note": "Recycles -(으)ㄴ 결과 from M90 — M32's 결과 taking a clause instead of a noun, in what that md called \"The report's favourite hinge: what was done, comma, what came of it\". The doing is 진단을 받은 (M9's 받다, the past badge -(으)ㄴ from M24) and what came of it is the phrase M61's 취하다 has been holding for this module: 휴식을 취하다, the formal take that only 휴식 takes. -게 되다 from M35 supplies the modesty — 취하게 됐어요 = it came to that, rather than I decided. The roles drill: the whole hinge 의사에게 진단을 받은 결과 is other, 휴식을 is object, and 취하게 됐어요 is one predicate, verb."
+  },
+  {
+    "id": "s_m105_bank_account_number",
+    "en": [
+      { "t": "Since I was going to the bank anyway,", "role": "other", "id": "a" },
+      { "t": "I checked", "role": "verb", "id": "v" },
+      { "t": "my account number too", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "bank-to go-[badge] occasion-at", "role": "other", "id": "a" },
+      { "t": "account number-also", "role": "object", "id": "o" },
+      { "t": "check-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "은행에 가는 김에", "role": "other", "id": "a" },
+      { "t": "계좌 번호도", "role": "object", "id": "o" },
+      { "t": "확인했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eunhaenge ganeun gime gyejwa beonhodo hwaginhaesseoyo",
+    "wordIds": ["w_eunhaeng", "w_gada", "w_gyejwa", "w_beonho", "w_hwaginhada"],
+    "note": "Recycles -는 김에 from M91 — the frame that \"rides an occasion that ALREADY exists\": the trip to M6's 은행 was happening, and today's 계좌 번호 (M20's 번호) got checked on its back, with the 도 from M2 riding along as that md says the extra act always does. Set this one beside the module's first sentence on purpose: here the verb is M20's 확인하다, with a person doing the checking — 확인했어요 — and there it was 확인되지 않았으므로, the same root with the person removed. One module, one machine, both sides of it. The roles drill: 은행에 가는 김에 is other, 계좌 번호도 is object."
+  },
+  {
+    "id": "s_m105_manuscript_three_sentences",
+    "en": [
+      { "t": "I did write", "role": "other", "id": "a" },
+      { "t": "the manuscript,", "role": "object", "id": "o" },
+      { "t": "but it's only three sentences", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "manuscript-[obj]", "role": "object", "id": "o" },
+      { "t": "write-[nom]-[topic] wrote-but", "role": "other", "id": "a" },
+      { "t": "merely three sentence-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "원고를", "role": "object", "id": "o" },
+      { "t": "쓰기는 썼는데", "role": "other", "id": "a" },
+      { "t": "고작 세 문장이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "wongoreul sseugineun sseonneunde gojak se munjangieyo",
+    "wordIds": ["w_wongo", "w_sseuda", "w_gojak", "w_set", "w_munjang"],
+    "note": "Recycles -기는 하다 from M92 in the shape that md called out — \"The doubled form repeats the verb instead of using 하다\" — so M10's 쓰다 concedes to itself: 쓰기는 썼는데 = write it I did, but. Behind it stands today's 하긴, which is this very machine worn down to one word. Then the verdict: 고작 세 문장 — the number in hangul, the counter-less 문장 (M33's 문장) taking 세 straight, and 고작 doing what M62's 겨우 would refuse to do here, which is to sneer at it. -는데 from M53 hands the listener the rest of the complaint. The roles drill: 쓰기는 썼는데 is a connective, other; the copula chunk 고작 세 문장이에요 closes, so it is verb."
+  },
+  {
+    "id": "s_m105_store_camera",
+    "en": [
+      { "t": "Soon", "role": "other", "id": "d" },
+      { "t": "a camera", "role": "subject", "id": "s" },
+      { "t": "will probably be installed", "role": "verb", "id": "v" },
+      { "t": "in that store as well", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "that store-at-also", "role": "place", "id": "p" },
+      { "t": "soon", "role": "other", "id": "d" },
+      { "t": "camera-[subj]", "role": "subject", "id": "s" },
+      { "t": "install-become-will-I-guess", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 매장에도", "role": "place", "id": "p" },
+      { "t": "곧", "role": "other", "id": "d" },
+      { "t": "카메라가", "role": "subject", "id": "s" },
+      { "t": "설치될걸요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu maejangedo got kameraga seolchidoelgeoryo",
+    "wordIds": ["w_geu_det", "w_maejang", "w_got", "w_kamera", "w_seolchidoeda"],
+    "note": "Recycles -(으)ㄹ걸요 from M93 — \"the guess with a shrug in it\", the spoken end of the whole guess-family, and that md's radar decides everything about how you say it: \"Rising and to someone, a guess; falling and to yourself, a sigh.\" Today's 매장 takes 에도 (M29's 그 in front, the 도 from M2 behind) and today's 설치되다 takes the guess: 설치될걸요 — somebody will put a camera in, and the speaker neither knows nor needs to know who. M91's 설치하다 with a subject would have named the installer. The roles drill: 그 매장에도 is place, M10's 곧 is other, 카메라가 is subject, 설치될걸요 is verb."
   }
 ]
