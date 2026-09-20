@@ -23658,5 +23658,200 @@
     "rom": "hyeongeun eoryeoun ildo dangdanghage haenaeneun banmyeone jeoneun silpaega duryeowoyo",
     "wordIds": ["w_hyeong", "w_eoryeopda", "w_ilhada", "w_dangdanghada", "w_haenaeda", "w_jeo", "w_silpae", "w_duryeopda"],
     "note": "Recycles 반면에 from M95 — M95's 반면 after a badge-clause — and that md's reason for it holds: it \"BALANCES two facts on a scale and leans on neither\", which is why each half takes its own 은/는, 형은 and 저는. 당당하다 is 堂堂, the 堂 of M65's 강당 doubled, here in the -게 adverbializer from M33; 해내다 is M1's 하다 + M28's 내다, the verb kept for what looked unmanageable; 두렵다 is the ㅂ-irregular fear you admit rather than the M24's 무섭다 you shout. Roles: 실패가 is subject, not object — Korean does not fear a thing, the thing is fearsome to you."
+  },
+  {
+    "id": "s_m108_statistics_prevention",
+    "en": [
+      { "t": "According to the statistics,", "role": "other", "id": "a" },
+      { "t": "a considerable part of accidents", "role": "subject", "id": "s" },
+      { "t": "can be prevented", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "statistics-at follow-if", "role": "other", "id": "a" },
+      { "t": "accident-[poss] considerable part-[topic]", "role": "subject", "id": "s" },
+      { "t": "prevent-[fut] way exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "통계에 따르면", "role": "other", "id": "a" },
+      { "t": "사고의 상당 부분은", "role": "subject", "id": "s" },
+      { "t": "예방할 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "tonggyee ttareumyeon sagoui sangdang bubuneun yebanghal su isseoyo",
+    "wordIds": ["w_tonggye", "w_ttareuda", "w_sago", "w_sangdang", "w_bubun", "w_yebang", "w_hada", "w_itda"],
+    "note": "Recycles 에 따르면 from M90 — the source frame, and today's 통계 is the noun it was built for: a report opens 통계에 따르면 the way M24's 뉴스 opens the spoken version. Two more of today's words do the rest. 상당 stamps M32's 부분 from the front with no ending at all — 상당 부분, the print-only determiner shape — and 예방 takes the -(으)ㄹ 수 있다 from M10, which is how a prevention noun becomes a claim. Sort it against 방지 at the other end of the shelf: 사고 예방 stops the accident happening at all; 사고 방지 stops it happening again. The roles drill: 통계에 따르면 is a connective, other; the whole long 사고의 상당 부분은 is one subject chunk; only 예방할 수 있어요 is verb."
+  },
+  {
+    "id": "s_m108_factory_serviced",
+    "en": [
+      { "t": "The factory", "role": "subject", "id": "s" },
+      { "t": "serviced", "role": "other", "id": "c" },
+      { "t": "the machines", "role": "object", "id": "o" },
+      { "t": "and completed", "role": "verb", "id": "v" },
+      { "t": "the new device", "role": "object", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "factory-[topic]", "role": "subject", "id": "s" },
+      { "t": "machine-[obj]", "role": "object", "id": "o" },
+      { "t": "service-and", "role": "other", "id": "c" },
+      { "t": "new device-[obj]", "role": "object", "id": "d" },
+      { "t": "complete-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "공장은", "role": "subject", "id": "s" },
+      { "t": "기계를", "role": "object", "id": "o" },
+      { "t": "정비하며", "role": "other", "id": "c" },
+      { "t": "새 기기를", "role": "object", "id": "d" },
+      { "t": "완성했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gongjangeun gigyereul jeongbihamyeo sae gigireul wanseonghaesseoyo",
+    "wordIds": ["w_gongjang", "w_gigye", "w_jeongbi", "w_sae", "w_gigi", "w_wanseong", "w_hada"],
+    "note": "Recycles -(으)며 from M85 — the written and/while, which lets one subject do two things in a single printed breath; no mouth says 정비하며. The sentence exists to stand today's two 기-words side by side in M43's 공장: M72's 기계 is the iron with a motor, 기기 is the appliance with a plug, and the factory services one to finish the other. 완성했어요 closes it with the noun that M114 will mount a verb on properly; here 완성하다 still rides frozen, the way 정비하다 does. The roles drill: 정비하며 is a connective verb form and therefore other, not verb — only 완성했어요 closes, and the sentence legally carries two objects because two things get done."
+  },
+  {
+    "id": "s_m108_freedom_backlash",
+    "en": [
+      { "t": "If you restrict", "role": "other", "id": "c" },
+      { "t": "freedom,", "role": "object", "id": "o" },
+      { "t": "backlash", "role": "subject", "id": "s" },
+      { "t": "is bound to be big", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "freedom-[obj]", "role": "object", "id": "o" },
+      { "t": "restrict-if", "role": "other", "id": "c" },
+      { "t": "backlash-[subj]", "role": "subject", "id": "s" },
+      { "t": "big-being bound-to-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "자유를", "role": "object", "id": "o" },
+      { "t": "제한하면", "role": "other", "id": "c" },
+      { "t": "반발이", "role": "subject", "id": "s" },
+      { "t": "크기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jayureul jehanhamyeon banbari keugi maryeonieyo",
+    "wordIds": ["w_jayu", "w_jehanhada", "w_banbal", "w_keuda", "w_maryeon"],
+    "note": "Recycles -기 마련이다 from M87 — the verdict that a thing is bound to happen, built on the -기 nominalizer from M13 and M87's 마련. It is the right ending for a social law rather than a forecast: restrict M23's 자유 and the 반발 follows, not probably but necessarily. Underneath sits -(으)면 from M20, the plainest condition Korean has, so the whole sentence is one Ring 1 frame with one Band 7 closer. The roles drill: 제한하면 is a connective form and therefore other; 반발이 is a bare 이 subject; and 크기 마련이에요 is one verb chunk, auxiliary and all."
+  },
+  {
+    "id": "s_m108_observe_thoroughly",
+    "en": [
+      { "t": "The more", "role": "other", "id": "c" },
+      { "t": "thoroughly you observe,", "role": "other", "id": "d" },
+      { "t": "the results", "role": "subject", "id": "s" },
+      { "t": "become clearer", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "thoroughly", "role": "other", "id": "d" },
+      { "t": "observe-the-more", "role": "other", "id": "c" },
+      { "t": "result-[subj]", "role": "subject", "id": "s" },
+      { "t": "clear-becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "철저히", "role": "other", "id": "d" },
+      { "t": "관찰할수록", "role": "other", "id": "c" },
+      { "t": "결과가", "role": "subject", "id": "s" },
+      { "t": "분명해져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "cheoljeohi gwanchalhalsurok gyeolgwaga bunmyeonghaejyeoyo",
+    "wordIds": ["w_cheoljeohi", "w_gwanchal", "w_hada", "w_gyeolgwa", "w_bunmyeonghada"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — the more, the more, the ending that makes two quantities move together. Today's 철저히 is the adverb M89's 철저하다 left riding frozen, and it lands in front of the verb where that shelf's -게 form used to go; today's 관찰 takes 하다 and becomes the verb M72 taught, since 관찰하다 and 보다 are not the same act. The closer is M34's 분명하다 under -아/어지다 from M35 — clarity arriving over time rather than being there from the start, which is the whole argument of the sentence. The roles drill: 철저히 is an adverb, other; 관찰할수록 is a connective, other; only 분명해져요 is verb."
+  },
+  {
+    "id": "s_m108_reported_prison",
+    "en": [
+      { "t": "When I reported it to the police,", "role": "other", "id": "a" },
+      { "t": "the man", "role": "subject", "id": "s" },
+      { "t": "went", "role": "verb", "id": "v" },
+      { "t": "to prison", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "police-to report-did-and-found", "role": "other", "id": "a" },
+      { "t": "that person-[subj]", "role": "subject", "id": "s" },
+      { "t": "prison-to", "role": "place", "id": "p" },
+      { "t": "went", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "경찰에 신고했더니", "role": "other", "id": "a" },
+      { "t": "그 사람이", "role": "subject", "id": "s" },
+      { "t": "감옥에", "role": "place", "id": "p" },
+      { "t": "갔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeongchare singohaetdeoni geu sarami gamoge gasseoyo",
+    "wordIds": ["w_gyeongchal", "w_singohada", "w_geu_det", "w_saram", "w_gamok", "w_gada"],
+    "note": "Recycles -았/었더니 from M88 — I did X, and found Y, the ending that reports a consequence the speaker did not control. It fits today's 신고하다 exactly: you file the report, and what the state does next is no longer yours. M75's 신고 note already printed the frame this sentence uses — \"112에 신고하세요\" — and the verb it promised (\"신고하다 rides free\") is the one conjugated here. 감옥 is the word of drama; a news report would print 교도소, which rides frozen. The roles drill: the whole 경찰에 신고했더니 is one connective chunk, other; 감옥에 is place; only 갔어요 is verb."
+  },
+  {
+    "id": "s_m108_swore_lied_punished",
+    "en": [
+      { "t": "That student", "role": "subject", "id": "s" },
+      { "t": "swore,", "role": "other", "id": "a" },
+      { "t": "and on top of that even lied, so", "role": "other", "id": "b" },
+      { "t": "he was punished", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that student-[topic]", "role": "subject", "id": "s" },
+      { "t": "swearing-[obj] did-on-top-of", "role": "other", "id": "a" },
+      { "t": "lie-even did-so", "role": "other", "id": "b" },
+      { "t": "punishment-[obj] received", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 학생은", "role": "subject", "id": "s" },
+      { "t": "욕을 한 데다가", "role": "other", "id": "a" },
+      { "t": "거짓말까지 해서", "role": "other", "id": "b" },
+      { "t": "벌을 받았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu haksaengeun yogeul han dedaga geojinmalkkaji haeseo beoreul badasseoyo",
+    "wordIds": ["w_geu_det", "w_haksaeng", "w_yok", "w_hada", "w_geojinmal", "w_beol", "w_batda"],
+    "note": "Recycles -(으)ㄴ/는 데다가 from M92 — on top of, the ending that stacks a second fault onto the first instead of merely listing it. Today's two one-syllable nouns run the whole line: 욕 takes 하다 (욕을 하다 = to swear at someone) and 벌 takes M9's 받다, which is the collocation M100's 처벌 note pointed at when it filed bare 벌 as the penalty \"a teacher or a parent gives\". M19's 거짓말 rides 까지 for the stacking, and -아/어서 from M10 turns the stack into a cause. The roles drill: both 욕을 한 데다가 and 거짓말까지 해서 are connective clauses, other; only 벌을 받았어요 closes, and it keeps its object inside the verb chunk."
+  },
+  {
+    "id": "s_m108_terms_favorable_limited",
+    "en": [
+      { "t": "These terms", "role": "subject", "id": "s" },
+      { "t": "are favorable to us, whereas", "role": "other", "id": "a" },
+      { "t": "the period", "role": "subject", "id": "t" },
+      { "t": "is limited", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this condition-[topic]", "role": "subject", "id": "s" },
+      { "t": "us-to favorable-[badge] whereas", "role": "other", "id": "a" },
+      { "t": "period-[subj]", "role": "subject", "id": "t" },
+      { "t": "limit-became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 조건은", "role": "subject", "id": "s" },
+      { "t": "우리에게 유리한 반면에", "role": "other", "id": "a" },
+      { "t": "기간이", "role": "subject", "id": "t" },
+      { "t": "한정됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i jogeoneun uriege yurihan banmyeone gigani hanjeongdwaesseoyo",
+    "wordIds": ["w_i_det", "w_jogeon", "w_uri", "w_yurihada", "w_gigan", "w_hanjeongdoeda"],
+    "note": "Recycles 반면에 from M95 — whereas, the printed see-saw that weighs one fact against another. It is the natural home for 유리하다, which is always favourable TO somebody: M39's 조건 with 우리에게 in front, under the badge -(으)ㄴ from M24. Against it sits 한정되다 on M38's 기간 — the offer is good and the window is closed, which is how every 한정 판매 works. 불리하다, the mirror M86's 작용하다 left riding frozen beside 유리, is still one module away. The roles drill: 우리에게 유리한 반면에 is a connective clause, other; 조건은 and 기간이 are both subject; only 한정됐어요 is verb."
+  },
+  {
+    "id": "s_m108_trash_plastic_sorted",
+    "en": [
+      { "t": "While I was taking out the trash,", "role": "other", "id": "a" },
+      { "t": "to keep the smell down,", "role": "other", "id": "b" },
+      { "t": "I sorted", "role": "verb", "id": "v" },
+      { "t": "the plastic", "role": "object", "id": "o" },
+      { "t": "out separately", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "trash-[obj] throw-away-[badge] while-at-it", "role": "other", "id": "a" },
+      { "t": "smell prevention-[obj] for", "role": "other", "id": "b" },
+      { "t": "plastic-[obj]", "role": "object", "id": "o" },
+      { "t": "separately", "role": "other", "id": "d" },
+      { "t": "separate-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "쓰레기를 버리는 김에", "role": "other", "id": "a" },
+      { "t": "냄새 방지를 위해", "role": "other", "id": "b" },
+      { "t": "플라스틱을", "role": "object", "id": "o" },
+      { "t": "따로", "role": "other", "id": "d" },
+      { "t": "분리했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sseuregireul beorineun gime naemsae bangjireul wihae peullaseutigeul ttaro bullihaesseoyo",
+    "wordIds": ["w_sseuregi", "w_beorida", "w_naemsae", "w_bangji", "w_wihada", "w_peullaseutik", "w_ttaro", "w_bulli", "w_hada"],
+    "note": "Recycles -는 김에 from M91 — while you're at it, the ending for a second errand that costs nothing because you were going anyway. The sentence pays the module's oldest debt: M54's 쓰레기통 called 분리수거 \"Korea's real civics exam\" and M80's 플라스틱 put you in front of the bins, and today 분리 is a word rather than a frozen phrase. 방지 arrives under -를 위해 from M44, which is the frame a prevention noun wants; M62's 따로 says which way the sorting goes. The roles drill: 쓰레기를 버리는 김에 and 냄새 방지를 위해 are both connective clauses, other; 따로 is an adverb, other; only 분리했어요 is verb."
   }
 ]

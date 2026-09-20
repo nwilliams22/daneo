@@ -2533,5 +2533,27 @@
       "s_m107_wander_broader", "s_m107_friend_unchanged", "s_m107_kid_pretending", "s_m107_smell_leak",
       "s_m107_debt_repaid", "s_m107_desk_two_errands", "s_m107_lost_bright_shop", "s_m107_brother_confident"
     ]
+  },
+  {
+    "id": "m108",
+    "title": "The Workshop",
+    "order": 117,
+    "ring": 2,
+    "contentMd": "modules/module-108.md",
+    "wordIds": [
+      "w_gigi", "w_nachimban", "w_tonggye", "w_gwanchal",
+      "w_sangsangnyeok", "w_dunoe", "w_mullihak", "w_eumseong",
+      "w_jangsik", "w_jeongbi", "w_yebang", "w_wanseong",
+      "w_jeungmyeonghada", "w_jijeokdoeda", "w_haeseokhada", "w_singohada",
+      "w_cheoljeohi", "w_yeonsok", "w_yurihada", "w_bojang",
+      "w_bangji", "w_hanjeongdoeda", "w_jehanhada", "w_bulli",
+      "w_sangdang", "w_daega", "w_banbal", "w_yok",
+      "w_beol", "w_gamok", "w_uijihada", "w_jonjunghada",
+      "w_chaegimjida", "w_gwisin", "w_yumul", "w_pan"
+    ],
+    "sentenceIds": [
+      "s_m108_statistics_prevention", "s_m108_factory_serviced", "s_m108_freedom_backlash", "s_m108_observe_thoroughly",
+      "s_m108_reported_prison", "s_m108_swore_lied_punished", "s_m108_terms_favorable_limited", "s_m108_trash_plastic_sorted"
+    ]
   }
 ]
