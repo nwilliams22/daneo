@@ -2118,5 +2118,27 @@
       "s_m88_childhood_song", "s_m88_hard_times_meaning", "s_m88_since_graduation", "s_m88_sibling_dream",
       "s_m88_rest_recovery", "s_m88_fated_bond", "s_m88_qualified_hire", "s_m88_after_collapse"
     ]
+  },
+  {
+    "id": "m89",
+    "title": "Degree and Extent",
+    "order": 98,
+    "ring": 2,
+    "contentMd": "modules/module-89.md",
+    "wordIds": [
+      "w_sujun", "w_gyumo", "w_beomwi", "w_pyeonggyun",
+      "w_danwi", "w_daehyeong", "w_daegyumo", "w_bijung",
+      "w_gyunhyeong", "w_jeungga", "w_jeunggahada", "w_jureodeulda",
+      "w_sangdanghada", "w_eomcheongnada", "w_geodaehada", "w_widaehada",
+      "w_ttwieonada", "w_motjianta", "w_bulgwahada", "w_deumulda",
+      "w_heunhada", "w_pungbuhada", "w_gangnyeokhada", "w_iljeonghada",
+      "w_wanjeonhada", "w_cheoljeohada", "w_eomgyeokhada", "w_teukjeonghada",
+      "w_jinjihada", "w_dojeohi", "w_garyeong", "w_yekeondae",
+      "w_deougi", "w_naranhi"
+    ],
+    "sentenceIds": [
+      "s_m89_city_scale", "s_m89_typhoon_damage", "s_m89_doctor_experience", "s_m89_strict_rules",
+      "s_m89_last_bus", "s_m89_balance_health", "s_m89_customers_grew", "s_m89_inspection"
+    ]
   }
 ]
