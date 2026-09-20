@@ -2227,5 +2227,26 @@
       "s_m93_handle_problem", "s_m93_result_soon", "s_m93_admit_point", "s_m93_refused_proposed",
       "s_m93_fear_unrecognized", "s_m93_analysis_matched", "s_m93_reflected_improved", "s_m93_economy_forecast"
     ]
+  },
+  {
+    "id": "m95",
+    "title": "Concession and Choice",
+    "order": 104,
+    "ring": 2,
+    "contentMd": "modules/module-95.md",
+    "wordIds": [
+      "w_galdeung", "w_gyeongjaeng", "w_gyeongjaengnyeok", "w_hyeomnyeok",
+      "w_seungbu", "w_datuda", "w_yangbo", "w_jeopchok",
+      "w_chimmuk", "w_geochilda", "w_gyecheung", "w_jiwi",
+      "w_sinbun", "w_sosok", "w_gwonwi", "w_dongnip",
+      "w_anjeong", "w_wiju", "w_iljong", "w_byeoldo",
+      "w_gaebang", "w_gonggae", "w_chamyeo", "w_chamyeohada",
+      "w_jiwon", "w_jiwonhada", "w_tuja", "w_bohohada",
+      "w_amureon", "w_ongat", "w_banmyeon"
+    ],
+    "sentenceIds": [
+      "s_m95_no_matter_competition", "s_m95_lose_position_silence", "s_m95_lose_match_harsh", "s_m95_member_or_not",
+      "s_m95_instead_of_quarrel", "s_m95_competition_whereas", "s_m95_no_contact_no_conflict", "s_m95_just_write_name"
+    ]
   }
 ]

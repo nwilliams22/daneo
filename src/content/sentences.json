@@ -20889,5 +20889,185 @@
     "rom": "naenyeoneneun gyeongje sanghwangi deo eoryeowojil geoseuro yesangdoemnida",
     "wordIds": ["w_naenyeon", "w_gyeongje", "w_sanghwang", "w_deo", "w_eoryeopda", "w_yesangdoeda"],
     "note": "The one printed sentence in the deck, so you can hear the difference: -(으)ㄹ 것으로 예상됩니다 = is expected to — the future hook -(으)ㄹ from M8 on the 것 of M17, 으로 (M6), and today's 예상되다 in the 합니다체 from M4. Nobody expects it; it is expected. 어려워질 is M7's 어렵다 through -아/어지다 from M35 (get more difficult), on M32's 경제 and M33's 상황 with M9's 더. Say the same thing as a person and the whole module collapses into one ending: 내년에는 더 어려울걸요."
+  },
+  {
+    "id": "s_m95_no_matter_competition",
+    "en": [
+      { "t": "No matter how", "role": "other", "id": "a" },
+      { "t": "fierce the competition is,", "role": "other", "id": "b" },
+      { "t": "you must not give up", "role": "verb", "id": "v" },
+      { "t": "on cooperation", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "no-matter-how", "role": "other", "id": "a" },
+      { "t": "competition-[subj] severe-even-if", "role": "other", "id": "b" },
+      { "t": "cooperation-[obj]", "role": "object", "id": "o" },
+      { "t": "give-up-if not-become", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아무리", "role": "other", "id": "a" },
+      { "t": "경쟁이 심하더라도", "role": "other", "id": "b" },
+      { "t": "협력을", "role": "object", "id": "o" },
+      { "t": "포기하면 안 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "amuri gyeongjaengi simhadeorado hyeomnyeogeul pogihamyeon an dwaeyo",
+    "wordIds": ["w_amuri", "w_gyeongjaeng", "w_simhada", "w_hyeomnyeok", "w_pogihada", "w_doeda"],
+    "note": "-더라도 on its debut, with the adverb that announces it: M39's 아무리 — that note's \"the -아/어도 amplifier\" — now amplifying the firmer rung. 경쟁이 심하더라도 (M39's 심하다) = even if the competition is severe, and 심해도 would say the same thing with less spine; the -더- inside is the retrospective syllable of M88, pointing at a scene the speaker has not yet lived but is willing to imagine. Then the veto every learner owns: 포기하면 안 돼요 — M35's 포기하다 in -(으)면 from M20 with 안 돼요 from M10, the must-not frame the M20 md built. Today's 경쟁 and 협력 stand on the two sides of the concession: the war with running, and the joined strength that answers it."
+  },
+  {
+    "id": "s_m95_lose_position_silence",
+    "en": [
+      { "t": "Even if it costs me my position,", "role": "other", "id": "a" },
+      { "t": "I will not keep", "role": "verb", "id": "v" },
+      { "t": "silent", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "position-[obj] lose-even-though", "role": "other", "id": "a" },
+      { "t": "silence-[obj]", "role": "object", "id": "o" },
+      { "t": "keep-not will", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지위를 잃을지라도", "role": "other", "id": "a" },
+      { "t": "침묵을", "role": "object", "id": "o" },
+      { "t": "지키지 않을 거예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jiwireul ireuljirado chimmugeul jikiji aneul geoyeyo",
+    "wordIds": ["w_jiwi", "w_ilta", "w_chimmuk", "w_jikida"],
+    "note": "-(으)ㄹ지라도, the essay's rung: 지위를 잃을지라도 (M28's 잃다 in the prospective badge) = even should I lose my position — the concession an -아/어도 would make over coffee, made here from a witness stand. 침묵을 지키다 is today's 침묵 with M26's 지키다 (\"Traditions, promises, secrets, goals: 약속을 지켜요 — keep your word\"): silence, in Korean, is something you KEEP, and the long negation from M28 under the -(으)ㄹ 거예요 future refuses to keep it. Two slice words in one breath — a person's standing and the silence expected of it — and the sentence is the whistle-blower's, which is why it wears 지라도 and not 어도."
+  },
+  {
+    "id": "s_m95_lose_match_harsh",
+    "en": [
+      { "t": "Even if it costs me the match,", "role": "other", "id": "a" },
+      { "t": "I don't use", "role": "verb", "id": "v" },
+      { "t": "harsh words", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "match-in lose-even-at-the-cost", "role": "other", "id": "a" },
+      { "t": "rough word-[topic]", "role": "object", "id": "o" },
+      { "t": "not do", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "승부에서 질망정", "role": "other", "id": "a" },
+      { "t": "거친 말은", "role": "object", "id": "o" },
+      { "t": "안 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seungbueseo jilmangjeong geochin mareun an haeyo",
+    "wordIds": ["w_seungbu", "w_jida_lose", "w_geochilda", "w_mal", "w_hada"],
+    "note": "-(으)ㄹ망정, the rung that concedes the worst: 승부에서 질망정 = I would sooner lose the match — M17's 지다 (the losing one) in the prospective badge, with today's 승부 taking M2's 에서 as the arena. 망정 always trades: the clause before it names the price the speaker will pay, the clause after names what they will not do — and here it is 거친 말 (today's 거칠다 in the badge -(으)ㄴ from M24, the ㄹ dropped, on M4's 말) under M3's 안. Note the 은 on 거친 말은: a contrastive topic, not a subject — harsh words, THOSE I don't do — and the role stays object because 하다 still acts on them. Calibration: 져도 (even if I lose) · 지더라도 (even if I should lose) · 질지라도 (even should I lose) · 질망정 (though I lose — and I'd rather)."
+  },
+  {
+    "id": "s_m95_member_or_not",
+    "en": [
+      { "t": "Member or not,", "role": "other", "id": "a" },
+      { "t": "anyone", "role": "subject", "id": "s" },
+      { "t": "can take part", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "member-be-whether not-be-whether", "role": "other", "id": "a" },
+      { "t": "who-ever", "role": "subject", "id": "s" },
+      { "t": "participate-can", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회원이든지 아니든지", "role": "other", "id": "a" },
+      { "t": "누구나", "role": "subject", "id": "s" },
+      { "t": "참여할 수 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoewonideunji anideunji nuguna chamyeohal su isseoyo",
+    "wordIds": ["w_hoewon", "w_anida", "w_nugu", "w_chamyeohada"],
+    "note": "-든지 doubled, on the copula and its negative: 회원이든지 아니든지 (M58's 회원 with 이다; M19's 아니다) = whether a member or not — the indifferent choice, both doors held open and neither mattering. 누구나 is M10's 누구 with the 나 of M43 in the job M29's 아무 note described, \"with 나 it opens them\": whoever, anyone at all — the same -든지 logic packed into one particle, which is why 누구든지 would also work here and mean the same thing. 참여할 수 있어요 is today's 참여하다 in the can-machine from M10 — and the verb is 참여, not 참가, because a club is a process you join, not an event you enter. The poster's sentence; every 동아리 (M69) recruiting table has it printed."
+  },
+  {
+    "id": "s_m95_instead_of_quarrel",
+    "en": [
+      { "t": "Instead of quarrelling,", "role": "other", "id": "a" },
+      { "t": "we each", "role": "other", "id": "b" },
+      { "t": "gave way", "role": "verb", "id": "v" },
+      { "t": "a little", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "quarrel-[badge] instead-of", "role": "other", "id": "a" },
+      { "t": "each-other", "role": "other", "id": "b" },
+      { "t": "a-little-each", "role": "other", "id": "d" },
+      { "t": "yield-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다투는 대신에", "role": "other", "id": "a" },
+      { "t": "서로", "role": "other", "id": "b" },
+      { "t": "조금씩", "role": "other", "id": "d" },
+      { "t": "양보했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "datuneun daesine seoro jogeumssik yangbohaesseoyo",
+    "wordIds": ["w_datuda", "w_daesin", "w_seoro", "w_jogeum", "w_yangbohada"],
+    "note": "대신에 taking a clause: 다투는 대신에 = instead of quarrelling — today's 다투다 in the badge -는 from M24, then M39's 대신 (instead; in exchange) with 에, the frame Part 4 builds. The thing not done sits before 대신에; the thing done instead closes the sentence, and here it is M75's 양보하다 — the verb today's 양보 is the noun of — with M24's 서로 and 씩 from M43 on M9's 조금: each gave a little, in turns. The sort the whole shelf runs on is inside this one line: 다투다 argues, 양보하다 gives a step, and a marriage is the distance between the two verbs. 싸우는 대신에 (M19's 싸우다) would mean the fists were the alternative."
+  },
+  {
+    "id": "s_m95_competition_whereas",
+    "en": [
+      { "t": "Competition", "role": "subject", "id": "s" },
+      { "t": "is intense, whereas", "role": "other", "id": "a" },
+      { "t": "cooperation", "role": "subject", "id": "t" },
+      { "t": "is lacking", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "competition-[topic]", "role": "subject", "id": "s" },
+      { "t": "severe-[badge] whereas", "role": "other", "id": "a" },
+      { "t": "cooperation-[topic]", "role": "subject", "id": "t" },
+      { "t": "lacking", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "경쟁은", "role": "subject", "id": "s" },
+      { "t": "심한 반면에", "role": "other", "id": "a" },
+      { "t": "협력은", "role": "subject", "id": "t" },
+      { "t": "부족해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeongjaengeun simhan banmyeone hyeomnyeogeun bujokhaeyo",
+    "wordIds": ["w_gyeongjaeng", "w_simhada", "w_banmyeon", "w_hyeomnyeok", "w_bujokhada"],
+    "note": "반면에 on its debut as glue: 심한 반면에 = is severe, whereas — M39's 심하다 in the badge -(으)ㄴ from M24, then today's 반면 (the turned-back face) with 에. The frame is a pair of scales: one fact on each pan, each with its own 은/는 topic (경쟁은… 협력은…), and the two nouns are today's rivals — the war with running and the joined strength. Sort it against the two buts you own: 경쟁은 심하지만 (-지만 from M7) complains; 경쟁은 심하나 (-(으)나 from M85) complains in print; 심한 반면에 does not complain at all — it balances, which is why the editorial writes it and the annual report copies it. M39's 부족하다 closes, the report's verdict on cooperation everywhere."
+  },
+  {
+    "id": "s_m95_no_contact_no_conflict",
+    "en": [
+      { "t": "As long as there is no contact", "role": "other", "id": "a" },
+      { "t": "between them,", "role": "other", "id": "b" },
+      { "t": "there is no", "role": "verb", "id": "v" },
+      { "t": "conflict either", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "each-other", "role": "other", "id": "b" },
+      { "t": "contact-[subj] not-exist-[badge] as-long-as", "role": "other", "id": "a" },
+      { "t": "conflict-also", "role": "subject", "id": "s" },
+      { "t": "not-exist", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서로", "role": "other", "id": "b" },
+      { "t": "접촉이 없는 한", "role": "other", "id": "a" },
+      { "t": "갈등도", "role": "subject", "id": "s" },
+      { "t": "없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoro jeopchogi eomneun han galdeungdo eopseoyo",
+    "wordIds": ["w_seoro", "w_jeopchok", "w_eopda", "w_galdeung"],
+    "note": "-는 한 on its debut: 접촉이 없는 한 = as long as there is no contact — M1's 없다 in the badge -는 from M24, then 한 (限, the limit that M39's 한계 decoded as \"限界 limit-boundary\"; a dependent noun riding frozen): within the limit of there being no contact. The condition is a fence, and inside the fence the second clause holds: 갈등도 없어요 — today's 갈등 with 도 from M2, the also-particle that M89 sorted as the neutral rung (\"물도 못 마셔요 — water too\"). 갈등도 is a subject on 도: the particle replaced the 이, exactly as M2 said it would. Two slice nouns and one thesis: no touching, no tangling — the diplomat's sentence, and the sentence about two cats."
+  },
+  {
+    "id": "s_m95_just_write_name",
+    "en": [
+      { "t": "Just write", "role": "other", "id": "a" },
+      { "t": "your name", "role": "object", "id": "o" },
+      { "t": "and take part — that's all it takes", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "name-[obj]", "role": "object", "id": "o" },
+      { "t": "write-and", "role": "other", "id": "a" },
+      { "t": "participate-only-if become", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이름을", "role": "object", "id": "o" },
+      { "t": "쓰고", "role": "other", "id": "a" },
+      { "t": "참여하기만 하면 돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "ireumeul sseugo chamyeohagiman hamyeon dwaeyo",
+    "wordIds": ["w_ireum", "w_sseuda", "w_chamyeohada", "w_doeda"],
+    "note": "-기만 하면 on its debut, in the frame it lives in: 참여하기만 하면 돼요 = you only have to take part — today's 참여하다 through the -기 nominalizer from M13, 만 from M30 (only, just) picking that one act off the menu, -(으)면 from M20 making it the condition, and 돼요 (M10's 되다) saying that is enough. It is -(으)면 돼요 from M23 with a 만 inside — just do X, and ONLY X is needed — the sentence every sign-up sheet, raffle and school festival is built on. 이름을 쓰고 is M1's 이름 with M10's 쓰다 in its write-job and verb--고 from M10 listing the first step. Sort it against -아/어야 from M39 (that md's \"only if\"): 참여해야 돼요 says you MUST; 참여하기만 하면 돼요 says that is ALL you must — the first is a gate, the second an invitation."
   }
 ]
