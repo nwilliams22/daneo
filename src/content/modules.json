@@ -2074,5 +2074,27 @@
       "s_m85_she_smiled", "s_m85_hotel_wide_cheap", "s_m85_elevator_stairs", "s_m85_snow_stay_in",
       "s_m85_effort_exam", "s_m85_guy_took_money", "s_m85_husband_paper", "s_m85_grandfather_words"
     ]
+  },
+  {
+    "id": "m87",
+    "title": "Seeming and Worth",
+    "order": 96,
+    "ring": 2,
+    "contentMd": "modules/module-87.md",
+    "wordIds": [
+      "w_deut", "w_deuthada", "w_manhada", "w_sem",
+      "w_maryeon", "w_jigyeong", "w_nareum", "w_ba",
+      "w_anihada", "w_yeogida", "w_yeogyeojida", "w_tteuthada",
+      "w_pandanhada", "w_pyeongga", "w_pyeonggahada", "w_insikhada",
+      "w_uisik", "w_uisikhada", "w_gwanjeom", "w_sigak",
+      "w_gyeonhae", "w_nolli", "w_sangsik", "w_uimun",
+      "w_jinsil", "w_jilli", "w_gwannyeom", "w_inyeom",
+      "w_gachi_value", "w_sojunghada", "w_olbareuda", "w_baramjikhada",
+      "w_jeokjeolhada"
+    ],
+    "sentenceIds": [
+      "s_m87_professor_view", "s_m87_no_way_truth", "s_m87_book_worth", "s_m87_semester_done",
+      "s_m87_bound_to_err", "s_m87_parents_treasure", "s_m87_own_angle", "s_m87_logic_doubt"
+    ]
   }
 ]

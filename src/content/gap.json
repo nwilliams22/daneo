@@ -2401,5 +2401,32 @@
     "lit": "fellow · (person counter) · (honorific person counter)",
     "real": "three ways to say 'person' after a number or a pointer — one counts, one counts with respect, one judges",
     "note": "M5's 명 note put it in one line: '네 명 (four people). The honorific version is 분.' — 세 명 counts the room, 세 분 counts the guests, and neither has an opinion about anyone. This module's 놈 is the third slot with the opinion built in: 세 놈 = three rascals, 그 놈 = that guy (contempt or affection, tone decides). All three are dependent — they need a number or a pointer in front — and the radar is register: 분 upward (손님 두 분), 명 level (학생 두 명), 놈 downward (나쁜 놈 둘). The drama runs on the third; the restaurant on the first two. Its female twin 년 exists, is only ever an insult, and is not for learners to deploy — file it under words to recognize in a shouting match, not to use."
+  },
+  {
+    "id": "g_m87_nameul_uisikhada",
+    "cat": "concept",
+    "ko": "남을 의식하다",
+    "rom": "nameul uisikhada",
+    "lit": "to be conscious of others",
+    "real": "minding what other people think — dressing, ordering, choosing a job, or parking with the neighbors' eyes in mind; the reflex Korea names in itself and half-regrets",
+    "note": "This module's 의식하다 with M74's 남 (\"Everyone who isn't 우리 (M4): others, strangers, other people's\") as its object: to have other people switched on in your awareness. It names a whole social climate — the reason a 소개팅 outfit is chosen for the friends who will hear about it, the reason 눈치 exists at all. M42's 눈치 note called it the organ that senses what the listener knows and gave the frame \"눈치를 보다 = anxiously reading the room\"; 남을 의식하다 is what the organ is FOR, said from the outside. The self-help shelf's bestsellers are all built on the negative — 남을 의식하지 마세요, stop minding others — and the sentence is only sayable because the habit is universal enough to have a name. Pairs with 남의 눈 (M14's 눈) = other people's eyes, the thing being minded; 남의 눈을 의식하다 is the full form, and the shortest diagnosis of why the whole country dresses well."
+  },
+  {
+    "id": "g_m87_jugeul_jigyeong",
+    "cat": "phrase",
+    "ko": "죽을 지경이다",
+    "rom": "jugeul jigyeongida",
+    "lit": "to be at the verge of dying",
+    "real": "I'm dying — of overwork, heat, hunger, boredom, embarrassment; the everyday hyperbole for any state at its limit",
+    "note": "This module's 지경 in its home frame: M14's 죽다 wears the prospective badge and 지경 names the edge — 죽을 지경이에요 = I'm at the point of dying. Nobody is: it is Korea's all-purpose 'I'm dying', filed the way English files it, and the cause slots in front on -아/어서 — 더워서 죽을 지경이에요 (M11's 덥다), 배고파서 죽을 지경이에요 (M3's 배고프다), 일이 많아서 죽을 지경이에요 (the work-일 inside M2's 일하다, M7's 많다). The casual form loses the noun and keeps the verb — 더워 죽겠어요 (the -겠- from M49, will-die) — and the two are the same complaint at two registers: 지경 is the one you can write. Never for actual danger; the sentence about the real cliff has no room for the joke."
+  },
+  {
+    "id": "g_m87_saram_nareum",
+    "cat": "phrase",
+    "ko": "사람 나름이다",
+    "rom": "saram nareumida",
+    "lit": "it is the person's-own-way",
+    "real": "it depends on the person — the answer to every generalization, and the polite refusal to make one",
+    "note": "This module's 나름 after a bare noun, closed with 이다: [noun] 나름이다 = it depends on the [noun]. M1's 사람 is the noun most often in the slot — 사람 나름이에요 answers whether Koreans like spicy food, whether the job is hard, and every other question that wanted a rule. Swap the noun and the frame keeps working: 경우 나름 (M32's 경우) = case by case, 생각하기 나름 (the -기 nominalizer from M13 on M10's 생각하다) = it's how you look at it, 하기 나름 = it depends how you do it. Radar: 나름대로 (with 대로 from M54) means in one's own WAY; 나름이다 with no particle means it DEPENDS — the noun stands bare, the judgment stands relative. The sentence Korean reaches for when it declines to judge — on a shelf otherwise full of judging."
   }
 ]
