@@ -10,6 +10,9 @@ Band 7 (m85+, Ring 3 — the Grade-C list) keeps the Band 6 pack contract AND
 adds 3–5 glue parts per module (the Band 4 shape); the module brief gives
 the md shape, which overrides the default shape below for Band 7 only.
 Ring 3 ledger rows go in reference/ring3-slices.tsv (band 7/8).
+Band 8 (m97+) is the Ring 3 long tail: the Band 6 pack contract EXACTLY —
+default slim md shape, NO glue parts; every Ring 3 pattern is owned by
+M85–M96, so each Band 8 sentence recycles one and names it in its note.
 
 **You must NOT edit any repo files.** All output goes to NEW files in
 `/tmp/claude-1000/-mnt-t7-Projects-daneo/e4383fb0-440d-443b-9786-0468844e3b69/scratchpad/`.
