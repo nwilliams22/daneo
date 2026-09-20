@@ -20499,5 +20499,197 @@
     "rom": "i yeonguneun sahoe gujoui byeonhwae chojeomeul matchwosseoyo",
     "wordIds": ["w_i_det", "w_yeongu", "w_sahoe", "w_gujo", "w_byeonhwa", "w_chojeom", "w_matchuda"],
     "note": "초점을 맞추다 = to focus on — today's 초점, the scorch-point, as the object of M37's 맞추다, the tuning verb whose note set alarms and checked answers; a lens is tuned the same way. What it is tuned to takes 에: 사회 구조의 변화에 — M32's 사회 on today's 구조 (the shelf's first word, in its commonest compound) with M32's 변화 hung on the 의 — the changes in social structure. M32's 연구 is the topic, as the study is always the topic of its own abstract. No 바, no 다시피, no 겸: the eighth sentence is the plain report, the register the other seven decorate, and two of the module's structure-nouns in one noun phrase."
+  },
+  {
+    "id": "s_m92_tiny_being",
+    "en": [
+      { "t": "In the vast universe,", "role": "place", "id": "p" },
+      { "t": "humans", "role": "subject", "id": "s" },
+      { "t": "are nothing but tiny beings", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "human-[topic]", "role": "subject", "id": "s" },
+      { "t": "vast universe-in", "role": "place", "id": "p" },
+      { "t": "very small being-be-nothing-but", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "인간은", "role": "subject", "id": "s" },
+      { "t": "넓은 우주에서", "role": "place", "id": "p" },
+      { "t": "아주 작은 존재일 따름이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "inganeun neolbeun ujueseo aju jageun jonjaeil ttareumieyo",
+    "wordIds": ["w_ingan", "w_neopda", "w_uju", "w_aju", "w_jakda", "w_jonjae"],
+    "note": "-(으)ㄹ 따름이다 on its debut, riding the copula: 존재일 따름이에요 = are nothing but beings — 존재 + 이다 in the prospective badge, then 따름 (the dependent noun, frozen) closed with 이에요. It is the 뿐 frame of M89 in a suit: 존재일 뿐이에요 says the same thing over coffee; 따름 says it from a lectern. 넓은 우주에서 puts M13's 넓다 in the badge -(으)ㄴ from M24 on today's 우주 with M2's 에서 — the universe as a place; 아주 작은 존재 stacks M11's 아주 and M1's 작다 on 존재 in its concrete job, a being. M32's 인간 is the topic, and the sentence is the essay's opening move: state the fact, then shrink it to only-that."
+  },
+  {
+    "id": "s_m92_climate_changed",
+    "en": [
+      { "t": "The climate", "role": "subject", "id": "s" },
+      { "t": "has indeed changed, but", "role": "other", "id": "a" },
+      { "t": "it isn't severe", "role": "verb", "id": "v" },
+      { "t": "yet", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "climate-[subj]", "role": "subject", "id": "s" },
+      { "t": "change-[nom]-[topic] did-but", "role": "other", "id": "a" },
+      { "t": "yet", "role": "other", "id": "b" },
+      { "t": "severe-not", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "기후가", "role": "subject", "id": "s" },
+      { "t": "변하기는 했지만", "role": "other", "id": "a" },
+      { "t": "아직", "role": "other", "id": "b" },
+      { "t": "심하지 않아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gihuga byeonhagineun haetjiman ajik simhaji anayo",
+    "wordIds": ["w_gihu", "w_byeonhada", "w_hada", "w_ajik", "w_simhada"],
+    "note": "-기는 하다 with the concession doubled: 변하기는 했지만 = it did change, granted, but — M26's 변하다 nominalized by the -기 of M13, topicalized with 는, and handed to M1's 하다 to carry the tense; then -지만 from M7 does what it has always done. The concession is INSIDE the verb before the 지만 arrives: the speaker grants the change and takes back its size in one breath. 기후가 is today's 기후 on the bare 가 — the climate as subject, not the weather (M7's 날씨 would make this a remark about Tuesday). 아직 심하지 않아요 is M14's 아직 with M39's 심하다 under the long negation from M28: not yet severe — the sentence a cautious editorial writes, and the one a climate scientist would like to edit."
+  },
+  {
+    "id": "s_m92_neglect_children",
+    "en": [
+      { "t": "That person,", "role": "subject", "id": "s" },
+      { "t": "far from looking after the children,", "role": "other", "id": "a" },
+      { "t": "doesn't even pay", "role": "verb", "id": "v" },
+      { "t": "attention to them", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "that person-[topic]", "role": "subject", "id": "s" },
+      { "t": "children-[obj] look-after-[nom]-far-from", "role": "other", "id": "a" },
+      { "t": "nerves-even", "role": "object", "id": "o" },
+      { "t": "not use", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 사람은", "role": "subject", "id": "s" },
+      { "t": "자녀를 돌보기는커녕", "role": "other", "id": "a" },
+      { "t": "신경도", "role": "object", "id": "o" },
+      { "t": "안 써요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu sarameun janyeoreul dolbogineunkeonyeong singyeongdo an sseoyo",
+    "wordIds": ["w_geu_det", "w_saram", "w_janyeo", "w_dolboda", "w_singyeong", "w_sseuda"],
+    "note": "-기는커녕 on a verb: 돌보기는커녕 = far from looking after — M47's 돌보다 through the -기 of M13, then 는 and 커녕, the particle that says the expected thing did not happen and neither did the lesser one. The second half must be the lesser thing with 도 (M2) on it and a negative closing it, and here the lesser thing is the shelf's own phrase: 신경도 안 써요 — 신경 쓰다 (M10's 쓰다 in its use-job) negated with M3's 안 — doesn't even spend a nerve on them. 자녀 is today's form-word for one's children, chosen over M47's 자식 because the sentence is a verdict, not a scolding; 그 사람은 (M29's 그, M1's 사람) is the person being judged. Calibration: 돌보지 않아요 states it; 돌보기는커녕 신경도 안 써요 states it and slams the door."
+  },
+  {
+    "id": "s_m92_valley_clear",
+    "en": [
+      { "t": "That valley", "role": "subject", "id": "s" },
+      { "t": "has clear water, and on top of that,", "role": "other", "id": "a" },
+      { "t": "the air", "role": "subject", "id": "g" },
+      { "t": "is good too", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that valley-[topic]", "role": "subject", "id": "s" },
+      { "t": "water-[subj] clear-on-top-of", "role": "other", "id": "a" },
+      { "t": "air-also", "role": "subject", "id": "g" },
+      { "t": "good", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 계곡은", "role": "subject", "id": "s" },
+      { "t": "물이 맑은 데다가", "role": "other", "id": "a" },
+      { "t": "공기도", "role": "subject", "id": "g" },
+      { "t": "좋아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu gyegogeun muri malgeun dedaga gonggido joayo",
+    "wordIds": ["w_geu_det", "w_gyegok", "w_mul", "w_makda", "w_de", "w_gonggi", "w_jota"],
+    "note": "-(으)ㄴ/는 데다가 on an adjective: 맑은 데다가 = on top of being clear — M11's 맑다 in the badge -(으)ㄴ from M24, then M55's 데 (the situation-noun) with 다가 behind it, piling a second good thing on a first in the same direction. The sentence is the double-subject frame M24 first showed (한식은 반찬이 많아요) run twice: 그 계곡은 is the topic (M29's 그 on today's 계곡), 물이 (M1's 물) the subject of the first clause, 공기도 (M22's 공기 with 도 replacing 가) the subject of the second — a summer swimming hole graded on two counts. -(으)며 from M85 would list the two facts flat (맑으며 공기도 좋다); 데다가 makes the second one land on top of the first."
+  },
+  {
+    "id": "s_m92_avoid_glance",
+    "en": [
+      { "t": "That child", "role": "subject", "id": "s" },
+      { "t": "answered", "role": "verb", "id": "v" },
+      { "t": "while avoiding", "role": "other", "id": "a" },
+      { "t": "my eyes", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "that child-[topic]", "role": "subject", "id": "s" },
+      { "t": "my glance-[obj]", "role": "object", "id": "o" },
+      { "t": "avoid-while", "role": "other", "id": "a" },
+      { "t": "answered", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 아이는", "role": "subject", "id": "s" },
+      { "t": "제 눈길을", "role": "object", "id": "o" },
+      { "t": "피하면서", "role": "other", "id": "a" },
+      { "t": "대답했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu aineun je nungireul pihamyeonseo daedaphaesseoyo",
+    "wordIds": ["w_geu_det", "w_ai", "w_je", "w_nungil", "w_pihada", "w_daedaphada"],
+    "note": "The NIKL hint on the 눈길 row was ~을 피하다, and here it is: 제 눈길을 피하면서 = while avoiding my eyes — today's 눈길 as the object of M36's 피하다 (that note's verb for ducking rain and people alike), with M17's 제 in front. -(으)면서 from M38 puts the dodging and the answering in one body at one moment, as that md's rule requires; M10's 대답하다 closes. 그 아이 (M29's 그, M4's 아이) is the child who broke the vase. Swap 눈길 for 시선 and the sentence moves from the kitchen to the novel: 시선을 피하며 대답했다 — the -(으)며 of M85 arriving with the register."
+  },
+  {
+    "id": "s_m92_sparrow_no_tree",
+    "en": [
+      { "t": "The sparrow", "role": "subject", "id": "s" },
+      { "t": "couldn't even find", "role": "verb", "id": "v" },
+      { "t": "a tree,", "role": "object", "id": "o" },
+      { "t": "let alone a nest", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "sparrow-[topic]", "role": "subject", "id": "s" },
+      { "t": "nest-far-from", "role": "other", "id": "a" },
+      { "t": "tree-even", "role": "object", "id": "o" },
+      { "t": "cannot found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "참새는", "role": "subject", "id": "s" },
+      { "t": "둥지는커녕", "role": "other", "id": "a" },
+      { "t": "나무도", "role": "object", "id": "o" },
+      { "t": "못 찾았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chamsaeneun dungjineunkeonyeong namudo mot chajasseoyo",
+    "wordIds": ["w_chamsae", "w_dungji", "w_namu", "w_chatda"],
+    "note": "-기는커녕 in its noun coat: no -기, just the noun and 는커녕 — 둥지는커녕 = never mind a nest. The shape is the one Part 4 gives for 밥은커녕 물도 못 마셨어요, with the module's two native things in the slots: today's 참새 as topic, today's 둥지 as the thing it was supposed to find, M22's 나무 with 도 (M2) as the lesser thing it could not find either, and M3's 못 with M6's 찾다 closing. The scale runs downward — a nest is more than a tree — and 커녕 only ever runs that way; put the bigger thing after 도 and Koreans will wait for you to finish the sentence. A bird in a city with no trees is also, quietly, what 기후 변화 looks like from the sparrow's side."
+  },
+  {
+    "id": "s_m92_weak_heart",
+    "en": [
+      { "t": "Grandfather", "role": "subject", "id": "s" },
+      { "t": "has a weak heart, and on top of that,", "role": "other", "id": "a" },
+      { "t": "his breathing", "role": "subject", "id": "g" },
+      { "t": "is laboured", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "grandfather-[topic]", "role": "subject", "id": "s" },
+      { "t": "heart-[subj] weak-on-top-of", "role": "other", "id": "a" },
+      { "t": "breathing-also", "role": "subject", "id": "g" },
+      { "t": "hard", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "할아버지는", "role": "subject", "id": "s" },
+      { "t": "심장이 약한 데다가", "role": "other", "id": "a" },
+      { "t": "호흡도", "role": "subject", "id": "g" },
+      { "t": "힘들어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "harabeojineun simjangi yakhan dedaga hoheupdo himdeureoyo",
+    "wordIds": ["w_harabeoji", "w_simjang", "w_yakhada", "w_de", "w_hoheup", "w_himdeulda"],
+    "note": "The second 데다가, and this time the pile is bad news: 심장이 약한 데다가 = on top of having a weak heart — today's 심장 (the organ, the one the doctor listens to) on the bare 이, M63's 약하다 in the badge -(으)ㄴ from M24, then 데다가. 호흡도 힘들어요 lands the second fact: today's 호흡 with 도 on it and M15's 힘들다 — breathing is hard too. The frame is the double subject again — M4's 할아버지 as the topic, his heart and his breath as the two subjects — and the direction rule holds: 데다가 stacks a second thing of the SAME kind, so a weak heart takes laboured breathing on top, never a good appetite. The doctor's summary; the family hears it in the corridor."
+  },
+  {
+    "id": "s_m92_wiped_surface",
+    "en": [
+      { "t": "I did wipe", "role": "other", "id": "a" },
+      { "t": "the surface, but", "role": "object", "id": "o" },
+      { "t": "moisture", "role": "subject", "id": "s" },
+      { "t": "still", "role": "other", "id": "b" },
+      { "t": "remains", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "surface-[obj]", "role": "object", "id": "o" },
+      { "t": "wipe-[nom]-[topic] wiped-but", "role": "other", "id": "a" },
+      { "t": "moisture-[subj]", "role": "subject", "id": "s" },
+      { "t": "still", "role": "other", "id": "b" },
+      { "t": "remained", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "표면을", "role": "object", "id": "o" },
+      { "t": "닦기는 닦았는데", "role": "other", "id": "a" },
+      { "t": "물기가", "role": "subject", "id": "s" },
+      { "t": "아직", "role": "other", "id": "b" },
+      { "t": "남았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pyomyeoneul dakgineun dakkanneunde mulgiga ajik namasseoyo",
+    "wordIds": ["w_pyomyeon", "w_dakda", "w_mulgi", "w_ajik", "w_namda"],
+    "note": "The doubled form of -기는 하다: 닦기는 닦았는데 = wipe it I did, but — M8's 닦다 twice, first frozen as a -기 noun with 는 on it, then conjugated with the -는데 of M53 behind it, the verb conceding itself. Where 닦기는 했는데 hands the tense to 하다, the doubled form repeats the verb and sounds more like a shrug — technically, yes, I wiped it. 표면을 is today's 표면 as the object (the wet counter, the wiped table); 물기가 아직 남았어요 pairs today's 물기 on the bare 가 with M14's 아직 and M35's 남다 — the moisture that stayed, exactly the wet ON a thing the word note describes. Every kitchen argument has this sentence in it."
   }
 ]
