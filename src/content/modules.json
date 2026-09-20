@@ -2401,5 +2401,28 @@
       "s_m101_cord_pulled", "s_m101_review_production", "s_m101_software_features", "s_m101_senior_captain",
       "s_m101_brain_muscle", "s_m101_loan_by_sector", "s_m101_party_vehicles", "s_m101_nature_whereas"
     ]
+  },
+  {
+    "id": "m102",
+    "title": "Native Verbs II",
+    "order": 111,
+    "ring": 2,
+    "contentMd": "modules/module-102.md",
+    "wordIds": [
+      "w_seuchida", "w_humchida", "w_guphida", "w_bakda_hammer",
+      "w_bakhida", "w_jipda_lean", "w_bachida", "w_jugobatda",
+      "w_barojapda", "w_kkallida", "w_jamgida", "w_teuida",
+      "w_saranamda", "w_sumjida", "w_jujeoanda", "w_itttareuda",
+      "w_dwittareuda", "w_naedaboda", "w_bulleoireukida", "w_dudeureojida",
+      "w_mattanghada", "w_taekhada", "w_jimjakhada", "w_jegeohada",
+      "w_giyeohada", "w_jeogyongdoeda", "w_jeongaedoeda", "w_bujeonghada",
+      "w_jisihada", "w_gonggaehada", "w_bunpohada", "w_guseok",
+      "w_non", "w_tte", "w_gareuchim", "w_geokkuro",
+      "w_daechung"
+    ],
+    "sentenceIds": [
+      "s_m102_leaves_almost_fell", "s_m102_fog_accidents_died", "s_m102_wont_bend_will", "s_m102_texting_friend_cut_contact",
+      "s_m102_govt_disclose_correct", "s_m102_guess_responsibility_follows", "s_m102_village_paddies_flood", "s_m102_korean_opened_newspaper_roughly"
+    ]
   }
 ]
