@@ -15,6 +15,7 @@
     "tauri:build": "NO_STRIP=true tauri build",
     "coverage:nikl": "tsx scripts/nikl-coverage.ts",
     "ring2:plan": "tsx scripts/ring2-plan.ts",
+    "ring3:plan": "tsx scripts/ring2-plan.ts -- --ring 3",
     "lint:lang": "python3 reference/authoring/lint_language.py --shipped"
   },
   "dependencies": {
