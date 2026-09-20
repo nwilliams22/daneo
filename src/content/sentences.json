@@ -19707,5 +19707,224 @@
     "rom": "geu nonmuneun nolliga jeokjeolhajiman ajik uimuni namayo",
     "wordIds": ["w_geu_det", "w_nonmun", "w_nolli", "w_jeokjeolhada", "w_ajik", "w_uimun", "w_namda"],
     "note": "Three of the module's judgment words in one reviewer's sentence: 논리 (the argument, in order), 적절하다 (apt — the memo's fit-word, here on -지만 from M7 conceding before the turn), and 의문 (the doubt that stays in the head) as the bare subject of M35's 남다 — 의문이 남아요 = questions remain, the peer review's standard closing line. M44's 논문 is the topic; 논리가 is the bare-이 subject of the first clause, the double-subject shape again, and 의문이 the subject of the second — three subject tags, one verb. M14's 아직 keeps the doubt alive."
+  },
+  {
+    "id": "s_m88_childhood_song",
+    "en": [
+      { "t": "When I hear", "role": "other", "id": "b" },
+      { "t": "the songs I used to listen to", "role": "object", "id": "o" },
+      { "t": "as a child,", "role": "other", "id": "a" },
+      { "t": "thoughts of the old days", "role": "subject", "id": "s" },
+      { "t": "come to me", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "young when", "role": "other", "id": "a" },
+      { "t": "used-to-hear song-[obj]", "role": "object", "id": "o" },
+      { "t": "hear-if", "role": "other", "id": "b" },
+      { "t": "old-days thought-[subj]", "role": "subject", "id": "s" },
+      { "t": "arises", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어릴 때", "role": "other", "id": "a" },
+      { "t": "듣던 노래를", "role": "object", "id": "o" },
+      { "t": "들으면", "role": "other", "id": "b" },
+      { "t": "옛날 생각이", "role": "subject", "id": "s" },
+      { "t": "나요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoril ttae deutdeon noraereul deureumyeon yennal saenggagi nayo",
+    "wordIds": ["w_eorida", "w_ttae", "w_deutda", "w_norae", "w_yennal", "w_nada"],
+    "note": "The retrospective badge's debut, on the sentence it was made for: 듣던 노래 = the songs I used to hear — M2's 듣다 with -던, the fourth badge, saying the hearing was habitual and is over. Beside it, -(으)ㄹ 때 from M25 on M21's 어리다 (어릴 때 = when I was little — that md's \"때 is the when-noun\"), and -(으)면 from M20 on the same verb 듣다, now in its ㄷ-flipped 들으면. The closer is 생각이 나다 — the 생각 M10's 생각하다 carries as its bare noun, plus M28's 나다, thoughts sprouting — with M24's 옛날 in front; 옛날 생각이 is the bare-이 subject, and 나요 the verb. Compare 들은 노래 (the past badge from M24 — a song I heard, once, done) with 듣던 노래 — a song I kept hearing; the ㄷ does not flip before -던 (듣던), because 던 begins with a consonant."
+  },
+  {
+    "id": "s_m88_hard_times_meaning",
+    "en": [
+      { "t": "Going through", "role": "other", "id": "a" },
+      { "t": "a hard time,", "role": "object", "id": "o" },
+      { "t": "I came to realize", "role": "verb", "id": "v" },
+      { "t": "the meaning of life", "role": "object", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "hard-was period-[obj]", "role": "object", "id": "o" },
+      { "t": "pass-through-while", "role": "other", "id": "a" },
+      { "t": "life-of meaning-[obj]", "role": "object", "id": "p" },
+      { "t": "realized", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어렵던 시기를", "role": "object", "id": "o" },
+      { "t": "거치면서", "role": "other", "id": "a" },
+      { "t": "삶의 의미를", "role": "object", "id": "p" },
+      { "t": "깨달았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoryeopdeon sigireul geochimyeonseo salmui uimireul kkaedarasseoyo",
+    "wordIds": ["w_eoryeopda", "w_sigi", "w_geochida", "w_sam", "w_uimi", "w_kkaedatda"],
+    "note": "Four words from the shelf in one memoir sentence. -던 on an ADJECTIVE: 어렵던 시기 = the hard time, as I lived it — where 어려운 시기 (the badge -(으)ㄴ from M24) states the period was hard, 어렵던 looks back at it from the far side. 거치다 takes it as its object and runs on -(으)면서 from M38 (while going through); 삶 stands in the possessive with M32's 의미 — 삶의 의미, the meaning of life, the phrase 삶 exists for; and 깨닫다 closes in its ㄷ-flipped past, 깨달았어요 — the ㄷ became ㄹ before 았, the flip M6's 걷다 taught. Two objects, one for each verb; both are tagged object, and the drill will ask you which verb each belongs to. The sentence every autobiography contains, in twelve syllables of grammar you own."
+  },
+  {
+    "id": "s_m88_since_graduation",
+    "en": [
+      { "t": "For the first time", "role": "other", "id": "b" },
+      { "t": "since graduating", "role": "other", "id": "a" },
+      { "t": "I went to see", "role": "other", "id": "c" },
+      { "t": "my school,", "role": "place", "id": "p" },
+      { "t": "and the restaurant I used to go to", "role": "subject", "id": "s" },
+      { "t": "was gone, I found", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "graduated since", "role": "other", "id": "a" },
+      { "t": "first-time", "role": "other", "id": "b" },
+      { "t": "school-to", "role": "place", "id": "p" },
+      { "t": "go tried-and", "role": "other", "id": "c" },
+      { "t": "often went-had restaurant-[subj]", "role": "subject", "id": "s" },
+      { "t": "disappeared-I-saw", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "졸업한 이래", "role": "other", "id": "a" },
+      { "t": "처음", "role": "other", "id": "b" },
+      { "t": "학교에", "role": "place", "id": "p" },
+      { "t": "가 봤는데", "role": "other", "id": "c" },
+      { "t": "자주 갔던 식당이", "role": "subject", "id": "s" },
+      { "t": "없어졌더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "joreophan irae cheoeum hakgyoe ga bwanneunde jaju gatdeon sikdangi eopseojyeotdeoragoyo",
+    "wordIds": ["w_joreop", "w_irae", "w_cheoeum", "w_hakgyo", "w_gada", "w_boda", "w_jaju", "w_sikdang", "w_eopseojida"],
+    "note": "Three retrospectives stacked. 졸업한 이래 = ever since graduating — M44's 졸업 verbed, in the past badge from M24, then the dependent noun 이래 (since, reaching to now). 갔던 식당 is the fully finished retrospective -았/었던: a restaurant I went to (often — M8's 자주), and that going is over and looked back on — where 가던 식당 would still feel interrupted. And the closer 없어졌더라고요 is M61's 없어지다 (M1's 없다 through -아/어지다 from M35, as a word) in the past, wearing -더라고요: it HAD disappeared, and I am the one who saw. Between them, -아/어 보다 from M16 on M1's 가다 (가 봤는데 — went to see) with -는데 from M53 setting the scene, exactly as that md's \"the situation-setter\" promised. 처음 (M15) is the adverb 'for the first time'; 학교에 is the place. The alumni sentence — everyone who goes back says this one."
+  },
+  {
+    "id": "s_m88_sibling_dream",
+    "en": [
+      { "t": "My younger sibling", "role": "subject", "id": "s" },
+      { "t": "strove", "role": "other", "id": "b" },
+      { "t": "for years,", "role": "other", "id": "a" },
+      { "t": "and in the end", "role": "other", "id": "c" },
+      { "t": "achieved", "role": "verb", "id": "v" },
+      { "t": "the dream", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "younger-sibling-[subj]", "role": "subject", "id": "s" },
+      { "t": "several years during", "role": "other", "id": "a" },
+      { "t": "strove-and-then", "role": "other", "id": "b" },
+      { "t": "in-the-end", "role": "other", "id": "c" },
+      { "t": "dream-[obj]", "role": "object", "id": "o" },
+      { "t": "achieved", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동생이", "role": "subject", "id": "s" },
+      { "t": "몇 년 동안", "role": "other", "id": "a" },
+      { "t": "애쓰더니", "role": "other", "id": "b" },
+      { "t": "결국", "role": "other", "id": "c" },
+      { "t": "꿈을", "role": "object", "id": "o" },
+      { "t": "이뤘어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongsaengi myeot nyeon dongan aesseudeoni gyeolguk kkumeul irwosseoyo",
+    "wordIds": ["w_dongsaeng", "w_myeot", "w_nyeon", "w_dongan", "w_aesseuda", "w_gyeolguk", "w_kkum", "w_iruda"],
+    "note": "-더니: I watched X, and then Y. 애쓰더니 = (I saw them) striving, and then — the subject is M4's 동생, not the speaker, which is the -더니 rule: you report what you witnessed in someone else, and the turn that followed. The span rides M5's 몇 + M25's 년 + M28's 동안 (몇 년 동안 — for some years, no digit needed); M32's 결국 lands the outcome; and M35's 이루다 closes on M8's 꿈 in the contracted past 이뤘어요 (이루었어요 squeezed). Sort it against -(으)니까 from M10 (a reason: 애썼으니까 = because they strove) and -자마자 from M38 (zero gap: 애쓰자마자 would be nonsense — striving has no instant) — -더니 is a sequence you watched, with a turn in it, and the outcome is the reward. 애쓰더니 is tagged other: a connective form, not the closer."
+  },
+  {
+    "id": "s_m88_rest_recovery",
+    "en": [
+      { "t": "I rested", "role": "other", "id": "c" },
+      { "t": "thoroughly", "role": "other", "id": "b" },
+      { "t": "over the weekend,", "role": "other", "id": "a" },
+      { "t": "and my recovery", "role": "subject", "id": "s" },
+      { "t": "was really", "role": "other", "id": "d" },
+      { "t": "fast", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "weekend-on", "role": "other", "id": "a" },
+      { "t": "thoroughly", "role": "other", "id": "b" },
+      { "t": "rested-and-found", "role": "other", "id": "c" },
+      { "t": "recovery-[subj]", "role": "subject", "id": "s" },
+      { "t": "really", "role": "other", "id": "d" },
+      { "t": "was-fast", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "주말에", "role": "other", "id": "a" },
+      { "t": "푹", "role": "other", "id": "b" },
+      { "t": "쉬었더니", "role": "other", "id": "c" },
+      { "t": "회복이", "role": "subject", "id": "s" },
+      { "t": "정말", "role": "other", "id": "d" },
+      { "t": "빨랐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jumare puk swieotdeoni hoebogi jeongmal ppallasseoyo",
+    "wordIds": ["w_jumal", "w_puk", "w_swida", "w_hoebok", "w_jeongmal", "w_ppareuda"],
+    "note": "-았/었더니: I DID X, and found Y — first person, past stem, then 더니. 쉬었더니 = I rested, and (found that)… — M8's 쉬다 with M14's 푹 (deeply, thoroughly — the pair 푹 쉬다 is what the doctor prescribes) on M2's 주말. The finding is 회복 as a bare-이 subject of M12's 빠르다 — 회복이 빨랐어요, recovery was fast, the noun this module dismounts from M53's 회복하다 in the doctor's own frame; M11's 정말 grades it. Where -더니 (previous sentence) watches someone else, -았/었더니 reports the result of your own act: 먹었더니, 갔더니, 물어봤더니 — the speaker did it, then saw what came of it. The 르-family (M7's table) supplies 빨랐어요 from 빠르다. Tag: 쉬었더니 is the connective, other; 빨랐어요 closes."
+  },
+  {
+    "id": "s_m88_fated_bond",
+    "en": [
+      { "t": "Listening to", "role": "other", "id": "a" },
+      { "t": "my parents' story,", "role": "object", "id": "o" },
+      { "t": "it really was", "role": "other", "id": "b" },
+      { "t": "a bond like fate, I could see", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "parents-of story-[obj]", "role": "object", "id": "o" },
+      { "t": "listen tried-because", "role": "other", "id": "a" },
+      { "t": "really", "role": "other", "id": "b" },
+      { "t": "fate like-a bond-was-I-saw", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부모님의 이야기를", "role": "object", "id": "o" },
+      { "t": "들어 보니까", "role": "other", "id": "a" },
+      { "t": "정말", "role": "other", "id": "b" },
+      { "t": "운명 같은 인연이더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bumonimui iyagireul deureo bonikka jeongmal unmyeong gateun inyeonideoragoyo",
+    "wordIds": ["w_bumonim", "w_iyagi", "w_deutda", "w_boda", "w_jeongmal", "w_unmyeong", "w_gatda_same", "w_inyeon"],
+    "note": "-더라고요 on the copula: 인연이더라고요 = it was a bond, I found — 이 + 더라고요, the eyewitness ending on a noun. The speaker earned the right to say it in the first clause: 들어 보니까 (M2's 듣다 in the try-machine -아/어 보다 from M16, plus -(으)니까 from M10 in its having-done-it-I-found job) — I listened, and so I know. 운명 같은 인연: M24's 같다 in the badge (같은 — like), fate wearing a bond, two shelf words in one noun phrase, and M11's 정말 in front. The rule the ending keeps: you cannot -더라고요 your own present feeling (no *내가 슬프더라고요), but a thing you watched in others — your parents' story — is exactly its territory. Sort: 인연이었어요 states a fact; 인연이잖아요 (-잖아요 from M42) says you know it too; 인연이더라고요 says I was there, you were not, here is what I saw. One chunk for the whole closer; M4's 부모님 in the possessive 의 on M24's 이야기 is the object of 듣다."
+  },
+  {
+    "id": "s_m88_qualified_hire",
+    "en": [
+      { "t": "The new employee", "role": "subject", "id": "s" },
+      { "t": "had every one of", "role": "other", "id": "a" },
+      { "t": "the qualifications, as far as I saw —", "role": "object", "id": "o" },
+      { "t": "so why", "role": "other", "id": "b" },
+      { "t": "didn't you pick him?", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "newly came employee-[subj]", "role": "subject", "id": "s" },
+      { "t": "conditions-[obj]", "role": "object", "id": "o" },
+      { "t": "all met-I-saw-but", "role": "other", "id": "a" },
+      { "t": "why", "role": "other", "id": "b" },
+      { "t": "not picked?", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새로 온 직원이", "role": "subject", "id": "s" },
+      { "t": "조건을", "role": "object", "id": "o" },
+      { "t": "다 갖췄던데", "role": "other", "id": "a" },
+      { "t": "왜", "role": "other", "id": "b" },
+      { "t": "안 뽑았어요?", "role": "verb", "id": "v" }
+    ],
+    "rom": "saero on jigwoni jogeoneul da gatchwotdeonde wae an ppobasseoyo?",
+    "wordIds": ["w_saero", "w_oda", "w_jigwon", "w_jogeon", "w_da", "w_gatchuda", "w_wae", "w_ppopda"],
+    "note": "-던데 with the past inside: 갖췄던데 = (I saw that) they had met them, but… — 갖추다 in its contracted past 갖췄 + 던데, the retrospective version of the soft-contrast -는데 that M53 filed as \"Soft contrast — it happened, BUT\": the speaker witnessed the qualifications, and the hiring decision does not square with what they saw. 조건을 갖추다 is the verb's home frame (M39's 조건 — \"the strings attached\", here all satisfied with M9's 다); the subject wears the badge phrase 새로 온 (M35's 새로, M1's 오다 in the past badge from M24) on M16's 직원; and the question closes on M61's 뽑다 (to pick — the hiring sense) under M3's 안, with M10's 왜 in front. Tag: 다 갖췄던데 is the connective clause, other; 안 뽑았어요? is the verb. The HR corridor's sentence — an observation, then the challenge it sets up."
+  },
+  {
+    "id": "s_m88_after_collapse",
+    "en": [
+      { "t": "Right after", "role": "other", "id": "b" },
+      { "t": "the company", "role": "subject", "id": "s" },
+      { "t": "collapsed,", "role": "other", "id": "a" },
+      { "t": "I couldn't say", "role": "verb", "id": "v" },
+      { "t": "a single word", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "company-[subj]", "role": "subject", "id": "s" },
+      { "t": "collapsed", "role": "other", "id": "a" },
+      { "t": "right-after-at-[topic]", "role": "other", "id": "b" },
+      { "t": "one-word-even", "role": "object", "id": "o" },
+      { "t": "do-way not-existed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회사가", "role": "subject", "id": "s" },
+      { "t": "무너진", "role": "other", "id": "a" },
+      { "t": "직후에는", "role": "other", "id": "b" },
+      { "t": "한마디도", "role": "object", "id": "o" },
+      { "t": "할 수 없었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoesaga muneojin jikhueneun hanmadido hal su eopseosseoyo",
+    "wordIds": ["w_hoesa", "w_muneojida", "w_jikhu", "w_hanmadi", "w_hada", "w_eopda"],
+    "note": "Three shelf words and no new glue — the recycling sentence. 무너진 직후에는: 무너지다 in the past badge from M24 (무너진 — collapsed) hands its moment to 직후, right after, which takes 에 and then the topic 는 — the whole time-phrase is other, and 회사가 (M2's 회사) is the bare-이 subject of 무너지다, tagged subject though it sits inside the modifier. 한마디도 = not even one word: 한마디 with M2's 도 in its even-job replacing the object 를 — still the object of 하다, and tagged object. The closer is the can-machine -(으)ㄹ 수 없다 from M10 in the past: 할 수 없었어요, one chunk. Compare 무너진 후에 (-(으)ㄴ 후에 from M13 — sometime after) and 무너진 이래 (this shelf — ever since): 직후 is the moment itself. The sentence said about 1997, about a bankruptcy, about the day the news came."
   }
 ]
