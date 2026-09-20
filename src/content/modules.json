@@ -2184,5 +2184,27 @@
       "s_m91_report_three_parts", "s_m91_survey_lifestyle", "s_m91_app_features", "s_m91_procedure_time",
       "s_m91_walk_exercise", "s_m91_computer_install", "s_m91_poll_nationwide", "s_m91_study_focus"
     ]
+  },
+  {
+    "id": "m92",
+    "title": "Existence and Matter",
+    "order": 101,
+    "ring": 2,
+    "contentMd": "modules/module-92.md",
+    "wordIds": [
+      "w_saengmyeong", "w_jonjae", "w_jonjaehada", "w_moksum",
+      "w_yeonghon", "w_hyeonsil", "w_hyeonsiljeok", "w_hyeonsang",
+      "w_uju", "w_illyu", "w_muljil", "w_mulche",
+      "w_haek", "w_jawon", "w_daegi", "w_gihu",
+      "w_pyomyeon", "w_hacheon", "w_gyegok", "w_mulgi",
+      "w_yukche", "w_simjang", "w_hoheup", "w_singyeong",
+      "w_gamgak", "w_siseon", "w_nungil", "w_taea",
+      "w_chulsan", "w_janyeo", "w_dungji", "w_chamsae",
+      "w_kkori", "w_teum"
+    ],
+    "sentenceIds": [
+      "s_m92_tiny_being", "s_m92_climate_changed", "s_m92_neglect_children", "s_m92_valley_clear",
+      "s_m92_avoid_glance", "s_m92_sparrow_no_tree", "s_m92_weak_heart", "s_m92_wiped_surface"
+    ]
   }
 ]
