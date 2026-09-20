@@ -21267,5 +21267,206 @@
     "rom": "geuphage ilhamyeon silsureul jeojireugi ilssuyeyo",
     "wordIds": ["w_geuphada", "w_ilhada", "w_silsu", "w_jeojireuda"],
     "note": "-기 일쑤다 on its debut: 저지르기 일쑤예요 = is forever making (mistakes) — today's 저지르다 through the -기 nominalizer from M13, then 일쑤 (a dependent noun, frozen: the habitual mishap) closed with the copula. It is a verdict on a pattern, never on one event, and always on a BAD pattern: nobody 하기 일쑤예요-s their homework on time. M38's 급하다 wears the -게 adverbializer from M33 (that note ran 급하게 먹으면 체해요, the same warning about food), -(으)면 from M20 on M2's 일하다 sets the condition, and M63's 실수 is the object 저지르다 was built for. Part 5's table has the four endings side by side; this is the one for the colleague, not the accident."
+  },
+  {
+    "id": "s_m97_survey_brand_price",
+    "en": [
+      { "t": "According to a survey,", "role": "other", "id": "a" },
+      { "t": "consumers these days", "role": "subject", "id": "s" },
+      { "t": "tend to look at", "role": "verb", "id": "v" },
+      { "t": "the price", "role": "object", "id": "o" },
+      { "t": "more than the brand", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "survey-at follow-if", "role": "other", "id": "a" },
+      { "t": "these-days consumer-[plural]-[topic]", "role": "subject", "id": "s" },
+      { "t": "brand-than", "role": "other", "id": "b" },
+      { "t": "price-[obj]", "role": "object", "id": "o" },
+      { "t": "more look-ing tendency-[subj] exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "조사에 따르면", "role": "other", "id": "a" },
+      { "t": "요즘 소비자들은", "role": "subject", "id": "s" },
+      { "t": "상표보다", "role": "other", "id": "b" },
+      { "t": "가격을", "role": "object", "id": "o" },
+      { "t": "더 보는 경향이 있어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "josae ttareumyeon yojeum sobijadeureun sangpyoboda gagyeogeul deo boneun gyeonghyangi isseoyo",
+    "wordIds": ["w_josa", "w_ttareuda", "w_yojeum", "w_sobija", "w_sangpyo", "w_gagyeok", "w_deo", "w_boda", "w_gyeonghyang", "w_itda"],
+    "note": "Recycles 에 따르면 from M90 — that md's frame, \"[source]에 따르면 = according to\" — hung on M44's 조사, the survey the economy page always opens with. Then two of today's words in one frame: 상표보다 (the comparison 보다 from M22 on today's 상표) = more than the brand, and the closer -는 경향이 있어요 — M1's 보다 in the badge -는 from M24, today's 경향 on the bare 이, M1's 있다 — the report's 'tends to', where M55's 편 would be the mouth's. M43's 소비자 with M27's 들 is the population the tendency belongs to; M26's 요즘 dates it. The roles drill wants 경향이 있어요 read as the predicate, one piece: the sentence is not about a tendency existing, it is about consumers looking."
+  },
+  {
+    "id": "s_m97_supply_forecast",
+    "en": [
+      { "t": "Next year", "role": "other", "id": "t" },
+      { "t": "the supply of farm produce", "role": "subject", "id": "s" },
+      { "t": "is expected", "role": "verb", "id": "v" },
+      { "t": "to be lower", "role": "other", "id": "a" },
+      { "t": "than demand", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "next-year-in-[topic]", "role": "other", "id": "t" },
+      { "t": "farm-produce supply-[subj]", "role": "subject", "id": "s" },
+      { "t": "demand-than", "role": "other", "id": "b" },
+      { "t": "few-will thing-as", "role": "other", "id": "a" },
+      { "t": "is-expected", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "내년에는", "role": "other", "id": "t" },
+      { "t": "농산물 공급이", "role": "subject", "id": "s" },
+      { "t": "수요보다", "role": "other", "id": "b" },
+      { "t": "적을 것으로", "role": "other", "id": "a" },
+      { "t": "예상됩니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "naenyeoneneun nongsanmul gonggeubi suyoboda jeogeul geoseuro yesangdoemnida",
+    "wordIds": ["w_naenyeon", "w_nongsanmul", "w_gonggeup", "w_suyo", "w_jeokda", "w_yesangdoeda"],
+    "note": "Recycles -(으)ㄹ 것으로 예상되다 from M93 — the frame that note called \"the weather report's and the economics page's whole grammar\" — and this is the economics page: 적을 것으로 예상됩니다 (M7's 적다 in the future hook -(으)ㄹ from M8, M17's 것, 으로 from M6, M93's 예상되다 in the 합니다체 from M4) = is expected to be lower. Three of today's nouns carry it: 농산물 공급이 on the bare 이 is the subject, 수요보다 (the 보다 from M22) the standard — the pair 수요와 공급 the gap deck runs, here set against each other. M25's 내년 wears 에는, and the tense is present, because a Korean forecast never needs a future marker when the frame already is one. Nobody expects it; it is expected — which is how the page avoids being wrong."
+  },
+  {
+    "id": "s_m97_income_consumption",
+    "en": [
+      { "t": "The higher", "role": "other", "id": "a" },
+      { "t": "the income,", "role": "subject", "id": "s" },
+      { "t": "the more consumption", "role": "subject", "id": "c" },
+      { "t": "grows as well", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "income-[subj]", "role": "subject", "id": "s" },
+      { "t": "high-the-more", "role": "other", "id": "a" },
+      { "t": "consumption-also", "role": "subject", "id": "c" },
+      { "t": "increases", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "소득이", "role": "subject", "id": "s" },
+      { "t": "높을수록", "role": "other", "id": "a" },
+      { "t": "소비도", "role": "subject", "id": "c" },
+      { "t": "늘어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sodeugi nopeulsurok sobido neureoyo",
+    "wordIds": ["w_sodeuk", "w_nopda", "w_sobi", "w_neulda"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — that md: \"The clause it closes is the dial; the main clause is what the dial moves\" — with today's 소득 on the dial and today's 소비 moved by it. 높을수록 is M7's 높다 with the prospective badge and 수록; 소비도 wears M2's 도 because consumption rises TOO; and M35's 늘다 closes, the verb that note said everything does (\"Skills, weight, worries — they all 늘어요\"). Two bare subjects, one slope: the roles drill tags 소득이 and 소비도 both as subject, and the ending on the first is the only grammar in it. The economist's first law, in four words — and the reason the economy page prints 소득 and 소비 in the same paragraph every month."
+  },
+  {
+    "id": "s_m97_labor_hours",
+    "en": [
+      { "t": "Compared to other developed countries,", "role": "other", "id": "a" },
+      { "t": "Korea's", "role": "subject", "id": "s" },
+      { "t": "working hours", "role": "subject", "id": "t" },
+      { "t": "are long", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "other developed-country-at compare-and", "role": "other", "id": "a" },
+      { "t": "Korea-[topic]", "role": "subject", "id": "s" },
+      { "t": "labour time-[subj]", "role": "subject", "id": "t" },
+      { "t": "long", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "다른 선진국에 비해", "role": "other", "id": "a" },
+      { "t": "한국은", "role": "subject", "id": "s" },
+      { "t": "노동 시간이", "role": "subject", "id": "t" },
+      { "t": "길어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dareun seonjinguge bihae hangugeun nodong sigani gireoyo",
+    "wordIds": ["w_dareun", "w_seonjinguk", "w_bihada", "w_hanguk", "w_nodong", "w_sigan", "w_gilda"],
+    "note": "Recycles 에 비해 from M86 — M86's 비하다 frozen in -아/어, the frame that md tabled as compared to, with the line \"every frame has a spoken version you already own, and the difference is register\": 선진국보다 is what you say, 선진국에 비해 is what the editorial says. Today's 선진국 is the standard Korea measures itself against in every such editorial, with M29's 다른 in front; then the double-subject frame the roles drill knows from 한식은 반찬이 많아요 — 한국은 the topic, today's 노동 on M1's 시간 as the bare-이 subject, M7's 길다 closing. Working hours are long, and Korea has them — the sentence the OECD chart under the headline is drawn from."
+  },
+  {
+    "id": "s_m97_budget_construction",
+    "en": [
+      { "t": "Since the budget", "role": "subject", "id": "s" },
+      { "t": "is insufficient,", "role": "other", "id": "a" },
+      { "t": "it is difficult to push forward", "role": "verb", "id": "v" },
+      { "t": "the construction project", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "budget-[subj]", "role": "subject", "id": "s" },
+      { "t": "insufficient-because", "role": "other", "id": "a" },
+      { "t": "construction business-[obj]", "role": "object", "id": "o" },
+      { "t": "push-forward-ing difficult", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "예산이", "role": "subject", "id": "s" },
+      { "t": "부족하므로", "role": "other", "id": "a" },
+      { "t": "건설 사업을", "role": "object", "id": "o" },
+      { "t": "추진하기 어렵습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "yesani bujokhameuro geonseol saeobeul chujinhagi eoryeopseumnida",
+    "wordIds": ["w_yesan", "w_bujokhada", "w_geonseol", "w_saeop", "w_chujinhada", "w_eoryeopda"],
+    "note": "Recycles -(으)므로 from M85 — the written because, which that md ranked \"the fourth row and the most formal of all\" — on M39's 부족하다 with today's 예산 as its subject: the sentence every stalled project files. Then three of today's words in one clause: 건설 사업을 (today's 건설 on M43's 사업) is the object, and 추진하기 어렵습니다 — today's 추진하다 through the -기 nominalizer from M13, M7's 어렵다 in the 합니다체 from M4 — is the closer: hard to push forward. Say it with -아/어서 and it is a colleague's excuse; with -(으)므로 it is a memo from no one in particular, which is the register 추진하다 lives in. The roles drill takes 부족하므로 as other — a connective form, not the closer."
+  },
+  {
+    "id": "s_m97_growth_farmers",
+    "en": [
+      { "t": "The economy", "role": "subject", "id": "s" },
+      { "t": "did grow, it is true,", "role": "other", "id": "a" },
+      { "t": "but farmers' income", "role": "subject", "id": "t" },
+      { "t": "did not rise", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "economy-[subj]", "role": "subject", "id": "s" },
+      { "t": "grow-ing-[topic] did-but", "role": "other", "id": "a" },
+      { "t": "farmer-[plural]-[poss] income-[topic]", "role": "subject", "id": "t" },
+      { "t": "increase-not-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "경제가", "role": "subject", "id": "s" },
+      { "t": "성장하기는 했지만", "role": "other", "id": "a" },
+      { "t": "농민들의 소득은", "role": "subject", "id": "t" },
+      { "t": "늘지 않았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeongjega seongjanghagineun haetjiman nongmindeurui sodeugeun neulji anasseoyo",
+    "wordIds": ["w_gyeongje", "w_seongjanghada", "w_hada", "w_nongmin", "w_sodeuk", "w_neulda"],
+    "note": "Recycles -기는 하다 from M92 — that md: \"-기는 하다 concedes INSIDE the first verb, before the second clause arrives\" — on today's 성장하다: 성장하기는 했지만 = grow it did, but — the -기 from M13, 는, M1's 하다 carrying the past, and -지만 from M7 letting the second clause in. M32's 경제 grew; today's 농민 (with M27's 들 and the possessive 의) did not feel it, and today's 소득 on 은 is the contrast's topic, closed by M35's 늘다 under the long negative -지 않다. The 는 on 성장하기는 has already told you the verdict before 농민 arrives — the concession is the sentence's whole point, and it is the sentence the countryside has been saying about the growth chart since the 1970s."
+  },
+  {
+    "id": "s_m97_prices_salary",
+    "en": [
+      { "t": "If prices", "role": "subject", "id": "s" },
+      { "t": "keep rising,", "role": "other", "id": "a" },
+      { "t": "your salary", "role": "subject", "id": "t" },
+      { "t": "has effectively shrunk", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "prices-[subj]", "role": "subject", "id": "s" },
+      { "t": "continually rise-if", "role": "other", "id": "a" },
+      { "t": "salary-[subj]", "role": "subject", "id": "t" },
+      { "t": "shrunk amounts-to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "물가가", "role": "subject", "id": "s" },
+      { "t": "계속 오르면", "role": "other", "id": "a" },
+      { "t": "월급이", "role": "subject", "id": "t" },
+      { "t": "줄어든 셈이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mulgaga gyesok oreumyeon wolgeubi jureodeun semieyo",
+    "wordIds": ["w_mulga", "w_gyesok", "w_oreuda", "w_wolgeup", "w_jureodeulda", "w_sem"],
+    "note": "Recycles -(으)ㄴ/는 셈이다 from M87 — M87's 셈, whose note framed it as \"-(으)ㄴ/는 셈이다 = it amounts to\" — on M89's 줄어들다 in the past badge -(으)ㄴ from M24: 줄어든 셈이에요 = has, in effect, shrunk. The condition is today's 물가 with the verb M93's 예상되다 note gave it (M22's 오르다), under -(으)면 from M20 and M28's 계속; the thing counted is M16's 월급, unchanged on paper and smaller in the shop. Nothing was cut, and the 셈 says so: it is arithmetic, not an event — which is exactly the grumble the gap deck files under 물가가 올랐어요. Two bare subjects again, one conditional, one reckoning."
+  },
+  {
+    "id": "s_m97_seasoning_debut",
+    "en": [
+      { "t": "As a result of long research,", "role": "other", "id": "a" },
+      { "t": "a new seasoning", "role": "subject", "id": "s" },
+      { "t": "was developed", "role": "other", "id": "b" },
+      { "t": "and appeared", "role": "verb", "id": "v" },
+      { "t": "on the market", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "long researched result", "role": "other", "id": "a" },
+      { "t": "new seasoning-[subj]", "role": "subject", "id": "s" },
+      { "t": "developed-and", "role": "other", "id": "b" },
+      { "t": "market-on", "role": "place", "id": "p" },
+      { "t": "appeared", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오래 연구한 결과", "role": "other", "id": "a" },
+      { "t": "새로운 조미료가", "role": "subject", "id": "s" },
+      { "t": "개발되어", "role": "other", "id": "b" },
+      { "t": "시장에", "role": "place", "id": "p" },
+      { "t": "등장했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "orae yeonguhan gyeolgwa saeroun jomiryoga gaebaldoeeo sijange deungjanghaesseoyo",
+    "wordIds": ["w_orae", "w_yeonguhada", "w_gyeolgwa", "w_saeropda", "w_jomiryo", "w_gaebaldoeda", "w_sijang", "w_deungjanghada"],
+    "note": "Recycles -(으)ㄴ 결과 from M90 — the report's hinge, which that md sorted from the -(으)ㄴ 나머지 of M86 (\"-(으)ㄴ 결과 is a result of a PROCEDURE\") — on M44's 연구하다 with M10's 오래: as a result of long research. Then the two strays meet the shelf's 되다: today's 조미료 (M35's 새롭다 in the badge) on the bare 가, today's 개발되다 in -아/어 as the first step (developer unnamed, as the M90 md said the second half of a 결과 sentence usually is), M3's 시장 as the place with 에, and today's 등장하다 closing — the product makes its entrance. M32's 나타나다 would have it merely show up; 등장하다 gives it a stage, and the economy page writes every launch this way. The roles drill: 개발되어 is a connective form, other; 등장했어요 is the closer."
   }
 ]
