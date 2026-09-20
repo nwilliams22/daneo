@@ -2313,5 +2313,27 @@
       "s_m96_play_fresh_premise", "s_m96_despite_criticism", "s_m96_scholar_medieval_book", "s_m96_tearoom_coffee_skill",
       "s_m96_even_intellectuals", "s_m96_reports_actor_origin", "s_m96_seoul_heritage_play", "s_m96_myth_recorded_guess"
     ]
+  },
+  {
+    "id": "m98",
+    "title": "Ground and Rank",
+    "order": 107,
+    "ring": 2,
+    "contentMd": "modules/module-98.md",
+    "wordIds": [
+      "w_ipjang", "w_hyeonjang", "w_jungang", "w_naebu",
+      "w_oebu", "w_nambu", "w_guyeok", "w_jidae",
+      "w_gyeonggye", "w_seogu", "w_gwangyeja", "w_jidoja",
+      "w_ganbu", "w_budae", "w_gunsa", "w_mugi",
+      "w_gonggyeok", "w_hullyeon", "w_jisi", "w_soyu",
+      "w_sarye", "w_beopchik", "w_bujeong", "w_bulbeop",
+      "w_gusok", "w_jeunggeo", "w_hyeongsa", "w_haengwi",
+      "w_sudan", "w_gyosa", "w_gyojang", "w_ipsi",
+      "w_jase"
+    ],
+    "sentenceIds": [
+      "s_m98_no_evidence_no_detention", "s_m98_positions_plan_changed", "s_m98_detective_finds_weapon", "s_m98_principal_posture",
+      "s_m98_unit_training_attack", "s_m98_fear_attack_training", "s_m98_wrongdoing_bound_out", "s_m98_law_ownership_acts"
+    ]
   }
 ]
