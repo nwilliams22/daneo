@@ -2511,5 +2511,27 @@
       "s_m106_victims_negative", "s_m106_owner_not_absolute", "s_m106_creative_curious", "s_m106_environment_worse",
       "s_m106_steppe_herders", "s_m106_gangnam_brokerage", "s_m106_director_parents_meeting", "s_m106_supplies_again"
     ]
+  },
+  {
+    "id": "m107",
+    "title": "Native Verbs IV, and the Adjectives",
+    "order": 116,
+    "ring": 2,
+    "contentMd": "modules/module-107.md",
+    "wordIds": [
+      "w_dwineutda", "w_dwijida", "w_matboda", "w_himsseuda",
+      "w_ttwieoneomda", "w_jibeoneota", "w_doradanida", "w_ppajyeonaoda",
+      "w_haenaeda", "w_majihada", "w_dareumeopda", "w_pongneolda",
+      "w_nallida", "w_deolda", "w_baeda", "w_saeda",
+      "w_gapda", "w_kkiuda", "w_dadeumda", "w_hemaeda",
+      "w_kkotda", "w_duryeopda", "w_meotjida", "w_hwanhada",
+      "w_gwihada", "w_eogulhada", "w_dangdanghada", "w_geonjeonhada",
+      "w_cheokhada", "w_jeojeollo", "w_geodeup", "w_ieukgo",
+      "w_mocheoreom", "w_kkwak", "w_hyungnae", "w_deongeori"
+    ],
+    "sentenceIds": [
+      "s_m107_wander_broader", "s_m107_friend_unchanged", "s_m107_kid_pretending", "s_m107_smell_leak",
+      "s_m107_debt_repaid", "s_m107_desk_two_errands", "s_m107_lost_bright_shop", "s_m107_brother_confident"
+    ]
   }
 ]

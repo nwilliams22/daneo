@@ -23445,5 +23445,218 @@
     "rom": "aiga hagyongpumeul da ireobeoryeotgillae yeonpil gongchaek deungdeungeul saero sa jwosseoyo",
     "wordIds": ["w_ai", "w_hagyongpum", "w_da", "w_ireobeorida", "w_yeonpil", "w_gongchaek", "w_deungdeung", "w_saero", "w_sada", "w_juda"],
     "note": "Recycles -길래 from M93, the witnessed because — that md's rule of persons, \"the -길래 clause is NOT the speaker — it is the weather, the shop, the company, the other person — and the main clause IS: you watched, then you did\". The kid loses, the parent buys. Two slice words close the shelf: 학용품 (the study-用-品 stack, and M15's 연필 and 공책 are two of its members) and 등등, S2's 등 doubled and trailing off exactly as that note promised. M9's 다 totals the loss, M20's 잃어버리다 is the losing, M35's 새로 and M2's 사다 with M9's 주다 replace it. Say it with 등 instead of 등등 and the sentence turns into a receipt."
+  },
+  {
+    "id": "s_m107_wander_broader",
+    "en": [
+      { "t": "The more you wander", "role": "other", "id": "b" },
+      { "t": "here and there,", "role": "other", "id": "a" },
+      { "t": "your knowledge", "role": "subject", "id": "s" },
+      { "t": "grows broader", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "here-and-there", "role": "other", "id": "a" },
+      { "t": "wander-around-the more", "role": "other", "id": "b" },
+      { "t": "knowledge-[subj]", "role": "subject", "id": "s" },
+      { "t": "becomes-broad", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이곳저곳", "role": "other", "id": "a" },
+      { "t": "돌아다닐수록", "role": "other", "id": "b" },
+      { "t": "지식이", "role": "subject", "id": "s" },
+      { "t": "폭넓어져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "igotjeogot doradanilsurok jisigi pongneolbeojyeoyo",
+    "wordIds": ["w_igotjeogot", "w_doradanida", "w_jisik", "w_pongneolda"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — the prospective badge + 수록, the dial-and-result shape that md built on \"볼수록 매력 있어요\". Two of today's welds ride it: 돌아다니다 (M37's 돌다 + M16's 다니다) is the dial, and 폭넓다 (M60's 폭 + M13's 넓다) is what moves, through the -아/어지다 wing from M35 — a range WIDENS rather than simply being wide. 이곳저곳 is the written here-and-there from M82, whose note already ran \"이곳저곳을 다니다 (M16's 다니다)\"; today's verb is that phrase with 돌다 welded onto the front. Roles: 이곳저곳 and 돌아다닐수록 are both other — an adverb and a connective clause — and 지식이 is the subject the slope moves."
+  },
+  {
+    "id": "s_m107_friend_unchanged",
+    "en": [
+      { "t": "The friend I met after a long while", "role": "subject", "id": "s" },
+      { "t": "was no different", "role": "verb", "id": "v" },
+      { "t": "from how he used to be", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "for-once met friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "old-days-with", "role": "other", "id": "c" },
+      { "t": "no-different-[I found]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "모처럼 만난 친구가", "role": "subject", "id": "s" },
+      { "t": "예전과", "role": "other", "id": "c" },
+      { "t": "다름없더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mocheoreom mannan chinguga yejeongwa dareumeopdeoragoyo",
+    "wordIds": ["w_mocheoreom", "w_mannada", "w_chingu", "w_yejeon", "w_dareumeopda"],
+    "note": "Recycles -더라고요 from M88 — the spoken retrospective closer — and that md's eyewitness rule is doing the work: what was witnessed is the friend, not the speaker's own present feeling. 모처럼 is today's rare-occasion adverb, sorted in its entry against M19's 오랜만 (오랜만 measures the gap, 모처럼 colours the occasion), and 다름없다 is M24's 다르다 through the -(으)ㅁ freezer of M67 with M1's 없다 behind it — its particle is 와/과, here on M35's 예전. Roles: the whole of 모처럼 만난 친구가 is one subject chunk, badge -(으)ㄴ from M24 and all, and 예전과 is other."
+  },
+  {
+    "id": "s_m107_kid_pretending",
+    "en": [
+      { "t": "The kid", "role": "subject", "id": "s" },
+      { "t": "was doing", "role": "other", "id": "a" },
+      { "t": "animal impressions", "role": "object", "id": "o" },
+      { "t": "so I", "role": "subject", "id": "t" },
+      { "t": "pretended to be asleep", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "child-[subj]", "role": "subject", "id": "s" },
+      { "t": "animal mimicry-[obj]", "role": "object", "id": "o" },
+      { "t": "do-seeing that", "role": "other", "id": "a" },
+      { "t": "I-too", "role": "subject", "id": "t" },
+      { "t": "sleep-[badge] pretended", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아이가", "role": "subject", "id": "s" },
+      { "t": "동물 흉내를", "role": "object", "id": "o" },
+      { "t": "내길래", "role": "other", "id": "a" },
+      { "t": "저도", "role": "subject", "id": "t" },
+      { "t": "자는 척했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "aiga dongmul hyungnaereul naegillae jeodo janeun cheokhaesseoyo",
+    "wordIds": ["w_ai", "w_dongmul", "w_hyungnae", "w_naeda", "w_jeo", "w_jada", "w_cheokhada"],
+    "note": "Recycles -길래 from M93 — the eyewitness's because — and its rule of persons is exactly the joke: the -길래 clause is the child, the main clause is the speaker. 흉내 rides the verb its entry names, M28's 내다 (흉내를 내다 = to imitate), and today's 척하다 closes on the badge -는 from M24: 자는 척했어요. Both halves of the sentence are performances, which is why 모르는 척하다 would work just as well in the second. Roles: 내길래 is other, a connective form; 저도 stays subject with 도 on it, the way M2's 도 always hides a particle rather than replacing a role."
+  },
+  {
+    "id": "s_m107_smell_leak",
+    "en": [
+      { "t": "The smell", "role": "subject", "id": "s" },
+      { "t": "has soaked into", "role": "other", "id": "d" },
+      { "t": "the room,", "role": "place", "id": "p" },
+      { "t": "and on top of that rain", "role": "subject", "id": "r" },
+      { "t": "is leaking", "role": "verb", "id": "v" },
+      { "t": "from the ceiling", "role": "place", "id": "q" }
+    ],
+    "gloss": [
+      { "t": "room-in", "role": "place", "id": "p" },
+      { "t": "smell-[subj]", "role": "subject", "id": "s" },
+      { "t": "soaked-[badge] on-top-of", "role": "other", "id": "d" },
+      { "t": "ceiling-from", "role": "place", "id": "q" },
+      { "t": "rain-even", "role": "subject", "id": "r" },
+      { "t": "leaks", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "방에", "role": "place", "id": "p" },
+      { "t": "냄새가", "role": "subject", "id": "s" },
+      { "t": "밴 데다가", "role": "other", "id": "d" },
+      { "t": "천장에서", "role": "place", "id": "q" },
+      { "t": "비까지", "role": "subject", "id": "r" },
+      { "t": "새요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bange naemsaega baen dedaga cheonjangeseo bikkaji saeyo",
+    "wordIds": ["w_bang", "w_naemsae", "w_baeda", "w_cheonjang", "w_bi", "w_saeda"],
+    "note": "Recycles -(으)ㄴ/는 데다가 from M92 — the mouth's \"and what's more\" — and that md's DIRECTION rule is obeyed, because both facts are bad; the 까지 on 비까지 is the pile-marker it said the ending likes. Two of the hand's verbs meet here: 배다 soaks in and stays (NIKL files it 땀이 ~, and a smell behaves like sweat), and 새다 is the LEAK-새다 — not the dawn-새다 that M38's 밤새다 is built on, glossed there as \"새다 (to dawn)\". The 천장 is M104's, and a ceiling is where a leak gets noticed first. Roles: 밴 데다가 is other; 비까지 is still subject, particle or no particle."
+  },
+  {
+    "id": "s_m107_debt_repaid",
+    "en": [
+      { "t": "Even after paying back all", "role": "other", "id": "a" },
+      { "t": "the money,", "role": "object", "id": "o" },
+      { "t": "the wronged feeling", "role": "subject", "id": "s" },
+      { "t": "did not go away", "role": "verb", "id": "v" },
+      { "t": "on its own", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "money-[obj]", "role": "object", "id": "o" },
+      { "t": "all repay-even-having", "role": "other", "id": "a" },
+      { "t": "wronged heart-[topic]", "role": "subject", "id": "s" },
+      { "t": "by-itself", "role": "other", "id": "b" },
+      { "t": "disappear-not-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "돈을", "role": "object", "id": "o" },
+      { "t": "다 갚고도", "role": "other", "id": "a" },
+      { "t": "억울한 마음은", "role": "subject", "id": "s" },
+      { "t": "저절로", "role": "other", "id": "b" },
+      { "t": "사라지지 않았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "doneul da gapgodo eogulhan maeumeun jeojeollo sarajiji anasseoyo",
+    "wordIds": ["w_don", "w_da", "w_gapda", "w_eogulhada", "w_maeum", "w_jeojeollo", "w_sarajida"],
+    "note": "Recycles -고도 from M85 — verb--고 from M10 plus 도, \"even having done\" — and that md drew the line this sentence needs: \"받아도 concedes a hypothetical, 받고도 concedes a fact.\" The money really was repaid. 갚다 is M69's 빌리다 run backwards, 억울하다 is 抑鬱 — the wrong felt, not the gloom of M34's 우울하다 — and 저절로 says nobody made the feeling go, which is the point: it didn't. Roles: 다 갚고도 is other, a connective clause; 억울한 마음은 is the subject wearing the topic particle, and the long negation from M28 closes."
+  },
+  {
+    "id": "s_m107_desk_two_errands",
+    "en": [
+      { "t": "I sat down", "role": "verb", "id": "v" },
+      { "t": "at the desk", "role": "place", "id": "p" },
+      { "t": "partly to polish my writing", "role": "other", "id": "a" },
+      { "t": "and partly to shelve some books", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "writing-too polish-[fut] both", "role": "other", "id": "a" },
+      { "t": "book-too stand-up-[fut] both", "role": "other", "id": "b" },
+      { "t": "desk front-at", "role": "place", "id": "p" },
+      { "t": "sat-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "글도 다듬을 겸", "role": "other", "id": "a" },
+      { "t": "책도 꽂을 겸", "role": "other", "id": "b" },
+      { "t": "책상 앞에", "role": "place", "id": "p" },
+      { "t": "앉았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geuldo dadeumeul gyeom chaekdo kkojeul gyeom chaeksang ape anjasseoyo",
+    "wordIds": ["w_geul", "w_dadeumda", "w_chaek", "w_kkotda", "w_chaeksang", "w_ap", "w_anda"],
+    "note": "Recycles -(으)ㄹ 겸 from M91 — two purposes and one act — and the 도 that md said is \"nearly always there\" sits on both nouns: 글도, 책도. 다듬다 is improvement by subtraction (a trim, not a cut; a polish, not a rewrite) and 꽂다 pushes a thing in so that it stands — the same verb M101's 코드 left riding frozen, here shelving a book instead of plugging in a cord. Roles: both 겸-clauses are other, 책상 앞에 is place on M6's 앞, and 앉았어요 closes — M9's 앉다, not M28's 안다."
+  },
+  {
+    "id": "s_m107_lost_bright_shop",
+    "en": [
+      { "t": "After wandering lost through", "role": "other", "id": "a" },
+      { "t": "the streets,", "role": "object", "id": "o" },
+      { "t": "before long", "role": "other", "id": "b" },
+      { "t": "a brightly lit shop", "role": "subject", "id": "s" },
+      { "t": "appeared", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "road-[obj]", "role": "object", "id": "o" },
+      { "t": "wander keep-at-and-found", "role": "other", "id": "a" },
+      { "t": "before-long", "role": "other", "id": "b" },
+      { "t": "bright shop-[subj]", "role": "subject", "id": "s" },
+      { "t": "came-out-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "길을", "role": "object", "id": "o" },
+      { "t": "헤매다 보니", "role": "other", "id": "a" },
+      { "t": "이윽고", "role": "other", "id": "b" },
+      { "t": "환한 가게가", "role": "subject", "id": "s" },
+      { "t": "나왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gireul hemaeda boni ieukgo hwanhan gagega nawasseoyo",
+    "wordIds": ["w_gil", "w_hemaeda", "w_ieukgo", "w_hwanhada", "w_gage", "w_naoda"],
+    "note": "Recycles -다 보니 from M94 — -다가 clipped to -다 plus M1's 보다: you kept at the first thing, looked up, and FOUND the second, which is how being lost actually ends. 헤매다 is movement with no finding in it (and the 매 is not M60's 매다), 이윽고 is the storyteller's adverb, so the line reads like a page rather than a text message, and 환하다 is light that opens something — a lit shopfront at the end of a dark street, where M13's 밝다 would only have measured it. Roles: 헤매다 보니 and 이윽고 are both other; 환한 가게가 is the subject that arrives."
+  },
+  {
+    "id": "s_m107_brother_confident",
+    "en": [
+      { "t": "My older brother", "role": "subject", "id": "s" },
+      { "t": "confidently", "role": "other", "id": "a" },
+      { "t": "pulls off", "role": "other", "id": "c" },
+      { "t": "even the hard jobs,", "role": "object", "id": "o" },
+      { "t": "whereas I", "role": "subject", "id": "t" },
+      { "t": "am afraid of", "role": "verb", "id": "v" },
+      { "t": "failure", "role": "subject", "id": "u" }
+    ],
+    "gloss": [
+      { "t": "older-brother-[topic]", "role": "subject", "id": "s" },
+      { "t": "difficult work-too", "role": "object", "id": "o" },
+      { "t": "dignified-ly", "role": "other", "id": "a" },
+      { "t": "pull-off-[badge] whereas", "role": "other", "id": "c" },
+      { "t": "I-[topic]", "role": "subject", "id": "t" },
+      { "t": "failure-[subj]", "role": "subject", "id": "u" },
+      { "t": "am-afraid", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "형은", "role": "subject", "id": "s" },
+      { "t": "어려운 일도", "role": "object", "id": "o" },
+      { "t": "당당하게", "role": "other", "id": "a" },
+      { "t": "해내는 반면에", "role": "other", "id": "c" },
+      { "t": "저는", "role": "subject", "id": "t" },
+      { "t": "실패가", "role": "subject", "id": "u" },
+      { "t": "두려워요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hyeongeun eoryeoun ildo dangdanghage haenaeneun banmyeone jeoneun silpaega duryeowoyo",
+    "wordIds": ["w_hyeong", "w_eoryeopda", "w_ilhada", "w_dangdanghada", "w_haenaeda", "w_jeo", "w_silpae", "w_duryeopda"],
+    "note": "Recycles 반면에 from M95 — M95's 반면 after a badge-clause — and that md's reason for it holds: it \"BALANCES two facts on a scale and leans on neither\", which is why each half takes its own 은/는, 형은 and 저는. 당당하다 is 堂堂, the 堂 of M65's 강당 doubled, here in the -게 adverbializer from M33; 해내다 is M1's 하다 + M28's 내다, the verb kept for what looked unmanageable; 두렵다 is the ㅂ-irregular fear you admit rather than the M24's 무섭다 you shout. Roles: 실패가 is subject, not object — Korean does not fear a thing, the thing is fearsome to you."
   }
 ]
