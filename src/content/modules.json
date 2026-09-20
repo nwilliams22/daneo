@@ -2446,5 +2446,27 @@
       "s_m103_noise_protest", "s_m103_pride_words", "s_m103_midthirties_spending", "s_m103_final_ratio",
       "s_m103_extra_seats", "s_m103_spicy_overdo", "s_m103_survey_root", "s_m103_small_fluctuation"
     ]
+  },
+  {
+    "id": "m104",
+    "title": "Native Verbs III, and the House",
+    "order": 113,
+    "ring": 2,
+    "contentMd": "modules/module-104.md",
+    "wordIds": [
+      "w_kkeokda", "w_ttulta", "w_pada", "w_kkalda",
+      "w_gamssada", "w_pumda", "w_jjotda", "w_muchida",
+      "w_mallida", "w_doechatda", "w_hearida", "w_dajimhada",
+      "w_garaanda", "w_sotda", "w_gutda", "w_gudeojida",
+      "w_gumda", "w_manghada", "w_jeophada", "w_oemyeonhada",
+      "w_gahada", "w_dodalhada", "w_bojanghada", "w_yesanghada",
+      "w_jejakhada", "w_gichohada", "w_gaeseonhada", "w_pum",
+      "w_chim", "w_madi", "w_eongdeongi", "w_jeogori",
+      "w_mudeom", "w_mulgyeol", "w_bapsang", "w_cheonjang"
+    ],
+    "sentenceIds": [
+      "s_m104_mother_bapsang", "s_m104_news_face_hardened", "s_m104_waves_ceiling", "s_m104_shop_ruined_hungry",
+      "s_m104_laundry_indoors", "s_m104_room_bedding", "s_m104_company_quality", "s_m104_old_stories_buried"
+    ]
   }
 ]

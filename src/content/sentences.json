@@ -22854,5 +22854,215 @@
     "rom": "geukhi jageun byeondongdo gyeolguk gagyeoge yeonghyangeul jugi maryeonieyo",
     "wordIds": ["w_geukhi", "w_jakda", "w_byeondong", "w_gyeolguk", "w_gagyeok", "w_yeonghyang", "w_juda", "w_maryeon"],
     "note": "Recycles -기 마련이다 from M87 — that md's sort, \"셈 counts what has happened; 마련 says what was always going to\" — and M87's 마련 note's reading of the frame, \"used to say the world has already arranged it\": 영향을 주기 마련이에요 = is bound to have an effect. Two slice words open it: 극히 작은 변동도 = even an extremely small fluctuation — 극히, the report's very, on M1's 작다 in the badge, on 변동 in its chart sense, with 도 from M2 replacing the subject particle; then M32's 결국 and M21's 가격 on 에 set where the effect lands. 영향을 주다 is the everyday collocation M86's 영향 note filed (\"영향을 주다 (M9's 주다) = to influence (the everyday one)\"). The economics lecturer's sentence: a market has already arranged for every wobble to reach the price tag. Roles: 변동도 is the subject even under 도 — tag by the Korean grammar, not by the English even."
+  },
+  {
+    "id": "s_m104_mother_bapsang",
+    "en": [
+      { "t": "Mother", "role": "subject", "id": "s" },
+      { "t": "set", "role": "verb", "id": "v" },
+      { "t": "the meal table", "role": "object", "id": "b" },
+      { "t": "still holding", "role": "other", "id": "c" },
+      { "t": "the baby", "role": "object", "id": "o" },
+      { "t": "against her chest", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "mother-[topic]", "role": "subject", "id": "s" },
+      { "t": "baby-[obj]", "role": "object", "id": "o" },
+      { "t": "bosom-in", "role": "place", "id": "p" },
+      { "t": "held-[state]", "role": "other", "id": "c" },
+      { "t": "meal-table-[obj]", "role": "object", "id": "b" },
+      { "t": "set-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어머니는", "role": "subject", "id": "s" },
+      { "t": "아기를", "role": "object", "id": "o" },
+      { "t": "품에", "role": "place", "id": "p" },
+      { "t": "안은 채", "role": "other", "id": "c" },
+      { "t": "밥상을", "role": "object", "id": "b" },
+      { "t": "차렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eomeonineun agireul pume aneun chae bapsangeul charyeosseoyo",
+    "wordIds": ["w_eomeoni", "w_agi", "w_pum", "w_anda_hug", "w_chae", "w_bapsang", "w_charida"],
+    "note": "Recycles -(으)ㄴ 채(로) from M94 — \"in the state of\" — the state frozen while the main clause happens, and that md warned the state is \"nearly always a state that should have been undone — 채 carries a faint shrug\": here the shrug is the cook's, both hands wanted and one arm spoken for. Two of today's house nouns carry it: 품 (the bosom) is the place, and 밥상 is what M40's 차리다 sets — that note's own collocation, \"상을 차리다 = lay the table, feast-grade\", with 밥 in front. The badge on 안은 is -(으)ㄴ from M24 on M28's 안다, which the 품 entry pairs with (품에 안다), so the noun and the verb arrive together. Roles: 안은 채 is other, the way every frozen-state clause is, and 품에 is place — 채 does not take the closing job."
+  },
+  {
+    "id": "s_m104_news_face_hardened",
+    "en": [
+      { "t": "That person", "role": "subject", "id": "s" },
+      { "t": "took in", "role": "other", "id": "a" },
+      { "t": "the news", "role": "object", "id": "o" },
+      { "t": "and then their face", "role": "subject", "id": "f" },
+      { "t": "hardened", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that person-[topic]", "role": "subject", "id": "s" },
+      { "t": "news-[obj]", "role": "object", "id": "o" },
+      { "t": "encounter-and-then", "role": "other", "id": "a" },
+      { "t": "expression-[subj]", "role": "subject", "id": "f" },
+      { "t": "hardened-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 사람은", "role": "subject", "id": "s" },
+      { "t": "소식을", "role": "object", "id": "o" },
+      { "t": "접하더니", "role": "other", "id": "a" },
+      { "t": "표정이", "role": "subject", "id": "f" },
+      { "t": "굳어졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu sarameun sosigeul jeophadeoni pyojeongi gudeojyeosseoyo",
+    "wordIds": ["w_geu_det", "w_saram", "w_sosik", "w_jeophada", "w_pyojeong", "w_gudeojida"],
+    "note": "Recycles -더니 from M88, which that md defined in one line — it \"joins two clauses with a witnessed turn between them\" — and the subject is not the speaker: you watched this happen to someone else, which is exactly the register 접하다 wants. 소식을 접하다 (M20's 소식) is the condolence's opener, and 굳어지다 is the -아/어지다 wing from M35 on today's 굳다, so the module's own active/passive-and-change seam runs inside one sentence: the face does not harden, it is seen hardening. Roles: 접하더니 is other, a connective form, and 표정이 is subject — a bare 이/가 noun, even though English makes the face a possession."
+  },
+  {
+    "id": "s_m104_waves_ceiling",
+    "en": [
+      { "t": "The waves", "role": "subject", "id": "s" },
+      { "t": "rose", "role": "verb", "id": "v" },
+      { "t": "so high", "role": "other", "id": "h" },
+      { "t": "that they reached", "role": "other", "id": "d" },
+      { "t": "the ceiling", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "wave-[subj]", "role": "subject", "id": "s" },
+      { "t": "ceiling-to", "role": "place", "id": "p" },
+      { "t": "reach-to the extent that", "role": "other", "id": "d" },
+      { "t": "high", "role": "other", "id": "h" },
+      { "t": "rose-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "물결이", "role": "subject", "id": "s" },
+      { "t": "천장에", "role": "place", "id": "p" },
+      { "t": "닿을 정도로", "role": "other", "id": "d" },
+      { "t": "높이", "role": "other", "id": "h" },
+      { "t": "솟았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mulgyeori cheonjange daeul jeongdoro nopi sosasseoyo",
+    "wordIds": ["w_mulgyeol", "w_cheonjang", "w_data", "w_jeongdo", "w_nopi", "w_sotda"],
+    "note": "Recycles -(으)ㄹ 정도로 from M89 — \"to the extent that\" — M32's 정도 after a badge-clause saying how far, the shape that md built on 죽을 정도로 힘들어요. Three of today's words ride it: 물결 (M1's 물 + a grain), 천장 (the house's upper plane, against M13's 바닥 and M54's 지붕), and 솟다, the rise-from-below that M22's 오르다 cannot do — 오르다 climbs by steps, 솟다 shoots. 닿을 is M61's 닿다 under the future badge -(으)ㄹ from M8, and 높이 is M57's 높이 in its adverb job, the one M87's 평가하다 note runs as 높이 평가하다. Roles: 닿을 정도로 and 높이 are both other — a measuring clause and an adverb."
+  },
+  {
+    "id": "s_m104_shop_ruined_hungry",
+    "en": [
+      { "t": "The shop", "role": "subject", "id": "s" },
+      { "t": "went under, and because of it", "role": "other", "id": "b" },
+      { "t": "the family", "role": "subject", "id": "f" },
+      { "t": "went hungry", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "shop-[subj]", "role": "subject", "id": "s" },
+      { "t": "be-ruined-in the wind of", "role": "other", "id": "b" },
+      { "t": "family-[subj]", "role": "subject", "id": "f" },
+      { "t": "went-hungry-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "가게가", "role": "subject", "id": "s" },
+      { "t": "망하는 바람에", "role": "other", "id": "b" },
+      { "t": "가족이", "role": "subject", "id": "f" },
+      { "t": "굶었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gagega manghaneun barame gajogi gulmeosseoyo",
+    "wordIds": ["w_gage", "w_manghada", "w_baram", "w_gajok", "w_gumda"],
+    "note": "Recycles -는 바람에 from M86 — \"because (something unexpected happened), and it went badly\" — M11's 바람 in a dependent-noun job, and that md fixed the polarity: \"it is always a mishap; you cannot pass an exam -는 바람에\". Both verbs are today's and both are disasters: 망하다 is 亡 + 하다, the vanish-亡 M66's 도망가다 decoded, and 굶다 ends the ride two mds gave it — the M91 md's 굶다시피 했어요 and the M95 md's 굶을망정. Sort the pair the module teaches: M35's 실패하다 fails one attempt; 망하다 is the whole shop gone, which is why the family's verb is 굶다 and not M3's 배고프다 — no food, not a feeling. Roles: 망하는 바람에 is other, and 가족이 is a second subject."
+  },
+  {
+    "id": "s_m104_laundry_indoors",
+    "en": [
+      { "t": "I dried", "role": "verb", "id": "v" },
+      { "t": "the laundry", "role": "object", "id": "o" },
+      { "t": "in the room", "role": "place", "id": "p" },
+      { "t": "in case", "role": "other", "id": "f" },
+      { "t": "the rain came", "role": "subject", "id": "s" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj]", "role": "subject", "id": "s" },
+      { "t": "come-might-fearing", "role": "other", "id": "f" },
+      { "t": "laundry-[obj]", "role": "object", "id": "o" },
+      { "t": "room-in", "role": "place", "id": "p" },
+      { "t": "dried-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "비가", "role": "subject", "id": "s" },
+      { "t": "올까 봐", "role": "other", "id": "f" },
+      { "t": "빨래를", "role": "object", "id": "o" },
+      { "t": "방에서", "role": "place", "id": "p" },
+      { "t": "말렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "biga olkka bwa ppallaereul bangeseo mallyeosseoyo",
+    "wordIds": ["w_bi", "w_oda", "w_ppallae", "w_bang", "w_mallida"],
+    "note": "Recycles -(으)ㄹ까 봐 from M93 — \"for fear that\" — the worry clause that md built from the wondering -(으)ㄹ까 plus 봐, and its own example was 비가 올까 봐 걱정이에요, so the weather half is the pattern's home ground; only the main clause is new. 말리다 is the first of its two NIKL rows: M54's 빨래 through the causative party of M37 on M36's 마르다 — 마르다 dries by itself, 말리다 makes it dry. The second row, 싸움을 말리다, is the one the entry files beside it. Roles: 비가 is subject (a bare 이/가 noun), 올까 봐 is other, 방에서 is place, and 말렸어요 closes."
+  },
+  {
+    "id": "s_m104_room_bedding",
+    "en": [
+      { "t": "While I was at it tidying", "role": "other", "id": "k" },
+      { "t": "the room", "role": "object", "id": "r" },
+      { "t": "I also laid out", "role": "verb", "id": "v" },
+      { "t": "the bedding", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "room-[obj]", "role": "object", "id": "r" },
+      { "t": "tidy-while you're at it", "role": "other", "id": "k" },
+      { "t": "bedding-too", "role": "object", "id": "b" },
+      { "t": "spread-[past]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "방을", "role": "object", "id": "r" },
+      { "t": "치우는 김에", "role": "other", "id": "k" },
+      { "t": "이불도", "role": "object", "id": "b" },
+      { "t": "깔았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bangeul chiuneun gime ibuldo kkarasseoyo",
+    "wordIds": ["w_bang", "w_chiuda", "w_ibul", "w_kkalda"],
+    "note": "Recycles -는 김에 from M91 — while you're at it — which that md sorted against its two neighbours as the one where \"-는 김에 is a second act hitched to an occasion that was going to happen anyway\": the tidying was happening; the bedding is the free ride. 깔다 pays two notes at once — M83's 신문지 carried it frozen, and M102's 깔리다 said outright that \"깔다 itself stays frozen\" — so today the active end of that pair lands on M13's 이불, the 온돌 floor's own object. Hold the seam: 이불을 깔다 (you spread it) against 이불이 깔려 있다 (it lies spread), the passive party of M36 on the same blanket. Roles: 방을 and 이불도 are both object — 도 hides the object particle but not the job."
+  },
+  {
+    "id": "s_m104_company_quality",
+    "en": [
+      { "t": "The company", "role": "subject", "id": "s" },
+      { "t": "guarantees", "role": "other", "id": "a" },
+      { "t": "the quality", "role": "object", "id": "q" },
+      { "t": "and produces", "role": "verb", "id": "v" },
+      { "t": "the goods", "role": "object", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "company-[topic]", "role": "subject", "id": "s" },
+      { "t": "quality-[obj]", "role": "object", "id": "q" },
+      { "t": "guarantee-and", "role": "other", "id": "a" },
+      { "t": "product-[obj]", "role": "object", "id": "p" },
+      { "t": "produce-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회사는", "role": "subject", "id": "s" },
+      { "t": "품질을", "role": "object", "id": "q" },
+      { "t": "보장하며", "role": "other", "id": "a" },
+      { "t": "제품을", "role": "object", "id": "p" },
+      { "t": "제작합니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoesaneun pumjireul bojanghamyeo jepumeul jejakhamnida",
+    "wordIds": ["w_hoesa", "w_pumjil", "w_bojanghada", "w_jepum", "w_jejakhada"],
+    "note": "Recycles -(으)며 from M85 — the written and/while — sorted there by one test: \"one body doing two things = while; two facts side by side = and\". This is the second reading, two facts side by side, which is why the closer is the 합니다체 from M4: no mouth says 보장하며. Both Sino verbs are today's and both were booked in advance — M96's 제작 note ruled that \"The verb 제작하다 rides frozen; print uses the noun\", and the ride ends here — while 보장하다 carries a 障 you meet again in 천장. M101's 품질 is the label's word and M43's 제품 the thing labelled. Roles: 보장하며 is other, a connective form, and the sentence legally carries two objects because two things are done."
+  },
+  {
+    "id": "s_m104_old_stories_buried",
+    "en": [
+      { "t": "Old stories", "role": "subject", "id": "s" },
+      { "t": "in the end", "role": "other", "id": "e" },
+      { "t": "are bound to be buried", "role": "verb", "id": "v" },
+      { "t": "in history", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "old story-[topic]", "role": "subject", "id": "s" },
+      { "t": "in-the-end", "role": "other", "id": "e" },
+      { "t": "history-in", "role": "place", "id": "p" },
+      { "t": "be-buried-bound to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오래된 이야기는", "role": "subject", "id": "s" },
+      { "t": "결국", "role": "other", "id": "e" },
+      { "t": "역사에", "role": "place", "id": "p" },
+      { "t": "묻히기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oraedoen iyagineun gyeolguk yeoksae muchigi maryeonieyo",
+    "wordIds": ["w_oraedoeda", "w_iyagi", "w_gyeolguk", "w_yeoksa", "w_muchida", "w_maryeon"],
+    "note": "Recycles -기 마련이다 from M87 — the -기 nominalizer from M13 on 마련 — where that md's line was \"the world has already arranged it\", and it sorted the pair: \"셈 counts what has happened; 마련 says what was always going to\". The verb is the module's thesis in one word: 묻히다 is 묻다 (bury — riding frozen) through the passive party of M36, the homograph M28's 묻다 flagged in its own note (\"A homograph 묻다 buries things — context, as ever, decides.\"), and its second NIKL row is the dirt one, 옷에 흙을 묻히다. 오래된 is M35's 오래되다 under the badge -(으)ㄴ from M24. Roles: 역사에 is place, 결국 is other (an adverb), and the whole 묻히기 마련이에요 closes as verb."
   }
 ]
