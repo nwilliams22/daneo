@@ -21468,5 +21468,185 @@
     "rom": "orae yeonguhan gyeolgwa saeroun jomiryoga gaebaldoeeo sijange deungjanghaesseoyo",
     "wordIds": ["w_orae", "w_yeonguhada", "w_gyeolgwa", "w_saeropda", "w_jomiryo", "w_gaebaldoeda", "w_sijang", "w_deungjanghada"],
     "note": "Recycles -(으)ㄴ 결과 from M90 — the report's hinge, which that md sorted from the -(으)ㄴ 나머지 of M86 (\"-(으)ㄴ 결과 is a result of a PROCEDURE\") — on M44's 연구하다 with M10's 오래: as a result of long research. Then the two strays meet the shelf's 되다: today's 조미료 (M35's 새롭다 in the badge) on the bare 가, today's 개발되다 in -아/어 as the first step (developer unnamed, as the M90 md said the second half of a 결과 sentence usually is), M3's 시장 as the place with 에, and today's 등장하다 closing — the product makes its entrance. M32's 나타나다 would have it merely show up; 등장하다 gives it a stage, and the economy page writes every launch this way. The roles drill: 개발되어 is a connective form, other; 등장했어요 is the closer."
+  },
+  {
+    "id": "s_m96_play_fresh_premise",
+    "en": [
+      { "t": "This play", "role": "subject", "id": "a" },
+      { "t": "has a fresh premise, and", "role": "other", "id": "b" },
+      { "t": "the actors' performances", "role": "subject", "id": "c" },
+      { "t": "are excellent too", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this play-[topic]", "role": "subject", "id": "a" },
+      { "t": "premise-[subj] new-and", "role": "other", "id": "b" },
+      { "t": "actor-[plural]-[poss] acting-also", "role": "subject", "id": "c" },
+      { "t": "excellent", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 연극은", "role": "subject", "id": "a" },
+      { "t": "소재가 새로우며", "role": "other", "id": "b" },
+      { "t": "연기자들의 연기도", "role": "subject", "id": "c" },
+      { "t": "훌륭해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i yeongeugeun sojaega saeroumyeo yeongijadeurui yeongido hullyunghaeyo",
+    "wordIds": ["w_yeongeuk", "w_sojae", "w_saeropda", "w_yeongija", "w_yeongi", "w_hullyunghada"],
+    "note": "-(으)며 from M85, the review's connective — that md's rule, it \"is verb--고 from M10 and -(으)면서 from M38 in print\": 소재가 새로우며 = the premise is fresh, and — M35's 새롭다 in the ㅂ-irregular table from M11, dropping to 새로우- before the 며. A double subject in the M39 shape (한식은 반찬이 많아요): 이 연극은 is the topic, 소재가 the thing that is new, and 연기자들의 연기도 the second thing praised — 도 from M2 standing where 이/가 would, so the role stays subject. Three slice words in the critic's first sentence: the 연극 on stage, its 소재, and the 연기자 who carry it, with M48's 연기 as what they do; M63's 훌륭하다 is the verdict. Said with -고 it is a text message; with -며 it is the review."
+  },
+  {
+    "id": "s_m96_despite_criticism",
+    "en": [
+      { "t": "Despite the press's criticism,", "role": "other", "id": "a" },
+      { "t": "the director's tragedy", "role": "subject", "id": "b" },
+      { "t": "became", "role": "verb", "id": "v" },
+      { "t": "a big talking point", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "press-[poss] criticism-even-despite", "role": "other", "id": "a" },
+      { "t": "that director-[poss] tragedy-[topic]", "role": "subject", "id": "b" },
+      { "t": "big talk-of-town-[subj]", "role": "other", "id": "c" },
+      { "t": "became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "언론의 비판에도 불구하고", "role": "other", "id": "a" },
+      { "t": "그 감독의 비극은", "role": "subject", "id": "b" },
+      { "t": "큰 화제가", "role": "other", "id": "c" },
+      { "t": "됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eollonui bipanedo bulguhago geu gamdogui bigeugeun keun hwajega dwaesseoyo",
+    "wordIds": ["w_eollon", "w_bipan", "w_bulguhada", "w_gamdok", "w_bigeuk", "w_keuda", "w_hwaje", "w_doeda"],
+    "note": "에도 불구하고 from M86 — the noun's concession, the one rung of the ladder M95 built that takes no verb: 언론의 비판에도 불구하고 = despite the press's criticism (M48's 언론, M93's 비판). The frame is [obstacle]에도 불구하고, and M86's 불구하다 is the verb inside it that nobody conjugates. Then today's stage: 그 감독의 비극 — the 감독 who put it on and the 비극 he chose — and the frame 화제 lives in, 화제가 되다 = to become the talk of the town, M10's 되다 with its complement 큰 화제가; the role is other, not subject, because the 되다 complement always is (the rule the M39 md set). One sentence, and the culture desk has written its headline: criticized, and talked about anyway."
+  },
+  {
+    "id": "s_m96_scholar_medieval_book",
+    "en": [
+      { "t": "The book on medieval Europe", "role": "subject", "id": "b" },
+      { "t": "that scholar wrote", "role": "other", "id": "a" },
+      { "t": "is worth reading once", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that scholar-[subj] wrote-[badge]", "role": "other", "id": "a" },
+      { "t": "medieval Europe book-[topic]", "role": "subject", "id": "b" },
+      { "t": "once read-try worth", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 학자가 쓴", "role": "other", "id": "a" },
+      { "t": "중세 유럽 책은", "role": "subject", "id": "b" },
+      { "t": "한번 읽어 볼 만해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu hakjaga sseun jungse yureop chaegeun hanbeon ilgeo bol manhaeyo",
+    "wordIds": ["w_hakja", "w_sseuda", "w_jungse", "w_yureop", "w_chaek", "w_hanbeon", "w_ikda", "w_manhada"],
+    "note": "-(으)ㄹ 만하다 from M87 — that md's heading for it, \"worth the doing\" — on a stack: M2's 읽다 in the try-machine -아/어 보다 from M16 (읽어 보다), then the prospective badge, then 만하다: 읽어 볼 만해요 = worth a read. In front, a relative clause in the badge -(으)ㄴ from M24: 그 학자가 쓴 = that the scholar wrote (M10's 쓰다, and the clause is other, because it modifies rather than acts). Two slice words: the 학자 with a field, and the 중세 that field is — 중세 유럽 (M31's 유럽), medieval Europe, the noun pair the entry taught. M28's 한번 softens the verdict to a recommendation: not a masterpiece, but worth one reading. Calibration against the M87 shelf: 읽을 만해요 (worth reading) · 읽은 셈이에요 (as good as read) · 읽기 마련이에요 (you were always going to)."
+  },
+  {
+    "id": "s_m96_tearoom_coffee_skill",
+    "en": [
+      { "t": "That tearoom owner's coffee-making skill", "role": "subject", "id": "a" },
+      { "t": "was really", "role": "other", "id": "b" },
+      { "t": "something, I found", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that tearoom owner-[poss] coffee skill-[subj]", "role": "subject", "id": "a" },
+      { "t": "really", "role": "other", "id": "b" },
+      { "t": "amazing-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 다방 주인의 커피 솜씨가", "role": "subject", "id": "a" },
+      { "t": "정말", "role": "other", "id": "b" },
+      { "t": "대단하더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu dabang juinui keopi somssiga jeongmal daedanhadeoragoyo",
+    "wordIds": ["w_dabang", "w_juin", "w_keopi", "w_somssi", "w_jeongmal", "w_daedanhada"],
+    "note": "-더라고요 from M88 — that md's heading, \"I found that, I saw that\" — on M24's 대단하다: 대단하더라고요 = was amazing, I found — the eyewitness -더- reporting a surprise the speaker watched happen. The surprise is the whole subject chunk: 그 다방 주인의 커피 솜씨 — today's 다방 (the old tearoom), M27's 주인 behind its counter, M1's 커피 in a thick cup, and today's 솜씨, the hand's skill, which is exactly the noun a 다방 커피 (the gap deck) is judged by. The possessive stacks twice (주인의 커피 솜씨) and the 가 lands on the last noun; the whole phrase is one subject. Without the -더-, 대단해요 is an opinion; with it, you were there and did not expect it."
+  },
+  {
+    "id": "s_m96_even_intellectuals",
+    "en": [
+      { "t": "Even intellectuals", "role": "subject", "id": "a" },
+      { "t": "can't explain", "role": "verb", "id": "v" },
+      { "t": "what that ideology means", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "intellectual-[plural]-even", "role": "subject", "id": "a" },
+      { "t": "that ideology-[poss] meaning-[obj]", "role": "object", "id": "o" },
+      { "t": "explain-cannot", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지식인들조차", "role": "subject", "id": "a" },
+      { "t": "그 이데올로기의 뜻을", "role": "object", "id": "o" },
+      { "t": "설명하지 못해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jisigindeuljocha geu ideollogiui tteuseul seolmyeonghaji mothaeyo",
+    "wordIds": ["w_jisigin", "w_ideollogi", "w_tteut", "w_seolmyeonghada"],
+    "note": "조차 from M89, the heavy particle for the LEAST likely case: 지식인들조차 = even the intellectuals — the people whose job is explaining, named as the ones who cannot. It replaces the subject particle outright (never 지식인들이조차), so the chunk stays subject. Then the object, 그 이데올로기의 뜻 (M10's 뜻), and the long negation -지 못하다 from M28 on M24's 설명하다: 설명하지 못해요 = cannot explain — 못, not 안, because the failure is ability, not will. Two slice words face each other across the sentence: the 지식인 and the 이데올로기 — and the joke is the module's thesis about the loan: a word nobody can decode is a word nobody can quite explain. Sort the particle: 지식인들도 (intellectuals too — flat) · 지식인들조차 (even intellectuals — and if not them, who) · 지식인들마저 (마저 from M89: the last ones left, also gone)."
+  },
+  {
+    "id": "s_m96_reports_actor_origin",
+    "en": [
+      { "t": "According to reports,", "role": "other", "id": "a" },
+      { "t": "that actor", "role": "subject", "id": "b" },
+      { "t": "is from Busan, they say", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "report-according-to", "role": "other", "id": "a" },
+      { "t": "that actor-[topic]", "role": "subject", "id": "b" },
+      { "t": "Busan origin-is-[quote] say", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "보도에 따르면", "role": "other", "id": "a" },
+      { "t": "그 연기자는", "role": "subject", "id": "b" },
+      { "t": "부산 출신이라고 해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bodoe ttareumyeon geu yeongijaneun busan chulsinirago haeyo",
+    "wordIds": ["w_bodo", "w_yeongija", "w_busan", "w_chulsin", "w_hada"],
+    "note": "에 따르면 from M90 — that md's heading, \"according to, depending on\" — with today's 보도 as the source: 보도에 따르면 = according to reports, the phrase the entry called the one every second headline hides behind. The sentence then closes the way a sourced sentence must: the quoting -(이)라고 하다 from M32 on a noun-이다 — 부산 출신이라고 해요 = is from Busan, they say. Three slice words carry the whole item: the 보도 that reported it, the 연기자 it is about (the formal word, because this is print), and the 출신 that sits bare after M12's 부산 and takes 이다 — exactly the shape the entry set, [place] 출신이다. Note what the grammar does: 에 따르면 opens a source and -라고 해요 closes it; between them nothing is asserted by the speaker. That is the newsroom's whole ethic in one sentence, and both halves are glue."
+  },
+  {
+    "id": "s_m96_seoul_heritage_play",
+    "en": [
+      { "t": "While I was in Seoul anyway,", "role": "other", "id": "a" },
+      { "t": "I saw some cultural treasures and", "role": "other", "id": "b" },
+      { "t": "watched", "role": "verb", "id": "v" },
+      { "t": "a play too", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "Seoul-to go-[badge] while-at-it", "role": "other", "id": "a" },
+      { "t": "cultural-treasure-also see-and", "role": "other", "id": "b" },
+      { "t": "play-also", "role": "object", "id": "o" },
+      { "t": "saw", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서울에 가는 김에", "role": "other", "id": "a" },
+      { "t": "문화재도 보고", "role": "other", "id": "b" },
+      { "t": "연극도", "role": "object", "id": "o" },
+      { "t": "봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoure ganeun gime munhwajaedo bogo yeongeukdo bwasseoyo",
+    "wordIds": ["w_seoul", "w_gada", "w_munhwajae", "w_boda", "w_yeongeuk"],
+    "note": "-는 김에 from M91 — that md's heading, \"while you're at it\": 서울에 가는 김에 = since I was going to Seoul anyway (M1's 가다 in the badge -는 from M24, M12's 서울 with M1's 에). What got added to the trip is the culture desk's whole itinerary: 문화재도 보고 (today's 문화재, M1's 보다 in verb--고 from M10 — a connective form, so other) and 연극도 봤어요 (today's 연극) — 도 from M2 on both, the and-also pair that Korean lists with. Two slice words, one weekend: the heritage you look at and the play you sit through, both riding on an errand. Sort it against -(으)ㄹ 겸 from M91: 연극도 볼 겸 서울에 갔어요 would make the play half the PURPOSE; 가는 김에 keeps it an afterthought — you were going anyway."
+  },
+  {
+    "id": "s_m96_myth_recorded_guess",
+    "en": [
+      { "t": "That myth", "role": "subject", "id": "a" },
+      { "t": "was probably", "role": "other", "id": "b" },
+      { "t": "written down in the Three Kingdoms period,", "role": "other", "id": "c" },
+      { "t": "I'd guess", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that myth-[topic]", "role": "subject", "id": "a" },
+      { "t": "probably", "role": "other", "id": "b" },
+      { "t": "Three-Kingdoms era-in", "role": "other", "id": "c" },
+      { "t": "recorded-became-I'd-guess", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 신화는", "role": "subject", "id": "a" },
+      { "t": "아마", "role": "other", "id": "b" },
+      { "t": "삼국 시대에", "role": "other", "id": "c" },
+      { "t": "기록됐을걸요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu sinhwaneun ama samguk sidaee girokdwaesseulgeoryo",
+    "wordIds": ["w_sinhwa", "w_ama", "w_samguk", "w_sidae", "w_girok", "w_doeda"],
+    "note": "-(으)ㄹ걸요 from M93 — that md's heading, \"I'd guess\" — with the adverb M93 paired it with (부장님도 아마 그 지적을 인정할걸요): M24's 아마 announces the guess, the 걸요 delivers it, and the past inside (기록됐을걸요) makes it a guess about history. 기록되다 is today's 기록 + M10's 되다 — the -되다 passive that hada-nouns wear, the way 구성되다 (M91) and 예상되다 (M93) do — so the myth was WRITTEN DOWN by no one in particular, which is how myths are. Three slice words in the historian's shrug: the 신화 itself, the 삼국 whose 시대 (M26) it was recorded in, and the 기록 that did the recording — the entry's 역사 기록, in verb form. Time expressions are other (삼국 시대에), the guess is the verb, and the whole sentence is what a docent says when the placard is missing."
   }
 ]

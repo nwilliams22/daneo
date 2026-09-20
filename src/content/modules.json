@@ -2292,5 +2292,26 @@
       "s_m97_survey_brand_price", "s_m97_supply_forecast", "s_m97_income_consumption", "s_m97_labor_hours",
       "s_m97_budget_construction", "s_m97_growth_farmers", "s_m97_prices_salary", "s_m97_seasoning_debut"
     ]
+  },
+  {
+    "id": "m96",
+    "title": "Culture, Stage and Press",
+    "order": 105,
+    "ring": 2,
+    "contentMd": "modules/module-96.md",
+    "wordIds": [
+      "w_yeongeuk", "w_geuk", "w_huigok", "w_bigeuk",
+      "w_gamdok", "w_yeongija", "w_churyeon", "w_jejak",
+      "w_sojae", "w_maeche", "w_bodo", "w_bodohada",
+      "w_hwaje", "w_girok", "w_hugi", "w_yongeo",
+      "w_sinhwa", "w_cheolhak", "w_segyegwan", "w_ideollogi",
+      "w_mi", "w_munhwajae", "w_samguk", "w_jungse",
+      "w_hakja", "w_jisigin", "w_pilja", "w_seuseung",
+      "w_jeja", "w_chulsin", "w_somssi", "w_dabang"
+    ],
+    "sentenceIds": [
+      "s_m96_play_fresh_premise", "s_m96_despite_criticism", "s_m96_scholar_medieval_book", "s_m96_tearoom_coffee_skill",
+      "s_m96_even_intellectuals", "s_m96_reports_actor_origin", "s_m96_seoul_heritage_play", "s_m96_myth_recorded_guess"
+    ]
   }
 ]
