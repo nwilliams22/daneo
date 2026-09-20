@@ -2206,5 +2206,26 @@
       "s_m92_tiny_being", "s_m92_climate_changed", "s_m92_neglect_children", "s_m92_valley_clear",
       "s_m92_avoid_glance", "s_m92_sparrow_no_tree", "s_m92_weak_heart", "s_m92_wiped_surface"
     ]
+  },
+  {
+    "id": "m93",
+    "title": "The Analyst's Verbs",
+    "order": 102,
+    "ring": 2,
+    "contentMd": "modules/module-93.md",
+    "wordIds": [
+      "w_deureonada", "w_balkyeojida", "w_paakhada", "w_salpida",
+      "w_araboda", "w_bunseok", "w_jueojida", "w_jesihada",
+      "w_jijeokhada", "w_jijeok", "w_jujang", "w_bipan",
+      "w_injeonghada", "w_yocheonghada", "w_banyeonghada", "w_daruda",
+      "w_ikkeulda", "w_silcheon", "w_silcheonhada", "w_suhaenghada",
+      "w_balhwihada", "w_daeeung", "w_daeeunghada", "w_daebihada",
+      "w_ganghwahada", "w_gaeseon", "w_ilchihada", "w_geukbokhada",
+      "w_geobuhada", "w_jeoehada", "w_jeonmang", "w_yesangdoeda"
+    ],
+    "sentenceIds": [
+      "s_m93_handle_problem", "s_m93_result_soon", "s_m93_admit_point", "s_m93_refused_proposed",
+      "s_m93_fear_unrecognized", "s_m93_analysis_matched", "s_m93_reflected_improved", "s_m93_economy_forecast"
+    ]
   }
 ]

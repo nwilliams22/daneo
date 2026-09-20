@@ -2563,5 +2563,32 @@
     "lit": "would a sparrow pass the mill and not stop?",
     "real": "as if they could walk past — said of anyone who cannot go by a bar, a bakery, a shoe shop without going in",
     "note": "This module's 참새 on the bare 가, then the mill: 방앗간 (riding frozen — 방아 the grain-mill and the room-間 of M32's 인간, with the linking-ㅅ), the place grain is husked and spilled, which is to say a sparrow's idea of heaven. M50's 지나치다 (to pass by without stopping) carries the old rhetorical ending -랴 (frozen: would it ever? — the proverb's own grammar, not yours to build with), and M24's 그냥 makes the passing-by the unthinkable part. Said fondly, mostly of oneself, usually while already turning in at the door: 참새가 방앗간을 그냥 지나치겠어요? in the modern mouth, with the -겠- of M49 replacing the antique -랴. The bakery is the mill now, and M2's 빵 the grain; the sparrow has not changed."
+  },
+  {
+    "id": "g_m93_sillyeok_balhwi",
+    "cat": "phrase",
+    "ko": "실력을 발휘하다",
+    "rom": "sillyeogeul balhwihada",
+    "lit": "to launch-and-wield one's skill",
+    "real": "to show what you can really do; to perform at your true level — the line every coach, teacher and interviewer says before the test, and every candidate says after it with 못",
+    "note": "M26's 실력 was defined as ability you can DO — that note: \"your Korean level, measured in what you can DO, not what you've memorized\" — and today's 발휘하다 is the verb that lets it out where it can be seen. Before: 실력을 발휘하세요 / 실력을 발휘하길 바랍니다 = go show them, on every exam-hall door and every 면접 (M43) waiting room; after, more often, the negative — 실력을 제대로 발휘하지 못했어요 (M54's 제대로) = I couldn't perform at my level, the honest post-mortem, and 제 실력이 아니에요 = that wasn't the real me. Its neighbours on the encouragement shelf: 최선을 다하다 from M39 (\"최선을 다하다 = give it everything\") asks for effort, 긴장하지 마세요 from M34 (\"긴장하지 마세요 = relax (said right before things get worse)\") asks for calm, and 실력을 발휘하다 asks for the thing you already have. Athletes (M17's 선수) get it before the 경기 (M17), students before the 시험 (M10), and the -(으)ㄹ까 봐 of Part 5 is the fear underneath all three: 실력을 발휘하지 못할까 봐."
+  },
+  {
+    "id": "g_m93_eul_jeoehago",
+    "cat": "structure",
+    "ko": "-을/를 제외하고",
+    "rom": "-eul/reul jeoehago",
+    "lit": "excluding X, and",
+    "real": "except for, apart from — the frame that carries today's 제외하다 far more often than the verb ever conjugates on its own",
+    "note": "Object particle + 제외하고, the -고 from M10 frozen into a preposition: 저를 제외하고 다 왔어요 (M9's 다) = everyone came but me; 주말을 제외하고 (M2's 주말) = weekdays only; 세금을 제외하고 (M43's 세금) = before tax, on every invoice. Put the badge -(으)ㄴ from M24 on it and it modifies a noun instead: 저를 제외한 모든 사람 (M29's 모든) = everyone other than me. The spoken twin is 빼고 (M53's 빼다): 저 빼고 다 왔어요 — same sentence, no hanja; the memo says 제외하고, the friend says 빼고. RADAR: 밖에 from M39 says 'nothing BUT' and needs a negative (저밖에 없어요 = there's only me); 제외하고 says 'all EXCEPT' and takes a positive (저를 제외하고 다 있어요 = everyone's here except me). Same set, drawn from opposite edges."
+  },
+  {
+    "id": "g_m93_jeonmangdae",
+    "cat": "concept",
+    "ko": "전망대",
+    "rom": "jeonmangdae",
+    "lit": "unfold-gaze platform",
+    "real": "an observation deck — the physical version of today's 전망: a place built for looking out, and the standard Korean date, school trip and tourist-bus stop",
+    "note": "전망 + 臺, the platform-臺 M51's 무대 read as \"舞臺 dance-platform\": the outlook, with a floor under it. Every Korean city has one and 서울 (M12) has the famous two: the tower on 남산 (M31) — walked up, or by 케이블카 (riding frozen) — whose 전망대 is ringed with 사랑의 자물쇠 (love-padlocks, riding frozen) that couples clip to the fence, and the deck on the tall 빌딩 (M50) by the 한강 (M22) where the 야경 (M22 — the night view) is the point. The verb is M28's 올라가다 (전망대에 올라가다 = go up to the deck) and the reward is M22's 경치 or 구경하다 (M22). The word carries the analyst's sense with it: 전망이 좋다 said on the deck means the view is good, said in the office means the outlook is — one word for both horizons, which is exactly what 展望 always meant."
   }
 ]
