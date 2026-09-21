@@ -89,24 +89,23 @@ in 정장, 갖가지 in 온갖, 긋다 in 선, 아깝다 in 아끼다, 일쑤 in
    못 + M10's 되다) means failed to become — the space changes the word).
 
 3. **THE MANY AND THE SORTS (3):** 여럿 (several people or things, as a
-   NOUN — 여럿이 모이다 (M25's 모이다), 여럿 중 하나 (M2's 하나); M29's 여러
+   NOUN — 여럿이 모이다 (M25's 모이다), 여럿 중 하나 (M5's 하나); M29's 여러
    goes before a noun, 여럿 stands alone — that is the whole lesson),
    갖가지 (PAYS M95's 온갖 — quote its exact "갖 (kinds — the old root of
    갖가지, riding frozen): every kind" span; all sorts of — 갖가지 이유 (M24's
-   이유); sort: 온갖 is exasperated, 갖가지 is neutral), 이런저런 (M29's 이런
-   + M29's 저런: this and that, one thing and another — 이런저런 이야기 (M24's
+   이유); sort: 온갖 is exasperated, 갖가지 is neutral), 이런저런 (M24's 이런
+   + M24's 저런: this and that, one thing and another — 이런저런 이야기 (M24's
    이야기); the paired-determiner rail the learner already owns: 여기저기
    (M50), 이것저것 (M55), now 이런저런 — name all three).
 
 4. **THE BODY AND THE BOX (6):** 몸통 (M14's 몸 + 통: the torso, the trunk —
-   of a body, of a plane (비행기 몸통, M23's 비행기); RADAR: this 통 is the
+   of a body, of a plane (비행기 몸통, M12's 비행기); RADAR: this 통 is the
    trunk-통, not M76's 통 the counter), 볼 (PAYS M41's 뺨 — quote its exact
    "Everyday Korean keeps a softer word too: 볼 (rounder, cuter — babies get
-   their 볼 pinched); 뺨 is the dramatic one." span (full); 볼이 빨개지다 (M18's
-   빨갛다 — verify); RADAR, mandatory: 볼 is also the future badge on M1's
+   their 볼 pinched); 뺨 is the dramatic one." span (full); 볼이 빨개지다 (M49's 빨갛다 — verify); RADAR, mandatory: 볼 is also the future badge on M1's
    보다 — 볼 거예요; one shape, two jobs), 칸 (PAYS M37's 채우다 — quote the
    same 빈칸 span from above, or its neighbour if it fits; a compartment, a
-   cell, a blank on a form — 한 칸 (M5's 한), 칸을 채우다; 칸막이 (a partition)
+   cell, a blank on a form — 한 칸 (the counter-contraction 한 that M5 taught), 칸을 채우다; 칸막이 (a partition)
    rides frozen), 기둥 (a pillar, a post — and the figure every Korean family
    uses: 집안의 기둥 (M65's 집안) = the one holding the household up), 뒷모습
    (M6's 뒤 + M34's 모습: the view from behind, the receding figure — the last
@@ -119,7 +118,7 @@ in 정장, 갖가지 in 온갖, 긋다 in 선, 아깝다 in 아끼다, 일쑤 in
    빋 alone" span — and M88's 한마디, whose proverb quotes it: quote its exact
    "말 한마디로 천 냥 빚을 갚는다" span; 빚을 지다 (that 지다 is the bear-it
    verb, frozen — NOT M17's 지다, to lose), 빚을 갚다 (M107's 갚다 if shipped)),
-   개미 (an ant — 개미처럼 일하다 (M41's 처럼, M1's 일하다); 개미허리 (M14's
+   개미 (an ant — 개미처럼 일하다 (M41's 처럼, M2's 일하다); 개미허리 (M14's
    허리) = a wasp waist; RADAR: not M5's 개 + M96's 미), 하느님 (PAYS M69's 신 —
    quote its exact "하느님/하나님, the Korean names for the capital-G version,
    ride frozen" span; and the split worth one clause: 하느님 is the older and
@@ -128,7 +127,7 @@ in 정장, 갖가지 in 온갖, 긋다 in 선, 아깝다 in 아끼다, 일쑤 in
    invitation" span; M40's 차리다 + -ㅁ: attire, get-up — 간편한 차림 (간편하다
    frozen), 차림표 = the menu, frozen), 그대 (you — the lyric's word: song
    lyrics, poems, and nothing else; never spoken to a person's face; sort
-   against M32's 당신 and M71's 너 — verify 너's owner; RADAR, mandatory:
+   against M32's 당신 and M19's 너 — verify 너's owner; RADAR, mandatory:
    M54's 그대로 is 그 + 대로 and has nothing to do with this word — quote
    that note's exact "그 + 대로: as-it-is" span), 아냐 (the contracted 아니야
    — PAYS M71's 아니야 — lookup.py the owner and quote its exact span

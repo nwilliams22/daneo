@@ -26,10 +26,10 @@ list and starts being a machine.
 1. **THE DISMOUNTS (6) — each note OPENS with the word it dismounts
    from:** 활용 (PAYS M72's 활용하다 — quote its exact "사용 uses, 이용 uses
    a service, 활용 makes the MOST of — 시간을 활용하다 (M1's 시간), 자료를
-   활용하다 (M44's 자료)" span; the bare noun: 활용도가 높다 (M57's 높다),
+   활용하다 (M44's 자료)" span; the bare noun: 활용도가 높다 (M7's 높다),
    자료 활용), 허용 (PAYS M64's 허용하다 — lookup.py the owner and quote its
    exact span verbatim (copy the full sentence); the bare noun: permission
-   granted, allowance — 허용 범위 (M100's 범위 — verify); sort against M110's
+   granted, allowance — 허용 범위 (M89's 범위 — verify); sort against M110's
    허가 if shipped — 허가 is a permit you are issued, 허용 is a thing being
    let through), 극복 (PAYS M93's 극복하다 — quote its exact "어려움을
    극복하다 (M67's 어려움) = to overcome hardship; 위기를 극복하다 (M86's 위기)
@@ -37,7 +37,7 @@ list and starts being a machine.
    과정)), 불편 (PAYS M74's 불편하다 — lookup.py the owner and quote its
    exact span verbatim (copy the full sentence); the adjective landed
    there, the NOUN lands today: 불편을 끼치다 (끼치다 frozen) = to cause
-   inconvenience, the apology sign's verb; 불편 사항 (M111's 사항 — verify);
+   inconvenience, the apology sign's verb; 불편 사항 (사항 — a matter, an item; check whether it is taught and ride it frozen if not);
    and re-run the 불- ledger: quote M42's 불만 note's exact "불가능, 불편,
    불안, 불만 — file the prefix, it keeps pay" span), 건조 (PAYS M11's
    건조하다 — quote its exact "Korean winters are famously 건조하다 — hence
@@ -56,7 +56,7 @@ list and starts being a machine.
    skill instead of a trade), 이사장 (理事長 — RADAR FIRST, mandatory: this
    이사 is NOT M54's 이사, the house-move — quote that note's exact "移徙
    move-migrate" span and say the hanja differ; 理事 = a board director (理
-   of M34's 이해, 事 of M?? — verify), + 長 of M39's 장점 and M110's 원장 if
+   of M34's 이해, 事 of M?? — verify), + 長 of M39's 장점 and M106's 원장 if
    shipped: the chairman of a board — 재단 이사장 (재단 frozen); the -장 rail
    the learner owns: 사장님 (M9), 부장 (M16), 회장 (M58), 원장, 이사장),
    심판 (PAYS M103's 항의 — quote its exact "심판에게 항의하다 (심판 — the
@@ -100,7 +100,7 @@ list and starts being a machine.
    span; the bare root: 선진 기술 (M44's 기술), 선진 문화 (M26's 문화)),
    신규 (新規 — 新 (new — the Sino twin of M13's 새; verify a taught 新 and
    cite it) + 規 of M39's 규칙 (verify that note's decode): newly, new-entry
-   — 신규 가입 (가입 frozen), 신규 채용 (M64's 채용 — verify); the form's word,
+   — 신규 가입 (가입 frozen), 신규 채용 (채용 — hiring; check whether it is taught and ride it frozen if not); the form's word,
    never the mouth's), 양심 (良心 — 良 (good, fine — a first) + 心 of M34's
    의심 (verify): conscience — 양심적 through the -적 factory, 양심의 가책
    (가책 frozen) = a pang of conscience), 이자 (利子 — PAYS M81's 예금 — quote
@@ -112,10 +112,10 @@ list and starts being a machine.
    verify) = a can-do spirit; the audition show's word), 보조 (補助 — 補 of
    M90's 후보 ("候補 wait-fill: 候 (to wait for, to watch for) + 補 (to fill
    in, to supplement)") + 助 (to help — a first; the Sino root under M36's
-   도움): assistance, a subsidy — 보조금 = a grant, 보조 교사 (M15's 교사 —
+   도움): assistance, a subsidy — 보조금 = a grant, 보조 교사 (M98's 교사 —
    verify)), 신념 (信念 — 信 (trust — verify a taught 信) + 念 of M87's 관념
    ("觀念 view-thought"): a conviction, a firm belief — 신념을 지키다 (M26's
-   지키다); stronger than M19's 믿음 (verify) — 믿음 trusts, 신념 will not
+   지키다); stronger than M34's 믿음 (verify) — 믿음 trusts, 신념 will not
    move), 재능 (才能 — 才 (talent, a first) + 能 of M39's 가능하다 ("可能
    can-able"): talent — PAYS the M39 gap deck — quote its exact "skeptics
    note that 재능 (talent) never signed the contract" span; 재능이 있다,
@@ -131,12 +131,12 @@ list and starts being a machine.
    is the adverb M106 carries if shipped; RADAR: check NIKL for the second
    row 前半 = the first half of a match, a different 전), 수명 (壽命 — 壽 of
    M31's 덕수궁 (quote its exact "수 (壽 longevity)" span) + 命 (life, a
-   command — verify a taught 命, 생명): a lifespan — 평균 수명 (M57's 평균 —
+   command — verify a taught 命, 생명): a lifespan — 평균 수명 (M89's 평균 —
    verify), 배터리 수명), 거액 (巨額 — 巨 (huge, a first) + 額 of M101's 액수
    and M112's 금액 if shipped: a huge sum — 거액의 빚 (M113's 빚 if shipped)),
    교훈 (PAYS M94's 삼다 — quote its exact "교훈으로 삼다 (교훈 — a lesson
    learned, riding frozen)" span; 敎訓 — 敎 + 訓 (to instruct, a first): the
-   moral, the lesson learned — 역사의 교훈 (M78's 역사 — verify)), 단편 (短篇 —
+   moral, the lesson learned — 역사의 교훈 (M15's 역사 — verify)), 단편 (短篇 —
    短 (short — a first) + 篇 of M55's 편 (quote its exact "counter — films,
    episodes (篇)" span): a short story, a short film — 단편 소설 (M48's 소설),
    단편 영화 (M2's 영화); RADAR, mandatory: the 단 is short-短, NOT M55's 단
@@ -149,7 +149,7 @@ list and starts being a machine.
    예감이 좋다 (M1's 좋다), 나쁜 예감 (M29's 나쁘다); vs M34's 예상 — 예상
    reasons, 예감 just knows), 쾌감 (快感 — 快 (pleasant, brisk — a first; the
    쾌 of 유쾌하다, frozen) + 感: a rush, a thrill — 쾌감을 느끼다 (M?'s 느끼다 —
-   verify); the word for the good shiver, and sort it against M42's 기분).
+   verify); the word for the good shiver, and sort it against M7's 기분).
 
 **Word slice (36):** 활용 · 허용 · 극복 · 불편 · 건조 · 탄생 · 생산자 ·
 기술자 · 이사장 · 심판 · 영향력 · 전국적 · 인간적 · 공공 · 인공 · 제안 ·

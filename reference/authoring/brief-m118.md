@@ -29,7 +29,7 @@ than introduced, and each note opens with the line that promised it.
    (copy the full sentence): it names all three and freezes all three, so
    quote it ONCE at the head of the drawer and let the three notes divide
    the work. 陸 (land — a first) · 海 of M31's 해외 (verify that note's
-   decode and quote it) · 空 of M23's 공항 (verify) + 軍. Give each one a
+   decode and quote it) · 空 of M12's 공항 (verify) + 軍. Give each one a
    collocation that is actually said: 육군 훈련소 (훈련 — verify), 해군 기지
    (기지 frozen), 공군 조종사 (조종사 frozen). The learner is not joining up
    — the point is the news register, where these three are counted and
@@ -44,7 +44,7 @@ than introduced, and each note opens with the line that promised it.
    greeting is the 인사 the learner already owns, and it is a THIRD word
    again), 상인 (商人 — 商 of M43's 상품 (verify that note's decode and
    quote it) + 人: a merchant, a trader — the market's word and the history
-   book's; vs M43's 사업가 (verify) — 상인 sells, 사업가 owns), 죄인 (PAYS
+   book's; vs 사업가 (a businessman — check whether it is taught; if not, ride it frozen) — 상인 sells, 사업가 owns), 죄인 (PAYS
    M90's 죄 — lookup.py the owner and quote its exact span verbatim; 罪人:
    a sinner, a convict — the church's word and the courtroom's, and that
    double life is the note), 본인 (本人 — 本 of M91's 근본 ("根本
@@ -58,7 +58,7 @@ than introduced, and each note opens with the line that promised it.
    현대인은 바쁘다 (M4's 바쁘다); sort the -인 rail with M106's 인, which
    already tabled it), 국왕 (國王 — 國 of M32's 국민 (quote its decode) +
    王 of M26's 왕 (verify and quote): a king, as heads of state are counted
-   — 영국 국왕 (M23's 영국 — verify); M26's 왕 is the story's king, 국왕 is
+   — 영국 국왕 (M27's 영국 — verify); M26's 왕 is the story's king, 국왕 is
    the news bulletin's).
 
 3. **THE RECEIPTS (12) — each note OPENS with the line that promised it:**
@@ -85,7 +85,7 @@ than introduced, and each note opens with the line that promised it.
    — 안내 방송 (M32's 방송) = the announcement, 안내 데스크; 안내하다 rides
    free), 참가 (PAYS M51's 참가하다 — lookup.py the owner and quote its exact
    span verbatim, including its particle rule; the bare noun: 참가 신청
-   (M64's 신청), 참가비 (frozen); sort against M95's 참여 and M64's 참석 if
+   (M64's 신청), 참가비 (frozen); sort against M95's 참여 and 참석하다 (M64) if
    both are taught — verify: 참석 attends, 참가 enters, 참여 takes part in),
    충돌 (PAYS M103's 정면 — lookup.py the owner and quote its exact span
    verbatim; 衝突 — 衝 of M42's 충격 ("衝擊 collide-strike" — verify and
@@ -101,7 +101,7 @@ than introduced, and each note opens with the line that promised it.
    a survey question set — and it is almost never alone: 설문 조사 is the
    phrase).
 
-4. **THE OFFICE VII (14):** 한문 (漢文 — 漢 of M26's 한자 (verify that
+4. **THE OFFICE VII (14):** 한문 (漢文 — 漢 of M27's 한자 (verify that
    note's decode and quote it) + 文: classical Chinese writing — the school
    subject, and the thing hanja notes have been circling since M26; one
    clause on why Korean students still study it), 간격 (間隔 — 間 of M38's
@@ -109,7 +109,7 @@ than introduced, and each note opens with the line that promised it.
    interval, in space and in time — 간격을 두다 (M40's 두다) = to leave a
    space), 통로 (通路 — 通 of M32's 통하다 (verify and quote) + 路 of M38's
    도로: a passage, an aisle — 비상 통로 (비상 frozen), and the aeroplane
-   seat: 통로 쪽 (M6's 쪽 — verify)), 봉사 (奉仕 — 奉 (to serve — a first) +
+   seat: 통로 쪽 (M23's 쪽 — verify)), 봉사 (奉仕 — 奉 (to serve — a first) +
    仕 (to attend — a first): volunteer service — and the Korean fact worth
    the note: 봉사 활동 (M57's 활동) is a graduation requirement, logged in
    hours), 부서 (部署 — 部 of M32's 부분 + 署 (a post, an office — a first):
@@ -122,15 +122,14 @@ than introduced, and each note opens with the line that promised it.
    favourite noun), 제공 (PAYS M61's 제공하다 — lookup.py the owner and quote
    its exact span verbatim; the bare noun: 정보 제공 (M33's 정보), 무료 제공
    (M20's 무료)), 해소 (解消 — 解 of M56's 해결하다 (verify and quote) + 消
-   (to dissipate — a first): dissolving a bad thing — 스트레스 해소 (M42's
-   스트레스 — verify), 갈등 해소 (M87's 갈등 — verify); the pairing is the
+   (to dissipate — a first): dissolving a bad thing — 스트레스 해소 (M14's 스트레스 — verify), 갈등 해소 (M95's 갈등 — verify); the pairing is the
    note: 해결 solves a problem, 해소 dissolves a pressure), 혜택 (惠澤 — both
    characters firsts: a benefit conferred, a perk — 혜택을 받다 (M9's 받다),
    세금 혜택 (M43's 세금); the word every card advertisement uses), 연관
    (聯關 — 聯 (to link — a first) + 關 of M32's 관계 ("關係 connect-tie"):
    a connection, a bearing on — 연관이 있다; sort against M56's 관련 — quote
    that owner: they are near-synonyms and Korean prefers 관련 in print),
-   교체 (交替 — 交 of M64's 교통 note's 交 (verify and quote) + 替 (to
+   교체 (交替 — 交 of M12's 교통 note's 交 (verify and quote) + 替 (to
    replace — a first): a substitution, a changeover — 선수 교체 (M17's 선수 —
    verify) is the football phrase; M9's 바꾸다 is what you do, 교체 is what
    the announcement calls it), 목록 (目錄 — 目 (eye, item — verify a taught
