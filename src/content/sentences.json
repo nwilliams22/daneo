@@ -25353,5 +25353,188 @@
     "rom": "jogeoni bullihadeorado yeogiseo pogihaji maseyo",
     "wordIds": ["w_jogeon", "w_bullihada", "w_yeogi", "w_pogihada"],
     "note": "Recycles -더라도 from M95 — even if it were so, the firmer rung above -아/어도 from M39 — and firmness is the point, because the terms in question are not hypothetical: 불리하다 says the deal is already stacked against you. The closing is -지 마세요 from M14, so the sentence is a coach's, not a report's, and M39's 조건 supplies the noun that adjective lives on. Roles: the -더라도 clause is other; 여기서 is a place; 포기하지 마세요 closes."
+  },
+  {
+    "id": "s_m117_helicopter_eastern_port",
+    "en": [
+      { "t": "According to the news,", "role": "other", "id": "a" },
+      { "t": "a helicopter", "role": "subject", "id": "s" },
+      { "t": "went", "role": "verb", "id": "v" },
+      { "t": "to the eastern port", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "news-according-to", "role": "other", "id": "a" },
+      { "t": "east-part port-to", "role": "place", "id": "p" },
+      { "t": "helicopter-[subj]", "role": "subject", "id": "s" },
+      { "t": "went", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뉴스에 따르면", "role": "other", "id": "a" },
+      { "t": "동부 항구에", "role": "place", "id": "p" },
+      { "t": "헬기가", "role": "subject", "id": "s" },
+      { "t": "갔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nyuseue ttareumyeon dongbu hanggue helgiga gasseoyo",
+    "wordIds": ["w_nyuseu", "w_dongbu", "w_hanggu", "w_helgi", "w_gada"],
+    "note": "Recycles 에 따르면 from M90 — that md's frame, “[source]에 따르면 = according to”, the one that lets a writer report without signing anything. M24's 뉴스 is the source, and the two slice words behind it are the news register itself: 동부 closes the compass rail M98 laid, and 헬기 is the word a bulletin uses where a child says 헬리콥터. The port's own name drops the 구 — 부산항, built on M12's 부산 — so the full 항구 is what you say when you mean the place rather than the name. The roles drill: 뉴스에 따르면 is a connective, other; 동부 항구에 is place; only 갔어요 is verb."
+  },
+  {
+    "id": "s_m117_bank_fee_cash",
+    "en": [
+      { "t": "On my way to the bank,", "role": "other", "id": "a" },
+      { "t": "I paid", "role": "verb", "id": "v" },
+      { "t": "the fee", "role": "object", "id": "o" },
+      { "t": "in cash", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "bank-to go-[badge] occasion-on", "role": "other", "id": "a" },
+      { "t": "fee-[obj]", "role": "object", "id": "o" },
+      { "t": "cash-with", "role": "other", "id": "m" },
+      { "t": "pay-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "은행에 가는 김에", "role": "other", "id": "a" },
+      { "t": "요금을", "role": "object", "id": "o" },
+      { "t": "현금으로", "role": "other", "id": "m" },
+      { "t": "지불했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eunhaenge ganeun gime yogeumeul hyeongeumeuro jibulhaesseoyo",
+    "wordIds": ["w_eunhaeng", "w_gada", "w_yogeum", "w_hyeongeum", "w_jibulhada"],
+    "note": "Recycles -는 김에 from M91 — that md's definition, “a second act hitched to an occasion that was going to happen anyway” — and the occasion is M6's 은행 with M1's 가다 under the present badge from M24. Today's 지불하다 is the customer's verb, which is why M9's 현금 and M12's 요금 fit it: M114's 지급하다 would be the company paying you, and M28's 내다 is what the mouth says at the counter. Three verbs, one transaction, and the register picks."
+  },
+  {
+    "id": "s_m117_final_season_counts",
+    "en": [
+      { "t": "Since we reached the final,", "role": "other", "id": "a" },
+      { "t": "this season", "role": "subject", "id": "s" },
+      { "t": "amounts to a success", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "final-to climbed-since", "role": "other", "id": "a" },
+      { "t": "this-time season-[topic]", "role": "subject", "id": "s" },
+      { "t": "succeed-[badge] count-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "결승에 올랐으니까", "role": "other", "id": "a" },
+      { "t": "이번 시즌은", "role": "subject", "id": "s" },
+      { "t": "성공한 셈이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyeolseunge ollasseunikka ibeon sijeuneun seonggonghan semieyo",
+    "wordIds": ["w_gyeolseung", "w_oreuda", "w_ibeon", "w_sijeun", "w_seonggonghada"],
+    "note": "Recycles -(으)ㄴ/는 셈이다 from M87 — that md's line, “셈 counts what has happened; 마련 says what was always going to.” — so the closer is a reckoning, not a claim. Both slice words are the sports page's: 결승 is 決勝, the round that decides, and 시즌 pays the ride M99's 올 left it in. M22's 오르다 climbs to the final the way it climbs a mountain, -(으)니까 from M10 supplies the reason, M35's 성공하다 wears the past badge from M24. The roles drill: 결승에 올랐으니까 is a connective, other; 이번 시즌은 is subject; 성공한 셈이에요 is one verdict and one chunk, verb."
+  },
+  {
+    "id": "s_m117_accident_thousands_waited",
+    "en": [
+      { "t": "Because an accident happened,", "role": "other", "id": "a" },
+      { "t": "thousands of passengers", "role": "subject", "id": "s" },
+      { "t": "waited", "role": "verb", "id": "v" },
+      { "t": "at the airport", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "accident-[subj] occur-[badge] wind-in", "role": "other", "id": "a" },
+      { "t": "several-thousand people-of passenger-[subj]", "role": "subject", "id": "s" },
+      { "t": "airport-at", "role": "place", "id": "p" },
+      { "t": "waited", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사고가 나는 바람에", "role": "other", "id": "a" },
+      { "t": "수천 명의 승객이", "role": "subject", "id": "s" },
+      { "t": "공항에서", "role": "place", "id": "p" },
+      { "t": "기다렸어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sagoga naneun barame sucheon myeongui seunggaegi gonghangeseo gidaryeosseoyo",
+    "wordIds": ["w_sago", "w_nada", "w_sucheon", "w_c_myeong", "w_seunggaek", "w_gonghang", "w_gidarida"],
+    "note": "Recycles -는 바람에 from M86 — that md was firm about its polarity, “it is always a mishap; you cannot pass an exam -는 바람에” — and M36's 사고 with M28's 나다 is exactly the wind that blows in. Both slice words do the frame's work: 수천 is a determiner and demands a counter, so it arrives as 수천 명 with M5's 명, and 승객 pays the wink M50's 승용차 left unpaid. Numbers stay in hangul, as in every shipped sentence. The roles drill: 사고가 나는 바람에 is a connective, other; 수천 명의 승객이 is one subject; 공항에서 is place."
+  },
+  {
+    "id": "s_m117_application_office_recorded",
+    "en": [
+      { "t": "Every application", "role": "subject", "id": "s" },
+      { "t": "is received", "role": "other", "id": "a" },
+      { "t": "at the office, and", "role": "place", "id": "p" },
+      { "t": "the result", "role": "subject", "id": "t" },
+      { "t": "is recorded", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "every application-[topic]", "role": "subject", "id": "s" },
+      { "t": "office-at", "role": "place", "id": "p" },
+      { "t": "receive-and", "role": "other", "id": "a" },
+      { "t": "result-[topic]", "role": "subject", "id": "t" },
+      { "t": "record-become-[formal]", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "모든 신청은", "role": "subject", "id": "s" },
+      { "t": "사무소에서", "role": "place", "id": "p" },
+      { "t": "받으며", "role": "other", "id": "a" },
+      { "t": "결과는", "role": "subject", "id": "t" },
+      { "t": "기록됩니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "modeun sincheongeun samusoeseo badeumyeo gyeolgwaneun girokdoemnida",
+    "wordIds": ["w_modeun", "w_sincheong", "w_samuso", "w_batda", "w_gyeolgwa", "w_girokdoeda"],
+    "note": "Recycles -(으)며 from M85 — the written and, in the job that md called “two facts side by side = and”, closed in the 합니다체 from M4. It is a notice, and it reads like one because nobody appears in it: 기록되다 pays M96 and flips away the person who wrote the entry, exactly as the M105 page did eight times. M29's 모든 on M64's 신청, M9's 받다 carrying the 며, M32's 결과 taking the second topic — and today's 사무소 is the premises rather than M16's 사무실, the room. Roles: 받으며 is a connective, other; 기록됩니다 alone is verb."
+  },
+  {
+    "id": "s_m117_hotel_bed_uncomfortable",
+    "en": [
+      { "t": "That hotel's", "role": "subject", "id": "s" },
+      { "t": "sleeping setup", "role": "subject", "id": "t" },
+      { "t": "turned out to be uncomfortable", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that hotel-[topic]", "role": "subject", "id": "s" },
+      { "t": "sleeping-place-[subj]", "role": "subject", "id": "t" },
+      { "t": "uncomfortable-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 호텔은", "role": "subject", "id": "s" },
+      { "t": "잠자리가", "role": "subject", "id": "t" },
+      { "t": "불편하더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu hotereun jamjariga bulpyeonhadeoragoyo",
+    "wordIds": ["w_geu_det", "w_hotel", "w_jamjari", "w_bulpyeonhada"],
+    "note": "Recycles -더라고요 from M88 — the eyewitness closer, which that md summed up as “you watched, and now you tell”: you slept there, your listener did not. Today's 잠자리 is M1's 자다 welded to M12's 자리, and M74's 불편하다 is the adjective Korean actually pairs with it — that note had already filed 불편한 자리 for an awkward gathering, so both senses of 자리 now have their discomfort. The shape underneath is the double subject from M24: 그 호텔은 sets the topic, 잠자리가 is what was uncomfortable, and both chunks are subject."
+  },
+  {
+    "id": "s_m117_swallows_low_rain",
+    "en": [
+      { "t": "Since the swallows were flying low,", "role": "other", "id": "a" },
+      { "t": "rain", "role": "subject", "id": "s" },
+      { "t": "seemed likely to come", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "swallow-[subj] low-ly fly-seeing-that", "role": "other", "id": "a" },
+      { "t": "rain-[subj]", "role": "subject", "id": "s" },
+      { "t": "come-[badge] seem-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제비가 낮게 날길래", "role": "other", "id": "a" },
+      { "t": "비가", "role": "subject", "id": "s" },
+      { "t": "올 듯싶었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jebiga natge nalgillae biga ol deutsipeosseoyo",
+    "wordIds": ["w_jebi", "w_natda", "w_nalda", "w_bi", "w_oda", "w_deutsipda"],
+    "note": "Recycles -길래 from M93 — that md's rule is that “the cause is something you SAW before you acted”, and the clause is never the speaker: here it is the birds. Two slice words meet in one weather proverb: 제비 is the swallow NIKL files under 동물, and 듯싶다 is the guess M87's 듯하다 left riding, spaced from the prospective badge of M25 exactly as 듯하다 is. M7's 낮다 wears the -게 adverbializer from M33, M28's 날다 keeps its ㄹ before 길래, and M11's 비 does what rain does in Korean — it comes, with M1's 오다."
+  },
+  {
+    "id": "s_m117_contract_does_not_hold",
+    "en": [
+      { "t": "As far as I know,", "role": "other", "id": "a" },
+      { "t": "that contract", "role": "subject", "id": "s" },
+      { "t": "does not hold", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "I-[subj] know-[badge] limit", "role": "other", "id": "a" },
+      { "t": "that contract-[topic]", "role": "subject", "id": "s" },
+      { "t": "hold-not-do", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "제가 아는 한", "role": "other", "id": "a" },
+      { "t": "그 계약은", "role": "subject", "id": "s" },
+      { "t": "성립하지 않아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jega aneun han geu gyeyageun seongniphaji anayo",
+    "wordIds": ["w_jeo", "w_alda", "w_han", "w_geu_det", "w_gyeyak", "w_seongniphada"],
+    "note": "Recycles -는 한 from M95, and this is the one sentence in the module where the pattern and the slice word are the same thing: the 한 in 제가 아는 한 IS today's 限, the dependent noun that md ran as “살아 있는 한 (M4's 살다) = as long as I live”. That md's picture holds — “It draws a fence and says the second clause holds inside it.” — and the fence here is the speaker's knowledge. Inside it, 성립하다 pays M105's 성립되다 with M43's 계약 as its subject, under the long negation -지 않다 from M28. Roles: 제가 아는 한 is a connective, other; only 성립하지 않아요 is verb."
   }
 ]

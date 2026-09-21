@@ -2731,5 +2731,27 @@
       "s_m116_two_shared_purpose", "s_m116_baby_on_back", "s_m116_market_fish_fresh", "s_m116_report_detail_standard",
       "s_m116_meeting_decision_handed", "s_m116_wallet_in_sleeve", "s_m116_of_all_places_stairs", "s_m116_terms_unfavourable_dont_quit"
     ]
+  },
+  {
+    "id": "m117",
+    "title": "The Small Words and the Places",
+    "order": 126,
+    "ring": 2,
+    "contentMd": "modules/module-117.md",
+    "wordIds": [
+      "w_seongniphada", "w_juuihada", "w_gojiphada", "w_daecheohada",
+      "w_sincheonghada", "w_jeanhada", "w_jibulhada", "w_sujiphada",
+      "w_gonggyeokhada", "w_girokdoeda", "w_samuso", "w_pachulso",
+      "w_hanggu", "w_dongbu", "w_yeonghwaje", "w_rigeu",
+      "w_gyeolseung", "w_sijeun", "w_dalligi", "w_jeon",
+      "w_ri", "w_han", "w_nyeonsaeng", "w_sucheon",
+      "w_deutsipda", "w_geunom", "w_maikeu", "w_helgi",
+      "w_simenteu", "w_eumsingmul", "w_hyeoraek", "w_hwasal",
+      "w_jebi", "w_jamjari", "w_seunggaek", "w_oemo"
+    ],
+    "sentenceIds": [
+      "s_m117_helicopter_eastern_port", "s_m117_bank_fee_cash", "s_m117_final_season_counts", "s_m117_accident_thousands_waited",
+      "s_m117_application_office_recorded", "s_m117_hotel_bed_uncomfortable", "s_m117_swallows_low_rain", "s_m117_contract_does_not_hold"
+    ]
   }
 ]
