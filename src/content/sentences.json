@@ -23853,5 +23853,203 @@
     "rom": "sseuregireul beorineun gime naemsae bangjireul wihae peullaseutigeul ttaro bullihaesseoyo",
     "wordIds": ["w_sseuregi", "w_beorida", "w_naemsae", "w_bangji", "w_wihada", "w_peullaseutik", "w_ttaro", "w_bulli", "w_hada"],
     "note": "Recycles -는 김에 from M91 — while you're at it, the ending for a second errand that costs nothing because you were going anyway. The sentence pays the module's oldest debt: M54's 쓰레기통 called 분리수거 \"Korea's real civics exam\" and M80's 플라스틱 put you in front of the bins, and today 분리 is a word rather than a frozen phrase. 방지 arrives under -를 위해 from M44, which is the frame a prevention noun wants; M62's 따로 says which way the sorting goes. The roles drill: 쓰레기를 버리는 김에 and 냄새 방지를 위해 are both connective clauses, other; 따로 is an adverb, other; only 분리했어요 is verb."
+  },
+  {
+    "id": "s_m111_hesitated_missed_chance",
+    "en": [
+      { "t": "I hesitated so long", "role": "other", "id": "a" },
+      { "t": "that I almost missed", "role": "verb", "id": "v" },
+      { "t": "the chance", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "so-very hesitated-so", "role": "other", "id": "a" },
+      { "t": "chance-[obj]", "role": "object", "id": "o" },
+      { "t": "miss-almost-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "하도 망설여서", "role": "other", "id": "a" },
+      { "t": "기회를", "role": "object", "id": "o" },
+      { "t": "놓칠 뻔했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hado mangseoryeoseo gihoereul nochil ppeonhaesseoyo",
+    "wordIds": ["w_hado", "w_mangseorida", "w_gihoe", "w_nochida"],
+    "note": "Recycles -(으)ㄹ 뻔하다 from M94 — that md's \"almost — a near-miss, told afterwards\", and today's 뻔하다 lending its dependent noun to the machine. The rest of the sentence is the module's own pair: 하도 cannot stand without a consequence, so it hands the clause to -아/어서 from M10, and 망설이다 is the stall M42's 고민하다 is not. Roles: 하도 망설여서 is other (an adverb plus a connective form) and 기회를 is the object M12's 놓치다 takes."
+  },
+  {
+    "id": "s_m111_feed_birds_scattered",
+    "en": [
+      { "t": "The child", "role": "subject", "id": "s" },
+      { "t": "tipped over", "role": "other", "id": "b" },
+      { "t": "the feed,", "role": "object", "id": "o" },
+      { "t": "so the birds", "role": "subject", "id": "t" },
+      { "t": "scattered", "role": "verb", "id": "v" },
+      { "t": "in no time", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "child-[subj]", "role": "subject", "id": "s" },
+      { "t": "feed-[obj]", "role": "object", "id": "o" },
+      { "t": "spill-because of", "role": "other", "id": "b" },
+      { "t": "birds-[subj]", "role": "subject", "id": "t" },
+      { "t": "in-no-time", "role": "other", "id": "c" },
+      { "t": "scattered", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아이가", "role": "subject", "id": "s" },
+      { "t": "먹이를", "role": "object", "id": "o" },
+      { "t": "쏟는 바람에", "role": "other", "id": "b" },
+      { "t": "새들이", "role": "subject", "id": "t" },
+      { "t": "금세", "role": "other", "id": "c" },
+      { "t": "흩어졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "aiga meogireul ssonneun barame saedeuri geumse heuteojyeosseoyo",
+    "wordIds": ["w_ai", "w_meogi", "w_ssotda", "w_sae_bird", "w_geumse", "w_heuteojida"],
+    "note": "Recycles -는 바람에 from M86 — the mishap that blows in and takes the sentence with it, which is why the clause is never something you meant to do. Two of today's words share it: 먹이, the noun M37's 먹이다 named in passing, and 금세, which measures only how little time a thing took. The verb is M94's 흩어지다, still doing the scattering that module gave it. Roles: 쏟는 바람에 is other, and both 아이가 and 새들이 are subjects — two clauses, one each."
+  },
+  {
+    "id": "s_m111_frequent_mistakes_repeat",
+    "en": [
+      { "t": "Someone who makes frequent mistakes", "role": "subject", "id": "s" },
+      { "t": "is bound to repeat", "role": "verb", "id": "v" },
+      { "t": "the same ones", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "mistakes-[subj] frequent person-[topic]", "role": "subject", "id": "s" },
+      { "t": "same mistake-[obj]", "role": "object", "id": "o" },
+      { "t": "repeat-is bound to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "실수가 잦은 사람은", "role": "subject", "id": "s" },
+      { "t": "같은 실수를", "role": "object", "id": "o" },
+      { "t": "되풀이하기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "silsuga jajeun sarameun gateun silsureul doepurihagi maryeonieyo",
+    "wordIds": ["w_silsu", "w_jatda", "w_saram", "w_gatda_same", "w_doepurihada"],
+    "note": "Recycles -기 마련이다 from M87 — the -기 nominalizer from M13 plus 마련, the verdict that says this is simply how things go. Today's two words are made for it: 잦다 reports how often a thing HAPPENS (M8's 자주 would report on the person instead), and 되풀이하다 is the unfolding done twice. M63's 실수 carries both halves, once as a subject and once as an object. Roles: the whole of 실수가 잦은 사람은 is one subject chunk, badge -(으)ㄴ from M24 and the inner 실수가 included."
+  },
+  {
+    "id": "s_m111_guitar_intense",
+    "en": [
+      { "t": "The sound of someone plucking a guitar", "role": "subject", "id": "s" },
+      { "t": "turned out to be more intense", "role": "verb", "id": "v" },
+      { "t": "than I expected", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "guitar-[obj] pluck-[badge] sound-[subj]", "role": "subject", "id": "s" },
+      { "t": "thought-than", "role": "other", "id": "c" },
+      { "t": "intense-I found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "기타를 뜯는 소리가", "role": "subject", "id": "s" },
+      { "t": "생각보다", "role": "other", "id": "c" },
+      { "t": "강렬하더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gitareul tteunneun soriga saenggakboda gangnyeolhadeoragoyo",
+    "wordIds": ["w_gita", "w_tteutda", "w_sori", "w_saenggakhada", "w_gangnyeolhada"],
+    "note": "Recycles -더라고요 from M88 — the spoken retrospective, and its eyewitness rule holds: what was witnessed is the sound, not the speaker's opinion of himself. 기타를 뜯다 is the collocation to keep, because Korean plucks a guitar where English plays it, and 강렬하다 is 强烈, the force-强 of M64's 강제 with a fierce character behind it. 생각보다 is the bare noun of M10's 생각하다 under the than-보다 of M22, exactly as the M88 md ran it. Roles: 기타를 뜯는 소리가 is one subject chunk with the badge -는 from M24 inside it."
+  },
+  {
+    "id": "s_m111_alone_fear_grows",
+    "en": [
+      { "t": "The more time you spend on your own", "role": "other", "id": "a" },
+      { "t": "the fear", "role": "subject", "id": "s" },
+      { "t": "grows", "role": "verb", "id": "v" },
+      { "t": "bit by bit", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "alone be-the more", "role": "other", "id": "a" },
+      { "t": "fear-[subj]", "role": "subject", "id": "s" },
+      { "t": "bit-by-bit", "role": "other", "id": "c" },
+      { "t": "becomes-bigger", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "홀로 있을수록", "role": "other", "id": "a" },
+      { "t": "두려움이", "role": "subject", "id": "s" },
+      { "t": "차츰", "role": "other", "id": "c" },
+      { "t": "커져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hollo isseulsurok duryeoumi chacheum keojyeoyo",
+    "wordIds": ["w_hollo", "w_duryeoum", "w_chacheum", "w_keuda"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — the dial and the result — and three of today's words ride it. 홀로 is the page's alone, where M10's 혼자 is the mouth's; 두려움 is the noun M107's 두렵다 left standing and M93's 극복하다 had already spent; 차츰 is the slow slope, calmer than M35's 점점 and commoner in a book than M85's 서서히. The closer is M1's 크다 through the -아/어지다 wing from M35, because a fear grows rather than simply being large. Roles: 홀로 있을수록 and 차츰 are both other; 두려움이 is the subject the slope moves."
+  },
+  {
+    "id": "s_m111_plain_table_full_house",
+    "en": [
+      { "t": "That restaurant", "role": "subject", "id": "s" },
+      { "t": "sets a plain table,", "role": "other", "id": "b" },
+      { "t": "and the owner is conscientious on top of that,", "role": "other", "id": "c" },
+      { "t": "so it has", "role": "verb", "id": "v" },
+      { "t": "plenty of customers", "role": "subject", "id": "t" }
+    ],
+    "gloss": [
+      { "t": "that restaurant-[topic]", "role": "subject", "id": "s" },
+      { "t": "meal-table-[subj] plain-on top of", "role": "other", "id": "b" },
+      { "t": "owner-[subj] sincere-so", "role": "other", "id": "c" },
+      { "t": "customers-[subj]", "role": "subject", "id": "t" },
+      { "t": "are-many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 식당은", "role": "subject", "id": "s" },
+      { "t": "밥상이 소박한 데다가", "role": "other", "id": "b" },
+      { "t": "주인이 성실해서", "role": "other", "id": "c" },
+      { "t": "손님이", "role": "subject", "id": "t" },
+      { "t": "많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu sikdangeun bapsangi sobakhan dedaga juini seongsilhaeseo sonnimi manayo",
+    "wordIds": ["w_sikdang", "w_bapsang", "w_sobakhada", "w_juin", "w_seongsilhada", "w_sonnim", "w_manta"],
+    "note": "Recycles -(으)ㄴ/는 데다가 from M92 — the piler-on, which needs both halves pointing the same way, and here they do: plain food and a conscientious owner both argue for the place. 소박하다 pays M104's 밥상, whose note had already served \"소박한 밥상 (소박하다 — plain, riding frozen) = a simple spread\", and 성실하다 is the reference letter's adjective, rating effort rather than talent. Roles: 그 식당은 and 손님이 are both subjects — the double-subject frame this course has run since 한식은 반찬이 많아요 — and the two connective clauses in between are other."
+  },
+  {
+    "id": "s_m111_swallowed_tears_light_off",
+    "en": [
+      { "t": "Afraid the child would wake,", "role": "other", "id": "a" },
+      { "t": "I swallowed my tears and", "role": "other", "id": "b" },
+      { "t": "turned off", "role": "verb", "id": "v" },
+      { "t": "the light", "role": "object", "id": "o" },
+      { "t": "right away", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "child-[subj] wake-up-for fear", "role": "other", "id": "a" },
+      { "t": "tears-[obj] swallow-and", "role": "other", "id": "b" },
+      { "t": "at-once", "role": "other", "id": "c" },
+      { "t": "light-[obj]", "role": "object", "id": "o" },
+      { "t": "turned-off", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아이가 깨어날까 봐", "role": "other", "id": "a" },
+      { "t": "눈물을 삼키고", "role": "other", "id": "b" },
+      { "t": "이내", "role": "other", "id": "c" },
+      { "t": "불을", "role": "object", "id": "o" },
+      { "t": "껐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "aiga kkaeeonalkka bwa nunmureul samkigo inae bureul kkeosseoyo",
+    "wordIds": ["w_ai", "w_kkaeeonada", "w_nunmul", "w_samkida", "w_inae", "w_bul", "w_kkeuda"],
+    "note": "Recycles -(으)ㄹ까 봐 from M93 — the fear clause, which always states the thing you are trying to prevent. Three of today's words work the scene: 깨어나다 is M36's 깨다 welded to M28's 나다, the mind coming back rather than the body getting up; 눈물을 삼키다 is what Korean does instead of crying; and 이내 is the adverb row of a word whose other row is the noun 以內. Roles: 아이가 깨어날까 봐, 눈물을 삼키고 and 이내 are all other — two connective clauses and an adverb — with verb--고 from M10 joining the middle one on."
+  },
+  {
+    "id": "s_m111_chairman_stepped_down",
+    "en": [
+      { "t": "The chairman", "role": "subject", "id": "s" },
+      { "t": "stepped down from his post and", "role": "other", "id": "a" },
+      { "t": "handed over", "role": "verb", "id": "v" },
+      { "t": "the company", "role": "object", "id": "o" },
+      { "t": "to the new CEO", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "chairman-[topic]", "role": "subject", "id": "s" },
+      { "t": "post-from step-down-and", "role": "other", "id": "a" },
+      { "t": "new representative-to", "role": "other", "id": "b" },
+      { "t": "company-[obj]", "role": "object", "id": "o" },
+      { "t": "handed-over", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회장은", "role": "subject", "id": "s" },
+      { "t": "자리에서 물러나며", "role": "other", "id": "a" },
+      { "t": "새 대표에게", "role": "other", "id": "b" },
+      { "t": "회사를", "role": "object", "id": "o" },
+      { "t": "내주었습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoejangeun jarieseo mulleonamyeo sae daepyoege hoesareul naejueotseumnida",
+    "wordIds": ["w_hoejang", "w_jari", "w_mulleonada", "w_sae", "w_daepyo", "w_hoesa", "w_naejuda"],
+    "note": "Recycles -(으)며 from M85 — the written and, one printed breath where speech would take two — and the register is the point: this is the press release, so it closes in the 합니다체 of M4. Both verbs are today's and both take M12's 자리 as their pivot: 자리에서 물러나다 is the dignified exit M16's 그만두다 never gets, and 자리를 내주다 hands the post to somebody else. RADAR, from 내주다's entry: this is not the 끝내주다 M62's 끝내 winked at. Roles: 자리에서 물러나며 and 새 대표에게 are other, and 회장은 is the subject the whole sentence belongs to."
   }
 ]

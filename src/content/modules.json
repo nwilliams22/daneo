@@ -2555,5 +2555,27 @@
       "s_m108_statistics_prevention", "s_m108_factory_serviced", "s_m108_freedom_backlash", "s_m108_observe_thoroughly",
       "s_m108_reported_prison", "s_m108_swore_lied_punished", "s_m108_terms_favorable_limited", "s_m108_trash_plastic_sorted"
     ]
+  },
+  {
+    "id": "m111",
+    "title": "Native Verbs V, and the Adverbs of the Moment",
+    "order": 120,
+    "ring": 2,
+    "contentMd": "modules/module-111.md",
+    "wordIds": [
+      "w_mangseorida", "w_apseuda", "w_pyeonaeda", "w_doepurihada",
+      "w_butjapda", "w_naejuda", "w_mulleonada", "w_tteutda",
+      "w_ppaeatda", "w_samkida", "w_gidaeda", "w_kkaeeonada",
+      "w_byeoldareuda", "w_ppeonhada", "w_yusahada", "w_gangnyeolhada",
+      "w_miljeophada", "w_sobakhada", "w_seongsilhada", "w_jatda",
+      "w_tumyeonghada", "w_gotongseureopda", "w_gollanhada", "w_gwichanta",
+      "w_duryeoum", "w_bitkkal", "w_momjit", "w_meogi",
+      "w_nundongja", "w_inae", "w_chacheum", "w_hollo",
+      "w_gamhi", "w_geumse", "w_hanchang", "w_hado"
+    ],
+    "sentenceIds": [
+      "s_m111_hesitated_missed_chance", "s_m111_feed_birds_scattered", "s_m111_frequent_mistakes_repeat", "s_m111_guitar_intense",
+      "s_m111_alone_fear_grows", "s_m111_plain_table_full_house", "s_m111_swallowed_tears_light_off", "s_m111_chairman_stepped_down"
+    ]
   }
 ]
