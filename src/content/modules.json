@@ -2709,5 +2709,27 @@
       "s_m115_public_data_value", "s_m115_survey_lifespan", "s_m115_factory_frozen_food", "s_m115_interest_last_year",
       "s_m115_referee_talent", "s_m115_short_story_lesson", "s_m115_company_training_promotion", "s_m115_challenge_conviction"
     ]
+  },
+  {
+    "id": "m116",
+    "title": "The Native Shelf in Motion",
+    "order": 125,
+    "ring": 2,
+    "contentMd": "modules/module-116.md",
+    "wordIds": [
+      "w_dallaeda", "w_balkyeonaeda", "w_buseojida", "w_eopda_carry",
+      "w_twida", "w_gureuda", "w_ppaeatgida", "w_twieonaoda",
+      "w_gachihada", "w_saranada", "w_sogida", "w_geonnejuda",
+      "w_naeryeojida", "w_nokda", "w_gareuda", "w_myeonghwakhada",
+      "w_jasehada", "w_bullihada", "w_jallada", "w_singsinghada",
+      "w_jiruhada", "w_hapil", "w_gotjal", "w_sireun",
+      "w_gansinhi", "w_yeogan", "w_irijeori", "w_jeomada",
+      "w_mam", "w_balgeoreum", "w_balgil", "w_somae",
+      "w_jinannal", "w_jejari", "w_goham", "w_goljjagi"
+    ],
+    "sentenceIds": [
+      "s_m116_two_shared_purpose", "s_m116_baby_on_back", "s_m116_market_fish_fresh", "s_m116_report_detail_standard",
+      "s_m116_meeting_decision_handed", "s_m116_wallet_in_sleeve", "s_m116_of_all_places_stairs", "s_m116_terms_unfavourable_dont_quit"
+    ]
   }
 ]

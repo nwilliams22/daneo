@@ -25179,5 +25179,179 @@
     "rom": "geu sarameun dojeoneul jeulgineun banmyeone sinnyeomeun yakhaeyo",
     "wordIds": ["w_dojeon", "w_jeulgida", "w_sinnyeom", "w_yakhada"],
     "note": "Recycles 반면에 from M95 — \"whereas\", the balance a review weighs two facts on rather than a contrast that leans on the second, and that md's rule shows on the surface: \"the two halves each take their own 은/는\". 도전 is a brand-new 挑 over the war-戰 that M32's 전쟁 seated as the fourth 전, and 신념 is the trust-信 of M38's 신호 over the think-念 of M87's 관념 — the belief that will not move, which is exactly what this sentence says is missing. Roles: 도전을 즐기는 반면에 is other; 그 사람은 and 신념은 are both subjects, each with its own 은; 약해요 closes."
+  },
+  {
+    "id": "s_m116_two_shared_purpose",
+    "en": [
+      { "t": "Looking back on the old days,", "role": "other", "id": "a" },
+      { "t": "the two of them", "role": "subject", "id": "s" },
+      { "t": "had shared", "role": "verb", "id": "v" },
+      { "t": "a purpose", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "old-days-[obj] looking-back-and", "role": "other", "id": "a" },
+      { "t": "two person-[topic]", "role": "subject", "id": "s" },
+      { "t": "purpose-[obj]", "role": "object", "id": "o" },
+      { "t": "did-together", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지난날을 돌아보며", "role": "other", "id": "a" },
+      { "t": "두 사람은", "role": "subject", "id": "s" },
+      { "t": "뜻을", "role": "object", "id": "o" },
+      { "t": "같이했습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "jinannareul dorabomyeo du sarameun tteuseul gachihaetseumnida",
+    "wordIds": ["w_jinannal", "w_doraboda", "w_saram", "w_tteut", "w_gachihada"],
+    "note": "Recycles -(으)며 from M85 — the written and/while, which the M96 glue index files as \"the written and/while\" — and it is the only connective that suits this pair of words, because both of them belong to the page. 지난날 is the memoir's word for the past where M35's 과거 is the form's, and 같이하다 is what a newspaper writes instead of 같이 앉았다; -고 would have been correct and would have sounded like a conversation. Underneath: the badge -(으)ㄴ from M24 buried inside 지난날 itself, and the 합니다체 of M4 closing the one printed sentence in the deck. Roles: 지난날을 돌아보며 is a connective verb form, so other; 두 사람은 is the subject; 뜻을 is the object; 같이했습니다 closes."
+  },
+  {
+    "id": "s_m116_baby_on_back",
+    "en": [
+      { "t": "Because the baby was crying,", "role": "other", "id": "a" },
+      { "t": "I carried him on my back and", "role": "other", "id": "b" },
+      { "t": "tried to soothe him", "role": "verb", "id": "v" },
+      { "t": "every which way", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "baby-[subj] crying because-of", "role": "other", "id": "a" },
+      { "t": "carry-on-back-and", "role": "other", "id": "b" },
+      { "t": "this-way-and-that", "role": "other", "id": "c" },
+      { "t": "soothe try-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아기가 우는 바람에", "role": "other", "id": "a" },
+      { "t": "업고", "role": "other", "id": "b" },
+      { "t": "이리저리", "role": "other", "id": "c" },
+      { "t": "달래 봤어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "agiga uneun barame eopgo irijeori dallae bwasseoyo",
+    "wordIds": ["w_agi", "w_ulda", "w_eopda_carry", "w_irijeori", "w_dallaeda"],
+    "note": "Recycles -는 바람에 from M86 — the because of a mishap that blew in, and a crying baby is exactly the kind of weather that frame was built for: the cause is outside you and the result is something you did not plan. Three of today's words share the clause — 업다 on the back, 이리저리 doing its second job (method, not direction, the one NIKL files under 이리저리 돌아다니다), and 달래다 with the try-machine -아/어 보다 from M16 on it, which is the honest ending here because trying is not succeeding. Roles: the 바람에 clause, the connective 업고 and the adverb 이리저리 are all other; only 달래 봤어요 closes."
+  },
+  {
+    "id": "s_m116_market_fish_fresh",
+    "en": [
+      { "t": "Actually,", "role": "other", "id": "a" },
+      { "t": "the fish at the market", "role": "subject", "id": "s" },
+      { "t": "turned out to be fresh", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "actually", "role": "other", "id": "a" },
+      { "t": "market fish-[subj]", "role": "subject", "id": "s" },
+      { "t": "fresh-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "실은", "role": "other", "id": "a" },
+      { "t": "시장 생선이", "role": "subject", "id": "s" },
+      { "t": "싱싱하더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sireun sijang saengseoni singsinghadeoragoyo",
+    "wordIds": ["w_sireun", "w_sijang", "w_saengseon", "w_singsinghada"],
+    "note": "Recycles -더라고요 from M88 — the ending that reports what you saw with your own eyes and never what you were told — and it is the right frame for 싱싱하다, which is a judgement made at a stall with the fish in front of you. 실은 opens in confession gear: the speaker had been assuming the supermarket was better and is now owning up, which is precisely the work M24's 사실 described for 사실은 and which the written twin does one syllable shorter. Roles: 실은 is an adverb, so other; 시장 생선이 is the subject; 싱싱하더라고요 closes."
+  },
+  {
+    "id": "s_m116_report_detail_standard",
+    "en": [
+      { "t": "The more detailed the report,", "role": "other", "id": "a" },
+      { "t": "the clearer the standard", "role": "subject", "id": "s" },
+      { "t": "becomes", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "report-[subj] detailed-the-more", "role": "other", "id": "a" },
+      { "t": "standard-[subj]", "role": "subject", "id": "s" },
+      { "t": "clear-cut-becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "보고서가 자세할수록", "role": "other", "id": "a" },
+      { "t": "기준이", "role": "subject", "id": "s" },
+      { "t": "명확해져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bogoseoga jasehalsurok gijuni myeonghwakhaejyeoyo",
+    "wordIds": ["w_bogoseo", "w_jasehada", "w_gijun", "w_myeonghwakhada"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — the more, the more — and it puts today's two Sino adjectives on one sliding scale, which is where they belong: detail goes in one end and unambiguity comes out the other. 명확해져요 closes on the -아/어지다 machine from M35, since a standard does not start clear-cut, it becomes so. M43's 보고서 is the document 자세하다 is usually said about. Roles: the -(으)ㄹ수록 clause is other even though it holds a 이-marked noun; 기준이 is the subject; 명확해져요 closes."
+  },
+  {
+    "id": "s_m116_meeting_decision_handed",
+    "en": [
+      { "t": "Following the outcome of the meeting,", "role": "other", "id": "a" },
+      { "t": "a decision", "role": "subject", "id": "s" },
+      { "t": "was handed down", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "meeting result-to following", "role": "other", "id": "a" },
+      { "t": "decision-[subj]", "role": "subject", "id": "s" },
+      { "t": "was-handed-down", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회의 결과에 따라", "role": "other", "id": "a" },
+      { "t": "결정이", "role": "subject", "id": "s" },
+      { "t": "내려졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoeui gyeolgwae ttara gyeoljeongi naeryeojyeosseoyo",
+    "wordIds": ["w_hoeui", "w_gyeolgwa", "w_gyeoljeong", "w_naeryeojida"],
+    "note": "Recycles 에 따라 from M90 — according to, depending on — and the whole sentence is an exercise in naming nobody. 에 따라 hands the authority to a noun instead of a person, and 내려지다 takes the hand off the verb that M57's 결정 taught with one on it: 결정을 내리다 is somebody deciding, 결정이 내려졌어요 is the same event with the decider deleted. Read the two side by side and the register difference is the entire lesson. Roles: 회의 결과에 따라 is other, 결정이 is the subject, and 내려졌어요 closes."
+  },
+  {
+    "id": "s_m116_wallet_in_sleeve",
+    "en": [
+      { "t": "For fear my wallet would be taken,", "role": "other", "id": "a" },
+      { "t": "I put it", "role": "verb", "id": "v" },
+      { "t": "inside my sleeve", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "wallet-[obj] be-taken-for-fear-that", "role": "other", "id": "a" },
+      { "t": "sleeve inside-in", "role": "place", "id": "p" },
+      { "t": "put-in-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "지갑을 빼앗길까 봐", "role": "other", "id": "a" },
+      { "t": "소매 안에", "role": "place", "id": "p" },
+      { "t": "넣었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jigabeul ppaeatgilkka bwa somae ane neoeosseoyo",
+    "wordIds": ["w_jigap", "w_ppaeatgida", "w_somae", "w_neota"],
+    "note": "Recycles -(으)ㄹ까 봐 from M93 — for fear that, where the thing feared has not happened and the main clause is what you did about it. The fear clause is built on today's passive: 빼앗기다 already means having it taken FROM you, so the frame needs no agent and the sentence names no thief. M28's 넣다 does the putting and 소매 supplies the hiding place, which is where a Korean market-goer's money actually went for most of the last century. Roles: the 봐 clause is other even though it carries a 을-marked noun; 소매 안에 is a place; 넣었어요 closes."
+  },
+  {
+    "id": "s_m116_of_all_places_stairs",
+    "en": [
+      { "t": "Of all places,", "role": "other", "id": "a" },
+      { "t": "I ended up taking a tumble", "role": "verb", "id": "v" },
+      { "t": "on the stairs", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "of-all-things", "role": "other", "id": "a" },
+      { "t": "stairs-on", "role": "place", "id": "p" },
+      { "t": "roll-and ended-up", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "하필", "role": "other", "id": "a" },
+      { "t": "계단에서", "role": "place", "id": "p" },
+      { "t": "구르고 말았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hapil gyedaneseo gureugo marasseoyo",
+    "wordIds": ["w_hapil", "w_gyedan", "w_gureuda"],
+    "note": "Recycles -고 말다 from M94 — the regretted completion, ended up — and it is the one ending 하필 was waiting for, because both of them carry a complaint rather than a fact. 하필 says the circumstances were unfair; -고 말았어요 says the outcome was not what anybody wanted; together they make the Korean sentence for bad luck, and neither half is neutral. 구르다 is 르-family, so the -고 form hides the irregularity that 굴러요 would show. Roles: 하필 is an adverb, so other; 계단에서 is a place; 구르고 말았어요 is one predicate across two words, auxiliary included, so the whole of it is the verb chunk."
+  },
+  {
+    "id": "s_m116_terms_unfavourable_dont_quit",
+    "en": [
+      { "t": "Even if the terms are unfavourable,", "role": "other", "id": "a" },
+      { "t": "don't give up", "role": "verb", "id": "v" },
+      { "t": "here", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "terms-[subj] unfavourable-even-if", "role": "other", "id": "a" },
+      { "t": "here-at", "role": "place", "id": "p" },
+      { "t": "give-up-not do-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "조건이 불리하더라도", "role": "other", "id": "a" },
+      { "t": "여기서", "role": "place", "id": "p" },
+      { "t": "포기하지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jogeoni bullihadeorado yeogiseo pogihaji maseyo",
+    "wordIds": ["w_jogeon", "w_bullihada", "w_yeogi", "w_pogihada"],
+    "note": "Recycles -더라도 from M95 — even if it were so, the firmer rung above -아/어도 from M39 — and firmness is the point, because the terms in question are not hypothetical: 불리하다 says the deal is already stacked against you. The closing is -지 마세요 from M14, so the sentence is a coach's, not a report's, and M39's 조건 supplies the noun that adjective lives on. Roles: the -더라도 clause is other; 여기서 is a place; 포기하지 마세요 closes."
   }
 ]
