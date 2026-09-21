@@ -2621,5 +2621,27 @@
       "s_m110_screening_permit", "s_m110_custom_vs_folkway", "s_m110_song_youth", "s_m110_housekeeping_kitchen",
       "s_m110_grain_pumpkin", "s_m110_vote_proposal", "s_m110_promotion_talk", "s_m110_dream_realized"
     ]
+  },
+  {
+    "id": "m112",
+    "title": "The Promises Come Due",
+    "order": 121,
+    "ring": 2,
+    "contentMd": "modules/module-112.md",
+    "wordIds": [
+      "w_bopyeonjeok", "w_isangjeok", "w_bubunjeok", "w_siljiljeok",
+      "w_hyoyuljeok", "w_myeonjeok", "w_sunsu", "w_sosu",
+      "w_chukso", "w_geumaek", "w_immu", "w_jojeong",
+      "w_yeomnyeo", "w_bulhaeng", "w_ilche", "w_jeonyong",
+      "w_hwakjeong", "w_gasang", "w_dongui", "w_banseong",
+      "w_bosang", "w_guksan", "w_seomin", "w_yeongan",
+      "w_yongdo", "w_hwakjang", "w_changjak", "w_chwihyang",
+      "w_jeongbohwa", "w_dodeok", "w_yujeok", "w_ilsaeng",
+      "w_ilja", "w_yeonseol", "w_bimyeong", "w_mamuri"
+    ],
+    "sentenceIds": [
+      "s_m112_office_area_parking", "s_m112_purpose_amount_adjusted", "s_m112_business_expands_duties", "s_m112_friend_taste_unique",
+      "s_m112_damage_compensation", "s_m112_budget_cut_date", "s_m112_domestic_price_difference", "s_m112_president_speech_morality"
+    ]
   }
 ]
