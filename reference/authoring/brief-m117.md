@@ -91,8 +91,10 @@ the last thing the -적 and -소 shelves left to teach.
    = the time before." span and say the hanja differ), 리 (里 — TWO jobs,
    both dependent: the old distance unit (십 리 — write in hangul — is about
    four kilometres, and 천 리 is 'a very long way') and the administrative
-   village at the bottom of the address rail — PAYS M99's 면 — quote its
-   exact "a township (面, 읍/면/동)" span and extend the rail to 읍/면/리;
+   village at the bottom of the address rail — PAYS M99's 면 — lookup.py the owner and
+   quote its exact span verbatim from the NOTE. Its one-line gloss
+   mentions 읍/면/동, but a gloss is not citable prose, so take the span
+   from the note itself and extend the rail to 읍/면/리;
    RADAR: this is not the 리 of 그럴 리가 없어요, a different dependent noun
    riding frozen — say so in one clause), 한 (恨 — the one that does not
    translate: the sediment of grief and unrighted wrong that Korean claims

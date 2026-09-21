@@ -153,8 +153,13 @@ committed until both pass:
 
 - `briefquotes.py brief-mNN.md` — every quoted span of twelve characters
   or more that contains hangul must appear verbatim in the shipped
-  corpus. It catches the habit of pasting `iou.py` output, which is
-  truncated with an ellipsis and is never a real quote.
+  corpus, and must come from prose a drafter can actually cite: a word
+  note, a sentence note, a gap card or a module md. It catches the habit
+  of pasting `iou.py` output, which is truncated with an ellipsis and is
+  never a real quote, and it reports separately any span that matches
+  only a word's one-line gloss field. A gloss reads like a citation but
+  is not note text, and quoting one ships a reference that points at
+  nothing a reader can find.
 - `briefowners.py brief-mNN.md` — every `Mnn's <word>` claim must match
   `words.json`. Briefs written from memory routinely carry ten to twenty
   wrong module numbers, and words that are taught-as rather than as
