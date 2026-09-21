@@ -2643,5 +2643,27 @@
       "s_m112_office_area_parking", "s_m112_purpose_amount_adjusted", "s_m112_business_expands_duties", "s_m112_friend_taste_unique",
       "s_m112_damage_compensation", "s_m112_budget_cut_date", "s_m112_domestic_price_difference", "s_m112_president_speech_morality"
     ]
+  },
+  {
+    "id": "m113",
+    "title": "The Words Without Halves",
+    "order": 122,
+    "ring": 2,
+    "contentMd": "modules/module-113.md",
+    "wordIds": [
+      "w_dakchida", "w_eopdeurida", "w_majuchida", "w_beda",
+      "w_meuda", "w_saegida", "w_jungeolgeorida", "w_geutda",
+      "w_yeotboda", "w_jabameokda", "w_geondeurida", "w_akkapda",
+      "w_eoriseokda", "w_useupda", "w_himchada", "w_goyohada",
+      "w_nalkaropda", "w_manmanhada", "w_motdoeda", "w_yeoreot",
+      "w_gatgaji", "w_ireonjeoreon", "w_momtong", "w_bol",
+      "w_kan", "w_gidung", "w_dwinmoseup", "w_goeroum",
+      "w_bit_debt", "w_gaemi", "w_haneunim", "w_charim",
+      "w_geudae", "w_anya", "w_ayu", "w_ilssu"
+    ],
+    "sentenceIds": [
+      "s_m113_father_mutters", "s_m113_sharp_knife_careful", "s_m113_students_face_down", "s_m113_debt_lighter",
+      "s_m113_still_night_letter", "s_m113_filled_blanks", "s_m113_far_from_pushover", "s_m113_crowd_talk"
+    ]
   }
 ]
