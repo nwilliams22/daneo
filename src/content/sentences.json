@@ -24606,5 +24606,185 @@
     "rom": "daetongnyeongeun yeonseoreul mamurihamyeo dodeokgwa chaegimeul malhaetseumnida",
     "wordIds": ["w_daetongnyeong", "w_yeonseol", "w_mamuri", "w_dodeok", "w_chaegim", "w_malhada"],
     "note": "Recycles -(으)며 from M85 — \"the written and/while\", which is why the sentence closes in the 합니다체 of M4 and not in 요: this is a news line, not a conversation. Three of today's longer-view words ride it: 연설 is the 演 of M48's 공연 over the 說 of M100's 사설, 마무리 is the module's one native word and the LAST PART itself rather than the act of ending, and 도덕 is the way-道 of M38's 도로 under the virtue-德 that M103's 덕 finally let stand alone. Roles: 대통령은 is the subject, 연설을 마무리하며 is other (a connective form, with its own object inside it), 도덕과 책임을 is the object, and 말했습니다 closes."
+  },
+  {
+    "id": "s_m113_father_mutters",
+    "en": [
+      { "t": "My father", "role": "subject", "id": "s" },
+      { "t": "is forever muttering", "role": "verb", "id": "v" },
+      { "t": "to himself", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "father-[topic]", "role": "subject", "id": "s" },
+      { "t": "alone", "role": "other", "id": "a" },
+      { "t": "mutter-is-always-doing", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아버지는", "role": "subject", "id": "s" },
+      { "t": "혼자", "role": "other", "id": "a" },
+      { "t": "중얼거리기 일쑤예요", "role": "verb", "id": "v" }
+    ],
+    "rom": "abeojineun honja jungeolgeorigi ilssuyeyo",
+    "wordIds": ["w_abeoji", "w_honja", "w_jungeolgeorida", "w_ilssu"],
+    "note": "Recycles -기 일쑤다 from M94 — that md's \"is always doing — a bad habit as a verdict\" — and today the dependent noun inside it dismounts, so the frame is finally made of words you own: the -기 nominalizer from M13, then 일쑤, then the copula. The verb is the module's own 중얼거리다, sitting where it always sits, next to M10's 혼자. A verdict on a pattern and never on one evening: the complaint is in the frame, not in the verb. Roles: 혼자 is other, and 중얼거리기 일쑤예요 closes the sentence, so the whole of it is the verb chunk."
+  },
+  {
+    "id": "s_m113_sharp_knife_careful",
+    "en": [
+      { "t": "The knife was sharp,", "role": "other", "id": "a" },
+      { "t": "so I was careful", "role": "verb", "id": "v" },
+      { "t": "not to cut my hand", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "knife-[subj] sharp-so", "role": "other", "id": "a" },
+      { "t": "hand-[obj] cut-for-fear-that", "role": "other", "id": "b" },
+      { "t": "was-careful", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "칼이 날카로워서", "role": "other", "id": "a" },
+      { "t": "손을 벨까 봐", "role": "other", "id": "b" },
+      { "t": "조심했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "kari nalkarowoseo soneul belkka bwa josimhaesseoyo",
+    "wordIds": ["w_kal", "w_nalkaropda", "w_son", "w_beda", "w_josimhada"],
+    "note": "Recycles -(으)ㄹ까 봐 from M93 — the fear-that frame, where the thing feared has not happened and the main clause is what you did about it. Two of today's words share the clause: 날카롭다 in its ㅂ-irregular coat (날카로워서, with -아/어서 from M10), and 베다 with the 에-marked blade behind it. Roles: 칼이 날카로워서 and 손을 벨까 봐 are both other — a reason clause and a fear clause — and only 조심했어요 closes, so only it is the verb."
+  },
+  {
+    "id": "s_m113_students_face_down",
+    "en": [
+      { "t": "In the classroom", "role": "place", "id": "p" },
+      { "t": "the students", "role": "subject", "id": "s" },
+      { "t": "were face down on their desks,", "role": "other", "id": "a" },
+      { "t": "sleeping, I noticed", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "classroom-in", "role": "place", "id": "p" },
+      { "t": "students-[subj]", "role": "subject", "id": "s" },
+      { "t": "desk-on lying-face-down", "role": "other", "id": "a" },
+      { "t": "sleep-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "교실에서", "role": "place", "id": "p" },
+      { "t": "학생들이", "role": "subject", "id": "s" },
+      { "t": "책상에 엎드려", "role": "other", "id": "a" },
+      { "t": "자더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gyosireseo haksaengdeuri chaeksange eopdeuryeo jadeoragoyo",
+    "wordIds": ["w_gyosil", "w_haksaeng", "w_chaeksang", "w_eopdeurida", "w_jada"],
+    "note": "Recycles -더라고요 from M88 — the ending that reports what you saw for yourself, with the surprise still on it, and never what you were told. It is the right frame for 엎드리다 because the posture is the whole picture: 책상에 엎드려 자다 (M6's 책상, M1's 자다) is the classroom nap, and the reporter is standing in the doorway. Roles: 교실에서 is a place, 책상에 엎드려 is other (a connective verb form), and 자더라고요 closes."
+  },
+  {
+    "id": "s_m113_debt_lighter",
+    "en": [
+      { "t": "The more you pay off", "role": "other", "id": "a" },
+      { "t": "your debts,", "role": "object", "id": "o" },
+      { "t": "the lighter your heart", "role": "subject", "id": "b" },
+      { "t": "gets", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "debt-[obj]", "role": "object", "id": "o" },
+      { "t": "repay-the-more", "role": "other", "id": "a" },
+      { "t": "heart-[subj]", "role": "subject", "id": "b" },
+      { "t": "becomes-light", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "빚을", "role": "object", "id": "o" },
+      { "t": "갚을수록", "role": "other", "id": "a" },
+      { "t": "마음이", "role": "subject", "id": "b" },
+      { "t": "가벼워져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bijeul gapeulsurok maeumi gabyeowojyeoyo",
+    "wordIds": ["w_bit_debt", "w_gapda", "w_maeum", "w_gabyeopda"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — the more, the more — and it takes two IOUs off the shelf in one breath: today's 빚, which M83's 빗 and M88's 한마디 both carried frozen, finally meeting M107's 갚다, the verb the proverb in M88's 한마디 spent without owning. The far half runs M21's 가볍다 through -아/어지다 from M35, because the lightness arrives rather than sits. Roles: 빚을 is the object, 마음이 is a bare 이 subject, and 갚을수록 is other."
+  },
+  {
+    "id": "s_m113_still_night_letter",
+    "en": [
+      { "t": "On a still night,", "role": "other", "id": "a" },
+      { "t": "thinking of you,", "role": "other", "id": "b" },
+      { "t": "I wrote", "role": "verb", "id": "v" },
+      { "t": "a letter", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "still night-on", "role": "other", "id": "a" },
+      { "t": "you-[obj] think-while", "role": "other", "id": "b" },
+      { "t": "letter-[obj]", "role": "object", "id": "o" },
+      { "t": "wrote", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "고요한 밤에", "role": "other", "id": "a" },
+      { "t": "그대를 생각하며", "role": "other", "id": "b" },
+      { "t": "편지를", "role": "object", "id": "o" },
+      { "t": "썼습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "goyohan bame geudaereul saenggakhamyeo pyeonjireul sseotseumnida",
+    "wordIds": ["w_goyohada", "w_bam", "w_geudae", "w_saenggakhada", "w_pyeonji", "w_sseuda"],
+    "note": "Recycles -(으)며 from M85 — the written and/while, the one that prints where -(으)면서 speaks — and the register is the point of the sentence. Both of today's words in it live on the page and nowhere else: 고요하다 describes a place nobody is making noise in, where M13's 조용하다 would be a request; and 그대 is the you of lyrics, which the M85 gap deck already filed at the top of the ladder of you's. The 합니다체 of M4 closes it, because this is a written line. Roles: 고요한 밤에 and 그대를 생각하며 are both other, and 편지를 is the object of 썼습니다."
+  },
+  {
+    "id": "s_m113_filled_blanks",
+    "en": [
+      { "t": "While I was filling out the paperwork,", "role": "other", "id": "a" },
+      { "t": "I filled in", "role": "verb", "id": "v" },
+      { "t": "all", "role": "other", "id": "c" },
+      { "t": "the blanks", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "paperwork-[obj] write-while-at-it", "role": "other", "id": "a" },
+      { "t": "empty-space-[obj]", "role": "object", "id": "o" },
+      { "t": "all", "role": "other", "id": "c" },
+      { "t": "filled-in", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서류를 쓰는 김에", "role": "other", "id": "a" },
+      { "t": "빈칸을", "role": "object", "id": "o" },
+      { "t": "다", "role": "other", "id": "c" },
+      { "t": "메웠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoryureul sseuneun gime binkaneul da mewosseoyo",
+    "wordIds": ["w_seoryu", "w_sseuda", "w_bida", "w_kan", "w_da", "w_meuda"],
+    "note": "Recycles -는 김에 from M91 — while you're at it, where the second job is an afterthought and never the reason you sat down. The object of that afterthought is the module's receipt: 빈칸 is M37's 비다 in the badge -(으)ㄴ from M24 plus today's 칸, and it is the exact noun M37's 채우다 has been running since Ring 2 without ever naming it. Today's 메우다 takes it back, because a blank is a gap to be brought level, not a glass to be filled. Roles: the whole of 서류를 쓰는 김에 is one other chunk, and 빈칸을 is the main clause's object."
+  },
+  {
+    "id": "s_m113_far_from_pushover",
+    "en": [
+      { "t": "That person", "role": "subject", "id": "s" },
+      { "t": "is far from being a pushover —", "role": "other", "id": "a" },
+      { "t": "he is downright nasty", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that person-[topic]", "role": "subject", "id": "s" },
+      { "t": "be-a-pushover-far-from", "role": "other", "id": "a" },
+      { "t": "very is-nasty", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 사람은", "role": "subject", "id": "s" },
+      { "t": "만만하기는커녕", "role": "other", "id": "a" },
+      { "t": "아주 못됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu sarameun manmanhagineunkeonyeong aju motdwaesseoyo",
+    "wordIds": ["w_geu_det", "w_saram", "w_manmanhada", "w_aju", "w_motdoeda"],
+    "note": "Recycles -기는커녕 from M92 — far from, let alone — which cancels the small claim in front of it and then puts something worse in its place. Today's two adjectives are built for exactly that move: 만만하다 is almost never said straight, and 못되다 is the word waiting on the other side of the cancellation. Careful with the second one: spaced 못 됐어요 would mean failed to become. Roles: 그 사람은 is the subject, 만만하기는커녕 is other, and 아주 못됐어요 closes as the verb."
+  },
+  {
+    "id": "s_m113_crowd_talk",
+    "en": [
+      { "t": "When several people get together,", "role": "other", "id": "a" },
+      { "t": "all sorts of talk", "role": "subject", "id": "s" },
+      { "t": "is bound to come out", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "several-[subj] gather-if", "role": "other", "id": "a" },
+      { "t": "this-and-that talk-[subj]", "role": "subject", "id": "s" },
+      { "t": "come-out-is-bound-to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "여럿이 모이면", "role": "other", "id": "a" },
+      { "t": "이런저런 이야기가", "role": "subject", "id": "s" },
+      { "t": "나오기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeoreosi moimyeon ireonjeoreon iyagiga naogi maryeonieyo",
+    "wordIds": ["w_yeoreot", "w_moida", "w_ireonjeoreon", "w_iyagi", "w_naoda"],
+    "note": "Recycles -기 마련이다 from M87 — the verdict that says this is simply how things go — and it carries two of the module's sorting words. 여럿 is the lesson in one particle: M29's 여러 needs a noun to lean on, 여럿 takes 이 and stands alone. 이런저런 closes the paired-determiner rail that M50's 여기저기 and M55's 이것저것 opened. Roles: 여럿이 모이면 is a condition, so other, and the whole of 이런저런 이야기가 is one subject chunk."
   }
 ]
