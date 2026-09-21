@@ -2577,5 +2577,49 @@
       "s_m111_hesitated_missed_chance", "s_m111_feed_birds_scattered", "s_m111_frequent_mistakes_repeat", "s_m111_guitar_intense",
       "s_m111_alone_fear_grows", "s_m111_plain_table_full_house", "s_m111_swallowed_tears_light_off", "s_m111_chairman_stepped_down"
     ]
+  },
+  {
+    "id": "m109",
+    "title": "The Flip Machine, and the Loanword Shelf II",
+    "order": 118,
+    "ring": 2,
+    "contentMd": "modules/module-109.md",
+    "wordIds": [
+      "w_gusokdoeda", "w_yogudoeda", "w_oyeomdoeda", "w_pyohyeondoeda",
+      "w_haedangdoeda", "w_jehandoeda", "w_jisokdoeda", "w_pyeonggadoeda",
+      "w_jesidoeda", "w_hwaksandoeda", "w_jeokhida", "w_ppophida",
+      "w_jjotgida", "w_gachida", "w_kkophida", "w_jeongaehada",
+      "w_changjohada", "w_jakseonghada", "w_pagoehada", "w_gangyohada",
+      "w_budamhada", "w_jinchulhada", "w_tonggwahada", "w_sangjinghada",
+      "w_mosaekhada", "w_myeonhada", "w_jangneu", "w_diseukeu",
+      "w_koseu", "w_daem", "w_teureok", "w_hadeuweeo",
+      "w_seutyudio", "w_balle"
+    ],
+    "sentenceIds": [
+      "s_m109_river_polluted", "s_m109_effort_required", "s_m109_genre_best", "s_m109_friend_trapped",
+      "s_m109_name_not_written", "s_m109_disease_spread", "s_m109_bill_passed", "s_m109_old_hardware"
+    ]
+  },
+  {
+    "id": "m110",
+    "title": "The Town and the Old Ways",
+    "order": 119,
+    "ring": 2,
+    "contentMd": "modules/module-110.md",
+    "wordIds": [
+      "w_pungseup", "w_gwanseup", "w_cheongchun", "w_gok",
+      "w_goksik", "w_sallim", "w_hobak", "w_gwanggyeong",
+      "w_sabang", "w_haean", "w_seobu", "w_ingeun",
+      "w_sijung", "w_heoga", "w_sangdam", "w_simsa",
+      "w_jeonggi", "w_jeui", "w_seungjin", "w_gyeongnyeok",
+      "w_geullo", "w_myeongui", "w_buhoejang", "w_daedasu",
+      "w_ilbanin", "w_heugin", "w_yeonyein", "w_tupyo",
+      "w_hwajang", "w_jubang", "w_bupum", "w_bullyang",
+      "w_uiyok", "w_silhyeon", "w_jeolmang", "w_gonghae"
+    ],
+    "sentenceIds": [
+      "s_m110_screening_permit", "s_m110_custom_vs_folkway", "s_m110_song_youth", "s_m110_housekeeping_kitchen",
+      "s_m110_grain_pumpkin", "s_m110_vote_proposal", "s_m110_promotion_talk", "s_m110_dream_realized"
+    ]
   }
 ]
