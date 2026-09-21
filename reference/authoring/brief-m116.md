@@ -23,16 +23,16 @@ which half moved and where the meaning drifted away from the sum.
 **Owners verified — cite exactly these:**
 
 1. **THE VERBS (15):** 달래다 (to soothe, to console — 우는 아이를 달래다
-   (M47's 아이 — verify; M7's 울다), 배고픔을 달래다 (배고픔 frozen) = to
+   (M4's 아이 — verify; M7's 울다), 배고픔을 달래다 (배고픔 frozen) = to
    take the edge off hunger; vs M?'s 위로하다 (verify — if taught, sort:
    위로하다 consoles with words, 달래다 with arms and sweets)), 밝혀내다
-   (M63's 밝히다 (verify the owner) + M28's 내다 in its accomplish job: to
+   (M56's 밝히다 (verify the owner) + M28's 내다 in its accomplish job: to
    uncover, to bring to light — 진실을 밝혀내다 (M87's 진실), 원인을 밝혀내다
    (M86's 원인); PAYS M93's md — quote its exact "원인이 밝혀졌다" span, the
    passive the learner already saw), 부서지다 (to break apart, to shatter
    by itself — 유리가 부서지다 (M36's 유리), 꿈이 부서지다 (M8's 꿈); sort the
    breakage shelf: M36's 깨지다 (verify) cracks, 부서지다 goes to pieces),
-   업다 (to carry on one's back — 아기를 업다 (아기 — verify; M104's 안다 is
+   업다 (to carry on one's back — 아기를 업다 (아기 — verify; M28's 안다 is
    its front-twin); RADAR, mandatory and THREE deep: 안다 holds in front
    (M104 — quote its note), 업다 carries on the back, M66's 메다 slings over
    the shoulder), 튀다 (PAYS M82's 불꽃 — quote its exact "불꽃 튀다 (튀다 —
@@ -88,8 +88,7 @@ which half moved and where the meaning drifted away from the sum.
    심심하다 is the PERSON with nothing to do, 지루하다 is the THING that
    drags — Korean keeps them strictly apart and learners mix them).
 
-3. **THE ADVERBS (7):** 하필 (of all things, why on earth — 하필 오늘 (M1's
-   오늘) = why today of all days; it never appears without a complaint
+3. **THE ADVERBS (7):** 하필 (of all things, why on earth — 하필 오늘 (M2's 오늘) = why today of all days; it never appears without a complaint
    behind it; 하필이면 is the fuller form), 곧잘 (M10's 곧 + M10's 잘: rather
    well, quite often — 곧잘 해요 = does it pretty well; the weld drifted —
    the 곧 has nothing to do with soon, which is worth one clause), 실은
@@ -112,12 +111,12 @@ which half moved and where the meaning drifted away from the sum.
    quote its exact "맘에 들어요 — casual liking" span; and M54's 마음대로 —
    quote its exact "맘대로, home of the idiom 엿장수 맘대로" span; 맘 is
    spoken and sung, 마음 is written), 발걸음 (M14's 발 + M38's 걸음: one's
-   steps, one's tread — 발걸음이 무겁다 (M13's 무겁다 — verify) = to walk
+   steps, one's tread — 발걸음이 무겁다 (M21's 무겁다 — verify) = to walk
    heavily, the phrase for leaving bad news behind you; 발걸음을 옮기다 (M50's
    옮기다)), 발길 (M14's 발 + M12's 길: the way one's feet take one — 발길을
    돌리다 (돌리다 — verify) = to turn back at the door; 발길이 뜸하다 (frozen)
    = to stop coming around; sort: 발걸음 is the step itself, 발길 is where
-   the steps are headed), 소매 (a sleeve — 긴소매 (M13's 길다), 반소매 (M5's
+   the steps are headed), 소매 (a sleeve — 긴소매 (M7's 길다), 반소매 (M5's
    반); 소매를 걷어붙이다 (frozen) = to roll up one's sleeves, the same
    gesture Korean uses for getting stuck in; RADAR: not M59's 소; and check
    NIKL for the homograph 小賣 = retail), 지난날 (지나다 (verify) + M11's 날:

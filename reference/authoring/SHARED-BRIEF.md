@@ -145,3 +145,23 @@ lower is Ring 1. Band 6 opens at m55.
 
 One paragraph: what you built, the organizing ideas, which slice words you dropped
 (if any), garnish words added, and anything the reviewer should double-check.
+
+## Checking a brief before it is committed
+
+Two checkers run from `reference/authoring/tools/`, and a brief is not
+committed until both pass:
+
+- `briefquotes.py brief-mNN.md` — every quoted span of twelve characters
+  or more that contains hangul must appear verbatim in the shipped
+  corpus. It catches the habit of pasting `iou.py` output, which is
+  truncated with an ellipsis and is never a real quote.
+- `briefowners.py brief-mNN.md` — every `Mnn's <word>` claim must match
+  `words.json`. Briefs written from memory routinely carry ten to twenty
+  wrong module numbers, and words that are taught-as rather than as
+  entries of their own get claimed as if they had entries. A forward
+  reference to a word reserved in `reference/ring3-slices.tsv` for a
+  module that ships earlier is allowed and reported as pending.
+
+Neither checker can tell whether a note actually decodes the character a
+brief says it decodes. That one still has to be looked up by hand, and
+it is the error drafters find most often.

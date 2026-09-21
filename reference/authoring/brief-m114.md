@@ -26,7 +26,7 @@ eleven adverbs get the ink, because there is no rule that builds them.
 
 1. **THE 하다 ON NOUNS YOU OWN (8) — one receipt each:** 개방하다 (PAYS
    M95's 개방 — quote its exact "개방하다 and 개방되다 ride frozen." span;
-   시장을 개방하다 (M21's 시장 — verify), 문을 개방하다 (M6's 문)), 이동하다
+   시장을 개방하다 (M3's 시장 — verify), 문을 개방하다 (M6's 문)), 이동하다
    (PAYS M81's 이동 — quote its exact "이동하다 is M50's 움직이다 ('The
    everything-mover') in print" span; 자리를 이동하다 (M12's 자리)),
    관리하다 (M57's 관리 + 하다: to manage, to look after — 건강을 관리하다
@@ -34,7 +34,7 @@ eleven adverbs get the ink, because there is no rule that builds them.
    the same verb), 근거하다 (M86's 근거 + 하다: to be based on — 에 근거하다:
    사실에 근거하다 (M24's 사실); almost always as 근거한/근거하여, the report's
    participle — say so), 보고하다 (M64's 보고 + 하다: to report upward —
-   결과를 보고하다 (M32's 결과), 부장님께 보고하다 (M16's 부장 — verify); the
+   결과를 보고하다 (M32's 결과), 부장님께 보고하다 (M58's 부장 — verify); the
    direction is the point: you 보고하다 UP, never sideways), 논하다 (論 of
    M44's 논문 ("論文 argument-writing") and M44's 토론 ("討論 strike-argue")
    and M48's 언론 ("言論 speech-discourse") + 하다: to discuss formally, to
@@ -67,10 +67,10 @@ eleven adverbs get the ink, because there is no rule that builds them.
    it), 선정하다 (選定 — 選 of M33's 선택하다 ("選擇 select-pick") and M90's
    선거 ("選擧 select-raise") + 定 of M33's 결정하다 ("決定 decide-fix"): to
    select officially, to designate — 심사를 거쳐 선정하다 (M110's 심사 if
-   shipped; M79's 거치다 — verify); a committee's verb, never a shopper's —
+   shipped; M88's 거치다 — verify); a committee's verb, never a shopper's —
    that is M34's 고르다), 예측하다 (豫測 — 豫 of M34's 예상 ("豫想
    beforehand-think") and M52's 예약 ("豫約 ahead-promise") + 測 (to measure,
-   a first): to forecast — 날씨를 예측하다 (M11's 날씨), 결과를 예측하다 (M32's
+   a first): to forecast — 날씨를 예측하다 (M7's 날씨), 결과를 예측하다 (M32's
    결과); vs M34's 예상 — 예상 guesses, 예측 measures), 적합하다 (適合 — 適 of
    M64's 적용하다 ("適 (fit) + 用 (use)") and M73's 적당하다 ("適當
    suitable-fitting") + 合 of M44's 합격 ("合格 fit-the-frame"): to be
@@ -106,11 +106,11 @@ eleven adverbs get the ink, because there is no rule that builds them.
    separated — and the set phrase every household lives by: 분리수거 (M13's
    쓰레기) = sorted recycling, frozen as one word), 완성되다 (today's own
    완성하다 flipped — the pair lands in one module, which is the point: 건물이
-   완성되다 (M54's 건물 — verify)).
+   완성되다 (M22's 건물 — verify)).
 
 4. **THE ADVERBS (11) — these get the ink:** 불과 (PAYS M89's 불과하다 —
    quote its exact "Frame: [noun]에 불과하다 — 열 명에 불과해요" span; the
-   BARE adverb is the other half: 불과 며칠 전 (M46's 며칠 — verify) = only a
+   BARE adverb is the other half: 불과 며칠 전 (M25's 며칠 — verify) = only a
    few days ago — 불과 always leans on a quantity), 수없이 (the number-數 of
    M63's 수많다 (quote its exact "The number-數 of M15's 수학 + 많다 (M7):
    countless" span) + 없이: countless times — 수없이 반복하다 (M75's
@@ -119,7 +119,7 @@ eleven adverbs get the ink, because there is no rule that builds them.
    column uses" span; 갈수록 심해지다 (심해지다 — verify), and the proverb the
    learner already has: 갈수록 태산), 막상 (when it actually comes to it —
    always followed by a reversal: 막상 해 보니 쉬웠어요 (M7's 쉽다); RADAR: the
-   막 is not M62's 막), 오로지 (solely, purely — 오로지 하나 (M2's 하나); the
+   막 is not M62's 막), 오로지 (solely, purely — 오로지 하나 (M5's 하나); the
    emphatic twin of M73's 오직 — lookup.py the owner and quote its exact span
    verbatim (copy the full sentence)), 자연히 (M22's 자연 + -히 (the M33
    factory): naturally, of its own accord — 자연히 알게 돼요 (M4's 알다); vs
