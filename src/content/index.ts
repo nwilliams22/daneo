@@ -112,6 +112,8 @@ import module105Md from "./modules/module-105.md?raw";
 import module106Md from "./modules/module-106.md?raw";
 import module107Md from "./modules/module-107.md?raw";
 import module108Md from "./modules/module-108.md?raw";
+import module109Md from "./modules/module-109.md?raw";
+import module110Md from "./modules/module-110.md?raw";
 import module111Md from "./modules/module-111.md?raw";
 import module76Md from "./modules/module-76.md?raw";
 import moduleJunmalMd from "./modules/module-junmal.md?raw";
@@ -273,6 +275,8 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-106.md": module106Md,
   "modules/module-107.md": module107Md,
   "modules/module-108.md": module108Md,
+  "modules/module-109.md": module109Md,
+  "modules/module-110.md": module110Md,
   "modules/module-111.md": module111Md,
   "modules/module-76.md": module76Md,
   "modules/module-junmal.md": moduleJunmalMd,

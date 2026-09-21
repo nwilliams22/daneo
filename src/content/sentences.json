@@ -24051,5 +24051,380 @@
     "rom": "hoejangeun jarieseo mulleonamyeo sae daepyoege hoesareul naejueotseumnida",
     "wordIds": ["w_hoejang", "w_jari", "w_mulleonada", "w_sae", "w_daepyo", "w_hoesa", "w_naejuda"],
     "note": "Recycles -(으)며 from M85 — the written and, one printed breath where speech would take two — and the register is the point: this is the press release, so it closes in the 합니다체 of M4. Both verbs are today's and both take M12's 자리 as their pivot: 자리에서 물러나다 is the dignified exit M16's 그만두다 never gets, and 자리를 내주다 hands the post to somebody else. RADAR, from 내주다's entry: this is not the 끝내주다 M62's 끝내 winked at. Roles: 자리에서 물러나며 and 새 대표에게 are other, and 회장은 is the subject the whole sentence belongs to."
+  },
+  {
+    "id": "s_m109_river_polluted",
+    "en": [
+      { "t": "The river", "role": "subject", "id": "s" },
+      { "t": "was polluted", "role": "verb", "id": "v" },
+      { "t": "by the factory", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "river-[subj]", "role": "subject", "id": "s" },
+      { "t": "factory-by", "role": "other", "id": "a" },
+      { "t": "polluted-became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "강이", "role": "subject", "id": "s" },
+      { "t": "공장에 의해", "role": "other", "id": "a" },
+      { "t": "오염됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gangi gongjange uihae oyeomdwaesseoyo",
+    "wordIds": ["w_gang", "w_gongjang", "w_uihada", "w_oyeomdoeda"],
+    "note": "Recycles 에 의해 from M90 — the frame that names the agent when print decides it must be named. Today's 오염되다 is the flip in its natural habitat: M99's 오염 said the word is what the newspaper prints where M13's 더럽다 would complain, and 에 의해 is the only way the newspaper puts the factory back in. Say it without the frame and you get 강이 오염됐어요 — the same fact with nobody to sue. The roles drill: 강이 is a bare 이 subject; 공장에 의해 is a particle phrase and therefore other, not subject, even though the factory is what English calls the doer."
+  },
+  {
+    "id": "s_m109_effort_required",
+    "en": [
+      { "t": "Effort", "role": "subject", "id": "s" },
+      { "t": "is required, but", "role": "other", "id": "c" },
+      { "t": "a plan", "role": "subject", "id": "p" },
+      { "t": "has not been put forward", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "effort-[subj]", "role": "subject", "id": "s" },
+      { "t": "be-required-but", "role": "other", "id": "c" },
+      { "t": "plan-[topic]", "role": "subject", "id": "p" },
+      { "t": "put-forward-be not-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "노력이", "role": "subject", "id": "s" },
+      { "t": "요구되나", "role": "other", "id": "c" },
+      { "t": "방안은", "role": "subject", "id": "p" },
+      { "t": "제시되지 않았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "noryeogi yogudoena banganeun jesidoeji anasseoyo",
+    "wordIds": ["w_noryeok", "w_yogudoeda", "w_bangan", "w_jesidoeda"],
+    "note": "Recycles -(으)나 from M85 — the written but, which no mouth says and every report prints. Two of today's flips in one line, and neither names a person: M86's 요구 supplies the demand and M86's 방안 supplies the plan, so the sentence has two nouns, two 되다 verbs and zero agents — the register in miniature. Underneath sits the long negation -지 않다 from M28, which is the one the page prefers over 안. The roles drill: 요구되나 is a connective verb form and therefore other; only 제시되지 않았어요 closes."
+  },
+  {
+    "id": "s_m109_genre_best",
+    "en": [
+      { "t": "This film", "role": "subject", "id": "s" },
+      { "t": "is worth counting", "role": "verb", "id": "v" },
+      { "t": "as the best", "role": "other", "id": "b" },
+      { "t": "in that genre", "role": "place", "id": "g" }
+    ],
+    "gloss": [
+      { "t": "this film-[topic]", "role": "subject", "id": "s" },
+      { "t": "that genre-in", "role": "place", "id": "g" },
+      { "t": "best-as", "role": "other", "id": "b" },
+      { "t": "be-counted-[fut] worth-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 영화는", "role": "subject", "id": "s" },
+      { "t": "그 장르에서", "role": "place", "id": "g" },
+      { "t": "최고로", "role": "other", "id": "b" },
+      { "t": "꼽힐 만해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i yeonghwaneun geu jangneueseo choegoro kkophil manhaeyo",
+    "wordIds": ["w_i_det", "w_yeonghwa", "w_geu_det", "w_jangneu", "w_choego", "w_kkophida", "w_manhada"],
+    "note": "Recycles -(으)ㄹ 만하다 from M87 — worth the doing, praise at exactly the right temperature — and it rides a passive here, which is where the listicle actually uses it: not worth SEEING, worth BEING COUNTED. 꼽히다 is the party product of 꼽다, the fingers counting a ranking off, and 장르 is today's loan for the kind of art rather than M57's 종류 for the kind of thing. The roles drill: 그 장르에서 is a locative and takes place; 최고로 is the 로 complement of the counting and takes other; 꼽힐 만해요 is one verb chunk, auxiliary included."
+  },
+  {
+    "id": "s_m109_friend_trapped",
+    "en": [
+      { "t": "My friend", "role": "subject", "id": "s" },
+      { "t": "turned out to be trapped", "role": "verb", "id": "v" },
+      { "t": "in the lift", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj]", "role": "subject", "id": "s" },
+      { "t": "elevator-in", "role": "place", "id": "p" },
+      { "t": "be-shut-in-did-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가", "role": "subject", "id": "s" },
+      { "t": "엘리베이터에", "role": "place", "id": "p" },
+      { "t": "갇혔더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga ellibeiteoe gachyeotdeoragoyo",
+    "wordIds": ["w_chingu", "w_ellibeiteo", "w_gachida"],
+    "note": "Recycles -더라고요 from M88 — I found that, I saw that — the eyewitness ending, which is exactly right for a passive you witnessed rather than suffered: the speaker was not the one in the lift. 갇히다 keeps the M36 blame rule, so nothing in the sentence says who or what shut the door, and nothing needs to. Note the particle: 에 is where the trapping holds, never 에서, because 갇히다 names a state and not an event with a scene. The roles drill: 엘리베이터에 is place and 갇혔더라고요 is the whole verb chunk."
+  },
+  {
+    "id": "s_m109_name_not_written",
+    "en": [
+      { "t": "Not even the name", "role": "subject", "id": "s" },
+      { "t": "was written", "role": "verb", "id": "v" },
+      { "t": "on the form that had been drawn up", "role": "place", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "draw-up-[past] document-on-[topic]", "role": "place", "id": "d" },
+      { "t": "name-even", "role": "subject", "id": "s" },
+      { "t": "be-written-down not-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "작성한 서류에는", "role": "place", "id": "d" },
+      { "t": "이름조차", "role": "subject", "id": "s" },
+      { "t": "적히지 않았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jakseonghan seoryueneun ireumjocha jeokhiji anasseoyo",
+    "wordIds": ["w_jakseonghada", "w_seoryu", "w_ireum", "w_jeokhida"],
+    "note": "Recycles 조차 from M89 — even the least likely one, and the least likely thing to be missing from a form is the name. Two of today's words meet across the sentence: 작성하다 is what a person does to a form (M84's 양식 carried it frozen for twenty-five modules), and 적히다 is what the ink does on it, so one line holds the active and the passive ends of the same piece of paper. The badge -(으)ㄴ from M24 turns 작성하다 into the modifier. The roles drill: 이름조차 carries a 이/가 job under the heavy particle and stays subject."
+  },
+  {
+    "id": "s_m109_disease_spread",
+    "en": [
+      { "t": "Because of the pollution", "role": "other", "id": "c" },
+      { "t": "the disease", "role": "subject", "id": "s" },
+      { "t": "spread", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "pollution-due to", "role": "other", "id": "c" },
+      { "t": "disease-[subj]", "role": "subject", "id": "s" },
+      { "t": "spread-became", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "오염으로 인해", "role": "other", "id": "c" },
+      { "t": "질병이", "role": "subject", "id": "s" },
+      { "t": "확산됐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "oyeomeuro inhae jilbyeongi hwaksandwaesseoyo",
+    "wordIds": ["w_oyeom", "w_inhada", "w_jilbyeong", "w_hwaksandoeda"],
+    "note": "Recycles -(으)로 인해 from M86 — a cause put on file, the written member of the because-family, and the one that takes a noun rather than a clause. It is the frame today's flips were built for: M99's 오염 on the front, M105's 질병 in the subject suit, and 확산되다 closing with nobody to blame. Swap in M94's 퍼지다 and the sentence turns into gossip; 확산되다 keeps it in the bulletin. The roles drill: 오염으로 인해 is a cause phrase and takes other, 질병이 is a bare 이 subject."
+  },
+  {
+    "id": "s_m109_bill_passed",
+    "en": [
+      { "t": "As you know,", "role": "other", "id": "a" },
+      { "t": "that statute", "role": "subject", "id": "s" },
+      { "t": "passed", "role": "verb", "id": "v" },
+      { "t": "the National Assembly", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "know-[hon]-as-you", "role": "other", "id": "a" },
+      { "t": "statute-[topic]", "role": "subject", "id": "s" },
+      { "t": "National-Assembly-[obj]", "role": "object", "id": "o" },
+      { "t": "pass-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아시다시피", "role": "other", "id": "a" },
+      { "t": "그 법률은", "role": "subject", "id": "s" },
+      { "t": "국회를", "role": "object", "id": "o" },
+      { "t": "통과했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "asidasipi geu beomnyureun gukhoereul tonggwahaesseoyo",
+    "wordIds": ["w_alda", "w_geu_det", "w_beomnyul", "w_gukhoe", "w_tonggwahada"],
+    "note": "Recycles -다시피 from M91 — as you know, the podium's opener, sitting on M4's 알다 with the honorific -(으)시- that the same md put inside 보시다시피. The rest of the line is an IOU paid in full: M90's 국회 wrote the collocation and left the verb outside it, and today 통과하다 walks in. Watch the particle, because it is the whole lesson — 국회를 통과하다 takes 를 for a thing you pass THROUGH, while 시험에 통과하다 takes 에 for a bar you clear. The roles drill: 국회를 wears the object particle and is tagged object even though English hears a place."
+  },
+  {
+    "id": "s_m109_old_hardware",
+    "en": [
+      { "t": "This computer's", "role": "subject", "id": "s" },
+      { "t": "hardware", "role": "subject", "id": "h" },
+      { "t": "is old, and on top of that", "role": "other", "id": "c" },
+      { "t": "the disk", "role": "subject", "id": "d" },
+      { "t": "is small", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "this computer-[topic]", "role": "subject", "id": "s" },
+      { "t": "hardware-[subj]", "role": "subject", "id": "h" },
+      { "t": "old-became-on top of", "role": "other", "id": "c" },
+      { "t": "disk-too", "role": "subject", "id": "d" },
+      { "t": "small-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "이 컴퓨터는", "role": "subject", "id": "s" },
+      { "t": "하드웨어가", "role": "subject", "id": "h" },
+      { "t": "오래된 데다가", "role": "other", "id": "c" },
+      { "t": "디스크도", "role": "subject", "id": "d" },
+      { "t": "작아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "i keompyuteoneun hadeuweeoga oraedoen dedaga diseukeudo jagayo",
+    "wordIds": ["w_i_det", "w_keompyuteo", "w_hadeuweeo", "w_oraedoeda", "w_diseukeu", "w_jakda"],
+    "note": "Recycles -(으)ㄴ/는 데다가 from M92 — on top of, the stacker, which needs both halves to point the same way: two complaints here, never one complaint and one boast. The two loans sit where the M79 rule put them, each beside the Korean word it did not replace — 하드웨어 is the box M101's 소프트웨어 runs inside, and 디스크 is the drive, not the back injury the clinic means by the same four syllables. The roles drill: 이 컴퓨터는 and 하드웨어가 are the double-subject frame M24 first showed, both tagged subject, and 디스크도 keeps the subject job under 도."
+  },
+  {
+    "id": "s_m110_screening_permit",
+    "en": [
+      { "t": "The document screening", "role": "subject", "id": "s" },
+      { "t": "has not finished yet, so", "role": "other", "id": "x" },
+      { "t": "the permit", "role": "object", "id": "o" },
+      { "t": "cannot be issued", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "document screening-[subj]", "role": "subject", "id": "s" },
+      { "t": "yet finish-not-did-because", "role": "other", "id": "x" },
+      { "t": "permit-[obj]", "role": "object", "id": "o" },
+      { "t": "receive-[fut] way not-exists", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "서류 심사가", "role": "subject", "id": "s" },
+      { "t": "아직 끝나지 않았으므로", "role": "other", "id": "x" },
+      { "t": "허가를", "role": "object", "id": "o" },
+      { "t": "받을 수 없어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "seoryu simsaga ajik kkeunnaji anasseumeuro heogareul badeul su eopseoyo",
+    "wordIds": ["w_seoryu", "w_simsa", "w_ajik", "w_kkeunnada", "w_heoga", "w_batda", "w_eopda"],
+    "note": "Recycles -(으)므로 from M85 — the written because, and the register it belongs to is exactly this module's: an office explaining itself on paper. Both of today's words here are verbs the learner could rebuild with 하다 — 심사하다 examines, 허가하다 permits — and the office prefers them standing still as nouns, which is the thesis of the whole shelf. Underneath sit two Ring 1 frames: the long negation from M28 in 끝나지 않았으므로 (M8's 끝나다) and the can-machine -(으)ㄹ 수 있다 from M10, negated. The roles drill: 서류 심사가 is a bare 가 subject even though the English makes it the topic of a complaint; 아직 끝나지 않았으므로 is a connective form and therefore other; only 받을 수 없어요 closes."
+  },
+  {
+    "id": "s_m110_custom_vs_folkway",
+    "en": [
+      { "t": "Compared with convention,", "role": "other", "id": "x" },
+      { "t": "a village's folk customs", "role": "subject", "id": "s" },
+      { "t": "change", "role": "verb", "id": "v" },
+      { "t": "much faster", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "convention-to compared", "role": "other", "id": "x" },
+      { "t": "village custom-[topic]", "role": "subject", "id": "s" },
+      { "t": "much quickly", "role": "other", "id": "d" },
+      { "t": "change", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "관습에 비해", "role": "other", "id": "x" },
+      { "t": "마을 풍습은", "role": "subject", "id": "s" },
+      { "t": "훨씬 빨리", "role": "other", "id": "d" },
+      { "t": "바뀌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gwanseube bihae maeul pungseubeun hwolssin ppalli bakkwieoyo",
+    "wordIds": ["w_gwanseup", "w_maeul", "w_pungseup", "w_hwolssin", "w_ppalli", "w_bakkwida"],
+    "note": "Recycles 에 비해 from M86 — the comparison that reads like a preposition — and the sentence exists to put today's two 習-words on the two pans of it. 관습 is what an institution keeps doing; 풍습 is what a M22's 마을 does at a festival, and the second one turns over while the first one does not. M38's 훨씬 finishes the comparison that 에 비해 opens, which is the job M86 gave it, and M35's 바뀌다 supplies the change with nobody performing it. The roles drill: 관습에 비해 is a connective phrase, other; 훨씬 빨리 is two adverbs in one chunk, also other; 마을 풍습은 is the subject even though it wears 은."
+  },
+  {
+    "id": "s_m110_song_youth",
+    "en": [
+      { "t": "Every time I heard", "role": "other", "id": "x" },
+      { "t": "that song,", "role": "object", "id": "o" },
+      { "t": "my youth", "role": "subject", "id": "s" },
+      { "t": "came back to me, I found", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that song-[obj]", "role": "object", "id": "o" },
+      { "t": "hear-[fut] time-every", "role": "other", "id": "x" },
+      { "t": "youth-[subj]", "role": "subject", "id": "s" },
+      { "t": "come-to-mind-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 곡을", "role": "object", "id": "o" },
+      { "t": "들을 때마다", "role": "other", "id": "x" },
+      { "t": "청춘이", "role": "subject", "id": "s" },
+      { "t": "생각나더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu gogeul deureul ttaemada cheongchuni saenggangnadeoragoyo",
+    "wordIds": ["w_geu_det", "w_gok", "w_deutda", "w_ttae", "w_cheongchun", "w_saenggangnada"],
+    "note": "Recycles -더라고요 from M88 — the ending for reporting what you yourself discovered — which is the only honest way to say this sentence, because nobody else can tell you what a song did to your memory. 곡 is the piece as an item, not M7's 노래 as a performance; 청춘 is the years the song belongs to rather than your age at the time. -(으)ㄹ 때 from M25 takes 마다 from M31 to make it habitual, and M67's 생각나다 keeps the job that note gave it — the archive delivering unbidden. The roles drill: 들을 때마다 is a subordinate clause and therefore other; 청춘이 is a bare 이 subject where English says 'my youth'."
+  },
+  {
+    "id": "s_m110_housekeeping_kitchen",
+    "en": [
+      { "t": "After years of keeping house,", "role": "other", "id": "x" },
+      { "t": "kitchen work", "role": "subject", "id": "s" },
+      { "t": "is not hard", "role": "verb", "id": "v" },
+      { "t": "at all", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "housekeeping-[obj] long do-and-found", "role": "other", "id": "x" },
+      { "t": "kitchen work-[subj]", "role": "subject", "id": "s" },
+      { "t": "one-even", "role": "other", "id": "d" },
+      { "t": "difficult-not", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "살림을 오래 하다 보니", "role": "other", "id": "x" },
+      { "t": "주방 일이", "role": "subject", "id": "s" },
+      { "t": "하나도", "role": "other", "id": "d" },
+      { "t": "어렵지 않아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sallimeul orae hada boni jubang iri hanado eoryeopji anayo",
+    "wordIds": ["w_sallim", "w_orae", "w_hada", "w_jubang", "w_n_il", "w_hana", "w_eoryeopda"],
+    "note": "Recycles -다 보니 from M94 — kept at it and found — and that md's rule is the reason the sentence needs it: \"보니 and 보면 both insist on DURATION — the result came from keeping on, not from one act\". 살림 is the native word for the whole enterprise, and 주방 is the formal room, which is a small joke: the home cook is describing her 부엌 (M13) in the word a restaurant uses. 하나도 with the long negation from M28 gives the 'not at all' — M5's 하나 and 도 from M2, a frame you have had since Ring 1. The roles drill: 살림을 오래 하다 보니 is one long connective chunk, other, and it legally contains an object; 하나도 is an adverb, other."
+  },
+  {
+    "id": "s_m110_grain_pumpkin",
+    "en": [
+      { "t": "That village", "role": "subject", "id": "s" },
+      { "t": "brings in", "role": "verb", "id": "v" },
+      { "t": "not only grain", "role": "object", "id": "o" },
+      { "t": "but plenty of pumpkins too", "role": "object", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "that village-[topic]", "role": "subject", "id": "s" },
+      { "t": "grain-only-not", "role": "object", "id": "o" },
+      { "t": "pumpkin-also", "role": "object", "id": "p" },
+      { "t": "a-lot bring-in", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 마을은", "role": "subject", "id": "s" },
+      { "t": "곡식뿐만 아니라", "role": "object", "id": "o" },
+      { "t": "호박도", "role": "object", "id": "p" },
+      { "t": "많이 거둬요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu maeureun goksikppunman anira hobakdo mani geodwoyo",
+    "wordIds": ["w_geu_det", "w_maeul", "w_goksik", "w_ppun", "w_anida", "w_hobak", "w_mani", "w_geoduda"],
+    "note": "Recycles -(으)ㄹ 뿐만 아니라 from M89 in the seat that md kept for nouns — \"On nouns it drops the badge: 학생뿐만 아니라 선생님도 = not only students but teachers too\" — so 곡식뿐만 아니라 takes no badge and 호박도 lands the also with 도 from M2. The verb is the IOU itself: M94's 거두다 wrote 곡식 into its first example and left it frozen, and here the grain arrives as a word and gets reaped by the same verb. The roles drill: both 곡식뿐만 아니라 and 호박도 are objects even with no 을/를 in sight, because 거두다 takes them both; 많이 거둬요 is one verb chunk with its adverb."
+  },
+  {
+    "id": "s_m110_vote_proposal",
+    "en": [
+      { "t": "In line with the vote,", "role": "other", "id": "x" },
+      { "t": "the great majority", "role": "subject", "id": "s" },
+      { "t": "turned down", "role": "verb", "id": "v" },
+      { "t": "the proposal", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "vote result-to following", "role": "other", "id": "x" },
+      { "t": "great-majority-[subj]", "role": "subject", "id": "s" },
+      { "t": "that proposal-[obj]", "role": "object", "id": "o" },
+      { "t": "refuse-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "투표 결과에 따라", "role": "other", "id": "x" },
+      { "t": "대다수가", "role": "subject", "id": "s" },
+      { "t": "그 제의를", "role": "object", "id": "o" },
+      { "t": "거절했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "tupyo gyeolgwae ttara daedasuga geu jeuireul geojeolhaesseoyo",
+    "wordIds": ["w_tupyo", "w_gyeolgwa", "w_ttareuda", "w_daedasu", "w_geu_det", "w_jeui", "w_geojeolhada"],
+    "note": "Recycles 에 따라(서) from M90 — depending on, in accordance with — which is the shape a minute takes when a decision has to be traced to a procedure. Three of today's office nouns run the whole sentence: 투표 is the act performed inside M90's 선거, 대다수 counts the heads that performed it, and 제의 is the offer that came from outside with terms attached. M32's 결과 gives 따라 its noun and M33's 거절하다 closes with the verb that note called rare and loud. The roles drill: 투표 결과에 따라 is a connective phrase and therefore other; 대다수가 is a bare 가 subject; 그 제의를 is the object, determiner and all."
+  },
+  {
+    "id": "s_m110_promotion_talk",
+    "en": [
+      { "t": "Yesterday", "role": "other", "id": "t" },
+      { "t": "I went to see", "role": "verb", "id": "v" },
+      { "t": "the department head,", "role": "object", "id": "o" },
+      { "t": "partly to talk over my promotion", "role": "other", "id": "x" }
+    ],
+    "gloss": [
+      { "t": "yesterday", "role": "other", "id": "t" },
+      { "t": "promotion consultation-[obj] do-[fut] also-for", "role": "other", "id": "x" },
+      { "t": "department-head-[obj]", "role": "object", "id": "o" },
+      { "t": "go-and-seek-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "어제", "role": "other", "id": "t" },
+      { "t": "승진 상담을 할 겸", "role": "other", "id": "x" },
+      { "t": "부장님을", "role": "object", "id": "o" },
+      { "t": "찾아갔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "eoje seungjin sangdameul hal gyeom bujangnimeul chajagasseoyo",
+    "wordIds": ["w_eoje", "w_seungjin", "w_sangdam", "w_hada", "w_bujangnim", "w_chajagada"],
+    "note": "Recycles -(으)ㄹ 겸 from M91 — partly to, the errand with two purposes — and it is the right ending for an office visit that has an official reason and a real one. 승진 stamps 상담 from the front with no ending at all, the print-only determiner shape this shelf keeps using, and 상담 is what the Korean workplace calls the conversation: not a chat, a consultation, with a chair set out for it. M16's 부장님 keeps the 님 that note made compulsory, and M61's 찾아가다 is going TO somebody rather than merely going. The roles drill: 어제 is a time word and therefore other, not a subject; 승진 상담을 할 겸 is a connective clause, other, object and all."
+  },
+  {
+    "id": "s_m110_dream_realized",
+    "en": [
+      { "t": "The dream", "role": "subject", "id": "s" },
+      { "t": "did come true, but", "role": "other", "id": "x" },
+      { "t": "the drive", "role": "subject", "id": "d" },
+      { "t": "had already gone", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "dream-[subj]", "role": "subject", "id": "s" },
+      { "t": "be-realized-indeed did-but", "role": "other", "id": "x" },
+      { "t": "drive-[topic]", "role": "subject", "id": "d" },
+      { "t": "already disappear-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "꿈이", "role": "subject", "id": "s" },
+      { "t": "실현되기는 했지만", "role": "other", "id": "x" },
+      { "t": "의욕은", "role": "subject", "id": "d" },
+      { "t": "이미 사라졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "kkumi silhyeondoegineun haetjiman uiyogeun imi sarajyeosseoyo",
+    "wordIds": ["w_kkum", "w_silhyeon", "w_doeda", "w_hada", "w_uiyok", "w_imi", "w_sarajida"],
+    "note": "Recycles -기는 하다 from M92 — it is true that…, with the but already in the voice — and the second clause arrives anyway, which is how the ending is most often used. 실현되다 puts M8's 꿈 through the 되다 flip from M10 rather than M35's 이루다, and the difference is the point: 이루다 is what a person does to a dream, 실현 is what happens to a plan while the person stops caring. 의욕 is the drive that leaked out in the meantime, and M32's 이미 with M35's 사라지다 says it was gone before the good news landed. The roles drill: 실현되기는 했지만 is a connective form and therefore other; 꿈이 and 의욕은 are both subjects, one in 이 and one in 은."
   }
 ]
