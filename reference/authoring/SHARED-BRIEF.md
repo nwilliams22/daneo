@@ -146,6 +146,21 @@ lower is Ring 1. Band 6 opens at m55.
 One paragraph: what you built, the organizing ideas, which slice words you dropped
 (if any), garnish words added, and anything the reviewer should double-check.
 
+## The garnish rule is checked in both directions
+
+`verify-draft.py` now fails a draft that tells the learner a word is
+riding frozen when an earlier module already taught it. That sentence
+breaks the course's promise in the direction that matters: it says you
+do not know something you do know.
+
+When the spelling has more than one dictionary row the check cannot
+decide, because whether this is the sense already taught is a question
+about meaning. It asks instead, as a MANUAL line. Answer it: if it is
+the same sense, cite the owner; if it is a different word wearing the
+same spelling, say so in the note. M91's 사고 means 思考 and is right to
+freeze it. M97's 건설하다 wrote the identical sentence about 도로, meant
+the road taught in M38, and was wrong for four modules.
+
 ## Checking a brief before it is committed
 
 Two checkers run from `reference/authoring/tools/`, and a brief is not
