@@ -2995,5 +2995,32 @@
     "lit": "one board",
     "real": "one round — of a game, a match, a fight, or a drinking session; the unit Korean counts contests in",
     "note": "Today's 판 in its dependent-noun row, taking the counter-contraction 한 from M5 the way the M99 md's table said every dependent noun does. 한 판 더 = one more round — the sentence that keeps a 게임 (M8) going past midnight; 마지막 판 (M15's 마지막) is the decider; 한 판 붙자 = let's have it out (M35's 붙다, the two sides sticking to each other) — a challenge, half joking and half not. The board is real and visible in the origin: 바둑 (the board game — riding frozen) 한 판, one game on one board — which is the same 板 sitting in M15's 칠판 (\"칠 (paint) + 판 (board) — a painted board.\") and M23's 간판. Watch the spacing, because it is the only thing separating the two senses: 한 판 with a space is one round, and 한판 closed up is the judo throw that ends the match outright."
+  },
+  {
+    "id": "g_m111_gwichanayo",
+    "cat": "concept",
+    "ko": "귀찮아요",
+    "rom": "gwichanayo",
+    "lit": "(it) is bothersome",
+    "real": "can't be bothered — the whole feeling of not wanting to get up, go out, cook, reply, or change out of the clothes you are already in, said as a complete sentence and accepted as a complete reason",
+    "note": "Today's 귀찮다 in the plain polite form, and it earns a gap entry because English has no single word for it: 'bothersome' describes a task, 귀찮아요 describes a person who has looked at the task and declined. It is socially legal in a way that 'I don't want to' is not — 귀찮아서 안 갔어요 (-아/어서 from M10) closes the subject among friends, and 나가기 귀찮아요 (the -기 nominalizer from M13) is a complete refusal of an evening. It points outward too, at the person causing the trouble: 귀찮게 하지 마세요 (-게 from M33, -지 마세요 from M14) = stop pestering me, and 귀찮게 해서 죄송해요 is the apology for asking a favour. The register is casual all the way down — to a boss you reach for M4's 바쁘다, or the 부담스럽다 M86's 부담 named, instead — and the country's own joke about it is 귀차니즘, 귀찮 wearing an English -ism, the ideology of not bothering."
+  },
+  {
+    "id": "g_m111_gamhi_eotteoke",
+    "cat": "phrase",
+    "ko": "감히 어떻게",
+    "rom": "gamhi eotteoke",
+    "lit": "daringly, how",
+    "real": "how dare you — the opening of an outburst about rank, said when somebody has spoken or acted above their station",
+    "note": "Today's 감히 with M10's 어떻게, and the pair is almost never finished: 감히 어떻게… trails off because the listener is supposed to supply the rest. The full shapes are 네가 감히 (M19's 너 in its subject form) = YOU dare, and 감히 어떻게 그런 말을 (M24's 그런, M4's 말) = how dare you say a thing like that. What makes it a gap entry is that the outrage is about position rather than about the act — 감히 says the speaker outranks the person they are shouting at, which is why it belongs to parents, bosses and historical dramas, and why a peer using it sounds absurd. Turned humble it flips completely: 감히 말씀드리자면 (M9's 드리다) = if I may be so bold, where the speaker is the one presuming. Modern use is mostly quotation and comedy; the sincere version still exists, and if you hear it aimed at you, the conversation is over."
+  },
+  {
+    "id": "g_m111_maeumeul_ppaeatgida",
+    "cat": "phrase",
+    "ko": "마음을 빼앗기다",
+    "rom": "maeumeul ppaeatgida",
+    "lit": "to have one's heart taken away",
+    "real": "to be captivated, to fall for something completely — a face, a city, a song, or a person, with the speaker cast as the one it happened to",
+    "note": "Today's 빼앗다 through the passive party of M36 (빼앗기다, riding frozen), and the grammar is the whole point: Korean prefers to report falling in love as a theft you were the victim of. The active exists — 마음을 빼앗다 = to steal a heart — but the passive is what people actually say about themselves: 그 사람에게 마음을 빼앗겼어요 = I lost my heart to them, 풍경에 마음을 빼앗겼어요 (M49's 풍경) = the view took me completely. Sort it against the near neighbours M19's 마음 has collected: the 마음에 들어요 M19's 마음 note explained (\"'it enters my 마음' — is how things get liked\") is approval, 마음을 훔치다 (M102's 훔치다) is the drama poster's version and casts the other person as the thief on purpose, and 마음을 빼앗기다 keeps the same event but moves the camera onto you. The particle is 에 for things and 에게/한테 for people, and the tense is nearly always past — it is a report, not a plan."
   }
 ]
