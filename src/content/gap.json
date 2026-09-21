@@ -3184,5 +3184,32 @@
     "lit": "talent donation",
     "real": "donating your skill instead of your money — a designer making a poster for a shelter, a lawyer taking a case free, a pianist playing a ward; an organized Korean institution with its own platforms, not an occasional favour",
     "note": "Today's 재능 with 기부 (a donation, riding frozen), and the concept has a shape English's pro bono only half covers. 기부 in Korea is normally money, and 재능 기부 was coined to say the giving can be the skill itself — which matters in a culture where what you can DO is measured constantly (M26's 실력, M44's 능력) and is therefore worth something to give away. It arrives with matching platforms, corporate programmes and a line on a résumé, and that last part is the honest complication the word carries: a 재능 기부 is genuinely charitable and also genuinely a credential, and Korean says both at once without embarrassment. The related trap: a company asking for 재능 기부 from a young freelancer is asking for unpaid work, and the internet says so loudly every few months."
+  },
+  {
+    "id": "g_m116_yeogan_eoryeopji_anayo",
+    "cat": "concept",
+    "ko": "여간 어렵지 않아요",
+    "rom": "yeogan eoryeopji anayo",
+    "lit": "it is not difficult to just-a-little a degree",
+    "real": "it is extremely difficult — the adverb that means its own opposite, and only ever inside a negative",
+    "note": "This is the card because 여간 is the one word on today's shelf that will make you say the wrong thing if you translate it. 如干 means something like a mere trifle, and Korean only ever uses it under a negative, where the negation lands on the trifle rather than on the sentence: not-a-trifle-difficult = very difficult indeed. English has the same figure in no small matter and not a little, but English lets you drop it; Korean does not, and there is simply no positive 여간 — 여간 어려워요 is not a weaker version of anything, it is broken. The shapes you will meet: 여간 어렵지 않아요 (M7's 어렵다), 여간 아니에요 (M19's 아니다) = he is no ordinary person, said with respect, and the literary 여간한 사람이 아니다 with the adjective form. Set it beside the negative-polarity words you already have — 별로 from M17, 전혀 from M39, 그다지 from M73 — and note the difference: those three stay negative in meaning as well as in form, while 여간 uses the negative to build a superlative. If the arithmetic will not stay in your head, keep the rule instead: see 여간, look ahead for the -지 않다, then translate the whole thing as very."
+  },
+  {
+    "id": "g_m116_mareul_geonneda",
+    "cat": "phrase",
+    "ko": "말을 건네다",
+    "rom": "mareul geonneda",
+    "lit": "to pass words across",
+    "real": "to strike up a conversation with someone you do not know — the first sentence spoken across a gap",
+    "note": "Today's 건네다 without the 주다, on M4's 말, and the picture is the whole meaning: words handed over the way an object is, from one person to a stranger. That is why it is not M4's 말하다 (which is just speaking) or M19's 인사하다 (which is greeting someone you have a reason to greet): 말을 건네다 covers the risk in going first. 먼저 말을 건넸어요 (M8's 먼저) = I was the one who spoke first — on a bus, at a wedding where you know nobody, in the smoking corner of an office. Its natural partners are 조심스럽게 (조심스럽게 — cautiously, riding frozen on M12's 조심하다) and 용기를 내서 (M39's 용기, M28's 내다) = working up the nerve. And the negative is a whole social situation in three words: 아무도 말을 건네지 않았어요 (M29's 아무 + M2's 도) = nobody said a word to me, which reports loneliness without once naming it. The 주다 version, 건네주다, is for objects and favours; the bare verb is for words and it is nearly always about a first move."
+  },
+  {
+    "id": "g_m116_jejarigeoreum",
+    "cat": "concept",
+    "ko": "제자리걸음",
+    "rom": "jejarigeoreum",
+    "lit": "stepping in one's own place",
+    "real": "marching on the spot — going through all the motions of progress and arriving nowhere",
+    "note": "Today's 제자리 + M38's 걸음, and it is one of the most-used metaphors in Korean public language: 협상이 제자리걸음이에요 (협상 — negotiations, riding frozen) = the talks are deadlocked, 실력이 제자리걸음이에요 (M26's 실력) = my Korean has plateaued. The force of it is that effort is not in question — a person marching in place is working hard, which is exactly what makes the picture bleak, and it is a kinder verdict than M44's 실패 because nobody has failed. M88's 머물다 already filed the quieter version: \"제자리에 머물다 (제자리 — one's original place, riding frozen) = to stay put, to stagnate\". 머물다 is standing still; 제자리걸음 is running to stand still. Related and worth recognizing: 다시 제자리로 돌아왔어요 (M23's 돌아오다) = we are back to square one, the sentence a Korean meeting reaches at about the fourth hour."
   }
 ]
