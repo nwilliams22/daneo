@@ -24426,5 +24426,185 @@
     "rom": "kkumi silhyeondoegineun haetjiman uiyogeun imi sarajyeosseoyo",
     "wordIds": ["w_kkum", "w_silhyeon", "w_doeda", "w_hada", "w_uiyok", "w_imi", "w_sarajida"],
     "note": "Recycles -기는 하다 from M92 — it is true that…, with the but already in the voice — and the second clause arrives anyway, which is how the ending is most often used. 실현되다 puts M8's 꿈 through the 되다 flip from M10 rather than M35's 이루다, and the difference is the point: 이루다 is what a person does to a dream, 실현 is what happens to a plan while the person stops caring. 의욕 is the drive that leaked out in the meantime, and M32's 이미 with M35's 사라지다 says it was gone before the good news landed. The roles drill: 실현되기는 했지만 is a connective form and therefore other; 꿈이 and 의욕은 are both subjects, one in 이 and one in 은."
+  },
+  {
+    "id": "s_m112_office_area_parking",
+    "en": [
+      { "t": "The new office", "role": "subject", "id": "s" },
+      { "t": "has more floor space,", "role": "other", "id": "a" },
+      { "t": "and the parking lot", "role": "subject", "id": "p" },
+      { "t": "is ours alone", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "new office-[topic]", "role": "subject", "id": "s" },
+      { "t": "area-[subj] wide-on top of", "role": "other", "id": "a" },
+      { "t": "parking-lot-also", "role": "subject", "id": "p" },
+      { "t": "exclusive-use-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "새 사무실은", "role": "subject", "id": "s" },
+      { "t": "면적이 넓은 데다가", "role": "other", "id": "a" },
+      { "t": "주차장도", "role": "subject", "id": "p" },
+      { "t": "전용이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sae samusireun myeonjeogi neolbeun dedaga juchajangdo jeonyongieyo",
+    "wordIds": ["w_samusil", "w_myeonjeok", "w_neopda", "w_juchajang", "w_jeonyong"],
+    "note": "Recycles -(으)ㄴ/는 데다가 from M92 — the M96 glue index files it as \"on top of\", and it only ever stacks in one direction: both halves must push the same way, which is why a good room and a good car park can share it. Both of today's words are here for the trap: 면적 is the shelf's piled-積, not the -적 stamp, and 전용 is the 專 of M57's 전문 over the 用 of M43's 비용. Roles: 면적이 넓은 데다가 is other — a connective form with the badge -(으)ㄴ from M24 inside it — while 새 사무실은 and 주차장도 are both subjects, the second wearing 도 from M2 where the case particle sat."
+  },
+  {
+    "id": "s_m112_purpose_amount_adjusted",
+    "en": [
+      { "t": "The amount", "role": "subject", "id": "m" },
+      { "t": "is adjusted", "role": "verb", "id": "v" },
+      { "t": "depending on the purpose", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "purpose-according to", "role": "other", "id": "a" },
+      { "t": "amount-[subj]", "role": "subject", "id": "m" },
+      { "t": "adjust-becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "용도에 따라", "role": "other", "id": "a" },
+      { "t": "금액이", "role": "subject", "id": "m" },
+      { "t": "조정돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yongdoe ttara geumaegi jojeongdwaeyo",
+    "wordIds": ["w_yongdo", "w_geumaek", "w_jojeong"],
+    "note": "Recycles 에 따라 from M90 — \"according to, depending on\" in that md's words, the noun-hinge the price list runs on. Three of today's receipts in one line: 용도 is the 用 of M43's 비용 on the 途 of M52's 도중, 금액 is the twin M101's 액수 left riding (\"Its twin is 금액 (金額 — riding frozen)\"), and 조정 is the adjustment M91's 구조 parked inside 구조 조정. Here 조정 does its honest job — a number moves, nobody loses a desk. Roles: 용도에 따라 is other, and 금액이 is the subject of the passive 조정되다 — the verb closes, so it is verb."
+  },
+  {
+    "id": "s_m112_business_expands_duties",
+    "en": [
+      { "t": "The more the business expands,", "role": "other", "id": "a" },
+      { "t": "the staff's missions", "role": "subject", "id": "m" },
+      { "t": "multiply", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "business-[subj] expand-the more", "role": "other", "id": "a" },
+      { "t": "staff-of mission-[topic]", "role": "subject", "id": "m" },
+      { "t": "become-many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "사업이 확장될수록", "role": "other", "id": "a" },
+      { "t": "직원들의 임무는", "role": "subject", "id": "m" },
+      { "t": "많아져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "saeobi hwakjangdoelsurok jigwondeurui immuneun manajyeoyo",
+    "wordIds": ["w_saeop", "w_hwakjang", "w_jigwon", "w_immu", "w_manta"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — \"the more, the more\", the ladder that needs two things growing together. The two words are today's pair of receipts about size and duty: 확장 stretches M72's 확대하다 further out (擴 plus the 張 of M42's 긴장), and 임무 is the mission M93's 수행하다 carried frozen. Roles: 사업이 확장될수록 is other, 직원들의 임무는 is the subject even though the topic particle sits on it, and 많아져요 is M7's 많다 through the -아/어지다 machine of M35."
+  },
+  {
+    "id": "s_m112_friend_taste_unique",
+    "en": [
+      { "t": "My friend's taste", "role": "subject", "id": "s" },
+      { "t": "really", "role": "other", "id": "d" },
+      { "t": "turned out to be one of a kind", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that friend-of taste-[topic]", "role": "subject", "id": "s" },
+      { "t": "really", "role": "other", "id": "d" },
+      { "t": "unique-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 친구의 취향은", "role": "subject", "id": "s" },
+      { "t": "정말", "role": "other", "id": "d" },
+      { "t": "독특하더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu chinguui chwihyangeun jeongmal dokteukhadeoragoyo",
+    "wordIds": ["w_chingu", "w_chwihyang", "w_jeongmal", "w_dokteukhada"],
+    "note": "Recycles -더라고요 from M88 — \"I found that, I saw that\", the ending that reports what you personally witnessed and will not say about yourself. 취향 is the day's three-deep radar: this 향 is the facing-向 of M31's 방향, not the incense-香 of M103's 향 (\"three 향s, and only this one burns\") and not the home-鄕 of M27's 고향. The predicate is M99's 독특하다, which that note already flagged as the polite word for strange. Roles: 그 친구의 취향은 is the subject, 정말 is other as every adverb is, and 독특하더라고요 closes."
+  },
+  {
+    "id": "s_m112_damage_compensation",
+    "en": [
+      { "t": "Anyone who has suffered damage", "role": "subject", "id": "s" },
+      { "t": "is bound to want", "role": "verb", "id": "v" },
+      { "t": "compensation", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "damage-[obj] suffered person-[topic]", "role": "subject", "id": "s" },
+      { "t": "compensation-[obj]", "role": "object", "id": "o" },
+      { "t": "want-is bound to", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "피해를 입은 사람은", "role": "subject", "id": "s" },
+      { "t": "보상을", "role": "object", "id": "o" },
+      { "t": "원하기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "pihaereul ibeun sarameun bosangeul wonhagi maryeonieyo",
+    "wordIds": ["w_pihae", "w_ipda", "w_saram", "w_bosang", "w_wonhada"],
+    "note": "Recycles -기 마련이다 from M87 — the -기 nominalizer from M13 under 마련, the verdict that a thing is simply how the world goes. 보상 is 補 plus 償, filling the hole in and paying for it, and it arrives on the noun M86's 피해 built for it, with M8's 입다 in the second job that note described — \"피해를 입다 = to suffer damage: the wear-verb, worn as a wound\". Roles: the whole of 피해를 입은 사람은 is one subject chunk (badge -(으)ㄴ from M24, the inner 피해를 included), 보상을 is the object, and 원하기 마련이에요 closes."
+  },
+  {
+    "id": "s_m112_budget_cut_date",
+    "en": [
+      { "t": "Because the budget was cut,", "role": "other", "id": "a" },
+      { "t": "the event date", "role": "subject", "id": "s" },
+      { "t": "still", "role": "other", "id": "d" },
+      { "t": "hasn't been confirmed", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "budget-[subj] reduced-through the fault of", "role": "other", "id": "a" },
+      { "t": "event date-[subj]", "role": "subject", "id": "s" },
+      { "t": "still", "role": "other", "id": "d" },
+      { "t": "confirm-become-not-did", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "예산이 축소된 탓에", "role": "other", "id": "a" },
+      { "t": "행사 일자가", "role": "subject", "id": "s" },
+      { "t": "아직", "role": "other", "id": "d" },
+      { "t": "확정되지 않았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yesani chuksodoen tase haengsa iljaga ajik hwakjeongdoeji anasseoyo",
+    "wordIds": ["w_yesan", "w_chukso", "w_haengsa", "w_ilja", "w_hwakjeong"],
+    "note": "Recycles -(으)ㄴ 탓에 from M86 — \"through the fault of\" in the glue index, and it only takes blame, never credit; 덕분에 is the other half of that row. Three of today's words, all from the form drawer: 축소 is the shrink-twin M72's 확대하다 left riding (\"Its shrink-twin 축소하다 rides frozen for now.\"), 일자 is the date as a field to fill in, and 확정 is M64's 확인 fixed in place by the 定 of M33's 결정하다. Roles: 예산이 축소된 탓에 is other, 행사 일자가 is the subject, 아직 is other, and the long negation from M28 closes it."
+  },
+  {
+    "id": "s_m112_domestic_price_difference",
+    "en": [
+      { "t": "Domestic products", "role": "subject", "id": "s" },
+      { "t": "are higher in price,", "role": "other", "id": "a" },
+      { "t": "whereas the real difference", "role": "subject", "id": "d" },
+      { "t": "is small", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "domestic product-[topic]", "role": "subject", "id": "s" },
+      { "t": "price-[subj] high-whereas", "role": "other", "id": "a" },
+      { "t": "substantive difference-[topic]", "role": "subject", "id": "d" },
+      { "t": "is-little", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "국산 제품은", "role": "subject", "id": "s" },
+      { "t": "가격이 높은 반면에", "role": "other", "id": "a" },
+      { "t": "실질적인 차이는", "role": "subject", "id": "d" },
+      { "t": "적어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "guksan jepumeun gagyeogi nopeun banmyeone siljiljeogin chaineun jeogeoyo",
+    "wordIds": ["w_guksan", "w_jepum", "w_gagyeok", "w_nopda", "w_siljiljeok", "w_chai", "w_jeokda"],
+    "note": "Recycles 반면에 from M95 — \"whereas\" in the glue index, the balance the review page weighs two things on. 국산 is the 國 of M32's 국민 over the produce-産 of M43's 부동산, and 실질적 is the real suffix doing its real job one sentence away from 면적, which only looks like it: 實質 plus the stamp, through the -적 factory of M45, in the badge slot the M45 md listed second. M57's 차이 is what it measures. Roles: 국산 제품은 is the subject, 가격이 높은 반면에 is other, 실질적인 차이는 is a second subject, and 적어요 closes."
+  },
+  {
+    "id": "s_m112_president_speech_morality",
+    "en": [
+      { "t": "The president", "role": "subject", "id": "s" },
+      { "t": "spoke of", "role": "verb", "id": "v" },
+      { "t": "morality and responsibility", "role": "object", "id": "o" },
+      { "t": "as he wrapped up his speech", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "president-[topic]", "role": "subject", "id": "s" },
+      { "t": "speech-[obj] wrap-up-while", "role": "other", "id": "a" },
+      { "t": "morality-and responsibility-[obj]", "role": "object", "id": "o" },
+      { "t": "spoke", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "대통령은", "role": "subject", "id": "s" },
+      { "t": "연설을 마무리하며", "role": "other", "id": "a" },
+      { "t": "도덕과 책임을", "role": "object", "id": "o" },
+      { "t": "말했습니다", "role": "verb", "id": "v" }
+    ],
+    "rom": "daetongnyeongeun yeonseoreul mamurihamyeo dodeokgwa chaegimeul malhaetseumnida",
+    "wordIds": ["w_daetongnyeong", "w_yeonseol", "w_mamuri", "w_dodeok", "w_chaegim", "w_malhada"],
+    "note": "Recycles -(으)며 from M85 — \"the written and/while\", which is why the sentence closes in the 합니다체 of M4 and not in 요: this is a news line, not a conversation. Three of today's longer-view words ride it: 연설 is the 演 of M48's 공연 over the 說 of M100's 사설, 마무리 is the module's one native word and the LAST PART itself rather than the act of ending, and 도덕 is the way-道 of M38's 도로 under the virtue-德 that M103's 덕 finally let stand alone. Roles: 대통령은 is the subject, 연설을 마무리하며 is other (a connective form, with its own object inside it), 도덕과 책임을 is the object, and 말했습니다 closes."
   }
 ]
