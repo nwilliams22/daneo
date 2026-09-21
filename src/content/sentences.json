@@ -24786,5 +24786,215 @@
     "rom": "yeoreosi moimyeon ireonjeoreon iyagiga naogi maryeonieyo",
     "wordIds": ["w_yeoreot", "w_moida", "w_ireonjeoreon", "w_iyagi", "w_naoda"],
     "note": "Recycles -기 마련이다 from M87 — the verdict that says this is simply how things go — and it carries two of the module's sorting words. 여럿 is the lesson in one particle: M29's 여러 needs a noun to lean on, 여럿 takes 이 and stands alone. 이런저런 closes the paired-determiner rail that M50's 여기저기 and M55's 이것저것 opened. Roles: 여럿이 모이면 is a condition, so other, and the whole of 이런저런 이야기가 is one subject chunk."
+  },
+  {
+    "id": "s_m114_market_opened",
+    "en": [
+      { "t": "The government", "role": "subject", "id": "s" },
+      { "t": "opened the market, and as a result", "role": "other", "id": "c" },
+      { "t": "competition", "role": "subject", "id": "p" },
+      { "t": "grew fiercer", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "government-[subj]", "role": "subject", "id": "s" },
+      { "t": "market-[obj] opened result", "role": "other", "id": "c" },
+      { "t": "competition-[subj]", "role": "subject", "id": "p" },
+      { "t": "became-severe", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "정부가", "role": "subject", "id": "s" },
+      { "t": "시장을 개방한 결과", "role": "other", "id": "c" },
+      { "t": "경쟁이", "role": "subject", "id": "p" },
+      { "t": "심해졌어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jeongbuga sijangeul gaebanghan gyeolgwa gyeongjaengi simhaejyeosseoyo",
+    "wordIds": ["w_jeongbu", "w_sijang", "w_gaebanghada", "w_gyeongjaeng", "w_simhaejida"],
+    "note": "Recycles -(으)ㄴ 결과 from M90 — the hinge that turns one clause into the cause of the next, and the trade page's favourite. 개방하다 arrives with the object M95's 개방 already chose for it, 시장, and the result clause is why the verb is here at all: a market is opened by a government and by nobody else, so the agent is named in front and never again. The roles drill: 시장을 개방한 결과 is a subordinate clause and therefore other, object marker and all; 정부가 and 경쟁이 are both bare 이/가 subjects even though English turns the second into the topic."
+  },
+  {
+    "id": "s_m114_head_reports",
+    "en": [
+      { "t": "The department head", "role": "subject", "id": "s" },
+      { "t": "reports the results and", "role": "other", "id": "c" },
+      { "t": "discusses", "role": "verb", "id": "v" },
+      { "t": "the countermeasures", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "dept-head-[topic]", "role": "subject", "id": "s" },
+      { "t": "result-[obj] report-and", "role": "other", "id": "c" },
+      { "t": "countermeasure-[obj]", "role": "object", "id": "o" },
+      { "t": "discusses", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부장님은", "role": "subject", "id": "s" },
+      { "t": "결과를 보고하며", "role": "other", "id": "c" },
+      { "t": "대책을", "role": "object", "id": "o" },
+      { "t": "논해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bujangnimeun gyeolgwareul bogohamyeo daechaegeul nonhaeyo",
+    "wordIds": ["w_bujangnim", "w_gyeolgwa", "w_bogohada", "w_daechaek", "w_nonhada"],
+    "note": "Recycles -(으)며 from M85 — the written and, which joins two acts of one subject without a breath between them. Both verbs are today's and both are register-locked: 보고하다 points up the ladder M58's 부장 drew, and 논하다 is what a minute-taker writes where a colleague would say 이야기하다. M86's 대책 is the object the second verb wants, since measures are exactly the kind of thing a meeting treats of. The roles drill: 보고하며 is a connective verb form and therefore other, not verb — only 논해요 closes the sentence."
+  },
+  {
+    "id": "s_m114_life_settled",
+    "en": [
+      { "t": "Compared with last year", "role": "other", "id": "a" },
+      { "t": "my life", "role": "subject", "id": "s" },
+      { "t": "has settled down, so", "role": "other", "id": "c" },
+      { "t": "now and then", "role": "other", "id": "x" },
+      { "t": "I go", "role": "verb", "id": "v" },
+      { "t": "on trips", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "last-year compared-to", "role": "other", "id": "a" },
+      { "t": "life-[subj]", "role": "subject", "id": "s" },
+      { "t": "stabilize-became-so", "role": "other", "id": "c" },
+      { "t": "now-and-then", "role": "other", "id": "x" },
+      { "t": "trip-[obj]", "role": "object", "id": "o" },
+      { "t": "go", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "작년에 비해", "role": "other", "id": "a" },
+      { "t": "생활이", "role": "subject", "id": "s" },
+      { "t": "안정돼서", "role": "other", "id": "c" },
+      { "t": "종종", "role": "other", "id": "x" },
+      { "t": "여행을", "role": "object", "id": "o" },
+      { "t": "가요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jangnyeone bihae saenghwari anjeongdwaeseo jongjong yeohaengeul gayo",
+    "wordIds": ["w_jangnyeon", "w_saenghwal", "w_anjeongdoeda", "w_jongjong", "w_yeohaeng", "w_gada"],
+    "note": "Recycles 에 비해 from M86 — the measured comparison a report prefers to M22's 보다 — and it sets last year against this one without saying who fixed anything. 안정되다 is M95's 안정 on the M70 row, and it is the right verb because a life settles rather than being settled; 종종 sits on today's frequency rail one rung below 자주. Underneath, -아/어서 from M10 carries the because. The roles drill: 작년에 비해 and 안정돼서 are both other, the first a particle phrase and the second a connective form; 여행을 is a plain object even though English hides it inside the verb."
+  },
+  {
+    "id": "s_m114_sprang_dizzy",
+    "en": [
+      { "t": "When I sprang up", "role": "other", "id": "c" },
+      { "t": "all at once", "role": "other", "id": "x" },
+      { "t": "my head", "role": "subject", "id": "s" },
+      { "t": "went dizzy", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "abruptly", "role": "other", "id": "x" },
+      { "t": "got-up-and-then", "role": "other", "id": "c" },
+      { "t": "head-[subj]", "role": "subject", "id": "s" },
+      { "t": "was-dizzy", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "벌떡", "role": "other", "id": "x" },
+      { "t": "일어났더니", "role": "other", "id": "c" },
+      { "t": "머리가", "role": "subject", "id": "s" },
+      { "t": "어지러웠어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "beoltteok ireonatdeoni meoriga eojireowosseoyo",
+    "wordIds": ["w_beoltteok", "w_ireonada", "w_meori", "w_eojireopda"],
+    "note": "Recycles -았/었더니 from M88 — I did a thing, and here is what I found on the other side of it — which is the one shape 벌떡 was waiting for, since springing up is always followed by a consequence. The pair is the whole word: 벌떡 modifies M8's 일어나다 and nothing else, so learn the two together and never the adverb alone. M53's 어지럽다 supplies the consequence the body always supplies. The roles drill: 벌떡 is an adverb and therefore other; 일어났더니 is a connective form and also other; only 어지러웠어요 is the verb."
+  },
+  {
+    "id": "s_m114_crowd_moved_seat",
+    "en": [
+      { "t": "As time went on", "role": "other", "id": "x" },
+      { "t": "the crowd", "role": "subject", "id": "s" },
+      { "t": "kept growing, so", "role": "other", "id": "c" },
+      { "t": "I moved", "role": "verb", "id": "v" },
+      { "t": "seats", "role": "object", "id": "o" },
+      { "t": "in a flash", "role": "other", "id": "y" }
+    ],
+    "gloss": [
+      { "t": "as-it-goes-on", "role": "other", "id": "x" },
+      { "t": "person-[subj]", "role": "subject", "id": "s" },
+      { "t": "became-many-so", "role": "other", "id": "c" },
+      { "t": "swiftly", "role": "other", "id": "y" },
+      { "t": "seat-[obj]", "role": "object", "id": "o" },
+      { "t": "moved", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "갈수록", "role": "other", "id": "x" },
+      { "t": "사람이", "role": "subject", "id": "s" },
+      { "t": "많아져서", "role": "other", "id": "c" },
+      { "t": "재빨리", "role": "other", "id": "y" },
+      { "t": "자리를", "role": "object", "id": "o" },
+      { "t": "이동했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "galsurok sarami manajyeoseo jaeppalli jarireul idonghaesseoyo",
+    "wordIds": ["w_galsurok", "w_saram", "w_manta", "w_jaeppalli", "w_jari", "w_idonghada"],
+    "note": "Recycles -(으)ㄹ수록 from M89 in the one form every column uses: 갈수록, the ending fossilized onto M1's 가다, which the M89 gap deck filed with its proverb. Three of today's words run in a row and each does its own job — 갈수록 measures the trend, 재빨리 measures the reflex, and 이동하다 takes the object M81's 이동 handed it, 자리. Underneath, -아/어지다 from M35 makes 많다 a trend and -아/어서 from M10 makes it a reason. The roles drill: 갈수록 and 재빨리 are adverbs and therefore other, and 많아져서 is a connective form, so 이동했어요 alone is the verb."
+  },
+  {
+    "id": "s_m114_repeat_skill",
+    "en": [
+      { "t": "If you repeat", "role": "other", "id": "c" },
+      { "t": "the same sentence", "role": "object", "id": "o" },
+      { "t": "countless times", "role": "other", "id": "x" },
+      { "t": "your skill", "role": "subject", "id": "s" },
+      { "t": "is bound to improve", "role": "verb", "id": "v" },
+      { "t": "all by itself", "role": "other", "id": "y" }
+    ],
+    "gloss": [
+      { "t": "same sentence-[obj]", "role": "object", "id": "o" },
+      { "t": "countlessly", "role": "other", "id": "x" },
+      { "t": "repeat-if", "role": "other", "id": "c" },
+      { "t": "naturally", "role": "other", "id": "y" },
+      { "t": "skill-[subj]", "role": "subject", "id": "s" },
+      { "t": "grow-bound-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "같은 문장을", "role": "object", "id": "o" },
+      { "t": "수없이", "role": "other", "id": "x" },
+      { "t": "반복하면", "role": "other", "id": "c" },
+      { "t": "자연히", "role": "other", "id": "y" },
+      { "t": "실력이", "role": "subject", "id": "s" },
+      { "t": "늘기 마련이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gateun munjangeul sueopsi banbokhamyeon jayeonhi sillyeogi neulgi maryeonieyo",
+    "wordIds": ["w_gatda_same", "w_munjang", "w_sueopsi", "w_banbokhada", "w_jayeonhi", "w_sillyeok", "w_neulda"],
+    "note": "Recycles -기 마련이다 from M87 — the way of the world, stated flatly — and it is the honest description of this app's method: repetition is not a promise, it is a law. Two of today's adverbs do the work, and they are not interchangeable: 수없이 counts the reps, 자연히 says nobody arranged the result. M75's 반복하다 is the verb both of them were built to sit on. The roles drill: 반복하면 is a connective form and therefore other, 수없이 and 자연히 are adverbs and also other, and 늘기 마련이에요 is one verb chunk with its dependent noun inside."
+  },
+  {
+    "id": "s_m114_freedom_guaranteed",
+    "en": [
+      { "t": "As you know", "role": "other", "id": "c" },
+      { "t": "freedom", "role": "subject", "id": "s" },
+      { "t": "is guaranteed", "role": "verb", "id": "v" },
+      { "t": "by law", "role": "other", "id": "a" }
+    ],
+    "gloss": [
+      { "t": "as-you-know", "role": "other", "id": "c" },
+      { "t": "freedom-[topic]", "role": "subject", "id": "s" },
+      { "t": "law-by", "role": "other", "id": "a" },
+      { "t": "guarantee-becomes", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "아시다시피", "role": "other", "id": "c" },
+      { "t": "자유는", "role": "subject", "id": "s" },
+      { "t": "법으로", "role": "other", "id": "a" },
+      { "t": "보장돼요", "role": "verb", "id": "v" }
+    ],
+    "rom": "asidasipi jayuneun beobeuro bojangdwaeyo",
+    "wordIds": ["w_alda", "w_jayu", "w_beop", "w_bojangdoeda"],
+    "note": "Recycles -다시피 from M91 — as you know, as you can see — and it opens on the honorific -(으)시- from M4, because the listener is the one being credited with knowing. 보장되다 is M108's 보장 finally conjugating, and the sentence is exactly why print prefers it: a guarantee belongs to no one, so M39's 법 arrives on 로 as an instrument rather than as a subject. The roles drill: 아시다시피 is a connective form and therefore other; 법으로 is a particle phrase and other too; 자유는 is the subject the topic marker is standing on."
+  },
+  {
+    "id": "s_m114_actually_simple",
+    "en": [
+      { "t": "When you actually", "role": "other", "id": "x" },
+      { "t": "give it a try", "role": "other", "id": "c" },
+      { "t": "it will probably be", "role": "verb", "id": "v" },
+      { "t": "an extremely simple problem", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "when-it-comes-to-it", "role": "other", "id": "x" },
+      { "t": "do try-if", "role": "other", "id": "c" },
+      { "t": "extremely simple-[mod]", "role": "other", "id": "m" },
+      { "t": "problem-be-I-bet", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "막상", "role": "other", "id": "x" },
+      { "t": "해 보면", "role": "other", "id": "c" },
+      { "t": "지극히 간단한", "role": "other", "id": "m" },
+      { "t": "문제일걸요", "role": "verb", "id": "v" }
+    ],
+    "rom": "maksang hae bomyeon jigeukhi gandanhan munjeilgeoryo",
+    "wordIds": ["w_maksang", "w_hada", "w_boda", "w_jigeukhi", "w_gandanhada", "w_munje"],
+    "note": "Recycles -(으)ㄹ걸요 from M93 — the hedged guess you offer someone else — and it is the natural landing place for 막상, which always promises that the expectation is about to be overturned. The try-machine -아/어 보다 from M16 supplies the trying-verb 막상 needs behind it, and 지극히 does its formal job on a badge -(으)ㄴ from M24. The roles drill: 막상 is an adverb and other, 해 보면 is a connective form and other, 지극히 간단한 is a modifier and other, and the copula chunk 문제일걸요 closes and is therefore the verb."
   }
 ]

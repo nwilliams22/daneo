@@ -2665,5 +2665,27 @@
       "s_m113_father_mutters", "s_m113_sharp_knife_careful", "s_m113_students_face_down", "s_m113_debt_lighter",
       "s_m113_still_night_letter", "s_m113_filled_blanks", "s_m113_far_from_pushover", "s_m113_crowd_talk"
     ]
+  },
+  {
+    "id": "m114",
+    "title": "Sino Verbs IV, and the Adverbs of Degree",
+    "order": 123,
+    "ring": 2,
+    "contentMd": "modules/module-114.md",
+    "wordIds": [
+      "w_gaebanghada", "w_idonghada", "w_gwallihada", "w_geungeohada",
+      "w_bogohada", "w_nonhada", "w_jageukhada", "w_cheonghada",
+      "w_silhyeonhada", "w_gubyeolhada", "w_myosahada", "w_wanseonghada",
+      "w_seonjeonghada", "w_yecheukhada", "w_jeokhaphada", "w_jojeolhada",
+      "w_jigeuphada", "w_seoneonhada", "w_tansaenghada", "w_anjeongdoeda",
+      "w_jeondaldoeda", "w_bojangdoeda", "w_gwangyedoeda", "w_bullidoeda",
+      "w_wanseongdoeda", "w_bulgwa", "w_sueopsi", "w_galsurok",
+      "w_maksang", "w_oroji", "w_jayeonhi", "w_jigeukhi",
+      "w_ganhok", "w_beoltteok", "w_jaeppalli", "w_jongjong"
+    ],
+    "sentenceIds": [
+      "s_m114_market_opened", "s_m114_head_reports", "s_m114_life_settled", "s_m114_sprang_dizzy",
+      "s_m114_crowd_moved_seat", "s_m114_repeat_skill", "s_m114_freedom_guaranteed", "s_m114_actually_simple"
+    ]
   }
 ]
