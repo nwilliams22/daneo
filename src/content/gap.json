@@ -3157,5 +3157,32 @@
     "lit": "come to play now and then",
     "real": "do drop by sometime — the warm goodbye at a doorway, meaning come again, with no date attached and none expected",
     "note": "Today's 종종 on M19's 놀다 through the go-in-order-to machine of M12, closed with -(으)세요 from M9. Two things make it a card. First, 놀다 is doing adult work here: M19's 놀다 note settled that it covers hanging out without embarrassment, so an invitation to 놀러 오다 from a colleague, an in-law or a neighbour is not childish, it is simply the Korean for come round. Second, the frequency word is the whole point — 종종 is the middle rung of today's rail, warmer than 가끔 and vaguer than 자주, and its vagueness is deliberate: the sentence is a piece of hospitality, not a plan, and answering it with a date is a small misreading. 또 오세요 (M29's 또) is the shopkeeper's version, 언제 한번 봐요 is the one friends use and never act on, and 종종 놀러 오세요 is what somebody says at their own front door as you put your shoes back on."
+  },
+  {
+    "id": "g_m115_inganjeogeuro",
+    "cat": "phrase",
+    "ko": "인간적으로",
+    "rom": "inganjeogeuro",
+    "lit": "in a human-being way",
+    "real": "human to human — the softener a Korean puts in front of a request, a complaint or a plea that has no official standing whatsoever, and is asking you to answer as a person rather than as a role",
+    "note": "Today's 인간적 wearing 으로, and it is doing something English has no single word for. The speaker is not describing anything; they are moving the conversation off the rulebook. 인간적으로 이건 좀 아니지 (M19's 아니다) = come on, person to person, this isn't right; 인간적으로 부탁 좀 할게요 (M33's 부탁, -(으)ㄹ게요 from M84) = I'm asking you as a human being, not as a customer. The frame it flips is the one Korean is otherwise built on — M4's 선생님, M9's 사장님, the whole -님 ladder — because every one of those addresses a ROLE, and 인간적으로 is the request to step out of it for one sentence. It also runs in reverse as the worst thing one Korean can say about another: 인간적으로 좀 그래 = as a human being, he's a bit much. Register note: it is warm between equals and risky upward, because asking a superior to stop being a superior is itself a move."
+  },
+  {
+    "id": "g_m115_gyoyang_gwamok",
+    "cat": "concept",
+    "ko": "교양 과목",
+    "rom": "gyoyang gwamok",
+    "lit": "cultivation subject",
+    "real": "the gen-ed class — the courses outside your major that every Korean undergraduate has to clear before graduating, and the campus's most openly traded piece of strategic information",
+    "note": "Today's 교양 on M44's 과목, and the reason it earns a card is that the word 교양 means cultivation, not requirement — the system's own name for these courses says they exist to grow a person rather than to fill credits, and every student treats them as the opposite. Hence the vocabulary around it: 교양 필수 (필수 — required, riding frozen) versus 교양 선택 (M64's 선택), and the campus legend of the 꿀교양 (M40's 꿀 used as slang for easy) — the gen-ed that gives everyone an A. Two things a learner should know. First, 교양 학점 (학점 — course credits, riding frozen) are counted separately from major credits, so Korean students talk about them as a budget. And second, the adjective survives graduation: a person who reads widely is said to have 교양, which is the same word telling you what the requirement was supposed to produce."
+  },
+  {
+    "id": "g_m115_jaeneung_gibu",
+    "cat": "concept",
+    "ko": "재능 기부",
+    "rom": "jaeneung gibu",
+    "lit": "talent donation",
+    "real": "donating your skill instead of your money — a designer making a poster for a shelter, a lawyer taking a case free, a pianist playing a ward; an organized Korean institution with its own platforms, not an occasional favour",
+    "note": "Today's 재능 with 기부 (a donation, riding frozen), and the concept has a shape English's pro bono only half covers. 기부 in Korea is normally money, and 재능 기부 was coined to say the giving can be the skill itself — which matters in a culture where what you can DO is measured constantly (M26's 실력, M44's 능력) and is therefore worth something to give away. It arrives with matching platforms, corporate programmes and a line on a résumé, and that last part is the honest complication the word carries: a 재능 기부 is genuinely charitable and also genuinely a credential, and Korean says both at once without embarrassment. The related trap: a company asking for 재능 기부 from a young freelancer is asking for unpaid work, and the internet says so loudly every few months."
   }
 ]

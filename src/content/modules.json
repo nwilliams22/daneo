@@ -2687,5 +2687,27 @@
       "s_m114_market_opened", "s_m114_head_reports", "s_m114_life_settled", "s_m114_sprang_dizzy",
       "s_m114_crowd_moved_seat", "s_m114_repeat_skill", "s_m114_freedom_guaranteed", "s_m114_actually_simple"
     ]
+  },
+  {
+    "id": "m115",
+    "title": "The Nouns Dismount",
+    "order": 124,
+    "ring": 2,
+    "contentMd": "modules/module-115.md",
+    "wordIds": [
+      "w_hwaryong", "w_heoyong", "w_geukbok", "w_bulpyeon",
+      "w_geonjo", "w_tansaeng", "w_saengsanja", "w_gisulja",
+      "w_isajang", "w_simpan", "w_yeonghyangnyeok", "w_jeongukjeok",
+      "w_inganjeok", "w_gonggong", "w_ingong", "w_jean",
+      "w_jingeup", "w_pyojun", "w_seonjin", "w_singyu",
+      "w_yangsim", "w_ija", "w_dojeon", "w_bojo",
+      "w_sinnyeom", "w_jaeneung", "w_gyoyang", "w_haksul",
+      "w_jeonban", "w_sumyeong", "w_geoaek", "w_gyohun",
+      "w_danpyeon", "w_naengdong", "w_yegam", "w_kwaegam"
+    ],
+    "sentenceIds": [
+      "s_m115_public_data_value", "s_m115_survey_lifespan", "s_m115_factory_frozen_food", "s_m115_interest_last_year",
+      "s_m115_referee_talent", "s_m115_short_story_lesson", "s_m115_company_training_promotion", "s_m115_challenge_conviction"
+    ]
   }
 ]

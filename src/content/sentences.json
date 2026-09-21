@@ -24996,5 +24996,188 @@
     "rom": "maksang hae bomyeon jigeukhi gandanhan munjeilgeoryo",
     "wordIds": ["w_maksang", "w_hada", "w_boda", "w_jigeukhi", "w_gandanhada", "w_munje"],
     "note": "Recycles -(으)ㄹ걸요 from M93 — the hedged guess you offer someone else — and it is the natural landing place for 막상, which always promises that the expectation is about to be overturned. The try-machine -아/어 보다 from M16 supplies the trying-verb 막상 needs behind it, and 지극히 does its formal job on a badge -(으)ㄴ from M24. The roles drill: 막상 is an adverb and other, 해 보면 is a connective form and other, 지극히 간단한 is a modifier and other, and the copula chunk 문제일걸요 closes and is therefore the verb."
+  },
+  {
+    "id": "s_m115_public_data_value",
+    "en": [
+      { "t": "The more public data", "role": "subject", "id": "s" },
+      { "t": "gets used,", "role": "other", "id": "a" },
+      { "t": "the more its value", "role": "subject", "id": "g" },
+      { "t": "grows", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "public data-[topic]", "role": "subject", "id": "s" },
+      { "t": "use-[subj] much-the-more", "role": "other", "id": "a" },
+      { "t": "value-[subj]", "role": "subject", "id": "g" },
+      { "t": "becomes-big", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "공공 자료는", "role": "subject", "id": "s" },
+      { "t": "활용이 많을수록", "role": "other", "id": "a" },
+      { "t": "가치가", "role": "subject", "id": "g" },
+      { "t": "커져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gonggong jaryoneun hwaryongi maneulsurok gachiga keojyeoyo",
+    "wordIds": ["w_gonggong", "w_hwaryong", "w_jaryo", "w_gachi_value"],
+    "note": "Recycles -(으)ㄹ수록 from M89 — \"the more, the more\" in the Band 7 glue index, the slope that needs two things moving together rather than one condition being met. Two of today's words carry it: 활용 is M72's 활용하다 with the 하다 taken off, the module's opening move, and 공공 is the one word where the public-公 of M6's 공원 finally sits beside the together-共 that M81's 공동 kept apart from it. Roles: 활용이 많을수록 is other — a connective form with its own 이/가 subject inside it — while 공공 자료는 and 가치가 are both subjects, since a bare 이/가 noun is a subject even when the sentence already has a topic."
+  },
+  {
+    "id": "s_m115_survey_lifespan",
+    "en": [
+      { "t": "According to the survey results,", "role": "other", "id": "a" },
+      { "t": "nationwide", "role": "other", "id": "b" },
+      { "t": "average life expectancy", "role": "subject", "id": "s" },
+      { "t": "has risen", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "survey result-at follow-if", "role": "other", "id": "a" },
+      { "t": "nationwide-ly", "role": "other", "id": "b" },
+      { "t": "average lifespan-[subj]", "role": "subject", "id": "s" },
+      { "t": "increased", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "조사 결과에 따르면", "role": "other", "id": "a" },
+      { "t": "전국적으로", "role": "other", "id": "b" },
+      { "t": "평균 수명이", "role": "subject", "id": "s" },
+      { "t": "늘었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "josa gyeolgwae ttareumyeon jeongukjeogeuro pyeonggyun sumyeongi neureosseoyo",
+    "wordIds": ["w_josa", "w_gyeolgwa", "w_jeongukjeok", "w_pyeonggyun", "w_sumyeong", "w_neulda"],
+    "note": "Recycles 에 따르면 from M90 — \"according to, depending on\", the hinge a report hangs its claim on so that the writer asserts nothing personally. Both of today's words are assembly: 전국적 is M31's 전국 through the -적 factory of M45, arriving in 으로 the way most of that factory's output does, and 수명 is the 壽 of M31's 덕수궁 (\"수 (壽 longevity)\") over the 命 that M92's 생명 traced. Roles: 조사 결과에 따르면 and 전국적으로 are both other — a frame and an adverb — and 평균 수명이 is the subject that 늘었어요 closes on."
+  },
+  {
+    "id": "s_m115_factory_frozen_food",
+    "en": [
+      { "t": "That factory", "role": "subject", "id": "s" },
+      { "t": "took on more technicians, and", "role": "other", "id": "a" },
+      { "t": "its frozen-food production", "role": "subject", "id": "g" },
+      { "t": "rose as well", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that factory-[topic]", "role": "subject", "id": "s" },
+      { "t": "technician-[obj] increased-and", "role": "other", "id": "a" },
+      { "t": "frozen food production-also", "role": "subject", "id": "g" },
+      { "t": "increased", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 공장은", "role": "subject", "id": "s" },
+      { "t": "기술자를 늘렸으며", "role": "other", "id": "a" },
+      { "t": "냉동 식품 생산도", "role": "subject", "id": "g" },
+      { "t": "증가했다", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu gongjangeun gisuljareul neullyeosseumyeo naengdong sikpum saengsando jeunggahaetda",
+    "wordIds": ["w_gongjang", "w_gisulja", "w_neullida", "w_naengdong", "w_sikpum", "w_saengsan", "w_jeunggahada"],
+    "note": "Recycles -(으)며 from M85 — \"the written and/while\", and this is the and-job, not the while-job: two facts laid side by side rather than one body doing two things. That is also why the sentence closes in the plain -다 of the page instead of 요. 기술자 is M44's 기술 with the person-者 of 생산자 bolted on, and 냉동 is the cold-냉 of M13's 냉장고 over a brand-new 凍 — the pairing M59's 식품 shelved in advance. Roles: 기술자를 늘렸으며 is other, a connective verb form; 냉동 식품 생산도 is a subject wearing 도 from M2 in the case particle's seat."
+  },
+  {
+    "id": "s_m115_interest_last_year",
+    "en": [
+      { "t": "Compared to last year,", "role": "other", "id": "a" },
+      { "t": "we paid", "role": "verb", "id": "v" },
+      { "t": "a huge amount of interest", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "last-year-at compared-to", "role": "other", "id": "a" },
+      { "t": "huge-sum-of interest-[obj]", "role": "object", "id": "o" },
+      { "t": "paid", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "작년에 비해", "role": "other", "id": "a" },
+      { "t": "거액의 이자를", "role": "object", "id": "o" },
+      { "t": "냈어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jangnyeone bihae geoaegui ijareul naesseoyo",
+    "wordIds": ["w_jangnyeon", "w_geoaek", "w_ija", "w_naeda"],
+    "note": "Recycles 에 비해 from M86 — \"compared to — 비하다 inside\", the frozen frame that outranks M22's 보다-particle wherever the register rises. Both nouns are today's: 거액 sets the 巨 M89's 거대하다 called a first on the 額 M101's 액수 called one too, and 이자 settles two IOUs at once, since M81's 예금 and M101's 대출 each wrote \"이자 — interest, riding frozen\" and each meant this card. Roles: 작년에 비해 is other, 거액의 이자를 is the object, and 냈어요 is the verb that closes."
+  },
+  {
+    "id": "s_m115_referee_talent",
+    "en": [
+      { "t": "Even the referee", "role": "subject", "id": "s" },
+      { "t": "seems to have acknowledged", "role": "verb", "id": "v" },
+      { "t": "that player's talent", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "referee-also", "role": "subject", "id": "s" },
+      { "t": "that player-of talent-[obj]", "role": "object", "id": "o" },
+      { "t": "acknowledged-seems", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "심판도", "role": "subject", "id": "s" },
+      { "t": "그 선수의 재능을", "role": "object", "id": "o" },
+      { "t": "인정한 듯해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "simpando geu seonsuui jaeneungeul injeonghan deuthaeyo",
+    "wordIds": ["w_simpan", "w_seonsu", "w_jaeneung", "w_injeonghada"],
+    "note": "Recycles -(으)ㄹ 듯하다 from M87 — \"the written 것 같다\", the verdict a report hands down where a friend would say 것 같아요, here on the past badge. 심판 pays M103's 항의, which used the word and sent it off frozen (\"심판에게 항의하다 (심판 — the referee, frozen)\"), and 재능 pays the M39 gap deck, where the skeptics kept it (\"skeptics note that 재능 (talent) never signed the contract\"). Roles: 심판도 is the subject with 도 from M2 in the case particle's seat, 그 선수의 재능을 is the object, and 인정한 듯해요 is the verb — the auxiliary closes, so the whole chunk is verb."
+  },
+  {
+    "id": "s_m115_short_story_lesson",
+    "en": [
+      { "t": "The lesson of that short story", "role": "subject", "id": "s" },
+      { "t": "was really", "role": "other", "id": "a" },
+      { "t": "good, I found", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that short-piece novel-of lesson-[subj]", "role": "subject", "id": "s" },
+      { "t": "really", "role": "other", "id": "a" },
+      { "t": "good-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 단편 소설의 교훈이", "role": "subject", "id": "s" },
+      { "t": "정말", "role": "other", "id": "a" },
+      { "t": "좋더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu danpyeon soseorui gyohuni jeongmal joteoragoyo",
+    "wordIds": ["w_danpyeon", "w_soseol", "w_gyohun", "w_jeongmal"],
+    "note": "Recycles -더라고요 from M88 — \"I found that, I saw that\", and that md's eyewitness rule is what makes the line legal: you may report a story you actually read, never your own present feeling. 단편 is the short-短 of M39's 단점 on the piece-篇 of M55's 편, and emphatically NOT M55's 단; 교훈 pays M94's 삼다, which left it riding in \"교훈으로 삼다 (교훈 — a lesson learned, riding frozen)\". Roles: 그 단편 소설의 교훈이 is the subject, 정말 is other as every adverb is, and 좋더라고요 is the verb that closes."
+  },
+  {
+    "id": "s_m115_company_training_promotion",
+    "en": [
+      { "t": "That company", "role": "subject", "id": "s" },
+      { "t": "has good general education, and on top of that,", "role": "other", "id": "a" },
+      { "t": "promotion", "role": "subject", "id": "g" },
+      { "t": "is fast", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that company-[topic]", "role": "subject", "id": "s" },
+      { "t": "cultivation education-[subj] good-on top of", "role": "other", "id": "a" },
+      { "t": "rank-promotion-also", "role": "subject", "id": "g" },
+      { "t": "fast", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 회사는", "role": "subject", "id": "s" },
+      { "t": "교양 교육이 좋은 데다가", "role": "other", "id": "a" },
+      { "t": "진급도", "role": "subject", "id": "g" },
+      { "t": "빨라요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu hoesaneun gyoyang gyoyugi joeun dedaga jingeupdo ppallayo",
+    "wordIds": ["w_hoesa", "w_gyoyang", "w_gyoyuk", "w_jingeup"],
+    "note": "Recycles -(으)ㄴ/는 데다가 from M92 — \"on top of\", and that md's direction rule binds: both halves must push the same way, which two good things about one employer do. 교양 is the 敎 of M32's 교육 (\"敎育 teach-raise\") under the nourish-養 that M99's 영양 called a first, and 진급 is the 進 of M61's 진행되다 on the grade-級 that M84's 급 landed bare. Roles: 교양 교육이 좋은 데다가 is other, with the badge -(으)ㄴ from M24 sitting inside it; 그 회사는 and 진급도 are both subjects."
+  },
+  {
+    "id": "s_m115_challenge_conviction",
+    "en": [
+      { "t": "He", "role": "subject", "id": "s" },
+      { "t": "enjoys a challenge, whereas", "role": "other", "id": "a" },
+      { "t": "his convictions", "role": "subject", "id": "g" },
+      { "t": "are weak", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that person-[topic]", "role": "subject", "id": "s" },
+      { "t": "challenge-[obj] enjoy-whereas", "role": "other", "id": "a" },
+      { "t": "conviction-[topic]", "role": "subject", "id": "g" },
+      { "t": "weak", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 사람은", "role": "subject", "id": "s" },
+      { "t": "도전을 즐기는 반면에", "role": "other", "id": "a" },
+      { "t": "신념은", "role": "subject", "id": "g" },
+      { "t": "약해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu sarameun dojeoneul jeulgineun banmyeone sinnyeomeun yakhaeyo",
+    "wordIds": ["w_dojeon", "w_jeulgida", "w_sinnyeom", "w_yakhada"],
+    "note": "Recycles 반면에 from M95 — \"whereas\", the balance a review weighs two facts on rather than a contrast that leans on the second, and that md's rule shows on the surface: \"the two halves each take their own 은/는\". 도전 is a brand-new 挑 over the war-戰 that M32's 전쟁 seated as the fourth 전, and 신념 is the trust-信 of M38's 신호 over the think-念 of M87's 관념 — the belief that will not move, which is exactly what this sentence says is missing. Roles: 도전을 즐기는 반면에 is other; 그 사람은 and 신념은 are both subjects, each with its own 은; 약해요 closes."
   }
 ]
