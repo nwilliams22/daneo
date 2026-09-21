@@ -94,6 +94,55 @@ for src, text in corpus:
         elif f"m{mod}" not in mods:
             manual.append(f"{src}: {k} (M{mod}) but taught in {mods} — maybe multiword phrase")
 
+# --- garnish check: does a note freeze a word the learner already owns? ---
+#
+# The garnish-free rule is the course's promise that every word in a note is
+# either owned or explicitly marked as riding frozen. Until now only one half
+# of it was checked, that citations point at the right module. This is the
+# other half: a note must not tell the learner a word is untaught when an
+# earlier module taught it.
+#
+# Homographs are the reason this cannot simply fail. M66's 차다 is the kick
+# and the 차다 meaning "to be full" is a different word with the same
+# spelling, so a spelling with several dictionary rows is reported for a human
+# to read rather than failed outright.
+_nikl_rows = {}
+try:
+    for _line in open(f"{REPO}/reference/nikl-5965.tsv").readlines()[1:]:
+        _p = _line.rstrip("\n").split("\t")
+        if len(_p) >= 5 and _p[0].strip().isdigit():
+            _k = re.sub(r"\d+$", "", _p[1])
+            _nikl_rows[_k] = _nikl_rows.get(_k, 0) + 1
+except OSError:
+    pass
+
+_order = {m["id"]: m.get("order", 9999) for m in json.load(open(f"{REPO}/src/content/modules.json"))}
+_here_order = max(_order.values()) + 1 if _order else 9999
+pat_frozen = re.compile(r"\(([가-힣]{2,6})\s*—[^)]{0,60}?(?:riding frozen|rides frozen)")
+
+for src, text in corpus:
+    for m in pat_frozen.finditer(text):
+        k = m.group(1)
+        if text[:m.start()].count('"') % 2 == 1:
+            continue  # inside a verbatim quote of an earlier note
+        mods = by_ko.get(k)
+        if not mods:
+            continue
+        earlier = [x for x in mods if _order.get(x, 9999) < _here_order]
+        if not earlier:
+            continue
+        where = "/".join(sorted(earlier))
+        # A homograph cannot be judged mechanically: whether this is the sense
+        # already taught is a question about meaning, not spelling. So it is
+        # handed to a human with the question stated. M91's 사고 means 思考 and
+        # is right to freeze it; M97's 건설하다 meant M38's road and was wrong,
+        # and the only difference between them is what the note means.
+        if len(mods) > 1 or _nikl_rows.get(k, 1) > 1:
+            manual.append(f"{src}: freezes {k}; {where} taught that spelling. Is this the SAME sense? "
+                          f"If so, cite it. If not, say in the note which sense you mean")
+        else:
+            fails.append(f"{src}: freezes {k}, but it is already taught in {where} — cite it instead")
+
 print(f"=== {MID}: {len(dw)} words, {len(ds)} sentences, {len(dg)} gaps ===")
 print(f"\n{len(fails)} FAIL:")
 for f in fails: print("  ✗", f)
