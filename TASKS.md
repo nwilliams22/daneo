@@ -115,7 +115,7 @@
 - [ ] Ring 3 closeout: the unranked proper nouns (고구려/금강산/대학로…, POS 고) — taught-as rows or a places pack, decided at the end per CURRICULUM.md §2c
 
 ## Content hygiene
-- [ ] 2026-09-26 · `coverage:nikl` WARNs **two stale allowlist entries** in `reference/nikl-taught-as.tsv`: **전** and **한** are now real headwords (M117 promoted them), so their taught-as rows should be dropped. Cosmetic — the three-bucket totals already count them once — but the report should run clean.
+- [x] 2026-09-26 · Dropped stale **전** and **한** taught-as rows after M117 promoted them to headwords. M5 still teaches 오전 and the counter form 한; M13 still teaches 전에. M117 teaches 전(全) and 한(限), with notes distinguishing the older senses. `coverage:nikl` now runs without a WARN; the three-bucket totals are unchanged.
 
 ## Phase B — Sharing (do not start without explicit decision)
 - [ ] Deploy static build + proxy; simple auth; per-user state sync — *still ungated as of 2026-09-26; the decision is with Nick and no engineer starts it without his answer*
@@ -218,3 +218,5 @@
   trimmed contract has in fact governed M31–M117 — it waits only on Nick's explicit word that
   it stands for the remaining packs) and **Phase B**. One new hygiene item filed: `coverage:nikl`
   WARNs that allowlist entries 전 and 한 are now real headwords.
+
+- **2026-09-26 · Content hygiene:** removed only the two stale taught-as rows for 전 and 한. M117 teaches 전(全) before nouns and 한(限) in -는 한; M5's 오전 and counter-contraction 한 and M13's 전에 continue to teach the older senses. Confirmed the NIKL coverage report has no WARN and its grade A/B/C totals remain 100.0% / 100.0% / 48.4%; `npm run validate:content` and `npm test` pass.
