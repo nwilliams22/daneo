@@ -25536,5 +25536,179 @@
     "rom": "jega aneun han geu gyeyageun seongniphaji anayo",
     "wordIds": ["w_jeo", "w_alda", "w_han", "w_geu_det", "w_gyeyak", "w_seongniphada"],
     "note": "Recycles -는 한 from M95, and this is the one sentence in the module where the pattern and the slice word are the same thing: the 한 in 제가 아는 한 IS today's 限, the dependent noun that md ran as “살아 있는 한 (M4's 살다) = as long as I live”. That md's picture holds — “It draws a fence and says the second clause holds inside it.” — and the fence here is the speaker's knowledge. Inside it, 성립하다 pays M105's 성립되다 with M43's 계약 as its subject, under the long negation -지 않다 from M28. Roles: 제가 아는 한 is a connective, other; only 성립하지 않아요 is verb."
+  },
+  {
+    "id": "s_m118_small_plane_news",
+    "en": [
+      { "t": "According to the news,", "role": "other", "id": "a" },
+      { "t": "a small plane", "role": "subject", "id": "s" },
+      { "t": "came", "role": "verb", "id": "v" },
+      { "t": "to the airport", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "news-according-to", "role": "other", "id": "a" },
+      { "t": "small-type airplane-[subj]", "role": "subject", "id": "s" },
+      { "t": "airport-to", "role": "place", "id": "p" },
+      { "t": "came", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뉴스에 따르면", "role": "other", "id": "a" },
+      { "t": "소형 비행기가", "role": "subject", "id": "s" },
+      { "t": "공항에", "role": "place", "id": "p" },
+      { "t": "왔어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nyuseue ttareumyeon sohyeong bihaenggiga gonghange wasseoyo",
+    "wordIds": ["w_nyuseu", "w_sohyeong", "w_bihaenggi", "w_gonghang", "w_oda"],
+    "note": "Recycles 에 따르면 from M90, the source frame for a reported event. 소형 is a size class from M89's 대형 family; it does not mean the pilot is small. The bulletin uses a source marker rather than asserting eyewitness knowledge."
+  },
+  {
+    "id": "s_m118_route_changed",
+    "en": [
+      { "t": "Because the bus route changed,", "role": "other", "id": "a" },
+      { "t": "I was late", "role": "verb", "id": "v" },
+      { "t": "for work", "role": "place", "id": "p" }
+    ],
+    "gloss": [
+      { "t": "bus route-[subj] changed-because-of", "role": "other", "id": "a" },
+      { "t": "company-to", "role": "place", "id": "p" },
+      { "t": "was-late", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "버스 노선이 바뀌는 바람에", "role": "other", "id": "a" },
+      { "t": "회사에", "role": "place", "id": "p" },
+      { "t": "늦었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "beoseu noseoni bakkwineun barame hoesae neujeosseoyo",
+    "wordIds": ["w_beoseu", "w_noseon", "w_bakkwida", "w_hoesa", "w_neutda"],
+    "note": "Recycles -는 바람에 from M86, which presents an unwelcome consequence. M76's 호선 labels a numbered subway line; today's 노선 covers this bus route as well. 늦었어요 is the speaker's result, not a second report about the bus."
+  },
+  {
+    "id": "s_m118_signup_benefit",
+    "en": [
+      { "t": "If you sign up as a member,", "role": "other", "id": "a" },
+      { "t": "you effectively receive", "role": "verb", "id": "v" },
+      { "t": "a benefit", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "member signup-[obj] do-if", "role": "other", "id": "a" },
+      { "t": "benefit-[obj]", "role": "object", "id": "o" },
+      { "t": "receive-[badge] reckoning-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회원 가입을 하면", "role": "other", "id": "a" },
+      { "t": "혜택을", "role": "object", "id": "o" },
+      { "t": "받는 셈이에요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoewon gaibeul hamyeon hyetaegeul banneun semieyo",
+    "wordIds": ["w_hoewon", "w_gaip", "w_hada", "w_hyetaek", "w_batda"],
+    "note": "Recycles -(으)ㄴ/는 셈이다 from M87: the signup amounts to receiving a perk. M58's 회원 note already printed the 회원 가입 button, while 혜택 is the benefit promised in the fine print. The reckoning is an interpretation, not a new condition."
+  },
+  {
+    "id": "s_m118_merchant_passion",
+    "en": [
+      { "t": "That merchant", "role": "subject", "id": "s" },
+      { "t": "had remarkable passion,", "role": "subject", "id": "t" },
+      { "t": "I noticed", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that merchant-[topic]", "role": "subject", "id": "s" },
+      { "t": "passion-[subj]", "role": "subject", "id": "t" },
+      { "t": "was-amazing-I-found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 상인은", "role": "subject", "id": "s" },
+      { "t": "열정이", "role": "subject", "id": "t" },
+      { "t": "대단하더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu sangineun yeoljeongi daedanhadeoragoyo",
+    "wordIds": ["w_geu_det", "w_sangin", "w_yeoljeong", "w_daedanhada"],
+    "note": "Recycles -더라고요 from M88, the ending for a realization the speaker witnessed. 상인 names a trader, not the owner of every business; 열정 is the heat of commitment in this observed scene. Both topic and inner subject retain their roles."
+  },
+  {
+    "id": "s_m118_narrow_gap_collisions",
+    "en": [
+      { "t": "The narrower the interval,", "role": "other", "id": "a" },
+      { "t": "the more collisions", "role": "subject", "id": "s" },
+      { "t": "there are", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "interval-[subj] narrow-the-more", "role": "other", "id": "a" },
+      { "t": "collision-[subj]", "role": "subject", "id": "s" },
+      { "t": "are-many", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "간격이 좁을수록", "role": "other", "id": "a" },
+      { "t": "충돌이", "role": "subject", "id": "s" },
+      { "t": "많아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gangyeogi jobeulsurok chungdori manayo",
+    "wordIds": ["w_gangyeok", "w_jopda", "w_chungdol", "w_manta"],
+    "note": "Recycles -(으)ㄹ수록 from M89: as the space shrinks, collisions increase. 간격 applies to distance or time, and 충돌 can name a physical crash or a clash of views. The first clause is subordinate; 많아요 closes the comparison."
+  },
+  {
+    "id": "s_m118_forces_arrive_depart",
+    "en": [
+      { "t": "The air force", "role": "subject", "id": "s" },
+      { "t": "arrived,", "role": "other", "id": "a" },
+      { "t": "and the navy", "role": "subject", "id": "t" },
+      { "t": "departed", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "air-force-[topic]", "role": "subject", "id": "s" },
+      { "t": "arrived-and", "role": "other", "id": "a" },
+      { "t": "navy-[topic]", "role": "subject", "id": "t" },
+      { "t": "departed", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "공군은", "role": "subject", "id": "s" },
+      { "t": "도착했으며", "role": "other", "id": "a" },
+      { "t": "해군은", "role": "subject", "id": "t" },
+      { "t": "출발했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "gongguneun dochakhaesseumyeo haeguneun chulbalhaesseoyo",
+    "wordIds": ["w_gonggun", "w_dochakhada", "w_haegun", "w_chulbalhada"],
+    "note": "Recycles -(으)며 from M85, the written connector joining two reported actions. M58's 군 note introduced both branch names while they were frozen; here they act separately. 도착했으며 is a connective, so the closing predicate is 출발했어요."
+  },
+  {
+    "id": "s_m118_list_reference",
+    "en": [
+      { "t": "While looking through the list,", "role": "other", "id": "a" },
+      { "t": "I also read", "role": "verb", "id": "v" },
+      { "t": "the reference materials", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "list-[obj] look-[badge] occasion-on", "role": "other", "id": "a" },
+      { "t": "reference materials-also", "role": "object", "id": "o" },
+      { "t": "read", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "목록을 보는 김에", "role": "other", "id": "a" },
+      { "t": "참조 자료도", "role": "object", "id": "o" },
+      { "t": "읽었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "mongnogeul boneun gime chamjo jaryodo ilgeosseoyo",
+    "wordIds": ["w_mongnok", "w_boda", "w_chamjo", "w_jaryo", "w_ikda"],
+    "note": "Recycles -는 김에 from M91: the list was already open, so the reader used the occasion to read supporting material. 목록 names the browsable list; 참조 directs the reader to another source, as on an email CC line."
+  },
+  {
+    "id": "s_m118_department_benefit",
+    "en": [
+      { "t": "Even if the department changes,", "role": "other", "id": "a" },
+      { "t": "the membership benefit", "role": "subject", "id": "s" },
+      { "t": "stays the same", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "department-[subj] change-even-if", "role": "other", "id": "a" },
+      { "t": "member benefit-[topic]", "role": "subject", "id": "s" },
+      { "t": "is-same", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "부서가 바뀌더라도", "role": "other", "id": "a" },
+      { "t": "회원 혜택은", "role": "subject", "id": "s" },
+      { "t": "같아요", "role": "verb", "id": "v" }
+    ],
+    "rom": "buseoga bakkwideorado hoewon hyetaegeun gatayo",
+    "wordIds": ["w_buseo", "w_bakkwida", "w_hoewon", "w_hyetaek", "w_gatda_same"],
+    "note": "Recycles -더라도 from M95: a change in department does not change the benefit. 부서 is an office unit, and 혜택 is the perk offered to members. The clause is a concession, so the main claim is 같아요."
   }
 ]

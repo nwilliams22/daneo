@@ -3238,5 +3238,23 @@
     "lit": "to pull out a swallow",
     "real": "to draw lots — the fair way to settle who goes first, who gets the good shift, or who has to tell the boss",
     "note": "Today's 제비 meeting M61's 뽑다, and the card exists because the literal reading is a bird. The 제비 here is a different NIKL row from the swallow on the vocab list — it is the slip of paper you pull — and the folk explanation for the shared spelling is that the slips, cut narrow and forked, look like a swallow's tail. Korea draws lots for real things: 아파트 청약 (M13's 아파트; 청약 — the housing subscription, riding frozen) allocates new flats this way, a class settles turns with it, and a 회식 (M16's 회식) settles who drives. 제비뽑기 is the noun for the procedure, minted by the same -기 from M13 that made today's 달리기, and M61's 뽑다 had already filed 뽑기 for the claw machines. Its neighbour 가위바위보 (rock-paper-scissors, riding frozen) settles the same questions faster and with less ceremony; 제비를 뽑다 is what you reach for when the outcome has to look impartial to everyone watching."
+  },
+  {
+    "id": "g_m118_bongsa_hours",
+    "cat": "concept",
+    "ko": "봉사 활동",
+    "rom": "bongsa hwaldong",
+    "lit": "volunteer activity",
+    "real": "recorded volunteer service, often counted as required school hours",
+    "note": "봉사 is service offered; M57's 활동 makes it a named activity. Korean school records often log 봉사 활동 in hours, so the phrase can appear on an application as a requirement rather than merely an optional good deed."
+  },
+  {
+    "id": "g_m118_insa_move",
+    "cat": "concept",
+    "ko": "인사 이동",
+    "rom": "insa idong",
+    "lit": "personnel movement",
+    "real": "staff reshuffle or reassignment",
+    "note": "This is 人事 personnel, not the greeting in M19's 인사하다 and not 人士 a notable person. 이동 is movement from M64; together the phrase announces who moved to another post, a common headline and office notice."
   }
 ]

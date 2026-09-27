@@ -2753,5 +2753,27 @@
       "s_m117_helicopter_eastern_port", "s_m117_bank_fee_cash", "s_m117_final_season_counts", "s_m117_accident_thousands_waited",
       "s_m117_application_office_recorded", "s_m117_hotel_bed_uncomfortable", "s_m117_swallows_low_rain", "s_m117_contract_does_not_hold"
     ]
+  },
+  {
+    "id": "m118",
+    "title": "Collection Day",
+    "order": 127,
+    "ring": 2,
+    "contentMd": "modules/module-118.md",
+    "wordIds": [
+      "w_yukgun", "w_haegun", "w_gonggun", "w_insa",
+      "w_sangin", "w_joein", "w_bonin", "w_sinin",
+      "w_hyeondaein", "w_gugwang", "w_sowon", "w_sumyeon",
+      "w_hwajae", "w_noseon", "w_beolgeum", "w_sohyeong",
+      "w_annae", "w_chamga", "w_chungdol", "w_yeongyeol",
+      "w_gaip", "w_seolmun", "w_hanmun", "w_gangyeok",
+      "w_tongno", "w_bongsa", "w_buseo", "w_angmong",
+      "w_yeoljeong", "w_jegong", "w_haeso", "w_hyetaek",
+      "w_yeongwan", "w_gyoche", "w_mongnok", "w_chamjo"
+    ],
+    "sentenceIds": [
+      "s_m118_small_plane_news", "s_m118_route_changed", "s_m118_signup_benefit", "s_m118_merchant_passion",
+      "s_m118_narrow_gap_collisions", "s_m118_forces_arrive_depart", "s_m118_list_reference", "s_m118_department_benefit"
+    ]
   }
 ]
