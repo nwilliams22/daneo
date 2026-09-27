@@ -3283,5 +3283,32 @@
     "lit": "to be cut from the company",
     "real": "to get fired",
     "note": "M40's 자르다 cuts hair or paper; passive -리- from M36 gives today's 잘리다. With 회사에서, the cut is employment, and the place marker 에서 names the employer one is removed from. It is blunt spoken Korean beside formal dismissal language."
+  },
+  {
+    "id": "g_m120_chama",
+    "cat": "concept",
+    "ko": "차마 말할 수 없어요",
+    "rom": "chama malhal su eopseoyo",
+    "lit": "truly I cannot say it",
+    "real": "I cannot bring myself to say it",
+    "note": "Today's 차마 requires a negative predicate: it names the hesitation that prevents an act. With the can-machine from M10 and M4's 말하다, 차마 말할 수 없어요 is not a statement about physical speech ability; it is an emotional refusal or inability to speak. Drop the negative and the frame loses its meaning."
+  },
+  {
+    "id": "g_m120_sinse",
+    "cat": "phrase",
+    "ko": "신세를 지다",
+    "rom": "sinsereul jida",
+    "lit": "to bear a lot owed",
+    "real": "to be indebted to someone for help",
+    "note": "Today's 신세 is one's dependent situation here, and 지다 means to bear an obligation in this fixed phrase. It expresses gratitude that help created a debt; use it with care because it also acknowledges a social imbalance."
+  },
+  {
+    "id": "g_m120_chinjeong",
+    "cat": "concept",
+    "ko": "친정",
+    "rom": "chinjeong",
+    "lit": "close-family household",
+    "real": "a married woman’s parents’ home, distinct from her husband’s family",
+    "note": "親 is the close kin of M81's 친절; 庭 is a household courtyard. 친정 is the married woman's birth-family home, while 시댁 (untaught) is her husband's family. The pair encodes where obligations and visits are expected in a marriage, which is why simply translating it as parents' house loses information."
   }
 ]

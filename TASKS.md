@@ -9,8 +9,8 @@
 > the tree (the checklist stopped at M39, the session log at M66) while authoring ran to
 > M117; the summary lines were brought back in line with the tree on 2026-09-26 rather than
 > re-listing eighty modules that CURRICULUM.md already carries. **Verified coverage on
-> 2026-09-26 (`npm run coverage:nikl`): grade A 100.0% · grade B 100.0% · grade C 48.4%
-> (1,285/2,655) · overall 75.3% of 5,543 — 126 module files on `main`.**
+> 2026-09-27 (`npm run coverage:nikl`): grade A 100.0% · grade B 100.0% · grade C 52.4%
+> (1,392/2,655) · overall 77.2% of 5,543 — 129 module files on `main`.**
 
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
@@ -111,11 +111,13 @@
 ## Content — Ring 3 (scoped with Nick 2026-09-19; map + contract in CURRICULUM.md §2c)
 - [x] Scope + tooling: Ring 3 targets the ~2,655 grade-C headwords plus the ~55 advanced glue patterns Ring 2 never touched; contract = **Band 6's pack shape as-is** (~34 words, 8 sentences, full-depth notes, garnish-free, 0–3 gaps, slim md); `npm run ring3:plan` over `reference/ring3-slices.tsv`, no new tooling *(2026-09-19)*
 - [x] **Band 7 — the grammar engine III (M85–M96, ordered)** — shipped in full: the essay/newsroom core, 3–5 glue parts per module, the advanced glue checklist worked down *(2026-09-19 → 2026-09-20)*
-- [ ] **Band 8 — the long tail (~60 packs, M97+, order-free)** — **in progress.** Shipped through **M117** (batches 1–7 + M115/M116/M117); M118–M120 slices reserved and briefed. Grade C **48.4% (1,285/2,655)**; ~1,370 headwords and roughly 37 packs remain. Check off when the C-list closes. *(opened 2026-09-20)*
+- [ ] **Band 8 — the long tail (~60 packs, M97+, order-free)** — **in progress.** Shipped through **M120** (M118 Collection Day · M119 Verbs of Doing and Undoing · M120 The Native Nouns, and the Adverbs of Manner). Grade C **52.4% (1,392/2,655)**; 1,263 headwords and roughly 35–37 packs remain. Check off when the C-list closes. *(opened 2026-09-20)*
 - [ ] Ring 3 closeout: the unranked proper nouns (고구려/금강산/대학로…, POS 고) — taught-as rows or a places pack, decided at the end per CURRICULUM.md §2c
 
 ## Content hygiene
 - [x] 2026-09-26 · Dropped stale **전** and **한** taught-as rows after M117 promoted them to headwords. M5 still teaches 오전 and the counter form 한; M13 still teaches 전에. M117 teaches 전(全) and 한(限), with notes distinguishing the older senses. `coverage:nikl` now runs without a WARN; the three-bucket totals are unchanged.
+
+- [x] 2026-09-27 · Dropped stale **인사** taught-as row after M118 promoted 人事/人士 to a headword; M19 still teaches the greeting via 인사하다. `coverage:nikl` has no stale-allowlist WARN.
 
 ## Phase B — Sharing (do not start without explicit decision)
 - [ ] Deploy static build + proxy; simple auth; per-user state sync — *still ungated as of 2026-09-26; the decision is with Nick and no engineer starts it without his answer*
@@ -220,3 +222,5 @@
   WARNs that allowlist entries 전 and 한 are now real headwords.
 
 - **2026-09-26 · Content hygiene:** removed only the two stale taught-as rows for 전 and 한. M117 teaches 전(全) before nouns and 한(限) in -는 한; M5's 오전 and counter-contraction 한 and M13's 전에 continue to teach the older senses. Confirmed the NIKL coverage report has no WARN and its grade A/B/C totals remain 100.0% / 100.0% / 48.4%; `npm run validate:content` and `npm test` pass.
+
+- **2026-09-27 · Ring 3 Band 8 batch 8 (M118–M120):** Shipped three 36-word grade-C packs, each with eight sentences and no new glue: M118 *Collection Day* (two gap cards), M119 *Verbs of Doing and Undoing* (three), M120 *The Native Nouns, and the Adverbs of Manner* (three). Two brief defects were fixed in separate commits before the affected modules: M118 incorrectly froze M36's 끊기다; M119 incorrectly froze M57's 예정. Each draft passed `verify-draft.py` (0 FAIL, 0 MANUAL) and `tools/quotes.py` (M118 19/0, M119 11/0, M120 8/0 verbatim/missing); the shipped frozen-word audit has no M118–M120 findings. Removed the stale 인사 taught-as row after M118 gave it a headword. Final gates: `npm run validate:content` 15/15, `npm run lint:lang` 0 FAIL/0 WARN across 4,335 words, 1,159 sentences and 368 gaps, `npm test` 138/138 in 15 files, `npm run build` passed (including 15/15 content tests), and `npm run coverage:nikl` grade C 1,392/2,655 = 52.4% (up from 1,285/2,655 = 48.4%), overall 77.2% of 5,543, no stale-allowlist WARN. The app UI was not run in this headless workspace; manual review should open all three module pages and check their rendered notes, sentence layers and gap cards.

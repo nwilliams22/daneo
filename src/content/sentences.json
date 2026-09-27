@@ -25869,5 +25869,170 @@
     "rom": "silsuga banbokdoedeorado pogihaji maseyo",
     "wordIds": ["w_silsu", "w_banbokdoeda", "w_pogihada"],
     "note": "Recycles -더라도 from M95: repeated mistakes do not cancel the instruction to continue. 반복되다 is the 되다 side of M75's 반복하다; it reports recurrence without naming who caused it. -지 마세요 is the older prohibition from M14."
+  },
+  {
+    "id": "s_m120_child_looks_cry",
+    "en": [
+      { "t": "That little kid", "role": "subject", "id": "s" },
+      { "t": "looks as if they might cry", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that little-kid-[subj]", "role": "subject", "id": "s" },
+      { "t": "cry-[badge] seems", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 꼬마가", "role": "subject", "id": "s" },
+      { "t": "울 듯해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu kkomaga ul deuthaeyo",
+    "wordIds": ["w_geu_det", "w_kkoma", "w_ulda"],
+    "note": "Recycles -(으)ㄹ 듯하다 from M87, a guarded guess about what may happen next. 꼬마 is affectionate and spoken, while the ending keeps the observer from claiming certainty about the child's feeling. M7's 울다 supplies the prospective action."
+  },
+  {
+    "id": "s_m120_barley_tea_table",
+    "en": [
+      { "t": "On the table,", "role": "place", "id": "p" },
+      { "t": "there was barley tea,", "role": "subject", "id": "s" },
+      { "t": "I noticed", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "table above-at", "role": "place", "id": "p" },
+      { "t": "barley-tea-[subj]", "role": "subject", "id": "s" },
+      { "t": "existed-I-saw", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "탁자 위에", "role": "place", "id": "p" },
+      { "t": "보리차가", "role": "subject", "id": "s" },
+      { "t": "있더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "takja wie borichaga itdeoragoyo",
+    "wordIds": ["w_takja", "w_wi", "w_bori", "w_cha", "w_itda"],
+    "note": "Recycles -더라고요 from M88 for a thing the speaker found on arrival. Today's 보리 joins M2's 차 in the ordinary barley-tea compound; 탁자 is the café or living-room table, rather than M6's 책상, the study desk."
+  },
+  {
+    "id": "s_m120_time_desolate",
+    "en": [
+      { "t": "As time passes,", "role": "other", "id": "a" },
+      { "t": "it feels more desolate", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "time-[subj] pass-the-more", "role": "other", "id": "a" },
+      { "t": "becomes-desolate", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "시간이 지날수록", "role": "other", "id": "a" },
+      { "t": "쓸쓸해져요", "role": "verb", "id": "v" }
+    ],
+    "rom": "sigani jinalsurok sseulsseulhaejyeoyo",
+    "wordIds": ["w_sigan", "w_jinada", "w_sseulsseulhada"],
+    "note": "Recycles -(으)ㄹ수록 from M89: each further passage of time increases the feeling. 쓸쓸하다 can describe the atmosphere around a person or place, while M34's 외롭다 more directly reports someone's inner loneliness."
+  },
+  {
+    "id": "s_m120_rice_report",
+    "en": [
+      { "t": "According to the news,", "role": "other", "id": "a" },
+      { "t": "the rice plants", "role": "subject", "id": "s" },
+      { "t": "grew", "role": "verb", "id": "v" },
+      { "t": "well", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "news-according-to", "role": "other", "id": "a" },
+      { "t": "rice-plant-[subj]", "role": "subject", "id": "s" },
+      { "t": "well", "role": "other", "id": "m" },
+      { "t": "grew", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "뉴스에 따르면", "role": "other", "id": "a" },
+      { "t": "벼가", "role": "subject", "id": "s" },
+      { "t": "잘", "role": "other", "id": "m" },
+      { "t": "자랐어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "nyuseue ttareumyeon byeoga jal jarasseoyo",
+    "wordIds": ["w_nyuseu", "w_byeo", "w_jal", "w_jarada"],
+    "note": "Recycles 에 따르면 from M90, assigning the report to its source. 벼 is the growing plant in M102's 논, before it becomes M59's 쌀 and then M1's 밥. The three words name three stages, not interchangeable rice synonyms."
+  },
+  {
+    "id": "s_m120_housework_open_window",
+    "en": [
+      { "t": "While doing the housework,", "role": "other", "id": "a" },
+      { "t": "I opened", "role": "verb", "id": "v" },
+      { "t": "the window", "role": "object", "id": "o" },
+      { "t": "wide", "role": "other", "id": "m" }
+    ],
+    "gloss": [
+      { "t": "housework-[obj] do-[badge] occasion-on", "role": "other", "id": "a" },
+      { "t": "window-[obj]", "role": "object", "id": "o" },
+      { "t": "wide", "role": "other", "id": "m" },
+      { "t": "opened", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "집안일을 하는 김에", "role": "other", "id": "a" },
+      { "t": "창을", "role": "object", "id": "o" },
+      { "t": "활짝", "role": "other", "id": "m" },
+      { "t": "열었어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jibanireul haneun gime changeul hwaljjak yeoreosseoyo",
+    "wordIds": ["w_jibanil", "w_hada", "w_chang", "w_hwaljjak", "w_yeolda"],
+    "note": "Recycles -는 김에 from M91: the chores provide an occasion to air the room too. 활짝 gives the opening its full width, and bare 창 is the 窓 inside M6's 창문. The window is the object of 열다, not a place."
+  },
+  {
+    "id": "s_m120_appetite_barley_tea",
+    "en": [
+      { "t": "Because I had no appetite,", "role": "other", "id": "a" },
+      { "t": "I drank", "role": "verb", "id": "v" },
+      { "t": "barley tea", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "appetite-[subj] not-exist-because", "role": "other", "id": "a" },
+      { "t": "barley-tea-[obj]", "role": "object", "id": "o" },
+      { "t": "drank", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "입맛이 없길래", "role": "other", "id": "a" },
+      { "t": "보리차를", "role": "object", "id": "o" },
+      { "t": "마셨어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "immasi eopgillae borichareul masyeosseoyo",
+    "wordIds": ["w_immat", "w_eopda", "w_bori", "w_cha", "w_masida"],
+    "note": "Recycles -길래 from M93: the lack of appetite is what the speaker noticed before choosing a drink. 입맛 is M14's 입 plus M18's 맛; 보리차 is barley with M2's 차. The main verb reports the speaker's response."
+  },
+  {
+    "id": "s_m120_neighborhood_hill",
+    "en": [
+      { "t": "After walking through every corner of the neighborhood,", "role": "other", "id": "a" },
+      { "t": "I found", "role": "verb", "id": "v" },
+      { "t": "a hill", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "neighborhood-[obj] every-corner walk-as-I-went", "role": "other", "id": "a" },
+      { "t": "hill-[obj]", "role": "object", "id": "o" },
+      { "t": "found", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "동네를 구석구석 걷다 보니", "role": "other", "id": "a" },
+      { "t": "언덕을", "role": "object", "id": "o" },
+      { "t": "찾았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "dongnereul guseokguseok geotda boni eondeogeul chajasseoyo",
+    "wordIds": ["w_dongne", "w_guseokguseok", "w_geotda", "w_eondeok", "w_chatda"],
+    "note": "Recycles -다 보니 from M94, a result noticed over the course of an action. M102's 구석 doubles into 구석구석 to cover the whole neighborhood; 언덕 is a town slope rather than M11's 산, the mountain."
+  },
+  {
+    "id": "s_m120_mistake_no_scolding",
+    "en": [
+      { "t": "Even if someone is mistaken,", "role": "other", "id": "a" },
+      { "t": "please do not scold them", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "mistaken-even-if", "role": "other", "id": "a" },
+      { "t": "scold-not-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "착각하더라도", "role": "other", "id": "a" },
+      { "t": "야단치지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chakgakhadeorado yadanchiji maseyo",
+    "wordIds": ["w_chakgak", "w_hada", "w_yadan", "w_chida"],
+    "note": "Recycles -더라도 from M95, keeping the instruction despite a mistake. Today's 착각 concerns what someone believed; M63's 실수 concerns what they did. 야단치다 is the parent or teacher's telling-off, and the prohibition -지 마세요 came from M14."
   }
 ]

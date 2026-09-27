@@ -265,6 +265,10 @@ still required. Batches of 2–3 packs via the drafter pipeline. The
 unranked proper nouns (고구려/금강산/대학로…, POS 고) sort last and are
 decided at the end — taught-as rows or a places pack.
 
+**Band 8 shipped through M120 (2026-09-27):** M118 *Collection Day*, M119
+*Verbs of Doing and Undoing*, and M120 *The Native Nouns, and the Adverbs
+of Manner*. All three use the Band 6 pack contract with no new glue.
+
 ### Ring 3 glue checklist (~55 patterns)
 
 -(으)며 · -(으)므로 · -(으)나 · -고서/-고도 · -(으)로 인해 · 에 비해 ·

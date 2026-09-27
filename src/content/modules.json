@@ -2797,5 +2797,27 @@
       "s_m119_accident_decrease_report", "s_m119_interrupt_story", "s_m119_problem_worth_discussing", "s_m119_bullying_witnessed",
       "s_m119_practice_recognition", "s_m119_fired_started_again", "s_m119_found_cause", "s_m119_mistake_repeats"
     ]
+  },
+  {
+    "id": "m120",
+    "title": "The Native Nouns, and the Adverbs of Manner",
+    "order": 129,
+    "ring": 2,
+    "contentMd": "modules/module-120.md",
+    "wordIds": [
+      "w_immat", "w_guseokguseok", "w_nunbusida", "w_jibanil",
+      "w_jarang", "w_bori", "w_chang", "w_ttangsok",
+      "w_eondeok", "w_byeo", "w_chinjeong", "w_kkeun",
+      "w_mitbadak", "w_ureumsori", "w_takja", "w_kkoma",
+      "w_anpak", "w_chakgak", "w_sinse", "w_yadan",
+      "w_tteutbak", "w_hansungan", "w_sseulsseulhada", "w_neongneokhada",
+      "w_juyohada", "w_tagwolhada", "w_kkeunimeopda", "w_chamdoeda",
+      "w_hwak", "w_golgoru", "w_geujeseoya", "w_geureondaero",
+      "w_hwaljjak", "w_chama", "w_teong", "w_kkeuteopsi"
+    ],
+    "sentenceIds": [
+      "s_m120_child_looks_cry", "s_m120_barley_tea_table", "s_m120_time_desolate", "s_m120_rice_report",
+      "s_m120_housework_open_window", "s_m120_appetite_barley_tea", "s_m120_neighborhood_hill", "s_m120_mistake_no_scolding"
+    ]
   }
 ]
