@@ -3256,5 +3256,32 @@
     "lit": "personnel movement",
     "real": "staff reshuffle or reassignment",
     "note": "This is 人事 personnel, not the greeting in M19's 인사하다 and not 人士 a notable person. 이동 is movement from M64; together the phrase announces who moved to another post, a common headline and office notice."
+  },
+  {
+    "id": "g_m119_maeummeokgi",
+    "cat": "phrase",
+    "ko": "마음먹기에 달렸다",
+    "rom": "maeummeokgie dallyeotda",
+    "lit": "it hangs on making up the heart",
+    "real": "it depends on your resolve",
+    "note": "M19's 마음 and M1's 먹다 weld into today's 마음먹다. The -기 nominalizer from M13 lets the decision become the thing a result depends on; The fixed 달리다 frame here means depends on; it is a separate sense from the running verb M17 taught. Use it when the obstacle is resolve, not when outside conditions control the result."
+  },
+  {
+    "id": "g_m119_ihae_andwae",
+    "cat": "phrase",
+    "ko": "이해가 안 돼요",
+    "rom": "ihaega an dwaeyo",
+    "lit": "understanding does not happen",
+    "real": "I do not get it",
+    "note": "Today's 이해되다 is the passive-feeling side of M10's 이해하다. Korean makes 이해 the subject and says it fails to happen; the phrase is a normal request for explanation, not a diagnosis that the speaker cannot think."
+  },
+  {
+    "id": "g_m119_fired",
+    "cat": "phrase",
+    "ko": "회사에서 잘리다",
+    "rom": "hoesaeseo jallida",
+    "lit": "to be cut from the company",
+    "real": "to get fired",
+    "note": "M40's 자르다 cuts hair or paper; passive -리- from M36 gives today's 잘리다. With 회사에서, the cut is employment, and the place marker 에서 names the employer one is removed from. It is blunt spoken Korean beside formal dismissal language."
   }
 ]

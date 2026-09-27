@@ -2775,5 +2775,27 @@
       "s_m118_small_plane_news", "s_m118_route_changed", "s_m118_signup_benefit", "s_m118_merchant_passion",
       "s_m118_narrow_gap_collisions", "s_m118_forces_arrive_depart", "s_m118_list_reference", "s_m118_department_benefit"
     ]
+  },
+  {
+    "id": "m119",
+    "title": "Verbs of Doing and Undoing",
+    "order": 128,
+    "ring": 2,
+    "contentMd": "modules/module-119.md",
+    "wordIds": [
+      "w_kkieodeulda", "w_injeongbatda", "w_eojjihada", "w_soyuhada",
+      "w_aranaeda", "w_bureojida", "w_yebanghada", "w_jeonhwanhada",
+      "w_gamsohada", "w_goerophida", "w_jallida", "w_haenghaejida",
+      "w_banbokdoeda", "w_yejeongdoeda", "w_heoyongdoeda", "w_ihaedoeda",
+      "w_domangchida", "w_donguihada", "w_jeogeunghada", "w_haenghada",
+      "w_yongseohada", "w_uinonhada", "w_banseonghada", "w_daepyohada",
+      "w_yuuihada", "w_tohada", "w_maeummeokda", "w_bureooda",
+      "w_tagonada", "w_nareuda", "w_nollida", "w_neureonota",
+      "w_duryeowohada", "w_sseulda", "w_geopum", "w_kkeuteopda"
+    ],
+    "sentenceIds": [
+      "s_m119_accident_decrease_report", "s_m119_interrupt_story", "s_m119_problem_worth_discussing", "s_m119_bullying_witnessed",
+      "s_m119_practice_recognition", "s_m119_fired_started_again", "s_m119_found_cause", "s_m119_mistake_repeats"
+    ]
   }
 ]

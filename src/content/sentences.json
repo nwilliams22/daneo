@@ -25710,5 +25710,164 @@
     "rom": "buseoga bakkwideorado hoewon hyetaegeun gatayo",
     "wordIds": ["w_buseo", "w_bakkwida", "w_hoewon", "w_hyetaek", "w_gatda_same"],
     "note": "Recycles -더라도 from M95: a change in department does not change the benefit. 부서 is an office unit, and 혜택 is the perk offered to members. The clause is a concession, so the main claim is 같아요."
+  },
+  {
+    "id": "s_m119_accident_decrease_report",
+    "en": [
+      { "t": "According to the report,", "role": "other", "id": "a" },
+      { "t": "accidents", "role": "subject", "id": "s" },
+      { "t": "decreased", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "report-according-to", "role": "other", "id": "a" },
+      { "t": "accident-[subj]", "role": "subject", "id": "s" },
+      { "t": "decreased", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "보고서에 따르면", "role": "other", "id": "a" },
+      { "t": "사고가", "role": "subject", "id": "s" },
+      { "t": "감소했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "bogoseoe ttareumyeon sagoga gamsohaesseoyo",
+    "wordIds": ["w_bogoseo", "w_sago", "w_gamsohada"],
+    "note": "Recycles 에 따르면 from M90 to report a statistic through a named source. 감소하다 is the report's falling number, paired with M89's 증가하다 on the same chart; M35's 줄다 is the plainer spoken fall."
+  },
+  {
+    "id": "s_m119_interrupt_story",
+    "en": [
+      { "t": "Because a friend butted in,", "role": "other", "id": "a" },
+      { "t": "the story", "role": "subject", "id": "s" },
+      { "t": "was cut off", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj] butt-in-because-of", "role": "other", "id": "a" },
+      { "t": "story-[subj]", "role": "subject", "id": "s" },
+      { "t": "was-cut-off", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "친구가 끼어드는 바람에", "role": "other", "id": "a" },
+      { "t": "이야기가", "role": "subject", "id": "s" },
+      { "t": "끊겼어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "chinguga kkieodeuneun barame iyagiga kkeunkyeosseoyo",
+    "wordIds": ["w_chingu", "w_kkieodeulda", "w_iyagi", "w_kkeungida"],
+    "note": "Recycles -는 바람에 from M86, which makes the interruption the unwelcome cause. M107's 끼우다 promised the traffic verb 끼어들다; here it cuts into talk. M36's 끊기다 is already taught, so the story is cut off, not deliberately ended by the speaker."
+  },
+  {
+    "id": "s_m119_problem_worth_discussing",
+    "en": [
+      { "t": "That problem", "role": "subject", "id": "s" },
+      { "t": "is worth discussing", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "that problem-[topic]", "role": "subject", "id": "s" },
+      { "t": "discuss-[badge] worth-is", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 문제는", "role": "subject", "id": "s" },
+      { "t": "의논할 만해요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu munjeneun uinonhal manhaeyo",
+    "wordIds": ["w_geu_det", "w_munje", "w_uinonhada"],
+    "note": "Recycles -(으)ㄹ 만하다 from M87, judging a proposed action worth doing. 의논하다 is a conversation with someone aimed at a decision; M44's 토론 is a formal debate. The sentence proposes discussion without yet choosing a side."
+  },
+  {
+    "id": "s_m119_bullying_witnessed",
+    "en": [
+      { "t": "That person", "role": "subject", "id": "s" },
+      { "t": "was bullying", "role": "verb", "id": "v" },
+      { "t": "a friend, I noticed", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "that person-[subj]", "role": "subject", "id": "s" },
+      { "t": "friend-[obj]", "role": "object", "id": "o" },
+      { "t": "tormented-I-saw", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "그 사람이", "role": "subject", "id": "s" },
+      { "t": "친구를", "role": "object", "id": "o" },
+      { "t": "괴롭히더라고요", "role": "verb", "id": "v" }
+    ],
+    "rom": "geu sarami chingureul goerophideoragoyo",
+    "wordIds": ["w_geu_det", "w_saram", "w_chingu", "w_goerophida"],
+    "note": "Recycles -더라고요 from M88, reporting what the speaker witnessed. M42's 괴롭다 is the sufferer's state; 괴롭히다 is what this person does to someone else, so the friend is the object."
+  },
+  {
+    "id": "s_m119_practice_recognition",
+    "en": [
+      { "t": "The more I practised,", "role": "other", "id": "a" },
+      { "t": "my skill", "role": "object", "id": "o" },
+      { "t": "was recognized", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "practise-the-more", "role": "other", "id": "a" },
+      { "t": "ability-[obj]", "role": "object", "id": "o" },
+      { "t": "was-recognized", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "연습할수록", "role": "other", "id": "a" },
+      { "t": "실력을", "role": "object", "id": "o" },
+      { "t": "인정받았어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "yeonseuphalsurok sillyeogeul injeongbadasseoyo",
+    "wordIds": ["w_yeonseuphada", "w_sillyeok", "w_injeongbatda"],
+    "note": "Recycles -(으)ㄹ수록 from M89 to make repetition and recognition move together. 인정받다 is M93's 인정하다 on the receiving-side 받다 rail: the skill is what others recognize. The speaker reports a past outcome, not a promise that every practice session earns praise."
+  },
+  {
+    "id": "s_m119_fired_started_again",
+    "en": [
+      { "t": "Even after being fired from the company,", "role": "other", "id": "a" },
+      { "t": "I started again", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "company-from was-cut-and-yet", "role": "other", "id": "a" },
+      { "t": "again started", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "회사에서 잘리고도", "role": "other", "id": "a" },
+      { "t": "다시 시작했어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "hoesaeseo jalligodo dasi sijakhaesseoyo",
+    "wordIds": ["w_hoesa", "w_jallida", "w_dasi", "w_sijakhada"],
+    "note": "Recycles -고도 from M85, conceding that a bad event did happen before the main action. 잘리다 is the M36 passive of M40's 자르다; with 회사에서 it means fired, not physically cut."
+  },
+  {
+    "id": "s_m119_found_cause",
+    "en": [
+      { "t": "While looking through the materials,", "role": "other", "id": "a" },
+      { "t": "I worked out", "role": "verb", "id": "v" },
+      { "t": "the cause", "role": "object", "id": "o" }
+    ],
+    "gloss": [
+      { "t": "materials-[obj] look-[badge] occasion-on", "role": "other", "id": "a" },
+      { "t": "cause-[obj]", "role": "object", "id": "o" },
+      { "t": "found-out", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "자료를 찾는 김에", "role": "other", "id": "a" },
+      { "t": "원인을", "role": "object", "id": "o" },
+      { "t": "알아냈어요", "role": "verb", "id": "v" }
+    ],
+    "rom": "jaryoreul channeun gime wonineul aranaesseoyo",
+    "wordIds": ["w_jaryo", "w_chatda", "w_wonin", "w_aranaeda"],
+    "note": "Recycles -는 김에 from M91: the search was already underway, and finding the cause came with it. 알아내다 is M4's 알다 plus M28's 내다, the answer brought into the open; M86's 원인 is what the inquiry sought."
+  },
+  {
+    "id": "s_m119_mistake_repeats",
+    "en": [
+      { "t": "Even if the mistake happens again,", "role": "other", "id": "a" },
+      { "t": "do not give up", "role": "verb", "id": "v" }
+    ],
+    "gloss": [
+      { "t": "mistake-[subj] repeats-even-if", "role": "other", "id": "a" },
+      { "t": "give-up-not-please", "role": "verb", "id": "v" }
+    ],
+    "ko": [
+      { "t": "실수가 반복되더라도", "role": "other", "id": "a" },
+      { "t": "포기하지 마세요", "role": "verb", "id": "v" }
+    ],
+    "rom": "silsuga banbokdoedeorado pogihaji maseyo",
+    "wordIds": ["w_silsu", "w_banbokdoeda", "w_pogihada"],
+    "note": "Recycles -더라도 from M95: repeated mistakes do not cancel the instruction to continue. 반복되다 is the 되다 side of M75's 반복하다; it reports recurrence without naming who caused it. -지 마세요 is the older prohibition from M14."
   }
 ]
