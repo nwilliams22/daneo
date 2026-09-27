@@ -1,7 +1,7 @@
 # PROJECT.md — 단어 (Daneo) · A Word-First Korean Learning App
 
 > **Working name:** Daneo (단어, "word") — rename freely.
-> **Owner:** Nick · **Status:** Phase A feature-complete — A.0–A.4 built (2026-08-01 → 2026-08-02) as a Tauri 2 desktop app; see §7 roadmap and TASKS.md session log. Next: polish pass (TASKS.md future work) or the Phase B decision.
+> **Owner:** Nick · **Status:** the app is Phase A feature-complete — A.0–A.4 built (2026-08-01 → 2026-08-02) as a Tauri 2 desktop app. **The live work is content.** Ring 1 (M1–M30 + readings + appendices) and Ring 2 (M31–M84) are shipped in full; Ring 3 Band 7 (M85–M96) is shipped and Band 8 is in progress through M117 — **126 modules**, NIKL grade A **100%**, grade B **100%**, grade C **48.4%** *(verified 2026-09-26 via `npm run coverage:nikl`)*. **CURRICULUM.md is the live content tracker** (§2 Ring 1, §2b Ring 2, §2c Ring 3); TASKS.md holds the app checklist and the session log. Next non-content decision: **the Phase B go/no-go (§7), still unanswered.**
 > **This document is the source of truth for Claude Code sessions. Read fully before writing code.**
 
 ---
