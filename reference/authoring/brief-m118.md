@@ -92,7 +92,7 @@ than introduced, and each note opens with the line that promised it.
    quote) + 突 (to dash — a first): a collision, and equally a clash of
    people: 의견 충돌 (M24's 의견)), 연결 (PAYS M72's 연결하다 — lookup.py the
    owner and quote its exact span verbatim; the bare noun dismounts: 연결이
-   끊기다 (끊기다 frozen; M20's 끊다 is its parent — verify)), 가입 (PAYS
+   끊기다 (M36's 끊기다 is already taught; M20's 끊다 is its active parent — cite both)), 가입 (PAYS
    M58's 회원 — lookup.py the owner and quote its exact span verbatim; 加入
    — 加 of M89's 증가하다 ("增加" — verify) + 入 of M12's 입구 (verify):
    joining, signing up — 가입하다, 회원 가입, 보험 가입 (M43's 보험)), 설문
