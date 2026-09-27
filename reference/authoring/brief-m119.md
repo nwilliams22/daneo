@@ -65,8 +65,7 @@ a 되다-flip, or 하다 on a noun already owned.
    (M75's 반복하다 flipped — quote that note; 실수가 반복되다 (M63's 실수);
    the 되다 row M70 shelved), 예정되다 (豫定 — 豫 of M34's 예상 (verify that
    note's decode and quote it) + 定 of M33's 결정하다 (verify and quote): to
-   be scheduled — 회의가 예정되다 (M10's 회의); 예정 the bare noun rides
-   frozen, and 예정대로 = as planned), 허용되다 (M115's 허용 if shipped, else
+   be scheduled — 회의가 예정되다 (M10's 회의); M57's 예정 is already taught (quote that note), and 예정대로 = as planned), 허용되다 (M115's 허용 if shipped, else
    M64's 허용하다 flipped — verify which and quote it; 반입이 허용되다 (반입
    frozen)), 이해되다 (M10's 이해하다 flipped — quote that note; and the
    idiom worth the entry: 이해가 안 돼요 is how Korean says "I don't get
