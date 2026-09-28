@@ -26034,5 +26034,167 @@
     "rom": "chakgakhadeorado yadanchiji maseyo",
     "wordIds": ["w_chakgak", "w_hada", "w_yadan", "w_chida"],
     "note": "Recycles -더라도 from M95, keeping the instruction despite a mistake. Today's 착각 concerns what someone believed; M63's 실수 concerns what they did. 야단치다 is the parent or teacher's telling-off, and the prohibition -지 마세요 came from M14."
+  },
+  {
+    "id": "s_m121_01",
+    "en": [
+      { "t": "The registration card", "role": "subject", "id": "a" },
+      { "t": "seems to be missing", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "registration-card-[subj]", "role": "subject", "id": "a" },
+      { "t": "not-exist seems", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "등록증이", "role": "subject", "id": "a" },
+      { "t": "없을 듯해요", "role": "verb", "id": "b" }
+    ],
+    "rom": "deungnokjeungi eopseul deuthaeyo",
+    "wordIds": ["w_deungnokjeung", "w_eopda"],
+    "note": "Recycles -(으)ㄹ 듯하다 from M87. This sentence uses 등록증 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m121_02",
+    "en": [
+      { "t": "At the exhibition,", "role": "place", "id": "a" },
+      { "t": "there were", "role": "subject", "id": "b" },
+      { "t": "many people, I noticed", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "exhibition-at", "role": "place", "id": "a" },
+      { "t": "people-[subj]", "role": "subject", "id": "b" },
+      { "t": "many-I-saw", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "전시회에", "role": "place", "id": "a" },
+      { "t": "사람이", "role": "subject", "id": "b" },
+      { "t": "많더라고요", "role": "verb", "id": "c" }
+    ],
+    "rom": "jeonsihoee sarami manteoragoyo",
+    "wordIds": ["w_jeonsihoe", "w_saram", "w_manta"],
+    "note": "Recycles -더라고요 from M88. This sentence uses 전시회 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m121_03",
+    "en": [
+      { "t": "The more I listen to jazz,", "role": "other", "id": "a" },
+      { "t": "the more I like it", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "jazz-[obj] hear-the-more", "role": "other", "id": "a" },
+      { "t": "more good", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "재즈를 들을수록", "role": "other", "id": "a" },
+      { "t": "더 좋아요", "role": "verb", "id": "b" }
+    ],
+    "rom": "jaejeureul deureulsurok deo joayo",
+    "wordIds": ["w_jaejeu", "w_deutda", "w_deo", "w_jota"],
+    "note": "Recycles -(으)ㄹ수록 from M89. This sentence uses 재즈 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m121_04",
+    "en": [
+      { "t": "According to the news,", "role": "other", "id": "a" },
+      { "t": "the ambassador", "role": "subject", "id": "b" },
+      { "t": "came", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "news-according-to", "role": "other", "id": "a" },
+      { "t": "ambassador-[subj]", "role": "subject", "id": "b" },
+      { "t": "came", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "뉴스에 따르면", "role": "other", "id": "a" },
+      { "t": "대사가", "role": "subject", "id": "b" },
+      { "t": "왔어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "nyuseue ttareumyeon daesaga wasseoyo",
+    "wordIds": ["w_nyuseu", "w_daesa", "w_oda"],
+    "note": "Recycles 에 따르면 from M90. This sentence uses 대사 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m121_05",
+    "en": [
+      { "t": "While going to the shop,", "role": "other", "id": "a" },
+      { "t": "I buy", "role": "object", "id": "b" },
+      { "t": "cream", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "shop-to go-on-the-occasion", "role": "other", "id": "a" },
+      { "t": "cream-[obj]", "role": "object", "id": "b" },
+      { "t": "buy", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "상점에 가는 김에", "role": "other", "id": "a" },
+      { "t": "크림을", "role": "object", "id": "b" },
+      { "t": "사요", "role": "verb", "id": "c" }
+    ],
+    "rom": "sangjeome ganeun gime keurimeul sayo",
+    "wordIds": ["w_sangjeom", "w_gada", "w_keurim", "w_sada"],
+    "note": "Recycles -는 김에 from M91. This sentence uses 상점, 크림 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m121_06",
+    "en": [
+      { "t": "Because there was so much interference,", "role": "other", "id": "a" },
+      { "t": "I went", "role": "place", "id": "b" },
+      { "t": "home", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "interference-[subj] much-so", "role": "other", "id": "a" },
+      { "t": "home-to", "role": "place", "id": "b" },
+      { "t": "went", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "방해가 많길래", "role": "other", "id": "a" },
+      { "t": "집에", "role": "place", "id": "b" },
+      { "t": "갔어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "banghaega mankillae jibe gasseoyo",
+    "wordIds": ["w_banghae", "w_manta", "w_jip", "w_gada"],
+    "note": "Recycles -길래 from M93. This sentence uses 방해 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m121_07",
+    "en": [
+      { "t": "While looking for the registration card,", "role": "other", "id": "a" },
+      { "t": "I found my name", "role": "subject", "id": "b" },
+      { "t": "was also wrong", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "registration-card-[obj] seek-as-I-did", "role": "other", "id": "a" },
+      { "t": "name-too", "role": "subject", "id": "b" },
+      { "t": "was-wrong", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "등록증을 찾다 보니", "role": "other", "id": "a" },
+      { "t": "이름도", "role": "subject", "id": "b" },
+      { "t": "틀렸어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "deungnokjeungeul chatda boni ireumdo teullyeosseoyo",
+    "wordIds": ["w_deungnokjeung", "w_chatda", "w_ireum", "w_teullida"],
+    "note": "Recycles -다 보니 from M94. This sentence uses 등록증 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m121_08",
+    "en": [
+      { "t": "Even if the ambassador is late,", "role": "other", "id": "a" },
+      { "t": "we", "role": "subject", "id": "b" },
+      { "t": "wait", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "ambassador-[subj] late-even-if", "role": "other", "id": "a" },
+      { "t": "we-[topic]", "role": "subject", "id": "b" },
+      { "t": "wait", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "대사가 늦더라도", "role": "other", "id": "a" },
+      { "t": "우리는", "role": "subject", "id": "b" },
+      { "t": "기다려요", "role": "verb", "id": "c" }
+    ],
+    "rom": "daesaga neutdeorado urineun gidaryeoyo",
+    "wordIds": ["w_daesa", "w_neutda", "w_uri", "w_gidarida"],
+    "note": "Recycles -더라도 from M95. This sentence uses 대사 from the current slice in a new setting."
   }
 ]
