@@ -87,7 +87,7 @@
 - [x] Coverage allowlist: `reference/nikl-taught-as.tsv` (139 curated entries, each naming its teaching home — pattern 55 / note 32 / hada-noun 24 / interlude 12 / glue 9 / formula 4 / proper 3) + three-bucket coverage:nikl report with hygiene warnings (stale/unknown entries) — **grade A now 98.2% accounted for, 16 genuinely missing** (interjections 어/예, 자동차, 잡지, 양복, 목욕/세수, 실례(하다), 잡수시다… — the honest tail, mostly S1/Ring-2 fodder) *(2026-08-10)*
 - [x] Interlude: 준말 — Korean Shrinks (order 34, Reading 4): the one-off footnotes (좀/거/뭐/그럼/얘기/요즘/오랜만/아줌마/맘/갖다) assembled into the frequency-pressure system, the pronoun+particle fusion table (난/전/내/제 — M17's 제 was a 준말 all along — 이게/그건/그걸/뭘), the inflate-it reading habit, and the ㅋㅋ/ㅇㅇ hand-off to S1 *(2026-08-10)*
 - [x] Interlude: Konglish — the Adaptation Machine (order 35, Reading 5): the sound converter (F→ㅍ, V→ㅂ, Z→ㅈ, TH→ㅅ, 으-cushions), the clip machine (셀카/에어컨/아파트/알바 — German via two borrowings), made-in-Korea English (핸드폰/원피스/스킨십/아이쇼핑), the false-friends table (미팅/컨닝/샤프/비닐/핸들/헬스 joining 사이다/서비스), and the long-haul immigrants (빵's Portuguese passport) *(2026-08-10)*
-- [ ] Decide Ring 2 module format (leaner than the M3–M26 contract; pipeline-assisted per CURRICULUM.md §1) — *left open deliberately. The **trimmed contract** was scoped with Nick on 2026-08-10 and written into CURRICULUM.md §2b, and every module from M31 to M117 shipped under it (Ring 3 §2c reuses the same shape). So nothing is blocked: this box is waiting only on Nick's explicit confirmation that the contract stands for the ~37 grade-C packs still to come. Do not check it without that word.*
+- [x] Decide Ring 2 module format (leaner than the M3–M26 contract; pipeline-assisted per CURRICULUM.md §1) — the **trimmed contract** was scoped with Nick on 2026-08-10, written into CURRICULUM.md §2b, and reused as-is by Ring 3 §2c. **Nick confirmed on 2026-09-27 that the contract stands unchanged for the ~35–37 grade-C packs still to come** — no renegotiation, keep authoring to the shipped shape *(2026-08-10, confirmed 2026-09-27)*
 
 - [x] Appendix S2 — The Written Register (order 37): the stiff connectives 및/또는/즉/그러므로/등 as recognition vocabulary, the sign-decoding kit (금지/주의/사용/비상구/고장/영업/공사 + door verbs 밀다/당기다), the ○○ 중 busy-sign machine (word + gap item), the 하오체 ghost register (미시오/당기시오 gap item; -지 마시오 as sign-costume -지 마세요), and headline grammar (김치, 세계로 가다); 6 sentences transcribed from doors/shutters/front pages incl. -지 않다 in 합니다체 — the register map complete: 합니다체/해요체/반말/texting/written *(2026-08-10)*
 - [x] Appendix S3 — Hanja, the Cheat Code (order 38, wordless reading): the ~60 stealth-taught Sino roots lined up in decoder tables (people/places/time/doing/qualities, each row citing owned words), the reveal that the homograph radar was hanja-collision detection all along (화 話/火, 문 文/門, 미 美/未, 남 南/男, 교 校/敎), the guess-before-lookup method (수학/대학생/음식점), and the Ring 2 pitch: grade-B vocabulary is two-root compounds of this page *(2026-08-10)* — **the Ring 1 shelf is fully shipped: 30 modules + 5 readings + 3 appendices**
@@ -119,8 +119,8 @@
 
 - [x] 2026-09-27 · Dropped stale **인사** taught-as row after M118 promoted 人事/人士 to a headword; M19 still teaches the greeting via 인사하다. `coverage:nikl` has no stale-allowlist WARN.
 
-## Phase B — Sharing (do not start without explicit decision)
-- [ ] Deploy static build + proxy; simple auth; per-user state sync — *still ungated as of 2026-09-26; the decision is with Nick and no engineer starts it without his answer*
+## Phase B — Sharing (decided 2026-09-27: not yet — Ring 3 first)
+- [ ] Deploy static build + proxy; simple auth; per-user state sync — *deferred by Nick on 2026-09-27: **do not start Phase B until Ring 3 is complete** (the grade-C list closed and the §2c closeout done). Content keeps the whole budget until then; no hosting spend, no exposed API key, no accounts. Revisit when Band 8 finishes — that revisit is the only thing that reopens this item, and Phase D stays behind it.*
 
 ## Phase D — Local AI (design only; full plan in PLAN-local-model.md)
 - [ ] In-process llama.cpp translator + Daneo tutor, optional model download (4B std / 3B Lite) — *status: design, not yet started. PROJECT.md §7 blocks it until the core is complete and puts the Phase B decision first.*
@@ -222,5 +222,17 @@
   WARNs that allowlist entries 전 and 한 are now real headwords.
 
 - **2026-09-26 · Content hygiene:** removed only the two stale taught-as rows for 전 and 한. M117 teaches 전(全) before nouns and 한(限) in -는 한; M5's 오전 and counter-contraction 한 and M13's 전에 continue to teach the older senses. Confirmed the NIKL coverage report has no WARN and its grade A/B/C totals remain 100.0% / 100.0% / 48.4%; `npm run validate:content` and `npm test` pass.
+
+- **2026-09-27 · Two owner decisions recorded (no content or code change):** the two boxes left
+  unchecked by the 2026-09-26 reconciliation were put to Nick and answered. **(1) The module
+  format stands.** The trimmed contract (CURRICULUM.md §2b, reused as-is by §2c) governs the
+  remaining grade-C packs unchanged — no renegotiation, so the Ring 2 format box above is now
+  checked and CURRICULUM.md §2c records the confirmation. **(2) Phase B is deferred until Ring 3
+  is complete.** Not cancelled and not started: no deploy, no household auth, no state sync, no
+  hosting spend and no exposed API key until the grade-C list closes and the §2c closeout is
+  done. Content holds the whole budget until then, and Phase D stays behind Phase B as PROJECT.md
+  §7 already says. The next revisit of Phase B is the end of Band 8 — nothing else reopens it.
+  Net effect: **no decision gates authoring any more.** The next action is the next Band 8 batch
+  (M121+), under the contract just confirmed.
 
 - **2026-09-27 · Ring 3 Band 8 batch 8 (M118–M120):** Shipped three 36-word grade-C packs, each with eight sentences and no new glue: M118 *Collection Day* (two gap cards), M119 *Verbs of Doing and Undoing* (three), M120 *The Native Nouns, and the Adverbs of Manner* (three). Two brief defects were fixed in separate commits before the affected modules: M118 incorrectly froze M36's 끊기다; M119 incorrectly froze M57's 예정. Each draft passed `verify-draft.py` (0 FAIL, 0 MANUAL) and `tools/quotes.py` (M118 19/0, M119 11/0, M120 8/0 verbatim/missing); the shipped frozen-word audit has no M118–M120 findings. Removed the stale 인사 taught-as row after M118 gave it a headword. Final gates: `npm run validate:content` 15/15, `npm run lint:lang` 0 FAIL/0 WARN across 4,335 words, 1,159 sentences and 368 gaps, `npm test` 138/138 in 15 files, `npm run build` passed (including 15/15 content tests), and `npm run coverage:nikl` grade C 1,392/2,655 = 52.4% (up from 1,285/2,655 = 48.4%), overall 77.2% of 5,543, no stale-allowlist WARN. The app UI was not run in this headless workspace; manual review should open all three module pages and check their rendered notes, sentence layers and gap cards.

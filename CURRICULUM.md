@@ -236,6 +236,13 @@ No new tooling: `verify-draft.py`, `lint_language.py`, `tools/`,
 `merge-draft.py` and SHARED-BRIEF all apply unchanged. Band 7 modules
 carry 3–5 glue parts each (the Band 4 shape); Band 8 packs carry none.
 
+**Confirmed by Nick 2026-09-27:** the contract stands unchanged for every
+remaining grade-C pack. It was scoped on 2026-08-10 as the Ring 2 trimmed
+contract (§2b) and has governed M31 through M120 without a renegotiation;
+the question of reopening it for the ~35–37 packs left was put to Nick and
+answered *keep the format*. Do not vary the pack shape without a new
+decision from him.
+
 ### Band 7 — the grammar engine III (M85–M96, ordered) — ✅ shipped in full 2026-09-20
 
 Twelve ordered modules on the top ~400 C-words by rank (the essay and
