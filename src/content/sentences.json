@@ -26196,5 +26196,167 @@
     "rom": "daesaga neutdeorado urineun gidaryeoyo",
     "wordIds": ["w_daesa", "w_neutda", "w_uri", "w_gidarida"],
     "note": "Recycles -더라도 from M95. This sentence uses 대사 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m122_01",
+    "en": [
+      { "t": "An invitation", "role": "subject", "id": "a" },
+      { "t": "seems likely to come", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "invitation-[subj]", "role": "subject", "id": "a" },
+      { "t": "come seems", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "초청이", "role": "subject", "id": "a" },
+      { "t": "올 듯해요", "role": "verb", "id": "b" }
+    ],
+    "rom": "chocheongi ol deuthaeyo",
+    "wordIds": ["w_chocheong", "w_oda"],
+    "note": "Recycles -(으)ㄹ 듯하다 from M87. This sentence uses 초청 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m122_02",
+    "en": [
+      { "t": "The headquarters", "role": "subject", "id": "a" },
+      { "t": "was very large, I noticed", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "headquarters-[subj]", "role": "subject", "id": "a" },
+      { "t": "very big-I-saw", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "본부가", "role": "subject", "id": "a" },
+      { "t": "아주 크더라고요", "role": "verb", "id": "b" }
+    ],
+    "rom": "bonbuga aju keudeoragoyo",
+    "wordIds": ["w_bonbu", "w_aju", "w_keuda"],
+    "note": "Recycles -더라고요 from M88. This sentence uses 본부 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m122_03",
+    "en": [
+      { "t": "The more one practices,", "role": "other", "id": "a" },
+      { "t": "one’s skill", "role": "subject", "id": "b" },
+      { "t": "improves", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "practice-the-more", "role": "other", "id": "a" },
+      { "t": "skill-[subj]", "role": "subject", "id": "b" },
+      { "t": "gets-better", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "연습할수록", "role": "other", "id": "a" },
+      { "t": "실력이", "role": "subject", "id": "b" },
+      { "t": "좋아져요", "role": "verb", "id": "c" }
+    ],
+    "rom": "yeonseuphalsurok sillyeogi joajyeoyo",
+    "wordIds": ["w_yeonseuphada", "w_sillyeok", "w_joajida"],
+    "note": "Recycles -(으)ㄹ수록 from M89. This sentence uses  from the current slice in a new setting."
+  },
+  {
+    "id": "s_m122_04",
+    "en": [
+      { "t": "According to the report,", "role": "other", "id": "a" },
+      { "t": "the attempt", "role": "subject", "id": "b" },
+      { "t": "was stopped", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "report-according-to", "role": "other", "id": "a" },
+      { "t": "attempt-[subj]", "role": "subject", "id": "b" },
+      { "t": "was-stopped", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "보도에 따르면", "role": "other", "id": "a" },
+      { "t": "시도가", "role": "subject", "id": "b" },
+      { "t": "중단됐어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "bodoe ttareumyeon sidoga jungdandwaesseoyo",
+    "wordIds": ["w_bodo", "w_sido", "w_jungdanhada"],
+    "note": "Recycles 에 따르면 from M90. This sentence uses 시도, 중단하다 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m122_05",
+    "en": [
+      { "t": "While writing the résumé,", "role": "other", "id": "a" },
+      { "t": "I also", "role": "object", "id": "b" },
+      { "t": "take a photo", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "résumé-[obj] write-on-the-occasion", "role": "other", "id": "a" },
+      { "t": "photo-too", "role": "object", "id": "b" },
+      { "t": "take", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "이력서를 쓰는 김에", "role": "other", "id": "a" },
+      { "t": "사진도", "role": "object", "id": "b" },
+      { "t": "찍어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "iryeokseoreul sseuneun gime sajindo jjigeoyo",
+    "wordIds": ["w_iryeokseo", "w_sseuda", "w_sajin", "w_jjikda"],
+    "note": "Recycles -는 김에 from M91. This sentence uses 이력서 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m122_06",
+    "en": [
+      { "t": "Because I was very thirsty,", "role": "other", "id": "a" },
+      { "t": "I drank", "role": "object", "id": "b" },
+      { "t": "water", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "thirst-[subj] severe-so", "role": "other", "id": "a" },
+      { "t": "water-[obj]", "role": "object", "id": "b" },
+      { "t": "drank", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "갈증이 심하길래", "role": "other", "id": "a" },
+      { "t": "물을", "role": "object", "id": "b" },
+      { "t": "마셨어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "galjeungi simhagillae mureul masyeosseoyo",
+    "wordIds": ["w_galjeung", "w_simhada", "w_mul", "w_masida"],
+    "note": "Recycles -길래 from M93. This sentence uses 갈증 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m122_07",
+    "en": [
+      { "t": "After changing the method,", "role": "other", "id": "a" },
+      { "t": "the result", "role": "subject", "id": "b" },
+      { "t": "improved", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "method-[obj] change-as-I-did", "role": "other", "id": "a" },
+      { "t": "result-[subj]", "role": "subject", "id": "b" },
+      { "t": "got-better", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "방법을 달리하다 보니", "role": "other", "id": "a" },
+      { "t": "결과가", "role": "subject", "id": "b" },
+      { "t": "좋아졌어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "bangbeobeul dallihada boni gyeolgwaga joajyeosseoyo",
+    "wordIds": ["w_bangbeop", "w_dallihada", "w_gyeolgwa", "w_joajida"],
+    "note": "Recycles -다 보니 from M94. This sentence uses 달리하다 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m122_08",
+    "en": [
+      { "t": "Even if I face interference,", "role": "other", "id": "a" },
+      { "t": "I", "role": "object", "id": "b" },
+      { "t": "keep trying", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "interference-[obj] receive-even-if", "role": "other", "id": "a" },
+      { "t": "attempt-[obj]", "role": "object", "id": "b" },
+      { "t": "continue", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "간섭을 받더라도", "role": "other", "id": "a" },
+      { "t": "시도를", "role": "object", "id": "b" },
+      { "t": "계속해요", "role": "verb", "id": "c" }
+    ],
+    "rom": "ganseobeul batdeorado sidoreul gyesokhaeyo",
+    "wordIds": ["w_ganseop", "w_batda", "w_sido", "w_gyesokhada"],
+    "note": "Recycles -더라도 from M95. This sentence uses 간섭, 시도 from the current slice in a new setting."
   }
 ]
