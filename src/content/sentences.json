@@ -26358,5 +26358,164 @@
     "rom": "ganseobeul batdeorado sidoreul gyesokhaeyo",
     "wordIds": ["w_ganseop", "w_batda", "w_sido", "w_gyesokhada"],
     "note": "Recycles -더라도 from M95. This sentence uses 간섭, 시도 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m123_01",
+    "en": [
+      { "t": "The child", "role": "subject", "id": "a" },
+      { "t": "seems likely to be protected", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "child-[subj]", "role": "subject", "id": "a" },
+      { "t": "be-protected seems", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "아이가", "role": "subject", "id": "a" },
+      { "t": "보호될 듯해요", "role": "verb", "id": "b" }
+    ],
+    "rom": "aiga bohodoel deuthaeyo",
+    "wordIds": ["w_ai", "w_bohodoeda"],
+    "note": "Recycles -(으)ㄹ 듯하다 from M87. This sentence uses 보호되다 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m123_02",
+    "en": [
+      { "t": "The outfit", "role": "subject", "id": "a" },
+      { "t": "looked refined, I noticed", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "outfit-[subj]", "role": "subject", "id": "a" },
+      { "t": "refined-I-saw", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "옷차림이", "role": "subject", "id": "a" },
+      { "t": "세련되더라고요", "role": "verb", "id": "b" }
+    ],
+    "rom": "otcharimi seryeondoedeoragoyo",
+    "wordIds": ["w_otcharim", "w_seryeondoeda"],
+    "note": "Recycles -더라고요 from M88. This sentence uses 옷차림, 세련되다 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m123_03",
+    "en": [
+      { "t": "The more I read philosophy,", "role": "other", "id": "a" },
+      { "t": "the connection", "role": "subject", "id": "b" },
+      { "t": "becomes visible", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "philosophy-[obj] read-the-more", "role": "other", "id": "a" },
+      { "t": "relation-[subj]", "role": "subject", "id": "b" },
+      { "t": "is-visible", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "철학을 읽을수록", "role": "other", "id": "a" },
+      { "t": "상관이", "role": "subject", "id": "b" },
+      { "t": "보여요", "role": "verb", "id": "c" }
+    ],
+    "rom": "cheolhageul ilgeulsurok sanggwani boyeoyo",
+    "wordIds": ["w_cheolhak", "w_ikda", "w_sanggwan", "w_boida"],
+    "note": "Recycles -(으)ㄹ수록 from M89. This sentence uses 상관 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m123_04",
+    "en": [
+      { "t": "According to the report,", "role": "other", "id": "a" },
+      { "t": "the cultural asset", "role": "subject", "id": "b" },
+      { "t": "was preserved", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "report-according-to", "role": "other", "id": "a" },
+      { "t": "cultural-asset-[subj]", "role": "subject", "id": "b" },
+      { "t": "was-preserved", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "보도에 따르면", "role": "other", "id": "a" },
+      { "t": "문화재가", "role": "subject", "id": "b" },
+      { "t": "보존됐어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "bodoe ttareumyeon munhwajaega bojondwaesseoyo",
+    "wordIds": ["w_bodo", "w_munhwajae", "w_bojon"],
+    "note": "Recycles 에 따르면 from M90. This sentence uses 보존 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m123_05",
+    "en": [
+      { "t": "While tidying up,", "role": "other", "id": "a" },
+      { "t": "I also", "role": "object", "id": "b" },
+      { "t": "wipe the desk", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "tend-on-the-occasion", "role": "other", "id": "a" },
+      { "t": "desk-too", "role": "object", "id": "b" },
+      { "t": "wipe", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "손질하는 김에", "role": "other", "id": "a" },
+      { "t": "책상도", "role": "object", "id": "b" },
+      { "t": "닦아요", "role": "verb", "id": "c" }
+    ],
+    "rom": "sonjilhaneun gime chaeksangdo dakkayo",
+    "wordIds": ["w_sonjilhada", "w_chaeksang", "w_dakda"],
+    "note": "Recycles -는 김에 from M91. This sentence uses  from the current slice in a new setting."
+  },
+  {
+    "id": "s_m123_06",
+    "en": [
+      { "t": "Because my friend felt hurt,", "role": "other", "id": "a" },
+      { "t": "I comforted them", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "friend-[subj] hurt-so", "role": "other", "id": "a" },
+      { "t": "comforted", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "친구가 섭섭하길래", "role": "other", "id": "a" },
+      { "t": "위로했어요", "role": "verb", "id": "b" }
+    ],
+    "rom": "chinguga seopseophagillae wirohaesseoyo",
+    "wordIds": ["w_chingu", "w_seopseophada", "w_wirohada"],
+    "note": "Recycles -길래 from M93. This sentence uses 섭섭하다, 위로하다 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m123_07",
+    "en": [
+      { "t": "After spending a night there,", "role": "other", "id": "a" },
+      { "t": "my mood", "role": "subject", "id": "b" },
+      { "t": "improved", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "one-night-[obj] spend-as-I-did", "role": "other", "id": "a" },
+      { "t": "heart-[subj]", "role": "subject", "id": "b" },
+      { "t": "got-better", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "하룻밤을 보내다 보니", "role": "other", "id": "a" },
+      { "t": "마음이", "role": "subject", "id": "b" },
+      { "t": "나아졌어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "harutbameul bonaeda boni maeumi naajyeosseoyo",
+    "wordIds": ["w_harutbam", "w_bonaeda", "w_maeum", "w_naajida"],
+    "note": "Recycles -다 보니 from M94. This sentence uses 하룻밤, 나아지다 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m123_08",
+    "en": [
+      { "t": "Even if I persuade them,", "role": "other", "id": "a" },
+      { "t": "their mind", "role": "subject", "id": "b" },
+      { "t": "does not change", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "persuade-even-if", "role": "other", "id": "a" },
+      { "t": "heart-[topic]", "role": "subject", "id": "b" },
+      { "t": "change-not", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "설득하더라도", "role": "other", "id": "a" },
+      { "t": "마음은", "role": "subject", "id": "b" },
+      { "t": "바뀌지 않아요", "role": "verb", "id": "c" }
+    ],
+    "rom": "seoldeukhadeorado maeumeun bakkwiji anayo",
+    "wordIds": ["w_seoldeukhada", "w_maeum", "w_bakkwida"],
+    "note": "Recycles -더라도 from M95. This sentence uses 설득하다 from the current slice in a new setting."
   }
 ]

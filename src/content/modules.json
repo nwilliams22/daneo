@@ -2863,5 +2863,27 @@
       "s_m122_01", "s_m122_02", "s_m122_03", "s_m122_04",
       "s_m122_05", "s_m122_06", "s_m122_07", "s_m122_08"
     ]
+  },
+  {
+    "id": "m123",
+    "title": "Change, Return and Human Measure",
+    "order": 132,
+    "ring": 2,
+    "contentMd": "modules/module-123.md",
+    "wordIds": [
+      "w_misail", "w_bojon", "w_bohodoeda", "w_sanggwan",
+      "w_seolmyeongdoeda", "w_seopseophada", "w_seryeondoeda", "w_sonswipda",
+      "w_yeolgi", "w_otcharim", "w_wirohada", "w_igachi",
+      "w_ilchi", "w_jaesaeng", "w_jjijeojida", "w_cheolhakja",
+      "w_keolleo", "w_teugihada", "w_piryeonjeok", "w_harutbam",
+      "w_heulleonaerida", "w_ginyeom", "w_naajida", "w_neomeooda",
+      "w_doedollida", "w_ttuiuda", "w_maeneo", "w_minsok",
+      "w_beoryeojida", "w_seoldeukhada", "w_sonjil", "w_oeroum",
+      "w_ipdae", "w_jeokseong", "w_jeonmanghada", "w_jipdanjeok"
+    ],
+    "sentenceIds": [
+      "s_m123_01", "s_m123_02", "s_m123_03", "s_m123_04",
+      "s_m123_05", "s_m123_06", "s_m123_07", "s_m123_08"
+    ]
   }
 ]
