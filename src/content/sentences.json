@@ -26057,8 +26057,8 @@
     "id": "s_m121_02",
     "en": [
       { "t": "At the exhibition,", "role": "place", "id": "a" },
-      { "t": "there were", "role": "subject", "id": "b" },
-      { "t": "many people, I noticed", "role": "verb", "id": "c" }
+      { "t": "I noticed", "role": "verb", "id": "c" },
+      { "t": "a large crowd", "role": "subject", "id": "b" }
     ],
     "gloss": [
       { "t": "exhibition-at", "role": "place", "id": "a" },
@@ -26117,8 +26117,8 @@
     "id": "s_m121_05",
     "en": [
       { "t": "While going to the shop,", "role": "other", "id": "a" },
-      { "t": "I buy", "role": "object", "id": "b" },
-      { "t": "cream", "role": "verb", "id": "c" }
+      { "t": "I buy", "role": "verb", "id": "c" },
+      { "t": "cream", "role": "object", "id": "b" }
     ],
     "gloss": [
       { "t": "shop-to go-on-the-occasion", "role": "other", "id": "a" },
@@ -26138,8 +26138,8 @@
     "id": "s_m121_06",
     "en": [
       { "t": "Because there was so much interference,", "role": "other", "id": "a" },
-      { "t": "I went", "role": "place", "id": "b" },
-      { "t": "home", "role": "verb", "id": "c" }
+      { "t": "I went", "role": "verb", "id": "c" },
+      { "t": "home", "role": "place", "id": "b" }
     ],
     "gloss": [
       { "t": "interference-[subj] much-so", "role": "other", "id": "a" },
@@ -26159,8 +26159,8 @@
     "id": "s_m121_07",
     "en": [
       { "t": "While looking for the registration card,", "role": "other", "id": "a" },
-      { "t": "I found my name", "role": "subject", "id": "b" },
-      { "t": "was also wrong", "role": "verb", "id": "c" }
+      { "t": "my name", "role": "subject", "id": "b" },
+      { "t": "turned out to be wrong too", "role": "verb", "id": "c" }
     ],
     "gloss": [
       { "t": "registration-card-[obj] seek-as-I-did", "role": "other", "id": "a" },
@@ -26279,8 +26279,8 @@
     "id": "s_m122_05",
     "en": [
       { "t": "While writing the résumé,", "role": "other", "id": "a" },
-      { "t": "I also", "role": "object", "id": "b" },
-      { "t": "take a photo", "role": "verb", "id": "c" }
+      { "t": "I take", "role": "verb", "id": "c" },
+      { "t": "a photo too", "role": "object", "id": "b" }
     ],
     "gloss": [
       { "t": "résumé-[obj] write-on-the-occasion", "role": "other", "id": "a" },
@@ -26300,8 +26300,8 @@
     "id": "s_m122_06",
     "en": [
       { "t": "Because I was very thirsty,", "role": "other", "id": "a" },
-      { "t": "I drank", "role": "object", "id": "b" },
-      { "t": "water", "role": "verb", "id": "c" }
+      { "t": "I drank", "role": "verb", "id": "c" },
+      { "t": "water", "role": "object", "id": "b" }
     ],
     "gloss": [
       { "t": "thirst-[subj] severe-so", "role": "other", "id": "a" },
@@ -26342,8 +26342,8 @@
     "id": "s_m122_08",
     "en": [
       { "t": "Even if I face interference,", "role": "other", "id": "a" },
-      { "t": "I", "role": "object", "id": "b" },
-      { "t": "keep trying", "role": "verb", "id": "c" }
+      { "t": "I keep", "role": "verb", "id": "c" },
+      { "t": "trying", "role": "object", "id": "b" }
     ],
     "gloss": [
       { "t": "interference-[obj] receive-even-if", "role": "other", "id": "a" },
@@ -26398,23 +26398,23 @@
   {
     "id": "s_m123_03",
     "en": [
-      { "t": "The more I read philosophy,", "role": "other", "id": "a" },
-      { "t": "the connection", "role": "subject", "id": "b" },
-      { "t": "becomes visible", "role": "verb", "id": "c" }
+      { "t": "The more I read a philosopher's writing,", "role": "other", "id": "a" },
+      { "t": "the more", "role": "other", "id": "b" },
+      { "t": "I think", "role": "verb", "id": "c" }
     ],
     "gloss": [
-      { "t": "philosophy-[obj] read-the-more", "role": "other", "id": "a" },
-      { "t": "relation-[subj]", "role": "subject", "id": "b" },
-      { "t": "is-visible", "role": "verb", "id": "c" }
+      { "t": "philosopher-[poss] writing-[obj] read-the-more", "role": "other", "id": "a" },
+      { "t": "more", "role": "other", "id": "b" },
+      { "t": "think", "role": "verb", "id": "c" }
     ],
     "ko": [
-      { "t": "철학을 읽을수록", "role": "other", "id": "a" },
-      { "t": "상관이", "role": "subject", "id": "b" },
-      { "t": "보여요", "role": "verb", "id": "c" }
+      { "t": "철학자의 글을 읽을수록", "role": "other", "id": "a" },
+      { "t": "더", "role": "other", "id": "b" },
+      { "t": "생각해요", "role": "verb", "id": "c" }
     ],
-    "rom": "cheolhageul ilgeulsurok sanggwani boyeoyo",
-    "wordIds": ["w_cheolhak", "w_ikda", "w_sanggwan", "w_boida"],
-    "note": "Recycles -(으)ㄹ수록 from M89. This sentence uses 상관 from the current slice in a new setting."
+    "rom": "cheolhakjaui geureul ilgeulsurok deo saenggakhaeyo",
+    "wordIds": ["w_cheolhakja", "w_geul", "w_ikda", "w_deo", "w_saenggakhada"],
+    "note": "Recycles -(으)ㄹ수록 from M89. This sentence uses 철학자 from the current slice in a new setting."
   },
   {
     "id": "s_m123_04",
@@ -26441,8 +26441,8 @@
     "id": "s_m123_05",
     "en": [
       { "t": "While tidying up,", "role": "other", "id": "a" },
-      { "t": "I also", "role": "object", "id": "b" },
-      { "t": "wipe the desk", "role": "verb", "id": "c" }
+      { "t": "I wipe", "role": "verb", "id": "c" },
+      { "t": "the desk too", "role": "object", "id": "b" }
     ],
     "gloss": [
       { "t": "tend-on-the-occasion", "role": "other", "id": "a" },
