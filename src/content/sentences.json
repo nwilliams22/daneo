@@ -26517,5 +26517,161 @@
     "rom": "seoldeukhadeorado maeumeun bakkwiji anayo",
     "wordIds": ["w_seoldeukhada", "w_maeum", "w_bakkwida"],
     "note": "Recycles -더라도 from M95. This sentence uses 설득하다 from the current slice in a new setting."
+  },
+  {
+    "id": "s_m124_01",
+    "en": [
+      { "t": "The railway", "role": "subject", "id": "a" },
+      { "t": "seems likely to improve", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "railway-[subj]", "role": "subject", "id": "a" },
+      { "t": "be-improved seems", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "철도가", "role": "subject", "id": "a" },
+      { "t": "개선될 듯해요", "role": "verb", "id": "b" }
+    ],
+    "rom": "cheoldoga gaeseondoel deuthaeyo",
+    "wordIds": ["w_cheoldo", "w_gaeseondoeda"],
+    "note": "Recycles -(으)ㄹ 듯하다 from M87: the railway is the thing improved, not the agent of improvement."
+  },
+  {
+    "id": "s_m124_02",
+    "en": [
+      { "t": "I noticed the unmarried man", "role": "subject", "id": "a" },
+      { "t": "hand over", "role": "verb", "id": "c" },
+      { "t": "a book", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "unmarried-man-[subj]", "role": "subject", "id": "a" },
+      { "t": "book-[obj]", "role": "object", "id": "b" },
+      { "t": "handed-over-I-saw", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "총각이", "role": "subject", "id": "a" },
+      { "t": "책을", "role": "object", "id": "b" },
+      { "t": "건네더라고요", "role": "verb", "id": "c" }
+    ],
+    "rom": "chonggagi chaegeul geonnedeoragoyo",
+    "wordIds": ["w_chonggak", "w_chaek", "w_geonneda"],
+    "note": "Recycles -더라고요 from M88. 건네다 moves the book from one person to another; the retrospective ending reports what the speaker witnessed."
+  },
+  {
+    "id": "s_m124_03",
+    "en": [
+      { "t": "The more I read the publications,", "role": "other", "id": "a" },
+      { "t": "the differences", "role": "subject", "id": "b" },
+      { "t": "become visible", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "publications-[obj] read-the-more", "role": "other", "id": "a" },
+      { "t": "difference-points-[subj]", "role": "subject", "id": "b" },
+      { "t": "become-visible", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "서적을 읽을수록", "role": "other", "id": "a" },
+      { "t": "차이점이", "role": "subject", "id": "b" },
+      { "t": "보여요", "role": "verb", "id": "c" }
+    ],
+    "rom": "seojeogeul ilgeulsurok chaijeomi boyeoyo",
+    "wordIds": ["w_seojeok", "w_ikda", "w_chaijeom", "w_boida"],
+    "note": "Recycles -(으)ㄹ수록 from M89. The first clause is subordinate; 차이점이 is the subject of the closing predicate."
+  },
+  {
+    "id": "s_m124_04",
+    "en": [
+      { "t": "According to the researcher,", "role": "other", "id": "a" },
+      { "t": "this year's drought", "role": "subject", "id": "b" },
+      { "t": "is long", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "researcher-according-to", "role": "other", "id": "a" },
+      { "t": "this-year drought-[subj]", "role": "subject", "id": "b" },
+      { "t": "is-long", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "연구원에 따르면", "role": "other", "id": "a" },
+      { "t": "올해 가뭄이", "role": "subject", "id": "b" },
+      { "t": "길어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "yeonguwone ttareumyeon olhae gamumi gireoyo",
+    "wordIds": ["w_yeonguwon", "w_olhae", "w_gamum", "w_gilda"],
+    "note": "Recycles 에 따르면 from M90. 연구원 is a researcher here, not the institute with the same spelling."
+  },
+  {
+    "id": "s_m124_05",
+    "en": [
+      { "t": "While handing over the publication,", "role": "other", "id": "a" },
+      { "t": "please summarize it", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "publication-[obj] handing-over-while", "role": "other", "id": "a" },
+      { "t": "please-summarize", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "서적을 건네는 김에", "role": "other", "id": "a" },
+      { "t": "요약해 주세요", "role": "verb", "id": "b" }
+    ],
+    "rom": "seojeogeul geonneneun gime yoyakhae juseyo",
+    "wordIds": ["w_seojeok", "w_geonneda", "w_yoyakhada"],
+    "note": "Recycles -는 김에 from M91. The request uses the act of handing over a publication as the occasion to summarize it."
+  },
+  {
+    "id": "s_m124_06",
+    "en": [
+      { "t": "Because people crowded in,", "role": "other", "id": "a" },
+      { "t": "I closed the door", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "people-[subj] crowded-in-because", "role": "other", "id": "a" },
+      { "t": "door-[obj] closed", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "사람들이 몰려들길래", "role": "other", "id": "a" },
+      { "t": "문을 닫았어요", "role": "verb", "id": "b" }
+    ],
+    "rom": "saramdeuri mollyeodeulgillae muneul dadasseoyo",
+    "wordIds": ["w_saram", "w_mollyeodeulda", "w_mun", "w_datda"],
+    "note": "Recycles -길래 from M93. The first clause gives the observed reason for closing the door."
+  },
+  {
+    "id": "s_m124_07",
+    "en": [
+      { "t": "As I walked straight ahead,", "role": "other", "id": "a" },
+      { "t": "footprints", "role": "subject", "id": "b" },
+      { "t": "came into view", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "straight-ahead walked-while", "role": "other", "id": "a" },
+      { "t": "footprints-[subj]", "role": "subject", "id": "b" },
+      { "t": "became-visible", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "곧장 걷다 보니", "role": "other", "id": "a" },
+      { "t": "발자국이", "role": "subject", "id": "b" },
+      { "t": "보였어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "gotjang geotda boni baljagugi boyeosseoyo",
+    "wordIds": ["w_gotjang", "w_geotda", "w_baljaguk", "w_boida"],
+    "note": "Recycles -다 보니 from M94. Walking leads to the noticed result rather than stating a planned goal."
+  },
+  {
+    "id": "s_m124_08",
+    "en": [
+      { "t": "Even if it rains,", "role": "other", "id": "a" },
+      { "t": "we continue the campaign", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] falls-even-if", "role": "other", "id": "a" },
+      { "t": "campaign-[obj] continue", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "비가 오더라도", "role": "other", "id": "a" },
+      { "t": "캠페인을 계속해요", "role": "verb", "id": "b" }
+    ],
+    "rom": "biga odeorado kaempeineul gyesokhaeyo",
+    "wordIds": ["w_bi", "w_oda", "w_kaempein", "w_gyesokhada"],
+    "note": "Recycles -더라도 from M95. The campaign continues despite the rain, so the concessive clause does real work."
   }
 ]

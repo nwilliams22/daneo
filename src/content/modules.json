@@ -2885,5 +2885,27 @@
       "s_m123_01", "s_m123_02", "s_m123_03", "s_m123_04",
       "s_m123_05", "s_m123_06", "s_m123_07", "s_m123_08"
     ]
+  },
+  {
+    "id": "m124",
+    "title": "Routes, Resolve and Weather",
+    "order": 133,
+    "ring": 3,
+    "contentMd": "modules/module-124.md",
+    "wordIds": [
+      "w_chaijeom", "w_cheoldo", "w_chonggak", "w_kaempein",
+      "w_hannun", "w_hongsu", "w_gamum", "w_ganjeop",
+      "w_gangnyeokhi", "w_gaeseondoeda", "w_geonneda", "w_ge",
+      "w_gyeolsim", "w_gotjang", "w_gyojik", "w_gusokhada",
+      "w_gwijunghada", "w_geukda", "w_naeswida", "w_neureojida",
+      "w_dandok", "w_maeumkkeot", "w_mollyeodeulda", "w_bakwi",
+      "w_baljaguk", "w_baetda", "w_boneoseu", "w_saenggi",
+      "w_seojeok", "w_sohwa", "w_suheomsaeng", "w_sinsedae",
+      "w_eogida", "w_yeonguwon", "w_yeonae", "w_yoyakhada"
+    ],
+    "sentenceIds": [
+      "s_m124_01", "s_m124_02", "s_m124_03", "s_m124_04",
+      "s_m124_05", "s_m124_06", "s_m124_07", "s_m124_08"
+    ]
   }
 ]
