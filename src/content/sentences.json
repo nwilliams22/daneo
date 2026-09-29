@@ -26826,5 +26826,158 @@
     "rom": "banghaega itdeorado gyehoegeun silhyeondwaeyo",
     "wordIds": ["w_banghae", "w_itda", "w_gyehoek", "w_silhyeondoeda"],
     "note": "Recycles -더라도 from M95. The plan is the thing realized despite interference."
+  },
+  {
+    "id": "s_m126_01",
+    "en": [
+      { "t": "The abolition", "role": "subject", "id": "a" },
+      { "t": "seems likely to be shocking", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "abolition-[subj]", "role": "subject", "id": "a" },
+      { "t": "shocking-will-be seems", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "폐지가", "role": "subject", "id": "a" },
+      { "t": "충격적일 듯해요", "role": "verb", "id": "b" }
+    ],
+    "rom": "pyejiga chunggyeokjeogil deuthaeyo",
+    "wordIds": ["w_pyeji", "w_chunggyeokjeok"],
+    "note": "Recycles -(으)ㄹ 듯하다 from M87. The speaker predicts the public reaction without reporting it as a fact."
+  },
+  {
+    "id": "s_m126_02",
+    "en": [
+      { "t": "The black-and-white photo of downtown", "role": "subject", "id": "a" },
+      { "t": "looked sharply defined, I noticed", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "downtown-of black-white photo-[subj]", "role": "subject", "id": "a" },
+      { "t": "was-sharply-defined-I-saw", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "도심의 흑백 사진이", "role": "subject", "id": "a" },
+      { "t": "선명하더라고요", "role": "verb", "id": "b" }
+    ],
+    "rom": "dosimui heukbaek sajini seonmyeonghadeoragoyo",
+    "wordIds": ["w_dosim", "w_heukbaek", "w_sajin", "w_seonmyeonghada"],
+    "note": "Recycles -더라고요 from M88. A black-and-white image can still have sharply defined detail."
+  },
+  {
+    "id": "s_m126_03",
+    "en": [
+      { "t": "The more I describe things one by one,", "role": "other", "id": "a" },
+      { "t": "the answer", "role": "subject", "id": "b" },
+      { "t": "gets longer", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "one-by-one describe-the-more", "role": "other", "id": "a" },
+      { "t": "answer-[subj]", "role": "subject", "id": "b" },
+      { "t": "becomes-long", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "일일이 묘사할수록", "role": "other", "id": "a" },
+      { "t": "답변이", "role": "subject", "id": "b" },
+      { "t": "길어져요", "role": "verb", "id": "c" }
+    ],
+    "rom": "iriri myosahalsurok dapbyeoni gireojyeoyo",
+    "wordIds": ["w_iriri", "w_myosahada", "w_dapbyeon", "w_gilda"],
+    "note": "Recycles -(으)ㄹ수록 from M89. Each added detail lengthens the answer; the closing subject is 답변이."
+  },
+  {
+    "id": "s_m126_04",
+    "en": [
+      { "t": "According to the person in charge,", "role": "other", "id": "a" },
+      { "t": "expenses", "role": "subject", "id": "b" },
+      { "t": "have increased", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "person-in-charge-according-to", "role": "other", "id": "a" },
+      { "t": "expenses-[subj]", "role": "subject", "id": "b" },
+      { "t": "increased", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "담당자에 따르면", "role": "other", "id": "a" },
+      { "t": "경비가", "role": "subject", "id": "b" },
+      { "t": "늘었어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "damdangjae ttareumyeon gyeongbiga neureosseoyo",
+    "wordIds": ["w_damdangja", "w_gyeongbi", "w_neulda"],
+    "note": "Recycles 에 따르면 from M90. 경비 means expenses here, not a security guard."
+  },
+  {
+    "id": "s_m126_05",
+    "en": [
+      { "t": "While meeting the person in charge,", "role": "other", "id": "a" },
+      { "t": "I will hear the answer", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "person-in-charge-[obj] meeting-while", "role": "other", "id": "a" },
+      { "t": "answer-[obj] hear", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "담당자를 만나는 김에", "role": "other", "id": "a" },
+      { "t": "답변을 들어요", "role": "verb", "id": "b" }
+    ],
+    "rom": "damdangjareul mannaneun gime dapbyeoneul deureoyo",
+    "wordIds": ["w_damdangja", "w_mannada", "w_dapbyeon", "w_deutda"],
+    "note": "Recycles -는 김에 from M91. The meeting is an opportunity to ask and hear the answer."
+  },
+  {
+    "id": "s_m126_06",
+    "en": [
+      { "t": "Because expenses had risen,", "role": "other", "id": "a" },
+      { "t": "I changed the plan", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "expenses-[subj] increased-because", "role": "other", "id": "a" },
+      { "t": "plan-[obj] changed", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "경비가 늘었길래", "role": "other", "id": "a" },
+      { "t": "계획을 바꿨어요", "role": "verb", "id": "b" }
+    ],
+    "rom": "gyeongbiga neureotgillae gyehoegeul bakkwosseoyo",
+    "wordIds": ["w_gyeongbi", "w_neulda", "w_gyehoek", "w_bakkuda"],
+    "note": "Recycles -길래 from M93. A noticed cost increase prompts a change of plan."
+  },
+  {
+    "id": "s_m126_07",
+    "en": [
+      { "t": "As I kept farming,", "role": "other", "id": "a" },
+      { "t": "my hands", "role": "subject", "id": "b" },
+      { "t": "grew tough", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "farmed-over-time", "role": "other", "id": "a" },
+      { "t": "hands-[subj]", "role": "subject", "id": "b" },
+      { "t": "became-tough", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "농사짓다 보니", "role": "other", "id": "a" },
+      { "t": "손이", "role": "subject", "id": "b" },
+      { "t": "단단해졌어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "nongsajitda boni soni dandanhaejyeosseoyo",
+    "wordIds": ["w_nongsajitda", "w_son", "w_dandanhada"],
+    "note": "Recycles -다 보니 from M94. Repeated farm work produces the noticed change in the hands."
+  },
+  {
+    "id": "s_m126_08",
+    "en": [
+      { "t": "Even if expenses rise,", "role": "other", "id": "a" },
+      { "t": "I keep farming", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "expenses-[subj] rise-even-if", "role": "other", "id": "a" },
+      { "t": "farming-[obj] continue", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "경비가 늘더라도", "role": "other", "id": "a" },
+      { "t": "농사를 계속해요", "role": "verb", "id": "b" }
+    ],
+    "rom": "gyeongbiga neuldeorado nongsareul gyesokhaeyo",
+    "wordIds": ["w_gyeongbi", "w_neulda", "w_nongsa", "w_gyesokhada"],
+    "note": "Recycles -더라도 from M95. Rising costs do not stop the work."
   }
 ]

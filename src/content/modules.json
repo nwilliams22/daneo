@@ -2929,5 +2929,27 @@
       "s_m125_01", "s_m125_02", "s_m125_03", "s_m125_04",
       "s_m125_05", "s_m125_06", "s_m125_07", "s_m125_08"
     ]
+  },
+  {
+    "id": "m126",
+    "title": "Daily Measures and Public Choices",
+    "order": 135,
+    "ring": 3,
+    "contentMd": "modules/module-126.md",
+    "wordIds": [
+      "w_ilsangjeok", "w_iriri", "w_jeongonghada", "w_jeonhu",
+      "w_jeongsangjeok", "w_jiljeok", "w_chunggyeokjeok", "w_chia",
+      "w_pyeonui", "w_pyeji", "w_haeseol", "w_heukbaek",
+      "w_huisaeng", "w_gyeongbi", "w_gyeongjeryeok", "w_geumhada",
+      "w_gidaedoeda", "w_gipsugi", "w_neomeotteurida", "w_nongsajitda",
+      "w_dandanhada", "w_damdangja", "w_dapbyeon", "w_daebi",
+      "w_daeche", "w_deoukdeo", "w_dosim", "w_dulleossaida",
+      "w_machal", "w_makeu", "w_manjok", "w_mangchida",
+      "w_mogeum", "w_myosa", "w_munhwajeok", "w_mihon"
+    ],
+    "sentenceIds": [
+      "s_m126_01", "s_m126_02", "s_m126_03", "s_m126_04",
+      "s_m126_05", "s_m126_06", "s_m126_07", "s_m126_08"
+    ]
   }
 ]
