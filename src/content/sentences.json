@@ -26673,5 +26673,158 @@
     "rom": "biga odeorado kaempeineul gyesokhaeyo",
     "wordIds": ["w_bi", "w_oda", "w_kaempein", "w_gyesokhada"],
     "note": "Recycles -더라도 from M95. The campaign continues despite the rain, so the concessive clause does real work."
+  },
+  {
+    "id": "s_m125_01",
+    "en": [
+      { "t": "The satellite", "role": "subject", "id": "a" },
+      { "t": "seems likely to be visible", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "satellite-[subj]", "role": "subject", "id": "a" },
+      { "t": "be-visible seems", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "위성이", "role": "subject", "id": "a" },
+      { "t": "보일 듯해요", "role": "verb", "id": "b" }
+    ],
+    "rom": "wiseongi boil deuthaeyo",
+    "wordIds": ["w_wiseong", "w_boida"],
+    "note": "Recycles -(으)ㄹ 듯하다 from M87. Visibility is uncertain; the speaker does not claim a confirmed sighting."
+  },
+  {
+    "id": "s_m125_02",
+    "en": [
+      { "t": "The performance hall", "role": "subject", "id": "a" },
+      { "t": "turned out to be unexpectedly small", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "performance-hall-[subj]", "role": "subject", "id": "a" },
+      { "t": "unexpectedly was-small-I-saw", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "공연장이", "role": "subject", "id": "a" },
+      { "t": "의외로 작더라고요", "role": "verb", "id": "b" }
+    ],
+    "rom": "gongyeonjangi uioero jakdeoragoyo",
+    "wordIds": ["w_gongyeonjang", "w_uioero", "w_jakda"],
+    "note": "Recycles -더라고요 from M88. 의외로 records a mismatch with expectation, and the retrospective ending reports the visit."
+  },
+  {
+    "id": "s_m125_03",
+    "en": [
+      { "t": "The more I read individual words,", "role": "other", "id": "a" },
+      { "t": "the types", "role": "subject", "id": "b" },
+      { "t": "become visible", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "individual-words-[obj] read-the-more", "role": "other", "id": "a" },
+      { "t": "types-[subj]", "role": "subject", "id": "b" },
+      { "t": "become-visible", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "낱말을 읽을수록", "role": "other", "id": "a" },
+      { "t": "유형이", "role": "subject", "id": "b" },
+      { "t": "보여요", "role": "verb", "id": "c" }
+    ],
+    "rom": "nanmareul ilgeulsurok yuhyeongi boyeoyo",
+    "wordIds": ["w_nanmal", "w_ikda", "w_yuhyeong", "w_boida"],
+    "note": "Recycles -(으)ㄹ수록 from M89. The subordinate clause grows the observation; 유형이 is the closing clause subject."
+  },
+  {
+    "id": "s_m125_04",
+    "en": [
+      { "t": "According to the research,", "role": "other", "id": "a" },
+      { "t": "wolves", "role": "subject", "id": "b" },
+      { "t": "have increased recently", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "research-according-to", "role": "other", "id": "a" },
+      { "t": "recently wolves-[subj]", "role": "subject", "id": "b" },
+      { "t": "increased", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "연구에 따르면", "role": "other", "id": "a" },
+      { "t": "근래 늑대가", "role": "subject", "id": "b" },
+      { "t": "늘었어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "yeongue ttareumyeon geullae neukdaega neureosseoyo",
+    "wordIds": ["w_yeongu", "w_geullae", "w_neukdae", "w_neulda"],
+    "note": "Recycles 에 따르면 from M90. The research supplies the source of the claim rather than acting as the subject."
+  },
+  {
+    "id": "s_m125_05",
+    "en": [
+      { "t": "While going to the hall,", "role": "other", "id": "a" },
+      { "t": "I will see the performance venue", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "hall-to going-while", "role": "other", "id": "a" },
+      { "t": "performance-venue-[obj] see", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "회관에 가는 김에", "role": "other", "id": "a" },
+      { "t": "공연장을 봐요", "role": "verb", "id": "b" }
+    ],
+    "rom": "hoegwane ganeun gime gongyeonjangeul bwayo",
+    "wordIds": ["w_hoegwan", "w_gada", "w_gongyeonjang", "w_boda"],
+    "note": "Recycles -는 김에 from M91. Visiting the hall creates the occasion to look at its performance venue."
+  },
+  {
+    "id": "s_m125_06",
+    "en": [
+      { "t": "Because it rained,", "role": "other", "id": "a" },
+      { "t": "I went inside the hall", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "rain-[subj] fell-because", "role": "other", "id": "a" },
+      { "t": "hall-to went-inside", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "비가 오길래", "role": "other", "id": "a" },
+      { "t": "회관에 들어갔어요", "role": "verb", "id": "b" }
+    ],
+    "rom": "biga ogillae hoegwane deureogasseoyo",
+    "wordIds": ["w_bi", "w_oda", "w_hoegwan", "w_deureogada"],
+    "note": "Recycles -길래 from M93. The observed rain motivates going inside, not a forecast."
+  },
+  {
+    "id": "s_m125_07",
+    "en": [
+      { "t": "After going up and down the stairs,", "role": "other", "id": "a" },
+      { "t": "I became tired", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "stairs-[obj] went-up-and-down-after", "role": "other", "id": "a" },
+      { "t": "became-tired", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "계단을 오르내리다 보니", "role": "other", "id": "a" },
+      { "t": "피곤해졌어요", "role": "verb", "id": "b" }
+    ],
+    "rom": "gyedaneul oreunaerida boni pigonhaejyeosseoyo",
+    "wordIds": ["w_gyedan", "w_oreunaerida", "w_pigonhada"],
+    "note": "Recycles -다 보니 from M94. Repeated movement leads to tiredness as a noticed result."
+  },
+  {
+    "id": "s_m125_08",
+    "en": [
+      { "t": "Even if there is interference,", "role": "other", "id": "a" },
+      { "t": "the plan", "role": "subject", "id": "b" },
+      { "t": "becomes reality", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "interference-[subj] exists-even-if", "role": "other", "id": "a" },
+      { "t": "plan-[topic]", "role": "subject", "id": "b" },
+      { "t": "is-realized", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "방해가 있더라도", "role": "other", "id": "a" },
+      { "t": "계획은", "role": "subject", "id": "b" },
+      { "t": "실현돼요", "role": "verb", "id": "c" }
+    ],
+    "rom": "banghaega itdeorado gyehoegeun silhyeondwaeyo",
+    "wordIds": ["w_banghae", "w_itda", "w_gyehoek", "w_silhyeondoeda"],
+    "note": "Recycles -더라도 from M95. The plan is the thing realized despite interference."
   }
 ]
