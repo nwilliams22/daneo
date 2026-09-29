@@ -238,8 +238,8 @@ carry 3–5 glue parts each (the Band 4 shape); Band 8 packs carry none.
 
 **Confirmed by Nick 2026-09-27:** the contract stands unchanged for every
 remaining grade-C pack. It was scoped on 2026-08-10 as the Ring 2 trimmed
-contract (§2b) and has governed M31 through M123 without a renegotiation;
-the question of reopening it for the ~32 packs left was put to Nick and
+contract (§2b) and has governed M31 through M126 without a renegotiation;
+the question of reopening it for the remaining packs was put to Nick and
 answered *keep the format*. Do not vary the pack shape without a new
 decision from him.
 
@@ -272,10 +272,12 @@ still required. Batches of 2–3 packs via the drafter pipeline. The
 unranked proper nouns (고구려/금강산/대학로…, POS 고) sort last and are
 decided at the end — taught-as rows or a places pack.
 
-**Band 8 shipped through M123 (2026-09-27):** M118 *Collection Day*, M119
+**Band 8 shipped through M126 (2026-09-29):** M118 *Collection Day*, M119
 *Verbs of Doing and Undoing*, M120 *The Native Nouns, and the Adverbs of
 Manner*, M121 *Names on Forms and Stages*, M122 *Attempts, Stops and
-Institutions*, and M123 *Change, Return and Human Measure*. All six use
+Institutions*, M123 *Change, Return and Human Measure*, M124 *Routes, Resolve
+and Weather*, M125 *Evidence, Venues and Motion*, and M126 *Daily Measures
+and Public Choices*. All nine use
 the Band 6 pack contract with no new glue.
 
 ### Ring 3 glue checklist (~55 patterns)
