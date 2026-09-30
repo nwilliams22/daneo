@@ -1,8 +1,8 @@
 # Korean, Word-First — Module 96: Culture, Stage and Press
 
-Band 7 closes on the culture desk. Twelve modules ago M85 said the whole ring in one line — that md's thesis, "**written Korean is spoken Korean with the seams welded shut**" — and since then every module has handed you three to seven of the welds: the written connectives, the cause-machinery, the seeming-and-worth nouns, the eyewitness -더-, the measuring nouns, the state's frames, the analyst's endings, the auxiliaries of mishap, the ladder of concession. Every pattern on the Ring 3 checklist now has an owner, so this module owes no new glue. Instead it owes you two things: the WORDS the arts page and the culture desk run on — the stage (연극, 극, 희곡, 비극, 감독, 연기자, 출연, 제작, 소재), the page (매체, 보도, 화제, 기록, 후기, 용어), the mind (신화, 철학, 세계관, 이데올로기, 미, 문화재, 삼국, 중세) and the people (학자, 지식인, 필자, 스승, 제자, 출신, 솜씨, 다방) — and the Band 7 glue index, every pattern with its owner on one page. Thirty-two Grade-C words, one glue part, and a thesis: **Ring 3's grammar band ends where Korean's culture words begin** — with the -자 person-suffix, the -극 drama-suffix, and the Sino/native register pairs (스승/선생님, 다방/카페, 극/드라마) that M48 opened.
+Band 7 closes on the culture desk. Twelve modules ago M85 said the whole ring in one line — that md's thesis, "**written Korean is spoken Korean with the seams welded shut**" — and since then every module has handed you three to seven of the welds: the written connectives, the cause-machinery, the seeming-and-worth nouns, the eyewitness -더-, the measuring nouns, the state's frames, the analyst's endings, the auxiliaries of mishap, the ladder of concession. This module adds three ways a critic can connect claims: give a reason, prefer one account, and name the point that matters. It also gives you the WORDS the arts page and the culture desk run on — the stage (연극, 극, 희곡, 비극, 감독, 연기자, 출연, 제작, 소재), the page (매체, 보도, 화제, 기록, 후기, 용어), the mind (신화, 철학, 세계관, 이데올로기, 미, 문화재, 삼국, 중세) and the people (학자, 지식인, 필자, 스승, 제자, 출신, 솜씨, 다방) — and the Band 7 glue index, every pattern with its owner on one page. Thirty-two Grade-C words, three glue parts, and a thesis: **Ring 3's grammar band ends where Korean's culture words begin** — with the -자 person-suffix, the -극 drama-suffix, and the Sino/native register pairs (스승/선생님, 다방/카페, 극/드라마) that M48 opened.
 
-**How to use this:** decode the hanja first — you own a half of nearly every compound here (演 技 者 製 作 素 材 報 道 話 題 記 錄 後 期 用 語 神 哲 學 世 界 觀 美 文 化 財 三 國 中 弟 子 出 身 茶 房) — then read Part 2 not as a lesson but as a map: find the three patterns you still reach for in English and reread their owners. The sentence deck is eight lines from a culture page; each one recycles a different Band 7 pattern and names it.
+**How to use this:** decode the hanja first — you own a half of nearly every compound here (演 技 者 製 作 素 材 報 道 話 題 記 錄 後 期 用 語 神 哲 學 世 界 觀 美 文 化 財 三 國 中 弟 子 出 身 茶 房) — then work through the three new glue frames before using the index to find earlier patterns you still reach for in English. The sentence deck is eight lines from a culture page; each one recycles a different earlier Band 7 pattern and names it.
 
 ---
 
@@ -21,9 +21,21 @@ Every drawer opens on a receipt. M57's 자체 note wrote "자체 제작 = made i
 
 ---
 
-## Part 2 — The Band 7 glue index
+## Part 2 — The glue: -(으)ㄴ/는 만큼 — given that
 
-Every pattern on the Ring 3 checklist (CURRICULUM §2c), in checklist order, with the module that owns it and the phrase that md filed it under. Nothing here is new; everything here is yours.
+Attach **-는 만큼** to a present action (보도하다 → 보도하는 만큼), or **-(으)ㄴ 만큼** to a present quality (중요하다 → 중요한 만큼). It gives the first clause as the grounds for the second: 이 매체가 연극을 자주 보도하는 만큼 연극도 화제가 돼요 — given how often this outlet covers theatre, the play becomes a topic of conversation. Leave a space before 만큼: here it is a dependent noun. M89's **-(으)ㄹ 만큼** measured how far something went; the present or completed fact here gives a reason for what follows.
+
+## Part 3 — The glue: -기보다는 — prefer one account to another
+
+Put **-기보다는** after a verb stem, then say what fits better: 이 작품을 비극이라고 보기보다는 신화라고 보는 편이 좋아요 — rather than call this work a tragedy, it is better to see it as a myth. 보기 is 보다 + -기; the second account is the one the speaker favors. M95's **대신에** can mark a substitute noun or action; -기보다는 specifically compares two ways of doing or describing something.
+
+## Part 4 — The glue: -다는 점에서 — name the point that matters
+
+Report a descriptive claim with **-다는 점에서** and then state what follows from that point: 이 희곡은 신화를 다룬다는 점에서 화제가 되었어요 — this play became a topic of conversation in that it deals with a myth. 다룬다 is the quoted declarative form of 다루다; **점에서** means “in the respect that.” This frame names the criterion of an evaluation. M90's **-(으)ㄴ 결과** gives a result; it does not identify the respect in which a claim holds.
+
+## Band 7 glue index — earlier owners
+
+The patterns taught in M85–M95, in checklist order, with their owners. The three frames above complete M96's additions.
 
 | Pattern | Owner | Says |
 |---|---|---|
@@ -87,13 +99,13 @@ Every pattern on the Ring 3 checklist (CURRICULUM §2c), in checklist order, wit
 | -는 한 | M95 | as long as |
 | -기만 하면 | M95 | all it takes is |
 
-Two patterns rode in beyond the checklist and belong to M87 as well: -(으)ㄹ 지경이다 (at the point of, always bad) and 나름 (in one's own way; it depends). And the 용어 you never needed: every row above is a 연결어미 or a 종결어미 — a connective or a closing ending — and you learned all fifty-nine without the term.
+Two patterns rode in beyond the earlier checklist and belong to M87 as well: -(으)ㄹ 지경이다 (at the point of, always bad) and 나름 (in one's own way; it depends). The three M96 frames are taught above; use this index to revisit their predecessors.
 
 **Calibration:** three ladders, drawn end to end. BECAUSE — -아/어서 and -(으)니까 from M10 · -기 때문에 from M84 · -(으)므로 from M85 · 로 인해 from M86: the mouth, the reason, the written reason, the page, the noun's cause. SEEMING — 것 같다 from M34 · 듯하다 from M87 · -(으)ㄹ걸요 from M93: I think, it seems in print, I'd guess out loud. CONCESSION — -아/어도 from M39 · -더라도 and -(으)ㄹ지라도 from M95 · 에도 불구하고 from M86: even if, even if it were so, even should, despite the noun. Twelve rungs, four bands, one engine.
 
 ---
 
-## Part 3 — Building sentences
+## Part 5 — Building sentences
 
 **Spot the recycling:** each line names its Band 7 pattern — -(으)며 from M85 joins the review with M35's 새롭다 in the ㅂ-irregular; 에도 불구하고 from M86 concedes M93's 비판 and 화제가 되다 closes on M10's 되다; -(으)ㄹ 만하다 from M87 stacks on the try-machine from M16 under a badge from M24; -더라고요 from M88 reports a 다방's coffee; 조차 from M89 replaces the subject particle and the long negation from M28 finishes; 에 따르면 from M90 opens a source and the quoting -(이)라고 하다 from M32 closes it; -는 김에 from M91 rides verb--고 from M10 and 도 from M2; and -(으)ㄹ걸요 from M93 guesses at history with M24's 아마 and a -되다 passive.
 
@@ -105,4 +117,4 @@ Two patterns rode in beyond the checklist and belong to M87 as well: -(으)ㄹ �
 
 ## What's next
 
-Band 7 is closed. Behind you: twelve modules, roughly four hundred Grade-C words, and fifty-nine patterns — the whole advanced glue of TOPIK II, owned and indexed above. Ahead is **Band 8, the long tail**: Ring 3's remaining ~2,100 words in frequency-sliced packs — the economy page, the second front page, the native verbs, the body, the tools — each pack garnish-free and glue-free, every sentence recycling one of the fifty-nine and naming it. And past the last pack, the app's Explore translator for whatever the packs never reached. 이제 문법은 끝났으므로, 남은 것은 단어일 따름이에요.
+Band 7 is closed. Behind you: twelve modules, roughly four hundred Grade-C words, and the advanced glue indexed above, with three final frames in this module. Ahead is **Band 8, the long tail**: Ring 3's remaining ~2,100 words in frequency-sliced packs — the economy page, the second front page, the native verbs, the body, the tools — each pack garnish-free and glue-free, every sentence recycling Band 7 grammar. And past the last pack, the app's Explore translator for whatever the packs never reached. 이제 문법은 끝났으므로, 남은 것은 단어일 따름이에요.

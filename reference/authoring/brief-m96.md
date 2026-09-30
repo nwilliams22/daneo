@@ -1,10 +1,10 @@
 # Brief — M96 "Culture, Stage and Press" (order 105, ring 3, band 7 — Band 7 closes)
 
 Read SHARED-BRIEF.md first; follow exactly. Band 7 = the Band 6 pack
-contract PLUS glue parts — but THIS module is the glue-light closer:
-every pattern on the Ring 3 checklist (CURRICULUM.md §2c) has an owner
-by now (M85–M95), so its one glue part is a **Band 7 glue index** — a
-recap table of the ~55 patterns with their owning module, the way M39's
+contract PLUS glue parts. This closer teaches three final comparison/grounds
+frames: **-(으)ㄴ/는 만큼** (grounds), **-기보다는** (preferred account), and
+**-다는 점에서** (respect or criterion). It also carries a **Band 7 glue index** — a
+recap table of the earlier patterns with their owning module, the way M39's
 md closed Band 4 (read M39's "What's next" and any recap it carries —
 verify what shape it used). NO morpheme-possessive phrasings; cite in
 hangul. Every quote VERBATIM. Read M48's md (the arts shelf: 작가 작품
@@ -106,9 +106,11 @@ opened**.
    instant coffee, sugar and creamer — 커피 M2); vs M2's 카페 — the register
    pair by decade).
 
-5. **Glue part — the Band 7 glue index.** One part, `## Part 2 — The
-   Band 7 glue index`: a table (pattern · owner · one-phrase meaning) of
-   every Ring 3 pattern taught M85–M95, in checklist order — read
+5. **Three glue parts, then the Band 7 glue index.** Parts 2–4 teach
+   -(으)ㄴ/는 만큼, -기보다는 and -다는 점에서 with formation, a culture-desk
+   example and contrast against earlier glue. The index remains a table
+   (pattern · owner · one-phrase meaning) of the patterns taught M85–M95,
+   in checklist order — read
    CURRICULUM.md §2c's "Ring 3 glue checklist" and each module's md to
    assign owners; verify each by grep. Then a **Calibration** line: three
    register ladders drawn end to end (because: -아/어서 · -(으)니까 M10 ·
@@ -125,12 +127,12 @@ opened**.
 **Md shape:** intro (Band 7 closes on the culture desk) · How to use ·
 `## Part 1 —` the four drawers, `::vocab::`, **Radar patrol** (극 劇 vs
 태극's 極; 보도 報道 vs 횡단보도's 步道; 미 美 vs 미소's 微; 소재 素材/所在;
-후기 late-period vs review; 제자 vs 제자리; 삼국 ≠ 국 soup) · `## Part 2 —
-The Band 7 glue index` (the table + Calibration) · `## Part 3 — Building
-sentences` · `## What's next` — Band 7 is closed; Band 8 is the long
+후기 late-period vs review; 제자 vs 제자리; 삼국 ≠ 국 soup) · Parts 2–4 (three
+new glue frames) · `## Band 7 glue index` (the table + Calibration) ·
+`## Part 5 — Building sentences` · `## What's next` — Band 7 is closed; Band 8 is the long
 tail: frequency-sliced packs with no glue, Ring 3's remaining ~2,100
-words, and the app's Explore translator for the rest. 60–75 lines (the
-index table earns the extra).
+words, and the app's Explore translator for the rest. The three lessons
+extend the original index length.
 
 **Sentences:** 8; each recycles a DIFFERENT Band 7 pattern (name it in
 the note); ≥8 slice words in sentences. NO digits.
