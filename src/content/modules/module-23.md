@@ -12,7 +12,7 @@ Twenty-two modules of machinery, and now somewhere to take it: the airport, the 
 
 The compound machine does tourism now:
 
-- **여권** = travel + 권 (M5's book-counter, promoted to documents) — the passport
+- **여권 (旅券)** = 여 (旅, travel) + 권 (券, ticket/certificate) — the passport
 - **관광객 / 관광지** = sightseeing + guest / + place — the tourist and where they cluster
 - **-관** builds public buildings: 박물**관**, 미술**관** — and 영화관, when you get there
 - **바닷가** = M11's sea + edge · **온천** = 온돌's warm + spring · **사거리** = four + streets
