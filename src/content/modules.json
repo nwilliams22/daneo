@@ -3484,5 +3484,28 @@
       "s_m145_advice", "s_m145_dishes", "s_m145_medal", "s_m145_care",
       "s_m145_bargain", "s_m145_discharge"
     ]
+  },
+  {
+    "id": "m146",
+    "title": "Fresh Starts, Welcome and Looking Back",
+    "order": 155,
+    "ring": 2,
+    "contentMd": "modules/module-146.md",
+    "wordIds": [
+      "w_jiwojida", "w_jijeobunhada", "w_jintong", "w_chanseonghada",
+      "w_chamseok", "w_choegogeup", "w_choesang", "w_chulguk",
+      "w_chinhaejida", "w_kokkeut", "w_haem", "w_garosu",
+      "w_gaeda", "w_gogeupseureopda", "w_gosohada", "w_gongju",
+      "w_kkaeeojida", "w_daeyeoseot", "w_doedoraboda", "w_muyongga",
+      "w_bangida", "w_sanggeum", "w_sigyok", "w_apbada",
+      "w_yalmipda", "w_yangsangchu", "w_yeongihada", "w_ollain",
+      "w_oegatjip", "w_yuneunghada", "w_yujeokji", "w_eungdaphada",
+      "w_iropda", "w_ipsa", "w_jaehwaryong", "w_jesannal"
+    ],
+    "sentenceIds": [
+      "s_m146_hall", "s_m146_prize", "s_m146_tableware", "s_m146_weather",
+      "s_m146_ham", "s_m146_delay", "s_m146_welcome", "s_m146_recycle",
+      "s_m146_friends", "s_m146_lookback"
+    ]
   }
 ]

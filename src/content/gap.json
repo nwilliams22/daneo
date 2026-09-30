@@ -3598,5 +3598,23 @@
     "lit": "rise onto the cutting board",
     "real": "To come under scrutiny or become a target of criticism.",
     "note": "The kitchen surface becomes the place where an issue is examined and cut apart. A person or policy can be on this figurative board without being physically anywhere near a kitchen."
+  },
+  {
+    "id": "g_m146_nose",
+    "cat": "phrase",
+    "ko": "코끝이 찡하다",
+    "rom": "kokkeuchi jjinghada",
+    "lit": "the nose tip tingles",
+    "real": "To feel a sharp stir of emotion, often close to tears.",
+    "note": "The physical sensation carries the emotional message. 찡하다 is glossed here as tingling or stinging; the expression can respond to something moving as well as something sad."
+  },
+  {
+    "id": "g_m146_appetite",
+    "cat": "structure",
+    "ko": "식욕이 없다",
+    "rom": "sigyogi eopda",
+    "lit": "appetite does not exist",
+    "real": "To have no appetite.",
+    "note": "English assigns the lack to a person who has no appetite. Korean makes 식욕 the subject of 없다; it is the appetite that fails to exist, not the food."
   }
 ]

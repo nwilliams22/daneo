@@ -32247,5 +32247,245 @@
     "rom": "jedaehagoseo chacha hoesae iksukhaejyeosseoyo",
     "wordIds": ["w_jedaehada", "w_chacha", "w_iksukhada", "w_hoesa"],
     "note": "-고서 from M85 orders the transition; -아/어지다 from M35 supplies the change of state. 차차 makes the pace gradual."
+  },
+  {
+    "id": "s_m146_hall",
+    "en": [
+      { "t": "While looking around", "role": "other", "id": "b" },
+      { "t": "the exhibition hall,", "role": "object", "id": "a" },
+      { "t": "I met", "role": "verb", "id": "d" },
+      { "t": "a dancer too.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "exhibition-hall-[obj]", "role": "object", "id": "a" },
+      { "t": "look-around-[while-at-it]", "role": "other", "id": "b" },
+      { "t": "dancer-[also]", "role": "object", "id": "c" },
+      { "t": "met", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "전시장을", "role": "object", "id": "a" },
+      { "t": "둘러보는 김에", "role": "other", "id": "b" },
+      { "t": "무용가도", "role": "object", "id": "c" },
+      { "t": "만났어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "jeonsijangeul dulleoboneun gime muyonggado mannasseoyo",
+    "wordIds": ["w_jeonsijang", "w_dulleoboda", "w_gim", "w_muyongga", "w_mannada"],
+    "note": "-는 김에 from M91 adds a meeting to a visit. 전시장 from M145 moves from a workplace to a meeting place."
+  },
+  {
+    "id": "s_m146_prize",
+    "en": [
+      { "t": "Not only did I win", "role": "other", "id": "b" },
+      { "t": "a gold medal;", "role": "object", "id": "a" },
+      { "t": "I received", "role": "verb", "id": "d" },
+      { "t": "prize money too.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "gold-medal-[obj]", "role": "object", "id": "a" },
+      { "t": "won-[not-only]", "role": "other", "id": "b" },
+      { "t": "prize-money-[also]", "role": "object", "id": "c" },
+      { "t": "received", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "금메달을", "role": "object", "id": "a" },
+      { "t": "땄을 뿐만 아니라", "role": "other", "id": "b" },
+      { "t": "상금도", "role": "object", "id": "c" },
+      { "t": "받았어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "geummedareul ttasseul ppunman anira sanggeumdo badasseoyo",
+    "wordIds": ["w_geummedal", "w_ttada", "w_ppun", "w_sanggeum", "w_batda"],
+    "note": "-(으)ㄹ 뿐만 아니라 from M89 adds a second reward. 금메달 from M145 now pairs with money rather than a physical reaction."
+  },
+  {
+    "id": "s_m146_tableware",
+    "en": [
+      { "t": "The dishes", "role": "subject", "id": "a" },
+      { "t": "not only look luxurious;", "role": "other", "id": "b" },
+      { "t": "they are clean.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "tableware-[subj]", "role": "subject", "id": "a" },
+      { "t": "luxurious-[not-only]", "role": "other", "id": "b" },
+      { "t": "clean", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "식기가", "role": "subject", "id": "a" },
+      { "t": "고급스러울 뿐만 아니라", "role": "other", "id": "b" },
+      { "t": "깨끗해요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "sikgiga gogeupseureoul ppunman anira kkaekkeuthaeyo",
+    "wordIds": ["w_sikgi", "w_gogeupseureopda", "w_ppun", "w_kkaekkeuthada"],
+    "note": "-(으)ㄹ 뿐만 아니라 from M89 combines two qualities. 식기 from M145 is the shared subject of both descriptions."
+  },
+  {
+    "id": "s_m146_weather",
+    "en": [
+      { "t": "The weather", "role": "subject", "id": "a" },
+      { "t": "cleared, and then", "role": "other", "id": "b" },
+      { "t": "the sea off the coast", "role": "subject", "id": "c" },
+      { "t": "came into view.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "weather-[subj]", "role": "subject", "id": "a" },
+      { "t": "clear-[then]", "role": "other", "id": "b" },
+      { "t": "sea-off-coast-[subj]", "role": "subject", "id": "c" },
+      { "t": "was-visible", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "날이", "role": "subject", "id": "a" },
+      { "t": "개더니", "role": "other", "id": "b" },
+      { "t": "앞바다가", "role": "subject", "id": "c" },
+      { "t": "보였어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "nari gaedeoni apbadaga boyeosseoyo",
+    "wordIds": ["w_nal", "w_gaeda", "w_apbada", "w_boida"],
+    "note": "-더니 from M88 links an observed change to what followed. 개다 is the weather verb, and 앞바다 is now visible."
+  },
+  {
+    "id": "s_m146_ham",
+    "en": [
+      { "t": "The ham", "role": "subject", "id": "a" },
+      { "t": "does taste savory, but", "role": "other", "id": "b" },
+      { "t": "I have no", "role": "verb", "id": "d" },
+      { "t": "appetite.", "role": "subject", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "ham-[topic]", "role": "subject", "id": "a" },
+      { "t": "savory-[admittedly-but]", "role": "other", "id": "b" },
+      { "t": "appetite-[subj]", "role": "subject", "id": "c" },
+      { "t": "not-exist", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "햄은", "role": "subject", "id": "a" },
+      { "t": "고소하기는 하지만", "role": "other", "id": "b" },
+      { "t": "식욕이", "role": "subject", "id": "c" },
+      { "t": "없어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "haemeun gosohagineun hajiman sigyogi eopseoyo",
+    "wordIds": ["w_haem", "w_gosohada", "w_sigyok", "w_eopda"],
+    "note": "-기는 하다 from M92 admits one quality before a contrast. Korean gives 식욕 its own subject marker where English says I have."
+  },
+  {
+    "id": "s_m146_delay",
+    "en": [
+      { "t": "Because I postponed", "role": "other", "id": "b" },
+      { "t": "my departure from the country,", "role": "object", "id": "a" },
+      { "t": "I was delayed in", "role": "verb", "id": "d" },
+      { "t": "joining the company too.", "role": "subject", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "departure-from-country-[obj]", "role": "object", "id": "a" },
+      { "t": "postpone-[unexpected-cause]", "role": "other", "id": "b" },
+      { "t": "joining-company-[also]", "role": "subject", "id": "c" },
+      { "t": "became-late", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "출국을", "role": "object", "id": "a" },
+      { "t": "연기하는 바람에", "role": "other", "id": "b" },
+      { "t": "입사도", "role": "subject", "id": "c" },
+      { "t": "늦어졌어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "chulgugeul yeongihaneun barame ipsado neujeojyeosseoyo",
+    "wordIds": ["w_chulguk", "w_yeongihada", "w_baram", "w_ipsa", "w_neutda"],
+    "note": "-는 바람에 from M86 presents an unwelcome consequence. This 연기하다 postpones; it does not perform on a stage."
+  },
+  {
+    "id": "s_m146_welcome",
+    "en": [
+      { "t": "I went", "role": "other", "id": "b" },
+      { "t": "to my maternal grandparents’ home,", "role": "place", "id": "a" },
+      { "t": "and was warmly welcomed by", "role": "verb", "id": "d" },
+      { "t": "everyone.", "role": "subject", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "maternal-family-home-[to]", "role": "place", "id": "a" },
+      { "t": "went-[and-found]", "role": "other", "id": "b" },
+      { "t": "everyone", "role": "subject", "id": "c" },
+      { "t": "welcomed-[for-me-honorific-past]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "외갓집에", "role": "place", "id": "a" },
+      { "t": "갔더니", "role": "other", "id": "b" },
+      { "t": "모두", "role": "subject", "id": "c" },
+      { "t": "반겨 주셨어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "oegatjibe gatdeoni modu bangyeo jusyeosseoyo",
+    "wordIds": ["w_oegatjip", "w_gada", "w_modu", "w_bangida", "w_juda"],
+    "note": "-았/었더니 from M88 reports the welcome discovered on arrival. -아/어 주다 presents it as kindness, and -시- respects the people welcoming the speaker."
+  },
+  {
+    "id": "s_m146_recycle",
+    "en": [
+      { "t": "Even if you agree", "role": "other", "id": "b" },
+      { "t": "with recycling,", "role": "other", "id": "a" },
+      { "t": "the method", "role": "subject", "id": "c" },
+      { "t": "needs to be considered", "role": "verb", "id": "e" },
+      { "t": "again.", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "recycling-[to]", "role": "other", "id": "a" },
+      { "t": "agree-[even-if]", "role": "other", "id": "b" },
+      { "t": "method-[topic]", "role": "subject", "id": "c" },
+      { "t": "again", "role": "other", "id": "d" },
+      { "t": "think-[must]", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "재활용에", "role": "other", "id": "a" },
+      { "t": "찬성하더라도", "role": "other", "id": "b" },
+      { "t": "방법은", "role": "subject", "id": "c" },
+      { "t": "다시", "role": "other", "id": "d" },
+      { "t": "생각해야 해요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "jaehwaryonge chanseonghadeorado bangbeobeun dasi saenggakhaeya haeyo",
+    "wordIds": ["w_jaehwaryong", "w_chanseonghada", "w_bangbeop", "w_dasi", "w_saenggakhada", "w_hada"],
+    "note": "-더라도 from M95 separates support for a goal from agreement about the method. 에 marks what the person supports."
+  },
+  {
+    "id": "s_m146_friends",
+    "en": [
+      { "t": "As we worked", "role": "other", "id": "b" },
+      { "t": "together,", "role": "other", "id": "a" },
+      { "t": "gradually", "role": "other", "id": "c" },
+      { "t": "we became close.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "together", "role": "other", "id": "a" },
+      { "t": "work-[over-time]", "role": "other", "id": "b" },
+      { "t": "gradually", "role": "other", "id": "c" },
+      { "t": "became-close", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "함께", "role": "other", "id": "a" },
+      { "t": "일하다 보니", "role": "other", "id": "b" },
+      { "t": "차차", "role": "other", "id": "c" },
+      { "t": "친해졌어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "hamkke ilhada boni chacha chinhaejyeosseoyo",
+    "wordIds": ["w_hamkke", "w_ilhada", "w_chacha", "w_chinhaejida"],
+    "note": "-다 보니 from M94 presents a result noticed over time. 차차 from M145 supports the gradual development already inside 친해지다."
+  },
+  {
+    "id": "s_m146_lookback",
+    "en": [
+      { "t": "After touring", "role": "other", "id": "b" },
+      { "t": "the historic site,", "role": "object", "id": "a" },
+      { "t": "I reflected on", "role": "verb", "id": "d" },
+      { "t": "history.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "historic-site-[obj]", "role": "object", "id": "a" },
+      { "t": "look-around-[after]", "role": "other", "id": "b" },
+      { "t": "history-[obj]", "role": "object", "id": "c" },
+      { "t": "looked-back", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "유적지를", "role": "object", "id": "a" },
+      { "t": "둘러보고서", "role": "other", "id": "b" },
+      { "t": "역사를", "role": "object", "id": "c" },
+      { "t": "되돌아봤어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "yujeokjireul dulleobogoseo yeoksareul doedorabwasseoyo",
+    "wordIds": ["w_yujeokji", "w_dulleoboda", "w_yeoksa", "w_doedoraboda"],
+    "note": "-고서 from M85 puts reflection after the visit. 되돌아보다 turns a backward gaze into thought about the past."
   }
 ]
