@@ -27,7 +27,7 @@ M62 opened the adverb drawer and taught you CALIBRATED SETS — the degree ladde
 
 ### 1. -게 and -히 — the pair rule
 
-The -게 adverb (M33) is the live adverbializer: any adjective wears it, today. -히 is the fossilized Sino one — and 하다-adjectives keep BOTH: 정확하게/정확히, 간단하게/간단히, 편하게/편히. Same meaning; -히 sits a shade more written. M63 wrote 간단하게 말하면; this module says 간단히 말하면 and means the same thing. One spelling exception: after a ㅅ-final stem the mouth says -이, so the page writes 깨끗이 — the -이 press (M62), gaining a defector.
+The -게 adverb (M33) is a productive way to turn adjectives into adverbial expressions. -히 is a distinct adverb-forming pattern restricted by the individual word and its stem: do not attach it to every 하다-adjective. Learn the attested pairs here: 정확하게/정확히, 간단하게/간단히, 편하게/편히. It is not limited to Sino-Korean bases: native 꾸준하다 gives 꾸준히 (steadily), alongside 꾸준하게. These pairs overlap in meaning; learn their usage with the word. M63 wrote 간단하게 말하면; this module says 간단히 말하면 and means the same thing. One spelling exception: after a ㅅ-final stem the mouth says -이, so the page writes 깨끗이 — the -이 press (M62), gaining a defector.
 
 ### 2. 덜 — the dial turns down
 
