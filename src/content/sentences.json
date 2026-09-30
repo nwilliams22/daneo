@@ -31998,5 +31998,254 @@
     "rom": "geuneun bamsae huhoereul haesseoyo",
     "wordIds": ["w_bamsae", "w_huhoe"],
     "note": "밤새 spans the whole night; 후회 is the feeling expressed by 후회를 하다."
+  },
+  {
+    "id": "s_m145_display",
+    "en": [
+      { "t": "While going to exhibit", "role": "other", "id": "b" },
+      { "t": "the album,", "role": "object", "id": "a" },
+      { "t": "I looked around", "role": "verb", "id": "d" },
+      { "t": "the exhibition hall too.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "album-[obj]", "role": "object", "id": "a" },
+      { "t": "exhibit-in-order-to go-[while-at-it]", "role": "other", "id": "b" },
+      { "t": "exhibition-hall-[also]", "role": "object", "id": "c" },
+      { "t": "looked-around", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "앨범을", "role": "object", "id": "a" },
+      { "t": "전시하러 가는 김에", "role": "other", "id": "b" },
+      { "t": "전시장도", "role": "object", "id": "c" },
+      { "t": "둘러봤어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "aelbeomeul jeonsihareo ganeun gime jeonsijangdo dulleobwasseoyo",
+    "wordIds": ["w_aelbeom", "w_jeonsihada", "w_gada", "w_gim", "w_jeonsijang", "w_dulleoboda"],
+    "note": "-는 김에 from M91 attaches a second errand to an existing trip. 앨범 and 전시하다 from M144 return in a new setting; the understood subject is the speaker."
+  },
+  {
+    "id": "s_m145_post",
+    "en": [
+      { "t": "I sent", "role": "other", "id": "c" },
+      { "t": "the application form", "role": "object", "id": "a" },
+      { "t": "by post,", "role": "other", "id": "b" },
+      { "t": "and got", "role": "verb", "id": "e" },
+      { "t": "a reply.", "role": "subject", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "application-form-[obj]", "role": "object", "id": "a" },
+      { "t": "post-[by]", "role": "other", "id": "b" },
+      { "t": "sent-[and-found]", "role": "other", "id": "c" },
+      { "t": "reply-[subj]", "role": "subject", "id": "d" },
+      { "t": "came", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "신청서를", "role": "object", "id": "a" },
+      { "t": "우편으로", "role": "other", "id": "b" },
+      { "t": "보냈더니", "role": "other", "id": "c" },
+      { "t": "답장이", "role": "subject", "id": "d" },
+      { "t": "왔어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "sincheongseoreul upyeoneuro bonaetdeoni dapjangi wasseoyo",
+    "wordIds": ["w_sincheongseo", "w_upyeon", "w_bonaeda", "w_dapjang", "w_oda"],
+    "note": "-았/었더니 from M88 links an action to the result the speaker found. 신청서 from M144 now travels by post. Korean makes the reply the subject of 왔어요."
+  },
+  {
+    "id": "s_m145_recruit",
+    "en": [
+      { "t": "They are recruiting", "role": "verb", "id": "f" },
+      { "t": "staff", "role": "object", "id": "e" },
+      { "t": "at the exhibition hall where", "role": "place", "id": "d" },
+      { "t": "my spouse", "role": "subject", "id": "a" },
+      { "t": "was looking for", "role": "other", "id": "c" },
+      { "t": "a job.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "spouse-[subj]", "role": "subject", "id": "a" },
+      { "t": "job-[obj]", "role": "object", "id": "b" },
+      { "t": "look-into-[remembered-modifier]", "role": "other", "id": "c" },
+      { "t": "exhibition-hall-[at]", "role": "place", "id": "d" },
+      { "t": "staff-[obj]", "role": "object", "id": "e" },
+      { "t": "recruit", "role": "verb", "id": "f" }
+    ],
+    "ko": [
+      { "t": "배우자가", "role": "subject", "id": "a" },
+      { "t": "일자리를", "role": "object", "id": "b" },
+      { "t": "알아보던", "role": "other", "id": "c" },
+      { "t": "전시장에서", "role": "place", "id": "d" },
+      { "t": "직원을", "role": "object", "id": "e" },
+      { "t": "모집해요.", "role": "verb", "id": "f" }
+    ],
+    "rom": "baeujaga iljarireul arabodeon jeonsijangeseo jigwoneul mojiphaeyo",
+    "wordIds": ["w_baeuja", "w_iljari", "w_araboda", "w_jeonsijang", "w_jigwon", "w_mojiphada"],
+    "note": "-던 from M88 recalls an earlier ongoing search. 일자리 from M144 is reused; 배우자 supplies the person who was looking, and the hall is recruiting now."
+  },
+  {
+    "id": "s_m145_noon",
+    "en": [
+      { "t": "Although it is past", "role": "other", "id": "b" },
+      { "t": "noon,", "role": "subject", "id": "a" },
+      { "t": "the exhibition hall", "role": "subject", "id": "c" },
+      { "t": "is simply", "role": "verb", "id": "e" },
+      { "t": "quiet.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "noon-[subj]", "role": "subject", "id": "a" },
+      { "t": "passed-[although]", "role": "other", "id": "b" },
+      { "t": "exhibition-hall-[topic]", "role": "subject", "id": "c" },
+      { "t": "quiet-[prospective]", "role": "verb", "id": "d" },
+      { "t": "only-is", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "정오가", "role": "subject", "id": "a" },
+      { "t": "지났는데도", "role": "other", "id": "b" },
+      { "t": "전시장은", "role": "subject", "id": "c" },
+      { "t": "조용할", "role": "verb", "id": "d" },
+      { "t": "따름이에요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "jeongoga jinanneundedo jeonsijangeun joyonghal ttareumieyo",
+    "wordIds": ["w_jeongo", "w_jinada", "w_jeonsijang", "w_joyonghada"],
+    "note": "-(으)ㄹ 따름이다 from M92 limits the observation to one state. The hall is simply quiet; 정오 is the exact noon point."
+  },
+  {
+    "id": "s_m145_advice",
+    "en": [
+      { "t": "Even after hearing", "role": "other", "id": "b" },
+      { "t": "the advice,", "role": "object", "id": "a" },
+      { "t": "I was just", "role": "verb", "id": "d" },
+      { "t": "upset.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "advice-[obj]", "role": "object", "id": "a" },
+      { "t": "hear-[even-after]", "role": "other", "id": "b" },
+      { "t": "upset-[prospective]", "role": "verb", "id": "c" },
+      { "t": "only-was", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "충고를", "role": "object", "id": "a" },
+      { "t": "듣고도", "role": "other", "id": "b" },
+      { "t": "속상할", "role": "verb", "id": "c" },
+      { "t": "따름이었어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "chunggoreul deutgodo soksanghal ttareumieosseoyo",
+    "wordIds": ["w_chunggo", "w_deutda", "w_soksanghada"],
+    "note": "-고도 from M85 sets the outcome against what the advice might have achieved. -(으)ㄹ 따름이다 from M92 keeps the reaction narrow."
+  },
+  {
+    "id": "s_m145_dishes",
+    "en": [
+      { "t": "Even if", "role": "other", "id": "b" },
+      { "t": "they are imported goods,", "role": "other", "id": "a" },
+      { "t": "these", "role": "other", "id": "c" },
+      { "t": "dishes", "role": "subject", "id": "d" },
+      { "t": "are not expensive.", "role": "verb", "id": "e" }
+    ],
+    "gloss": [
+      { "t": "imported-goods-[quote]", "role": "other", "id": "a" },
+      { "t": "say-[even-if]", "role": "other", "id": "b" },
+      { "t": "this", "role": "other", "id": "c" },
+      { "t": "tableware-[topic]", "role": "subject", "id": "d" },
+      { "t": "expensive-[not]", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "수입품이라고", "role": "other", "id": "a" },
+      { "t": "하더라도", "role": "other", "id": "b" },
+      { "t": "이", "role": "other", "id": "c" },
+      { "t": "식기는", "role": "subject", "id": "d" },
+      { "t": "비싸지 않아요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "suippumirago hadeorado i sikgineun bissaji anayo",
+    "wordIds": ["w_suippum", "w_hada", "w_sikgi", "w_bissada", "w_i_det"],
+    "note": "-더라도 from M95 concedes the origin while rejecting a price assumption. 식기 is collective tableware, rendered as dishes in natural English."
+  },
+  {
+    "id": "s_m145_medal",
+    "en": [
+      { "t": "After winning", "role": "other", "id": "b" },
+      { "t": "the gold medal,", "role": "object", "id": "a" },
+      { "t": "I closed my eyes.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "gold-medal-[obj]", "role": "object", "id": "a" },
+      { "t": "win-[after]", "role": "other", "id": "b" },
+      { "t": "closed-eyes", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "금메달을", "role": "object", "id": "a" },
+      { "t": "따고서", "role": "other", "id": "b" },
+      { "t": "눈감았어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "geummedareul ttagoseo nungamasseoyo",
+    "wordIds": ["w_geummedal", "w_ttada", "w_nungamda"],
+    "note": "-고서 from M85 places closing the eyes after the win. 눈감다 has its physical meaning here, not the overlook reading in the gap deck."
+  },
+  {
+    "id": "s_m145_care",
+    "en": [
+      { "t": "Because I was providing", "role": "other", "id": "b" },
+      { "t": "care,", "role": "object", "id": "a" },
+      { "t": "I could not read", "role": "verb", "id": "d" },
+      { "t": "the storybook.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "nursing-[obj]", "role": "object", "id": "a" },
+      { "t": "do-[occupied-so]", "role": "other", "id": "b" },
+      { "t": "storybook-[obj]", "role": "object", "id": "c" },
+      { "t": "read-[could-not]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "간호를", "role": "object", "id": "a" },
+      { "t": "하느라고", "role": "other", "id": "b" },
+      { "t": "동화책을", "role": "object", "id": "c" },
+      { "t": "읽지 못했어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "ganhoreul haneurago donghwachaegeul ikji mothaesseoyo",
+    "wordIds": ["w_ganho", "w_hada", "w_donghwachaek", "w_ikda"],
+    "note": "-느라고 from M86 gives the activity that kept the same person from reading. The sentence says nothing about who needed the care."
+  },
+  {
+    "id": "s_m145_bargain",
+    "en": [
+      { "t": "I found that I had bought", "role": "verb", "id": "c" },
+      { "t": "a cutting board", "role": "object", "id": "a" },
+      { "t": "at a low price.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "cutting-board-[obj]", "role": "object", "id": "a" },
+      { "t": "low-price-[at]", "role": "other", "id": "b" },
+      { "t": "bought-[noticed]", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "도마를", "role": "object", "id": "a" },
+      { "t": "싼값에", "role": "other", "id": "b" },
+      { "t": "샀더라고요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "domareul ssangapse satdeoragoyo",
+    "wordIds": ["w_doma", "w_ssangap", "w_sada"],
+    "note": "-더라고요 from M88 reports a discovery. Here the speaker notices the low price after the purchase, rather than describing a deliberate act of buying as a new observation."
+  },
+  {
+    "id": "s_m145_discharge",
+    "en": [
+      { "t": "After leaving military service,", "role": "other", "id": "a" },
+      { "t": "I became accustomed", "role": "verb", "id": "d" },
+      { "t": "gradually", "role": "other", "id": "b" },
+      { "t": "to the company.", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "be-discharged-[after]", "role": "other", "id": "a" },
+      { "t": "gradually", "role": "other", "id": "b" },
+      { "t": "company-[to]", "role": "other", "id": "c" },
+      { "t": "became-accustomed", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "제대하고서", "role": "other", "id": "a" },
+      { "t": "차차", "role": "other", "id": "b" },
+      { "t": "회사에", "role": "other", "id": "c" },
+      { "t": "익숙해졌어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "jedaehagoseo chacha hoesae iksukhaejyeosseoyo",
+    "wordIds": ["w_jedaehada", "w_chacha", "w_iksukhada", "w_hoesa"],
+    "note": "-고서 from M85 orders the transition; -아/어지다 from M35 supplies the change of state. 차차 makes the pace gradual."
   }
 ]

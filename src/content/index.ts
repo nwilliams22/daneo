@@ -1,3 +1,4 @@
+import module145Md from "./modules/module-145.md?raw";
 import wordsJson from "./words.json";
 import sentencesJson from "./sentences.json";
 import confusablesJson from "./confusables.json";
@@ -342,6 +343,7 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-140.md": module140Md,
   "modules/module-141.md": module141Md,
   "modules/module-144.md": module144Md,
+  "modules/module-145.md": module145Md,
   "modules/module-143.md": module143Md,
   "modules/module-142.md": module142Md,
   "modules/module-76.md": module76Md,

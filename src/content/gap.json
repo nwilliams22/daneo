@@ -3580,5 +3580,23 @@
     "lit": "To seek a job.",
     "real": "To look for work.",
     "note": "구하다 here means seek, not rescue; 일자리 is a position or opening."
+  },
+  {
+    "id": "g_m145_eyes",
+    "cat": "phrase",
+    "ko": "눈감아 주다",
+    "rom": "nungama juda",
+    "lit": "close eyes for someone",
+    "real": "To overlook something; let it slide.",
+    "note": "The closed eyes are a choice not to notice a fault. -아/어 주다 frames that choice as a favor, but the speaker is not asking for help with their eyelids."
+  },
+  {
+    "id": "g_m145_board",
+    "cat": "phrase",
+    "ko": "도마 위에 오르다",
+    "rom": "doma wie oreuda",
+    "lit": "rise onto the cutting board",
+    "real": "To come under scrutiny or become a target of criticism.",
+    "note": "The kitchen surface becomes the place where an issue is examined and cut apart. A person or policy can be on this figurative board without being physically anywhere near a kitchen."
   }
 ]

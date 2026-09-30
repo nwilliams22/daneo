@@ -3461,5 +3461,28 @@
       "s_m144_school", "s_m144_display", "s_m144_job", "s_m144_tutor",
       "s_m144_media", "s_m144_regret"
     ]
+  },
+  {
+    "id": "m145",
+    "title": "Exhibitions, Advice and Everyday Care",
+    "order": 154,
+    "ring": 2,
+    "contentMd": "modules/module-145.md",
+    "wordIds": [
+      "w_jeonsijang", "w_jeoryak", "w_jeongo", "w_jedaehada",
+      "w_jeukseok", "w_chacha", "w_chucheuk", "w_chunggo",
+      "w_paeksimilli", "w_hannat", "w_gadeukhi", "w_ganho",
+      "w_gap", "w_geonneo", "w_geomnada", "w_geummedal",
+      "w_nungamda", "w_nuntteuda", "w_daeip", "w_doma",
+      "w_donghwachaek", "w_ttangbadak", "w_mojiphada", "w_bamsaek",
+      "w_baeuja", "w_soksanghada", "w_suman", "w_suipdoeda",
+      "w_suippum", "w_sikgi", "w_ssangap", "w_yeonghwabaeu",
+      "w_yongseo", "w_upyeon", "w_jophida", "w_joa"
+    ],
+    "sentenceIds": [
+      "s_m145_display", "s_m145_post", "s_m145_recruit", "s_m145_noon",
+      "s_m145_advice", "s_m145_dishes", "s_m145_medal", "s_m145_care",
+      "s_m145_bargain", "s_m145_discharge"
+    ]
   }
 ]
