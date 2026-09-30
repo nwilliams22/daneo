@@ -73,7 +73,7 @@ Korean sentence order is **Subject – Object – Verb**. "I water drink," not "
 
 ### 1. Topic / subject particles: 은/는 and 이/가
 
-These attach to the noun that's doing the action. Which form you use depends on whether the word ends in a consonant (받침) or a vowel:
+These attach to nouns, but do different jobs: 은/는 marks what the sentence is about (sometimes in contrast to something else), while 이/가 marks the grammatical subject. In each pair, the form depends on whether the noun ends in a consonant (받침) or a vowel:
 
 - **Topic (은/는)** — "as for ___": ends in consonant → **은**, ends in vowel → **는**
   - 밥**은** (bap-eun), 저**는** (jeo-neun)
