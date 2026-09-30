@@ -28540,7 +28540,7 @@
   {
     "id": "s_m135_portrait",
     "en": [
-      { "t": "I finally saw", "role": "other", "id": "b" },
+      { "t": "I saw", "role": "other", "id": "b" },
       { "t": "the portrait;", "role": "object", "id": "a" },
       { "t": "only then", "role": "other", "id": "c" },
       { "t": "did I recall", "role": "verb", "id": "e" },
@@ -28548,21 +28548,21 @@
     ],
     "gloss": [
       { "t": "portrait-[obj]", "role": "object", "id": "a" },
-      { "t": "see-only-after", "role": "other", "id": "b" },
+      { "t": "see-after", "role": "other", "id": "b" },
       { "t": "only-then", "role": "other", "id": "c" },
       { "t": "youth-[obj]", "role": "object", "id": "d" },
       { "t": "recalled-[past-polite]", "role": "verb", "id": "e" }
     ],
     "ko": [
       { "t": "초상화를", "role": "object", "id": "a" },
-      { "t": "보고서야", "role": "other", "id": "b" },
+      { "t": "보고서", "role": "other", "id": "b" },
       { "t": "그제야", "role": "other", "id": "c" },
       { "t": "젊음을", "role": "object", "id": "d" },
       { "t": "떠올렸어요.", "role": "verb", "id": "e" }
     ],
-    "rom": "chosanghwareul bogoseoya geujeya jeolmeumeul tteoollyeosseoyo.",
+    "rom": "chosanghwareul bogoseo geujeya jeolmeumeul tteoollyeosseoyo.",
     "wordIds": ["w_chosanghwa", "w_boda", "w_geujeya", "w_jeolmeum", "w_tteoollida"],
-    "note": "-고서 from M85 gains 야 to mark the delayed point of realization. M134’s 초상화 brings back youth; 그제야 reinforces “only then.”"
+    "note": "-고서 from M85 places seeing the portrait before recalling youth. M134’s 초상화 brings back youth; 그제야 alone marks the delayed realization: “only then.”"
   },
   {
     "id": "s_m135_aircraft",
