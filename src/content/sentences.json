@@ -32964,20 +32964,20 @@
     "en": [
       { "t": "After the candle was put out,", "role": "other", "id": "a" },
       { "t": "the children", "role": "subject", "id": "b" },
-      { "t": "ran and played on both sides.", "role": "verb", "id": "c" }
+      { "t": "ran and played on both sides of the yard.", "role": "verb", "id": "c" }
     ],
     "gloss": [
       { "t": "candlelight-[obj] extinguished-[and-then]", "role": "other", "id": "a" },
       { "t": "children-[subj]", "role": "subject", "id": "b" },
-      { "t": "both-sides-[at] ran-and-played", "role": "verb", "id": "c" }
+      { "t": "yard-[of] both-sides-[at] ran-and-played", "role": "verb", "id": "c" }
     ],
     "ko": [
       { "t": "촛불을 끄고서", "role": "other", "id": "a" },
       { "t": "아이들이", "role": "subject", "id": "b" },
-      { "t": "양옆에서 뛰놀았어요.", "role": "verb", "id": "c" }
+      { "t": "마당의 양옆에서 뛰놀았어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "chotbureul kkeugoseo aideuri yangyeopeseo ttwinorasseoyo",
-    "wordIds": ["w_chotbul", "w_ai", "w_yangyeop", "w_ttwinolda"],
+    "rom": "chotbureul kkeugoseo aideuri madangui yangyeopeseo ttwinorasseoyo",
+    "wordIds": ["w_chotbul", "w_ai", "w_madang", "w_yangyeop", "w_ttwinolda"],
     "note": "-고서 from M85 makes the safer order clear. 촛불 from M148 returns in a new activity."
   },
   {
