@@ -3710,5 +3710,9 @@
   {"id": "g_m152_shirt", "cat": "concept", "ko": "와이셔츠", "rom": "waisyeocheu", "lit": "white shirt", "real": "A dress shirt, including one that is not white.", "note": "The borrowed expression settled into a clothing category; the source color is no longer a restriction."},
   {"id": "g_m152_son", "cat": "concept", "ko": "큰아들", "rom": "keunadeul", "lit": "big son", "real": "The eldest son.", "note": "큰 marks family order in this compound, not body size. A younger son can be taller and still not be the 큰아들."},
   {"id": "g_m153_uncle", "cat": "concept", "ko": "작은아버지", "rom": "jageunabeoji", "lit": "small father", "real": "Your father’s younger brother.", "note": "The compound is a kinship title. 작은 describes the family hierarchy, not a father’s height."},
-  {"id": "g_m153_only", "cat": "concept", "ko": "외아들", "rom": "oeadeul", "lit": "only son", "real": "A family’s sole son, who may have sisters.", "note": "English only child says there are no siblings. Korean 외아들 limits the count to sons."}
+  {"id": "g_m153_only", "cat": "concept", "ko": "외아들", "rom": "oeadeul", "lit": "only son", "real": "A family’s sole son, who may have sisters.", "note": "English only child says there are no siblings. Korean 외아들 limits the count to sons."},
+  {"id": "g_m154_big_father", "cat": "concept", "ko": "큰아버지", "rom": "keunabeoji", "lit": "big father", "real": "Your father’s older brother.", "note": "큰 marks seniority within the paternal family branch, not physical size."},
+  {"id": "g_m154_little_mother", "cat": "concept", "ko": "작은어머니", "rom": "jageuneomeoni", "lit": "small mother", "real": "The wife of your father’s younger brother.", "note": "The title belongs to a specific aunt by marriage, not a short mother."},
+  {"id": "g_m155_young_daughter", "cat": "concept", "ko": "작은딸", "rom": "jageunttal", "lit": "small daughter", "real": "The younger daughter.", "note": "작은 ranks daughters within the family; it does not describe height."},
+  {"id": "g_m155_radish", "cat": "concept", "ko": "깍두기", "rom": "kkakdugi", "lit": "cubed thing", "real": "Cubed radish kimchi.", "note": "This is a named kimchi made with radish, not just any food cut into cubes."}
 ]
