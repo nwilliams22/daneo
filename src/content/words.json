@@ -2816,7 +2816,7 @@
     "en": "ten thousand (Sino)",
     "pos": "noun",
     "moduleId": "m9",
-    "notes": "Korean counts in 만-units, not thousands: 만 원 = ₩10,000 (never 일만). 삼만 오천 원 = ₩35,000."
+    "notes": "Korean counts in 만-units, not thousands: 만 원 = ₩10,000, usually omitting 일. 일만 원 is also valid when the amount needs to be stated precisely. 삼만 오천 원 = ₩35,000."
   },
   {
     "id": "w_kadeu",
@@ -25567,7 +25567,7 @@
     "en": "a hundred million",
     "pos": "noun",
     "moduleId": "m76",
-    "notes": "億: M9's 만 ('Korean counts in 만-units, not thousands') times itself — 만 × 만 = 100,000,000 — and UNLIKE 만, it takes the 일: 일억, 이억, 십억. M9's 만 note said 'never 일만'; that rule stops at 만, and 억 wants its one. The unit of M13's 아파트 ('whole skylines of numbered towers'): 십억 = a billion won, and Seoul prices are quoted in it; 조 (trillion — riding frozen) sits above it in the national budget. Radar, mandatory: not the 억 of M34's 기억 or M19's 추억 — that 憶 remembers, this 億 counts. Sino all the way up: 일, 십, 백, 천, 만, 억, 조."
+    "notes": "億: M9's 만 ('Korean counts in 만-units, not thousands') times itself — 만 × 만 = 100,000,000 — and it keeps the 일 in 일억: 일억, 이억, 십억. M9 usually omits 일 in 만 원, but 일만 원 is also valid when stating the amount precisely. The unit of M13's 아파트 ('whole skylines of numbered towers'): 십억 = a billion won, and Seoul prices are quoted in it; 조 (trillion — riding frozen) sits above it in the national budget. Radar, mandatory: not the 억 of M34's 기억 or M19's 추억 — that 憶 remembers, this 億 counts. Sino all the way up: 일, 십, 백, 천, 만, 억, 조."
   },
   {
     "id": "w_myeotsip",

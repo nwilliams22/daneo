@@ -58,10 +58,12 @@ Prices are Sino-Korean, stacked in **만-units** (ten-thousands, not thousands):
 | ₩ | Korean |
 |---|--------|
 | 500 | 오백 원 |
-| 1,000 | 천 원 *(no 일)* |
+| 1,000 | 천 원 *(usually omitting 일)* |
 | 5,000 | 오천 원 |
-| 10,000 | **만 원** *(never 일만)* |
+| 10,000 | **만 원** *(usually omitting 일)* |
 | 35,000 | 삼만 오천 원 |
+
+In everyday prices, 일 is usually omitted before 만: **만 원** is more common than **일만 원**. 일만 원 is also valid when the amount needs to be stated precisely.
 
 얼마예요? → read the answer in 만/천/백. Two weeks of prices and it's automatic.
 
