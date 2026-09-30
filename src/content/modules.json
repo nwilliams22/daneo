@@ -1240,7 +1240,8 @@
       "w_choecho", "w_charye", "w_choban", "w_huban",
       "w_dangjang", "w_dangbungan", "w_handongan", "w_oraetdongan",
       "w_eoneudeot", "w_muryeop", "w_apduda", "w_gyesokdoeda",
-      "w_ji"
+      "w_ji",
+      "w_saeng", "w_soyodoeda", "w_yagan", "w_janggigan", "w_hangahada", "w_geusai", "w_jigeumkkeot"
     ],
     "sentenceIds": [
       "s_m46_learning_year", "s_m46_how_long_here", "s_m46_married_decade", "s_m46_dad_nineties",
@@ -3094,11 +3095,11 @@
     "wordIds": [
       "w_nongjang", "w_doedoragada", "w_deurikyeoda", "w_ttaradanida",
       "w_raundeu", "w_maeumgajim", "w_meorikal", "w_byeonhwadoeda",
-      "w_bujae", "w_samang", "w_saeng", "w_seoneulhada",
-      "w_seonggyeong", "w_soyodoeda", "w_sohwahada", "w_sunganjeok",
-      "w_sijipgada", "w_sipeojida", "w_ssuiuda", "w_yagan",
+      "w_bujae", "w_samang", "w_seoneulhada",
+      "w_seonggyeong", "w_sohwahada", "w_sunganjeok",
+      "w_sijipgada", "w_sipeojida", "w_ssuiuda",
       "w_eotgallida", "w_yeolda_m133", "w_orak", "w_uahada",
-      "w_iseul", "w_ingangwangye", "w_janggigan", "w_jeonseon",
+      "w_iseul", "w_ingangwangye", "w_jeonseon",
       "w_jeongji", "w_jeuihada", "w_jomyeong", "w_johwadoeda",
       "w_julgeori", "w_jungdan", "w_chaseon", "w_chakgakhada"
     ],
@@ -3378,14 +3379,14 @@
     "ring": 3,
     "contentMd": "modules/module-141.md",
     "wordIds": [
-      "w_jeongbandae", "w_chucheon", "w_hakjeom", "w_hangahada",
+      "w_jeongbandae", "w_chucheon", "w_hakjeom",
       "w_hwanyeonghada", "w_ganjeopjeok", "w_gyeongyeonghada", "w_geurium",
-      "w_geusai", "w_ginyeomhada", "w_daegang", "w_dongniphada",
+      "w_ginyeomhada", "w_daegang", "w_dongniphada",
       "w_deurimasida", "w_ttwieooreuda", "w_munbak", "w_bangsonghada",
       "w_bochunghada", "w_burwanjeonhada", "w_bulpyeong", "w_bumbida",
       "w_seomyeong", "w_sondeung", "w_yeoksahak", "w_yeong",
       "w_wonseo", "w_ironjeok", "w_ijeya", "w_imsinhada",
-      "w_jachwi", "w_jamgeuda", "w_jangnye", "w_jigeumkkeot",
+      "w_jachwi", "w_jamgeuda", "w_jangnye",
       "w_jireumgil", "w_jijin", "w_chamseokja", "w_changgu"
     ],
     "sentenceIds": [

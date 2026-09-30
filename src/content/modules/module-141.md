@@ -14,7 +14,7 @@ A service counter gets crowded, an application needs a signature, and independen
 
 **From partial to fuller.** 불완전하다 leaves something incomplete; 보충하다 adds the missing material. 대강 gives a broad outline. 간접적 describes an indirect connection, while 이론적 describes a theoretical basis. Neither label automatically tells you whether an idea is good.
 
-**Two ends of a time span.** 지금껏 reaches across all the time up to now; 이제야 points to something that happens only at this late moment. 그사이 is the interval in between. 그리움 is the feeling of missing someone or somewhere, and 기념하다 keeps an event in memory through an observance.
+**Two ends of a time span.** Reuse 지금껏 and 그사이 from M46: 지금껏 reaches across all the time up to now; 이제야 points to something that happens only at this late moment. 그사이 is the interval in between. 그리움 is the feeling of missing someone or somewhere, and 기념하다 keeps an event in memory through an observance.
 
 **Pay attention to the object.** 들이마시다 takes in air or liquid. 잠그다 locks a door, fastens clothing or shuts a tap; its polite form is 잠가요. 자취 can be a trace left behind or, as a separate homograph, cooking and living on one’s own. 영 here intensifies a judgment; it is not zero.
 

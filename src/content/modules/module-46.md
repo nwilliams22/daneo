@@ -20,6 +20,8 @@ Ring 1 built the clock and the calendar — M5 read the hours, M25 filed the dat
 
 Most of this shelf is arithmetic on Ring 1: read each decode once and the word is half-memorized before the first rep.
 
+**Seven more ways to frame time:** 생 names the life inside 평생; 장기간 gives a long duration a formal noun, and 소요되다 says how much time a task requires. 야간 names the night period, while 한가하다 describes time free of pressing activity. 그사이 bridges two events; 지금껏 stretches the story up to now.
+
 ::vocab::
 
 **Radar patrol:** three 반s (M5's half-半 in 후반, M15's classroom 班, and the Go-board 盤 in 초반) · a fourth 원 (영원's far-遠, after the hospital, the park, and the ₩) · the third 초 (최초's beginning-初 — M25's candle note called it) · 연말's end-末 vs M4's speech-말 · and 차례, which is both your turn in line (次例) and the ancestral rite (茶禮) on 명절 mornings.
