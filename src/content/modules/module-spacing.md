@@ -51,7 +51,7 @@ Modern Korean punctuation is basically Western — periods, commas, question mar
 
 ## Why the spaces are only ~130 years old
 
-Traditional Korean was written top-to-bottom, right-to-left, with **no spaces at all** — as Chinese still is. Spacing arrived with the first Hangul-only newspaper, the 독립신문 (*The Independent*, 1896), which needed ordinary readers to parse lines fast. The Korean Language Society standardized the rules in its 1933 orthography plan — the same reform that settled modern spelling. So spacing isn't ancient tradition; it's a modernization that won because it *works*, which is also why the father-and-the-bag joke lands: everyone remembers what sentences look like without it.
+Traditional Korean was written top-to-bottom, right-to-left, with **no spaces at all** — as Chinese still is. Blank-space examples appeared earlier in 언문말칙 (1887) and 한영문법 (1890); the first Hangul-only newspaper, the 독립신문 (*The Independent*, 1896), helped spread the practice more widely. The Korean Language Society standardized the rules in its 1933 orthography plan — the same reform that settled modern spelling. So spacing isn't ancient tradition; it's a modernization that won because it *works*, which is also why the father-and-the-bag joke lands: everyone remembers what sentences look like without it.
 
 ---
 
