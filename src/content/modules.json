@@ -3017,5 +3017,71 @@
       "s_m129_engine_check", "s_m129_melon_mood", "s_m129_experience_real", "s_m129_degree_rules",
       "s_m129_handover_printer", "s_m129_bell_light", "s_m129_tug_fall", "s_m129_disappointment_praise"
     ]
+  },
+  {
+    "id": "m130",
+    "title": "Waiting, Holding and Letting Go",
+    "order": 139,
+    "ring": 3,
+    "contentMd": "modules/module-130.md",
+    "wordIds": [
+      "w_m130_01", "w_m130_02", "w_m130_03", "w_m130_04",
+      "w_m130_05", "w_m130_06", "w_m130_07", "w_m130_08",
+      "w_m130_09", "w_m130_10", "w_m130_11", "w_m130_12",
+      "w_m130_13", "w_m130_14", "w_m130_15", "w_m130_16",
+      "w_m130_17", "w_m130_18", "w_m130_19", "w_m130_20",
+      "w_m130_21", "w_m130_22", "w_m130_23", "w_m130_24",
+      "w_m130_25", "w_m130_26", "w_m130_27", "w_m130_28",
+      "w_m130_29", "w_m130_30", "w_m130_31", "w_m130_32",
+      "w_m130_33", "w_m130_34", "w_m130_35", "w_m130_36"
+    ],
+    "sentenceIds": [
+      "s_m130_crew_wait", "s_m130_late_hospitality", "s_m130_excuse", "s_m130_cloth_handover",
+      "s_m130_legend_sky", "s_m130_seat", "s_m130_job_regret", "s_m130_paint_tear"
+    ]
+  },
+  {
+    "id": "m131",
+    "title": "Change, Certainty and Careful Work",
+    "order": 140,
+    "ring": 3,
+    "contentMd": "modules/module-131.md",
+    "wordIds": [
+      "w_m131_01", "w_m131_02", "w_m131_03", "w_m131_04",
+      "w_m131_05", "w_m131_06", "w_m131_07", "w_m131_08",
+      "w_m131_09", "w_m131_10", "w_m131_11", "w_m131_12",
+      "w_m131_13", "w_m131_14", "w_m131_15", "w_m131_16",
+      "w_m131_17", "w_m131_18", "w_m131_19", "w_m131_20",
+      "w_m131_21", "w_m131_22", "w_m131_23", "w_m131_24",
+      "w_m131_25", "w_m131_26", "w_m131_27", "w_m131_28",
+      "w_m131_29", "w_m131_30", "w_m131_31", "w_m131_32",
+      "w_m131_33", "w_m131_34", "w_m131_35", "w_m131_36"
+    ],
+    "sentenceIds": [
+      "s_m131_injured_sailor", "s_m131_permit_after_excuse", "s_m131_tidy_room", "s_m131_applicants",
+      "s_m131_rates", "s_m131_basket_corner", "s_m131_interview_answer", "s_m131_emergency_help"
+    ]
+  },
+  {
+    "id": "m132",
+    "title": "Public Measures and Private Hopes",
+    "order": 141,
+    "ring": 3,
+    "contentMd": "modules/module-132.md",
+    "wordIds": [
+      "w_m132_01", "w_m132_02", "w_m132_03", "w_m132_04",
+      "w_m132_05", "w_m132_06", "w_m132_07", "w_m132_08",
+      "w_m132_09", "w_m132_10", "w_m132_11", "w_m132_12",
+      "w_m132_13", "w_m132_14", "w_m132_15", "w_m132_16",
+      "w_m132_17", "w_m132_18", "w_m132_19", "w_m132_20",
+      "w_m132_21", "w_m132_22", "w_m132_23", "w_m132_24",
+      "w_m132_25", "w_m132_26", "w_m132_27", "w_m132_28",
+      "w_m132_29", "w_m132_30", "w_m132_31", "w_m132_32",
+      "w_m132_33", "w_m132_34", "w_m132_35", "w_m132_36"
+    ],
+    "sentenceIds": [
+      "s_m132_rainfall", "s_m132_bias_interview", "s_m132_rate_business", "s_m132_emergency_shift",
+      "s_m132_housing", "s_m132_preliminary", "s_m132_viewers", "s_m132_ginkgo_meeting"
+    ]
   }
 ]

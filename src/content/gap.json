@@ -3310,5 +3310,59 @@
     "lit": "close-family household",
     "real": "a married woman’s parents’ home, distinct from her husband’s family",
     "note": "親 is the close kin of M81's 친절; 庭 is a household courtyard. 친정 is the married woman's birth-family home, while 시댁 (untaught) is her husband's family. The pair encodes where obligations and visits are expected in a marriage, which is why simply translating it as parents' house loses information."
+  },
+  {
+    "id": "g_m130_jimjagi_gada",
+    "cat": "phrase",
+    "ko": "짐작이 가다",
+    "rom": "jimjagi gada",
+    "lit": "a guess goes",
+    "real": "have an inkling; begin to infer",
+    "note": "짐작 is an inference from clues; the going in this expression marks that an idea reaches the mind, not physical travel."
+  },
+  {
+    "id": "g_m130_maeumi_yakhaejida",
+    "cat": "phrase",
+    "ko": "마음이 약해지다",
+    "rom": "maeumi yakhaejida",
+    "lit": "the heart becomes weak",
+    "real": "lose resolve; soften toward someone",
+    "note": "M130 약해지다 can describe resolve as well as physical strength. The phrase often explains a decision becoming less firm."
+  },
+  {
+    "id": "g_m131_bisangi_geollida",
+    "cat": "phrase",
+    "ko": "비상이 걸리다",
+    "rom": "bisangi geollida",
+    "lit": "an emergency is hung",
+    "real": "an emergency alert is raised",
+    "note": "비상 here is 非常, an emergency. 걸리다 makes the alert take effect, not a literal object hanging on a hook."
+  },
+  {
+    "id": "g_m131_haedabi_boida",
+    "cat": "phrase",
+    "ko": "해답이 보이다",
+    "rom": "haedabi boida",
+    "lit": "the answer becomes visible",
+    "real": "see a way to solve it",
+    "note": "The solution need not be written in front of your eyes: 보이다 can express a growing understanding."
+  },
+  {
+    "id": "g_m132_pyeongyeoneul_kkaetteurida",
+    "cat": "phrase",
+    "ko": "편견을 깨뜨리다",
+    "rom": "pyeongyeoneul kkaetteurida",
+    "lit": "break a prejudice",
+    "real": "overcome a bias",
+    "note": "깨뜨리다 transfers from breaking an object to breaking a fixed, unfair view."
+  },
+  {
+    "id": "g_m132_kkomjjak_mot_hada",
+    "cat": "phrase",
+    "ko": "꼼짝 못 하다",
+    "rom": "kkomjjak mot hada",
+    "lit": "cannot make the slightest movement",
+    "real": "be unable to move an inch",
+    "note": "꼼짝 names even a tiny motion. With 못 하다, the phrase denies that much movement, literally or figuratively."
   }
 ]

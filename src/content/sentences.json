@@ -27513,5 +27513,509 @@
     "rom": "silmangi keudeorado noryeogeun chingchanhae juseyo",
     "wordIds": ["w_silmang", "w_keuda", "w_noryeok", "w_chingchanhada", "w_juda"],
     "note": "-더라도 from M95 keeps disappointment from cancelling the request to praise effort. The noun 실망 is the subject inside the concessive clause; -아/어 주세요 is the familiar request frame."
+  },
+  {
+    "id": "s_m130_crew_wait",
+    "en": [
+      {"t": "Because of the inspection", "role": "other", "id": "a"},
+      {"t": "the sailors", "role": "subject", "id": "b"},
+      {"t": "waited", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "inspection-due-to", "role": "other", "id": "a"},
+      {"t": "sailors-[subj]", "role": "subject", "id": "b"},
+      {"t": "waited", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "점검으로 인해", "role": "other", "id": "a"},
+      {"t": "선원들이", "role": "subject", "id": "b"},
+      {"t": "대기했어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "jeomgeomeuro inhae seonwondeuri daegihaesseoyo",
+    "wordIds": ["w_jeomgeom", "w_m130_13", "w_m130_01"],
+    "note": "-(으)로 인해 from M86 names the reason. 점검 returns from M129 in a fresh scene."
+  },
+  {
+    "id": "s_m130_late_hospitality",
+    "en": [
+      {"t": "Even if we arrived late,", "role": "other", "id": "a"},
+      {"t": "the welcome", "role": "subject", "id": "b"},
+      {"t": "was warm", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "even-if-late", "role": "other", "id": "a"},
+      {"t": "hospitality-[topic]", "role": "subject", "id": "b"},
+      {"t": "was-good", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "설사 늦더라도", "role": "other", "id": "a"},
+      {"t": "대접은", "role": "subject", "id": "b"},
+      {"t": "좋았어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "seolsa neutdeorado daejeobeun joasseoyo",
+    "wordIds": ["w_m130_14", "w_m130_02"],
+    "note": "The concessive -더라도 from M95 accepts a late arrival without changing the welcome; 설사 can strengthen that frame."
+  },
+  {
+    "id": "s_m130_excuse",
+    "en": [
+      {"t": "After being disappointed,", "role": "other", "id": "a"},
+      {"t": "he made", "role": "verb", "id": "c"},
+      {"t": "an excuse", "role": "object", "id": "b"}
+    ],
+    "gloss": [
+      {"t": "being-disappointed-then", "role": "other", "id": "a"},
+      {"t": "excuse-[obj]", "role": "object", "id": "b"},
+      {"t": "made", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "실망하더니", "role": "other", "id": "a"},
+      {"t": "변명을", "role": "object", "id": "b"},
+      {"t": "했어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "silmanghadeoni byeonmyeongeul haesseoyo",
+    "wordIds": ["w_m130_15", "w_m130_06"],
+    "note": "The retrospective -더니 from M88 links the visible change of mood to the next action; the subject stays implicit."
+  },
+  {
+    "id": "s_m130_cloth_handover",
+    "en": [
+      {"t": "While handing over the printer,", "role": "other", "id": "a"},
+      {"t": "I brought", "role": "verb", "id": "c"},
+      {"t": "a wrapping cloth", "role": "object", "id": "b"}
+    ],
+    "gloss": [
+      {"t": "printer-[obj]-handing-over-while", "role": "other", "id": "a"},
+      {"t": "wrapping-cloth-also", "role": "object", "id": "b"},
+      {"t": "brought", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "프린터를 넘겨주는 김에", "role": "other", "id": "a"},
+      {"t": "보자기도", "role": "object", "id": "b"},
+      {"t": "가져왔어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "peurinteoreul neomgyeojuneun gime bojagido gajyeowasseoyo",
+    "wordIds": ["w_peurinteo", "w_neomgyeojuda", "w_m130_07"],
+    "note": "-는 김에 from M91 makes the handover an occasion for a second errand. M129's 넘겨주다 is reused with a new object."
+  },
+  {
+    "id": "s_m130_legend_sky",
+    "en": [
+      {"t": "While looking at the night sky,", "role": "other", "id": "a"},
+      {"t": "a legend", "role": "subject", "id": "b"},
+      {"t": "came to mind", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "night-sky-[obj]-looking-at-while", "role": "other", "id": "a"},
+      {"t": "legend-[subj]", "role": "subject", "id": "b"},
+      {"t": "came-to-mind", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "밤하늘을 보다가", "role": "other", "id": "a"},
+      {"t": "전설이", "role": "subject", "id": "b"},
+      {"t": "떠올랐어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "bamhaneureul bodaga jeonseori tteoollasseoyo",
+    "wordIds": ["w_m130_05", "w_m130_28"],
+    "note": "-다가 from M94 places the thought during the act of looking, rather than after it."
+  },
+  {
+    "id": "s_m130_seat",
+    "en": [
+      {"t": "When the pregnant woman looked around,", "role": "other", "id": "a"},
+      {"t": "I showed her", "role": "verb", "id": "c"},
+      {"t": "a seat", "role": "object", "id": "b"}
+    ],
+    "gloss": [
+      {"t": "pregnant-woman-[subj]-looked-around-because", "role": "other", "id": "a"},
+      {"t": "seat-[obj]", "role": "object", "id": "b"},
+      {"t": "guided", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "임신부가 두리번거리길래", "role": "other", "id": "a"},
+      {"t": "자리를", "role": "object", "id": "b"},
+      {"t": "안내했어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "imsinbuga duribeongeorigillae jarireul annaehaesseoyo",
+    "wordIds": ["w_m130_25", "w_m130_03"],
+    "note": "-길래 from M93 lets an observed action prompt the speaker's response."
+  },
+  {
+    "id": "s_m130_job_regret",
+    "en": [
+      {"t": "As the job search got harder,", "role": "other", "id": "a"},
+      {"t": "the regret", "role": "subject", "id": "b"},
+      {"t": "grew", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "employment-[subj]-became-harder-as", "role": "other", "id": "a"},
+      {"t": "regret-[subj]", "role": "subject", "id": "b"},
+      {"t": "grew", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "취업이 어려워질수록", "role": "other", "id": "a"},
+      {"t": "아쉬움이", "role": "subject", "id": "b"},
+      {"t": "커졌어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "chwieobi eoryeowojilsurok aswiumi keojyeosseoyo",
+    "wordIds": ["w_m130_35", "w_m130_16"],
+    "note": "-(으)ㄹ수록 from M89 tracks the parallel increase. 아쉬움 is the lingering sense of loss, not a second job application."
+  },
+  {
+    "id": "s_m130_paint_tear",
+    "en": [
+      {"t": "While painting the wall,", "role": "other", "id": "a"},
+      {"t": "I tore", "role": "verb", "id": "c"},
+      {"t": "my clothes", "role": "object", "id": "b"}
+    ],
+    "gloss": [
+      {"t": "wall-[obj]-painting-while", "role": "other", "id": "a"},
+      {"t": "clothes-[obj]", "role": "object", "id": "b"},
+      {"t": "tore", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "벽을 칠하다가", "role": "other", "id": "a"},
+      {"t": "옷을", "role": "object", "id": "b"},
+      {"t": "찢었어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "byeogeul chilhadaga oseul jjijeosseoyo",
+    "wordIds": ["w_m130_36", "w_m130_34"],
+    "note": "-다가 from M94 interrupts the painting with a small accident."
+  },
+  {
+    "id": "s_m131_injured_sailor",
+    "en": [
+      {"t": "Because of the injury,", "role": "other", "id": "a"},
+      {"t": "the sailor", "role": "subject", "id": "b"},
+      {"t": "walked with difficulty", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "injury-due-to", "role": "other", "id": "a"},
+      {"t": "sailor-[subj]", "role": "subject", "id": "b"},
+      {"t": "walked-with-difficulty", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "부상으로 인해", "role": "other", "id": "a"},
+      {"t": "선원이", "role": "subject", "id": "b"},
+      {"t": "힘겹게 걸었어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "busangeuro inhae seonwoni himgyeopge georeosseoyo",
+    "wordIds": ["w_m130_08", "w_m130_13", "w_m131_15"],
+    "note": "-(으)로 인해 from M86 states the cause. M130's 부상 and 선원 move into a new situation."
+  },
+  {
+    "id": "s_m131_permit_after_excuse",
+    "en": [
+      {"t": "After hearing the excuse,", "role": "other", "id": "a"},
+      {"t": "the teacher", "role": "subject", "id": "b"},
+      {"t": "gave permission", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "excuse-[obj]-heard-then", "role": "other", "id": "a"},
+      {"t": "teacher-[topic]", "role": "subject", "id": "b"},
+      {"t": "permitted", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "변명을 듣더니", "role": "other", "id": "a"},
+      {"t": "선생님은", "role": "subject", "id": "b"},
+      {"t": "허락했어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "byeonmyeongeul deutdeoni seonsaengnimeun heorakhaesseoyo",
+    "wordIds": ["w_m130_06", "w_m131_10"],
+    "note": "-더니 from M88 links what the observer heard to the teacher's decision; 변명 returns from M130."
+  },
+  {
+    "id": "s_m131_tidy_room",
+    "en": [
+      {"t": "While putting the messy room in order,", "role": "other", "id": "a"},
+      {"t": "I cleaned neatly", "role": "verb", "id": "c"},
+      {"t": "the desk too", "role": "object", "id": "b"}
+    ],
+    "gloss": [
+      {"t": "messy-room-[obj]-tidying-while", "role": "other", "id": "a"},
+      {"t": "desk-also", "role": "object", "id": "b"},
+      {"t": "cleaned-neatly", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "엉망인 방을 정리하는 김에", "role": "other", "id": "a"},
+      {"t": "책상도", "role": "object", "id": "b"},
+      {"t": "깔끔하게 치웠어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "eongmangin bangeul jeongnihaneun gime chaeksangdo kkalkkeumhage chiwosseoyo",
+    "wordIds": ["w_m130_18", "w_m131_20"],
+    "note": "-는 김에 from M91 adds a second small job to cleaning M130's 엉망 room."
+  },
+  {
+    "id": "s_m131_applicants",
+    "en": [
+      {"t": "As the second half of the year went on,", "role": "other", "id": "a"},
+      {"t": "the interviews", "role": "subject", "id": "b"},
+      {"t": "increased sharply", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "second-half-[subj]-went-on-as", "role": "other", "id": "a"},
+      {"t": "interviews-[subj]", "role": "subject", "id": "b"},
+      {"t": "increased-sharply", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "하반기가 지날수록", "role": "other", "id": "a"},
+      {"t": "면담이", "role": "subject", "id": "b"},
+      {"t": "급증했어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "habangiga jinalsurok myeondami geupjeunghaesseoyo",
+    "wordIds": ["w_m131_05", "w_m131_27", "w_m131_19"],
+    "note": "-(으)ㄹ수록 from M89 makes the rising interview count track the passing months."
+  },
+  {
+    "id": "s_m131_rates",
+    "en": [
+      {"t": "Even if the price rises,", "role": "other", "id": "a"},
+      {"t": "the rate", "role": "subject", "id": "b"},
+      {"t": "will not change suddenly", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "price-[subj]-rises-even-if", "role": "other", "id": "a"},
+      {"t": "rate-[topic]", "role": "subject", "id": "b"},
+      {"t": "will-not-change-suddenly", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "가격이 오르더라도", "role": "other", "id": "a"},
+      {"t": "비율은", "role": "subject", "id": "b"},
+      {"t": "급속히 변하지 않을 거예요", "role": "verb", "id": "c"}
+    ],
+    "rom": "gagyeogi oreudeorado biyureun geupsokhi byeonhaji aneul geoyeyo",
+    "wordIds": ["w_m131_18"],
+    "note": "-더라도 from M95 sets a concession; 급속히 describes the speed of change, not its direction."
+  },
+  {
+    "id": "s_m131_basket_corner",
+    "en": [
+      {"t": "While turning the corner,", "role": "other", "id": "a"},
+      {"t": "I collided", "role": "verb", "id": "c"},
+      {"t": "a basket", "role": "other", "id": "b"}
+    ],
+    "gloss": [
+      {"t": "corner-[obj]-turning-while", "role": "other", "id": "a"},
+      {"t": "basket-with", "role": "other", "id": "b"},
+      {"t": "collided", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "모퉁이를 돌다가", "role": "other", "id": "a"},
+      {"t": "바구니와", "role": "other", "id": "b"},
+      {"t": "부딪혔어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "motungireul doldaga baguniwa budithyeosseoyo",
+    "wordIds": ["w_m131_29", "w_m131_30", "w_m131_34"],
+    "note": "-다가 from M94 marks the interruption. The collision is with the basket, so 와 is a companion marker here."
+  },
+  {
+    "id": "s_m131_interview_answer",
+    "en": [
+      {"t": "After finishing the interview,", "role": "other", "id": "a"},
+      {"t": "the answer", "role": "subject", "id": "b"},
+      {"t": "became visible", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "interview-[obj]-finished-then", "role": "other", "id": "a"},
+      {"t": "answer-[subj]", "role": "subject", "id": "b"},
+      {"t": "became-visible", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "면담을 마쳤더니", "role": "other", "id": "a"},
+      {"t": "해답이", "role": "subject", "id": "b"},
+      {"t": "보였어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "myeondameul machyeotdeoni haedabi boyeosseoyo",
+    "wordIds": ["w_m131_27", "w_m131_08"],
+    "note": "-았/었더니 from M88 reports what the speaker discovered afterward."
+  },
+  {
+    "id": "s_m131_emergency_help",
+    "en": [
+      {"t": "When the emergency arose,", "role": "other", "id": "a"},
+      {"t": "the staff", "role": "subject", "id": "b"},
+      {"t": "helped out", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "emergency-[subj]-arose-then", "role": "other", "id": "a"},
+      {"t": "staff-[subj]", "role": "subject", "id": "b"},
+      {"t": "helped", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "비상이 생기자", "role": "other", "id": "a"},
+      {"t": "직원들이", "role": "subject", "id": "b"},
+      {"t": "거들었어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "bisangi saenggija jigwondeuri geodeureosseoyo",
+    "wordIds": ["w_m131_35", "w_m131_17"],
+    "note": "The earlier -자 sequence connects an urgent event to a quick response; 거들다 is assistance, not sole ownership."
+  },
+  {
+    "id": "s_m132_rainfall",
+    "en": [
+      {"t": "In the second half of the year,", "role": "other", "id": "a"},
+      {"t": "precipitation", "role": "subject", "id": "b"},
+      {"t": "increased sharply", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "second-half-in", "role": "other", "id": "a"},
+      {"t": "precipitation-[subj]", "role": "subject", "id": "b"},
+      {"t": "increased-sharply", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "하반기에", "role": "other", "id": "a"},
+      {"t": "강수량이", "role": "subject", "id": "b"},
+      {"t": "급증했어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "habangie gangsuryangi geupjeunghaesseoyo",
+    "wordIds": ["w_m131_05", "w_m132_27", "w_m131_19"],
+    "note": "The M131 pair 하반기 and 급증하다 now reports M132's measured 강수량."
+  },
+  {
+    "id": "s_m132_bias_interview",
+    "en": [
+      {"t": "After the interview ended,", "role": "other", "id": "a"},
+      {"t": "the prejudice", "role": "subject", "id": "b"},
+      {"t": "disappeared", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "interview-[subj]-ended-then", "role": "other", "id": "a"},
+      {"t": "prejudice-[subj]", "role": "subject", "id": "b"},
+      {"t": "disappeared", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "면담이 끝났더니", "role": "other", "id": "a"},
+      {"t": "편견이", "role": "subject", "id": "b"},
+      {"t": "사라졌어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "myeondami kkeunnatdeoni pyeongyeoni sarajyeosseoyo",
+    "wordIds": ["w_m131_27", "w_m132_23"],
+    "note": "-았/었더니 from M88 presents a changed view after M131's 면담."
+  },
+  {
+    "id": "s_m132_rate_business",
+    "en": [
+      {"t": "As the exchange rate fell,", "role": "other", "id": "a"},
+      {"t": "business owners' burdens", "role": "subject", "id": "b"},
+      {"t": "fell", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "exchange-rate-[subj]-became-lower-as", "role": "other", "id": "a"},
+      {"t": "business-owners-burden-[subj]", "role": "subject", "id": "b"},
+      {"t": "fell", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "환율이 낮아질수록", "role": "other", "id": "a"},
+      {"t": "수입 사업자의 부담이", "role": "subject", "id": "b"},
+      {"t": "줄었어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "hwanyuri najajilsurok suip saeopjaui budami jureosseoyo",
+    "wordIds": ["w_m132_24", "w_m131_22", "w_m132_01", "w_budam"],
+    "note": "-(으)ㄹ수록 from M89 tracks the two moving quantities; M131's 낮아지다 supplies the change verb."
+  },
+  {
+    "id": "s_m132_emergency_shift",
+    "en": [
+      {"t": "Even during an emergency,", "role": "other", "id": "a"},
+      {"t": "the shift change", "role": "subject", "id": "b"},
+      {"t": "continues", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "emergency-even-if", "role": "other", "id": "a"},
+      {"t": "shift-change-[topic]", "role": "subject", "id": "b"},
+      {"t": "continues", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "비상이라도", "role": "other", "id": "a"},
+      {"t": "교대는", "role": "subject", "id": "b"},
+      {"t": "계속돼요", "role": "verb", "id": "c"}
+    ],
+    "rom": "bisangirado gyodaeneun gyesokdwaeyo",
+    "wordIds": ["w_m131_35", "w_m132_28"],
+    "note": "The M131 emergency word returns in a schedule context; -라도 allows the situation without cancelling the shift."
+  },
+  {
+    "id": "s_m132_housing",
+    "en": [
+      {"t": "At the district office,", "role": "place", "id": "a"},
+      {"t": "they assessed", "role": "verb", "id": "c"},
+      {"t": "the housing problem", "role": "object", "id": "b"}
+    ],
+    "gloss": [
+      {"t": "district-office-at", "role": "place", "id": "a"},
+      {"t": "housing-problem-[obj]", "role": "object", "id": "b"},
+      {"t": "diagnosed", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "구청에서", "role": "place", "id": "a"},
+      {"t": "주거 문제를", "role": "object", "id": "b"},
+      {"t": "진단했어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "gucheongeseo jugeo munjereul jindanhaesseoyo",
+    "wordIds": ["w_m132_29", "w_m132_19", "w_m132_22"],
+    "note": "The subject is omitted, as is natural when the office staff are clear from context. 진단하다 extends from medical diagnosis to assessment."
+  },
+  {
+    "id": "s_m132_preliminary",
+    "en": [
+      {"t": "Even if we lose in the preliminary round,", "role": "other", "id": "a"},
+      {"t": "let's not lose", "role": "verb", "id": "c"},
+      {"t": "our pride", "role": "object", "id": "b"}
+    ],
+    "gloss": [
+      {"t": "preliminary-at-lose-even-if", "role": "other", "id": "a"},
+      {"t": "pride-[obj]", "role": "object", "id": "b"},
+      {"t": "do-not-lose", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "예선에서 지더라도", "role": "other", "id": "a"},
+      {"t": "자부심을", "role": "object", "id": "b"},
+      {"t": "잃지 말아요", "role": "verb", "id": "c"}
+    ],
+    "rom": "yeseoneseo jideorado jabusimeul ilchi marayo",
+    "wordIds": ["w_m132_11", "w_m132_13"],
+    "note": "-더라도 from M95 separates the contest result from a lasting sense of worth."
+  },
+  {
+    "id": "s_m132_viewers",
+    "en": [
+      {"t": "As the broadcast continued,", "role": "other", "id": "a"},
+      {"t": "the audience rating", "role": "subject", "id": "b"},
+      {"t": "rose", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "broadcast-[subj]-continued-as", "role": "other", "id": "a"},
+      {"t": "audience-rating-[subj]", "role": "subject", "id": "b"},
+      {"t": "rose", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "방송이 이어질수록", "role": "other", "id": "a"},
+      {"t": "시청률이", "role": "subject", "id": "b"},
+      {"t": "올랐어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "bangsongi ieojilsurok sicheongnyuri ollasseoyo",
+    "wordIds": ["w_m132_07"],
+    "note": "-(으)ㄹ수록 from M89 ties a measured change to the running broadcast."
+  },
+  {
+    "id": "s_m132_ginkgo_meeting",
+    "en": [
+      {"t": "Under the ginkgo tree,", "role": "place", "id": "a"},
+      {"t": "the lovers", "role": "subject", "id": "b"},
+      {"t": "met", "role": "verb", "id": "c"}
+    ],
+    "gloss": [
+      {"t": "ginkgo-tree-under", "role": "place", "id": "a"},
+      {"t": "lovers-[subj]", "role": "subject", "id": "b"},
+      {"t": "met", "role": "verb", "id": "c"}
+    ],
+    "ko": [
+      {"t": "은행나무 아래에서", "role": "place", "id": "a"},
+      {"t": "연인이", "role": "subject", "id": "b"},
+      {"t": "만났어요", "role": "verb", "id": "c"}
+    ],
+    "rom": "eunhaengnamu araeeseo yeonini mannasseoyo",
+    "wordIds": ["w_m132_12", "w_m132_09"],
+    "note": "The place chunk names the landmark; 연인 describes the relationship between the two people."
   }
 ]
