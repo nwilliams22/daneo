@@ -3,7 +3,7 @@
 Read SHARED-BRIEF.md first; follow exactly. Band 6: garnish-free. Avoid
 morpheme-possessive phrasings.
 
-**Theme:** the adverb drawer, opened all the way — 35 modifiers the themed
+**Theme:** the adverb drawer, opened all the way — 40 modifiers the themed
 modules grazed past, organized as CALIBRATED SETS rather than a list. Every
 Korean sentence you've built can now be tuned: how much, how often, how
 close, how sneakily. House rule: all tag pos "noun".
@@ -13,10 +13,10 @@ close, how sneakily. House rule: all tag pos "noun".
    정말 (verify); now 무척/몹시 (the literary-strong pair — 무척 feels,
    몹시 suffers), 너무나 (너무 with the 나 of poetry — song-lyric register),
    꽤 (quite — the understatement professional), 그리 (not-that: ~그리 크지
-   않다, negative-polarity like M39's 별로? verify 별로 M17 and calibrate:
+   않다, negative-polarity like M17's 별로? verify 별로 M17 and calibrate:
    별로 shrugs, 그리 measures), 겨우 (barely — 겨우 도착했어요, also
    belittling: 겨우 그거?), 단지 (merely — 단지 농담이었어요; M55's 단
-   kin — verify), 적어도 (at least — the negotiator's floor; M53's 최소한?
+   kin — verify), 적어도 (at least — the negotiator's floor; M63's 최소한?
    NO — 최소한 is M63's parallel slice, do NOT use).
 2. **The manner corner:** 마구 (recklessly — 마구 먹었어요; clipped to 막
    — and 막 ALSO means just-now: 막 도착했어요. BOTH senses B, both
@@ -56,7 +56,7 @@ close, how sneakily. House rule: all tag pos "noun".
    vs M56's 또한: 게다가 speaks, 또한 writes), 더구나 (moreover-spoken —
    게다가's twin, slightly older flavor).
 
-**Word slice (35 — rank · word · pos, all noun):**
+**Word slice (40 — rank · word · pos, all noun):**
 997 멀리 · 1004 흔히 · 1152 너무나 · 1159 막 · 1169 무척 · 1687 몹시 ·
 1196 가득 · 1207 충분히 · 1285 점차 · 1313 따로 · 1388 그리 · 1415 게다가 ·
 1447 적어도 · 1462 분명히 · 1473 더구나 · 1594 인제 · 1608 꽤 · 1634 깊이 ·
@@ -66,8 +66,12 @@ close, how sneakily. House rule: all tag pos "noun".
 
 **Sense collapses:** 막 just-now/roughly (both B — mandatory); 깊이
 adverb+noun; 단지 merely (團地 apartment-complex 단지 is a different word —
-one-line radar, C); 그리 manner (그리 오너라 thither-그리 wink via S4's
+one-line radar, C); 그리 manner (그리 오너라 thither-그리 wink via M55's
 이리).
+
+
+**Restored checklist additions (stable IDs, NIKL grade C):** 미처 (`w_micheo`) · 얼핏 (`w_eolpit`) · 무려 (`w_muryeo`) · 줄곧 (`w_julgot`) · 말없이 (`w_mareopsi`).
+These are owned here, not garnish. Teach the full notes alongside the original slice; keep eight sentences and the existing gap cards. Earlier grammar only: any later noun or root stays explicitly frozen and glossed.
 
 **Sentences:** 8; ≥2 running calibration contrasts (e.g. 마침/마침내 or
 별로/그리 or 게다가 piling), ≥1 with 막 in BOTH senses across two clauses

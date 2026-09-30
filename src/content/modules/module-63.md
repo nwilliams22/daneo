@@ -22,6 +22,8 @@ This shelf is mostly IOUs maturing:
 
 ::vocab::
 
+**Seven more ways to judge:** 알맞다 fits the situation; 마땅하다 also asks what is proper or deserved. 뒤늦다 judges timing after the useful moment has passed. 다름없다 says there is no meaningful difference, while 폭넓다 describes breadth of knowledge or experience. 두렵다 names fear; 환하다 describes a bright room or a radiant face. 건전하다 combines healthy-健 and whole-全 to evaluate habits and ideas. These extend the quality shelf to forty words without adding grammar: use the badges from M24 and the -게 adverbializer from M33 to place them in familiar frames.
+
 **Radar patrol:** 약 now houses three tenants — medicine-藥 (M10), the promise-約 inside 약속 (M5), and today's weak-弱. 강 houses two: M22's river-江 and today's strong-強. 양 runs a small government: Western-洋 (양말, 양파), measure-量 (today's), with sheep-羊 and both-兩 waiting on the C-list. 심하다 (M39) is harsh, 심각하다 is grave — the foul-call vs. the diagnosis. And 옳은 is pronounced exactly like M6's 오른: the right side was the 'right' side all along.
 
 ---

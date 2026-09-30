@@ -32,10 +32,10 @@ three families the learner already owns the machinery for:
 3. **The happen-machine tail** (the 되다/지다 sweep — M35/M36 canon):
    느껴지다 (느끼다 M41? verify owner — feelings arrive on their own),
    없어지다 (M35's -아/어지다 on 없다 — things vanish), 만들어지다,
-   커지다 (커지다 vs M35's 켜지다 homophone-adjacent radar? different
+   커지다 (커지다 vs M36's 켜지다 homophone-adjacent radar? different
    vowels — skip unless clean), 벌어지다 (events unfold — 일이 벌어졌어요;
    radar vs M56's 벌이다: you 벌이다 it, it 벌어지다s), 담기다 (M40's 담다
-   — verify — be contained: 마음이 담긴 선물), 불리다 (be called — M37's
+   — verify — be contained: 마음이 담긴 선물), 불리다 (be called — M19's
    부르다 causative-passive: ~라고 불리다, the naming frame), 발견되다/
    진행되다/사용되다/생각되다/관련되다 (the 되다-tail of M56's verbs —
    verify each parent: 발견하다 M56, 진행? 진행되다's parent 진행하다 is
@@ -53,7 +53,7 @@ three families the learner already owns the machinery for:
    overflow — 提供/考慮; 정보를 제공하다 M33's 정보, 고려해 보겠습니다
    the polite brush-off).
 
-**Word slice (34 — rank · word · pos):**
+**Word slice (40 — rank · word · pos):**
 1112 찾아보다 verb · 1023 찾아오다 verb · 1424 찾아가다 verb ·
 1494 올라오다 verb · 1615 넘어가다 verb · 749 어쩌다 verb · 791 꺼내다 verb ·
 1069 내놓다 verb · 1545 내밀다 verb · 1070 떼다 verb · 1238 뽑다 verb ·
@@ -68,6 +68,10 @@ three families the learner already owns the machinery for:
 (어쩌다 — by-chance/how-did-it-come-to-this: 어쩌다 보니 = one thing led to
 another; 어쩌다가 여기까지 왔어요? — the drama sigh. Verify M34's 어쩌면 for
 the family.)
+
+
+**Restored checklist additions (stable IDs, NIKL grade C):** 훔치다 (`w_humchida`) · 굽히다 (`w_guphida`) · 주고받다 (`w_jugobatda`) · 잠기다 (`w_jamgida`) · 트이다 (`w_teuida`) · 불러일으키다 (`w_bulleoireukida`).
+These are owned here, not garnish. Teach the full notes alongside the original slice; keep eight sentences and the existing gap cards. Earlier grammar only: any later noun or root stays explicitly frozen and glossed.
 
 **Sentences:** 8; ≥1 with the ~라고 불리다 naming frame, ≥1 with 최선을
 다하다 paying M39's receipt, ≥1 어쩌다 보니 story-opener, ≥3 recycling

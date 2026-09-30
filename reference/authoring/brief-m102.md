@@ -1,5 +1,12 @@
 # Brief — M102 "Native Verbs II" (order 111, ring 3, band 8)
 
+**Current ownership after the Ring 2 correction:** 30 new checklist words.
+Earlier review: 훔치다 (M61) · 굽히다 (M61) · 주고받다 (M61) · 잠기다 (M61) · 트이다 (M61) · 불러일으키다 (M61) · 마땅하다 (M63).
+The detailed teaching roster below includes these earlier words for contrast
+and sentence recycling; only the current word slice is introduced here.
+Keep the eight shipped sentences and gap cards; no further words can be
+dropped without breaching the Ring 3 floor.
+
 Read SHARED-BRIEF.md first; follow exactly. **Band 8 = the Band 6 pack
 contract exactly** — ~34 words, 8 sentences, full notes, garnish-free,
 the DEFAULT slim md shape, NO glue parts; each sentence recycles and
@@ -13,7 +20,7 @@ M61's 닿다/떼다 notes BEFORE drafting.
 
 **Theme:** the second native verb shelf — the verbs of the hand and
 the body, plus the 하다/되다 pairs whose noun the learner already owns.
-35 words. THE HAND (스치다 훔치다 굽히다 박다 박히다 짚다 바치다 주고받다
+30 new words, plus the earlier review listed above. THE HAND (스치다 훔치다 굽히다 박다 박히다 짚다 바치다 주고받다
 바로잡다 깔리다 잠기다 트이다), THE BODY IN TROUBLE (살아남다 숨지다 주저앉다
 쓰러지다-kin, 잇따르다 뒤따르다 내다보다 불러일으키다 두드러지다 마땅하다),
 THE SINO VERBS (택하다 짐작하다 제거하다 기여하다 적용되다 전개되다 부정하다
@@ -51,7 +58,7 @@ owns every half.
    M36 party: 길에 낙엽이 깔리다 M49's 낙엽; 차에 깔리다 M2's 차 = run over),
    잠기다 (NIKL hint 물에 ~: to be submerged; to be locked; the passive of
    잠그다 (to lock — frozen) and the cousin of 잠기다-sink — cover both:
-   문이 잠기다 M6's 문, 물에 잠기다 M1's 물, 생각에 잠기다 M10's 생각 = lost
+   문이 잠기다 M6's 문, 물에 잠기다 M1's 물, 생각에 잠기다 the 생각 in M10's 생각하다 = lost
    in thought; RADAR: not M28's 잠 (sleep)), 트이다 (to open up, clear —
    길이 트이다 M12's 길, 속이 트이다 M28's 속 = to feel relieved, 말문이
    트이다 (말문 frozen) = to find one's tongue — the language learner's
@@ -105,7 +112,7 @@ owns every half.
    field — vs M59's 밭 (dry field): 논밭 = fields; RADAR: not the 논 of
    M44's 논문 (論)), 떼 (a flock, a swarm — NIKL hint 양 ~: 양 떼 (양 sheep
    — verify owner; not M63's 양 amount), 떼를 지어 (짓다 M54); RADAR: M61's
-   떼다 (detach) and S1's 라떼 are unrelated), 가르침 (M15's 가르치다 + the
+   떼다 (detach) and the 라떼 pun in S1 are unrelated), 가르침 (M15's 가르치다 + the
    -ㅁ noun freezer from M67: a teaching, a lesson — 스승의 가르침 M96's 스승
    if shipped; 배움 (frozen) is its mirror), 거꾸로 (upside down, backwards
    — 거꾸로 입다 M8's 입다; 거꾸로 가다; RADAR: M6's 로 is inside it as a
@@ -113,15 +120,8 @@ owns every half.
    slapdash; twin of M85's 대체로 (in the main) — 대충 is the mouth's,
    대체로 the page's; RADAR: not M55's 대).
 
-**Word slice (35):** 스치다 · 훔치다 · 굽히다 · 박다 · 박히다 · 짚다 · 바치다 ·
-주고받다 · 바로잡다 · 깔리다 · 잠기다 · 트이다 · 살아남다 · 숨지다 · 주저앉다 ·
-잇따르다 · 뒤따르다 · 내다보다 · 불러일으키다 · 두드러지다 · 마땅하다 · 택하다 ·
-짐작하다 · 제거하다 · 기여하다 · 적용되다 · 전개되다 · 부정하다 · 지시하다 ·
-공개하다 · 분포하다 · 구석 · 논 · 떼 · 가르침 · 거꾸로 · 대충. (That is 37 —
-if the module runs long, DROP 적용되다 and 지시하다 back to the pool and say
-so in meta.notes.) POS: verbs `verb`; 두드러지다/마땅하다 `adj`; 거꾸로/대충
-adverbs → `noun`; rest `noun`. IDs: w_non, w_tte, w_guseok — check
-collisions.
+**Word slice (30):** 스치다 · 박다 · 박히다 · 짚다 · 바치다 · 바로잡다 · 깔리다 · 살아남다 · 숨지다 · 주저앉다 · 잇따르다 · 뒤따르다 · 내다보다 · 두드러지다 · 택하다 · 짐작하다 · 제거하다 · 기여하다 · 적용되다 · 전개되다 · 부정하다 · 지시하다 · 공개하다 · 분포하다 · 구석 · 논 · 떼 · 가르침 · 거꾸로 · 대충.
+POS and stable IDs match the live entries in words.json.
 
 **Md shape (Band 8 default):** intro (welding two old verbs) · How to use
 · `## Part 1 — Native verbs II` (the weld table: 주고받다 = 주다 + 받다 …;

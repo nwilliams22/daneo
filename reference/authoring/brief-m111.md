@@ -79,7 +79,7 @@ after), 금세 (in no time), 차츰 (bit by bit), 한창 (at the height), 하도
    = can't be bothered; RADAR: not M14's 귀; the laziest word in Korean —
    one clause).
 
-3. **THE NOUNS (4):** 두려움 (PAYS M93's 극복하다 — lookup.py the owner and quote its exact span verbatim (copy the full sentence); M107's 두렵다 if shipped + -ㅁ:
+3. **THE NOUNS (4):** 두려움 (PAYS M93's 극복하다 — lookup.py the owner and quote its exact span verbatim (copy the full sentence); M63's 두렵다 if shipped + -ㅁ:
    fear (the noun); vs M24's 무섭다's 무서움 (frozen)), 몸짓 (PAYS M68's 짓 — quote its exact "몸짓 (body gesture — M14's 몸"
    span (full); a gesture), 먹이 (PAYS M37's 먹이다 — quote its exact "the noun
    먹이 = animal feed/prey" span; 먹이를 주다 M9's 주다; RADAR: 먹이 vs 먹이다 —

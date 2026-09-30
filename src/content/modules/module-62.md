@@ -1,6 +1,6 @@
 # Korean, Word-First — Module 62: The Adverb Drawer
 
-Sixty-one modules built you sentences; this one hands you the tuning pegs. The adverb drawer opens all the way — thirty-five modifiers the themed shelves kept stepping past — and every Korean sentence you own can now be dialed: how strongly, how sneakily, how full, how lucky the timing. Nothing here is a list; everything is a CALIBRATED SET — each new adverb lands next to the one it must be told apart from, because in this drawer the meaning IS the difference: 마침 vs 마침내, 별로 vs 그리, 가득 vs 잔뜩.
+Sixty-one modules built you sentences; this one hands you the tuning pegs. The adverb drawer opens all the way — forty modifiers the themed shelves kept stepping past — and every Korean sentence you own can now be dialed: how strongly, how sneakily, how full, how lucky the timing. Nothing here is a list; everything is a CALIBRATED SET — each new adverb lands next to the one it must be told apart from, because in this drawer the meaning IS the difference: 마침 vs 마침내, 별로 vs 그리, 가득 vs 잔뜩.
 
 **How to use this:** drill in pairs, never alone — the calibration is the content. And give 막 double reps: one syllable, two B-list dictionary rows (just-now and wildly), sorted only by its neighbors.
 
@@ -20,6 +20,8 @@ Sixty-one modules built you sentences; this one hands you the tuning pegs. The a
 ## Part 2 — The bricks
 
 ::vocab::
+
+**Five finer adjustments:** 미처 marks what you did not manage before the moment passed; 얼핏 gives only a glimpse. 무려 makes a number sound large, while 줄곧 keeps an action going across an unbroken stretch of time. 말없이 removes speech, not necessarily sound: compare 조용히 from M33. Pair them with the old trays — 미처 with 아직, 얼핏 with 보다, 무려 with a number, 줄곧 with 계속, 말없이 with 조용히 — and notice which part of the scene each changes.
 
 **Radar patrol:** 막's three careers (just-now · wildly · the last-차 prefix of M12's 막차) · 단지 the merely vs 아파트 단지 the apartment complex · 그리 the not-that vs its false neighbors 그리고/그리다/그립다 · the cloud-verb in 잔뜩 낀 하늘 vs M21's ring-wearing 끼다 — same sound, separate dictionary rows.
 

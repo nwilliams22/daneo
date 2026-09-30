@@ -1,5 +1,12 @@
 # Brief — M107 "Native Verbs IV, and the Adjectives" (order 116, ring 3, band 8)
 
+**Current ownership after the Ring 2 correction:** 30 new checklist words.
+Earlier review: 뒤늦다 (M63) · 다름없다 (M63) · 폭넓다 (M63) · 두렵다 (M63) · 환하다 (M63) · 건전하다 (M63).
+The detailed teaching roster below includes these earlier words for contrast
+and sentence recycling; only the current word slice is introduced here.
+Keep the eight shipped sentences and gap cards; no further words can be
+dropped without breaching the Ring 3 floor.
+
 Read SHARED-BRIEF.md first; follow exactly. **Band 8 = the Band 6 pack
 contract exactly** — ~34 words, 8 sentences, full notes, garnish-free,
 the DEFAULT slim md shape, NO glue parts; each sentence recycles and
@@ -11,7 +18,7 @@ re-teaching), M68's md (the 뛰다 welds), M36/M37 mds (the parties), M74's
 멋 note, M62's 가득 note BEFORE drafting.
 
 **Theme:** the fourth native verb shelf, and the adjectives that go with
-it. 36 words. THE WELDS (뒤늦다 뒤지다 맛보다 힘쓰다 뛰어넘다 집어넣다 돌아다니다
+it. 30 new words, plus the earlier review listed above. THE WELDS (뒤늦다 뒤지다 맛보다 힘쓰다 뛰어넘다 집어넣다 돌아다니다
 빠져나오다 해내다 맞이하다 다름없다 폭넓다 — twelve verbs and adjectives made of
 two taught halves), THE HAND (날리다 덜다 배다 새다 갚다 끼우다 다듬다 헤매다
 꽂다), THE ADJECTIVES (두렵다 멋지다 환하다 귀하다 억울하다 당당하다 건전하다),
@@ -101,14 +108,8 @@ sum before reading the note.
    동물 흉내 M22's 동물), 덩어리 (a lump, a mass — 고기 한 덩어리 M3's 고기;
    흙덩어리 M49's 흙; vs M60's 조각 (a piece)).
 
-**Word slice (36):** 뒤늦다 · 뒤지다 · 맛보다 · 힘쓰다 · 뛰어넘다 · 집어넣다 ·
-돌아다니다 · 빠져나오다 · 해내다 · 맞이하다 · 다름없다 · 폭넓다 · 날리다 · 덜다 ·
-배다 · 새다 · 갚다 · 끼우다 · 다듬다 · 헤매다 · 꽂다 · 두렵다 · 멋지다 · 환하다 ·
-귀하다 · 억울하다 · 당당하다 · 건전하다 · 척하다 · 저절로 · 거듭 · 이윽고 · 모처럼 ·
-꽉 · 흉내 · 덩어리. (36 — if it runs long, DROP 뒤지다 and 이윽고 to the pool
-and say so.) POS: verbs `verb`; 척하다 `verb` (auxiliary); adjectives `adj`
-(뒤늦다 다름없다 폭넓다 두렵다 멋지다 환하다 귀하다 억울하다 당당하다 건전하다);
-adverbs → `noun`; 흉내/덩어리 `noun`.
+**Word slice (30):** 뒤지다 · 맛보다 · 힘쓰다 · 뛰어넘다 · 집어넣다 · 돌아다니다 · 빠져나오다 · 해내다 · 맞이하다 · 날리다 · 덜다 · 배다 · 새다 · 갚다 · 끼우다 · 다듬다 · 헤매다 · 꽂다 · 멋지다 · 귀하다 · 억울하다 · 당당하다 · 척하다 · 저절로 · 거듭 · 이윽고 · 모처럼 · 꽉 · 흉내 · 덩어리.
+POS and stable IDs match the live entries in words.json.
 
 **Md shape (Band 8 default):** intro (do the sum first) · How to use ·
 `## Part 1 — Native verbs IV` (the weld table first — twelve sums — then

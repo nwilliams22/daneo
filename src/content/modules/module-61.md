@@ -1,6 +1,6 @@
 # Korean, Word-First — Module 61: The Verb Sweep
 
-Band 6 makes its verb pass: thirty-four verbs, zero new machinery. Everything here is assembled from parts you already own — 찾다 rides M6's come/go compass into three directions, M28's 내다 and 놓다 weld into the hands-verbs, and the happen-machines of M35 and M36 graduate their whole tail class at once (없어지다, 불리다, 발견되다…). Plus two double agents the dictionary insists you take whole: 미치다 (reach — and crazy) and 취하다 (take — and drunk).
+Band 6 makes its verb pass: forty verbs, zero new machinery. Everything here is assembled from parts you already own — 찾다 rides M6's come/go compass into three directions, M28's 내다 and 놓다 weld into the hands-verbs, and the happen-machines of M35 and M36 graduate their whole tail class at once (없어지다, 불리다, 발견되다…). Plus two double agents the dictionary insists you take whole: 미치다 (reach — and crazy) and 취하다 (take — and drunk).
 
 **How to use this:** read every seam before you drill — almost every word splits into taught parts, and the split IS the memory. Spend your reps on the doubles (미치다, 취하다) and the active/happens pairs (쌓다/쌓이다, 벌이다/벌어지다): Korean grammar lives in exactly that gap.
 
@@ -20,6 +20,8 @@ This module is a parts reunion:
 ## Part 2 — The bricks
 
 ::vocab::
+
+**The hand and the opening:** 훔치다 takes something without permission; 굽히다 bends a knee or a will, using the causative family from M37. 주고받다 joins 주다 and 받다 with -고: giving and receiving become one exchange. 잠기다 turns the view around — a door is locked, or a place is submerged — while 트이다 opens a blocked road or lets speech come through. 불러일으키다 welds 부르다 to 일으키다: feelings and interest are called up and stirred. Read each note before treating the shared endings as a rule; these are six established words, not permission to invent a new one.
 
 **Radar patrol:** 미치다 reaches AND raves — keep 미쳤어? strictly among friends. 취하다 takes (取) and gets taken by soju (醉). 커지다 grows while M36's 켜지다 lights up, one vowel apart. 닿다 touches; M13's 닫다 shuts. And M56's 벌이다 file gains its fourth entry: you 벌이다 the affair, it 벌어지다-s on its own.
 

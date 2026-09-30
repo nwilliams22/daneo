@@ -24,7 +24,7 @@ whole word-family).
    choices), 바르다 — BOTH NIKL B senses mandatory: upright/proper (바른
    자세, 바른 말 — the posture of ethics) AND spread/apply (약을 바르다 —
    M10's 약 on M36's 상처, 벽지를 바르다). One spelling: straighten it or
-   smear it. 정확하다 (accurate — 정확한 시간; M57's 정확? no — verify:
+   smear it. 정확하다 (accurate — 정확한 시간; the 정확 root? no — verify:
    정확하다 owner? It's THIS slice — the 정확 root: 정하다's fix-定? NO —
    正確 correct-solid; decode honestly), 알맞다 (fitting — 알맞은 크기
    (M57); the textbook instruction: 알맞은 답을 고르세요 — verify 고르다
@@ -50,7 +50,7 @@ whole word-family).
    face), 아무렇게나 = sloppily; M29's 아무-family — verify), 그만하다
    (about-that-much — 그만한 사람이 없어요 = no one measures up; ALSO the
    stop-verb reading 그만하세요! — verify M33's 그만 and radar the two),
-   사이좋다 (on good terms — M4's 사이? verify owner of 사이 — 사이좋게
+   사이좋다 (on good terms — M6's 사이? verify owner of 사이 — 사이좋게
    지내세요, the teacher's benediction), 소용없다 (useless — 소용없어요 =
    no use; 울어도 소용없어요 — verify M39's -아/어도).
 6. **The measuring nouns:** 실수 (mistake — 실수했어요; the 失-family M35
@@ -70,7 +70,7 @@ whole word-family).
    행사 is pool-untaught… verify; use 각종 서류 M16; M55's 각 + M57's
    종류's 種 — verify both).
 
-**Word slice (33 — rank · word · pos):**
+**Word slice (40 — rank · word · pos):**
 1172 옳다 adj · 1135 바르다 adj · 1016 정확하다 adj · 1364 알맞다 adj ·
 1768 틀림없다 adj · 1336 간단하다 adj · 1217 단순하다 adj · 1073 심각하다 adj ·
 584 강하다 adj · 1860 약하다 adj · 966 훌륭하다 adj · 4924 우수하다 adj ·
@@ -84,6 +84,10 @@ whole word-family).
 (간단하다 simple-brief vs 단순하다 simple-plain: 간단한 설명 is short, 단순한
 사람 is uncomplicated — a precision pair; 簡單 vs 單純, both carrying M55's
 單 — verify.)
+
+
+**Restored checklist additions (stable IDs, NIKL grade C):** 마땅하다 (`w_mattanghada`) · 뒤늦다 (`w_dwineutda`) · 다름없다 (`w_dareumeopda`) · 폭넓다 (`w_pongneolda`) · 두렵다 (`w_duryeopda`) · 환하다 (`w_hwanhada`) · 건전하다 (`w_geonjeonhada`).
+These are owned here, not garnish. Teach the full notes alongside the original slice; keep eight sentences and the existing gap cards. Earlier grammar only: any later noun or root stays explicitly frozen and glossed.
 
 **Sentences:** 8; ≥1 apology scene (제 잘못이에요 or 잘못했어요), ≥1 잘되다
 blessing, ≥1 실수-vs-잘못 calibration in action, ≥3 recycling recent

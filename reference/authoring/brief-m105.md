@@ -1,5 +1,12 @@
 # Brief — M105 "The Office, and the Adverbs of the Page" (order 114, ring 3, band 8)
 
+**Current ownership after the Ring 2 correction:** 30 new checklist words.
+Earlier review: 미처 (M62) · 얼핏 (M62) · 무려 (M62) · 줄곧 (M62) · 말없이 (M62).
+The detailed teaching roster below includes these earlier words for contrast
+and sentence recycling; only the current word slice is introduced here.
+Keep the eight shipped sentences and gap cards; no further words can be
+dropped without breaching the Ring 3 floor.
+
 Read SHARED-BRIEF.md first; follow exactly. **Band 8 = the Band 6 pack
 contract exactly** — ~34 words, 8 sentences, full notes, garnish-free,
 the DEFAULT slim md shape, NO glue parts; each sentence recycles and
@@ -10,7 +17,7 @@ adverb shelf is this module's elder), M70's 마련되다 note (the 되다 flip),
 M63's 최대 note, M43's md (the money shelf), M53's md (the body's
 complaints) BEFORE drafting.
 
-**Theme:** the office's nouns and the page's adverbs. 35 words. THE
+**Theme:** the office's nouns and the page's adverbs. 30 new words, plus the earlier review listed above. THE
 ADVERBS (미처 얼핏 웬 무려 줄곧 말없이 일찍이 하긴 고작 그토록 각기 최대한 — 12
 words the essay steers with, each with a spoken twin), THE 되다 FLIPS (설치
 설치되다 발표되다 확인되다 성립되다 집중되다 해결되다 생산되다 — eight passives
@@ -103,11 +110,8 @@ the adverbs are M85's shelf, second floor.
    of M54's 욕실 "浴室": a waiting room (station, hospital); RADAR: not M55's
    대 + 합).
 
-**Word slice (35):** 미처 · 얼핏 · 웬 · 무려 · 줄곧 · 말없이 · 일찍이 · 하긴 ·
-고작 · 그토록 · 각기 · 최대한 · 설치 · 설치되다 · 발표되다 · 확인되다 · 성립되다 ·
-집중되다 · 해결되다 · 생산되다 · 원고 · 문서 · 계좌 · 매장 · 명칭 · 상업 · 실습 ·
-자율 · 향상 · 휴식 · 진단 · 질병 · 체력 · 인체 · 대합실. POS: 되다 verbs `verb`;
-adverbs and the determiner 웬 → `noun`; rest `noun`.
+**Word slice (30):** 웬 · 일찍이 · 하긴 · 고작 · 그토록 · 각기 · 최대한 · 설치 · 설치되다 · 발표되다 · 확인되다 · 성립되다 · 집중되다 · 해결되다 · 생산되다 · 원고 · 문서 · 계좌 · 매장 · 명칭 · 상업 · 실습 · 자율 · 향상 · 휴식 · 진단 · 질병 · 체력 · 인체 · 대합실.
+POS and stable IDs match the live entries in words.json.
 
 **Md shape (Band 8 default):** intro (the flip machine, run alone) · How
 to use · `## Part 1 — The office, and the adverbs of the page` (the four
@@ -125,6 +129,6 @@ lines.
 does not already own it as a gap; if it does, pick 최대한 빨리). Pick 2–3;
 grep gap.json.
 
-**Ledger:** all 35 Grade C — `m105\t8\tgloss (C)`. Output files
+**Ledger:** all 30 Grade C — `m105\t8\tgloss (C)`. Output files
 draft-m105.* in the scratchpad; meta.notes lists every slip and verify
 outcome.

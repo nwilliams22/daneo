@@ -32983,7 +32983,7 @@
     "rom": "humchida",
     "en": "to steal; to wipe (sweat)",
     "pos": "verb",
-    "moduleId": "m102",
+    "moduleId": "m61",
     "notes": "NIKL's hint is 물건을 ~ (M9's 물건): the verb of M36's 도둑 — that note: \"The thief — who ENTERS\" — and 훔치다 is what the thief does once inside: 지갑을 훔치다 (M21's 지갑), 마음을 훔치다 (M19's 마음) = to steal a heart, the drama poster's line. An older sense shares the spelling: 땀을 훔치다 (M41's 땀) = to wipe away sweat — frozen as one clause, the farmer's gesture with the back of the hand. RADAR: not M17's 치다 with a 훔 in front — 치다 strikes and plays; 훔치다 is one native verb, and it takes."
   },
   {
@@ -32992,7 +32992,7 @@
     "rom": "guphida",
     "en": "to bend (the body); to yield",
     "pos": "verb",
-    "moduleId": "m102",
+    "moduleId": "m61",
     "notes": "허리를 굽히다 (M14's 허리) = to bend at the waist — the deep bow and the weeding posture; 무릎을 굽히다 (M14's 무릎) = to bend the knee; 뜻을 굽히다 (M10's 뜻) = to bend one's will = to back down — 뜻을 굽히지 않았어요 (-지 않다 from M28) is the biography's stubborn sentence. RADAR, a homograph trap: M18's 굽다 is the grill — 삼겹살을 구워요 — but a second 굽다, riding frozen, means to be bent (허리가 굽다 = a bent back), and 굽히다 is THAT one through the causative party of M37: you make it bend. The grill's 굽다 has no 히 form; if you read 굽히다, nobody is cooking."
   },
   {
@@ -33037,7 +33037,7 @@
     "rom": "jugobatda",
     "en": "to exchange (give and receive)",
     "pos": "verb",
-    "moduleId": "m102",
+    "moduleId": "m61",
     "notes": "The thesis verb: M9's 주다 + M9's 받다, welded through verb--고 from M10 into ONE word — give-and-receive = to exchange. 선물을 주고받다 (M9's 선물) = to exchange gifts; 말을 주고받다 (M4's 말) = to exchange words; 문자를 주고받다 (M20's 문자) = to text back and forth; 눈빛을 주고받다 (M41's 눈빛) = to exchange glances. Written closed and said in one breath: the welding IS the meaning — two verbs you have owned since M9, one action they make together."
   },
   {
@@ -33064,7 +33064,7 @@
     "rom": "jamgida",
     "en": "to be submerged; to be locked",
     "pos": "verb",
-    "moduleId": "m102",
+    "moduleId": "m61",
     "notes": "NIKL's hint is 물에 ~ (M1's 물): two verbs share the spelling, and both are passives. One is 잠그다 (to lock — frozen) through the passive party of M36: 문이 잠겼어요 (M6's 문) = the door is locked. The other is sink-잠기다: 물에 잠기다 = to be submerged — 마을이 물에 잠겼어요 (M22's 마을) is the flood headline — and from it 생각에 잠기다 (the 생각 of M10's 생각하다) = to be lost in thought, 슬픔에 잠기다 (M42's 슬픔) = sunk in grief. RADAR: M28's 잠 (sleep) is not inside it — a locked door and a sunk village are both wide awake."
   },
   {
@@ -33073,8 +33073,8 @@
     "rom": "teuida",
     "en": "to open up, clear (a road, the chest, the tongue)",
     "pos": "verb",
-    "moduleId": "m102",
-    "notes": "The passive shape of 트다 (to open, to break through — frozen): what was blocked comes open. 길이 트이다 (M12's 길) = a road opens up; 속이 트이다 (M28's 속) = the insides open = to feel relieved, unburdened; 말문이 트이다 (말문 — the gate of speech, frozen) = to find one's tongue, the gap deck's phrase — and the language learner's own sentence: 한국어가 트였어요 (M1's 한국어) = my Korean has opened up, the day the words stop jamming. 트여요, 트였어요 — the 이 folds into the vowel."
+    "moduleId": "m61",
+    "notes": "The passive shape of 트다 (to open, to break through — frozen): what was blocked comes open. 길이 트이다 (M12's 길) = a road opens up; 속이 트이다 (M28's 속) = the insides open = to feel relieved, unburdened; 말문이 트이다 (말문 — the gate of speech, frozen) = to find one's tongue — and the language learner's own sentence: 한국어가 트였어요 (M1's 한국어) = my Korean has opened up, the day the words stop jamming. 트여요, 트였어요 — the 이 folds into the vowel."
   },
   {
     "id": "w_saranamda",
@@ -33136,7 +33136,7 @@
     "rom": "bulleoireukida",
     "en": "to arouse, provoke, stir up",
     "pos": "verb",
-    "moduleId": "m102",
+    "moduleId": "m61",
     "notes": "M19's 부르다 (불러-, the 르-family table of M7) + M56's 일으키다 (that note: \"문제를 일으키다 = cause trouble\"): to call up and raise = to stir up. 관심을 불러일으키다 (M24's 관심) = to arouse interest; 논쟁을 불러일으키다 (논쟁 — a controversy, frozen) = to spark controversy — the review's verb; 감정을 불러일으키다 (M42's 감정) = to stir feelings. Five syllables, every one already yours; the longest weld on the shelf and the most printed."
   },
   {
@@ -33154,8 +33154,8 @@
     "rom": "mattanghada",
     "en": "to be fitting, proper, deserved",
     "pos": "adj",
-    "moduleId": "m102",
-    "notes": "What OUGHT to be: 마땅한 이유 (M24's 이유, in the badge) = a proper reason — 마땅한 이유 없이 (M32's 없이) = without due cause, the ruling's phrase; 칭찬을 받아 마땅해요 (M33's 칭찬) = deserves the praise; 마땅히 (frozen) = rightly, duly. In the mouth it is mostly negative-first: 마땅한 말이 없어요 (M4's 말) = there is no right word for it. Sort: M73's 적당하다 (suitable, moderate) and M87's 적절하다 (apt) fit the situation; 마땅하다 fits what is OWED. RADAR: M22's 땅 is a coincidence — nothing is on the ground."
+    "moduleId": "m63",
+    "notes": "What OUGHT to be: 마땅한 이유 (M24's 이유, in the badge) = a proper reason — 마땅한 이유 없이 (M32's 없이) = without due cause, the ruling's phrase; 칭찬을 받아 마땅해요 (M33's 칭찬) = deserves the praise; 마땅히 (frozen) = rightly, duly. In the mouth it is mostly negative-first: 마땅한 말이 없어요 (M4's 말) = there is no right word for it. Sort: today's 알맞다 fits the situation; 마땅하다 also judges what is deserved or owed. RADAR: M22's 땅 is a coincidence — nothing is on the ground."
   },
   {
     "id": "w_taekhada",
@@ -33937,7 +33937,7 @@
     "rom": "micheo",
     "en": "not yet, not even (with a negative)",
     "pos": "noun",
-    "moduleId": "m105",
+    "moduleId": "m62",
     "notes": "The adverb that only ever travels with a negative: 미처 생각하지 못했어요 (M10's 생각하다, the long negation -지 못하다 from M28) = it never even occurred to me; 미처 준비하지 못했어요 (M8's 준비하다) = I didn't get it ready in time. It measures the thing you did not reach before the moment closed, which is why 못하다 is almost its only partner. Its spoken twin is M14's 아직 — that note's rule, \"With a negative it reads 'not yet'\" — but 아직 leaves the clock running and 미처 says the clock has stopped."
   },
   {
@@ -33946,7 +33946,7 @@
     "rom": "eolpit",
     "en": "at a glance; vaguely, in passing",
     "pos": "noun",
-    "moduleId": "m105",
+    "moduleId": "m62",
     "notes": "The corner-of-the-eye adverb: 얼핏 보다 (M1's 보다) = to catch a glimpse, 얼핏 듣다 (M2's 듣다) = to half-hear — and 얼핏 들었어요 is how a rumour enters a conversation with nobody owning it. 얼핏 보면 (the -(으)면 from M20) = at first glance, the essay's hinge before a but. The near-twin 언뜻 (frozen) does the same job with a different first syllable; both are standard and no Korean sorts them. Radar: 얼핏 is not fast, it is partial — the eye or the ear got only an edge of the thing."
   },
   {
@@ -33964,7 +33964,7 @@
     "rom": "muryeo",
     "en": "as many as, a full (before a big number)",
     "pos": "noun",
-    "moduleId": "m105",
+    "moduleId": "m62",
     "notes": "無慮 — the 無 of M39's 무조건 (\"無 (no) + 조건: zero-conditions\") plus the 慮 of M61's 고려하다 (\"考慮 examine-ponder\"): without pondering, i.e. more than you would stop to count. It sits in front of a number and declares it large: 무려 천 명 (M9's 천, M5's 명) = a full thousand people; 무려 열 시간 (M5's 열, M1's 시간). The headline's amplifier — speech hangs the (이)나 from M43 behind the amount, the page puts 무려 in front of it, and the loudest sentences do both at once."
   },
   {
@@ -33973,7 +33973,7 @@
     "rom": "julgot",
     "en": "all along, continuously",
     "pos": "noun",
-    "moduleId": "m105",
+    "moduleId": "m62",
     "notes": "M55's 줄 — the line, from a note that counted its jobs (\"Rope, row, know-how: one syllable, three careers.\") — welded to M10's 곧: in a straight line from then until now. 줄곧 기다렸어요 (M8's 기다리다) = I waited the entire time; 줄곧 같은 자리 (M12's 자리). Its spoken twin is M28's 계속, and the difference is direction: 계속 keeps going forward from here, 줄곧 looks back across a stretch that never broke."
   },
   {
@@ -33982,7 +33982,7 @@
     "rom": "mareopsi",
     "en": "silently, without a word",
     "pos": "noun",
-    "moduleId": "m105",
+    "moduleId": "m62",
     "notes": "M4's 말 + M32's 없이 (\"없다 + -이: without\"), written solid: wordlessly. 말없이 앉아 있었어요 (M9's 앉다) = he just sat there saying nothing; 말없이 듣기만 했어요 (M2's 듣다, the -기 nominalizer from M13 under 만 from M30). Its twin is M33's 조용히, and they are not interchangeable: 조용히 is about noise, 말없이 is about speech — you can leave a room 조용히 by accident, but leaving it 말없이 always means something."
   },
   {
@@ -34010,7 +34010,7 @@
     "en": "merely, only (as little as)",
     "pos": "noun",
     "moduleId": "m105",
-    "notes": "The small number's adverb, and it always sneers a little: 고작 천 원 (M9's 천) = a measly thousand won; 고작 이 정도예요? (M29's 이, M32's 정도) = this is all? Its twin is M62's 겨우, whose note ran both jobs — \"겨우 십 분 = a mere ten minutes, 겨우 그거? = THAT's all?\" — and here is the split: 겨우 can still honour the effort that barely made it, 고작 honours nothing. Set it against 무려 on this same shelf: identical slot, identical numbers, opposite verdict."
+    "notes": "The small number's adverb, and it always sneers a little: 고작 천 원 (M9's 천) = a measly thousand won; 고작 이 정도예요? (M29's 이, M32's 정도) = this is all? Its twin is M62's 겨우, whose note ran both jobs — \"겨우 십 분 = a mere ten minutes, 겨우 그거? = THAT's all?\" — and here is the split: 겨우 can still honour the effort that barely made it, 고작 honours nothing. Set it against 무려 from M62: identical slot, identical numbers, opposite verdict."
   },
   {
     "id": "w_geutorok",
@@ -34540,8 +34540,8 @@
     "rom": "dwineutda",
     "en": "to be belated, too late",
     "pos": "adj",
-    "moduleId": "m107",
-    "notes": "M6's 뒤 + M8's 늦다: late from behind = belated — late not for the appointment but for the point. M88's 깨닫다 already ran the weld and labelled it in passing — \"뒤늦게 깨달았어요 (M6's 뒤 + M8's 늦다, welded) = I realized too late\" — so today the adjective only has to dismount. It lives in its adverb coat from the -게 adverbializer of M33: 뒤늦게 후회하다 (M34's 후회하다) = to regret it too late, 뒤늦게 도착했어요 (M8's 도착하다). M8's 늦다 measures a clock; 뒤늦다 measures a moment that has already closed."
+    "moduleId": "m63",
+    "notes": "M6's 뒤 + M8's 늦다: late from behind = belated — late not for the appointment but for the point. 뒤늦은 후회 = belated regret; the badge -(으)ㄴ from M24 makes the timing part of the noun phrase. It lives in its adverb coat from the -게 adverbializer of M33: 뒤늦게 후회하다 (M34's 후회하다) = to regret it too late, 뒤늦게 도착했어요 (M8's 도착하다). M8's 늦다 measures a clock; 뒤늦다 measures a moment that has already closed."
   },
   {
     "id": "w_dwijida",
@@ -34630,8 +34630,8 @@
     "rom": "dareumeopda",
     "en": "to be no different from, as good as",
     "pos": "adj",
-    "moduleId": "m107",
-    "notes": "M24's 다르다 through the -(으)ㅁ freezer of M67 (다름 — a difference, riding frozen) + M1's 없다: there is no difference. It takes 와/과, and in practice it means as good as: 가족과 다름없어요 (M4's 가족) = they are family in all but name; 새 옷과 다름없어요 (M13's 새, M7's 옷) = as good as new. Its adverb 다름없이 does the same job about time — 평소와 다름없이 (M38's 평소) = just as always."
+    "moduleId": "m63",
+    "notes": "M24's 다르다 with the noun ending -ㅁ (다름 — a difference, treated here as a frozen noun) + M1's 없다: there is no difference. It takes 와/과, and in practice it means as good as: 가족과 다름없어요 (M4's 가족) = they are family in all but name; 새 옷과 다름없어요 (M13's 새, M7's 옷) = as good as new. Its adverb 다름없이 does the same job about time — 평소와 다름없이 (M38's 평소) = just as always."
   },
   {
     "id": "w_pongneolda",
@@ -34639,7 +34639,7 @@
     "rom": "pongneolda",
     "en": "to be broad, wide-ranging",
     "pos": "adj",
-    "moduleId": "m107",
+    "moduleId": "m63",
     "notes": "M60's 폭 (that note: \"幅 width\") + M13's 넓다: wide in the width = broad. It nearly always arrives wearing the badge -(으)ㄴ from M24: 폭넓은 지식 (M44's 지식) = broad knowledge, 폭넓은 경험 (M33's 경험), 폭넓게 읽다 (M2's 읽다). Physical width stays with M13's 넓다 — a room is 넓다, never 폭넓다 — because 폭넓다 measures RANGE: what a mind, a policy or a reading list covers."
   },
   {
@@ -34729,8 +34729,8 @@
     "rom": "duryeopda",
     "en": "to be afraid, fearful",
     "pos": "adj",
-    "moduleId": "m107",
-    "notes": "Fear in the register that admits it. ㅂ-irregular by the table M7 hung: 두려워요, 두려운. Against M24's 무섭다, which does scary AND scared in one breath: 무섭다 is the dark corridor and the horror film; 두렵다 is the fear you name on the page — 실패가 두렵다 (M44's 실패), 미래가 두려워요 (M25's 미래). Its noun 두려움 (riding frozen) comes off the -(으)ㅁ freezer of M67, the same machine that softened the ㅂ in M67's 어려움."
+    "moduleId": "m63",
+    "notes": "Fear in the register that admits it. ㅂ-irregular by the table M7 hung: 두려워요, 두려운. Against M24's 무섭다, which does scary AND scared in one breath: 무섭다 is the dark corridor and the horror film; 두렵다 is the fear you name on the page — 실패가 두렵다 (M44's 실패), 미래가 두려워요 (M25's 미래). Its noun 두려움 (riding frozen) uses the noun ending -움: the ㅂ softens to 우, as in 두려워요. Keep the noun frozen here; drill the adjective."
   },
   {
     "id": "w_meotjida",
@@ -34747,8 +34747,8 @@
     "rom": "hwanhada",
     "en": "to be bright, radiant",
     "pos": "adj",
-    "moduleId": "m107",
-    "notes": "Bright in the way that opens something: a room with every lamp on, and a face. 환한 미소 (M33's 미소) = a radiant smile, 환하게 웃다 (M7's 웃다, the -게 adverbializer from M33) = to beam. Sort it from M13's 밝다, which measures light — 방이 밝아요 (M8's 방) — where 환하다 is light with an effect on what it lands on, which is why the face takes it and the light meter does not. RADAR: M88's 전환 carries the syllable and none of the meaning — that note's 전환하다 is 轉換, to switch over."
+    "moduleId": "m63",
+    "notes": "Bright in the way that opens something: a room with every lamp on, and a face. 환한 미소 (M33's 미소) = a radiant smile, 환하게 웃다 (M7's 웃다, the -게 adverbializer from M33) = to beam. Sort it from M13's 밝다, which measures light — 방이 밝아요 (M8's 방) — where 환하다 is light with an effect on what it lands on, which is why the face takes it and the light meter does not. RADAR: 전환 (轉換, a switch or conversion — frozen) shares 환 in sound only: 換 means exchange, not brightness."
   },
   {
     "id": "w_gwihada",
@@ -34783,8 +34783,8 @@
     "rom": "geonjeonhada",
     "en": "to be wholesome, sound",
     "pos": "adj",
-    "moduleId": "m107",
-    "notes": "健全, and both halves have been decoded elsewhere: M99's 건 sorted the three 건s (\"M14's 건강 is sound-健\"), and M31's 전국 owns the other (\"전 (全 all) + 국: all-country\"). Whole and healthy, said of arrangements rather than bodies: 건전한 생활 (M29's 생활) = a wholesome life, 건전한 비판 (M93's 비판) = criticism meant to help. M14's 건강 is a body's health; 건전하다 is the health of a habit, a hobby, or a society."
+    "moduleId": "m63",
+    "notes": "健全 — 健 is sound or healthy, as in M14's 건강; 全 is whole or all, as in M31's 전국. Together they describe something wholesome or sound: 건전한 생활 (M29's 생활) = a wholesome life; 건전한 생각 (the 생각 in M10's 생각하다) = sound thinking. The badge -(으)ㄴ from M24 gives 건전한; -게 from M33 gives 건전하게. 건강 concerns bodily health; 건전하다 evaluates habits, ideas and social life. RADAR: this 건 is healthy-健, not the building-建 in 건물 (M22)."
   },
   {
     "id": "w_cheokhada",
@@ -35261,7 +35261,7 @@
     "en": "to snatch, take away by force",
     "pos": "verb",
     "moduleId": "m111",
-    "notes": "To take what was somebody else's, and to take it out of their hands: 장난감을 빼앗다 (M37's 장난감), 시간을 빼앗다 (M1's 시간) = to take up somebody's time — the apology 시간을 빼앗아서 죄송합니다 — and the one the ballads run on, 마음을 빼앗다 (M19's 마음) = to steal a heart. M102's 훔치다 has the same object — that note: \"마음을 훔치다 (M19's 마음) = to steal a heart, the drama poster's line\" — and the difference is the method: 훔치다 takes it without your noticing, 빼앗다 takes it whether you like it or not. Kin of M53's 빼다, which pulls a thing out or subtracts it: 빼다 removes, 빼앗다 removes it from an owner. Its passive 빼앗기다 (the party of M36, riding frozen) is how the losing side says the same sentence."
+    "notes": "To take what was somebody else's, and to take it out of their hands: 장난감을 빼앗다 (M37's 장난감), 시간을 빼앗다 (M1's 시간) = to take up somebody's time — the apology 시간을 빼앗아서 죄송합니다 — and the one the ballads run on, 마음을 빼앗다 (M19's 마음) = to steal a heart. M61's 훔치다 has the same object — that note: \"마음을 훔치다 (M19's 마음) = to steal a heart, the drama poster's line\" — and the difference is the method: 훔치다 takes it without your noticing, 빼앗다 takes it whether you like it or not. Kin of M53's 빼다, which pulls a thing out or subtracts it: 빼다 removes, 빼앗다 removes it from an owner. Its passive 빼앗기다 (the party of M36, riding frozen) is how the losing side says the same sentence."
   },
   {
     "id": "w_samkida",
@@ -35405,7 +35405,7 @@
     "en": "fear (the noun)",
     "pos": "noun",
     "moduleId": "m111",
-    "notes": "PAYS two notes at once. M107's 두렵다 built it and left it standing — \"Its noun 두려움 (riding frozen) comes off the -(으)ㅁ freezer of M67, the same machine that softened the ㅂ in M67's 어려움.\" — and M93's 극복하다 spent it before anybody owned it: \"두려움을 극복하다 (두려움 — fear, riding frozen) = to get over a fear\". Today both clear. 두려움에 떨다 (M41's 떨다) = to shake with fear. Against the 무서움 that M24's 무섭다 could make (still frozen): 무서움 is the dark corridor's, 두려움 is the page's and the verdict's."
+    "notes": "PAYS two notes at once. M63's 두렵다 built it and left it standing — \"Its noun 두려움 (riding frozen) uses the noun ending -움: the ㅂ softens to 우, as in 두려워요. Keep the noun frozen here; drill the adjective.\" — and M93's 극복하다 spent it before anybody owned it: \"두려움을 극복하다 (두려움 — fear, riding frozen) = to get over a fear\". Today both clear. 두려움에 떨다 (M41's 떨다) = to shake with fear. Against the 무서움 that M24's 무섭다 could make (still frozen): 무서움 is the dark corridor's, 두려움 is the page's and the verdict's."
   },
   {
     "id": "w_bitkkal",
@@ -38123,7 +38123,7 @@
   { "id": "w_aranaeda", "ko": "알아내다", "rom": "aranaeda", "en": "to find out; to work out", "pos": "verb", "moduleId": "m119", "notes": "M74's 찾아내다 promised “알아내다 (find out — riding frozen) is M4's 알다 + 내다”. M28's 내다 is the bring-it-out rail: the result of inquiry comes out. 원인을 알아내다, with M86's 원인, is to find the cause, not merely to hear it." },
   { "id": "w_bureojida", "ko": "부러지다", "rom": "bureojida", "en": "to snap; to break in two", "pos": "verb", "moduleId": "m119", "notes": "M82's 나뭇가지 gives “나뭇가지가 부러지다 (부러지다 — to snap, riding frozen)”. A rigid branch or M41's 뼈 snaps; M116's 부서지다 means it goes to pieces. 다리가 부러졌어요 names a broken leg, with M14's 다리." },
   { "id": "w_yebanghada", "ko": "예방하다", "rom": "yebanghada", "en": "to prevent", "pos": "verb", "moduleId": "m119", "notes": "M108's 예방 says “예방하다 rides frozen.” 豫 is beforehand, 防 defense: the verb blocks an illness or accident before it arrives. 사고를 예방하다 uses M36's 사고. RADAR: 豫 is not M33's 예 meaning yes or example." },
-  { "id": "w_jeonhwanhada", "ko": "전환하다", "rom": "jeonhwanhada", "en": "to switch over; to convert", "pos": "verb", "moduleId": "m119", "notes": "M88's 전환 gives “전환하다 = to switch over.” 轉 turns and 換 swaps, so 방향을 전환하다 changes direction and 직업을 전환하다 changes careers. M107's 환하다 warns that the bright 환 carries none of this 換 meaning." },
+  { "id": "w_jeonhwanhada", "ko": "전환하다", "rom": "jeonhwanhada", "en": "to switch over; to convert", "pos": "verb", "moduleId": "m119", "notes": "M88's 전환 gives “전환하다 = to switch over.” 轉 turns and 換 swaps, so 방향을 전환하다 changes direction and 직업을 전환하다 changes careers. M63's 환하다 warns that the bright 환 carries none of this 換 meaning." },
   { "id": "w_gamsohada", "ko": "감소하다", "rom": "gamsohada", "en": "to decrease; to decline", "pos": "verb", "moduleId": "m119", "notes": "M89's 줄어들다 calls “the report's own word, 감소하다, rides frozen.” The native trend is 줄어들다; the report says 감소하다. On the same chart, 늘다 and 늘어나다 rise, 증가하다 reports an increase, 줄다 and 줄어들다 fall, and 감소하다 reports the fall." },
   { "id": "w_goerophida", "ko": "괴롭히다", "rom": "goerophida", "en": "to torment; to bully", "pos": "verb", "moduleId": "m119", "notes": "M42's 괴롭다 already named 괴롭히다 as the causative outcome of private suffering. The causative -히- from M37 turns a state into something done to someone. 괴롭다 is how a person suffers; 친구를 괴롭히다 is to make the friend suffer. 괴롭힘 uses the M67 noun freezer to name bullying." },
   { "id": "w_jallida", "ko": "잘리다", "rom": "jallida", "en": "to be cut; to be fired", "pos": "verb", "moduleId": "m119", "notes": "M40's 자르다 says “잘리다 = get cut = get fired.” passive -리- from M36 moves the cut onto its object: 종이가 잘리다 means paper is cut, 회사에서 잘리다 means someone is dismissed from a company. The same verb carries a physical and a workplace consequence." },
@@ -38148,7 +38148,7 @@
   { "id": "w_nareuda", "ko": "나르다", "rom": "nareuda", "en": "to carry; to haul", "pos": "verb", "moduleId": "m119", "notes": "짐을 나르다 uses M13's 짐 for repeated hauling. M50's 옮기다 moves a thing from one place to another once; 나르다 evokes carrying load after load. RADAR: M28's 날다 means to fly, one vowel away." },
   { "id": "w_nollida", "ko": "놀리다", "rom": "nollida", "en": "to tease; to make fun of", "pos": "verb", "moduleId": "m119", "notes": "친구를 놀리다 means to tease a friend. The form looks like M19's 놀다 with the M37 causative -리-, and it can mean make something move in 손을 놀리다, but teasing is the ordinary human sense. Do not gloss the schoolyard verb as merely making someone play." },
   { "id": "w_neureonota", "ko": "늘어놓다", "rom": "neureonota", "en": "to lay out; to reel off", "pos": "verb", "moduleId": "m119", "notes": "늘다 stretches, then M28's 놓다 lays it down: 물건을 늘어놓다 is to spread things out. 변명을 늘어놓다 is to reel off excuses; 변명 rides frozen. It is close in shape to M56's 늘어나다, but the 놓다 ending gives an agent who lays things out." },
-  { "id": "w_duryeowohada", "ko": "두려워하다", "rom": "duryeowohada", "en": "to fear", "pos": "verb", "moduleId": "m119", "notes": "M107's 두렵다 takes -어하다 to describe another person's feeling: 저는 두려워요, but 친구는 두려워해요. M1's 좋아하다 and M3's 싫어하다 sit on the same feeling-action rail. The form is not a direct claim to another person's private feeling." },
+  { "id": "w_duryeowohada", "ko": "두려워하다", "rom": "duryeowohada", "en": "to fear", "pos": "verb", "moduleId": "m119", "notes": "M63's 두렵다 takes -어하다 to describe another person's feeling: 저는 두려워요, but 친구는 두려워해요. M1's 좋아하다 and M3's 싫어하다 sit on the same feeling-action rail. The form is not a direct claim to another person's private feeling." },
   { "id": "w_sseulda", "ko": "쓸다", "rom": "sseulda", "en": "to sweep", "pos": "verb", "moduleId": "m119", "notes": "마당을 쓸다 (M54's 마당) and 바닥을 쓸다 (M13's 바닥) clear a surface. 빗자루, a broom, rides frozen. RADAR: M10's 쓰다 is to write or use, with a doubled ㅆ but a different stem and meaning." },
   { "id": "w_geopum", "ko": "거품", "rom": "geopum", "en": "foam; bubble", "pos": "noun", "moduleId": "m119", "notes": "맥주 거품 is beer foam (M3's 맥주); 비누 거품 is soap lather (M30's 비누). A newspaper takes the same bubbles to 거품 경제, a bubble economy (M32's 경제). The physical froth and speculative excess share the picture of swelling air." },
   { "id": "w_kkeuteopda", "ko": "끝없다", "rom": "kkeuteopda", "en": "endless", "pos": "adj", "moduleId": "m119", "notes": "M28's 끝 plus M1's 없다 makes the lack of an end. 끝없는 사막 describes an endless desert; 사막 rides frozen. Its adverb 끝없이 will land in M120, so hold that form as a preview, not a new separate word." },

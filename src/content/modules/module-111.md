@@ -26,7 +26,7 @@ Then the four drawers:
 - **THE NOUNS (두려움 몸짓 먹이 눈동자):** the fear you write down, the gesture without the curled lip, the feed in the bowl, and the dark centre of an eye. Several pay a note that carried them frozen.
 - **THE ADVERBS OF THE MOMENT (이내 차츰 홀로 감히 금세 한창 하도):** the table above. Two of them are two words wearing one spelling: 이내 is also the noun 以內 (within — the 以 of M32's 이상 and the 內 of M31's 국내), and 한창 is an adverb and a noun both.
 
-**Receipts come due.** Five earlier notes wrote an IOU on this shelf: M107's 두렵다 built **두려움** and left it standing ("Its noun 두려움 (riding frozen) comes off the -(으)ㅁ freezer of M67, the same machine that softened the ㅂ in M67's 어려움."), M93's 극복하다 had already spent it ("두려움을 극복하다 (두려움 — fear, riding frozen) = to get over a fear"), M68's 짓 filed **몸짓** as a neutral cousin riding free ("몸짓 (body gesture — M14's 몸)"), M37's 먹이다 named **먹이** on the way past ("the noun 먹이 = animal feed/prey"), and M104's 밥상 served **소박하다** one module ago ("소박한 밥상 (소박하다 — plain, riding frozen) = a simple spread"). All five dismount today.
+**Receipts come due.** Five earlier notes wrote an IOU on this shelf: M63's 두렵다 built **두려움** and left it standing ("Its noun 두려움 (riding frozen) comes off the -(으)ㅁ freezer of M67, the same machine that softened the ㅂ in M67's 어려움."), M93's 극복하다 had already spent it ("두려움을 극복하다 (두려움 — fear, riding frozen) = to get over a fear"), M68's 짓 filed **몸짓** as a neutral cousin riding free ("몸짓 (body gesture — M14's 몸)"), M37's 먹이다 named **먹이** on the way past ("the noun 먹이 = animal feed/prey"), and M104's 밥상 served **소박하다** one module ago ("소박한 밥상 (소박하다 — plain, riding frozen) = a simple spread"). All five dismount today.
 
 ::vocab::
 

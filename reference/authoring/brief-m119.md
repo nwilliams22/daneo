@@ -47,7 +47,7 @@ a 되다-flip, or 하다 on a noun already owned.
    부서지다: 부서지다 goes to pieces, 부러지다 snaps in two), 예방하다 (PAYS
    M108's 예방 — lookup.py the owner and quote its exact span verbatim,
    including its 豫 radar), 전환하다 (PAYS M88's 전환 — lookup.py the owner
-   and quote its exact span verbatim — and M107's 환하다, which radars it:
+   and quote its exact span verbatim — and M63's 환하다, which radars it:
    quote that span too; to switch over, of a career and of a policy),
    감소하다 (PAYS M89's 줄어들다 — lookup.py the owner and quote its exact
    span verbatim; the report's word for a fall, against 늘어나다 (M56) and
@@ -114,7 +114,7 @@ a 되다-flip, or 하다 on a noun already owned.
    the tease sense is what people say), 늘어놓다 (M56's 늘어나다 kin? verify
    — 늘다 + 어 + M28's 놓다: to lay out in a row, to spread things about;
    and the figurative: 변명을 늘어놓다 (변명 frozen) = to reel off excuses),
-   두려워하다 (M107's 두렵다 + -어하다: to fear — and the rule is the entry:
+   두려워하다 (M63's 두렵다 + -어하다: to fear — and the rule is the entry:
    Korean adjectives of feeling take -어하다 to describe someone ELSE's
    feeling, so 두렵다 is what I feel and 두려워하다 is what he does; name the
    rail with 좋아하다 (M1) and 싫어하다 (verify)), 쓸다 (NIKL hint 마당을 ~:
