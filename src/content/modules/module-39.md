@@ -16,7 +16,7 @@ Band 4 closes on the fine print: **concession** (-아/어도 — even if), **nec
 
 ::vocab::
 
-**The prefix machines pay out:** 불- (M36's gap deck) builds 불가능하다; 무- empties 무조건 and 무책임; the 최- ladder completes (최고 · 최근 · 최선 · 최악); and -감 bottles feelings (자신감, 책임감). Ring 2's word-factories are now visibly running the economy.
+**The prefix machines pay out:** 불- (M36's gap deck) builds 불가능하다; 무- empties 무조건 and 무책임; the 최- ladder completes (최고 · 최근 · 최선 · 최악); and -감 bottles feelings (자신감, 책임감). The endurance shelf now names both the moment you hold back (참다), the patience to bear it (참을성), and the persistence to keep going (끈기). Ring 2's word-factories are now visibly running the economy.
 
 ---
 

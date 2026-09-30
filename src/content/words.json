@@ -13753,6 +13753,24 @@
     "notes": "The scrappy survivor of the endurance trio: 버티다 is white-knuckled — 조금만 더 버텨요! (hang on just a bit longer — 미리 warned you Korean loves this sentence). 참다 suppresses, 견디다 withstands, 버티다 refuses to fall over. Monday-morning conjugation: 버티는 중."
   },
   {
+    "id": "w_chameulseong",
+    "ko": "참을성",
+    "rom": "chameulseong",
+    "en": "patience, forbearance",
+    "pos": "noun",
+    "moduleId": "m39",
+    "notes": "참다 (this module's hold-back verb) + -을 + 性 (quality, character): the capacity to bear discomfort without reacting. 참을성이 있어요 = I have patience; 참을성이 부족해요 = I lack it (부족하다, below). 참다 is what you do in one hard moment; 참을성 is the quality that lets you keep doing it."
+  },
+  {
+    "id": "w_kkeungi",
+    "ko": "끈기",
+    "rom": "kkeungi",
+    "en": "persistence, tenacity",
+    "pos": "noun",
+    "moduleId": "m39",
+    "notes": "끈 (a string) + 氣 (energy, as in this module's 용기): the staying power to keep going. 끈기 있게 버텨요 = hang on persistently (버티다, above); 끈기가 부족해요 = I lack persistence. 참을성 absorbs difficulty; 끈기 keeps pursuing a goal. The same word also means the stickiness of rice or dough — a texture that holds together."
+  },
+  {
     "id": "w_choeseon",
     "ko": "최선",
     "rom": "choeseon",
