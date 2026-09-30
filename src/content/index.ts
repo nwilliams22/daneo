@@ -1,3 +1,4 @@
+import module151Md from "./modules/module-151.md?raw";
 import module150Md from "./modules/module-150.md?raw";
 import module149Md from "./modules/module-149.md?raw";
 import module148Md from "./modules/module-148.md?raw";
@@ -206,6 +207,7 @@ export const fontLetterById = new Map(
 
 /** Raw markdown bodies keyed by Module.contentMd. */
 export const moduleMarkdown: Record<string, string> = {
+  "modules/module-151.md": module151Md,
   "modules/module-1.md": module1Md,
   "modules/module-2.md": module2Md,
   "modules/module-3.md": module3Md,

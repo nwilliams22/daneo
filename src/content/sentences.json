@@ -33357,5 +33357,277 @@
     "rom": "sidaegeseo uinonhan dwie jangnyesigeul junbihaesseoyo",
     "wordIds": ["w_sidaek", "w_uinon", "w_jangnyesik", "w_junbihada"],
     "note": "시댁 specifies the family setting; 의논 names a shared discussion before action."
+  },
+  {
+    "id": "s_m151_school",
+    "ko": [
+      { "t": "사립 학교에 다니더라도", "role": "other", "id": "a" },
+      { "t": "교육비가", "role": "subject", "id": "b" },
+      { "t": "적지는 않아요.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "private school-[to] attend-[even-if]", "role": "other", "id": "a" },
+      { "t": "education-costs-[subj]", "role": "subject", "id": "b" },
+      { "t": "small-[not]", "role": "verb", "id": "c" }
+    ],
+    "en": [
+      { "t": "Even if you attend a private school,", "role": "other", "id": "a" },
+      { "t": "education costs", "role": "subject", "id": "b" },
+      { "t": "are not small.", "role": "verb", "id": "c" }
+    ],
+    "rom": "sarip hakgyoe danideorado gyoyukbiga jeokjineun anayo.",
+    "wordIds": [
+      "w_sarip",
+      "w_hakgyo",
+      "w_danida",
+      "w_gyoyukbi",
+      "w_jeokda"
+    ],
+    "note": "-더라도 from M95 concedes the school choice without changing the cost claim. 사립 recycles M150; -지는 adds contrast to the negative."
+  },
+  {
+    "id": "s_m151_recording",
+    "ko": [
+      { "t": "음반을 듣는 김에", "role": "other", "id": "a" },
+      { "t": "공연 녹화도", "role": "object", "id": "b" },
+      { "t": "봤어요.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "record-[obj] listen-[while-at-it]", "role": "other", "id": "a" },
+      { "t": "performance video-recording-[also]", "role": "object", "id": "b" },
+      { "t": "watched", "role": "verb", "id": "c" }
+    ],
+    "en": [
+      { "t": "While listening to the record,", "role": "other", "id": "a" },
+      { "t": "I watched", "role": "verb", "id": "c" },
+      { "t": "the video recording of the performance too.", "role": "object", "id": "b" }
+    ],
+    "rom": "eumbaneul deunneun gime gongyeon nokhwado bwasseoyo.",
+    "wordIds": [
+      "w_eumban",
+      "w_deutda",
+      "w_gongyeon",
+      "w_nokhwa",
+      "w_boda"
+    ],
+    "note": "-는 김에 from M91 turns one activity into an occasion for another. 음반 from M150 now contrasts an audio release with 녹화."
+  },
+  {
+    "id": "s_m151_feelings",
+    "ko": [
+      { "t": "속마음을 말했더니", "role": "other", "id": "a" },
+      { "t": "친구가", "role": "subject", "id": "b" },
+      { "t": "가만 들어줬어요.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "inner-feelings-[obj] told-[and-found]", "role": "other", "id": "a" },
+      { "t": "friend-[subj]", "role": "subject", "id": "b" },
+      { "t": "quietly heard-out", "role": "verb", "id": "c" }
+    ],
+    "en": [
+      { "t": "When I shared my true feelings,", "role": "other", "id": "a" },
+      { "t": "my friend", "role": "subject", "id": "b" },
+      { "t": "quietly heard me out.", "role": "verb", "id": "c" }
+    ],
+    "rom": "songmaeumeul malhaetdeoni chinguga gaman deureojwosseoyo.",
+    "wordIds": [
+      "w_songmaeum",
+      "w_malhada",
+      "w_chingu",
+      "w_gaman",
+      "w_deureojuda"
+    ],
+    "note": "-았/었더니 from M88 links a personal action to the response observed. 속마음 recycles M150; 들어주다 adds supportive listening."
+  },
+  {
+    "id": "s_m151_bulb",
+    "ko": [
+      { "t": "전구를 바꾸고서", "role": "other", "id": "a" },
+      { "t": "주전자를", "role": "object", "id": "b" },
+      { "t": "찾았어요.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "bulb-[obj] change-[after]", "role": "other", "id": "a" },
+      { "t": "kettle-[obj]", "role": "object", "id": "b" },
+      { "t": "found", "role": "verb", "id": "c" }
+    ],
+    "en": [
+      { "t": "After changing the bulb,", "role": "other", "id": "a" },
+      { "t": "I found", "role": "verb", "id": "c" },
+      { "t": "the kettle.", "role": "object", "id": "b" }
+    ],
+    "rom": "jeongureul bakkugoseo jujeonjareul chajasseoyo.",
+    "wordIds": [
+      "w_jeongu",
+      "w_bakkuda",
+      "w_jujeonja",
+      "w_chatda"
+    ],
+    "note": "-고서 from M85 orders the actions: first replace the bulb, then find the kettle."
+  },
+  {
+    "id": "s_m151_paint",
+    "ko": [
+      { "t": "페인트 냄새가 나길래", "role": "other", "id": "a" },
+      { "t": "창문을", "role": "object", "id": "b" },
+      { "t": "열었어요.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "paint smell-[subj] arise-[because-noticed]", "role": "other", "id": "a" },
+      { "t": "window-[obj]", "role": "object", "id": "b" },
+      { "t": "opened", "role": "verb", "id": "c" }
+    ],
+    "en": [
+      { "t": "Because I noticed a smell of paint,", "role": "other", "id": "a" },
+      { "t": "I opened", "role": "verb", "id": "c" },
+      { "t": "the window.", "role": "object", "id": "b" }
+    ],
+    "rom": "peinteu naemsaega nagillae changmuneul yeoreosseoyo.",
+    "wordIds": [
+      "w_peinteu",
+      "w_naemsae",
+      "w_nada",
+      "w_changmun",
+      "w_yeolda"
+    ],
+    "note": "-길래 from M93 gives the noticed circumstance that prompted the response."
+  },
+  {
+    "id": "s_m151_flowers",
+    "ko": [
+      { "t": "교외에서 뛰어놀다가", "role": "other", "id": "a" },
+      { "t": "코스모스를", "role": "object", "id": "b" },
+      { "t": "봤어요.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "outskirts-[at] run-and-play-[while]", "role": "other", "id": "a" },
+      { "t": "cosmos-flowers-[obj]", "role": "object", "id": "b" },
+      { "t": "saw", "role": "verb", "id": "c" }
+    ],
+    "en": [
+      { "t": "While running around outside town,", "role": "other", "id": "a" },
+      { "t": "I saw", "role": "verb", "id": "c" },
+      { "t": "cosmos flowers.", "role": "object", "id": "b" }
+    ],
+    "rom": "gyooeeseo ttwieonoldaga koseumoseureul bwasseoyo.",
+    "wordIds": [
+      "w_gyooe",
+      "w_ttwieonolda",
+      "w_koseumoseu",
+      "w_boda"
+    ],
+    "note": "-다가 from M94 shifts a running-and-playing scene toward something noticed along the way."
+  },
+  {
+    "id": "s_m151_steady",
+    "ko": [
+      { "t": "관람을 자주 할수록", "role": "other", "id": "a" },
+      { "t": "전통문화가", "role": "subject", "id": "b" },
+      { "t": "더 잘 기억돼요.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "viewing-[obj] often do-[the-more]", "role": "other", "id": "a" },
+      { "t": "traditional-culture-[subj]", "role": "subject", "id": "b" },
+      { "t": "more well remembered", "role": "verb", "id": "c" }
+    ],
+    "en": [
+      { "t": "The more often I go to see things,", "role": "other", "id": "a" },
+      { "t": "traditional culture", "role": "subject", "id": "b" },
+      { "t": "stays in my memory better.", "role": "verb", "id": "c" }
+    ],
+    "rom": "gwallameul jaju halsurok jeontongmunhwaga deo jal gieokdwaeyo.",
+    "wordIds": [
+      "w_gwallam",
+      "w_jaju",
+      "w_hada",
+      "w_jeontongmunhwa",
+      "w_deo",
+      "w_jal",
+      "w_gieokdoeda"
+    ],
+    "note": "-(으)ㄹ수록 from M89 links repeated visits with stronger recall. 기억되다 puts what remains in memory in the subject slot."
+  },
+  {
+    "id": "s_m151_heating",
+    "ko": [
+      { "t": "난방을 켠 채", "role": "other", "id": "a" },
+      { "t": "마늘을", "role": "object", "id": "b" },
+      { "t": "깠어요.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "heating-[obj] switched-on-[in-state]", "role": "other", "id": "a" },
+      { "t": "garlic-[obj]", "role": "object", "id": "b" },
+      { "t": "peeled", "role": "verb", "id": "c" }
+    ],
+    "en": [
+      { "t": "With the heating left on,", "role": "other", "id": "a" },
+      { "t": "I peeled", "role": "verb", "id": "c" },
+      { "t": "garlic.", "role": "object", "id": "b" }
+    ],
+    "rom": "nanbangeul kyeon chae maneureul kkasseoyo.",
+    "wordIds": [
+      "w_nanbang",
+      "w_kyeoda",
+      "w_maneul",
+      "w_kkada"
+    ],
+    "note": "-(으)ㄴ 채 from M94 keeps one state in place during another action. 까다 here removes the skin from garlic."
+  },
+  {
+    "id": "s_m151_debate",
+    "ko": [
+      { "t": "토론자는", "role": "subject", "id": "a" },
+      { "t": "감정적으로 말하기는 했으나", "role": "other", "id": "b" },
+      { "t": "찬성을 얻었어요.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "debater-[topic]", "role": "subject", "id": "a" },
+      { "t": "emotionally spoke-[admittedly-but]", "role": "other", "id": "b" },
+      { "t": "support-[obj] obtained", "role": "verb", "id": "c" }
+    ],
+    "en": [
+      { "t": "The debater", "role": "subject", "id": "a" },
+      { "t": "did speak emotionally, but", "role": "other", "id": "b" },
+      { "t": "gained support.", "role": "verb", "id": "c" }
+    ],
+    "rom": "toronjaneun gamjeongjeogeuro malhagineun haesseuna chanseongeul eodeosseoyo.",
+    "wordIds": [
+      "w_toronja",
+      "w_gamjeongjeok",
+      "w_malhada",
+      "w_chanseong",
+      "w_eotda"
+    ],
+    "note": "-기는 하다 from M92 acknowledges a fact; -(으)나 from M85 contrasts it with the outcome. 감정적으로 describes the manner of speaking."
+  },
+  {
+    "id": "s_m151_contents",
+    "ko": [
+      { "t": "내용물이 쏟아질까 봐", "role": "other", "id": "a" },
+      { "t": "상자를", "role": "object", "id": "b" },
+      { "t": "튼튼히", "role": "other", "id": "c" },
+      { "t": "묶었어요.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "contents-[subj] spill-[for-fear]", "role": "other", "id": "a" },
+      { "t": "box-[obj]", "role": "object", "id": "b" },
+      { "t": "securely", "role": "other", "id": "c" },
+      { "t": "tied", "role": "verb", "id": "d" }
+    ],
+    "en": [
+      { "t": "For fear the contents would spill,", "role": "other", "id": "a" },
+      { "t": "I tied", "role": "verb", "id": "d" },
+      { "t": "the box", "role": "object", "id": "b" },
+      { "t": "securely.", "role": "other", "id": "c" }
+    ],
+    "rom": "naeyongmuri ssodajilkka bwa sangjareul teunteunhi mukkeosseoyo.",
+    "wordIds": [
+      "w_naeyongmul",
+      "w_ssodajida",
+      "w_sangja",
+      "w_teunteunhi",
+      "w_mukda_tie"
+    ],
+    "note": "-(으)ㄹ까 봐 from M93 gives the anticipated problem motivating the precaution."
   }
 ]

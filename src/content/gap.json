@@ -3688,5 +3688,23 @@
     "lit": "see a bitter taste",
     "real": "To suffer a setback; learn a hard lesson.",
     "note": "보다 means experience here, beyond literal tasting."
+  },
+  {
+    "id": "g_m151_luck",
+    "cat": "phrase",
+    "ko": "재수가 없다",
+    "rom": "jaesuga eopda",
+    "lit": "luck does not exist",
+    "real": "To be unlucky; in a personal insult, to be obnoxious.",
+    "note": "The ordinary luck statement becomes much sharper when aimed at a person. Context decides whether this describes misfortune or expresses dislike."
+  },
+  {
+    "id": "g_m151_request",
+    "cat": "phrase",
+    "ko": "부탁을 들어주다",
+    "rom": "butageul deureojuda",
+    "lit": "hear a request for someone",
+    "real": "To grant someone’s request.",
+    "note": "Supportive listening extends to doing what was asked. Hearing the words alone does not fulfill this phrase."
   }
 ]
