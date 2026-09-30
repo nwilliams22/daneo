@@ -30630,5 +30630,254 @@
       "w_ilson"
     ],
     "note": "-는 from M24 describes the person; 그때그때 makes the repeated search for help responsive to each occasion."
+  },
+  {
+    "id": "s_m139_roster",
+    "en": [
+      { "t": "The host", "role": "subject", "id": "a" },
+      { "t": "corrected", "role": "verb", "id": "e" },
+      { "t": "the wording too", "role": "object", "id": "d" },
+      { "t": "while organizing", "role": "other", "id": "c" },
+      { "t": "the roster.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "host-[topic]", "role": "subject", "id": "a" },
+      { "t": "roster-[obj]", "role": "object", "id": "b" },
+      { "t": "organize-while-at-it", "role": "other", "id": "c" },
+      { "t": "wording-also", "role": "object", "id": "d" },
+      { "t": "corrected", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "진행자는", "role": "subject", "id": "a" },
+      { "t": "명단을", "role": "object", "id": "b" },
+      { "t": "정리하는 김에", "role": "other", "id": "c" },
+      { "t": "문구도", "role": "object", "id": "d" },
+      { "t": "고쳤어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "jinhaengjaneun myeongdaneul jeongnihaneun gime mungudo gochyeosseoyo.",
+    "wordIds": ["w_jinhaengja", "w_myeongdan", "w_jeongnihada", "w_mungu", "w_gochida"],
+    "note": "-는 김에 from M91 adds a useful second task. M138’s 진행자 returns as a working host, and 명단 specifies that the list contains people."
+  },
+  {
+    "id": "s_m139_seeds",
+    "en": [
+      { "t": "Leaving", "role": "other", "id": "c" },
+      { "t": "the seeds", "role": "object", "id": "a" },
+      { "t": "in the yard,", "role": "place", "id": "b" },
+      { "t": "I came back", "role": "verb", "id": "e" },
+      { "t": "home.", "role": "place", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "seed-[obj]", "role": "object", "id": "a" },
+      { "t": "yard-at", "role": "place", "id": "b" },
+      { "t": "leave-in-place-in-that-state", "role": "other", "id": "c" },
+      { "t": "home-toward", "role": "place", "id": "d" },
+      { "t": "returned", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "씨앗을", "role": "object", "id": "a" },
+      { "t": "뜰에", "role": "place", "id": "b" },
+      { "t": "놓아둔 채", "role": "other", "id": "c" },
+      { "t": "집으로", "role": "place", "id": "d" },
+      { "t": "돌아왔어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "ssiaseul tteure noadun chae jibeuro dorawasseoyo.",
+    "wordIds": ["w_ssiat", "w_tteul", "w_noaduda", "w_jip", "w_doraoda"],
+    "note": "-(으)ㄴ 채 from M94 keeps one state in place during another action. M138’s 씨앗 now waits in a domestic 뜰; 놓아둔 is the full form behind 놔둔."
+  },
+  {
+    "id": "s_m139_belongings",
+    "en": [
+      { "t": "After leaving", "role": "other", "id": "b" },
+      { "t": "my belongings,", "role": "object", "id": "a" },
+      { "t": "I looked for", "role": "verb", "id": "d" },
+      { "t": "the teaching materials.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "belongings-[obj]", "role": "object", "id": "a" },
+      { "t": "leave-in-place-and-then", "role": "other", "id": "b" },
+      { "t": "teaching-materials-[obj]", "role": "object", "id": "c" },
+      { "t": "looked-for", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "소지품을", "role": "object", "id": "a" },
+      { "t": "놔두고서", "role": "other", "id": "b" },
+      { "t": "교재를", "role": "object", "id": "c" },
+      { "t": "찾았어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "sojipumeul nwadugoseo gyojaereul chajasseoyo.",
+    "wordIds": ["w_sojipum", "w_nwaduda", "w_gyojae", "w_chatda"],
+    "note": "-고서 from M85 orders two actions. M138’s 소지품 stays behind while the speaker looks for a specific kind of material; 놔두고서 and 놓아두고서 mean the same thing here."
+  },
+  {
+    "id": "s_m139_next_month",
+    "en": [
+      { "t": "Next month,", "role": "other", "id": "a" },
+      { "t": "gatherings in the lab", "role": "subject", "id": "b" },
+      { "t": "look likely to increase.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "next-month-at-[topic]", "role": "other", "id": "a" },
+      { "t": "research-room gathering-[subj]", "role": "subject", "id": "b" },
+      { "t": "increase-seems", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "내달에는", "role": "other", "id": "a" },
+      { "t": "연구실 모임이", "role": "subject", "id": "b" },
+      { "t": "늘어날 듯해요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "naedareneun yeongusil moimi neureonal deuthaeyo.",
+    "wordIds": ["w_naedal", "w_yeongusil", "w_moim", "w_neureonada", "w_deuthada"],
+    "note": "-(으)ㄹ 듯하다 from M87 marks a forecast rather than a promise. 연구실 describes the research workplace, and 내달 gives the schedule a compact written-register feel."
+  },
+  {
+    "id": "s_m139_delay",
+    "en": [
+      { "t": "Because of the wind and rain,", "role": "other", "id": "a" },
+      { "t": "the gathering", "role": "subject", "id": "b" },
+      { "t": "will probably be delayed, so", "role": "other", "id": "c" },
+      { "t": "please get in touch", "role": "verb", "id": "e" },
+      { "t": "in advance.", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "wind-and-rain-because", "role": "other", "id": "a" },
+      { "t": "gathering-[subj]", "role": "subject", "id": "b" },
+      { "t": "become-late-expected-background", "role": "other", "id": "c" },
+      { "t": "first", "role": "other", "id": "d" },
+      { "t": "contact-please", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "비바람 때문에", "role": "other", "id": "a" },
+      { "t": "모임이", "role": "subject", "id": "b" },
+      { "t": "늦어질 텐데", "role": "other", "id": "c" },
+      { "t": "먼저", "role": "other", "id": "d" },
+      { "t": "연락하세요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "bibaram ttaemune moimi neujeojil tende meonjeo yeollakhaseyo.",
+    "wordIds": ["w_bibaram", "w_moim", "w_neujeojida", "w_meonjeo", "w_yeollakhada"],
+    "note": "-(으)ㄹ 텐데 from M93 supplies an expected situation as background for advice. 늦어지다 tracks the delay developing, rather than simply calling someone late."
+  },
+  {
+    "id": "s_m139_discussion",
+    "en": [
+      { "t": "As the discussion went on", "role": "other", "id": "b" },
+      { "t": "with the private tutor,", "role": "other", "id": "a" },
+      { "t": "the lesson", "role": "subject", "id": "c" },
+      { "t": "grew longer.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "private-tutor-with", "role": "other", "id": "a" },
+      { "t": "discuss-as-it-continued", "role": "other", "id": "b" },
+      { "t": "lesson-[subj]", "role": "subject", "id": "c" },
+      { "t": "became-longer", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "가정교사와", "role": "other", "id": "a" },
+      { "t": "토론하다 보니", "role": "other", "id": "b" },
+      { "t": "수업이", "role": "subject", "id": "c" },
+      { "t": "길어졌어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "gajeonggyosawa toronhada boni sueobi gireojyeosseoyo.",
+    "wordIds": ["w_gajeonggyosa", "w_toronhada", "w_sueop", "w_gireojida"],
+    "note": "-다 보니 from M94 lets a result emerge during an ongoing activity. 길어졌어요 measures the lesson in time, not the physical length of a classroom."
+  },
+  {
+    "id": "s_m139_educator",
+    "en": [
+      { "t": "The educator", "role": "subject", "id": "a" },
+      { "t": "talked about", "role": "verb", "id": "e" },
+      { "t": "health too,", "role": "object", "id": "d" },
+      { "t": "partly to address", "role": "other", "id": "c" },
+      { "t": "eating habits.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "educator-[topic]", "role": "subject", "id": "a" },
+      { "t": "eating-habits-[obj]", "role": "object", "id": "b" },
+      { "t": "address-also-with-purpose", "role": "other", "id": "c" },
+      { "t": "health-also", "role": "object", "id": "d" },
+      { "t": "talked-about", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "교육자는", "role": "subject", "id": "a" },
+      { "t": "식생활을", "role": "object", "id": "b" },
+      { "t": "다룰 겸", "role": "other", "id": "c" },
+      { "t": "건강도", "role": "object", "id": "d" },
+      { "t": "이야기했어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "gyoyukjaneun siksaenghwareul darul gyeom geongangdo iyagihaesseoyo.",
+    "wordIds": ["w_gyoyukja", "w_siksaenghwal", "w_daruda", "w_geongang", "w_iyagihada"],
+    "note": "-(으)ㄹ 겸 from M91 presents an additional purpose. 식생활 concerns the recurring pattern of eating, so discussing health gives the educator room to address it."
+  },
+  {
+    "id": "s_m139_thread",
+    "en": [
+      { "t": "Because I was busy sorting", "role": "other", "id": "b" },
+      { "t": "the clothing,", "role": "object", "id": "a" },
+      { "t": "I could not find", "role": "verb", "id": "d" },
+      { "t": "the thread.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "clothing-[obj]", "role": "object", "id": "a" },
+      { "t": "organize-busy-because", "role": "other", "id": "b" },
+      { "t": "thread-[obj]", "role": "object", "id": "c" },
+      { "t": "find-not-could", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "의류를", "role": "object", "id": "a" },
+      { "t": "정리하느라고", "role": "other", "id": "b" },
+      { "t": "실을", "role": "object", "id": "c" },
+      { "t": "찾지 못했어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "uiryureul jeongnihaneurago sireul chatji mothaesseoyo.",
+    "wordIds": ["w_uiryu", "w_jeongnihada", "w_sil", "w_chatda"],
+    "note": "-느라고 from M86 links being occupied with a missed action. 실 is the sewing material here; it is unrelated to the room suffix in 연구실."
+  },
+  {
+    "id": "s_m139_morale",
+    "en": [
+      { "t": "The higher", "role": "other", "id": "b" },
+      { "t": "morale is,", "role": "subject", "id": "a" },
+      { "t": "the greater the sense of responsibility", "role": "subject", "id": "c" },
+      { "t": "becomes.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "morale-[subj]", "role": "subject", "id": "a" },
+      { "t": "high-the-more", "role": "other", "id": "b" },
+      { "t": "responsibility-also", "role": "subject", "id": "c" },
+      { "t": "grows", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "사기가", "role": "subject", "id": "a" },
+      { "t": "높을수록", "role": "other", "id": "b" },
+      { "t": "책임감도", "role": "subject", "id": "c" },
+      { "t": "커져요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "sagiga nopeulsurok chaegimgamdo keojyeoyo.",
+    "wordIds": ["w_sagi", "w_nopda", "w_chaekimgam", "w_keojida"],
+    "note": "-(으)ㄹ수록 from M89 links two changing degrees. M138’s 책임감 returns beside 士氣, morale; this 사기 is not fraud."
+  },
+  {
+    "id": "s_m139_threshold",
+    "en": [
+      { "t": "The number of people", "role": "subject", "id": "a" },
+      { "t": "is under ten, and on top of that,", "role": "other", "id": "b" },
+      { "t": "the cost too", "role": "subject", "id": "c" },
+      { "t": "is low.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "number-of-people-[subj]", "role": "subject", "id": "a" },
+      { "t": "ten persons below-in-addition", "role": "other", "id": "b" },
+      { "t": "cost-also", "role": "subject", "id": "c" },
+      { "t": "is-small", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "인원이", "role": "subject", "id": "a" },
+      { "t": "열 명 미만인 데다가", "role": "other", "id": "b" },
+      { "t": "비용도", "role": "subject", "id": "c" },
+      { "t": "적어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "inwoni yeol myeong mimanin dedaga biyongdo jeogeoyo.",
+    "wordIds": ["w_inwon", "w_yeol", "w_c_myeong", "w_miman", "w_biyong", "w_jeokda"],
+    "note": "-(으)ㄴ/는 데다가 from M92 adds another fact. 미만 excludes the stated boundary: nine qualifies as under ten, while ten does not."
   }
 ]

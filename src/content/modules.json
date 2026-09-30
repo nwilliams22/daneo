@@ -3323,5 +3323,28 @@
       "s_m138_stall",
       "s_m138_search"
     ]
+  },
+  {
+    "id": "m139",
+    "title": "Plans, Materials and Changing Days",
+    "order": 148,
+    "ring": 3,
+    "contentMd": "modules/module-139.md",
+    "wordIds": [
+      "w_naedal", "w_nwaduda", "w_neujeojida", "w_dokhada",
+      "w_tteul", "w_tteutbakke", "w_myeongdan", "w_muuimihada",
+      "w_mungu", "w_mwot", "w_miman", "w_baeksaek",
+      "w_bibaram", "w_sagi", "w_samanghada", "w_samujik",
+      "w_sojil", "w_som", "w_sidirom", "w_siksaenghwal",
+      "w_sil", "w_yeongusil", "w_uiryu", "w_ithyeojida",
+      "w_jeogeung", "w_jeongnidoeda", "w_toronhada", "w_haphada",
+      "w_haendeubaek", "w_gajeonggyosa", "w_gongtongjeok", "w_gyoyukja",
+      "w_gyojae", "w_gireojida", "w_kkaesogeum", "w_noaduda"
+    ],
+    "sentenceIds": [
+      "s_m139_roster", "s_m139_seeds", "s_m139_belongings", "s_m139_next_month",
+      "s_m139_delay", "s_m139_discussion", "s_m139_educator", "s_m139_thread",
+      "s_m139_morale", "s_m139_threshold"
+    ]
   }
 ]

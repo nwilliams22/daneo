@@ -3472,5 +3472,23 @@
     "lit": "more distinctly better",
     "real": "to be noticeably better",
     "note": "한결 measures the degree of improvement; 낫다 is the irregular adjective already taught."
+  },
+  {
+    "id": "g_m139_leave_alone",
+    "cat": "phrase",
+    "ko": "놔두세요",
+    "rom": "nwaduseyo",
+    "lit": "Please leave it placed.",
+    "real": "Leave it alone.",
+    "note": "Depending on context, this asks you to stop touching or interfering, not to put the object somewhere new. The full form 놓아두세요 has the same range."
+  },
+  {
+    "id": "g_m139_under_ten",
+    "cat": "structure",
+    "ko": "열 명 미만",
+    "rom": "yeol myeong miman",
+    "lit": "Not full ten people.",
+    "real": "Fewer than ten people.",
+    "note": "미만 excludes the endpoint: ten itself is not allowed. Do not substitute ten or fewer, which includes ten."
   }
 ]
