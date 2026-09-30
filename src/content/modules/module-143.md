@@ -12,7 +12,7 @@ The night brings grading, visitors and a late return home. Small household objec
 
 **The public scene.** 제출 hands work in; 채점 evaluates it. 관람객 watches, 전문직 names a trained occupation, and 귀가 records the trip home.
 
-**The physical scene.** 수도꼭지 controls water. 습기 is dampness; 캄캄하다 describes darkness. 반짝이다 gives a glint, and 잔디밭 names the grassy area.
+**The physical scene.** M54 supplied 수도꼭지 for the tap and 습기 for dampness. Here 캄캄하다 describes darkness. 반짝이다 gives a glint, and 잔디밭 names the grassy area.
 
 **A sense to guard.** 바가지 is a bowl and the image in an overcharging idiom. 음력 is lunar time. 싸구려 judges poor quality, while 소중히 describes caring for something valued.
 

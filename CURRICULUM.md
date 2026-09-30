@@ -214,6 +214,13 @@ grade-C entries with unchanged IDs, moved from later packs without garnish.
 Donor counts: M129 34, M135 34, M139 35, M150 35, M153 35, M154 37;
 all remain within Ring 3’s 30–38 range. Each target retains eight sentences.
 
+**M52–M54 count correction (2026-09-30):** each now has 40 distinct
+non-particle checklist words. M52 gains 입국, 출입국, 관광버스, 그저께 and
+시외버스; M53 gains 진찰 and 독감; M54 gains 수도꼭지 and 습기. All nine
+are existing grade-C entries with stable IDs. M154 retains 30 words and
+M143 retains 34, within Ring 3's 30–38 range. Each target retains eight
+sentences; existing garnish stays at one each in M52/M53 and zero in M54.
+
 **M48 count correction (2026-09-30):** 40 checklist words: the original 33
 plus seven media and book terms (극본, 배역, 작사가, 작곡가, 독후감, 연재,
 편집). Each has a full word record and a cross-reference in the lesson.

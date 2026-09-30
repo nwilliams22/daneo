@@ -9,9 +9,10 @@ Ring 1's M23 taught survival travel — asking the way, 여권, 비자, and a �
 ## Part 1 — The itinerary decodes itself
 
 - **The 예- desk:** M34's 예상 taught the beforehand-豫; now it runs the booking economy — 예약 (ahead-PROMISE: 약속's 約) holds the table, 예매 (ahead-BUY: the mirror of M43's 판매) owns the seat, and 취소 (取消 take-and-erase) is the other button on every screen: 확인/취소, OK or walk away.
-- **The day-line completes:** M2 gave you 어제/오늘/내일; today 모레 and the fossil 엊그제 (어제 + untaught 그저께, welded) finish the panel strip. Below them the native 흘-family counts spans: 하루 (M8), 이틀, 사흘 — three days despite the 사! — up to 열흘, with 나흘 and 닷새 as the untaught tail.
+- **The day-line completes:** M2 gave you 어제/오늘/내일; today 모레 and the fossil 엊그제 (어제 + today’s 그저께, welded) finish the panel strip. Below them the native 흘-family counts spans: 하루 (M8), 이틀, 사흘 — three days despite the 사! — up to 열흘, with 나흘 and 닷새 as the untaught tail.
 - **The take/bring grid:** THINGS ride M28's 가지다 (가져가다 — the mirror its 가져오다 note promised — and 가져다주다, with M9's -아/어 주다 in the weld). PEOPLE ride 데리다 (데리고 가다/데려오다). And grandmother rides M47's 모시다 — respect is a grid row.
 - **The post shelf pays its IOUs:** M27's 우체국 note said it's 'where 편지 and 소포 begin their journeys' — 소포 arrives, M40's 부치다 works its mail shift, and M12's 표 finally licks a stamp: 우표, the mail-ticket. 엽서 is a letter the size of a leaf (M49's 낙엽-葉).
+- **At the border and bus stop:** 입국 names entry; 출입국 adds departure, extending today’s 출입 from doorways to countries. 시외버스 tells you the route goes outside the city; 관광버스 tells you the purpose is sightseeing. 그저께 fixes the date two days before today, while 엊그제 can blur into a recent-feeling memory.
 - **The overseas shelf:** M31's 해외 fronts 해외여행, 현지 welds 현재's 現 (M35) to 지역's 地 (M31) — the actual-place, home of 현지 음식 — and the people have names: 교포 (womb-siblings abroad), 유학생 (M44's promised job title), and their homecoming verb 귀국하다.
 
 ---

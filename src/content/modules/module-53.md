@@ -11,6 +11,7 @@ Ring 1's M14 taught first-aid Korean — 아프다, 감기, 열, and the -지 �
 Almost everything here is assembled from parts you own:
 
 - **The 痛-family opens:** 두통 is M8's 머리 in hanja plus your first pain-痛; 고통 scales it to souls with the bitter-苦 of M39's 고생. The mold keeps stamping — 복통, 치통 — read the pattern, learn the two.
+- **The clinic distinguishes jobs:** 진찰 is the examination, 치료 the treatment. 독감 names influenza, not just any 감기 with extra emphasis; its note keeps the familiar illness frame while separating the two labels.
 - **The 원-arc:** 입원 and 퇴원 — M12's enter-入 and the retreat-退 of M43's 퇴근, both aimed at the walled 원 of 병원 (M6). Bookends, exactly the way M44 held 입학/졸업.
 - **The joint machine:** M14's 목 welds onto M8's 손 and M14's 발 — 손목, 발목: Korean finds the neck in every joint, the same 목-compounding M21's 목걸이 proved.
 - **The register ladders:** tooth runs 이 → 이빨 → 치아; body runs 몸 → 신체; even dying has rungs (죽다 → M47's 돌아가시다). Same referent, different altitude — choose by who's listening.

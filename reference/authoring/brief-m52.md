@@ -26,8 +26,7 @@ plain past states; -아/어 버렸어요 editorializes (it's DONE, feel somethin
 
 **NIKL sense collapses / notes to run:**
 - 도중 — 途中 mid-way: on the way (여행 도중에) AND midway-through (회의 도중에).
-- 엊그제 — the fossil weld 어제+그저께 (그저께 untaught — the note carries it
-  frozen); "a day or two ago," often figurative: 엊그제 같아요 = feels like
+- 엊그제 — the fossil weld 어제+그저께 (그저께 now taught in this slice); "a day or two ago," often figurative: 엊그제 같아요 = feels like
   yesterday (pairs beautifully with M46's -(으)ㄴ 지 — verify).
 - 출입 — 出入: entry-and-exit. CAUTION: 금지 belongs to M53, being drafted in
   parallel — do NOT use or cite 금지/금지하다. 출입문 may be mentioned as a
@@ -44,19 +43,19 @@ plain past states; -아/어 버렸어요 editorializes (it's DONE, feel somethin
   enemy 취소하다 (取消 — 예약을 취소하다; the no-show culture note wink).
 - The lodging ladder: 호텔 (M23 — verify) / 여관 (旅館 — the old-style inn,
   fading register) / 숙소 (宿所 — the neutral word every booking app uses;
-  숙제's 宿? verify what owns 宿 — M15's 숙제 hanja if noted). 민박/펜션
+  숙제's 宿? verify what owns 宿 — M10's 숙제 hanja if noted). 민박/펜션
   winks only (untaught).
 - The take/bring grid — the module's table candidate: PEOPLE ride 데리다
   (데리고 가다/데려가다/데려오다 — 아이를 데리고 왔어요), THINGS ride 가지다
   (M28 — verify) → 가져가다/가져다주다 (M9's -아/어 주다 machinery in the
   weld — verify). Honorific corner: 모시다 (M47 — verify) is 데리다's
   respectful twin — the grid gets a third row for grandmother.
-- 마중 — going out to RECEIVE someone: 공항에 마중 나가다 (M28's 나가다 —
+- 마중 — going out to RECEIVE someone: 공항에 마중 나가다 (M8's 나가다 —
   verify). Its send-off twin 배웅 is beyond-list — garnish candidate (max 3)
   or leave as an untaught mention ONLY if framed as new (better: garnish it).
 - The post shelf: 소포 (小包 small-wrap), 엽서 (葉書 leaf-writing — a letter
   the size of a leaf), 우표 (郵票 post-ticket; 표 M12 — verify — the ticket-표
-  finally compounds). Home base 우체국 (M6 — verify). Souvenir tie: 기념품
+  finally compounds). Home base 우체국 (M27 — verified). Souvenir tie: 기념품
   (M23 — verify) travels by 소포.
 - 현지 — 現地 the-actual-place: 현재's 現 (M35 — verify), 지역's 地 (M31 —
   verify). 현지 음식 = local food, the traveler's holy grail; 현지인 wink.
@@ -65,8 +64,7 @@ plain past states; -아/어 버렸어요 editorializes (it's DONE, feel somethin
   (歸國 — return to one's country; 귀가 wink untaught). 해외 (M31 — verify)
   fronts 해외여행.
 - 머무르다 — stay/linger (호텔에 머무르다): 르-family (M7's table — verify);
-  the register note vs 묵다 (untaught — skip or one-line new-info mention,
-  prefer skip). Hearts and gazes also 머무르다.
+  the register note vs 묵다 (M23 — compare its overnight-stay sense). Hearts and gazes also 머무르다.
 - 돌아보다 — turn-and-look-back, in space AND time: 지난 여행을 돌아보다 =
   look back on the trip. MANDATORY radar vs M50's 둘러보다 (verify, shipped
   last batch): 둘러보다 sweeps the space around you; 돌아보다 turns toward
@@ -79,7 +77,7 @@ plain past states; -아/어 버렸어요 editorializes (it's DONE, feel somethin
 - Emotional payoff available: 추억 (M19 — verify) — travel sentences may use
   it (여행의 추억); 여행 (M8? verify where taught).
 
-**Word slice (34 words — rank · word · pos; house rule: adverbs tag noun):**
+**Word slice (39 words — rank · word · pos; house rule: adverbs tag noun):**
 6642 여행사 noun · 9409 해외여행 noun · 6446 숙소 noun · 5380 여관 noun ·
 9271 예약 noun · 28328 예매하다 verb · 5421 취소하다 verb · 2881 출발 noun ·
 2859 도중 noun · 2422 이틀 noun · 3151 사흘 noun · 5523 열흘 noun ·
@@ -89,6 +87,8 @@ plain past states; -아/어 버렸어요 editorializes (it's DONE, feel somethin
 3512 가져가다 verb · 5704 가져다주다 verb · 2756 현지 noun · 7186 교포 noun ·
 6655 유학생 noun · 3307 귀국하다 verb · 3955 출입 noun · 2176 돌아보다 verb ·
 7736 다녀가다 verb · 2094 머무르다 verb
+
+**Transferred grade-C slice (included above in the count):** 입국 · 출입국 · 관광버스 · 그저께 · 시외버스. Keep the existing IDs and full decode notes. The remaining checklist entry is the existing beyond-list 배웅; total 40 words.
 
 **Gap-deck candidates if genuine:** 금강산도 식후경 (even Diamond Mountain
 comes after the meal — verify parts: 식사/후/경치, and 금강산 stays frozen),

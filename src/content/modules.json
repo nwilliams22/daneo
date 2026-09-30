@@ -1334,7 +1334,8 @@
       "w_gajyeogada", "w_gajyeodajuda", "w_majung", "w_baeung",
       "w_danyeogada", "w_oechul", "w_churip", "w_sopo",
       "w_yeopseo", "w_upyo", "w_hyeonji", "w_gyopo",
-      "w_yuhaksaeng", "w_gwigukhada", "w_doraboda"
+      "w_yuhaksaeng", "w_gwigukhada", "w_doraboda", "w_ipguk",
+      "w_chulipguk", "w_sioebeoseu", "w_gwangwangbeoseu", "w_geujeokke"
     ],
     "sentenceIds": [
       "s_m52_train_gone", "s_m52_just_book", "s_m52_rain_cancel", "s_m52_jeju_grandma",
@@ -1357,7 +1358,8 @@
       "w_seolgeoji", "w_ppallae", "w_setak", "w_chiuda",
       "w_jeongni", "w_kkumida", "w_deopda_cover", "w_nakda",
       "w_heon", "w_teunteunhada", "w_neolpida", "w_geudaero",
-      "w_maeumdaero", "w_jedaero", "w_p_daero"
+      "w_maeumdaero", "w_jedaero", "w_p_daero", "w_sudokkokji",
+      "w_seupgi"
     ],
     "sentenceIds": [
       "s_m54_build_country", "s_m54_move_plan", "s_m54_arrive_call", "s_m54_decorate_free",
@@ -1380,7 +1382,7 @@
       "w_bitamin", "w_joajida", "w_nappajida", "w_simhaejida",
       "w_ppaeda", "w_mojarada", "w_geokjeongdoeda", "w_buran",
       "w_pyeonchanta", "w_jugeum", "w_am", "w_geumyeon",
-      "w_geumjihada", "w_geunde"
+      "w_geumjihada", "w_geunde", "w_jinchal", "w_dokgam"
     ],
     "sentenceIds": [
       "s_m53_momsal_guess", "s_m53_medicine_but", "s_m53_pharmacy_trail", "s_m53_grandma_arc",
@@ -3428,14 +3430,14 @@
     "contentMd": "modules/module-143.md",
     "wordIds": [
       "w_banjjagida", "w_bunjuhada", "w_bipanjeok", "w_ppaetda",
-      "w_sojunghi", "w_sudokkokji", "w_ssaguryeo", "w_eojjina",
+      "w_sojunghi", "w_ssaguryeo", "w_eojjina",
       "w_eongteori", "w_wibeop", "w_yukchejeok", "w_eumnyeok",
       "w_jandibat", "w_jeonmunjik", "w_jechul", "w_chaejeom",
       "w_chimchakhada", "w_kamkamhada", "w_tajagi", "w_pointeu",
       "w_pokeu", "w_hanbamjung", "w_hyodo", "w_gwallamgaek",
       "w_gwiga", "w_geuriwohada", "w_dwinmun", "w_ttarai",
       "w_manjokseureopda", "w_mium", "w_bagaji", "w_balkkeut",
-      "w_byeongsil", "w_bongsahada", "w_bihaengjang", "w_seupgi"
+      "w_byeongsil", "w_bongsahada", "w_bihaengjang"
     ],
     "sentenceIds": [
       "s_m143_submission", "s_m143_return", "s_m143_rear", "s_m143_grading",
@@ -3782,7 +3784,6 @@
   "contentMd": "modules/module-154.md",
   "wordIds": [
     "w_oeharabeoji",
-    "w_ipguk",
     "w_cheyukgwan",
     "w_choeso",
     "w_kalguksu",
@@ -3793,23 +3794,17 @@
     "w_angwa",
     "w_yesikjang",
     "w_wolse",
-    "w_jinchal",
     "w_keunttal",
     "w_gyeolseok",
-    "w_dokgam",
     "w_borasaek",
     "w_yeondusaek",
     "w_ondol",
-    "w_chulipguk",
     "w_papsong",
     "w_paekseu",
     "w_guknaeseon",
-    "w_sioebeoseu",
     "w_yagujang",
     "w_jageunadeul",
     "w_hyeongsu",
-    "w_gwangwangbeoseu",
-    "w_geujeokke",
     "w_naengbang",
     "w_nunbyeong",
     "w_baechugimchi",

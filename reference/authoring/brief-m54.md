@@ -39,7 +39,7 @@ street. ≥2 glue sentences across at least two settings.
 - 짓다 — ㅅ-irregular (지어요/지은): joins 낫다 (M14) and 젓다 (M40) — verify
   both and NAME the family's third member. And it's a MAKER-verb far beyond
   houses: 집을 짓다, 밥을 짓다 (rice is BUILT), 이름을 짓다 (names are built),
-  표정을 짓다, 농사를 짓다 (M36's 농사? verify owner — if untaught skip).
+  표정을 짓다, 농사를 짓다 (M59's 농사? verify owner — if untaught skip).
   Rank 247 — the module's heavyweight; give it the big note.
 
 **Angles worth considering** (verify every cross-ref before using):
@@ -73,7 +73,7 @@ street. ≥2 glue sentences across at least two settings.
   쓰레기통 (M13's 쓰레기 + 桶-통; the -통 container suffix: 휴지통 wink) —
   분리수거 culture note (recycling as civic exam; frozen, glossed), 봉지 was
   NOT sliced — don't teach it.
-- Appliances: 전기밥솥 (M36's 전기 + M3's 밥 + 솥 the pot, frozen in the
+- Appliances: 전기밥솥 (M36's 전기 + M1's 밥 + 솥 the pot, frozen in the
   compound; the talking rice cooker as culture wink), 선풍기 (扇風機 — wind
   machine; M11's 태풍/M49's 풍경 own 風 — verify both; the FAN DEATH myth,
   told with a wink: Korea's most famous urban legend).
@@ -93,7 +93,7 @@ street. ≥2 glue sentences across at least two settings.
   both). 튼튼하다 — sturdy (houses, furniture, and 튼튼한 아이 — the
   grandmother's compliment).
 
-**Word slice (38 words — rank · word · pos; house rule: adverbs/determiners
+**Word slice (40 words — rank · word · pos; house rule: adverbs/determiners
 tag noun):**
 247 짓다 verb · 1953 이사 noun · 7434 가구 noun · 7274 서랍 noun ·
 5987 커튼 noun · 2478 지붕 noun · 2441 마루 noun · 2333 대문 noun ·
@@ -105,6 +105,8 @@ tag noun):**
 2193 덮다 verb · 1940 낡다 adj · 4956 헌 noun · 2948 튼튼하다 adj ·
 2763 넓히다 verb · 340 그대로 noun · 2921 마음대로 noun · 619 제대로 noun ·
 1617 마당 noun (C) · 7857 옥상 noun (C)
+
+**Transferred grade-C slice (included above in the count):** 수도꼭지 · 습기. Keep the existing IDs and full decode notes. Total 40 checklist words; no garnish added.
 
 **Gap-deck candidates if genuine:** 집들이 (the housewarming — guests bring
 detergent and toilet paper so fortune bubbles and unrolls; 집 + 들이다 frozen,

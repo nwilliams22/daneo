@@ -14,7 +14,7 @@ An uncle's title, a clinic sign, a bus route and a wedding invitation all name a
 
 ## Part 2 — Signs you meet outside
 
-입국 is entering a country; 출입국 covers entry and departure. 국제선 crosses a national border; 국내선 stays within it. 시외버스 and 관광버스 classify buses by route and purpose. On a clinic sign, 안과 concerns eyes and 소아과 concerns children. 진찰 is the examination, while 눈병 and 독감 name illnesses.
+M52 supplied 입국 and 출입국 for the border, plus 시외버스 and 관광버스 for route and purpose. Today 국제선 crosses a national border; 국내선 stays within it. On a clinic sign, 안과 concerns eyes and 소아과 concerns children. The examination 진찰 and flu label 독감 return from M53; 눈병 now names an eye illness. 그저께, learned in M52, also returns in the sentence practice.
 
 팝송 adds the pop-song label beside 클래식 from M51. The rest of the pack names ordinary objects and settings: a heated 온돌 floor, a cooled room, a 색연필, two colors, a 칼국수 meal. The shared endings help: -장 marks a venue in 예식장, 야구장 and 축구장; -색 marks color in 보라색 and 연두색.
 

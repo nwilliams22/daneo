@@ -12,6 +12,7 @@ Ring 1's M13 built the rooms — 침실, 현관, the 이불 on the warm 바닥. 
 - **The room-실 roll call completes:** 화장실 (M6), 침실 and 거실 (M13), 교실 (M15) — and today the 욕실 gets its bath.
 - **The linking-ㅅ works overtime:** the wedge from M40's 고춧가루 (and M49's 햇빛) now welds 수돗물 — and 이삿짐, riding inside 이사's note.
 - **The determiner shelf seats three:** 새 (M13) breaks things in, 옛 (M46) breaks your heart, 헌 (today) wears through at the elbows.
+- **The bathroom connection:** 수도꼭지 names the tap that supplies today’s 수돗물; 습기 names the moisture the room collects. One word labels the fitting, the other the dampness — useful distinctions before you tackle the chores.
 - **The vertical alphabet:** M6's 위/아래 land on M13's 층 counter — 위층, 아래층 — and the 옥상 sits above everything, feeling things.
 
 ---

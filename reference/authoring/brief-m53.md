@@ -35,8 +35,7 @@ one per job.
   its homograph note); 치아 the formal third rung (untaught — one-line wink
   max). Register ladder, explicitly.
 - 신체 — 身體 the body, formal register: 신체검사 (school physicals), news
-  Korean; vs 몸 (M8? verify where 몸 lives). Register pair like M50's
-  가다/향하다.
+  Korean; vs 몸 (M8? verify where 몸 lives). Register pair like 가다 (M1) / 향하다 (M50).
 - 빼다 — NIKL's base sense is pull-OUT (가시를 빼다); the module rides 살을
   빼다 (finally arming M35's 찌다 with its gym partner — verify 찌다's note)
   AND 이를 빼다 (the dentist connection). One removal verb, many exits.
@@ -51,8 +50,7 @@ one per job.
   고통 (苦痛 — suffering at soul scale; 苦 the bitter of 고생 M39? verify
   what owns 苦). Pattern winks: 복통/치통 (untaught, name the pattern only).
 - 몸살 — the overwork illness English can't name: the body's general strike
-  after too much; 몸살이 나다 (M28's 나다 — verify) or 걸리다 (M14's
-  감기에 걸리다 frame — verify). Culture note: the legitimate excuse.
+  after too much; 몸살이 나다 (M28's 나다 — verify) or 걸리다 (the 감기에 걸리다 frame from M14 — verify). Culture note: the legitimate excuse.
 - 앓다 — to suffer THROUGH (감기를 앓다, 속을 앓다); 앓는 소리 wink (the
   performative groan). vs 아프다 (M14): 아프다 is the state, 앓다 the siege.
 - 지치다 vs 피곤하다 (M8? verify): tired tonight vs worn down; 피로 (疲勞)
@@ -75,20 +73,20 @@ one per job.
 - The 禁-family: 금연 (禁煙 — 흡연 wink untaught; 금연 구역 signs — S2's sign
   kit? verify what S2 covers before citing) and 금지하다 (禁止 — 출입 금지
   CAUTION: 출입 is M52's parallel slice — do NOT use it; use 주차 금지 with
-  M50's 주차, verify, or 사용 금지 with M10's 사용). Radar: this 금 (禁) is
+  M50's 주차, verify, or 사용 금지 with S2's 사용). Radar: this 금 (禁) is
   not gold-金 (금요일 M2 / 현금·세금 M43 — verify the gold-root notes).
 - The joint system: 손목/발목 = hand-neck/foot-neck — M14's 목 as Korean's
   joint-maker (verify 목); 목걸이/팔목 winks (verify 목걸이 M21). 발목을
   잡다 idiom wink (holds you back).
 - 머리카락 — the strand vs the head of hair (머리 covers both head and hair
   — verify M8's note); 머리카락 하나까지 = down to the last strand.
-- 온몸 — whole-body (온 the whole-determiner — verify if 온 taught (M39's
+- 온몸 — whole-body (온 the whole-determiner — verify if 온 taught (M55's
   온? pool had 온 관형사 1465 — likely untaught; if so the note carries 온
   frozen inside the compound). 온몸이 아파요 = the 몸살 sentence.
 - The trajectory verbs: 좋아지다/나빠지다/심해지다 — M35's -아/어지다 (verify)
   as the patient's chart: 좋아지고 있어요. 병들다 (fall ill — 病 + M28's
   들다? verify 들다's enter-sense) for the long-term.
-- 걱정되다 — M36's 되다-machine (verify) on M29's 걱정 (verify): worry that
+- 걱정되다 — the 되다-machine taught in M36 (verify) on M29's 걱정 (verify): worry that
   arrives on its own. 걱정하지 마세요 → 걱정되네요 register shift.
 - 모자라다 — insufficient: 잠이 모자라다 (the national condition), 실력이
   모자라다 humble-mode. vs 부족하다 (M39 — verify): native/Sino register pair.
@@ -102,7 +100,7 @@ one per job.
 - 불안 — 不安: M33's 안부/안녕's peace-安 (verify owner) negated by the 不 of
   불가능 (M39 — verify): peace-less. 불안하다 via 하다.
 
-**Word slice (37 words — rank · word · pos; house rule: adverbs tag noun):**
+**Word slice (39 words — rank · word · pos; house rule: adverbs tag noun):**
 2271 증상 noun · 4021 증세 noun · 1542 치료 noun · 1722 수술 noun · 4358 암 noun ·
 8364 몸살 noun · 6394 두통 noun · 986 고통 noun · 3135 피로 noun ·
 2258 지치다 verb · 2137 앓다 verb · 2361 아픔 noun · 6293 입원 noun ·
@@ -112,6 +110,8 @@ one per job.
 985 죽음 noun · 1992 불안 noun · 10384 걱정되다 verb · 998 빼다 verb ·
 2829 모자라다 verb · 4429 병들다 verb · 5373 심해지다 verb · 6379 나빠지다 verb ·
 3500 좋아지다 verb · 563 근데 noun · 12961 퇴원 noun (C) · 4292 어지럽다 adj (C)
+
+**Transferred grade-C slice (included above in the count):** 진찰 · 독감. Keep the existing IDs and full decode notes. The remaining checklist entry is the existing beyond-list 편찮다; total 40 words.
 
 **Gap-deck candidates if genuine:** 병 주고 약 준다 (give the disease, then
 the medicine — 병 M14 / 약 M10 / 주다 M9, verify all three), 입에 쓴 약이
