@@ -3392,5 +3392,28 @@
       "s_m141_welcome", "s_m141_breathing", "s_m141_supplement", "s_m141_shortcut",
       "s_m141_locked", "s_m141_independence"
     ]
+  },
+  {
+    "id": "m142",
+    "title": "Costs, Conditions and Evening Routes",
+    "order": 151,
+    "ring": 3,
+    "contentMd": "modules/module-142.md",
+    "wordIds": [
+      "w_choejeo", "w_komidi", "w_twigida", "w_pilsu",
+      "w_hoetsu", "w_ganeung", "w_gapssada", "w_ginjanggam",
+      "w_dwipyeon", "w_maedalda", "w_munjedoeda", "w_buriik",
+      "w_bulpiryohada", "w_sanbuingwa", "w_saeuda", "w_seomyeonghada",
+      "w_sseuldeeopda", "w_aseupalteu", "w_aha", "w_alkool",
+      "w_yo", "w_useumsori", "w_inswae", "w_jandi",
+      "w_jeonse", "w_joging", "w_toejikgeum", "w_gamanitda",
+      "w_ganpyeonhada", "w_gamdongjeok", "w_gwigahada", "w_naradanida",
+      "w_deodeouk", "w_maeumssi", "w_mommae", "w_mugwansim"
+    ],
+    "sentenceIds": [
+      "s_m142_form", "s_m142_counter", "s_m142_signature", "s_m142_rent",
+      "s_m142_night", "s_m142_jog", "s_m142_road", "s_m142_payment",
+      "s_m142_route", "s_m142_reaction"
+    ]
   }
 ]

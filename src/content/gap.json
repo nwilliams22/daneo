@@ -3526,5 +3526,23 @@
     "lit": "I do not know at all.",
     "real": "I really have no idea.",
     "note": "영 reinforces the negative judgment, while -겠- makes this an assessment of one’s present understanding. The sentence is not counting zero things."
+  },
+  {
+    "id": "g_m142_1",
+    "cat": "phrase",
+    "ko": "밤을 새우다",
+    "rom": "bameul saeuda",
+    "lit": "To spend the night awake.",
+    "real": "To stay up all night.",
+    "note": "새우다 takes 밤 as its object; the night passes without sleep."
+  },
+  {
+    "id": "g_m142_2",
+    "cat": "phrase",
+    "ko": "전세를 살다",
+    "rom": "jeonsereul salda",
+    "lit": "To live on a lump-sum lease.",
+    "real": "To rent on a jeonse deposit.",
+    "note": "전세 names the deposit-based housing arrangement, distinct from monthly rent."
   }
 ]

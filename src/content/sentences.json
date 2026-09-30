@@ -31353,5 +31353,227 @@
     "rom": "dongniphalsurok gajoge daehan geuriumi keojyeoyo.",
     "wordIds": ["w_dongniphada", "w_gajok", "w_daehada", "w_geurium", "w_keojida"],
     "note": "-(으)ㄹ수록 from M89 links independence with a growing feeling. 그리움 is a noun, so the longing itself takes the subject particle and grows."
+  },
+  {
+    "id": "s_m142_form",
+    "en": [
+      { "t": "If incomplete,", "role": "other", "id": "b" },
+      { "t": "the application", "role": "subject", "id": "a" },
+      { "t": "needs", "role": "verb", "id": "d" },
+      { "t": "required information added.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "application-[subj]", "role": "subject", "id": "a" },
+      { "t": "if-incomplete", "role": "other", "id": "b" },
+      { "t": "required information-[obj]", "role": "object", "id": "c" },
+      { "t": "must-add", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "원서가", "role": "subject", "id": "a" },
+      { "t": "불완전하면", "role": "other", "id": "b" },
+      { "t": "필수 정보를", "role": "object", "id": "c" },
+      { "t": "보충해야 해요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "wonseoga burwanjeonhamyeon pilsu jeongboreul bochunghaeya haeyo",
+    "wordIds": ["w_wonseo", "w_burwanjeonhada", "w_pilsu", "w_jeongbo"],
+    "note": "-기는 하다 from M92 can concede a form is mostly complete. M141’s 원서 and 서명 return in a fresh request."
+  },
+  {
+    "id": "s_m142_counter",
+    "en": [
+      { "t": "The back of the service counter", "role": "subject", "id": "a" },
+      { "t": "was so dark that", "role": "other", "id": "b" },
+      { "t": "tension", "role": "subject", "id": "c" },
+      { "t": "was palpable.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "counter rear-[subj]", "role": "subject", "id": "a" },
+      { "t": "so-very dark", "role": "other", "id": "b" },
+      { "t": "tension-[subj]", "role": "subject", "id": "c" },
+      { "t": "was-felt", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "창구 뒤편이", "role": "subject", "id": "a" },
+      { "t": "어찌나 어두운지", "role": "other", "id": "b" },
+      { "t": "긴장감이", "role": "subject", "id": "c" },
+      { "t": "느껴졌어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "changgu dwipyeoni eojjina eoduunji ginjanggami neukkyeojyeosseoyo",
+    "wordIds": ["w_changgu", "w_dwipyeon", "w_ginjanggam"],
+    "note": "-길래 from M93 can explain the feeling. M141’s 창구 anchors a new place."
+  },
+  {
+    "id": "s_m142_signature",
+    "en": [
+      { "t": "The attendee", "role": "subject", "id": "a" },
+      { "t": "signed", "role": "verb", "id": "c" },
+      { "t": "this paper.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "attendee-[subj]", "role": "subject", "id": "a" },
+      { "t": "this paper-[place]", "role": "object", "id": "b" },
+      { "t": "signed", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "참석자가", "role": "subject", "id": "a" },
+      { "t": "요 종이에", "role": "object", "id": "b" },
+      { "t": "서명했어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "chamseokjaga yo jongie seomyeonghaesseoyo",
+    "wordIds": ["w_chamseokja", "w_yo", "w_seomyeonghada"],
+    "note": "-고서 from M85 can sequence the signing and next step. M141’s 참석자 appears in a new scene."
+  },
+  {
+    "id": "s_m142_rent",
+    "en": [
+      { "t": "Even with the lowest amount,", "role": "other", "id": "b" },
+      { "t": "could the lease deposit", "role": "subject", "id": "a" },
+      { "t": "work?", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "deposit-lease-[subj]", "role": "subject", "id": "a" },
+      { "t": "even-with-lowest amount", "role": "other", "id": "b" },
+      { "t": "will-be-possible", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "전세가", "role": "subject", "id": "a" },
+      { "t": "최저 금액으로도", "role": "other", "id": "b" },
+      { "t": "가능할까요?", "role": "verb", "id": "c" }
+    ],
+    "rom": "jeonsega choejeo geumaegeurodo ganeunghalkkayo",
+    "wordIds": ["w_jeonse", "w_choejeo", "w_ganeung", "w_geumaek"],
+    "note": "-더라도 from M95 marks concession; 가능 asks whether the plan can work."
+  },
+  {
+    "id": "s_m142_night",
+    "en": [
+      { "t": "The employee", "role": "subject", "id": "a" },
+      { "t": "stayed awake through", "role": "verb", "id": "c" },
+      { "t": "the whole night.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "employee-[subj]", "role": "subject", "id": "a" },
+      { "t": "night-[obj]", "role": "object", "id": "b" },
+      { "t": "stayed-awake", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "직원이", "role": "subject", "id": "a" },
+      { "t": "밤을", "role": "object", "id": "b" },
+      { "t": "새웠어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "jigwoni bameul saewosseoyo",
+    "wordIds": ["w_saeuda"],
+    "note": "-았/었더니 from M88 can report the result the next morning. 새우다 takes 밤 as its object."
+  },
+  {
+    "id": "s_m142_jog",
+    "en": [
+      { "t": "I", "role": "subject", "id": "a" },
+      { "t": "counted", "role": "verb", "id": "d" },
+      { "t": "my jogging sessions", "role": "object", "id": "c" },
+      { "t": "beside the grass.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "I-[topic]", "role": "subject", "id": "a" },
+      { "t": "grass beside-at", "role": "other", "id": "b" },
+      { "t": "jogging count-[obj]", "role": "object", "id": "c" },
+      { "t": "counted-tried", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "저는", "role": "subject", "id": "a" },
+      { "t": "잔디 옆에서", "role": "other", "id": "b" },
+      { "t": "조깅 횟수를", "role": "object", "id": "c" },
+      { "t": "세어 봤어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "jeoneun jandi yeopeseo joging hoetsureul seeo bwasseoyo",
+    "wordIds": ["w_jandi", "w_joging", "w_hoetsu"],
+    "note": "-아/어 보다 from M16 marks a trial; 횟수 counts sessions, not runners."
+  },
+  {
+    "id": "s_m142_road",
+    "en": [
+      { "t": "The asphalt", "role": "subject", "id": "a" },
+      { "t": "became wet", "role": "verb", "id": "c" },
+      { "t": "because of the rain.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "asphalt-[subj]", "role": "subject", "id": "a" },
+      { "t": "rain because-of", "role": "other", "id": "b" },
+      { "t": "became-wet", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "아스팔트가", "role": "subject", "id": "a" },
+      { "t": "비 때문에", "role": "other", "id": "b" },
+      { "t": "젖었어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "aseupalteuga bi ttaemune jeojeosseoyo",
+    "wordIds": ["w_aseupalteu"],
+    "note": "-아/어지다 from M35 describes the changed road surface."
+  },
+  {
+    "id": "s_m142_payment",
+    "en": [
+      { "t": "The severance pay", "role": "subject", "id": "a" },
+      { "t": "was lower", "role": "verb", "id": "c" },
+      { "t": "than expected.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "severance-pay-[subj]", "role": "subject", "id": "a" },
+      { "t": "expectation-than", "role": "other", "id": "b" },
+      { "t": "was-small", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "퇴직금이", "role": "subject", "id": "a" },
+      { "t": "예상보다", "role": "other", "id": "b" },
+      { "t": "적었어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "toejikgeumi yesangboda jeogeosseoyo",
+    "wordIds": ["w_toejikgeum"],
+    "note": "보다 from M22 compares the payment with an expectation."
+  },
+  {
+    "id": "s_m142_route",
+    "en": [
+      { "t": "He", "role": "subject", "id": "a" },
+      { "t": "watched", "role": "verb", "id": "d" },
+      { "t": "a comedy", "role": "object", "id": "c" },
+      { "t": "on the way home.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "he-[topic]", "role": "subject", "id": "a" },
+      { "t": "home-returning road-on", "role": "other", "id": "b" },
+      { "t": "comedy-[obj]", "role": "object", "id": "c" },
+      { "t": "watched", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "그는", "role": "subject", "id": "a" },
+      { "t": "귀가하는 길에", "role": "other", "id": "b" },
+      { "t": "코미디를", "role": "object", "id": "c" },
+      { "t": "봤어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "geuneun gwigahaneun gire komidireul bwasseoyo",
+    "wordIds": ["w_gwigahada", "w_komidi"],
+    "note": "-는 김에 from M91 can add an errand to the trip; 귀가하다 names the return home."
+  },
+  {
+    "id": "s_m142_reaction",
+    "en": [
+      { "t": "Indifference", "role": "subject", "id": "a" },
+      { "t": "becomes a problem", "role": "verb", "id": "c" },
+      { "t": "all the more.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "indifference-[topic]", "role": "subject", "id": "a" },
+      { "t": "all-the-more", "role": "other", "id": "b" },
+      { "t": "becomes-problem", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "무관심은", "role": "subject", "id": "a" },
+      { "t": "더더욱", "role": "other", "id": "b" },
+      { "t": "문제돼요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "mugwansimeun deodeouk munjedwaeyo",
+    "wordIds": ["w_mugwansim", "w_deodeouk", "w_munjedoeda"],
+    "note": "-(으)ㄹ수록 from M89 can expand this increasing consequence."
   }
 ]
