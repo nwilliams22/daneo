@@ -3418,5 +3418,59 @@
     "lit": "a chilly joke",
     "real": "a joke that falls flat",
     "note": "The room’s temperature need not change. The chilly feeling is the awkward or unenthusiastic response the joke receives."
+  },
+  {
+    "id": "g_m136_intention",
+    "cat": "phrase",
+    "ko": "뜻대로 되다",
+    "rom": "tteutdaero doeda",
+    "lit": "to become according to one’s intention",
+    "real": "to go as intended",
+    "note": "Use when the result matches someone’s plan; 뜻대로 안 되다 is the common frustrated opposite."
+  },
+  {
+    "id": "g_m136_negative",
+    "cat": "phrase",
+    "ko": "썩 좋지 않다",
+    "rom": "sseok jochi anta",
+    "lit": "not very good",
+    "real": "not particularly good",
+    "note": "썩 often modifies a negative judgment, softening the statement without making it praise."
+  },
+  {
+    "id": "g_m137_hands",
+    "cat": "phrase",
+    "ko": "일손이 부족하다",
+    "rom": "ilsoni bujokhada",
+    "lit": "working hands are lacking",
+    "real": "to be short of help",
+    "note": "일손 counts available labor rather than literal detached hands."
+  },
+  {
+    "id": "g_m137_restoration",
+    "cat": "concept",
+    "ko": "회복되다",
+    "rom": "hoebokdoeda",
+    "lit": "to be restored",
+    "real": "to recover",
+    "note": "Health, order, or a system can recover; the subject need not be a person."
+  },
+  {
+    "id": "g_m138_trouble",
+    "cat": "phrase",
+    "ko": "골치가 아프다",
+    "rom": "golchiga apeuda",
+    "lit": "the head aches",
+    "real": "to be a headache or nuisance",
+    "note": "Often a problem is troublesome rather than a head physically hurting."
+  },
+  {
+    "id": "g_m138_better",
+    "cat": "phrase",
+    "ko": "한결 낫다",
+    "rom": "hangyeol natda",
+    "lit": "more distinctly better",
+    "real": "to be noticeably better",
+    "note": "한결 measures the degree of improvement; 낫다 is the irregular adjective already taught."
   }
 ]
