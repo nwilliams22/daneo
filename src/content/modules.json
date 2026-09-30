@@ -3083,5 +3083,28 @@
       "s_m132_rainfall", "s_m132_bias_interview", "s_m132_rate_business", "s_m132_emergency_shift",
       "s_m132_housing", "s_m132_preliminary", "s_m132_viewers", "s_m132_ginkgo_meeting"
     ]
+  },
+  {
+    "id": "m133",
+    "title": "Time, Light and Crossed Paths",
+    "order": 142,
+    "ring": 3,
+    "contentMd": "modules/module-133.md",
+    "wordIds": [
+      "w_nongjang", "w_doedoragada", "w_deurikyeoda", "w_ttaradanida",
+      "w_raundeu", "w_maeumgajim", "w_meorikal", "w_byeonhwadoeda",
+      "w_bujae", "w_samang", "w_saeng", "w_seoneulhada",
+      "w_seonggyeong", "w_soyodoeda", "w_sohwahada", "w_sunganjeok",
+      "w_sijipgada", "w_sipeojida", "w_ssuiuda", "w_yagan",
+      "w_eotgallida", "w_yeolda_m133", "w_orak", "w_uahada",
+      "w_iseul", "w_ingangwangye", "w_janggigan", "w_jeonseon",
+      "w_jeongji", "w_jeuihada", "w_jomyeong", "w_johwadoeda",
+      "w_julgeori", "w_jungdan", "w_chaseon", "w_chakgakhada"
+    ],
+    "sentenceIds": [
+      "s_m133_farm", "s_m133_night", "s_m133_lighting", "s_m133_lecture",
+      "s_m133_cool", "s_m133_time", "s_m133_proposal", "s_m133_harmony",
+      "s_m133_hat", "s_m133_drink"
+    ]
   }
 ]

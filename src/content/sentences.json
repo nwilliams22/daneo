@@ -28017,5 +28017,254 @@
     "rom": "eunhaengnamu araeeseo yeonini mannasseoyo",
     "wordIds": ["w_m132_12", "w_m132_09"],
     "note": "The place chunk names the landmark; 연인 describes the relationship between the two people."
+  },
+  {
+    "id": "s_m133_farm",
+    "en": [
+      { "t": "As I kept doing farm work,", "role": "other", "id": "a" },
+      { "t": "I", "role": "subject", "id": "c" },
+      { "t": "grew attached", "role": "verb", "id": "d" },
+      { "t": "to the farm.", "role": "place", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "farm-work-[obj] do-as-I-kept", "role": "other", "id": "a" },
+      { "t": "farm-at", "role": "place", "id": "b" },
+      { "t": "affection-[subj]", "role": "subject", "id": "c" },
+      { "t": "formed-[past-polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "농사일을 하다 보니", "role": "other", "id": "a" },
+      { "t": "농장에", "role": "place", "id": "b" },
+      { "t": "정이", "role": "subject", "id": "c" },
+      { "t": "들었어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "nongsaireul hada boni nongjange jeongi deureosseoyo.",
+    "wordIds": ["w_m132_36", "w_hada", "w_nongjang", "w_jeong_word", "w_deulda"],
+    "note": "-다 보니 from M94 connects repeated experience to a result. M132’s 농사일 now leads to affection for a place; 정이 들다 means to grow attached."
+  },
+  {
+    "id": "s_m133_night",
+    "en": [
+      { "t": "Night duty", "role": "subject", "id": "a" },
+      { "t": "was extended, so", "role": "other", "id": "b" },
+      { "t": "I could not return", "role": "verb", "id": "d" },
+      { "t": "to the farm.", "role": "place", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "nighttime duty-[subj]", "role": "subject", "id": "a" },
+      { "t": "be-extended-because", "role": "other", "id": "b" },
+      { "t": "farm-to", "role": "place", "id": "c" },
+      { "t": "go-back-not-could-[past-polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "야간 근무가", "role": "subject", "id": "a" },
+      { "t": "연장되는 바람에", "role": "other", "id": "b" },
+      { "t": "농장으로", "role": "place", "id": "c" },
+      { "t": "되돌아가지 못했어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "yagan geunmuga yeonjangdoeneun barame nongjangeuro doedoragaji mothaesseoyo.",
+    "wordIds": ["w_yagan", "w_geunmu", "w_m132_10", "w_doeda", "w_nongjang", "w_doedoragada", "w_mothada"],
+    "note": "-는 바람에 from M86 links an unwelcome cause to its result. M132’s 연장 is now an extension of duty, not a sporting schedule."
+  },
+  {
+    "id": "s_m133_lighting",
+    "en": [
+      { "t": "After I adjusted", "role": "other", "id": "b" },
+      { "t": "the lighting,", "role": "object", "id": "a" },
+      { "t": "the green", "role": "subject", "id": "c" },
+      { "t": "became paler.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "lighting-[obj]", "role": "object", "id": "a" },
+      { "t": "adjusted-and-found", "role": "other", "id": "b" },
+      { "t": "green-color-[subj]", "role": "subject", "id": "c" },
+      { "t": "became-pale-[past-polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "조명을", "role": "object", "id": "a" },
+      { "t": "조절했더니", "role": "other", "id": "b" },
+      { "t": "초록색이", "role": "subject", "id": "c" },
+      { "t": "엷어졌어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "jomyeongeul jojeolhaetdeoni choroksaegi yeolbeojyeosseoyo.",
+    "wordIds": ["w_jomyeong", "w_jojeolhada", "w_choroksaek", "w_yeolda_m133"],
+    "note": "-았/었더니 from M88 reports an observed result. M132’s 조절 returns through the earlier verb 조절하다; the change concerns the visible color, not the lamp’s weight."
+  },
+  {
+    "id": "s_m133_lecture",
+    "en": [
+      { "t": "I misunderstood", "role": "verb", "id": "e" },
+      { "t": "the plot", "role": "object", "id": "d" },
+      { "t": "even after hearing", "role": "other", "id": "c" },
+      { "t": "the instructor’s", "role": "other", "id": "a" },
+      { "t": "words.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "instructor-[poss]", "role": "other", "id": "a" },
+      { "t": "words-[obj]", "role": "object", "id": "b" },
+      { "t": "hear-even-after", "role": "other", "id": "c" },
+      { "t": "plot-[obj]", "role": "object", "id": "d" },
+      { "t": "misunderstood-[past-polite]", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "강사의", "role": "other", "id": "a" },
+      { "t": "말을", "role": "object", "id": "b" },
+      { "t": "듣고도", "role": "other", "id": "c" },
+      { "t": "줄거리를", "role": "object", "id": "d" },
+      { "t": "착각했어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "gangsaui mareul deutgodo julgeorireul chakgakhaesseoyo.",
+    "wordIds": ["w_m132_26", "w_mal", "w_deutda", "w_julgeori", "w_chakgakhada"],
+    "note": "-고도 from M85 sets an expectation against what happened. M132’s 강사 appears in a possessive phrase; the listener, omitted in Korean, still gets the plot wrong."
+  },
+  {
+    "id": "s_m133_cool",
+    "en": [
+      { "t": "The farm", "role": "subject", "id": "a" },
+      { "t": "is cool, and", "role": "other", "id": "b" },
+      { "t": "there is plenty of", "role": "verb", "id": "d" },
+      { "t": "dew too.", "role": "subject", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "farm-[topic]", "role": "subject", "id": "a" },
+      { "t": "cool-and-in-addition", "role": "other", "id": "b" },
+      { "t": "dew-also", "role": "subject", "id": "c" },
+      { "t": "is-abundant-[polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "농장은", "role": "subject", "id": "a" },
+      { "t": "서늘한 데다가", "role": "other", "id": "b" },
+      { "t": "이슬도", "role": "subject", "id": "c" },
+      { "t": "많아요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "nongjangeun seoneulhan dedaga iseuldo manayo.",
+    "wordIds": ["w_nongjang", "w_seoneulhada", "w_iseul", "w_manta"],
+    "note": "-(으)ㄴ 데다가 from M92 adds a second condition. Both 농장은 and 이슬도 are subjects of their own predicates; English recasts the second as “there is.”"
+  },
+  {
+    "id": "s_m133_time",
+    "en": [
+      { "t": "Given how much we prepared", "role": "other", "id": "b" },
+      { "t": "over a long period,", "role": "other", "id": "a" },
+      { "t": "it took a lot of", "role": "verb", "id": "d" },
+      { "t": "time.", "role": "subject", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "long-period-for", "role": "other", "id": "a" },
+      { "t": "prepared-as-much-as", "role": "other", "id": "b" },
+      { "t": "time-[subj]", "role": "subject", "id": "c" },
+      { "t": "much was-required-[past-polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "장기간", "role": "other", "id": "a" },
+      { "t": "준비한 만큼", "role": "other", "id": "b" },
+      { "t": "시간이", "role": "subject", "id": "c" },
+      { "t": "많이 소요됐어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "janggigan junbihan mankeum sigani mani soyodwaesseoyo.",
+    "wordIds": ["w_janggigan", "w_junbihada", "w_sigan", "w_mani", "w_soyodoeda"],
+    "note": "The extent comparison -(으)ㄴ 만큼, revisited in M89, ties the time required to the preparation. 시간이 is a Korean subject although English says “it took time.”"
+  },
+  {
+    "id": "s_m133_proposal",
+    "en": [
+      { "t": "Even if", "role": "other", "id": "b" },
+      { "t": "our relationships", "role": "subject", "id": "a" },
+      { "t": "are difficult, we should propose", "role": "verb", "id": "d" },
+      { "t": "a pause.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "interpersonal-relations-[subj]", "role": "subject", "id": "a" },
+      { "t": "difficult-even-if", "role": "other", "id": "b" },
+      { "t": "interruption-[obj]", "role": "object", "id": "c" },
+      { "t": "must-propose-[polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "인간관계가", "role": "subject", "id": "a" },
+      { "t": "어렵더라도", "role": "other", "id": "b" },
+      { "t": "중단을", "role": "object", "id": "c" },
+      { "t": "제의해야 해요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "ingangwangyega eoryeopdeorado jungdaneul jeuihaeya haeyo.",
+    "wordIds": ["w_ingangwangye", "w_eoryeopda", "w_jungdan", "w_jeuihada", "w_hada"],
+    "note": "-더라도 from M95 maintains the need for a proposal despite difficult relationships. The proposal is to pause the shared activity, not to end the relationships."
+  },
+  {
+    "id": "s_m133_harmony",
+    "en": [
+      { "t": "As the lighting", "role": "subject", "id": "a" },
+      { "t": "harmonizes more", "role": "other", "id": "c" },
+      { "t": "with the painting,", "role": "other", "id": "b" },
+      { "t": "the room", "role": "subject", "id": "d" },
+      { "t": "looks more elegant.", "role": "verb", "id": "e" }
+    ],
+    "gloss": [
+      { "t": "lighting-[subj]", "role": "subject", "id": "a" },
+      { "t": "painting-with", "role": "other", "id": "b" },
+      { "t": "harmonize-the-more", "role": "other", "id": "c" },
+      { "t": "room-[subj]", "role": "subject", "id": "d" },
+      { "t": "elegant-looks-[polite]", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "조명이", "role": "subject", "id": "a" },
+      { "t": "그림과", "role": "other", "id": "b" },
+      { "t": "조화될수록", "role": "other", "id": "c" },
+      { "t": "방이", "role": "subject", "id": "d" },
+      { "t": "우아해 보여요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "jomyeongi geurimgwa johwadoelsurok bangi uahae boyeoyo.",
+    "wordIds": ["w_jomyeong", "w_geurim", "w_johwadoeda", "w_bang", "w_uahada", "w_boida"],
+    "note": "-(으)ㄹ수록 from M89 links increasing harmony to the room’s appearance. 과 attaches to the partner in that harmony, not to a second subject."
+  },
+  {
+    "id": "s_m133_hat",
+    "en": [
+      { "t": "While putting", "role": "other", "id": "c" },
+      { "t": "a hat", "role": "object", "id": "b" },
+      { "t": "on the child,", "role": "other", "id": "a" },
+      { "t": "I tidied", "role": "verb", "id": "e" },
+      { "t": "their hair too.", "role": "object", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "child-to", "role": "other", "id": "a" },
+      { "t": "hat-[obj]", "role": "object", "id": "b" },
+      { "t": "put-on-while-at-it", "role": "other", "id": "c" },
+      { "t": "hair-also", "role": "object", "id": "d" },
+      { "t": "tidied-[past-polite]", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "아이에게", "role": "other", "id": "a" },
+      { "t": "모자를", "role": "object", "id": "b" },
+      { "t": "씌우는 김에", "role": "other", "id": "c" },
+      { "t": "머리칼도", "role": "object", "id": "d" },
+      { "t": "정리했어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "aiege mojareul ssuiuneun gime meorikaldo jeongnihaesseoyo.",
+    "wordIds": ["w_ai", "w_moja", "w_ssuiuda", "w_meorikal", "w_jeongnihada"],
+    "note": "-는 김에 from M91 uses one action as the occasion for another. The hat goes onto the child; the hair is what gets tidied."
+  },
+  {
+    "id": "s_m133_drink",
+    "en": [
+      { "t": "While gulping down", "role": "other", "id": "b" },
+      { "t": "water,", "role": "object", "id": "a" },
+      { "t": "I ended up", "role": "verb", "id": "d" },
+      { "t": "coughing.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "water-[obj]", "role": "object", "id": "a" },
+      { "t": "gulp-while", "role": "other", "id": "b" },
+      { "t": "cough-[obj]", "role": "object", "id": "c" },
+      { "t": "did-in-the-end-[past-polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "물을", "role": "object", "id": "a" },
+      { "t": "들이켜다가", "role": "other", "id": "b" },
+      { "t": "기침을", "role": "object", "id": "c" },
+      { "t": "하고 말았어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "mureul deurikyeodaga gichimeul hago marasseoyo.",
+    "wordIds": ["w_mul", "w_deurikyeoda", "w_gichim", "w_hada"],
+    "note": "-다가 and -고 말다 from M94 connect an ongoing action to an unwanted outcome. The completed cough is the result, not another kind of drinking."
   }
 ]

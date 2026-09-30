@@ -3364,5 +3364,23 @@
     "lit": "cannot make the slightest movement",
     "real": "be unable to move an inch",
     "note": "꼼짝 names even a tiny motion. With 못 하다, the phrase denies that much movement, literally or figuratively."
+  },
+  {
+    "id": "g_m133_attachment",
+    "cat": "phrase",
+    "ko": "정이 들다",
+    "rom": "jeongi deulda",
+    "lit": "affection enters",
+    "real": "to grow attached",
+    "note": "An attachment develops through time and shared experience. The person or place one grows attached to can take 에; 정 is the feeling, not a physical visitor."
+  },
+  {
+    "id": "g_m133_digest",
+    "cat": "phrase",
+    "ko": "일을 소화하다",
+    "rom": "ireul sohwahada",
+    "lit": "to digest work",
+    "real": "to handle a workload",
+    "note": "The body processes food; this extension processes work that must be managed. It describes capacity to get through the work, not eating it."
   }
 ]
