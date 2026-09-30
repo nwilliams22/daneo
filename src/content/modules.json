@@ -1173,7 +1173,9 @@
       "w_jeonchejeok", "w_daepyojeok", "w_jeokgeukjeok", "w_geungjeongjeok",
       "w_sahoejeok", "w_segyejeok", "w_gyeongjejeok", "w_jeongchijeok",
       "w_yeoksajeok", "w_gwahakjeok", "w_jeontongjeok", "w_jeongsinjeok",
-      "w_jayeonseureopda", "w_josimseureopda", "w_geokjeongseureopda", "w_jayuropda"
+      "w_jayeonseureopda", "w_josimseureopda", "w_geokjeongseureopda", "w_jayuropda",
+      "w_maeryeokjeok", "w_yoksimjaengi", "w_yeoyuropda", "w_seongsukhada",
+      "w_sogeukjeok", "w_dajeonghada", "w_sinjunghada", "w_chaekimgam"
     ],
     "sentenceIds": [
       "s_m45_interview_self", "s_m45_think_positive", "s_m45_worried_face", "s_m45_natural_korean",
@@ -2851,7 +2853,7 @@
     "ring": 2,
     "contentMd": "modules/module-122.md",
     "wordIds": [
-      "w_bododoeda", "w_bonbu", "w_seongsukhada", "w_sogeukjeok",
+      "w_bododoeda", "w_bonbu",
       "w_soyong", "w_sonjilhada", "w_sido", "w_amugae",
       "w_yakjeom", "w_eojjaeseo", "w_yeollyeong", "w_yebi",
       "w_inom", "w_iryeokseo", "w_injeongdoeda", "w_junyeon",
@@ -2921,7 +2923,7 @@
       "w_jeoedoeda", "w_jjikhida", "w_tarak", "w_teullimeopsi",
       "w_hoegwan", "w_gongyeonjang", "w_gukjeok", "w_geullae",
       "w_nanwida", "w_nanmal", "w_naeoe", "w_neukdae",
-      "w_neureoseoda", "w_dajeonghada", "w_dallyeodeulda", "w_mangwongyeong",
+      "w_neureoseoda", "w_dallyeodeulda", "w_mangwongyeong",
       "w_mobeom", "w_murihada", "w_mukkida", "w_banghaehada",
       "w_sangnyu", "w_seonmyeonghada", "w_seonhohada", "w_seonggongjeok",
       "w_sogyumo", "w_susiro", "w_siya", "w_silhyeondoeda",
@@ -3189,7 +3191,6 @@
       "w_sihap",
       "w_sinsokhada",
       "w_sinjepum",
-      "w_sinjunghada",
       "w_sseok",
       "w_amkeot",
       "w_yegohada",
@@ -3298,7 +3299,6 @@
       "w_jinro",
       "w_jinhaengja",
       "w_chatadanida",
-      "w_chaekimgam",
       "w_cheon_m138",
       "w_tonggwa",
       "w_pojangmacha",

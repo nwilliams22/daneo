@@ -16238,6 +16238,33 @@
     "notes": "자유 (M23) + -롭다: -스럽다's vowel-stem sibling — same job, older license, and M35's 새롭다 was its product all along (새 + 롭다, retro-decoded at last). 자유로운 분위기 (M26's 분위기) = a free-and-easy atmosphere; ㅂ-family: 자유로워요. Slice-mate 여유 runs the same machine: 여유롭다 = unhurried."
   },
   {
+    "id": "w_maeryeokjeok",
+    "ko": "매력적",
+    "rom": "maeryeokjeok",
+    "en": "charming, attractive",
+    "pos": "noun",
+    "moduleId": "m45",
+    "notes": "매력 (charm, on this shelf) + -적 makes the quality visible: 매력적인 사람 is a charming person. 매력이 있어요 says someone has charm; 매력적이에요 describes the person with the -적이다 frame. The suffix works on a trait noun as readily as on the abstract roots above."
+  },
+  {
+    "id": "w_yoksimjaengi",
+    "ko": "욕심쟁이",
+    "rom": "yoksimjaengi",
+    "en": "a greedy or ambitious person",
+    "pos": "noun",
+    "moduleId": "m45",
+    "notes": "욕심 (wanting more, on this shelf) + -쟁이 labels the person known for that habit. 욕심이 많아요 judges the amount; 욕심쟁이 names the person. It can tease an ambitious friend or criticize someone who takes too much, so the relationship and tone matter."
+  },
+  {
+    "id": "w_yeoyuropda",
+    "ko": "여유롭다",
+    "rom": "yeoyuropda",
+    "en": "to be relaxed, unhurried",
+    "pos": "adj",
+    "moduleId": "m45",
+    "notes": "여유 (room to spare, on this shelf) + -롭다 paints that margin onto a person, schedule or atmosphere. 여유로운 아침 is an unhurried morning; 여유가 없어요 reports the missing margin instead. Like 자유롭다, the ㅂ changes before a vowel: 여유로워요."
+  },
+  {
     "id": "w_jakga",
     "ko": "작가",
     "rom": "jakga",
@@ -24479,7 +24506,7 @@
     "en": "exactly, precisely",
     "pos": "noun",
     "moduleId": "m73",
-    "notes": "M63's 정확하다 on the -히 rack — and the pair rule, taught once, here: the -게 adverb (M33) is the live adverbializer any adjective can wear, -히 is the fossilized Sino one, and 하다-adjectives keep BOTH — 정확하게/정확히, 간단하게/간단히 — same meaning, -히 a shade more written. That note already ran '정확하게 = precisely (the -게 adverb, M33)'; today the shorter twin: 정확히 세 시에 = at three exactly (M5's 셋, clipped before its counter). The rack's lineage: 천천히/열심히 (M10), then M32's 특히, which M33's 조용히 note called 'the adverb factory from M32's 특히, now clearly a factory' — and today it runs at full capacity."
+    "notes": "M63's 정확하다 on the -히 rack — and the pair rule, taught once, here: the -게 adverb (M33) is productive, while -히 is a distinct adverb-forming pattern restricted by the individual word and its stem. Learn attested pairs such as 정확하게/정확히 and 간단하게/간단히; do not attach -히 to every 하다-adjective. It is not limited to Sino-Korean bases: native 꾸준하다 gives 꾸준히 (steadily), alongside 꾸준하게. These pairs overlap in meaning; learn their usage with the word. That note already ran '정확하게 = precisely (the -게 adverb, M33)'; today the shorter twin: 정확히 세 시에 = at three exactly (M5's 셋, clipped before its counter). The rack's lineage: 천천히/열심히 (M10), then M32's 특히, which M33's 조용히 note called 'the adverb factory from M32's 특히, now clearly a factory' — and today it runs at full capacity."
   },
   {
     "id": "w_gandanhi",
@@ -38127,8 +38154,8 @@
   { "id": "w_mayak", "ko": "마약", "rom": "mayak", "en": "narcotic drug", "pos": "noun", "moduleId": "m121", "notes": "痲藥. 痲藥 is a drug that numbs or stupefies; in ordinary news language it names illicit drugs. 마약 범죄 is a drug crime, not a medical prescription." },
   { "id": "w_bododoeda", "ko": "보도되다", "rom": "bododoeda", "en": "to be reported in the news", "pos": "verb", "moduleId": "m122", "notes": "M96's 보도 is news coverage; -되다 turns the report into something receiving coverage. 사건이 보도되다 makes the event the subject, and leaves the reporter unnamed." },
   { "id": "w_bonbu", "ko": "본부", "rom": "bonbu", "en": "headquarters; central office", "pos": "noun", "moduleId": "m122", "notes": "本部. 本 is the main root and 部 a division: the main division is headquarters. 본부에서 결정하다 puts the decision at the organization's center." },
-  { "id": "w_seongsukhada", "ko": "성숙하다", "rom": "seongsukhada", "en": "to mature; be mature", "pos": "verb", "moduleId": "m122", "notes": "成熟 combines becoming complete with becoming ripe. It describes a person or society, and can praise judgment rather than age alone." },
-  { "id": "w_sogeukjeok", "ko": "소극적", "rom": "sogeukjeok", "en": "passive; unassertive", "pos": "noun", "moduleId": "m122", "notes": "消極的. 消極的 names a stance that avoids taking initiative. Its opposite 적극적 was taught earlier; the pair marks attitude, not physical speed." },
+  { "id": "w_seongsukhada", "ko": "성숙하다", "rom": "seongsukhada", "en": "to mature; be mature", "pos": "verb", "moduleId": "m45", "notes": "成熟 joins complete-成 (M35's 성공하다 begins with the same character) and ripe-熟: maturity is something developed, not simply a birthday reached. 성숙한 사람 praises judgment or manner; a person can be grown up in years without acting 성숙하게. A society or idea can also mature." },
+  { "id": "w_sogeukjeok", "ko": "소극적", "rom": "sogeukjeok", "en": "passive; unassertive", "pos": "noun", "moduleId": "m45", "notes": "消極的 avoids taking initiative, opposite the shelf's 적극적 (積極的). Both use the -적 factory and need its hardware: 소극적인 태도 (M33's 태도), 적극적으로 말하다. The pair judges willingness to act, not how quickly someone moves." },
   { "id": "w_soyong", "ko": "소용", "rom": "soyong", "en": "use; avail", "pos": "noun", "moduleId": "m122", "notes": "所用. 소용이 없다 says something is no use; 소용 alone is the noun of usefulness. It asks whether an action changes the outcome, not whether an object works mechanically." },
   { "id": "w_sonjilhada", "ko": "손질하다", "rom": "sonjilhada", "en": "to trim; groom; tend", "pos": "verb", "moduleId": "m122", "notes": "Hands improve the state of food, hair, or a document. 생선을 손질하다 prepares a fish; later 손질 will name the resulting attention as a noun." },
   { "id": "w_sido", "ko": "시도", "rom": "sido", "en": "attempt; trial", "pos": "noun", "moduleId": "m122", "notes": "試圖. 試 tries and 圖 plans: a 시도 is a deliberate attempt. 시도하다 names the action; today's noun can be evaluated as a first or failed try." },
@@ -38250,7 +38277,7 @@
   { "id": "w_naeoe", "ko": "내외", "rom": "naeoe", "en": "husband and wife; couple", "pos": "noun", "moduleId": "m125", "notes": "內外 inside-outside, an older label for a married pair. This NIKL row points to husband and wife, not simply inside and outside a building." },
   { "id": "w_neukdae", "ko": "늑대", "rom": "neukdae", "en": "wolf", "pos": "noun", "moduleId": "m125", "notes": "The wild canid, used literally for the animal. 늑대가 울다 gives an animal cry; figurative uses can judge a person harshly." },
   { "id": "w_neureoseoda", "ko": "늘어서다", "rom": "neureoseoda", "en": "to line up; stand in a row", "pos": "verb", "moduleId": "m125", "notes": "늘어 + 서다: people or objects stand one after another. 가게가 길에 늘어서다 paints a street lined with shops." },
-  { "id": "w_dajeonghada", "ko": "다정하다", "rom": "dajeonghada", "en": "to be affectionate; kind", "pos": "adj", "moduleId": "m125", "notes": "多情 many-feelings: warm and affectionate in manner. 다정한 말 speaks to personal warmth, not just polite wording." },
+  { "id": "w_dajeonghada", "ko": "다정하다", "rom": "dajeonghada", "en": "to be affectionate; kind", "pos": "adj", "moduleId": "m45", "notes": "多情 is many-feelings: warm and affectionate in manner. 다정한 말 (M11's 말) carries personal warmth, while 친절한 말 (M4's 친절하다) can be polite without that closeness. It names how a person treats someone, not simply whether the speaker follows etiquette." },
   { "id": "w_dallyeodeulda", "ko": "달려들다", "rom": "dallyeodeulda", "en": "to rush at; pounce", "pos": "verb", "moduleId": "m125", "notes": "달리다 + 들다: move rapidly toward a target, often with force. 늑대가 달려들다 is a pounce; a crowd can rush in too." },
   { "id": "w_mangwongyeong", "ko": "망원경", "rom": "mangwongyeong", "en": "telescope", "pos": "noun", "moduleId": "m125", "notes": "望遠鏡 look-far-mirror: an instrument for viewing distant things. 망원경으로 위성을 보다 links the tool to a distant object." },
   { "id": "w_mobeom", "ko": "모범", "rom": "mobeom", "en": "model; good example", "pos": "noun", "moduleId": "m125", "notes": "模範 pattern-standard: behavior worth following. 모범을 보이다 sets an example, distinct from a fashion model." },
@@ -38656,7 +38683,7 @@
   { "id": "w_sihap", "ko": "시합", "rom": "sihap", "en": "match, contest", "pos": "noun", "moduleId": "m136", "notes": "試合 is a competitive match, especially in sport." },
   { "id": "w_sinsokhada", "ko": "신속하다", "rom": "sinsokhada", "en": "quick, prompt", "pos": "adj", "moduleId": "m136", "notes": "迅速 emphasizes speed of action or response; it need not mean hasty." },
   { "id": "w_sinjepum", "ko": "신제품", "rom": "sinjepum", "en": "new product", "pos": "noun", "moduleId": "m136", "notes": "新製品 combines new with manufactured product; contrast a new purchase of an old model." },
-  { "id": "w_sinjunghada", "ko": "신중하다", "rom": "sinjunghada", "en": "careful, prudent", "pos": "adj", "moduleId": "m136", "notes": "愼重 is deliberate care before a decision, not slowness for its own sake." },
+  { "id": "w_sinjunghada", "ko": "신중하다", "rom": "sinjunghada", "en": "careful, prudent", "pos": "adj", "moduleId": "m45", "notes": "愼重 gives a decision careful weight before action. 신중하게 생각하다 (M9's 생각하다) is to think carefully; 조심스럽다 on this shelf describes a cautious manner that others can see. 신중하다 praises judgment, not delay for its own sake." },
   { "id": "w_sseok", "ko": "썩", "rom": "sseok", "en": "very, especially", "pos": "noun", "moduleId": "m136", "notes": "Often appears with a negative evaluation: 썩 좋지 않다 means not particularly good." },
   { "id": "w_amkeot", "ko": "암컷", "rom": "amkeot", "en": "female animal", "pos": "noun", "moduleId": "m136", "notes": "Use for an animal's sex; 사람 calls for a human term instead." },
   { "id": "w_yegohada", "ko": "예고하다", "rom": "yegohada", "en": "announce in advance", "pos": "verb", "moduleId": "m136", "notes": "豫告 promises notice before an event; do not confuse with reporting after it." },
@@ -38723,7 +38750,7 @@
   { "id": "w_jinro", "ko": "진로", "rom": "jillo", "en": "path ahead, career path", "pos": "noun", "moduleId": "m138", "notes": "進路 can be a physical route or a person's future course." },
   { "id": "w_jinhaengja", "ko": "진행자", "rom": "jinhaengja", "en": "host, presenter", "pos": "noun", "moduleId": "m138", "notes": "進行者 leads an event or program forward." },
   { "id": "w_chatadanida", "ko": "찾아다니다", "rom": "chajadanida", "en": "go around looking for", "pos": "verb", "moduleId": "m138", "notes": "찾다 plus 다니다 expresses repeated movement while searching." },
-  { "id": "w_chaekimgam", "ko": "책임감", "rom": "chaegimgam", "en": "sense of responsibility", "pos": "noun", "moduleId": "m138", "notes": "責任感 is the feeling of being accountable for a task." },
+  { "id": "w_chaekimgam", "ko": "책임감", "rom": "chaegimgam", "en": "sense of responsibility", "pos": "noun", "moduleId": "m45", "notes": "責任感 is responsibility felt as a trait: 책임 (M34) + feeling-感, the same 感 as M42's 감정. 책임감이 있어요 uses the character-as-possession frame; 책임감이 강해요 says that sense runs strong. The task may change, but the noun names the person's habit of owning it." },
   { "id": "w_cheon_m138", "ko": "체온", "rom": "cheon", "en": "body temperature", "pos": "noun", "moduleId": "m138", "notes": "體溫 is the measured temperature of a body." },
   { "id": "w_tonggwa", "ko": "통과", "rom": "tonggwa", "en": "passing through, passage", "pos": "noun", "moduleId": "m138", "notes": "通過 can mean moving past a point or passing a test or check." },
   { "id": "w_pojangmacha", "ko": "포장마차", "rom": "pojangmacha", "en": "street food stall", "pos": "noun", "moduleId": "m138", "notes": "A covered mobile stall serving food and drinks; the literal parts suggest a covered wagon." },

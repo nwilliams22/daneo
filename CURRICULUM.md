@@ -196,6 +196,8 @@ menu emerges from the slice file as authoring proceeds.
 plus 예습 moved forward from M155 and three decoded compounds (입학식,
 졸업식, 대학원생). Eight sentences and three gap cards remain.
 
+**M45 count correction (2026-09-30):** 40 checklist words: the original 32 plus five grade-C character words moved forward from M122 (성숙하다, 소극적), M125 (다정하다), M136 (신중하다), and M138 (책임감), plus three decoded compounds (매력적, 욕심쟁이, 여유롭다). The donor packs retain 34–35 words, inside the Ring 3 30–38 contract. Eight sentences and three gap cards remain.
+
 **M46 count correction (2026-09-30):** 40 checklist words: the original 33
 plus seven grade-C time words moved forward from M133 (생, 소요되다, 야간,
 장기간) and M141 (한가하다, 그사이, 지금껏). M133 retains 32 words and M141

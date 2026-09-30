@@ -8,7 +8,7 @@ An attempt starts inside an institution, meets interference, and may be stopped 
 
 ## Part 1 — Attempts and interruptions
 
-The institution drawer holds a headquarters, a résumé, an invitation, a publisher, and age or anniversary labels. The action drawer moves from 시도 to 중단하다, 가로막다, and 달리하다. The stance drawer marks reluctance, maturity, and the tone of 이놈.
+The institution drawer holds a headquarters, a résumé, an invitation, a publisher, and age or anniversary labels. The action drawer moves from 시도 to 중단하다, 가로막다, and 달리하다. The stance drawer reuses M45’s reluctance and maturity beside the tone of 이놈.
 
 **Root and form map:**
 

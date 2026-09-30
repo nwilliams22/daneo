@@ -10,7 +10,7 @@ A host guides a route, someone measures body temperature, and workers search for
 
 ## Part 1 — Following things through
 
-**People on a route.** 진로 is a direction forward, physical or vocational. 지도하다 guides someone, while 진행자 leads a program or event. 찾아다니다 adds repeated movement to a search. 책임감 is the felt duty to see a task through. 소지품 are belongings a person carries; 통과 means passing through or passing a check.
+**People on a route.** 진로 is a direction forward, physical or vocational. 지도하다 guides someone, while 진행자 leads a program or event. 찾아다니다 adds repeated movement to a search. M45’s 책임감 is the felt duty to see a task through. 소지품 are belongings a person carries; 통과 means passing through or passing a check.
 
 **Bodies and measures.** 체온 is body temperature; 재다 takes a measurement. 한결 marks a noticeable improvement. 곧다 can describe a straight line or an upright person. 올려다보다 sends the gaze upward. 회전 names rotation, and 가려지다 says something became hidden from view.
 

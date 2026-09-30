@@ -82,3 +82,5 @@ fathom ten fathoms of water, not one fathom of a person — uses M28's 속). Max
 
 **Output files:** draft-m45.words.json, draft-m45.sentences.json, draft-m45.gap.json,
 draft-m45.md, draft-m45.meta.json.
+
+**2026-09-30 count correction:** The historical slice above shipped at 32 words. The live M45 checklist now holds 40: five grade-C character words moved forward (성숙하다, 소극적, 다정하다, 신중하다, 책임감) and three decoded compounds (매력적, 욕심쟁이, 여유롭다). The slice above records the original assignment; `src/content/modules.json` is the current registration.

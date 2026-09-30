@@ -12,7 +12,7 @@ A magpie leaves a starting point, a robot appears at a seminar, and a contest gr
 
 **At an event.** 시합 is a match; 만점 is the best possible score. A 세미나 is a discussion meeting, while an 일대 event is momentous. A crowd can 모여들다, “flock in,” and then turn 떠들썩하다, bustling or noisy. 예고하다 announces something before it happens; 기술하다 describes it in writing afterward.
 
-**In a decision.** 납득하다 means to understand *and accept*. 신중하다 is careful judgment before action; 신속하다 is prompt action once a decision is made. 위반하다 breaks a rule. 보수 here is a conservative stance, while 보안 protects information or premises. 이해관계 names the interests different parties have at stake.
+**In a decision.** 납득하다 means to understand *and accept*. M45’s 신중하다 is careful judgment before action; today’s 신속하다 is prompt action once a decision is made. 위반하다 breaks a rule. 보수 here is a conservative stance, while 보안 protects information or premises. 이해관계 names the interests different parties have at stake.
 
 **Small things still matter.** 까치 is a magpie; 암컷 labels a female animal. 세제 cleans, 은은하다 describes a faint scent or light, and 속삭이다 is speech quiet enough for someone nearby. 썩 commonly strengthens a negative judgment: 썩 좋지 않다 is “not especially good.” 매달 repeats every month, whereas 시일 is the time a task takes.
 

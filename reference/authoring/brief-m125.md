@@ -6,11 +6,11 @@ Read SHARED-BRIEF.md and CURRICULUM.md §2c. The unchanged Band 6 pack contract 
 
 **Report and classification:** 위성 (衛星 satellite), 제시 (提示 presentation, noun partner of M93's 제시하다), 제외되다 (be excluded), 찍히다 (check the stamp sense in the NIKL row), 타락 (fall into corruption), 국적 (nationality), 근래 (recently), 낱말 (word), 모범 (model/example), 성공적 (successful), 소규모 (small-scale), 유형 (type), 실현되다 (be realized beside M114's 실현하다). Compare active and passive entries without presenting a later word as already owned.
 
-**People and venues:** 회관, 공연장 (M48's 공연 + 장), 내외 (內外; NIKL hint says man and woman, not merely inside/outside), 늑대 (wolf), 망원경, 왕자, 다정하다, 무리하다, 방해하다 (M121's 방해 becomes the action), 선호하다, 선명하다, 상류 (upstream or upper class: check listed sense), 수시로, 시야. Handle 자살 with a matter-of-fact, non-sensational example or note; do not force it into a drill sentence.
+**People and venues:** 회관, 공연장 (M48's 공연 + 장), 내외 (內外; NIKL hint says man and woman, not merely inside/outside), 늑대 (wolf), 망원경, 왕자, 무리하다, 방해하다 (M121's 방해 becomes the action), 선호하다, 선명하다, 상류 (upstream or upper class: check listed sense), 수시로, 시야. Handle 자살 with a matter-of-fact, non-sensational example or note; do not force it into a drill sentence.
 
 **Motion and view:** 나뉘다 is the passive counterpart of M56's 나누다; 늘어서다, 달려들다, 묶이다, 오르내리다 move or place things. 틀림없이, 의외로, 으레 are viewpoint adverbs. Avoid treating 으레 as the verb ending -(으)래. A crisp note for each word matters more than stuffing every item into eight sentences.
 
-**Word slice (36):** 위성 · 의외로 · 자살 · 제시 · 제외되다 · 찍히다 · 타락 · 틀림없이 · 회관 · 공연장 · 국적 · 근래 · 나뉘다 · 낱말 · 내외 · 늑대 · 늘어서다 · 다정하다 · 달려들다 · 망원경 · 모범 · 무리하다 · 묶이다 · 방해하다 · 상류 · 선명하다 · 선호하다 · 성공적 · 소규모 · 수시로 · 시야 · 실현되다 · 오르내리다 · 왕자 · 유형 · 으레. Ledger: `m125\t8`, all grade C.
+**Word slice (35):** 위성 · 의외로 · 자살 · 제시 · 제외되다 · 찍히다 · 타락 · 틀림없이 · 회관 · 공연장 · 국적 · 근래 · 나뉘다 · 낱말 · 내외 · 늑대 · 늘어서다 · 달려들다 · 망원경 · 모범 · 무리하다 · 묶이다 · 방해하다 · 상류 · 선명하다 · 선호하다 · 성공적 · 소규모 · 수시로 · 시야 · 실현되다 · 오르내리다 · 왕자 · 유형 · 으레. Ledger: `m125\t8`, all grade C.
 
 **Md:** evidence-and-venue intro; Part 1 on the three shelves and active/passive radar; `::vocab::`; Part 2 with eight reused Band 7 patterns; `::sentences::`; optional earned gap deck; short “What's next.” No new glue.
 
