@@ -22,11 +22,11 @@ M31 taught you the provinces as two-city welds (전라도 = 전주 + 나주, 경
 
 ## Part 2 — The 경상도 machine
 
-The southeast kept two pieces of grammar the capital threw away:
+Two features stand out in this southeast variety:
 
 **1. Pitch.** Middle Korean had tones; Seoul flattened them; 경상도 didn't. That's why the region can say 가가 가가? — four identical syllables — and mean "is that kid THAT kid?": the melody carries what the spelling can't (the gap deck files the full party trick). It's also why the accent survives decades in Seoul: you can swap your endings, but your pitch is installed in childhood.
 
-**2. The question fork.** Standard Korean asks every question with -아/어? or -까?. 경상도 splits them the way old Korean did:
+**2. The question fork.** Standard Korean has many question endings, from conversational -아/어? and -아요/어요? to formal -ㅂ니까/-습니까?. In these 경상도 examples, the ending changes with the question type:
 
 | Question type | Ending | Example |
 |---|---|---|
@@ -35,7 +35,7 @@ The southeast kept two pieces of grammar the capital threw away:
 | Yes/no, noun-flavored | **-가?** | 니가 학생이가? |
 | Question-word, noun-flavored | **-고?** | 이게 뭐고? |
 
-Hear the ending, know the question type — a distinction 표준어 gave up. The rest of the machine, quickly: ㅆ softens toward ㅅ (쌀 → 살, the stereotype every comedy sketch reaches for), ㅡ and ㅓ drift together, 하다 hardens to 카다 (뭐라고 하노 → 머라카노), statements soften with -데이 (알았데이 = got it, warmly), and politeness runs on -예 instead of -요 (맞아예; 어데예 as the humble wave-off). The icon set — 마, 아이가, 단디, 억수로, 할매, 아지매 — is in your cards, and the region's most famous export is in the gap deck wearing a lei: 니가 가라, 하와이.
+In these examples, hear the ending to tell a yes/no question from a question-word question. The rest of the machine, quickly: ㅆ softens toward ㅅ (쌀 → 살, the stereotype every comedy sketch reaches for), ㅡ and ㅓ drift together, 하다 hardens to 카다 (뭐라고 하노 → 머라카노), statements soften with -데이 (알았데이 = got it, warmly), and politeness runs on -예 instead of -요 (맞아예; 어데예 as the humble wave-off). The icon set — 마, 아이가, 단디, 억수로, 할매, 아지매 — is in your cards, and the region's most famous export is in the gap deck wearing a lei: 니가 가라, 하와이.
 
 ---
 
