@@ -56,6 +56,12 @@ The four insides, all built on M28's 속: **물속** (in the water — the insid
 
 ---
 
+### The entrance, the floor and the far side
+
+**현관문** is the entrance door, and **금고** keeps valuables behind a stronger barrier. **방바닥** is the room floor; **창가** is beside the window, where the noun's 가 means an edge rather than a subject particle. Put **옆방** beside **건넌방**: the first is next door, the second across a hall or courtyard. **반대편** names the opposite side. For a complete tour, **구석구석** reaches every nook and cranny, while **안팎** includes inside and outside. With a number, 안팎 instead gives an approximate range: 한 시간 안팎, about an hour.
+
+---
+
 ## Part 4 — Building sentences
 
 **Spot the recycling:** M10's -고 chains the room-tour and the adjacent-pair sentences, M20's -면 gates the two "if you look" conditionals in the seen sentence, M6's -로 marks the destination in the room-tour, M35's 바뀌다 does the switching in the interior, M36's 열리다 / 닫히다 / 보이다 do the opening, closing, and appearing, M32's 통하다 does the going-through in the campus sentence, and -아/어 보다 (M16) tries the walk in the seen sentence.

@@ -1,6 +1,8 @@
 # Korean, Word-First — Module 120: The Native Nouns, and the Adverbs of Manner
 
-The native noun is often a verb wearing a freezer. 울음소리 carries 울다 through -(으)ㅁ and into 소리; 끊임없다 makes the stopping event disappear. Around that machine sit nouns whose halves the learner owns, a shelf of adjectives that measure states, and eight adverbs that say how an action unfolded. Six earlier notes promised words in this pack. Their receipts come first; the vocabulary follows.
+The native noun is often a verb wearing a freezer. 울음소리 carries 울다 through -(으)ㅁ and into 소리; 끊임없다 makes the stopping event disappear. Around that machine sit nouns whose halves the learner owns, a shelf of adjectives that measure states, and eight adverbs that say how an action unfolded. Five earlier notes promised words in this pack. Their receipts come first; the vocabulary follows.
+
+**Vocabulary map:** 30 new checklist words. Reuse 구석구석 (M65) · 안팎 (M65) as earlier vocabulary in the comparisons and sentence deck.
 
 **How to use this:** read the freezer table as a construction, then find the earlier word inside each new one. Say the adverbs with their preferred verbs — 차마 with a negative, 텅 with 비다, 활짝 with opening, blooming or smiling. The eight sentences only recycle Band 7 grammar.
 
@@ -18,9 +20,9 @@ The native noun is often a verb wearing a freezer. 울음소리 carries 울다 t
 | 입맛 | M14 입 + M18 맛 | appetite or taste |
 | 뜻밖 | M10 뜻 + M6 밖 | outside expectation |
 
-**The receipts** make the shelf feel less new. S2's 당기다 had already said “입맛이 당기다 — a craving PULLS.” M102's 구석 named 구석구석, M88's 이룩하다 and M97's 성장 both named 눈부시다, M65's 집안 named 집안일, M26's 자랑스럽다 pointed to 자랑, M6's 창문 split 창 from 문. The entry notes pay each debt and give the word a usable phrase.
+**The receipts** make the shelf feel less new. S2's 당기다 had already said “입맛이 당기다 — a craving PULLS.” M88's 이룩하다 and M97's 성장 both named 눈부시다, M65's 집안 named 집안일, M26's 자랑스럽다 pointed to 자랑, M6's 창문 split 창 from 문. The entry notes pay each debt and give the word a usable phrase.
 
-**Places and things** keep their stages separate. M59’s 벼 and 쌀 already distinguished plant and grain; M102’s 논 supplied their paddy. 탁자 is a table, 책상 a desk. 안팎 usually means approximately around a number rather than a literal tour indoors and out. 친정 carries a family structure, not merely a location.
+**Places and things** keep their stages separate. M59’s 벼 and 쌀 already distinguished plant and grain; M102’s 논 supplied their paddy. 탁자 is a table, 책상 a desk. M65's 안팎 usually means approximately around a number rather than a literal tour indoors and out. 친정 carries a family structure, not merely a location.
 
 **States and adjectives** need a comparison. 착각 is a wrong belief, M63's 실수 a wrong action. M34's 외롭다 is felt inside, 쓸쓸하다 can settle over a place. M39's 충분하다 meets the need; 넉넉하다 leaves spare capacity. 주요하다 exists, but print usually places 주요 directly before a noun. 탁월하다 praises more formally than 뛰어나다, while 참되다 sounds literary and old-fashioned.
 

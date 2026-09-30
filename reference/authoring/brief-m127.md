@@ -4,7 +4,7 @@ Read SHARED-BRIEF.md and CURRICULUM.md §2c. The unchanged Band 6 contract appli
 
 **Organizing idea:** Public work groups 방송사, 생방송, 취재, 토론회, 시나리오 and 종합하다. Restraint groups 방지하다, 삼가다 and 소홀히. The physical shelf carries 옆구리, 돌멩이, 두께, 엔진 and 사슴; the remaining everyday words keep the ranked slice intact.
 
-**Verified owner anchors:** M32's 방송 supplies 방송사 and 생방송; M57's 종합 supplies 종합하다; M108's 방지 supplies 방지하다. M43's 가난하다 already names 가난, M60's 두껍다 supplies the thickness contrast, and M15's 부지런하다 supplies 부지런히. Check M23's 돌아오다 beside 되돌아오다.
+**Verified owner anchors:** M32's 방송 supplies 방송사 and 생방송; M57's 종합 supplies 종합하다; M64's 방지 supplies 방지하다. M43's 가난하다 already names 가난, M60's 두껍다 supplies the thickness contrast, and M15's 부지런하다 supplies 부지런히. Check M23's 돌아오다 beside 되돌아오다.
 
 **Sense radar:** 용 is 龍, dragon, not a purpose suffix. 사표 is 辭表, resignation; 자정 is 子正, midnight. 삼가다 is the standard spelling. Distinguish 웬만하다 from mere physical size; 실컷 names satisfaction or sufficient extent, not just a large quantity.
 

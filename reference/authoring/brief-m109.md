@@ -43,8 +43,7 @@ lessons.
    is written; RADAR: not M45's 적), 뽑히다 (M61's 뽑다 → 뽑히다: to be
    picked, elected — 대표로 뽑히다 M?? 대표 verify; 반장으로 뽑히다 M15's 반),
    쫓기다 (PAYS the M36 md — quote its exact "쫓기다 (be chased — 시간에
-   쫓기다, chased by time)" span; the parent 쫓다 is M104's if shipped, else
-   frozen), 갇히다 (to be shut in, trapped — the passive of 가두다 (to lock
+   쫓기다, chased by time)" span; the parent 쫓다 belongs to M66), 갇히다 (to be shut in, trapped — the passive of 가두다 (to lock
    up — frozen): 엘리베이터에 갇히다 M13's 엘리베이터, 집에 갇히다 M1's 집 — the
    pandemic's verb), 꼽히다 (to be counted as, reckoned among — the passive
    of 꼽다 (to count on the fingers — frozen): 최고로 꼽히다 M19's 최고 = to be
@@ -77,7 +76,7 @@ lessons.
    kinds of art; RADAR: not M30's 장), 디스크 (disk — the computer's; ALSO
    the slipped disc: 허리 디스크 M14's 허리 — the clinic's word, and the
    Korean says 디스크 for the injury itself), 코스 (course — a meal course
-   (코스 요리 M3's 요리), a running/golf course, a travel route; the Sino
+   (코스 요리, using the noun in M3's 요리하다), a running/golf course, a travel route; the Sino
    twin 과정 M88 is the course of study; RADAR: not M14's 코), 댐 (dam — 댐을
    건설하다 M97's 건설하다 if shipped; no Korean twin — the word arrived with
    the concrete), 트럭 (PAYS M76's 톤 — lookup.py the owner and quote its exact span verbatim (copy the full sentence); the Sino twin 화물차 (frozen) is the sign's),

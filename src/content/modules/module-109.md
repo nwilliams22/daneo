@@ -17,7 +17,7 @@ By now the passive is arithmetic. Thirty-four Grade-C words, and twenty-six of t
 | 오염 | none — 오염시키다 | 오염되다 — is contaminated | M99 |
 | 표현 | 표현하다 (M42) | 표현되다 — gets expressed | M33 |
 | 해당 | 해당하다 (M86) | 해당되다 — is applicable | M103 |
-| 제한 | 제한하다 (M108) | 제한되다 — is capped | M64 |
+| 제한 | 제한하다 (M64) | 제한되다 — is capped | M64 |
 | 지속 | 지속하다 (frozen) | 지속되다 — persists | M100, inside 지속적 |
 | 평가 | 평가하다 (M87) | 평가되다 — is rated | M87 |
 | 제시 | 제시하다 (M93) | 제시되다 — is put forward | the noun rides frozen |
@@ -25,7 +25,7 @@ By now the passive is arithmetic. Thirty-four Grade-C words, and twenty-six of t
 
 Two rows have no 하다 side at all, and the gap is worth a minute: nothing 오염한다 or 확산한다 in Korean, so the active job goes to -시키다, the machine M37 named — "Attach it to any 하다-noun and someone else is doing the work." One column names a doer, the other does not, and Korean officialdom lives in the third column.
 
-**The party products, beside their parents.** Five native verbs from the M36 guest list, each filed next to the verb it flips: 적다 → **적히다** (the name is written down), 뽑다 (M61) → **뽑히다** (is elected), 쫓다 (M104) → **쫓기다** (is chased), 가두다 → **갇히다** (is shut in), 꼽다 → **꼽히다** (is counted as). Three of the parents are frozen — 적다 in its write-it-down sense, 가두다, 꼽다 — which is the party's oldest rule showing through: you meet some of these verbs only from the far end, where the thing happens and nobody is named.
+**The party products, beside their parents.** Five native verbs from the M36 guest list, each filed next to the verb it flips: 적다 → **적히다** (the name is written down), 뽑다 (M61) → **뽑히다** (is elected), 쫓다 (M66) → **쫓기다** (is chased), 가두다 → **갇히다** (is shut in), 꼽다 → **꼽히다** (is counted as). Three of the parents are frozen — 적다 in its write-it-down sense, 가두다, 꼽다 — which is the party's oldest rule showing through: you meet some of these verbs only from the far end, where the thing happens and nobody is named.
 
 **The Sino verbs.** Eleven noun-plus-하다 verbs, and eight of the eleven decode entirely from characters you own: 전개하다 (M91's 전개), 창조하다 (M101's 창조), 작성하다 (作 of M48's 작가 + 成 of M35's 성공하다), 강요하다 (强 of M64's 강제 + 要 of M56's 요구하다), 부담하다 (M86's 부담), 진출하다 (M75's 진출), 통과하다 (通 of M31's 통일 + 過 of M33's 사과하다), 상징하다 (象 of M41's 인상 + 徵 of M45's 특징). Only three bring genuinely new characters: 파괴하다 (破壞), 모색하다 (摸索) and 면하다 (免).
 

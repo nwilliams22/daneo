@@ -56,6 +56,12 @@ The over-turn, the shake-off, the on-top, and the crowd-push: **뒤집다** (fli
 
 ---
 
+### 6. Reshaping, carrying and changing position
+
+The hand can **꺾다** (snap or bend), **뚫다** (pierce through), **파다** (dig a hollow), **깔다** (lay flat underneath) or **감싸다** (wrap around). Compare **쫓다**, chasing someone or driving something away, with the following verbs above. Carrying now has three postures: 안다 holds in front, **업다** carries on the back, and 메다 carries on the shoulder. **튀다** bounces off a surface; **구르다** rolls along it. **건네주다** passes something across to another person, **가르다** divides it, and **이동하다** describes a change of position in a formal register. Drill the two 르-forms together: 구르다 → 굴러요, 가르다 → 갈라요.
+
+---
+
 ## Part 4 — Building sentences
 
 **Spot the recycling:** M10's -고 chains every axis's verbs into one breath in all eight sentences — the finger points and the friend points, the water pours and spills, the friend runs to and I follow along, the baby kicks and stomps and knocks, the book flips, the hair shakes out, and the hand comes to rest. M1's 가다 and 오다 take the 달- and 따라-compounds in the run axis. M9's 주다 takes the return-turn in the give-back sentence, with -(으)면 (M20) gating the trade. M28's 손가락, M17's 공, M18's 컵, M22's 강 and 물고기, M25's 아기, M1's 친구, M8's 머리, M6's 문, M1's 책, and M14's 발 and 어깨 are the things every verb lands on.

@@ -1,6 +1,8 @@
 # Korean, Word-First — Module 114: Sino Verbs IV, and the Adverbs of Degree
 
-By now the verb is arithmetic and the adverb is not. Thirty-one Grade-C words, and twenty of them are a sum: six are a noun you already own plus 하다, six are a noun or a verb you already own plus 되다, and eight more are Sino verbs whose characters mostly fell out of compounds you have been reading since Ring 1. M70's 마련되다 wrote the licence for the 되다 column in one line — "되다 doesn't check pedigree, only the 하다 it replaces" — M105 ran that row eight times and M109 ran it ten more, and today's six close it out. Some of today's entries arrive on a promise an earlier note made — most of them riding frozen inside it — so their notes are receipts, and each one quotes the line that owed them. The eleven adverbs get the ink, because there is no machine that builds them, nothing to decode in most of them, and nothing to do but meet each one in the company it keeps.
+By now the verb is arithmetic and the adverb is not. Thirty Grade-C words, and nineteen of them are a sum: five are a noun you already own plus 하다, six are a noun or a verb you already own plus 되다, and eight more are Sino verbs whose characters mostly fell out of compounds you have been reading since Ring 1. M70's 마련되다 wrote the licence for the 되다 column in one line — "되다 doesn't check pedigree, only the 하다 it replaces" — M105 ran that row eight times and M109 ran it ten more, and today's six close it out. Some of today's entries arrive on a promise an earlier note made — most of them riding frozen inside it — so their notes are receipts, and each one quotes the line that owed them. The eleven adverbs get the ink, because there is no machine that builds them, nothing to decode in most of them, and nothing to do but meet each one in the company it keeps.
+
+**Vocabulary map:** 30 new checklist words. Reuse 이동하다 (M66) as earlier vocabulary in the comparisons and sentence deck.
 
 **How to use this:** take each table below as a single exercise rather than a list of rows. For the 하다 column, say the noun, say the verb, and ask what the 하다 added — usually an object slot and nothing else. For the 되다 column, say the 하다 side, say the 되다 side, and ask who disappeared. Then spend the reps on the adverbs, and spend them on the COLLOCATION: 벌떡 has exactly one verb, 불과 needs a quantity behind it, 막상 promises a reversal, and 재빨리 is a reflex rather than a speed. An adverb learned alone is an adverb you will never use.
 
@@ -8,12 +10,11 @@ By now the verb is arithmetic and the adverb is not. Thirty-one Grade-C words, a
 
 ## Part 1 — Sino verbs IV, and the adverbs of degree
 
-**The 하다 on nouns you own.** Six verbs reuse familiar nouns or characters. 請 cannot stand alone as a word, but you have read it inside 신청, 요청 and 초청장; 하다 gives it a verb slot. M56 already taught 보고하다 and 논하다, which return in the sentence deck.
+**The 하다 on nouns you own.** Five verbs reuse familiar nouns or characters. 請 cannot stand alone as a word, but you have read it inside 신청, 요청 and 초청장; 하다 gives it a verb slot. M56 already taught 보고하다 and 논하다, which return in the sentence deck.
 
 | the noun | where it lives | the verb, today |
 | --- | --- | --- |
 | 개방 | M95 | 개방하다 — opens a market, or a gate |
-| 이동 | M81 | 이동하다 — moves a position |
 | 관리 | M57 | 관리하다 — keeps a thing running |
 | 근거 | M86 | 근거하다 — rests on grounds |
 | 자극 | M103 | 자극하다 — pokes with a needle |
@@ -27,7 +28,7 @@ By now the verb is arithmetic and the adverb is not. Thirty-one Grade-C words, a
 | --- | --- | --- |
 | 안정 | M95 | 안정되다 — a life settles |
 | 전달하다 | M64 | 전달되다 — the meaning gets across |
-| 보장 | M108 | 보장되다 — a right is guaranteed |
+| 보장 | M64 | 보장되다 — a right is guaranteed |
 | 관계 | M32 | 관계되다 — a matter has a bearing |
 | 분리 | M108 | 분리되다 — two things come apart |
 | 완성하다 | today, two rows up | 완성되다 — the building is finished |

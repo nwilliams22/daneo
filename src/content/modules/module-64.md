@@ -52,6 +52,12 @@ The five-step chain, in fixed order: **신청** (file it) → **등록** (regist
 
 ---
 
+### 5. Proof, limits and responsibility
+
+An office needs more than an application chain. **증명하다** proves a fact; **신고하다** reports it to an authority. **제한하다** turns 제한 into an action, setting a ceiling on speed or numbers. **보장** is a guarantee, while **방지** names prevention before a danger becomes an event. **정비** keeps equipment or facilities ready to work; **임무** is the particular duty assigned to a person. Read the contrasts together: 신청 asks, 신고하다 reports, 증명하다 supports the report with proof. 업무 is the ongoing work; 임무 is the responsibility someone has been given.
+
+---
+
 ## Part 4 — Building sentences
 
 **Spot the recycling:** M3's 시키다 forms the causative (활동시키다) in the worker-experience sentence, M61's 쌓이다 does the stacking in the same sentence, M10's -고 chains the application axis, M20's -면 gates the conditionals in two sentences, M6's -로 marks the means in the diplomacy sentence, M6's 은행 sits at the counter in the credit-card sentence, M57's 기본 thaws in the gap deck's 외교 card, and M1's 좋다 sets the bar on the 신용 condition.

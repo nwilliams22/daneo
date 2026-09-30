@@ -1,8 +1,10 @@
 # Korean, Word-First — Module 116: The Native Shelf in Motion
 
-M113 handed you thirty-six words that refused to split. This shelf is the opposite case, and it is the more common one: **most of these words are two words you already own, welded**. 밝혀내다 is 밝히다 plus 내다. 튀어나오다 is 튀다 plus 나오다. 발걸음 is 발 plus 걸음, 제자리 is 제 plus 자리, 이리저리 is 이리 plus 저리. So the arithmetic works again — but arithmetic is only half a note, because a weld is not an addition sign. Two of today's words mean something the sum could never predict: 곧잘 has no soon in it and 잘나다 is an insult. The job of every note below is therefore two-part: say which halves went in, then say how far the meaning drifted from their sum.
+M113 handed you thirty words that refused to split. This shelf is the opposite case, and it is the more common one: **most of these words are two words you already own, welded**. 밝혀내다 is 밝히다 plus 내다. 튀어나오다 is 튀다 plus 나오다. 발걸음 is 발 plus 걸음, 제자리 is 제 plus 자리, 이리저리 is 이리 plus 저리. So the arithmetic works again — but arithmetic is only half a note, because a weld is not an addition sign. Two of today's words mean something the sum could never predict: 곧잘 has no soon in it and 잘나다 is an insult. The job of every note below is therefore two-part: say which halves went in, then say how far the meaning drifted from their sum.
 
-**How to use this:** read the weld table first and cover the right-hand column, because guessing before you read is the whole drill. Then take the four drawers in order — verbs, adjectives, adverbs, nouns — and watch for the seven receipts, since seven of today's words were named and carried frozen by earlier notes and meeting them as payments is half the work done. The Radar patrol at the end is long and it is not optional: this shelf is made of syllables you already own, which is exactly what makes it dangerous — 업다 sounds like 없다, 간신히 has no 間 in it, and 골짜기 has nothing to do with football.
+**Vocabulary map:** 30 new checklist words. Reuse 업다 (M66) · 튀다 (M66) · 구르다 (M66) · 건네주다 (M66) · 가르다 (M66) as earlier vocabulary in the comparisons and sentence deck.
+
+**How to use this:** read the weld table first and cover the right-hand column, because guessing before you read is the whole drill. Then take the four drawers in order — verbs, adjectives, adverbs, nouns — and watch for the six receipts, since six of today's words were named and carried frozen by earlier notes and meeting them as payments is half the work done. The Radar patrol at the end is long and it is not optional: this shelf is made of syllables you already own, which is exactly what makes it dangerous — 업다 sounds like 없다, 간신히 has no 間 in it, and 골짜기 has nothing to do with football.
 
 ---
 
@@ -13,7 +15,7 @@ M113 handed you thirty-six words that refused to split. This shelf is the opposi
 | Word | Its two halves | Did the meaning stay? |
 |---|---|---|
 | 밝혀내다 | 밝히다 (M56) + 내다 (M28) | yes — bring to light, carried through to the end |
-| 튀어나오다 | 튀다 (today) + 나오다 (M28) | yes, then figurative: 말이 튀어나오다 |
+| 튀어나오다 | 튀다 (M66) + 나오다 (M28) | yes, then figurative: 말이 튀어나오다 |
 | 같이하다 | 같이 (M9) + 하다 (M1) | yes, but the register moved: this one wears a necktie |
 | 발걸음 | 발 (M14) + 걸음 (M38) | mostly — from the step to the weight of it |
 | 발길 | 발 (M14) + 길 (M12) | mostly — from the road to the direction the feet chose |
@@ -22,16 +24,15 @@ M113 handed you thirty-six words that refused to split. This shelf is the opposi
 | 곧잘 | 곧 (M10) + 잘 (M10) | **drifted furthest** — no soon in it at all |
 | 잘나다 | 잘 (M10) + 나다 (M28) | **drifted furthest** — well-turned-out, said as sarcasm |
 
-- **THE VERBS (달래다 밝혀내다 부서지다 업다 튀다 구르다 빼앗기다 튀어나오다 같이하다 살아나다 속이다 건네주다 내려지다 녹다 가르다):** bodies and things in motion. Three of the fifteen come off the two parties of Band 4 — 빼앗기다 is the passive party of M36 running on M111's 빼앗다, 속이다 is the causative party of M37 running on a 속다 that still rides frozen, and 내려지다 is M6's 내리다 on the -아/어지다 wing from M35. Two are mirrors of words you hold: 녹다 against M40's 얼다, 부서지다 against M36's 깨지다.
+- **THE VERBS (달래다 밝혀내다 부서지다 빼앗기다 튀어나오다 같이하다 살아나다 속이다 내려지다 녹다):** bodies and things in motion. Three of the ten come off the two parties of Band 4 — 빼앗기다 is the passive party of M36 running on M111's 빼앗다, 속이다 is the causative party of M37 running on a 속다 that still rides frozen, and 내려지다 is M6's 내리다 on the -아/어지다 wing from M35. Two are mirrors of words you hold: 녹다 against M40's 얼다, 부서지다 against M36's 깨지다.
 - **THE ADJECTIVES (명확하다 자세하다 불리하다 잘나다 지루하다):** three Sino and two native, and the Sino three decode entirely on characters you own — 明確 out of M34's 분명하다 and 확실하다, 仔細 out of M73's 자세히, 不利 out of M39's 부족하다 and M43's 이익.
 - **THE ADVERBS (하필 곧잘 실은 간신히 여간 이리저리 저마다):** the shelf's real difficulty. Four are Sino and NIKL prints their hanja — 何必, 實-, 艱辛-, 如干 — and one of them, 여간, means the opposite of what it looks like and cannot be used without a negative behind it.
 - **THE NOUNS (맘 발걸음 발길 소매 지난날 제자리 고함 골짜기):** feet, sleeves, shouts and valleys, plus 맘, which is M19's 마음 with the air let out — a 준말, the system that interlude assembled for you.
 
-**Receipts.** Seven earlier notes wrote an IOU on this shelf; all seven clear today.
+**Receipts.** Six earlier notes wrote an IOU on this shelf; all six clear today.
 
 | Today's word | The note that promised it |
 |---|---|
-| 튀다 | M82's 불꽃 — "불꽃 튀다 (튀다 — to fly off, riding frozen) = sparks fly" |
 | 자세하다 | M73's 자세히 — "仔細 (both characters new — 자세하다, detailed, rides frozen and glossed)" |
 | 불리하다 | M108's 유리하다 — "Its mirror 불리하다 still rides frozen and is one module short of landing" |
 | 빼앗기다 | M111's 빼앗다 — "Its passive 빼앗기다 (the party of M36, riding frozen) is how the losing side says the same sentence." |
@@ -41,7 +42,7 @@ M113 handed you thirty-six words that refused to split. This shelf is the opposi
 
 ::vocab::
 
-**Radar patrol:** three ways to carry a person — M28's 안다 in front, today's 업다 on the back, M66's 메다 over the shoulder · and 업다 is said 업따, exactly like M1's 없다, so only the sentence tells you whether a thing is absent or riding · 자세하다 is 仔細 and M98's 자세 is 姿勢, no shared character, so detail improves nobody's posture — the third note in this course to say so · the 유리 of 불리하다's mirror is 有利, not M36's 유리, the glass · 여간 needs a negative behind it and means the opposite without one, which is why it has a gap card · 지루하다 is the THING that drags, M7's 심심하다 is the PERSON with nothing to do, though NIKL does gloss the second with the first · the 골 of 골짜기 is the native valley-골 of M22's 골목 and M22's 시골, not M99's 골, the football score · the 간 of 간신히 is 艱, not the 間 of M55's 간, and no liver is involved · 가르다 has no relation whatever to M15's 가르치다 · the 구 of 구르다 is not M2's 구, the nine · the 소 of 소매 is not M59's 소, the ox · and 못나다, the mirror of 잘나다, is not M113's 못되다: 못되다 is nasty, 못나다 is merely sad.
+**Radar patrol:** three ways to carry a person — M28's 안다 in front, M66's 업다 on the back, M66's 메다 over the shoulder · and 업다 is said 업따, exactly like M1's 없다, so only the sentence tells you whether a thing is absent or riding · 자세하다 is 仔細 and M98's 자세 is 姿勢, no shared character, so detail improves nobody's posture — the third note in this course to say so · the 유리 of 불리하다's mirror is 有利, not M36's 유리, the glass · 여간 needs a negative behind it and means the opposite without one, which is why it has a gap card · 지루하다 is the THING that drags, M7's 심심하다 is the PERSON with nothing to do, though NIKL does gloss the second with the first · the 골 of 골짜기 is the native valley-골 of M22's 골목 and M22's 시골, not M99's 골, the football score · the 간 of 간신히 is 艱, not the 間 of M55's 간, and no liver is involved · 가르다 has no relation whatever to M15's 가르치다 · the 구 of 구르다 is not M2's 구, the nine · the 소 of 소매 is not M59's 소, the ox · and 못나다, the mirror of 잘나다, is not M113's 못되다: 못되다 is nasty, 못나다 is merely sad.
 
 ---
 

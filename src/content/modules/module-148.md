@@ -2,6 +2,8 @@
 
 A bag needs moving, a road bends, and a summer walk changes when rain arrives. The words in this pack follow the movement of people and things through ordinary places.
 
+**Vocabulary map:** 34 new checklist words. Reuse 건넌방 (M65) · 반대편 (M65) as earlier vocabulary in the comparisons and sentence deck.
+
 **How to use this:** Learn the checklist, then read each three-layer sentence in order. Trace each Korean chunk through the gloss to the natural English.
 
 > **Warm-up — transfer from Module 147.** Say: (1) Consult a guide to the nearby town before walking. (2) Ask the host to prepare the talk personally. (3) Describe the raindrops that reached a historic site. Build new scenes from the previous pack's blocks.
@@ -10,7 +12,7 @@ A bag needs moving, a road bends, and a summer walk changes when rain arrives. T
 
 ## Part 1 — The route and its load
 
-운반 moves goods; 출퇴근 names both legs of a work commute. 로터리 is a circular junction, 반대편 the opposite side, and 산길 a route through the mountains. A 저울 measures the load before it moves.
+운반 moves goods; 출퇴근 names both legs of a work commute. 로터리 is a circular junction and 산길 a route through the mountains. M65's 반대편 places something on the opposite side; 건넌방 returns for a room across a hall or courtyard. A 저울 measures the load before it moves.
 
 ## Part 2 — Small changes you can see
 

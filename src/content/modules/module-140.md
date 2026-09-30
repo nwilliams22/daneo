@@ -2,6 +2,8 @@
 
 Someone enters a name, someone waits for care, and a friend makes an anxious afternoon easier. This pack follows people through services and shared spaces, with a few verbs that move the whole scene.
 
+**Vocabulary map:** 34 new checklist words. Reuse 방바닥 (M65) · 창가 (M65) as earlier vocabulary in the comparisons and sentence deck.
+
 **How to use this:** Read the scene shelves, then learn the vocabulary before opening the sentences. Follow each chunk through Korean, literal gloss and natural English.
 
 > **Warm-up — transfer from Module 139.** Say: (1) The private tutor left the teaching materials in the lab. (2) The roster will be organized next month. (3) The wind and rain grew stronger unexpectedly. Use fresh combinations rather than repeating an earlier sentence.
@@ -12,7 +14,7 @@ Someone enters a name, someone waits for care, and a friend makes an anxious aft
 
 **A person, a process, a document.** 이용자 names the user of a service. 입력하다 enters information into its system. 자격증 is the certificate proving a qualification, while 합격하다 says that someone passed a selection or examination. The document and the result are related, but they are not the same noun.
 
-**A seat by the window.** 창가 points beside a window, 방바닥 to the room floor, and 벤치 to a shared seat. The 가 in 창가 and 눈가 belongs to the word: 눈가 is the area around the eyes. Add another particle when the sentence needs one.
+**A seat by the window.** M65's 창가 points beside a window and 방바닥 to the room floor; today's 벤치 adds a shared seat. The 가 in 창가 and 눈가 belongs to the word: 눈가 is the area around the eyes. Add another particle when the sentence needs one.
 
 **Life with other people.** 사회생활 includes work and obligations as well as company. 심리적 describes a psychological dimension; 법적 a legal one. 초조하다 names anxious restlessness, 위로 offers comfort, and 함께하다 puts someone beside you through an experience. 위로 here is a noun, not the directional phrase meaning upward.
 

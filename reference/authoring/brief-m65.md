@@ -1,68 +1,22 @@
 # Brief — M65 "Where in the House" (order 74, ring 2, band 6)
 
-Read SHARED-BRIEF.md first; follow exactly. Band 6: garnish-free.
+Read SHARED-BRIEF.md and CURRICULUM.md §2b and §4. This reconciled brief describes the shipped ownership after the 2026-09-30 correction. No garnish or new glue.
 
-**Theme:** the spatial vocabulary of the Korean home — the rooms, the
-orientations, and the directional words that slot things into
-three-dimensional space. Two machines: (1) the -쪽 direction factory
-(the side) on top of every orientation noun, and (2) the X-속
-compound factory (in/inside X).
+**Theme:** Domestic space, directions and the words that place a person or object.
 
-**Organizing machines:**
-1. **The -쪽 direction factory:** 위쪽 (above-side), 아래쪽
-   (below-side), 앞쪽 (front-side), 뒤쪽 (back-side), 안쪽
-   (inner-side). One suffix, five directions: the learner already
-   knows each component (M11's 위, M17's 앞, M19's 뒤, M5's 안) —
-   the -쪽 just re-shells them into the side-frame. Verify each
-   component's moduleId first.
-2. **The X-속 "inside" factory:** 물속 (in the water — M10's 물 +
-   the 속 factory), 눈앞 (right in front of the eyes — M15's 눈?
-   verify), 가슴속 (in the chest — M12's 가슴? verify), 머릿속
-   (in the head — M10's 머리, verify), 꿈속 (in the dream — M11's
-   꿈, verify). Compound factory: noun + 속 = inside/in the [noun].
-3. **The room nouns:** 집안 (the home-internals — M10's 집?
-   verify), 식구 (the household — the 식 family), 안방 (the inner
-   room — M10's 안? verify + the 방 factory), 복도 (the corridor —
-   verify M31's 복도 if taught), 창밖 (the window-outside — M30's
-   창? verify + M20's 밖), 실내 (the interior — the 실 factory),
-   불빛 (the light-glow — M10's 불 + M20's 빛? verify), 창고 (the
-   warehouse), 강당 (the hall), 캠퍼스 (the campus), 교문 (the
-   school gate — M12's 교 + M10's 문), 정문 (the main gate — M15's
-   정 + M10's 문), 출입문 (the entrance/exit door).
-4. **The adjacent nouns:** 양쪽 (both sides — M20's 양? verify),
-   옆집 (the neighboring house), 옆방 (the next room), 앞뒤
-   (front-and-back — M17's 앞 + M19's 뒤), 앞길 (the road-ahead —
-   M17's 앞 + M10's 길), 지점 (the branch), 코너 (the corner),
-   센터 (the center), 바깥 (the outside — M20's 바깥? verify).
+**Word slice (40, current ownership):** 집안 · 식구 · 안방 · 복도 · 창밖 · 실내 · 불빛 · 바깥 · 물속 · 눈앞 · 양쪽 · 안쪽 · 뒤쪽 · 위쪽 · 아래쪽 · 옆집 · 옆방 · 앞뒤 · 앞길 · 앞쪽 · 가슴속 · 머릿속 · 꿈속 · 창고 · 지점 · 코너 · 센터 · 강당 · 캠퍼스 · 교문 · 정문 · 출입문 · 현관문 · 금고 · 방바닥 · 창가 · 건넌방 · 반대편 · 구석구석 · 안팎.
 
-**Word slice (33 — rank · word · pos):**
-집안 home-internals noun · 식구 household noun ·
-안방 inner-room noun · 복도 corridor noun ·
-창밖 window-outside noun · 실내 interior noun ·
-불빛 light-glow noun · 바깥 outside noun ·
-물속 in-the-water noun · 눈앞 in-front-of-eye noun ·
-양쪽 both-sides noun · 안쪽 inner-side noun ·
-뒤쪽 back-side noun · 위쪽 above-side noun ·
-아래쪽 below-side noun · 옆집 neighboring-house noun ·
-옆방 next-room noun · 앞뒤 front-and-back noun ·
-앞길 road-ahead noun · 앞쪽 front-side noun ·
-가슴속 in-the-chest noun · 머릿속 in-the-head noun ·
-꿈속 in-the-dream noun · 창고 warehouse noun ·
-지점 branch noun · 코너 corner noun ·
-센터 center noun · 강당 hall noun ·
-캠퍼스 campus noun · 교문 school-gate noun ·
-정문 main-gate noun · 출입문 entrance-door noun ·
-(32 total, exact)
+**Transfers with stable IDs:** 현관문 ← M137; 금고 ← M137; 방바닥 ← M140; 창가 ← M140; 건넌방 ← M148; 반대편 ← M148; 구석구석 ← M120; 안팎 ← M120. Teach all additions with their full notes; no earlier word counts twice.
 
-**Sentences:** 8; ≥1 room-tour scene (안방 → 복도 → 창구), ≥1
-in-the-X scene (물속 or 가슴속), ≥1 -쪽 scene (위쪽 or 아래쪽),
-≥3 recycling recent machinery. No dup text. M64 (society/work) and
-M66 (action verbs) are parallel — avoid their slice words.
+**Organizing plan:**
 
-**Gap candidates:** 안방마님 (the inner-room lady — the
-housewife's formal title; 마님 freezes and gets glossed; radar on
-안방), 불야성 (the light-city — all-night-bright scene; 불 + 야
-frozen — verify). Max 3; 2 fine.
+1. The -쪽 factory: 위쪽, 아래쪽, 앞쪽, 뒤쪽 and 안쪽 build on direction words from M6. The -속 compounds describe literal and imagined interiors: 물속, 가슴속, 머릿속 and 꿈속.
+2. Rooms and thresholds: 집안, 안방, 복도, 창밖 and 출입문. Add 현관문 as the entrance door and 금고 as the safe or vault. Decode 玄關 and 金庫 directly; 현관 stays frozen and glossed.
+3. Place the body: M8's 방 + M13's 바닥 makes 방바닥. 창가 uses the window-root in M6's 창문 plus the edge/side 가, not a subject particle. Compare 창밖 with 창가.
+4. Place the neighbouring room: 옆방 is alongside, 건넌방 across a hall; 건너 stays frozen and glossed. 반대편 uses M24's 반대 and the side sense of M55's 편. 구석구석 doubles 구석 (nook, frozen) to cover every corner. 안팎 combines inside/outside and also gives an approximate numerical range.
 
-**Output files:** draft-m65.words.json, .sentences.json, .gap.json,
-.md, .meta.json — to the scratchpad dir named in SHARED-BRIEF.md.
+**Sentences and gaps:** Preserve the shipped 8 sentence payloads and existing gap cards. Use only same-or-earlier vocabulary and grammar. Keep at least three recycling scenes and the rule/application, home/space or action contrasts above.
+
+**Prose and notes:** Match the shipped lesson’s sections and `::vocab::` / `::sentences::` slots. Decode roots or native-word contrasts, give usable phrases and verify each ownership or verbatim-quote claim against the live corpus. Later lexical roots must be frozen and glossed in target notes. Preserve donor predecessor warm-ups and recycling.
+
+**Validation:** 40 distinct non-particle checklist words with matching word and ledger ownership. Run content validation, shipped language lint, both ring ledgers, NIKL coverage, brief owner/quote checks and the visual pass.

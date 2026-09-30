@@ -260,6 +260,15 @@ M102 retains 30 words (from 37), M105 retains 30 (from 35), and M107 retains
 30 (from 36), all within Ring 3's 30–38 contract; these donors have no further
 capacity. Stable IDs, existing sentences and overall NIKL coverage are preserved.
 
+**M64–M66 count correction (2026-09-30):** each pack owns 40 distinct
+non-particle checklist words, with 27 existing grade-C words moved forward
+and stable IDs preserved. M64 adds proof, reporting, limits and duties; M65
+adds domestic positions and objects; M66 adds physical-action verbs. Current
+donor counts: M104 30, M108 30, M112 30, M114 30, M116 30, M120 30,
+M137 34, M140 34 and M148 34. All remain within Ring 3’s 30–38 range.
+Existing sentences and NIKL coverage remain intact; donor sentences reuse
+the transferred words as earlier vocabulary.
+
 ### Ring 2 glue checklist (~40 patterns)
 
 Quoting -다고/-라고/-냐고/-자고/-달라고 · indirect -는지 · **-는데/-(으)ㄴ데**
