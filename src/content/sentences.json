@@ -32487,5 +32487,245 @@
     "rom": "yujeokjireul dulleobogoseo yeoksareul doedorabwasseoyo",
     "wordIds": ["w_yujeokji", "w_dulleoboda", "w_yeoksa", "w_doedoraboda"],
     "note": "-고서 from M85 puts reflection after the visit. 되돌아보다 turns a backward gaze into thought about the past."
+  },
+  {
+    "id": "s_m147_attend",
+    "en": [
+      { "t": "Even if we restrict", "role": "other", "id": "c" },
+      { "t": "those eligible to attend", "role": "object", "id": "a" },
+      { "t": "to students,", "role": "other", "id": "b" },
+      { "t": "we must prepare.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "attendance eligible-person-[obj]", "role": "object", "id": "a" },
+      { "t": "student-[to]", "role": "other", "id": "b" },
+      { "t": "limit-[even-if]", "role": "other", "id": "c" },
+      { "t": "prepare-[must]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "참석 대상자를", "role": "object", "id": "a" },
+      { "t": "학생으로", "role": "other", "id": "b" },
+      { "t": "한정하더라도", "role": "other", "id": "c" },
+      { "t": "준비해야 해요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "chamseok daesangjareul haksaengeuro hanjeonghadeorado junbihaeya haeyo",
+    "wordIds": ["w_chamseok", "w_daesangja", "w_haksaeng", "w_hanjeonghada", "w_junbihada", "w_hada"],
+    "note": "-더라도 from M95 preserves the need for preparation despite a restriction. 참석 from M146 specifies what the 대상자 are eligible to do."
+  },
+  {
+    "id": "s_m147_reuse",
+    "en": [
+      { "t": "After consulting", "role": "other", "id": "d" },
+      { "t": "the material", "role": "object", "id": "c" },
+      { "t": "about", "role": "other", "id": "b" },
+      { "t": "recycling,", "role": "other", "id": "a" },
+      { "t": "my attitude", "role": "subject", "id": "e" },
+      { "t": "changed.", "role": "verb", "id": "f" }
+    ],
+    "gloss": [
+      { "t": "recycling-[for]", "role": "other", "id": "a" },
+      { "t": "concerning-[modifier]", "role": "other", "id": "b" },
+      { "t": "material-[obj]", "role": "object", "id": "c" },
+      { "t": "consulted-[result]", "role": "other", "id": "d" },
+      { "t": "attitude-[subj]", "role": "subject", "id": "e" },
+      { "t": "changed", "role": "verb", "id": "f" }
+    ],
+    "ko": [
+      { "t": "재활용에", "role": "other", "id": "a" },
+      { "t": "관한", "role": "other", "id": "b" },
+      { "t": "자료를", "role": "object", "id": "c" },
+      { "t": "참고한 결과", "role": "other", "id": "d" },
+      { "t": "태도가", "role": "subject", "id": "e" },
+      { "t": "바뀌었어요.", "role": "verb", "id": "f" }
+    ],
+    "rom": "jaehwaryonge gwanhan jaryoreul chamgohan gyeolgwa taedoga bakkwieosseoyo",
+    "wordIds": ["w_jaehwaryong", "w_gwanhada", "w_jaryo", "w_chamgohada", "w_gyeolgwa", "w_bakkwida", "w_taedo"],
+    "note": "-(으)ㄴ 결과 from M90 gives the result of consulting information. 재활용 from M146 supplies the topic of the material."
+  },
+  {
+    "id": "s_m147_skills",
+    "en": [
+      { "t": "After joining the company,", "role": "other", "id": "a" },
+      { "t": "my skills", "role": "subject", "id": "b" },
+      { "t": "improved.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "join-company-[after]", "role": "other", "id": "a" },
+      { "t": "skill-[subj]", "role": "subject", "id": "b" },
+      { "t": "improved", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "입사하고서", "role": "other", "id": "a" },
+      { "t": "실력이", "role": "subject", "id": "b" },
+      { "t": "향상되었어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "ipsahagoseo sillyeogi hyangsangdoeeosseoyo",
+    "wordIds": ["w_ipsa", "w_hada", "w_sillyeok", "w_hyangsangdoeda"],
+    "note": "-고서 from M85 orders joining and improvement. 입사 from M146 becomes an action with 하다; 향상되다 puts the improving skills in the subject slot."
+  },
+  {
+    "id": "s_m147_walk",
+    "en": [
+      { "t": "As I walked", "role": "other", "id": "b" },
+      { "t": "in the outskirts,", "role": "place", "id": "a" },
+      { "t": "raindrops", "role": "subject", "id": "c" },
+      { "t": "began to fall.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "outskirts-[in]", "role": "place", "id": "a" },
+      { "t": "walk-[over-time]", "role": "other", "id": "b" },
+      { "t": "raindrop-[subj]", "role": "subject", "id": "c" },
+      { "t": "fell", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "근교에서", "role": "place", "id": "a" },
+      { "t": "걷다 보니", "role": "other", "id": "b" },
+      { "t": "빗방울이", "role": "subject", "id": "c" },
+      { "t": "떨어졌어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "geungyoeseo geotda boni bitbanguri tteoreojyeosseoyo",
+    "wordIds": ["w_geungyo", "w_geotda", "w_bitbangul", "w_tteoreojida"],
+    "note": "-다 보니 from M94 places the new observation during an ongoing activity. 근교 names the area near a city, and 빗방울 makes the weather concrete."
+  },
+  {
+    "id": "s_m147_host",
+    "en": [
+      { "t": "The host", "role": "subject", "id": "a" },
+      { "t": "personally", "role": "other", "id": "b" },
+      { "t": "prepared everything, but still", "role": "other", "id": "c" },
+      { "t": "worried.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "host-[topic]", "role": "subject", "id": "a" },
+      { "t": "personally", "role": "other", "id": "b" },
+      { "t": "prepare-[even-after]", "role": "other", "id": "c" },
+      { "t": "worried", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "사회자는", "role": "subject", "id": "a" },
+      { "t": "손수", "role": "other", "id": "b" },
+      { "t": "준비하고도", "role": "other", "id": "c" },
+      { "t": "걱정했어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "sahoejaneun sonsu junbihagodo geokjeonghaesseoyo",
+    "wordIds": ["w_sahoeja", "w_sonsu", "w_junbihada", "w_geokjeonghada"],
+    "note": "-고도 from M85 contrasts personal preparation with continuing worry. 손수 focuses on the host doing the work."
+  },
+  {
+    "id": "s_m147_warm",
+    "en": [
+      { "t": "The weather", "role": "subject", "id": "a" },
+      { "t": "is admittedly mild, but", "role": "other", "id": "b" },
+      { "t": "the flowers", "role": "subject", "id": "c" },
+      { "t": "have wilted.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "weather-[subj]", "role": "subject", "id": "a" },
+      { "t": "mild-[admittedly-but]", "role": "other", "id": "b" },
+      { "t": "flower-[topic]", "role": "subject", "id": "c" },
+      { "t": "wilted", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "날씨가", "role": "subject", "id": "a" },
+      { "t": "포근하기는 하지만", "role": "other", "id": "b" },
+      { "t": "꽃은", "role": "subject", "id": "c" },
+      { "t": "시들었어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "nalssiga pogeunhagineun hajiman kkocheun sideureosseoyo",
+    "wordIds": ["w_nalssi", "w_pogeunhada", "w_kkot", "w_sideulda"],
+    "note": "-기는 하다 from M92 acknowledges pleasant weather before the disappointing contrast. 포근하다 does not imply that the flowers must be healthy."
+  },
+  {
+    "id": "s_m147_disc",
+    "en": [
+      { "t": "The CD", "role": "subject", "id": "a" },
+      { "t": "seems likely to", "role": "verb", "id": "c" },
+      { "t": "go on sale.", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "CD-[subj]", "role": "subject", "id": "a" },
+      { "t": "be-sold-[prospective]", "role": "verb", "id": "b" },
+      { "t": "seems", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "시디가", "role": "subject", "id": "a" },
+      { "t": "판매될", "role": "verb", "id": "b" },
+      { "t": "듯해요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "sidiga panmaedoel deuthaeyo",
+    "wordIds": ["w_sidi", "w_panmaedoeda", "w_deuthada"],
+    "note": "-(으)ㄹ 듯하다 from M87 gives an expectation rather than a confirmed sale date. The product, not the seller, is the subject."
+  },
+  {
+    "id": "s_m147_doubt",
+    "en": [
+      { "t": "Even if the result is uncertain,", "role": "other", "id": "a" },
+      { "t": "do not worry", "role": "verb", "id": "d" },
+      { "t": "needlessly.", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "result-[subj] uncertain-[even-if]", "role": "other", "id": "a" },
+      { "t": "needlessly", "role": "other", "id": "c" },
+      { "t": "worry-[do-not]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "결과가 불확실하더라도", "role": "other", "id": "a" },
+      { "t": "쓸데없이", "role": "other", "id": "c" },
+      { "t": "걱정하지 마세요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "gyeolgwaga bulhwaksilhadeorado sseuldeeopsi geokjeonghaji maseyo",
+    "wordIds": ["w_gyeolgwa", "w_bulhwaksilhada", "w_sseuldeeopsi", "w_geokjeonghada"],
+    "note": "-더라도 from M95 allows uncertainty without treating worry as useful. -지 마세요 from M14 makes the final clause a polite instruction."
+  },
+  {
+    "id": "s_m147_circle",
+    "en": [
+      { "t": "After drawing", "role": "other", "id": "b" },
+      { "t": "a circle,", "role": "object", "id": "a" },
+      { "t": "I wrote down", "role": "verb", "id": "d" },
+      { "t": "the common points.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "circle-[obj]", "role": "object", "id": "a" },
+      { "t": "draw-[after]", "role": "other", "id": "b" },
+      { "t": "common-point-[obj]", "role": "object", "id": "c" },
+      { "t": "wrote", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "동그라미를", "role": "object", "id": "a" },
+      { "t": "그리고서", "role": "other", "id": "b" },
+      { "t": "공통점을", "role": "object", "id": "c" },
+      { "t": "적었어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "donggeuramireul geurigoseo gongtongjeomeul jeogeosseoyo",
+    "wordIds": ["w_donggeurami", "w_geurida", "w_gongtongjeom", "w_jeokda"],
+    "note": "-고서 from M85 orders two actions on a page. 공통점 from M144 supplies a familiar relative of this pack’s 공통."
+  },
+  {
+    "id": "s_m147_meeting",
+    "en": [
+      { "t": "We met", "role": "other", "id": "c" },
+      { "t": "by chance", "role": "other", "id": "b" },
+      { "t": "at the historic site,", "role": "place", "id": "a" },
+      { "t": "and talked", "role": "verb", "id": "e" },
+      { "t": "all day.", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "historic-site-[at]", "role": "place", "id": "a" },
+      { "t": "by-chance", "role": "other", "id": "b" },
+      { "t": "met-[and-found]", "role": "other", "id": "c" },
+      { "t": "all-day", "role": "other", "id": "d" },
+      { "t": "talked", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "유적지에서", "role": "place", "id": "a" },
+      { "t": "어쩌다가", "role": "other", "id": "b" },
+      { "t": "만났더니", "role": "other", "id": "c" },
+      { "t": "온종일", "role": "other", "id": "d" },
+      { "t": "이야기했어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "yujeokjieseo eojjeodaga mannatdeoni onjongil iyagihaesseoyo",
+    "wordIds": ["w_yujeokji", "w_eojjeodaga", "w_mannada", "w_onjongil", "w_iyagihada"],
+    "note": "-았/었더니 from M88 connects a meeting with what followed. 유적지 from M146 hosts an accidental encounter; 온종일 stretches the conversation across the day."
   }
 ]

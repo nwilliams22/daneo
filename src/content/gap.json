@@ -3616,5 +3616,23 @@
     "lit": "appetite does not exist",
     "real": "To have no appetite.",
     "note": "English assigns the lack to a person who has no appetite. Korean makes 식욕 the subject of 없다; it is the appetite that fails to exist, not the food."
+  },
+  {
+    "id": "g_m147_circle",
+    "cat": "phrase",
+    "ko": "동그라미를 치다",
+    "rom": "donggeuramireul chida",
+    "lit": "strike a circle",
+    "real": "To mark something with a circle.",
+    "note": "치다 names making the mark in this set expression. The listener should draw a circle around an answer, not strike a round object."
+  },
+  {
+    "id": "g_m147_day",
+    "cat": "concept",
+    "ko": "온종일",
+    "rom": "onjongil",
+    "lit": "the whole entire day",
+    "real": "All day long.",
+    "note": "온- strengthens the already whole-day meaning of 종일. English normally keeps a single all day and may add long to preserve the emphasis."
   }
 ]

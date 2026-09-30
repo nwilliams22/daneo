@@ -3507,5 +3507,28 @@
       "s_m146_ham", "s_m146_delay", "s_m146_welcome", "s_m146_recycle",
       "s_m146_friends", "s_m146_lookback"
     ]
+  },
+  {
+    "id": "m147",
+    "title": "Shared Ground, Small Details and Change",
+    "order": 156,
+    "ring": 2,
+    "contentMd": "modules/module-147.md",
+    "wordIds": [
+      "w_jureumsal", "w_chamgohada", "w_cheolhakjeok", "w_panmaedoeda",
+      "w_pogeunhada", "w_hananim", "w_hangnyeok", "w_hanjeonghada",
+      "w_hyangsangdoeda", "w_gatollik", "w_geotgi", "w_gongtong",
+      "w_gukgajeok", "w_gwitsok", "w_geuraepik", "w_geungyo",
+      "w_gichojeok", "w_dayangseong", "w_daesangja", "w_donggeurami",
+      "w_tteonaoda", "w_reijeo", "w_bosujeok", "w_bulhwaksilhada",
+      "w_biman", "w_bitbangul", "w_sahoeja", "w_sonsu",
+      "w_sideulda", "w_sidi", "w_sinsa", "w_sseuldeeopsi",
+      "w_yahada", "w_eojjeodaga", "w_onjongil", "w_wangbi"
+    ],
+    "sentenceIds": [
+      "s_m147_attend", "s_m147_reuse", "s_m147_skills", "s_m147_walk",
+      "s_m147_host", "s_m147_warm", "s_m147_disc", "s_m147_doubt",
+      "s_m147_circle", "s_m147_meeting"
+    ]
   }
 ]

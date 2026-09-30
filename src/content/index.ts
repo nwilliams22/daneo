@@ -1,3 +1,4 @@
+import module147Md from "./modules/module-147.md?raw";
 import module146Md from "./modules/module-146.md?raw";
 import module145Md from "./modules/module-145.md?raw";
 import wordsJson from "./words.json";
@@ -346,6 +347,7 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-144.md": module144Md,
   "modules/module-145.md": module145Md,
   "modules/module-146.md": module146Md,
+  "modules/module-147.md": module147Md,
   "modules/module-143.md": module143Md,
   "modules/module-142.md": module142Md,
   "modules/module-76.md": module76Md,
