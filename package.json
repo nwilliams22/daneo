@@ -16,6 +16,7 @@
     "coverage:nikl": "tsx scripts/nikl-coverage.ts",
     "ring2:plan": "tsx scripts/ring2-plan.ts",
     "ring3:plan": "tsx scripts/ring2-plan.ts -- --ring 3",
+    "visual:pass": "node scripts/visual-pass.mjs",
     "lint:lang": "python3 reference/authoring/lint_language.py --shipped"
   },
   "dependencies": {

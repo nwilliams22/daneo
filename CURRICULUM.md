@@ -354,8 +354,9 @@ Every vocab module ships, in one session-sized unit:
    essentially complete; expect ~zero).
 7. **Registration** — modules.json (next `order`), content/index.ts markdown
    map.
-8. **Green** — `validate:content`, full test suite, build; TASKS.md log
-   entry.
+8. **Green** — `validate:content`, full test suite, build;
+   `npm run visual:pass -- <module ids>` green with the PNGs in `.visual-pass/`
+   actually looked at; TASKS.md log entry.
 
 Interludes are the same minus words/sentences/gap items.
 
