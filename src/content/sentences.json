@@ -28512,5 +28512,251 @@
     "rom": "sasohan songiljocha gijeogi doel su isseoyo.",
     "wordIds": ["w_sasohada", "w_songil", "w_gijeok", "w_doeda", "w_itda"],
     "note": "조차 from M89 includes even an unlikely minimum. 기적이 is the complement of 되다, so its role is other despite the particle 이."
+  },
+  {
+    "id": "s_m135_invitation",
+    "en": [
+      { "t": "While inviting", "role": "other", "id": "b" },
+      { "t": "the playwright,", "role": "object", "id": "a" },
+      { "t": "I requested", "role": "verb", "id": "d" },
+      { "t": "an instrumental performance too.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "playwright-[obj]", "role": "object", "id": "a" },
+      { "t": "invite-while-at-it", "role": "other", "id": "b" },
+      { "t": "performance-also", "role": "object", "id": "c" },
+      { "t": "requested-[past-polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "극작가를", "role": "object", "id": "a" },
+      { "t": "초청하는 김에", "role": "other", "id": "b" },
+      { "t": "연주도", "role": "object", "id": "c" },
+      { "t": "부탁했어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "geukjakgareul chocheonghaneun gime yeonjudo butakhaesseoyo.",
+    "wordIds": ["w_geukjakga", "w_chocheonghada", "w_yeonju", "w_butakhada"],
+    "note": "-는 김에 from M91 makes the invitation an occasion for another request. M134’s 극작가 supplies the guest; the sentence does not require the guest to be the musician."
+  },
+  {
+    "id": "s_m135_portrait",
+    "en": [
+      { "t": "I finally saw", "role": "other", "id": "b" },
+      { "t": "the portrait;", "role": "object", "id": "a" },
+      { "t": "only then", "role": "other", "id": "c" },
+      { "t": "did I recall", "role": "verb", "id": "e" },
+      { "t": "youth.", "role": "object", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "portrait-[obj]", "role": "object", "id": "a" },
+      { "t": "see-only-after", "role": "other", "id": "b" },
+      { "t": "only-then", "role": "other", "id": "c" },
+      { "t": "youth-[obj]", "role": "object", "id": "d" },
+      { "t": "recalled-[past-polite]", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "초상화를", "role": "object", "id": "a" },
+      { "t": "보고서야", "role": "other", "id": "b" },
+      { "t": "그제야", "role": "other", "id": "c" },
+      { "t": "젊음을", "role": "object", "id": "d" },
+      { "t": "떠올렸어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "chosanghwareul bogoseoya geujeya jeolmeumeul tteoollyeosseoyo.",
+    "wordIds": ["w_chosanghwa", "w_boda", "w_geujeya", "w_jeolmeum", "w_tteoollida"],
+    "note": "-고서 from M85 gains 야 to mark the delayed point of realization. M134’s 초상화 brings back youth; 그제야 reinforces “only then.”"
+  },
+  {
+    "id": "s_m135_aircraft",
+    "en": [
+      { "t": "While waiting for", "role": "other", "id": "b" },
+      { "t": "the aircraft,", "role": "object", "id": "a" },
+      { "t": "I listened to", "role": "verb", "id": "d" },
+      { "t": "an instrumental performance.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "aircraft-[obj]", "role": "object", "id": "a" },
+      { "t": "wait-while-at-it", "role": "other", "id": "b" },
+      { "t": "instrumental-performance-[obj]", "role": "object", "id": "c" },
+      { "t": "listened-[past-polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "항공기를", "role": "object", "id": "a" },
+      { "t": "기다리는 김에", "role": "other", "id": "b" },
+      { "t": "연주를", "role": "object", "id": "c" },
+      { "t": "들었어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "hanggonggireul gidarineun gime yeonjureul deureosseoyo.",
+    "wordIds": ["w_hanggonggi", "w_gidarida", "w_yeonju", "w_deutda"],
+    "note": "-는 김에 from M91 makes waiting an occasion to do something else. M134’s 항공기 now supplies the travel setting; the performance is what the listener hears."
+  },
+  {
+    "id": "s_m135_future",
+    "en": [
+      { "t": "Having strengthened", "role": "other", "id": "b" },
+      { "t": "my resolve,", "role": "object", "id": "a" },
+      { "t": "I trust", "role": "verb", "id": "d" },
+      { "t": "the days ahead.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "resolve-[obj]", "role": "object", "id": "a" },
+      { "t": "made-firm-as-much-as", "role": "other", "id": "b" },
+      { "t": "future-[obj]", "role": "object", "id": "c" },
+      { "t": "trust-[polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "각오를", "role": "object", "id": "a" },
+      { "t": "굳힌 만큼", "role": "other", "id": "b" },
+      { "t": "앞날을", "role": "object", "id": "c" },
+      { "t": "믿어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "gagoreul guthin mankeum amnareul mideoyo.",
+    "wordIds": ["w_gago", "w_guthida", "w_amnal", "w_mitda"],
+    "note": "The extent/grounds pattern -(으)ㄴ 만큼 revisited in M89 connects resolve to confidence. M134’s 각오 and 굳히다 now support an outlook on the future."
+  },
+  {
+    "id": "s_m135_ranking",
+    "en": [
+      { "t": "As the ranking", "role": "subject", "id": "a" },
+      { "t": "gets higher,", "role": "other", "id": "b" },
+      { "t": "the coverage too", "role": "subject", "id": "c" },
+      { "t": "becomes more fun.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "ranking-[subj]", "role": "subject", "id": "a" },
+      { "t": "become-high-the-more", "role": "other", "id": "b" },
+      { "t": "relay-broadcast-also", "role": "subject", "id": "c" },
+      { "t": "becomes-fun-[polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "순위가", "role": "subject", "id": "a" },
+      { "t": "높아질수록", "role": "other", "id": "b" },
+      { "t": "중계방송도", "role": "subject", "id": "c" },
+      { "t": "재밌어져요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "sunwiga nopajilsurok junggyebangsongdo jaemisseojyeoyo.",
+    "wordIds": ["w_sunwi", "w_nopajida", "w_junggyebangsong", "w_jaemitda"],
+    "note": "-(으)ㄹ수록 from M89 links the improved standing to the viewing experience. 재밌다 is the short form of 재미있다; becoming adds -어지다."
+  },
+  {
+    "id": "s_m135_generation",
+    "en": [
+      { "t": "As I kept talking", "role": "other", "id": "b" },
+      { "t": "with the older generation,", "role": "other", "id": "a" },
+      { "t": "the starting points", "role": "subject", "id": "c" },
+      { "t": "turned out to be different.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "established-generation-with", "role": "other", "id": "a" },
+      { "t": "talk-as-I-kept", "role": "other", "id": "b" },
+      { "t": "starting-point-[subj]", "role": "subject", "id": "c" },
+      { "t": "were-different-[past-polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "기성세대와", "role": "other", "id": "a" },
+      { "t": "이야기하다 보니", "role": "other", "id": "b" },
+      { "t": "출발점이", "role": "subject", "id": "c" },
+      { "t": "달랐어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "giseongsedaewa iyagihada boni chulbaljeomi dallasseoyo.",
+    "wordIds": ["w_giseongsedae", "w_iyagihada", "w_chulbaljeom", "w_dareuda"],
+    "note": "-다 보니 from M94 brings an understanding out of experience. The starting points are viewpoints in a discussion, not necessarily locations on a track."
+  },
+  {
+    "id": "s_m135_payment",
+    "en": [
+      { "t": "Even if payment", "role": "subject", "id": "a" },
+      { "t": "is late,", "role": "other", "id": "b" },
+      { "t": "please do not leave", "role": "verb", "id": "d" },
+      { "t": "without permission.", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "payment-[subj]", "role": "subject", "id": "a" },
+      { "t": "late-even-if", "role": "other", "id": "b" },
+      { "t": "permission-without", "role": "other", "id": "c" },
+      { "t": "leave-do-not-[polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "지급이", "role": "subject", "id": "a" },
+      { "t": "늦더라도", "role": "other", "id": "b" },
+      { "t": "허락 없이", "role": "other", "id": "c" },
+      { "t": "나가지는 마세요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "jigeubi neutdeorado heorak eopsi nagajineun maseyo.",
+    "wordIds": ["w_jigeup", "w_neutda", "w_heorak", "w_eopsi", "w_nagada"],
+    "note": "-더라도 from M95 separates a delay from the instruction that still applies. 허락 is permission; the sentence does not say that late payment is acceptable."
+  },
+  {
+    "id": "s_m135_window",
+    "en": [
+      { "t": "When I opened", "role": "other", "id": "b" },
+      { "t": "the vehicle window,", "role": "object", "id": "a" },
+      { "t": "chilly", "role": "other", "id": "c" },
+      { "t": "air", "role": "subject", "id": "d" },
+      { "t": "came in.", "role": "verb", "id": "e" }
+    ],
+    "gloss": [
+      { "t": "vehicle-window-[obj]", "role": "object", "id": "a" },
+      { "t": "opened-and-found", "role": "other", "id": "b" },
+      { "t": "chilly", "role": "other", "id": "c" },
+      { "t": "wind-[subj]", "role": "subject", "id": "d" },
+      { "t": "came-in-[past-polite]", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "차창을", "role": "object", "id": "a" },
+      { "t": "열었더니", "role": "other", "id": "b" },
+      { "t": "썰렁한", "role": "other", "id": "c" },
+      { "t": "바람이", "role": "subject", "id": "d" },
+      { "t": "들어왔어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "chachangeul yeoreotdeoni sseolleonghan barami deureowasseoyo.",
+    "wordIds": ["w_chachang", "w_yeolda", "w_sseolleonghada", "w_baram", "w_deureooda"],
+    "note": "-았/었더니 from M88 introduces the result of opening the window. 썰렁하다 is physical chill here, not an awkward social atmosphere."
+  },
+  {
+    "id": "s_m135_road",
+    "en": [
+      { "t": "As the road", "role": "subject", "id": "a" },
+      { "t": "is built,", "role": "other", "id": "b" },
+      { "t": "the village too", "role": "subject", "id": "c" },
+      { "t": "changes.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "road-[subj]", "role": "subject", "id": "a" },
+      { "t": "be-constructed-as", "role": "other", "id": "b" },
+      { "t": "village-also", "role": "subject", "id": "c" },
+      { "t": "is-changed-[polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "도로가", "role": "subject", "id": "a" },
+      { "t": "건설됨에 따라", "role": "other", "id": "b" },
+      { "t": "마을도", "role": "subject", "id": "c" },
+      { "t": "변화돼요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "doroga geonseoldoeme ttara maeuldo byeonhwadwaeyo.",
+    "wordIds": ["w_doro", "w_geonseoldoeda", "w_maeul", "w_byeonhwadoeda"],
+    "note": "-에 따라 from M90 links developments; -ㅁ nominalizes the construction process. 건설되다 makes the road the subject, and M133’s 변화되다 does the same for the village."
+  },
+  {
+    "id": "s_m135_truth",
+    "en": [
+      { "t": "The manner of speaking", "role": "subject", "id": "a" },
+      { "t": "is dignified, and", "role": "other", "id": "b" },
+      { "t": "the words too", "role": "subject", "id": "c" },
+      { "t": "are sincere.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "way-of-speaking-[subj]", "role": "subject", "id": "a" },
+      { "t": "dignified-and-in-addition", "role": "other", "id": "b" },
+      { "t": "words-also", "role": "subject", "id": "c" },
+      { "t": "sincere-[polite]", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "말투가", "role": "subject", "id": "a" },
+      { "t": "점잖은 데다가", "role": "other", "id": "b" },
+      { "t": "말도", "role": "subject", "id": "c" },
+      { "t": "진실해요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "maltuga jeomjaneun dedaga maldo jinsilhaeyo.",
+    "wordIds": ["w_maltu", "w_jeomjanta", "w_mal", "w_jinsilhada"],
+    "note": "-(으)ㄴ 데다가 from M92 adds sincerity to dignified delivery. M134’s 말투 describes how something is said; 말 here is what is said."
   }
 ]

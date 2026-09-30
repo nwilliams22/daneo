@@ -3400,5 +3400,23 @@
     "lit": "a hand-path is necessary",
     "real": "help or care is needed",
     "note": "손길 can be a literal touch, but here it stands for someone’s assistance or care. Context decides whether physical contact is involved."
+  },
+  {
+    "id": "g_m135_ranking",
+    "cat": "concept",
+    "ko": "순위가 오르다",
+    "rom": "sunwiga oreuda",
+    "lit": "the rank rises",
+    "real": "the standing improves",
+    "note": "Moving from tenth place to second is a rise in standing even though the number gets smaller. Translate the position in the competition, not only the arithmetic."
+  },
+  {
+    "id": "g_m135_chilly",
+    "cat": "phrase",
+    "ko": "썰렁한 농담",
+    "rom": "sseolleonghan nongdam",
+    "lit": "a chilly joke",
+    "real": "a joke that falls flat",
+    "note": "The room’s temperature need not change. The chilly feeling is the awkward or unenthusiastic response the joke receives."
   }
 ]

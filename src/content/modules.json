@@ -3129,5 +3129,28 @@
       "s_m134_resolve", "s_m134_command", "s_m134_wall", "s_m134_interest",
       "s_m134_plausible", "s_m134_help"
     ]
+  },
+  {
+    "id": "m135",
+    "title": "Rankings, Beginnings and Generations",
+    "order": 144,
+    "ring": 3,
+    "contentMd": "modules/module-135.md",
+    "wordIds": [
+      "w_sunwi", "w_ssang", "w_sseolleonghada", "w_amsi",
+      "w_amnal", "w_yeoksasang", "w_yeonju", "w_yuksang",
+      "w_eumju", "w_ibyeol", "w_injae", "w_injong",
+      "w_ilsijeok", "w_jaemitda", "w_jeonmunjeok", "w_jeolmeum",
+      "w_jeomjanta", "w_jogae", "w_junggyebangsong", "w_jungdok",
+      "w_jigeup", "w_jinsilhada", "w_chachang", "w_chocheonghada",
+      "w_chulbaljeom", "w_chulpan", "w_chulhyeonhada", "w_keulleop",
+      "w_kiseu", "w_talchulhada", "w_pansa", "w_heorak",
+      "w_hwaksin", "w_geonseoldoeda", "w_geujeya", "w_giseongsedae"
+    ],
+    "sentenceIds": [
+      "s_m135_invitation", "s_m135_portrait", "s_m135_aircraft", "s_m135_future",
+      "s_m135_ranking", "s_m135_generation", "s_m135_payment", "s_m135_window",
+      "s_m135_road", "s_m135_truth"
+    ]
   }
 ]
