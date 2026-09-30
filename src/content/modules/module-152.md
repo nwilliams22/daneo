@@ -20,6 +20,8 @@ The bulb is changed; now the clock needs repair. Water cools before it freezes. 
 
 올가을 points to this year. 한겨울 points to the depth of the season. 한평생 stretches the time window across a whole life. Read the first piece before deciding how long the scene lasts.
 
+**Earlier action pairs:** 번역하다, 강의하다 and 공연하다 are now M75 vocabulary. Reuse them when a repair, workplace or performance scene calls for them; the new checklist here contains thirty-three words.
+
 ::vocab::
 
 ---

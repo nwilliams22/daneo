@@ -10,7 +10,7 @@ The final grade-C words move from classrooms and shops to names on a map. A prop
 
 ## Part 1 — School, family and food
 
-M44’s 예습 is study before class; 복습 is study after class. 예습하다 turns the noun into an action. 출석하다 and 결석하다 are opposite attendance verbs, with 결석 learned in the previous pack. 아드님 and 따님 add respect when you speak of someone else's son or daughter.
+M44’s 예습 is study before class; 복습 is study after class. M75’s 예습하다 turns the noun into an action. Today’s 출석하다 contrasts with 결석하다 from M75, while 결석 itself was registered in the previous pack. 아드님 and 따님 add respect when you speak of someone else's son or daughter.
 
 The shop names end in -점 or -실. The food names need context: here 중식 is Chinese-style food and 일식 is Japanese-style food, rather than other same-spelling senses. 깍두기 is radish kimchi, unlike 배추김치 from M154.
 

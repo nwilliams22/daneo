@@ -4,7 +4,7 @@ Read SHARED-BRIEF.md and CURRICULUM.md §2c. The settled Band 8 shape applies: 3
 
 **Theme:** Waiting and looking group 대기하다, 두리번거리다, 이따금 and 짐작. Care and household objects group 대접, 보자기, 젖 and 임신부. Control and damage group 분리하다, 붙들다, 쫓겨나다, 찢다 and 칠하다. The mixed ranked slice should stay honest; do not invent one story that forces all 33 words together.
 
-**Glue:** none new. Recycle Ring 3 cause, concession and retrospective patterns from M86, M88 and M95, and recent M129 words 점검, 실망 and 넘겨주다 in fresh surface forms.
+**Glue:** none new. Recycle Ring 3 cause, concession and retrospective patterns from M86, M88 and M95, and recent M129 words 점검 and 실망, alongside 넘겨주다 from M74 in fresh surface forms.
 
 **Sense radar:** 박 is the dependent noun for an overnight stay (한 박), not gourd or surname. 부상 is injury in the NIKL row; distinguish 浮上, rising, if mentioned. 유산 can mean inheritance or miscarriage: the NIKL row is 遺産. 설사 is the adverb "even if," not the illness. 젖 is breast milk, not the stem of 젖다. Check 의도적 and 장기적 as adjectival noun forms, not standalone English adjectives.
 

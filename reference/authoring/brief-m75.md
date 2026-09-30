@@ -9,8 +9,8 @@ pair is taught SIDE BY SIDE.
 
 **Theme:** the 하다 hinge, run in both directions. Thirteen nouns the
 learner owns get their verb (mount); three verbs they own get their
-bare noun (dismount); and fifteen fresh pairs arrive with one half
-riding free. M72 taught the -하다/-되다 process verbs of the lab; M56
+bare noun (dismount); and fresh pairs arrive with one half
+riding in the note; the expanded 40-word slice registers eight more partners. M72 taught the -하다/-되다 process verbs of the lab; M56
 built the news engine; this module is the everyday hinge — hospitals,
 schools, subways, kitchens, translation apps — and the learner leaves
 knowing that any 하다-noun is a verb waiting, and any 하다-verb a
@@ -20,8 +20,7 @@ noun. Radar: 하다 mounts ACTION nouns; state nouns take 이다/있다.
 
 1. **Mount — nouns you own, verbed (13).** Each note names the
    owner, quotes any promise, and gives the verb's collocation.
-   - 행동하다 — 행동 M57 ("going-and-moving = how you act… 행동으로
-     보여 주세요"). 행동하기 전에 생각하세요 (-기 from M13, 전에 M13).
+   - 행동하다 — 행동 M57 ("행동으로 보여 주세요 = show it in actions"). 행동하기 전에 생각하세요 (-기 from M13, 전에 M13).
    - 생활하다 — 생활 M29 ("life as it's actually lived. 한국 생활이
      어때요?"): 혼자 생활해요 (혼자 M10). Radar vs 살다 (M4): 살다
      dwells; 생활하다 runs a life.
@@ -57,8 +56,7 @@ noun. Radar: 하다 mounts ACTION nouns; state nouns take 이다/있다.
      결혼하다 M25. Plain register, per M47's note.
    - 발음하다 — 발음 M26 ("Every rom in this app encodes it"): 발음하기
      어려워요 (-기 from M13, 어렵다 M7). 정확하게 발음하다 (정확하다 M63).
-   - 복습하다 — 복습 M44 ("복습하세요 is every teacher's closing line…
-     Its mirror is 예습"): 예습하다 rides frozen; 복습하다 is what the
+   - 복습하다 — 복습 M44 ("복습하세요 is every teacher's closing line. Its mirror is 예습"): 예습하다 is now taught alongside 복습하다; 복습하다 is what the
      app's review queue makes you do.
 2. **Dismount — verbs you own, nouned (3).** The way M72 dismounted
    이용/해결/발견 from M56's verbs — cite that precedent in the md.
@@ -74,7 +72,7 @@ noun. Radar: 하다 mounts ACTION nouns; state nouns take 이다/있다.
 3. **Fresh pairs — both halves today, one riding free (15).** The
    headword is the NIKL B word; the partner rides in the note.
    - 무시하다 — 無視 no-see: the nothing-無 of M20's 무료 ("무 (without)")
-     and M39's 무조건 ("The 무- prefix… doesn't negate, it EMPTIES") +
+     and M39's 무조건 ("The 무- prefix is the 불-'s (M36) quieter sibling: it doesn't negate, it EMPTIES.") +
      the see-視 that M31's 시청 note surfaced as a homograph ("시청
      (視聽) is also TV-watching"). 무시하지 마세요 = don't ignore me AND
      don't look down on me — both readings live. 무시 rides.
@@ -87,7 +85,7 @@ noun. Radar: 하다 mounts ACTION nouns; state nouns take 이다/있다.
      keeping-safe") + the manage-管 of M57's 관리 ("pipe-管 (control,
      as plumbing)"). 냉장 보관 (냉장고 M13, minus its warehouse) on
      every yogurt; 보관함 = the locker (함 frozen — M72's 사물 note ran
-     사물함). 보관 rides.
+     사물함). 보관 is now a checklist entry beside the verb.
    - 방문하다 + 방문 (adjacent, both slice words) — 訪問 visit-ask: 訪
      frozen + the ask-問 inside M10's 질문 (質問 — that note has no
      decode; decode it here as a first). 방문하다 = to visit, formal:
@@ -120,14 +118,13 @@ noun. Radar: 하다 mounts ACTION nouns; state nouns take 이다/있다.
    - 절약하다 — pays M72's 에너지 note IOU verbatim: "에너지 절약 (절약 —
      saving, riding frozen)". 節約: 節 (the 절 of M11's 계절 and M25's
      명절 — neither decoded; decode 節 as a joint/section-節 first) +
-     the promise-約 of M5's 약속 that M52's 예약 note filed ("약속's
-     promise-約 (M5)"). 시간을 절약하다, 돈을 절약하다 (돈 M9). 절약
+     the promise-約 of M5's 약속 that M52's 예약 note filed ("약속's promise-約"). 시간을 절약하다, 돈을 절약하다 (돈 M9). 절약
      rides; radar vs 아끼다 (verify owner — cite if taught, else skip).
    - 신고 — 申告 state-and-tell: the 申 of M64's 신청 ("申 (state)") +
      the tell-告 of M32's 광고 ("廣告 wide-tell"). 경찰에 신고하다 (경찰
      M16); 112에 신고하세요. 신고하다 rides.
-   - 번역 — 飜譯 flip-translate (both frozen): 번역하다 rides; 번역기 =
-     the translator app (M15's tool logic that M16's 복사기 note cites).
+   - 번역 — 飜譯 flip-translate (both frozen): 번역하다 is now a checklist entry beside the noun; 번역기 =
+     the translator app (M15's tool logic that M16's 복사하다 note cites).
      통역 (interpreting, spoken) rides frozen for the pair: 번역 is the
      page, 통역 is the voice.
    - 진출 — 進出 advance-out: 進 frozen + the out-出 of M12's 출구 that
@@ -146,20 +143,9 @@ noun. Radar: 하다 mounts ACTION nouns; state nouns take 이다/있다.
      sight. Give en as "to run counter to; (homograph) to fall for".
      Teach it LAST — the hinge's one non-하다 verb.
 
-**Word slice (32):**
-무시하다 · 비판하다 · 행동하다 · 생활하다 · 보관하다 · 방문하다 ·
-방문 · 치료하다 · 수입하다 · 수출하다 · 입학하다 · 표시하다 ·
-감상하다 · 감상 · 반복하다 · 계획하다 · 양보하다 · 절약하다 ·
-입원하다 · 우승하다 · 외출하다 · 이혼하다 · 발음하다 · 복습하다 ·
-신고 · 취소 · 귀국 · 번역 · 복사 · 진출 · 해석 · 반하다
+**Word slice (40):** 행동하다 · 생활하다 · 치료하다 · 입원하다 · 입학하다 · 복습하다 · 예습하다 · 발음하다 · 계획하다 · 수입하다 · 수출하다 · 우승하다 · 외출하다 · 이혼하다 · 취소 · 귀국 · 복사 · 무시하다 · 비판하다 · 보관하다 · 보관 · 방문하다 · 방문 · 표시하다 · 감상하다 · 감상 · 반복하다 · 양보하다 · 절약하다 · 신고 · 번역 · 번역하다 · 진출 · 해석 · 포함 · 구입 · 강의하다 · 공연하다 · 결석하다 · 반하다.
 
-Ids: w_musihada, w_bipanhada, w_haengdonghada, w_saenghwalhada,
-w_bogwanhada, w_bangmunhada, w_bangmun, w_chiryohada, w_suiphada,
-w_suchulhada, w_iphakhada, w_pyosihada, w_gamsanghada, w_gamsang,
-w_banbokhada, w_gyehoekhada, w_yangbohada, w_jeoryakhada, w_ibwonhada,
-w_useunghada, w_oechulhada, w_ihonhada, w_bareumhada, w_bokseuphada,
-w_singo, w_chwiso, w_gwiguk, w_beonyeok, w_boksa, w_jinchul,
-w_haeseok, w_banhada — grep each for collisions.
+Ids: w_haengdonghada, w_saenghwalhada, w_chiryohada, w_ibwonhada, w_iphakhada, w_bokseuphada, w_yeseuphada, w_bareumhada, w_gyehoekhada, w_suiphada, w_suchulhada, w_useunghada, w_oechulhada, w_ihonhada, w_chwiso, w_gwiguk, w_boksa, w_musihada, w_bipanhada, w_bogwanhada, w_bogwan, w_bangmunhada, w_bangmun, w_pyosihada, w_gamsanghada, w_gamsang, w_banbokhada, w_yangbohada, w_jeoryakhada, w_singo, w_beonyeok, w_beonyeokhada, w_jinchul, w_haeseok, w_poham, w_guip, w_ganguihada, w_gongyeonhada, w_gyeolseokhada, w_banhada.
 
 **Teaching order:** mount (13, hospital pair 입원하다 and school pair
 입학하다 near each other; 수입하다/수출하다 adjacent), dismount (3),
@@ -183,3 +169,5 @@ priority seats, 노약자석 frozen). Check gap.json first. Max 3; 2 fine.
 
 **Output files:** draft-m75.words.json, .sentences.json, .gap.json,
 .md, .meta.json — to the scratchpad dir named in SHARED-BRIEF.md.
+
+**Added teaching shelf (2026-09-30):** 포함 · 구입 · 보관 · 번역하다 · 강의하다 · 공연하다 · 예습하다 · 결석하다. Keep the stable IDs and the full decode notes. These grade-C words belong to this 40-word checklist; no garnish or new glue.

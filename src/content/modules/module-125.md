@@ -12,6 +12,8 @@ The report shelf holds 제시, 국적, 유형, and 실현되다. The venue shelf
 
 **A result can shift focus:** M56's 나누다 divides or shares; 나뉘다 describes what ends up divided. M121's 방해 becomes the action 방해하다. M114's 실현하다 makes a plan real, while 실현되다 puts the result in subject position.
 
+**Earlier motion rails:** 늘어서다, 달려들다 and 오르내리다 now come from M74. Reuse their standing, inward and alternating movement beside this pack’s 나뉘다 and 묶이다.
+
 ::vocab::
 
 **Register radar:** 내외 is a married couple in the listed sense. 찍히다 is a stamped impression here. 상류 can be a river's upper reach or, figuratively, high social status. 자살 is a grave term and needs careful context.

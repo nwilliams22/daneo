@@ -10,11 +10,13 @@ A broadcaster prepares a live program, a reporter gathers material, and a writer
 
 **The broadcasting desk:** M32’s 방송 grows into 방송사, the company, and 생방송, the live broadcast. 취재 gathers the material, 종합하다 combines it, and 시나리오 gives events a written sequence. 토론회 names the gathering where arguments are aired.
 
-**An ending and a restraint:** 사표 is a document, 최후 an ending, and 삼가다 a deliberate restraint. 방지하다 prevents an event; 소홀히 describes insufficient attention. These are different acts, even when the same office supplies the setting.
+**An ending and a restraint:** 사표 is a document, 최후 an ending, and 삼가다 a deliberate restraint. 방지하다 prevents an event; M73’s 소홀히 describes insufficient attention. These are different acts, even when the same office supplies the setting.
 
 **The everyday scale:** M21’s 주머니 returns in the longer 호주머니. M60’s 두껍다 gets a measurable noun, 두께. 돌멩이 narrows 돌 to a small stone; 되돌아오다 brings the return path into focus.
 
-**Amounts and manner:** 상당수 is a sizable number without an exact count. 모조리 leaves nothing out, 실컷 reaches a satisfying extent, and 슬쩍 makes a movement light or unobtrusive. Those distinctions matter more than a shared English adverb.
+**Amounts and manner:** 상당수 is a sizable number without an exact count. M73’s 모조리 leaves nothing out, 실컷 reaches a satisfying extent, and 슬쩍 makes a movement light or unobtrusive. Those distinctions matter more than a shared English adverb.
+
+Reuse 부지런히 and 관계없이 from M73 with those manner words; this pack’s thirty new words sit beside the earlier modifier shelf.
 
 ::vocab::
 

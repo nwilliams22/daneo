@@ -1,14 +1,14 @@
 # Korean, Word-First — Module 73: Turning the Dial
 
-M62 opened the adverb drawer and taught you CALIBRATED SETS — the degree ladder, the manner corner, the quantity tray, the time rack. This module is the second shipment: thirty-three modifiers, most of them the -히 rack running at full capacity, plus the sets M62 couldn't fit — the LESS rung under 더, the exactness corner (딱, 정확히, 곧바로, 즉시), the everys (해마다, 각자) and the all-at-onces (한꺼번에, 전부). Nothing here is a list either: every word lands beside the one it must be told apart from, and the rule of the drawer holds — the meaning IS the difference.
+M62 opened the adverb drawer and taught you CALIBRATED SETS — the degree ladder, the manner corner, the quantity tray, the time rack. This module is the second shipment: forty words for the modifier shelves, with the -히 rack running at full capacity, plus the sets M62 couldn't fit — the LESS rung under 더, the exactness corner (딱, 정확히, 곧바로, 즉시), the everys (해마다, 각자) and the all-at-onces (한꺼번에, 전부). Nothing here is a list either: every word lands beside the one it must be told apart from, and the rule of the drawer holds — the meaning IS the difference.
 
 **How to use this:** learn the -히 words as PAIRS with their adjectives — 정확하다/정확히, 간단하다/간단히, 편하다/편히 — and drill the dial in opposites: 덜 against 더, 그다지 against 되게, 굳이 against 굳이 안 해도 돼요. Give 딱 double reps: three dictionary rows, one click.
 
 ---
 
-## Part 1 — Five trays, pre-sorted
+## Part 1 — The trays, pre-sorted
 
-- **The -히 rack, at scale:** M10's 천천히/열심히 were the raw examples, M32's 특히 the first factory product, M33's 조용히 named the factory, M42's 당연히 ran it, M62 filled it (분명히, 충분히, 유난히, 흔히). Today thirteen more, each hung on its adjective: 정확히 · 간단히 · 단순히 · 특별히 · 대단히 · 굉장히 · 자세히 · 적당히 · 꾸준히 · 우연히 · 편히 — and two that spell -이: 깨끗이 (the ㅅ-stem rule) and 굳이 (said 구지).
+- **The -히 rack, at scale:** M10's 천천히/열심히 were the raw examples, M32's 특히 the first factory product, M33's 조용히 named the factory, M42's 당연히 ran it, M62 filled it (분명히, 충분히, 유난히, 흔히). The original thirteen, each hung on its adjective: 정확히 · 간단히 · 단순히 · 특별히 · 대단히 · 굉장히 · 자세히 · 적당히 · 꾸준히 · 우연히 · 편히 — and two that spell -이: 깨끗이 (the ㅅ-stem rule) and 굳이 (said 구지).
 - **The degree dial gets LESS and two new highs:** 덜 is the rung M9's 더 never had. Above it, 되게 is the spoken really and 굉장히 the spoken tremendous; 제법 is quite-with-eyebrows; 그다지 joins 별로 and 그리 as the third not-that; 비교적 pays M56's wink, bringing 비교 with it.
 - **The exactness corner:** 딱 clicks, 정확히 measures, 곧바로 goes straight, 즉시 is the sign's immediately. 오직 fronts 만 and 뿐; 내지 is the form's from-to; 각자 and 전부 split and total the bill.
 - **The time rack:** 해마다 is 매년's native twin, 내내 the stretch felt from inside, 또다시 the narrator's yet-again, 오래도록 the toast — and 오랜 the determiner that was hiding inside 오랜만 all along.
@@ -16,6 +16,8 @@ M62 opened the adverb drawer and taught you CALIBRATED SETS — the degree ladde
 ---
 
 ## Part 2 — The bricks
+
+**Care, completeness and approximation:** 부지런히 works diligently; 소홀히 gives too little attention. 모조리 leaves none of a set behind, while 실컷 measures how fully someone enjoys or experiences an action. 슬쩍 makes the movement small or unobtrusive. 관계없이 removes a condition from the decision, and 대략 gives an outline or estimate beside 정확히, which asks for precision. These seven belong in the same calibrated drawer.
 
 ::vocab::
 

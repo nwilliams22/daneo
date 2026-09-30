@@ -26,7 +26,7 @@ Someone waits for a ship, someone makes an excuse, and someone carries an object
 
 ## Part 2 — Sentences from familiar glue
 
-The eight scenes use -(으)로 인해 from M86, -더니 from M88, -(으)ㄹ수록 from M89, -는 김에 from M91, -길래 from M93, -다가 from M94, and -더라도 from M95. Notice how the previous module's 점검, 프린터 and 넘겨주다 now meet new people and objects.
+The eight scenes use -(으)로 인해 from M86, -더니 from M88, -(으)ㄹ수록 from M89, -는 김에 from M91, -길래 from M93, -다가 from M94, and -더라도 from M95. Notice how the previous module's 점검 and 프린터, alongside 넘겨주다 from M74, now meet new people and objects.
 
 ::sentences::
 

@@ -6,8 +6,8 @@ write "-지 마세요 from M14"; hang a possessive only on a whole taught
 word). Every quote from a shipped note must be VERBATIM — the reviewer
 greps each one.
 
-**Theme:** the adverb drawer, second shipment — 33 modifiers, most of
-them the -히 rack running at full capacity. M62 "The Adverb Drawer"
+**Theme:** the adverb drawer, second shipment — 40 checklist words, with
+the -히 rack running at full capacity. M62 "The Adverb Drawer"
 opened the drawer and taught CALIBRATED SETS (degree ladder, manner
 corner, quantity fills, time rack, emphasis rack); this module adds
 the sets it couldn't fit: the -히 factory at scale, the exactness
@@ -19,8 +19,7 @@ its sets, never re-teaching them.
 **Organizing machines (all owners verified — cite exactly these):**
 
 1. **The -히 rack, at scale.** Lineage to cite: M10's 천천히/열심히
-   are the raw examples; M32's 특히 note ("the adverb-히 of 천천히/
-   열심히 (M10)"); M33's 조용히 note NAMED it ("the adverb factory
+   are the raw examples; M32's 특히 note ("the adverb-히 of 천천히/열심히 (M10)"); M33's 조용히 note NAMED it ("the adverb factory
    from M32's 특히, now clearly a factory"); M42's 당연히 ("through
    the -히 factory (M32's 특히 started it; M33 made it official)");
    M62's 분명히 called it "The -히 rack's courtroom member" and 충분히
@@ -31,7 +30,7 @@ its sets, never re-teaching them.
      -게 (M33) is the live adverbializer any adjective can wear; -히 is
      the fossilized Sino one, and 하다-adjectives keep BOTH (정확하게/
      정확히, 간단하게/간단히) — same meaning, -히 a shade more written.
-   - 간단히 — 간단하다 M63 ("Simple as in SHORT… 간단하게 말하면").
+   - 간단히 — 간단하다 M63 ("간단하게 말하면").
    - 단순히 — 단순하다 M63 ("measures complexity"): 단순히 = simply,
      MERELY — 단순히 돈 문제가 아니에요 (돈 M9, 문제 M7).
    - 특별히 — M57's 특별 note ran the word already: "And the adverb
@@ -44,8 +43,7 @@ its sets, never re-teaching them.
    - 굉장히 — 宏壯 vast-grand, both characters frozen (first
      appearance); 굉장하다 is untaught (rides frozen, glossed). The
      SPOKEN strong very: 굉장히 좋아요. Calibrate against M11's 아주/
-     너무 and M62's 무척/몹시 (its note: "무척 feels; 몹시 suffers…
-     print-flavored") — 굉장히 is the one Koreans actually say aloud.
+     너무 and M62's 무척/몹시 (its note: "무척 보고 싶었어요 = I missed you terribly") — 굉장히 is the one Koreans actually say aloud.
    - 자세히 — 仔細 (frozen) — in detail: 자세히 설명해 주세요 (설명하다
      M24). 자세하다 rides frozen. Radar: 자세 (posture, 姿勢) is a
      different word, untaught — one line.
@@ -94,8 +92,7 @@ its sets, never re-teaching them.
      clause.
    - 제법 — quite, more than expected: 제법 잘하네요 (잘하다 M17, -네요
      M26) = not bad at all! — the raised-eyebrow compliment. Calibrate
-     vs M62's 꽤 ("The understatement professional… one honest notch
-     below 아주"): 꽤 measures; 제법 is surprised.
+     vs M62's 꽤 ("It grades one honest notch below 아주"): 꽤 measures; 제법 is surprised.
    - 그다지 — not that much, negative-polarity: 그다지 안 좋아요. M62's
      그리 note already drew the line ("별로 shrugs, 그리 measures"; M17's
      별로 = "The politest possible shrug") — 그다지 is 그리's fuller,
@@ -116,17 +113,15 @@ its sets, never re-teaching them.
      C-row the HALT sense (딱 멈추다, 멈추다 M50); cover both in the
      note, the fit sense as headline. Radar: M60's 딱딱하다 ("Hard-and-
      stiff") is the mimetic; 딱 is the click of something fitting.
-   - 정확히 (above), 곧바로 — 곧 M10 ("곧 도착해요") + 바로 M28 ("바로
-     옆에… 바로 지금") fused: straight away, no detour — 곧바로 집에
+   - 정확히 (above), 곧바로 — 곧 M10 ("곧 도착해요") + 바로 M28 ("바로 옆에 (right next to), 바로 지금 (right now)") fused: straight away, no detour — 곧바로 집에
      갔어요. Fully decodable; say so.
-   - 즉시 — 卽時: the 즉 of S2's restater ("즉, [simple thing]… a
-     verbal colon") + M5's o'clock 시 ("The word 시간 you know is this
+   - 즉시 — 卽時: the 즉 of S2's restater ("즉, [simple thing].") + M5's o'clock 시 ("The word 시간 you know is this
      시 + 간") = at-that-very-hour: immediately, the SIGN and rulebook
      register — 즉시 연락하세요 (연락하다 M19). Ladder: 바로 (M28,
      spoken) / 곧바로 (spoken, emphatic) / 즉시 (printed).
    - 한꺼번에 — all at once, in one go: 한 (M5's counter contraction)
      + 꺼번 (frozen fossil) + 에. 한꺼번에 하지 마세요. Radar vs M28's
-     한번 ("one-time… 한번 해 보세요"): one TIME vs one GO.
+     한번 ("한번 해 보세요, give it a try"): one TIME vs one GO.
    - 오직 — only, solely: the adverb that fronts M30's 만-particle
      ("하나만 — just one; 너만 — only you") and M55's 뿐 ("너뿐이야 = it's
      only you"): 오직 너만, 오직 하나뿐. The ballad's only; also
@@ -137,7 +132,7 @@ its sets, never re-teaching them.
    - 각자 — 各自 each-self: M55's 각 ("各 each… the written-notice
      determiner") + the self-自 of M32's 자기 ("自己 self"). 각자
      계산해요 (계산하다 M9) = everyone pays their own — the Dutch-pay
-     line, beside M62's 따로따로. NIKL lists noun AND adverb; both
+     line, beside 따로따로 (separately, already used inside M62's 따로 note; its standalone card comes later). NIKL lists noun AND adverb; both
      free.
    - 전부 — 全部 all-part: the all-全 of M31's 전국 that M39's 전혀
      note cited + the part-部 of M32's 부분 ("部分 section-portion").
@@ -167,20 +162,9 @@ its sets, never re-teaching them.
      오랜 + 만 all along; M46's 오랫동안 note is the sibling. Tag pos
      "noun" like M46's 옛 and M13's 새 (the determiner shelf).
 
-**Word slice (33):**
-비교적 · 단순히 · 딱 · 깨끗이 · 오직 · 덜 · 또다시 · 굉장히 · 대단히 ·
-자세히 · 정확히 · 한꺼번에 · 내내 · 굳이 · 그다지 · 해마다 · 내지 ·
-특별히 · 적당히 · 꾸준히 · 우연히 · 간단히 · 되게 · 제법 · 곧바로 ·
-각자 · 편히 · 오래도록 · 즉시 · 전부 · 적당하다 (adj) · 비교 (noun) ·
-오랜
+**Word slice (40):** 정확히 · 간단히 · 단순히 · 특별히 · 대단히 · 굉장히 · 자세히 · 적당하다 · 적당히 · 꾸준히 · 우연히 · 편히 · 깨끗이 · 굳이 · 덜 · 되게 · 제법 · 그다지 · 비교 · 비교적 · 딱 · 곧바로 · 즉시 · 한꺼번에 · 오직 · 내지 · 각자 · 전부 · 해마다 · 내내 · 또다시 · 오래도록 · 오랜 · 소홀히 · 관계없이 · 모조리 · 부지런히 · 슬쩍 · 실컷 · 대략.
 
-Ids: w_bigyojeok, w_dansunhi, w_ttak, w_kkaekkeusi, w_ojik, w_deol,
-w_ttodasi, w_goengjanghi, w_daedanhi, w_jasehi, w_jeonghwakhi,
-w_hankkeobeone, w_naenae, w_guji, w_geudaji, w_haemada, w_naeji,
-w_teukbyeolhi, w_jeokdanghi, w_kkujunhi, w_uyeonhi, w_gandanhi,
-w_doege, w_jebeop, w_gotbaro, w_gakja, w_pyeonhi, w_oraedorok,
-w_jeuksi, w_jeonbu, w_jeokdanghada, w_bigyo, w_oraen — grep each for
-collisions (w_s2_jeuk and w_gak exist; yours are new).
+Ids: w_jeonghwakhi, w_gandanhi, w_dansunhi, w_teukbyeolhi, w_daedanhi, w_goengjanghi, w_jasehi, w_jeokdanghada, w_jeokdanghi, w_kkujunhi, w_uyeonhi, w_pyeonhi, w_kkaekkeusi, w_guji, w_deol, w_doege, w_jebeop, w_geudaji, w_bigyo, w_bigyojeok, w_ttak, w_gotbaro, w_jeuksi, w_hankkeobeone, w_ojik, w_naeji, w_gakja, w_jeonbu, w_haemada, w_naenae, w_ttodasi, w_oraedorok, w_oraen, w_soholhi, w_gwangyeeopsi, w_mojori, w_bujireonhi, w_seuljjeok, w_silkeot, w_daeryak.
 
 **Teaching order:** the -히 rack first (adjective-adjacent pairs
 together: 적당하다 → 적당히; 비교 → 비교적), then the dial, then the
@@ -203,3 +187,5 @@ of the news cycle). Check gap.json first. Max 3; 2 fine.
 
 **Output files:** draft-m73.words.json, .sentences.json, .gap.json,
 .md, .meta.json — to the scratchpad dir named in SHARED-BRIEF.md.
+
+**Added teaching shelf (2026-09-30):** 소홀히 · 관계없이 · 모조리 · 부지런히 · 슬쩍 · 실컷 · 대략. Keep the stable IDs and the full decode notes. These grade-C words belong to this 40-word checklist; no garnish or new glue.

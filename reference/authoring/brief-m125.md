@@ -1,6 +1,6 @@
 # Brief — M125 "Evidence, Venues and Motion" (order 134, ring 3, band 8)
 
-Read SHARED-BRIEF.md and CURRICULUM.md §2c. The unchanged Band 6 pack contract applies: 36 words, eight aligned sentences, full notes, slim markdown, no new glue, 0–3 genuine gap items. Verify claims with lookup.py and iou.py; run briefowners.py, briefquotes.py, quotes.py and frozenaudit.py. Every sentence recycles a verified Band 7 pattern.
+Read SHARED-BRIEF.md and CURRICULUM.md §2c. The unchanged Band 6 pack contract applies: 32 words, eight aligned sentences, full notes, slim markdown, no new glue, 0–3 genuine gap items. Verify claims with lookup.py and iou.py; run briefowners.py, briefquotes.py, quotes.py and frozenaudit.py. Every sentence recycles a verified Band 7 pattern.
 
 **Organizing idea:** a news report starts with evidence and public venues, then follows physical movement and someone's judgment. Use three shelves: report and classification; people and venues; motion and view. Keep the animal and adverbs as an honest side shelf.
 
@@ -10,10 +10,12 @@ Read SHARED-BRIEF.md and CURRICULUM.md §2c. The unchanged Band 6 pack contract 
 
 **Motion and view:** 나뉘다 is the passive counterpart of M56's 나누다; 늘어서다, 달려들다, 묶이다, 오르내리다 move or place things. 틀림없이, 의외로, 으레 are viewpoint adverbs. Avoid treating 으레 as the verb ending -(으)래. A crisp note for each word matters more than stuffing every item into eight sentences.
 
-**Word slice (35):** 위성 · 의외로 · 자살 · 제시 · 제외되다 · 찍히다 · 타락 · 틀림없이 · 회관 · 공연장 · 국적 · 근래 · 나뉘다 · 낱말 · 내외 · 늑대 · 늘어서다 · 달려들다 · 망원경 · 모범 · 무리하다 · 묶이다 · 방해하다 · 상류 · 선명하다 · 선호하다 · 성공적 · 소규모 · 수시로 · 시야 · 실현되다 · 오르내리다 · 왕자 · 유형 · 으레. Ledger: `m125\t8`, all grade C.
+**Word slice (32):** 위성 · 의외로 · 자살 · 제시 · 제외되다 · 찍히다 · 타락 · 틀림없이 · 회관 · 공연장 · 국적 · 근래 · 나뉘다 · 낱말 · 내외 · 늑대 · 망원경 · 모범 · 무리하다 · 묶이다 · 방해하다 · 상류 · 선명하다 · 선호하다 · 성공적 · 소규모 · 수시로 · 시야 · 실현되다 · 왕자 · 유형 · 으레. Ledger: `m125\t8`, all grade C.
 
 **Md:** evidence-and-venue intro; Part 1 on the three shelves and active/passive radar; `::vocab::`; Part 2 with eight reused Band 7 patterns; `::sentences::`; optional earned gap deck; short “What's next.” No new glue.
 
 **Sentence targets:** eight different verified Band 7 patterns and at least eight slice words, including a performance venue, a view, and a result that becomes real. Check the Korean forms against romanization and natural gloss; keep all three chunk layers aligned and all word IDs already taught or in this pack.
 
 **Gap candidates:** 틀림없이 (without a “mistake” versus certainly), 의외로, or 으레; create a card only for a true literal-to-real gap.
+
+**Earlier ownership (2026-09-30):** 늘어서다 → M74, 달려들다 → M74, 오르내리다 → M74. The pack now owns 32 words; reuse these transferred entries as earlier vocabulary, not new slice words.

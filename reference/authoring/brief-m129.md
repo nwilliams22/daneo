@@ -1,6 +1,6 @@
 # Brief — M129 "Recognition, Checks and New Beginnings" (order 138, ring 3, band 8)
 
-Read SHARED-BRIEF.md and CURRICULUM.md §2c. The unchanged Band 6 contract applies: 34 words, eight aligned sentences, full notes, slim markdown, no new glue, no garnish, and no forced gap card.
+Read SHARED-BRIEF.md and CURRICULUM.md §2c. The unchanged Band 6 contract applies: 30 words, eight aligned sentences, full notes, slim markdown, no new glue, no garnish, and no forced gap card.
 
 **Organizing idea:** Reports and responses group 수필, 실감, 실망, 알아주다 and 칭찬하다. Inspection and handover group 점검, 유지되다, 잡아당기다, 넘겨주다 and 나누어지다. Academic and broadcast labels sit beside everyday objects and motion.
 
@@ -8,7 +8,7 @@ Read SHARED-BRIEF.md and CURRICULUM.md §2c. The unchanged Band 6 contract appli
 
 **Sense radar:** 지각 is 知覺, perception, not lateness. 조기 is 早期, early stage, not a fish. 체하다 is the auxiliary pretend, not indigestion: reuse the already taught pretending construction without a new glue part. 종소리 is now earlier vocabulary from M51; its note carries bell 鐘 without requiring M81. 피디 is the broadcast producer/director abbreviation, not a phonetic invention.
 
-**Word slice (34):** 수집 · 수필 · 신비 · 신설 · 실감 · 실망 · 쓰다듬다 · 알루미늄 · 알아주다 · 유발하다 · 유지되다 · 잡아당기다 · 점검 · 조기 · 중순 · 지각 · 직선 · 참외 · 체하다 · 체험하다 · 칭찬하다 · 코치 · 통일하다 · 프린터 · 피디 · 하나하나 · 학위 · 개개인 · 급격히 · 기막히다 · 나누어지다 · 넘겨주다 · 논리적 · 다가서다. Ledger: `m129\t8`, all grade C.
+**Word slice (30):** 수집 · 수필 · 신비 · 신설 · 실감 · 실망 · 쓰다듬다 · 알루미늄 · 유발하다 · 유지되다 · 점검 · 조기 · 중순 · 지각 · 직선 · 참외 · 체하다 · 체험하다 · 칭찬하다 · 코치 · 통일하다 · 프린터 · 피디 · 하나하나 · 학위 · 개개인 · 급격히 · 기막히다 · 나누어지다 · 논리적. Ledger: `m129\t8`, all grade C.
 
 **Sentence plan:** eight distinct recycled Band 7 patterns with actual owners named in the notes. Use natural situations, at least eight slice words, only same-or-earlier vocabulary, Korean without digits, grammatical roles and natural English chunk order. Check every conjugation and every word ID.
 
@@ -16,4 +16,6 @@ Read SHARED-BRIEF.md and CURRICULUM.md §2c. The unchanged Band 6 contract appli
 
 **Gates:** briefowners.py and briefquotes.py before drafting; verify-draft.py 0 FAIL/0 MANUAL, quotes.py 0 missing, and frozenaudit.py no new findings. Register, run the full batch gates, and inspect the visual-pass screenshots.
 
-**Ownership correction (2026-09-30):** 가로등 → M50, 종소리 → M51. These words are earlier vocabulary, not part of this pack’s 34-word slice. Existing sentences may reuse them.
+**Ownership correction (2026-09-30):** 가로등 → M50, 종소리 → M51. These words are earlier vocabulary, not part of this pack’s 30-word slice. Existing sentences may reuse them.
+
+**Earlier ownership (2026-09-30):** 알아주다 → M74, 잡아당기다 → M74, 넘겨주다 → M74, 다가서다 → M74. The pack now owns 30 words; reuse these transferred entries as earlier vocabulary, not new slice words.

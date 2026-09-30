@@ -1,6 +1,6 @@
 # Brief — M155 "Learning, Food and Named Places" (order 164, ring 3, band 8)
 
-Teach all 36 reserved grade-C words in rank order. No new glue or garnish. Use eight aligned three-layer sentences, three novel M154 warm-up prompts, at least three sentences recycling M154 vocabulary, eight practice prompts and two genuine gap cards.
+Teach all 34 reserved grade-C words in rank order. No new glue or garnish. Use eight aligned three-layer sentences, three novel M154 warm-up prompts, at least three sentences recycling M154 vocabulary, eight practice prompts and two genuine gap cards.
 
 **Theme:** School attendance and preparation, families, shops and food, then the proper names that close the NIKL grade-C list.
 
@@ -8,9 +8,11 @@ Teach all 36 reserved grade-C words in rank order. No new glue or garnish. Use e
 
 **Sense radar:** 넉 is the determiner before counters (for example 넉 달). 아드님 and 따님 are respectful terms for another person's children. 중식 means Chinese-style food here; 일식 means Japanese-style food. 고구려, 고려, 백제 and 신라 are historical kingdoms; 금강산 and 지리산 are mountains; 대학로 is a Seoul neighborhood/street. 깍두기 is the one unranked common noun amid the proper names. Do not invent history claims to fill the pack.
 
-**Word slice (36, frequency rank):** 넉 · 복사기 · 아드님 · 결석하다 · 내후년 · 따님 · 식품점 · 약혼녀 · 어저께 · 예습하다 · 출석하다 · 큰어머니 · 멍멍 · 분필 · 약혼자 · 외과 · 제과점 · 중식 · 케첩 · 미용실 · 일식 · 작은딸 · 초등학생 · 고구려 · 고려 · 금강산 · 깍두기 · 남미 · 대학로 · 백제 · 신라 · 안동 · 전주 · 지리산 · 평양 · 한반도.
+**Word slice (34):** 넉 · 복사기 · 아드님 · 내후년 · 따님 · 식품점 · 약혼녀 · 어저께 · 출석하다 · 큰어머니 · 멍멍 · 분필 · 약혼자 · 외과 · 제과점 · 중식 · 케첩 · 미용실 · 일식 · 작은딸 · 초등학생 · 고구려 · 고려 · 금강산 · 깍두기 · 남미 · 대학로 · 백제 · 신라 · 안동 · 전주 · 지리산 · 평양 · 한반도.
 
 **Pack plan:** Intro → warm-up → concept shelves → `::vocab::` → recycling guide → `::sentences::` → practice eight → two gap cards → what's next. Check proper-name romanization, NIKL senses, natural English order, Korean-order gloss, IDs and predecessor reuse before merge.
 
 **2026-09-30 vocabulary correction:** 예습 is now introduced in M44 beside 복습;
-recycle it here before teaching 예습하다. The pack retains 36 checklist words.
+recycle it here alongside 예습하다, now introduced in M75. The pack retains 34 checklist words.
+
+**Earlier ownership (2026-09-30):** 예습하다 → M75, 결석하다 → M75. The pack now owns 34 words; reuse these transferred entries as earlier vocabulary, not new slice words.

@@ -8,13 +8,15 @@ A transport notice, an exhibition label and a storage instruction all choose nou
 
 ## Part 1 — The words in their settings
 
-**The institutional shelf:** 운행 names a running transport service; 가입하다 joins a membership; 설립하다 founds an institution. 구입, 기여 and 감소 are compact report nouns for purchases, contributions and decreases.
+**The institutional shelf:** 운행 names a running transport service; 가입하다 joins a membership; 설립하다 founds an institution. 기여 and 감소 name contributions and decreases; 구입 from M75 already names purchases.
 
-**Three ways to keep something:** 보관 stores it under someone’s care. 보완하다 fills what it lacks. 보존하다 keeps it in existence. The similar openings make the contrast worth learning before a sentence asks you to choose.
+**Three ways to keep something:** 보관 from M75 stores it under someone’s care. 보완하다 fills what it lacks. 보존하다 keeps it in existence. The similar openings make the contrast worth learning before a sentence asks you to choose.
 
 **People, place and period:** 인간성 concerns human character, 중년 and 사춘기 name life stages, and 상반기 locates a report in half a year. 호남 is the Jeolla regional name; 주한 places an institution or group in Korea.
 
 **The smaller things:** 멸치 can flavor a pot of broth; 방울 counts a tiny amount of liquid; 찌꺼기 is what remains. 꾸리다 organizes luggage or a living, while 보살피다 gives a person or animal sustained care.
+
+**Earlier tools:** 포함 and 보관 from M75 supply the inclusion/storage labels, 대략 from M73 estimates, and 빼놓다 from M74 leaves something out. Reuse them beside the thirty-one words introduced here.
 
 ::vocab::
 

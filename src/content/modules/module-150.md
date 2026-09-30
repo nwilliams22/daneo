@@ -14,7 +14,7 @@ A fee is paid, a recording survives a performance, and relatives gather. These w
 
 ## Part 2 — Family, art and ceremony
 
-만화가 creates comics and 머리말 opens a book; 음반 from M51 returns as the released recording. 시댁 names a husband's family home; 장례식 names the ceremony of farewell. 손잡다 can describe literal hands or cooperation.
+만화가 creates comics and 머리말 opens a book; 음반 from M51 returns as the released recording. 시댁 names a husband's family home; 장례식 names the ceremony of farewell. M74’s 손잡다 can describe literal hands or cooperation.
 
 ::vocab::
 
@@ -38,9 +38,9 @@ No new glue. The sentence frames are familiar; the new work is choosing the prec
 2. Use 학비 and 등록하다 while keeping the purpose clear.
 3. Turn 공연되다 into a modifier before 음악.
 4. Describe the difference between 사생활 and 속마음.
-5. Use 밤새우다 with a writing task.
+5. Reuse M74’s 밤새우다 with a writing task.
 6. Return to M149's 강변 during an 올여름 plan.
-7. Explain both literal and figurative 손잡다.
+7. Recall both literal and figurative 손잡다 from M74.
 8. Say what the gap phrase 쓴맛을 보다 means beyond tasting.
 
 **Gap deck:** 손잡다 and 쓴맛을 보다 carry meanings beyond their word-by-word readings.

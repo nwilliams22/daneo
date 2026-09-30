@@ -10,11 +10,11 @@ A qualification is awarded, effort is recognized, and a machine is checked befor
 
 **What feels real:** 실감 joins real-實 to feeling-感; 실망 joins lose-失 to hope-望. The matching first syllable is not a matching root. 체험하다 supplies firsthand experience, while 수필 makes room for personal observation.
 
-**Recognition and qualification:** 알아주다 recognizes someone’s worth; 칭찬하다 performs the praise. 학위 is a formal academic award, and 개개인 keeps the individual visible inside a group. 코치 and 피디 name roles rather than degrees.
+**Recognition and qualification:** M74’s 알아주다 recognizes someone’s worth; 칭찬하다 performs the praise. 학위 is a formal academic award, and 개개인 keeps the individual visible inside a group. 코치 and 피디 name roles rather than degrees.
 
-**Checks, beginnings and handovers:** 점검 inspects, 신설 establishes something new, 유지되다 describes what stays in place, and 넘겨주다 transfers it into another person’s keeping. 조기 locates an action early in its course.
+**Checks, beginnings and handovers:** 점검 inspects, 신설 establishes something new, 유지되다 describes what stays in place, and M74’s 넘겨주다 transfers it into another person’s keeping. 조기 locates an action early in its course.
 
-**The street and the page:** 종소리 (M51) is heard; 가로등 (M50) gives light. Beside those earlier words, 직선 names a line without a bend. A 프린터 puts a page onto paper, and 알루미늄 names a material. Native motion verbs keep the formal nouns grounded in actions.
+**The street and the page:** 종소리 (M51) is heard; 가로등 (M50) gives light. Beside those earlier words, 직선 names a line without a bend. A 프린터 puts a page onto paper, and 알루미늄 names a material. M74’s 잡아당기다 and 다가서다 keep the formal nouns grounded in actions; they are earlier tools beside this pack’s thirty new words.
 
 ::vocab::
 

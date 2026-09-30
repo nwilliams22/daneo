@@ -11,28 +11,25 @@ hanja to native words.
 **Theme:** the fused-verb factory — verbs that are two owned words
 welded into one — plus the 편-family of adjectives and the native
 nouns of true and false (real/fake/free, others, style, appetite).
-The learner already owns every part; today they learn that Korean
+The learner already owns most parts; gloss 넘기다 (pass over) and 새우다 (spend a period awake) as frozen bases in the added compounds; today they learn that Korean
 welds. Three shelves.
 
 **Organizing machines (all owners verified — cite exactly these):**
 
 1. **The weld shelf — verb + verb, noun + verb, adverb + verb.**
    Teach the rails, then the verbs on them:
-   - **X + 나다 (the erupt-door):** M28's 나다 ("The eruption verb
-     hiding everywhere… Feelings and happenings COME OUT in Korean;
-     나다 is the door they use"); M67 shipped the feelings through it.
+   - **X + 나다 (the erupt-door):** M28's 나다 ("Feelings and happenings COME OUT in Korean; 나다 is the door they use."); M67 shipped the feelings through it.
      Today's: 생겨나다 — 생기다 (M28: "Things sprout: 문제가 생겼어요")
      + 나다: come-into-being-and-OUT — the narrated emergence (새로운
      문제가 생겨났어요); radar: 생기다 is the casual arising, 생겨나다
      the chronicled one. 자라나다 — 자라다 (M35: "Children 자라요; so do
      plants, cities, and rumors") + 나다: grow-up-and-out, the sprout —
      자라나는 아이들 (아이 M4; badge -는 M24), the newspaper phrase.
-     소문나다 — 소문 (M24: "Things-heard… travels faster than 뉴스") +
+     소문나다 — 소문 (M24: "소문 들었어요? — did you hear? — travels faster than 뉴스.") +
      나다: the rumor erupts = to become known: 소문난 맛집 (맛집 M18 —
      "the place worth the pilgrimage and the line") is on every
      restaurant's sign.
-   - **X + 내다 (the put-forth door):** M28's 내다 ("The put-it-out
-     verb… 시간을 내다 — MAKE time"). 찾아내다 — 찾다 (M6: "One verb
+   - **X + 내다 (the put-forth door):** M28's 내다 ("시간을 내다 — MAKE time."). 찾아내다 — 찾다 (M6: "One verb
      covers both the searching and the finding") + 내다: the FINDING
      half, forced out — 답을 찾아냈어요 (답 M15), 방법을 찾아내다 (방법
      M32). 알아내다 (find out, untaught) rides frozen on the same rail.
@@ -48,9 +45,8 @@ welds. Three shelves.
      from M7's table (흘러). Radar: 흐르다 flows in place, 흘러가다
      flows past, 흘리다 (M66: "the run-out spill verb") spills.
    - **X + 치다 (the intensifier tail):** two verbs share a -치다 that
-     is NOT M17's 치다 ("The strike-play verb… If it's hit or plucked,
-     it's 치다") — it's a suffix that means "with force". 넘치다 — 넘다
-     (M36: "To go over… 선을 넘다") + 치다: over-with-force = to
+     is NOT M17's 치다 ("If it's hit or plucked, it's 치다.") — it's a suffix that means "with force". 넘치다 — 넘다
+     (M36: "선을 넘다 (over the LINE") + 치다: over-with-force = to
      overflow: 물이 넘쳐요, 자신감이 넘쳐요 (자신감 M39). 합치다 — 合
      (join, frozen; the 합 of 합격 — verify owner, cite if taught) +
      치다: to combine, merge — 두 반을 합쳤어요 (반 M15's class). Radar:
@@ -108,8 +104,7 @@ welds. Three shelves.
    - 귀엽다 — cute: ㅂ-irregular, 귀여워요 (M7's table: "ㅂ → 워"). The
      aegyo adjective; radar vs M1's 예쁘다 (pretty = beauty; 귀엽다 =
      small-and-charming) — 강아지 (M22), 아기 (M25), and boyfriends.
-   - 가득하다 — M62's 가득 ("Brimful — a container meeting its limit…
-     The frequency list files it with its verb, 가득 차다") + 하다: the
+   - 가득하다 — M62's 가득 ("The frequency list files it with its verb, 가득 차다") + 하다: the
      STATE adjective — 사랑이 가득한 집 (사랑 M7, 집 M4) vs 가득 차다 the
      event (M66's 차다 note lists "full (가득 차다)" among its four).
    - 씩씩하다 — spirited, plucky: the mimetic-shaped mold M71's 깜빡
@@ -132,8 +127,7 @@ welds. Three shelves.
      명품 (명품 frozen = luxury goods) = a knockoff.
    - 공짜 — free of charge: 空 empty (frozen — the same 공 sits
      undecoded inside M12's 공항 and M22's 공기; decode it here as a
-     first) + 짜. 공짜로 받았어요 (받다 M9). Radar vs M20's 무료 ("무
-     (without) + 료 (fee…) Fee-less. Opposite: 유료"): 무료 is the sign,
+     first) + 짜. 공짜로 받았어요 (받다 M9). Radar vs M20's 무료 ("무 (without) + 료 (fee/material — genuinely the same 료 as in 음료수)"): 무료 is the sign,
      공짜 is the grin. Proverb is a gap candidate.
    - 남 — others, other people, not-us: 남의 일 (일 M2's work sense) =
      someone else's business; 남 앞에서 = in front of others; 남 이야기
@@ -154,18 +148,9 @@ welds. Three shelves.
      you turn my stomach — an insult, not a food review. Say it 밤맏
      (rom bammat).
 
-**Word slice (28):**
-생겨나다 · 더하다 · 없애다 · 들르다 · 넘치다 · 찾아내다 · 잠들다 ·
-합치다 · 흘러가다 · 자라나다 · 빨다 · 잘살다 · 졸다 · 소문나다 ·
-불편하다 · 화려하다 · 편리하다 · 귀엽다 · 가득하다 · 밤늦다 · 씩씩하다 ·
-멋 · 거짓 · 가짜 · 공짜 · 남 · 볼일 · 밥맛
+**Word slice (40):** 생겨나다 · 자라나다 · 소문나다 · 찾아내다 · 잠들다 · 흘러가다 · 넘치다 · 합치다 · 더하다 · 잘살다 · 밤늦다 · 없애다 · 들르다 · 졸다 · 빨다 · 편리하다 · 불편하다 · 화려하다 · 귀엽다 · 가득하다 · 씩씩하다 · 멋 · 거짓 · 가짜 · 공짜 · 남 · 볼일 · 밥맛 · 늘어서다 · 달려들다 · 오르내리다 · 빼놓다 · 알아주다 · 잡아당기다 · 넘겨주다 · 다가서다 · 떠나가다 · 모여들다 · 밤새우다 · 손잡다.
 
-Ids: w_saenggyeonada, w_deohada, w_eopsaeda, w_deulleuda, w_neomchida,
-w_chajanaeda, w_jamdeulda, w_hapchida, w_heulleogada, w_jaranada,
-w_ppalda, w_jalsalda, w_jolda, w_somunnada, w_bulpyeonhada,
-w_hwaryeohada, w_pyeollihada, w_gwiyeopda, w_gadeukhada, w_bamneutda,
-w_ssikssikhada, w_meot, w_geojit, w_gajja, w_gongjja, w_nam, w_bollil,
-w_bammat — grep each for collisions.
+Ids: w_saenggyeonada, w_jaranada, w_somunnada, w_chajanaeda, w_jamdeulda, w_heulleogada, w_neomchida, w_hapchida, w_deohada, w_jalsalda, w_bamneutda, w_eopsaeda, w_deulleuda, w_jolda, w_ppalda, w_pyeollihada, w_bulpyeonhada, w_hwaryeohada, w_gwiyeopda, w_gadeukhada, w_ssikssikhada, w_meot, w_geojit, w_gajja, w_gongjja, w_nam, w_bollil, w_bammat, w_neureoseoda, w_dallyeodeulda, w_oreunaerida, w_ppaenota, w_arajuda, w_jabadanggida, w_neomgyeojuda, w_dagaseoda, w_tteonagada, w_moyeodeulda, w_bamsaeuda, w_sonjapda.
 
 **Teaching order:** the weld shelf by rail (나다 trio → 내다 → 들다 →
 가다 → 치다 pair → 더하다/잘살다/밤늦다 → 없애다 → 들르다 → 졸다 →
@@ -192,3 +177,5 @@ taught before leaning on it; else skip). Check gap.json first. Max 3;
 
 **Output files:** draft-m74.words.json, .sentences.json, .gap.json,
 .md, .meta.json — to the scratchpad dir named in SHARED-BRIEF.md.
+
+**Added teaching shelf (2026-09-30):** 늘어서다 · 달려들다 · 오르내리다 · 빼놓다 · 알아주다 · 잡아당기다 · 넘겨주다 · 다가서다 · 떠나가다 · 모여들다 · 밤새우다 · 손잡다. Keep the stable IDs and the full decode notes. These grade-C words belong to this 40-word checklist; no garnish or new glue.

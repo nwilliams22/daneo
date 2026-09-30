@@ -279,6 +279,8 @@ capacity. Earlier count notes above are historical snapshots.
 
 **M70–M72 count correction (2026-09-30):** each now registers 40 distinct non-particle words. Twelve change and motion verbs moved from M123, M139 and M148 to M70; thirteen conversational expressions moved from M122, M142 and M144 to M71; ten laboratory, equipment and computing words moved from M99, M101 and M103 to M72. All 35 retain stable IDs, full notes and NIKL coverage; sentence payloads and the Ring 2 contract are unchanged. Latest donor counts: M99 30, M101 30, M103 33, M122 30, M123 30, M139 33, M142 30, M144 30 and M148 30. Only M103 and M139 retain capacity in this donor set (three each).
 
+**M73–M75 count correction (2026-09-30):** each now owns 40 distinct non-particle checklist words. Twenty-seven existing grade-C entries moved forward with stable IDs: seven modifiers to M73, twelve fused verbs to M74, and eight noun/하다 partners to M75. Latest donor counts: M125 32, M127 30, M128 31, M129 30, M136 33, M150 33, M152 33 and M155 34. All donors remain within 30–38; M127 and M129 have no remaining capacity. Full notes explain later standalone bases directly. Sentence payloads, NIKL coverage and the Ring 2 contract are preserved. Earlier count notes are historical snapshots.
+
 ### Ring 2 glue checklist (~40 patterns)
 
 Quoting -다고/-라고/-냐고/-자고/-달라고 · indirect -는지 · **-는데/-(으)ㄴ데**

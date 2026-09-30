@@ -1,6 +1,6 @@
 # Korean, Word-First — Module 74: Two Words, One Verb
 
-M28 taught you that Korean's busiest motion verbs are welds — 들어가다, 나오다, an action snapped onto 가다/오다 — and M66 ran the rail again with 달려가다 and 따라오다. This module opens the whole factory. Twenty-eight words, and you already own nearly every part: verbs welded to verbs (생겨나다, 찾아내다, 흘러가다), nouns welded to verbs (소문나다, 잠들다), adverbs welded to verbs (잘살다, 밤늦다), a -치다 tail that means with force (넘치다, 합치다), the one-off causative 없애다, and three loners the pool owed you (들르다, 졸다, 빨다). Beside the welds, two smaller shelves: the 편 family finally splits three ways (편리하다 · 편안하다 · 불편하다) with four more adjectives behind it, and the native nouns of true and false — 멋, 거짓, 가짜, 공짜, 남, 볼일, 밥맛 — where 진짜 gets its family and the sign on every restaurant gets decoded. No new grammar; the grammar is that Korean welds.
+M28 taught you that Korean's busiest motion verbs are welds — 들어가다, 나오다, an action snapped onto 가다/오다 — and M66 ran the rail again with 달려가다 and 따라오다. This module opens the whole factory. Forty words, and you already own most of their parts: verbs welded to verbs (생겨나다, 찾아내다, 흘러가다), nouns welded to verbs (소문나다, 잠들다), adverbs welded to verbs (잘살다, 밤늦다), a -치다 tail that means with force (넘치다, 합치다), the one-off causative 없애다, and three loners the pool owed you (들르다, 졸다, 빨다). Beside the welds, two smaller shelves: the 편 family finally splits three ways (편리하다 · 편안하다 · 불편하다) with four more adjectives behind it, and the native nouns of true and false — 멋, 거짓, 가짜, 공짜, 남, 볼일, 밥맛 — where 진짜 gets its family and the sign on every restaurant gets decoded. No new grammar; the grammar is that Korean welds.
 
 **How to use this:** read each weld as arithmetic before you drill it — A + B, both owned — and the word is half-learned on sight. Spend your reps on the rails (which door a verb uses: 나다, 내다, 들다, 가다, -치다), on the spacing pairs (잘 살아요 / 잘살아요), and on the look-alike trio 들다 / 들르다 / 들리다, which English keeps miles apart and Korean keeps one vowel apart.
 
@@ -20,6 +20,8 @@ Every verb on the first shelf runs on a rail you already own:
 ---
 
 ## Part 2 — The bricks
+
+**Twelve more welds:** 늘어서다 extends a standing row; 달려들다 rushes inward; 오르내리다 alternates up and down. 빼놓다 removes and leaves aside, 알아주다 recognizes another person’s worth, 잡아당기다 grips and pulls, and 넘겨주다 hands something over. 다가서다 steps closer, 떠나가다 leaves, and 모여들다 gathers inward. 밤새우다 spends the night awake; 손잡다 joins hands or joins forces. The notes explicitly gloss the later standalone bases 넘기다 and 새우다, so neither is assumed knowledge.
 
 ::vocab::
 
