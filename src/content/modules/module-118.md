@@ -1,6 +1,6 @@
 # Korean, Word-First — Module 118: Collection Day
 
-Earlier notes kept naming sets and leaving their members for later. Today those receipts come due: M58 named all three forces, M89 contrasted size classes, M76 and M99 pointed at routes, and M108 named the money form of punishment. The thirty-six words here complete those shelves while the office nouns give them a place to be used. No new grammar enters; each sentence borrows one Band 7 pattern.
+Earlier notes kept naming sets and leaving their members for later. Today those receipts come due: M58 already taught all three forces; M89 contrasted size classes, M76 and M99 pointed at routes, and M108 named the money form of punishment. The thirty-one words here complete those shelves while the office nouns give them a place to be used. No new grammar enters; each sentence borrows one Band 7 pattern.
 
 **How to use this:** begin with the receipts below. Say the older word, then the new one; a set member is easier to keep when you know which empty place it fills. The -인 people and the office words come next. Read the radar before treating an identical sound as an identical meaning.
 
@@ -12,7 +12,6 @@ Earlier notes kept naming sets and leaving their members for later. Today those 
 
 | arriving word | earlier note | what the set now holds |
 |---|---|---|
-| 육군 · 해군 · 공군 | M58 군 | land · sea · air forces |
 | 소형 | M89 대형 | large · middle · small sizes |
 | 노선 | M76 호선 · M99 선 | numbered line · general route |
 | 벌금 | M108 벌 | punishment · money penalty |
@@ -20,9 +19,9 @@ Earlier notes kept naming sets and leaving their members for later. Today those 
 | 설문 조사 | M56 조사하다 | investigation · questionnaire |
 | 제공 | M61 제공하다 | verb · bare supply noun |
 
-**The three forces** are a single news-register set. M58's 군 named “육군, 해군, 공군 (army, navy, air force — frozen glosses)” and left all three frozen; 陸 lands with land, 海 with sea, 空 with sky. The full line is: “軍 the military: 군인's (M27) army-군 standing alone — 우리 군 = our forces; 육군, 해군, 공군 (army, navy, air force — frozen glosses) file the branches.” These are categories in a report, not military instructions.
+**The three forces return as earlier vocabulary:** 육군, 해군 and 공군 were taught with 군 in M58. Their land, sea and air roots now support the new report and office nouns; they do not add three new checklist entries here.
 
-**The people on the -인 rail** divide by setting. 상인 sells, 죄인 carries guilt, 본인 identifies the person on a form, 신인 has just debuted, 현대인 stands for people today, and 국왕 is a ruler in an official report. 인사 is a trap at the start of the row: the greeting inside 인사하다 is already yours, but 人事 personnel and 人士 notable person are separate dictionary words.
+**The people on the -인 rail** divide by setting. M58’s 상인 sells and 신인 marks a debut; today 죄인 carries guilt, 본인 identifies the person on a form, 현대인 stands for people today, and 국왕 is a ruler in an official report. 인사 is a trap at the start of the row: the greeting inside 인사하다 is already yours, but 人事 personnel and 人士 notable person are separate dictionary words.
 
 **The receipts at the desk** complete earlier collocations. M69's 빌다 waited for 소원, M78's 부족 for 수면, M72's 발생 for 화재, M23's 안내소 for 안내, M51's 참가하다 for 참가, M103's 정면 for 충돌, M72's 연결하다 for 연결. Learn them as pairs: 소원을 빌다, 수면 부족, 화재 발생, 참가 신청, 정면 충돌, 연결이 끊기다.
 

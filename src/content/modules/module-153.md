@@ -20,6 +20,8 @@ A shirt button, a palace visit, a hospital discharge and a family meal: this pac
 
 초순 covers the first ten days; 하순 starts on the twenty-first. Neither one means a week. And keep the homograph radar active: 인도 from M50 is a sidewalk; today 도장 is a seal and 장인 is a family member.
 
+**Earlier descriptions, new scenes:** 분홍색 and 미끄럽다 are already taught in M60. Reuse the color with clothing and the texture with a path; the new checklist here supplies the food, family and place words around them.
+
 ::vocab::
 
 ---

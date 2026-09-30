@@ -24,6 +24,8 @@ English hands one 'thick' to everything; Korean checks the shape first:
 
 ## Part 2 — The bricks
 
+**What the hands and eyes check:** 단단하다 describes firmness beside 딱딱하다’s hardness; 미끄럽다 warns that a surface gives little grip. 투명하다 lets the light through. 빛깔 names a hue, 분홍색 supplies pink, and 흑백 pairs black with white. Finally, 끈 gives 묶다 and 매다 a concrete object: tie or fasten the cord.
+
 ::vocab::
 
 **Homophone patrol:** 묶다 says 묵따 exactly like M23's 묵다 — tie the hair, don't lodge in it. 짙다 says 짇따 exactly like M54's 짓다 — one builds, one darkens. 매다 has an untaught twin 메다 that shoulders bags — knots in front, straps on shoulders. 펴다 spreads by hand; M22's 피다 blooms on its own. And 가늘다's badge 가는 reads like 가다 going somewhere — 가는 국수 is noodles, 가는 길 is the road.

@@ -10,7 +10,7 @@ Band 6 walks out the kitchen door. M3 fed you, M18 set the restaurant table, M40
 
 Korean splits rice three ways, and the split IS the culture:
 
-- **벼 → 쌀 → 밥:** the plant in the paddy (벼 — riding frozen), the grain in the sack (쌀 — today's), the bowl on the table (밥 — Module 1, day one). English has one word; Korea, which measured wealth in it and taxes by it, needed three.
+- **벼 → 쌀 → 밥:** the plant in the paddy (벼 — also taught here), the grain in the sack (쌀 — today's), the bowl on the table (밥 — Module 1, day one). English has one word; Korea, which measured wealth in it and taxes by it, needed three.
 - **The 농-family:** 農 the farm-root runs 농사 (the doing — what grandfather does), 농업 (the industry — what the ministry manages), 농촌 (the village that does it). Not the basket-농 of M17's 농구; different court entirely.
 - **논 and 밭:** wet paddy (논 — riding frozen) and dry field (밭) split the land between them — 논밭 together just means farmland. The 논 grows the 쌀; the 밭 grows this module.
 - **The maker-verb's biggest client:** M54's 짓다 built houses, rice, names, and prescriptions. Today it takes its oldest commission: 농사를 짓다 — farming as composition, a year's living assembled from soil and weather.
@@ -19,6 +19,8 @@ Korean splits rice three ways, and the split IS the culture:
 ---
 
 ## Part 2 — The bricks
+
+**From soil to stall:** 땅속 places the roots below the surface. 벼 is the growing rice plant, and 곡식 groups harvested grains such as 쌀 and 보리; 호박 belongs on the vegetable shelf. At the stall, 싱싱하다 praises produce that looks fresh and lively, beside the broader 신선하다. The plant, the crop category and the freshness judgment now have separate names.
 
 ::vocab::
 

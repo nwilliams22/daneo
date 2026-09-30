@@ -43,8 +43,7 @@ colors; this is the workbench's.
    묶다 (tie/bundle — 머리를 묶다, 하나로 묶다; ponytails and package deals),
    매다 (fasten — 안전벨트를 매세요! verify 안전 M50-era/벨트 pool-frozen…
    벨트 is pool-unassigned: use 넥타이? also untaught — use 신발 끈? 끈
-   untaught. SAFEST: 안전벨트 as frozen-glossed compound, or 넥타이를 매다
-   with 넥타이 frozen — pick one, gloss it).
+   now taught here. Use 신발 끈 with today’s 끈; any 넥타이 or 안전벨트 example must still gloss the untaught compound).
 5. **The material corner:** 금 (金 gold — finally the metal itself after
    금요일/현금/세금/금연 all borrowed the syllable — verify the gold-root
    canon M43 built and the 禁-radar M53 set; 금메달, 금수저 M49's 흙 note!
@@ -58,7 +57,7 @@ colors; this is the workbench's.
    넓다/좁다 — the dimension nouns M57 built get their Sino cousin; 대폭
    wink).
 
-**Word slice (33 words — rank · word · pos):**
+**Word slice (40 words — rank · word · pos):**
 886 커다랗다 adj · 1366 희다 adj · 1585 검다 adj · 1937 굵다 adj ·
 1946 붉다 adj · 2155 둥글다 adj · 2482 짙다 adj · 2324 조그맣다 adj ·
 2757 가늘다 adj · 2827 두껍다 adj · 3018 진하다 adj · 3421 얇다 adj ·
@@ -75,6 +74,10 @@ colors; this is the workbench's.
 **Sense collapses:** 금 gold-金 (B) vs line-금 (금을 긋다, C — one line);
 조각 sculpture-彫刻 (B) vs piece (C) — both in the note; 매다's homophone
 메다 (shoulder — untaught pool word, one-line radar, don't teach).
+
+**Added grade-C words (included in the 40):** 투명하다 · 빛깔 · 흑백 · 단단하다 · 분홍색 · 미끄럽다 · 끈. Keep their stable IDs. Teach their complete shipped decodes here; these are not garnish.
+
+**Scene connection:** Compare firmness with hardness and slipperiness. Add transparency, hue, pink and black-and-white; give the tying verbs an actual cord. All seven notes use only same-or-earlier prerequisites.
 
 **Sentences:** 8; ≥1 running a dimension pair contrast, ≥1 color-register
 line, ≥3 recycling recent machinery. No dup text. M58 (people) and M59

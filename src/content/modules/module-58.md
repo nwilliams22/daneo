@@ -20,6 +20,8 @@ The course has been hinting since M4's 씨 and M9's 사장님 that Korean addres
 
 Almost every entry on this shelf is arithmetic you already own — a taught root plus a person-factory, or a unit plus chief-長. Read the decodes before you drill; the only true strangers here are the native register words (녀석, 아가씨, 여보), and those come with usage manuals attached.
 
+**Roles in a working scene:** 생산자 makes goods and 기술자 brings a technical skill; 상인 sells the result. 신인 marks a newcomer to a field, while 이사장 adds a board chair to the 長 ladder. 군 now opens straight into its three branches, 육군 · 해군 · 공군: land, sea and air. Learn these as role names first; they are not all forms of address.
+
 ::vocab::
 
 **Radar patrol:** 군 files three ways — 軍 the military, 君 the dated Mr. (김 군), 郡 the rural county · 과장 the section chief (課長) is not 과장 the exaggeration (誇張) · and the register minefield is mapped entry by entry: 아가씨 (service-speech, not street-speech), 녀석 (downward only), 형님 (respect or racketeering, context decides).

@@ -22,18 +22,18 @@ learner has been grazing since M4's 씨 and M9's 사장님/손님, now systemati
    no English seat. 여보 — spouses' "honey" (여보세요 M20? verify — the phone
    hello was this word's cousin; tell that story if the note supports it).
 3. **The 先/後 pair:** 선배/후배 — the age-rank system every K-drama school
-   and office runs on (M15's 학교 culture; 존댓말 to 선배 even at age 25 —
+   and office runs on (M1's 학교 culture; 존댓말 to 선배 even at age 25 —
    M47's ladder, verify). 선 = before (선생님's 先! — verify M4's 선생님
    decode), 후 = M5's 오후/M13's 후에.
 4. **The 少-pair and the people-shelf:** 소년/소녀 (少年/少女 — few-years;
-   radar vs M48's 소설's small-小, verify owner of 小), 젊은이 (M21's 젊다 +
+   radar vs M48's 소설's small-小, verify owner of 小), 젊은이 (M24's 젊다 +
    -이 person-suffix? verify how -이 person nouns were handled), 성인 (成人 —
    grown-complete; radar vs 어른 M24, verify: 어른 the elder you respect,
    성인 the legal category — 성인 영화 wink), 아가씨 (young lady — the
    register minefield: service-industry OK, street-call risky; give the
    warning), 녀석 (rascal — affectionate-to-rude scale; 이 녀석! grandpa's
    favorite), 형님 (형 M4 + -님: gangster films AND respectful juniors —
-   verify M19's 형/언니 register notes).
+   verify M4's 형/언니 register notes).
 5. **The workforce:** 노동자 (勞動 labor — 노동자's 者 verify the person-者
    canon — M27 환자 introduced it), 공무원 (公務員 — public-duty-member; 员
    verify M43 사원's 員 note), 국회의원 (國會議員 — assembly member; decode
@@ -50,7 +50,7 @@ learner has been grazing since M4's 씨 and M9's 사장님/손님, now systemati
    (김 군 — dated, formal). Both senses in the 군 note. 장군 (將軍 — general;
    이순신 장군, verify 이순신 taught? likely not — keep as glossed culture).
 
-**Word slice (32 words — rank · word · pos):**
+**Word slice (40 words — rank · word · pos):**
 612 회장 noun · 659 군 noun · 1531 군대 noun · 792 노동자 noun · 960 소녀 noun ·
 1078 소년 noun · 1122 선배 noun · 2541 후배 noun · 1200 장군 noun ·
 1255 젊은이 noun · 1318 형님 noun · 2074 녀석 noun · 2474 아가씨 noun ·
@@ -59,6 +59,10 @@ learner has been grazing since M4's 씨 and M9's 사장님/손님, now systemati
 2413 부장 noun · 2314 반장 noun · 5501 비서 noun · 5921 사모님 noun ·
 2512 종업원 noun · 2669 책임자 noun · 1379 전문가 noun · 4083 신입생 noun ·
 6307 졸업생 noun · 3997 성인 noun · 4298 인원 noun
+
+**Added grade-C words (included in the 40):** 생산자 · 기술자 · 이사장 · 육군 · 해군 · 공군 · 상인 · 신인. Keep their stable IDs. Teach their complete shipped decodes here; these are not garnish.
+
+**Scene connection:** Producers, technicians and traders connect the workplace roles; the board chair extends 長; the newcomer contrasts with the student newcomer. Teach the three military branches together with 군.
 
 **Sentences:** 8; ≥1 office-ladder scene (과장님/부장님 in address), ≥1
 선배/후배 scene, ≥1 군대 (factual), ≥3 recycling recent machinery fresh

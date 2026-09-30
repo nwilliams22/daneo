@@ -245,6 +245,14 @@ checklist words and M149 retains 32, both within the 30–38 contract.
 The source IDs and overall NIKL coverage are unchanged; M149 sentences may
 reuse the words as earlier vocabulary.
 
+**M58–M60 count correction (2026-09-30):** each pack now owns 40 distinct
+non-particle checklist words, with 21 existing grade-C entries moved forward.
+M58 adds production, technical, trading and military roles; M59 adds grain,
+produce and soil words; M60 adds texture, color, transparency and a cord.
+Donors retain M110 34, M111 34, M115 33, M116 35, M118 31, M120 32,
+M126 34 and M153 33 — all within Ring 3’s 30–38 range. Stable IDs, existing
+sentence inventories and full NIKL coverage are preserved.
+
 ### Ring 2 glue checklist (~40 patterns)
 
 Quoting -다고/-라고/-냐고/-자고/-달라고 · indirect -는지 · **-는데/-(으)ㄴ데**

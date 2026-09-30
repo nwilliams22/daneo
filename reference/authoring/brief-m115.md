@@ -10,10 +10,11 @@ span", run lookup.py and copy. Read M99's md (the syllable table and its
 note, M42's 불만 note (the 불- ledger), M93's 극복하다 note BEFORE
 drafting.
 
-**Theme:** the nouns that dismount. 36 Grade-C nouns. THE DISMOUNTS
+**Earlier-vocabulary reconciliation (2026-09-30):** 생산자 → M58; 기술자 → M58; 이사장 → M58. These words are already taught, not new entries in this pack. Any examples or decode guidance below that mention them are recap only; the exact 33-word slice below controls authoring. Do not present them as frozen or as promises first paid here. Existing sentences may reuse them.
+
+**Theme:** the nouns that dismount. 33 Grade-C nouns. THE DISMOUNTS
 (활용 허용 극복 불편 건조 탄생 — each the bare noun under a verb or
-adjective the learner already rides), THE PERSONS AND THE POWERS (생산자
-기술자 이사장 심판 영향력), THE -적 AND THE 공- (전국적 인간적 공공 인공),
+adjective the learner already rides), JUDGEMENT AND INFLUENCE (심판 영향력), THE -적 AND THE 공- (전국적 인간적 공공 인공),
 THE OFFICE VI (제안 진급 표준 선진 신규 양심 이자 도전 보조 신념 재능 교양
 학술), and THE LEDGER AND THE LIFE (전반 수명 거액 교훈 단편 냉동 예감 쾌감).
 Organizing thesis: **a Korean noun is usually the verb with its 하다
@@ -49,16 +50,7 @@ list and starts being a machine.
    bitter-living"): a birth, a coming-into-being — 탄생 비화 (frozen), and
    the sort that matters: people 태어나다 (M25), eras and records 탄생하다).
 
-2. **THE PERSONS AND THE POWERS (5):** 생산자 (PAYS M97's 생산 — quote its
-   exact "생산자 = the producer, with the person-者" span; and the -者 rail
-   that note names: 기자, 환자, 소비자, now 생산자), 기술자 (PAYS M44's 기술
-   — quote its exact "기술자 = technician" span; the same person-者, on a
-   skill instead of a trade), 이사장 (理事長 — RADAR FIRST, mandatory: this
-   이사 is NOT M54's 이사, the house-move — quote that note's exact "移徙
-   move-migrate" span and say the hanja differ; 理事 = a board director (理
-   of M34's 이해, 事 of M?? — verify), + 長 of M39's 장점 and M106's 원장 if
-   shipped: the chairman of a board — 재단 이사장 (재단 frozen); the -장 rail
-   the learner owns: 사장님 (M9), 부장 (M16), 회장 (M58), 원장, 이사장),
+2. **JUDGEMENT AND INFLUENCE (2):**
    심판 (PAYS M103's 항의 — quote its exact "심판에게 항의하다 (심판 — the
    referee, frozen)" span; TWO jobs, cover both: the referee (축구 심판 —
    M17's 축구) and judgement itself (최후의 심판 = the Last Judgement); 審 of
@@ -151,12 +143,7 @@ list and starts being a machine.
    쾌 of 유쾌하다, frozen) + 感: a rush, a thrill — 쾌감을 느끼다 (M?'s 느끼다 —
    verify); the word for the good shiver, and sort it against M7's 기분).
 
-**Word slice (36):** 활용 · 허용 · 극복 · 불편 · 건조 · 탄생 · 생산자 ·
-기술자 · 이사장 · 심판 · 영향력 · 전국적 · 인간적 · 공공 · 인공 · 제안 ·
-진급 · 표준 · 선진 · 신규 · 양심 · 이자 · 도전 · 보조 · 신념 · 재능 · 교양 ·
-학술 · 전반 · 수명 · 거액 · 교훈 · 단편 · 냉동 · 예감 · 쾌감. (36 — if it
-runs long, DROP 학술 and 보조 and say so.) POS: all `noun`. IDs: w_heoyong,
-w_isajang, w_simpan, w_jeonban — check for collisions.
+**Word slice (33):** 활용 · 허용 · 극복 · 불편 · 건조 · 탄생 · 심판 · 영향력 · 전국적 · 인간적 · 공공 · 인공 · 제안 · 진급 · 표준 · 선진 · 신규 · 양심 · 이자 · 도전 · 보조 · 신념 · 재능 · 교양 · 학술 · 전반 · 수명 · 거액 · 교훈 · 단편 · 냉동 · 예감 · 쾌감. All grade C; stable IDs retained.
 
 **Md shape (Band 8 default):** intro (the noun dismounts — name the six) ·
 How to use · `## Part 1 — The nouns dismount` (the dismount table first:
@@ -173,6 +160,6 @@ with the -자/-력/-장 rails; then the rest) · `::vocab::` · **Radar patrol**
 **Gap candidates:** 인간적으로 (phrase — the pre-favour softener), 교양 과목
 (concept — the gen-ed class), 재능 기부 (concept). Pick 2–3; grep gap.json.
 
-**Ledger:** all 36 Grade C — `m115\t8\tgloss (C)`. Output files
+**Ledger:** all 33 Grade C — `m115\t8\tgloss (C)`. Output files
 draft-m115.* in the scratchpad; meta.notes lists every slip and verify
 outcome.

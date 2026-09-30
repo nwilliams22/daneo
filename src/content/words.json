@@ -20420,7 +20420,7 @@
     "en": "uncooked rice (the grain)",
     "pos": "noun",
     "moduleId": "m59",
-    "notes": "The civilization staple, finally: Korean splits rice into three words where English has one — 벼 the plant in the paddy (riding frozen), 쌀 the raw grain in the sack, and M1's 밥, cooked and on the table. 쌀밥 = plain white rice, 쌀국수 = the rice noodles under M18's 국수 category. Pronunciation drill: tense the ㅆ or you're saying 살, the age counter (M5) — the shop will hear your years, not your grain."
+    "notes": "The civilization staple, finally: Korean splits rice into three words where English has one — 벼 the plant in the paddy (also taught here), 쌀 the raw grain in the sack, and M1's 밥, cooked and on the table. 쌀밥 = plain white rice, 쌀국수 = the rice noodles under M18's 국수 category. Pronunciation drill: tense the ㅆ or you're saying 살, the age counter (M5) — the shop will hear your years, not your grain."
   },
   {
     "id": "w_nongsa",
@@ -21284,7 +21284,7 @@
     "en": "the military; Mr. (young man, dated)",
     "pos": "noun",
     "moduleId": "m58",
-    "notes": "軍 the military: 군인's (M27) army-군 standing alone — 우리 군 = our forces; 육군, 해군, 공군 (army, navy, air force — frozen glosses) file the branches. Sense collapse, mandatory: the dictionary's other 군 (君) is a Mr.-suffix for young men — 김 군, the name-suffix 씨 (M4) with a schoolmaster's accent: dated, formal, surviving in ceremonies and old novels. (A third, 郡, is the rural county on addresses.) One syllable, three government jobs."
+    "notes": "軍 the military: 군인's (M27) army-군 standing alone — 우리 군 = our forces; 육군, 해군, 공군 (army, navy, air force — all taught here) file the branches. Sense collapse, mandatory: the dictionary's other 군 (君) is a Mr.-suffix for young men — 김 군, the name-suffix 씨 (M4) with a schoolmaster's accent: dated, formal, surviving in ceremonies and old novels. (A third, 郡, is the rural county on addresses.) One syllable, three government jobs."
   },
   {
     "id": "w_gundae",
@@ -30932,7 +30932,7 @@
     "en": "to gather in, reap; to achieve (a result)",
     "pos": "verb",
     "moduleId": "m94",
-    "notes": "The harvest verb: 곡식을 거두다 (곡식 — grain, riding frozen) = bring in the grain, 빨래를 거두다 (M54's 빨래) = take in the washing. Then the headline's job, the same picture on a result: 성공을 거두다 (M44's 성공) = achieve success, 승리를 거두다 (승리 — a victory, riding frozen) = take the win, 좋은 결과를 거두다 (M32's 결과) — what a season sows a headline reaps, and Korean says the reaping with 거두다 where English says achieve. A quieter job, folding in: 눈물을 거두다 (M14's 눈물) = dry one's tears, 손을 거두다 (M8's 손) = withdraw one's hand. RADAR: it shares a syllable with M40's 두다 and nothing else — 두다 leaves a thing in place; 거두다 takes it in."
+    "notes": "The harvest verb: 곡식을 거두다 (곡식 — grain, taught in M59) = bring in the grain, 빨래를 거두다 (M54's 빨래) = take in the washing. Then the headline's job, the same picture on a result: 성공을 거두다 (M44's 성공) = achieve success, 승리를 거두다 (승리 — a victory, riding frozen) = take the win, 좋은 결과를 거두다 (M32's 결과) — what a season sows a headline reaps, and Korean says the reaping with 거두다 where English says achieve. A quieter job, folding in: 눈물을 거두다 (M14's 눈물) = dry one's tears, 손을 거두다 (M8's 손) = withdraw one's hand. RADAR: it shares a syllable with M40's 두다 and nothing else — 두다 leaves a thing in place; 거두다 takes it in."
   },
   {
     "id": "w_neomgida",
@@ -35368,8 +35368,8 @@
     "rom": "tumyeonghada",
     "en": "to be transparent",
     "pos": "adj",
-    "moduleId": "m111",
-    "notes": "透明 pass-through-bright: 透, to pass through — a first — + the bright-明 of M34's 분명하다 (\"分明 divided-bright\"). Glass first: 투명한 유리 (M36's 유리). Then government and books, because Korean splits the word exactly where English does: 투명한 경영 (M43's 경영) = transparent management, 투명성 (the -성 of M57's 가능성, riding frozen) = transparency. Light gets through both of them, which is the whole metaphor."
+    "moduleId": "m60",
+    "notes": "透明 pass-through-bright: 透 lets something through and 明 is the bright-root in M34's 분명하다. 투명한 유리 uses M36's 유리: transparent glass lets light pass through. The same adjective can describe open, accountable management — 투명한 경영, with M43's 경영 — extending visibility from a material to a process."
   },
   {
     "id": "w_gotongseureopda",
@@ -35413,8 +35413,8 @@
     "rom": "bitkkal",
     "en": "a hue, a tint",
     "pos": "noun",
-    "moduleId": "m111",
-    "notes": "M49's 빛 + 깔 — the same 깔 standing at the end of M21's 색깔, riding frozen: the colour light makes. 가을 빛깔 (M11's 가을) = autumn colours, 빛깔이 곱다 (M63's 곱다) = to be lovely in colour. Sort them: M21's 색깔 is the colour a thing IS, and 빛깔 is the colour it gives off — a scarf has a 색깔, a sunset has a 빛깔, and a good 된장 has both. Says 빋깔."
+    "moduleId": "m60",
+    "notes": "M49's 빛 (light) + the color-forming 깔 also heard in M21's 색깔: a color, hue or tint. 빛깔 and 색깔 overlap; 빛깔 often draws attention to the shade or visual quality, as in 가을 빛깔 (autumn colors, M11's 가을). Say 빋깔: the final ㅊ of 빛 closes as ㄷ before the tense ㄲ."
   },
   {
     "id": "w_momjit",
@@ -35854,8 +35854,8 @@
     "rom": "goksik",
     "en": "grain, cereals (穀食)",
     "pos": "noun",
-    "moduleId": "m110",
-    "notes": "PAYS M94's 거두다, whose first example carried it frozen — \"곡식을 거두다 (곡식 — grain, riding frozen) = bring in the grain\". 穀, grain — a FIRST — + the eat-食 that M35's 식물 ruled out for its own syllable (\"this 식 (植 plant) is NOT 음식/식당's eat-식 (食)\"): the grain that gets eaten. It is a category, not a species — M59's 쌀 is one 곡식 and M40's 콩 is another — and it lives in the sentences farming takes: 곡식을 심다 (M59's 심다), 밭에 곡식이 자라요 (M59's 밭)."
+    "moduleId": "m59",
+    "notes": "穀食 grain-food: 穀 is grain and 食 is the eating-root in today's 식품. 곡식 names cereal grains as a category; today's 쌀 and 보리 are examples, not synonyms. 밭에 곡식이 자라요 uses today's 밭 and M35's 자라다: grain grows in the field."
   },
   {
     "id": "w_sallim",
@@ -35872,8 +35872,8 @@
     "rom": "hobak",
     "en": "pumpkin, squash",
     "pos": "noun",
-    "moduleId": "m110",
-    "notes": "Native, with no hanja at all — and it PAYS M37's 죽, which served it to you long before you owned it: \"호박죽 for comfort\". Korean cooking runs on two of them: the pale courgette-shaped 애호박 (riding frozen) that goes into M80's 된장찌개, and the big orange 늙은 호박 (M35's 늙다) that becomes the 죽. The unkind idiom 호박 같다 is in the gap deck. RADAR: it is one native word, not M84's 호 with a second syllable behind it — no 號, no hanja, nothing to decode."
+    "moduleId": "m59",
+    "notes": "A native word for pumpkin or squash, with no hanja split. M37's 죽 already offered '호박죽 for comfort'; now you own the vegetable inside that porridge. 애호박 (young Korean squash, frozen and glossed) is the tender cooking variety, while 늙은 호박 uses M35's 늙다 for a mature pumpkin."
   },
   {
     "id": "w_gwanggyeong",
@@ -37168,8 +37168,8 @@
     "rom": "saengsanja",
     "en": "the producer, the maker (生産者)",
     "pos": "noun",
-    "moduleId": "m115",
-    "notes": "PAYS M97's 생산, which wrote the word out and walked on: \"생산자 = the producer, with the person-者\". The suffix is the one M27's 환자 introduced (\"The -자 is a person-suffix (기자, 학자 — reporter, scholar)\") and M96's 학자 turned into a payroll — \"기자 (M16) records, 환자 (M27) suffers, 소비자 (M43) spends\" — and today 생산자 makes. 생산자 가격 = the producer price, and 생산자와 소비자 are the economy page's two ends."
+    "moduleId": "m58",
+    "notes": "生産者 life-produce-person: 生 brings forth, 産 produces, and 者 names the person who does it. A 생산자 makes goods; M43's 소비자 buys and uses them — 생산자와 소비자 puts the two ends of the market side by side. 생산 (production) is the noun inside the compound, decoded here rather than assumed as an earlier word."
   },
   {
     "id": "w_gisulja",
@@ -37177,8 +37177,8 @@
     "rom": "gisulja",
     "en": "a technician, a skilled worker (技術者)",
     "pos": "noun",
-    "moduleId": "m115",
-    "notes": "PAYS M44's 기술, which wrote it out and left it frozen: \"기술자 = technician\". The same person-者 as 생산자, now bolted onto a craft instead of a trade — that note calls 기술 \"技術 craft-skill\", one word spanning a welder's hands and a chip fab, so a 기술자 is anyone whose hands know the machine. 기술자를 부르다 (M19's 부르다) = call someone out to fix it. The form says 기술자 where the site says 기사님."
+    "moduleId": "m58",
+    "notes": "M44's 기술 gives 技術 craft-skill; add the person-者 introduced in M27's 환자 and you have the technician. 기술자를 부르다 (M19's 부르다) means calling someone with the skill to do the job. 기술자 names the occupation; 기사님 can be the respectful address used on site."
   },
   {
     "id": "w_isajang",
@@ -37186,8 +37186,8 @@
     "rom": "isajang",
     "en": "the chairman of a board, the head of a foundation (理事長)",
     "pos": "noun",
-    "moduleId": "m115",
-    "notes": "RADAR FIRST: this 이사 is NOT M54's 이사, the house-move — that note decoded it \"移徙 move-migrate\", and today's 理事 shares no character with it. 理 is the principle-理 of M34's 이해, which M108's 물리학 glossed in passing (\"the principle-理 of M34's 이해 (理解)\"), and 事 is the affair-事 of M36's 사건 (\"事件: the incident\"): a 이사 is the person who handles the affairs. Add the chief-長 of M39's 장점 (\"長點 long-point\") and the board has its chairman — 재단 이사장 (재단 — a foundation, riding frozen). The 長 ladder M98's 교장 printed — \"The 長 ladder: 부장 runs a section, M9's 사장님 a company, 교장 a school\" — now runs on through M58's 회장, M106's 원장, and 이사장 at the top of the table."
+    "moduleId": "m58",
+    "notes": "理事長 principle-affairs-chief: 理 concerns managing or ordering, 事 is an affair, and 長 heads the organization. 이사 inside this compound means a board director; it is not M54's 이사 (移徙), moving house. 이사장 is the chair of a board, while today's 회장 can head a company or an association; the shared chief-長 does not make their jobs identical."
   },
   {
     "id": "w_simpan",
@@ -37304,7 +37304,7 @@
     "en": "interest (on money) (利子)",
     "pos": "noun",
     "moduleId": "m115",
-    "notes": "TWO promises, one word: M81's 예금 wrote \"예금 이자 (이자 — interest, riding frozen)\" and M101's 대출 wrote it again, \"대출 이자 (이자 — interest, riding frozen)\" — the account pays it and the loan charges it. 利子 profit-child: the profit-利 of M43's 이익 (\"利 is profit as the blade's cutting margin\") + the child-子 of M47's 손자 (\"The 자 is child-子\"), money's offspring. 이자가 붙다 (M35's 붙다) = interest accrues; 이자율 (율 — rate, riding frozen). RADAR: this 자 is 子, not the person-者 of 생산자 two shelves up."
+    "notes": "TWO promises, one word: M81's 예금 wrote \"예금 이자 (이자 — interest, riding frozen)\" and M101's 대출 wrote it again, \"대출 이자 (이자 — interest, riding frozen)\" — the account pays it and the loan charges it. 利子 profit-child: the profit-利 of M43's 이익 (\"利 is profit as the blade's cutting margin\") + the child-子 of M47's 손자 (\"The 자 is child-子\"), money's offspring. 이자가 붙다 (M35's 붙다) = interest accrues; 이자율 (율 — rate, riding frozen). RADAR: this 자 is 子, not the person-者 of 생산자 from M58."
   },
   {
     "id": "w_dojeon",
@@ -37609,8 +37609,8 @@
     "rom": "singsinghada",
     "en": "to be fresh (of food)",
     "pos": "adj",
-    "moduleId": "m116",
-    "notes": "The market's word, and it is shouted: 싱싱한 생선 (M3's 생선), 싱싱한 채소 (M3's 채소) — fish, produce and flowers, things that were alive recently. Sort against M59's 신선하다 (\"新鮮 new-fresh\"), which covers the same stall and then keeps going: 신선한 아이디어 (M34's 아이디어) is praise, where 싱싱한 아이디어 is not Korean at all. A reduplicated native root with no halves to split — the doubling is itself the freshness."
+    "moduleId": "m59",
+    "notes": "Fresh and lively, especially of fish, vegetables and plants: 싱싱한 생선 and 싱싱한 채소 use M3's market nouns. This is a native adjective with a repeated sound, not two separately taught words. Compare today's 신선하다: both praise fresh food, but 신선한 아이디어 (M34's 아이디어) is the usual choice for a fresh idea."
   },
   {
     "id": "w_jiruhada",
@@ -38080,14 +38080,14 @@
     "moduleId": "m117",
     "notes": "外貌 outside-looks: the 外 of M23's 외국 (“외 (outside) + 국 (country)”) + 貌, looks — a first. 외모를 보다 (M1's 보다) = to go on looks, 외모가 중요하다 (M16's 중요하다). Sort against M34's 모습: 모습 is the figure you cut, which a mood can change; 외모 is the face you were issued. One clause of register and no lecture — Korean discusses 외모 far more directly than English is comfortable with, and a remark about it is ordinary small talk rather than an overture."
   },
-  { "id": "w_yukgun", "ko": "육군", "rom": "yukgun", "en": "army", "pos": "noun", "moduleId": "m118", "notes": "M58's 군 names “육군, 해군, 공군 (army, navy, air force — frozen glosses)” as its three branches. 陸 is land, 軍 is the military: 육군 is the land force in a news tally. 육군 훈련소 is an army training camp; 훈련 is already taught." },
-  { "id": "w_haegun", "ko": "해군", "rom": "haegun", "en": "navy", "pos": "noun", "moduleId": "m118", "notes": "The three-branch promise in M58's 군 includes “육군, 해군, 공군 (army, navy, air force — frozen glosses)”. 海 is the sea in M31's 해외; 軍 is the force, so 해군 patrols the water. 해군 기지 is a naval base, with 기지 riding frozen." },
-  { "id": "w_gonggun", "ko": "공군", "rom": "gonggun", "en": "air force", "pos": "noun", "moduleId": "m118", "notes": "The same M58 군 note names “육군, 해군, 공군 (army, navy, air force — frozen glosses)”. 空 is the empty sky in M12's 공항, 軍 the force: 공군 is the air branch. 공군 조종사 names a pilot; 조종사 rides frozen." },
+  { "id": "w_yukgun", "ko": "육군", "rom": "yukgun", "en": "army", "pos": "noun", "moduleId": "m58", "notes": "陸軍 land-force: 陸 is land and 軍 is today's 군, the military. 육군 is the army branch, alongside 해군 at sea and 공군 in the air. 육군에 가다 uses M1's 가다 to speak of joining the army; the branch name is more specific than the general 군대." },
+  { "id": "w_haegun", "ko": "해군", "rom": "haegun", "en": "navy", "pos": "noun", "moduleId": "m58", "notes": "海軍 sea-force: 海 is the sea-root in M31's 해외, and 軍 is today's 군. 해군 is the navy, paired with 육군 on land and 공군 in the air. 해군 기지 means a naval base; 기지 is a frozen, glossed noun here, not a word you are expected to know yet." },
+  { "id": "w_gonggun", "ko": "공군", "rom": "gonggun", "en": "air force", "pos": "noun", "moduleId": "m58", "notes": "空軍 sky-force: 空 is the sky/air-root in M12's 공항, and 軍 is today's 군. 공군 is the air force, the third member beside 육군 and 해군. 공군 조종사 means an air-force pilot; 조종사 stays frozen and glossed as pilot." },
   { "id": "w_insa", "ko": "인사", "rom": "insa", "en": "personnel; notable person", "pos": "noun", "moduleId": "m118", "notes": "RADAR first: M19's 인사하다 says “인사 = the greeting itself, bow included.” Today's 人事 is personnel or HR, as in 인사 이동, a staff reshuffle; 人士 is a notable person, as in 유명 인사. The greeting is a third word with this sound, not an HR task." },
-  { "id": "w_sangin", "ko": "상인", "rom": "sangin", "en": "merchant", "pos": "noun", "moduleId": "m118", "notes": "商 is commerce, decoded in M43's 상품; 人 is a person. 상인 is the trader at a market or in a history book. A 사업가 owns a business; a 상인 sells its goods, and 사업가 rides frozen." },
+  { "id": "w_sangin", "ko": "상인", "rom": "sangin", "en": "merchant", "pos": "noun", "moduleId": "m58", "notes": "商人 commerce-person: 商 is the trade-root in M43's 상품 and 人 is a person. 상인 is a merchant or trader, someone selling goods in a market or a shop. 시장 상인 uses M3's 시장: a market trader, an occupation rather than a respectful form of address." },
   { "id": "w_joein", "ko": "죄인", "rom": "joein", "en": "sinner; convict", "pos": "noun", "moduleId": "m118", "notes": "M90's 죄 already points to “죄인 a sinner (the person-人).” 罪人 puts a person under the noun for sin or guilt: a church says sinner, a courtroom says convict. M90's 범죄 is the crime, not the person." },
   { "id": "w_bonin", "ko": "본인", "rom": "bonin", "en": "the person themselves; in person", "pos": "noun", "moduleId": "m118", "notes": "本 is the origin in M91's 근본 (“根本 root-origin”); 人 is person. 본인 확인 is identity verification, with 확인 from M64; 본인이 직접 is in person, with 직접 from M56. This is the form's formal word for you yourself, not a warm address." },
-  { "id": "w_sinin", "ko": "신인", "rom": "sinin", "en": "newcomer; rookie", "pos": "noun", "moduleId": "m118", "notes": "新 is new and 人 is person: 신인 is a debut artist or rookie. 신인 배우 uses the actor from M48; 신인상 is the newcomer award and rides frozen. In entertainment news, the word marks the start of a career, not someone's age." },
+  { "id": "w_sinin", "ko": "신인", "rom": "sinin", "en": "newcomer; rookie", "pos": "noun", "moduleId": "m58", "notes": "新人 new-person: 新 is new, as in today's 신입생, and 人 is a person. 신인 배우 uses M48's 배우 for a newly debuted actor; 신인 marks career experience rather than age. Compare 신입생, a new student, with 신인, a newcomer to a profession or field." },
   { "id": "w_hyeondaein", "ko": "현대인", "rom": "hyeondaein", "en": "modern people", "pos": "noun", "moduleId": "m118", "notes": "M46's 현대 is “現代 now-era”, plus 人 person: 현대인 are people of today. 현대인은 바쁘다 uses M4's 바쁘다 to open the essay cliché. M106's 인 suffix already laid out the person rail; this is another car on it." },
   { "id": "w_gugwang", "ko": "국왕", "rom": "gugwang", "en": "monarch; king", "pos": "noun", "moduleId": "m118", "notes": "國 is country in M32's 국민; 王 is the 왕 M26 used for queens and princes. 국왕 is a reigning monarch named by a state bulletin, as in 영국 국왕 with M27's 영국. 왕 alone is also the king of a story or a size prefix; 국왕 stays official." },
   { "id": "w_sowon", "ko": "소원", "rom": "sowon", "en": "wish", "pos": "noun", "moduleId": "m118", "notes": "M69's 빌다 taught the frame “you 빌다 a 소원 (a wish — riding frozen) to the moon or the 조상”. 所願 is the wish one asks for: 소원을 빌다 makes one, 소원을 이루다 (M35's 이루다) fulfills one. 빌다 also means beg, so the object distinguishes the scene." },
@@ -38157,13 +38157,13 @@
   { "id": "w_nunbusida", "ko": "눈부시다", "rom": "nunbusida", "en": "to be dazzling", "pos": "adj", "moduleId": "m120", "notes": "M88's 이룩하다 named “눈부신 성장을 이룩하다 (눈부시다 — dazzling, and 성장 — growth, both riding frozen)”. M97's 성장 repeats the same textbook line. M14's 눈 is the eye; 부시다, to dazzle, rides frozen. The adjective works for light and for an achievement too bright to ignore." },
   { "id": "w_jibanil", "ko": "집안일", "rom": "jibanil", "en": "housework", "pos": "noun", "moduleId": "m120", "notes": "M65's 집안 says “집안일이 많아요 — a lot of housekeeping on the plate.” 집 is home, 안 its inside, 일 the work: one compound for the chores of running a house. Who does that work drives many Korean family dramas; the word can carry that argument without naming it." },
   { "id": "w_jarang", "ko": "자랑", "rom": "jarang", "en": "pride; boasting", "pos": "noun", "moduleId": "m120", "notes": "M26's 자랑스럽다 gives the proud feeling; bare 자랑 can be the thing one boasts of or the boasting itself. M67's 자랑하다 is to boast, and 자랑거리 is something to be proud of. M31's 전국 already named 전국 노래자랑, the Sunday song contest that makes this noun a television title." },
-  { "id": "w_bori", "ko": "보리", "rom": "bori", "en": "barley", "pos": "noun", "moduleId": "m120", "notes": "M54's 수돗물 says “Koreans mostly boil it into 보리차 (barley tea) or filter it anyway.” 보리 is barley; 보리차 is the tea often kept cold in a family fridge. 보리밥 puts the grain into the rice bowl, using M1's 밥." },
+  { "id": "w_bori", "ko": "보리", "rom": "bori", "en": "barley", "pos": "noun", "moduleId": "m59", "notes": "Barley, a native grain name with no hanja pieces. M54's 수돗물 already mentioned 보리차 (barley tea); 보리밥 adds the grain to M1's 밥, a cooked rice bowl. 보리 is one kind of today's 곡식, whereas 곡식 names the grain category." },
   { "id": "w_chang", "ko": "창", "rom": "chang", "en": "window; other homographs", "pos": "noun", "moduleId": "m120", "notes": "M6's 창문 decoded it as “창 + 문 — a window-door.” Bare 창 is 窓, a window: 창가 is beside one, 창밖 is outside it. RADAR: 창 can also be 槍 a spear or the sole of a shoe in other dictionary rows; the NIKL slice here is 窓." },
-  { "id": "w_ttangsok", "ko": "땅속", "rom": "ttangsok", "en": "underground", "pos": "noun", "moduleId": "m120", "notes": "M22's 땅 plus M28's 속 makes the inside of the earth. 땅속에 묻히다 uses the passive bury verb from M104; bare 묻다 in that sense is not a taught entry. The compound locates something underground, not merely on the ground." },
+  { "id": "w_ttangsok", "ko": "땅속", "rom": "ttangsok", "en": "underground", "pos": "noun", "moduleId": "m59", "notes": "M22's 땅 (ground) + M28's 속 (inside): the inside of the earth, underground. 땅속에 뿌리가 있어요 uses M49's 뿌리 and M1's 있다: roots are underground. Contrast 땅 위 (on the ground, M6's 위) with 땅속 — the compound puts the thing beneath the surface." },
   { "id": "w_eondeok", "ko": "언덕", "rom": "eondeok", "en": "hill; slope", "pos": "noun", "moduleId": "m120", "notes": "언덕 is a hill smaller than M11's 산, and often the incline a Korean street actually climbs. 언덕을 오르다 uses the climb verb taught earlier. A mountain is a destination; an 언덕 may be on the way to school." },
-  { "id": "w_byeo", "ko": "벼", "rom": "byeo", "en": "rice plant in the field", "pos": "noun", "moduleId": "m120", "notes": "Three Korean nouns divide English rice by stage: 벼 is the growing plant, M59's 쌀 the harvested grain, M1's 밥 the cooked bowl. M102's 논 is the paddy where 벼 grows. Calling the plant 밥 skips the work between field and table." },
+  { "id": "w_byeo", "ko": "벼", "rom": "byeo", "en": "rice plant in the field", "pos": "noun", "moduleId": "m59", "notes": "The rice plant before its grain is processed: 벼 → 쌀 → 밥 runs plant, uncooked grain, cooked rice. Today's 쌀 and M1's 밥 fill the other two stages, so calling the growing plant 밥 skips the harvest and kitchen. 논 (a rice paddy) is frozen and glossed here; 벼 grows there rather than in the dry 밭." },
   { "id": "w_chinjeong", "ko": "친정", "rom": "chinjeong", "en": "married woman’s parents’ home", "pos": "noun", "moduleId": "m120", "notes": "親 is close kin, decoded in M81's 친절; 庭 is a household courtyard, new here. 친정 names a married woman's own parents' home, set against 시댁, her husband's family home, which rides frozen. The distinction reflects the family obligations around a marriage, not just two street addresses." },
-  { "id": "w_kkeun", "ko": "끈", "rom": "kkeun", "en": "string; strap; cord", "pos": "noun", "moduleId": "m120", "notes": "신발 끈 is a shoelace, with M9's 신발. A 끈 can also be a figurative tie to a patron or job; 끈이 떨어지다 uses M36's 떨어지다 for losing that connection. The physical cord and the social lifeline share the same noun." },
+  { "id": "w_kkeun", "ko": "끈", "rom": "kkeun", "en": "string; strap; cord", "pos": "noun", "moduleId": "m60", "notes": "A native noun for string, cord or strap, with no hanja split. 신발 끈 uses M9's 신발 for a shoelace; 끈을 묶다 and 끈을 매다 put today's tying verbs to work. A 끈 can also be a social connection or lifeline: 끈이 떨어지다, with M36's 떨어지다, means losing that support." },
   { "id": "w_mitbadak", "ko": "밑바닥", "rom": "mitbadak", "en": "very bottom; rock bottom", "pos": "noun", "moduleId": "m120", "notes": "M28's 밑 is the underside and M13's 바닥 is the floor: together they reach the very bottom. 밑바닥에서 시작하다, with M8's 시작하다, means to start from nothing. Unlike a bare 바닥, it emphasizes how far down the position is." },
   { "id": "w_ureumsori", "ko": "울음소리", "rom": "ureumsori", "en": "sound of crying; animal call", "pos": "noun", "moduleId": "m120", "notes": "M7's 울다 becomes 울음 through the -(으)ㅁ noun freezer from M67, then joins M19's 소리. The result is the sound of crying, or an animal's call. The freezer turns an action into a thing the ear can hear." },
   { "id": "w_takja", "ko": "탁자", "rom": "takja", "en": "table", "pos": "noun", "moduleId": "m120", "notes": "卓 is a table and 子 is the child character M47's 손자 decoded. 탁자 is a table in a café or living room; M6's 책상 is specifically a desk for work or study. The same flat surface gets a different word by setting." },
@@ -38379,7 +38379,7 @@
   { "id": "w_pyeonui", "ko": "편의", "rom": "pyeonui", "en": "convenience", "pos": "noun", "moduleId": "m126", "notes": "便宜 easy-suitable: convenience or practical accommodation. 이용자의 편의를 위한 시설 serves users' convenience." },
   { "id": "w_pyeji", "ko": "폐지", "rom": "pyeji", "en": "abolition; repeal", "pos": "noun", "moduleId": "m126", "notes": "廢止 discard-stop: formal ending of a rule or system. 제도 폐지 is institutional abolition, not putting a broken item in the bin." },
   { "id": "w_haeseol", "ko": "해설", "rom": "haeseol", "en": "explanation; commentary", "pos": "noun", "moduleId": "m126", "notes": "解說 untie-say: explanatory commentary that helps a reader understand. 경기 해설 explains a match as it unfolds; 묘사 paints what it looks like." },
-  { "id": "w_heukbaek", "ko": "흑백", "rom": "heukbaek", "en": "black and white", "pos": "noun", "moduleId": "m126", "notes": "黑白 black-white: the two colors or a monochrome image. 흑백 사진 is a black-and-white photograph, unlike 컬러." },
+  { "id": "w_heukbaek", "ko": "흑백", "rom": "heukbaek", "en": "black and white", "pos": "noun", "moduleId": "m60", "notes": "黑白 black-white: 黑 is black and 白 is white. 흑백 사진 uses M17's 사진 for a black-and-white photograph; compare today's 검다 and 희다, which describe the colors directly. The paired roots can also suggest opposing sides, as in 흑백 논리 (black-and-white reasoning; 논리 is frozen and glossed here)." },
   { "id": "w_huisaeng", "ko": "희생", "rom": "huisaeng", "en": "sacrifice; victimization", "pos": "noun", "moduleId": "m126", "notes": "犧牲 an offering, now loss borne for another person or cause. 희생을 치르다 emphasizes a cost; use it respectfully for actual harm." },
   { "id": "w_gyeongbi", "ko": "경비", "rom": "gyeongbi", "en": "expenses; costs", "pos": "noun", "moduleId": "m126", "notes": "經費 manage-cost: money needed to run an activity. 여행 경비 is a trip's expenses; this row is not 警備 security guards." },
   { "id": "w_gyeongjeryeok", "ko": "경제력", "rom": "gyeongjeryeok", "en": "economic power", "pos": "noun", "moduleId": "m126", "notes": "M32's 경제 plus 力 strength: economic capacity of a person, group, or country. 경제력이 크다 describes resources, not simple cash in hand." },
@@ -38388,7 +38388,7 @@
   { "id": "w_gipsugi", "ko": "깊숙이", "rom": "gipsugi", "en": "deep inside", "pos": "noun", "moduleId": "m126", "notes": "깊다 plus -숙이 moves far inward. 숲 깊숙이 is deep in a forest, not simply a deep measurement." },
   { "id": "w_neomeotteurida", "ko": "넘어뜨리다", "rom": "neomeotteurida", "en": "to knock over", "pos": "verb", "moduleId": "m126", "notes": "넘어지다 happens to the falling thing; 넘어뜨리다 makes something fall. 의자를 넘어뜨리다 names the agent's action." },
   { "id": "w_nongsajitda", "ko": "농사짓다", "rom": "nongsajitda", "en": "to farm", "pos": "verb", "moduleId": "m126", "notes": "農事 farm-work + 짓다: cultivate land for a living. 농사짓다 is work through a season, not a single harvest moment." },
-  { "id": "w_dandanhada", "ko": "단단하다", "rom": "dandanhada", "en": "to be firm; solid", "pos": "adj", "moduleId": "m126", "notes": "Firm to the touch or firmly built. 단단한 돌 resists pressure; 마음이 단단하다 extends firmness to resolve." },
+  { "id": "w_dandanhada", "ko": "단단하다", "rom": "dandanhada", "en": "to be firm; solid", "pos": "adj", "moduleId": "m60", "notes": "A native adjective for something firm or solid: 단단한 돌 resists pressure, with M22's 돌. Compare today's 딱딱하다: both can describe hardness, but 단단하다 can praise a secure, solid result while 딱딱하다 often stresses stiffness. 마음이 단단하다 uses M19's 마음 to extend physical firmness to resolve; 단단해요 keeps the regular 하다 pattern." },
   { "id": "w_damdangja", "ko": "담당자", "rom": "damdangja", "en": "person in charge", "pos": "noun", "moduleId": "m126", "notes": "擔當者 carry-duty-person: the responsible contact for a task. 담당자에게 묻다 directs a question to the right person." },
   { "id": "w_dapbyeon", "ko": "답변", "rom": "dapbyeon", "en": "answer; response", "pos": "noun", "moduleId": "m126", "notes": "答辯 answer-explain: a formal response to a question. 답변을 기다리다 can be a written or spoken reply." },
   { "id": "w_daebi", "ko": "대비", "rom": "daebi", "en": "preparation; provision", "pos": "noun", "moduleId": "m126", "notes": "對備 face-prepare: readiness for a possible event. 비에 대비하다 prepares for rain; this is not 對比 comparison." },
@@ -39362,7 +39362,7 @@
   {"id": "w_danchu", "ko": "단추", "rom": "danchu", "en": "button (on clothing)", "pos": "noun", "moduleId": "m153", "notes": "The small fastener on a shirt or coat. Do not automatically use it for every screen button; this checklist entry starts with clothing you can fasten."},
   {"id": "w_daejungjeok", "ko": "대중적", "rom": "daejungjeok", "en": "popular; accessible to the general public", "pos": "noun", "moduleId": "m153", "notes": "대중 plus -的 describes broad appeal or accessibility. It can contrast with specialist tastes; it need not mean the thing is currently a hit."},
   {"id": "w_miyeok", "ko": "미역", "rom": "miyeok", "en": "miyeok seaweed", "pos": "noun", "moduleId": "m153", "notes": "A particular edible seaweed, often served in soup. It is not a catch-all for every sea plant; learning the food name keeps different ingredients distinct."},
-  {"id": "w_bunhongsaek", "ko": "분홍색", "rom": "bunhongsaek", "en": "pink", "pos": "noun", "moduleId": "m153", "notes": "粉紅色 combines pale red with color-色. The last syllable makes the color category explicit; use it as a color name before a clothing noun."},
+  {"id": "w_bunhongsaek", "ko": "분홍색", "rom": "bunhongsaek", "en": "pink", "pos": "noun", "moduleId": "m60", "notes": "粉紅色 powder-red-color: 粉 is powder, 紅 is red, and 色 labels a color. Together 분홍 is pink, a pale red; 분홍색 옷 uses M7's 옷 to name pink clothing. The powder-root explains the color image; it is not a direction to add powder to anything."},
   {"id": "w_jageunabeoji", "ko": "작은아버지", "rom": "jageunabeoji", "en": "father's younger brother", "pos": "noun", "moduleId": "m153", "notes": "작은 + 아버지 is a fixed kinship compound, not a statement that your father is small. It conventionally identifies your father's younger brother; the branch of the family matters."},
   {"id": "w_chosun", "ko": "초순", "rom": "chosun", "en": "first ten days of a month", "pos": "noun", "moduleId": "m153", "notes": "初旬 is beginning-ten-day-period. It divides a month by dates rather than weeks: the first through the tenth belong to 초순."},
   {"id": "w_toewonhada", "ko": "퇴원하다", "rom": "toewonhada", "en": "to leave the hospital; to be discharged", "pos": "verb", "moduleId": "m153", "notes": "退院 means leave-institution, specialized here to hospital discharge. It says the hospital stay ended, not necessarily that every symptom has disappeared."},
@@ -39371,7 +39371,7 @@
   {"id": "w_dojang", "ko": "도장", "rom": "dojang", "en": "seal; stamp", "pos": "noun", "moduleId": "m153", "notes": "圖章 is the seal pressed onto a document, and by extension its impression. Radar: a training hall has the same spelling but different roots; this is the paperwork item."},
   {"id": "w_samgyetang", "ko": "삼계탕", "rom": "samgyetang", "en": "ginseng chicken soup", "pos": "noun", "moduleId": "m153", "notes": "蔘鷄湯 is ginseng-chicken-soup: three ingredients of the name in a row. The final 湯 identifies a soup, helping you read the menu before seeing the bowl."},
   {"id": "w_munhakjeok", "ko": "문학적", "rom": "munhakjeok", "en": "literary", "pos": "noun", "moduleId": "m153", "notes": "문학 plus -的 gives a literary quality. 문학적인 표현 is a literary expression; the word describes style or relation to literature, not just the object called a book."},
-  {"id": "w_mikkeureopda", "ko": "미끄럽다", "rom": "mikkeureopda", "en": "to be slippery", "pos": "adj", "moduleId": "m153", "notes": "The surface offers little grip. A ㅂ-irregular adjective: 미끄러워요 drops ㅂ into 워, while 미끄러운 modifies a noun such as 길."},
+  {"id": "w_mikkeureopda", "ko": "미끄럽다", "rom": "mikkeureopda", "en": "to be slippery", "pos": "adj", "moduleId": "m60", "notes": "Slippery: a surface gives little grip, as in 미끄러운 길 with M12's 길. It follows the ㅂ-irregular pattern: 미끄러워요 turns ㅂ into 워, and 미끄러운 wears the noun-modifying badge from M24. This describes the surface's quality; it does not itself mean that someone has slipped."},
   {"id": "w_boksunga", "ko": "복숭아", "rom": "boksunga", "en": "peach", "pos": "noun", "moduleId": "m153", "notes": "The fruit name is learned as one native word rather than a useful modern compound. Keep it distinct from a flavor label: a drink may taste of peach without being a whole fruit."},
   {"id": "w_oeadeul", "ko": "외아들", "rom": "oeadeul", "en": "only son", "pos": "noun", "moduleId": "m153", "notes": "외- marks an only one, attached to 아들. An 외아들 can have sisters; the word counts sons, unlike a claim that someone is an only child."},
   {"id": "w_jangin", "ko": "장인", "rom": "jangin", "en": "one's wife's father", "pos": "noun", "moduleId": "m153", "notes": "丈人 names the wife's father, pairing with 장모 in this pack. Do not read it as the identically written word for an artisan; the family relationship is the reserved sense."},
@@ -39392,7 +39392,7 @@
   {"id": "w_keunttal", "ko": "큰딸", "rom": "keunttal", "en": "eldest daughter", "pos": "noun", "moduleId": "m154", "notes": "The older or eldest daughter in a family, paired with 큰아들 from M152."},
   {"id": "w_gyeolseok", "ko": "결석", "rom": "gyeolseok", "en": "absence from class", "pos": "noun", "moduleId": "m154", "notes": "缺席 is an empty seat. This noun names a school absence; M155 teaches 결석하다."},
   {"id": "w_dokgam", "ko": "독감", "rom": "dokgam", "en": "influenza; flu", "pos": "noun", "moduleId": "m53", "notes": "毒感 poison-affliction: the everyday name for influenza, or flu. The 감 echoes 感 in 감기 (M14), but 독감 is a particular illness, not simply a way to intensify any cold. 독감에 걸리다 reuses the same caught-by-an-illness frame as 감기에 걸리다."},
-  {"id": "w_borasaek", "ko": "보라색", "rom": "borasaek", "en": "purple", "pos": "noun", "moduleId": "m154", "notes": "The 색 ending marks a color name, as in 분홍색 from M153."},
+  {"id": "w_borasaek", "ko": "보라색", "rom": "borasaek", "en": "purple", "pos": "noun", "moduleId": "m154", "notes": "The 색 ending marks a color name, as in 분홍색 from M60."},
   {"id": "w_yeondusaek", "ko": "연두색", "rom": "yeondusaek", "en": "light green", "pos": "noun", "moduleId": "m154", "notes": "軟豆色 is a yellowish light green; do not treat it as every kind of green."},
   {"id": "w_ondol", "ko": "온돌", "rom": "ondol", "en": "heated floor; ondol", "pos": "noun", "moduleId": "m154", "notes": "溫突 names Korea's traditional underfloor heating system; the word may also describe a heated-floor room."},
   {"id": "w_chulipguk", "ko": "출입국", "rom": "churipguk", "en": "entry and exit from a country", "pos": "noun", "moduleId": "m52", "notes": "出入國 out-in-country: today's 출입 adds country-國 to name the movement across a border. 입국 is entry alone; 출입국 covers entry and departure together, as on immigration signs. The final 국 is country, not the office-局 in 우체국."},

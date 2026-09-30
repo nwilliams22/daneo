@@ -9,7 +9,7 @@ cooking; this pack builds what gets eaten BEFORE the kitchen.
 
 **Organizing machines:**
 1. **The rice civilization:** 쌀 (uncooked rice — the third rice-word: 벼 the
-   plant is untaught/frozen, 쌀 the grain, 밥 M1 the cooked — the trio IS the
+   plant is now in this slice, 쌀 the grain, 밥 M1 the cooked — the trio IS the
    culture; 쌀밥/햅쌀 winks), 농사 (農事 — farming; 농사를 짓다!! — M54's
    짓다 maker-verb, verify its 농사 line — the brief for M54 said skip if
    untaught, so 짓다's note may lack it: if so, THIS module completes the
@@ -26,12 +26,12 @@ cooking; this pack builds what gets eaten BEFORE the kitchen.
    parallel slice owns 금 — AVOID. Use taught words only, e.g. 꽃을 따다),
    갈다 (grind/plow — 커피를 갈다; ALSO replace: 물을 갈다, 휴대폰을 갈다
    slang-adjacent — cover both, NIKL sense check), 썩다 (rot — food, teeth
-   (M53's 이 shelf — verify), and corruption: 썩은 정치 wink), 신선하다
+   (M8's 이 shelf — verify), and corruption: 썩은 정치 wink), 신선하다
    (新鮮 — fresh; 신선한 재료 M40's 재료 verify).
 3. **The greengrocer shelf:** 고추 (the chili — M18's 고추장 and M40's
    고춧가루 finally get their fruit — verify both notes and cite; the
    linking-ㅅ in 고춧가루 already taught), 오이/당근/상추/양배추 (the wrap
-   culture — 상추에 싸 먹다, M18's 쌈? verify 쌈 taught — if not, describe
+   culture — 상추에 싸 먹다, 쌈 in M18? verify 쌈 taught — if not, describe
    frozen), 콩나물 (M40's 콩 + 나물 — verify 콩; the hangover soup 콩나물국
    wink), 나물 (the seasoned-greens CATEGORY — 명절 상 verify M25; 비빔밥's
    crew — verify 비빔밥 taught M18?), 옥수수/땅콩 (강원도 tie — S4 just
@@ -58,7 +58,7 @@ cooking; this pack builds what gets eaten BEFORE the kitchen.
    foodstuffs; 식품 코너, 건강식품; verify M43's 제품/상품 for -품 and cite),
    음료 (飮料 — beverage; 음료수 wink; the vending machine's category).
 
-**Word slice (34 words — rank · word · pos):**
+**Word slice (40 words — rank · word · pos):**
 695 쌀 noun · 723 농업 noun · 1472 농사 noun · 1493 농촌 noun · 1554 밭 noun ·
 1333 심다 verb · 1747 가꾸다 verb · 1590 따다 verb · 2401 갈다 verb ·
 2901 썩다 verb · 2658 신선하다 adj · 2789 가루 noun · 2625 밀가루 noun ·
@@ -68,6 +68,10 @@ cooking; this pack builds what gets eaten BEFORE the kitchen.
 6215 땅콩 noun · 3505 토마토 noun · 5367 새우 noun · 2287 오징어 noun ·
 2415 소 noun · 8122 송아지 noun · 2200 알 noun · 8512 인삼 noun ·
 3596 열매 noun (C)
+
+**Added grade-C words (included in the 40):** 곡식 · 호박 · 싱싱하다 · 보리 · 벼 · 땅속. Keep their stable IDs. Teach their complete shipped decodes here; these are not garnish.
+
+**Scene connection:** The rice plant and barley fill the grain category; squash joins the produce stall. Place the roots underground and compare the two freshness adjectives. 벼 is now taught alongside 쌀, not frozen.
 
 **Sentences:** 8; ≥1 with 농사를 짓다 (if 짓다's shipped note supports it —
 verify first), ≥1 market scene, ≥3 recycling recent machinery fresh. No dup

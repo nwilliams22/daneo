@@ -1,7 +1,7 @@
 # Brief — M120 "The Native Nouns, and the Adverbs of Manner" (order 129, ring 3, band 8)
 
 Read SHARED-BRIEF.md first; follow exactly. **Band 8 = the Band 6 pack
-contract exactly** — ~34–36 words, 8 sentences, full notes, garnish-free,
+contract exactly** — 30–38 words, 8 sentences, full notes, garnish-free,
 the DEFAULT slim md shape, NO glue parts; each sentence recycles and
 names one Band 7 pattern, a different one per sentence from a different
 owner module. NO morpheme-possessive phrasings; cite in hangul. Every
@@ -12,9 +12,11 @@ without halves — this pack is its sequel and must not repeat it), M67's
 md (the noun freezer), M62's md and M85's md (the adverb shelves), M102's
 구석 note, M65's 집안 note BEFORE drafting.
 
-**Theme:** the native nouns, and the adverbs of manner. 36 words.
-THE RECEIPTS (입맛 구석구석 눈부시다 집안일 자랑 보리 창), THE PLACES AND
-THINGS (땅속 언덕 벼 친정 끈 밑바닥 울음소리 탁자 꼬마 안팎), THE STATES
+**Earlier-vocabulary reconciliation (2026-09-30):** 보리 → M59; 벼 → M59; 땅속 → M59; 끈 → M60. These words are already taught, not new entries in this pack. Any examples or decode guidance below that mention them are recap only; the exact 32-word slice below controls authoring. Do not present them as frozen or as promises first paid here. Existing sentences may reuse them.
+
+**Theme:** the native nouns, and the adverbs of manner. 32 words.
+THE RECEIPTS (입맛 구석구석 눈부시다 집안일 자랑 창), THE PLACES AND
+THINGS (언덕 친정 밑바닥 울음소리 탁자 꼬마 안팎), THE STATES
 (착각 신세 야단 뜻밖 한순간 쓸쓸하다 넉넉하다), THE ADJECTIVES (주요하다
 탁월하다 끊임없다 참되다), and THE ADVERBS OF MANNER (확 골고루 그제서야
 그런대로 활짝 차마 텅 끝없이). Organizing thesis: **the native noun is
@@ -25,7 +27,7 @@ the words that had no halves at all.
 
 **Owners verified — cite exactly these:**
 
-1. **THE RECEIPTS (7) — each note OPENS with the line that promised
+1. **THE RECEIPTS (6) — each note OPENS with the line that promised
    it:** 입맛 (PAYS S2's 당기다 — lookup.py the owner and quote its exact
    span verbatim; then run iou.py on 입맛, because M74 carries a second
    promise, and quote that span too. M14's 입 + M18's 맛: appetite, and
@@ -42,27 +44,18 @@ the words that had no halves at all.
    자랑스럽다 — lookup.py the owner and quote its exact span verbatim; the
    bare noun: 자랑하다 = to boast, 자랑거리 = something to be proud of; and
    the nationwide song contest 전국 노래자랑, which M31's 전국 note already
-   mentions — quote it), 보리 (PAYS M54's 수돗물 — lookup.py the owner and
-   quote its exact span verbatim; barley — and the reason a learner meets
-   it is 보리차, the tea in every Korean fridge; 보리밥 on M1's 밥), 창 (窓 —
+   mentions — quote it), 창 (窓 —
    PAYS M6's 창문 — lookup.py the owner and quote its exact span verbatim,
    since that note already splits the compound; the bare 窓: 창가 = by the
    window, 창밖 = outside the window; RADAR: 창 is also a spear and the
    sole of a shoe — check NIKL for other rows and cover what is listed).
 
-2. **THE PLACES AND THINGS (10):** 땅속 (M22's 땅 + M28's 속: underground,
-   beneath the earth — 땅속에 묻히다 (M104's 묻히다); the bury-verb 묻다 is
-   NOT taught, only its passive, so do not cite it), 언덕 (a hill, a slope
-   — smaller than M11's 산, and the one Korean towns are actually built on),
-   벼 (the rice PLANT — and this is the whole note: Korean has three words
-   where English has one, 벼 in the paddy, M59's 쌀 in the sack, M1's 밥 in
-   the bowl; M102's 논 is where 벼 grows), 친정 (親庭 — 親 of M81's 친절
+2. **THE PLACES AND THINGS (7):** 언덕 (a hill, a slope
+   — smaller than M11's 산, and the one Korean towns are actually built on), 친정 (親庭 — 親 of M81's 친절
    (verify that note's decode and quote it) + 庭 (a courtyard, a household
    — a first): a married woman's parents' home, as distinct from 시댁 (the
    husband's family — frozen); the word carries a whole social structure
-   and deserves two clauses, not a gloss), 끈 (a string, a strap, a cord —
-   신발 끈 (M9's 신발) = shoelaces; and the figurative 끈이 떨어지다 (M36's
-   떨어지다) = to lose one's connection), 밑바닥 (밑 (the underside — verify
+   and deserves two clauses, not a gloss), 밑바닥 (밑 (the underside — verify
    whether it is taught, and freeze it if not) + M13's 바닥: the very
    bottom, literal and then figurative — 밑바닥에서 시작하다 (M8's 시작하다) =
    to start from nothing), 울음소리 (M7's 울다 + the -ㅁ freezer of M67 +
@@ -127,13 +120,7 @@ the words that had no halves at all.
    if shipped + -이: endlessly — quote that note; if M119 has not shipped,
    build it from M28's 끝 + M1's 없다 and say so).
 
-**Word slice (36):** 입맛 · 구석구석 · 눈부시다 · 집안일 · 자랑 · 보리 · 창 ·
-땅속 · 언덕 · 벼 · 친정 · 끈 · 밑바닥 · 울음소리 · 탁자 · 꼬마 · 안팎 · 착각 ·
-신세 · 야단 · 뜻밖 · 한순간 · 쓸쓸하다 · 넉넉하다 · 주요하다 · 탁월하다 ·
-끊임없다 · 참되다 · 확 · 골고루 · 그제서야 · 그런대로 · 활짝 · 차마 · 텅 ·
-끝없이. (36 — if it runs long, DROP 벼 and 참되다 and say so.) POS:
-쓸쓸하다 눈부시다 넉넉하다 주요하다 탁월하다 끊임없다 참되다 `adj`; adverbs →
-`noun`; the rest `noun`.
+**Word slice (32):** 입맛 · 구석구석 · 눈부시다 · 집안일 · 자랑 · 창 · 언덕 · 친정 · 밑바닥 · 울음소리 · 탁자 · 꼬마 · 안팎 · 착각 · 신세 · 야단 · 뜻밖 · 한순간 · 쓸쓸하다 · 넉넉하다 · 주요하다 · 탁월하다 · 끊임없다 · 참되다 · 확 · 골고루 · 그제서야 · 그런대로 · 활짝 · 차마 · 텅 · 끝없이. All grade C; stable IDs retained.
 
 **Md shape (Band 8 default):** intro (the native noun is a verb wearing
 the freezer) · How to use · `## Part 1 — The native nouns, and the
@@ -151,6 +138,6 @@ DIFFERENT owner module and names it; ≥8 slice words; NO digits.
 지다 (phrase), 친정 (concept — the word and the structure behind it).
 Pick 2–3; grep gap.json.
 
-**Ledger:** all 36 Grade C — `m120\t8\tgloss (C)`. Output files
+**Ledger:** all 32 Grade C — `m120\t8\tgloss (C)`. Output files
 draft-m120.* in the scratchpad; meta.notes lists every slip and verify
 outcome.

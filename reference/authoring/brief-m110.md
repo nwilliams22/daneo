@@ -9,18 +9,20 @@ span", run lookup.py and copy. Read M26's md (tradition, 문화), M35's 습관
 note, M49's 푸르다 note (청춘), M43's md (the money shelf), M64's 근로자 note,
 M98's 남부 note (the compass rail) BEFORE drafting.
 
-**Theme:** the town's offices and the old ways. 36 Grade-C nouns. THE
-OLD WAYS (풍습 관습 청춘 곡 곡식 살림 호박 광경 사방 해안 서부 인근 시중), THE
+**Earlier-vocabulary reconciliation (2026-09-30):** 곡식 → M59; 호박 → M59. These words are already taught, not new entries in this pack. Any examples or decode guidance below that mention them are recap only; the exact 34-word slice below controls authoring. Do not present them as frozen or as promises first paid here. Existing sentences may reuse them.
+
+**Theme:** the town's offices and the old ways. 34 Grade-C nouns. THE
+OLD WAYS (풍습 관습 청춘 곡 살림 광경 사방 해안 서부 인근 시중), THE
 OFFICE II (허가 상담 심사 정기 제의 승진 경력 근로 명의 부회장 대다수 일반인 흑인
 연예인 투표), and THE BODY AND THE KITCHEN (화장 주방 부품 분량 의욕 실현 절망
 공해). Organizing thesis: **the town names its offices with two-hanja
 verbs turned nouns** — 허가/상담/심사/승진 are all a verb the learner could
-build with 하다 — and the old ways keep the native words (살림, 호박) the
+build with 하다 — and the old ways keep the native words (살림) the
 offices never replaced.
 
 **Owners verified — cite exactly these:**
 
-1. **THE OLD WAYS (13):** 풍습 (風習 — 風 (M11's 태풍 note's 台風 — verify
+1. **THE OLD WAYS (11):** 풍습 (風習 — 風 (M11's 태풍 note's 台風 — verify
    the 風 reading) + 習 of M35's 습관 "習慣 practice-accustomed": customs,
    folkways — 설날 풍습 M25's 설날), 관습 (慣習 — 慣 of M35's 습관 + 習: custom,
    convention; vs 풍습 — 풍습 is the village's, 관습 the institution's; 관습법
@@ -30,13 +32,10 @@ offices never replaced.
    — quote its exact 曲 span; the song-counter and the piece: 한 곡 = one
    song (M7's 노래 is the song itself); 신곡 = a new release, frozen;
    RADAR: 곡 is also a valley in M92's 계곡 (谷) — quote that note's 곡 line
-   as the radar), 곡식 (穀食 — 穀 grain, a first + 食 of M35's 식물 note's
-   eat-食: grain, cereals; PAYS M94's 거두다 — lookup.py the owner and quote its exact span verbatim (copy the full sentence); M59's 쌀 is one grain), 살림 (native —
+   as the radar), 살림 (native —
    housekeeping, one's household: 살림을 하다 = keep house, 살림살이 (frozen)
    = household goods; from M4's 살다 + -ㅁ (the noun freezer from M67 — verify
-   the canon line); 신혼 살림 M78's 신혼부부 kin), 호박 (native — pumpkin,
-   squash; PAYS M37's 죽 — quote its exact 호박죽 span; 호박 같다 = plain (of
-   a face) — the unkind idiom, one clause; RADAR: not M84's 호 + 박), 광경
+   the canon line); 신혼 살림 M78's 신혼부부 kin), 광경
    (光景 — 光 of M31's 광주 "光 light" + 景 (M32's 경제 note's "경치 景" — quote
    the span): a scene, a spectacle (as witnessed); vs M22's 경치 (scenery)
    and M49's 풍경 (landscape) — 광경 is what you happened to see), 사방 (四方
@@ -65,7 +64,7 @@ offices never replaced.
    정기적으로; RADAR: not M26's 정 + M99's 기), 제의 (提議 — 提 of M61's 제공하다
    "提供 hold-forth-supply" + 議 of M58's 국회의원: a proposal (formal) — 제의를
    받다/거절하다 M33's 거절하다; vs M?? 제안 (verify — frozen if untaught);
-   RADAR: the 제의 in M91's 문제의/M96's 화제의 is 제 + 의 — say so), 승진 (昇進
+   RADAR: the 제의 in 문제의 in M91/화제의 in M96 is 제 + 의 — say so), 승진 (昇進
    — 昇 rise, a first + 進 of M61's 진행되다 "進行 advance-go": promotion (at
    work) — 승진하다 frozen, 승진 시험 M10's 시험), 경력 (經歷 — 經 of M32's 경제
    "經濟" + 歷 of M78's 역사가 "歷史家": career history — 경력이 있다; 경력자 =
@@ -76,7 +75,7 @@ offices never replaced.
    M1's 시간, 근로자의 날 = May Day), 명의 (名義 — 名 + 義 of M44's 강의 "講義":
    the name on a document — PAYS M81's 공동 — quote its exact "공동 명의
    (frozen) on the deed" span; 명의를 바꾸다 M9's 바꾸다; RADAR: the 명의 in
-   M100's 생명의 위협 is 생명 + 의 — say so), 부회장 (副會長 — 副 of M81's 부작용
+   생명의 in M100 위협 is 생명 + 의 — say so), 부회장 (副會長 — 副 of M81's 부작용
    "副 secondary" + M58's 회장: vice-president; the 부- rail: 부사장, 부장
    M16), 대다수 (大多數 — 大 + M76's 다수 "the majority": the great majority;
    대다수의 사람들 M1's 사람; vs M32's 대부분), 일반인 (一般人 — PAYS M57's 일반 —
@@ -110,11 +109,7 @@ offices never replaced.
    suffer-harm": pollution (as public harm); vs M99's 오염 if shipped —
    오염 is the dirt, 공해 the harm; RADAR: not M17's 공 + M11's 해).
 
-**Word slice (36):** 풍습 · 관습 · 청춘 · 곡 · 곡식 · 살림 · 호박 · 광경 · 사방 ·
-해안 · 서부 · 인근 · 시중 · 허가 · 상담 · 심사 · 정기 · 제의 · 승진 · 경력 · 근로 ·
-명의 · 부회장 · 대다수 · 일반인 · 흑인 · 연예인 · 투표 · 화장 · 주방 · 부품 · 분량 ·
-의욕 · 실현 · 절망 · 공해. (36 — if it runs long, DROP 광경 and 시중 and say
-so.) POS: all `noun`. IDs: w_gok, w_hobak, w_hwajang — check.
+**Word slice (34):** 풍습 · 관습 · 청춘 · 곡 · 살림 · 광경 · 사방 · 해안 · 서부 · 인근 · 시중 · 허가 · 상담 · 심사 · 정기 · 제의 · 승진 · 경력 · 근로 · 명의 · 부회장 · 대다수 · 일반인 · 흑인 · 연예인 · 투표 · 화장 · 주방 · 부품 · 분량 · 의욕 · 실현 · 절망 · 공해. All grade C; stable IDs retained.
 
 **Md shape (Band 8 default):** intro (offices as verbs turned nouns) ·
 How to use · `## Part 1 — The town and the old ways` (three drawers) ·
@@ -127,7 +122,7 @@ deck**) · `## What's next`. 50–60 lines.
 ≥8 slice words; NO digits.
 
 **Gap candidates:** 호박 같다 (phrase — the unkind idiom), 살림살이
-(concept), 근로자의 날 (concept — May Day; check M58's 노동절 line). Pick
+(concept), 근로자의 날 (concept — May Day). Pick
 2–3; grep gap.json.
 
 **Ledger:** one row per slice word used — `m110\t8\tgloss (C)`. Output

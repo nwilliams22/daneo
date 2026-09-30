@@ -10,10 +10,12 @@ active/passive table), M113's md if shipped (the words without halves),
 M36/M37 mds (the passive and causative parties), M55's 이리/저리 notes,
 the junmal module's md BEFORE drafting.
 
-**Theme:** the native shelf, in motion. 36 words. THE VERBS (달래다
+**Earlier-vocabulary reconciliation (2026-09-30):** 싱싱하다 → M59. These words are already taught, not new entries in this pack. Any examples or decode guidance below that mention them are recap only; the exact 35-word slice below controls authoring. Do not present them as frozen or as promises first paid here. Existing sentences may reuse them.
+
+**Theme:** the native shelf, in motion. 35 words. THE VERBS (달래다
 밝혀내다 부서지다 업다 튀다 구르다 빼앗기다 튀어나오다 같이하다 살아나다
 속이다 건네주다 내려지다 녹다 가르다), THE ADJECTIVES (명확하다 자세하다
-불리하다 잘나다 싱싱하다 지루하다), THE ADVERBS (하필 곧잘 실은 간신히
+불리하다 잘나다 지루하다), THE ADVERBS (하필 곧잘 실은 간신히
 여간 이리저리 저마다), and THE NOUNS (맘 발걸음 발길 소매 지난날 제자리
 고함 골짜기). Organizing thesis: **most of this shelf is two taught words
 welded** — 밝혀 + 내다, 튀어 + 나오다, 같이 + 하다, 살아 + 나다, 곧 + 잘,
@@ -66,7 +68,7 @@ which half moved and where the meaning drifted away from the sum.
    승부를 가르다 (승부 frozen) = to decide the contest, 물살을 가르다 (frozen);
    RADAR: nothing to do with M15's 가르치다).
 
-2. **THE ADJECTIVES (6):** 명확하다 (明確 — 明 of M34's 분명하다 ("分明
+2. **THE ADJECTIVES (5):** 명확하다 (明確 — 明 of M34's 분명하다 ("分明
    divided-bright") + 確 of M34's 확실하다 ("確實 firm-real"): to be
    clear-cut, unambiguous — 명확한 기준 (M39's 기준); the three-way sort is
    the note: 분명하다 is obvious to anyone, 확실하다 is certain in your mind,
@@ -81,9 +83,7 @@ which half moved and where the meaning drifted away from the sum.
    glass), 잘나다 (M10's 잘 + M28's 나다: to be full of oneself — the weld
    drifted all the way to sarcasm: 잘났어 = aren't you special; 못나다 (its
    mirror) rides frozen; a rare case where the sum tells you nothing),
-   싱싱하다 (to be fresh — of fish and vegetables, never of ideas: 싱싱한
-   생선 (생선 — verify); the market's word, shouted; vs 신선하다 (verify —
-   if taught, sort: 신선하다 covers air and ideas too)), 지루하다 (to be
+   지루하다 (to be
    boring, to drag — 지루한 영화 (M2's 영화); sort against 심심하다 (verify):
    심심하다 is the PERSON with nothing to do, 지루하다 is the THING that
    drags — Korean keeps them strictly apart and learners mix them).
@@ -133,14 +133,7 @@ which half moved and where the meaning drifted away from the sum.
    in August, 골짜기 is the shape of the land; RADAR: not M99's 골, the
    football goal).
 
-**Word slice (36):** 달래다 · 밝혀내다 · 부서지다 · 업다 · 튀다 · 구르다 ·
-빼앗기다 · 튀어나오다 · 같이하다 · 살아나다 · 속이다 · 건네주다 · 내려지다 ·
-녹다 · 가르다 · 명확하다 · 자세하다 · 불리하다 · 잘나다 · 싱싱하다 · 지루하다 ·
-하필 · 곧잘 · 실은 · 간신히 · 여간 · 이리저리 · 저마다 · 맘 · 발걸음 · 발길 ·
-소매 · 지난날 · 제자리 · 고함 · 골짜기. (36 — if it runs long, DROP 가르다
-and 지난날 and say so.) POS: verbs `verb`; the six adjectives `adj`;
-adverbs → `noun`; the eight nouns `noun`. IDs: w_mam (M19's 마음 is
-w_maeum — check), w_tuida, w_balgireum vs w_balgil — check.
+**Word slice (35):** 달래다 · 밝혀내다 · 부서지다 · 업다 · 튀다 · 구르다 · 빼앗기다 · 튀어나오다 · 같이하다 · 살아나다 · 속이다 · 건네주다 · 내려지다 · 녹다 · 가르다 · 명확하다 · 자세하다 · 불리하다 · 잘나다 · 지루하다 · 하필 · 곧잘 · 실은 · 간신히 · 여간 · 이리저리 · 저마다 · 맘 · 발걸음 · 발길 · 소매 · 지난날 · 제자리 · 고함 · 골짜기. All grade C; stable IDs retained.
 
 **Md shape (Band 8 default):** intro (the weld and where it drifted) ·
 How to use · `## Part 1 — The native shelf in motion` (the weld table
@@ -158,6 +151,6 @@ lines.
 **Gap candidates:** 여간 …-지 않다 (concept — the polarity trap), 말을 건네다
 (phrase), 제자리걸음 (concept). Pick 2–3; grep gap.json.
 
-**Ledger:** all 36 Grade C — `m116\t8\tgloss (C)`. Output files
+**Ledger:** all 35 Grade C — `m116\t8\tgloss (C)`. Output files
 draft-m116.* in the scratchpad; meta.notes lists every slip and verify
 outcome.

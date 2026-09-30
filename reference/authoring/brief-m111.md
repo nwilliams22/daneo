@@ -9,11 +9,13 @@ span", run lookup.py and copy. Read M94's md and M102/M104/M107's mds if
 shipped (the earlier native verb shelves), M68's 짓 note, M37's 먹이다
 note, M53's 고통 note, M35's md (점점) BEFORE drafting.
 
+**Earlier-vocabulary reconciliation (2026-09-30):** 투명하다 → M60; 빛깔 → M60. These words are already taught, not new entries in this pack. Any examples or decode guidance below that mention them are recap only; the exact 34-word slice below controls authoring. Do not present them as frozen or as promises first paid here. Existing sentences may reuse them.
+
 **Theme:** the fifth native verb shelf, its adjectives, and the adverbs
-that time a moment. 36 words. THE VERBS (망설이다 앞세우다 펴내다 되풀이하다
+that time a moment. 34 words. THE VERBS (망설이다 앞세우다 펴내다 되풀이하다
 붙잡다 내주다 물러나다 뜯다 빼앗다 삼키다 기대다 깨어나다), THE ADJECTIVES
 (두렵다-noun 두려움, 별다르다 뻔하다 유사하다 강렬하다 밀접하다 소박하다 성실하다
-잦다 투명하다 고통스럽다 곤란하다 귀찮다), THE NOUNS (두려움 빛깔 몸짓 먹이
+잦다 고통스럽다 곤란하다 귀찮다), THE NOUNS (두려움 몸짓 먹이
 눈동자), THE ADVERBS OF THE MOMENT (이내 차츰 홀로 감히 금세 한창 하도).
 Organizing thesis: **the moment has its own adverbs** — 이내 (soon
 after), 금세 (in no time), 차츰 (bit by bit), 한창 (at the height), 하도
@@ -50,7 +52,7 @@ after), 금세 (in no time), 차츰 (bit by bit), 한창 (at the height), 하도
    (M36's 깨다 (wake) + M28's 나다: to wake up, come to — 잠에서 깨어나다 M28's
    잠; 의식이 깨어나다 M87's 의식; vs M8's 일어나다 (get up)).
 
-2. **THE ADJECTIVES (12):** 별다르다 (M22's 별? no — 別 of M57's 특별 + M24's
+2. **THE ADJECTIVES (11):** 별다르다 (M22's 별? no — 別 of M57's 특별 + M24's
    다르다: particularly different — almost always negative: 별다른 문제가
    없어요 M7's 문제 = no particular problem; RADAR: not the star-별), 뻔하다
    (NIKL TWO rows: the adjective rank 3476 = obvious, predictable (뻔한
@@ -69,9 +71,7 @@ after), 금세 (in no time), 차츰 (bit by bit), 한창 (at the height), 하도
    diligent — the reference letter's first adjective; 성실한 학생 M4's 학생),
    잦다 (NIKL hint 왕래가 ~: frequent — 잦은 실수 M63's 실수; 왕래가 잦다 (왕래
    frozen) = to visit often; vs M8's 자주 the adverb — 자주 is how often you
-   do, 잦다 is how often it happens), 투명하다 (透明 — 透 pass-through, a
-   first + 明 of M34's 분명하다 "分明 divided-bright": transparent (glass and
-   government) — 투명한 유리 M36's 유리; 투명성 frozen), 고통스럽다 (M53's 고통 +
+   do, 잦다 is how often it happens), 고통스럽다 (M53's 고통 +
    -스럽다 from M45: painful, agonizing), 곤란하다 (困難 — 困 a first + 難 of
    M100's 비난 "非難 not-hard" (if shipped; else 難 a first): awkward,
    difficult (a situation) — 곤란한 질문 M10's 질문; 곤란해요 = that puts me in
@@ -79,10 +79,8 @@ after), 금세 (in no time), 차츰 (bit by bit), 한창 (at the height), 하도
    = can't be bothered; RADAR: not M14's 귀; the laziest word in Korean —
    one clause).
 
-3. **THE NOUNS (5):** 두려움 (PAYS M93's 극복하다 — lookup.py the owner and quote its exact span verbatim (copy the full sentence); M107's 두렵다 if shipped + -ㅁ:
-   fear (the noun); vs M24's 무섭다's 무서움 (frozen)), 빛깔 (M49's 빛 + 깔
-   (colour, frozen — the 깔 of M21's 색깔): a hue, a tint — 가을 빛깔 M11's
-   가을), 몸짓 (PAYS M68's 짓 — quote its exact "몸짓 (body gesture — M14's 몸"
+3. **THE NOUNS (4):** 두려움 (PAYS M93's 극복하다 — lookup.py the owner and quote its exact span verbatim (copy the full sentence); M107's 두렵다 if shipped + -ㅁ:
+   fear (the noun); vs M24's 무섭다's 무서움 (frozen)), 몸짓 (PAYS M68's 짓 — quote its exact "몸짓 (body gesture — M14's 몸"
    span (full); a gesture), 먹이 (PAYS M37's 먹이다 — quote its exact "the noun
    먹이 = animal feed/prey" span; 먹이를 주다 M9's 주다; RADAR: 먹이 vs 먹이다 —
    the noun and the causative), 눈동자 (M14's 눈 + 瞳子 (pupil — 瞳 a first, 子
@@ -99,18 +97,11 @@ after), 금세 (in no time), 차츰 (bit by bit), 한창 (at the height), 하도
    at once — 금세 알아봤어요 M93's 알아보다; from 금시에 (frozen); twin M38's 금방;
    RADAR: not M60's 금 + 세), 한창 (at the height, in full swing — 한창 바쁠 때
    M4's 바쁘다; 한창때 = one's prime; RADAR: the 한 is the "very" prefix, not
-   M5's 한), 하도 (so very (that…) — always with a result clause: 하도 많이
+   the 한 counting form from M2), 하도 (so very (that…) — always with a result clause: 하도 많이
    먹어서 M17's 많이 = ate so much that…; twin M11's 너무 in the mouth; RADAR:
    not M2's 도, and not M83's 지하도).
 
-**Word slice (36):** 망설이다 · 앞세우다 · 펴내다 · 되풀이하다 · 붙잡다 · 내주다 ·
-물러나다 · 뜯다 · 빼앗다 · 삼키다 · 기대다 · 깨어나다 · 별다르다 · 뻔하다 · 유사하다 ·
-강렬하다 · 밀접하다 · 소박하다 · 성실하다 · 잦다 · 투명하다 · 고통스럽다 · 곤란하다 ·
-귀찮다 · 두려움 · 빛깔 · 몸짓 · 먹이 · 눈동자 · 이내 · 차츰 · 홀로 · 감히 · 금세 · 한창
-· 하도. (36 — if it runs long, DROP 앞세우다 and 뜯다 and say so.) POS: verbs
-`verb`; adjectives `adj` (뻔하다 `adj` — its auxiliary row in the note);
-adverbs → `noun`; nouns `noun`. IDs: w_gidaeda (not w_gidae — M34's), w_ttae,
-w_inae — check.
+**Word slice (34):** 망설이다 · 앞세우다 · 펴내다 · 되풀이하다 · 붙잡다 · 내주다 · 물러나다 · 뜯다 · 빼앗다 · 삼키다 · 기대다 · 깨어나다 · 별다르다 · 뻔하다 · 유사하다 · 강렬하다 · 밀접하다 · 소박하다 · 성실하다 · 잦다 · 고통스럽다 · 곤란하다 · 귀찮다 · 두려움 · 몸짓 · 먹이 · 눈동자 · 이내 · 차츰 · 홀로 · 감히 · 금세 · 한창 · 하도. All grade C; stable IDs retained.
 
 **Md shape (Band 8 default):** intro (the moment's adverbs) · How to use ·
 `## Part 1 — Native verbs V, and the adverbs of the moment` (four drawers;

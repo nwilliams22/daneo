@@ -23,7 +23,7 @@ M113 handed you thirty-six words that refused to split. This shelf is the opposi
 | 잘나다 | 잘 (M10) + 나다 (M28) | **drifted furthest** — well-turned-out, said as sarcasm |
 
 - **THE VERBS (달래다 밝혀내다 부서지다 업다 튀다 구르다 빼앗기다 튀어나오다 같이하다 살아나다 속이다 건네주다 내려지다 녹다 가르다):** bodies and things in motion. Three of the fifteen come off the two parties of Band 4 — 빼앗기다 is the passive party of M36 running on M111's 빼앗다, 속이다 is the causative party of M37 running on a 속다 that still rides frozen, and 내려지다 is M6's 내리다 on the -아/어지다 wing from M35. Two are mirrors of words you hold: 녹다 against M40's 얼다, 부서지다 against M36's 깨지다.
-- **THE ADJECTIVES (명확하다 자세하다 불리하다 잘나다 싱싱하다 지루하다):** three Sino and three native, and the Sino three decode entirely on characters you own — 明確 out of M34's 분명하다 and 확실하다, 仔細 out of M73's 자세히, 不利 out of M39's 부족하다 and M43's 이익.
+- **THE ADJECTIVES (명확하다 자세하다 불리하다 잘나다 지루하다):** three Sino and two native, and the Sino three decode entirely on characters you own — 明確 out of M34's 분명하다 and 확실하다, 仔細 out of M73's 자세히, 不利 out of M39's 부족하다 and M43's 이익.
 - **THE ADVERBS (하필 곧잘 실은 간신히 여간 이리저리 저마다):** the shelf's real difficulty. Four are Sino and NIKL prints their hanja — 何必, 實-, 艱辛-, 如干 — and one of them, 여간, means the opposite of what it looks like and cannot be used without a negative behind it.
 - **THE NOUNS (맘 발걸음 발길 소매 지난날 제자리 고함 골짜기):** feet, sleeves, shouts and valleys, plus 맘, which is M19's 마음 with the air let out — a 준말, the system that interlude assembled for you.
 

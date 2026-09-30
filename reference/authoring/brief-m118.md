@@ -1,7 +1,7 @@
 # Brief — M118 "Collection Day" (order 127, ring 3, band 8)
 
 Read SHARED-BRIEF.md first; follow exactly. **Band 8 = the Band 6 pack
-contract exactly** — ~34–36 words, 8 sentences, full notes, garnish-free,
+contract exactly** — 30–38 words, 8 sentences, full notes, garnish-free,
 the DEFAULT slim md shape, NO glue parts; each sentence recycles and
 names one Band 7 pattern, a different one per sentence from a different
 owner module. NO morpheme-possessive phrasings; cite in hangul. Every
@@ -11,49 +11,38 @@ from iou.py, whose output is truncated. Read M58's 군 and 회원 notes,
 M106's 인 note (the person-suffix table), M89's 대형 note, M76's 호선
 note, M99's 선 note, M108's 벌 note BEFORE drafting.
 
-**Theme:** collection day. 36 Grade-C nouns, and twelve of them were
+**Earlier-vocabulary reconciliation (2026-09-30):** 육군 → M58; 해군 → M58; 공군 → M58; 상인 → M58; 신인 → M58. These words are already taught, not new entries in this pack. Any examples or decode guidance below that mention them are recap only; the exact 31-word slice below controls authoring. Do not present them as frozen or as promises first paid here. Existing sentences may reuse them.
+
+**Theme:** collection day. 31 Grade-C nouns, and twelve of them were
 named by an earlier note as a set member and then left riding frozen.
-THE THREE FORCES (육군 해군 공군), THE PERSONS (인사 상인 죄인 본인 신인
-현대인 국왕), THE RECEIPTS (소원 수면 화재 노선 벌금 소형 안내 참가 충돌
+THE PERSONS (인사 죄인 본인 현대인 국왕), THE RECEIPTS (소원 수면 화재 노선 벌금 소형 안내 참가 충돌
 연결 가입 설문), and THE OFFICE VII (한문 간격 통로 봉사 부서 악몽 열정
 제공 해소 혜택 연관 교체 목록 참조). Organizing thesis: **an earlier note
-kept naming the set and freezing its members** — M58's 군 named all three
-armed forces at once, M89's 대형 named 소형, M76's 호선 and M99's 선 both
+kept naming the set and freezing its members** — M58 already taught the three armed forces; M89's 대형 named 소형, M76's 호선 and M99's 선 both
 named 노선, M108's 벌 named 벌금 — so today the sets are completed rather
 than introduced, and each note opens with the line that promised it.
 
 **Owners verified — cite exactly these:**
 
-1. **THE THREE FORCES (3) — one receipt, three words:** 육군 · 해군 · 공군
-   (PAYS M58's 군 — lookup.py the owner and quote its exact span verbatim
-   (copy the full sentence): it names all three and freezes all three, so
-   quote it ONCE at the head of the drawer and let the three notes divide
-   the work. 陸 (land — a first) · 海 of M31's 해외 (verify that note's
-   decode and quote it) · 空 of M12's 공항 (verify) + 軍. Give each one a
-   collocation that is actually said: 육군 훈련소 (훈련 — verify), 해군 기지
-   (기지 frozen), 공군 조종사 (조종사 frozen). The learner is not joining up
-   — the point is the news register, where these three are counted and
-   compared).
+1. **THE THREE FORCES — recap from M58:** 육군 · 해군 · 공군 already own
+   their land, sea and sky decodes. Reuse them in news-register sentences;
+   do not quote an obsolete frozen-word promise or register them again.
 
-2. **THE PERSONS (7):** 인사 (CHECK NIKL FIRST — there are two rows, 人事
+2. **THE PERSONS (5):** 인사 (CHECK NIKL FIRST — there are two rows, 人事
    and 人士, and they are different words: 人事 is personnel and HR (인사
    이동 = a staff reshuffle, 인사팀 = the HR team) while 人士 is a person of
    standing (유명 인사 = a notable). Cover whichever rows the list carries,
    and open with the radar that matters more than either: PAYS M19's
    인사하다 — lookup.py the owner and quote its exact span verbatim — the
    greeting is the 인사 the learner already owns, and it is a THIRD word
-   again), 상인 (商人 — 商 of M43's 상품 (verify that note's decode and
-   quote it) + 人: a merchant, a trader — the market's word and the history
-   book's; vs 사업가 (a businessman — check whether it is taught; if not, ride it frozen) — 상인 sells, 사업가 owns), 죄인 (PAYS
+   again), 죄인 (PAYS
    M90's 죄 — lookup.py the owner and quote its exact span verbatim; 罪人:
    a sinner, a convict — the church's word and the courtroom's, and that
    double life is the note), 본인 (本人 — 本 of M91's 근본 ("根本
    root-origin" — verify and quote) + 人: the person themselves, in
    person — 본인 확인 (M64's 확인) = identity verification, 본인이 직접 (M56's
    직접) = in person; the form's word for "you yourself", and it is how
-   Korean says it on every document), 신인 (新人 — 新 (new — verify a taught
-   新 and cite it) + 人: a newcomer, a rookie, a debut artist — 신인 배우
-   (M48's 배우), 신인상 (the rookie award, frozen)), 현대인 (現代人 — M46's
+   Korean says it on every document), 현대인 (現代人 — M46's
    현대 + 人: modern people, people of today — the essay's opening word:
    현대인은 바쁘다 (M4's 바쁘다); sort the -인 rail with M106's 인, which
    already tabled it), 국왕 (國王 — 國 of M32's 국민 (quote its decode) +
@@ -139,12 +128,7 @@ than introduced, and each note opens with the line that promised it.
    "see also" — 아래를 참조하세요, and the email's 참조 is the CC line, which
    is where a learner actually meets it).
 
-**Word slice (36):** 육군 · 해군 · 공군 · 인사 · 상인 · 죄인 · 본인 · 신인 ·
-현대인 · 국왕 · 소원 · 수면 · 화재 · 노선 · 벌금 · 소형 · 안내 · 참가 · 충돌 ·
-연결 · 가입 · 설문 · 한문 · 간격 · 통로 · 봉사 · 부서 · 악몽 · 열정 · 제공 ·
-해소 · 혜택 · 연관 · 교체 · 목록 · 참조. (36 — if it runs long, DROP 한문 and
-참조 and say so.) POS: all `noun`. IDs: w_insa, w_bonin, w_sinin — check for
-collisions against M106's w_in.
+**Word slice (31):** 인사 · 죄인 · 본인 · 현대인 · 국왕 · 소원 · 수면 · 화재 · 노선 · 벌금 · 소형 · 안내 · 참가 · 충돌 · 연결 · 가입 · 설문 · 한문 · 간격 · 통로 · 봉사 · 부서 · 악몽 · 열정 · 제공 · 해소 · 혜택 · 연관 · 교체 · 목록 · 참조. All grade C; stable IDs retained.
 
 **Md shape (Band 8 default):** intro (collection day — name the sets being
 completed) · How to use · `## Part 1 — Collection day` (the receipts table
@@ -162,6 +146,6 @@ owner module and names it; ≥8 slice words; NO digits.
 빌다 (phrase — check M69's gap deck first and do NOT duplicate), 인사 이동
 (concept). Pick 2–3; grep gap.json.
 
-**Ledger:** all 36 Grade C — `m118\t8\tgloss (C)`. Output files
+**Ledger:** all 31 Grade C — `m118\t8\tgloss (C)`. Output files
 draft-m118.* in the scratchpad; meta.notes lists every slip and verify
 outcome.
