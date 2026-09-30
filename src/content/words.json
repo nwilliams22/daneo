@@ -20786,10 +20786,10 @@
     "id": "w_jinhada",
     "ko": "진하다",
     "rom": "jinhada",
-    "en": "to be strong, dark (flavor/color)",
+    "en": "to be strong, dark, dense (flavor/color/fog)",
     "pos": "adj",
     "moduleId": "m60",
-    "notes": "津 the strength dial, turned up: 진한 커피 (M1) keeps you up, 진한 색 saturates, 진한 화장 (makeup, riding frozen) took an hour, and a 진한 국물 (M40) took all day. Order 커피를 진하게 — the -게 adverbializer (M33) — and the barista nods once."
+    "notes": "津 the intensity dial, turned up: 진한 커피 (M1) keeps you up, 진한 색 saturates, 진한 화장 (makeup, riding frozen) took an hour, and a 진한 국물 (M40) took all day. It also describes dense fog: 안개가 진하다. Order 커피를 진하게 — the -게 adverbializer (M33) — and the barista nods once."
   },
   {
     "id": "w_yeonhada",
@@ -20807,7 +20807,7 @@
     "en": "to be dense, deep (fog/color)",
     "pos": "adj",
     "moduleId": "m60",
-    "notes": "Dense-dark: 짙은 안개 (M49 — the fog its module rolled in, adjective finally attached), 짙은 눈썹 (M41), 짙은 녹색 on the written page. Calibration: 진하다 measures STRENGTH (coffee, makeup), 짙다 measures DENSITY (fog, brows, prose colors). Homophone radar: says 짇따, exactly like M54's 짓다 — one builds, one darkens; the first vowel splits them (지어요/짙어요)."
+    "notes": "Dense-dark: 짙은 안개 (M49 — the fog its module rolled in, adjective finally attached), 짙은 눈썹 (M41), 짙은 녹색 on the written page. Calibration: 짙은 안개 and 안개가 진하다 both describe dense fog; 진하다 also describes strong coffee and broth. Homophone radar: says 짇따, exactly like M54's 짓다 — one builds, one darkens; the first vowel splits them (지어요/짙어요)."
   },
   {
     "id": "w_huida",
