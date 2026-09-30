@@ -1,6 +1,6 @@
 # Korean, Word-First — Module 86: Cause and Grounds
 
-Korean builds its prepositions out of verbs. "Because of" is a verb (인하다), "compared to" is a verb (비하다), "despite" is a verb (불구하다), "including" is a verb (비롯하다) — each one a dictionary entry that nobody ever conjugates, because each lives inside a single frame: 로 인해, 에 비해, 에도 불구하고, 을 비롯해. Once you see the verb inside the preposition, the newspaper opens. This module is the written register's cause-machinery: four grammar-verbs, the have-it-done-to-you verb 당하다, eight GROUNDS nouns (원인 근거 바탕 탓 영향 작용 결론 필요성), five words for "the situation" sorted by register (사정 형편 처지 실정 여건), eleven PRESSURE nouns (피해 부담 압력 위기 우려 반응 요구 대책 방안 and the verbs 해당하다/의존하다) — and the causal endings that Ring 2 never owned: -는 바람에, -느라고, -(으)ㄴ 탓에/덕분에, -(으)ㄴ 나머지. Thirty-one words, all Grade C, and a dozen of them are IOUs an earlier note wrote.
+Korean builds its prepositions out of verbs. "Because of" is a verb (인하다), "compared to" is a verb (비하다), "despite" is a verb (불구하다), "including" is a verb (비롯하다) — each one a dictionary verb used here in a familiar preposition-like frame: 로 인해, 에 비해, 에도 불구하고, 을 비롯해. These frames are uses of the verbs, not a ban on conjugating them: 비롯하다 also works as an ordinary verb meaning "begin" or "originate," with forms such as 비롯해요 and 비롯했어요. Once you see the verb inside the preposition, the newspaper opens. This module is the written register's cause-machinery: four grammar-verbs, the have-it-done-to-you verb 당하다, eight GROUNDS nouns (원인 근거 바탕 탓 영향 작용 결론 필요성), five words for "the situation" sorted by register (사정 형편 처지 실정 여건), eleven PRESSURE nouns (피해 부담 압력 위기 우려 반응 요구 대책 방안 and the verbs 해당하다/의존하다) — and the causal endings that Ring 2 never owned: -는 바람에, -느라고, -(으)ㄴ 탓에/덕분에, -(으)ㄴ 나머지. Thirty-one words, all Grade C, and a dozen of them are IOUs an earlier note wrote.
 
 **How to use this:** read Part 2 first if you read Korean news at all — the four frames are the highest-frequency grammar on the C-list and you have been paraphrasing around them for thirty modules. Then take the nouns in shelves: the grounds words pair with verbs you own (미치다, 이르다, 마련하다), the circumstance shelf is one word sorted five ways, and the pressure shelf is what the headline does to you. Part 3 finishes the because-family M10 opened.
 
@@ -20,9 +20,9 @@ Every noun here is a receipt. M72's 발생 note wrote 발생 원인 with 원인 
 
 ---
 
-## Part 2 — The glue: four verbs that are really prepositions
+## Part 2 — The glue: four verbs in preposition-like frames
 
-M32 gave you the first frame-verbs — 대하다 ("You'll almost never conjugate it raw — it lives in the frame [noun]에 대해서 (about)"), 위하다, 통하다 — and M56 added 의하다. Today the shelf gets four more, and every one of them works the same way: a Sino root + 하다, frozen in -아/어(서) or in the badge -(으)ㄴ from M24, sitting after a noun and its particle.
+M32 gave you the first frame-verbs — 대하다 ("You'll almost never conjugate it raw — it lives in the frame [noun]에 대해서 (about)"), 위하다, 통하다 — and M56 added 의하다. Today the shelf gets four more. In the frames below, each verb follows a noun and its particle, with an ending such as -아/어(서), -면, -고, or the badge -(으)ㄴ from M24. The first three have Sino roots; 비롯하다 is native Korean. We are learning their preposition-like uses here, not their entire range as verbs.
 
 | Verb | Frame | Meaning | Spoken twin |
 |---|---|---|---|
@@ -31,7 +31,7 @@ M32 gave you the first frame-verbs — 대하다 ("You'll almost never conjugate
 | 불구하다 (不拘) | [obstacle]에도 **불구하고** | despite | -아/어도 from M39; M39's 그래도 |
 | 비롯하다 | [chief example]을/를 **비롯해(서)** / 비롯한 + noun | including, starting with | [noun] 같은 (M24's 같다) |
 
-Read the column on the right: every frame has a spoken version you already own, and the difference is register — 눈 때문에 is what you say, 폭설로 인해 is what the sign says (폭설 — heavy snow, riding frozen). The badge forms do the same work in front of a noun: 사고로 인한 피해, 서울을 비롯한 대도시 (M50's 대도시). And 비롯하다 has a 되다-twin, 비롯되다 — [source]에서 비롯된 = stemming from — which is the verb the cause-shelf sits on. The fifth verb, 당하다, is not a preposition but a passive: the passive party of M36 bolted 이/히/리/기 onto verbs; 당하다 bolts onto a NOUN — 사고를 당하다, 피해를 당하다 — Korean's get-[noun]-ed, which is why the report prefers it.
+Read the column on the right: every frame has a spoken version you already own, and the difference is register — 눈 때문에 is what you say, 폭설로 인해 is what the sign says (폭설 — heavy snow, riding frozen). The badge forms do the same work in front of a noun: 사고로 인한 피해, 서울을 비롯한 대도시 (M50's 대도시). For 비롯하다, this "including" use commonly takes 비롯한, 비롯하여, or 비롯해서; outside it, [source]에서 비롯하다 means "originate from" and [activity]을/를 비롯하다 means "begin an activity." It also has a 되다-twin, 비롯되다 — [source]에서 비롯된 = stemming from — which is the verb the cause-shelf sits on. The fifth verb, 당하다, is not a preposition but a passive: the passive party of M36 bolted 이/히/리/기 onto verbs; 당하다 bolts onto a NOUN — 사고를 당하다, 피해를 당하다 — Korean's get-[noun]-ed, which is why the report prefers it.
 
 ---
 
