@@ -272,7 +272,7 @@ still required. Batches of 2–3 packs via the drafter pipeline. The
 unranked proper nouns (고구려/금강산/대학로…, POS 고) sort last and are
 decided at the end — taught-as rows or a places pack.
 
-**Band 8 shipped through M144 (2026-09-30):** M118 *Collection Day*, M119
+**Band 8 shipped through M147 (2026-09-30):** M118 *Collection Day*, M119
 *Verbs of Doing and Undoing*, M120 *The Native Nouns, and the Adverbs of
 Manner*, M121 *Names on Forms and Stages*, M122 *Attempts, Stops and
 Institutions*, M123 *Change, Return and Human Measure*, M124 *Routes, Resolve
@@ -285,8 +285,9 @@ Paths*, M134 *Portraits, Resolve and Helping Hands*, M135 *Rankings, Beginnings 
 M137 *Renewal, Work and Fairness*, M138 *Routes, Measures and Responsibility*,
 M139 *Plans, Materials and Changing Days*, M140 *Care, Access and Shared Lives*,
 M141 *Applications, Memory and New Starts*, M142 *Costs, Conditions and Evening Routes*,
-M143 *Night Work, Family and Small Things*, and M144 *Applications, Places and Working Lives*.
-All twenty-seven keep the vocabulary-first packs with no new glue; M133–M144
+M143 *Night Work, Family and Small Things*, M144 *Applications, Places and Working Lives*, M145 *Exhibitions, Advice and Everyday Care*,
+M146 *Fresh Starts, Welcome and Looking Back*, and M147 *Shared Ground, Small Details and Change*.
+All thirty keep the vocabulary-first packs with no new glue; M133–M147
 each have ten aligned sentences and two gap cards.
 
 ### Ring 3 glue checklist (~55 patterns)
