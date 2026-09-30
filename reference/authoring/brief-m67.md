@@ -31,7 +31,7 @@ get performed (-아/어하다), and freeze into nouns (-ㅁ).
 5. **hada/root payoffs:** 의심하다 (의심 M34 — 疑心 doubt-heart,
    note built), 자랑하다 (자랑스럽다 M26 — the root finally bare),
    고생하다 (고생 M39 — 苦生), 꿈꾸다 (꿈 M8 + 꾸다 — the doubled
-   object 꿈을 꾸다, same move as M28's 잠을 자다), 상상 (completes
+   object 꿈을 꾸다, same move as 잠을 자다 from M28), 상상 (completes
    M34's 상상하다 — its note already said the noun rides free).
 
 **Radar/decode notes to land:** 흥미 (興味 — radar vs 관심 M24:
@@ -49,20 +49,9 @@ the noun rides free) · 불행하다 (M42's revoked-불 prefix + the 행 of
 trouble — the 났- is M28's 나다 again, erupting) · 웬일 (웬일이에요?
 = what brings YOU here — surprise, not information).
 
-**Word slice (29):**
-기뻐하다 show-joy verb · 슬퍼하다 show-sadness verb ·
-부러워하다 show-envy verb · 즐거워하다 show-enjoyment verb ·
-싸움 fight noun · 만남 meeting noun · 물음 question noun ·
-어려움 difficulty noun · 어둠 darkness noun ·
-부끄러움 shyness noun · 보람 worthwhileness noun ·
-흥미 interest noun · 기운 energy noun · 상상 imagination noun ·
-심리 psychology noun · 콤플렉스 complex noun ·
-의심하다 doubt verb · 자랑하다 boast verb ·
-염려하다 worry-formal verb · 고생하다 suffer verb ·
-꿈꾸다 dream verb · 꾸다 dream-a-dream verb ·
-기억나다 memory-surfaces verb · 생각나다 thought-surfaces verb ·
-떠올리다 call-to-mind verb · 불행하다 unhappy adj ·
-피로하다 fatigued adj · 큰일 big-trouble noun · 웬일 what-occasion noun
+**Added decode shelf:** 흥분 · 흥분하다 · 감수성 · 실망하다 · 아쉬움 · 지겹다 · 그리워하다 · 미움 · 만족스럽다 · 침착하다 · 두려움. Read their shipped notes for the earlier prerequisites, noun/verb contrasts and conjugations. These are existing grade-C entries with stable IDs; no garnish.
+
+**Word slice (40):** 기뻐하다 · 슬퍼하다 · 부러워하다 · 즐거워하다 · 싸움 · 만남 · 물음 · 어려움 · 어둠 · 부끄러움 · 기억나다 · 생각나다 · 떠올리다 · 꾸다 · 꿈꾸다 · 상상 · 의심하다 · 자랑하다 · 염려하다 · 고생하다 · 보람 · 흥미 · 기운 · 심리 · 콤플렉스 · 피로하다 · 불행하다 · 큰일 · 웬일 · 흥분 · 흥분하다 · 감수성 · 실망하다 · 아쉬움 · 지겹다 · 그리워하다 · 미움 · 만족스럽다 · 침착하다 · 두려움.
 
 **Sentences:** 8; ≥1 -아/어하다 scene (watching someone else's
 feeling), ≥1 -ㅁ-noun scene, ≥1 recall-triangle scene (기억나다 or

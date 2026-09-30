@@ -18,6 +18,8 @@ A departure is postponed. A family welcomes you. Work turns acquaintances into f
 
 **A family direction.** 외갓집 points to the mother's family home. 반기다 tells you how people receive an arrival: gladly. One word supplies the destination; the other supplies the welcome.
 
+**Earlier vocabulary:** 참석 → M69; 제삿날 → M69; 반기다 → M69. These words return in the examples as review; the 33 entries below are this pack’s new checklist.
+
 ::vocab::
 
 고급스럽다 describes an impression of quality. 최고급 places something at the top of a quality scale. They can describe the same tableware, but they make different claims.

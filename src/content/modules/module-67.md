@@ -19,6 +19,8 @@ M7's 기분 note called it your inner weather; this module is the full forecast.
 
 ::vocab::
 
+**The inner weather widens:** 흥분 names the rising emotion and 흥분하다 reports it; 침착하다 keeps the response steady. 감수성 is receptiveness, not a single feeling. The noun freezer adds 아쉬움 (아쉽다, M34), 미움 (밉다, M42) and 두려움 (두렵다, M63), while 그리워하다 makes longing a verb. 실망하다 answers a failed expectation, 지겹다 answers too much repetition, and 만족스럽다 describes what gives satisfaction. Keep the feeling, its display and its cause separate as you drill.
+
 **Radar patrol:** 흥미 is interest in a TOPIC, M24's 관심 in a person or thing · 기운 is the day's charge, M14's 힘 the muscle · 염려하다 worries on letterhead, 걱정하다 (M14) in the kitchen · 피로하다 is the pharmacy poster, 피곤하다 (M7) the end of your day · and 콤플렉스 is an insecurity about a feature, never English 'complicated.'
 
 ---

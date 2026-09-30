@@ -2,7 +2,7 @@
 
 M41 taught the body's first words — 흔들다, 숙이다, 눈빛 — and left a debt on the books: 고개, the head-as-it-turns, rode along free. This module pays it and fields the full gesture squad: the nod that agrees, the three new gaze ships, the four ways to stand (away, against, ahead, beyond), the 뛰어- run squadron on M66's chassis, and the hand-and-foot grid — four body parts from zero new roots. What the head, eyes, hands, and feet say without words, Korean says in compounds — and you already own nearly every part.
 
-**How to use this:** read every decode before you drill — twenty of these twenty-nine words are welds of words you already know, so let the parts do the memorizing. Spend your reps on conjugation: the polite forms contract (끄덕여요, never 끄덕이어요; 뛰어들어요; 돌아서요), and the ㄹ-stems drop before ㅅ (뛰어드세요). The grid nouns (오른손, 왼손, 오른발, 왼발) come free; the -서다 line does not — drill those four as one family.
+**How to use this:** read every decode before you drill — many of these forty words combine parts you already know, so let the parts do the memorizing. Spend your reps on conjugation: the polite forms contract (끄덕여요, never 끄덕이어요; 뛰어들어요; 돌아서요), and the ㄹ-stems drop before ㅅ (뛰어드세요). The grid nouns (오른손, 왼손, 오른발, 왼발) come free; the -서다 line does not — drill those four as one family.
 
 ---
 
@@ -21,6 +21,8 @@ Almost everything here is assembled from taught parts:
 ## Part 2 — The bricks
 
 ::vocab::
+
+**From gaze to visible gesture:** 올려다보다 supplies the upward partner to 내려다보다; 한눈에 gathers the view at a glance. 눈뜨다 and 눈감다 open and close the eyes, while 눈동자 names their dark centers. 몸짓 makes the whole body expressive: 건네다 passes something to another person, 긁다 scratches a surface, 내쉬다 sends breath out and 뱉다 sends something out of the mouth. 발자국 is the trace left after the feet have moved. Read their notes for the literal action before trying the figurative use.
 
 **Radar patrol:** the near-misses are mapped. 고개 is the head that MOVES (and, second sense, a mountain pass — the 아리랑 고개); M14's 목 is the neck that gets sore. 손뼉 is the native palms that strike; M51's 박수 is the hanja applause you send and receive. 짓 (the regrettable act) has NO relation to M54's 짓다 (the build-verb) — one misbehaves, one makes rice. 손잡이's thing-you-grab -이 is not the measure--이 of M57's 높이 — same letter, different factory. And 돌아서다 turns to LEAVE where M52's 돌아보다 turns to look back.
 

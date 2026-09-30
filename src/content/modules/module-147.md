@@ -18,6 +18,8 @@ A form asks about education. A host prepares an event. A walk reveals the first 
 
 **Zoom in.** 주름살 narrows 주름 to skin. 귓속 places you inside the ear. 빗방울 reduces rain to drops. The familiar parts help, but the whole compound still deserves its own meaning.
 
+**Earlier vocabulary:** 하나님 → M69; 가톨릭 → M69; 사회자 → M69. These words return in the examples as review; the 33 entries below are this pack’s new checklist.
+
 ::vocab::
 
 A religious name is also a usage choice: 하나님 is especially associated with Protestant Korean, while Catholic usage generally prefers 하느님. Learn the context along with the spelling.
@@ -28,7 +30,7 @@ A religious name is also a usage choice: 하나님 is especially associated with
 
 No new glue. The sentence frames are familiar; the new work is choosing precise words for them.
 
-**Spot the recycling:** M146's 참석 helps define eligible attendees; 재활용 supplies the topic of reference material; 입사 precedes improved skills. 유적지 also returns as the setting of an accidental meeting.
+**Spot the recycling:** M69's 참석 helps define eligible attendees; 재활용 supplies the topic of reference material; 입사 precedes improved skills. 유적지 also returns as the setting of an accidental meeting.
 
 - **-더라도 from M95:** a restriction or uncertainty does not remove the next action.
 - **-(으)ㄴ 결과 from M90:** show what changed after consulting information.

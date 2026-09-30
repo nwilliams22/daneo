@@ -18,6 +18,8 @@ A farm takes time, a night shift runs long, and a change of light changes what y
 
 **Sense radar.** 전선 here is 戰線, a battle front, not an electrical wire. 성경 names the Bible. M46’s 생 is life, while 사망 is the formal noun for death. 시집가다 carries a traditional gendered view of marriage; the neutral general verb remains 결혼하다.
 
+**Earlier vocabulary:** 성경 → M69. These words return in the examples as review; the 31 entries below are this pack’s new checklist.
+
 ::vocab::
 
 ---

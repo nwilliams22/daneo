@@ -100,10 +100,7 @@ M95's 온갖 note, M68's 짓 note BEFORE drafting.
    "말 한마디로 천 냥 빚을 갚는다" span; 빚을 지다 (that 지다 is the bear-it
    verb, frozen — NOT M17's 지다, to lose), 빚을 갚다 (M107's 갚다 if shipped)),
    개미 (an ant — 개미처럼 일하다 (M41's 처럼, M2's 일하다); 개미허리 (M14's
-   허리) = a wasp waist; RADAR: not M5's 개 + M96's 미), 하느님 (PAYS M69's 신 —
-   quote its exact "하느님/하나님, the Korean names for the capital-G version,
-   ride frozen" span; and the split worth one clause: 하느님 is the older and
-   the Catholic/inclusive name, 하나님 the Protestant church's), 차림 (PAYS
+   허리) = a wasp waist; RADAR: not M5's 개 + M96's 미), 하느님 (completes the God-name pair: 하나님 is taught in M69; 하느님 is the Catholic/general form and 하나님 the Protestant form), 차림 (PAYS
    M84's 정장 — quote its exact "정장 차림 (차림 — attire, riding frozen) on the
    invitation" span; M40's 차리다 + -ㅁ: attire, get-up — 간편한 차림 (간편하다
    frozen), 차림표 = the menu, frozen), 일쑤 (PAYS

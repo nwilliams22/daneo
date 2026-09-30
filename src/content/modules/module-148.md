@@ -26,7 +26,7 @@ A bag needs moving, a road bends, and a summer walk changes when rain arrives. T
 
 No new glue. The sentence frames are familiar; the new work is choosing the precise word for each role.
 
-**Spot the recycling:** M147's 근교 and 빗방울 enter the path sentence; 사회자 and 손수 enter the interpreting scene; 포근하다 describes a room before its condition changes. Each appears in a new sentence, with new action and setting.
+**Spot the recycling:** M147's 근교 and 빗방울 enter the path sentence; M69’s 사회자 and M147’s 손수 enter the interpreting scene; 포근하다 describes a room before its condition changes. Each appears in a new sentence, with new action and setting.
 
 - **-다 보니 from M94 makes an observation grow out of a walk.**
 - **-고서 from M85 fixes the order of preparation and action.**

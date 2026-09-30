@@ -16,6 +16,8 @@ A host guides a route, someone measures body temperature, and workers search for
 
 **Scenes with precise senses.** 수컷 is a male animal, pairing with M136's 암컷. 씨앗 can begin a plant or a metaphor. 쇠 is metal, often iron. 잠수함 is a submarine, 항공 concerns travel through the air, and 한여름 is the hottest stretch of summer. 장수 here means a vendor, as in 사과 장수, an apple seller; it is neither longevity nor the sheet counter 장. 푸다 scoops food or liquid out, while 풀다 unties or solves. A 포장마차 is a covered street food stall.
 
+**Earlier vocabulary:** 올려다보다 → M68. These words return in the examples as review; the 34 entries below are this pack’s new checklist.
+
 ::vocab::
 
 ---

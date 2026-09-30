@@ -11,8 +11,7 @@ will catch stemless/uncontracted polite forms — write 끄덕여요, not
 
 **Organizing machines (all owners verified — cite exactly these):**
 1. **고개 — the planted IOU comes due.** M41's 흔들다 note used it
-   free ("고개를 흔들다 = shake the head no — 고개, the
-   head-as-it-turns, rides along free") and 숙이다's note runs on
+   free (고개를 흔들다 means shake the head no; the head-as-it-turns was glossed there) and 숙이다's note runs on
    고개를 숙이다. Now it's taught. Radar vs 목 M14 (anatomical
    neck/throat) — 고개 is the head-as-it-moves. NIKL sense collapse:
    고개 is also the mountain pass — cover radar-style. Collocation
@@ -53,21 +52,9 @@ will catch stemless/uncontracted polite forms — write 끄덕여요, not
    only if needed) · 마주 (the face-to-face adverb, pos-tagged noun
    per house rule: 마주 보다, 마주 서다, 마주 앉다).
 
-**Word slice (29):**
-고개 head noun · 끄덕이다 nod verb · 쳐다보다 stare verb ·
-내려다보다 look-down verb · 들여다보다 peer-into verb ·
-올려놓다 put-on verb · 내려놓다 put-down verb ·
-돌아서다 turn-away verb · 다가가다 approach verb ·
-뛰어들다 jump-into verb · 마주 face-to-face noun ·
-맞서다 stand-against verb · 앞서다 go-ahead verb ·
-넘어서다 go-beyond verb · 짓 act-gesture noun ·
-악수 handshake noun · 손뼉 palms noun · 손발 hands-feet noun ·
-오른손 right-hand noun · 왼손 left-hand noun ·
-오른발 right-foot noun · 왼발 left-foot noun ·
-손잡이 handle noun · 손수건 handkerchief noun ·
-뛰어다니다 run-around verb · 뛰어오다 come-running verb ·
-뛰어나가다 run-out verb · 날아오다 come-flying verb ·
-건너오다 come-across verb
+**Added decode shelf:** 한눈 · 건네다 · 긁다 · 내쉬다 · 발자국 · 뱉다 · 눈감다 · 눈뜨다 · 올려다보다 · 몸짓 · 눈동자. Read their shipped notes for the earlier prerequisites, noun/verb contrasts and conjugations. These are existing grade-C entries with stable IDs; no garnish.
+
+**Word slice (40):** 고개 · 끄덕이다 · 쳐다보다 · 내려다보다 · 들여다보다 · 마주 · 다가가다 · 돌아서다 · 맞서다 · 앞서다 · 넘어서다 · 뛰어들다 · 뛰어나가다 · 뛰어오다 · 뛰어다니다 · 날아오다 · 건너오다 · 올려놓다 · 내려놓다 · 오른손 · 왼손 · 오른발 · 왼발 · 손발 · 손잡이 · 손수건 · 손뼉 · 악수 · 짓 · 한눈 · 건네다 · 긁다 · 내쉬다 · 발자국 · 뱉다 · 눈감다 · 눈뜨다 · 올려다보다 · 몸짓 · 눈동자.
 
 Note on 올려놓다/내려놓다: 오르다 M22 / 내리다 M6 + 놓다 M28 —
 and M40's -아/어 놓다 park-machine is the same 놓다 doing grammar;

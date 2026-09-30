@@ -23972,7 +23972,7 @@
     ],
     "rom": "hollo isseulsurok duryeoumi chacheum keojyeoyo",
     "wordIds": ["w_hollo", "w_duryeoum", "w_chacheum", "w_keuda"],
-    "note": "Recycles -(으)ㄹ수록 from M89 — the dial and the result — and three of today's words ride it. 홀로 is the page's alone, where M10's 혼자 is the mouth's; 두려움 is the noun M107's 두렵다 left standing and M93's 극복하다 had already spent; 차츰 is the slow slope, calmer than M35's 점점 and commoner in a book than M85's 서서히. The closer is M1's 크다 through the -아/어지다 wing from M35, because a fear grows rather than simply being large. Roles: 홀로 있을수록 and 차츰 are both other; 두려움이 is the subject the slope moves."
+    "note": "Recycles -(으)ㄹ수록 from M89 — the dial and the result — and two of today's words alongside earlier 두려움 ride it. 홀로 is the page's alone, where M10's 혼자 is the mouth's; 두려움 is the noun taught in M67 from M63’s 두렵다; 차츰 is the slow slope, calmer than M35's 점점 and commoner in a book than M85's 서서히. The closer is M1's 크다 through the -아/어지다 wing from M35, because a fear grows rather than simply being large. Roles: 홀로 있을수록 and 차츰 are both other; 두려움이 is the subject the slope moves."
   },
   {
     "id": "s_m111_plain_table_full_house",
@@ -26075,7 +26075,7 @@
     ],
     "rom": "jeonsihoee sarami manteoragoyo",
     "wordIds": ["w_jeonsihoe", "w_saram", "w_manta"],
-    "note": "Recycles -더라고요 from M88. This sentence uses 전시회 from the current slice in a new setting."
+    "note": "Recycles -더라고요 from M88. This sentence uses 전시회 from M69 in a new setting."
   },
   {
     "id": "s_m121_03",
@@ -28822,7 +28822,7 @@
       "w_gisulhada",
       "w_seonsu"
     ],
-    "note": "M135’s 초청하다 and 순위 enter a new report; -ㄴ from M24 describes the person."
+    "note": "M69’s 초청하다 and M135’s 순위 enter a new report; -ㄴ from M24 describes the person."
   },
   {
     "id": "s_m136_departure",
@@ -32513,7 +32513,7 @@
     ],
     "rom": "chamseok daesangjareul haksaengeuro hanjeonghadeorado junbihaeya haeyo",
     "wordIds": ["w_chamseok", "w_daesangja", "w_haksaeng", "w_hanjeonghada", "w_junbihada", "w_hada"],
-    "note": "-더라도 from M95 preserves the need for preparation despite a restriction. 참석 from M146 specifies what the 대상자 are eligible to do."
+    "note": "-더라도 from M95 preserves the need for preparation despite a restriction. 참석 from M69 specifies what the 대상자 are eligible to do."
   },
   {
     "id": "s_m147_reuse",
@@ -32813,7 +32813,7 @@
     ],
     "rom": "sahoejaga ginjangdoeeotjiman tongyeogeul sonsu junbihaesseoyo",
     "wordIds": ["w_sahoeja", "w_ginjangdoeda", "w_tongyeok", "w_sonsu", "w_junbihada"],
-    "note": "사회자 and 손수 from M147 return with the new state 긴장되다 and the spoken-language work 통역."
+    "note": "사회자 from M69 and 손수 from M147 return with the new state 긴장되다 and the spoken-language work 통역."
   },
   {
     "id": "s_m148_regular",

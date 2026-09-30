@@ -16,6 +16,8 @@ The night brings grading, visitors and a late return home. Small household objec
 
 **A sense to guard.** 바가지 is a bowl and the image in an overcharging idiom. 음력 is lunar time. 싸구려 judges poor quality, while 소중히 describes caring for something valued.
 
+**Earlier vocabulary:** 그리워하다 → M67; 미움 → M67; 만족스럽다 → M67; 침착하다 → M67. These words return in the examples as review; the 30 entries below are this pack’s new checklist.
+
 ::vocab::
 
 ---

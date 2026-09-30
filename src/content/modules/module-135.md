@@ -18,6 +18,8 @@ A ranking rises, a guest is invited, and an older portrait brings youth back to 
 
 **Sense radar.** 중독 covers poisoning as well as addiction. 썰렁하다 can describe physical chill or an awkward social atmosphere. 재밌다 is the familiar shortened form of 재미있다. 그제야 means only then; do not answer a calendar question with it when you mean the day before yesterday.
 
+**Earlier vocabulary:** 초청하다 → M69; 클럽 → M69. These words return in the examples as review; the 32 entries below are this pack’s new checklist.
+
 ::vocab::
 
 ---

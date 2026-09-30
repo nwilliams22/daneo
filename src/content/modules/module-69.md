@@ -22,6 +22,8 @@ Almost every noun here is either a decode or a debt collected — 모임 was pro
 
 ::vocab::
 
+**The circuits gain names and roles:** 기독교 and 가톨릭 distinguish Christian traditions; 하나님 names God in Protestant usage, 성경 names the Bible and 천국 names heaven or paradise. 종교적 turns 종교 into a description. 큰절 and 제삿날 belong to the ritual calendar. On the gathering side, a 사회자 leads the event, 초청하다 invites participants, 참석 records attendance and 반기다 gives the warm welcome. A 클럽 gathers members, 가입자 counts those who signed up, and 전시회 brings people together around things on display.
+
 **Radar patrol:** 빌다 wishes and begs, 빌리다 borrows — the extra 리 is the entire difference. 신 (神) is a god; 신이 나다 is native fun; 신다 (M21) and 신발 (M9) are just shoes. 부처 is the Buddha until the news says 정부 부처 (ministries). 미팅 is a group blind date, not a 회의 (M10). And 초청장's -장 is document-狀, not M30's counter — though the card it names is still 한 장.
 
 ---

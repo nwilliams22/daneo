@@ -269,6 +269,14 @@ M137 34, M140 34 and M148 34. All remain within Ring 3’s 30–38 range.
 Existing sentences and NIKL coverage remain intact; donor sentences reuse
 the transferred words as earlier vocabulary.
 
+**M67–M69 count correction (2026-09-30):** each pack now owns 40 distinct
+non-particle checklist words. M67 gains eleven feeling/state words, M68
+eleven gaze/gesture words and M69 fifteen belief/gathering words. All 37
+are existing grade-C entries with stable IDs and full decode notes; no
+garnish or sentence payload changes. Current donor counts: M111 31, M121 33, M124 30, M130 33, M131 33, M133 31, M135 32, M138 34, M143 30, M144 33, M145 34, M146 33, M147 33.
+All remain within Ring 3’s 30–38 range; M124 and M143 have no further
+capacity. Earlier count notes above are historical snapshots.
+
 ### Ring 2 glue checklist (~40 patterns)
 
 Quoting -다고/-라고/-냐고/-자고/-달라고 · indirect -는지 · **-는데/-(으)ㄴ데**

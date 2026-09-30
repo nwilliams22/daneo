@@ -22,7 +22,7 @@ A magpie leaves a starting point, a robot appears at a seminar, and a contest gr
 
 ## Part 2 — Building sentences
 
-**Spot the recycling:** M135's 초청하다, 순위, 출발점 and 기성세대 return in unfamiliar combinations. -고서 from M85 orders actions, -는 김에 from M91 adds a task on the same occasion, and -다 보니 from M93 introduces an outcome noticed along the way.
+**Spot the recycling:** M69's 초청하다 and M135's 순위, 출발점 and 기성세대 return in unfamiliar combinations. -고서 from M85 orders actions, -는 김에 from M91 adds a task on the same occasion, and -다 보니 from M93 introduces an outcome noticed along the way.
 
 ::sentences::
 

@@ -12,7 +12,7 @@ Read SHARED-BRIEF.md and CURRICULUM.md §2c and §4. This reconciled brief descr
 
 1. 운반 moves goods; 출퇴근 follows a commuter. 로터리 and 산길 frame routes; M65's 반대편 and 건넌방 are earlier place words.
 2. Use -아/어지다 from M35 to compare 깨끗해지다, 더러워지다, 밝아지다 and 분명해지다. Keep 下 for 하, the interjection 뭘 and the regular customer 단골 distinct.
-3. Preserve three fresh predecessor prompts and at least three sentences recycling M147 vocabulary: 참고하다, 근교, 손수, 빗방울, 사회자 and 포근하다 as appropriate. Keep the 발바닥에 불이 나다 and 뭘요 gap cards.
+3. Preserve three fresh predecessor prompts and at least three sentences recycling M147 vocabulary: 참고하다, 근교, 손수, 빗방울 and 포근하다 as appropriate. 사회자 is earlier vocabulary from M69. Keep the 발바닥에 불이 나다 and 뭘요 gap cards.
 
 **Sentences and gaps:** Preserve the shipped 10 sentence payloads and existing gap cards. Each sentence keeps its named Ring 3 grammar. Moved words may recur as earlier vocabulary; do not describe them as newly arriving or still frozen.
 

@@ -18,9 +18,11 @@ You have the application form. Now send it, visit the exhibition, and find out w
 
 **Eyes can do more than move.** You already know the eye noun 눈 and the verbs 감다 and 뜨다. Their compounds 눈감다 and 눈뜨다 keep the physical actions and open figurative readings. Today's medal sentence is literal; the gap card's overlooking is deliberate.
 
+**Earlier vocabulary:** 눈감다 → M68; 눈뜨다 → M68. These words return in the examples as review; the 34 entries below are this pack’s new checklist.
+
 ::vocab::
 
-The slice is ranked by frequency, so it also brings a film actor, a spouse and a gold medal. Build small scene shelves; do not force all thirty-six words into one story.
+The slice is ranked by frequency, so it also brings a film actor, a spouse and a gold medal. Build small scene shelves; do not force all thirty-four words into one story.
 
 ---
 

@@ -18,6 +18,8 @@ The written shelf includes registration, documents, subscribers, formal classifi
 | root → -적 | The suffix makes a label that modifies a following noun; it does not invent a new root. |
 | homograph | A shared sound does not guarantee a shared sense or hanja. Read the noun it travels with. |
 
+**Earlier vocabulary:** 기독교 → M69; 전시회 → M69; 가입자 → M69. These words return in the examples as review; the 33 entries below are this pack’s new checklist.
+
 ::vocab::
 
 **Use the word in context.** The entries give a real setting and a comparison with a word already owned. The small side shelf stays in the pack because the grade-C list is ranked; no extra vocabulary is introduced to make the theme look tidier.

@@ -14,7 +14,7 @@ Every module since Band 7 opened has handed you a decoder. A Sino word splits in
 |---|---|
 | 볼 | M41's 뺨 — "Everyday Korean keeps a softer word too: 볼 (rounder, cuter — babies get their 볼 pinched); 뺨 is the dramatic one." |
 | 빚 | M83's 빗 — "Sound radar: 빗, M49's 빛 (light), and 빚 (debt — riding frozen) all say 빋 alone"; then M88's 한마디 spent it in a proverb and M107's 갚다 taught its verb |
-| 하느님 | M69's 신 — "하느님/하나님, the Korean names for the capital-G version, ride frozen" |
+| 하느님 | M69's 신 — 하나님 was taught there; 하느님 now completes the spelling and usage pair |
 | 차림 | M84's 정장 — "정장 차림 (차림 — attire, riding frozen) on the invitation" |
 | 긋다 | M99's 선 — "선을 긋다 (긋다 — to draw a stroke, riding frozen) = to draw a line, on paper and between people" |
 | 아깝다 | M94's 아끼다 — "Its cousin 아깝다 (what a waste — riding frozen) is the sigh when something was not spared." |

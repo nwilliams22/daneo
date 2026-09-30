@@ -1686,7 +1686,9 @@
       "w_uisimhada", "w_jaranghada", "w_yeomnyeohada", "w_gosaenghada",
       "w_boram", "w_heungmi", "w_giun", "w_simni",
       "w_kompeullekseu", "w_pirohada", "w_bulhaenghada", "w_keunnil",
-      "w_wennil"
+      "w_wennil", "w_m131_13", "w_m131_14", "w_m131_16",
+      "w_m130_15", "w_m130_16", "w_m130_31", "w_geuriwohada",
+      "w_mium", "w_manjokseureopda", "w_chimchakhada", "w_duryeoum"
     ],
     "sentenceIds": [
       "s_m67_gift_joy", "s_m67_dark_sounds", "s_m67_song_trigger", "s_m67_summon_home",
@@ -1707,7 +1709,9 @@
       "w_geonneooda", "w_ollyeonota", "w_naeryeonota", "w_oreunson",
       "w_oenson", "w_oreunbal", "w_oenbal", "w_sonbal",
       "w_sonjabi", "w_sonsugeon", "w_sonppyeok", "w_aksu",
-      "w_jit"
+      "w_jit", "w_hannun", "w_geonneda", "w_geukda",
+      "w_naeswida", "w_baljaguk", "w_baetda", "w_nungamda",
+      "w_nuntteuda", "w_olryeodaboda", "w_momjit", "w_nundongja"
     ],
     "sentenceIds": [
       "s_m68_nod_listen", "s_m68_stare_shy", "s_m68_lookdown_small", "s_m68_turn_gone",
@@ -1727,7 +1731,10 @@
       "w_hwangap", "w_udeoreun", "w_moim", "w_haengsa",
       "w_dongari", "w_dongchang", "w_miting", "w_chuka",
       "w_hwanyeong", "w_chocheongjang", "w_insamal", "w_eorininal",
-      "w_deokbun"
+      "w_deokbun", "w_hananim", "w_gatollik", "w_sahoeja",
+      "w_jonggyojeok", "w_cheonguk", "w_keunjeol", "w_gidokgyo",
+      "w_jeonsihoe", "w_gaipja", "w_chamseok", "w_jesannal",
+      "w_bangida", "w_chocheonghada", "w_keulleop", "w_seonggyeong"
     ],
     "sentenceIds": [
       "s_m69_temple_yard", "s_m69_grandma_wish", "s_m69_borrow_stack", "s_m69_reunion_resolve",
@@ -2572,10 +2579,9 @@
       "w_ppaeatda", "w_samkida", "w_gidaeda", "w_kkaeeonada",
       "w_byeoldareuda", "w_ppeonhada", "w_yusahada", "w_gangnyeolhada",
       "w_miljeophada", "w_sobakhada", "w_seongsilhada", "w_jatda",
-      "w_gotongseureopda", "w_gollanhada", "w_gwichanta",
-      "w_duryeoum", "w_momjit", "w_meogi",
-      "w_nundongja", "w_inae", "w_chacheum", "w_hollo",
-      "w_gamhi", "w_geumse", "w_hanchang", "w_hado"
+      "w_gotongseureopda", "w_gollanhada", "w_gwichanta", "w_meogi",
+      "w_inae", "w_chacheum", "w_hollo", "w_gamhi",
+      "w_geumse", "w_hanchang", "w_hado"
     ],
     "sentenceIds": [
       "s_m111_hesitated_missed_chance", "s_m111_feed_birds_scattered", "s_m111_frequent_mistakes_repeat", "s_m111_guitar_intense",
@@ -2820,11 +2826,11 @@
       "w_daesa", "w_opera", "w_jaejeu", "w_deungnokjeung",
       "w_banghae", "w_sangjeom", "w_subaek", "w_siljang",
       "w_ijung", "w_taip", "w_gaebyeol", "w_gongsikjeok",
-      "w_gidokgyo", "w_kkaedareum", "w_bojeon", "w_seuwichi",
-      "w_eumsikjeom", "w_miseu", "w_sangdaeseong", "w_inha",
-      "w_jakseong", "w_jeondal", "w_jeonsihoe", "w_jeongchihak",
-      "w_jumun", "w_chegyejeok", "w_keurim", "w_gaipja",
-      "w_gyeolgwajeok", "w_gubyeol", "w_dueo", "w_mayak"
+      "w_kkaedareum", "w_bojeon", "w_seuwichi", "w_eumsikjeom",
+      "w_miseu", "w_sangdaeseong", "w_inha", "w_jakseong",
+      "w_jeondal", "w_jeongchihak", "w_jumun", "w_chegyejeok",
+      "w_keurim", "w_gyeolgwajeok", "w_gubyeol", "w_dueo",
+      "w_mayak"
     ],
     "sentenceIds": [
       "s_m121_01", "s_m121_02", "s_m121_03", "s_m121_04",
@@ -2883,14 +2889,13 @@
     "contentMd": "modules/module-124.md",
     "wordIds": [
       "w_chaijeom", "w_cheoldo", "w_chonggak", "w_kaempein",
-      "w_hannun", "w_hongsu", "w_gamum", "w_ganjeop",
-      "w_gangnyeokhi", "w_gaeseondoeda", "w_geonneda", "w_ge",
-      "w_gyeolsim", "w_gotjang", "w_gyojik", "w_gusokhada",
-      "w_gwijunghada", "w_geukda", "w_naeswida", "w_neureojida",
+      "w_hongsu", "w_gamum", "w_ganjeop", "w_gangnyeokhi",
+      "w_gaeseondoeda", "w_ge", "w_gyeolsim", "w_gotjang",
+      "w_gyojik", "w_gusokhada", "w_gwijunghada", "w_neureojida",
       "w_dandok", "w_maeumkkeot", "w_mollyeodeulda", "w_bakwi",
-      "w_baljaguk", "w_baetda", "w_boneoseu", "w_saenggi",
-      "w_seojeok", "w_sohwa", "w_suheomsaeng", "w_sinsedae",
-      "w_eogida", "w_yeonguwon", "w_yeonae", "w_yoyakhada"
+      "w_boneoseu", "w_saenggi", "w_seojeok", "w_sohwa",
+      "w_suheomsaeng", "w_sinsedae", "w_eogida", "w_yeonguwon",
+      "w_yeonae", "w_yoyakhada"
     ],
     "sentenceIds": [
       "s_m124_01", "s_m124_02", "s_m124_03", "s_m124_04",
@@ -3017,12 +3022,12 @@
       "w_m130_01", "w_m130_02", "w_m130_03", "w_m130_04",
       "w_m130_05", "w_m130_06", "w_m130_07", "w_m130_08",
       "w_m130_09", "w_m130_10", "w_m130_11", "w_m130_12",
-      "w_m130_13", "w_m130_14", "w_m130_15", "w_m130_16",
-      "w_m130_17", "w_m130_18", "w_m130_19", "w_m130_20",
-      "w_m130_21", "w_m130_22", "w_m130_23", "w_m130_24",
-      "w_m130_25", "w_m130_26", "w_m130_27", "w_m130_28",
-      "w_m130_29", "w_m130_30", "w_m130_31", "w_m130_32",
-      "w_m130_33", "w_m130_34", "w_m130_35", "w_m130_36"
+      "w_m130_13", "w_m130_14", "w_m130_17", "w_m130_18",
+      "w_m130_19", "w_m130_20", "w_m130_21", "w_m130_22",
+      "w_m130_23", "w_m130_24", "w_m130_25", "w_m130_26",
+      "w_m130_27", "w_m130_28", "w_m130_29", "w_m130_30",
+      "w_m130_32", "w_m130_33", "w_m130_34", "w_m130_35",
+      "w_m130_36"
     ],
     "sentenceIds": [
       "s_m130_crew_wait", "s_m130_late_hospitality", "s_m130_excuse", "s_m130_cloth_handover",
@@ -3039,12 +3044,12 @@
       "w_m131_01", "w_m131_02", "w_m131_03", "w_m131_04",
       "w_m131_05", "w_m131_06", "w_m131_07", "w_m131_08",
       "w_m131_09", "w_m131_10", "w_m131_11", "w_m131_12",
-      "w_m131_13", "w_m131_14", "w_m131_15", "w_m131_16",
-      "w_m131_17", "w_m131_18", "w_m131_19", "w_m131_20",
-      "w_m131_21", "w_m131_22", "w_m131_23", "w_m131_24",
-      "w_m131_25", "w_m131_26", "w_m131_27", "w_m131_28",
-      "w_m131_29", "w_m131_30", "w_m131_31", "w_m131_32",
-      "w_m131_33", "w_m131_34", "w_m131_35", "w_m131_36"
+      "w_m131_15", "w_m131_17", "w_m131_18", "w_m131_19",
+      "w_m131_20", "w_m131_21", "w_m131_22", "w_m131_23",
+      "w_m131_24", "w_m131_25", "w_m131_26", "w_m131_27",
+      "w_m131_28", "w_m131_29", "w_m131_30", "w_m131_31",
+      "w_m131_32", "w_m131_33", "w_m131_34", "w_m131_35",
+      "w_m131_36"
     ],
     "sentenceIds": [
       "s_m131_injured_sailor", "s_m131_permit_after_excuse", "s_m131_tidy_room", "s_m131_applicants",
@@ -3082,13 +3087,12 @@
     "wordIds": [
       "w_nongjang", "w_doedoragada", "w_deurikyeoda", "w_ttaradanida",
       "w_raundeu", "w_maeumgajim", "w_meorikal", "w_byeonhwadoeda",
-      "w_bujae", "w_samang", "w_seoneulhada",
-      "w_seonggyeong", "w_sohwahada", "w_sunganjeok",
-      "w_sijipgada", "w_sipeojida", "w_ssuiuda",
+      "w_bujae", "w_samang", "w_seoneulhada", "w_sohwahada",
+      "w_sunganjeok", "w_sijipgada", "w_sipeojida", "w_ssuiuda",
       "w_eotgallida", "w_yeolda_m133", "w_orak", "w_uahada",
-      "w_iseul", "w_ingangwangye", "w_jeonseon",
-      "w_jeongji", "w_jeuihada", "w_jomyeong", "w_johwadoeda",
-      "w_julgeori", "w_jungdan", "w_chaseon", "w_chakgakhada"
+      "w_iseul", "w_ingangwangye", "w_jeonseon", "w_jeongji",
+      "w_jeuihada", "w_jomyeong", "w_johwadoeda", "w_julgeori",
+      "w_jungdan", "w_chaseon", "w_chakgakhada"
     ],
     "sentenceIds": [
       "s_m133_farm", "s_m133_night", "s_m133_lighting", "s_m133_lecture",
@@ -3127,12 +3131,11 @@
     "contentMd": "modules/module-135.md",
     "wordIds": [
       "w_sunwi", "w_ssang", "w_sseolleonghada", "w_amsi",
-      "w_amnal", "w_yeoksasang", "w_yuksang",
-      "w_eumju", "w_ibyeol", "w_injae", "w_injong",
-      "w_ilsijeok", "w_jaemitda", "w_jeonmunjeok", "w_jeolmeum",
-      "w_jeomjanta", "w_jogae", "w_junggyebangsong", "w_jungdok",
-      "w_jigeup", "w_jinsilhada", "w_chocheonghada",
-      "w_chulbaljeom", "w_chulpan", "w_chulhyeonhada", "w_keulleop",
+      "w_amnal", "w_yeoksasang", "w_yuksang", "w_eumju",
+      "w_ibyeol", "w_injae", "w_injong", "w_ilsijeok",
+      "w_jaemitda", "w_jeonmunjeok", "w_jeolmeum", "w_jeomjanta",
+      "w_jogae", "w_junggyebangsong", "w_jungdok", "w_jigeup",
+      "w_jinsilhada", "w_chulbaljeom", "w_chulpan", "w_chulhyeonhada",
       "w_kiseu", "w_talchulhada", "w_pansa", "w_heorak",
       "w_hwaksin", "w_geonseoldoeda", "w_geujeya", "w_giseongsedae"
     ],
@@ -3233,41 +3236,15 @@
     "ring": 3,
     "contentMd": "modules/module-138.md",
     "wordIds": [
-      "w_seoyangin",
-      "w_sojipum",
-      "w_soe",
-      "w_sukeot",
-      "w_seungrihada",
-      "w_ssiat",
-      "w_eoteomeokda",
-      "w_eomsukhada",
-      "w_yeoga",
-      "w_yeonsanghada",
-      "w_olryeodaboda",
-      "w_oeda",
-      "w_oechim",
-      "w_ilson",
-      "w_jamba",
-      "w_jamsuham",
-      "w_jangsu",
-      "w_jaeda",
-      "w_jidohada",
-      "w_jinro",
-      "w_jinhaengja",
-      "w_chatadanida",
-      "w_cheon_m138",
-      "w_tonggwa",
-      "w_pojangmacha",
-      "w_puda",
-      "w_pimang",
-      "w_hangyeol",
-      "w_hanyeoreum",
-      "w_hanggong",
-      "w_hoejeon",
-      "w_garyeojida",
-      "w_gotda",
-      "w_golchi",
-      "w_geuttaegeuttae"
+      "w_seoyangin", "w_sojipum", "w_soe", "w_sukeot",
+      "w_seungrihada", "w_ssiat", "w_eoteomeokda", "w_eomsukhada",
+      "w_yeoga", "w_yeonsanghada", "w_oeda", "w_oechim",
+      "w_ilson", "w_jamba", "w_jamsuham", "w_jangsu",
+      "w_jaeda", "w_jidohada", "w_jinro", "w_jinhaengja",
+      "w_chatadanida", "w_cheon_m138", "w_tonggwa", "w_pojangmacha",
+      "w_puda", "w_pimang", "w_hangyeol", "w_hanyeoreum",
+      "w_hanggong", "w_hoejeon", "w_garyeojida", "w_gotda",
+      "w_golchi", "w_geuttaegeuttae"
     ],
     "sentenceIds": [
       "s_m138_honesty",
@@ -3380,14 +3357,13 @@
     "contentMd": "modules/module-143.md",
     "wordIds": [
       "w_banjjagida", "w_bunjuhada", "w_bipanjeok", "w_ppaetda",
-      "w_sojunghi", "w_ssaguryeo", "w_eojjina",
-      "w_eongteori", "w_wibeop", "w_yukchejeok", "w_eumnyeok",
-      "w_jandibat", "w_jeonmunjik", "w_jechul", "w_chaejeom",
-      "w_chimchakhada", "w_kamkamhada", "w_tajagi", "w_pointeu",
-      "w_pokeu", "w_hanbamjung", "w_hyodo", "w_gwallamgaek",
-      "w_gwiga", "w_geuriwohada", "w_dwinmun", "w_ttarai",
-      "w_manjokseureopda", "w_mium", "w_bagaji", "w_balkkeut",
-      "w_byeongsil", "w_bongsahada", "w_bihaengjang"
+      "w_sojunghi", "w_ssaguryeo", "w_eojjina", "w_eongteori",
+      "w_wibeop", "w_yukchejeok", "w_eumnyeok", "w_jandibat",
+      "w_jeonmunjik", "w_jechul", "w_chaejeom", "w_kamkamhada",
+      "w_tajagi", "w_pointeu", "w_pokeu", "w_hanbamjung",
+      "w_hyodo", "w_gwallamgaek", "w_gwiga", "w_dwinmun",
+      "w_ttarai", "w_bagaji", "w_balkkeut", "w_byeongsil",
+      "w_bongsahada", "w_bihaengjang"
     ],
     "sentenceIds": [
       "s_m143_submission", "s_m143_return", "s_m143_rear", "s_m143_grading",
@@ -3403,14 +3379,14 @@
     "contentMd": "modules/module-144.md",
     "wordIds": [
       "w_yebo", "w_yonggamhada", "w_wiheomseong", "w_jaehak",
-      "w_jeonsihada", "w_jeonggijeok", "w_jonggyojeok", "w_jugwanjeok",
-      "w_jikjangin", "w_cheonguk", "w_keunjeol", "w_hakgwa",
-      "w_huhoe", "w_gangjo", "w_gesipan", "w_gongtongjeom",
-      "w_gwaoe", "w_gyonae", "w_naejeok", "w_maraton",
-      "w_maeseukeom", "w_bamsae", "w_byeoril", "w_bonaeoda",
-      "w_buchae", "w_saeopga", "w_sesange", "w_sugo",
-      "w_sigeumchi", "w_sincheongseo", "w_araetsaram", "w_aelbeom",
-      "w_yeojeonhada", "w_yeongnam", "w_iljari", "w_jamae"
+      "w_jeonsihada", "w_jeonggijeok", "w_jugwanjeok", "w_jikjangin",
+      "w_hakgwa", "w_huhoe", "w_gangjo", "w_gesipan",
+      "w_gongtongjeom", "w_gwaoe", "w_gyonae", "w_naejeok",
+      "w_maraton", "w_maeseukeom", "w_bamsae", "w_byeoril",
+      "w_bonaeoda", "w_buchae", "w_saeopga", "w_sesange",
+      "w_sugo", "w_sigeumchi", "w_sincheongseo", "w_araetsaram",
+      "w_aelbeom", "w_yeojeonhada", "w_yeongnam", "w_iljari",
+      "w_jamae"
     ],
     "sentenceIds": [
       "s_m144_form", "s_m144_board", "s_m144_service", "s_m144_forecast",
@@ -3429,11 +3405,11 @@
       "w_jeukseok", "w_chacha", "w_chucheuk", "w_chunggo",
       "w_paeksimilli", "w_hannat", "w_gadeukhi", "w_ganho",
       "w_gap", "w_geonneo", "w_geomnada", "w_geummedal",
-      "w_nungamda", "w_nuntteuda", "w_daeip", "w_doma",
-      "w_donghwachaek", "w_ttangbadak", "w_mojiphada", "w_bamsaek",
-      "w_baeuja", "w_soksanghada", "w_suman", "w_suipdoeda",
-      "w_suippum", "w_sikgi", "w_ssangap", "w_yeonghwabaeu",
-      "w_yongseo", "w_upyeon", "w_jophida", "w_joa"
+      "w_daeip", "w_doma", "w_donghwachaek", "w_ttangbadak",
+      "w_mojiphada", "w_bamsaek", "w_baeuja", "w_soksanghada",
+      "w_suman", "w_suipdoeda", "w_suippum", "w_sikgi",
+      "w_ssangap", "w_yeonghwabaeu", "w_yongseo", "w_upyeon",
+      "w_jophida", "w_joa"
     ],
     "sentenceIds": [
       "s_m145_display", "s_m145_post", "s_m145_recruit", "s_m145_noon",
@@ -3449,14 +3425,14 @@
     "contentMd": "modules/module-146.md",
     "wordIds": [
       "w_jiwojida", "w_jijeobunhada", "w_jintong", "w_chanseonghada",
-      "w_chamseok", "w_choegogeup", "w_choesang", "w_chulguk",
-      "w_chinhaejida", "w_kokkeut", "w_haem", "w_garosu",
-      "w_gaeda", "w_gogeupseureopda", "w_gosohada", "w_gongju",
-      "w_kkaeeojida", "w_daeyeoseot", "w_doedoraboda", "w_muyongga",
-      "w_bangida", "w_sanggeum", "w_sigyok", "w_apbada",
-      "w_yalmipda", "w_yangsangchu", "w_yeongihada", "w_ollain",
-      "w_oegatjip", "w_yuneunghada", "w_yujeokji", "w_eungdaphada",
-      "w_iropda", "w_ipsa", "w_jaehwaryong", "w_jesannal"
+      "w_choegogeup", "w_choesang", "w_chulguk", "w_chinhaejida",
+      "w_kokkeut", "w_haem", "w_garosu", "w_gaeda",
+      "w_gogeupseureopda", "w_gosohada", "w_gongju", "w_kkaeeojida",
+      "w_daeyeoseot", "w_doedoraboda", "w_muyongga", "w_sanggeum",
+      "w_sigyok", "w_apbada", "w_yalmipda", "w_yangsangchu",
+      "w_yeongihada", "w_ollain", "w_oegatjip", "w_yuneunghada",
+      "w_yujeokji", "w_eungdaphada", "w_iropda", "w_ipsa",
+      "w_jaehwaryong"
     ],
     "sentenceIds": [
       "s_m146_hall", "s_m146_prize", "s_m146_tableware", "s_m146_weather",
@@ -3472,14 +3448,14 @@
     "contentMd": "modules/module-147.md",
     "wordIds": [
       "w_jureumsal", "w_chamgohada", "w_cheolhakjeok", "w_panmaedoeda",
-      "w_pogeunhada", "w_hananim", "w_hangnyeok", "w_hanjeonghada",
-      "w_hyangsangdoeda", "w_gatollik", "w_geotgi", "w_gongtong",
-      "w_gukgajeok", "w_gwitsok", "w_geuraepik", "w_geungyo",
-      "w_gichojeok", "w_dayangseong", "w_daesangja", "w_donggeurami",
-      "w_tteonaoda", "w_reijeo", "w_bosujeok", "w_bulhwaksilhada",
-      "w_biman", "w_bitbangul", "w_sahoeja", "w_sonsu",
-      "w_sideulda", "w_sidi", "w_sinsa", "w_sseuldeeopsi",
-      "w_yahada", "w_eojjeodaga", "w_onjongil", "w_wangbi"
+      "w_pogeunhada", "w_hangnyeok", "w_hanjeonghada", "w_hyangsangdoeda",
+      "w_geotgi", "w_gongtong", "w_gukgajeok", "w_gwitsok",
+      "w_geuraepik", "w_geungyo", "w_gichojeok", "w_dayangseong",
+      "w_daesangja", "w_donggeurami", "w_tteonaoda", "w_reijeo",
+      "w_bosujeok", "w_bulhwaksilhada", "w_biman", "w_bitbangul",
+      "w_sonsu", "w_sideulda", "w_sidi", "w_sinsa",
+      "w_sseuldeeopsi", "w_yahada", "w_eojjeodaga", "w_onjongil",
+      "w_wangbi"
     ],
     "sentenceIds": [
       "s_m147_attend", "s_m147_reuse", "s_m147_skills", "s_m147_walk",

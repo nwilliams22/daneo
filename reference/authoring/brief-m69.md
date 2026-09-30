@@ -8,8 +8,8 @@ calendar (clubs, reunions, the 60th birthday). Hanja-noun heavy:
 decode generously.
 
 **Organizing machines (all owners verified — cite exactly these):**
-1. **The teach-교 (敎) factory.** Already banked: 학교 M1, 교회 M27,
-   교육 M32, 교수 M27 — all carry teach-교. Now the religions ARE
+1. **The teach-교 (敎) factory.** Already banked: 교회 M27,
+   교육 M32, 교수 M27 — all carry teach-교; 학교 M1 instead uses school-校. Now the religions ARE
    the teachings: 불교 (佛敎 Buddha-teaching), 유교 (儒敎 —
    Confucius himself is untaught; gloss frozen), and 종교 (宗敎
    root-teaching — the word for religion itself; radar: this 종 is
@@ -22,8 +22,7 @@ decode generously.
    move into a building the learner owns.
 3. **The church set:** 목사 (牧師 shepherd-teacher — works at 교회
    M27; 목사님 in address), 신 (神 god — radar vs 신다 M21 / 신발
-   M9, unrelated shoes; 하느님/하나님 untaught, frozen+glossed if
-   used), 기도 (祈禱 prayer — 기도하다 rides free).
+   M9, unrelated shoes; 하나님 is in this slice; 하느님 stays glossed until its later entry), 기도 (祈禱 prayer — 기도하다 rides free).
 4. **The ancestor line:** 조상 (祖上 — the ancestors), 차례 M46
    already taught the 茶禮 holiday rite homograph — cite it
    directly; 제사 (the general memorial rite) is untaught — frozen+
@@ -56,23 +55,16 @@ decode generously.
    - 초청장 (invitation card — radar vs 초대하다 M19: 초청 is the
      formal register; the -장 is document-狀, NOT M30's flat-thing
      counter 장 — radar that).
-   - 인사말 (인사하다 M19's 인사 + 말 M4 — the greeting-words you
+   - 인사말 (the 인사 root of 인사하다 (M19) + 말 M4 — the greeting-words you
      prepare: at a wedding, a first day, a 모임).
    - 어린이날 (어린이 M35 + 날 M11 — May 5, the day kids rule).
    - 덕분 (德分 virtue-share — 덕분에 = thanks to (a person, kindly);
      radar vs 때문에 M29 — blame-neutral cause vs credit; 덕분에 잘
      지냈어요 is the set reply).
 
-**Word slice (25):**
-불교 Buddhism noun · 종교 religion noun · 유교 Confucianism noun ·
-부처 Buddha noun · 스님 monk noun · 목사 pastor noun ·
-기도 prayer noun · 신 god noun · 조상 ancestor noun ·
-빌다 pray-beg verb · 빌리다 borrow verb · 탑 pagoda noun ·
-환갑 60th-birthday noun · 웃어른 elder noun · 덕분 thanks-to noun ·
-행사 event noun · 모임 gathering noun · 축하 congratulation noun ·
-환영 welcome noun · 초청장 invitation-card noun ·
-인사말 greeting-words noun · 어린이날 childrens-day noun ·
-동아리 club noun · 미팅 group-date noun · 동창 classmate noun
+**Added decode shelf:** 하나님 · 가톨릭 · 사회자 · 종교적 · 천국 · 큰절 · 기독교 · 전시회 · 가입자 · 참석 · 제삿날 · 반기다 · 초청하다 · 클럽 · 성경. Read their shipped notes for the earlier prerequisites, noun/verb contrasts and conjugations. These are existing grade-C entries with stable IDs; no garnish.
+
+**Word slice (40):** 종교 · 불교 · 유교 · 부처 · 스님 · 탑 · 목사 · 신 · 기도 · 빌다 · 빌리다 · 조상 · 환갑 · 웃어른 · 모임 · 행사 · 동아리 · 동창 · 미팅 · 축하 · 환영 · 초청장 · 인사말 · 어린이날 · 덕분 · 하나님 · 가톨릭 · 사회자 · 종교적 · 천국 · 큰절 · 기독교 · 전시회 · 가입자 · 참석 · 제삿날 · 반기다 · 초청하다 · 클럽 · 성경.
 
 **Sentences:** 8; ≥1 temple/belief scene, ≥1 gathering scene (모임/
 동아리/동창), ≥1 celebration scene (환갑 or 어린이날 with 잔치 M25

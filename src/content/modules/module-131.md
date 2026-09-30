@@ -18,6 +18,8 @@ An answer appears after an interview; a count rises as a season passes. This sli
 
 **Sense radar.** The listed 매 is corporal punishment (매를 맞다), not the hawk or “each.” 비상 is 非常, an emergency, not the homograph 飛上, flight. 단순 is a noun or stem that usually becomes 단순하다 or 단순히. 보름 is a fifteen-day lunar span and can also evoke a full moon. 흥분 is a noun; 흥분하다 supplies the verb.
 
+**Earlier vocabulary:** 흥분 → M67; 흥분하다 → M67; 감수성 → M67. These words return in the examples as review; the 33 entries below are this pack’s new checklist.
+
 ::vocab::
 
 ---
