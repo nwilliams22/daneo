@@ -232,6 +232,13 @@ ledger remains unchanged. Eight sentences and three gap cards remain.
 Whatever resists theming, sliced by frequency rank with root-flavored
 grouping where S3's tables apply. Garnish-free; notes still required.
 
+**M55–M57 count correction (2026-09-30):** each now has 40 distinct
+non-particle checklist words and eight sentences. Six small words move
+from M113 to M55; five written verbs from M114 to M56; five measure/form
+nouns from M112 to M57. All 16 retain stable IDs and NIKL grade-C coverage,
+with no garnish. Donors retain M112 31, M113 30 and M114 31 words, within
+the Ring 3 30–38 range; their sentences reuse the moved words as earlier vocabulary.
+
 **M77 count correction (2026-09-30):** Moved four existing grade-C calendar
 words (이다음, 주일, 초여름, 초저녁) from M149 into M77. M77 now has 30
 checklist words and M149 retains 32, both within the 30–38 contract.

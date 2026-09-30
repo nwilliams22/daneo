@@ -1,5 +1,7 @@
 # Brief — M113 "The Words Without Halves" (order 122, ring 3, band 8)
 
+**Current slice correction (2026-09-30):** 30 words remain. 여럿 · 갖가지 · 이런저런 · 그대 · 아냐 · 아유 now belong to M55, with stable IDs. Reuse them as earlier vocabulary; do not teach them as new or frozen here. Preserve all eight shipped sentences and their Band 7 recycling.
+
 Read SHARED-BRIEF.md first; follow exactly. **Band 8 = the Band 6 pack
 contract exactly** — ~34 words, 8 sentences, full notes, garnish-free,
 the DEFAULT slim md shape, NO glue parts; each sentence recycles and
@@ -9,18 +11,7 @@ span", run lookup.py and copy. Read M94's md and M102/M104/M107/M111's
 mds if shipped (the native verb shelves), M41's 뺨 note, M83's 빗 note,
 M95's 온갖 note, M68's 짓 note BEFORE drafting.
 
-**Theme:** the native shelf — the words with no hanja to split. 36
-words. THE HAND AND THE BLADE (닥치다 엎드리다 마주치다 베다 메우다 새기다
-중얼거리다 긋다 엿보다 잡아먹다 건드리다), THE ADJECTIVES (아깝다 어리석다
-우습다 힘차다 고요하다 날카롭다 만만하다 못되다), THE MANY AND THE SORTS
-(여럿 갖가지 이런저런), THE BODY AND THE BOX (몸통 볼 칸 기둥 뒷모습 괴로움),
-and THE PEOPLE AND THE NOISE (빚 개미 하느님 차림 그대 아냐 아유 일쑤).
-Organizing thesis: **these words cannot be decoded** — there is no
-hanja arithmetic to do, so every note pays in the only currency native
-words take: the picture and the collocation. Ten of them were already
-promised by name in earlier notes (볼 in 뺨, 빚 in 빗, 하느님 in 신, 차림
-in 정장, 갖가지 in 온갖, 긋다 in 선, 아깝다 in 아끼다, 일쑤 in 저지르다,
-못되다 in two gap decks, 칸 in 채우다) — open those notes with the receipt.
+**Theme:** Thirty native-root words grouped into four drawers: hand and blade, adjectives, body and box, people and noise. Nine earlier receipts clear here. M55’s six small words are earlier vocabulary for sentence recycling.
 
 **Owners verified — cite exactly these:**
 
@@ -88,17 +79,7 @@ in 정장, 갖가지 in 온갖, 긋다 in 선, 아깝다 in 아끼다, 일쑤 in
    사람 (M1's 사람), 못된 짓 (M68's 짓); RADAR, mandatory: spaced 못 되다 (M3's
    못 + M10's 되다) means failed to become — the space changes the word).
 
-3. **THE MANY AND THE SORTS (3):** 여럿 (several people or things, as a
-   NOUN — 여럿이 모이다 (M25's 모이다), 여럿 중 하나 (M5's 하나); M29's 여러
-   goes before a noun, 여럿 stands alone — that is the whole lesson),
-   갖가지 (PAYS M95's 온갖 — quote its exact "갖 (kinds — the old root of
-   갖가지, riding frozen): every kind" span; all sorts of — 갖가지 이유 (M24's
-   이유); sort: 온갖 is exasperated, 갖가지 is neutral), 이런저런 (M24's 이런
-   + M24's 저런: this and that, one thing and another — 이런저런 이야기 (M24's
-   이야기); the paired-determiner rail the learner already owns: 여기저기
-   (M50), 이것저것 (M55), now 이런저런 — name all three).
-
-4. **THE BODY AND THE BOX (6):** 몸통 (M14's 몸 + 통: the torso, the trunk —
+3. **THE BODY AND THE BOX (6):** 몸통 (M14's 몸 + 통: the torso, the trunk —
    of a body, of a plane (비행기 몸통, M12's 비행기); RADAR: this 통 is the
    trunk-통, not M76's 통 the counter), 볼 (PAYS M41's 뺨 — quote its exact
    "Everyday Korean keeps a softer word too: 볼 (rounder, cuter — babies get
@@ -113,7 +94,7 @@ in 정장, 갖가지 in 온갖, 긋다 in 선, 아깝다 in 아끼다, 일쑤 in
    (the noun freezer): anguish, inner distress; sort the three: M53's 아픔 is
    the body's, M53's 고통 is the formal word for both, 괴로움 is the mind's).
 
-5. **THE PEOPLE AND THE NOISE (8):** 빚 (PAYS M83's 빗 — quote its exact
+4. **THE PEOPLE AND THE NOISE (5):** 빚 (PAYS M83's 빗 — quote its exact
    "Sound radar: 빗, M49's 빛 (light), and 빚 (debt — riding frozen) all say
    빋 alone" span — and M88's 한마디, whose proverb quotes it: quote its exact
    "말 한마디로 천 냥 빚을 갚는다" span; 빚을 지다 (that 지다 is the bear-it
@@ -125,34 +106,18 @@ in 정장, 갖가지 in 온갖, 긋다 in 선, 아깝다 in 아끼다, 일쑤 in
    the Catholic/inclusive name, 하나님 the Protestant church's), 차림 (PAYS
    M84's 정장 — quote its exact "정장 차림 (차림 — attire, riding frozen) on the
    invitation" span; M40's 차리다 + -ㅁ: attire, get-up — 간편한 차림 (간편하다
-   frozen), 차림표 = the menu, frozen), 그대 (you — the lyric's word: song
-   lyrics, poems, and nothing else; never spoken to a person's face; sort
-   against M32's 당신 and M19's 너 — verify 너's owner; RADAR, mandatory:
-   M54's 그대로 is 그 + 대로 and has nothing to do with this word — quote
-   that note's exact "그 + 대로: as-it-is" span), 아냐 (the contracted 아니야
-   — PAYS M71's 아니야 — lookup.py the owner and quote its exact span
-   verbatim (copy the full sentence); 아냐, 그게 아냐 — the flattest no there
-   is; sort with M29's 아니 (the interjection)), 아유 (the sigh — 아유, 힘들어
-   (M15's 힘들다); does relief, exasperation and fussing-over-someone in one
-   syllable pair; kin of M29's 아 and M71's 어머 — name the shelf), 일쑤 (PAYS
+   frozen), 차림표 = the menu, frozen), 일쑤 (PAYS
    M94's 저지르다 — quote its exact "the sentence deck does exactly that with
    -기 일쑤다." span; a dependent noun that lives only after -기: 늦기 일쑤예요
    (M8's 늦다) = he's forever late — and it is always a complaint).
 
-**Word slice (36):** 닥치다 · 엎드리다 · 마주치다 · 베다 · 메우다 · 새기다 ·
-중얼거리다 · 긋다 · 엿보다 · 잡아먹다 · 건드리다 · 아깝다 · 어리석다 · 우습다 ·
-힘차다 · 고요하다 · 날카롭다 · 만만하다 · 못되다 · 여럿 · 갖가지 · 이런저런 ·
-몸통 · 볼 · 칸 · 기둥 · 뒷모습 · 괴로움 · 빚 · 개미 · 하느님 · 차림 · 그대 ·
-아냐 · 아유 · 일쑤. (36 — if it runs long, DROP 잡아먹다 and 몸통 and say so.)
-POS: verbs `verb`; 아깝다 어리석다 우습다 힘차다 고요하다 날카롭다 만만하다
-못되다 `adj`; 이런저런 `noun` (determiner shelf); 아냐/아유 `noun`
-(interjection shelf — follow whatever M71 used, check it); the rest `noun`.
-IDs: w_bol (not w_boda), w_kan, w_bit_debt (w_bit and w_bit_comb are taken —
-check), w_charim, w_geudae.
+**Word slice (30):** 닥치다 · 엎드리다 · 마주치다 · 베다 · 메우다 · 새기다 · 중얼거리다 · 긋다 · 엿보다 · 잡아먹다 · 건드리다 · 아깝다 · 어리석다 · 우습다 · 힘차다 · 고요하다 · 날카롭다 · 만만하다 · 못되다 · 몸통 · 볼 · 칸 · 기둥 · 뒷모습 · 괴로움 · 빚 · 개미 · 하느님 · 차림 · 일쑤.
+
+Keep the shipped IDs, POS and full notes. No drops.
 
 **Md shape (Band 8 default):** intro (no halves to split — what a native
 note pays in) · How to use · `## Part 1 — The words without halves` (the
-receipts table first: word · the note that promised it; then the five
+receipts table first: word · the note that promised it; then the four
 drawers) · `::vocab::` · **Radar patrol** (베다 blade vs pillow; 못되다 vs
 못 되다; 볼 vs the future badge; 메우다 ≠ 메다; 새기다 ≠ 새; 힘차다's 차다 ≠
 M66's; 그대 ≠ 그대로; 개미 ≠ 개+미) · `## Part 2 — Building sentences`
@@ -165,6 +130,6 @@ M66's; 그대 ≠ 그대로; 개미 ≠ 개+미) · `## Part 2 — Building sent
 **Gap candidates:** -기 일쑤다 (concept — the complaint frame), 눈이 마주치다
 (phrase), 마음에 새기다 (phrase). Pick 2–3; grep gap.json.
 
-**Ledger:** all 36 Grade C — `m113\t8\tgloss (C)`. Output files
+**Ledger:** all 30 Grade C — `m113\t8\tgloss (C)`. Output files
 draft-m113.* in the scratchpad; meta.notes lists every slip and verify
 outcome.

@@ -22,6 +22,8 @@ The M36/M37 decode debt clears its biggest accounts:
 
 ::vocab::
 
+**Five jobs for a written verb:** **보고하다** reports results, **논하다** discusses an issue, **구별하다** tells things apart, **묘사하다** describes a scene, and **조절하다** adjusts a level. The notes decode their characters without assuming later noun lessons. Try the pairs as jobs: 설명하다 explains while 묘사하다 paints; 다르다 says two things differ while 구별하다 recognizes the difference; 맞추다 sets a target while 조절하다 controls the level.
+
 **Radar patrol:** 사용 uses a thing, 이용 uses a service · 발달 grows a capability, 발전 advances a state · 마치다 closes meetings, M34's 마치 opens similes · M16's 벌다 earns what 벌이다 spends · 갖다 is M28's 가지다, squeezed — the receipt its note wrote finally cashes · and 우선순위's 우선 (優先) is a stranger wearing our 우선's (于先) clothes.
 
 ---

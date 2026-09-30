@@ -22,6 +22,8 @@ This shelf audits itself; the roots are all receipts:
 
 ::vocab::
 
+**From rulers to forms:** **면적** measures area, **소수** counts a small group, and **금액** states a sum of money. **용도** asks what a thing is for; **일자** records the date in a form field. These five extend the same toolkit: say what is measured, what it is used for, and where it belongs on the page. Watch 면적's 積: it means piling, not the -적 suffix. Keep 少數 (a minority) separate from 小數 (a decimal), and 일자 separate from 일자리 (a job).
+
 **Radar patrol:** 관리 is management (管理) — the Joseon official (官吏) survives only in dramas. 발전 develops (發展) unless it's a 발전소, which generates (發電). 주위 is where you stand; S2's 주의 is what the yellow sign wants. And 길이 is length — unless it's M12's road wearing the subject particle, in which case it's traffic.
 
 ---

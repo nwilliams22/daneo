@@ -133,7 +133,7 @@ list and starts being a machine.
    M31's 덕수궁 (quote its exact "수 (壽 longevity)" span) + 命 (life, a
    command — verify a taught 命, 생명): a lifespan — 평균 수명 (M89's 평균 —
    verify), 배터리 수명), 거액 (巨額 — 巨 (huge, a first) + 額 of M101's 액수
-   and M112's 금액 if shipped: a huge sum — 거액의 빚 (M113's 빚 if shipped)),
+   and M57's 금액 if shipped: a huge sum — 거액의 빚 (M113's 빚 if shipped)),
    교훈 (PAYS M94's 삼다 — quote its exact "교훈으로 삼다 (교훈 — a lesson
    learned, riding frozen)" span; 敎訓 — 敎 + 訓 (to instruct, a first): the
    moral, the lesson learned — 역사의 교훈 (M15's 역사 — verify)), 단편 (短篇 —

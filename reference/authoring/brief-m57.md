@@ -20,10 +20,10 @@ file the world. Frequency-sliced, but with two root-flavored spines:
 - 결정 — under M33's 결정하다 ("tie-the-heart"? no — verify what 결심하다
   M34 vs 결정하다 M33 notes actually say; cite correctly).
 - 발전 — under M35's 발전하다 (verify its 發 note and reuse, don't re-derive).
-- 활동 — under M32's 활동? NO: 활동 is unshipped; but 활동하다 sits in the
+- 활동 — under any earlier 활동? NO: 활동 first belongs here; but 활동하다 sits in the
   pool untaught — check whether ANY 활동-form shipped before claiming a
   landing; if none, teach fresh (活動 live-move).
-- 무게 — M35's 몸무게 note (verify: "decodable: 몸+무겁다's 무게").
+- 무게 — M35's 몸무게 note (verify: the 몸 + 무게 split).
 - 상대 — under M33's 상대방 (verify its note; 相對 the facing-one; 상대가
   안 돼요 = no match for).
 - 예정 — 豫定: the 豫 of M52's 예약/예매 (verify) + 정하다's 定 (verify
@@ -35,7 +35,7 @@ file the world. Frequency-sliced, but with two root-flavored spines:
   건강 관리, 시간 관리 — self-management is a national hobby. The C homograph
   官吏 (the Joseon official) rides one line.
 - 주위 — 周圍 surroundings; radar vs 주의 (attention/caution — verify taught?
-  if untaught, keep as a careful wink) and M50's 주변? (verify — if 주변
+  if untaught, keep as a careful wink) and M31's 주변? (verify — if 주변
   unshipped, don't cite). 주위 사람들 = the people around you.
 - 원래 — 元來: originally/by nature (원래 그래요 — the national shrug:
   that's just how it is). Spoken constantly despite the Sino suit.
@@ -65,7 +65,7 @@ file the world. Frequency-sliced, but with two root-flavored spines:
 - 개인 — 個人: the individual (개인적으로 = personally — the -적 factory
   again; 개인주의 wink frozen).
 - 업무 — 業務: work-duties (업무 시간, 업무 중 — S2's ○○ 중, verify);
-  radar vs M16's 일 (verify): 일 is work, 업무 is work-on-paper.
+  radar vs M2's 일 (verify): 일 is work, 업무 is work-on-paper.
 - 특별 — 特別: special (특별한 날; 특별히 — verify M37-era 특별히? it sits
   in the pool untaught: if so the note owns both forms itself).
 - 주요 — 主要: major/chief (주요 뉴스 — determiner-like, always before a
@@ -78,7 +78,7 @@ file the world. Frequency-sliced, but with two root-flavored spines:
 - 역할/행동 — 役割 role (역할을 하다 — the drama double-casting wink) and
   行動 behavior (행동으로 보여 주다 — verify M9's 주다 machinery).
 
-**Word slice (35 words — rank · word · pos; all nouns):**
+**Word slice (40 words — rank · word · pos; all nouns):**
 286 자체 · 309 활동 · 329 전체 · 398 일부 · 416 발전 · 443 역할 · 445 행동 ·
 482 대표 · 483 가능성 · 557 차이 · 562 개인 · 566 효과 · 607 질서 · 696 일반 ·
 743 주위 · 842 기본 · 858 관리 · 973 종류 · 999 예정 · 1015 전문 · 1054 크기 ·
@@ -99,6 +99,12 @@ frozen), 백지장도 맞들면 낫다 (even paper lifts lighter together — �
 frozen, 낫다 M14 verify), or 구슬이 서 말이라도 꿰어야 보배 (beads unstrung
 are not treasure — heavy frozen load; only if the note carries it). Max 3,
 only if they earn it.
+
+
+**Grade-C additions (2026-09-30):** 면적 · 소수 · 금액 · 용도 · 일자.
+These stable-ID words are part of the 40-word slice, with full notes in
+words.json. Decode using same-or-earlier lessons only. They move from
+M112, where subsequent sentences may reuse them. No garnish.
 
 **Output files:** draft-m57.words.json, draft-m57.sentences.json,
 draft-m57.gap.json, draft-m57.md, draft-m57.meta.json.

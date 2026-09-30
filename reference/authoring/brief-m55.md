@@ -1,4 +1,4 @@
-# Brief — M55 "The Little Words III" (order 63, ring 2, band 6)
+# Brief — M55 "The Little Words II" (order 63, ring 2, band 6)
 
 Read SHARED-BRIEF.md first and follow it exactly (canon now includes M52–M54:
 -아/어 버리다 = M52, -는데 = M53, 대로 = M54; Band 6 packs are GARNISH-FREE).
@@ -7,8 +7,8 @@ Read SHARED-BRIEF.md first and follow it exactly (canon now includes M52–M54:
 theme. This pack collects the load-bearing little words the themed modules
 kept stepping around: the dependent-noun engine (데 is rank 62!), the
 squeezed pronouns (걔/쟤/얘), the humble/plain plurals (저희/너희), the
-approximate-number determiners, and the formal 이러하다-family. M29 was "the
-그렇다 machine and the little words"; this is its Ring 2 sequel — small
+approximate-number determiners, and the formal 이러하다-family. M29 introduced the
+그렇다 machine and the little words; this is its Ring 2 sequel — small
 syllables, enormous mileage.
 
 **Glue-equivalent (the organizing machines — the md's grammar Parts):**
@@ -85,7 +85,7 @@ module; Part 1/3 organize, the notes carry.
 - 군데 — the places-counter: 몇 군데, 한 군데 (M5's counter system —
   verify how counters were framed).
 
-**Word slice (34 words — rank · word · pos; house rule: dependent nouns,
+**Word slice (40 words — rank · word · pos; house rule: dependent nouns,
 determiners, pronouns, adverbs all tag noun; 이러하다/그러하다/저렇다 tag adj):**
 62 데 noun · 177 뿐 noun · 335 간 noun · 343 줄 noun · 364 터 noun ·
 725 식 noun · 942 편 noun · 989 듯이 noun · 1208 대 noun · 892 외 noun ·
@@ -102,6 +102,13 @@ frozen), 꿩 대신 닭 (pheasant unavailable, chicken then — 닭 M30, 대신 
 verify both; 꿩 frozen), or 될 성부른 나무는 떡잎부터 알아본다 (too heavy?).
 Max 3, only if they earn it. M52-54 shipped LAST session — their gap decks
 are fair recycling ground but check for dups.
+
+
+**Grade-C additions (2026-09-30):** 여럿 · 갖가지 · 이런저런 · 그대 · 아냐 · 아유.
+아냐 and 아유 retain their shipped `phrase` POS; the other four use `noun`.
+These stable-ID words are part of the 40-word slice, with full notes in
+words.json. Decode using same-or-earlier lessons only. They move from
+M113, where subsequent sentences may reuse them. No garnish.
 
 **Output files:** draft-m55.words.json, draft-m55.sentences.json,
 draft-m55.gap.json, draft-m55.md, draft-m55.meta.json.

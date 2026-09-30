@@ -21,6 +21,8 @@ This shelf is less a vocabulary list than a toolbox — four little factories, e
 
 ::vocab::
 
+**Small words in use:** M29's 여러 needs a following noun; **여럿** can stand alone and take a particle. **갖가지** gathers different kinds, while **이런저런** welds M24's 이런 and 저런 into this-and-that — beside today's 이것저것 for things. The register drawer gains three voices: **그대**, the literary you; **아냐**, the squeeze of 아니야 already shown under M19's 아니다; and **아유**, the sigh whose tone supplies the meaning. Keep the lyric's address and the casual no in their own settings.
+
 **Radar patrol:** one-syllable homographs, all mapped: 줄 the rope vs 줄 the know-how · 간 between vs the 간 you taste (M40's 간장) vs the 간 that makes you brave · 편 the film-counter vs the side-便 of 건너편/맞은편/편하다 vs 기차 편 · 대 the machine-counter vs the scoreline's 2 대 1 vs M46's promised 20대 · 터 the building site vs 텐데's expectation · 얘 this-kid vs 얘기 (M24's 이야기, differently squeezed) · 맨 위's edge vs 맨발's bareness · 단 하나's single-單 vs 계단's step-段 (M13).
 
 ---

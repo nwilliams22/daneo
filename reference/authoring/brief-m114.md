@@ -1,5 +1,7 @@
 # Brief — M114 "Sino Verbs IV, and the Adverbs of Degree" (order 123, ring 3, band 8)
 
+**Current slice correction (2026-09-30):** 31 words remain. 보고하다 · 논하다 · 구별하다 · 묘사하다 · 조절하다 now belong to M56, with stable IDs. Reuse them as earlier vocabulary; do not teach them as new or frozen here. Preserve all eight shipped sentences and their Band 7 recycling.
+
 Read SHARED-BRIEF.md first; follow exactly. **Band 8 = the Band 6 pack
 contract exactly** — ~34 words, 8 sentences, full notes, garnish-free,
 the DEFAULT slim md shape, NO glue parts; each sentence recycles and
@@ -10,21 +12,11 @@ M105's md if shipped (the 되다 flips I), M109's md if shipped (the flip
 machine), M99's md (a Sino syllable is a row in a table), M89's 불과하다
 note, the M89 gap deck (갈수록 태산) BEFORE drafting.
 
-**Theme:** the 하다/되다 machine, run for the last time on nouns the
-learner owns — and the adverbs, which cannot be built at all. 36 words.
-THE 하다 ON NOUNS YOU OWN (개방하다 이동하다 관리하다 근거하다 보고하다
-논하다 자극하다 청하다), THE NEW SINO VERBS (실현하다 구별하다 묘사하다
-완성하다 선정하다 예측하다 적합하다 조절하다 지급하다 선언하다 탄생하다),
-THE 되다 FLIPS II (안정되다 전달되다 보장되다 관계되다 분리되다 완성되다),
-and THE ADVERBS (불과 수없이 갈수록 막상 오로지 자연히 지극히 간혹 벌떡
-재빨리 종종). Organizing thesis: **by now the verb is arithmetic and the
-adverb is not** — eight of these verbs are a noun the learner owns plus
-하다, six are a noun plus 되다, and the notes for those are receipts; the
-eleven adverbs get the ink, because there is no rule that builds them.
+**Theme:** Thirty-one words: six 하다 verbs built from familiar nouns or characters, eight other Sino verbs, six 되다 flips and eleven adverbs. M56’s five verbs are earlier vocabulary, available for recycling and contrasts.
 
 **Owners verified — cite exactly these:**
 
-1. **THE 하다 ON NOUNS YOU OWN (8) — one receipt each:** 개방하다 (PAYS
+1. **THE 하다 ON NOUNS YOU OWN (6) — one receipt each:** 개방하다 (PAYS
    M95's 개방 — quote its exact "개방하다 and 개방되다 ride frozen." span;
    시장을 개방하다 (M3's 시장 — verify), 문을 개방하다 (M6's 문)), 이동하다
    (PAYS M81's 이동 — quote its exact "이동하다 is M50's 움직이다 ('The
@@ -33,14 +25,7 @@ eleven adverbs get the ink, because there is no rule that builds them.
    (M14's 건강), 재산을 관리하다 (M43's 재산); the gym and the accountant use
    the same verb), 근거하다 (M86's 근거 + 하다: to be based on — 에 근거하다:
    사실에 근거하다 (M24's 사실); almost always as 근거한/근거하여, the report's
-   participle — say so), 보고하다 (M64's 보고 + 하다: to report upward —
-   결과를 보고하다 (M32's 결과), 부장님께 보고하다 (M58's 부장 — verify); the
-   direction is the point: you 보고하다 UP, never sideways), 논하다 (論 of
-   M44's 논문 ("論文 argument-writing") and M44's 토론 ("討論 strike-argue")
-   and M48's 언론 ("言論 speech-discourse") + 하다: to discuss formally, to
-   treat of — 논할 가치가 없다 (M87's 가치) = not worth discussing; RADAR,
-   mandatory: NOT M102's 논, the paddy field — same syllable, opposite
-   worlds), 자극하다 (M103's 자극 if shipped, else 刺 (to stab) and 戟 (a
+   participle — say so), 자극하다 (M103's 자극 if shipped, else 刺 (to stab) and 戟 (a
    halberd) both firsts + 하다: to stimulate, to provoke — 감정을 자극하다
    (M42's 감정), 식욕을 자극하다 (식욕 frozen)), 청하다 (請 of M64's 신청 ("申
    (state) + 請 (ask to do)") and M64's 요청 ("要 (essential) + 請 (ask)") and
@@ -50,17 +35,10 @@ eleven adverbs get the ink, because there is no rule that builds them.
    요청하다 — M36's 도움)" span, then finish the ladder: 부탁하다 asks a
    favour, 요청하다 files a request, 청하다 is what a narrator writes).
 
-2. **THE NEW SINO VERBS (11):** 실현하다 (實現 — 實 of M34's 확실하다 ("確實
+2. **THE NEW SINO VERBS (8):** 실현하다 (實現 — 實 of M34's 확실하다 ("確實
    firm-real") + 現 of M33's 표현 ("表現 surface-appear"): to realize, to make
    real — 꿈을 실현하다 (M8's 꿈); the noun 실현 is M110's if shipped — say so;
-   vs M35's 이루다, the native twin), 구별하다 (區別 — 區 of M98's 구역 ("區域
-   district-domain") + 別 of M57's 특별: to tell apart — A와 B를 구별하다;
-   sort against M100's 구분 — lookup.py the owner and quote its exact span
-   verbatim (copy the full sentence): 구별 tells two things apart, 구분 sorts
-   a set into groups), 묘사하다 (描寫 — 描 (to sketch, a first) + 寫 of M75's
-   복사 ("複寫 double-write"): to depict, to describe — 인물을 묘사하다 (인물
-   frozen), the novelist's and the witness's verb; vs M24's 설명하다 —
-   설명하다 explains, 묘사하다 paints), 완성하다 (PAYS M108's 완성 if shipped — quote that note; else 完成 — 完 of M39's 완벽하다
+   vs M35's 이루다, the native twin), 완성하다 (PAYS M108's 완성 if shipped — quote that note; else 完成 — 完 of M39's 완벽하다
    ("完璧 complete-jade") and M89's 완전하다 ("完全 complete-whole") + 成 of
    M35's 성공하다 ("成功 achieve-merit"): to complete (a work) — 작품을
    완성하다 (M48's 작품); vs M16's 끝내다 — 끝내다 stops it, 완성하다 finishes
@@ -76,11 +54,7 @@ eleven adverbs get the ink, because there is no rule that builds them.
    suitable-fitting") + 合 of M44's 합격 ("合格 fit-the-frame"): to be
    suitable, to meet the spec (formal) — 에 적합하다; sort all three: M73's
    적당하다 is good enough, M63's 알맞다 fits just right, 적합하다 meets a
-   requirement on paper; POS `adj`), 조절하다 (調節 — 調 of M44's 조사 ("調査
-   tune-examine") + 節 of M37's 예절 ("禮節 courtesy-section") and M75's
-   절약하다 ("節約 section-promise"): to adjust, to regulate — 온도를 조절하다
-   (M49's 온도), 양을 조절하다 (M63's 양 — verify); vs M112's 조정 if shipped
-   — 조절 turns a dial, 조정 renegotiates), 지급하다 (支給 — 支 of M65's 지점
+   requirement on paper; POS `adj`), 지급하다 (支給 — 支 of M65's 지점
    ("支 (support, branch-off)") + 給 of M84's 급 (quote its exact "급 (pay):
    month-pay" span) and M97's 공급 ("供給 offer-give"): to pay out, to issue
    — 월급을 지급하다 (M16's 월급); the institution's verb: M28's 내다 is what
@@ -139,14 +113,9 @@ eleven adverbs get the ink, because there is no rule that builds them.
    then — and NIKL's own example is the warm sign-off: 종종 놀러 오세요 (M?'s
    놀다 — verify) = do drop by sometime).
 
-**Word slice (36):** 개방하다 · 이동하다 · 관리하다 · 근거하다 · 보고하다 ·
-논하다 · 자극하다 · 청하다 · 실현하다 · 구별하다 · 묘사하다 · 완성하다 ·
-선정하다 · 예측하다 · 적합하다 · 조절하다 · 지급하다 · 선언하다 · 탄생하다 ·
-안정되다 · 전달되다 · 보장되다 · 관계되다 · 분리되다 · 완성되다 · 불과 ·
-수없이 · 갈수록 · 막상 · 오로지 · 자연히 · 지극히 · 간혹 · 벌떡 · 재빨리 ·
-종종. (36 — if it runs long, DROP 보고하다 and 완성되다 and say so.) POS:
-verbs `verb`; 적합하다 `adj`; adverbs → `noun`. IDs: w_cheonghada (not
-w_yocheonghada), w_nonhada (not w_non), w_jonjong — check.
+**Word slice (31):** 개방하다 · 이동하다 · 관리하다 · 근거하다 · 자극하다 · 청하다 · 실현하다 · 완성하다 · 선정하다 · 예측하다 · 적합하다 · 지급하다 · 선언하다 · 탄생하다 · 안정되다 · 전달되다 · 보장되다 · 관계되다 · 분리되다 · 완성되다 · 불과 · 수없이 · 갈수록 · 막상 · 오로지 · 자연히 · 지극히 · 간혹 · 벌떡 · 재빨리 · 종종.
+
+Keep the shipped IDs, POS and full notes. No drops.
 
 **Md shape (Band 8 default):** intro (the verb is arithmetic, the adverb
 is not) · How to use · `## Part 1 — Sino verbs IV, and the adverbs of
@@ -165,6 +134,6 @@ Building sentences` (**Spot the recycling**, `::sentences::`, **Gap deck**)
 (concept — the household ritual), 종종 놀러 오세요 (phrase — the sign-off).
 Pick 2–3; grep gap.json.
 
-**Ledger:** all 36 Grade C — `m114\t8\tgloss (C)`. Output files
+**Ledger:** all 31 Grade C — `m114\t8\tgloss (C)`. Output files
 draft-m114.* in the scratchpad; meta.notes lists every slip and verify
 outcome.

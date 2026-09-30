@@ -21,7 +21,7 @@ compounds from Band 4, wearing bylines.
    and cite the party each machine came from.
 2. **The particle frames of officialdom:** ~에 의하면 / ~에 의해서 (의하다 —
    according to / by means of: 뉴스에 의하면; the passive agent of formal
-   prose — verify M36's 한테-agent note for the contrast: 한테 for speech,
+   prose — verify the 한테-agent explanation in M36 note for the contrast: 한테 for speech,
    에 의해 for print) and ~에 관해서 / ~에 관한 (관하다 — concerning: 이
    문제에 관해서; the 관 of 관심/관계 — verify owners). Teach both as
    FRAMES, the way M44 taught -기 위해(서) (verify).
@@ -39,21 +39,21 @@ compounds from Band 4, wearing bylines.
   M34's 마치 (as-if — one syllable of difference, verify) and the register
   ladder vs M8's 끝나다 / M16's 끝내다 (verify both): 끝나다 happens, 끝내다
   you do, 마치다 you announce.
-- 벌이다 — wage/launch (일을 벌이다, 잔치를 벌이다); radar vs M43's 벌다
+- 벌이다 — wage/launch (일을 벌이다, 잔치를 벌이다); radar vs M16's 벌다
   (earn — verify) and the untaught 벌리다 (spread open — one line, frozen,
   don't teach).
 - 나누다 — divide AND share: 나눠 먹다 (Korea's default table verb), 반으로
   나누다, 이야기를 나누다 (conversations are SHARED). 나누어/나눠 forms.
 - 우선 — 于先: first-of-all (adverb) + 우선순위 wink (frozen).
-- 살펴보다 — M16's 보다-compound family (verify how 알아보다/찾아보다/
+- 살펴보다 — the 보다-compound explanation in M16 family (verify how 알아보다/찾아보다/
   둘러보다 M50 shipped): 둘러보다 sweeps a place, 살펴보다 sweeps DETAILS.
-- 받아들이다 — M9's 받다 + M28's 들이다? (verify what owns 들이다 — if
+- 받아들이다 — M9's 받다 + 들다 plus an inward 들이- element? (verify what owns 들이다 — if
   untaught, decode via 들다's enter-sense M28): accept-INTO — criticism,
   culture, and bad news all get 받아들이다-ed.
 - 조사하다 — 調査: investigate; 설문 조사 wink (frozen). 발견하다 — 發見
   (discover: the 발 of 출발? NO — 發 is shoot-forth; verify what M35's
   발전하다 note said about 發 and reuse it). 발생하다 — 發生 (occur —
-  사고가 발생했습니다: the news register of M36's 사고가 났어요, verify —
+  사고가 발생했습니다: the news register of the 사고가 났어요 example in M36, verify —
   a register PAIR with 나다, say so).
 - 이용하다 — 利用: radar vs M10's 사용하다 (verify): 사용 uses a thing,
   이용 uses a service/opportunity (지하철을 이용하다 — every PA announcement);
@@ -77,7 +77,7 @@ compounds from Band 4, wearing bylines.
   self-directed), 완전히 (完全 — M39's 완벽하다 kin, verify), 약간 (若干 —
   the measured 조금, verify 조금 M9).
 
-**Word slice (35 words — rank · word · pos; adverbs tag noun):**
+**Word slice (40 words — rank · word · pos; adverbs tag noun):**
 110 의하다 verb · 301 관하다 verb · 190 갖다 verb · 230 밝히다 verb ·
 304 나누다 verb · 305 이용하다 verb · 500 알려지다 verb · 503 주장하다 verb ·
 555 살펴보다 verb · 588 나타내다 verb · 631 강조하다 verb · 627 벌이다 verb ·
@@ -99,6 +99,12 @@ taught parts, verify 시작/반), 티끌 모아 태산 (dust gathered makes a
 mountain — 티끌/태산 frozen; 모으다 verify), 소 잃고 외양간 고친다 (fix the
 barn after losing the ox — 소 is an untaught pool word, 외양간 frozen; only
 if the note carries both). Max 3, only if they earn it.
+
+
+**Grade-C additions (2026-09-30):** 보고하다 · 논하다 · 구별하다 · 묘사하다 · 조절하다.
+These stable-ID words are part of the 40-word slice, with full notes in
+words.json. Decode using same-or-earlier lessons only. They move from
+M114, where subsequent sentences may reuse them. No garnish.
 
 **Output files:** draft-m56.words.json, draft-m56.sentences.json,
 draft-m56.gap.json, draft-m56.md, draft-m56.meta.json.
