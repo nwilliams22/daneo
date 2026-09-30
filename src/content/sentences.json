@@ -26979,5 +26979,185 @@
     "rom": "gyeongbiga neuldeorado nongsareul gyesokhaeyo",
     "wordIds": ["w_gyeongbi", "w_neulda", "w_nongsa", "w_gyesokhada"],
     "note": "Recycles -더라도 from M95. Rising costs do not stop the work."
+  },
+  {
+    "id": "s_m127_live_late",
+    "en": [
+      { "t": "Busy preparing", "role": "other", "id": "b" },
+      { "t": "the live broadcast,", "role": "object", "id": "a" },
+      { "t": "I worked", "role": "verb", "id": "d" },
+      { "t": "until midnight", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "live-broadcast-[obj]", "role": "object", "id": "a" },
+      { "t": "prepare-because-busy", "role": "other", "id": "b" },
+      { "t": "midnight-until", "role": "other", "id": "c" },
+      { "t": "worked", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "생방송을", "role": "object", "id": "a" },
+      { "t": "준비하느라고", "role": "other", "id": "b" },
+      { "t": "자정까지", "role": "other", "id": "c" },
+      { "t": "일했어요", "role": "verb", "id": "d" }
+    ],
+    "rom": "saengbangsongeul junbihaneurago jajeongkkaji ilhaesseoyo",
+    "wordIds": ["w_saengbangsong", "w_junbihada", "w_jajeong", "w_ilhada"],
+    "note": "-느라고 from M86 gives the time-consuming reason for the late work. 자정까지 marks its endpoint; the live broadcast is being prepared, not watched."
+  },
+  {
+    "id": "s_m127_forum_long",
+    "en": [
+      { "t": "The discussion forum", "role": "subject", "id": "a" },
+      { "t": "really", "role": "other", "id": "b" },
+      { "t": "was long", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "discussion-forum-[subj]", "role": "subject", "id": "a" },
+      { "t": "really", "role": "other", "id": "b" },
+      { "t": "was-long-observed", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "토론회가", "role": "subject", "id": "a" },
+      { "t": "정말", "role": "other", "id": "b" },
+      { "t": "길더라고요", "role": "verb", "id": "c" }
+    ],
+    "rom": "toronhoega jeongmal gildeoragoyo",
+    "wordIds": ["w_toronhoe", "w_jeongmal", "w_gilda"],
+    "note": "-더라고요 from M88 reports the speaker’s own observation. 정말 adds emphasis to that observation."
+  },
+  {
+    "id": "s_m127_gather_clarity",
+    "en": [
+      { "t": "The more I put together", "role": "other", "id": "b" },
+      { "t": "the materials,", "role": "object", "id": "a" },
+      { "t": "the problem", "role": "subject", "id": "c" },
+      { "t": "becomes clearer", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "materials-[obj]", "role": "object", "id": "a" },
+      { "t": "synthesize-the-more", "role": "other", "id": "b" },
+      { "t": "problem-[subj]", "role": "subject", "id": "c" },
+      { "t": "becomes-clear", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "자료를", "role": "object", "id": "a" },
+      { "t": "종합할수록", "role": "other", "id": "b" },
+      { "t": "문제가", "role": "subject", "id": "c" },
+      { "t": "분명해져요", "role": "verb", "id": "d" }
+    ],
+    "rom": "jaryoreul jonghaphalsurok munjega bunmyeonghaejyeoyo",
+    "wordIds": ["w_jaryo", "w_jonghaphada", "w_munje", "w_bunmyeonghada"],
+    "note": "-(으)ㄹ수록 from M89 links increasing synthesis to increasing clarity. -아/어지다 from M35 supplies the change in the final predicate."
+  },
+  {
+    "id": "s_m127_report_script",
+    "en": [
+      { "t": "Based on the reporting results,", "role": "other", "id": "a" },
+      { "t": "I changed", "role": "verb", "id": "c" },
+      { "t": "the screenplay", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "reporting result-according-to", "role": "other", "id": "a" },
+      { "t": "screenplay-[obj]", "role": "object", "id": "b" },
+      { "t": "changed", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "취재 결과에 따라", "role": "other", "id": "a" },
+      { "t": "시나리오를", "role": "object", "id": "b" },
+      { "t": "바꿨어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "chwijae gyeolgwae ttara sinarioreul bakkwosseoyo",
+    "wordIds": ["w_chwijae", "w_gyeolgwa", "w_ttareuda", "w_sinario", "w_bakkuda"],
+    "note": "에 따라 from M90 makes the reporting results the basis for the revision. 취재 gathers material; 시나리오 is the script revised in response."
+  },
+  {
+    "id": "s_m127_pocket_keys",
+    "en": [
+      { "t": "While checking", "role": "other", "id": "b" },
+      { "t": "my pocket,", "role": "object", "id": "a" },
+      { "t": "I found", "role": "verb", "id": "d" },
+      { "t": "the key too", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "pocket-[obj]", "role": "object", "id": "a" },
+      { "t": "check-while-at-it", "role": "other", "id": "b" },
+      { "t": "key-also", "role": "object", "id": "c" },
+      { "t": "found", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "호주머니를", "role": "object", "id": "a" },
+      { "t": "확인하는 김에", "role": "other", "id": "b" },
+      { "t": "열쇠도", "role": "object", "id": "c" },
+      { "t": "찾았어요", "role": "verb", "id": "d" }
+    ],
+    "rom": "hojumeonireul hwaginhaneun gime yeolsoedo chajasseoyo",
+    "wordIds": ["w_hojumeoni", "w_hwaginhada", "w_gim", "w_yeolsoe", "w_chatda"],
+    "note": "-는 김에 from M91 uses one task as the occasion for another result. 도 puts the key among the things found during the pocket check."
+  },
+  {
+    "id": "s_m127_deer_photo",
+    "en": [
+      { "t": "I spotted a deer, so", "role": "other", "id": "a" },
+      { "t": "I took", "role": "verb", "id": "d" },
+      { "t": "a photo", "role": "object", "id": "c" },
+      { "t": "quietly", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "deer-[subj] be-visible-because-observed", "role": "other", "id": "a" },
+      { "t": "unobtrusively", "role": "other", "id": "b" },
+      { "t": "photo-[obj]", "role": "object", "id": "c" },
+      { "t": "took", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "사슴이 보이길래", "role": "other", "id": "a" },
+      { "t": "슬쩍", "role": "other", "id": "b" },
+      { "t": "사진을", "role": "object", "id": "c" },
+      { "t": "찍었어요", "role": "verb", "id": "d" }
+    ],
+    "rom": "saseumi boigillae seuljjeok sajineul jjigeosseoyo",
+    "wordIds": ["w_saseum", "w_boida", "w_seuljjeok", "w_sajin", "w_jjikda"],
+    "note": "-길래 from M93 connects an observed situation to the speaker’s response. 슬쩍 makes the photograph unobtrusive; it does not automatically mean an act of theft."
+  },
+  {
+    "id": "s_m127_stone_stumble",
+    "en": [
+      { "t": "While picking up", "role": "other", "id": "b" },
+      { "t": "a pebble,", "role": "object", "id": "a" },
+      { "t": "I almost fell", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "pebble-[obj]", "role": "object", "id": "a" },
+      { "t": "pick-up-while", "role": "other", "id": "b" },
+      { "t": "fall-almost-did", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "돌멩이를", "role": "object", "id": "a" },
+      { "t": "줍다가", "role": "other", "id": "b" },
+      { "t": "넘어질 뻔했어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "dolmengireul jupdaga neomeojil ppeonhaesseoyo",
+    "wordIds": ["w_dolmengi", "w_jupda", "w_neomeojida", "w_ppeonhada"],
+    "note": "-다가 and -(으)ㄹ 뻔하다 from M94 combine an interrupted action with a near miss. The sentence says the fall almost happened, not that it did."
+  },
+  {
+    "id": "s_m127_poor_dream",
+    "en": [
+      { "t": "Even if you are poor,", "role": "other", "id": "a" },
+      { "t": "do not give up", "role": "verb", "id": "c" },
+      { "t": "your dream", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "be-poor-even-if", "role": "other", "id": "a" },
+      { "t": "dream-[obj]", "role": "object", "id": "b" },
+      { "t": "give-up-do-not", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "가난하더라도", "role": "other", "id": "a" },
+      { "t": "꿈을", "role": "object", "id": "b" },
+      { "t": "포기하지 마세요", "role": "verb", "id": "c" }
+    ],
+    "rom": "gananhadeorado kkumeul pogihaji maseyo",
+    "wordIds": ["w_gananhada", "w_kkum", "w_pogihada"],
+    "note": "-더라도 from M95 preserves the advice despite the condition; -지 마세요 from M14 supplies the request. Today’s noun 가난 is paired here with the already taught adjective 가난하다."
   }
 ]
