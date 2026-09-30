@@ -3106,5 +3106,28 @@
       "s_m133_cool", "s_m133_time", "s_m133_proposal", "s_m133_harmony",
       "s_m133_hat", "s_m133_drink"
     ]
+  },
+  {
+    "id": "m134",
+    "title": "Portraits, Resolve and Helping Hands",
+    "order": 143,
+    "ring": 3,
+    "contentMd": "modules/module-134.md",
+    "wordIds": [
+      "w_chosanghwa", "w_kudeta", "w_teuksuseong", "w_hanggonggi",
+      "w_hwalbalhi", "w_heungmiropda", "w_gago", "w_gaebangdoeda",
+      "w_gyeoja", "w_gyeonggohada", "w_gyeongjehak", "w_gwansimsa",
+      "w_gubyeoldoeda", "w_guksa", "w_guthida", "w_geugan",
+      "w_geureoldeuthada", "w_geukjakga", "w_giulda", "w_gijeok",
+      "w_kkeullida", "w_naebonaeda", "w_dam", "w_dongseo",
+      "w_deuryeonota", "w_ttaseuhada", "w_maltu", "w_myeongnyeongeo",
+      "w_mikkeureojida", "w_byeonsin", "w_buchin", "w_butjaphida",
+      "w_beuraendeu", "w_sasohada", "w_sangkwaehada", "w_songil"
+    ],
+    "sentenceIds": [
+      "s_m134_portrait", "s_m134_playwright", "s_m134_warm", "s_m134_garden",
+      "s_m134_resolve", "s_m134_command", "s_m134_wall", "s_m134_interest",
+      "s_m134_plausible", "s_m134_help"
+    ]
   }
 ]

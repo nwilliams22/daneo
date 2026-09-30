@@ -3382,5 +3382,23 @@
     "lit": "to digest work",
     "real": "to handle a workload",
     "note": "The body processes food; this extension processes work that must be managed. It describes capacity to get through the work, not eating it."
+  },
+  {
+    "id": "g_m134_resolve",
+    "cat": "phrase",
+    "ko": "마음을 굳히다",
+    "rom": "maeumeul guthida",
+    "lit": "to harden the heart/mind",
+    "real": "to make up one’s mind",
+    "note": "The mind becomes firm in its decision. This is resolve, not necessarily emotional coldness or cruelty."
+  },
+  {
+    "id": "g_m134_help",
+    "cat": "concept",
+    "ko": "손길이 필요하다",
+    "rom": "songiri piryohada",
+    "lit": "a hand-path is necessary",
+    "real": "help or care is needed",
+    "note": "손길 can be a literal touch, but here it stands for someone’s assistance or care. Context decides whether physical contact is involved."
   }
 ]
