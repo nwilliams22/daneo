@@ -178,6 +178,10 @@ grammar-verbs 대하다/위하다/통하다 + dependent nouns 데/뿐/가지).
 | M38 | While & As Soon As | -(으)면서 · -자마자 · -는 동안 |
 | M39 | Even If, Only If | -아/어도 · -아/어야 · 밖에+negative |
 
+**M38 count correction (2026-09-30):** 40 checklist words: the original 39
+plus 낮잠 (낮 + 잠, both M28) beside 늦잠 on the daily-rhythm shelf.
+Eight sentences and three gap cards remain.
+
 **M39 count correction (2026-09-30):** 40 checklist words: the original 38
 plus 참을성 and 끈기 on the endurance shelf. Eight sentences and three gap
 cards remain.

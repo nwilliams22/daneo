@@ -24,6 +24,8 @@ And the **매-family** assembles: 매일 (M5), 매주 (M17), **매년**, 매달,
 
 **The -ㅁ factory ships two more:** 걸음 (from ㄷ-irregular 걷다 — the ㄹ survives in the noun) and the off-list but non-negotiable 늦잠. The factory's fingerprints are all over this module.
 
+**Two kinds of sleep:** 늦잠 is a late-sleep (oversleeping); **낮잠** is a daytime-sleep (a nap). M28's 낮 + 잠 assemble the new compound without a new root. The checklist now has **40 words**.
+
 ---
 
 ## Part 3 — The glue: three clocks

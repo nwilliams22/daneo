@@ -13447,6 +13447,15 @@
     "notes": "늦다 (M8) + 잠 (M28): the late-sleep — off the official list, but Monday knows better. 늦잠(을) 자다 = to oversleep: 늦잠 자서 지각했어요 is the excuse this compound was built to deliver. The -ㅁ factory's laziest product, and its most relatable."
   },
   {
+    "id": "w_natjam",
+    "ko": "낮잠",
+    "rom": "natjam",
+    "en": "nap; daytime sleep",
+    "pos": "noun",
+    "moduleId": "m38",
+    "notes": "낮 (daytime, M28) + 잠 (sleep, M28): a daytime-sleep, assembled from two words you already own. 낮잠을 자다 = to take a nap. Compare this module's 늦잠 (late-sleep, oversleeping): 낮잠 names when you sleep; 늦잠 says you slept past the intended waking time."
+  },
+  {
     "id": "w_gigan",
     "ko": "기간",
     "rom": "gigan",
