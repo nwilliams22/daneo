@@ -30077,7 +30077,7 @@
     "id": "s_m138_recovery",
     "en": [
       {
-        "t": "Body temperature returned to normal,",
+        "t": "Body temperature",
         "role": "subject",
         "id": "a"
       },
@@ -30087,7 +30087,7 @@
         "id": "b"
       },
       {
-        "t": "and then the patient felt markedly better.",
+        "t": "the patient felt markedly better.",
         "role": "verb",
         "id": "c"
       }
