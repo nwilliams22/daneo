@@ -7065,22 +7065,25 @@
     "en": [
       { "t": "Before winter,", "role": "other", "id": "t" },
       { "t": "the family", "role": "subject", "id": "s" },
-      { "t": "gathers and makes", "role": "verb", "id": "v" },
+      { "t": "gathers and", "role": "verb", "id": "v1" },
+      { "t": "makes", "role": "verb", "id": "v" },
       { "t": "kimchi", "role": "object", "id": "o" }
     ],
     "gloss": [
       { "t": "winter before", "role": "other", "id": "t" },
       { "t": "family-[subj]", "role": "subject", "id": "s" },
+      { "t": "gather-and", "role": "verb", "id": "v1" },
       { "t": "kimchi-[obj]", "role": "object", "id": "o" },
-      { "t": "gather-and make", "role": "verb", "id": "v" }
+      { "t": "make", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "겨울 전에", "role": "other", "id": "t" },
       { "t": "가족이", "role": "subject", "id": "s" },
+      { "t": "모여서", "role": "verb", "id": "v1" },
       { "t": "김치를", "role": "object", "id": "o" },
-      { "t": "모여서 만들어요", "role": "verb", "id": "v" }
+      { "t": "만들어요", "role": "verb", "id": "v" }
     ],
-    "rom": "gyeoul jeone gajogi gimchireul moyeoseo mandeureoyo",
+    "rom": "gyeoul jeone gajogi moyeoseo gimchireul mandeureoyo",
     "wordIds": ["w_gyeoul", "w_gajok", "w_gimchi", "w_moida", "w_mandeulda"],
     "note": "김장 season, in sentence form: M13's 전에, M25's 모이다 linked by M10's -아서, M3's 김치 and 만들다. UNESCO lists the gathering itself as heritage — the point was never just the cabbage."
   },
