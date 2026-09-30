@@ -1,3 +1,6 @@
+import module150Md from "./modules/module-150.md?raw";
+import module149Md from "./modules/module-149.md?raw";
+import module148Md from "./modules/module-148.md?raw";
 import module147Md from "./modules/module-147.md?raw";
 import module146Md from "./modules/module-146.md?raw";
 import module145Md from "./modules/module-145.md?raw";
@@ -348,6 +351,9 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-145.md": module145Md,
   "modules/module-146.md": module146Md,
   "modules/module-147.md": module147Md,
+  "modules/module-148.md": module148Md,
+  "modules/module-149.md": module149Md,
+  "modules/module-150.md": module150Md,
   "modules/module-143.md": module143Md,
   "modules/module-142.md": module142Md,
   "modules/module-76.md": module76Md,

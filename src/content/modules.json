@@ -3530,5 +3530,74 @@
       "s_m147_host", "s_m147_warm", "s_m147_disc", "s_m147_doubt",
       "s_m147_circle", "s_m147_meeting"
     ]
+  },
+  {
+    "id": "m148",
+    "title": "Movement, Household and the Weather",
+    "order": 157,
+    "ring": 2,
+    "contentMd": "modules/module-148.md",
+    "wordIds": [
+      "w_unban", "w_jangmonim", "w_jeoul", "w_jipye",
+      "w_jinsillo", "w_chotbul", "w_chultoegeun", "w_tongyeok",
+      "w_ha", "w_hande", "w_honjanmal", "w_hyodohada",
+      "w_himeopsi", "w_geonneonbang", "w_gojieo", "w_goengjanghada",
+      "w_gieobin", "w_ginjangdoeda", "w_kkaekkeuthaejida", "w_naksitdae",
+      "w_naenmul", "w_dangol", "w_deoreowojida", "w_deuda",
+      "w_donggeurata", "w_ttwieonaoda", "w_rejeo", "w_roteori",
+      "w_mudeopda", "w_mwol", "w_bandaepyeon", "w_balbadak",
+      "w_baltop", "w_balgajida", "w_bunmyeonghaejida", "w_sangil"
+    ],
+    "sentenceIds": [
+      "s_m148_path", "s_m148_scale", "s_m148_commute", "s_m148_host",
+      "s_m148_regular", "s_m148_rod", "s_m148_room", "s_m148_humid",
+      "s_m148_banknote", "s_m148_daylight"
+    ]
+  },
+  {
+    "id": "m149",
+    "title": "Care, Change and Days of Learning",
+    "order": 158,
+    "ring": 2,
+    "contentMd": "modules/module-149.md",
+    "wordIds": [
+      "w_simgakhaejida", "w_ssak", "w_ssitgida", "w_ansimhada",
+      "w_yaksu", "w_yakpum", "w_yangyeop", "w_eojjeom",
+      "w_yeowang", "w_yeongidoeda", "w_ollatada", "w_idaeum",
+      "w_japsuda", "w_jangsakkun", "w_juil", "w_jipjunghada",
+      "w_jjajeungseureopda", "w_cheonjae", "w_choyeoreum", "w_chojeonyeok",
+      "w_chungdolhada", "w_pigon", "w_hakbi", "w_hyoja",
+      "w_gamsodoeda", "w_gangbyeon", "w_gongyeondoeda", "w_goerowohada",
+      "w_gyosi", "w_geuriro", "w_kkameokda", "w_kkangpae",
+      "w_naksikkun", "w_dayanghaejida", "w_deungnokhada", "w_ttwinolda"
+    ],
+    "sentenceIds": [
+      "s_m149_spring", "s_m149_children", "s_m149_angler", "s_m149_postpone",
+      "s_m149_rainwash", "s_m149_fees", "s_m149_period", "s_m149_focus",
+      "s_m149_queen", "s_m149_plan"
+    ]
+  },
+  {
+    "id": "m150",
+    "title": "Private Lives and Public Rituals",
+    "order": 159,
+    "ring": 2,
+    "contentMd": "modules/module-150.md",
+    "wordIds": [
+      "w_raket", "w_riteo", "w_mayonejeu", "w_manse",
+      "w_manhwaga", "w_mamdaero", "w_meorimal", "w_momsok",
+      "w_muchaegimhada", "w_banjjakgeorida", "w_bamsaeuda", "w_sarip",
+      "w_sasaenghwal", "w_saisai", "w_saenghwalsujun", "w_seotulda",
+      "w_seoksa", "w_seongdang", "w_songmaeum", "w_sonjapda",
+      "w_sungnyeo", "w_sunhada", "w_sidaek", "w_sinchejeok",
+      "w_sseunmat", "w_yaong", "w_eolmagan", "w_oryeoreum",
+      "w_oeje", "w_yokhada", "w_eumban", "w_uinon",
+      "w_iraeseo", "w_jasalhada", "w_jayeonjeok", "w_jangnyesik"
+    ],
+    "sentenceIds": [
+      "s_m150_school", "s_m150_record", "s_m150_water", "s_m150_funeral",
+      "s_m150_preface", "s_m150_summer", "s_m150_cartoonist", "s_m150_cat",
+      "s_m150_level", "s_m150_family"
+    ]
   }
 ]

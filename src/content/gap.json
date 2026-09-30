@@ -3634,5 +3634,59 @@
     "lit": "the whole entire day",
     "real": "All day long.",
     "note": "온- strengthens the already whole-day meaning of 종일. English normally keeps a single all day and may add long to preserve the emphasis."
+  },
+  {
+    "id": "g_m148_feet",
+    "cat": "phrase",
+    "ko": "발바닥에 불이 나다",
+    "rom": "balbadage buri nada",
+    "lit": "a fire breaks out on the soles",
+    "real": "To be rushed off one's feet.",
+    "note": "The fire is figurative: repeated running and work leave the feet feeling hot."
+  },
+  {
+    "id": "g_m148_modesty",
+    "cat": "phrase",
+    "ko": "뭘요",
+    "rom": "mworyo",
+    "lit": "what, really",
+    "real": "Oh, it was nothing.",
+    "note": "A modest reply to praise or thanks. This is the interjection use of 뭘, not a literal object question."
+  },
+  {
+    "id": "g_m149_forget",
+    "cat": "phrase",
+    "ko": "까먹다",
+    "rom": "kkameokda",
+    "lit": "peel and eat",
+    "real": "To forget something (colloquial).",
+    "note": "A playful lexical gap: context decides between the older food sense and the common forgetful one."
+  },
+  {
+    "id": "g_m149_surprise",
+    "cat": "phrase",
+    "ko": "어쩜 좋아",
+    "rom": "eojjeom joa",
+    "lit": "how, good",
+    "real": "Oh no, what should we do?",
+    "note": "The exclamation voices surprise or worry; 좋아 is not simple approval here."
+  },
+  {
+    "id": "g_m150_join",
+    "cat": "phrase",
+    "ko": "손잡다",
+    "rom": "sonjapda",
+    "lit": "hold hands",
+    "real": "To join forces; cooperate.",
+    "note": "The same physical image can describe two sides working together."
+  },
+  {
+    "id": "g_m150_bitter",
+    "cat": "phrase",
+    "ko": "쓴맛을 보다",
+    "rom": "sseunmaseul boda",
+    "lit": "see a bitter taste",
+    "real": "To suffer a setback; learn a hard lesson.",
+    "note": "보다 means experience here, beyond literal tasting."
   }
 ]
