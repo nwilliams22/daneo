@@ -3656,5 +3656,62 @@
       "s_m151_debate",
       "s_m151_contents"
     ]
-  }
+  },
+{
+  "id": "m152",
+  "title": "Repairs, Seasons and Working Lives",
+  "order": 161,
+  "ring": 2,
+  "contentMd": "modules/module-152.md",
+  "wordIds": [
+    "w_mugwansimhada",
+    "w_musahada",
+    "w_beonyeokhada",
+    "w_byeongari",
+    "w_bupi",
+    "w_bigida",
+    "w_saenghwaryongpum",
+    "w_seksihada",
+    "w_sobihada",
+    "w_surihada",
+    "w_singnyopum",
+    "w_sikhida",
+    "w_eollida",
+    "w_olgaeul",
+    "w_waisyeocheu",
+    "w_witsaram",
+    "w_imin",
+    "w_ipsahada",
+    "w_jeonsidoeda",
+    "w_jollida",
+    "w_joreum",
+    "w_jineung",
+    "w_jjeoljjeolmaeda",
+    "w_chugadoeda",
+    "w_chiryobeop",
+    "w_keunadeul",
+    "w_pureojida",
+    "w_hangyeoul",
+    "w_hanpyeongsaeng",
+    "w_haesuyokjang",
+    "w_heoheo",
+    "w_heuryeojida",
+    "w_huimanghada",
+    "w_himdeureohada",
+    "w_ganguihada",
+    "w_gongyeonhada"
+  ],
+  "sentenceIds": [
+    "s_m152_repair",
+    "s_m152_cool",
+    "s_m152_exhibit",
+    "s_m152_shirt",
+    "s_m152_winter",
+    "s_m152_son",
+    "s_m152_lecture",
+    "s_m152_cloud",
+    "s_m152_translation",
+    "s_m152_tie"
+  ]
+}
 ]

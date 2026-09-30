@@ -3706,5 +3706,7 @@
     "lit": "hear a request for someone",
     "real": "To grant someone’s request.",
     "note": "Supportive listening extends to doing what was asked. Hearing the words alone does not fulfill this phrase."
-  }
+  },
+  {"id": "g_m152_shirt", "cat": "concept", "ko": "와이셔츠", "rom": "waisyeocheu", "lit": "white shirt", "real": "A dress shirt, including one that is not white.", "note": "The borrowed expression settled into a clothing category; the source color is no longer a restriction."},
+  {"id": "g_m152_son", "cat": "concept", "ko": "큰아들", "rom": "keunadeul", "lit": "big son", "real": "The eldest son.", "note": "큰 marks family order in this compound, not body size. A younger son can be taller and still not be the 큰아들."}
 ]
