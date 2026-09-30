@@ -10,11 +10,12 @@ Ring 1 built you a consumption habit — 책 (M1), 영화 (M2), 신문 (M8), the
 
 M45 taught you to think in factories; this shelf runs its own:
 
-- **The -가 (家) maker-suffix:** 家 is the house hanja — the one inside 가족 (M4) — and hung on a field it means the person so practiced they LIVE there: 작가, 소설가, 화가, 음악가, 예술가 — one suffix, five careers. Radar before it bites: 가수 (M4) wears song-歌, a different 가 entirely.
+- **The -가 (家) maker-suffix:** 家 is the house hanja — the one inside 가족 (M4) — and hung on a field it means the person so practiced they LIVE there: 작가, 소설가, 화가, 음악가, 예술가 — one suffix, five careers. 작사가 writes a song's words; 작곡가 writes its music. Same house, different desks. Radar before it bites: 가수 (M4) wears song-歌, a different 가 entirely.
 - **The person-suffixes keep paying:** M43's 소비자 taught the person-者 — today it files 저자, 시청자, and garnish 독자; M23's 외국인 anchors 시인; and 관객 is 관광객 (M23) minus the 광: the guest, reseated.
 - **The audience sorts by medium:** 관객 fills seats, 시청자 fills living rooms, 독자 turns pages — three words English flattens into 'audience.'
 - **The writers sort by register:** 작가 is the career, 소설가 the genre specialist, 저자 the colophon entry, 시인 the one the subway doors quote — four job titles, one desk.
 - **The apparatus decodes too:** -가 houses a skill, but -국 (약국 M6, 우체국 M27) houses an institution — 방송국 is M32's 방송 given a bureau.
+- **From draft to audience:** 극본 is the script before a 배우 receives a 배역; 촬영 gathers the scenes and 편집 chooses their order. A 웹툰 or magazine story can appear in 연재, one installment at a time. A 독자 may answer a finished book with a 독후감 — reading followed by a written response.
 
 ---
 

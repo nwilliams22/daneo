@@ -82,6 +82,13 @@ neither prediction nor plan-tense; it's a commitment on record. ≥2 glue senten
 1284 장면 noun (C)
 (+ 잡지 as the grade-A debt entry, no ledger row.)
 
+**Count correction (2026-09-30):** The shipped module also teaches 독자 and
+웹툰. Seven thematic words now bring its checklist to 40: 극본, 배역,
+작사가, 작곡가, 독후감, 연재, 편집. They are outside the original ranked
+slice and have no ledger rows. The lesson connects the script and casting
+pair, the songwriting pair, and the path from serial publication through
+editing to a reader's written response.
+
 **Gap-deck candidates if genuine:** 책벌레 (bookworm — verify 벌레 taught),
 본방 사수 (defending the live broadcast — fandom culture, very alive),
 소설 쓰지 마 (stop writing a novel = stop making things up — uses M14's -지 마

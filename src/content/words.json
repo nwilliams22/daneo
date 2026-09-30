@@ -16562,6 +16562,69 @@
     "notes": "讀者 read-person: 독서's (M17) read-讀 + person-者. The audience trio completes by medium: 관객 fills seats, 시청자 fills living rooms, 독자 turns pages. 독자 여러분 opens every author's letter; 애독자 = a devoted reader. The quietest audience — and the only one a 작가 never gets to watch."
   },
   {
+    "id": "w_geukbon",
+    "ko": "극본",
+    "rom": "geukbon",
+    "en": "script, screenplay",
+    "pos": "noun",
+    "moduleId": "m48",
+    "notes": "劇本 drama-root: the written script for a play, film or television drama. M17's 드라마 is what the audience sees; 극본 is the document the actors receive first. 소설 tells its story in prose, while 극본 lays out scenes and dialogue for performance."
+  },
+  {
+    "id": "w_baeyeok",
+    "ko": "배역",
+    "rom": "baeyeok",
+    "en": "role (assigned to an actor)",
+    "pos": "noun",
+    "moduleId": "m48",
+    "notes": "配役 assigned-role: the part a 배우 plays, not the actor as a person. 주인공 is a character's place in the story; 배역 is the casting assignment. 배역을 맡다 means to take a role."
+  },
+  {
+    "id": "w_jaksaga",
+    "ko": "작사가",
+    "rom": "jaksaga",
+    "en": "lyricist",
+    "pos": "noun",
+    "moduleId": "m48",
+    "notes": "作詞家 make-words-house: 작가's make-作 and house-家 surround 詞, the words written for a song. A 작사가 writes the lyrics; a 가수 (M4) sings them. Compare 작곡가, who makes the music."
+  },
+  {
+    "id": "w_jakgokga",
+    "ko": "작곡가",
+    "rom": "jakgokga",
+    "en": "composer",
+    "pos": "noun",
+    "moduleId": "m48",
+    "notes": "作曲家 make-tune-house: the same 作 and 家 as 작사가, with 曲 for a musical piece. The 작곡가 writes the music, the 작사가 writes its words, and the 가수 (M4) performs it. 음악가 is the broad profession; 작곡가 names the composing job."
+  },
+  {
+    "id": "w_dokhugam",
+    "ko": "독후감",
+    "rom": "dokhugam",
+    "en": "written response to a book, book report",
+    "pos": "noun",
+    "moduleId": "m48",
+    "notes": "讀後感 read-after-feeling: 독서's (M17) read-讀 + 후's (M46) after-後 + 감정's (M42) feeling-感. At school, 독후감을 쓰다 means writing what you thought after reading; it is your response, not a retelling of the whole 소설."
+  },
+  {
+    "id": "w_yeonjae",
+    "ko": "연재",
+    "rom": "yeonjae",
+    "en": "serialization (of a story or comic)",
+    "pos": "noun",
+    "moduleId": "m48",
+    "notes": "連載 linked-installments: a story published piece by piece in a 잡지, newspaper or 웹툰 service. 연재하다 is to serialize it; 연재 중 means new installments are still appearing. A complete 작품 can begin life one episode at a time."
+  },
+  {
+    "id": "w_pyeonjip",
+    "ko": "편집",
+    "rom": "pyeonjip",
+    "en": "editing",
+    "pos": "noun",
+    "moduleId": "m48",
+    "notes": "編輯 arrange-collect: editing a manuscript, article or filmed material into a finished piece. 촬영 gathers scenes; 편집 chooses their order. 편집하다 is the action, and 편집자 is the person-者 who does it for a book or magazine."
+  },
+  {
     "id": "w_abeonim",
     "ko": "아버님",
     "rom": "abeonim",

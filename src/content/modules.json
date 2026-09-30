@@ -1197,7 +1197,8 @@
       "w_weptun", "w_bangsongguk", "w_chaeneol", "w_chwaryeong",
       "w_nogeum", "w_gongyeon", "w_gisa", "w_eollon",
       "w_tongsin", "w_daejung", "w_gwangaek", "w_sicheongja",
-      "w_dokja"
+      "w_dokja", "w_geukbon", "w_baeyeok", "w_jaksaga", "w_jakgokga",
+      "w_dokhugam", "w_yeonjae", "w_pyeonjip"
     ],
     "sentenceIds": [
       "s_m48_diary_resolve", "s_m48_show_promise", "s_m48_novelist_reporter", "s_m48_famous_painter",

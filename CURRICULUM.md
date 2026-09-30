@@ -203,6 +203,12 @@ plus seven grade-C time words moved forward from M133 (생, 소요되다, 야간
 장기간) and M141 (한가하다, 그사이, 지금껏). M133 retains 32 words and M141
 33, both within the Ring 3 30–38 contract. Word IDs and corpus coverage are unchanged.
 
+**M48 count correction (2026-09-30):** 40 checklist words: the original 33
+plus seven media and book terms (극본, 배역, 작사가, 작곡가, 독후감, 연재,
+편집). Each has a full word record and a cross-reference in the lesson.
+These are thematic additions outside the original ranked slice; the slice
+ledger remains unchanged. Eight sentences and three gap cards remain.
+
 ### Band 6 — the long tail (~10 packs)
 
 Whatever resists theming, sliced by frequency rank with root-flavored
