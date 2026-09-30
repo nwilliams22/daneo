@@ -10,7 +10,7 @@ time-since shelf (이전/이후/시절/지난번/지난해/이날/첫날/년대/
 한동안/당분간/무렵) — you are filling the corners they left, never
 re-teaching them.
 
-**Theme:** 26 time words, almost all of them WELDS of parts the
+**Theme:** 30 time words, almost all of them WELDS of parts the
 learner owns — the native day-count family closes (나흘/닷새), the
 날-welds and 그-welds arrive (이튿날/전날/그다음/그해/어젯밤), the year
 ladder gets its ends (재작년/금년), the clock gets its soft spots
@@ -204,23 +204,26 @@ print.
      more serious: 만일의 경우 (M32's 경우 "News-speak's favorite if:
      비가 올 경우") = in case of emergency — the sign phrase 만일의
      경우에 대비하여 (대비 frozen). M24's 혹시 ("Also 'just in case': 혹시 몰라서") is the spoken softener. Teach it
-     LAST; rom manil.
+     last among the original slice; rom manil.
 
-**Word slice (26):**
+**Word slice (30):**
 나흘 · 닷새 · 전날 · 이튿날 · 그다음 · 그해 · 어젯밤 · 재작년 · 금년 ·
 저번 · 오래전 · 수년 · 점심때 · 저녁때 · 밤중 · 밤낮 · 여름철 · 겨울철 ·
-사계절 · 무더위 · 일상생활 · 규칙적 · 스케줄 · 임시 · 본래 · 만일
+사계절 · 무더위 · 일상생활 · 규칙적 · 스케줄 · 임시 · 본래 · 만일 · 이다음 · 주일 · 초여름 · 초저녁
 
 Ids: w_naheul, w_datsae, w_jeonnal, w_iteunnal, w_geudaeum, w_geuhae,
 w_eojetbam, w_jaejangnyeon, w_geumnyeon, w_jeobeon, w_oraejeon,
 w_sunyeon, w_jeomsimttae, w_jeonyeokttae, w_bamjung, w_bamnat,
 w_yeoreumcheol, w_gyeoulcheol, w_sagyejeol, w_mudeowi,
 w_ilsangsaenghwal, w_gyuchikjeok, w_seukejul, w_imsi, w_bollae,
-w_manil — grep each for collisions.
+w_manil, w_idaeum, w_juil, w_choyeoreum, w_chojeonyeok — grep each for collisions.
+
+**Ownership correction (2026-09-30):** The last four words moved from M149 to meet the 30-word minimum. M149 retains 32 words; its existing sentences may reuse these earlier words.
 
 **Teaching order:** as listed above — 흘-family (2) → 날/그-welds +
 어젯밤 (5) → year ladder and pointers (5) → clock (4) → seasons (4) →
-schedule words (6, 만일 last).
+schedule words (6, 만일 last in the original slice) → the four moved
+calendar words.
 
 **Sentences:** 8; ≥1 storytelling sentence with 이튿날 or 그다음 (the
 quoting machine from M32, or -자마자 from M38); ≥1 seasonal/forecast

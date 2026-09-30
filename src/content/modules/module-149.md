@@ -14,7 +14,7 @@ A class ends, a performance moves to a new date, and family members respond to c
 
 ## Part 2 — People and periods
 
-장사꾼 and 낚시꾼 both use -꾼 for a person associated with an activity. 교시 counts a school period; 초저녁 and 초여름 locate the early part of a day or season. 학비 names the money needed for study.
+장사꾼 and 낚시꾼 both use -꾼 for a person associated with an activity. 교시 counts a school period; 초저녁 and 초여름 from M77 locate the early part of a day or season. 학비 names the money needed for study.
 
 ::vocab::
 
@@ -39,7 +39,7 @@ No new glue. The sentence frames are familiar; the new work is choosing the prec
 3. Let a 공연 be postponed, then show a person's response.
 4. Count a 교시 and place play immediately afterward.
 5. Describe rain washing a car with 씻기다.
-6. Use 초여름 and 초저녁 in two different time frames.
+6. Reuse M77's 초여름 and 초저녁 in two different time frames.
 7. Return to M148's 촛불 in a safe sequence.
 8. Explain both senses of 까먹다 using context.
 

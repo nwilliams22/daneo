@@ -225,6 +225,12 @@ ledger remains unchanged. Eight sentences and three gap cards remain.
 Whatever resists theming, sliced by frequency rank with root-flavored
 grouping where S3's tables apply. Garnish-free; notes still required.
 
+**M77 count correction (2026-09-30):** Moved four existing grade-C calendar
+words (이다음, 주일, 초여름, 초저녁) from M149 into M77. M77 now has 30
+checklist words and M149 retains 32, both within the 30–38 contract.
+The source IDs and overall NIKL coverage are unchanged; M149 sentences may
+reuse the words as earlier vocabulary.
+
 ### Ring 2 glue checklist (~40 patterns)
 
 Quoting -다고/-라고/-냐고/-자고/-달라고 · indirect -는지 · **-는데/-(으)ㄴ데**

@@ -1623,6 +1623,10 @@ word	module	band	note
 임시	m77	6	temporary
 본래	m77	6	originally
 만일	m77	6	if-by-chance
+이다음	m77	6	the-next-time (C, moved from M149)
+주일	m77	6	week-span (C, moved from M149)
+초여름	m77	6	early-summer (C, moved from M149)
+초저녁	m77	6	early-evening (C, moved from M149)
 이모	m78	6	maternal-aunt
 사촌	m78	6	cousin
 형부	m78	6	sister's-husband

@@ -1,6 +1,6 @@
 # Korean, Word-First — Module 77: The Calendar's Corners
 
-M38 built the moment-words (순간, 새벽, 아까, 방금); M46 built the time-since shelf (이전, 이후, 시절, 지난해, 한때, 무렵). This module fills the corners they left: the native day-count closes (나흘, 닷새), the 날-welds and 그-welds arrive (전날, 이튿날, 그다음, 그해, 어젯밤), the year ladder gets both ends (재작년, 금년), the clock gets its soft spots (점심때, 저녁때, 밤중, 밤낮), the seasons become periods (여름철, 겨울철, 사계절, 무더위), and six schedule words close the shelf (일상생활, 규칙적, 스케줄, 임시, 본래, 만일). Twenty-six words, almost every one a weld of parts you already own. The organizing thesis: **Korean tells time by welding — a pointer or a span onto a day, a night, a year — and the welds obey sound rules you already hold.** No new grammar; a lot of new calendar.
+M38 built the moment-words (순간, 새벽, 아까, 방금); M46 built the time-since shelf (이전, 이후, 시절, 지난해, 한때, 무렵). This module fills the corners they left: the native day-count closes (나흘, 닷새), the 날-welds and 그-welds arrive (전날, 이튿날, 그다음, 그해, 어젯밤), the year ladder gets both ends (재작년, 금년), the clock gets its soft spots (점심때, 저녁때, 밤중, 밤낮, 초저녁), the seasons become periods (여름철, 겨울철, 초여름, 사계절, 무더위), and the calendar gains 이다음 and 주일 alongside six schedule words (일상생활, 규칙적, 스케줄, 임시, 본래, 만일). Thirty words, almost every one a weld of parts you already own. The organizing thesis: **Korean tells time by welding — a pointer or a span onto a day, a night, a year — and the welds obey sound rules you already hold.** No new grammar; a lot of new calendar.
 
 **How to use this:** read each decode once and the word is half-memorized — 그 + 해, 어제 + ㅅ + 밤, 물 + 더위. Spend your reps on the register pairs instead: 저번 / 지난번, 금년 / 올해, 이튿날 / 다음 날, 어젯밤 / 어제 저녁. One meaning, two dress codes — speak the spoken one, read the news with the other.
 
@@ -15,6 +15,7 @@ This shelf is mostly debts coming due:
 - **The year ladder gets both ends:** 재작년 → 작년 (M25) → 올해 (M25) / 금년 → 내년 (M25). M25's 올해 note said 'no Sino version needed' — 금년 is that version, and it lives on tax forms.
 - **Seasons become periods:** M49's 철 was the market's season-word (딸기 철); welded onto M11's 여름 and 겨울 it becomes a period with rules — 여름철 건강, 겨울철 난방. And M11's 계절 note gets its receipt: 'Korea is proudly a land of 사계절 — four distinct seasons'.
 - **Two IOUs from Band 4 clear:** M38's 일상 note wrote '일상생활 = daily life (M29's 생활 welded on)', and M39's 규칙 note promised '규칙적인 생활 = a regular routine (the -적 suffix Ring 2 owes you, previewing itself)'. Both words land today, the second through the -적 factory from M45.
+- **The first edge of a span:** 초 (初) marks the start in 초여름 (early summer) and 초저녁 (early evening), beside 여름철 and 저녁때. 이다음 points to what comes next; contrast 그다음, which follows something already named. 주일 counts a week as a span, beside the day-count words. These four words were originally placed in M149 and are now learned here.
 
 ---
 

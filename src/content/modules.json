@@ -1863,7 +1863,8 @@
       "w_jeomsimttae", "w_jeonyeokttae", "w_bamjung", "w_bamnat",
       "w_yeoreumcheol", "w_gyeoulcheol", "w_sagyejeol", "w_mudeowi",
       "w_ilsangsaenghwal", "w_gyuchikjeok", "w_seukejul", "w_imsi",
-      "w_bollae", "w_manil"
+      "w_bollae", "w_manil", "w_idaeum", "w_juil",
+      "w_choyeoreum", "w_chojeonyeok"
     ],
     "sentenceIds": [
       "s_m77_next_morning_letter", "s_m77_jeju_four_days", "s_m77_heat_forecast", "s_m77_schedule_change",
@@ -3566,9 +3567,9 @@
     "wordIds": [
       "w_simgakhaejida", "w_ssak", "w_ssitgida", "w_ansimhada",
       "w_yaksu", "w_yakpum", "w_yangyeop", "w_eojjeom",
-      "w_yeowang", "w_yeongidoeda", "w_ollatada", "w_idaeum",
-      "w_japsuda", "w_jangsakkun", "w_juil", "w_jipjunghada",
-      "w_jjajeungseureopda", "w_cheonjae", "w_choyeoreum", "w_chojeonyeok",
+      "w_yeowang", "w_yeongidoeda", "w_ollatada",
+      "w_japsuda", "w_jangsakkun", "w_jipjunghada",
+      "w_jjajeungseureopda", "w_cheonjae",
       "w_chungdolhada", "w_pigon", "w_hakbi", "w_hyoja",
       "w_gamsodoeda", "w_gangbyeon", "w_gongyeondoeda", "w_goerowohada",
       "w_gyosi", "w_geuriro", "w_kkameokda", "w_kkangpae",
