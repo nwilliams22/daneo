@@ -129,6 +129,7 @@ import module122Md from "./modules/module-122.md?raw";
 import module123Md from "./modules/module-123.md?raw";
 import module124Md from "./modules/module-124.md?raw";
 import module125Md from "./modules/module-125.md?raw";
+import module129Md from "./modules/module-129.md?raw";
 import module128Md from "./modules/module-128.md?raw";
 import module127Md from "./modules/module-127.md?raw";
 import module126Md from "./modules/module-126.md?raw";
@@ -312,6 +313,7 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-126.md": module126Md,
   "modules/module-127.md": module127Md,
   "modules/module-128.md": module128Md,
+  "modules/module-129.md": module129Md,
   "modules/module-76.md": module76Md,
   "modules/module-junmal.md": moduleJunmalMd,
   "modules/module-konglish.md": moduleKonglishMd,

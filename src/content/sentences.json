@@ -27336,5 +27336,182 @@
     "rom": "hyeongsikjeogideorado dapbyeoneul ppaenochi maseyo",
     "wordIds": ["w_hyeongsikjeok", "w_dapbyeon", "w_ppaenota"],
     "note": "-더라도 from M95 concedes that the response may be perfunctory while keeping the request intact. 빼놓다 is omission here, not deliberately saving something for later."
+  },
+  {
+    "id": "s_m129_engine_check",
+    "en": [
+      { "t": "Because of an engine check,", "role": "other", "id": "a" },
+      { "t": "the service", "role": "subject", "id": "b" },
+      { "t": "was delayed", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "engine inspection-due-to", "role": "other", "id": "a" },
+      { "t": "service-[subj]", "role": "subject", "id": "b" },
+      { "t": "became-late", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "엔진 점검으로 인해", "role": "other", "id": "a" },
+      { "t": "운행이", "role": "subject", "id": "b" },
+      { "t": "늦어졌어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "enjin jeomgeomeuro inhae unhaengi neujeojyeosseoyo",
+    "wordIds": ["w_enjin", "w_jeomgeom", "w_inhada", "w_unhaeng", "w_neutda"],
+    "note": "-(으)로 인해 from M86 gives the stated cause. 점검 is an inspection; the sentence does not claim an engine repair took place."
+  },
+  {
+    "id": "s_m129_melon_mood",
+    "en": [
+      { "t": "After I ate", "role": "other", "id": "b" },
+      { "t": "some Korean melon,", "role": "object", "id": "a" },
+      { "t": "my mood", "role": "subject", "id": "c" },
+      { "t": "improved", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "Korean-melon-[obj]", "role": "object", "id": "a" },
+      { "t": "ate-then-observed", "role": "other", "id": "b" },
+      { "t": "mood-[subj]", "role": "subject", "id": "c" },
+      { "t": "became-good", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "참외를", "role": "object", "id": "a" },
+      { "t": "먹었더니", "role": "other", "id": "b" },
+      { "t": "기분이", "role": "subject", "id": "c" },
+      { "t": "좋아졌어요", "role": "verb", "id": "d" }
+    ],
+    "rom": "chamoereul meogeotdeoni gibuni joajyeosseoyo",
+    "wordIds": ["w_chamoe", "w_meokda", "w_gibun", "w_jota"],
+    "note": "-았/었더니 from M88 connects the speaker’s completed action to the result they noticed. -아/어지다 from M35 makes the improvement a change of state."
+  },
+  {
+    "id": "s_m129_experience_real",
+    "en": [
+      { "t": "The more I experience", "role": "other", "id": "b" },
+      { "t": "each thing firsthand,", "role": "other", "id": "a" },
+      { "t": "the sense of reality", "role": "subject", "id": "c" },
+      { "t": "grows stronger", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "one-by-one", "role": "other", "id": "a" },
+      { "t": "experience-the-more", "role": "other", "id": "b" },
+      { "t": "sense-of-reality-[subj]", "role": "subject", "id": "c" },
+      { "t": "arises", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "하나하나", "role": "other", "id": "a" },
+      { "t": "체험할수록", "role": "other", "id": "b" },
+      { "t": "실감이", "role": "subject", "id": "c" },
+      { "t": "나요", "role": "verb", "id": "d" }
+    ],
+    "rom": "hanahana cheheomhalsurok silgami nayo",
+    "wordIds": ["w_hanahana", "w_cheheomhada", "w_silgam", "w_nada"],
+    "note": "-(으)ㄹ수록 from M89 links growing experience to a stronger sense of reality. 실감이 나다 is the natural Korean frame; English simply says it feels real."
+  },
+  {
+    "id": "s_m129_degree_rules",
+    "en": [
+      { "t": "Under the school’s regulations,", "role": "other", "id": "a" },
+      { "t": "I received", "role": "verb", "id": "c" },
+      { "t": "a degree", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "school regulation-according-to", "role": "other", "id": "a" },
+      { "t": "degree-[obj]", "role": "object", "id": "b" },
+      { "t": "received", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "학교 규정에 따라", "role": "other", "id": "a" },
+      { "t": "학위를", "role": "object", "id": "b" },
+      { "t": "받았어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "hakgyo gyujeonge ttara hagwireul badasseoyo",
+    "wordIds": ["w_hakgyo", "w_gyujeong", "w_ttareuda", "w_hagwi", "w_batda"],
+    "note": "에 따라 from M90 identifies the governing rules. 학위 is the awarded qualification; the sentence does not equate it with every period of study."
+  },
+  {
+    "id": "s_m129_handover_printer",
+    "en": [
+      { "t": "While handing over", "role": "other", "id": "b" },
+      { "t": "the materials,", "role": "object", "id": "a" },
+      { "t": "I gave them", "role": "verb", "id": "d" },
+      { "t": "the printer too", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "materials-[obj]", "role": "object", "id": "a" },
+      { "t": "hand-over-while-at-it", "role": "other", "id": "b" },
+      { "t": "printer-also", "role": "object", "id": "c" },
+      { "t": "gave", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "자료를", "role": "object", "id": "a" },
+      { "t": "넘겨주는 김에", "role": "other", "id": "b" },
+      { "t": "프린터도", "role": "object", "id": "c" },
+      { "t": "줬어요", "role": "verb", "id": "d" }
+    ],
+    "rom": "jaryoreul neomgyeojuneun gime peurinteodo jwosseoyo",
+    "wordIds": ["w_jaryo", "w_neomgyeojuda", "w_gim", "w_peurinteo", "w_juda"],
+    "note": "-는 김에 from M91 adds a gift to the handover. 넘겨주다 transfers the materials; 줬어요 describes giving the printer as well."
+  },
+  {
+    "id": "s_m129_bell_light",
+    "en": [
+      { "t": "I heard a bell, so", "role": "other", "id": "a" },
+      { "t": "I stopped", "role": "verb", "id": "c" },
+      { "t": "under a streetlight", "role": "place", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "bell-sound-[subj] be-heard-because-observed", "role": "other", "id": "a" },
+      { "t": "streetlight below-at", "role": "place", "id": "b" },
+      { "t": "stopped", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "종소리가 들리길래", "role": "other", "id": "a" },
+      { "t": "가로등 아래에", "role": "place", "id": "b" },
+      { "t": "멈췄어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "jongsoriga deulligillae garodeung araee meomchwosseoyo",
+    "wordIds": ["w_jongsori", "w_deullida", "w_garodeung", "w_arae", "w_meomchuda"],
+    "note": "-길래 from M93 links the sound noticed to the speaker’s response. 종소리 names what was heard; 가로등 gives the stopping point, not the source of the sound."
+  },
+  {
+    "id": "s_m129_tug_fall",
+    "en": [
+      { "t": "While pulling", "role": "other", "id": "b" },
+      { "t": "the door,", "role": "object", "id": "a" },
+      { "t": "I almost fell", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "door-[obj]", "role": "object", "id": "a" },
+      { "t": "pull-while", "role": "other", "id": "b" },
+      { "t": "fall-almost-did", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "문을", "role": "object", "id": "a" },
+      { "t": "잡아당기다가", "role": "other", "id": "b" },
+      { "t": "넘어질 뻔했어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "muneul jabadanggidaga neomeojil ppeonhaesseoyo",
+    "wordIds": ["w_mun", "w_jabadanggida", "w_neomeojida", "w_ppeonhada"],
+    "note": "-다가 and -(으)ㄹ 뻔하다 from M94 locate a near fall during a tug on the door. 잡아당기다 makes the grip and pull one action."
+  },
+  {
+    "id": "s_m129_disappointment_praise",
+    "en": [
+      { "t": "Even if your disappointment is great,", "role": "other", "id": "a" },
+      { "t": "please praise", "role": "verb", "id": "c" },
+      { "t": "the effort", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "disappointment-[subj] be-big-even-if", "role": "other", "id": "a" },
+      { "t": "effort-[topic]", "role": "object", "id": "b" },
+      { "t": "praise-give-please", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "실망이 크더라도", "role": "other", "id": "a" },
+      { "t": "노력은", "role": "object", "id": "b" },
+      { "t": "칭찬해 주세요", "role": "verb", "id": "c" }
+    ],
+    "rom": "silmangi keudeorado noryeogeun chingchanhae juseyo",
+    "wordIds": ["w_silmang", "w_keuda", "w_noryeok", "w_chingchanhada", "w_juda"],
+    "note": "-더라도 from M95 keeps disappointment from cancelling the request to praise effort. The noun 실망 is the subject inside the concessive clause; -아/어 주세요 is the familiar request frame."
   }
 ]

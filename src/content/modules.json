@@ -2995,5 +2995,27 @@
       "s_m128_service_wait", "s_m128_exhibit_impression", "s_m128_waste_loss", "s_m128_found_school",
       "s_m128_pack_anchovies", "s_m128_water_drop", "s_m128_care_adolescence", "s_m128_formal_reply"
     ]
+  },
+  {
+    "id": "m129",
+    "title": "Recognition, Checks and New Beginnings",
+    "order": 138,
+    "ring": 3,
+    "contentMd": "modules/module-129.md",
+    "wordIds": [
+      "w_sujip", "w_supil", "w_sinbi", "w_sinseol",
+      "w_silgam", "w_silmang", "w_sseudadeumda", "w_alluminyum",
+      "w_arajuda", "w_yubalhada", "w_yujidoeda", "w_jabadanggida",
+      "w_jeomgeom", "w_jogi", "w_jongsori", "w_jungsun",
+      "w_jigak", "w_jikseon", "w_chamoe", "w_chehada",
+      "w_cheheomhada", "w_chingchanhada", "w_kochi", "w_tongilhada",
+      "w_peurinteo", "w_pidi", "w_hanahana", "w_hagwi",
+      "w_garodeung", "w_gaegaein", "w_geupgyeokhi", "w_gimakhida",
+      "w_nanueojida", "w_neomgyeojuda", "w_nollijeok", "w_dagaseoda"
+    ],
+    "sentenceIds": [
+      "s_m129_engine_check", "s_m129_melon_mood", "s_m129_experience_real", "s_m129_degree_rules",
+      "s_m129_handover_printer", "s_m129_bell_light", "s_m129_tug_fall", "s_m129_disappointment_praise"
+    ]
   }
 ]
