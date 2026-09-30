@@ -31119,5 +31119,239 @@
     "rom": "chinguwa hamkkehada boni chojohan maeumi garaanjasseoyo.",
     "wordIds": ["w_chingu", "w_hamkkehada", "w_chojohada", "w_maeum", "w_garaanda"],
     "note": "-다 보니 from M94 presents a result noticed during an experience. 함께하다 is shared company, and 초조한 describes the restlessness that subsides."
+  },
+  {
+    "id": "s_m141_counter",
+    "en": [
+      { "t": "The more", "role": "other", "id": "b" },
+      { "t": "users there are,", "role": "subject", "id": "a" },
+      { "t": "the more crowded the service counter", "role": "subject", "id": "c" },
+      { "t": "gets.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "users-[subj]", "role": "subject", "id": "a" },
+      { "t": "increase-the-more", "role": "other", "id": "b" },
+      { "t": "service-counter-[subj]", "role": "subject", "id": "c" },
+      { "t": "is-crowded", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "이용자가", "role": "subject", "id": "a" },
+      { "t": "늘어날수록", "role": "other", "id": "b" },
+      { "t": "창구가", "role": "subject", "id": "c" },
+      { "t": "붐벼요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "iyongjaga neureonalsurok changguga bumbyeoyo.",
+    "wordIds": ["w_iyongja", "w_neureonada", "w_changgu", "w_bumbida"],
+    "note": "-(으)ㄹ수록 from M89 links increasing use with a busier counter. M140’s 이용자 returns as the people needing service; 붐벼요 describes the place becoming crowded."
+  },
+  {
+    "id": "s_m141_application",
+    "en": [
+      { "t": "While checking", "role": "other", "id": "b" },
+      { "t": "the qualification certificate,", "role": "object", "id": "a" },
+      { "t": "I read", "role": "verb", "id": "d" },
+      { "t": "the application too.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "qualification-certificate-[obj]", "role": "object", "id": "a" },
+      { "t": "check-while-at-it", "role": "other", "id": "b" },
+      { "t": "application-also", "role": "object", "id": "c" },
+      { "t": "read", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "자격증을", "role": "object", "id": "a" },
+      { "t": "확인하는 김에", "role": "other", "id": "b" },
+      { "t": "원서도", "role": "object", "id": "c" },
+      { "t": "읽었어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "jagyeokjeungeul hwaginhaneun gime wonseodo ilgeosseoyo.",
+    "wordIds": ["w_jagyeokjeung", "w_hwaginhada", "w_wonseo", "w_ikda"],
+    "note": "-는 김에 from M91 adds a related document check. M140’s 자격증 is distinct from 願書, the application; this 원서 is not an original-language book."
+  },
+  {
+    "id": "s_m141_anxiety",
+    "en": [
+      { "t": "Even if you feel anxious,", "role": "other", "id": "a" },
+      { "t": "do not forget", "role": "verb", "id": "c" },
+      { "t": "your signature.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "anxious-even-if", "role": "other", "id": "a" },
+      { "t": "signature-[obj]", "role": "object", "id": "b" },
+      { "t": "forget-do-not-please", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "초조하더라도", "role": "other", "id": "a" },
+      { "t": "서명을", "role": "object", "id": "b" },
+      { "t": "잊지 마세요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "chojohadeorado seomyeongeul itji maseyo.",
+    "wordIds": ["w_chojohada", "w_seomyeong", "w_ijda"],
+    "note": "-더라도 from M95 concedes a possible feeling without changing the request. M140’s 초조하다 returns, and 서명 is the applicant’s signing rather than a printed heading."
+  },
+  {
+    "id": "s_m141_free_time",
+    "en": [
+      { "t": "Now that we have some free time,", "role": "other", "id": "a" },
+      { "t": "shall we go on", "role": "verb", "id": "c" },
+      { "t": "an outing?", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "become-free-while-at-it", "role": "other", "id": "a" },
+      { "t": "outing-[obj]", "role": "object", "id": "b" },
+      { "t": "go-shall-we", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "한가해진 김에", "role": "other", "id": "a" },
+      { "t": "나들이를", "role": "object", "id": "b" },
+      { "t": "갈까요?", "role": "verb", "id": "c" }
+    ],
+    "rom": "hangahaejin gime nadeurireul galkkayo?",
+    "wordIds": ["w_hangahada", "w_nadeuri", "w_gada"],
+    "note": "-(으)ㄴ 김에 from M91 takes advantage of a newly available opportunity. M140’s 나들이 returns as a short trip; 한가해지다 uses the familiar change-of-state ending."
+  },
+  {
+    "id": "s_m141_welcome",
+    "en": [
+      { "t": "The attendees", "role": "subject", "id": "a" },
+      { "t": "are numerous, and on top of that,", "role": "other", "id": "b" },
+      { "t": "everyone", "role": "subject", "id": "c" },
+      { "t": "welcomes", "role": "verb", "id": "e" },
+      { "t": "us.", "role": "object", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "attendees-[subj]", "role": "subject", "id": "a" },
+      { "t": "many-in-addition", "role": "other", "id": "b" },
+      { "t": "everyone", "role": "subject", "id": "c" },
+      { "t": "us-[obj]", "role": "object", "id": "d" },
+      { "t": "welcome", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "참석자가", "role": "subject", "id": "a" },
+      { "t": "많은 데다가", "role": "other", "id": "b" },
+      { "t": "모두", "role": "subject", "id": "c" },
+      { "t": "우리를", "role": "object", "id": "d" },
+      { "t": "환영해요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "chamseokjaga maneun dedaga modu urireul hwanyeonghaeyo.",
+    "wordIds": ["w_chamseokja", "w_manta", "w_modu", "w_uri", "w_hwanyeonghada"],
+    "note": "-(으)ㄴ/는 데다가 from M92 adds a second feature of the gathering. 참석자 counts those present, while 환영하다 tells how they receive the newcomers."
+  },
+  {
+    "id": "s_m141_breathing",
+    "en": [
+      { "t": "After taking in", "role": "other", "id": "b" },
+      { "t": "a breath,", "role": "object", "id": "a" },
+      { "t": "I stepped out", "role": "verb", "id": "d" },
+      { "t": "beyond the door.", "role": "place", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "breath-[obj]", "role": "object", "id": "a" },
+      { "t": "inhale-and-then", "role": "other", "id": "b" },
+      { "t": "outside-door-toward", "role": "place", "id": "c" },
+      { "t": "went-out", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "숨을", "role": "object", "id": "a" },
+      { "t": "들이마시고서", "role": "other", "id": "b" },
+      { "t": "문밖으로", "role": "place", "id": "c" },
+      { "t": "나갔어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "sumeul deurimasigoseo munbakkeuro nagasseoyo.",
+    "wordIds": ["w_sum", "w_deurimasida", "w_munbak", "w_nagada"],
+    "note": "-고서 from M85 puts inhaling before moving. 들이마시다 with 숨 means breathe in; 문밖 specifies the far side of the door without guaranteeing an outdoor setting."
+  },
+  {
+    "id": "s_m141_supplement",
+    "en": [
+      { "t": "Because the content was incomplete,", "role": "other", "id": "a" },
+      { "t": "I supplemented", "role": "verb", "id": "d" },
+      { "t": "the material.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "content-[subj] incomplete-observed-reason", "role": "other", "id": "a" },
+      { "t": "material-[obj]", "role": "object", "id": "c" },
+      { "t": "supplemented", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "내용이 불완전하길래", "role": "other", "id": "a" },
+      { "t": "자료를", "role": "object", "id": "c" },
+      { "t": "보충했어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "naeyongi burwanjeonhagillae jaryoreul bochunghaesseoyo.",
+    "wordIds": ["w_naeyong", "w_burwanjeonhada", "w_jaryo", "w_bochunghada"],
+    "note": "-길래 from M93 gives a noticed shortcoming as the reason for action. 불완전하다 means incomplete, so 보충하다 adds what is missing instead of replacing everything."
+  },
+  {
+    "id": "s_m141_shortcut",
+    "en": [
+      { "t": "While looking for", "role": "other", "id": "b" },
+      { "t": "the shortcut,", "role": "object", "id": "a" },
+      { "t": "at last", "role": "other", "id": "c" },
+      { "t": "I can see", "role": "verb", "id": "e" },
+      { "t": "the way.", "role": "object", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "shortcut-[obj]", "role": "object", "id": "a" },
+      { "t": "search-as-it-continued", "role": "other", "id": "b" },
+      { "t": "only-now", "role": "other", "id": "c" },
+      { "t": "way-[obj]", "role": "object", "id": "d" },
+      { "t": "know-now", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "지름길을", "role": "object", "id": "a" },
+      { "t": "찾다 보니", "role": "other", "id": "b" },
+      { "t": "이제야", "role": "other", "id": "c" },
+      { "t": "길을", "role": "object", "id": "d" },
+      { "t": "알겠어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "jireumgireul chatda boni ijeya gireul algesseoyo.",
+    "wordIds": ["w_jireumgil", "w_chatda", "w_ijeya", "w_gil", "w_alda"],
+    "note": "-다 보니 from M94 lets understanding emerge from a search. 이제야 emphasizes that the realization arrived late; 지름길 is a shorter route, not necessarily an easy one."
+  },
+  {
+    "id": "s_m141_locked",
+    "en": [
+      { "t": "With the door locked,", "role": "other", "id": "a" },
+      { "t": "I have waited", "role": "verb", "id": "d" },
+      { "t": "all this time.", "role": "other", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "door-[obj] lock-in-that-state", "role": "other", "id": "a" },
+      { "t": "all-the-way-until-now", "role": "other", "id": "c" },
+      { "t": "waited", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "문을 잠근 채", "role": "other", "id": "a" },
+      { "t": "지금껏", "role": "other", "id": "c" },
+      { "t": "기다렸어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "muneul jamgeun chae jigeumkkeot gidaryeosseoyo.",
+    "wordIds": ["w_mun", "w_jamgeuda", "w_jigeumkkeot", "w_gidarida"],
+    "note": "-(으)ㄴ 채 from M94 keeps the locked state during the wait. 잠근 is the noun-modifying form of 잠그다; 지금껏 stretches the waiting up to now."
+  },
+  {
+    "id": "s_m141_independence",
+    "en": [
+      { "t": "As I become more independent,", "role": "other", "id": "a" },
+      { "t": "my longing", "role": "subject", "id": "c" },
+      { "t": "for my family", "role": "other", "id": "b" },
+      { "t": "grows.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "become-independent-the-more", "role": "other", "id": "a" },
+      { "t": "family-about", "role": "other", "id": "b" },
+      { "t": "longing-[subj]", "role": "subject", "id": "c" },
+      { "t": "grows", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "독립할수록", "role": "other", "id": "a" },
+      { "t": "가족에 대한", "role": "other", "id": "b" },
+      { "t": "그리움이", "role": "subject", "id": "c" },
+      { "t": "커져요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "dongniphalsurok gajoge daehan geuriumi keojyeoyo.",
+    "wordIds": ["w_dongniphada", "w_gajok", "w_daehada", "w_geurium", "w_keojida"],
+    "note": "-(으)ㄹ수록 from M89 links independence with a growing feeling. 그리움 is a noun, so the longing itself takes the subject particle and grows."
   }
 ]

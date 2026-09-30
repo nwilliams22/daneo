@@ -3508,5 +3508,23 @@
     "lit": "The area around the eyes becomes hot.",
     "real": "To feel tears welling up.",
     "note": "In an emotional scene this often signals approaching tears. A physical description is still possible; the surrounding situation decides."
+  },
+  {
+    "id": "g_m141_traces",
+    "cat": "phrase",
+    "ko": "자취를 감추다",
+    "rom": "jachwireul gamchuda",
+    "lit": "To hide one’s traces.",
+    "real": "To disappear from sight or contact.",
+    "note": "The phrase focuses on someone or something no longer being seen or found. 자취 uses its trace sense here, not the independent-living homograph."
+  },
+  {
+    "id": "g_m141_no_idea",
+    "cat": "phrase",
+    "ko": "영 모르겠어요",
+    "rom": "yeong moreugesseoyo",
+    "lit": "I do not know at all.",
+    "real": "I really have no idea.",
+    "note": "영 reinforces the negative judgment, while -겠- makes this an assessment of one’s present understanding. The sentence is not counting zero things."
   }
 ]

@@ -3369,5 +3369,28 @@
       "s_m140_qualification", "s_m140_clinic", "s_m140_comfort", "s_m140_recycling",
       "s_m140_rain", "s_m140_company"
     ]
+  },
+  {
+    "id": "m141",
+    "title": "Applications, Memory and New Starts",
+    "order": 150,
+    "ring": 3,
+    "contentMd": "modules/module-141.md",
+    "wordIds": [
+      "w_jeongbandae", "w_chucheon", "w_hakjeom", "w_hangahada",
+      "w_hwanyeonghada", "w_ganjeopjeok", "w_gyeongyeonghada", "w_geurium",
+      "w_geusai", "w_ginyeomhada", "w_daegang", "w_dongniphada",
+      "w_deurimasida", "w_ttwieooreuda", "w_munbak", "w_bangsonghada",
+      "w_bochunghada", "w_burwanjeonhada", "w_bulpyeong", "w_bumbida",
+      "w_seomyeong", "w_sondeung", "w_yeoksahak", "w_yeong",
+      "w_wonseo", "w_ironjeok", "w_ijeya", "w_imsinhada",
+      "w_jachwi", "w_jamgeuda", "w_jangnye", "w_jigeumkkeot",
+      "w_jireumgil", "w_jijin", "w_chamseokja", "w_changgu"
+    ],
+    "sentenceIds": [
+      "s_m141_counter", "s_m141_application", "s_m141_anxiety", "s_m141_free_time",
+      "s_m141_welcome", "s_m141_breathing", "s_m141_supplement", "s_m141_shortcut",
+      "s_m141_locked", "s_m141_independence"
+    ]
   }
 ]
