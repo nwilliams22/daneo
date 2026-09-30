@@ -2,7 +2,7 @@
 
 M49 taught the sky's colors; this module hands you the workbench's. It is the describing-hands pack: the dimension adjectives that check GEOMETRY before size (굵다/가늘다 vs 두껍다/얇다), the intensity dial (진하다/연하다/짙다), the color ledger's last open accounts (희다, 검다, 붉다, and the black trio), the material corner (금, 가죽, 조각, 무늬), and the six verbs your hands run all day — 펴다, 접다, 뻗다, 벌리다, 묶다, 매다. Almost every entry pays a debt some earlier module signed.
 
-**How to use this:** the pairs are the module. Drill 굵다/가늘다 against 두껍다/얇다 until the geometry check is automatic, and 진하다 against 짙다 until strength and density separate — Band 6 words earn their rank by NOT being interchangeable. The color nouns will file themselves; their adjectives were half-taught already.
+**How to use this:** the pairs are the module. Drill 굵다/가늘다 against 두껍다/얇다 until the geometry check is automatic, then compare 진하다 and 짙다 in the contexts below — both can describe dense fog. The color nouns will file themselves; their adjectives were half-taught already.
 
 ---
 
@@ -34,9 +34,9 @@ English hands one 'thick' to everything; Korean checks the shape first:
 
 ### 1. The intensity dial — 진하다 / 연하다 / 짙다
 
-진하다 (津) turns strength UP: 진한 커피, 진한 색, 진한 국물 — things that took effort. 연하다 (軟) turns it down soft: 연한 색, 연한 고기, 연한 커피. Order in adverbs and any café obeys: 진하게 / 연하게, through the -게 machine (M33).
+진하다 (津) turns intensity UP: 진한 커피, 진한 색, 진한 국물 — and 진한 안개 when fog is dense. 연하다 (軟) turns it down soft: 연한 색, 연한 고기, 연한 커피. Order in adverbs and any café obeys: 진하게 / 연하게, through the -게 machine (M33).
 
-**Calibration:** 짙다 is not a third knob — it is a different gauge. 진하다 measures STRENGTH (coffee, makeup, broth); 짙다 measures DENSITY (짙은 안개, 짙은 눈썹, 짙은 녹색 in prose). Fog is never 진하다; espresso is never 짙다.
+**Calibration:** 진하다 often describes concentrated liquids, such as coffee and broth; it also describes dense fog (안개가 진하다). 짙다 is another common choice for fog (짙은 안개), as well as brows and deep colors. The two adjectives overlap here; fog does not force a choice between them.
 
 ### 2. The material corner — old syllables become things
 
