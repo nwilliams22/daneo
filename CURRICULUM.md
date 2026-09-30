@@ -264,15 +264,15 @@ at reserve time into `reference/ring3-slices.tsv`.
 | M95 | Concession & Choice (반면 갈등 경쟁 경쟁력 협력 대응 극복하다 거부하다 제외하다 통합 개선 개방 공개 참여 지원 투자 부담 아무런 온갖 어찌 도대체) | -더라도 · -(으)ㄹ지라도/-(으)ㄹ망정 · -든지 · 대신에/반면에 · -는 한 · -기만 하면 |
 | M96 | Culture, Stage & Press (연극 극 희곡 신화 철학 문화재 감독 연기자 매체 보도 화제 기록 비극 소재 제작 출신 학자 지식인 필자 스승 제자 용어 미 신분 세계관 이데올로기) | glue-light closer: whatever the checklist still owes |
 
-### Band 8 — the long tail (~60 packs, M97+, order-free) *(opened 2026-09-20 with M97)*
+### Band 8 — the long tail (M97–M155, order-free) — ✅ shipped in full 2026-09-30
 
 Everything left after Band 7, sliced by frequency rank with root-flavored
 grouping (S3's tables), exactly Band 6: garnish-free, no glue parts, notes
 still required. Batches of 2–3 packs via the drafter pipeline. The
-unranked proper nouns (고구려/금강산/대학로…, POS 고) sort last and are
-decided at the end — taught-as rows or a places pack.
+unranked proper nouns (고구려/금강산/대학로…, POS 고) were taught as
+headwords in the final places pack, M155.
 
-**Band 8 shipped through M153 (2026-09-30):** M118 *Collection Day*, M119
+**Band 8 complete through M155 (2026-09-30):** M118 *Collection Day*, M119
 *Verbs of Doing and Undoing*, M120 *The Native Nouns, and the Adverbs of
 Manner*, M121 *Names on Forms and Stages*, M122 *Attempts, Stops and
 Institutions*, M123 *Change, Return and Human Measure*, M124 *Routes, Resolve
@@ -289,9 +289,16 @@ M143 *Night Work, Family and Small Things*, M144 *Applications, Places and Worki
 M146 *Fresh Starts, Welcome and Looking Back*, M147 *Shared Ground, Small Details and Change*,
 M148 *Movement, Household and the Weather*, M149 *Care, Change and Days of Learning*,
 M150 *Private Lives and Public Rituals*, M151 *Everyday Care and Shared Spaces*,
-M152 *Repairs, Seasons and Working Lives*, and M153 *Meals, Places and Family Connections*.
-All thirty-six keep the vocabulary-first packs with no new glue; M133–M153
-each have ten aligned sentences and two gap cards.
+M152 *Repairs, Seasons and Working Lives*, M153 *Meals, Places and Family Connections*,
+M154 *Family, Travel and Everyday Places*, and M155 *Learning, Food and Named Places*.
+The packs keep the vocabulary-first shape with no new glue; M133–M155
+each have ten aligned sentences and two gap cards. The final two packs teach
+all 75 remaining grade-C headwords, including the proper-name tail.
+
+**Ring 3 complete (2026-09-30):** Band 7 and Band 8 are closed. NIKL grade C
+is **100.0% (2,655/2,655; 0 missing)**; grades A and B remain 100.0%.
+`npm run ring3:plan` reports a clean ledger, 0 assigned-not-yet-shipped and
+0 unassigned. Phase B can now be revisited under the separate decision in §7.
 
 ### Ring 3 glue checklist (~55 patterns)
 
