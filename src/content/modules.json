@@ -3346,5 +3346,28 @@
       "s_m139_delay", "s_m139_discussion", "s_m139_educator", "s_m139_thread",
       "s_m139_morale", "s_m139_threshold"
     ]
+  },
+  {
+    "id": "m140",
+    "title": "Care, Access and Shared Lives",
+    "order": 149,
+    "ring": 3,
+    "contentMd": "modules/module-140.md",
+    "wordIds": [
+      "w_daejeophada", "w_ttwieonaerida", "w_baireoseu", "w_bangbadak",
+      "w_beongeoropda", "w_sanyang", "w_sahoesaenghwal", "w_simnijeok",
+      "w_wiro", "w_iyongja", "w_imnyeokhada", "w_jagyeokjeung",
+      "w_jillyo", "w_changga", "w_chojohada", "w_hamkkehada",
+      "w_hapgyeokhada", "w_hwajangji", "w_himkkeot", "w_gongtongdoeda",
+      "w_nadeuri", "w_nogida", "w_nunga", "w_domang",
+      "w_mini", "w_bangmyeon", "w_beopjeok", "w_benchi",
+      "w_bitjulgi", "w_sahoehak", "w_sunjinhada", "w_eoryeowojida",
+      "w_ollaseoda", "w_jangaein", "w_jaehwaryongpum", "w_jeoreoda"
+    ],
+    "sentenceIds": [
+      "s_m140_input", "s_m140_materials", "s_m140_hospitality", "s_m140_outing",
+      "s_m140_qualification", "s_m140_clinic", "s_m140_comfort", "s_m140_recycling",
+      "s_m140_rain", "s_m140_company"
+    ]
   }
 ]

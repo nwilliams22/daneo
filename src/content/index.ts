@@ -140,6 +140,7 @@ import module136Md from "./modules/module-136.md?raw";
 import module137Md from "./modules/module-137.md?raw";
 import module138Md from "./modules/module-138.md?raw";
 import module139Md from "./modules/module-139.md?raw";
+import module140Md from "./modules/module-140.md?raw";
 import module128Md from "./modules/module-128.md?raw";
 import module127Md from "./modules/module-127.md?raw";
 import module126Md from "./modules/module-126.md?raw";
@@ -334,6 +335,7 @@ export const moduleMarkdown: Record<string, string> = {
   "modules/module-137.md": module137Md,
   "modules/module-138.md": module138Md,
   "modules/module-139.md": module139Md,
+  "modules/module-140.md": module140Md,
   "modules/module-76.md": module76Md,
   "modules/module-junmal.md": moduleJunmalMd,
   "modules/module-konglish.md": moduleKonglishMd,

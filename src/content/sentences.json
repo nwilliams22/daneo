@@ -30879,5 +30879,245 @@
     "rom": "inwoni yeol myeong mimanin dedaga biyongdo jeogeoyo.",
     "wordIds": ["w_inwon", "w_yeol", "w_c_myeong", "w_miman", "w_biyong", "w_jeokda"],
     "note": "-(으)ㄴ/는 데다가 from M92 adds another fact. 미만 excludes the stated boundary: nine qualifies as under ten, while ten does not."
+  },
+  {
+    "id": "s_m140_input",
+    "en": [
+      { "t": "The user", "role": "subject", "id": "a" },
+      { "t": "entered", "role": "verb", "id": "e" },
+      { "t": "a name", "role": "object", "id": "d" },
+      { "t": "while checking", "role": "other", "id": "c" },
+      { "t": "the roster.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "user-[topic]", "role": "subject", "id": "a" },
+      { "t": "roster-[obj]", "role": "object", "id": "b" },
+      { "t": "check-while-at-it", "role": "other", "id": "c" },
+      { "t": "name-[obj]", "role": "object", "id": "d" },
+      { "t": "entered", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "이용자는", "role": "subject", "id": "a" },
+      { "t": "명단을", "role": "object", "id": "b" },
+      { "t": "확인하는 김에", "role": "other", "id": "c" },
+      { "t": "이름을", "role": "object", "id": "d" },
+      { "t": "입력했어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "iyongjaneun myeongdaneul hwaginhaneun gime ireumeul imnyeokhaesseoyo.",
+    "wordIds": ["w_iyongja", "w_myeongdan", "w_hwaginhada", "w_ireum", "w_imnyeokhada"],
+    "note": "-는 김에 from M91 attaches data entry to a check already underway. M139’s 명단 returns as the list a service user consults."
+  },
+  {
+    "id": "s_m140_materials",
+    "en": [
+      { "t": "The teaching materials", "role": "subject", "id": "a" },
+      { "t": "are heavy, and on top of that,", "role": "other", "id": "b" },
+      { "t": "the bag too", "role": "subject", "id": "c" },
+      { "t": "is large, so", "role": "other", "id": "d" },
+      { "t": "it is cumbersome.", "role": "verb", "id": "e" }
+    ],
+    "gloss": [
+      { "t": "teaching-materials-[subj]", "role": "subject", "id": "a" },
+      { "t": "heavy-in-addition", "role": "other", "id": "b" },
+      { "t": "bag-also", "role": "subject", "id": "c" },
+      { "t": "large-because", "role": "other", "id": "d" },
+      { "t": "is-cumbersome", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "교재가", "role": "subject", "id": "a" },
+      { "t": "무거운 데다가", "role": "other", "id": "b" },
+      { "t": "가방도", "role": "subject", "id": "c" },
+      { "t": "커서", "role": "other", "id": "d" },
+      { "t": "번거로워요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "gyojaega mugeoun dedaga gabangdo keoseo beongeorowoyo.",
+    "wordIds": ["w_gyojae", "w_mugeopda", "w_gabang", "w_keuda", "w_beongeoropda"],
+    "note": "-(으)ㄴ/는 데다가 from M92 piles up practical burdens. M139’s 교재 is the thing being carried; 번거로워요 describes the inconvenience, not an academic difficulty."
+  },
+  {
+    "id": "s_m140_hospitality",
+    "en": [
+      { "t": "Because the private tutor sat by the window,", "role": "other", "id": "a" },
+      { "t": "I served them", "role": "verb", "id": "e" },
+      { "t": "tea.", "role": "object", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "private-tutor-[subj] window-side-at sit-observed-reason", "role": "other", "id": "a" },
+      { "t": "tea-[obj]", "role": "object", "id": "d" },
+      { "t": "served", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "가정교사가 창가에 앉길래", "role": "other", "id": "a" },
+      { "t": "차를", "role": "object", "id": "d" },
+      { "t": "대접했어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "gajeonggyosaga changgae angillae chareul daejeophaesseoyo.",
+    "wordIds": ["w_gajeonggyosa", "w_changga", "w_anda", "w_cha", "w_daejeophada"],
+    "note": "-길래 from M93 gives an observed reason for the speaker’s action. M139’s 가정교사 returns as a guest; 대접하다 makes serving tea an act of hospitality."
+  },
+  {
+    "id": "s_m140_outing",
+    "en": [
+      { "t": "Because of the wind and rain,", "role": "other", "id": "a" },
+      { "t": "the outing", "role": "subject", "id": "b" },
+      { "t": "looks likely to become difficult.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "wind-and-rain-because", "role": "other", "id": "a" },
+      { "t": "outing-[subj]", "role": "subject", "id": "b" },
+      { "t": "become-difficult-seems", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "비바람 때문에", "role": "other", "id": "a" },
+      { "t": "나들이가", "role": "subject", "id": "b" },
+      { "t": "어려워질 듯해요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "bibaram ttaemune nadeuriga eoryeowojil deuthaeyo.",
+    "wordIds": ["w_bibaram", "w_nadeuri", "w_eoryeowojida", "w_deuthada"],
+    "note": "-(으)ㄹ 듯하다 from M87 marks an expectation. M139’s 비바람 now affects a short outing, while 어려워지다 describes changing conditions."
+  },
+  {
+    "id": "s_m140_qualification",
+    "en": [
+      { "t": "After passing", "role": "other", "id": "b" },
+      { "t": "the exam,", "role": "other", "id": "a" },
+      { "t": "I received", "role": "verb", "id": "d" },
+      { "t": "a qualification certificate.", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "exam-at", "role": "other", "id": "a" },
+      { "t": "pass-and-then", "role": "other", "id": "b" },
+      { "t": "qualification-certificate-[obj]", "role": "object", "id": "c" },
+      { "t": "received", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "시험에", "role": "other", "id": "a" },
+      { "t": "합격하고서", "role": "other", "id": "b" },
+      { "t": "자격증을", "role": "object", "id": "c" },
+      { "t": "받았어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "siheome hapgyeokhagoseo jagyeokjeungeul badasseoyo.",
+    "wordIds": ["w_siheom", "w_hapgyeokhada", "w_jagyeokjeung", "w_batda"],
+    "note": "-고서 from M85 separates passing from receiving the document. The exam takes 에 with 합격하다; 자격증 is the proof issued afterward."
+  },
+  {
+    "id": "s_m140_clinic",
+    "en": [
+      { "t": "While waiting for", "role": "other", "id": "b" },
+      { "t": "medical care,", "role": "object", "id": "a" },
+      { "t": "I sat", "role": "verb", "id": "e" },
+      { "t": "by the window", "role": "place", "id": "c" },
+      { "t": "for a long time.", "role": "other", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "medical-care-[obj]", "role": "object", "id": "a" },
+      { "t": "wait-busy-because", "role": "other", "id": "b" },
+      { "t": "window-side-at", "role": "place", "id": "c" },
+      { "t": "long-time", "role": "other", "id": "d" },
+      { "t": "sat-remained", "role": "verb", "id": "e" }
+    ],
+    "ko": [
+      { "t": "진료를", "role": "object", "id": "a" },
+      { "t": "기다리느라고", "role": "other", "id": "b" },
+      { "t": "창가에", "role": "place", "id": "c" },
+      { "t": "오래", "role": "other", "id": "d" },
+      { "t": "앉아 있었어요.", "role": "verb", "id": "e" }
+    ],
+    "rom": "jillyoreul gidarineurago changgae orae anja isseosseoyo.",
+    "wordIds": ["w_jillyo", "w_gidarida", "w_changga", "w_orae", "w_anda", "w_itda"],
+    "note": "-느라고 from M86 explains time spent on an ongoing activity. 앉아 있었어요 describes the maintained seated state; 창가 names a location, not a subject."
+  },
+  {
+    "id": "s_m140_comfort",
+    "en": [
+      { "t": "The harder", "role": "other", "id": "b" },
+      { "t": "life among other people becomes,", "role": "subject", "id": "a" },
+      { "t": "the more comfort", "role": "subject", "id": "c" },
+      { "t": "is needed.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "life-in-society-[subj]", "role": "subject", "id": "a" },
+      { "t": "difficult-the-more", "role": "other", "id": "b" },
+      { "t": "comfort-[subj]", "role": "subject", "id": "c" },
+      { "t": "is-needed", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "사회생활이", "role": "subject", "id": "a" },
+      { "t": "어려울수록", "role": "other", "id": "b" },
+      { "t": "위로가", "role": "subject", "id": "c" },
+      { "t": "필요해요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "sahoesaenghwari eoryeoulsurok wiroga piryohaeyo.",
+    "wordIds": ["w_sahoesaenghwal", "w_eoryeopda", "w_wiro", "w_piryohada"],
+    "note": "-(으)ㄹ수록 from M89 connects difficulty with need. 위로 is consolation here; 사회생활 includes work and social obligations, not just leisure."
+  },
+  {
+    "id": "s_m140_recycling",
+    "en": [
+      { "t": "Still holding", "role": "other", "id": "b" },
+      { "t": "the recyclables,", "role": "object", "id": "a" },
+      { "t": "I stood", "role": "verb", "id": "d" },
+      { "t": "beside the bench.", "role": "place", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "recyclables-[obj]", "role": "object", "id": "a" },
+      { "t": "hold-in-that-state", "role": "other", "id": "b" },
+      { "t": "bench beside-at", "role": "place", "id": "c" },
+      { "t": "stood", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "재활용품을", "role": "object", "id": "a" },
+      { "t": "든 채", "role": "other", "id": "b" },
+      { "t": "벤치 옆에", "role": "place", "id": "c" },
+      { "t": "섰어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "jaehwaryongpumeul deun chae benchi yeope seosseoyo.",
+    "wordIds": ["w_jaehwaryongpum", "w_deulda", "w_benchi", "w_yeop", "w_seoda"],
+    "note": "-(으)ㄴ 채 from M94 preserves the carrying state. 든 comes from 들다, and the items are materials for collection rather than necessarily products made from recycled stock."
+  },
+  {
+    "id": "s_m140_rain",
+    "en": [
+      { "t": "Because the rain intensified,", "role": "other", "id": "a" },
+      { "t": "the room floor", "role": "subject", "id": "c" },
+      { "t": "got wet.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "rain-streams-[subj] become-thick-unwanted-cause", "role": "other", "id": "a" },
+      { "t": "room-floor-[subj]", "role": "subject", "id": "c" },
+      { "t": "got-wet", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "빗줄기가 굵어지는 바람에", "role": "other", "id": "a" },
+      { "t": "방바닥이", "role": "subject", "id": "c" },
+      { "t": "젖었어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "bitjulgiga gulgeojineun barame bangbadagi jeojeosseoyo.",
+    "wordIds": ["w_bitjulgi", "w_gukda", "w_bangbadak", "w_jeotda"],
+    "note": "-는 바람에 from M86 attributes an unwelcome result to an event. 굵어지다 uses the change-of-state pattern on 굵다; 빗줄기 makes the falling rain visible as streams."
+  },
+  {
+    "id": "s_m140_company",
+    "en": [
+      { "t": "As I spent time", "role": "other", "id": "b" },
+      { "t": "with a friend,", "role": "other", "id": "a" },
+      { "t": "my anxious feelings", "role": "subject", "id": "c" },
+      { "t": "settled down.", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "friend-with", "role": "other", "id": "a" },
+      { "t": "be-together-as-it-continued", "role": "other", "id": "b" },
+      { "t": "anxious mind-[subj]", "role": "subject", "id": "c" },
+      { "t": "settled-down", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "친구와", "role": "other", "id": "a" },
+      { "t": "함께하다 보니", "role": "other", "id": "b" },
+      { "t": "초조한 마음이", "role": "subject", "id": "c" },
+      { "t": "가라앉았어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "chinguwa hamkkehada boni chojohan maeumi garaanjasseoyo.",
+    "wordIds": ["w_chingu", "w_hamkkehada", "w_chojohada", "w_maeum", "w_garaanda"],
+    "note": "-다 보니 from M94 presents a result noticed during an experience. 함께하다 is shared company, and 초조한 describes the restlessness that subsides."
   }
 ]
