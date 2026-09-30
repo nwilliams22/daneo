@@ -3562,5 +3562,23 @@
     "lit": "To buy dislike.",
     "real": "To incur someone’s dislike.",
     "note": "사다 extends from buying to attracting an unwanted feeling."
+  },
+  {
+    "id": "g_m144_1",
+    "cat": "phrase",
+    "ko": "큰절을 올리다",
+    "rom": "keunjeoreul ollida",
+    "lit": "To raise a deep bow.",
+    "real": "To give a formal deep bow.",
+    "note": "올리다 frames the respectful action as something offered upward."
+  },
+  {
+    "id": "g_m144_2",
+    "cat": "phrase",
+    "ko": "일자리를 구하다",
+    "rom": "iljarireul guhada",
+    "lit": "To seek a job.",
+    "real": "To look for work.",
+    "note": "구하다 here means seek, not rescue; 일자리 is a position or opening."
   }
 ]

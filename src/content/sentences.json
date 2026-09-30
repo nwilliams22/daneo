@@ -31785,5 +31785,218 @@
     "rom": "jeonmunjigeun jumalmada bongsahaesseoyo",
     "wordIds": ["w_jeonmunjik", "w_bongsahada"],
     "note": "마다 from M31 marks repetition; 전문직 can name the worker’s occupation in a follow-up."
+  },
+  {
+    "id": "s_m144_form",
+    "en": [
+      { "t": "Before submission,", "role": "other", "id": "b" },
+      { "t": "the application form", "role": "subject", "id": "a" },
+      { "t": "must be checked.", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "application-form-[topic]", "role": "subject", "id": "a" },
+      { "t": "submission before", "role": "other", "id": "b" },
+      { "t": "check-[please]", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "신청서는", "role": "subject", "id": "a" },
+      { "t": "제출 전에", "role": "other", "id": "b" },
+      { "t": "확인하세요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "sincheongseoneun jechul jeone hwaginhaseyo",
+    "wordIds": ["w_sincheongseo", "w_jechul"],
+    "note": "M143’s 제출 returns in a new instruction; -기 전에 from M33 marks the deadline."
+  },
+  {
+    "id": "s_m144_board",
+    "en": [
+      { "t": "The grading result", "role": "subject", "id": "a" },
+      { "t": "appeared", "role": "verb", "id": "c" },
+      { "t": "on the bulletin board.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "grading result-[subj]", "role": "subject", "id": "a" },
+      { "t": "bulletin-board-[place]", "role": "other", "id": "b" },
+      { "t": "came-out", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "채점 결과가", "role": "subject", "id": "a" },
+      { "t": "게시판에", "role": "other", "id": "b" },
+      { "t": "나왔어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "chaejeom gyeolgwaga gesipane nawasseoyo",
+    "wordIds": ["w_chaejeom", "w_gesipan"],
+    "note": "M143’s 채점 becomes a posted result; -더니 from M88 can connect a later reaction."
+  },
+  {
+    "id": "s_m144_service",
+    "en": [
+      { "t": "An employee", "role": "subject", "id": "a" },
+      { "t": "volunteered", "role": "verb", "id": "c" },
+      { "t": "on campus.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "employee-[subj]", "role": "subject", "id": "a" },
+      { "t": "school-inside-at", "role": "other", "id": "b" },
+      { "t": "volunteered", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "직장인이", "role": "subject", "id": "a" },
+      { "t": "교내에서", "role": "other", "id": "b" },
+      { "t": "봉사했어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "jikjangini gyonaeeseo bongsahaesseoyo",
+    "wordIds": ["w_jikjangin", "w_gyonae", "w_bongsahada"],
+    "note": "M143’s 봉사하다 returns in a new school setting; -는 동안 from M38 can show duration."
+  },
+  {
+    "id": "s_m144_forecast",
+    "en": [
+      { "t": "The forecast", "role": "subject", "id": "a" },
+      { "t": "emphasized", "role": "verb", "id": "c" },
+      { "t": "the risk.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "forecast-[subj]", "role": "subject", "id": "a" },
+      { "t": "risk-[obj]", "role": "object", "id": "b" },
+      { "t": "emphasized", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "예보가", "role": "subject", "id": "a" },
+      { "t": "위험성을", "role": "object", "id": "b" },
+      { "t": "강조했어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "yeboga wiheomseongeul gangjohaesseoyo",
+    "wordIds": ["w_yebo", "w_wiheomseong", "w_gangjo"],
+    "note": "-고자 from M90 can give the purpose of the warning."
+  },
+  {
+    "id": "s_m144_school",
+    "en": [
+      { "t": "Enrolled students", "role": "subject", "id": "a" },
+      { "t": "choose", "role": "verb", "id": "c" },
+      { "t": "a department.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "enrolled student-[topic]", "role": "subject", "id": "a" },
+      { "t": "department-[obj]", "role": "object", "id": "b" },
+      { "t": "choose", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "재학 중인 학생은", "role": "subject", "id": "a" },
+      { "t": "학과를", "role": "object", "id": "b" },
+      { "t": "선택해요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "jaehak jungin haksaengeun hakgwareul seontaekhaeyo",
+    "wordIds": ["w_jaehak", "w_hakgwa"],
+    "note": "-(으)ㄴ 채 from M94 could describe remaining enrolled while choosing."
+  },
+  {
+    "id": "s_m144_display",
+    "en": [
+      { "t": "The school", "role": "subject", "id": "a" },
+      { "t": "displayed", "role": "verb", "id": "c" },
+      { "t": "the albums.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "school-[topic]", "role": "subject", "id": "a" },
+      { "t": "album-[obj]", "role": "object", "id": "b" },
+      { "t": "displayed", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "학교는", "role": "subject", "id": "a" },
+      { "t": "앨범을", "role": "object", "id": "b" },
+      { "t": "전시했어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "hakgyoneun aelbeomeul jeonsihaesseoyo",
+    "wordIds": ["w_aelbeom", "w_jeonsihada"],
+    "note": "-(으)ㄴ 결과 from M90 can report the outcome of the exhibition."
+  },
+  {
+    "id": "s_m144_job",
+    "en": [
+      { "t": "The businessperson", "role": "subject", "id": "a" },
+      { "t": "created", "role": "verb", "id": "c" },
+      { "t": "new jobs.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "businessperson-[topic]", "role": "subject", "id": "a" },
+      { "t": "new jobs-[obj]", "role": "object", "id": "b" },
+      { "t": "made", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "사업가는", "role": "subject", "id": "a" },
+      { "t": "새 일자리를", "role": "object", "id": "b" },
+      { "t": "만들었어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "saeopganeun sae iljarireul mandeureosseoyo",
+    "wordIds": ["w_saeopga", "w_iljari"],
+    "note": "-고자 from M90 can explain the purpose of creating jobs."
+  },
+  {
+    "id": "s_m144_tutor",
+    "en": [
+      { "t": "The sisters", "role": "subject", "id": "a" },
+      { "t": "received", "role": "verb", "id": "c" },
+      { "t": "private tutoring.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "sisters-[topic]", "role": "subject", "id": "a" },
+      { "t": "private-tutoring-[obj]", "role": "object", "id": "b" },
+      { "t": "received", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "자매는", "role": "subject", "id": "a" },
+      { "t": "과외를", "role": "object", "id": "b" },
+      { "t": "받았어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "jamaeneun gwaoereul badasseoyo",
+    "wordIds": ["w_jamae", "w_gwaoe"],
+    "note": "-기는 하다 from M92 can qualify whether the tutoring helped."
+  },
+  {
+    "id": "s_m144_media",
+    "en": [
+      { "t": "The mass media", "role": "subject", "id": "a" },
+      { "t": "emphasized", "role": "verb", "id": "c" },
+      { "t": "the similarities.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "mass-media-[topic]", "role": "subject", "id": "a" },
+      { "t": "shared-point-[obj]", "role": "object", "id": "b" },
+      { "t": "emphasized", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "매스컴은", "role": "subject", "id": "a" },
+      { "t": "공통점을", "role": "object", "id": "b" },
+      { "t": "강조했어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "maeseukeomeun gongtongjeomeul gangjohaesseoyo",
+    "wordIds": ["w_maeseukeom", "w_gongtongjeom", "w_gangjo"],
+    "note": "-에 의해 from M90 can recast a claim as being shaped by the media."
+  },
+  {
+    "id": "s_m144_regret",
+    "en": [
+      { "t": "He", "role": "subject", "id": "a" },
+      { "t": "regretted", "role": "verb", "id": "d" },
+      { "t": "his choice", "role": "object", "id": "c" },
+      { "t": "all night.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "he-[topic]", "role": "subject", "id": "a" },
+      { "t": "all-night", "role": "other", "id": "b" },
+      { "t": "regret-[obj]", "role": "object", "id": "c" },
+      { "t": "did", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "그는", "role": "subject", "id": "a" },
+      { "t": "밤새", "role": "other", "id": "b" },
+      { "t": "후회를", "role": "object", "id": "c" },
+      { "t": "했어요.", "role": "verb", "id": "d" }
+    ],
+    "rom": "geuneun bamsae huhoereul haesseoyo",
+    "wordIds": ["w_bamsae", "w_huhoe"],
+    "note": "-던 from M88 can recall the choice; 후회하다 is built transparently from 후회."
   }
 ]

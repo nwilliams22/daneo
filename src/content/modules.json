@@ -3438,5 +3438,28 @@
       "s_m143_sparkle", "s_m143_visitor", "s_m143_family", "s_m143_hospital",
       "s_m143_bowl", "s_m143_volunteer"
     ]
+  },
+  {
+    "id": "m144",
+    "title": "Applications, Places and Working Lives",
+    "order": 153,
+    "ring": 3,
+    "contentMd": "modules/module-144.md",
+    "wordIds": [
+      "w_yebo", "w_yonggamhada", "w_wiheomseong", "w_jaehak",
+      "w_jeonsihada", "w_jeonggijeok", "w_jonggyojeok", "w_jugwanjeok",
+      "w_jikjangin", "w_cheonguk", "w_keunjeol", "w_hakgwa",
+      "w_huhoe", "w_gangjo", "w_gesipan", "w_gongtongjeom",
+      "w_gwaoe", "w_gyonae", "w_naejeok", "w_maraton",
+      "w_maeseukeom", "w_bamsae", "w_byeoril", "w_bonaeoda",
+      "w_buchae", "w_saeopga", "w_sesange", "w_sugo",
+      "w_sigeumchi", "w_sincheongseo", "w_araetsaram", "w_aelbeom",
+      "w_yeojeonhada", "w_yeongnam", "w_iljari", "w_jamae"
+    ],
+    "sentenceIds": [
+      "s_m144_form", "s_m144_board", "s_m144_service", "s_m144_forecast",
+      "s_m144_school", "s_m144_display", "s_m144_job", "s_m144_tutor",
+      "s_m144_media", "s_m144_regret"
+    ]
   }
 ]
