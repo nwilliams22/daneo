@@ -99,7 +99,7 @@ preposition, the whole newspaper opens.
    - 필요성 (必要性) — necessity. PAYS the -성 factory VERBATIM — M57's
      가능성 "ships 중요성 and 필요성 off the same belt" and M81's 중요성
      ("here i…" — read M81's 중요성 note; it paid 중요성 and left 필요성
-     as the last one on the belt). M16's 필요하다 dismounted + M57's 성.
+     as the last one on the belt). M16's 필요하다 dismounted + the -성 suffix in 가능성 (M57).
    - 해당하다 (該當-) — to correspond to, be applicable: 해당 사항 없음 =
      N/A on every form. 該 that (a first) + 當 (M32's 당신 "當身
      that-body" — verify; also M64's 담당하다). 해당 as a bare
@@ -110,10 +110,8 @@ preposition, the whole newspaper opens.
    already taught; sort the five new ones against it:
    - 사정 (事情) — circumstances (personal, the ones you explain):
      사정이 있어요 = I have my reasons; 사정을 봐주다 = cut someone slack.
-     事 (M36's 사건 "事件: the incident" / 사고 "事故") + 情 (M26's 정 —
-     "jeong (deep attachment)"; RADAR: M32's 정치 note: "정 (政) is NOT
-     M19's 정 (情, affection)" — verify which module that note cites 정 to;
-     lookup says 정 is M26 w_jeong_word).
+     事 (M36's 사건 / 사고) + 情 (M26's 정, deep attachment). Distinguish
+     this 情 from the politics-政 in M32's 정치.
    - 형편 (形便) — one's means, how things stand (money): 형편이
      어렵다 = hard up. 形 (M37's 인형 "人形 person-shape") + 便 (M42's
      편안하다 "便安"; M12's 편하다). 형편없다 = terrible, dreadful — the
@@ -129,8 +127,7 @@ preposition, the whole newspaper opens.
 5. **The pressure shelf (11).**
    - 반응 (反應) — reaction, response. 反 (M64's 위반 "違 (go against) +
      反 (turn back)") + 應 respond (a first; RADAR: M71's 응 is the
-     native "yeah"). 반응이 좋다/없다; 화학 반응 (화학 — chemistry, riding
-     frozen; it is a C word for later).
+     native "yeah"). 반응이 좋다/없다; 화학 반응 (화학 — chemistry, already taught in M72).
    - 요구 (要求) — demand. Dismounted from M56's 요구하다 ("要求
      need-seek: the need-要…" — quote the exact span; read the note's
      verb ladder "insists, underlines, sends the bill").

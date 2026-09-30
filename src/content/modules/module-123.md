@@ -2,13 +2,15 @@
 
 Actions leave results: something is protected, explained, preserved, or thrown away. People then call the result refined, disappointing, easy, or inevitable. This pack keeps the active and passive viewpoint visible.
 
+**Vocabulary map:** 30 new checklist words. 보호되다 (M70) · 설명되다 (M70) · 흘러내리다 (M70) · 찢어지다 (M70) · 나아지다 (M70) · 버려지다 (M70) return as earlier vocabulary in this lesson; they are not new checklist entries.
+
 **How to use this:** read the three drawers, then use the word notes for the exact sense and register. Every sentence reuses a Ring 3 pattern already taught; there is no new glue in this pack.
 
 ---
 
 ## Part 1 — Change and the measure of change
 
-The change drawer holds 보호되다, 설명되다, 찢어지다, 나아지다, 되돌리다, and 버려지다. The measure drawer pairs an outfit with refinement, consolation with hurt, and aptitude with a future outlook. A small culture shelf holds philosopher, folk custom, and enlistment.
+The change drawer adds 보존, 재생, 넘어오다, 되돌리다 and 띄우다 beside the protection, explanation, tearing, improvement, discarding and flow verbs from M70. The measure drawer pairs an outfit with refinement, consolation with hurt, and aptitude with a future outlook. A small culture shelf holds philosopher, folk custom, and enlistment.
 
 **Root and form map:**
 
@@ -28,7 +30,7 @@ The change drawer holds 보호되다, 설명되다, 찢어지다, 나아지다, 
 
 ## Part 2 — Building sentences
 
-**Spot the recycling:** M87 -(으)ㄹ 듯하다 in sentence 1; M88 -더라고요 in sentence 2; M89 -(으)ㄹ수록 in sentence 3; M90 에 따르면 in sentence 4; M91 -는 김에 in sentence 5; M93 -길래 in sentence 6; M94 -다 보니 in sentence 7; M95 -더라도 in sentence 8. Each line moves a new slice word through a pattern from M87–M95.
+**Spot the recycling:** M87 -(으)ㄹ 듯하다 in sentence 1; M88 -더라고요 in sentence 2; M89 -(으)ㄹ수록 in sentence 3; M90 에 따르면 in sentence 4; M91 -는 김에 in sentence 5; M93 -길래 in sentence 6; M94 -다 보니 in sentence 7; M95 -더라도 in sentence 8. The lines combine the current slice with earlier change verbs in patterns from M87–M95.
 
 ::sentences::
 

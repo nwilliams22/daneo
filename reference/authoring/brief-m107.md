@@ -72,7 +72,7 @@ sum before reading the note.
    tidy, polish — 머리를 다듬다 M8's 머리, 글을 다듬다 M32's 글; 손질 frozen),
    헤매다 (to wander lost — 길을 헤매다 M12's 길; RADAR: not M60's 매다 (tie)
    — the syllable coincides), 꽂다 (to stick in, insert (a flower, a plug)
-   — 꽃을 꽂다 M7's 꽃 — the 꽃/꽂 spelling trap; 코드를 꽂다 M101's 코드 if
+   — 꽃을 꽂다 M7's 꽃 — the 꽃/꽂 spelling trap; 코드를 꽂다 M72's 코드 if
    shipped).
 
 3. **THE ADJECTIVES (7):** 두렵다 (to be afraid, fearful (formal) — vs

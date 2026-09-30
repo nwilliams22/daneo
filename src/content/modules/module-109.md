@@ -38,7 +38,7 @@ Two rows have no 하다 side at all, and the gap is worth a minute: nothing 오�
 | 코스 | 과정 (M88) | the meal, the route, the track — never the course of study |
 | 댐 | none | the concept arrived with the concrete |
 | 트럭 | 화물차 (frozen) | the mouth's word; the sign keeps the Sino one |
-| 하드웨어 | — | the box M101's 소프트웨어 runs inside |
+| 하드웨어 | — | the box M72's 소프트웨어 runs inside |
 | 스튜디오 | 사진관 · 원룸 (frozen) | the recording booth, and the estate agent's flat |
 | 발레 | 무용 (M51) | the one European kind of dance |
 

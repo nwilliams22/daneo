@@ -1,6 +1,6 @@
 # Korean, Word-First — Module 70: The Becoming Machine
 
-Module 35 built the change machine and kept it small: -아/어지다 on adjectives ("this module keeps to adjectives; the party is next door"). Module 36 threw the party and, at the door, pointed at a tail of guests it had no chairs for — "recognize them and nod." Today the tail graduates. Twenty-eight verbs, zero new machinery: eleven adjectives you have owned since Ring 1 ride the **conveyor** (높다 → 높아지다, 싫다 → 싫어지다), eight verbs go through the **-지다 wing** (쏟다 → 쏟아지다, 정하다 → 정해지다), five 하다-verbs take the **되다-row** swap M36 named by name (준비되다, 포함되다), three party guests M36 said to nod at get seats (읽히다, 먹히다, 섞이다), and one causative that looks exactly like a passive (벗기다) tests whether you read invitations. Every word here is a parent you already know plus a machine you already own.
+Module 35 built the change machine and kept it small: -아/어지다 on adjectives ("this module keeps to adjectives; the party is next door"). Module 36 threw the party and, at the door, pointed at a tail of guests it had no chairs for — "recognize them and nod." Today the tail graduates. Forty checklist words, zero new machinery: eleven adjectives you have owned since Ring 1 ride the **conveyor** (높다 → 높아지다, 싫다 → 싫어지다), eight verbs go through the **-지다 wing** (쏟다 → 쏟아지다, 정하다 → 정해지다), five 하다-verbs take the **되다-row** swap M36 named by name (준비되다, 포함되다), three party guests M36 said to nod at get seats (읽히다, 먹히다, 섞이다), and one causative that looks exactly like a passive (벗기다) tests whether you read invitations. Most parents are already yours; the notes gloss the few later roots without assuming that you have learned them.
 
 **How to use this:** the notes are the module. Each one names the parent, the parent's owner, and the conjugation the parent forces — the ㅂ that surfaces in 짧아지다, the 워 that survives in 가까워지다, the silent ㅎ in 많아지다 — so drill the parent's polite form first and the change-verb is free. Then spend your reps on the three radar pairs: 작아지다 (size) vs 적어지다 (amount), 끊어지다 (snaps by itself) vs M36's 끊기다 (cut off by something), and 벗기다 (the M37 party) vs the 기 passives it impersonates.
 
@@ -18,7 +18,7 @@ Korean would rather tell you what happened than who did it, and this module is t
 
 ## Part 2 — The bricks
 
-Read the shelf in its four rows — eleven conveyor verbs, eight wing verbs, five 되다-row verbs, four party guests — and read each note for its parent before its meaning: the parent's polite form is already the first half of the word.
+Read each note for its parent before its meaning. The original conveyor, wing, 되다-row and party guests now meet twelve more changes: clean and dirty, bright and clear, late and long, improvement, tearing, discarding, protection, explanation and downward flow. The parent’s polite form usually supplies the first half.
 
 ::vocab::
 
@@ -35,6 +35,8 @@ The M36 md filed 먹히다 ("get eaten — the food chain's verb") and 읽히다
 ### 2. The one that looks like a passive
 
 **벗기다** = M21's 벗다 + 기, and it is MAKE-do: 아이 옷을 벗기다 (undress the child), 사과 껍질을 벗기다 (peel the apple — M40's 껍질 comes off because someone took it off). The M37 md listed the bedtime routine 눕히다, 씻기다, 신기다 as table-only guests; 벗기다 is the step before all three.
+
+**Everyday changes, compared:** 깨끗해지다 and 더러워지다 move a room in opposite directions; 밝아지다 changes its light, while 분명해지다 makes a reason clear. 늦어지다 delays the start; 길어지다 extends the duration. 나아지다 keeps the disappearing ㅅ of M14’s 낫다. 찢어지다 and 버려지다 put the damaged or discarded thing in the subject slot; 보호되다 and 설명되다 do the same for protection and explanation. 흘러내리다 is a compound of M35’s 흐르다 and M6’s 내리다: the liquid moves down, but no passive suffix caused it.
 
 **Calibration:** the conveyor and the wing are everyday speech — 점점 추워져요, 비가 쏟아져요, 날짜가 정해졌어요 belong at any table. The 되다-row is what the M61 md called "formal furniture": natural in print and on microphones, stiff at dinner — with one exception everyone says, 준비됐어요?
 

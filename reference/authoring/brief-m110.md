@@ -106,7 +106,7 @@ offices never replaced.
    절망 (絶望 — 絶 of M33's 거절하다 "拒絶 refuse" + 望 of M34's 희망 "希望
    rare-gaze": despair — the mirror of 희망; 절망하다 frozen; 절망적), 공해
    (公害 — 公 of M6's 공원 (M48's 공연 note) + 害 of M86's 피해 "被害
-   suffer-harm": pollution (as public harm); vs M99's 오염 if shipped —
+   suffer-harm": pollution (as public harm); vs M72's 오염 if shipped —
    오염 is the dirt, 공해 the harm; RADAR: not M17's 공 + M11's 해).
 
 **Word slice (34):** 풍습 · 관습 · 청춘 · 곡 · 살림 · 광경 · 사방 · 해안 · 서부 · 인근 · 시중 · 허가 · 상담 · 심사 · 정기 · 제의 · 승진 · 경력 · 근로 · 명의 · 부회장 · 대다수 · 일반인 · 흑인 · 연예인 · 투표 · 화장 · 주방 · 부품 · 분량 · 의욕 · 실현 · 절망 · 공해. All grade C; stable IDs retained.

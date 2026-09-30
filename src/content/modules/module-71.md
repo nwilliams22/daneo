@@ -23,6 +23,8 @@ Radar first: three of these are homographs of things you own. The 야 of 야근�
 
 ::vocab::
 
+**Thirteen more ways to manage the floor:** 아하 marks understanding; 세상에 marks surprise; 웃음소리 is what you hear when 하하 becomes laughter. 어째서 asks why, 그래야 points back to a necessary step, and 더더욱 strengthens the comparison. 별일 checks for unusual news, 수고 acknowledges effort, and 가만있다 asks for stillness or describes inaction. 쓸데없다 can dismiss a remark, so a polite ending alone does not make it gentle. 아무개 leaves a name blank; 이놈 judges the person and needs the same register caution as 새끼. Finally, 요 before a noun is a familiar **this**, not the polite ending at the end of a sentence.
+
 **The no-ladder, complete:** 아니 (M29) among friends, 아니야 to close a question, 아뇨 upward, 아닙니다 in uniform — four shapes of one refusal, sorted by listener. **The anyway-trio:** 어쨌든 (M33, neutral), 하여튼 (a shade formal), 아무튼 (the mouth's favorite); all three share the -든/-튼 that M33's 어쨌든 note said was 'still in the mail' — it still is.
 
 ---

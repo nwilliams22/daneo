@@ -277,6 +277,8 @@ garnish or sentence payload changes. Current donor counts: M111 31, M121 33, M12
 All remain within Ring 3’s 30–38 range; M124 and M143 have no further
 capacity. Earlier count notes above are historical snapshots.
 
+**M70–M72 count correction (2026-09-30):** each now registers 40 distinct non-particle words. Twelve change and motion verbs moved from M123, M139 and M148 to M70; thirteen conversational expressions moved from M122, M142 and M144 to M71; ten laboratory, equipment and computing words moved from M99, M101 and M103 to M72. All 35 retain stable IDs, full notes and NIKL coverage; sentence payloads and the Ring 2 contract are unchanged. Latest donor counts: M99 30, M101 30, M103 33, M122 30, M123 30, M139 33, M142 30, M144 30 and M148 30. Only M103 and M139 retain capacity in this donor set (three each).
+
 ### Ring 2 glue checklist (~40 patterns)
 
 Quoting -다고/-라고/-냐고/-자고/-달라고 · indirect -는지 · **-는데/-(으)ㄴ데**

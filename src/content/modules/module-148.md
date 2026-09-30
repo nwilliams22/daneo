@@ -2,7 +2,7 @@
 
 A bag needs moving, a road bends, and a summer walk changes when rain arrives. The words in this pack follow the movement of people and things through ordinary places.
 
-**Vocabulary map:** 34 new checklist words. Reuse 건넌방 (M65) · 반대편 (M65) as earlier vocabulary in the comparisons and sentence deck.
+**Vocabulary map:** 30 new checklist words. Reuse 건넌방 (M65) · 반대편 (M65) and 깨끗해지다 · 더러워지다 · 밝아지다 · 분명해지다 (M70) as earlier vocabulary in the comparisons and sentence deck.
 
 **How to use this:** Learn the checklist, then read each three-layer sentence in order. Trace each Korean chunk through the gloss to the natural English.
 
@@ -16,7 +16,7 @@ A bag needs moving, a road bends, and a summer walk changes when rain arrives. T
 
 ## Part 2 — Small changes you can see
 
--아/어지다 from M35 turns a quality into a change: 깨끗해지다, 더러워지다, 밝아지다 and 분명해지다. The weather can be 무덥다 while a room becomes clean or a path grows visible. These are distinct outcomes, not interchangeable degrees of one adjective.
+Review M70’s 깨끗해지다, 더러워지다, 밝아지다 and 분명해지다, all built with -아/어지다 from M35. The weather can be 무덥다 while a room becomes clean or a path grows visible. These are distinct outcomes, not interchangeable degrees of one adjective.
 
 ::vocab::
 

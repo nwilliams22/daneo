@@ -6,7 +6,7 @@ the DEFAULT slim md shape, NO glue parts; each sentence recycles and
 names one Band 7 pattern. NO morpheme-possessive phrasings; cite in
 hangul. Every quote VERBATIM — where the brief says "quote its exact
 span", run lookup.py and copy. Read M45's md (the -적 factory), M27's
-compass and 주인 notes, M47's 부모/신부 notes, M90's 민주주의 note (-주의),
+compass and 주인 notes, M4's 부모님 and M47's 신부 notes, M90's 민주주의 note (-주의),
 M98's md (남부 and the rails), M99's md if shipped (the -적 shelf I)
 BEFORE drafting.
 
@@ -15,14 +15,14 @@ THE PERSONS (인 소유자 피해자 학부모 원장 농부 마누라 동행), 
 TIMES (초원 강남 북부 한가운데 기원전 말기 이달 애초 개국), THE -적 SHELF II
 (창조적 절대적 합리적 필수적 전반적 부정적), THE COMPOUNDS (사회주의 증권사
 환경오염 자연환경 가치관 학번 학용품 호기심 등등). Organizing thesis: **the
-long tail is compounds of taught halves** — 환경오염 = M32's 환경 + M99's
+long tail is compounds of taught halves** — 환경오염 = M32's 환경 + M72's
 오염, 자연환경 = 자연 + 환경, 가치관 = 가치 + 觀, 학용품 = 학 + 용품 — and the
 learner already owns nearly every half.
 
 **Owners verified — cite exactly these:**
 
 1. **THE PERSONS (8):** 인 (人 — the bare person-root: PAYS M17's 인기
-   and M19's 인사 notes only as sound radars (their 인 is 人 in 인사 —
+   and M19's 인사하다 note only as sound radars (their 인 is 人 in 인사 —
    verify; 인기's 인 is 人 too); the -인 suffix of M23's 외국인, M32's 인간
    "人間 person-between"; bare 인 = a person (counted: 한 인 — archaic;
    mostly a suffix: 정치인 M100 if shipped, 지식인 M96)), 소유자 (所有者 —
@@ -86,7 +86,7 @@ learner already owns nearly every half.
    (capitalism — frozen) is its opposite), 증권사 (證券社 — M97's 증권 + 社 of
    M32's 사회 (the company-社 M100's 사설 uses if shipped): a securities firm;
    the -사 company rail: 신문사 M81, 회사 M2), 환경오염 (環境汚染 — M32's 환경
-   + M99's 오염 if shipped (else 汚染 fresh): environmental pollution), 자연환경
+   + M72's 오염 if shipped (else 汚染 fresh): environmental pollution), 자연환경
    (自然環境 — M22's 자연 + M32's 환경: the natural environment; 자연환경 보호
    M81's 보호), 가치관 (價値觀 — PAYS M87's 가치 — lookup.py the owner and quote its exact span verbatim (copy the full sentence) — and M91's 형성하다 — quote
    its exact 가치관 span; M87's 가치 + 觀 of M35's 습관 note's see-觀: one's

@@ -2,13 +2,15 @@
 
 An attempt starts inside an institution, meets interference, and may be stopped or changed. This slice places records and invitations beside words for effort, weakness, and sudden obstacles.
 
+**Vocabulary map:** 30 new checklist words. 아무개 (M71) · 어째서 (M71) · 이놈 (M71) · 그래야 (M71) return as earlier vocabulary in this lesson; they are not new checklist entries.
+
 **How to use this:** read the three drawers, then use the word notes for the exact sense and register. Every sentence reuses a Ring 3 pattern already taught; there is no new glue in this pack.
 
 ---
 
 ## Part 1 — Attempts and interruptions
 
-The institution drawer holds a headquarters, a résumé, an invitation, a publisher, and age or anniversary labels. The action drawer moves from 시도 to 중단하다, 가로막다, and 달리하다. The stance drawer reuses M45’s reluctance and maturity beside the tone of 이놈.
+The institution drawer holds a headquarters, a résumé, an invitation, a publisher, and age or anniversary labels. The action drawer moves from 시도 to 중단하다, 가로막다, and 달리하다. The stance drawer reuses M45’s reluctance and maturity beside the tone of 이놈 from M71.
 
 **Root and form map:**
 
@@ -22,7 +24,7 @@ The institution drawer holds a headquarters, a résumé, an invitation, a publis
 
 **Use the word in context.** The entries give a real setting and a comparison with a word already owned. The small side shelf stays in the pack because the grade-C list is ranked; no extra vocabulary is introduced to make the theme look tidier.
 
-**Radar patrol:** 보도되다 makes the reported event the subject · 이력서 was earlier counted by 부 · 손질하다 is the action; M123 will teach 손질 the noun · 그래야 points back to a necessary step.
+**Radar patrol:** 보도되다 makes the reported event the subject · 이력서 was earlier counted by 부 · 손질하다 is the action; M123 will teach 손질 the noun · M71’s 그래야 points back to a necessary step.
 
 ---
 

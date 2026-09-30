@@ -27,7 +27,7 @@ lessons.
 1. **THE 되다 FLIPS (10) — quote M70's flip line once in the md, then
    one receipt each:** 구속되다 (PAYS M98's 구속 — quote its exact "구속되다
    (frozen)" span), 요구되다 (M86's 요구 flipped — 노력이 요구되다 M39's 노력),
-   오염되다 (PAYS M99's 오염 — quote its exact "오염되다 (riding free" span),
+   오염되다 (PAYS M72's 오염 — quote its exact "오염되다 (riding free" span),
    표현되다 (M33's 표현 "表現 surface-appear" flipped — 감정이 표현되다 M42's
    감정), 해당되다 (M86's 해당하다 → 되다: to be applicable — 다음 경우에
    해당되다 M32's 경우), 제한되다 (M64's 제한 flipped — 인원이 제한되다 M58's
@@ -80,7 +80,7 @@ lessons.
    twin 과정 M88 is the course of study; RADAR: not M14's 코), 댐 (dam — 댐을
    건설하다 M97's 건설하다 if shipped; no Korean twin — the word arrived with
    the concrete), 트럭 (PAYS M76's 톤 — lookup.py the owner and quote its exact span verbatim (copy the full sentence); the Sino twin 화물차 (frozen) is the sign's),
-   하드웨어 (hardware — beside M101's 소프트웨어 if shipped; RADAR: 하드웨어 is
+   하드웨어 (hardware — beside M72's 소프트웨어 if shipped; RADAR: 하드웨어 is
    NEVER the hardware store — that is 철물점, frozen), 스튜디오 (studio — a
    recording studio, a photo studio (사진관 frozen is the older word), and
    the 원룸 kin: 스튜디오 as an apartment type — one clause), 발레 (ballet,

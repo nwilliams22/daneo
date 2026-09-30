@@ -4,7 +4,7 @@ M94 opened the native verb shelf with motion and mishap, M102 welded old verbs i
 
 **Earlier-word review:** 뒤늦다, 다름없다, 폭넓다, 두렵다, 환하다 and 건전하다 belong to M63. The table and calibration below reuse those six; the checklist introduces thirty other words.
 
-**How to use this:** cover the right-hand column of the weld table and read the left one aloud; whatever you guess will be close enough to keep. Then take the four drawers in order and spend your reps on the Sino adjectives, because each is two characters and you own most of them already — 貴 and 抑 are firsts, while 鬱, 堂, 健 and 全 all landed in earlier modules. Five earlier notes wrote IOUs on this shelf, and today they clear: M74's 멋 promised 멋지다, M94's 빠져나가다 promised 빠져나오다, M101's 코드 promised 꽂다, M74's 귀엽다 ran the bare 척 before 척하다 existed, and M88's 한마디 spent a proverb's 빚 without owning 갚다. Read the Radar patrol slowly: this shelf is built almost entirely out of syllables you have already met doing other jobs.
+**How to use this:** cover the right-hand column of the weld table and read the left one aloud; whatever you guess will be close enough to keep. Then take the four drawers in order and spend your reps on the Sino adjectives, because each is two characters and you own most of them already — 貴 and 抑 are firsts, while 鬱, 堂, 健 and 全 all landed in earlier modules. Five earlier notes wrote IOUs on this shelf, and today they clear: M74's 멋 promised 멋지다, M94's 빠져나가다 promised 빠져나오다, M72's 코드 promised 꽂다, M74's 귀엽다 ran the bare 척 before 척하다 existed, and M88's 한마디 spent a proverb's 빚 without owning 갚다. Read the Radar patrol slowly: this shelf is built almost entirely out of syllables you have already met doing other jobs.
 
 ---
 

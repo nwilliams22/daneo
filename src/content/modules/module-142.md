@@ -2,6 +2,8 @@
 
 Costs, obligations and forms can reshape an ordinary evening. A lease needs a deposit, a form needs a signature, and even a short route can feel long after a sleepless night.
 
+**Vocabulary map:** 30 new checklist words. 쓸데없다 (M71) · 아하 (M71) · 요 (M71) · 웃음소리 (M71) · 가만있다 (M71) · 더더욱 (M71) return as earlier vocabulary in this lesson; they are not new checklist entries.
+
 **How to use this:** Read the scene shelves, then learn the vocabulary before opening the sentences. Follow each chunk through Korean, literal gloss and natural English.
 
 > **Warm-up — transfer from Module 141.** Say: (1) The application needs another signature. (2) The service counter is behind the building. (3) A participant remembers a shortcut. Build fresh combinations, not a sentence from the previous page.
@@ -14,7 +16,7 @@ Costs, obligations and forms can reshape an ordinary evening. A lease needs a de
 
 **The physical scene.** 아스팔트 covers the road, 잔디 covers a field, and 뒤편 locates the back. 매달다 suspends an object; 날아다니다 describes movement through the air.
 
-**A sense to guard.** 요 is a spoken this before a noun, not the polite ending. 새우다 in 밤을 새우다 means staying awake. 값싸다 may praise a price or criticize quality.
+**A sense to guard.** 요 from M71 is a spoken this before a noun, not the polite ending. 새우다 in 밤을 새우다 means staying awake. 값싸다 may praise a price or criticize quality.
 
 ::vocab::
 

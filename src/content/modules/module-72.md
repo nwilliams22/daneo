@@ -1,6 +1,6 @@
 # Korean, Word-First — Module 72: The Laboratory
 
-M32 handed you 연구 and 결과; this module builds the room between them. The pool's two highest-ranked nouns live here (기계, 에너지), with the people and buildings of research (과학자, 연구자, 연구소), the machine shelf (전자, 석유, 산소, 자동, 도구, 모델), and the process verbs every textbook chapter and news feature runs on — 분석하다, 관찰하다, 개발하다, 연결하다, 확대하다. The organizing thesis: **nearly every word here is hanja you already own, and every -하다 arrives with its -되다 standing next to it.** M56 built the news-verb engine; M57 the measuring kit; M61 the 되다-row's register. Today: the lab, with the pairs wired side by side.
+M32 handed you 연구 and 결과; this module builds the room between them. The pool's two highest-ranked nouns live here (기계, 에너지), with the people and buildings of research (과학자, 연구자, 연구소), the machine shelf (전자, 석유, 산소, 자동, 도구, 모델), and the process verbs every textbook chapter and news feature runs on — 분석하다, 관찰하다, 개발하다, 연결하다, 확대하다. The organizing thesis: **nearly every word here is hanja you already own, and the paired -하다/-되다 verbs show both sides of a process.** M56 built the news-verb engine; M57 the measuring kit; M61 the 되다-row's register. Today: the lab, with the pairs wired side by side.
 
 **How to use this:** read the decodes before you drill — the person-者 and place-所 factories, the launch-發 family, and the tie-結 knot each build three or four words on this shelf, and the X-rays do the memorizing. Spend your reps on the use-trio (사용/이용/활용), the two 발s (발달/발전), and the 하다/되다 pairs: Band 6 words earn their rank by refusing to be interchangeable.
 
@@ -19,6 +19,8 @@ This shelf is mostly receipts:
 ---
 
 ## Part 2 — The bricks
+
+**The test bench:** 실험 tests the world where M10’s 시험 tests a learner. 화학 studies changing substances, 생물 names living things, 특성 describes their properties, and 효과적 asks whether a method works. 오염 names contamination rather than an experiment’s success. 장비 gathers the equipment; 소프트웨어 runs on the computer, 시스템 names the connected arrangement, and 코드 can be the program code or the power cord. Read the room before choosing the English meaning.
 
 ::vocab::
 

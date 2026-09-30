@@ -2,6 +2,8 @@
 
 A board announces results, a department accepts a form, and work creates both risk and opportunity. The public nouns also have private counterparts: regret, belief and family.
 
+**Vocabulary map:** 30 new checklist words. 별일 (M71) · 세상에 (M71) · 수고 (M71) return as earlier vocabulary in this lesson; they are not new checklist entries.
+
 **How to use this:** Read the scene shelves, then learn the vocabulary before opening the sentences. Follow each chunk through Korean, literal gloss and natural English.
 
 > **Warm-up — transfer from Module 143.** Say: (1) Hand in the graded work. (2) Volunteer at school after grading. (3) A visitor submits an application. Build fresh combinations, not a sentence from the previous page.
@@ -16,7 +18,7 @@ A board announces results, a department accepts a form, and work creates both ri
 
 **A sense to guard.** 부채 can be a hand fan or a debt. 영남 names a region. 주관적 describes an individual view; 공통점 names what views share.
 
-**Earlier vocabulary:** 종교적 → M69; 천국 → M69; 큰절 → M69. These words return in the examples as review; the 33 entries below are this pack’s new checklist.
+**Earlier vocabulary:** 종교적 → M69; 천국 → M69; 큰절 → M69. These words return in the examples as review; the 30 entries below are this pack’s new checklist.
 
 ::vocab::
 
