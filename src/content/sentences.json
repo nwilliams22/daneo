@@ -9186,16 +9186,16 @@
     "en": [
       { "t": "It's just", "role": "other", "id": "a" },
       { "t": "like", "role": "verb", "id": "v" },
-      { "t": "a dream", "role": "object", "id": "o" }
+      { "t": "a dream", "role": "other", "id": "o" }
     ],
     "gloss": [
       { "t": "as-if", "role": "other", "id": "a" },
-      { "t": "dream", "role": "object", "id": "o" },
+      { "t": "dream", "role": "other", "id": "o" },
       { "t": "same-is", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "마치", "role": "other", "id": "a" },
-      { "t": "꿈", "role": "object", "id": "o" },
+      { "t": "꿈", "role": "other", "id": "o" },
       { "t": "같아요", "role": "verb", "id": "v" }
     ],
     "rom": "machi kkum gatayo",
