@@ -12763,6 +12763,15 @@
     "notes": "깨다 + 지다: glass's destiny — 컵이 깨졌어요 (the cup broke; no suspect named — the grammar of roommates everywhere). Screens, promises, and records also 깨지다: 약속이 깨졌어요 = the plan fell through. M35's machine on a verb, exactly as flagged."
   },
   {
+    "id": "w_manggajida",
+    "ko": "망가지다",
+    "rom": "manggajida",
+    "en": "to be broken; to be ruined",
+    "pos": "verb",
+    "moduleId": "m36",
+    "notes": "A thing loses its usefulness: 핸드폰이 망가졌어요 = the phone broke. Compare 유리가 깨졌어요 (M36's 깨지다): glass breaks into pieces, while a phone can 망가지다 without cracking. M13's 고치다 is what you try next. It also reaches beyond objects: 몸이 망가졌어요 = the body is worn down. The result is the subject; the sentence leaves the cause unnamed."
+  },
+  {
     "id": "w_kyeojida",
     "ko": "켜지다",
     "rom": "kyeojida",

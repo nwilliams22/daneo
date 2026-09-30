@@ -40,6 +40,7 @@ Which suffix goes with which verb? **There's no rule — only membership.** That
 **And the rest of the language?** Two other machines cover what the party doesn't:
 
 - **-아/어지다 on verbs** (M35's machine, second job): 깨지다, 켜지다, 꺼지다, 사라지다 — the -지다 wing of the party.
+- **Damage without a culprit:** 유리가 깨졌어요 says the glass broke; 핸드폰이 망가졌어요 says the phone no longer works, even if its screen is intact. Both put the affected thing in the subject seat.
 - **되다-verbs** for the 하다-family: 시작하다 → 시작**되다**, 준비되다, 걱정되다 — swap the 하다, get the happen-form. (You've said 긴장돼요 and 기대돼요 since M34 — that was this.)
 
 Three machines, one idea: Korean would rather tell you *what happened* than *who did it*.
