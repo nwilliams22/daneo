@@ -27159,5 +27159,182 @@
     "rom": "gananhadeorado kkumeul pogihaji maseyo",
     "wordIds": ["w_gananhada", "w_kkum", "w_pogihada"],
     "note": "-더라도 from M95 preserves the advice despite the condition; -지 마세요 from M14 supplies the request. Today’s noun 가난 is paired here with the already taught adjective 가난하다."
+  },
+  {
+    "id": "s_m128_service_wait",
+    "en": [
+      { "t": "Because services had been reduced,", "role": "other", "id": "a" },
+      { "t": "I waited", "role": "verb", "id": "d" },
+      { "t": "a long time", "role": "other", "id": "c" },
+      { "t": "for the bus", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "service-[subj] decrease-[badge] fault-because", "role": "other", "id": "a" },
+      { "t": "bus-[obj]", "role": "object", "id": "b" },
+      { "t": "long-time", "role": "other", "id": "c" },
+      { "t": "waited", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "운행이 줄어든 탓에", "role": "other", "id": "a" },
+      { "t": "버스를", "role": "object", "id": "b" },
+      { "t": "오래", "role": "other", "id": "c" },
+      { "t": "기다렸어요", "role": "verb", "id": "d" }
+    ],
+    "rom": "unhaengi jureodeun tase beoseureul orae gidaryeosseoyo",
+    "wordIds": ["w_unhaeng", "w_jureodeulda", "w_tat", "w_beoseu", "w_orae", "w_gidarida"],
+    "note": "-(으)ㄴ 탓에 from M86 assigns the unwelcome delay to reduced service. 운행 names the transport operation, not the passenger’s act of riding."
+  },
+  {
+    "id": "s_m128_exhibit_impression",
+    "en": [
+      { "t": "The exhibition", "role": "subject", "id": "a" },
+      { "t": "was memorable", "role": "verb", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "exhibition-[subj]", "role": "subject", "id": "a" },
+      { "t": "impressive-copula-observed", "role": "verb", "id": "b" }
+    ],
+    "ko": [
+      { "t": "전시가", "role": "subject", "id": "a" },
+      { "t": "인상적이더라고요", "role": "verb", "id": "b" }
+    ],
+    "rom": "jeonsiga insangjeogideoragoyo",
+    "wordIds": ["w_jeonsi", "w_insangjeok"],
+    "note": "-더라고요 from M88 gives an impression formed firsthand. 인상적 takes the copula before that ending; the speaker is reporting a response to the exhibition."
+  },
+  {
+    "id": "s_m128_waste_loss",
+    "en": [
+      { "t": "The more waste decreases,", "role": "other", "id": "a" },
+      { "t": "losses too", "role": "subject", "id": "b" },
+      { "t": "decrease", "role": "verb", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "waste-[subj] decrease-the-more", "role": "other", "id": "a" },
+      { "t": "loss-also", "role": "subject", "id": "b" },
+      { "t": "decrease", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "낭비가 줄어들수록", "role": "other", "id": "a" },
+      { "t": "손실도", "role": "subject", "id": "b" },
+      { "t": "줄어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "nangbiga jureodeulsurok sonsildo jureoyo",
+    "wordIds": ["w_nangbi", "w_jureodeulda", "w_sonsil", "w_julda"],
+    "note": "-(으)ㄹ수록 from M89 pairs two trends. 낭비 is wasteful use; 손실 is the resulting loss, so the two nouns are related without being interchangeable."
+  },
+  {
+    "id": "s_m128_found_school",
+    "en": [
+      { "t": "According to the plan,", "role": "other", "id": "a" },
+      { "t": "we founded", "role": "verb", "id": "d" },
+      { "t": "the school", "role": "object", "id": "c" },
+      { "t": "in the first half of the year", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "plan-according-to", "role": "other", "id": "a" },
+      { "t": "first-half-year-in", "role": "other", "id": "b" },
+      { "t": "school-[obj]", "role": "object", "id": "c" },
+      { "t": "established", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "계획에 따라", "role": "other", "id": "a" },
+      { "t": "상반기에", "role": "other", "id": "b" },
+      { "t": "학교를", "role": "object", "id": "c" },
+      { "t": "설립했어요", "role": "verb", "id": "d" }
+    ],
+    "rom": "gyehoege ttara sangbangie hakgyoreul seolliphaesseoyo",
+    "wordIds": ["w_gyehoek", "w_ttareuda", "w_sangbangi", "w_hakgyo", "w_seolliphada"],
+    "note": "에 따라 from M90 names the plan as the basis for the action. 상반기에 gives the reporting period; 설립하다 establishes the institution itself."
+  },
+  {
+    "id": "s_m128_pack_anchovies",
+    "en": [
+      { "t": "While packing", "role": "other", "id": "b" },
+      { "t": "my luggage,", "role": "object", "id": "a" },
+      { "t": "I packed", "role": "verb", "id": "d" },
+      { "t": "anchovies too", "role": "object", "id": "c" }
+    ],
+    "gloss": [
+      { "t": "luggage-[obj]", "role": "object", "id": "a" },
+      { "t": "pack-while-at-it", "role": "other", "id": "b" },
+      { "t": "anchovy-also", "role": "object", "id": "c" },
+      { "t": "packed-took-care-of", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "짐을", "role": "object", "id": "a" },
+      { "t": "꾸리는 김에", "role": "other", "id": "b" },
+      { "t": "멸치도", "role": "object", "id": "c" },
+      { "t": "챙겼어요", "role": "verb", "id": "d" }
+    ],
+    "rom": "jimeul kkurineun gime myeolchido chaenggyeosseoyo",
+    "wordIds": ["w_jim", "w_kkurida", "w_gim", "w_myeolchi", "w_chaenggida"],
+    "note": "-는 김에 from M91 adds an errand to the activity already underway. 꾸리다 organizes the luggage; 챙기다 ensures the anchovies are not forgotten."
+  },
+  {
+    "id": "s_m128_water_drop",
+    "en": [
+      { "t": "There was not even a drop of water, so", "role": "other", "id": "a" },
+      { "t": "I went", "role": "verb", "id": "c" },
+      { "t": "to the store", "role": "place", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "water-[subj] one drop-even not-exist-because-observed", "role": "other", "id": "a" },
+      { "t": "store-to", "role": "place", "id": "b" },
+      { "t": "went", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "물이 한 방울도 없길래", "role": "other", "id": "a" },
+      { "t": "가게에", "role": "place", "id": "b" },
+      { "t": "갔어요", "role": "verb", "id": "c" }
+    ],
+    "rom": "muri han banguldo eopgillae gagee gasseoyo",
+    "wordIds": ["w_mul", "w_hana", "w_bangul", "w_eopda", "w_gage", "w_gada"],
+    "note": "-길래 from M93 turns an observed shortage into a reason to act. 한 방울도 없다 emphasizes complete absence; this 방울 is a liquid drop, not a bell."
+  },
+  {
+    "id": "s_m128_care_adolescence",
+    "en": [
+      { "t": "After spending time caring for", "role": "other", "id": "b" },
+      { "t": "a child,", "role": "object", "id": "a" },
+      { "t": "adolescence", "role": "subject", "id": "c" },
+      { "t": "makes sense to me", "role": "verb", "id": "d" }
+    ],
+    "gloss": [
+      { "t": "child-[obj]", "role": "object", "id": "a" },
+      { "t": "care-for-over-time-find", "role": "other", "id": "b" },
+      { "t": "adolescence-[subj]", "role": "subject", "id": "c" },
+      { "t": "is-understood", "role": "verb", "id": "d" }
+    ],
+    "ko": [
+      { "t": "아이를", "role": "object", "id": "a" },
+      { "t": "보살피다 보니", "role": "other", "id": "b" },
+      { "t": "사춘기가", "role": "subject", "id": "c" },
+      { "t": "이해돼요", "role": "verb", "id": "d" }
+    ],
+    "rom": "aireul bosalpida boni sachungiga ihaedwaeyo",
+    "wordIds": ["w_ai", "w_bosalpida", "w_boda", "w_sachungi", "w_ihaedoeda"],
+    "note": "-다 보니 from M94 presents understanding as something reached through experience. The main subject is 사춘기, what becomes understandable."
+  },
+  {
+    "id": "s_m128_formal_reply",
+    "en": [
+      { "t": "Even if it is only a formality,", "role": "other", "id": "a" },
+      { "t": "do not omit", "role": "verb", "id": "c" },
+      { "t": "the answer", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "formal-copula-even-if", "role": "other", "id": "a" },
+      { "t": "answer-[obj]", "role": "object", "id": "b" },
+      { "t": "leave-out-do-not", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "형식적이더라도", "role": "other", "id": "a" },
+      { "t": "답변을", "role": "object", "id": "b" },
+      { "t": "빼놓지 마세요", "role": "verb", "id": "c" }
+    ],
+    "rom": "hyeongsikjeogideorado dapbyeoneul ppaenochi maseyo",
+    "wordIds": ["w_hyeongsikjeok", "w_dapbyeon", "w_ppaenota"],
+    "note": "-더라도 from M95 concedes that the response may be perfunctory while keeping the request intact. 빼놓다 is omission here, not deliberately saving something for later."
   }
 ]

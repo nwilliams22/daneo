@@ -2973,5 +2973,27 @@
       "s_m127_live_late", "s_m127_forum_long", "s_m127_gather_clarity", "s_m127_report_script",
       "s_m127_pocket_keys", "s_m127_deer_photo", "s_m127_stone_stumble", "s_m127_poor_dream"
     ]
+  },
+  {
+    "id": "m128",
+    "title": "Keeping, Including and Preserving",
+    "order": 137,
+    "ring": 3,
+    "contentMd": "modules/module-128.md",
+    "wordIds": [
+      "w_unhaeng", "w_idaero", "w_inganseong", "w_insangjeok",
+      "w_jeonsi", "w_jogeumahada", "w_juhan", "w_jungnyeon",
+      "w_jjikkeogi", "w_poham", "w_hyeongsikjeok", "w_honam",
+      "w_gaiphada", "w_gamso", "w_gubundoeda", "w_guip",
+      "w_giyeo", "w_giho", "w_kkurida", "w_nangbi",
+      "w_daeryak", "w_deopida", "w_dorieo", "w_rain",
+      "w_myeolchi", "w_bangul", "w_bogwan", "w_bosalpida",
+      "w_bowanhada", "w_bojonhada", "w_ppaenota", "w_sasang",
+      "w_sachungi", "w_sangbangi", "w_seonjeon", "w_seolliphada"
+    ],
+    "sentenceIds": [
+      "s_m128_service_wait", "s_m128_exhibit_impression", "s_m128_waste_loss", "s_m128_found_school",
+      "s_m128_pack_anchovies", "s_m128_water_drop", "s_m128_care_adolescence", "s_m128_formal_reply"
+    ]
   }
 ]
