@@ -3544,5 +3544,23 @@
     "lit": "To live on a lump-sum lease.",
     "real": "To rent on a jeonse deposit.",
     "note": "전세 names the deposit-based housing arrangement, distinct from monthly rent."
+  },
+  {
+    "id": "g_m143_1",
+    "cat": "phrase",
+    "ko": "바가지를 쓰다",
+    "rom": "bagajireul sseuda",
+    "lit": "To wear a gourd bowl.",
+    "real": "To be overcharged.",
+    "note": "The idiom uses the bowl sense figuratively; no bowl is worn."
+  },
+  {
+    "id": "g_m143_2",
+    "cat": "phrase",
+    "ko": "미움을 사다",
+    "rom": "miumeul sada",
+    "lit": "To buy dislike.",
+    "real": "To incur someone’s dislike.",
+    "note": "사다 extends from buying to attracting an unwanted feeling."
   }
 ]

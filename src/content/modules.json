@@ -3415,5 +3415,28 @@
       "s_m142_night", "s_m142_jog", "s_m142_road", "s_m142_payment",
       "s_m142_route", "s_m142_reaction"
     ]
+  },
+  {
+    "id": "m143",
+    "title": "Night Work, Family and Small Things",
+    "order": 152,
+    "ring": 3,
+    "contentMd": "modules/module-143.md",
+    "wordIds": [
+      "w_banjjagida", "w_bunjuhada", "w_bipanjeok", "w_ppaetda",
+      "w_sojunghi", "w_sudokkokji", "w_ssaguryeo", "w_eojjina",
+      "w_eongteori", "w_wibeop", "w_yukchejeok", "w_eumnyeok",
+      "w_jandibat", "w_jeonmunjik", "w_jechul", "w_chaejeom",
+      "w_chimchakhada", "w_kamkamhada", "w_tajagi", "w_pointeu",
+      "w_pokeu", "w_hanbamjung", "w_hyodo", "w_gwallamgaek",
+      "w_gwiga", "w_geuriwohada", "w_dwinmun", "w_ttarai",
+      "w_manjokseureopda", "w_mium", "w_bagaji", "w_balkkeut",
+      "w_byeongsil", "w_bongsahada", "w_bihaengjang", "w_seupgi"
+    ],
+    "sentenceIds": [
+      "s_m143_submission", "s_m143_return", "s_m143_rear", "s_m143_grading",
+      "s_m143_sparkle", "s_m143_visitor", "s_m143_family", "s_m143_hospital",
+      "s_m143_bowl", "s_m143_volunteer"
+    ]
   }
 ]

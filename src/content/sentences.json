@@ -31575,5 +31575,215 @@
     "rom": "mugwansimeun deodeouk munjedwaeyo",
     "wordIds": ["w_mugwansim", "w_deodeouk", "w_munjedoeda"],
     "note": "-(으)ㄹ수록 from M89 can expand this increasing consequence."
+  },
+  {
+    "id": "s_m143_submission",
+    "en": [
+      { "t": "Submission", "role": "subject", "id": "a" },
+      { "t": "is required", "role": "verb", "id": "c" },
+      { "t": "by today.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "submission-[topic]", "role": "subject", "id": "a" },
+      { "t": "today-until", "role": "other", "id": "b" },
+      { "t": "is-required", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "제출은", "role": "subject", "id": "a" },
+      { "t": "오늘까지", "role": "other", "id": "b" },
+      { "t": "필수예요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "jechureun oneulkkaji pilsuyeyo",
+    "wordIds": ["w_jechul", "w_pilsu"],
+    "note": "M142’s 필수 returns as a formal requirement; -는 바 from M91 can specify the rule."
+  },
+  {
+    "id": "s_m143_return",
+    "en": [
+      { "t": "Father", "role": "subject", "id": "a" },
+      { "t": "returned home", "role": "verb", "id": "c" },
+      { "t": "in the middle of the night.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "father-[topic]", "role": "subject", "id": "a" },
+      { "t": "middle-of-night-at", "role": "other", "id": "b" },
+      { "t": "returned-home-[hon]", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "아버지는", "role": "subject", "id": "a" },
+      { "t": "한밤중에", "role": "other", "id": "b" },
+      { "t": "귀가하셨어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "abeojineun hanbamjunge gwigahasyeosseoyo",
+    "wordIds": ["w_hanbamjung", "w_gwigahada"],
+    "note": "M142’s 귀가하다 returns in a family scene; -던 from M88 can recall earlier nights."
+  },
+  {
+    "id": "s_m143_rear",
+    "en": [
+      { "t": "The space behind the back door", "role": "subject", "id": "a" },
+      { "t": "is damp", "role": "verb", "id": "c" },
+      { "t": "because of moisture.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "back-door rear-[subj]", "role": "subject", "id": "a" },
+      { "t": "moisture because-of", "role": "other", "id": "b" },
+      { "t": "is-wet", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "뒷문 뒤편이", "role": "subject", "id": "a" },
+      { "t": "습기 때문에", "role": "other", "id": "b" },
+      { "t": "젖어 있어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "dwinmun dwipyeoni seupgi ttaemune jeojeo isseoyo",
+    "wordIds": ["w_dwinmun", "w_dwipyeon", "w_seupgi"],
+    "note": "M142’s 뒤편 now locates a back door; -기 때문에 from M84 gives the cause."
+  },
+  {
+    "id": "s_m143_grading",
+    "en": [
+      { "t": "The teacher", "role": "subject", "id": "a" },
+      { "t": "finished", "role": "verb", "id": "c" },
+      { "t": "the grading.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "teacher-[topic]", "role": "subject", "id": "a" },
+      { "t": "grading-[obj]", "role": "object", "id": "b" },
+      { "t": "finished", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "선생님은", "role": "subject", "id": "a" },
+      { "t": "채점을", "role": "object", "id": "b" },
+      { "t": "끝냈어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "seonsaengnimeun chaejeomeul kkeunnaesseoyo",
+    "wordIds": ["w_chaejeom"],
+    "note": "-자마자 from M38 can place the next action immediately after grading."
+  },
+  {
+    "id": "s_m143_sparkle",
+    "en": [
+      { "t": "The lawn", "role": "subject", "id": "a" },
+      { "t": "sparkled", "role": "verb", "id": "c" },
+      { "t": "after the rain stopped.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "grassy-field-[subj]", "role": "subject", "id": "a" },
+      { "t": "rain stopped after", "role": "other", "id": "b" },
+      { "t": "sparkled", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "잔디밭이", "role": "subject", "id": "a" },
+      { "t": "비가 그친 뒤에", "role": "other", "id": "b" },
+      { "t": "반짝였어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "jandibachi biga geuchin dwie banjjagyeosseoyo",
+    "wordIds": ["w_jandibat", "w_banjjagida"],
+    "note": "-던데 from M88 can report this observed scene."
+  },
+  {
+    "id": "s_m143_visitor",
+    "en": [
+      { "t": "The visitor", "role": "subject", "id": "a" },
+      { "t": "valued", "role": "verb", "id": "c" },
+      { "t": "the exhibition.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "visitor-[subj]", "role": "subject", "id": "a" },
+      { "t": "exhibition-[obj]", "role": "object", "id": "b" },
+      { "t": "preciously regarded", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "관람객이", "role": "subject", "id": "a" },
+      { "t": "전시를", "role": "object", "id": "b" },
+      { "t": "소중히 여겼어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "gwallamgaegi jeonsireul sojunghi yeogyeosseoyo",
+    "wordIds": ["w_gwallamgaek", "w_sojunghi"],
+    "note": "-(으)ㄴ 채 from M94 can add a continuing posture while watching."
+  },
+  {
+    "id": "s_m143_family",
+    "en": [
+      { "t": "My daughter", "role": "subject", "id": "a" },
+      { "t": "misses", "role": "verb", "id": "c" },
+      { "t": "her grandmother.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "daughter-[topic]", "role": "subject", "id": "a" },
+      { "t": "grandmother-[obj]", "role": "object", "id": "b" },
+      { "t": "misses", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "딸아이는", "role": "subject", "id": "a" },
+      { "t": "할머니를", "role": "object", "id": "b" },
+      { "t": "그리워해요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "ttaraineun halmeonireul geuriwohaeyo",
+    "wordIds": ["w_ttarai", "w_geuriwohada"],
+    "note": "-더라도 from M95 can express longing despite distance."
+  },
+  {
+    "id": "s_m143_hospital",
+    "en": [
+      { "t": "The hospital room", "role": "subject", "id": "a" },
+      { "t": "was busy", "role": "verb", "id": "c" },
+      { "t": "even at midnight.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "hospital-room-[topic]", "role": "subject", "id": "a" },
+      { "t": "middle-of-night-even", "role": "other", "id": "b" },
+      { "t": "was-bustling", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "병실은", "role": "subject", "id": "a" },
+      { "t": "한밤중에도", "role": "other", "id": "b" },
+      { "t": "분주했어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "byeongsireun hanbamjungedo bunjuhaesseoyo",
+    "wordIds": ["w_byeongsil", "w_hanbamjung", "w_bunjuhada"],
+    "note": "조차 from M89 can emphasize that even midnight was busy."
+  },
+  {
+    "id": "s_m143_bowl",
+    "en": [
+      { "t": "That shop", "role": "subject", "id": "a" },
+      { "t": "charged", "role": "verb", "id": "c" },
+      { "t": "too much.", "role": "object", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "that shop-[topic]", "role": "subject", "id": "a" },
+      { "t": "overcharge-[obj]", "role": "object", "id": "b" },
+      { "t": "put-on", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "그 가게는", "role": "subject", "id": "a" },
+      { "t": "바가지를", "role": "object", "id": "b" },
+      { "t": "씌웠어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "geu gageneun bagajireul ssuiwosseoyo",
+    "wordIds": ["w_bagaji"],
+    "note": "바가지를 씌우다 is an idiom for overcharging; -았/었더니 from M88 can report the consequence."
+  },
+  {
+    "id": "s_m143_volunteer",
+    "en": [
+      { "t": "The professional", "role": "subject", "id": "a" },
+      { "t": "volunteered", "role": "verb", "id": "c" },
+      { "t": "every weekend.", "role": "other", "id": "b" }
+    ],
+    "gloss": [
+      { "t": "professional-[topic]", "role": "subject", "id": "a" },
+      { "t": "weekend-every", "role": "other", "id": "b" },
+      { "t": "volunteered", "role": "verb", "id": "c" }
+    ],
+    "ko": [
+      { "t": "전문직은", "role": "subject", "id": "a" },
+      { "t": "주말마다", "role": "other", "id": "b" },
+      { "t": "봉사했어요.", "role": "verb", "id": "c" }
+    ],
+    "rom": "jeonmunjigeun jumalmada bongsahaesseoyo",
+    "wordIds": ["w_jeonmunjik", "w_bongsahada"],
+    "note": "마다 from M31 marks repetition; 전문직 can name the worker’s occupation in a follow-up."
   }
 ]
