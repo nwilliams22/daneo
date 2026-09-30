@@ -1151,7 +1151,8 @@
       "w_josa", "w_geomsa", "w_balpyo", "w_girokhada",
       "w_gwaje", "w_hakseup", "w_bokseup", "w_jipjung",
       "w_neungnyeok", "w_jeongdap", "w_hapgyeok", "w_seonggong",
-      "w_silpae", "w_jisik", "w_babo", "w_piltong"
+      "w_silpae", "w_jisik", "w_babo", "w_piltong",
+      "w_iphaksik", "w_joreopsik", "w_daehagwonsaeng", "w_yeseup"
     ],
     "sentenceIds": [
       "s_m44_pass_study", "s_m44_abroad_saving", "s_m44_scholarship_for", "s_m44_gradschool_working",
@@ -3846,7 +3847,6 @@
     "w_sikpumjeom",
     "w_yakhonnyeo",
     "w_eojeokke",
-    "w_yeseup",
     "w_yeseuphada",
     "w_chulseokhada",
     "w_keuneomeoni",

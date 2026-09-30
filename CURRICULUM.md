@@ -188,6 +188,10 @@ Weather II, Health II, City & Streets II, Time II (-(으)ㄴ 지), Character
 (-답다/-스럽다/-적), Sound & Music, Travel II, House II (대로)… — final
 menu emerges from the slice file as authoring proceeds.
 
+**M44 count correction (2026-09-30):** 40 checklist words: the original 36
+plus 예습 moved forward from M155 and three decoded compounds (입학식,
+졸업식, 대학원생). Eight sentences and three gap cards remain.
+
 ### Band 6 — the long tail (~10 packs)
 
 Whatever resists theming, sliced by frequency rank with root-flavored
@@ -294,7 +298,9 @@ M154 *Family, Travel and Everyday Places*, and M155 *Learning, Food and Named Pl
 The packs keep the vocabulary-first shape with no new glue; M133–M154
 each have ten aligned sentences and two gap cards. M155 has eight aligned
 sentences and two gap cards after its sentence-count correction (2026-09-30).
-The final two packs teach all 75 remaining grade-C headwords, including the proper-name tail.
+The final two packs originally closed the last 75 grade-C headwords, including the
+proper-name tail. After moving 예습 to M44 (2026-09-30), M154 retains 38
+checklist words and M155 retains 36; overall NIKL coverage is unchanged.
 
 **Ring 3 complete (2026-09-30):** Band 7 and Band 8 are closed. NIKL grade C
 is **100.0% (2,655/2,655; 0 missing)**; grades A and B remain 100.0%.

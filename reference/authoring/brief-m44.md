@@ -32,7 +32,7 @@ recap and 위한 + noun (badge form: 학생을 위한 책) if a sentence earns i
   verify which are taught and extend), 검사 (檢査 inspection — also the
   prosecutor homograph 檢事, radar), 실패/성공 (the pair — 失敗 uses M35's
   失-family! verify 실수/실례/실패 status — 실패 may pay a planted IOU), 복습
-  (復習 re-practice — vs 예습 preview as note-only pair; the 습 is 연습's 習,
+  (復習 re-practice — vs 예습 preview, now a full entry; the 습 is 연습's 習,
   verify), 학습 (學習 = 學 + 習ins one word), 과제 (課題 — homework's formal
   sibling; check 숙제 taught).
 - The talent shelf: 능력 (能力 — the 력 is 힘 in a suit; check 실력 M26 — same 력,
@@ -64,6 +64,12 @@ recap and 위한 + noun (badge form: 학생을 위한 책) if a sentence earns i
 7906 정답 noun · 18638 복습 noun · 19748 필통 noun ·
 822 지식 noun (C) · 3101 강의 noun (C)
 **Plus the grade-A debt word 졸업 (full entry, NO ledger row).**
+
+**2026-09-30 count correction — 40 checklist words:** retain the original 36,
+move 예습 (C) from M155 to this module beside 복습, and add three beyond-list
+compounds already explained in the pack: 입학식, 졸업식, 대학원생. Give each
+a full decode note and checklist entry. Only 예습 gets a ledger row; the
+three compounds use the Band 5 garnish allowance. M155 retains 36 words.
 
 **Gap-deck candidates if genuine:** 시험 잘 봐! / 대박 나세요-style luck scripts
 are likely taught — check first. Candidates: 공부에는 왕도가 없다 (no royal road

@@ -22,6 +22,8 @@ This module is the 學-economy's annual report:
 
 ::vocab::
 
+**Build from the parts:** 입학 and 졸업 gain the ceremony-식 from 결혼식 (M25): 입학식 and 졸업식. 대학원 gains the student-생 from 학생 (M4): 대학원생. For the study routine, pair 예습 before class with 복습 after it.
+
 **Radar patrol:** this shelf is a homograph minefield, all mapped: 과목's branch-科 vs 과제's task-課 · 조사/검사's examine-査 vs the drama prosecutor 검사 (檢事) · 복습's again-復 vs M25's luck-福 · 지식's knowing-識 as the fourth 식 · and the 정 file now holds 情, 政, 精, and 정답's 正 — which was inside 정말 (M11) all along.
 
 ---

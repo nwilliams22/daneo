@@ -15904,6 +15904,34 @@
     "notes": "筆筒 brush-tube: the 필 is 연필's writing-tool-筆 (M15 filed it); the 통 is the all-purpose container syllable (물통, 쓰레기통) — NOT 교통's through-通 (M12). At rank 19,748 this is the deepest word in the course's pool, included because every desk owns one: the humble case the whole module fits in."
   },
   {
+    "id": "w_iphaksik",
+    "ko": "입학식",
+    "rom": "iphaksik",
+    "en": "school entrance ceremony",
+    "pos": "noun",
+    "moduleId": "m44",
+    "notes": "入學式 enter-study-ceremony: 입학 + the ceremony-式 in 결혼식 (M25). 입학 names entering a school; 입학식 names the ceremony that welcomes its new students. Pair it with 졸업식 at the other end of school life."
+  },
+  {
+    "id": "w_joreopsik",
+    "ko": "졸업식",
+    "rom": "joreopsik",
+    "en": "graduation ceremony",
+    "pos": "noun",
+    "moduleId": "m44",
+    "notes": "卒業式 finish-work-ceremony: 졸업 + the same ceremony-式 as 입학식 and 결혼식 (M25). 졸업 is completing the course of study; 졸업식 is the event that celebrates it. The school has two bookends, and now each has a ceremony name."
+  },
+  {
+    "id": "w_daehagwonsaeng",
+    "ko": "대학원생",
+    "rom": "daehagwonsaeng",
+    "en": "graduate student",
+    "pos": "noun",
+    "moduleId": "m44",
+    "notes": "大學院生: 대학원 + the student-生 in 학생 (M4), turning the institution into the person studying there. A 대학원생 works toward an advanced degree; 박사 names a doctorate or its holder, so the two labels are not interchangeable. 대학원생이에요 = I am a graduate student."
+  },
+  {"id": "w_yeseup", "ko": "예습", "rom": "yeseup", "en": "preparation before a lesson", "pos": "noun", "moduleId": "m44", "notes": "豫習 ahead-practice: studying a lesson before class, the forward-looking partner of this module’s 복습 (復習, review after class). Both share the practice-習 in 학습 and 연습하다 (M10); the first character sets the direction. 예습을 하다 = prepare for class; 복습을 하다 = review it afterward."},
+  {
     "id": "w_teukjing",
     "ko": "특징",
     "rom": "teukjing",
@@ -39278,7 +39306,6 @@
   {"id": "w_sikpumjeom", "ko": "식품점", "rom": "sikpumjeom", "en": "food store", "pos": "noun", "moduleId": "m155", "notes": "食品店 is a shop selling food products. 店 is the shop ending also in 제과점."},
   {"id": "w_yakhonnyeo", "ko": "약혼녀", "rom": "yakhonnyeo", "en": "fiancée", "pos": "noun", "moduleId": "m155", "notes": "約婚女 names an engaged woman; compare the gender-neutral 약혼자 later in this pack."},
   {"id": "w_eojeokke", "ko": "어저께", "rom": "eojeokke", "en": "yesterday", "pos": "noun", "moduleId": "m155", "notes": "Conversational variant of 어제. Contrast 그저께 from M154, two days ago."},
-  {"id": "w_yeseup", "ko": "예습", "rom": "yeseup", "en": "preparation before a lesson", "pos": "noun", "moduleId": "m155", "notes": "豫習 is study in advance; 복습 is review after the lesson."},
   {"id": "w_yeseuphada", "ko": "예습하다", "rom": "yeseuphada", "en": "to prepare for a lesson", "pos": "verb", "moduleId": "m155", "notes": "The 하다 verb made from 예습. It describes study before class, not attendance."},
   {"id": "w_chulseokhada", "ko": "출석하다", "rom": "chulseokhada", "en": "to attend; be present", "pos": "verb", "moduleId": "m155", "notes": "出席- is being present at school or a meeting; contrast 결석하다."},
   {"id": "w_keuneomeoni", "ko": "큰어머니", "rom": "keuneomeoni", "en": "wife of father's older brother", "pos": "noun", "moduleId": "m155", "notes": "The spouse of 큰아버지 from M154, distinguished from 작은어머니."},
