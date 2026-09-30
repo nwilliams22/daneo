@@ -10,7 +10,7 @@ A ranking rises, a guest is invited, and an older portrait brings youth back to 
 
 ## Part 1 — Words that change the scene
 
-**Public events.** 순위 places a participant in an order; 중계방송 brings an event to viewers elsewhere. 연주 is instrumental performance, while 초청하다 invites a guest. 육상 can mean land or track and field: the sports setting decides. 출판 names publishing, and 지급 names issuing money or goods.
+**Public events.** 순위 places a participant in an order; 중계방송 brings an event to viewers elsewhere. 연주 from M51 supplies the instrumental performance; 초청하다 now invites a guest. 차창 from M50 already names the window on the journey there. 육상 can mean land or track and field: the sports setting decides. 출판 names publishing, and 지급 names issuing money or goods.
 
 **People over time.** 젊음 names youth, 앞날 looks ahead, and 이별 marks a parting. 기성세대 completes the compound already suggested by M132's 기성: the established generation. 인재 means talented people; 인종 concerns racial classification, not nationality. Keep the people separate from the labels used about them.
 

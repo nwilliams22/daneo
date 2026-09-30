@@ -28,7 +28,7 @@ Keep the radar on for 재수: the reserved word is luck. 교외 takes you outsid
 
 No new glue. Familiar frames carry the new vocabulary; notice which noun is the subject and which action closes each sentence.
 
-**Spot the recycling:** 사립, 음반 and 속마음 return from M150 in a cost comparison, a recording choice and a supportive conversation. Each scene is new.
+**Spot the recycling:** 사립 and 속마음 return from M150 in a cost comparison and a supportive conversation; 음반 from M51 supplies the recording choice. Each scene is new.
 
 - **-더라도 from M95 concedes a circumstance.**
 - **-는 김에 from M91 adds an opportunity to an activity.**

@@ -18,6 +18,8 @@ M11 taught you to SAY the weather (비가 와요, the seasons, the elevator smal
 
 ## Part 2 — The bricks
 
+**Wind with the rain:** 비바람 joins 비 + 바람 from M11. 소나기 names a sudden shower; 비바람 names wind and rain together. Read the forecast for both the kind of rain and what comes with it.
+
 ::vocab::
 
 **Radar patrol:** 지구 the planet vs 지구 the zoning district (地球/地區 — the note has both) · 바라보다 gazes, M34's 바라다 hopes — neighbors, not kin · 뿌리 the root grows, M40's 뿌리다 sprinkles · 그림자 is cast, 그늘 is stood in · and 푸르다 breaks BOTH rule sets: not ㅎ-family, and not even M7's 르-rule — it alone adds 러 (푸르러요), the course's first 러-irregular.

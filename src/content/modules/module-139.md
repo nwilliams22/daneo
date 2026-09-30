@@ -12,7 +12,7 @@ A list gets tidied, a lesson runs long, and the weather moves a meeting. This pa
 
 **Two spellings, one action.** 놓아두다 leaves something in place; 놔두다 is its everyday contraction. A bag can stay where it is, or a person can be left alone. The long and short forms do not divide neatly into physical and figurative meanings.
 
-**A schedule that moves.** 내달 names next month. 늦어지다 moves an event later; 길어지다 stretches its duration. 뜻밖에 admits that the change surprised you. 명단 lists the people involved, while 문구 is the wording you may need to change.
+**A schedule that moves.** 비바람 from M49 supplies the weather that can change a plan. 내달 names next month. 늦어지다 moves an event later; 길어지다 stretches its duration. 뜻밖에 admits that the change surprised you. 명단 lists the people involved, while 문구 is the wording you may need to change.
 
 **Materials with a job.** 교재 teaches, 의류 clothes people, 솜 fills fabric, and 실 stitches it. 연구실 is a place for research, not a room full of thread: its final 실 is room-室. A 가정교사 tutors in the home; 교육자 is the broader professional identity.
 

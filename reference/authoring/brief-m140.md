@@ -4,7 +4,7 @@ Read SHARED-BRIEF.md and CURRICULUM.md §2c and §4. Teach all 36 reserved grade
 
 **Theme:** Visitors and learners move between a clinic, a window seat and a shared outing. Organize the verbs of motion, the user/certificate shelf and social or psychological descriptions.
 
-**Glue:** none new. Every sentence reuses a taught Ring 3 pattern in a new scene. Predecessor recycling: M139: 명단, 교재, 가정교사 and 비바람.
+**Glue:** none new. Every sentence reuses a taught Ring 3 pattern in a new scene. Predecessor recycling: M139: 명단, 교재 and 가정교사; earlier weather vocabulary: 비바람 from M49.
 
 **Sense radar:** 위로 means comfort, not the directional particle phrase; 방면 is direction or field; 재활용품 means recyclable materials or recycled goods according to context.
 

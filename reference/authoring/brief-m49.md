@@ -29,7 +29,7 @@ Calibration vs M8's -(으)ㄹ 거예요 (verify): 거예요 predicts from plan/s
   ride the note (아파트 지구, 재개발 지구).
 - 철 — your sense is 철01 season (4945); the note must also carry 철02 (철이
   들다 — coming to one's senses; "growing your seasons") and 철06 鐵 iron
-  (지하철's 철! — verify 지하철 M12). One syllable, three careers — radar gold.
+  (지하철's 철! — 지하철 is M6). One syllable, three careers — radar gold.
 - 팬/프로-style doubles don't occur here, but 번개 (C) should mention slang
   번개 = spontaneous meetup.
 
@@ -60,14 +60,14 @@ Calibration vs M8's -(으)ㄹ 거예요 (verify): 거예요 predicts from plan/s
   곰 (단군 myth — the bear who became human; 곰탕 wink — verify 곰탕 untaught
   before winking), 토끼 (the moon rabbit pounding 떡 — verify 떡 M18), 날개
   (wings — 옷이 날개다, verify that M21 gap item and pay it off!).
-- Sky verbs: 떠오르다 (the sun rises AND ideas surface — radar vs M34's 생각나다
-  (verify) and pool's 떠올리다 which you must NOT teach), 날아가다 (fly away —
+- Sky verbs: 떠오르다 (the sun rises AND ideas surface — 생각나다 belongs to later M67,
+  and 떠올리다 is also outside this slice; do not assume either is known), 날아가다 (fly away —
   the [action]+가다 machine from M28, verify — money also 날아가요).
 - The ㅎ-color family as a TABLE: 파랗다/하얗다/까맣다/노랗다/빨갛다 — ㅎ drops
   before vowels (파래요/하얘요/까매요/노래요/빨개요). M7 taught [hue]색 nouns
   (verify 빨간색 etc. and which); these are the adjectives BEHIND those nouns
   (빨간색 = 빨갛다's badge form + 색 — retro-decode M24's badge on ㅎ-family:
-  빨간, 하얀). M24/M29's 이렇다/그렇다/어떻다 are the same ㅎ-family (verify
+  빨간, 하얀). M24's 어떻다 and M29's 그렇다 are the same ㅎ-family (verify
   how M24 framed 어떻다) — the color table completes a machine the learner
   already half-owns. 푸르다 joins as the 르-family outlier (verify M7 르 table)
   — the blue-green of nature (푸른 하늘, 푸른 바다) vs 파랗다's plain blue;
@@ -78,7 +78,7 @@ Calibration vs M8's -(으)ㄹ 거예요 (verify): 거예요 predicts from plan/s
 - Forecast register ties the room together: 전국 (verify M31?), 맑겠습니다/
   흐리겠습니다 on M11's 맑다/흐리다 (verify both).
 
-**Word slice (39 words — rank · word · pos; house rule: adverbs/determiners
+**Word slice (40 words — rank · word · pos; house rule: adverbs/determiners
 tag noun; ㅎ-color words and 푸르다 tag adj):**
 816 빛 noun · 1767 태양 noun · 773 지구 noun · 1504 그림자 noun · 2436 그늘 noun ·
 2949 햇빛 noun · 2489 햇살 noun · 4751 햇볕 noun · 2379 기온 noun · 2475 온도 noun ·
@@ -88,7 +88,8 @@ tag noun; ㅎ-color words and 푸르다 tag adj):**
 2150 호랑이 noun · 4671 곰 noun · 4567 토끼 noun · 2073 날개 noun ·
 2380 날아가다 verb · 1042 떠오르다 verb · 3506 파랗다 adj · 1528 하얗다 adj ·
 3264 까맣다 adj · 3109 노랗다 adj · 2385 빨갛다 adj · 1227 푸르다 adj ·
-3762 안개 noun (C) · 5619 번개 noun (C) · 12913 천둥 noun (C)
+3762 안개 noun (C) · 5619 번개 noun (C) · 12913 천둥 noun (C) ·
+비바람 noun (C; moved from M139)
 
 **Gap-deck candidates if genuine:** 호랑이도 제 말 하면 온다 (speak of the
 tiger), 더위를 타다/추위를 타다 (as one item — 타다's strangest ride), 옛날
@@ -98,3 +99,5 @@ M14). Max 3, only if they earn it.
 
 **Output files:** draft-m49.words.json, draft-m49.sentences.json,
 draft-m49.gap.json, draft-m49.md, draft-m49.meta.json.
+
+**Slice additions (2026-09-30):** 비바람 (from M139). These already-authored grade-C entries now belong to M49, with stable IDs and full notes. The slice totals 40 distinct non-particle words; no garnish is added.

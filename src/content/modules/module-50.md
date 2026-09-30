@@ -20,6 +20,8 @@ Korean's city vocabulary splits by register, and today the ledger balances:
 
 ## Part 2 — The bricks
 
+**At street level:** 인도 (person-path) gives walkers their place beside the road; 가로등 (street-road-lamp) lights it. From inside a bus, 차창 joins vehicle-車 to the window-窓 in 창문 — the same city viewed through glass.
+
 ::vocab::
 
 **Radar patrol:** 지방 the provinces vs 지방 the body fat — one on the map, one on the snack label · 전철 is electric, not necessarily underground · 터널/터미널, one syllable and a world apart · 건물/물건, mirror twins sharing only their 물 (物) · and 지나치다, the one word that walks past AND overdoes.

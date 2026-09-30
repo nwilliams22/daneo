@@ -14,7 +14,7 @@ A qualification is awarded, effort is recognized, and a machine is checked befor
 
 **Checks, beginnings and handovers:** 점검 inspects, 신설 establishes something new, 유지되다 describes what stays in place, and 넘겨주다 transfers it into another person’s keeping. 조기 locates an action early in its course.
 
-**The street and the page:** 종소리 is heard; 가로등 gives light; 직선 names a line without a bend. A 프린터 puts a page onto paper, and 알루미늄 names a material. Native motion verbs keep the formal nouns grounded in actions.
+**The street and the page:** 종소리 (M51) is heard; 가로등 (M50) gives light. Beside those earlier words, 직선 names a line without a bend. A 프린터 puts a page onto paper, and 알루미늄 names a material. Native motion verbs keep the formal nouns grounded in actions.
 
 ::vocab::
 

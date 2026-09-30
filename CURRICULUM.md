@@ -207,6 +207,13 @@ plus seven grade-C time words moved forward from M133 (생, 소요되다, 야간
 장기간) and M141 (한가하다, 그사이, 지금껏). M133 retains 32 words and M141
 33, both within the Ring 3 30–38 contract. Word IDs and corpus coverage are unchanged.
 
+**M49–M51 count correction (2026-09-30):** each now has 40 distinct
+non-particle checklist words. M49 gains 비바람; M50 gains 가로등, 차창 and
+인도; M51 gains 종소리, 연주, 음반 and 클래식. All eight are existing
+grade-C entries with unchanged IDs, moved from later packs without garnish.
+Donor counts: M129 34, M135 34, M139 35, M150 35, M153 35, M154 37;
+all remain within Ring 3’s 30–38 range. Each target retains eight sentences.
+
 **M48 count correction (2026-09-30):** 40 checklist words: the original 33
 plus seven media and book terms (극본, 배역, 작사가, 작곡가, 독후감, 연재,
 편집). Each has a full word record and a cross-reference in the lesson.
@@ -320,8 +327,9 @@ The packs keep the vocabulary-first shape with no new glue; M133–M154
 each have ten aligned sentences and two gap cards. M155 has eight aligned
 sentences and two gap cards after its sentence-count correction (2026-09-30).
 The final two packs originally closed the last 75 grade-C headwords, including the
-proper-name tail. After moving 예습 to M44 (2026-09-30), M154 retains 38
-checklist words and M155 retains 36; overall NIKL coverage is unchanged.
+proper-name tail. After the 2026-09-30 moves of 예습 to M44 and 클래식
+to M51, M154 retains 37 checklist words and M155 retains 36; overall NIKL
+coverage is unchanged.
 
 **Ring 3 complete (2026-09-30):** Band 7 and Band 8 are closed. NIKL grade C
 is **100.0% (2,655/2,655; 0 missing)**; grades A and B remain 100.0%.

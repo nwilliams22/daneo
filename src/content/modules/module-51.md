@@ -19,6 +19,8 @@ This shelf is almost entirely machinery you own, turned up:
 
 ## Part 2 — The bricks
 
+**From a bell to an album:** 종소리 joins bell-鐘 to 소리; the note carries the new bell root. 연주 is the playing of instruments, while 음반 is the released recording you can listen to afterward. 클래식 names classical music on this shelf, alongside 가요 rather than in place of it.
+
 ::vocab::
 
 **Radar patrol:** the densest homograph traffic since M44 — 북 the drum vs the north-北 of 북쪽/북한 · 팬 the fandom vs the frying pan · 프로 the TV show vs the professional · 가사 the lyrics vs the housework · and 탤런트, which was never talent at all. Every one is mapped in its note; trust the notes.

@@ -94,7 +94,7 @@ centerpiece. Full form -지요 appears in careful speech; teach -죠 as primary.
 - Sentence fodder: the karaoke scene (노래방 M17 — verify), the concert, the
   2002 chant, quiet-please on the bus (조용히 — verify M33's -히 rack).
 
-**Word slice (36 words — rank · word · pos; house rule: adverbs/determiners
+**Word slice (40 words — rank · word · pos; house rule: adverbs/determiners
 tag noun):**
 2656 소리치다 verb · 10294 큰소리 noun · 7474 노랫소리 noun · 2765 떠들다 verb ·
 1733 들려오다 verb · 4337 들려주다 verb · 2985 흘러나오다 verb · 2122 틀다 verb ·
@@ -104,7 +104,9 @@ tag noun):**
 3822 쇼 noun · 1769 프로 noun · 1548 시리즈 noun · 2727 탤런트 noun ·
 2272 출연하다 verb · 485 대회 noun · 3624 경기장 noun · 1437 올림픽 noun ·
 6279 월드컵 noun · 2974 우승 noun · 5374 씨름 noun · 2456 참가하다 verb ·
-621 던지다 verb · 568 끌다 verb · 727 무대 noun (C) · 4483 가사 noun (C)
+621 던지다 verb · 568 끌다 verb · 727 무대 noun (C) · 4483 가사 noun (C) ·
+종소리 noun (C; from M129) · 연주 noun (C; from M135) ·
+음반 noun (C; from M150) · 클래식 noun (C; from M154)
 
 **Gap-deck candidates if genuine:** 십팔번 (one's go-to karaoke song — the
 kabuki-loanword origin story; number words verify M2), 대~한민국 (clap-clap-
@@ -114,3 +116,5 @@ if they earn it.
 
 **Output files:** draft-m51.words.json, draft-m51.sentences.json,
 draft-m51.gap.json, draft-m51.md, draft-m51.meta.json.
+
+**Slice additions (2026-09-30):** 종소리 (from M129), 연주 (from M135), 음반 (from M150), 클래식 (from M154). These already-authored grade-C entries now belong to M51, with stable IDs and full notes. The slice totals 40 distinct non-particle words; no garnish is added.

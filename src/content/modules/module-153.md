@@ -18,7 +18,7 @@ A shirt button, a palace visit, a hospital discharge and a family meal: this pac
 
 큰아들 from the last pack counted order among sons. 외아들 counts how many sons there are. 작은아버지 picks a branch of the family, while 장모 and 장인 identify a wife’s parents. Translating all of them as a generic relative throws away the useful part.
 
-초순 covers the first ten days; 하순 starts on the twenty-first. Neither one means a week. And keep the homograph radar active: today’s 인도 is a sidewalk, 도장 is a seal, and 장인 is a family member.
+초순 covers the first ten days; 하순 starts on the twenty-first. Neither one means a week. And keep the homograph radar active: 인도 from M50 is a sidewalk; today 도장 is a seal and 장인 is a family member.
 
 ::vocab::
 

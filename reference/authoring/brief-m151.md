@@ -4,7 +4,7 @@ Read SHARED-BRIEF.md and CURRICULUM.md §2c and §4. Teach all 36 reserved grade
 
 **Theme:** Household objects, school life and the attention people give one another.
 
-**Glue:** none new. Every sentence recycles a named Ring 3 pattern. Predecessor vocabulary: M150: 사립, 음반, 속마음. Reuse in new surface forms.
+**Glue:** none new. Every sentence recycles a named Ring 3 pattern. Predecessor vocabulary: M150: 사립, 속마음; earlier recording vocabulary: 음반 from M51. Reuse in new surface forms.
 
 **Sense radar:** 재수 is 財數 (luck), not exam retaking; 까다 teaches peeling; 교외 is 郊外 (outskirts).
 

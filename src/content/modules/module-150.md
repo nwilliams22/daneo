@@ -14,7 +14,7 @@ A fee is paid, a recording survives a performance, and relatives gather. These w
 
 ## Part 2 — Family, art and ceremony
 
-만화가 creates comics, 음반 holds released music, and 머리말 opens a book. 시댁 names a husband's family home; 장례식 names the ceremony of farewell. 손잡다 can describe literal hands or cooperation.
+만화가 creates comics and 머리말 opens a book; 음반 from M51 returns as the released recording. 시댁 names a husband's family home; 장례식 names the ceremony of farewell. 손잡다 can describe literal hands or cooperation.
 
 ::vocab::
 
