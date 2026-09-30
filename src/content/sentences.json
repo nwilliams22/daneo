@@ -32093,8 +32093,8 @@
       { "t": "noon-[subj]", "role": "subject", "id": "a" },
       { "t": "passed-[although]", "role": "other", "id": "b" },
       { "t": "exhibition-hall-[topic]", "role": "subject", "id": "c" },
-      { "t": "quiet-[prospective]", "role": "verb", "id": "d" },
-      { "t": "only-is", "role": "verb", "id": "e" }
+      { "t": "quiet", "role": "verb", "id": "d" },
+      { "t": "merely-is", "role": "verb", "id": "e" }
     ],
     "ko": [
       { "t": "정오가", "role": "subject", "id": "a" },
@@ -32118,8 +32118,8 @@
     "gloss": [
       { "t": "advice-[obj]", "role": "object", "id": "a" },
       { "t": "hear-[even-after]", "role": "other", "id": "b" },
-      { "t": "upset-[prospective]", "role": "verb", "id": "c" },
-      { "t": "only-was", "role": "verb", "id": "d" }
+      { "t": "upset", "role": "verb", "id": "c" },
+      { "t": "merely-was", "role": "verb", "id": "d" }
     ],
     "ko": [
       { "t": "충고를", "role": "object", "id": "a" },
