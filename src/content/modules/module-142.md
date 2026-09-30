@@ -28,14 +28,14 @@ Costs, obligations and forms can reshape an ordinary evening. A lease needs a de
 
 ## Practice
 
-1. Say the first warm-up prompt in a new tense.
-2. Explain the public-scene word you are least likely to use at home.
-3. Contrast two words from the physical scene in a fresh sentence.
-4. Find a sentence that reuses Module 141, then change its person or place.
-5. Name one Ring 3 pattern in the sentence notes and make a new example.
-6. Explain the sense distinction in the third shelf without using the English gloss.
-7. Make a short question with one word from this pack.
-8. Read a sentence aloud, then change its time expression.
+1. Use M141’s 원서 with 필수 in a new request at the counter.
+2. Explain when 가능 names a possibility and when 가능하다 describes it.
+3. Contrast 최저 with 최고 from M54 using a price, not a person.
+4. Change 밤을 새웠어요 to a sentence about one sleepless exam night.
+5. Make a scene with 잔디, 아스팔트 and 조깅 without calling the road a lawn.
+6. Use 요 before a noun, then add sentence-final -요 to the predicate; explain why they differ.
+7. Contrast 매달다 with 매달리다 from M94 using a sign and a person.
+8. Describe how 무관심 could become an 불이익 in a public service scene.
 
 **Gap deck:** 밤을 새우다 — To stay up all night. 전세를 살다 — To rent on a jeonse deposit.
 

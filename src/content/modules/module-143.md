@@ -28,14 +28,14 @@ The night brings grading, visitors and a late return home. Small household objec
 
 ## Practice
 
-1. Say the first warm-up prompt in a new tense.
-2. Explain the public-scene word you are least likely to use at home.
-3. Contrast two words from the physical scene in a fresh sentence.
-4. Find a sentence that reuses Module 142, then change its person or place.
-5. Name one Ring 3 pattern in the sentence notes and make a new example.
-6. Explain the sense distinction in the third shelf without using the English gloss.
-7. Make a short question with one word from this pack.
-8. Read a sentence aloud, then change its time expression.
+1. Use M142’s 필수 with 제출 and give a deadline.
+2. Change 아버지는 한밤중에 귀가하셨어요 to an earlier morning return.
+3. Explain how 잔디 grows into 잔디밭; place 반짝이다 in the same scene.
+4. Contrast 싸구려 with 소중히: why can a low price and personal value diverge?
+5. Use 채점 and 침착하다 in one fresh exam scene.
+6. Explain both the literal 바가지 and the overcharging idiom in the gap deck.
+7. Make a hospital scene using 병실, 습기 and 수도꼭지.
+8. Use 봉사하다 with 효도 in a family scene, then say who does each action.
 
 **Gap deck:** 바가지를 쓰다 — To be overcharged. 미움을 사다 — To incur someone’s dislike.
 

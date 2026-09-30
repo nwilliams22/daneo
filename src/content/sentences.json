@@ -31376,31 +31376,31 @@
     ],
     "rom": "wonseoga burwanjeonhamyeon pilsu jeongboreul bochunghaeya haeyo",
     "wordIds": ["w_wonseo", "w_burwanjeonhada", "w_pilsu", "w_jeongbo"],
-    "note": "-기는 하다 from M92 can concede a form is mostly complete. M141’s 원서 and 서명 return in a fresh request."
+    "note": "The conditional -(으)면 from M20 asks what happens if M141’s 원서 is incomplete. 필수 marks the information as required."
   },
   {
     "id": "s_m142_counter",
     "en": [
       { "t": "The back of the service counter", "role": "subject", "id": "a" },
-      { "t": "was so dark that", "role": "other", "id": "b" },
+      { "t": "was very dark, so", "role": "other", "id": "b" },
       { "t": "tension", "role": "subject", "id": "c" },
       { "t": "was palpable.", "role": "verb", "id": "d" }
     ],
     "gloss": [
       { "t": "counter rear-[subj]", "role": "subject", "id": "a" },
-      { "t": "so-very dark", "role": "other", "id": "b" },
+      { "t": "very dark-because", "role": "other", "id": "b" },
       { "t": "tension-[subj]", "role": "subject", "id": "c" },
       { "t": "was-felt", "role": "verb", "id": "d" }
     ],
     "ko": [
       { "t": "창구 뒤편이", "role": "subject", "id": "a" },
-      { "t": "어찌나 어두운지", "role": "other", "id": "b" },
+      { "t": "아주 어두워서", "role": "other", "id": "b" },
       { "t": "긴장감이", "role": "subject", "id": "c" },
       { "t": "느껴졌어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "changgu dwipyeoni eojjina eoduunji ginjanggami neukkyeojyeosseoyo",
+    "rom": "changgu dwipyeoni aju eoduwoseo ginjanggami neukkyeojyeosseoyo",
     "wordIds": ["w_changgu", "w_dwipyeon", "w_ginjanggam"],
-    "note": "-길래 from M93 can explain the feeling. M141’s 창구 anchors a new place."
+    "note": "-아서 gives a cause for the felt 긴장감. M141’s 창구 anchors a new place behind the counter."
   },
   {
     "id": "s_m142_signature",
@@ -31421,7 +31421,7 @@
     ],
     "rom": "chamseokjaga yo jongie seomyeonghaesseoyo",
     "wordIds": ["w_chamseokja", "w_yo", "w_seomyeonghada"],
-    "note": "-고서 from M85 can sequence the signing and next step. M141’s 참석자 appears in a new scene."
+    "note": "M141’s 참석자 signs a particular sheet. 요 is the spoken demonstrative before 종이, separate from sentence-final -요."
   },
   {
     "id": "s_m142_rent",
@@ -31442,7 +31442,7 @@
     ],
     "rom": "jeonsega choejeo geumaegeurodo ganeunghalkkayo",
     "wordIds": ["w_jeonse", "w_choejeo", "w_ganeung", "w_geumaek"],
-    "note": "-더라도 from M95 marks concession; 가능 asks whether the plan can work."
+    "note": "-으로 gives the amount used for the lease; -도 concedes that even the minimum may not make 전세 possible."
   },
   {
     "id": "s_m142_night",
@@ -31463,7 +31463,7 @@
     ],
     "rom": "jigwoni bameul saewosseoyo",
     "wordIds": ["w_saeuda"],
-    "note": "-았/었더니 from M88 can report the result the next morning. 새우다 takes 밤 as its object."
+    "note": "밤을 새우다 is a fixed object-verb pairing: an employee spends the whole night awake."
   },
   {
     "id": "s_m142_jog",
@@ -31487,7 +31487,7 @@
     ],
     "rom": "jeoneun jandi yeopeseo joging hoetsureul seeo bwasseoyo",
     "wordIds": ["w_jandi", "w_joging", "w_hoetsu"],
-    "note": "-아/어 보다 from M16 marks a trial; 횟수 counts sessions, not runners."
+    "note": "-아/어 보다 from M16 marks the attempt to count jogging sessions. 횟수 counts events, not runners."
   },
   {
     "id": "s_m142_road",
@@ -31508,7 +31508,7 @@
     ],
     "rom": "aseupalteuga bi ttaemune jeojeosseoyo",
     "wordIds": ["w_aseupalteu"],
-    "note": "-아/어지다 from M35 describes the changed road surface."
+    "note": "-았/었- puts the wet road in the past. 젖다 describes its changed condition after rain."
   },
   {
     "id": "s_m142_payment",
@@ -31529,7 +31529,7 @@
     ],
     "rom": "toejikgeumi yesangboda jeogeosseoyo",
     "wordIds": ["w_toejikgeum"],
-    "note": "보다 from M22 compares the payment with an expectation."
+    "note": "보다 from M22 compares the severance pay with an expectation."
   },
   {
     "id": "s_m142_route",
@@ -31553,7 +31553,7 @@
     ],
     "rom": "geuneun gwigahaneun gire komidireul bwasseoyo",
     "wordIds": ["w_gwigahada", "w_komidi"],
-    "note": "-는 김에 from M91 can add an errand to the trip; 귀가하다 names the return home."
+    "note": "The badge -는 from M24 makes 귀가하다 modify 길. The comedy is watched on that homeward trip."
   },
   {
     "id": "s_m142_reaction",
@@ -31574,7 +31574,7 @@
     ],
     "rom": "mugwansimeun deodeouk munjedwaeyo",
     "wordIds": ["w_mugwansim", "w_deodeouk", "w_munjedoeda"],
-    "note": "-(으)ㄹ수록 from M89 can expand this increasing consequence."
+    "note": "더더욱 intensifies the judgment that indifference becomes a problem."
   },
   {
     "id": "s_m143_submission",
@@ -31595,7 +31595,7 @@
     ],
     "rom": "jechureun oneulkkaji pilsuyeyo",
     "wordIds": ["w_jechul", "w_pilsu"],
-    "note": "M142’s 필수 returns as a formal requirement; -는 바 from M91 can specify the rule."
+    "note": "M142’s 필수 returns as a requirement; -까지 marks the submission deadline."
   },
   {
     "id": "s_m143_return",
@@ -31616,28 +31616,28 @@
     ],
     "rom": "abeojineun hanbamjunge gwigahasyeosseoyo",
     "wordIds": ["w_hanbamjung", "w_gwigahada"],
-    "note": "M142’s 귀가하다 returns in a family scene; -던 from M88 can recall earlier nights."
+    "note": "M142’s 귀가하다 returns in a family scene; -시- marks respect toward the father."
   },
   {
     "id": "s_m143_rear",
     "en": [
-      { "t": "The space behind the back door", "role": "subject", "id": "a" },
-      { "t": "is damp", "role": "verb", "id": "c" },
-      { "t": "because of moisture.", "role": "other", "id": "b" }
+      { "t": "Behind the back door,", "role": "place", "id": "a" },
+      { "t": "moisture", "role": "subject", "id": "b" },
+      { "t": "is abundant.", "role": "verb", "id": "c" }
     ],
     "gloss": [
-      { "t": "back-door rear-[subj]", "role": "subject", "id": "a" },
-      { "t": "moisture because-of", "role": "other", "id": "b" },
-      { "t": "is-wet", "role": "verb", "id": "c" }
+      { "t": "back-door rear-[place]", "role": "place", "id": "a" },
+      { "t": "moisture-[subj]", "role": "subject", "id": "b" },
+      { "t": "is-abundant", "role": "verb", "id": "c" }
     ],
     "ko": [
-      { "t": "뒷문 뒤편이", "role": "subject", "id": "a" },
-      { "t": "습기 때문에", "role": "other", "id": "b" },
-      { "t": "젖어 있어요.", "role": "verb", "id": "c" }
+      { "t": "뒷문 뒤편에", "role": "place", "id": "a" },
+      { "t": "습기가", "role": "subject", "id": "b" },
+      { "t": "많아요.", "role": "verb", "id": "c" }
     ],
-    "rom": "dwinmun dwipyeoni seupgi ttaemune jeojeo isseoyo",
+    "rom": "dwinmun dwipyeone seupgiga manayo",
     "wordIds": ["w_dwinmun", "w_dwipyeon", "w_seupgi"],
-    "note": "M142’s 뒤편 now locates a back door; -기 때문에 from M84 gives the cause."
+    "note": "M142’s 뒤편 locates the back-door area. 습기가 많다 describes the moisture there."
   },
   {
     "id": "s_m143_grading",
@@ -31658,7 +31658,7 @@
     ],
     "rom": "seonsaengnimeun chaejeomeul kkeunnaesseoyo",
     "wordIds": ["w_chaejeom"],
-    "note": "-자마자 from M38 can place the next action immediately after grading."
+    "note": "-았/었- puts the teacher’s completed grading in the past. 채점 is the work being finished."
   },
   {
     "id": "s_m143_sparkle",
@@ -31679,7 +31679,7 @@
     ],
     "rom": "jandibachi biga geuchin dwie banjjagyeosseoyo",
     "wordIds": ["w_jandibat", "w_banjjagida"],
-    "note": "-던데 from M88 can report this observed scene."
+    "note": "-ㄴ 뒤에 orders the sparkle after the rain stopped. 잔디밭 names the grassy place."
   },
   {
     "id": "s_m143_visitor",
@@ -31700,7 +31700,7 @@
     ],
     "rom": "gwallamgaegi jeonsireul sojunghi yeogyeosseoyo",
     "wordIds": ["w_gwallamgaek", "w_sojunghi"],
-    "note": "-(으)ㄴ 채 from M94 can add a continuing posture while watching."
+    "note": "-히 turns 소중 into the adverbial manner: the visitor valued the exhibition."
   },
   {
     "id": "s_m143_family",
@@ -31721,7 +31721,7 @@
     ],
     "rom": "ttaraineun halmeonireul geuriwohaeyo",
     "wordIds": ["w_ttarai", "w_geuriwohada"],
-    "note": "-더라도 from M95 can express longing despite distance."
+    "note": "딸아이 is an affectionate family reference; 그리워하다 expresses her longing for grandmother."
   },
   {
     "id": "s_m143_hospital",
@@ -31742,7 +31742,7 @@
     ],
     "rom": "byeongsireun hanbamjungedo bunjuhaesseoyo",
     "wordIds": ["w_byeongsil", "w_hanbamjung", "w_bunjuhada"],
-    "note": "조차 from M89 can emphasize that even midnight was busy."
+    "note": "-에도 concedes that even the middle of the night was busy in the hospital room."
   },
   {
     "id": "s_m143_bowl",
@@ -31763,28 +31763,28 @@
     ],
     "rom": "geu gageneun bagajireul ssuiwosseoyo",
     "wordIds": ["w_bagaji"],
-    "note": "바가지를 씌우다 is an idiom for overcharging; -았/었더니 from M88 can report the consequence."
+    "note": "바가지를 씌우다 is an idiom for overcharging; no literal bowl is involved."
   },
   {
     "id": "s_m143_volunteer",
     "en": [
-      { "t": "The professional", "role": "subject", "id": "a" },
+      { "t": "The doctor", "role": "subject", "id": "a" },
       { "t": "volunteered", "role": "verb", "id": "c" },
       { "t": "every weekend.", "role": "other", "id": "b" }
     ],
     "gloss": [
-      { "t": "professional-[topic]", "role": "subject", "id": "a" },
+      { "t": "doctor-[topic]", "role": "subject", "id": "a" },
       { "t": "weekend-every", "role": "other", "id": "b" },
       { "t": "volunteered", "role": "verb", "id": "c" }
     ],
     "ko": [
-      { "t": "전문직은", "role": "subject", "id": "a" },
+      { "t": "의사는", "role": "subject", "id": "a" },
       { "t": "주말마다", "role": "other", "id": "b" },
       { "t": "봉사했어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jeonmunjigeun jumalmada bongsahaesseoyo",
-    "wordIds": ["w_jeonmunjik", "w_bongsahada"],
-    "note": "마다 from M31 marks repetition; 전문직 can name the worker’s occupation in a follow-up."
+    "rom": "uisaneun jumalmada bongsahaesseoyo",
+    "wordIds": ["w_bongsahada"],
+    "note": "마다 from M31 marks repeated volunteer work on every weekend."
   },
   {
     "id": "s_m144_form",
@@ -31805,7 +31805,7 @@
     ],
     "rom": "sincheongseoneun jechul jeone hwaginhaseyo",
     "wordIds": ["w_sincheongseo", "w_jechul"],
-    "note": "M143’s 제출 returns in a new instruction; -기 전에 from M33 marks the deadline."
+    "note": "M143’s 제출 returns in a fresh instruction. -기 전에 places the check before submission."
   },
   {
     "id": "s_m144_board",
@@ -31826,7 +31826,7 @@
     ],
     "rom": "chaejeom gyeolgwaga gesipane nawasseoyo",
     "wordIds": ["w_chaejeom", "w_gesipan"],
-    "note": "M143’s 채점 becomes a posted result; -더니 from M88 can connect a later reaction."
+    "note": "M143’s 채점 becomes a posted result; -에 marks the bulletin board as its destination."
   },
   {
     "id": "s_m144_service",
@@ -31847,7 +31847,7 @@
     ],
     "rom": "jikjangini gyonaeeseo bongsahaesseoyo",
     "wordIds": ["w_jikjangin", "w_gyonae", "w_bongsahada"],
-    "note": "M143’s 봉사하다 returns in a new school setting; -는 동안 from M38 can show duration."
+    "note": "M143’s 봉사하다 returns in a school setting; -에서 marks the place of the action."
   },
   {
     "id": "s_m144_forecast",
@@ -31868,7 +31868,7 @@
     ],
     "rom": "yeboga wiheomseongeul gangjohaesseoyo",
     "wordIds": ["w_yebo", "w_wiheomseong", "w_gangjo"],
-    "note": "-고자 from M90 can give the purpose of the warning."
+    "note": "위험성 is the forecast’s object, and 강조하다 from M93 puts emphasis on the risk."
   },
   {
     "id": "s_m144_school",
@@ -31889,7 +31889,7 @@
     ],
     "rom": "jaehak jungin haksaengeun hakgwareul seontaekhaeyo",
     "wordIds": ["w_jaehak", "w_hakgwa"],
-    "note": "-(으)ㄴ 채 from M94 could describe remaining enrolled while choosing."
+    "note": "The badge -ㄴ from M24 makes 재학 중인 modify 학생; 학과 is the department chosen."
   },
   {
     "id": "s_m144_display",
@@ -31910,7 +31910,7 @@
     ],
     "rom": "hakgyoneun aelbeomeul jeonsihaesseoyo",
     "wordIds": ["w_aelbeom", "w_jeonsihada"],
-    "note": "-(으)ㄴ 결과 from M90 can report the outcome of the exhibition."
+    "note": "-았/었- marks a completed display. 전시하다 takes the album as its object."
   },
   {
     "id": "s_m144_job",
@@ -31931,7 +31931,7 @@
     ],
     "rom": "saeopganeun sae iljarireul mandeureosseoyo",
     "wordIds": ["w_saeopga", "w_iljari"],
-    "note": "-고자 from M90 can explain the purpose of creating jobs."
+    "note": "사업가 is the actor, while 새 modifies the 일자리 that was created."
   },
   {
     "id": "s_m144_tutor",
@@ -31952,7 +31952,7 @@
     ],
     "rom": "jamaeneun gwaoereul badasseoyo",
     "wordIds": ["w_jamae", "w_gwaoe"],
-    "note": "-기는 하다 from M92 can qualify whether the tutoring helped."
+    "note": "과외를 받다 pairs private lessons with the verb receive; 자매 names the learners."
   },
   {
     "id": "s_m144_media",
@@ -31973,14 +31973,14 @@
     ],
     "rom": "maeseukeomeun gongtongjeomeul gangjohaesseoyo",
     "wordIds": ["w_maeseukeom", "w_gongtongjeom", "w_gangjo"],
-    "note": "-에 의해 from M90 can recast a claim as being shaped by the media."
+    "note": "강조하다 from M93 takes 공통점 as its object in the media report."
   },
   {
     "id": "s_m144_regret",
     "en": [
       { "t": "He", "role": "subject", "id": "a" },
-      { "t": "regretted", "role": "verb", "id": "d" },
-      { "t": "his choice", "role": "object", "id": "c" },
+      { "t": "felt", "role": "verb", "id": "d" },
+      { "t": "regret", "role": "object", "id": "c" },
       { "t": "all night.", "role": "other", "id": "b" }
     ],
     "gloss": [
@@ -31997,6 +31997,6 @@
     ],
     "rom": "geuneun bamsae huhoereul haesseoyo",
     "wordIds": ["w_bamsae", "w_huhoe"],
-    "note": "-던 from M88 can recall the choice; 후회하다 is built transparently from 후회."
+    "note": "밤새 spans the whole night; 후회 is the feeling expressed by 후회를 하다."
   }
 ]
