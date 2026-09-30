@@ -291,9 +291,10 @@ M148 *Movement, Household and the Weather*, M149 *Care, Change and Days of Learn
 M150 *Private Lives and Public Rituals*, M151 *Everyday Care and Shared Spaces*,
 M152 *Repairs, Seasons and Working Lives*, M153 *Meals, Places and Family Connections*,
 M154 *Family, Travel and Everyday Places*, and M155 *Learning, Food and Named Places*.
-The packs keep the vocabulary-first shape with no new glue; M133–M155
-each have ten aligned sentences and two gap cards. The final two packs teach
-all 75 remaining grade-C headwords, including the proper-name tail.
+The packs keep the vocabulary-first shape with no new glue; M133–M154
+each have ten aligned sentences and two gap cards. M155 has eight aligned
+sentences and two gap cards after its sentence-count correction (2026-09-30).
+The final two packs teach all 75 remaining grade-C headwords, including the proper-name tail.
 
 **Ring 3 complete (2026-09-30):** Band 7 and Band 8 are closed. NIKL grade C
 is **100.0% (2,655/2,655; 0 missing)**; grades A and B remain 100.0%.

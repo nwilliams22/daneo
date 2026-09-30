@@ -1,6 +1,6 @@
 # Brief — M155 "Learning, Food and Named Places" (order 164, ring 3, band 8)
 
-Teach all 37 reserved grade-C words in rank order. No new glue or garnish. Use ten aligned three-layer sentences, three novel M154 warm-up prompts, at least three sentences recycling M154 vocabulary, eight practice prompts and two genuine gap cards.
+Teach all 37 reserved grade-C words in rank order. No new glue or garnish. Use eight aligned three-layer sentences, three novel M154 warm-up prompts, at least three sentences recycling M154 vocabulary, eight practice prompts and two genuine gap cards.
 
 **Theme:** School attendance and preparation, families, shops and food, then the proper names that close the NIKL grade-C list.
 
