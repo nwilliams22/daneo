@@ -160,8 +160,9 @@ menu you have never seen, and the bag has an opinion about you.
      plastic bag (비닐봉지)". Vinyl → any thin plastic: 비닐하우스 (frozen
      — the greenhouse, Korea's farmland skyline), 비닐 장갑 (M21's 장갑).
    - 비닐봉지 — 비닐 + 봉지: THE plastic bag; the checkout question
-     rephrased. Culture, one honest line: charged since 2019 and banned
-     in large shops — the bag has a price and a politics.
+     rephrased. Culture, one honest line: since 2019, single-use plastic
+     bags have been banned in large-scale stores and supermarkets with
+     a floor area of at least 165 m².
    - 플라스틱 — plastic with the ㅡ-cushions installed (six syllables:
      the interlude's "Konglish is often LONGER than its source"); the
      rigid kind — 플라스틱 병 (M5's 병), 플라스틱 컵. Radar vs 비닐: 비닐 is

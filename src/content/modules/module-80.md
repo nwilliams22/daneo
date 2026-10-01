@@ -37,7 +37,7 @@ Ring 1 taught the rule and one example; this module is the rule's annual report.
 
 ### 2. The packaging verdict
 
-Food is named by what it is; packaging is named by what it does to you. 일회용 says one-round-use and means throw it away; 비닐봉지 asks whether you need it and charges you if you do; 포장 is takeout, gift-wrap and the tent M18's 떡볶이 note pitched (포장마차). The bare modifier is the grammar here — 일회용 컵, 자판기 커피, 편의점 도시락 — nouns stacked in front of nouns with no particle, the way s_m78_beginner_app stacked 디자인 앱. Korea sorts its 쓰레기 (M13) strictly; this drawer is the vocabulary of that sorting.
+Food is named by what it is; packaging is named by what it does to you. 일회용 says one-round-use and means throw it away; 비닐봉지 asks whether you need a bag, while the 2019 single-use bag ban covers large-scale stores and supermarkets of at least 165 m²; 포장 is takeout, gift-wrap and the tent M18's 떡볶이 note pitched (포장마차). The bare modifier is the grammar here — 일회용 컵, 자판기 커피, 편의점 도시락 — nouns stacked in front of nouns with no particle, the way s_m78_beginner_app stacked 디자인 앱. Korea sorts its 쓰레기 (M13) strictly; this drawer is the vocabulary of that sorting.
 
 **Calibration:** 포도주 and 와인 are the shelf's register lesson — the Sino compound names the recipe (grape-alcohol) and lives on labels and at church; the loan names the scene and lives on menus and dates. Same split as 자판기 (the machine) vs 커피 자판기 (the lobby ritual): pick the word by where you are standing.
 
