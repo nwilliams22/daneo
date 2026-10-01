@@ -2155,7 +2155,7 @@
     "id": "m86",
     "title": "Cause and Grounds",
     "order": 95,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-86.md",
     "wordIds": [
       "w_inhada", "w_bihada", "w_bulguhada", "w_birothada",
@@ -2176,7 +2176,7 @@
     "id": "m85",
     "title": "The Written Voice",
     "order": 94,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-85.md",
     "wordIds": [
       "w_ttaraseo", "w_deouk", "w_ildan", "w_dalli",
@@ -2198,7 +2198,7 @@
     "id": "m87",
     "title": "Seeming and Worth",
     "order": 96,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-87.md",
     "wordIds": [
       "w_deut", "w_deuthada", "w_manhada", "w_sem",
@@ -2220,7 +2220,7 @@
     "id": "m88",
     "title": "The Retrospective",
     "order": 97,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-88.md",
     "wordIds": [
       "w_sam", "w_gwajeong", "w_dangye", "w_sigi",
@@ -2242,7 +2242,7 @@
     "id": "m89",
     "title": "Degree and Extent",
     "order": 98,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-89.md",
     "wordIds": [
       "w_sujun", "w_gyumo", "w_beomwi", "w_pyeonggyun",
@@ -2264,7 +2264,7 @@
     "id": "m90",
     "title": "State and Society",
     "order": 99,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-90.md",
     "wordIds": [
       "w_gieop", "w_gukhoe", "w_jeongdang", "w_beobwon",
@@ -2286,7 +2286,7 @@
     "id": "m91",
     "title": "Process and Structure",
     "order": 100,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-91.md",
     "wordIds": [
       "w_gujo", "w_hyeongtae", "w_hyeongsik", "w_bangsik",
@@ -2308,7 +2308,7 @@
     "id": "m92",
     "title": "Existence and Matter",
     "order": 101,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-92.md",
     "wordIds": [
       "w_saengmyeong", "w_jonjae", "w_jonjaehada", "w_moksum",
@@ -2330,7 +2330,7 @@
     "id": "m93",
     "title": "The Analyst's Verbs",
     "order": 102,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-93.md",
     "wordIds": [
       "w_deureonada", "w_balkyeojida", "w_paakhada", "w_salpida",
@@ -2351,7 +2351,7 @@
     "id": "m95",
     "title": "Concession and Choice",
     "order": 104,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-95.md",
     "wordIds": [
       "w_galdeung", "w_gyeongjaeng", "w_gyeongjaengnyeok", "w_hyeomnyeok",
@@ -2372,7 +2372,7 @@
     "id": "m94",
     "title": "Motion and Mishap",
     "order": 103,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-94.md",
     "wordIds": [
       "w_geolchida", "w_dureuda", "w_daeda", "w_samda_take",
@@ -2394,7 +2394,7 @@
     "id": "m97",
     "title": "The Economy Page",
     "order": 106,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-97.md",
     "wordIds": [
       "w_saneop", "w_gongeop", "w_saengsan", "w_saengsanhada",
@@ -2416,7 +2416,7 @@
     "id": "m96",
     "title": "Culture, Stage and Press",
     "order": 105,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-96.md",
     "wordIds": [
       "w_yeongeuk", "w_geuk", "w_huigok", "w_bigeuk",
@@ -2437,7 +2437,7 @@
     "id": "m98",
     "title": "Ground and Rank",
     "order": 107,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-98.md",
     "wordIds": [
       "w_ipjang", "w_hyeonjang", "w_jungang", "w_naebu",
@@ -2459,7 +2459,7 @@
     "id": "m99",
     "title": "One Syllable, Many Rows",
     "order": 108,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-99.md",
     "wordIds": [
       "w_myeon_side", "w_seon_line", "w_gol_goal", "w_kkol", "w_gi_energy",
@@ -2478,7 +2478,7 @@
     "id": "m100",
     "title": "The Second Front Page",
     "order": 109,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-100.md",
     "wordIds": [
       "w_yeollak", "w_hoegyeon", "w_seongmyeong", "w_saseol",
@@ -2500,7 +2500,7 @@
     "id": "m101",
     "title": "The Trade and the Tool",
     "order": 110,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-101.md",
     "wordIds": [
       "w_tekseuteu", "w_seokeul", "w_charyang", "w_unjeonsa", "w_seonjang",
@@ -2519,7 +2519,7 @@
     "id": "m102",
     "title": "Native Verbs II",
     "order": 111,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-102.md",
     "wordIds": [
       "w_seuchida", "w_bakda_hammer", "w_bakhida", "w_jipda_lean",
@@ -2540,7 +2540,7 @@
     "id": "m103",
     "title": "The Abstract Shelf III",
     "order": 112,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-103.md",
     "wordIds": [
       "w_jeongmyeon", "w_jungban", "w_jikjeon", "w_choejong", "w_daeryuk",
@@ -2560,7 +2560,7 @@
     "id": "m104",
     "title": "Native Verbs III, and the House",
     "order": 113,
-    "ring": 2,
+    "ring": 3,
     "contentMd": "modules/module-104.md",
     "wordIds": [
       "w_pumda", "w_muchida", "w_mallida", "w_doechatda", "w_hearida",
