@@ -39,13 +39,15 @@ Ring 1 taught the rule and one example; this module is the rule's annual report.
 
 Food is named by what it is; packaging is named by what it does to you. 일회용 says one-round-use and means throw it away; 비닐봉지 asks whether you need a bag, while the 2019 single-use bag ban covers large-scale stores and supermarkets of at least 165 m²; 포장 is takeout, gift-wrap and the tent M18's 떡볶이 note pitched (포장마차). The bare modifier is the grammar here — 일회용 컵, 자판기 커피, 편의점 도시락 — nouns stacked in front of nouns with no particle, the way s_m78_beginner_app stacked 디자인 앱. Korea sorts its 쓰레기 (M13) strictly; this drawer is the vocabulary of that sorting.
 
+**The café rule changed:** The 2022 restriction covered paper cups used inside cafés. In November 2023, the Ministry of Environment removed paper cups from the restricted single-use items and shifted to recommending and supporting reusable cups. The in-store restriction on single-use **plastic** cups remains; the sentence below names plastic so it does not imply that paper cups are permitted only for takeout. [Ministry announcement](https://www.korea.kr/news/policyNewsView.do?newsId=148922316).
+
 **Calibration:** 포도주 and 와인 are the shelf's register lesson — the Sino compound names the recipe (grape-alcohol) and lives on labels and at church; the loan names the scene and lives on menus and dates. Same split as 자판기 (the machine) vs 커피 자판기 (the lobby ritual): pick the word by where you are standing.
 
 ---
 
 ## Part 4 — Building sentences
 
-**Spot the recycling:** -(으)ㄹ까요 from M9 and 시키다 from M3 put the lunch vote to the 중국집, -(으)면 돼요 from M23 declines the 비닐봉지, -(으)면 안 돼요 from M20 posts the café's 일회용 rule, -아/어야 돼요 from M10, decoded by M39, receives the 술잔 with both hands, -자마자 from M38 pours the morning 찬물 with the counter 잔 from M5, -(으)ㄹ 때 from M25 and -아/어 주다 from M9 pack the 도시락, -아/어 버리다 from M52 lets the 자판기 coffee go cold in its 종이컵, and the badge -(으)ㄴ from M24 on M18's 뜨겁다 serves the hangover 설렁탕 by the 그릇.
+**Spot the recycling:** -(으)ㄹ까요 from M9 and 시키다 from M3 put the lunch vote to the 중국집, -(으)면 돼요 from M23 declines the 비닐봉지, -(으)면 안 돼요 from M20 posts the café's single-use plastic-cup rule, -아/어야 돼요 from M10, decoded by M39, receives the 술잔 with both hands, -자마자 from M38 pours the morning 찬물 with the counter 잔 from M5, -(으)ㄹ 때 from M25 and -아/어 주다 from M9 pack the 도시락, -아/어 버리다 from M52 lets the 자판기 coffee go cold in its 종이컵, and the badge -(으)ㄴ from M24 on M18's 뜨겁다 serves the hangover 설렁탕 by the 그릇.
 
 ::sentences::
 

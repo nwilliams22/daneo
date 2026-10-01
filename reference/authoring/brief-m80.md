@@ -185,7 +185,10 @@ menu you have never seen, and the bag has an opinion about you.
      One-time-use: 일회용 컵, 일회용 젓가락 (M18), 일회용 비닐봉지. 일회용품
      adds the goods-品 of M43's 제품 ("品 stacks three boxes into
      'goods'"): disposables as a category — 일회용품 사용 금지 (S2's 사용,
-     금지), the 2022 café rule that took the paper cup off the counter.
+     금지), the 2022 café restriction on in-store paper cups, reversed in
+     November 2023 when paper cups were removed from the restricted items.
+     Keep the sentence's present-day prohibition specific to single-use
+     plastic cups. Source: https://www.korea.kr/news/policyNewsView.do?newsId=148922316 .
      Radar: M18's 회 (raw fish) is 膾; M16's 회사/회의 is gather-會; this
      回 is the round.
 

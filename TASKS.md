@@ -342,3 +342,7 @@ Moved 27 existing grade-C entries with stable IDs: seven modifiers to M73, twelv
 ### 2026-09-30 — Correct M80 single-use bag scope
 
 The 비닐봉지 word note, M80 lesson prose, sentence note and authoring brief now distinguish the 2019 ban at large-scale stores and supermarkets of at least 165 m² from other checkout contexts. `npm run validate:content`: 15/15; `npm run lint:lang`: 0 FAIL / 0 WARN; `npm run visual:pass -- m80 --port 5281`: 1/1 page rendered with 34/34 checklist words, and the PNG was inspected with no visible clipping. `git diff --check` passes. Next: content review of the corrected wording.
+
+### 2026-09-30 — Correct M80 paper-cup restriction timeline
+
+Updated the M80 sentence to prohibit single-use plastic cups inside cafés, with matching Korean, gloss, romanization and word IDs. The lesson, paper-cup and disposables notes, and authoring brief now distinguish the 2022 in-store paper-cup restriction from the Ministry of Environment's November 2023 removal of paper cups from the restricted items. The lesson links the ministry announcement. `npm run validate:content`: 15/15; `npm run lint:lang`: 0 FAIL / 0 WARN; `npm run visual:pass -- m80 --port 5283`: 1/1 rendered with 34/34 checklist words, and the PNG was inspected with no visible clipping. `git diff --check` passes. Next: independent content review of the corrected policy explanation.

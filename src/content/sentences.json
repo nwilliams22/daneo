@@ -17937,21 +17937,21 @@
     "en": [
       { "t": "Inside the café,", "role": "place", "id": "p" },
       { "t": "you must not use", "role": "verb", "id": "v" },
-      { "t": "disposable cups", "role": "object", "id": "o" }
+      { "t": "single-use plastic cups", "role": "object", "id": "o" }
     ],
     "gloss": [
       { "t": "café inside-at-[topic]", "role": "place", "id": "p" },
-      { "t": "single-use cup-[obj]", "role": "object", "id": "o" },
+      { "t": "single-use plastic cup-[obj]", "role": "object", "id": "o" },
       { "t": "use-if not is-okay", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "카페 안에서는", "role": "place", "id": "p" },
-      { "t": "일회용 컵을", "role": "object", "id": "o" },
+      { "t": "일회용 플라스틱 컵을", "role": "object", "id": "o" },
       { "t": "사용하면 안 돼요", "role": "verb", "id": "v" }
     ],
-    "rom": "kape aneseoneun ilhoeyong keobeul sayonghamyeon an dwaeyo",
-    "wordIds": ["w_kape", "w_an_inside", "w_ilhoeyong", "w_keop", "w_sayonghada", "w_doeda"],
-    "note": "The 2022 café rule as a sentence: -(으)면 안 돼요 from M20 — the prohibition machine, -(으)면 conditioning the 안 돼요 veto from M10 — forbids M10's 사용하다 on 일회용 컵, the module's bare modifier sitting in front of M18's 컵 with no particle between. 카페 안에서는 stacks M6's position-안 (not the negation 안 three chunks later — both are here, telling them apart) with 에서 and a contrast-는: inside, this rule; for takeout, the paper cup returns. The sign on the counter says the same thing in three words: 일회용품 사용 금지."
+    "rom": "kape aneseoneun ilhoeyong peullaseutik keobeul sayonghamyeon an dwaeyo",
+    "wordIds": ["w_kape", "w_an_inside", "w_ilhoeyong", "w_peullaseutik", "w_keop", "w_sayonghada", "w_doeda"],
+    "note": "A café restriction that remains after the 2023 paper-cup change: -(으)면 안 돼요 from M20 — the prohibition machine, -(으)면 conditioning the 안 돼요 veto from M10 — forbids M10's 사용하다 on 일회용 플라스틱 컵. The module's bare modifiers sit before M18's 컵 with no particles between them. 카페 안에서는 stacks M6's position-안 (not the negation 안 three chunks later — both are here, telling them apart) with 에서 and a contrast-는: inside the café is the scope of this plastic-cup rule. Paper cups were removed from the restricted single-use items in November 2023; this sentence does not ban them."
   },
   {
     "id": "s_m80_suljari_two_hands",
