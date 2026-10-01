@@ -15,8 +15,7 @@ that slipped through Ring 1 and teaching the four workhorse patterns
 that no module owns although drafters and notes keep reaching for
 them. The md therefore has FOUR glue parts (one per pattern), like a
 Band 4 module, and one short vocab part. Word notes stay at full house
-depth. All 16 words are nouns (급히 is an adverb — house rule: tag
-`noun`).
+depth. The pack has 15 nouns and one adverb, 급히.
 
 **Theme:** the receipts. Six Grade-A words that Ring 1 walked past —
 three of them named as "riding frozen" or "waits its own turn" in

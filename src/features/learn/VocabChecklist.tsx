@@ -9,6 +9,7 @@ const GROUPS: { pos: Word["pos"][]; label: string }[] = [
   { pos: ["noun"], label: "Nouns & pronouns" },
   { pos: ["verb"], label: "Verbs" },
   { pos: ["adj"], label: "Describing words" },
+  { pos: ["adverb"], label: "Adverbs" },
   { pos: ["phrase"], label: "Survival phrases" },
 ];
 

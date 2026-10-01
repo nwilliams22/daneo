@@ -346,3 +346,7 @@ The 비닐봉지 word note, M80 lesson prose, sentence note and authoring brief 
 ### 2026-09-30 — Correct M80 paper-cup restriction timeline
 
 Updated the M80 sentence to prohibit single-use plastic cups inside cafés, with matching Korean, gloss, romanization and word IDs. The lesson, paper-cup and disposables notes, and authoring brief now distinguish the 2022 in-store paper-cup restriction from the Ministry of Environment's November 2023 removal of paper cups from the restricted items. The lesson links the ministry announcement. `npm run validate:content`: 15/15; `npm run lint:lang`: 0 FAIL / 0 WARN; `npm run visual:pass -- m80 --port 5283`: 1/1 rendered with 34/34 checklist words, and the PNG was inspected with no visible clipping. `git diff --check` passes. Next: independent content review of the corrected policy explanation.
+
+### 2026-09-30 — Correct M84 급히 part of speech
+
+Tagged 급히 as an adverb, matching the NIKL Korean-English Learners' Dictionary (entry 37217). Added adverb to the word schema and checklist groups; removed the noun claim from the word note, lesson and authoring brief. `npm run validate:content`: 15/15; `npx tsc -b --pretty false`: passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `npm run visual:pass -- m84 --port 5287`: 1/1 rendered with 16/16 checklist words. Inspected the PNG: 급히 appears under Adverbs, with the row and surrounding text visible without clipping. `git diff --check` passes. Next: independent content review of the corrected classification.
