@@ -354,3 +354,7 @@ Tagged 급히 as an adverb, matching the NIKL Korean-English Learners' Dictionar
 ### 2026-09-30 — Record the M84 Ring 2 closeout exception
 
 CURRICULUM.md §2b now records M84's intentional 16-word exception to the usual 40–48: its authoring brief and lesson already reserve the closer for six delayed Grade-A words, ten related Grade-C words, and four glue patterns. The eight-sentence and full-note requirements remain. A focused registry assertion confirmed 16 words, 8 sentences, and the curriculum exception; `git diff --check` passed. Next: QA can resume the M84 contract review against the documented exception.
+
+### 2026-09-30 — Correct M85 과연 register note
+
+Replaced the claim that 과연 is never spoken with a distinction between its considered tone in writing and its use in conversation, matching the dialogue examples in the NIKL Korean-English Learners' Dictionary (entry 23961). Corrected its part of speech to adverb and aligned the M85 lesson and authoring brief. `npm run validate:content` passed 15/15; `npm run lint:lang` returned 0 FAIL / 0 WARN; `git diff --check` passed. `npm run visual:pass -- m85 --port 5291` could not start its local dev server, so the rendered page was not inspected. Next: check the M85 checklist in the desktop app or browser to confirm 과연 appears under Adverbs and its revised note renders fully.

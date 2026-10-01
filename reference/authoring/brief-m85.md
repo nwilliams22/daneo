@@ -85,7 +85,8 @@ coats, and every adverb here has a spoken twin already taught.
      ("absolutely (never)").
    - 과연 — indeed / as expected; (in questions) really? 果然
      fruit-thus. Twin: M32's 역시 ("as expected; sure enough") —
-     역시 is the mouth's, 과연 the essay's.
+     역시 is the everyday twin; 과연 favors a considered tone in writing
+     but is also spoken when confirming or questioning an expectation.
    - 비로소 — only then, for the first time. Twin: M35's 드디어
      ("finally! (spoken)") and M35's 마침내 ("at last, finally
      (written)") — sort all three: 드디어 cheers, 마침내 concludes,
