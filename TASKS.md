@@ -362,3 +362,7 @@ Replaced the claim that 과연 is never spoken with a distinction between its co
 ### 2026-09-30 — Register M85–M104 in Ring 3
 
 Changed the twenty M85–M104 registry entries from Ring 2 to Ring 3, matching CURRICULUM.md §2c and the Band 7/Band 8 module ranges. A focused JSON assertion confirmed all twenty entries are Ring 3 while adjacent M84 and M105 retain their existing Ring 2 values. `npm run validate:content` passed 15/15; `git diff --check` passed. Next: verify the Learn list shows the Ring 3 divider at M85 in a UI pass, then continue the content review.
+
+### 2026-09-30 — Correct M87 평가하다 comparison
+
+Revised the 평가하다 word note to say a rating can be high or low and either assessment can miss the mark, while keeping its graded assessment contrast with 판단하다's decision. The NIKL Korean-English Learners' Dictionary entry for 과대평가하다 (25421) confirms an evaluation can be too high. `npm run validate:content` passed 15/15; `npm run lint:lang` returned 0 FAIL / 0 WARN; `npm run visual:pass -- m87 --port 5299` rendered 1/1 page with 33/33 checklist words. Inspected the PNG: the page, checklist and sentence cards are visible without clipping. `git diff --check` passed. Next: independent content review of the corrected comparison.
