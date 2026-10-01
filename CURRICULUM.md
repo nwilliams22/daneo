@@ -161,6 +161,15 @@ Everything Ring 1 proved essential stays; the ceremony goes:
 4. **Gap items** — 0–3, only when genuine.
 5. **Registration + green + TASKS log** — unchanged.
 
+**M84 closeout exception:** M84 has 16 checklist words, below the usual
+40–48, by design. Its authoring brief reserves this last Ring 2 module for
+six Grade-A words left over from Ring 1, ten related Grade-C words, and four
+previously unowned glue patterns. The small vocabulary leaves room to teach
+those patterns in four full glue parts. Keep the eight-sentence requirement,
+full word notes, and the other Ring 2 checks; do not pad this closer with
+unrelated words merely to reach the usual count. The M84 lesson and
+`reference/authoring/brief-m84.md` record the same intent.
+
 ### Band 4 — the grammar engine II (M31–M39, ordered)
 
 Built on the B-list's abstract core (사회/경제/관계/경우/정도/방법 + the

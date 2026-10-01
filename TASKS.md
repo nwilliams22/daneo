@@ -350,3 +350,7 @@ Updated the M80 sentence to prohibit single-use plastic cups inside cafés, with
 ### 2026-09-30 — Correct M84 급히 part of speech
 
 Tagged 급히 as an adverb, matching the NIKL Korean-English Learners' Dictionary (entry 37217). Added adverb to the word schema and checklist groups; removed the noun claim from the word note, lesson and authoring brief. `npm run validate:content`: 15/15; `npx tsc -b --pretty false`: passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `npm run visual:pass -- m84 --port 5287`: 1/1 rendered with 16/16 checklist words. Inspected the PNG: 급히 appears under Adverbs, with the row and surrounding text visible without clipping. `git diff --check` passes. Next: independent content review of the corrected classification.
+
+### 2026-09-30 — Record the M84 Ring 2 closeout exception
+
+CURRICULUM.md §2b now records M84's intentional 16-word exception to the usual 40–48: its authoring brief and lesson already reserve the closer for six delayed Grade-A words, ten related Grade-C words, and four glue patterns. The eight-sentence and full-note requirements remain. A focused registry assertion confirmed 16 words, 8 sentences, and the curriculum exception; `git diff --check` passed. Next: QA can resume the M84 contract review against the documented exception.
