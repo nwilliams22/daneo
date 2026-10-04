@@ -1,5 +1,5 @@
 import promptTemplate from "../../src/lib/translation-prompt.json" with { type: "json" };
-import { translationResultSchema } from "../../src/lib/schemas.ts";
+import { postprocessTranslation } from "../../src/lib/translation-postprocess.ts";
 import type { TranslationResult } from "../../src/types.ts";
 import { directionForInput, type TranslationDirection } from "../../src/lib/translation-direction.ts";
 
@@ -33,16 +33,13 @@ export function parseTranslationText(text: string, direction?: TranslationDirect
   if (direction && raw && typeof raw === "object" && !Array.isArray(raw)) {
     raw = { ...raw, direction };
   }
-  const parsed = translationResultSchema.safeParse(raw);
-  if (!parsed.success) {
-    const first = parsed.error.issues[0];
+  const parsed = postprocessTranslation(raw);
+  if (!parsed) {
     return {
       ok: false,
       code: "invalid-shape",
-      message: `The model reply did not match the contract${
-        first ? ` (${first.path.join(".")}: ${first.message})` : ""
-      }.`,
+      message: "The model reply did not match the contract.",
     };
   }
-  return { ok: true, result: parsed.data as TranslationResult };
+  return { ok: true, result: parsed };
 }

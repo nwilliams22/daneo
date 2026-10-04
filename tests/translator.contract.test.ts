@@ -30,10 +30,12 @@ describe("translator contract (§6.3)", () => {
     if (r.ok) expect(r.result.korean).toBe(GOOD.korean);
   });
 
-  it("keeps romanization in the default model contract while the lever is undecided", () => {
+  it("computes romanization after parsing without asking the model for it", () => {
     const { romanization: _missing, ...reply } = GOOD;
-    expect(parseTranslationText(JSON.stringify(reply)).ok).toBe(false);
-    expect(buildTranslatePrompt("friend")).toContain('"romanization"');
+    const result = parseTranslationText(JSON.stringify(reply));
+    expect(result.ok).toBe(true);
+    if (result.ok) expect(result.result.romanization).toBe("chinguga bogo sipeoyo");
+    expect(buildTranslatePrompt("friend")).not.toContain('"romanization"');
   });
 
   it("strips markdown fences before parsing", () => {
