@@ -5,12 +5,31 @@ import v0 from './v0-translation-set.json';
 import v1 from './v1-translation-set.json';
 import v2 from './v2-translation-set.json';
 import development from './dev-translation-set.json';
+import v0Raw from './v0-translation-set.json?raw';
+import v1Raw from './v1-translation-set.json?raw';
+import v2Raw from './v2-translation-set.json?raw';
+import developmentRaw from './dev-translation-set.json?raw';
+import promptSource from '../../src/lib/translation-prompt.json?raw';
 
-const fixture = import.meta.env.VITE_DANEO_EVAL_SET === 'dev' ? development
-  : import.meta.env.VITE_DANEO_EVAL_SET === 'v0' ? v0
-  : import.meta.env.VITE_DANEO_EVAL_SET === 'v1' ? v1 : v2;
+const selectedSet = import.meta.env.VITE_DANEO_EVAL_SET ?? 'v2';
+const fixture = selectedSet === 'dev' ? development
+  : selectedSet === 'v0' ? v0 : selectedSet === 'v1' ? v1 : v2;
+const fixturePath = `reference/eval/${selectedSet}-translation-set.json`;
+const fixtureSource = selectedSet === 'dev' ? developmentRaw
+  : selectedSet === 'v0' ? v0Raw : selectedSet === 'v1' ? v1Raw : v2Raw;
+
+async function sha256(text: string) {
+  const bytes = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return [...new Uint8Array(bytes)].map(byte => byte.toString(16).padStart(2, '0')).join('');
+}
 
 async function run() {
+  // This handshake must succeed before the first translation request/inference.
+  await invoke('verify_acceptance_identity', {
+    promptSha256: await sha256(promptSource),
+    itemSetPath: fixturePath,
+    itemSetSha256: await sha256(fixtureSource),
+  });
   // Held-out items are queried once. Warmup and timing must use non-held-out inputs.
   const sequence = fixture.items.map(item => ({ ...item, requestId: `heldout-${item.id}` }));
   for (const item of sequence) {

@@ -13,6 +13,10 @@ use std::{
 };
 
 mod native;
+#[cfg(feature = "acceptance")]
+pub fn acceptance_prompt_sha256() -> String {
+    native::acceptance_prompt_sha256()
+}
 #[cfg(test)]
 mod tests;
 

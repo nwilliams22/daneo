@@ -18,6 +18,11 @@ use crate::model_artifact::{MODEL_BYTES, MODEL_SHA256};
 const CONTEXT_TOKENS: u32 = 4096;
 const OUTPUT_TOKENS: usize = 1024;
 
+#[cfg(feature = "acceptance")]
+pub(super) fn acceptance_prompt_sha256() -> String {
+    format!("{:x}", Sha256::digest(include_bytes!("../../../src/lib/translation-prompt.json")))
+}
+
 pub(super) struct Loaded {
     model: LlamaModel,
     backend: LlamaBackend,

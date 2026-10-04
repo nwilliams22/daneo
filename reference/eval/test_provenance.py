@@ -8,6 +8,7 @@ import tempfile
 import unittest
 
 SOURCE_CHECKER = Path(__file__).with_name('check-provenance.py')
+ACCEPTANCE_SOURCE = Path(__file__).with_name('acceptance.ts')
 
 
 def git(repo, *args, text=True):
@@ -73,6 +74,12 @@ class ProvenanceHistoryTest(unittest.TestCase):
         result = self.check(raw, report)
         self.assertNotEqual(result.returncode, 0, result.stdout)
         self.assertIn('not an ancestor of report commit', result.stderr)
+
+    def test_identity_handshake_precedes_every_translation_request(self):
+        source = ACCEPTANCE_SOURCE.read_text()
+        self.assertLess(source.index("invoke('verify_acceptance_identity'"), source.index('localTranslator.translate('))
+        self.assertIn("itemSetSha256: await sha256(fixtureSource)", source)
+        self.assertIn("promptSha256: await sha256(promptSource)", source)
 
 
 if __name__ == '__main__':
