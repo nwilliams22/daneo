@@ -19883,7 +19883,7 @@
       { "t": "had every one of", "role": "other", "id": "a" },
       { "t": "the qualifications, as far as I saw —", "role": "object", "id": "o" },
       { "t": "so why", "role": "other", "id": "b" },
-      { "t": "didn't you pick him?", "role": "verb", "id": "v" }
+      { "t": "didn't you pick them?", "role": "verb", "id": "v" }
     ],
     "gloss": [
       { "t": "newly came employee-[subj]", "role": "subject", "id": "s" },
