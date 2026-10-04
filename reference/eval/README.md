@@ -2,6 +2,8 @@
 
 ## Prompt repair on a host without a usable desktop socket
 
+The v0 ten items are retired as a gate and retained for reporting and regression.
+
 `dev-translation-set.json` contains six corpus items excluded from the frozen
 `v0-translation-set.json`. It has the same input, direction, corpus anchor,
 meaning, and feature fields; score it with the six dimensions in `v0-rubric.md`.
