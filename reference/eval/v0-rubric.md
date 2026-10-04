@@ -4,6 +4,10 @@ Frozen on 2026-10-04, before prompt tuning. Use [`v0-translation-set.json`](v0-t
 
 ## Provenance rule for future held-out runs
 
+This rubric is deliberately reused unchanged for every replacement held-out set, including v1 and
+v2. Do not create a version-specific rubric or alter its thresholds, dimensions, or zero-tolerance
+rules; the replacement set path is supplied to the checker for each run.
+
 Every raw output row must record the runner's `git rev-parse HEAD`, the SHA-256 of
 `src/lib/translation-prompt.json`, this rubric, and the frozen item set. A held-out run is
 **void** if its recorded HEAD is not an ancestor of the commit containing its own report, or if
@@ -13,7 +17,8 @@ also match the files at that HEAD, and the set hash must match its committed man
 these conditions. Commit `017eb4e` is the worked example of the failure: the prompt change, dev
 set, and held-out outputs first appeared together, so their order could not be proved.
 
-The replacement frozen gate is [`v2-translation-set.json`](v2-translation-set.json); the burned
+The replacement frozen gates are [`v1-translation-set.json`](v1-translation-set.json) for the
+deterministic rung and [`v2-translation-set.json`](v2-translation-set.json) for the fine-tune; the burned
 v0 items remain excluded from all future gates and training data.
 
 ## Sources and procedure

@@ -9,7 +9,6 @@ import sys
 ROOT = Path(__file__).resolve().parents[2]
 PROMPT = 'src/lib/translation-prompt.json'
 RUBRIC = 'reference/eval/v0-rubric.md'
-FROZEN_SET = 'reference/eval/v2-translation-set.json'
 
 
 def git_bytes(commit, path):
@@ -20,7 +19,7 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def validate(raw_path, report_commit):
+def validate(raw_path, report_commit, frozen_set):
     raw_file = Path(raw_path).resolve()
     try:
         repo_path = raw_file.relative_to(ROOT.resolve()).as_posix()
@@ -49,12 +48,15 @@ def validate(raw_path, report_commit):
                 raise ValueError(f'row {index}: {field} does not match {path} at recorded HEAD')
 
         set_path = provenance.get('itemSetPath')
-        if set_path != FROZEN_SET:
-            raise ValueError(f'row {index}: itemSetPath must be {FROZEN_SET}')
-        set_hash = digest(git_bytes(head, FROZEN_SET))
+        if not isinstance(set_path, str) or not set_path.startswith('reference/eval/') or not set_path.endswith('-translation-set.json'):
+            raise ValueError(f'row {index}: invalid itemSetPath {set_path!r}')
+        if set_path != frozen_set:
+            raise ValueError(f'row {index}: itemSetPath {set_path} does not match selected set {frozen_set}')
+        set_hash = digest(git_bytes(head, set_path))
         if provenance.get('itemSetSha256') != set_hash:
-            raise ValueError(f'row {index}: itemSetSha256 does not match the frozen set at recorded HEAD')
-        manifest = git_bytes(head, 'reference/eval/v2-translation-set.sha256').decode().split()[0]
+            raise ValueError(f'row {index}: itemSetSha256 does not match {set_path} at recorded HEAD')
+        manifest_path = set_path.removesuffix('.json') + '.sha256'
+        manifest = git_bytes(head, manifest_path).decode().split()[0]
         if set_hash != manifest:
             raise ValueError(f'row {index}: frozen set does not match its committed SHA-256 manifest')
     return len(rows)
@@ -64,9 +66,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('raw_jsonl')
     parser.add_argument('--report-commit', required=True, help='commit containing the report and raw evidence')
+    parser.add_argument('--item-set', required=True, help='frozen item set used by this run')
     args = parser.parse_args()
     try:
-        count = validate(args.raw_jsonl, args.report_commit)
+        count = validate(args.raw_jsonl, args.report_commit, args.item_set)
     except (ValueError, OSError, subprocess.CalledProcessError, json.JSONDecodeError) as error:
         print(f'PROVENANCE FAIL: {error}', file=sys.stderr)
         return 1

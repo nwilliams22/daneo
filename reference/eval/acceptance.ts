@@ -2,17 +2,17 @@
 import { invoke } from '@tauri-apps/api/core';
 import { localTranslator } from '../../src/features/explore/local-api';
 import v0 from './v0-translation-set.json';
+import v1 from './v1-translation-set.json';
 import v2 from './v2-translation-set.json';
 import development from './dev-translation-set.json';
 
 const fixture = import.meta.env.VITE_DANEO_EVAL_SET === 'dev' ? development
-  : import.meta.env.VITE_DANEO_EVAL_SET === 'v0' ? v0 : v2;
+  : import.meta.env.VITE_DANEO_EVAL_SET === 'v0' ? v0
+  : import.meta.env.VITE_DANEO_EVAL_SET === 'v1' ? v1 : v2;
 
 async function run() {
-  const sequence = [
-    { ...fixture.items[0], requestId: 'cold-' + fixture.items[0].id },
-    ...[1, 2, 3].flatMap(round => fixture.items.map(item => ({ ...item, requestId: `warm-${round}-${item.id}` }))),
-  ];
+  // Held-out items are queried once. Warmup and timing must use non-held-out inputs.
+  const sequence = fixture.items.map(item => ({ ...item, requestId: `heldout-${item.id}` }));
   for (const item of sequence) {
     const start = performance.now();
     const progress: { elapsedMs: number; state: string; outputTokens: number }[] = [];
