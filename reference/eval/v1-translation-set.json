@@ -1,0 +1,192 @@
+{
+  "version": "v1",
+  "frozenOn": "2026-10-04",
+  "corpusCommit": "59751c5f31a93e774324621fd08d6f2f77555443",
+  "sourceFiles": [
+    "src/content/sentences.json",
+    "src/content/modules.json"
+  ],
+  "inputConstruction": "Join the nonempty text chunks of the source language with one U+0020 space; retain their original punctuation. The input field is the exact string to submit. No leading or trailing whitespace.",
+  "items": [
+    {
+      "id": "DAN-V1-EK-01",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "My friend drinks water",
+      "corpusSentenceId": "s_friend_water",
+      "moduleId": "m1",
+      "moduleContent": "src/content/modules/module-1.md",
+      "feature": "Subject vs object particles: 친구가 subject, 물을 object",
+      "expectedReadingEnglish": "My friend drinks water.",
+      "corpusAnchor": {
+        "korean": "친구가 물을 마셔요",
+        "gloss": "friend-[subj] water-[obj] drinks",
+        "romanization": "chinguga mureul masyeoyo",
+        "note": "The same sentence as 'I drink water' with one swap: 친구가 instead of 저는. The particles do the work; the verb never changes for the subject."
+      },
+      "acceptableAnswerNote": "Accept a natural polite Korean rendering that preserves my friend drinks water and the tested feature. Do not change the actor, polarity, place relation, or register."
+    },
+    {
+      "id": "DAN-V1-EK-02",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "I go to the store",
+      "corpusSentenceId": "s_store",
+      "moduleId": "m1",
+      "moduleContent": "src/content/modules/module-1.md",
+      "feature": "Destination particle 에 and polite present ending",
+      "expectedReadingEnglish": "I go to the store.",
+      "corpusAnchor": {
+        "korean": "저는 가게에 가요",
+        "gloss": "I-[as for] store-to go",
+        "romanization": "jeoneun gagee gayo",
+        "note": "The subject stays first — it's the VERB that moves to the end. And 'to' isn't a separate word in front; it's the particle 에 glued onto the back of 가게 (store)."
+      },
+      "acceptableAnswerNote": "Accept a natural polite Korean rendering that preserves i go to the store and the tested feature. Do not change the actor, polarity, place relation, or register."
+    },
+    {
+      "id": "DAN-V1-EK-03",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "I study Korean at school",
+      "corpusSentenceId": "s_school_study",
+      "moduleId": "m1",
+      "moduleContent": "src/content/modules/module-1.md",
+      "feature": "Action location 에서 vs destination 에; object particle 를",
+      "expectedReadingEnglish": "I study Korean at school.",
+      "corpusAnchor": {
+        "korean": "저는 학교에서 한국어를 공부해요",
+        "gloss": "I-[as for] school-at Korean-[obj] study",
+        "romanization": "jeoneun hakgyoeseo hangugeoreul gongbuhaeyo",
+        "note": "Four pieces now: subject, then place, then object, then verb. 에서 (not just 에) marks where an action happens — a small preview of Module 2. Typical order is S–Place–O–V, but the particles do the real work."
+      },
+      "acceptableAnswerNote": "Accept a natural polite Korean rendering that preserves i study korean at school and the tested feature. Do not change the actor, polarity, place relation, or register."
+    },
+    {
+      "id": "DAN-V1-EK-04",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "My mother is a teacher",
+      "corpusSentenceId": "s4_mother_teacher",
+      "moduleId": "m4",
+      "moduleContent": "src/content/modules/module-4.md",
+      "feature": "Topic particle 는 and polite copula 이에요",
+      "expectedReadingEnglish": "My mother is a teacher.",
+      "corpusAnchor": {
+        "korean": "어머니는 선생님이에요",
+        "gloss": "mother-[as for] teacher-is",
+        "romanization": "eomeonineun seonsaengnimieyo",
+        "note": "The copula glues onto the noun itself: 선생님 + 이에요. After a consonant it's 이에요; after a vowel, 예요."
+      },
+      "acceptableAnswerNote": "Accept a natural polite Korean rendering that preserves my mother is a teacher and the tested feature. Do not change the actor, polarity, place relation, or register."
+    },
+    {
+      "id": "DAN-V1-EK-05",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "My little sibling doesn't know Korean",
+      "corpusSentenceId": "s4_sibling_no_korean",
+      "moduleId": "m4",
+      "moduleContent": "src/content/modules/module-4.md",
+      "feature": "Topic particle 는, object particle 를, negation 몰라요",
+      "expectedReadingEnglish": "My little sibling doesn't know Korean.",
+      "corpusAnchor": {
+        "korean": "동생은 한국어를 몰라요",
+        "gloss": "younger-sibling-[as for] Korean-[obj] not-knows",
+        "romanization": "dongsaengeun hangugeoreul mollayo",
+        "note": "Not-knowing is its own verb — 모르다, not 안 알다. 르-irregular: 몰라요, like 배불러요."
+      },
+      "acceptableAnswerNote": "Accept a natural polite Korean rendering that preserves my little sibling doesn't know korean and the tested feature. Do not change the actor, polarity, place relation, or register."
+    },
+    {
+      "id": "DAN-V1-KE-01",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "시간이 없어요",
+      "corpusSentenceId": "s_no_time",
+      "moduleId": "m1",
+      "moduleContent": "src/content/modules/module-1.md",
+      "feature": "Documented literal gap: time-[subject] not-exist; omitted possessor / subject",
+      "expectedReadingEnglish": "I don't have time.",
+      "corpusAnchor": {
+        "korean": "시간이 없어요",
+        "gloss": "time-[subj] not-exist (for me)",
+        "romanization": "sigani eopseoyo",
+        "note": "A structure with no English twin: Korean says 'time not-exists' rather than 'I don't have time.' The owner (me) is simply understood and dropped — Korean omits anything obvious from context."
+      },
+      "acceptableAnswerNote": ""
+    },
+    {
+      "id": "DAN-V1-KE-02",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "지금 회사에서 일해요",
+      "corpusSentenceId": "s2_now_work",
+      "moduleId": "m2",
+      "moduleContent": "src/content/modules/module-2.md",
+      "feature": "Documented literal gap: 회사 literally “company”; omitted subject; office-at 에서",
+      "expectedReadingEnglish": "I am working at the office now.",
+      "corpusAnchor": {
+        "korean": "지금 회사에서 일해요",
+        "gloss": "now (I) office-at work",
+        "romanization": "jigeum hoesaeseo ilhaeyo",
+        "note": "회사 is literally 'company', but 회사에서 일해요 is just 'I'm at work'. 일하다 = 일 (work) + 하다 (do) → 일해요."
+      },
+      "acceptableAnswerNote": ""
+    },
+    {
+      "id": "DAN-V1-KE-03",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "저는 음악도 좋아해요",
+      "corpusSentenceId": "s2_music_too",
+      "moduleId": "m2",
+      "moduleContent": "src/content/modules/module-2.md",
+      "feature": "Non-obvious additive 도 replaces the object particle; polite ending",
+      "expectedReadingEnglish": "I like music too.",
+      "corpusAnchor": {
+        "korean": "저는 음악도 좋아해요",
+        "gloss": "I-[as for] music-also like",
+        "romanization": "jeoneun eumakdo joahaeyo",
+        "note": "도 doesn't stack on 을/를 — it replaces it. 음악을도 is wrong; 음악도 carries both 'object' and 'also' at once."
+      },
+      "acceptableAnswerNote": ""
+    },
+    {
+      "id": "DAN-V1-KE-04",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "어제 학교에 갔어요",
+      "corpusSentenceId": "s2_yesterday_school",
+      "moduleId": "m2",
+      "moduleContent": "src/content/modules/module-2.md",
+      "feature": "Omitted subject, past tense, destination particle 에",
+      "expectedReadingEnglish": "Yesterday I went to school.",
+      "corpusAnchor": {
+        "korean": "어제 학교에 갔어요",
+        "gloss": "yesterday (I) school-to went",
+        "romanization": "eoje hakgyoe gasseoyo",
+        "note": "Destinations keep 에 even in the past. 가다 → 갔어요 — the ㅏ stem and 았 merge into one syllable."
+      },
+      "acceptableAnswerNote": ""
+    },
+    {
+      "id": "DAN-V1-KE-05",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "우리 가족은 한국에 살아요",
+      "corpusSentenceId": "s4_family_korea",
+      "moduleId": "m4",
+      "moduleContent": "src/content/modules/module-4.md",
+      "feature": "Topic 은 and locative 에 for living (distinguished from action-place 에서)",
+      "expectedReadingEnglish": "My family lives in Korea.",
+      "corpusAnchor": {
+        "korean": "우리 가족은 한국에 살아요",
+        "gloss": "our family-[as for] Korea-in lives",
+        "romanization": "uri gajogeun hanguge sarayo",
+        "note": "우리 가족 — 'our family' even when you mean yours alone. And 살다 takes 에, not 에서: where you live is where you exist, not where you act."
+      },
+      "acceptableAnswerNote": ""
+    }
+  ]
+}
