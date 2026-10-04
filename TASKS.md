@@ -394,3 +394,7 @@ Changed `w_deougi` from noun to adverb, matching the National Institute of Korea
 ### 2026-10-03 — Correct M89 나란히 part of speech
 
 Changed `w_naranhi` from noun to adverb, matching the NIKL reference and M89's prose, and removed the temporary noun exception from the authoring brief. The checklist groups directly by `pos`, so no component edit was needed. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; a focused registry assertion confirmed 34 M89 words and all five prose adverbs in the Adverbs group; `git diff --check` passed. `npm run visual:pass -- m89 --port 5335 --out .visual-pass/bad-157` rendered 1/1 with 34/34 checklist words. Inspected the PNG: 나란히 appears under Adverbs with no visible clipping. Next: independent content review of the corrected classification.
+
+### 2026-10-03 — Correct the planned owner of 당하다-passives
+
+Removed 당하다-passives from §2c's M90 row so it lists the four glue parts M90 actually teaches. Added a shipped-ownership note pointing to M86 Part 2 and M96's existing index, without changing lesson content or the Band 7 contract. `npm run validate:content`: 15/15 passed; focused assertions confirmed the four-pattern M90 row, the M86 ownership note, agreement with M96, and byte-identical M86/M90/M96 lesson files; `git diff --check` passed. This is a tracker-only correction with no UI change. Next: independent review of the corrected ownership record.

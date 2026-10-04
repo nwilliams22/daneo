@@ -353,13 +353,19 @@ at reserve time into `reference/ring3-slices.tsv`.
 | M87 | Seeming & Worth — the dependent nouns (듯 듯하다 만하다 셈 나름 마련 바 여기다 여겨지다 뜻하다 판단하다 평가 인식하다 의식 관점 시각 견해 논리 상식 의문 진실 진리) | -(으)ㄹ 듯하다/-듯이 · -(으)ㄹ 만하다 · -(으)ㄴ/는 셈이다 · -(으)ㄹ 법하다 · -기 마련이다 |
 | M88 | The Retrospective — time lived through (겪다 거치다 깨닫다 살아오다 살아가다 이래 직후 시기 시점 초기 중세 흐름 과정 단계 전환 회복 위기 운명 인연 삶) | -던 · -더니 · -았/었더니 · -더라고요 · -던데 |
 | M89 | Degree & Extent (수준 규모 범위 평균 단위 대형 대규모 상당하다 엄청나다 거대하다 위대하다 뛰어나다 못지않다 불과하다 드물다 흔하다 풍부하다 증가하다 줄어들다 균형) | -(으)ㄹ수록 · -(으)ㄹ 정도로/-(으)ㄹ 만큼 · -(으)ㄹ 뿐(만 아니라) · 조차/마저 · -(이)야말로 |
-| M90 | State & Society (기업 선거 의원 국회 장관 정당 후보 위원 위원장 주민 집단 조직 기관 기구 민주주의 민주화 민간 법률 법원 판결 재판 규정 권리 통제 지배하다 시위 범죄 폭력) | -고자 · -에 따라 · -에 의해 · -(으)ㄴ 결과 · 당하다-passives |
+| M90 | State & Society (기업 선거 의원 국회 장관 정당 후보 위원 위원장 주민 집단 조직 기관 기구 민주주의 민주화 민간 법률 법원 판결 재판 규정 권리 통제 지배하다 시위 범죄 폭력) | -고자 · -에 따라 · -에 의해 · -(으)ㄴ 결과 |
 | M91 | Process & Structure (과정 구조 형태 형식 방식 구성 구성하다 구성되다 형성 형성되다 기능 절차 틀 토대 핵심 초점 본질 근본 근본적 기본적 요소 체계 영역 부문 분야) | -(으)ㄴ/는 바 · -다시피 · -(으)ㄹ 겸 · -는 김에 · -느라고 |
 | M92 | Existence & Matter (삶 생명 존재 존재하다 우주 인류 물질 물체 목숨 현실 현상 정신 육체 심장 호흡 대기 기후 자원 태아 출산 자녀 신경 감각) | -(으)ㄹ 따름이다 · -기는 하다 · -기는커녕 · -(으)ㄴ/는 데다가 · -(으)ㄴ 나머지 |
 | M93 | The Analyst's Verbs (드러나다 지니다 갖추다 다루다 이끌다 파악하다 제시하다 지적하다 인정하다 분석 밝혀지다 살피다 지켜보다 알아보다 주장 비판 우려 전망 예상되다 강조) | -(으)ㄹ 테니까/-(으)ㄹ 텐데 · -(으)ㄹ걸요 · -길래 · -(으)ㄹ까 봐 · -(으)ㄹ 리가 없다 |
 | M94 | Motion & Mishap — the native verb shelf (잇다 걸치다 대다 삼다 두르다 감추다 매달리다 무너지다 흩어지다 흔들리다 빠져나가다 퍼지다 넘기다 거두다 저지르다 때리다 치르다 익히다 들이다 덧붙이다 둘러싸다 외치다 비치다 비추다 띄다 빛나다 실리다 이러다 그러다 일어서다) | -(으)ㄴ 채 · -다가 · -다 보니/-다 보면 · -(으)ㄹ 뻔하다 · -고 말다 · -아/어 대다 · -기 일쑤다 |
 | M95 | Concession & Choice (반면 갈등 경쟁 경쟁력 협력 대응 극복하다 거부하다 제외하다 통합 개선 개방 공개 참여 지원 투자 부담 아무런 온갖 어찌 도대체) | -더라도 · -(으)ㄹ지라도/-(으)ㄹ망정 · -든지 · 대신에/반면에 · -는 한 · -기만 하면 |
 | M96 | Culture, Stage & Press (연극 극 희곡 신화 철학 문화재 감독 연기자 매체 보도 화제 기록 비극 소재 제작 출신 학자 지식인 필자 스승 제자 용어 미 신분 세계관 이데올로기) | -(으)ㄴ/는 만큼 (grounds) · -기보다는 (preferred account) · -다는 점에서 (respect/criterion); earlier owners indexed separately |
+
+**Shipped ownership correction (2026-10-03):** 당하다-passives, originally
+planned for M90, are taught in [M86 Part 2](src/content/modules/module-86.md#part-2--the-glue-four-verbs-in-preposition-like-frames),
+as recorded in [M96's Band 7 glue index](src/content/modules/module-96.md#band-7-glue-index--earlier-owners).
+M90 teaches the four glue parts listed above. This records the existing
+lesson ownership only; it does not re-slice M86 or change the Band 7 contract.
 
 ### Band 8 — the long tail (M97–M155, order-free) — ✅ shipped in full 2026-09-30
 
