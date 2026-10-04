@@ -83,6 +83,8 @@ old assumption and its replacement; it does not imply implementation approval.
 | Model-neutral frontend contract, LocalLlama / CloudClaude | **Still stands** | Preserve existing typed translation result and errors; refine lifecycle below. |
 | v0 streaming, cancel, OOM, prompt parity and Explore toggle | **Still stands** | Local default, Cloud as a developer comparison; **Auto is cancelled** (owner constraint). |
 | “Acceptable vs Claude” on ten held-out sentences | **Dead as a comparison** | Fixed inputs, an **absolute** linguistic rubric and explicit pass counts below. There is no paid baseline to be acceptable against. |
+| The frozen `v0-translation-set.json` ten items are the acceptance gate | **Dead as a gate** | Retired 2026-10-04: its isolation from prompt tuning is no longer provable from commit order. Retained for reporting and regression; a new set is frozen first by a non-tuner. See the burned-gate section below. |
+| The model produces romanization and particle roles | **Dead** | Both are deterministic over the reply's own Korean line and move into application code. The model keeps meaning, gloss, register and literal-gap claims. |
 | Corpus is already sufficient to self-distill an in-character tutor | **Dead** | Content is source material, not evidence of training quality or reliable behavior. |
 | v1 dataset extraction, 500–5000 synthetic examples, ~60 held-out items | **Needs re-picking** | Freeze held-out data before training; synthetic volume follows error analysis, not a quota. |
 | QLoRA on the same 4B, one GPU, hours; Unsloth/LLaMA-Factory | **Still stands** | Authorized by Nick 2026-10-04 and free here: RTX 5090, 32 GB VRAM. Tool choice and schedule follow the v0 error analysis; **no spend decision is outstanding**. |
@@ -237,6 +239,94 @@ lifecycle, training and mobile are excluded. No GPU or cloud spend is assumed.
 Next: review this design and scope the v0 implementation from the paragraph and
 exit evidence above. This refresh does not create or authorize implementation
 children.
+
+## The v0 gate is burned; the next rung is deterministic fields, then a clean gate (2026-10-04)
+
+Decision owner: Bad Dong. This section records the scope decision taken after the
+repaired-prompt run, and it is the authority for the children named below.
+
+**What happened.** The prompt-repair run was independently re-scored and its
+provenance checked. The frozen ten-item set, its rubric and the baseline report
+have committed predecessors, but `dev-translation-set.json`,
+`dev-prompt-iterations.md`, the final prompt change, the held-out raw replies and
+`v0-prompt-repair-results.md` all first appear together in one commit,
+`017eb4e`. Nothing proves the development set and the final prompt wording existed
+*before* the held-out run executed. The rubric requires that order. **The frozen
+ten-item set is therefore retired as a gate** — not because contamination was
+shown, but because isolation can no longer be demonstrated, and an acceptance gate
+whose isolation is unprovable has no value. It is retained as a reporting and
+regression set, as the rubric's own versioning rule requires.
+
+**What the clean evidence says.** The six-item development set contains no frozen
+item, so its results stand on their own. Across two different prompt candidates it
+shows the same systematic failures: malformed romanization on five of six items,
+subject 가 labelled a topic, an omitted additive 도, and an honorific statement
+rendered as a request. The frozen run agrees — romanization failed nine of ten
+items and noun-particle identity failed six, and all three invented-rule items are
+the single error "이 is a topic marker". These are not sampling noise that a
+precision increase removes. Two of the six scored dimensions, romanization and
+particle roles, are **deterministic functions of the Korean line the model already
+produced**: Revised Romanization is an algorithm over Hangul syllables, and a
+particle's identity and role can be read off the surface string and checked
+against it.
+
+**Decision: stop asking the model for the fields code can compute exactly.**
+
+1. **Romanization and particle identity move into application code** — generated
+   from, and validated against, the `korean` line in the reply. The model keeps
+   meaning, Korean word-order gloss, register and literal-gap claims. A reply whose
+   `particles[]` names a particle absent from its own `korean` line is a contract
+   violation the code resolves, not a sentence the reviewer has to catch.
+2. **A new held-out gate is frozen first, by someone who does not tune prompts.**
+   Ten new corpus items, the existing rubric unchanged, committed in its own commit
+   before any prompt or model change that it will judge. The commit order is the
+   proof; a report asserting isolation is not.
+3. **A larger quantization of the same 4B is not the next rung.** It was the run
+   report's recommendation and it is declined on this evidence: quantization
+   precision does not teach syllable segmentation. It stays available as a cheap
+   probe after the deterministic fields land and a clean baseline exists, when its
+   effect can actually be isolated.
+4. **The fine-tune stays authorized and moves behind this.** Training the model to
+   emit romanization that code computes exactly would spend capacity on a solved
+   task. Error analysis runs against the post-extraction baseline, so the training
+   set is built from the dimensions that are genuinely the model's job.
+
+No paid model, no cloud fallback and no new spend are involved; every step above is
+free and local, inside the owner constraint at the top of this file.
+
+### v2 slice 1 is unblocked, with the pin as a contract
+
+The model downloader does not wait for artifact selection. Every candidate rung
+produces a *different* artifact, so chaining the downloader to selection would park
+working infrastructure behind the whole model programme. The pin is data the
+downloader consumes, not a prerequisite for writing it.
+
+**Authorized scope change.** Build and land the downloader against a fixture
+artifact, with the production pin an explicitly unset configuration value and a
+guard that **refuses to download when any pin field is missing** — no partial pin,
+no "verify later", no warning path. The pin type is `repoId`, `revision`,
+`filename`, `bytes`, `sha256`; all five required.
+
+The authorized fixture pin, generated and verified on this host at `017eb4e`:
+
+| Field | Correct-hash fixture | Mismatch fixture |
+|---|---|---|
+| `repoId` | `daneo` (this repository) | `daneo` |
+| `revision` | the commit that lands the generator | same |
+| `filename` | `downloader-fixture-1mib.bin` | `downloader-fixture-1mib-mismatch.bin` |
+| `bytes` | `1048576` | `1048576` |
+| `sha256` | `fbbab289f7f94b25736c58be46a994c441fd02552cc6022352e3d86d2fab7c83` | `eaeaa7acca0afcaee85d7abae4d8e5033652991ea19df161cc90ceec2803342c` |
+
+Both are reproducible anywhere: the first is `bytes(range(256)) * 4096`, the second
+`bytes(range(255, -1, -1)) * 4096`. Commit the generator, not the blobs. The second
+exists so the hash-mismatch path is tested against a real wrong file of identical
+length rather than a truncated one.
+
+The one thing the downloader genuinely cannot do without a selected model is the
+single real end-to-end download with its measured timing and verified hash. That
+moves to its own child, chained to the gate that selects the artifact. **Nothing
+here selects the provisional Qwen3.5-4B Q4_K_M artifact**, and the 2.74 GB file
+named earlier in this file remains a candidate, not a pin.
 
 ## Later phases and limits
 
