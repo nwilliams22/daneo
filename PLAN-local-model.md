@@ -1,13 +1,64 @@
 # PLAN — Daneo local AI (translator + tutor, offline-first)
 
-> Owner: Nick. Design refresh: **2026-10-03**. Implementation has not started.
+> Owner: Nick. Design refresh: **2026-10-03**. Owner constraint added **2026-10-04**.
+> Implementation has not started.
 > PROJECT.md governs pedagogy; TASKS.md is the app checklist/session record.
-> Desktop comes first. The model remains optional; mobile is a separate v3 release.
+> Desktop comes first. **The local model is the engine, not an option**; mobile is a
+> separate v3 release.
 >
 > Revision: replaces the 2026-08-24 plan after the six content-review passes
 > reported. Nick's 2026-09-30 order is content review → local AI → sharing.
 > The dates are about six weeks apart, not thirteen months. Model age is checked
 > against publisher records, not inferred from the date of the old plan.
+
+## Owner constraint — free to use, local by default (2026-10-04)
+
+Nick's instruction: *"I do not want a paid model to be the one used in Daneo. I
+want a free, local model such as qwen to be the one used so that it's free to use
+the app as a whole. we can train the model on daneo specific things or whatever is
+needed to make it the best possible model for the app."*
+
+This is a product constraint, and it changes four things the rest of this plan
+assumed. Where the text below still reads as though the cloud path were the
+baseline, this section governs.
+
+1. **Local is the default and the shipped path.** The Qwen GGUF engine is what
+   Explore and the tutor use. A user who installs Daneo and never signs up for
+   anything gets the full feature set. No API key, no account, no network.
+2. **The cloud adapter is a developer comparison tool, not a product feature.**
+   It stays in the tree because a second opinion is useful while qualifying local
+   output, and because deleting a working typed adapter mid-spike loses the only
+   reference implementation of the contract. It is **off by default, absent from
+   any build given to another person, and never a fallback.** Automatic
+   cloud fallback and an "Auto" engine policy are **cancelled**, not deferred —
+   a silent fallback is exactly the paid dependency this constraint removes.
+3. **No hosted paid proxy.** Phase B cannot be "deploy the static build plus the
+   Claude proxy": that is a monthly bill and Nick's key in front of other people's
+   usage. What sharing becomes instead is an open owner decision (BAD-194).
+4. **Training is authorized and it is free on this hardware.** Verified on the
+   build host 2026-10-04: **NVIDIA RTX 5090, 32,607 MiB VRAM**, Ryzen 7 9850X3D,
+   60 GB system RAM. A QLoRA fine-tune of a 4B model fits in that VRAM with room
+   to spare, so v1 training needs no cloud GPU and no spend. The old "hardware,
+   cost and schedule require a separate decision" line is answered for 4B-class
+   work: the decision is evidence (does error analysis justify it), not money.
+
+**The consequence for the acceptance gate is the part worth reading twice.** The
+v0 gate was written when a paid model was available as a fallback, so "model
+unsuitable" was a survivable outcome. It is not any more — there is nothing behind
+it. A failing gate now escalates **inside** the local track: a larger quantization,
+the runner-up model, a larger parameter class for desktop, then prompt work, then
+training. "Ship the cloud model instead" is no longer an option, and
+"stop Phase D" would mean shipping Daneo with no translator at all. The gate's
+thresholds do not relax to accommodate this — a local model that reverses meaning
+still fails. The response to failure changes, not the bar.
+
+The same logic retires the "acceptable vs Claude" framing. The rubric in
+*Exit evidence* is linguistic and absolute: correct meaning, correct particles,
+correct register, honest literal-gap claims, judged against the curriculum and
+dictionary references. Cloud output may be recorded alongside as a convenience.
+Where a stronger second opinion is wanted, this box can run a much larger GGUF
+locally than the one being shipped — the 32 GB card comfortably holds a
+30B-class Q4 reference model — so even the reference baseline costs nothing.
 
 ## Decision audit
 
@@ -27,16 +78,16 @@ old assumption and its replacement; it does not imply implementation approval.
 | 4B is fine on phones, 15–30 tokens/s; 3B fits low-end Android | **Dead** | No device or speed evidence exists here. Measure desktop first; no mobile minimum promised. |
 | Optional post-install model in app storage, never in installer | **Still stands** | v0 uses a developer-provisioned verified file; production downloader belongs to v2. |
 | Model-neutral frontend contract, LocalLlama / CloudClaude | **Still stands** | Preserve existing typed translation result and errors; refine lifecycle below. |
-| v0 streaming, cancel, OOM, prompt parity and Explore toggle | **Still stands** | Local/Cloud only for spike; Auto policy belongs to v2. |
-| “Acceptable vs Claude” on ten held-out sentences | **Needs re-picking** | Fixed inputs, independent linguistic rubric and explicit pass counts below. |
+| v0 streaming, cancel, OOM, prompt parity and Explore toggle | **Still stands** | Local default, Cloud as a developer comparison; **Auto is cancelled** (owner constraint). |
+| “Acceptable vs Claude” on ten held-out sentences | **Dead as a comparison** | Fixed inputs, an **absolute** linguistic rubric and explicit pass counts below. There is no paid baseline to be acceptable against. |
 | Corpus is already sufficient to self-distill an in-character tutor | **Dead** | Content is source material, not evidence of training quality or reliable behavior. |
 | v1 dataset extraction, 500–5000 synthetic examples, ~60 held-out items | **Needs re-picking** | Freeze held-out data before training; synthetic volume follows error analysis, not a quota. |
-| QLoRA on the same 4B, one GPU, hours; Unsloth/LLaMA-Factory | **Needs re-picking** | Training and tool compatibility, hardware, cost and schedule require a separate decision after v0. |
-| Compare fine-tuned and prompted base; retain the better | **Still stands** | No training if prompting already clears the acceptance gate. |
+| QLoRA on the same 4B, one GPU, hours; Unsloth/LLaMA-Factory | **Still stands** | Authorized by Nick 2026-10-04 and free here: RTX 5090, 32 GB VRAM. Tool choice and schedule follow the v0 error analysis; **no spend decision is outstanding**. |
+| Compare fine-tuned and prompted base; retain the better | **Still stands** | No training if prompting already clears the acceptance gate — an evidence test, not a budget one. |
 | v2 commands, download/progress/hash/cache/idle unload, settings, docs, no-network tests | **Still stands** | Translation and cancellation first; chat/lifecycle commands follow in their own slices. |
-| Automatic cloud fallback and “local = fast / cloud = deep” | **Needs re-picking** | No speed claim yet; cloud fallback requires explicit user consent and network availability. |
+| Automatic cloud fallback and “local = fast / cloud = deep” | **Dead** | Cancelled by the owner constraint. No automatic fallback, no Auto policy, consent-gated or otherwise. |
 | Tutor reads known words, due cards, progress and misses | **Still stands** | Read-only learning/app context first. Validate any generated drill vocabulary in code. |
-| Preserve existing Claude proxy, no port on local path | **Still stands** | Cloud upgrade target identified below; current pin retained for now. |
+| Preserve existing Claude proxy, no port on local path | **Still stands, demoted** | Kept as a developer comparison tool only. The cloud upgrade below is **parked** — see the note there. |
 | Mobile v3, Swift first/Kotlin second, native inference, stores/signing, real-device heat tests | **Needs re-picking** | Keep separate-release boundary; choose platform order and native bridge when devices exist. |
 | “Tauri mobile via Capacitor” and ANE/Metal as one backend | **Dead** | These are separate integration/backend choices, not an established architecture in this repo. |
 | Same model pair/prompt/UI on mobile | **Needs re-picking** | Reuse the result contract; decide mobile model, RAM cutoff and UI after device measurements. |
@@ -76,7 +127,13 @@ Keep the in-process decision, but confirm actual GGUF architecture, template,
 non-thinking mode, sampler and cancellation support in the pinned build. GGUF
 availability alone does not establish compatibility with any older binding.
 
-## Cloud engine check
+## Cloud engine check (parked 2026-10-04)
+
+**The upgrade described here is parked and nobody should perform it.** The owner
+constraint above makes the cloud adapter a developer tool, so moving its pin is
+work on a path the product does not ship. The analysis stays on record because it
+is correct and because it documents why the pin must not be changed casually.
+`server/index.ts` keeps `claude-sonnet-4-6`.
 
 The current published Sonnet identifier is **`claude-sonnet-5-5`** in
 [Anthropic's model overview](https://platform.claude.com/docs/en/models/overview).
@@ -106,8 +163,10 @@ progress only. No learner database migration is required for v0.
 Local state must distinguish absent, loading, ready, generating and error;
 downloading arrives with v2. Identify requests so cancel and late events cannot
 complete the next request. Serialize inference off the UI thread and release
-resources after cancellation/error. Local explicitly stays local; Cloud uses
-the existing proxy; Auto is deferred until consent and fallback policy are built.
+resources after cancellation/error. **Local is the default engine and stays
+local.** Cloud uses the existing proxy, is selected only by an explicit
+developer action, and never receives a request because Local failed. There is no
+Auto setting.
 
 ## v0 — One desktop translation spike
 
@@ -120,8 +179,12 @@ in Explore behind a Local/Cloud switch with load/error state. Start with a bound
 Record hardware, versions, artifact hash, peak RAM, cold load, time to first token
 and completion time; run the ten-item Korean gate below, plus missing/corrupt
 file, cancellation, controlled allocation failure and proxy-offline cases.
-The spike excludes a production downloader, Auto, chat/tutor, fine-tuning, mobile
-and a sidecar. It may conclude “model/runtime unsuitable” with measured evidence.
+The switch defaults to Local. The spike excludes a production downloader,
+chat/tutor, fine-tuning, mobile and a sidecar; Auto no longer exists to exclude.
+It may conclude “this model/runtime is unsuitable” with measured evidence — which
+under the owner constraint means escalating within the local track (larger quant,
+runner-up model, larger parameter class, prompt work, training), not reaching for
+the cloud.
 
 ### Exit evidence
 
@@ -174,16 +237,19 @@ children.
 
 ## Later phases and limits
 
-**v1 (conditional):** build a versioned dataset from reviewed content, reserve
-~60 independent evaluation items, compare prompting with a fine-tune only when
-v0 errors justify training. `validate:content` validates shipped content, not
-arbitrary synthetic translations: use the translator schema and linguistic
-review for those. Reassess model training/export support, data permissions,
-hardware and cost before choosing a tool or generating synthetic examples.
+**v1 (conditional on evidence, authorized on cost):** build a versioned dataset
+from reviewed content, reserve ~60 independent evaluation items, compare prompting
+with a fine-tune when v0 errors justify training. `validate:content` validates
+shipped content, not arbitrary synthetic translations: use the translator schema
+and linguistic review for those. Training runs on the build host's RTX 5090, so
+confirm tool support for the chosen architecture and a GGUF export/requantization
+path — those are the compatibility risks, not the budget. The trained artifact must
+ship the same way the base does: a verified GGUF a user downloads once.
 
 **v2 (desktop shipping):** model download/progress/hash verification, atomic cache
-and recovery, idle unload, settings/storage controls, explicit fallback consent,
-contract parity/no-network tests, then read-only “Ask Daneo” context and tutor UI.
+and recovery, idle unload, settings/storage controls, contract parity and
+no-network tests, then read-only “Ask Daneo” context and tutor UI. There is no
+fallback-consent surface to build; the engine is local.
 Enforce known-word gating in code for generated drills; Explore remains the
 unrestricted curiosity path. Update README, PROJECT and TASKS when shipped.
 

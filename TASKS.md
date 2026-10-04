@@ -154,13 +154,24 @@ the local in-app AI agent, and then the shareable feature."* Content review → 
 **Phase B**. This reverses the old §7 rule that put Phase D behind Phase B; Phase D now goes first.
 The review is complete, so **Phase D is the live work** as of 2026-10-04.
 
-## Phase D — Local AI (next after the content review; full plan in PLAN-local-model.md)
+## Phase D — Local AI (live work; full plan in PLAN-local-model.md)
+
+> **Owner constraint, Nick, 2026-10-04:** *"I do not want a paid model to be the one used in
+> Daneo. I want a free, local model such as qwen to be the one used so that it's free to use the
+> app as a whole. we can train the model on daneo specific things or whatever is needed to make it
+> the best possible model for the app."* The local model is **the engine, not an option**. The
+> cloud adapter is a developer comparison tool: off by default, never a fallback, excluded from any
+> build handed to another person, and its pin is **not** to be upgraded. **Auto / automatic cloud
+> fallback is cancelled.** A Daneo-specific fine-tune is **authorized** and costs nothing — the
+> build host has an RTX 5090 with 32 GB VRAM, which holds a 4B QLoRA run comfortably. See
+> `PLAN-local-model.md` §*Owner constraint* and PROJECT.md §3.
+
 - [x] Refresh local-model design and model selection (2026-10-03): `PLAN-local-model.md` audits the old decisions, selects Qwen3.5-4B / Qwen3.5-2B Lite candidate, and defines a measured desktop v0 gate. Cloud target is `claude-sonnet-5-5`; current pin retained because its thinking/token-budget migration is not a safe one-line swap.
 - [x] Freeze the v0 translation evaluation inputs (2026-10-04): `reference/eval/v0-translation-set.json` records ten held-out corpus items, five per direction, with their corpus commit and owning modules; `reference/eval/v0-rubric.md` defines the proposed language gate. This is an evaluation fixture only; app behavior is unchanged.
 - [ ] Implement the reviewed v0 scope, then qualify Lite and scope production lifecycle/tutor separately. No local inference implementation has started.
 
-## Phase B — Sharing (Ring 3 gate met 2026-09-30; queued behind the review and Phase D)
-- [ ] Deploy static build + proxy; simple auth; per-user state sync — *deferred by Nick on 2026-09-27 until Ring 3 was complete; Ring 3 closed 2026-09-30 and Nick then put the independent content review first and Phase D second, so this is third. No hosting spend, no exposed API key, no accounts, and no design work until Phase D lands. It still has no design document — one line of spec here and in PROJECT.md §7 is all that exists.*
+## Phase B — Sharing (third; its original design is dead as of 2026-10-04)
+- [ ] ~~Deploy static build + proxy; simple auth; per-user state sync~~ — **superseded.** That design hosted the paid Claude proxy and put Nick's API key in front of other people's usage, which the 2026-10-04 free-and-local constraint forbids. A browser also cannot run the local GGUF, so a hosted web build is course-and-drills only and the full app is the desktop one. **Open question to Nick on BAD-194:** desktop installers, a free web build without the translator, both, or not yet. No hosting spend, no auth, no sync and no design work until he answers.
 
 ## Discovered work
 - (add items here with dates)
@@ -542,3 +553,7 @@ The reported database error was a timing symptom: on a fresh browser run the dat
 ### 2026-10-04 — Freeze the Phase D v0 translation evaluation set
 
 Froze ten held-out curriculum sentence inputs (five English→Korean, five Korean→English) in `reference/eval/v0-translation-set.json`, with exact input strings, stable ids, the corpus commit, owning module paths, tested features, expected English readings, and acceptable-answer guidance for English→Korean. The paired rubric defines the proposed 10/10 schema and completeness, 9/10 full correctness, and zero-reversal/invented-rule gates before prompt tuning. A focused fixture check passed: ten unique items, 5/5 directions, valid corpus commit and sentence-to-module links, exact source-language input construction, and all answer notes present. `npm test`: 138/138 passed; `npm run validate:content`: 15/15 passed; `git diff --check`: passed. No model, prompt, shipped content, or app behavior changed; no UI or inference run was part of this input-only slice. Next: use the frozen set for the independent v0 acceptance run after the native translation path exists.
+
+### 2026-10-04 — Nick's free-and-local constraint on Phase D, written into the design
+
+Nick's instruction: *"I do not want a paid model to be the one used in Daneo. I want a free, local model such as qwen to be the one used so that it's free to use the app as a whole. we can train the model on daneo specific things or whatever is needed to make it the best possible model for the app."* The plan already chose Qwen and already put the local engine first, but it described the model as **optional** with the Claude proxy as the baseline, kept an automatic cloud-fallback "Auto" policy, treated the acceptance gate as *"acceptable vs Claude"* with "model unsuitable" as a survivable outcome, left a `claude-sonnet-5-5` proxy upgrade on the board, and specified Phase B as hosting that paid proxy behind household auth. Those five points contradicted the constraint and are now corrected, not reinterpreted. `PLAN-local-model.md` gains an **Owner constraint** section that governs the phase: local is the shipped engine, the cloud adapter is a developer comparison tool that is off by default and never a fallback, **Auto is cancelled**, the cloud pin upgrade is **parked**, the rubric becomes absolute rather than comparative, and a failing gate escalates inside the local track (larger quant → runner-up model → larger class → prompt work → training) because there is no longer anything behind it. Five decision-audit rows were re-dispositioned to match. PROJECT.md §3 is rewritten from *"Translator API access"* to *"Translator model access — local, free, and the default"*, with §1, §7 Phase B/C/D and the status header following. **Training is authorized and free:** verified on this build host — NVIDIA RTX 5090, 32,607 MiB VRAM, Ryzen 7 9850X3D, 60 GB RAM — which holds a 4B QLoRA run with room to spare, so the old *"hardware, cost and schedule require a separate decision"* line is answered on cost and the v1 question is purely evidential. The same card can run a 30B-class Q4 locally, so even a stronger reference baseline for scoring costs nothing. **Gates:** `npm run validate:content` 15/15; `npm test` 138/138 in 15 files; `git diff --check` passed. Documentation only — no app code, content, model or prompt changed, and no inference or cloud call occurred. **Next:** the v0 implementation slices, with the Local/Cloud switch defaulting to Local and no Auto setting; the Phase B shape is an open question to Nick.
