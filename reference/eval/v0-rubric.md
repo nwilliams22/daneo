@@ -13,9 +13,10 @@ Every raw output row must record the runner's `git rev-parse HEAD`, the SHA-256 
 **void** if its recorded HEAD is not an ancestor of the commit containing its own report, or if
 its recorded prompt hash does not match the prompt at that HEAD. The rubric and set hashes must
 also match the files at that HEAD, and the set hash must match its committed manifest. Run
-`python3 reference/eval/check-provenance.py RAW.jsonl --report-commit REPORT_COMMIT` to check
-these conditions. Commit `017eb4e` is the worked example of the failure: the prompt change, dev
-set, and held-out outputs first appeared together, so their order could not be proved.
+`python3 reference/eval/check-provenance.py RAW.jsonl --report-commit REPORT_COMMIT --item-set reference/eval/v1-translation-set.json`
+to check these conditions; use the selected frozen set path for each rung. Commit `017eb4e` is the
+worked example of the failure: the prompt change, dev set, and held-out outputs first appeared
+together, so their order could not be proved.
 
 The replacement frozen gates are [`v1-translation-set.json`](v1-translation-set.json) for the
 deterministic rung and [`v2-translation-set.json`](v2-translation-set.json) for the fine-tune; the burned
