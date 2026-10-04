@@ -1,0 +1,200 @@
+{
+  "version": "v2",
+  "frozenOn": "2026-10-04",
+  "corpusCommit": "3da8b0b3efb2a5db39d2be7149d0c94c7b3e42c2",
+  "sourceFiles": [
+    "src/content/sentences.json",
+    "src/content/modules.json"
+  ],
+  "inputConstruction": "Join the nonempty text chunks of the source language with one U+0020 space; retain their original punctuation. The input field is the exact string to submit. No leading or trailing whitespace.",
+  "dimensions": [
+    "meaning",
+    "Korean word-order gloss",
+    "particle roles",
+    "polite 해요 register",
+    "romanization",
+    "literal-gap claims"
+  ],
+  "items": [
+    {
+      "id": "DAN-V2-EK-01",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "My friend comes to my house",
+      "corpusSentenceId": "s_friend_home",
+      "moduleId": "m1",
+      "moduleContent": "modules/module-1.md",
+      "feature": "Same pattern as 'I go to the store' — swap the pieces, keep the skeleton",
+      "expectedReadingEnglish": "My friend comes to my house",
+      "corpusAnchor": {
+        "korean": "친구가집에와요",
+        "gloss": "friend-[subj] house-to comes",
+        "romanization": "chinguga jibe wayo",
+        "note": "Same pattern as 'I go to the store' — swap the pieces, keep the skeleton. This is why learning the frame once pays off forever."
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    },
+    {
+      "id": "DAN-V2-EK-02",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "I ate bread in the morning",
+      "corpusSentenceId": "s2_morning_bread",
+      "moduleId": "m2",
+      "moduleContent": "modules/module-2.md",
+      "feature": "에 marks time too — 아침에 'in the morning'",
+      "expectedReadingEnglish": "I ate bread in the morning",
+      "corpusAnchor": {
+        "korean": "아침에빵을먹었어요",
+        "gloss": "morning-in (I) bread-[obj] ate",
+        "romanization": "achime ppangeul meogeosseoyo",
+        "note": "에 marks time too — 아침에 'in the morning'. 먹다's stem vowel is ㅓ, so the past is 먹었어요."
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    },
+    {
+      "id": "DAN-V2-EK-03",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "I want to eat gimbap",
+      "corpusSentenceId": "s3_want_gimbap",
+      "moduleId": "m3",
+      "moduleContent": "modules/module-3.md",
+      "feature": "Wanting bolts onto the verb stem: 먹다 → 먹고 싶어요",
+      "expectedReadingEnglish": "I want to eat gimbap",
+      "corpusAnchor": {
+        "korean": "김밥을먹고 싶어요",
+        "gloss": "(I) gimbap-[obj] eat-want",
+        "romanization": "gimbabeul meokgo sipeoyo",
+        "note": "Wanting bolts onto the verb stem: 먹다 → 먹고 싶어요. Any verb works — drop 다, add 고 싶어요."
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    },
+    {
+      "id": "DAN-V2-EK-04",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "I am hungry right now",
+      "corpusSentenceId": "s3_hungry_now",
+      "moduleId": "m3",
+      "moduleContent": "modules/module-3.md",
+      "feature": "배고프다 → 배고파요: the ㅡ drops before 아",
+      "expectedReadingEnglish": "I am hungry right now",
+      "corpusAnchor": {
+        "korean": "저는지금배고파요",
+        "gloss": "I-[as for] now stomach-hungry",
+        "romanization": "jeoneun jigeum baegopayo",
+        "note": "배고프다 → 배고파요: the ㅡ drops before 아. You met this sentence's soul in the gap deck — 'stomach is hungry.'"
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    },
+    {
+      "id": "DAN-V2-EK-05",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "Kimchi is spicy",
+      "corpusSentenceId": "s3_kimchi_spicy",
+      "moduleId": "m3",
+      "moduleContent": "modules/module-3.md",
+      "feature": "맵다 → 매워요: the ㅂ softens to 워 before a vowel",
+      "expectedReadingEnglish": "Kimchi is spicy",
+      "corpusAnchor": {
+        "korean": "김치가매워요",
+        "gloss": "kimchi-[subj] is-spicy",
+        "romanization": "gimchiga maewoyo",
+        "note": "맵다 → 매워요: the ㅂ softens to 워 before a vowel. A whole family of ㅂ-adjectives does this — file the shape, the full rule comes later."
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    },
+    {
+      "id": "DAN-V2-KE-01",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "물이 있어요",
+      "corpusSentenceId": "s_water_exists",
+      "moduleId": "m1",
+      "moduleContent": "modules/module-1.md",
+      "feature": "있다 means 'to exist' — so this is both 'there's water' and 'I have water",
+      "expectedReadingEnglish": "There's water",
+      "corpusAnchor": {
+        "korean": "물이있어요",
+        "gloss": "water-[subj] exists",
+        "romanization": "muri isseoyo",
+        "note": "있다 means 'to exist' — so this is both 'there's water' and 'I have water.' Korean has no separate everyday verb for having; things just exist (for you)."
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    },
+    {
+      "id": "DAN-V2-KE-02",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "국이 짜요",
+      "corpusSentenceId": "s3_soup_salty",
+      "moduleId": "m3",
+      "moduleContent": "modules/module-3.md",
+      "feature": "Describing words are verbs, so tastes conjugate like actions: 짜다 → 짜요, 달다 → 달아요",
+      "expectedReadingEnglish": "The soup is salty",
+      "corpusAnchor": {
+        "korean": "국이짜요",
+        "gloss": "soup-[subj] is-salty",
+        "romanization": "gugi jjayo",
+        "note": "Describing words are verbs, so tastes conjugate like actions: 짜다 → 짜요, 달다 → 달아요."
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    },
+    {
+      "id": "DAN-V2-KE-03",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "음악을 들었어요",
+      "corpusSentenceId": "s2_music_listen",
+      "moduleId": "m2",
+      "moduleContent": "modules/module-2.md",
+      "feature": "듣다 is a ㄷ-irregular: before a vowel ending, ㄷ softens to ㄹ — 들어요, 들었어요",
+      "expectedReadingEnglish": "I listened to music",
+      "corpusAnchor": {
+        "korean": "음악을들었어요",
+        "gloss": "(I) music-[obj] listened",
+        "romanization": "eumageul deureosseoyo",
+        "note": "듣다 is a ㄷ-irregular: before a vowel ending, ㄷ softens to ㄹ — 들어요, 들었어요. A small family of verbs (걷다 'walk', 묻다 'ask') does the same."
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    },
+    {
+      "id": "DAN-V2-KE-04",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "내일 친구를 만나요",
+      "corpusSentenceId": "s2_tomorrow_meet",
+      "moduleId": "m2",
+      "moduleContent": "modules/module-2.md",
+      "feature": "The present tense covers the near future — 내일 만나요 needs no 'will'",
+      "expectedReadingEnglish": "Tomorrow I am meeting my friend",
+      "corpusAnchor": {
+        "korean": "내일친구를만나요",
+        "gloss": "tomorrow (I) friend-[obj] meet",
+        "romanization": "naeil chingureul mannayo",
+        "note": "The present tense covers the near future — 내일 만나요 needs no 'will'. The time word does the work."
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    },
+    {
+      "id": "DAN-V2-KE-05",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "저는 학생입니다",
+      "corpusSentenceId": "s4_im_student",
+      "moduleId": "m4",
+      "moduleContent": "modules/module-4.md",
+      "feature": "The same sentence one register up: 입니다 is the 합니다-style copula",
+      "expectedReadingEnglish": "I am a student",
+      "corpusAnchor": {
+        "korean": "저는학생입니다",
+        "gloss": "I-[as for] student-am-[formal]",
+        "romanization": "jeoneun haksaengimnida",
+        "note": "The same sentence one register up: 입니다 is the 합니다-style copula. Say it in interviews and introductions; say 학생이에요 everywhere else."
+      },
+      "acceptableAnswerNote": "Accept a natural polite 해요-style rendering that preserves the corpus meaning and the tested feature. Do not accept a changed actor, polarity, time, particle role, or speech act."
+    }
+  ]
+}
