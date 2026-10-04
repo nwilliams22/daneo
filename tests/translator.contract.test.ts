@@ -64,10 +64,23 @@ describe("translator contract (§6.3)", () => {
     if (!r.ok) expect(r.code).toBe("invalid-shape");
   });
 
+  it("uses the requested direction over a model label", () => {
+    const r = parseTranslationText(JSON.stringify({ ...GOOD, direction: "ko-to-en" }), "en-to-ko");
+    expect(r.ok).toBe(true);
+    if (r.ok) expect(r.result.direction).toBe("en-to-ko");
+  });
+
   it("prompt embeds the input and demands bare JSON", () => {
     const p = buildTranslatePrompt("수고하셨습니다");
     expect(p).toContain("수고하셨습니다");
+    expect(p).toContain('"ko-to-en"');
     expect(p).toContain("no markdown fences");
     expect(p).toContain('"literal_gap"');
+  });
+
+  it("selects direction by Hangul script and closes the role set", () => {
+    expect(buildTranslatePrompt("I study Korean")).toContain('"en-to-ko"');
+    expect(buildTranslatePrompt("한글 공부해요")).toContain('"ko-to-en"');
+    expect(buildTranslatePrompt("I study Korean")).toContain("CLOSED SET");
   });
 });

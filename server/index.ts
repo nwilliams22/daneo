@@ -6,6 +6,7 @@ import { cors } from "hono/cors";
 import { serve } from "@hono/node-server";
 import Anthropic from "@anthropic-ai/sdk";
 import { buildTranslatePrompt, parseTranslationText } from "./prompts/translate.ts";
+import { directionForInput } from "../src/lib/translation-direction.ts";
 
 // The Phase A translator proxy (PROJECT.md §3): holds ANTHROPIC_API_KEY so
 // the key never ships in client code. Run with `npm run server`.
@@ -60,13 +61,14 @@ app.post("/api/translate", async (c) => {
     );
   }
 
+  const direction = directionForInput(input);
   const client = new Anthropic();
   let text: string;
   try {
     const response = await client.messages.create({
       model: MODEL,
       max_tokens: 1024,
-      messages: [{ role: "user", content: buildTranslatePrompt(input) }],
+      messages: [{ role: "user", content: buildTranslatePrompt(input, direction) }],
     });
     text = response.content
       .filter((b) => b.type === "text")
@@ -80,7 +82,7 @@ app.post("/api/translate", async (c) => {
     return c.json({ error: { code: "upstream", message } }, 502);
   }
 
-  const parsed = parseTranslationText(text);
+  const parsed = parseTranslationText(text, direction);
   if (!parsed.ok) {
     return c.json({ error: { code: parsed.code, message: parsed.message } }, 502);
   }

@@ -1,5 +1,33 @@
 # Desktop acceptance runner
 
+## Prompt repair on a host without a usable desktop socket
+
+`dev-translation-set.json` contains six corpus items excluded from the frozen
+`v0-translation-set.json`. It has the same input, direction, corpus anchor,
+meaning, and feature fields; score it with the six dimensions in `v0-rubric.md`.
+Only this development set may guide prompt edits. The native `prompt_probe`
+example uses the production `LocalTranslator` worker, fixed GGUF, prompt,
+sampler, context and output cap without WebKit or the proxy. It warms with an
+unscored greeting, runs each fixture item once, then measures cancellation on
+another greeting. Its raw recorder needs the developer-only `acceptance` feature.
+
+```sh
+cargo build --locked --release --manifest-path src-tauri/Cargo.toml \
+  --features acceptance --example prompt_probe
+DANEO_MODEL_PATH="$PWD/.local-models/Qwen3.5-4B-Q4_K_M.gguf" \
+DANEO_ACCEPTANCE_RAW="$PAPERCLIP_RUN_SCRATCH_DIR/probe-raw.jsonl" \
+  /usr/bin/time -v unshare --user --map-root-user --net \
+  src-tauri/target/release/examples/prompt_probe \
+  reference/eval/dev-translation-set.json \
+  "$PAPERCLIP_RUN_SCRATCH_DIR/probe-results.jsonl"
+```
+
+Use a new output path each time. Replace only the fixture argument with
+`v0-translation-set.json` for the **single final frozen evaluation**, after
+all prompt edits and dev checks are complete. Native peak RSS excludes the
+WebKit process tree, so report it separately from desktop baseline RSS. The
+runner does not verify rendered Explore controls.
+
 This opt-in runner embeds the app assets in a real Tauri WebKit window, registers
 its production translation commands, and injects `acceptance.ts` bundled with the
 production `localTranslator` and zod schema. No mocked transport, HTTP proxy or
@@ -37,8 +65,10 @@ processes and may double-count shared pages or miss sub-20ms peaks. Raw final
 model text is retained before fence handling/JSON parsing, including token-limit
 failures. Cancellation progress is retained in the command evidence.
 
-The fixture supplies exact input bytes and expected direction; the current app
-command infers direction from input and has no explicit direction argument.
+The fixture supplies exact input bytes and expected direction; the frontend
+derives direction from Hangul script and sends it as an explicit native command
+argument. Set `VITE_DANEO_EVAL_SET=dev` while bundling `acceptance.ts` to run the
+separate development fixture; omit it for the frozen v0 fixture.
 One fresh-process request precedes three rounds of all ten held-out items.
 “Warm” means a repeated request in the same process with warmed OS file cache;
 the production v0 worker reloads and re-verifies weights on every request.

@@ -113,7 +113,9 @@ pub(super) fn generate(
     let contract: String =
         serde_json::from_str(include_str!("../../../src/lib/translation-prompt.json"))
             .map_err(|_| TranslateError::generation())?;
-    let instruction = contract.replacen("{{INPUT}}", &request.input, 1);
+    let instruction = contract
+        .replace("{{DIRECTION}}", &request.direction)
+        .replacen("{{INPUT}}", &request.input, 1);
     let template = model
         .chat_template(None)
         .map_err(|_| TranslateError::generation())?;
@@ -199,10 +201,18 @@ pub(super) fn generate(
             #[cfg(feature = "acceptance")]
             retain_raw(request, &text, true);
             // Match the shared parser's fence tolerance; zod validates at the client boundary.
-            return serde_json::from_str(text.replace("```json", "").replace("```", "").trim())
-                .map_err(|_| {
-                    TranslateError::new(ErrorCode::BadJson, "The model reply was not valid JSON.")
-                });
+            return serde_json::from_str::<Value>(
+                text.replace("```json", "").replace("```", "").trim(),
+            )
+            .map(|mut result| {
+                if let Some(object) = result.as_object_mut() {
+                    object.insert("direction".into(), request.direction.clone().into());
+                }
+                result
+            })
+            .map_err(|_| {
+                TranslateError::new(ErrorCode::BadJson, "The model reply was not valid JSON.")
+            });
         }
         output.push(token);
         request.progress(Phase::Generating, output.len(), emit)?;

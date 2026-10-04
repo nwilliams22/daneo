@@ -20,7 +20,7 @@ fn error_code(outcome: Outcome) -> ErrorCode {
 fn cancel_then_immediate_request_is_serialized_and_isolated() {
     let service = translator();
     let first = service
-        .reserve("first".into(), "first input".into())
+        .reserve("first".into(), "first input".into(), "en-to-ko".into())
         .unwrap();
     let (started_tx, started_rx) = mpsc::channel();
     let (release_tx, release_rx) = mpsc::channel();
@@ -49,7 +49,7 @@ fn cancel_then_immediate_request_is_serialized_and_isolated() {
     started_rx.recv_timeout(Duration::from_secs(5)).unwrap();
     assert!(service.cancel("first"));
     let second = service
-        .reserve("second".into(), "second input".into())
+        .reserve("second".into(), "second input".into(), "en-to-ko".into())
         .unwrap();
     let (second_tx, second_rx) = mpsc::channel();
     let second_worker = thread::spawn(move || {
@@ -77,9 +77,11 @@ fn cancel_then_immediate_request_is_serialized_and_isolated() {
 #[test]
 fn queued_cancel_never_runs_backend_and_duplicate_ids_are_rejected() {
     let service = translator();
-    let request = service.reserve("queued".into(), "input".into()).unwrap();
+    let request = service
+        .reserve("queued".into(), "input".into(), "en-to-ko".into())
+        .unwrap();
     assert!(matches!(
-        service.reserve("queued".into(), "other".into()),
+        service.reserve("queued".into(), "other".into(), "en-to-ko".into()),
         Err(TranslateError {
             code: ErrorCode::Busy,
             ..
@@ -109,7 +111,9 @@ fn all_failures_release_resources_and_allow_next_request() {
                 self.0.store(true, Ordering::SeqCst);
             }
         }
-        let request = service.reserve("failed".into(), "input".into()).unwrap();
+        let request = service
+            .reserve("failed".into(), "input".into(), "en-to-ko".into())
+            .unwrap();
         let outcome = request.run_with(&|_| {}, |_, _| {
             let _resource = Resource(released.clone());
             Err(TranslateError::new(code.clone(), "controlled failure"))
@@ -125,7 +129,9 @@ fn all_failures_release_resources_and_allow_next_request() {
             }
         );
         assert!(lock(&service.pending).is_empty());
-        let next = service.reserve("next".into(), "input".into()).unwrap();
+        let next = service
+            .reserve("next".into(), "input".into(), "en-to-ko".into())
+            .unwrap();
         assert!(matches!(
             next.run_with(&|_| {}, |_, _| Ok(serde_json::json!({}))),
             Outcome::Success { .. }
@@ -137,12 +143,16 @@ fn all_failures_release_resources_and_allow_next_request() {
 #[test]
 fn unwind_is_typed_and_does_not_poison_the_next_request() {
     let service = translator();
-    let first = service.reserve("panic".into(), "input".into()).unwrap();
+    let first = service
+        .reserve("panic".into(), "input".into(), "en-to-ko".into())
+        .unwrap();
     assert_eq!(
         error_code(first.run_with(&|_| {}, |_, _| panic!("injected worker unwind"))),
         ErrorCode::GenerationFailed
     );
-    let next = service.reserve("next".into(), "input".into()).unwrap();
+    let next = service
+        .reserve("next".into(), "input".into(), "en-to-ko".into())
+        .unwrap();
     assert!(matches!(
         next.run_with(&|_| {}, |_, _| Ok(serde_json::json!({}))),
         Outcome::Success { .. }
@@ -153,7 +163,7 @@ fn unwind_is_typed_and_does_not_poison_the_next_request() {
 fn native_missing_model_uses_the_wire_error_envelope() {
     let service = translator();
     let result = service
-        .reserve("missing".into(), "input".into())
+        .reserve("missing".into(), "input".into(), "en-to-ko".into())
         .unwrap()
         .run(|_| {});
     let wire = serde_json::to_value(result).unwrap();
@@ -168,13 +178,19 @@ fn real_model_cancel_allocation_failure_then_success() {
     let service = Arc::new(LocalTranslator::new(PathBuf::from(
         std::env::var_os("DANEO_MODEL_PATH").expect("DANEO_MODEL_PATH"),
     )));
-    let allocation_request = service.reserve("allocation".into(), "물".into()).unwrap();
+    let allocation_request = service
+        .reserve("allocation".into(), "물".into(), "ko-to-en".into())
+        .unwrap();
     assert_eq!(
         error_code(allocation_request.run_with(&|_| {}, |r, emit| native::generate(r, emit, true))),
         ErrorCode::AllocationFailed
     );
     let first = service
-        .reserve("real-cancel".into(), "I drink water.".into())
+        .reserve(
+            "real-cancel".into(),
+            "I drink water.".into(),
+            "en-to-ko".into(),
+        )
         .unwrap();
     let (started_tx, started_rx) = mpsc::channel();
     let copy = service.clone();
@@ -189,7 +205,7 @@ fn real_model_cancel_allocation_failure_then_success() {
     started_rx.recv_timeout(Duration::from_secs(120)).unwrap();
     // Reserve before waiting for the cancelled worker to terminate.
     let next = service
-        .reserve("real-success".into(), "Hello.".into())
+        .reserve("real-success".into(), "Hello.".into(), "en-to-ko".into())
         .unwrap();
     assert_eq!(error_code(worker.join().unwrap()), ErrorCode::Cancelled);
     let result = next.run(|_| {});
@@ -243,12 +259,12 @@ fn registered_commands_accept_camel_case_arguments_and_return_envelopes() {
     };
     let result = invoke(
         "translate_local",
-        serde_json::json!({"requestId":"ipc", "input":"water"}),
+        serde_json::json!({"requestId":"ipc", "input":"water", "direction":"en-to-ko"}),
     );
     assert_eq!(result["ok"], false);
     assert_eq!(result["error"]["code"], "model-missing");
     let queued = service
-        .reserve("ipc-cancel".into(), "water".into())
+        .reserve("ipc-cancel".into(), "water".into(), "en-to-ko".into())
         .unwrap();
     assert_eq!(
         invoke(

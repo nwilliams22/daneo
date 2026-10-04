@@ -39,3 +39,7 @@ acceptance = []
 [[example]]
 name = "acceptance"
 required-features = ["acceptance"]
+
+[[example]]
+name = "prompt_probe"
+required-features = ["acceptance"]

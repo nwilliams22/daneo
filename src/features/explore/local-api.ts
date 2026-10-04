@@ -1,6 +1,7 @@
 import { invoke } from "@tauri-apps/api/core";
 import { listen } from "@tauri-apps/api/event";
 import { translationResultSchema } from "../../lib/schemas";
+import { directionForInput } from "../../lib/translation-direction";
 import type { TranslateOutcome } from "./api";
 
 export type LocalState = "absent" | "loading" | "ready" | "generating" | "error";
@@ -66,7 +67,8 @@ export function createLocalTranslator(transport: Transport = desktop) {
           onProgress?.(event);
         });
         if (request.cancelled) return cancelled();
-        const raw = await transport.invoke<unknown>("translate_local", { requestId, input });
+        const direction = directionForInput(input);
+        const raw = await transport.invoke<unknown>("translate_local", { requestId, input, direction });
         if (request.cancelled) return cancelled();
         if (typeof raw !== "object" || raw === null) return failure("invalid-shape", "Invalid native response.");
         if ("ok" in raw && raw.ok === false && "error" in raw) {
@@ -78,7 +80,7 @@ export function createLocalTranslator(transport: Transport = desktop) {
         }
         const parsed = translationResultSchema.safeParse("ok" in raw && raw.ok === true && "result" in raw ? raw.result : null);
         if (!parsed.success) return failure("invalid-shape", "The local reply did not match the translator contract.");
-        return { ok: true, result: parsed.data };
+        return { ok: true, result: { ...parsed.data, direction } };
       } catch {
         return request.cancelled ? cancelled() : failure("generation-failed", "The local translator is unavailable.");
       } finally {

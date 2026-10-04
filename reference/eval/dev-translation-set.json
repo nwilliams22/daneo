@@ -1,0 +1,118 @@
+{
+  "version": "dev-1",
+  "sourceFiles": [
+    "src/content/sentences.json",
+    "src/content/modules.json"
+  ],
+  "scoringRubric": "v0-rubric.md, same six dimensions and thresholds; only these non-held-out inputs may guide prompt changes",
+  "items": [
+    {
+      "id": "DAN-DEV-01",
+      "heldOut": false,
+      "direction": "en-to-ko",
+      "input": "I study Korean",
+      "corpusSentenceId": "s_study_korean",
+      "moduleId": "m1",
+      "moduleContent": "modules/module-1.md",
+      "feature": "Object particle and polite 하다 contraction",
+      "expectedReadingEnglish": "I study Korean",
+      "corpusAnchor": {
+        "korean": "저는 한국어를 공부해요",
+        "gloss": "I-[as for] Korean-[obj] study",
+        "romanization": "jeoneun hangugeoreul gongbuhaeyo",
+        "note": "공부하다 is 공부 (studying) + 하다 (do) — 'to do studying.' Every ~하다 verb ends in 해요 in the polite form."
+      },
+      "acceptableAnswerNote": "Accept a natural polite answer preserving the corpus meaning and the tested feature."
+    },
+    {
+      "id": "DAN-DEV-02",
+      "heldOut": false,
+      "direction": "en-to-ko",
+      "input": "I drank coffee at the cafe",
+      "corpusSentenceId": "s2_cafe_coffee",
+      "moduleId": "m2",
+      "moduleContent": "modules/module-2.md",
+      "feature": "Place particle and past tense contraction",
+      "expectedReadingEnglish": "I drank coffee at the cafe",
+      "corpusAnchor": {
+        "korean": "카페에서 커피를 마셨어요",
+        "gloss": "(I) cafe-at coffee-[obj] drank",
+        "romanization": "kapeeseo keopireul masyeosseoyo",
+        "note": "Actions happen with 에서, not 에 — the cafe is the venue, not the destination. 마시다 → 마셨어요."
+      },
+      "acceptableAnswerNote": "Accept a natural polite answer preserving the corpus meaning and the tested feature."
+    },
+    {
+      "id": "DAN-DEV-03",
+      "heldOut": false,
+      "direction": "en-to-ko",
+      "input": "I can't drink soju",
+      "corpusSentenceId": "s3_cant_drink",
+      "moduleId": "m3",
+      "moduleContent": "modules/module-3.md",
+      "feature": "Inability negation as a free adverb",
+      "expectedReadingEnglish": "I can't drink soju",
+      "corpusAnchor": {
+        "korean": "저는 소주를 못 마셔요",
+        "gloss": "I-[as for] soju-[obj] can't-drink",
+        "romanization": "jeoneun sojureul mot masyeoyo",
+        "note": "못 is 안's cousin with a different meaning: not won't — CAN'T. 안 마셔요 is a choice; 못 마셔요 is ability or circumstance."
+      },
+      "acceptableAnswerNote": "Accept a natural polite answer preserving the corpus meaning and the tested feature."
+    },
+    {
+      "id": "DAN-DEV-04",
+      "heldOut": false,
+      "direction": "ko-to-en",
+      "input": "친구가 학교에 가요",
+      "corpusSentenceId": "s_friend_school",
+      "moduleId": "m1",
+      "moduleContent": "modules/module-1.md",
+      "feature": "Subject and destination particles",
+      "expectedReadingEnglish": "My friend goes to school",
+      "corpusAnchor": {
+        "korean": "친구가 학교에 가요",
+        "gloss": "friend-[subj] school-to goes",
+        "romanization": "chinguga hakgyoe gayo",
+        "note": "가 marks 친구 as the do-er. 'To' isn't a separate word in front — it's the particle 에 glued onto the back of 학교."
+      },
+      "acceptableAnswerNote": ""
+    },
+    {
+      "id": "DAN-DEV-05",
+      "heldOut": false,
+      "direction": "ko-to-en",
+      "input": "할머니가 밥을 드세요",
+      "corpusSentenceId": "s4_grandma_eats",
+      "moduleId": "m4",
+      "moduleContent": "modules/module-4.md",
+      "feature": "Respected subject and meal expression",
+      "expectedReadingEnglish": "Grandmother is eating a meal",
+      "corpusAnchor": {
+        "korean": "할머니가 밥을 드세요",
+        "gloss": "grandmother-[subj] rice-[obj] eats-[honored]",
+        "romanization": "halmeoniga babeul deuseyo",
+        "note": "Honorifics don't just add 시 — some verbs get replaced outright. Elders don't 먹다; they 드시다."
+      },
+      "acceptableAnswerNote": ""
+    },
+    {
+      "id": "DAN-DEV-06",
+      "heldOut": false,
+      "direction": "ko-to-en",
+      "input": "은행은 병원 옆에 있어요",
+      "corpusSentenceId": "s6_bank_next",
+      "moduleId": "m6",
+      "moduleContent": "modules/module-6.md",
+      "feature": "Topic, location noun, and existential form",
+      "expectedReadingEnglish": "The bank is next to the hospital",
+      "corpusAnchor": {
+        "korean": "은행은 병원 옆에 있어요",
+        "gloss": "bank-[as for] hospital side-at exists",
+        "romanization": "eunhaengeun byeongwon yeope isseoyo",
+        "note": "The location frame: [thing]은/는 [landmark] [position]에 있어요. Position words are NOUNS — 병원 옆 is literally 'the hospital's side.'"
+      },
+      "acceptableAnswerNote": ""
+    }
+  ]
+}

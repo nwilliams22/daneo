@@ -14,8 +14,10 @@ function harness() {
   const listeners = new Set<(event: LocalProgress) => void>();
   const replies = new Map<string, ReturnType<typeof deferred<unknown>>>();
   const cancellations: string[] = [];
+  const invocations: { command: string; args?: Record<string, unknown> }[] = [];
   const client = createLocalTranslator({
     async invoke<T>(command: string, args?: Record<string, unknown>): Promise<T> {
+      invocations.push({ command, args });
       const id = String(args?.requestId);
       if (command === "cancel_local") { cancellations.push(id); return true as T; }
       const reply = deferred<unknown>();
@@ -24,12 +26,20 @@ function harness() {
     },
     async listen(handler) { listeners.add(handler); return () => { listeners.delete(handler); }; },
   });
-  return { client, replies, listeners, cancellations,
+  return { client, replies, listeners, cancellations, invocations,
     emit: (requestId: string, outputTokens: number) => listeners.forEach((fn) => fn({ requestId, outputTokens, state: "generating" })),
   };
 }
 
 describe("local translation IPC boundary", () => {
+  it("sends deterministic script direction in the native request", async () => {
+    const h = harness();
+    const pending = h.client.translate({ requestId: "hangul", input: "한글 공부해요" });
+    await Promise.resolve();
+    expect(h.invocations.find(x => x.command === "translate_local")?.args).toMatchObject({ direction: "ko-to-en" });
+    h.replies.get("hangul")!.resolve({ ok: true, result: good("한글 공부해요") });
+    expect(await pending).toMatchObject({ ok: true, result: { direction: "ko-to-en" } });
+  });
   it("returns a typed desktop-required error in a browser without invoking Tauri", async () => {
     vi.stubGlobal("window", {});
     try {

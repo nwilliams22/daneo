@@ -1,7 +1,10 @@
 // Bundled only for the opt-in native acceptance example, never the application.
 import { invoke } from '@tauri-apps/api/core';
 import { localTranslator } from '../../src/features/explore/local-api';
-import fixture from './v0-translation-set.json';
+import heldOut from './v0-translation-set.json';
+import development from './dev-translation-set.json';
+
+const fixture = import.meta.env.VITE_DANEO_EVAL_SET === 'dev' ? development : heldOut;
 
 async function run() {
   const sequence = [
@@ -21,7 +24,7 @@ async function run() {
   const requestId = 'cancel-demo';
   let acknowledgement: Promise<void> | undefined;
   let cancelMs: number | undefined;
-  const outcome = await localTranslator.translate({ requestId, input: fixture.items[0].input }, event => {
+  const outcome = await localTranslator.translate({ requestId, input: 'Hello.' }, event => {
     if (event.outputTokens === 1 && !acknowledgement) {
       const start = performance.now();
       acknowledgement = localTranslator.cancel(requestId).then(() => { cancelMs = performance.now() - start; });

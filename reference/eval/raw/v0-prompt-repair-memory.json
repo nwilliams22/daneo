@@ -1,0 +1,7 @@
+{
+  "maxResidentSetKiB": 3009504,
+  "source": "/usr/bin/time -v around offline native prompt_probe process",
+  "elapsedSeconds": 373.98,
+  "network": "unshare --user --map-root-user --net; no network interface",
+  "scope": "native process only, excluding WebKit child processes; not directly comparable with v0 desktop process-tree RSS"
+}

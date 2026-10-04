@@ -130,11 +130,13 @@ impl LocalTranslator {
         self: &Arc<Self>,
         request_id: String,
         input: String,
+        direction: String,
     ) -> Result<Request, TranslateError> {
         if request_id.is_empty()
             || request_id.len() > 128
             || input.trim().is_empty()
             || input.len() > 4096
+            || !matches!(direction.as_str(), "en-to-ko" | "ko-to-en")
         {
             return Err(TranslateError::new(
                 ErrorCode::InvalidInput,
@@ -154,6 +156,7 @@ impl LocalTranslator {
             owner: self.clone(),
             request_id,
             input,
+            direction,
             cancelled,
         })
     }
@@ -163,6 +166,7 @@ pub struct Request {
     owner: Arc<LocalTranslator>,
     request_id: String,
     input: String,
+    direction: String,
     cancelled: Arc<AtomicBool>,
 }
 impl Drop for Request {
@@ -266,11 +270,12 @@ impl Request {
 pub async fn translate_local<R: tauri::Runtime>(
     request_id: String,
     input: String,
+    direction: String,
     app: tauri::AppHandle<R>,
     translator: tauri::State<'_, Arc<LocalTranslator>>,
 ) -> Result<Outcome, ()> {
     use tauri::Emitter;
-    let request = match translator.reserve(request_id, input) {
+    let request = match translator.reserve(request_id, input, direction) {
         Ok(request) => request,
         Err(error) => return Ok(Err(error).into()),
     };
