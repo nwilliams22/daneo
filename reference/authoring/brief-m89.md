@@ -115,8 +115,8 @@ noun-shaped, and the essay measures by welding them on.
 · 뛰어나다 · 못지않다 · 불과하다 · 드물다 · 흔하다 · 풍부하다 · 강력하다 ·
 일정하다 · 완전하다 · 철저하다 · 엄격하다 · 특정하다 · 진지하다 · 도저히 · 가령
 · 예컨대 · 더욱이 · 나란히. POS: 하다/나다/않다/물다 adjectives `adj`;
-증가하다/줄어들다 `verb`; 도저히/가령/예컨대 `adverb`; the other two prose adverbs
-remain registered as `noun` pending separate POS review; rest `noun`.
+증가하다/줄어들다 `verb`; 도저히/가령/예컨대/더욱이 `adverb`; 나란히
+remains registered as `noun` pending separate POS review; rest `noun`.
 
 **Md shape:** intro · How to use · `## Part 1 —` the bricks, `::vocab::`,
 **Radar patrol** (균형≠형; 드물다≠물; 일정하다 vs 일정 schedule; 대형's 型
