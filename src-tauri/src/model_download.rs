@@ -66,6 +66,11 @@ fn production_pin() -> Result<ModelPin, DownloadError> {
             .map_err(|_| error(Code::InvalidPin, "Invalid model manifest."))?;
     parse_pin(manifest.get("pin").cloned().unwrap_or_default())
 }
+pub fn selected_path(root: &Path) -> Option<PathBuf> {
+    production_pin()
+        .ok()
+        .map(|pin| root.join(format!("{}.gguf", pin.sha256)))
+}
 fn parse_pin(value: serde_json::Value) -> Result<ModelPin, DownloadError> {
     let pin: ModelPin = serde_json::from_value(value)
         .map_err(|_| error(Code::InvalidPin, "No complete model pin has been selected."))?;
@@ -145,6 +150,12 @@ pub struct Progress {
 pub struct Cache {
     pub path: Option<PathBuf>,
 }
+#[derive(Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct StorageDetails {
+    pub directory: PathBuf,
+    pub pin: Option<ModelPin>,
+}
 
 pub struct Downloader {
     root: PathBuf,
@@ -156,6 +167,19 @@ impl Downloader {
             root,
             active: Mutex::new(None),
         }
+    }
+    fn delete(&self, pin: ModelPin) -> Result<Cache, DownloadError> {
+        pin.validate()?;
+        let _reservation = self.reserve("cache-deletion")?;
+        let _lock = self.storage_lock()?;
+        self.remove_stale()?;
+        let (path, _) = self.paths(&pin);
+        match std::fs::remove_file(path) {
+            Ok(()) => (),
+            Err(e) if e.kind() == std::io::ErrorKind::NotFound => (),
+            Err(e) => return Err(io_error(e)),
+        }
+        Ok(Cache { path: None })
     }
     pub fn cancel(&self, id: &str) -> bool {
         let active = self.active.lock().unwrap_or_else(|e| e.into_inner());
@@ -465,6 +489,23 @@ pub async fn model_cache_state(
     state: tauri::State<'_, Arc<Downloader>>,
 ) -> Result<Outcome<Cache>, ()> {
     Ok(state.inspect(production_pin()).await.into())
+}
+#[tauri::command]
+pub fn model_storage_details(state: tauri::State<'_, Arc<Downloader>>) -> StorageDetails {
+    StorageDetails {
+        directory: state.root.clone(),
+        pin: production_pin().ok(),
+    }
+}
+#[tauri::command]
+pub fn delete_model(
+    state: tauri::State<'_, Arc<Downloader>>,
+    translator: tauri::State<'_, Arc<crate::local_translation::LocalTranslator>>,
+) -> Outcome<Cache> {
+    match production_pin() {
+        Ok(pin) => translator.with_unloaded(|| state.delete(pin)).into(),
+        Err(error) => Err(error).into(),
+    }
 }
 
 pub fn setup(app: &tauri::App) -> Result<(), Box<dyn std::error::Error>> {

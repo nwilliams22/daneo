@@ -11,6 +11,10 @@ export interface ModelDownloadProgress {
   total: number;
   bytesPerSecond: number;
 }
+export interface ModelStorageDetails {
+  directory: string;
+  pin: { repoId: string; revision: string; filename: string; bytes: number; sha256: string } | null;
+}
 interface Transport {
   invoke<T>(command: string, args?: Record<string, unknown>): Promise<T>;
   listen(handler: (event: ModelDownloadProgress) => void): Promise<() => void>;
@@ -26,6 +30,9 @@ export function createModelDownloader(transport: Transport = desktop) {
   const requests = new Map<string, { cancelled: boolean }>();
   return {
     state: () => transport.invoke<ModelCacheOutcome>("model_cache_state"),
+    details: () => transport.invoke<ModelStorageDetails>("model_storage_details"),
+    delete: () => transport.invoke<ModelCacheOutcome>("delete_model"),
+    setIdleSeconds: (seconds: number) => transport.invoke<void>("set_model_idle_seconds", { seconds }),
     async cancel(requestId: string): Promise<void> {
       const request = requests.get(requestId);
       if (!request) return;

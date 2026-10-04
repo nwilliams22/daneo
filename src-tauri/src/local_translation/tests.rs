@@ -223,6 +223,17 @@ fn real_model_cancel_allocation_failure_then_success() {
         std::fs::write(path, &json).unwrap();
     }
     assert!(matches!(result, Outcome::Success { .. }), "{json}");
+    assert!(service.snapshot().resident);
+    service.set_idle_seconds(30).unwrap();
+    *lock(&service.last_used) = std::time::Instant::now() - Duration::from_secs(31);
+    assert!(service.unload_if_idle());
+    assert!(!service.snapshot().resident);
+    let reloaded = service
+        .reserve("real-reload".into(), "Hello.".into(), "en-to-ko".into())
+        .unwrap()
+        .run(|_| {});
+    assert!(matches!(reloaded, Outcome::Success { .. }));
+    assert!(service.snapshot().resident);
 }
 
 #[test]

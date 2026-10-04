@@ -14,6 +14,7 @@ export interface LocalSnapshot {
   state: LocalState;
   requestId: string | null;
   error: { code: string; message: string } | null;
+  resident: boolean;
 }
 
 // Injectable only to test the IPC boundary without a webview. Production always
@@ -35,7 +36,7 @@ export function createLocalTranslator(transport: Transport = desktop) {
   return {
     state: () => isDesktop() || transport !== desktop
       ? transport.invoke<LocalSnapshot>("local_translation_state")
-      : Promise.resolve<LocalSnapshot>({ state: "absent", requestId: null, error: null }),
+      : Promise.resolve<LocalSnapshot>({ state: "absent", requestId: null, error: null, resident: false }),
     async cancel(requestId: string): Promise<void> {
       const request = requests.get(requestId);
       if (!request) return;

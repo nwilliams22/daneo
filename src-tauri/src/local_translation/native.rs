@@ -18,6 +18,11 @@ use crate::model_artifact::{MODEL_BYTES, MODEL_SHA256};
 const CONTEXT_TOKENS: u32 = 4096;
 const OUTPUT_TOKENS: usize = 1024;
 
+pub(super) struct Loaded {
+    model: LlamaModel,
+    backend: LlamaBackend,
+}
+
 #[cfg(feature = "acceptance")]
 fn retain_raw(request: &Request, text: &str, complete: bool) {
     use std::io::Write;
@@ -105,18 +110,26 @@ pub(super) fn generate(
     emit: &dyn Fn(Progress),
     fail_allocation: bool,
 ) -> Result<Value, TranslateError> {
-    verify(&request.owner.path, MODEL_BYTES, MODEL_SHA256, || {
-        request.check()
-    })?;
-    let backend = LlamaBackend::init().map_err(|_| TranslateError::generation())?;
-    let model = LlamaModel::load_from_file(
-        &backend,
-        &request.owner.path,
-        &LlamaModelParams::default()
-            .with_n_gpu_layers(0)
-            .with_use_mmap(false),
-    )
-    .map_err(|_| corrupt())?;
+    let mut resident = lock(&request.owner.loaded);
+    if resident.is_none() {
+        verify(&request.owner.path, MODEL_BYTES, MODEL_SHA256, || {
+            request.check()
+        })?;
+        let backend = LlamaBackend::init().map_err(|_| TranslateError::generation())?;
+        let model = LlamaModel::load_from_file(
+            &backend,
+            &request.owner.path,
+            &LlamaModelParams::default()
+                .with_n_gpu_layers(0)
+                .with_use_mmap(false),
+        )
+        .map_err(|_| corrupt())?;
+        *resident = Some(Loaded { backend, model });
+        request.owner.is_resident.store(true, Ordering::SeqCst);
+    }
+    let loaded = resident.as_ref().expect("model loaded");
+    let backend = &loaded.backend;
+    let model = &loaded.model;
     request.progress(Phase::Ready, 0, emit)?;
     let contract: String =
         serde_json::from_str(include_str!("../../../src/lib/translation-prompt.json"))
@@ -173,7 +186,7 @@ pub(super) fn generate(
     }
     let mut context = context_result(
         model.new_context(
-            &backend,
+            backend,
             LlamaContextParams::default()
                 .with_n_ctx(NonZeroU32::new(CONTEXT_TOKENS))
                 .with_n_batch(CONTEXT_TOKENS)

@@ -175,6 +175,22 @@ async fn verified_download_reports_progress_and_publishes_atomically() {
         .is_ok());
 }
 #[tokio::test]
+async fn delete_verified_cache_returns_to_absent_and_allows_download_again() {
+    let dir = Dir::new();
+    let d = Downloader::new(dir.0.clone());
+    let (url, server) = server("good");
+    let cached = fetch(&d, &url).await.unwrap();
+    server.join().unwrap();
+    let path = cached.path.unwrap();
+    assert!(path.exists());
+    assert!(d.delete(pin()).unwrap().path.is_none());
+    assert!(!path.exists());
+    assert!(d.inspect(Ok(pin())).await.unwrap().path.is_none());
+    let (url, server) = self::server("good");
+    assert!(fetch(&d, &url).await.unwrap().path.is_some());
+    server.join().unwrap();
+}
+#[tokio::test]
 async fn same_length_wrong_hash_is_discarded() {
     assert_eq!(
         format!("{:x}", Sha256::digest(fixture(true))),

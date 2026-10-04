@@ -6,9 +6,10 @@ use std::{
     collections::HashMap,
     path::PathBuf,
     sync::{
-        atomic::{AtomicBool, Ordering},
+        atomic::{AtomicBool, AtomicU64, Ordering},
         Arc, Mutex, MutexGuard,
     },
+    time::{Duration, Instant},
 };
 
 mod native;
@@ -86,6 +87,7 @@ pub struct Snapshot {
     pub state: Phase,
     pub request_id: Option<String>,
     pub error: Option<TranslateError>,
+    pub resident: bool,
 }
 
 // Recover bookkeeping after an unwound worker. No poisoned-lock panic at IPC.
@@ -96,6 +98,10 @@ fn lock<T>(mutex: &Mutex<T>) -> MutexGuard<'_, T> {
 pub struct LocalTranslator {
     path: PathBuf,
     serial: Mutex<()>,
+    loaded: Mutex<Option<native::Loaded>>,
+    is_resident: AtomicBool,
+    idle_seconds: AtomicU64,
+    last_used: Mutex<Instant>,
     verified: AtomicBool,
     pending: Mutex<HashMap<String, Arc<AtomicBool>>>,
     snapshot: Mutex<Snapshot>,
@@ -105,17 +111,67 @@ impl LocalTranslator {
         Self {
             path,
             serial: Mutex::new(()),
+            loaded: Mutex::new(None),
+            is_resident: AtomicBool::new(false),
+            idle_seconds: AtomicU64::new(300),
+            last_used: Mutex::new(Instant::now()),
             verified: AtomicBool::new(false),
             pending: Mutex::new(HashMap::new()),
             snapshot: Mutex::new(Snapshot {
                 state: Phase::Absent,
                 request_id: None,
                 error: None,
+                resident: false,
             }),
         }
     }
     pub fn snapshot(&self) -> Snapshot {
-        lock(&self.snapshot).clone()
+        let mut snapshot = lock(&self.snapshot).clone();
+        snapshot.resident = self.is_resident.load(Ordering::SeqCst);
+        snapshot
+    }
+    pub fn set_idle_seconds(&self, seconds: u64) -> Result<(), TranslateError> {
+        if !(30..=3600).contains(&seconds) {
+            return Err(TranslateError::new(
+                ErrorCode::InvalidInput,
+                "Choose 30–3600 seconds.",
+            ));
+        }
+        self.idle_seconds.store(seconds, Ordering::SeqCst);
+        Ok(())
+    }
+    pub fn unload_if_idle(&self) -> bool {
+        let Ok(_serial) = self.serial.try_lock() else {
+            return false;
+        };
+        if !lock(&self.pending).is_empty()
+            || lock(&self.last_used).elapsed()
+                < Duration::from_secs(self.idle_seconds.load(Ordering::SeqCst))
+        {
+            return false;
+        }
+        let unloaded = lock(&self.loaded).take().is_some();
+        if unloaded {
+            self.is_resident.store(false, Ordering::SeqCst);
+            // The verified file is still available; the next request enters Loading.
+            let mut snapshot = lock(&self.snapshot);
+            snapshot.resident = false;
+        }
+        unloaded
+    }
+    pub fn with_unloaded<T>(&self, operation: impl FnOnce() -> T) -> T {
+        let _serial = lock(&self.serial);
+        lock(&self.loaded).take();
+        self.is_resident.store(false, Ordering::SeqCst);
+        let mut snapshot = lock(&self.snapshot);
+        *snapshot = Snapshot {
+            state: Phase::Absent,
+            request_id: None,
+            error: None,
+            resident: false,
+        };
+        drop(snapshot);
+        operation()
     }
     pub fn cancel(&self, request_id: &str) -> bool {
         let pending = lock(&self.pending);
@@ -205,6 +261,7 @@ impl Request {
             state,
             request_id: Some(self.request_id.clone()),
             error: None,
+            resident: self.owner.is_resident.load(Ordering::SeqCst),
         };
         emit(Progress {
             request_id: self.request_id.clone(),
@@ -240,6 +297,10 @@ impl Request {
         } else {
             result
         };
+        if result.is_err() {
+            lock(&self.owner.loaded).take();
+            self.owner.is_resident.store(false, Ordering::SeqCst);
+        }
         pending.remove(&self.request_id);
         let (state, error) = match &result {
             Ok(_) => (Phase::Ready, None),
@@ -260,7 +321,9 @@ impl Request {
             state,
             request_id: None,
             error,
+            resident: self.owner.is_resident.load(Ordering::SeqCst),
         };
+        *lock(&self.owner.last_used) = Instant::now();
         // No terminal events: command replies are the only completion mechanism.
         result.into()
     }
@@ -300,4 +363,13 @@ pub fn cancel_local(
 #[tauri::command]
 pub fn local_translation_state(translator: tauri::State<'_, Arc<LocalTranslator>>) -> Snapshot {
     translator.snapshot()
+}
+#[tauri::command]
+pub fn set_model_idle_seconds(
+    seconds: u64,
+    translator: tauri::State<'_, Arc<LocalTranslator>>,
+) -> Result<(), String> {
+    translator
+        .set_idle_seconds(seconds)
+        .map_err(|error| error.message)
 }
