@@ -434,3 +434,7 @@ Made the ten specified natural English layers gender neutral and corrected the h
 ### 2026-10-03 — Replace two empty M122/M123 sentence notes
 
 Replaced the unfilled template notes on s_m122_03 and s_m123_05 with explanations of the practice/result relationship under -(으)ㄹ수록 and the 손질하다/손질 verb–noun pair under -는 김에. A focused before/after JSON comparison confirmed that exactly these two note fields changed and all other sentence data stayed unchanged. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check` passed. Not verified at runtime: the two notes in the running UI — no UI session was run for this text-only correction. Next: independent content review of both notes.
+
+### 2026-10-03 — Correct five stale frozen-word labels in M105–M117
+
+Replaced the five named labels in two gap notes and three word notes with their owning modules: M46's 야간, M58's 반장, M75's 포함 and 보관, and M115's 제안. The surrounding explanations and all other entries remain unchanged. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `python3 reference/authoring/tools/frozenaudit.py`: 26 corpus-wide findings, down from 29, with all three affected word-note findings absent; `git diff --check` passed. The two gap notes are outside the audit's reach. Runtime UI was not inspected for this text-only correction. Next: independent content review of the five labels.
