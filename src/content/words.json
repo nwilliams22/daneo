@@ -36413,7 +36413,7 @@
     "en": "ruins, historic remains (遺跡)",
     "pos": "noun",
     "moduleId": "m112",
-    "notes": "THE SUFFIX TRAP: the 적 here is footprint-跡, not the -적 stamp. 遺 (to leave behind — a first) + the 跡 of M100's 흔적 (\"痕跡 scar-footprint: both firsts — 痕 the mark on skin, 跡 the print on ground\"), whose note ran this exact radar first: \"this 적 is 跡, a footprint, NOT the -적 stamp of M45\". 유적지 (the site — 지 riding frozen, and NIKL files it as its own word) is where the bus stops; M96's 문화재 is what it holds. Sort the three 적s: today's five -적 words use the suffix, M57's 면적 is piled-積, 유적 is footprint-跡 — and the only way to tell is the word, not the syllable."
+    "notes": "THE SUFFIX TRAP: the 적 here is footprint-跡, not the -적 stamp. The 遺 of M108's 유물 (to leave behind) + the 跡 of M100's 흔적 (\"痕跡 scar-footprint: both firsts — 痕 the mark on skin, 跡 the print on ground\"), whose note ran this exact radar first: \"this 적 is 跡, a footprint, NOT the -적 stamp of M45\". 유적지 (the site — 지 riding frozen, and NIKL files it as its own word) is where the bus stops; M96's 문화재 is what it holds. Sort the three 적s: today's five -적 words use the suffix, M57's 면적 is piled-積, 유적 is footprint-跡 — and the only way to tell is the word, not the syllable."
   },
   {
     "id": "w_ilsaeng",
@@ -38394,7 +38394,7 @@
   { "id": "w_daebi", "ko": "대비", "rom": "daebi", "en": "preparation; provision", "pos": "noun", "moduleId": "m126", "notes": "對備 face-prepare: readiness for a possible event. 비에 대비하다 prepares for rain; this is not 對比 comparison." },
   { "id": "w_daeche", "ko": "대체", "rom": "daeche", "en": "on earth; just what", "pos": "adverb", "moduleId": "m126", "notes": "The NIKL row is the adverb 大體 in an emphatic question: 대체 왜? means why on earth? Do not confuse it with 代替, replacement." },
   { "id": "w_deoukdeo", "ko": "더욱더", "rom": "deoukdeo", "en": "even more", "pos": "adverb", "moduleId": "m126", "notes": "더욱 plus 더 doubles the intensifier: even more than before. 더욱더 중요하다 heightens an existing degree." },
-  { "id": "w_dosim", "ko": "도심", "rom": "dosim", "en": "city center", "pos": "noun", "moduleId": "m126", "notes": "都市 city + 心 heart: the downtown center. 도심에서 일하다 locates work in the urban core, not the whole city." },
+  { "id": "w_dosim", "ko": "도심", "rom": "dosim", "en": "city center", "pos": "noun", "moduleId": "m126", "notes": "都 city + 心 heart: the downtown center. 도심에서 일하다 locates work in the urban core, not the whole city." },
   { "id": "w_dulleossaida", "ko": "둘러싸이다", "rom": "dulleossaida", "en": "to be surrounded", "pos": "verb", "moduleId": "m126", "notes": "둘러싸다 plus passive -이다: a thing has a ring around it. 산으로 둘러싸이다 puts the place inside the surrounding mountains." },
   { "id": "w_machal", "ko": "마찰", "rom": "machal", "en": "friction; conflict", "pos": "noun", "moduleId": "m126", "notes": "摩擦 rub-wipe: physical friction or interpersonal tension. 의견의 마찰 makes opposing views rub against each other." },
   { "id": "w_makeu", "ko": "마크", "rom": "makeu", "en": "mark; emblem", "pos": "noun", "moduleId": "m126", "notes": "A loanword for a symbol or identifying mark. 팀 마크 can identify a sports team; this is not an invented hanja compound." },

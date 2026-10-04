@@ -442,3 +442,7 @@ Replaced the five named labels in two gap notes and three word notes with their 
 ### 2026-10-03 — Align two evidential English chunks in M119/M124
 
 Moved “I noticed” into the English verb chunks of s_m119_bullying_witnessed (v) and s_m124_02 (c), matching the Korean -더라고요 and interlinear gloss. A focused before/after JSON comparison confirmed that only four English text fields changed; chunk IDs, roles, order, Korean, gloss, and all other sentence data are unchanged. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check` passed. Not verified at runtime: tap-to-trace in sentence anatomy — no UI session was run for this text-only correction. Next: independent content review of the two mappings and runtime tracing.
+
+### 2026-10-03 — Correct M109/M111/M112/M126 cross-references and decode
+
+Corrected the three specified module citations: 오염 to M72, 침 to M104, and 훔치다 to M61. Changed 도심's hanja decode to 都 + 心 and replaced 유적's duplicate first claim with a reference to M108's 유물. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check` passed. Runtime UI was not inspected for these text-only corrections. Next: independent content review of the five corrected claims.

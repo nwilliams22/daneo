@@ -14,7 +14,7 @@ By now the passive is arithmetic. Thirty-four Grade-C words, and twenty-six of t
 | --- | --- | --- | --- |
 | 구속 | 구속하다 (frozen) | 구속되다 — is taken into custody | M98 |
 | 요구 | 요구하다 (M56) | 요구되다 — is called for | M86 |
-| 오염 | none — 오염시키다 | 오염되다 — is contaminated | M99 |
+| 오염 | none — 오염시키다 | 오염되다 — is contaminated | M72 |
 | 표현 | 표현하다 (M42) | 표현되다 — gets expressed | M33 |
 | 해당 | 해당하다 (M86) | 해당되다 — is applicable | M103 |
 | 제한 | 제한하다 (M64) | 제한되다 — is capped | M64 |
