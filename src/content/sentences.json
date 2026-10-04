@@ -18820,10 +18820,10 @@
   {
     "id": "s_m83_volleyball_only",
     "en": [
-      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "The younger sibling", "role": "subject", "id": "s" },
       { "t": "doesn't know how to kick", "role": "other", "id": "a" },
       { "t": "a football, so", "role": "object", "id": "o" },
-      { "t": "he only plays", "role": "verb", "id": "v" },
+      { "t": "they only play", "role": "verb", "id": "v" },
       { "t": "volleyball", "role": "object", "id": "b" }
     ],
     "gloss": [
@@ -19240,11 +19240,11 @@
   {
     "id": "s_m86_accident_dependence",
     "en": [
-      { "t": "After the accident he suffered,", "role": "other", "id": "a" },
+      { "t": "After the accident they suffered,", "role": "other", "id": "a" },
       { "t": "the athlete", "role": "subject", "id": "s" },
       { "t": "ended up", "role": "verb", "id": "v" },
       { "t": "in a position of depending", "role": "other", "id": "c" },
-      { "t": "on his family", "role": "other", "id": "b" }
+      { "t": "on their family", "role": "other", "id": "b" }
     ],
     "gloss": [
       { "t": "accident-[obj] suffer-[badge] after", "role": "other", "id": "a" },
@@ -19262,15 +19262,15 @@
     ],
     "rom": "sagoreul danghan dwi geu seonsuneun gajogege uijonhaneun cheojiga dwaesseoyo",
     "wordIds": ["w_sago", "w_danghada", "w_dwi", "w_geu_det", "w_seonsu", "w_gajok", "w_uijonhada", "w_cheoji", "w_doeda"],
-    "note": "The noun-passive: 사고를 당한 — M36's 사고 as the object of 당하다, in the past badge from M24 — is the accident happening TO him, the get-[noun]-ed that the 이/히/리/기 of M36 cannot build from a noun; M6's 뒤 makes the clause an after. 의존하는 처지가 됐어요 is the 되다 frame from M10 with a whole badge-clause as its complement: 의존하다 on M4's 가족 with 에게, wearing -는 from M24, describes the 처지 — the plight-word of the shelf — and 처지가 is the complement, tagged other because becoming is not doing. M17's 선수 on the topic: an athlete whose position changed, told in the register of a sports page."
+    "note": "The noun-passive: 사고를 당한 — M36's 사고 as the object of 당하다, in the past badge from M24 — is the accident happening TO the athlete, the get-[noun]-ed that the 이/히/리/기 of M36 cannot build from a noun; M6's 뒤 makes the clause an after. 의존하는 처지가 됐어요 is the 되다 frame from M10 with a whole badge-clause as its complement: 의존하다 on M4's 가족 with 에게, wearing -는 from M24, describes the 처지 — the plight-word of the shelf — and 처지가 is the complement, tagged other because becoming is not doing. M17's 선수 on the topic: an athlete whose position changed, told in the register of a sports page."
   },
   {
     "id": "s_m86_burden_giveup",
     "en": [
-      { "t": "My younger brother", "role": "subject", "id": "s" },
+      { "t": "My younger sibling", "role": "subject", "id": "s" },
       { "t": "felt", "role": "other", "id": "a" },
       { "t": "too much pressure, so", "role": "object", "id": "o" },
-      { "t": "he gave up", "role": "verb", "id": "v" },
+      { "t": "they gave up", "role": "verb", "id": "v" },
       { "t": "entering the competition", "role": "object", "id": "b" }
     ],
     "gloss": [
@@ -19981,7 +19981,7 @@
       { "t": "That doctor's", "role": "subject", "id": "s" },
       { "t": "experience", "role": "subject", "id": "q" },
       { "t": "is not only abundant;", "role": "other", "id": "a" },
-      { "t": "his skill", "role": "subject", "id": "r" },
+      { "t": "their skill", "role": "subject", "id": "r" },
       { "t": "is outstanding too.", "role": "verb", "id": "v" }
     ],
     "gloss": [
@@ -21070,10 +21070,10 @@
   {
     "id": "s_m94_feelings_hidden",
     "en": [
-      { "t": "My little brother", "role": "subject", "id": "s" },
+      { "t": "The younger sibling", "role": "subject", "id": "s" },
       { "t": "didn't say", "role": "verb", "id": "v" },
       { "t": "a single word,", "role": "object", "id": "o" },
-      { "t": "keeping his feelings hidden", "role": "other", "id": "c" }
+      { "t": "keeping their feelings hidden", "role": "other", "id": "c" }
     ],
     "gloss": [
       { "t": "younger-sibling-[topic]", "role": "subject", "id": "s" },
@@ -21089,7 +21089,7 @@
     ],
     "rom": "dongsaengeun gamjeongeul gamchun chae amu maldo haji anasseoyo",
     "wordIds": ["w_dongsaeng", "w_gamjeong", "w_gamchuda", "w_chae", "w_amu", "w_mal", "w_hada"],
-    "note": "-(으)ㄴ 채 on its debut: 감정을 감춘 채 = with his feelings hidden — today's 감추다 in the past badge -(으)ㄴ from M24, then 채, the dependent noun, closing the state and leaving it standing while the main clause happens. The 로 is optional and dropped here, as it usually is in speech. M42's 감정 takes the graver hiding-verb (that note ran 감정을 숨기다; the sort in today's 감추다 note says why this one), and the main clause is the emptiest sentence Korean has: M29's 아무 + M4's 말 + 도 from M2 + the long negation from M28 — 아무 말도 하지 않았어요 = said not a word. Read the shape: [state frozen in 채] + [what happened anyway]; the sibling's silence is the event, the hidden feelings its condition."
+    "note": "-(으)ㄴ 채 on its debut: 감정을 감춘 채 = with their feelings hidden — today's 감추다 in the past badge -(으)ㄴ from M24, then 채, the dependent noun, closing the state and leaving it standing while the main clause happens. The 로 is optional and dropped here, as it usually is in speech. M42's 감정 takes the graver hiding-verb (that note ran 감정을 숨기다; the sort in today's 감추다 note says why this one), and the main clause is the emptiest sentence Korean has: M29's 아무 + M4's 말 + 도 from M2 + the long negation from M28 — 아무 말도 하지 않았어요 = said not a word. Read the shape: [state frozen in 채] + [what happened anyway]; the sibling's silence is the event, the hidden feelings its condition."
   },
   {
     "id": "s_m94_coat_off_again",
@@ -21217,7 +21217,7 @@
       { "t": "The fans", "role": "subject", "id": "s" },
       { "t": "outside", "role": "place", "id": "p" },
       { "t": "kept shouting", "role": "other", "id": "c" },
-      { "t": "his name, so", "role": "object", "id": "o" },
+      { "t": "a name, so", "role": "object", "id": "o" },
       { "t": "the song", "role": "subject", "id": "s2" },
       { "t": "couldn't be heard", "role": "verb", "id": "v" }
     ],
