@@ -382,3 +382,7 @@ Changed `w_dojeohi` from noun to adverb, matching NIKL entry 14397 and M89's pro
 ### 2026-10-03 — Correct M89 가령 part of speech
 
 Changed `w_garyeong` from noun to adverb, matching NIKL entry 16412 and M89's lesson. Updated the authoring brief's POS instruction; the checklist groups directly by `pos`, so no component edit was needed. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; a focused registry assertion confirmed 34 M89 words and 가령 alongside 도저히 in Adverbs; `git diff --check` passed. `npm run visual:pass -- m89 --port 5319 --out .visual-pass/bad-154` rendered 1/1 with 34/34 checklist words. Inspected the PNG: 가령 appears under Adverbs and the page is visible without clipping. Next: independent content review of this classification; review the remaining three prose adverbs' stored POS separately.
+
+### 2026-10-03 — Correct M89 예컨대 part of speech
+
+Changed `w_yekeondae` from noun to adverb, matching the NIKL source and M89's prose. Updated the authoring brief's POS instruction; the checklist groups directly by `pos`, so no component edit was needed. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; a focused registry assertion confirmed 34 M89 words and 예컨대 in the three-word Adverbs group; `git diff --check` passed. `npm run visual:pass -- m89 --port 5323 --out .visual-pass/bad-155` rendered 1/1 with 34/34 checklist words, and the page image was inspected. Next: independent content review of this classification; review the remaining two prose adverbs' stored POS separately.
