@@ -6,7 +6,7 @@ quality. The 4,096-token context and 1,024-token output cap are spike settings.
 
 Manually provision `Qwen3.5-4B-Q4_K_M.gguf` from
 [the immutable repository revision](https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/tree/e87f176479d0855a907a41277aca2f8ee7a09523).
-The example pins repository, revision, filename, byte count and SHA-256, and
+`src/model_artifact.rs` pins repository, revision, filename, byte count and SHA-256 for both the example and app runtime, which
 rejects a size or hash mismatch before initializing inference. Keep weights in
 the ignored `.local-models/` directory or outside the repository.
 

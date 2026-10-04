@@ -26,6 +26,8 @@ tauri-plugin-log = "2"
 llama-cpp-2 = { version = "=0.1.158", default-features = false }
 sha2 = "0.10"
 
-[dev-dependencies]
 minijinja = { version = "2", features = ["json"] }
 minijinja-contrib = { version = "2", features = ["pycompat"] }
+
+[dev-dependencies]
+tauri = { version = "2.11.3", features = ["test"] }

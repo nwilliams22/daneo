@@ -26,6 +26,7 @@
     "@fontsource/noto-sans-kr": "^5.3.0",
     "@fontsource/noto-serif-kr": "^5.3.0",
     "@hono/node-server": "^2.0.12",
+    "@tauri-apps/api": "^2.12.1",
     "dexie": "^4.4.4",
     "dexie-react-hooks": "^4.4.0",
     "hono": "^4.12.33",

@@ -1,7 +1,8 @@
 # PLAN — Daneo local AI (translator + tutor, offline-first)
 
 > Owner: Nick. Design refresh: **2026-10-03**. Owner constraint added **2026-10-04**.
-> Native compatibility example passed on 2026-10-04; app integration has not started.
+> Native compatibility and request lifecycle passed on 2026-10-04; Tauri commands and
+> the validated frontend adapter exist. Explore controls are the next slice.
 > See `src-tauri/examples/README.md` and the dated TASKS.md measurements.
 > PROJECT.md governs pedagogy; TASKS.md is the app checklist/session record.
 > Desktop comes first. **The local model is the engine, not an option.** Nick chose
