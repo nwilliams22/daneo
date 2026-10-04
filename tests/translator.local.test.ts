@@ -41,6 +41,15 @@ describe("local translation IPC boundary", () => {
     }
   });
 
+  it("suppresses an asynchronous listener cleanup failure after a valid reply", async () => {
+    const client = createLocalTranslator({
+      async invoke<T>() { return { ok: true, result: good("물") } as T; },
+      async listen() { return async () => { throw new Error("webview closed"); }; },
+    });
+    expect(await client.translate({ requestId: "cleanup", input: "water" }))
+      .toMatchObject({ ok: true, result: { korean: "물" } });
+  });
+
   it("cancel then immediate success rejects late progress AND the first reply", async () => {
     const h = harness();
     const progress: LocalProgress[] = [];

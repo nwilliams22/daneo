@@ -19,7 +19,7 @@ export interface LocalSnapshot {
 // uses the registered Tauri commands, never HTTP or a fallback engine.
 interface Transport {
   invoke<T>(command: string, args?: Record<string, unknown>): Promise<T>;
-  listen(handler: (event: LocalProgress) => void): Promise<() => void>;
+  listen(handler: (event: LocalProgress) => void): Promise<() => void | Promise<void>>;
 }
 const desktop: Transport = {
   invoke,
@@ -52,7 +52,7 @@ export function createLocalTranslator(transport: Transport = desktop) {
       if (requests.has(requestId)) return failure("busy", "Request ID is already active.");
       const request = { cancelled: false };
       requests.set(requestId, request);
-      let unlisten: (() => void) | undefined;
+      let unlisten: (() => void | Promise<void>) | undefined;
       try {
         // Subscribe before invoking, so fast native errors cannot leak a listener.
         unlisten = await transport.listen((event) => {
@@ -83,7 +83,7 @@ export function createLocalTranslator(transport: Transport = desktop) {
         return request.cancelled ? cancelled() : failure("generation-failed", "The local translator is unavailable.");
       } finally {
         requests.delete(requestId);
-        try { unlisten?.(); } catch { /* a closed webview may already have removed it */ }
+        try { await unlisten?.(); } catch { /* a closed webview may already have removed it */ }
       }
     },
   };
