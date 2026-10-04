@@ -1,5 +1,6 @@
 pub mod local_translation;
 pub mod model_artifact;
+pub mod model_download;
 use std::sync::Arc;
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
@@ -16,8 +17,12 @@ pub fn run() {
             local_translation::translate_local,
             local_translation::cancel_local,
             local_translation::local_translation_state,
+            model_download::download_model,
+            model_download::cancel_model_download,
+            model_download::model_cache_state,
         ])
         .setup(|app| {
+            model_download::setup(app)?;
             if cfg!(debug_assertions) {
                 app.handle().plugin(
                     tauri_plugin_log::Builder::default()

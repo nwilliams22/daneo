@@ -25,6 +25,9 @@ tauri = { version = "2.11.3", features = [] }
 tauri-plugin-log = "2"
 llama-cpp-2 = { version = "=0.1.158", default-features = false }
 sha2 = "0.10"
+reqwest = { version = "0.13", default-features = false, features = ["rustls"] }
+tokio = { version = "1", features = ["fs", "io-util", "sync", "macros", "time"] }
+fs2 = "0.4"
 
 minijinja = { version = "2", features = ["json"] }
 minijinja-contrib = { version = "2", features = ["pycompat"] }

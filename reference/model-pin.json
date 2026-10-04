@@ -1,0 +1,4 @@
+{
+  "pin": null,
+  "note": "No production artifact is selected. Download refuses an unset or incomplete pin. Selection and the real verified download are separate gates."
+}
