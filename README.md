@@ -6,7 +6,7 @@ A desktop app (Tauri 2 + React) that teaches Korean the opposite way from Duolin
 
 ## Status (2026-10-04)
 
-Phase A and all 164 curriculum modules are complete. The content review is closed; local AI (Phase D) is active. Working today:
+Phase A and all 164 curriculum modules are complete. The content review is closed; local AI (Phase D) is implemented but not qualified for shipment. Working today:
 
 - **Onboarding** — an adaptive **placement quiz** (letters → Module 1 words → sentences, early stop on a failed stage) that pre-checks whatever you prove: alphabet collapsed, Module 1 vocab marked known, romanization hidden. "Brand new" and "skip the quiz" paths remain.
 - **Learn** — 164 modules and readings across three rings, word checklists, aligned sentences and module tests, gated by the known-word rule.
@@ -15,7 +15,7 @@ Phase A and all 164 curriculum modules are complete. The content review is close
 - **Explore** — the unrestricted curiosity translator uses the local model in the desktop app. A developer-only cloud comparison path remains off by default. Results save into a "Discovered" deck.
 - **Ask Daneo** — a local tutor reads known words, due cards, progress and misses without writing learner state. Generated Korean is removed from the answer; cited Korean examples come only from unlocked curriculum sentences.
 - **Stats** — words learned per module, review-queue counts, accuracy (all-time/7-day), per-confusable-group bars, weakest items, font fluency.
-- **Settings** — romanization hide (global), light/dark "paper" themes, Korean TTS voice status + rate, JSON backup/restore.
+- **Settings** — local-model download/cache controls and idle unload (production download awaits a qualified pin), romanization hide (global), light/dark "paper" themes, Korean TTS voice status + rate, JSON backup/restore.
 
 Phase D local-model qualification is active. The production model pin is still unset; see `PLAN-local-model.md` and `TASKS.md`. Desktop installers follow in Phase B.
 
@@ -33,6 +33,8 @@ npm run tauri:build    # desktop bundles (AppImage + rpm) — wraps NO_STRIP=tru
 ```
 
 **Local model setup:** Explore and Ask Daneo require the Tauri desktop app and a verified local GGUF. The production model artifact is not pinned yet, so the public download path remains unavailable until qualification. The optional `server/.env` proxy is only for development comparisons; it is never a shipped fallback.
+
+**Offline boundary:** curriculum, drills, review and saved learner state are local. Explore and Ask Daneo need a verified model installed first; after that they use in-process inference without the proxy. The intended one-time download is in Settings, but is currently blocked by the unset production pin. Speech playback also needs an installed Korean system voice. No shipped feature is intended to require the developer proxy, an account or a paid API key. Packaged offline execution is still unverified; the latest build attempt and remaining gates are recorded in [`reference/desktop-closeout.md`](reference/desktop-closeout.md).
 
 ## Project layout
 

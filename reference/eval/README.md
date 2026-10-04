@@ -1,5 +1,12 @@
 # Desktop acceptance runner
 
+**Packaged-app boundary (2026-10-04):** the native probe and acceptance example below
+are development instruments. Neither proves that the ordinary AppImage/rpm launches
+or that its translator and tutor work offline. The current packaged closeout is
+blocked; record the separate checks in [desktop-closeout.md](../desktop-closeout.md)
+before calling Phase D shipped. Do not substitute simulated native transport
+screenshots for a screenshot of the packaged app.
+
 ## Prompt repair on a host without a usable desktop socket
 
 The v0 ten items are retired as a gate and retained for reporting and regression. The v1 ten items

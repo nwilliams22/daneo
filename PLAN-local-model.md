@@ -2,7 +2,8 @@
 
 > Owner: Nick. Design refresh: **2026-10-03**. Owner constraint added **2026-10-04**.
 > Native compatibility and request lifecycle passed on 2026-10-04; Tauri commands and
-> the validated frontend adapter exist. Explore controls are the next slice.
+> the validated frontend adapter, Explore controls, storage lifecycle and tutor now exist.
+> Production qualification and packaged desktop closeout remain open.
 > See `src-tauri/examples/README.md` and the dated TASKS.md measurements.
 > PROJECT.md governs pedagogy; TASKS.md is the app checklist/session record.
 > Desktop comes first. **The local model is the engine, not an option.** Nick chose
@@ -412,6 +413,32 @@ single real end-to-end download with its measured timing and verified hash. That
 moves to its own child, chained to the gate that selects the artifact. **Nothing
 here selects the provisional Qwen3.5-4B Q4_K_M artifact**, and the 2.74 GB file
 named earlier in this file remains a candidate, not a pin.
+
+## Desktop closeout checkpoint — 2026-10-04 (not shipped)
+
+The v2 implementation is present: local translation/cancellation, guarded downloader,
+cache/settings/idle unload, adapter tests and the read-only tutor. The production pin
+is still null. The closeout attempt passed 236 tests, 15 content checks and the web
+build, but `npm run tauri:build` failed at Cargo discovery before compilation. No
+packaged launch, offline tutor/translation screenshot or installer size was obtained.
+See [`reference/desktop-closeout.md`](reference/desktop-closeout.md) for the exact
+source-of-truth checks and remaining closure conditions.
+
+The decision audit's **needs re-picking** rows resolve as follows:
+
+- **Base/Lite pair:** Qwen3.5-4B and Qwen3.5-2B remain candidates; no production
+  artifact is selected. Native compatibility is established separately from Korean
+  quality. Lite qualification is still open.
+- **v1 data volume/held-out design:** independent v1/v2 fixtures and provenance
+  checks exist; synthetic training volume and the trained artifact remain open.
+  Training is conditional on evidence, authorized, and not delivered by v2.
+- **Mobile platform order/bridge and model/UI pair:** both remain open under the
+  separate v3 decision; desktop work makes no phone-performance claim.
+
+**Cloud recommendation:** retain `server/` and its adapter as a development-only
+comparison implementation of the result contract. Keep `claude-sonnet-4-6`, the
+production DEV gate and the no-fallback rule. Deleting the adapter is the owner's
+decision; this closeout leaves it in place. Phase C is outside this work.
 
 ## Later phases and limits
 
