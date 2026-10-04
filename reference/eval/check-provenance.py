@@ -21,7 +21,15 @@ def digest(data):
 
 
 def validate(raw_path, report_commit):
-    rows = [json.loads(line) for line in Path(raw_path).read_text().splitlines() if line.strip()]
+    raw_file = Path(raw_path).resolve()
+    try:
+        repo_path = raw_file.relative_to(ROOT.resolve()).as_posix()
+    except ValueError as error:
+        raise ValueError('raw evidence must be inside the repository') from error
+    raw_bytes = raw_file.read_bytes()
+    if git_bytes(report_commit, repo_path) != raw_bytes:
+        raise ValueError(f'raw evidence does not match {repo_path} at report commit {report_commit}')
+    rows = [json.loads(line) for line in raw_bytes.decode().splitlines() if line.strip()]
     if not rows:
         raise ValueError('raw evidence has no rows')
     for index, row in enumerate(rows, 1):
