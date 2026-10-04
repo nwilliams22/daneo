@@ -32154,9 +32154,9 @@
     "ko": "이어",
     "rom": "ieo",
     "en": "following on; next, and then (adverb)",
-    "pos": "noun",
+    "pos": "adverb",
     "moduleId": "m99",
-    "notes": "M88's 잇다 in its -아/어 coat — the ㅅ gone before the vowel, exactly as M88's 이어지다 note built it: \"잇다 (above) + -아/어지다 — the ㅅ gone before the vowel (이어 + 지다)\" — and fossilized into an adverb the way M85's 앞서 was (that note: \"M6's 앞 + M14's 서다 in its -아/어 coat\"). Following on, next: 이어 말했다 (M4's 말하다) = went on to say, 이어 발표했다 (M16's 발표하다) = then announced — the newsreader's and the minutes-taker's word, linking two events with no gap; 이어서 (riding frozen) is the fuller spoken form — 이어서 뉴스입니다 (M24's 뉴스) = and now, the news. Where M7's 그리고 merely adds, 이어 says the next thing followed straight on. NIKL files it as an adverb, house pos noun. RADAR: the 이어 inside M35's 다이어트 is English die- through the converter — no verb in it."
+    "notes": "M88's 잇다 in its -아/어 coat — the ㅅ gone before the vowel, exactly as M88's 이어지다 note built it: \"잇다 (above) + -아/어지다 — the ㅅ gone before the vowel (이어 + 지다)\" — and fossilized into an adverb the way M85's 앞서 was (that note: \"M6's 앞 + M14's 서다 in its -아/어 coat\"). Following on, next: 이어 말했다 (M4's 말하다) = went on to say, 이어 발표했다 (M16's 발표하다) = then announced — the newsreader's and the minutes-taker's word, linking two events with no gap; 이어서 (riding frozen) is the fuller spoken form — 이어서 뉴스입니다 (M24's 뉴스) = and now, the news. Where M7's 그리고 merely adds, 이어 says the next thing followed straight on. NIKL files it as an adverb. RADAR: the 이어 inside M35's 다이어트 is English die- through the converter — no verb in it."
   },
   {
     "id": "w_teukseong",
@@ -33288,18 +33288,18 @@
     "ko": "거꾸로",
     "rom": "geokkuro",
     "en": "upside down, backwards, the wrong way round",
-    "pos": "noun",
+    "pos": "adverb",
     "moduleId": "m102",
-    "notes": "Native adverb (pos noun by house rule): the wrong way round on any axis. 거꾸로 입었어요 (M8's 입다) = wore it inside out, or back to front; 거꾸로 가다 (M1's 가다) = to go backwards — 시계가 거꾸로 가요 (M5's 시계) = the clock runs backwards; 거꾸로 읽다 (M2's 읽다) = to read backwards; 거꾸로 서다 (M14's 서다) = to stand on one's head. RADAR: the 로 of M6 is a fossil inside it — 거꾸 + 로 — but the word is one piece now; never add another 로."
+    "notes": "Native adverb: the wrong way round on any axis. 거꾸로 입었어요 (M8's 입다) = wore it inside out, or back to front; 거꾸로 가다 (M1's 가다) = to go backwards — 시계가 거꾸로 가요 (M5's 시계) = the clock runs backwards; 거꾸로 읽다 (M2's 읽다) = to read backwards; 거꾸로 서다 (M14's 서다) = to stand on one's head. RADAR: the 로 of M6 is a fossil inside it — 거꾸 + 로 — but the word is one piece now; never add another 로."
   },
   {
     "id": "w_daechung",
     "ko": "대충",
     "rom": "daechung",
     "en": "roughly, more or less; half-heartedly",
-    "pos": "noun",
+    "pos": "adverb",
     "moduleId": "m102",
-    "notes": "The mouth's approximation (adverb, pos noun by house rule): 대충 알아요 (M4's 알다) = I roughly know; 대충 했어요 = I did it roughly — a half job; 대충 얼마예요? (M9's 얼마) = roughly how much? Doubled, 대충대충 = slapdash — the gap deck files the boss's complaint. Twin of M85's 대체로, whose note said \"대체로 is the survey's\": 대체로 is the page's on-the-whole; 대충 is the mouth's more-or-less. RADAR: not M55's 대 — no counter, no versus; native, and lazy by design."
+    "notes": "The mouth's approximation (adverb): 대충 알아요 (M4's 알다) = I roughly know; 대충 했어요 = I did it roughly — a half job; 대충 얼마예요? (M9's 얼마) = roughly how much? Doubled, 대충대충 = slapdash — the gap deck files the boss's complaint. Twin of M85's 대체로, whose note said \"대체로 is the survey's\": 대체로 is the page's on-the-whole; 대충 is the mouth's more-or-less. RADAR: not M55's 대 — no counter, no versus; native, and lazy by design."
   },
   {
     "id": "w_jeongmyeon",
@@ -33468,9 +33468,9 @@
     "ko": "극히",
     "rom": "geukhi",
     "en": "extremely, exceedingly (formal) (極히)",
-    "pos": "noun",
+    "pos": "adverb",
     "moduleId": "m103",
-    "notes": "極히 pole-ly: the pole-極 of M45's 적극적 (\"積極 piled-to-the-pole: effort stacked as high as it goes\") + the adverb-히 M32's 특히 decoded (\"the adverb-히 of 천천히/열심히 (M10)\") — to the pole, to the utmost. 극히 드물다 (M89's 드물다) = extremely rare; 극히 일부 (M57's 일부) = a tiny minority — 극히 일부의 학생 = a very few students, the phrase every official denial reaches for; 극히 제한적 (M64's 제한 through the -적 factory of M45) = extremely limited. The register ladder: M11's 아주 is the mouth's very, M38's 훨씬 is the comparison's, and 극히 is the report's — it almost never sits on a happy adjective (극히 좋다 is odd; 극히 어렵다 is the sentence). House pos noun, the adverb rule. Said 그키, the ㄱ+ㅎ merge M32's 특히 note filed as \"축하's rule from M25\"."
+    "notes": "極히 pole-ly: the pole-極 of M45's 적극적 (\"積極 piled-to-the-pole: effort stacked as high as it goes\") + the adverb-히 M32's 특히 decoded (\"the adverb-히 of 천천히/열심히 (M10)\") — to the pole, to the utmost. 극히 드물다 (M89's 드물다) = extremely rare; 극히 일부 (M57's 일부) = a tiny minority — 극히 일부의 학생 = a very few students, the phrase every official denial reaches for; 극히 제한적 (M64's 제한 through the -적 factory of M45) = extremely limited. The register ladder: M11's 아주 is the mouth's very, M38's 훨씬 is the comparison's, and 극히 is the report's — it almost never sits on a happy adjective (극히 좋다 is odd; 극히 어렵다 is the sentence). Said 그키, the ㄱ+ㅎ merge M32's 특히 note filed as \"축하's rule from M25\"."
   },
   {
     "id": "w_gunggeukjeok",

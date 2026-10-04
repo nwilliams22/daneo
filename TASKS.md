@@ -410,3 +410,7 @@ Relabeled the 잇따르다 word note and its fog-accidents sentence note as ㅡ-
 ### 2026-10-03 — Correct M99 올여름 spelling
 
 Changed the M99 pollution sentence to 올여름은 and adjusted its gloss, romanization, and note. Corrected the module table and recycling line, and clarified in the 올 word note that 올여름 and 올겨울 are single nouns while 올 시즌, 올 초, and 올 들어 remain spaced. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; a focused JSON and text assertion passed; `git diff --check` passed. The M99 visual pass could not run because the sandbox refused Vite's local listener with `EPERM`; the page was not visually inspected in this run. Next: independent content review and a visual check in a workspace that permits a local server.
+
+### 2026-10-03 — Correct M99–M103 adverb classifications
+
+Changed 이어, 거꾸로, 대충, and 극히 from noun to adverb in the word registry and removed the obsolete noun-by-house-rule wording from their notes. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; a focused registry assertion confirmed all four ids have adverb POS and no obsolete rule clause; `git diff --check` passed; `npm run build` passed (including content validation and TypeScript). `npm run visual:pass -- m99 m102 m103 --port 5351 --out .visual-pass/bad-161` could not start its local dev server, so these pages were not visually inspected. Next: inspect the M99, M102, and M103 Adverbs checklist sections in a workspace that permits a local server.
