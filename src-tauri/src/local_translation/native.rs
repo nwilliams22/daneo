@@ -22,6 +22,13 @@ const OUTPUT_TOKENS: usize = 1024;
 fn retain_raw(request: &Request, text: &str, complete: bool) {
     use std::io::Write;
     if let Some(path) = std::env::var_os("DANEO_ACCEPTANCE_RAW") {
+        let provenance = serde_json::json!({
+            "head": std::env::var("DANEO_ACCEPTANCE_HEAD").expect("acceptance HEAD"),
+            "promptSha256": std::env::var("DANEO_ACCEPTANCE_PROMPT_SHA256").expect("acceptance prompt hash"),
+            "rubricSha256": std::env::var("DANEO_ACCEPTANCE_RUBRIC_SHA256").expect("acceptance rubric hash"),
+            "itemSetSha256": std::env::var("DANEO_ACCEPTANCE_SET_SHA256").expect("acceptance set hash"),
+            "itemSetPath": std::env::var("DANEO_ACCEPTANCE_SET_PATH").expect("acceptance set path"),
+        });
         let mut file = std::fs::OpenOptions::new()
             .create(true)
             .append(true)
@@ -31,7 +38,8 @@ fn retain_raw(request: &Request, text: &str, complete: bool) {
             file,
             "{}",
             serde_json::json!({
-                "requestId": request.request_id, "rawReply": text, "complete": complete
+                "requestId": request.request_id, "rawReply": text, "complete": complete,
+                "provenance": provenance
             })
         )
         .expect("retain acceptance raw output");

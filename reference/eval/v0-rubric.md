@@ -2,6 +2,20 @@
 
 Frozen on 2026-10-04, before prompt tuning. Use [`v0-translation-set.json`](v0-translation-set.json) as the ten exact inputs. **All ten items are held out and excluded from any future training data**, including synthetic examples, fine-tuning, prompt examples, and prompt tuning. If the fixture must change, make a new version and retain this one; do not silently edit a scored set.
 
+## Provenance rule for future held-out runs
+
+Every raw output row must record the runner's `git rev-parse HEAD`, the SHA-256 of
+`src/lib/translation-prompt.json`, this rubric, and the frozen item set. A held-out run is
+**void** if its recorded HEAD is not an ancestor of the commit containing its own report, or if
+its recorded prompt hash does not match the prompt at that HEAD. The rubric and set hashes must
+also match the files at that HEAD, and the set hash must match its committed manifest. Run
+`python3 reference/eval/check-provenance.py RAW.jsonl --report-commit REPORT_COMMIT` to check
+these conditions. Commit `017eb4e` is the worked example of the failure: the prompt change, dev
+set, and held-out outputs first appeared together, so their order could not be proved.
+
+The replacement frozen gate is [`v2-translation-set.json`](v2-translation-set.json); the burned
+v0 items remain excluded from all future gates and training data.
+
 ## Sources and procedure
 
 The fixture's `corpusCommit` is the output of `git log -1 --format=%H` when this set was frozen. At that commit, `src/content/sentences.json` supplies each `corpusSentenceId`'s English, Korean, interlinear gloss, romanization, and note. `src/content/modules.json` assigns the sentence to `moduleId`; `moduleContent` names that module's own lesson in `src/content/modules/`. **The sentence and its owning module settle meaning.** The `corpusAnchor` is a quick reference, not an exact-match gold answer. Cloud output is comparison evidence only.

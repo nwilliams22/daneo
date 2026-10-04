@@ -2,7 +2,8 @@
 
 ## Prompt repair on a host without a usable desktop socket
 
-The v0 ten items are retired as a gate and retained for reporting and regression.
+The v0 ten items are retired as a gate and retained for reporting and regression. The v2 ten
+items are the next frozen held-out gate; their set and SHA-256 manifest were committed separately.
 
 `dev-translation-set.json` contains six corpus items excluded from the frozen
 `v0-translation-set.json`. It has the same input, direction, corpus anchor,
@@ -25,8 +26,8 @@ DANEO_ACCEPTANCE_RAW="$PAPERCLIP_RUN_SCRATCH_DIR/probe-raw.jsonl" \
 ```
 
 Use a new output path each time. Replace only the fixture argument with
-`v0-translation-set.json` for the **single final frozen evaluation**, after
-all prompt edits and dev checks are complete. Native peak RSS excludes the
+`v2-translation-set.json` for a future frozen evaluation, after all prompt edits and dev checks
+are complete. Native peak RSS excludes the
 WebKit process tree, so report it separately from desktop baseline RSS. The
 runner does not verify rendered Explore controls.
 
@@ -69,8 +70,13 @@ failures. Cancellation progress is retained in the command evidence.
 
 The fixture supplies exact input bytes and expected direction; the frontend
 derives direction from Hangul script and sends it as an explicit native command
-argument. Set `VITE_DANEO_EVAL_SET=dev` while bundling `acceptance.ts` to run the
-separate development fixture; omit it for the frozen v0 fixture.
+argument. Set `VITE_DANEO_EVAL_SET=dev` or `v0` while bundling `acceptance.ts` for those explicit
+fixtures; omit it or set `v2` for the replacement held-out fixture. Set
+`DANEO_ACCEPTANCE_SET=reference/eval/v2-translation-set.json` for the raw recorder. Each raw row
+then carries the run HEAD plus prompt, rubric, and item-set hashes. After committing a report,
+run `python3 reference/eval/check-provenance.py RAW.jsonl --report-commit REPORT_COMMIT` to verify
+the ancestry and hashes. The committed negative fixture is checked by
+`python3 -m unittest reference.eval.test_provenance`.
 One fresh-process request precedes three rounds of all ten held-out items.
 “Warm” means a repeated request in the same process with warmed OS file cache;
 the production v0 worker reloads and re-verifies weights on every request.

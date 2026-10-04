@@ -1,10 +1,12 @@
 // Bundled only for the opt-in native acceptance example, never the application.
 import { invoke } from '@tauri-apps/api/core';
 import { localTranslator } from '../../src/features/explore/local-api';
-import heldOut from './v0-translation-set.json';
+import v0 from './v0-translation-set.json';
+import v2 from './v2-translation-set.json';
 import development from './dev-translation-set.json';
 
-const fixture = import.meta.env.VITE_DANEO_EVAL_SET === 'dev' ? development : heldOut;
+const fixture = import.meta.env.VITE_DANEO_EVAL_SET === 'dev' ? development
+  : import.meta.env.VITE_DANEO_EVAL_SET === 'v0' ? v0 : v2;
 
 async function run() {
   const sequence = [
