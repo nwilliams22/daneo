@@ -4,8 +4,6 @@ Someone waits for a ship, someone makes an excuse, and someone carries an object
 
 **How to use this:** Read the note for each word. Then use the sentence chunks to see who acts, what changes, and which earlier grammar carries the thought. No new glue is introduced here.
 
-> **Warm-up — build, do not recite.** From the previous module's words, say: (1) “I handed over the printer after the inspection.” (2) “The bell sounded while the streetlight was on.” (3) “She recognized each person's effort.” Change the subject or time in each answer. These are new combinations, not lines to memorize.
-
 ---
 
 ## Part 1 — Words in their settings
@@ -29,17 +27,6 @@ Someone waits for a ship, someone makes an excuse, and someone carries an object
 The eight scenes use -(으)로 인해 from M86, -더니 from M88, -(으)ㄹ수록 from M89, -는 김에 from M91, -길래 from M93, -다가 from M94, and -더라도 from M95. Notice how the previous module's 점검 and 프린터, alongside 넘겨주다 from M74, now meet new people and objects.
 
 ::sentences::
-
-## Practice
-
-1. Tell a partner the difference between a passenger and a 선원.
-2. Make 대기하다 into a polite past-tense sentence.
-3. Replace the object of 넘겨주다 in the cloth handover sentence.
-4. Explain why 설사 strengthens a concession without naming an illness.
-5. Contrast 찢다 with a sentence where something tears by itself.
-6. Use -다가 to interrupt a different household task.
-7. Build a new sentence with M129's 점검 and this module's 대기하다.
-8. Describe when 아쉬움 is more precise than 실망.
 
 **Gap deck:** 짐작이 가다 (“a guess goes”) means an idea begins to make sense; 마음이 약해지다 (“the heart becomes weak”) describes softening resolve. Keep the literal picture, then choose the natural English meaning.
 
