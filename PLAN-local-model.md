@@ -258,6 +258,64 @@ inference bridge and platform order based on actual build/device evidence.
 Measure memory, heat, battery and latency on real devices before promising a
 model tier; signing and store publication need their own approval and scope.
 
+### Can a phone run Daneo's model? (Nick's question, 2026-10-04)
+
+**Yes, a phone can run a local model — and no, it should not be the 4B one, and
+nothing should be bundled.** Nick's own guess was right: the phone tier is a much
+smaller model. The reasoning, separated into what is established and what has to
+be measured.
+
+**Bundling is the wrong mechanism on every platform, including desktop.** Daneo's
+design already keeps the model out of the installer and downloads it once after
+install, hash-verified, into app storage (v2, BAD-187). Mobile should reuse that
+decision rather than invent a second one:
+
+- An installer that carries 1–3 GB of weights pays that cost on every app update,
+  not just the first install, and it makes the download a store problem instead of
+  a one-time setup step inside the app.
+- Store limits push the same way. Google Play caps the base app-bundle download in
+  the hundreds of megabytes and pushes anything larger into Play Asset Delivery
+  packs with their own ceilings; the App Store permits a much larger app but
+  applies its own over-cellular download limits. **Verify the current numbers at
+  implementation time** — they move, and this plan does not get to assert them from
+  memory. The conclusion does not depend on the exact figures: post-install
+  download is the mechanism either way.
+- One more reason, specific to this app: a downloaded model can be replaced. If the
+  v1 fine-tune wins (BAD-202), users get it without an app update.
+
+**The phone model is the Lite tier, and it already exists in this plan.**
+Qwen3.5-2B Q4_K_M is **1.28 GB** on disk against the standard 4B's 2.74 GB. Working
+memory is larger than the file — weights plus KV cache plus runtime — so a rough
+derived estimate is **under 2 GB resident for the 2B** and **over 3 GB for the 4B**.
+Those are arithmetic from file sizes, **not measurements**, and this plan has already
+had to kill one set of invented mobile numbers (*"4B is fine on phones, 15–30
+tokens/s"*), so they are a reason to test the 2B first and nothing more. A 3 GB
+resident process is a realistic cause of an OS kill on a mid-range phone; a 2 GB one
+is defensible on an 8 GB device. **BAD-186, the Lite qualification, is therefore also
+the mobile model's qualification** — if Lite clears the Korean gate, Daneo has a
+phone-tier engine; if it does not, mobile needs a smaller model or a different one,
+and that is a finding, not a blocker on desktop.
+
+**What stays genuinely unknown until a real device exists:** sustained throughput and
+thermal behaviour, battery cost of a long tutor session, whether the OS kills the app
+at the measured footprint, and cold load time from flash. Sustained generation
+throttles on phones; that is a reason to expect slow, not a number anyone here can
+state.
+
+**One alternative worth evaluating rather than assuming:** both mobile platforms now
+expose a built-in on-device model to apps — Apple's Foundation Models framework on
+recent iOS, and Gemini Nano through ML Kit / AI Edge on supported Android devices.
+Either would mean **no download at all and no weights to ship** on devices that have
+them. The costs are real too: availability is limited to recent hardware and OS
+versions, the model is not the one the desktop ships, and prompt behaviour and output
+discipline would have to be qualified separately against the same Korean gate — so it
+splits Daneo's single result contract across two different models. Evaluate it when
+mobile is scoped; do not plan around it now.
+
+**None of this changes the desktop path or its order.** Mobile stays v3, behind a
+separate owner decision, and it needs at least one real device in hand before any
+estimate is worth writing down.
+
 Small models may hallucinate. Training does not guarantee an in-character tutor;
 local inference does not guarantee speed. Download integrity, app responsiveness
 and correct Korean all remain acceptance work, not benefits established by this
