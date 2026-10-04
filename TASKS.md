@@ -398,3 +398,7 @@ Changed `w_naranhi` from noun to adverb, matching the NIKL reference and M89's p
 ### 2026-10-03 — Correct the planned owner of 당하다-passives
 
 Removed 당하다-passives from §2c's M90 row so it lists the four glue parts M90 actually teaches. Added a shipped-ownership note pointing to M86 Part 2 and M96's existing index, without changing lesson content or the Band 7 contract. `npm run validate:content`: 15/15 passed; focused assertions confirmed the four-pattern M90 row, the M86 ownership note, agreement with M96, and byte-identical M86/M90/M96 lesson files; `git diff --check` passed. This is a tracker-only correction with no UI change. Next: independent review of the corrected ownership record.
+
+### 2026-10-03 — Correct M94 치르다 conjugation rule
+
+Changed the `w_chireuda` note and M94 Part 1 to identify 치르다 as a ㅡ-drop verb, consistent with M7 and the existing 따르다 note; 저지르다 remains a 르-irregular. The National Institute of Korean Language confirms 치르다 → 치러 through ㅡ elision. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check` passed. `npm run visual:pass -- m94 --port 5341 --out .visual-pass/bad-158`: 1/1 page rendered with 35/35 checklist words; inspected the full-page PNG and found no visible clipping. Next: independent content review of the corrected rule.
