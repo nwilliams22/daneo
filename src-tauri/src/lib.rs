@@ -8,6 +8,7 @@ pub fn run() {
     tauri::Builder::default()
         .invoke_handler(tauri::generate_handler![
             local_translation::translate_local,
+            local_translation::ask_tutor_local,
             local_translation::cancel_local,
             local_translation::local_translation_state,
             local_translation::set_model_idle_seconds,

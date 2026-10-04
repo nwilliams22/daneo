@@ -67,10 +67,11 @@ These six artifacts define the intended UX and visual language. Port their logic
 - **Phase A's Hono proxy in `/server` survives as a developer comparison tool, not a feature.** It holds `ANTHROPIC_API_KEY` in `.env`, forwards to the Messages API on `claude-sonnet-4-6`, and is **off by default, excluded from any build handed to another person, and never a fallback when the local engine fails.** There is no "Auto" engine setting. The key never ships in client code — that rule still holds for the dev path.
 - **No hosted paid proxy, ever, as the product's translator.** That rules out the old "Phase B/C: the same proxy grows auth + rate limiting" plan, which assumed other people's usage billed to Nick's key. What sharing becomes instead is an open owner decision — see §7 Phase B.
 
-### App structure — three areas
+### App structure — four areas
 1. **Learn** — sequential modules (Module 1, Hangul history, Module 2+). Markdown-driven content rendered in-app; completing a module's vocab adds words to the known set.
 2. **Drill** — confusables, cross-font, sentence anatomy (study/arrange), literal-vs-real quiz. All drills log results per item to Dexie.
 3. **Explore** — the curiosity translator. Any translator result can be saved as a card into a personal "discovered" deck (this is the curiosity→collection loop).
+4. **Ask Daneo** — the local tutor reads learner state and cites only unlocked curriculum sentences. Generated prose containing Korean is rejected before rendering. The tutor does not write learner state.
 
 ---
 

@@ -136,12 +136,16 @@ pub(super) fn generate(
     let backend = &loaded.backend;
     let model = &loaded.model;
     request.progress(Phase::Ready, 0, emit)?;
-    let contract: String =
-        serde_json::from_str(include_str!("../../../src/lib/translation-prompt.json"))
-            .map_err(|_| TranslateError::generation())?;
-    let instruction = contract
-        .replace("{{DIRECTION}}", &request.direction)
-        .replacen("{{INPUT}}", &request.input, 1);
+    let instruction = if request.direction == "tutor" {
+        format!("You are Daneo's local study tutor. Use only the supplied learner context and curriculum references. Answer in English. If the answer is not supported, say you cannot establish it from the lessons. Do not invent Korean examples. Return only JSON: {{\"answer\":\"brief English explanation\",\"sentenceIds\":[\"up to three IDs from supplied sentences\"]}}. Learner request and context: {}", request.input)
+    } else {
+        let contract: String =
+            serde_json::from_str(include_str!("../../../src/lib/translation-prompt.json"))
+                .map_err(|_| TranslateError::generation())?;
+        contract
+            .replace("{{DIRECTION}}", &request.direction)
+            .replacen("{{INPUT}}", &request.input, 1)
+    };
     let template = model
         .chat_template(None)
         .map_err(|_| TranslateError::generation())?;
@@ -231,8 +235,10 @@ pub(super) fn generate(
                 text.replace("```json", "").replace("```", "").trim(),
             )
             .map(|mut result| {
-                if let Some(object) = result.as_object_mut() {
-                    object.insert("direction".into(), request.direction.clone().into());
+                if request.direction != "tutor" {
+                    if let Some(object) = result.as_object_mut() {
+                        object.insert("direction".into(), request.direction.clone().into());
+                    }
                 }
                 result
             })

@@ -16,6 +16,7 @@ import ReviewPage from "./features/review/ReviewPage";
 import ReviewSessionRoute from "./features/review/ReviewSession";
 import DashboardPage from "./features/dashboard/DashboardPage";
 import ExplorePage from "./features/explore/ExplorePage";
+import TutorPage from "./features/tutor/TutorPage";
 import SettingsPage from "./features/settings/SettingsPage";
 
 export default function App() {
@@ -49,6 +50,7 @@ export default function App() {
         <Route path="/review/session" element={<ReviewSessionRoute />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/explore" element={<ExplorePage />} />
+        <Route path="/tutor" element={<TutorPage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="*" element={<Navigate to="/learn" replace />} />
       </Routes>

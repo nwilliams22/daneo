@@ -196,7 +196,7 @@ impl LocalTranslator {
             || request_id.len() > 128
             || input.trim().is_empty()
             || input.len() > 4096
-            || !matches!(direction.as_str(), "en-to-ko" | "ko-to-en")
+            || !matches!(direction.as_str(), "en-to-ko" | "ko-to-en" | "tutor")
         {
             return Err(TranslateError::new(
                 ErrorCode::InvalidInput,
@@ -343,6 +343,29 @@ pub async fn translate_local<R: tauri::Runtime>(
 ) -> Result<Outcome, ()> {
     use tauri::Emitter;
     let request = match translator.reserve(request_id, input, direction) {
+        Ok(request) => request,
+        Err(error) => return Ok(Err(error).into()),
+    };
+    match tauri::async_runtime::spawn_blocking(move || {
+        request.run(|event| {
+            let _ = app.emit("local-translation-progress", event);
+        })
+    })
+    .await
+    {
+        Ok(outcome) => Ok(outcome),
+        Err(_) => Ok(Err(TranslateError::generation()).into()),
+    }
+}
+#[tauri::command]
+pub async fn ask_tutor_local<R: tauri::Runtime>(
+    request_id: String,
+    input: String,
+    app: tauri::AppHandle<R>,
+    translator: tauri::State<'_, Arc<LocalTranslator>>,
+) -> Result<Outcome, ()> {
+    use tauri::Emitter;
+    let request = match translator.reserve(request_id, input, "tutor".into()) {
         Ok(request) => request,
         Err(error) => return Ok(Err(error).into()),
     };
