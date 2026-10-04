@@ -402,3 +402,7 @@ Removed 당하다-passives from §2c's M90 row so it lists the four glue parts M
 ### 2026-10-03 — Correct M94 치르다 conjugation rule
 
 Changed the `w_chireuda` note and M94 Part 1 to identify 치르다 as a ㅡ-drop verb, consistent with M7 and the existing 따르다 note; 저지르다 remains a 르-irregular. The National Institute of Korean Language confirms 치르다 → 치러 through ㅡ elision. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check` passed. `npm run visual:pass -- m94 --port 5341 --out .visual-pass/bad-158`: 1/1 page rendered with 35/35 checklist words; inspected the full-page PNG and found no visible clipping. Next: independent content review of the corrected rule.
+
+### 2026-10-03 — Correct M102 잇따르다 conjugation rule
+
+Relabeled the 잇따르다 word note and its fog-accidents sentence note as ㅡ-drop, matching M32's 따르다 and the M7 rule. The Korean forms and sentence content are unchanged. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check`: passed. `npm run visual:pass -- m102 --port 5347 --out .visual-pass/bad-159`: 1/1 page rendered with 30/30 checklist words; inspected the full-page PNG and found the word row, sentence card, and page ending visible without clipping. Next: independent content review of the corrected rule.
