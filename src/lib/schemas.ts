@@ -28,7 +28,7 @@ export const wordSchema = z.object({
   ko: z.string().min(1),
   rom: z.string().min(1),
   en: z.string().min(1),
-  pos: z.enum(["noun", "verb", "adj", "adverb", "particle", "phrase"]),
+  pos: z.enum(["noun", "pronoun", "determiner", "verb", "adj", "adverb", "connective", "particle", "phrase"]),
   moduleId: z.string().min(1),
   notes: z.string().optional(),
 });

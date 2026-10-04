@@ -6,10 +6,12 @@ import AudioButton from "../../components/AudioButton";
 import Rom from "../../components/Rom";
 
 const GROUPS: { pos: Word["pos"][]; label: string }[] = [
-  { pos: ["noun"], label: "Nouns & pronouns" },
+  { pos: ["noun", "pronoun"], label: "Nouns & pronouns" },
+  { pos: ["determiner"], label: "Determiners" },
   { pos: ["verb"], label: "Verbs" },
   { pos: ["adj"], label: "Describing words" },
   { pos: ["adverb"], label: "Adverbs" },
+  { pos: ["connective"], label: "Connectives" },
   { pos: ["phrase"], label: "Survival phrases" },
 ];
 

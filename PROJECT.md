@@ -82,7 +82,7 @@ interface Word {
   ko: string;            // 물
   rom: string;           // mul
   en: string;            // water
-  pos: "noun" | "verb" | "adj" | "adverb" | "particle" | "phrase";
+  pos: "noun" | "pronoun" | "determiner" | "verb" | "adj" | "adverb" | "connective" | "particle" | "phrase";
   moduleId: string;      // which module introduces it
   notes?: string;
 }
