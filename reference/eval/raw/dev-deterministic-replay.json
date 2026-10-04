@@ -1,0 +1,161 @@
+[
+  {
+    "id": "DAN-DEV-01",
+    "korean": "한국어를 공부해요",
+    "before": {
+      "romanization": "hangugeoreul gongbuhaeyo",
+      "particles": [
+        {
+          "particle": "을",
+          "job": "marks the object of the verb"
+        }
+      ]
+    },
+    "after": {
+      "romanization": "hangugeoreul gongbuhaeyo",
+      "particles": [
+        {
+          "particle": "를",
+          "job": "marks the object"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DAN-DEV-02",
+    "korean": "카페에서 커피를 마셨어요.",
+    "before": {
+      "romanization": "ka-fee-eseo keo-ri-reul ma-sseos-seo-yo.",
+      "particles": [
+        {
+          "particle": "에서",
+          "job": "marks the location where the action took place."
+        },
+        {
+          "particle": "를",
+          "job": "marks the direct object of the verb."
+        }
+      ]
+    },
+    "after": {
+      "romanization": "kapeeseo keopireul masyeosseoyo.",
+      "particles": [
+        {
+          "particle": "에서",
+          "job": "marks the location where the action took place."
+        },
+        {
+          "particle": "를",
+          "job": "marks the direct object of the verb."
+        }
+      ]
+    }
+  },
+  {
+    "id": "DAN-DEV-03",
+    "korean": "소주도 마실 수 없어요",
+    "before": {
+      "romanization": "soju-do masil su eopseo-yo",
+      "particles": []
+    },
+    "after": {
+      "romanization": "sojudo masil su eopseoyo",
+      "particles": [
+        {
+          "particle": "도",
+          "job": "adds 'also' or 'too'"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DAN-DEV-04",
+    "korean": "친구가 학교에 가요",
+    "before": {
+      "romanization": "chingu-ga hakkyoe-ga-gayo",
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the topic or contrastive subject"
+        },
+        {
+          "particle": "에",
+          "job": "marks the destination place"
+        }
+      ]
+    },
+    "after": {
+      "romanization": "chinguga hakgyoe gayo",
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "에",
+          "job": "marks the destination place"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DAN-DEV-05",
+    "korean": "할머니가 밥을 드세요",
+    "before": {
+      "romanization": "halimoni-ga bap-eul deuseyo",
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the topic or grammatical subject"
+        },
+        {
+          "particle": "을",
+          "job": "marks the object"
+        }
+      ]
+    },
+    "after": {
+      "romanization": "halmeoniga babeul deuseyo",
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "을",
+          "job": "marks the object"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DAN-DEV-06",
+    "korean": "은행은 병원 옆에 있어요",
+    "before": {
+      "romanization": "eunbyeong-eun byeongwon yeot-e yeoseyo",
+      "particles": [
+        {
+          "particle": "은",
+          "job": "marks 'bank' as the topic of the sentence."
+        },
+        {
+          "particle": "에",
+          "job": "marks the location 'next to the hospital'."
+        }
+      ]
+    },
+    "after": {
+      "romanization": "eunhaengeun byeongwon yeope isseoyo",
+      "particles": [
+        {
+          "particle": "은",
+          "job": "marks 'bank' as the topic of the sentence."
+        },
+        {
+          "particle": "에",
+          "job": "marks the location 'next to the hospital'."
+        }
+      ]
+    }
+  }
+]
