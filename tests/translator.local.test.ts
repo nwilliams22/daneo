@@ -97,6 +97,22 @@ describe("local translation IPC boundary", () => {
     expect(h.listeners.size).toBe(0);
   });
 
+  it("does not call the network when local inference fails", async () => {
+    const fetch = vi.fn(() => { throw new Error("unexpected network request"); });
+    vi.stubGlobal("fetch", fetch);
+    try {
+      const h = harness();
+      const result = h.client.translate({ requestId: "offline", input: "water" });
+      await Promise.resolve();
+      h.replies.get("offline")!.resolve({ ok: false, error: { code: "model-missing", message: "Model absent." } });
+      expect(await result).toMatchObject({ ok: false, error: { code: "model-missing" } });
+      expect(fetch).not.toHaveBeenCalled();
+      expect(h.invocations.map(({ command }) => command)).toEqual(["translate_local"]);
+    } finally {
+      vi.unstubAllGlobals();
+    }
+  });
+
   it("progress never resolves a result and invalid final JSON fails the existing schema", async () => {
     const h = harness();
     let settled = false;
