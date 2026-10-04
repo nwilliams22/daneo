@@ -1,0 +1,187 @@
+{
+  "version": "v0",
+  "frozenOn": "2026-10-04",
+  "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+  "sourceFiles": [
+    "src/content/sentences.json",
+    "src/content/modules.json"
+  ],
+  "inputConstruction": "Join the nonempty text chunks of the source language with one U+0020 space; retain their original punctuation. The input field is the exact string to submit. No leading or trailing whitespace.",
+  "items": [
+    {
+      "id": "DAN-V0-EK-01",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "I drink water",
+      "corpusSentenceId": "s_water",
+      "moduleId": "m1",
+      "moduleContent": "src/content/modules/module-1.md",
+      "feature": "Topic versus object particles and SOV order",
+      "expectedReadingEnglish": "I drink water.",
+      "corpusAnchor": {
+        "korean": "저는 물을 마셔요",
+        "gloss": "I-[as for] water-[obj] drink",
+        "romanization": "jeoneun mureul masyeoyo",
+        "note": "Subject–Object–Verb: 'I water drink.' The 을 on 물 is a tag that says 'this is the thing being acted on' — which is why Korean can shuffle words and still make sense."
+      },
+      "acceptableAnswerNote": "Accept a natural polite declarative such as 저는 물을 마셔요. A dropped topic is acceptable if the first-person meaning remains clear; 물 must remain the object of drinking."
+    },
+    {
+      "id": "DAN-V0-EK-02",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "I don't eat meat",
+      "corpusSentenceId": "s3_not_eat_meat",
+      "moduleId": "m3",
+      "moduleContent": "src/content/modules/module-3.md",
+      "feature": "Volitional negation 안 versus inability 못",
+      "expectedReadingEnglish": "I do not eat meat.",
+      "corpusAnchor": {
+        "korean": "저는 고기를 안 먹어요",
+        "gloss": "I-[as for] meat-[obj] not-eat",
+        "romanization": "jeoneun gogireul an meogeoyo",
+        "note": "Negation is one tiny word: 안 sits directly before the verb. No do-support, no word-order gymnastics — 안 먹어요, done."
+      },
+      "acceptableAnswerNote": "Accept a natural polite refusal or habitual non-eating such as 저는 고기를 안 먹어요 or 저는 고기를 먹지 않아요. 못 먹어요 alone changes the meaning to inability and is not acceptable."
+    },
+    {
+      "id": "DAN-V0-EK-03",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "The teacher is coming",
+      "corpusSentenceId": "s4_teacher_comes",
+      "moduleId": "m4",
+      "moduleContent": "src/content/modules/module-4.md",
+      "feature": "Subject honorific -(으)시- and polite ending",
+      "expectedReadingEnglish": "The teacher is coming.",
+      "corpusAnchor": {
+        "korean": "선생님이 오세요",
+        "gloss": "teacher-[subj] comes-[honored]",
+        "romanization": "seonsaengnimi oseyo",
+        "note": "The -(으)시- honorific hides inside 오세요 (오 + 시 + 어요). It elevates the SUBJECT — you use it about respected people, never about yourself."
+      },
+      "acceptableAnswerNote": "Accept 선생님이 오세요 or another natural polite rendering that honors the teacher as subject. A request telling the teacher to come or a claim that the speaker comes reverses the role."
+    },
+    {
+      "id": "DAN-V0-EK-04",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "I wash my hands",
+      "corpusSentenceId": "s8_wash_hands",
+      "moduleId": "m8",
+      "moduleContent": "src/content/modules/module-8.md",
+      "feature": "Omitted first-person subject and possessive",
+      "expectedReadingEnglish": "I wash my hands.",
+      "corpusAnchor": {
+        "korean": "손을 씻어요",
+        "gloss": "(I) hand-[obj] wash",
+        "romanization": "soneul ssiseoyo",
+        "note": "No 'my' needed — whose hands would they be? Korean drops possessives the way it drops subjects: anything obvious goes unsaid."
+      },
+      "acceptableAnswerNote": "Accept 손을 씻어요 with the speaker and ownership understood, or a natural polite form with an explicit first-person topic. Do not require a literal possessive on hands."
+    },
+    {
+      "id": "DAN-V0-EK-05",
+      "heldOut": true,
+      "direction": "en-to-ko",
+      "input": "I eat food",
+      "corpusSentenceId": "s_eat",
+      "moduleId": "m1",
+      "moduleContent": "src/content/modules/module-1.md",
+      "feature": "밥 literal rice versus ordinary meal/food reading",
+      "expectedReadingEnglish": "I eat food.",
+      "corpusAnchor": {
+        "korean": "저는 밥을 먹어요",
+        "gloss": "I-[as for] food-[obj] eat",
+        "romanization": "jeoneun babeul meogeoyo",
+        "note": "밥 is literally cooked rice but stands in for food and meals in general — eating 밥 just means eating."
+      },
+      "acceptableAnswerNote": "Accept 저는 밥을 먹어요 or another natural polite rendering meaning that the speaker eats food or a meal. 밥 may be explained literally as cooked rice, but the answer must not assert that only rice is eaten."
+    },
+    {
+      "id": "DAN-V0-KE-01",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "친구가 커피를 좋아해요",
+      "corpusSentenceId": "s_friend_coffee",
+      "moduleId": "m1",
+      "moduleContent": "src/content/modules/module-1.md",
+      "feature": "Subject 가 versus object 를",
+      "expectedReadingEnglish": "My friend likes coffee.",
+      "corpusAnchor": {
+        "korean": "친구가 커피를 좋아해요",
+        "gloss": "friend-[subj] coffee-[obj] likes",
+        "romanization": "chinguga keopireul joahaeyo",
+        "note": "Same skeleton with a different subject: 가 marks 친구 as the do-er, 를 marks 커피 as the thing liked, verb caps it off."
+      }
+    },
+    {
+      "id": "DAN-V0-KE-02",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "설탕이 없어요",
+      "corpusSentenceId": "s3_no_sugar",
+      "moduleId": "m3",
+      "moduleContent": "src/content/modules/module-3.md",
+      "feature": "Existential negation 없다",
+      "expectedReadingEnglish": "There is no sugar.",
+      "corpusAnchor": {
+        "korean": "설탕이 없어요",
+        "gloss": "sugar-[subj] not-exists",
+        "romanization": "seoltangi eopseoyo",
+        "note": "The 없어요 pattern from Module 1, mid-recipe: 'sugar not-exists' = we're out of sugar."
+      }
+    },
+    {
+      "id": "DAN-V0-KE-03",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "여기 앉으세요",
+      "corpusSentenceId": "s9_sit_here",
+      "moduleId": "m9",
+      "moduleContent": "src/content/modules/module-9.md",
+      "feature": "Polite request -(으)세요 versus subject honorific",
+      "expectedReadingEnglish": "Please sit here.",
+      "corpusAnchor": {
+        "korean": "여기 앉으세요",
+        "gloss": "here sit-please",
+        "romanization": "yeogi anjeuseyo",
+        "note": "-(으)세요's second job: a polite request TO you (Module 4 used it as a statement ABOUT elders — same ending, context decides; the gap deck sorts it)."
+      }
+    },
+    {
+      "id": "DAN-V0-KE-04",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "어제 친구를 만났어요",
+      "corpusSentenceId": "s2_yesterday_friend",
+      "moduleId": "m2",
+      "moduleContent": "src/content/modules/module-2.md",
+      "feature": "Omitted subject and past tense",
+      "expectedReadingEnglish": "Yesterday I met my friend.",
+      "corpusAnchor": {
+        "korean": "어제 친구를 만났어요",
+        "gloss": "yesterday (I) friend-[obj] met",
+        "romanization": "eoje chingureul mannasseoyo",
+        "note": "Your first past tense: 만나다 → drop 다, last vowel is ㅏ so add 았어요 → 만났어요. The subject is understood and simply dropped."
+      }
+    },
+    {
+      "id": "DAN-V0-KE-05",
+      "heldOut": true,
+      "direction": "ko-to-en",
+      "input": "밥이 맛있어요",
+      "corpusSentenceId": "s_food_delicious",
+      "moduleId": "m1",
+      "moduleContent": "src/content/modules/module-1.md",
+      "feature": "맛있다 literal taste-exists versus delicious reading",
+      "expectedReadingEnglish": "The food is delicious.",
+      "corpusAnchor": {
+        "korean": "밥이 맛있어요",
+        "gloss": "food-[subj] is-delicious",
+        "romanization": "babi masisseoyo",
+        "note": "맛있다 is literally 맛 (taste) + 있다 (exists) — 'taste exists.' Describing words are verbs in Korean, so no 'is' is needed."
+      }
+    }
+  ]
+}
