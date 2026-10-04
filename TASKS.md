@@ -170,8 +170,20 @@ The review is complete, so **Phase D is the live work** as of 2026-10-04.
 - [x] Freeze the v0 translation evaluation inputs (2026-10-04): `reference/eval/v0-translation-set.json` records ten held-out corpus items, five per direction, with their corpus commit and owning modules; `reference/eval/v0-rubric.md` defines the proposed language gate. This is an evaluation fixture only; app behavior is unchanged.
 - [ ] Implement the reviewed v0 scope, then qualify Lite and scope production lifecycle/tutor separately. No local inference implementation has started.
 
-## Phase B — Sharing (third; its original design is dead as of 2026-10-04)
-- [ ] ~~Deploy static build + proxy; simple auth; per-user state sync~~ — **superseded.** That design hosted the paid Claude proxy and put Nick's API key in front of other people's usage, which the 2026-10-04 free-and-local constraint forbids. A browser also cannot run the local GGUF, so a hosted web build is course-and-drills only and the full app is the desktop one. **Open question to Nick on BAD-194:** desktop installers, a free web build without the translator, both, or not yet. No hosting spend, no auth, no sync and no design work until he answers.
+## Phase B — Sharing = desktop installers (third; decided by Nick 2026-10-04)
+
+> **Nick's choice, 2026-10-04:** asked which builds to ship now that a hosted paid proxy is off the
+> table, he chose **desktop installers for Linux, Windows and macOS** — and did **not** choose the
+> AI-less web build or a phone app. Phase B is therefore a **packaging and release** phase with
+> **no server, no accounts, no sync and no hosting bill, ever**. Mobile v3 stays closed; see
+> `PLAN-local-model.md` §*What Nick chose*. Phase B still waits for Phase D — the thing being
+> installed is the app with its local engine.
+
+- [ ] ~~Deploy static build + proxy; simple auth; per-user state sync~~ — **dead, not deferred.** That design hosted the paid Claude proxy and put Nick's API key in front of other people's usage, which the free-and-local constraint forbids. There is nothing to deploy.
+- [ ] Cross-platform bundle targets: add `msi`/`nsis` and `dmg` to `src-tauri/tauri.conf.json` (today it is `["appimage", "rpm"]`, Linux only) and produce them on their own operating systems — Tauri does not cross-compile a bundle. The icon set already covers all three. The build host is Linux and the repo has **no `.github/workflows`**, so Windows/macOS artifacts need runners; GitHub-hosted runners are free for public repos and `daneo` is public, but confirm the current policy at implementation time.
+- [ ] Align the version: `package.json` says `0.0.0`, `tauri.conf.json` and `src-tauri/Cargo.toml` say `0.1.0`. One source of truth before any artifact is named.
+- [ ] Prove the free-to-use first run on a machine that has never run the dev tree: no API key, no account, no proxy process, and no network beyond the one hash-verified model download. The cloud adapter must be unreachable in that build.
+- [ ] Release artifacts with checksums, plus honest release notes for the unsigned-installer warnings (Windows SmartScreen, macOS Gatekeeper) and the manual bypass steps. **Code signing costs money, is optional, and is Nick's call when a release is imminent** — not assumed here.
 
 ## Discovered work
 - (add items here with dates)
@@ -561,3 +573,19 @@ Nick's instruction: *"I do not want a paid model to be the one used in Daneo. I 
 ### 2026-10-04 — Answer the mobile-bundling question in the v3 section
 
 Nick asked whether the model can be bundled into a mobile version, and guessed it could not be because of its size. Recorded the answer in `PLAN-local-model.md` §v3 rather than in a comment: a phone can run a local model, the phone tier is the **Lite** model and not the standard one, and **nothing should be bundled on any platform** — including desktop, where the design already downloads a hash-verified GGUF once after install rather than shipping weights in the installer. Bundling pays the weight cost on every app update, turns a one-time setup step into a store-size problem, and prevents replacing the artifact later if the v1 fine-tune wins. Store limits point the same way (Play's base-download cap and asset-delivery ceilings, the App Store's over-cellular limits), and the section says to verify those figures at implementation time instead of asserting them. Sizes: Qwen3.5-2B Q4_K_M is **1.28 GB** against the 4B's **2.74 GB**; resident memory is derived arithmetic — under 2 GB versus over 3 GB — and is explicitly marked as unmeasured, because this plan has already had to retire one set of invented mobile throughput numbers. The consequence worth keeping: **BAD-186, the Lite qualification, doubles as the mobile model's qualification.** Also recorded, as an alternative to evaluate rather than plan around, the platform on-device models (Apple Foundation Models, Gemini Nano via ML Kit) — no download at all on recent hardware, at the cost of splitting the single result contract across models and limiting availability by device and OS. Throughput, thermals, battery and OS-kill behaviour stay unknown until a real device exists; mobile stays v3 behind its own owner decision. Documentation only: `npm run validate:content` 15/15, `git diff --check` passed. No app code, content or model changed.
+
+### 2026-10-04 — Nick chose desktop installers; the hosted Phase B design is deleted from the plan
+
+Asked which builds Daneo should ship now that hosting a paid proxy is forbidden, Nick chose
+**desktop installers for Linux, Windows and macOS** and selected neither the AI-less web build nor
+a phone app. Recorded as a decision rather than a comment: `PROJECT.md` §1, §7 and its status line,
+the Phase B section of this file, and `PLAN-local-model.md` §*What Nick chose* (its header too).
+Phase B is now packaging and release work with **no server, no accounts, no sync and no hosting
+bill**; mobile v3 is closed, not deferred. Four tree-verified blockers to an installer are written
+down with the evidence: `tauri.conf.json` bundles `["appimage", "rpm"]` only, the repo has no
+`.github/workflows` while Windows/macOS bundles must be built on their own operating systems,
+`package.json` `0.0.0` disagrees with `tauri.conf.json`/`Cargo.toml` `0.1.0`, and unsigned
+installers warn the user — the signing certificate being the only money anywhere in this choice,
+optional, and Nick's to decide when a release is imminent. Nothing is bundled into any installer;
+the model stays the post-install hash-verified download. Documentation only — no app code, no
+content and no dependency changed. `npm run validate:content` 15/15.

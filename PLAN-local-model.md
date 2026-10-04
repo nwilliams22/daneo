@@ -3,8 +3,9 @@
 > Owner: Nick. Design refresh: **2026-10-03**. Owner constraint added **2026-10-04**.
 > Implementation has not started.
 > PROJECT.md governs pedagogy; TASKS.md is the app checklist/session record.
-> Desktop comes first. **The local model is the engine, not an option**; mobile is a
-> separate v3 release.
+> Desktop comes first. **The local model is the engine, not an option.** Nick chose
+> **desktop installers only** on 2026-10-04 (see §*What Nick chose*): no hosted web
+> build, and mobile v3 is not open.
 >
 > Revision: replaces the 2026-08-24 plan after the six content-review passes
 > reported. Nick's 2026-09-30 order is content review → local AI → sharing.
@@ -315,6 +316,49 @@ mobile is scoped; do not plan around it now.
 **None of this changes the desktop path or its order.** Mobile stays v3, behind a
 separate owner decision, and it needs at least one real device in hand before any
 estimate is worth writing down.
+
+### What Nick chose: desktop installers, nothing else (2026-10-04)
+
+Asked which builds Daneo ships now that a hosted paid proxy is off the table, Nick
+chose **desktop installers for Linux, Windows and macOS** — and only those. He did
+not choose the AI-less web build, and he did not choose a phone app. So:
+
+- **Mobile v3 is not open.** The analysis above stays as the answer to his question;
+  it is not a plan, nothing is assigned, and reopening it takes him naming it.
+- **There is no hosted web build**, which also means no server to deploy, no
+  household auth, no rate limiting and no per-user sync. The original Phase B
+  design is dead, not deferred.
+- **A desktop installer is the whole app**, because the local engine is in-process
+  in the Tauri shell. That is the reason this choice costs nothing to run: no
+  host, no bill, no key in front of anyone else's usage.
+
+Four things this repo has to fix before an installer exists, all verified in the
+tree on 2026-10-04 rather than assumed:
+
+1. **`src-tauri/tauri.conf.json` bundles Linux only** — `targets` is
+   `["appimage", "rpm"]`. Windows (`msi`/`nsis`) and macOS (`dmg`/`app`) need their
+   targets added **and** need to be built on those operating systems; Tauri does
+   not cross-compile a bundle. The icon set is already complete for all three
+   (`icon.ico`, `icon.icns` and the PNG/Square sets are present).
+2. **The build host is Linux**, so Windows and macOS artifacts come from CI
+   runners or from physical machines. This repo has **no `.github/workflows` at
+   all**. GitHub-hosted runners, including macOS, are free for public repositories
+   and `daneo` is public — confirm the current policy and minute limits at
+   implementation time rather than trusting this sentence.
+3. **The version number disagrees with itself**: `package.json` says `0.0.0`
+   while `tauri.conf.json` and `src-tauri/Cargo.toml` say `0.1.0`. A release needs
+   one source of truth for the version in the filename and the installer metadata.
+4. **Unsigned installers warn the user.** Windows SmartScreen and macOS Gatekeeper
+   both flag an unsigned app, and clearing that costs money — an Apple Developer
+   Program membership, and a Windows code-signing certificate. **That is the only
+   money anywhere in this choice, it is optional, and it is Nick's to decide when
+   a release is actually imminent.** Until then the release notes carry the manual
+   bypass steps, honestly labelled.
+
+**Nothing is bundled into any installer** — the model is still the post-install
+hash-verified download (v2, BAD-187), on desktop exactly as argued for mobile
+above. An installer that carries weights pays for them on every update and cannot
+be given a better model without a new release.
 
 Small models may hallucinate. Training does not guarantee an in-character tutor;
 local inference does not guarantee speed. Download integrity, app responsiveness
