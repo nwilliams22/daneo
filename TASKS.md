@@ -128,17 +128,31 @@ below ends "Next: independent content review" against no ticket. The automated g
 gating, alignment, duplicate text, language hygiene and rendering — none of them reads a gloss for
 truth. Six passes of roughly equal size, run one at a time, after a charter fixes the rubric.
 
-- [ ] Charter — rubric, reading depth, severity classes, sources of truth, finding protocol; piloted on m1 and m155
-- [ ] Pass 1 of 6 · M1–M25 (28 modules, 943 words, 348 sentences)
-- [ ] Pass 2 of 6 · M26–M48 (28 modules, 943 words, 228 sentences)
-- [ ] Pass 3 of 6 · M49–M75 (28 modules, 902 words, 223 sentences)
-- [ ] Pass 4 of 6 · M76–M104 (29 modules, 947 words, 232 sentences)
-- [ ] Pass 5 of 6 · M105–M130 (26 modules, 929 words, 208 sentences)
-- [ ] Pass 6 of 6 · M131–M155 (25 modules, 903 words, 246 sentences)
+- [x] Charter — rubric, reading depth, severity classes, sources of truth, finding protocol; piloted on m1 and m155 *(2026-09-30)*
+- [x] Pass 1 of 6 · M1–M25 (28 modules, 943 words, 348 sentences) *(2026-10-03)*
+- [x] Pass 2 of 6 · M26–M48 (28 modules, 943 words, 228 sentences) *(2026-10-03)*
+- [x] Pass 3 of 6 · M49–M75 (28 modules, 902 words, 223 sentences) *(2026-10-03)*
+- [x] Pass 4 of 6 · M76–M104 (29 modules, 947 words, 232 sentences) *(2026-10-03)*
+- [x] Pass 5 of 6 · M105–M130 (26 modules, 929 words, 208 sentences) *(2026-10-03)*
+- [x] Pass 6 of 6 · M131–M155 (25 modules, 903 words, 246 sentences) *(2026-10-04)*
+
+**The review programme is complete (2026-10-04).** All six passes reported, every one of them
+`fail` with findings — the automated gates had never read a gloss for truth, and the passes found
+what they were commissioned to find. The corrections were filed as one child per finding and
+carried out by Chani and Duncan — **66 correction tickets**, the largest classes being
+**wrong parts of speech against `reference/nikl-5965.tsv`** (M89, M99–M103, M105–M130, M131–M151 —
+over a hundred word records relabelled, and three POS values added to the content schema),
+**unsupported gender in English layers** (M76–M130, M155), **Ring 2 packs under the word minimum**
+(M36–M48, M49–M75, M84), **pack-shape breaches** (warm-up boxes and practice sections in M130–M155,
+contrary to §2b item 2), **ten-sentence packs where §2c requires eight** (M133–M155) and a tail of
+individual false claims (M9 일만 원, M25 Chuseok, M60 진하다, M73 -히, M80 bag and paper-cup rules,
+M85 과연, M87, M154 flight times, S4 question endings). The last correction landed in `129daca`.
+Every entry in the batch log below that ends *"Next: independent content review"* has now had one.
 
 **The order after the review (Nick, 2026-09-30):** *"once the review is complete, we should work on
 the local in-app AI agent, and then the shareable feature."* Content review → **Phase D** →
 **Phase B**. This reverses the old §7 rule that put Phase D behind Phase B; Phase D now goes first.
+The review is complete, so **Phase D is the live work** as of 2026-10-04.
 
 ## Phase D — Local AI (next after the content review; full plan in PLAN-local-model.md)
 - [ ] In-process llama.cpp translator + Daneo tutor, optional model download (4B std / 3B Lite) — *status: design, not yet started, and **first in the queue after the content review passes report** (Nick, 2026-09-30, reversing the old Phase B → Phase D order). Before any implementation, `PLAN-local-model.md` decision 3 requires re-picking the base model: the plan's Qwen3-4B / Llama-3.2-3B pair dates from 2026-08-24. The cloud fallback pinned at `server/index.ts:33` is equally stale and gets re-checked in the same pass.*
@@ -470,3 +484,46 @@ Reduced each pack from ten to eight sentences under CURRICULUM.md §2c by retain
 ### 2026-10-03 — Qualify M154 flight-time comparison
 
 Changed `s_m154_flights` to say domestic flights **can** have shorter flight times than international flights, using `짧을 수 있어요` with aligned English, gloss and romanization. The note explains that this is a possibility and duration depends on the route. IDs, vocabulary gates and all other sentence records are unchanged. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check` passed. `npm run visual:pass -- m154 --port 5397 --out .visual-pass/bad-176` failed during seeding because the app did not create the daneo database; the rendered sentence and native runtime were not inspected. Next: independent content review of the qualification and alignment, including the runtime verification gap.
+
+### 2026-10-04 — Content review programme closed out, and two things it left behind
+
+Closeout of the six-pass independent review, done from the project home rather than from a pass
+ticket, because the thing being fixed is the tracker itself.
+
+**The six pass checkboxes above were all still unticked** while every one of the six tickets was
+reported done and all 66 correction tickets had been carried out — the fourth instance of this
+project's standing hazard, and the first one where the stale record was a whole programme rather
+than a header. All seven items (charter + six passes) are now checked with their dates, the
+programme has a closing paragraph naming the classes of finding, and the `PROJECT.md` status line
+no longer says the live work is content or that a Phase B decision is outstanding with Nick: the
+review is complete, so **Phase D is the live work** under his 2026-09-30 order.
+
+Re-verified on the corrected tree before writing those numbers down, rather than copying them from
+the batch-20 entry: `npm run coverage:nikl` — grade A 100.0% (894/894), B 100.0% (1,994/1,994),
+C 100.0% (2,655/2,655, 0 missing), overall 100.0% of 5,543, no stale-allowlist WARN. `npm run
+validate:content` 15/15. `npm run lint:lang` 0 FAIL / 0 WARN across 5,615 words, **1,439**
+sentences (down from 1,485 — the M133–M155 ten-to-eight reconciliation) and 420 gaps. The 66
+corrections did not move coverage, which is the expected result: they changed labels, glosses,
+claims and pack shape, and removed no headwords.
+
+**`npm run visual:pass` is broken and nobody owned it.** It ran green on every batch from M124 to
+M155, then failed on four consecutive 2026-10-03 corrections — the M130 and M131–M155 pack-shape
+removals, the M131–M151 word-class alignment and the M154 flight-time qualification — with
+`seeding failed: the app did not create the daneo database`. Each one wrote the failure in its log
+above and closed with the rendered page unverified; one of them wrote *"investigate the existing
+visual-pass initialization/rendering failure separately"* against no ticket at all. So a declared
+green gate had been failing for a day with no owner. Now owned, and
+`CURRICULUM.md` §4 item 8 carries a note that a failing run is not a pass. The likely cause, from
+reading `scripts/visual-pass.mjs:229-246`: the seed step waits a fixed 2,500 ms after the reload
+and then asserts the database exists, but Dexie only creates it when a component that reads it
+mounts — and these runs were sharing the box with other agents' builds and test suites. The fix is
+to poll for the database instead of sleeping; that belongs with an engineer, not here.
+
+**Process, studio-wide:** a ticket may no longer leave active work without a written finish
+condition — expected result, evidence and its source of truth, a named owner, and a concrete
+closure condition — or be marked blocked with the named unblock owner and action. Nick asked for
+the rule on 2026-09-30, after this project parked work with no clear result. The two items above
+are the kind of thing it catches.
+
+**Next:** Phase D lead-in — re-read `PLAN-local-model.md` and re-pick the base model before any
+implementation.

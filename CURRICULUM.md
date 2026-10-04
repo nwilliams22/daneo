@@ -487,6 +487,13 @@ Every vocab module ships, in one session-sized unit:
    `npm run visual:pass -- <module ids>` green with the PNGs in `.visual-pass/`
    actually looked at; TASKS.md log entry.
 
+> **`visual:pass` has been failing since 2026-10-03** — `seeding failed: the app did not
+> create the daneo database` on four separate correction tickets, after running green on
+> every batch from M124 to M155. The gate is **not** retired and a failing run is **not** a
+> pass: until it is fixed, a run that fails on seeding is reported as *"Not verified at
+> runtime: the rendered page — `visual:pass` seeding failure"* and the ticket does not close
+> as visually checked. Fixing it is its own ticket.
+
 Interludes are the same minus words/sentences/gap items.
 
 ## 5. Sequencing rules
