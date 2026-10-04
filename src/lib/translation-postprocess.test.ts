@@ -10,6 +10,10 @@ describe("Revised Romanization", () => {
     ["친구가 학교에 가요", "chinguga hakgyoe gayo"], ["음악도", "eumakdo"],
     ["같이", "gachi"], ["설날", "seollal"], ["국립", "gungnip"],
     ["싫어해요", "sireohaeyo"],
+    ["왔는데", "wanneunde"], ["없는", "eomneun"], ["많더라고요", "manteoragoyo"],
+    ["밝혀요", "balkyeoyo"], ["축하해요", "chukahaeyo"], ["ㅋㅋㅋ", "kkk"],
+    ["분 이에요", "bunieyo"], ["칫솔", "chissol"],
+    ["나뭇잎이", "namunnipi"], ["묻히기", "muchigi"], ["갇혔어요", "gachyeosseoyo"],
   ])("romanizes %s as %s", (ko, rom) => expect(romanize(ko)).toBe(rom));
 });
 

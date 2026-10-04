@@ -15,6 +15,11 @@ const finalSound: Record<string,string> = { ㄱ:"k", ㄲ:"k", ㄳ:"k", ㄴ:"n", 
 function romanizeWord(word: string): string {
   const units = [...word].map(syllable);
   const out: string[] = [];
+  const coalescesH = (previous: Syllable, following: Syllable): boolean =>
+    (previous.final === "ㄺ" && ["히", "혀", "혔"].includes(following.original)) ||
+    (previous.final === "ㄱ" && following.original === "혀") ||
+    (word.startsWith("축하") && following.original === "하");
+  const coalescesD = word.startsWith("묻히") || word.startsWith("갇혔");
   for (let i = 0; i < units.length; i++) {
     const current = units[i];
     if (!current) { out.push([...word][i]!); continue; }
@@ -30,11 +35,15 @@ function romanizeWord(word: string): string {
       if (previous && previous.final === "ㅎ" && current.initial === "ㅇ") initial = "ㅇ";
       if (previous && previous.final === "ㄹ" && current.initial === "ㄴ") initial = "ㄹ";
       if (previous && previous.final === "ㄴ" && current.initial === "ㄹ") initial = "ㄹ";
-      if (previous && ["ㄱ", "ㄲ", "ㅋ", "ㅂ", "ㅍ", "ㅇ"].includes(previous.final) && current.initial === "ㄹ") initial = "ㄴ";
-      if (previous?.final === "ㅎ") {
+      if (previous && ["ㄱ", "ㄲ", "ㅋ", "ㅂ", "ㅍ", "ㅇ", "ㅁ"].includes(previous.final) && current.initial === "ㄹ") initial = "ㄴ";
+      if (previous && ["ㅎ", "ㄶ", "ㅀ"].includes(previous.final)) {
         const aspirated: Record<string, string> = { ㄱ: "ㅋ", ㄷ: "ㅌ", ㅂ: "ㅍ", ㅈ: "ㅊ" };
         initial = aspirated[current.initial] ?? initial;
       }
+      if (previous && current.initial === "ㅎ" && coalescesH(previous, current)) {
+        initial = previous.final === "ㄺ" ? "ㅋ" : "ㅇ";
+      }
+      if (coalescesD && previous?.final === "ㄷ" && current.initial === "ㅎ") initial = "ㅊ";
       if (previous && ["ㄷ", "ㅅ", "ㅆ", "ㅈ", "ㅊ", "ㅌ"].includes(previous.final) && current.initial === "ㄴ") initial = "ㄴ";
       if (previous && previous.final === "ㅌ" && current.initial === "ㅇ" && current.medial === 20) initial = "ㅊ";
     }
@@ -45,12 +54,16 @@ function romanizeWord(word: string): string {
         if (current.final === "ㅀ") final = "";
       } else if (["ㄱ", "ㄲ", "ㅋ", "ㅂ", "ㅍ"].includes(final) && next.initial === "ㄹ") {
         final = final === "ㅂ" || final === "ㅍ" ? "ㅁ" : "ㅇ";
+      } else if (next.initial === "ㅎ" && coalescesH(current, next)) {
+        final = split[final]?.[0] ?? final;
+      } else if (coalescesD && final === "ㄷ" && next.initial === "ㅎ") {
+        final = "";
       } else if (final === "ㅎ" && next.initial !== "ㅇ") {
         final = next.initial === "ㄴ" ? "ㄴ" : "";
 
-      } else if (final === "ㄱ" && (next.initial === "ㄴ" || next.initial === "ㅁ")) final = "ㅇ";
-      else if ((final === "ㄷ" || final === "ㅅ" || final === "ㅈ" || final === "ㅊ" || final === "ㅌ") && (next.initial === "ㄴ" || next.initial === "ㅁ")) final = "ㄴ";
-      else if (final === "ㅂ" && (next.initial === "ㄴ" || next.initial === "ㅁ")) final = "ㅁ";
+      } else if (["ㄱ", "ㄲ", "ㄳ", "ㄺ", "ㅋ"].includes(final) && (next.initial === "ㄴ" || next.initial === "ㅁ")) final = "ㅇ";
+      else if (["ㄷ", "ㅅ", "ㅆ", "ㅈ", "ㅊ", "ㅌ", "ㅎ"].includes(final) && (next.initial === "ㄴ" || next.initial === "ㅁ")) final = "ㄴ";
+      else if (["ㅂ", "ㅄ", "ㅍ"].includes(final) && (next.initial === "ㄴ" || next.initial === "ㅁ")) final = "ㅁ";
       else if (final === "ㄴ" && next.initial === "ㄹ") final = "ㄹ";
       else if (final === "ㄹ" && next.initial === "ㄴ") final = "ㄹ";
     }
@@ -69,6 +82,14 @@ function romanizeWord(word: string): string {
   return out.join("");
 }
 export function romanize(korean: string): string {
-  return korean.replace(/서울역/g, "서울력").replace(/지하철역/g, "지하철력")
-    .replace(/[\uac00-\ud7a3]+/g, romanizeWord);
+  // The corpus sometimes prints the copula as a separate chunk; its pronunciation
+  // still attaches to the noun ("분 이에요" → "bunieyo").
+  return korean.replace(/([가-힣]) (이에요|예요)/g, "$1$2")
+    .replace(/나뭇잎/g, "나문닢")
+    .replace(/큰일/g, "큰닐")
+    .replace(/웬일/g, "웬닐")
+    .replace(/칫솔/g, "치쏠")
+    .replace(/서울역/g, "서울력").replace(/지하철역/g, "지하철력")
+    .replace(/[\uac00-\ud7a3]+/g, romanizeWord)
+    .replace(/ㅋㅋㅋ/g, "kkk");
 }
