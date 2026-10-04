@@ -23420,8 +23420,8 @@
     "id": "s_m106_supplies_again",
     "en": [
       { "t": "Since the kid", "role": "subject", "id": "s" },
-      { "t": "had lost all her school supplies,", "role": "other", "id": "a" },
-      { "t": "I bought her", "role": "verb", "id": "v" },
+      { "t": "had lost all their school supplies,", "role": "other", "id": "a" },
+      { "t": "I bought them", "role": "verb", "id": "v" },
       { "t": "pencils, notebooks and so on and so forth", "role": "object", "id": "o" },
       { "t": "all over again", "role": "other", "id": "d" }
     ],
@@ -23472,7 +23472,7 @@
     "en": [
       { "t": "The friend I met after a long while", "role": "subject", "id": "s" },
       { "t": "was no different", "role": "verb", "id": "v" },
-      { "t": "from how he used to be", "role": "other", "id": "c" }
+      { "t": "from how they used to be", "role": "other", "id": "c" }
     ],
     "gloss": [
       { "t": "for-once met friend-[subj]", "role": "subject", "id": "s" },
@@ -23756,7 +23756,7 @@
     "id": "s_m108_reported_prison",
     "en": [
       { "t": "When I reported it to the police,", "role": "other", "id": "a" },
-      { "t": "the man", "role": "subject", "id": "s" },
+      { "t": "that person", "role": "subject", "id": "s" },
       { "t": "went", "role": "verb", "id": "v" },
       { "t": "to prison", "role": "place", "id": "p" }
     ],
@@ -23782,7 +23782,7 @@
       { "t": "That student", "role": "subject", "id": "s" },
       { "t": "swore,", "role": "other", "id": "a" },
       { "t": "and on top of that even lied, so", "role": "other", "id": "b" },
-      { "t": "he was punished", "role": "verb", "id": "v" }
+      { "t": "they were punished", "role": "verb", "id": "v" }
     ],
     "gloss": [
       { "t": "that student-[topic]", "role": "subject", "id": "s" },
@@ -23942,7 +23942,7 @@
     ],
     "rom": "gitareul tteunneun soriga saenggakboda gangnyeolhadeoragoyo",
     "wordIds": ["w_gita", "w_tteutda", "w_sori", "w_saenggakhada", "w_gangnyeolhada"],
-    "note": "Recycles -더라고요 from M88 — the spoken retrospective, and its eyewitness rule holds: what was witnessed is the sound, not the speaker's opinion of himself. 기타를 뜯다 is the collocation to keep, because Korean plucks a guitar where English plays it, and 강렬하다 is 强烈, the force-强 of M64's 강제 with a fierce character behind it. 생각보다 is the bare noun of M10's 생각하다 under the than-보다 of M22, exactly as the M88 md ran it. Roles: 기타를 뜯는 소리가 is one subject chunk with the badge -는 from M24 inside it."
+    "note": "Recycles -더라고요 from M88 — the spoken retrospective, and its eyewitness rule holds: what was witnessed is the sound, not the speaker's opinion of themself. 기타를 뜯다 is the collocation to keep, because Korean plucks a guitar where English plays it, and 강렬하다 is 强烈, the force-强 of M64's 강제 with a fierce character behind it. 생각보다 is the bare noun of M10's 생각하다 under the than-보다 of M22, exactly as the M88 md ran it. Roles: 기타를 뜯는 소리가 is one subject chunk with the badge -는 from M24 inside it."
   },
   {
     "id": "s_m111_alone_fear_grows",
@@ -24025,8 +24025,8 @@
   {
     "id": "s_m111_chairman_stepped_down",
     "en": [
-      { "t": "The chairman", "role": "subject", "id": "s" },
-      { "t": "stepped down from his post and", "role": "other", "id": "a" },
+      { "t": "The chair", "role": "subject", "id": "s" },
+      { "t": "stepped down from their post and", "role": "other", "id": "a" },
       { "t": "handed over", "role": "verb", "id": "v" },
       { "t": "the company", "role": "object", "id": "o" },
       { "t": "to the new CEO", "role": "other", "id": "b" }
@@ -24326,7 +24326,7 @@
     ],
     "rom": "sallimeul orae hada boni jubang iri hanado eoryeopji anayo",
     "wordIds": ["w_sallim", "w_orae", "w_hada", "w_jubang", "w_n_il", "w_hana", "w_eoryeopda"],
-    "note": "Recycles -다 보니 from M94 — kept at it and found — and that md's rule is the reason the sentence needs it: \"보니 and 보면 both insist on DURATION — the result came from keeping on, not from one act\". 살림 is the native word for the whole enterprise, and 주방 is the formal room, which is a small joke: the home cook is describing her 부엌 (M13) in the word a restaurant uses. 하나도 with the long negation from M28 gives the 'not at all' — M5's 하나 and 도 from M2, a frame you have had since Ring 1. The roles drill: 살림을 오래 하다 보니 is one long connective chunk, other, and it legally contains an object; 하나도 is an adverb, other."
+    "note": "Recycles -다 보니 from M94 — kept at it and found — and that md's rule is the reason the sentence needs it: \"보니 and 보면 both insist on DURATION — the result came from keeping on, not from one act\". 살림 is the native word for the whole enterprise, and 주방 is the formal room, which is a small joke: the home cook is describing their 부엌 (M13) in the word a restaurant uses. 하나도 with the long negation from M28 gives the 'not at all' — M5's 하나 and 도 from M2, a frame you have had since Ring 1. The roles drill: 살림을 오래 하다 보니 is one long connective chunk, other, and it legally contains an object; 하나도 is an adverb, other."
   },
   {
     "id": "s_m110_grain_pumpkin",
@@ -24586,7 +24586,7 @@
       { "t": "The president", "role": "subject", "id": "s" },
       { "t": "spoke of", "role": "verb", "id": "v" },
       { "t": "morality and responsibility", "role": "object", "id": "o" },
-      { "t": "as he wrapped up his speech", "role": "other", "id": "a" }
+      { "t": "as they wrapped up the speech", "role": "other", "id": "a" }
     ],
     "gloss": [
       { "t": "president-[topic]", "role": "subject", "id": "s" },
@@ -24747,7 +24747,7 @@
     "en": [
       { "t": "That person", "role": "subject", "id": "s" },
       { "t": "is far from being a pushover —", "role": "other", "id": "a" },
-      { "t": "he is downright nasty", "role": "verb", "id": "v" }
+      { "t": "they are downright nasty", "role": "verb", "id": "v" }
     ],
     "gloss": [
       { "t": "that person-[topic]", "role": "subject", "id": "s" },
@@ -25156,9 +25156,9 @@
   {
     "id": "s_m115_challenge_conviction",
     "en": [
-      { "t": "He", "role": "subject", "id": "s" },
+      { "t": "That person", "role": "subject", "id": "s" },
       { "t": "enjoys a challenge, whereas", "role": "other", "id": "a" },
-      { "t": "his convictions", "role": "subject", "id": "g" },
+      { "t": "their convictions", "role": "subject", "id": "g" },
       { "t": "are weak", "role": "verb", "id": "v" }
     ],
     "gloss": [
@@ -25205,8 +25205,8 @@
     "id": "s_m116_baby_on_back",
     "en": [
       { "t": "Because the baby was crying,", "role": "other", "id": "a" },
-      { "t": "I carried him on my back and", "role": "other", "id": "b" },
-      { "t": "tried to soothe him", "role": "verb", "id": "v" },
+      { "t": "I carried them on my back and", "role": "other", "id": "b" },
+      { "t": "tried to soothe them", "role": "verb", "id": "v" },
       { "t": "every which way", "role": "other", "id": "c" }
     ],
     "gloss": [
@@ -27557,7 +27557,7 @@
     "id": "s_m130_excuse",
     "en": [
       {"t": "After being disappointed,", "role": "other", "id": "a"},
-      {"t": "he made", "role": "verb", "id": "c"},
+      {"t": "they made", "role": "verb", "id": "c"},
       {"t": "an excuse", "role": "object", "id": "b"}
     ],
     "gloss": [
