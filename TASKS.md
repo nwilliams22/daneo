@@ -438,3 +438,7 @@ Replaced the unfilled template notes on s_m122_03 and s_m123_05 with explanation
 ### 2026-10-03 — Correct five stale frozen-word labels in M105–M117
 
 Replaced the five named labels in two gap notes and three word notes with their owning modules: M46's 야간, M58's 반장, M75's 포함 and 보관, and M115's 제안. The surrounding explanations and all other entries remain unchanged. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `python3 reference/authoring/tools/frozenaudit.py`: 26 corpus-wide findings, down from 29, with all three affected word-note findings absent; `git diff --check` passed. The two gap notes are outside the audit's reach. Runtime UI was not inspected for this text-only correction. Next: independent content review of the five labels.
+
+### 2026-10-03 — Align two evidential English chunks in M119/M124
+
+Moved “I noticed” into the English verb chunks of s_m119_bullying_witnessed (v) and s_m124_02 (c), matching the Korean -더라고요 and interlinear gloss. A focused before/after JSON comparison confirmed that only four English text fields changed; chunk IDs, roles, order, Korean, gloss, and all other sentence data are unchanged. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check` passed. Not verified at runtime: tap-to-trace in sentence anatomy — no UI session was run for this text-only correction. Next: independent content review of the two mappings and runtime tracing.

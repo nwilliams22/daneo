@@ -25772,8 +25772,8 @@
     "id": "s_m119_bullying_witnessed",
     "en": [
       { "t": "That person", "role": "subject", "id": "s" },
-      { "t": "was bullying", "role": "verb", "id": "v" },
-      { "t": "a friend, I noticed", "role": "object", "id": "o" }
+      { "t": "was bullying, I noticed,", "role": "verb", "id": "v" },
+      { "t": "a friend", "role": "object", "id": "o" }
     ],
     "gloss": [
       { "t": "that person-[subj]", "role": "subject", "id": "s" },
@@ -26536,8 +26536,8 @@
   {
     "id": "s_m124_02",
     "en": [
-      { "t": "I noticed the unmarried man", "role": "subject", "id": "a" },
-      { "t": "hand over", "role": "verb", "id": "c" },
+      { "t": "The unmarried man", "role": "subject", "id": "a" },
+      { "t": "handed over, I noticed,", "role": "verb", "id": "c" },
       { "t": "a book", "role": "object", "id": "b" }
     ],
     "gloss": [
