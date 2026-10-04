@@ -27,11 +27,14 @@ const desktop: Transport = {
 };
 const failure = (code: string, message: string): TranslateOutcome => ({ ok: false, error: { code, message } });
 const cancelled = () => failure("cancelled", "Translation cancelled.");
+const isDesktop = () => typeof window !== "undefined" && "__TAURI_INTERNALS__" in window;
 
 export function createLocalTranslator(transport: Transport = desktop) {
   const requests = new Map<string, { cancelled: boolean }>();
   return {
-    state: () => transport.invoke<LocalSnapshot>("local_translation_state"),
+    state: () => isDesktop() || transport !== desktop
+      ? transport.invoke<LocalSnapshot>("local_translation_state")
+      : Promise.resolve<LocalSnapshot>({ state: "absent", requestId: null, error: null }),
     async cancel(requestId: string): Promise<void> {
       const request = requests.get(requestId);
       if (!request) return;
@@ -43,6 +46,9 @@ export function createLocalTranslator(transport: Transport = desktop) {
       { requestId, input }: { requestId: string; input: string },
       onProgress?: (progress: LocalProgress) => void,
     ): Promise<TranslateOutcome> {
+      if (!isDesktop() && transport === desktop) {
+        return failure("desktop-required", "Local needs the desktop app. Start it with `npm run tauri dev`.");
+      }
       if (requests.has(requestId)) return failure("busy", "Request ID is already active.");
       const request = { cancelled: false };
       requests.set(requestId, request);

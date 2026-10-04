@@ -1,5 +1,5 @@
-import { describe, expect, it } from "vitest";
-import { createLocalTranslator, type LocalProgress } from "../src/features/explore/local-api";
+import { describe, expect, it, vi } from "vitest";
+import { createLocalTranslator, localTranslator, type LocalProgress } from "../src/features/explore/local-api";
 
 const good = (korean: string) => ({
   direction: "en-to-ko", korean, romanization: "", natural_english: "water",
@@ -30,6 +30,17 @@ function harness() {
 }
 
 describe("local translation IPC boundary", () => {
+  it("returns a typed desktop-required error in a browser without invoking Tauri", async () => {
+    vi.stubGlobal("window", {});
+    try {
+      expect(await localTranslator.state()).toMatchObject({ state: "absent" });
+      expect(await localTranslator.translate({ requestId: "browser", input: "water" }))
+        .toMatchObject({ ok: false, error: { code: "desktop-required" } });
+    } finally {
+      vi.unstubAllGlobals();
+    }
+  });
+
   it("cancel then immediate success rejects late progress AND the first reply", async () => {
     const h = harness();
     const progress: LocalProgress[] = [];

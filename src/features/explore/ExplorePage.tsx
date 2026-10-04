@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "../../db/db";
 import { saveTranslation, deleteTranslation } from "../../db/repo";
@@ -6,6 +6,7 @@ import PageHeader from "../../components/PageHeader";
 import AudioButton from "../../components/AudioButton";
 import Rom from "../../components/Rom";
 import { translate, type TranslateError } from "./api";
+import { localTranslator, type LocalState } from "./local-api";
 import type { Role, SavedTranslation, TranslationResult } from "../../types";
 
 // Port of korean-curiosity-translator.jsx (PROJECT.md §2) plus the
@@ -217,18 +218,64 @@ function SavedDeck() {
 export default function ExplorePage() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [engine, setEngine] = useState<"local" | "cloud">("local");
+  const [localState, setLocalState] = useState<LocalState>("absent");
   const [error, setError] = useState<TranslateError | null>(null);
   const [result, setResult] = useState<TranslationResult | null>(null);
   const [savedId, setSavedId] = useState<number | null>(null);
+  const request = useRef<string | null>(null);
+  const generation = useRef(0);
+
+  useEffect(() => {
+    let active = true;
+    void localTranslator.state().then((snapshot) => {
+      if (active) setLocalState(snapshot.state);
+    }).catch(() => {
+      if (active) setLocalState("error");
+    });
+    return () => { active = false; };
+  }, []);
+
+  const cancel = () => {
+    generation.current += 1;
+    if (request.current) void localTranslator.cancel(request.current);
+    request.current = null;
+    setLoading(false);
+    setLocalState("ready");
+    setError(null);
+  };
+
+  const chooseEngine = (next: "local" | "cloud") => {
+    if (next === engine) return;
+    if (loading) cancel();
+    setEngine(next);
+    setResult(null);
+    setError(null);
+    setSavedId(null);
+  };
 
   const run = async (text?: string) => {
     const query = (text ?? input).trim();
     if (!query || loading) return;
+    const current = ++generation.current;
     setLoading(true);
     setError(null);
     setResult(null);
     setSavedId(null);
-    const outcome = await translate(query);
+    const useCloud = import.meta.env.DEV && engine === "cloud";
+    const id = crypto.randomUUID();
+    if (!useCloud) {
+      request.current = id;
+      setLocalState("loading");
+    }
+    const outcome = useCloud
+      ? await translate(query)
+      : await localTranslator.translate({ requestId: id, input: query }, (progress) => {
+          if (generation.current === current) setLocalState(progress.state);
+        });
+    if (generation.current !== current) return;
+    request.current = null;
+    if (!useCloud) setLocalState(outcome.ok ? "ready" : outcome.error.code === "model-missing" || outcome.error.code === "desktop-required" ? "absent" : "error");
     if (outcome.ok) setResult(outcome.result);
     else setError(outcome.error);
     setLoading(false);
@@ -241,6 +288,21 @@ export default function ExplorePage() {
         title="Ask It Anything"
         blurb="Type English or Korean. You get more than a translation — the Korean-order gloss, what each particle is doing, and where the literal meaning and the real meaning part ways."
       />
+
+      {import.meta.env.DEV && (
+        <div className="mb-4 flex items-center gap-2 text-xs text-muted" aria-label="Translator engine">
+          <span>Engine</span>
+          <div className="flex rounded-full border border-line bg-panel p-1">
+            {(["local", "cloud"] as const).map((option) => (
+              <button key={option} type="button" onClick={() => chooseEngine(option)}
+                aria-pressed={engine === option}
+                className={`rounded-full px-3 py-1 font-semibold ${engine === option ? "bg-ink text-paper" : "text-muted hover:text-ink"}`}>
+                {option === "local" ? "Local" : "Cloud · dev"}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="flex gap-2 rounded-2xl border border-line bg-panel p-1.5">
         <input
@@ -279,14 +341,17 @@ export default function ExplorePage() {
       </div>
 
       {loading && (
-        <div className="mt-5 text-center text-[13.5px] text-muted">
-          Consulting the language brain…
+        <div className="mt-5 text-center text-[13.5px] text-muted" role="status">
+          {engine === "local" ? localState === "generating" ? "Generating locally…" : "Loading the local model…" : "Consulting the language brain…"}
+          {engine === "local" && <button type="button" onClick={cancel} className="ml-3 font-semibold text-clay underline underline-offset-2">Cancel</button>}
         </div>
       )}
 
       {error && (
-        <div className="mt-4 rounded-xl border border-clay px-3.5 py-3 text-[13.5px] leading-relaxed text-clay">
+        <div role="alert" className="mt-4 rounded-xl border border-clay px-3.5 py-3 text-[13.5px] leading-relaxed text-clay">
+          {engine === "local" && error.code === "model-missing" && <strong className="block">Local model absent</strong>}
           {error.message}
+          {engine === "local" && error.code === "model-missing" && <span className="mt-1 block">For this development build, set <code>DANEO_MODEL_PATH</code> to the verified GGUF and restart the desktop app.</span>}
         </div>
       )}
 
@@ -297,8 +362,7 @@ export default function ExplorePage() {
       {!result && !loading && !error && (
         <p className="mt-6 text-center text-xs leading-relaxed text-muted">
           The lessons give you the patterns — this is where your curiosity
-          fills in everything else. Needs the local key-holding server:{" "}
-          <code className="rounded bg-panel px-1 py-0.5">npm run server</code>
+          fills in everything else. {import.meta.env.DEV && engine === "cloud" ? <>Needs the developer server: <code className="rounded bg-panel px-1 py-0.5">npm run server</code></> : typeof window !== "undefined" && !("__TAURI_INTERNALS__" in window) ? <>Local needs the desktop app. Start it with <code className="rounded bg-panel px-1 py-0.5">npm run tauri dev</code>.</> : "The local model runs in the desktop app."}
         </p>
       )}
 
