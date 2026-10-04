@@ -34,6 +34,8 @@ No new glue. Familiar frames carry the new vocabulary; notice which noun is the 
 - **-(으)ㄹ 뿐만 아니라 from M89 adds a second quality.**
 - **-(으)므로 from M85 explains the family meal.**
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 작은아버지 and 외아들 need more than a word-by-word reading. Explain the real meaning before turning the card over.

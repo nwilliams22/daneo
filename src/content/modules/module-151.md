@@ -32,6 +32,8 @@ No new glue. Familiar frames carry the new vocabulary; notice which noun is the 
 - **-는 김에 from M91 adds an opportunity to an activity.**
 - **-았/었더니 from M88 connects a personal action to the response observed.**
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 재수가 없다 and 부탁을 들어주다 need more than a word-by-word reading. Explain the real meaning before turning the card over.

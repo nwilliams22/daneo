@@ -24,7 +24,9 @@ A ranking rises, a guest is invited, and an older portrait brings youth back to 
 
 ## Part 2 — Building sentences
 
-**Spot the recycling:** The deck brings back M134's 극작가, 초상화, 항공기, 각오 and 말투. Follow the old patterns: -는 김에 uses an occasion, -고서 marks a sequence, and -다 보니 discovers something through experience. 건설되다 also completes the active/passive pair with the earlier 건설하다.
+**Spot the recycling:** The deck brings back M134's 극작가, 초상화, 항공기 and 각오. Follow the old patterns: -는 김에 uses an occasion, -고서 marks a sequence, and -다 보니 discovers something through experience.
+
+Eight sentences put the vocabulary into familiar grammar frames.
 
 ::sentences::
 

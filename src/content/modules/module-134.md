@@ -22,7 +22,9 @@ A portrait looks different under new lighting. A plausible account draws you in.
 
 ## Part 2 — Building sentences
 
-**Spot the recycling:** M133's 조명, 줄거리, 서늘하다 and 농장 all return in new sentences. The patterns are familiar: -더라도 keeps resolve despite obstacles, -길래 gives an observed reason, and 조차 includes even a small or unlikely case. No new grammar is needed.
+**Spot the recycling:** M133's 조명, 줄거리, 서늘하다 and 농장 all return in new sentences. The patterns are familiar: -더라도 keeps resolve despite obstacles, -다가 interrupts an ongoing action, and -(으)ㄹ 뿐만 아니라 adds another property. No new grammar is needed.
+
+Eight sentences put the vocabulary into familiar grammar frames.
 
 ::sentences::
 

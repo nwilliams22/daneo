@@ -24,6 +24,8 @@ Costs, obligations and forms can reshape an ordinary evening. A lease needs a de
 
 **Spot the recycling:** M141’s 원서, 창구 and 서명 return as an incomplete form, a dark counter and a request to sign. No new glue is introduced; the sentence notes point back to known Ring 3 patterns.
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 밤을 새우다 — To stay up all night. 전세를 살다 — To rent on a jeonse deposit.

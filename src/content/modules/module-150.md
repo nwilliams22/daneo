@@ -28,6 +28,8 @@ No new glue. The sentence frames are familiar; the new work is choosing the prec
 - **-(으)며 from M85 joins staying awake and writing.**
 - **-더니 from M88 links a cat's sound to a visible reaction.**
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 손잡다 and 쓴맛을 보다 carry meanings beyond their word-by-word readings.

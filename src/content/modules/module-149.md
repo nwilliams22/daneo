@@ -22,11 +22,13 @@ A class ends, a performance moves to a new date, and family members respond to c
 
 No new glue. The sentence frames are familiar; the new work is choosing the precise word for each role.
 
-**Spot the recycling:** M148's 장모님, 촛불, 산길 and 기업인 return in new outcomes and locations. The sentence order keeps their meanings visible without repeating an earlier line.
+**Spot the recycling:** M148's 장모님, 촛불 and 산길 return in new outcomes and locations. The sentence order keeps their meanings visible without repeating an earlier line.
 
 - **-았/었더니 from M88 introduces a result the speaker observed.**
 - **-자마자 from M38 joins a class ending to immediate play.**
-- **-고서 from M85 orders hearing before deciding.**
+- **-고서 from M85 orders extinguishing a candle before play.**
+
+Eight sentences put the vocabulary into familiar grammar frames.
 
 ::sentences::
 

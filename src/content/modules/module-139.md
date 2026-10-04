@@ -24,7 +24,9 @@ A list gets tidied, a lesson runs long, and the weather moves a meeting. This pa
 
 ## Part 2 — Building sentences
 
-**Spot the recycling:** M138’s 진행자 organizes names, 씨앗 stays in a yard, 소지품 waits during a search, and 책임감 grows with morale. -는 김에 from M91 adds a useful task; -(으)ㄴ 채 from M94 holds a state; -다 보니 from M94 lets a longer lesson emerge.
+**Spot the recycling:** M138’s 진행자 organizes names, 씨앗 stays in a yard, and 소지품 waits during a search. -는 김에 from M91 adds a useful task; -(으)ㄴ 채 from M94 holds a state; -다 보니 from M94 lets a longer lesson emerge.
+
+Eight sentences put the vocabulary into familiar grammar frames.
 
 ::sentences::
 

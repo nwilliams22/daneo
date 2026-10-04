@@ -28,12 +28,14 @@ A religious name is also a usage choice: 하나님 is especially associated with
 
 No new glue. The sentence frames are familiar; the new work is choosing precise words for them.
 
-**Spot the recycling:** M69's 참석 helps define eligible attendees; 재활용 supplies the topic of reference material; 입사 precedes improved skills. 유적지 also returns as the setting of an accidental meeting.
+**Spot the recycling:** M69's 참석 helps define eligible attendees; 재활용 supplies the topic of reference material; 입사 precedes improved skills.
 
 - **-더라도 from M95:** a restriction or uncertainty does not remove the next action.
 - **-(으)ㄴ 결과 from M90:** show what changed after consulting information.
 - **-다 보니 from M94:** let an observation arise during an ongoing activity.
 - **-(으)ㄹ 듯하다 from M87:** present an expectation without announcing it as a fact.
+
+Eight sentences put the vocabulary into familiar grammar frames.
 
 ::sentences::
 

@@ -36,6 +36,8 @@ Watch three connections:
 - **-았/었더니 / -던 from M88:** report what followed an action, or look back at an ongoing situation.
 - **-고서 / -고도 from M85:** distinguish after doing something from even after doing it.
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 The understood speaker need not appear as 저는. Keep the Korean subject where Korean puts it: 답장이 왔어요 literally gives the reply its own arrival.

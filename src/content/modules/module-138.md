@@ -24,6 +24,8 @@ A host guides a route, someone measures body temperature, and workers search for
 
 **Spot the recycling:** M137's 정직하다, 회복되다, 도움말 and 배치 return in new roles. -고서 from M85 orders a recovery and its aftermath; -는 김에 from M91 adds a useful check; -다 보니 from M93 lets a staffing need emerge.
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 골치가 아프다 can describe a troublesome problem rather than a literal headache; 한결 낫다 says someone or something is noticeably better.

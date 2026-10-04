@@ -3267,8 +3267,7 @@
     ],
     "sentenceIds": [
       "s_m133_farm", "s_m133_night", "s_m133_lighting", "s_m133_lecture",
-      "s_m133_cool", "s_m133_time", "s_m133_proposal", "s_m133_harmony",
-      "s_m133_hat", "s_m133_drink"
+      "s_m133_cool", "s_m133_time", "s_m133_proposal", "s_m133_harmony"
     ]
   },
   {
@@ -3290,8 +3289,7 @@
     ],
     "sentenceIds": [
       "s_m134_portrait", "s_m134_playwright", "s_m134_warm", "s_m134_garden",
-      "s_m134_resolve", "s_m134_command", "s_m134_wall", "s_m134_interest",
-      "s_m134_plausible", "s_m134_help"
+      "s_m134_resolve", "s_m134_command", "s_m134_wall", "s_m134_interest"
     ]
   },
   {
@@ -3312,8 +3310,7 @@
     ],
     "sentenceIds": [
       "s_m135_invitation", "s_m135_portrait", "s_m135_aircraft", "s_m135_future",
-      "s_m135_ranking", "s_m135_generation", "s_m135_payment", "s_m135_window",
-      "s_m135_road", "s_m135_truth"
+      "s_m135_ranking", "s_m135_generation", "s_m135_payment", "s_m135_window"
     ]
   },
   {
@@ -3365,9 +3362,7 @@
       "s_m136_contest",
       "s_m136_rule",
       "s_m136_magpies",
-      "s_m136_product",
-      "s_m136_score",
-      "s_m136_notice"
+      "s_m136_product"
     ]
   },
   {
@@ -3393,9 +3388,7 @@
       "s_m137_trees",
       "s_m137_fairness",
       "s_m137_recovery",
-      "s_m137_dough",
-      "s_m137_rain",
-      "s_m137_work"
+      "s_m137_dough"
     ]
   },
   {
@@ -3423,9 +3416,7 @@
       "s_m138_seed",
       "s_m138_temperature",
       "s_m138_ceremony",
-      "s_m138_aircraft",
-      "s_m138_stall",
-      "s_m138_search"
+      "s_m138_aircraft"
     ]
   },
   {
@@ -3445,8 +3436,7 @@
     ],
     "sentenceIds": [
       "s_m139_roster", "s_m139_seeds", "s_m139_belongings", "s_m139_next_month",
-      "s_m139_delay", "s_m139_discussion", "s_m139_educator", "s_m139_thread",
-      "s_m139_morale", "s_m139_threshold"
+      "s_m139_delay", "s_m139_discussion", "s_m139_educator", "s_m139_thread"
     ]
   },
   {
@@ -3466,8 +3456,7 @@
     ],
     "sentenceIds": [
       "s_m140_input", "s_m140_materials", "s_m140_hospitality", "s_m140_outing",
-      "s_m140_qualification", "s_m140_clinic", "s_m140_comfort", "s_m140_recycling",
-      "s_m140_rain", "s_m140_company"
+      "s_m140_qualification", "s_m140_clinic", "s_m140_comfort", "s_m140_recycling"
     ]
   },
   {
@@ -3489,8 +3478,7 @@
     ],
     "sentenceIds": [
       "s_m141_counter", "s_m141_application", "s_m141_anxiety", "s_m141_free_time",
-      "s_m141_welcome", "s_m141_breathing", "s_m141_supplement", "s_m141_shortcut",
-      "s_m141_locked", "s_m141_independence"
+      "s_m141_welcome", "s_m141_breathing", "s_m141_supplement", "s_m141_shortcut"
     ]
   },
   {
@@ -3509,8 +3497,7 @@
     ],
     "sentenceIds": [
       "s_m142_form", "s_m142_counter", "s_m142_signature", "s_m142_rent",
-      "s_m142_night", "s_m142_jog", "s_m142_road", "s_m142_payment",
-      "s_m142_route", "s_m142_reaction"
+      "s_m142_night", "s_m142_jog", "s_m142_road", "s_m142_payment"
     ]
   },
   {
@@ -3531,8 +3518,7 @@
     ],
     "sentenceIds": [
       "s_m143_submission", "s_m143_return", "s_m143_rear", "s_m143_grading",
-      "s_m143_sparkle", "s_m143_visitor", "s_m143_family", "s_m143_hospital",
-      "s_m143_bowl", "s_m143_volunteer"
+      "s_m143_sparkle", "s_m143_visitor", "s_m143_family", "s_m143_hospital"
     ]
   },
   {
@@ -3551,8 +3537,7 @@
     ],
     "sentenceIds": [
       "s_m144_form", "s_m144_board", "s_m144_service", "s_m144_forecast",
-      "s_m144_school", "s_m144_display", "s_m144_job", "s_m144_tutor",
-      "s_m144_media", "s_m144_regret"
+      "s_m144_school", "s_m144_display", "s_m144_job", "s_m144_tutor"
     ]
   },
   {
@@ -3574,8 +3559,7 @@
     ],
     "sentenceIds": [
       "s_m145_display", "s_m145_post", "s_m145_recruit", "s_m145_noon",
-      "s_m145_advice", "s_m145_dishes", "s_m145_medal", "s_m145_care",
-      "s_m145_bargain", "s_m145_discharge"
+      "s_m145_advice", "s_m145_dishes", "s_m145_medal", "s_m145_care"
     ]
   },
   {
@@ -3597,8 +3581,7 @@
     ],
     "sentenceIds": [
       "s_m146_hall", "s_m146_prize", "s_m146_tableware", "s_m146_weather",
-      "s_m146_ham", "s_m146_delay", "s_m146_welcome", "s_m146_recycle",
-      "s_m146_friends", "s_m146_lookback"
+      "s_m146_ham", "s_m146_delay", "s_m146_welcome", "s_m146_recycle"
     ]
   },
   {
@@ -3620,8 +3603,7 @@
     ],
     "sentenceIds": [
       "s_m147_attend", "s_m147_reuse", "s_m147_skills", "s_m147_walk",
-      "s_m147_host", "s_m147_warm", "s_m147_disc", "s_m147_doubt",
-      "s_m147_circle", "s_m147_meeting"
+      "s_m147_host", "s_m147_warm", "s_m147_disc", "s_m147_doubt"
     ]
   },
   {
@@ -3640,8 +3622,7 @@
     ],
     "sentenceIds": [
       "s_m148_path", "s_m148_scale", "s_m148_commute", "s_m148_host",
-      "s_m148_regular", "s_m148_rod", "s_m148_room", "s_m148_humid",
-      "s_m148_banknote", "s_m148_daylight"
+      "s_m148_regular", "s_m148_rod", "s_m148_room", "s_m148_humid"
     ]
   },
   {
@@ -3663,8 +3644,7 @@
     ],
     "sentenceIds": [
       "s_m149_spring", "s_m149_children", "s_m149_angler", "s_m149_postpone",
-      "s_m149_rainwash", "s_m149_fees", "s_m149_period", "s_m149_focus",
-      "s_m149_queen", "s_m149_plan"
+      "s_m149_rainwash", "s_m149_fees", "s_m149_period", "s_m149_focus"
     ]
   },
   {
@@ -3710,8 +3690,7 @@
     ],
     "sentenceIds": [
       "s_m150_school", "s_m150_record", "s_m150_water", "s_m150_funeral",
-      "s_m150_preface", "s_m150_summer", "s_m150_cartoonist", "s_m150_cat",
-      "s_m150_level", "s_m150_family"
+      "s_m150_preface", "s_m150_summer", "s_m150_cartoonist", "s_m150_cat"
     ]
   },
   {
@@ -3766,9 +3745,7 @@
       "s_m151_paint",
       "s_m151_flowers",
       "s_m151_steady",
-      "s_m151_heating",
-      "s_m151_debate",
-      "s_m151_contents"
+      "s_m151_heating"
     ]
   },
 {
@@ -3820,9 +3797,7 @@
     "s_m152_winter",
     "s_m152_son",
     "s_m152_lecture",
-    "s_m152_cloud",
-    "s_m152_translation",
-    "s_m152_tie"
+    "s_m152_cloud"
   ]
 },
 {
@@ -3874,9 +3849,7 @@
     "s_m153_palace",
     "s_m153_sports",
     "s_m153_fruit",
-    "s_m153_cost",
-    "s_m153_stamp",
-    "s_m153_family"
+    "s_m153_cost"
   ]
 },
 {
@@ -3925,9 +3898,7 @@
     "s_m154_clinic",
     "s_m154_daughter",
     "s_m154_colors",
-    "s_m154_bus",
-    "s_m154_cooling",
-    "s_m154_calendar"
+    "s_m154_bus"
   ]
 },
 {

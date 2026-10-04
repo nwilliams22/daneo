@@ -26,6 +26,8 @@ A device takes input, an office revises an arrangement, and a tree shades a fron
 
 **Spot the recycling:** M136's 로봇, 보안, 신제품 and 신중하다 return in technical and human settings. -고서 from M85 keeps actions in order; -다 보니 from M93 lets a result emerge through experience.
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 일손이 부족하다 means a task lacks enough working hands; 회복되다 can describe health, order or a system returning to working condition.

@@ -12,7 +12,7 @@ An uncle's title, a clinic sign, a bus route and a wedding invitation all name a
 
 ## Part 2 — Signs you meet outside
 
-M52 supplied 입국 and 출입국 for the border, plus 시외버스 and 관광버스 for route and purpose. Today 국제선 crosses a national border; 국내선 stays within it. On a clinic sign, 안과 concerns eyes and 소아과 concerns children. The examination 진찰 and flu label 독감 return from M53; 눈병 now names an eye illness. 그저께, learned in M52, also returns in the sentence practice.
+M52 supplied 입국 and 출입국 for the border, plus 시외버스 and 관광버스 for route and purpose. Today 국제선 crosses a national border; 국내선 stays within it. On a clinic sign, 안과 concerns eyes and 소아과 concerns children. The examination 진찰 and flu label 독감 return from M53; 눈병 now names an eye illness.
 
 팝송 adds the pop-song label beside 클래식 from M51. The rest of the pack names ordinary objects and settings: a heated 온돌 floor, a cooled room, a 색연필, two colors, a 칼국수 meal. The shared endings help: -장 marks a venue in 예식장, 야구장 and 축구장; -색 marks color in 보라색 and 연두색.
 
@@ -27,6 +27,8 @@ No new glue. The sentences bring M153's 고궁 and 장인 into a new family visi
 - **-는 김에 from M91** attaches a meeting to a palace visit.
 - **-았/었더니 from M88** connects a meal and what followed.
 - **에 비해 from M86** compares flight routes and their duration.
+
+Eight sentences put the vocabulary into familiar grammar frames.
 
 ::sentences::
 

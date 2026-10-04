@@ -28,12 +28,14 @@ A departure is postponed. A family welcomes you. Work turns acquaintances into f
 
 The glue is already yours. Pay attention to whether the second clause adds a benefit, discovers a result, or concedes a point.
 
-**Spot the recycling:** M145's 전시장 becomes a meeting place; 금메달 pairs with 상금; 식기 gains a luxurious appearance. 차차 also returns in the gradual friendship sentence.
+**Spot the recycling:** M145's 전시장 becomes a meeting place; 금메달 pairs with 상금; 식기 gains a luxurious appearance.
 
 - **-(으)ㄹ 뿐만 아니라 from M89:** add a second reward or quality.
 - **-더니 / -았/었더니 from M88:** connect observation or action with what follows.
 - **-는 바람에 from M86:** explain an unwelcome consequence.
 - **-더라도 from M95:** agreeing with a goal does not settle the method.
+
+Eight sentences put the vocabulary into familiar grammar frames.
 
 ::sentences::
 

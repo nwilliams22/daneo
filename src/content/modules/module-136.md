@@ -24,6 +24,8 @@ The departing motion 떠나가다 also comes from M74. Reuse it with 까치 whil
 
 **Spot the recycling:** M69's 초청하다 and M135's 순위, 출발점 and 기성세대 return in unfamiliar combinations. -고서 from M85 orders actions, -는 김에 from M91 adds a task on the same occasion, and -다 보니 from M93 introduces an outcome noticed along the way.
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 뜻대로 되다 says events go according to one's intention; 썩 좋지 않다 gives a restrained negative judgment instead of “very bad.”

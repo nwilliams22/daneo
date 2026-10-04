@@ -30,6 +30,8 @@ No new glue. The sentence frames are familiar; the new work is choosing the prec
 - **-고서 from M85 fixes the order of preparation and action.**
 - **-더라도 from M95 concedes difficult weather without stopping the walk.**
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 발바닥에 불이 나다 and 뭘요 carry meanings beyond their word-by-word readings.

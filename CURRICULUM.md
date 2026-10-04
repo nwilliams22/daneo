@@ -395,8 +395,9 @@ M150 *Private Lives and Public Rituals*, M151 *Everyday Care and Shared Spaces*,
 M152 *Repairs, Seasons and Working Lives*, M153 *Meals, Places and Family Connections*,
 M154 *Family, Travel and Everyday Places*, and M155 *Learning, Food and Named Places*.
 The packs keep the vocabulary-first shape with no new glue; M133–M154
-each have ten aligned sentences and two gap cards. M155 has eight aligned
-sentences and two gap cards after its sentence-count correction (2026-09-30).
+each have eight aligned sentences and two gap cards after their sentence-count
+correction (2026-10-03). M155 has eight aligned sentences and two gap cards
+after its sentence-count correction (2026-09-30).
 The final two packs originally closed the last 75 grade-C headwords, including the
 proper-name tail. After the 2026-09-30 moves of 예습 to M44 and 클래식
 to M51, M154 retains 37 checklist words and M155 retains 36; overall NIKL

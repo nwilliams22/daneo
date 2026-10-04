@@ -26,6 +26,8 @@ A board announces results, a department accepts a form, and work creates both ri
 
 **Spot the recycling:** M143’s 제출, 채점 and 봉사하다 return in application, grading and school-service scenes. No new glue is introduced; the sentence notes point back to known Ring 3 patterns.
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 큰절을 올리다 — To give a formal deep bow. 일자리를 구하다 — To look for work.

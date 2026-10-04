@@ -22,7 +22,9 @@ A service counter gets crowded, an application needs a signature, and independen
 
 ## Part 2 — Building sentences
 
-**Spot the recycling:** M140’s 이용자 crowds the counter, 자격증 accompanies an application, 초조하다 survives inside a concession, and 나들이 becomes an opportunity. -더라도 from M95 concedes a feeling; -는 김에 from M91 adds a useful action; -(으)ㄴ 채 from M94 keeps a door locked during a wait.
+**Spot the recycling:** M140’s 이용자 crowds the counter, 자격증 accompanies an application, 초조하다 survives inside a concession, and 나들이 becomes an opportunity. -더라도 from M95 concedes a feeling; -는 김에 from M91 adds a useful action; -고서 from M85 orders taking a breath before stepping outside.
+
+Eight sentences put the vocabulary into familiar grammar frames.
 
 ::sentences::
 

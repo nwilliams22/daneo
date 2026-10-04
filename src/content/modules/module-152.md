@@ -34,6 +34,8 @@ No new glue. Familiar frames carry the new vocabulary; notice which noun is the 
 - **-고서 from M85 orders cooling and freezing.**
 - **-(으)므로 from M85 gives a stated reason.**
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 와이셔츠 and 큰아들 need more than a word-by-word reading. Explain the real meaning before turning the card over.

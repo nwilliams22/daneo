@@ -24,6 +24,8 @@ The night brings grading, visitors and a late return home. Small household objec
 
 **Spot the recycling:** M142’s 필수, 귀가하다 and 뒤편 return as a requirement, a late homecoming and a back-door location. No new glue is introduced; the sentence notes point back to known Ring 3 patterns.
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 바가지를 쓰다 — To be overcharged. 미움을 사다 — To incur someone’s dislike.

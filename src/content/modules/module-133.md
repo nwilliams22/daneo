@@ -26,6 +26,8 @@ A farm takes time, a night shift runs long, and a change of light changes what y
 
 **Spot the recycling:** The sentences revisit cause, retrospective results, parallel change and concession. Look for M132's 농사일, 연장 and 강사 in fresh settings. The lighting example reuses the 조절 family: the noun from the previous pack and the earlier verb 조절하다.
 
+Eight sentences put the vocabulary into familiar grammar frames.
+
 ::sentences::
 
 **Gap deck:** 정이 들다 means to grow attached, not for an emotion to enter a container. 일을 소화하다 transfers digestion to managing a workload.
