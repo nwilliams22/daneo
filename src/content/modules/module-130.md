@@ -16,7 +16,7 @@ Someone waits for a ship, someone makes an excuse, and someone carries an object
 
 **Holding, changing and damage.** 붙들다 resists letting something go; 분리하다 pulls joined things apart. 사들이다 brings purchased goods in; 쫓겨나다 makes the person forced out the subject. 찢다 is an active tear, and 칠하다 spreads paint or a coating over a surface. 약해지다 marks a change, whether in a body or a resolve.
 
-**Sense radar.** 박 counts an overnight stay (한 박), not a surname. 부상 here is 負傷, an injury; 浮上 is another word with the same spelling. 유산 here is 遺産, something inherited, not 流産. 젖 is breast milk or the breast, not a form of 젖다. 의도적 and 장기적 commonly wear -으로 or -인 in a sentence; do not use their dictionary forms as English adjectives without a Korean ending.
+**Sense radar.** 박 counts an overnight stay (일 박), not a surname. 부상 here is 負傷, an injury; 浮上 is another word with the same spelling. 유산 here is 遺産, something inherited, not 流産. 젖 is breast milk or the breast, not a form of 젖다. 의도적 and 장기적 commonly wear -으로 or -인 in a sentence; do not use their dictionary forms as English adjectives without a Korean ending.
 
 **Earlier vocabulary:** 실망하다 → M67; 아쉬움 → M67; 지겹다 → M67. These words return in the examples as review; the 33 entries below are this pack’s new checklist.
 

@@ -8,7 +8,7 @@ A daily routine is measured by costs, convenience, and the choices people make w
 
 ## Part 1 — The daily measure
 
-The public shelf holds 경비, 폐지, 편의, and 담당자. A report may contain a 답변, a 해설, or a 묘사: one answers, one explains, and one paints a scene. The everyday shelf contrasts 도심 with 농사짓다 and pairs today’s 치아 with the firmness word 단단하다 from M60.
+The public shelf holds 경비, 폐지, 편의, and 담당자. A report may contain a 답변, a 해설, or a 묘사: one answers, one explains, and one paints a scene. The everyday shelf contrasts 도심 with 농사짓다.
 
 **Root and form map:** M44's 전공 becomes 전공하다, the act of majoring; M39's 만족하다 yields the noun 만족. M56's 묘사하다 yields 묘사. The -적 shelf adds labels such as 질적 and 문화적 without inventing new roots or new grammar.
 

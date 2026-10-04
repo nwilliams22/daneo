@@ -2,7 +2,7 @@
 
 M94 opened the native verb shelf with motion and mishap, M102 welded old verbs into new ones, M104 pulled the two parties apart at the seams, and M107 closed the run with the adjectives. This is the fifth shelf, and it comes with the words that time it. The thesis: **the moment has its own adverbs.** Korean does not leave "soon" and "gradually" to context the way English does — it keeps a small set of words whose entire job is to say how a thing sat in time: 이내 (soon after), 금세 (in no time), 차츰 (bit by bit), 한창 (at the height), 하도 (so very that…). Thirty-one Grade-C words, no new grammar, and twelve verbs that mostly happen inside one of those moments — you hesitate, you grab, you swallow, you wake.
 
-**How to use this:** learn the seven adverbs against the twins you already hold, because not one of them is new in meaning — only in register and in aim. The table below is that whole lesson. Then take the four drawers in order and decode before you drill: six of today's verbs are two words welded (앞 + 세우다, 펴다 + 내다, 붙다 + 잡다, 내다 + 주다, 깨다 + 나다, 되- + 풀이 + 하다), and seven of the adjectives are two hanja you mostly own already — 類, 强, 密, 素, 誠, 難, 明, 接 have all been through here before, while 似, 烈, 朴, 困 and 敢 are firsts. Earlier notes lead into this shelf; some words now return as review. Read the Radar patrol slowly: this module's traps are homographs, not meanings.
+**How to use this:** learn the seven adverbs against the twins you already hold, because not one of them is new in meaning — only in register and in aim. The table below is that whole lesson. Then take the four drawers in order and decode before you drill: six of today's verbs are two words welded (앞 + 세우다, 펴다 + 내다, 붙다 + 잡다, 내다 + 주다, 깨다 + 나다, 되- + 풀이 + 하다), and seven of the adjectives are two hanja you mostly own already — 類, 强, 密, 素, 誠, 實, 苦, 痛, 難, 接 have all been through here before, while 似, 烈, 朴, 困 and 敢 are firsts. Earlier notes lead into this shelf; some words now return as review. Read the Radar patrol slowly: this module's traps are homographs, not meanings.
 
 ---
 
@@ -22,13 +22,13 @@ The adverbs first, because each one already has a twin in your head:
 Then the four drawers:
 
 - **THE VERBS (망설이다 앞세우다 펴내다 되풀이하다 붙잡다 내주다 물러나다 뜯다 빼앗다 삼키다 기대다 깨어나다):** hesitate, put in front, bring out, do over, grab hold, hand over, step back, tear open, snatch, swallow, lean, wake. Six are welds on words you own, and two of the welds need a second look: 앞세우다 wants the make-stand sense of M12's 세우다 that M37's 주차장 finally explained — "making the car STAND" — and 내주다 is 내다 + 주다, NOT the 끝내주다 M62's 끝내 winked at. The rest run on famous objects: 자리를 내주다 and 자리에서 물러나다 (M12's 자리), 봉투를 뜯다 (M43's 봉투), 마음을 빼앗다 (M19's 마음), 침을 삼키다 (M104's 침), 벽에 기대다 (M13's 벽).
-- **THE ADJECTIVES (별다르다 뻔하다 유사하다 강렬하다 밀접하다 소박하다 성실하다 잦다 고통스럽다 곤란하다 귀찮다):** two native adjectives at each end and seven Sino ones in the middle, every one decodable. 유사하다 is the 類 of M57's 종류 ("種類 seed-sort") + resemble-似; 강렬하다 is the force-强 of M64's 강제 + fierce-烈; 밀접하다 is dense-密 + the touch-接 of M43's 면접; 소박하다 is the plain-素 of M38's 평소 + unworked-朴; 성실하다 is the 誠 of M103's 정성 + the real-實 of M34's 확실하다; 곤란하다 is boxed-in-困 + the hard-難 of M100's 비난. 고통스럽다 is M53's 고통 through -스럽다 from M45, and 뻔하다 has two NIKL rows to its name.
-- **THE NOUN (먹이):** the feed in the bowl. Review 두려움 from M67 and 몸짓/눈동자 from M68 alongside it: fear, a body gesture and the dark centre of an eye.
+- **THE ADJECTIVES (별다르다 뻔하다 유사하다 강렬하다 밀접하다 소박하다 성실하다 잦다 고통스럽다 곤란하다 귀찮다):** two native adjectives open the drawer, five Sino-based ones follow, then native 잦다, Sino-based 고통스럽다 and 곤란하다, and native 귀찮다. 유사하다 is the 類 of M57's 종류 ("種類 seed-sort") + resemble-似; 강렬하다 is the force-强 of M64's 강제 + fierce-烈; 밀접하다 is dense-密 + the touch-接 of M43's 면접; 소박하다 is the plain-素 of M38's 평소 + unworked-朴; 성실하다 is the 誠 of M103's 정성 + the real-實 of M34's 확실하다; 곤란하다 is boxed-in-困 + the hard-難 of M100's 비난. 고통스럽다 is M53's 고통 through -스럽다 from M45, and 뻔하다 has two NIKL rows to its name.
+- **THE NOUN (먹이):** the feed in the bowl. Review 두려움 (fear) from M67 alongside it.
 - **THE ADVERBS OF THE MOMENT (이내 차츰 홀로 감히 금세 한창 하도):** the table above. Two of them are two words wearing one spelling: 이내 is also the noun 以內 (within — the 以 of M32's 이상 and the 內 of M31's 국내), and 한창 is an adverb and a noun both.
 
-**Receipts and review.** M37's 먹이다 named 먹이 on the way past; now the feed gets its own entry. M104's 밥상 used 소박하다 for a simple spread, and that adjective joins today's checklist too. The other receipts were paid earlier: M67 taught 두려움 from M63's 두렵다; M68 taught 몸짓 and 눈동자. Here their familiar meanings support new sentence patterns.
+**Receipts and review.** M37's 먹이다 named 먹이 on the way past; now the feed gets its own entry. M104's 밥상 used 소박하다 for a simple spread, and that adjective joins today's checklist too. M67 already taught 두려움 from M63's 두렵다; here that familiar noun supports a new sentence pattern.
 
-**Earlier vocabulary:** 두려움 → M67; 몸짓 → M68; 눈동자 → M68. These words return in the examples as review; the 31 entries below are this pack’s new checklist.
+**Earlier vocabulary:** 두려움 → M67. This word returns in an example as review; the 31 entries below are this pack’s new checklist.
 
 ::vocab::
 

@@ -2,7 +2,7 @@
 
 A Korean noun is very often the verb with its 하다 taken off. You have been riding six of today's thirty-three words for modules without knowing it: M72's 활용하다, M64's 허용하다, M93's 극복하다, M74's 불편하다, M11's 건조하다 and M114's 탄생하다. Take the tail off each one and the noun is simply there — 활용, 허용, 극복, 불편, 건조, 탄생 — with no new sound and no new meaning to learn. That is the whole module: once the dismount is visible, the rest of the Grade-C long tail stops being a list of words and starts being a machine you already own.
 
-**How to use this:** read the dismount table first and say each pair out loud, verb then noun, because the only thing you are adding is a grammatical slot. Then compare 심판 with 영향력: one names a judgement or referee, the other a power to influence. M58’s 생산자, 기술자 and 이사장 remain earlier examples of person and chief suffixes. Everything after that is hanja arithmetic on characters you already hold; the radar patrol at the end of Part 1 is where the traps are, and there are six of them.
+**How to use this:** read the dismount table first and say each pair out loud, verb then noun, because the only thing you are adding is a grammatical slot. Then compare 심판 with 영향력: one names a judgement or referee, the other a power to influence. M58’s 생산자, 기술자 and 이사장 remain earlier examples of person and chief suffixes. Everything after that is hanja arithmetic on characters you already hold; the radar patrol at the end of Part 1 is where the traps are, and there are eight of them.
 
 ---
 

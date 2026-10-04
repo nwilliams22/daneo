@@ -48,4 +48,4 @@ Then the four drawers:
 
 ## What's next
 
-The ledger is settled: seven words that rode frozen through other people's notes now have cards of their own, and you have seen the whole trick from both ends — a compound teaches a word long before the word is taught. Keep the habit for the rest of the ring. When a note tells you something is riding frozen, that is not a footnote, it is a receipt. Band 8 carries on down the Grade-C list, and the traps stay the same shape: a syllable is not a character, and only the word tells you which one you are holding. 부분적으로는 다 아는 단어였죠; 이제 마무리합시다.
+The ledger is settled: six words that rode frozen through other people's notes now have cards of their own, and you have seen the whole trick from both ends — a compound teaches a word long before the word is taught. Keep the habit for the rest of the ring. When a note tells you something is riding frozen, that is not a footnote, it is a receipt. Band 8 carries on down the Grade-C list, and the traps stay the same shape: a syllable is not a character, and only the word tells you which one you are holding. 부분적으로는 다 아는 단어였죠; 이제 마무리합시다.

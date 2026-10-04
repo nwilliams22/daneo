@@ -2,7 +2,7 @@
 
 Written labels and public stages force the learner to sort identical sounds by sense. The 비행 in misconduct is not flight, and the 주문 chanted as a spell is not a restaurant order. Names on forms, in shops, and on stages all need the same careful reading.
 
-**How to use this:** read the three drawers, then use the word notes for the exact sense and register. Every sentence reuses a Ring 3 pattern already taught; there is no new glue in this pack.
+**How to use this:** read the vocabulary overview, then use the word notes for the exact sense and register. Every sentence reuses a Ring 3 pattern already taught; there is no new glue in this pack.
 
 ---
 
