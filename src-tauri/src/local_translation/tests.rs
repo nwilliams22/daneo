@@ -17,6 +17,16 @@ fn error_code(outcome: Outcome) -> ErrorCode {
 }
 
 #[test]
+fn tutor_request_uses_the_shared_cancellation_boundary() {
+    let service = translator();
+    let request = service
+        .reserve("tutor".into(), "What should I review?".into(), "tutor".into())
+        .unwrap();
+    assert!(service.cancel("tutor"));
+    assert_eq!(error_code(request.run(|_| {})), ErrorCode::Cancelled);
+}
+
+#[test]
 fn cancel_then_immediate_request_is_serialized_and_isolated() {
     let service = translator();
     let first = service

@@ -13,7 +13,7 @@ Phase A and all 164 curriculum modules are complete. The content review is close
 - **Drill** — five drills with study and quiz modes as separate routes: confusables **flashcards / quiz** (same-group distractors), cross-font reading (Gothic/Myeongjo/handwriting), sentence anatomy (tap-to-trace + arrange), literal-vs-real **browse / quiz**, and typing on an **in-app 2-beolsik keyboard** with a fully tested Hangul composition engine (no OS Korean IME needed). The quizzes have a **"Mixed fonts"** difficulty toggle with per-face accuracy tracking.
 - **Review** — a spaced-repetition queue (**FSRS** via `ts-fsrs`): every graded answer anywhere feeds the scheduler, wrong answers come back within minutes, and the daily queue mixes due items from all drill kinds into one session. The missed-items strip from A.1 lives on the same page.
 - **Explore** — the unrestricted curiosity translator uses the local model in the desktop app. A developer-only cloud comparison path remains off by default. Results save into a "Discovered" deck.
-- **Ask Daneo** — a local tutor reads known words, due cards, progress and misses without writing learner state. Model prose containing Korean is rejected; cited Korean examples come only from unlocked curriculum sentences.
+- **Ask Daneo** — a local tutor reads known words, due cards, progress and misses without writing learner state. Generated Korean is removed from the answer; cited Korean examples come only from unlocked curriculum sentences.
 - **Stats** — words learned per module, review-queue counts, accuracy (all-time/7-day), per-confusable-group bars, weakest items, font fluency.
 - **Settings** — romanization hide (global), light/dark "paper" themes, Korean TTS voice status + rate, JSON backup/restore.
 

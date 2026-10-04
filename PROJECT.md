@@ -71,7 +71,7 @@ These six artifacts define the intended UX and visual language. Port their logic
 1. **Learn** — sequential modules (Module 1, Hangul history, Module 2+). Markdown-driven content rendered in-app; completing a module's vocab adds words to the known set.
 2. **Drill** — confusables, cross-font, sentence anatomy (study/arrange), literal-vs-real quiz. All drills log results per item to Dexie.
 3. **Explore** — the curiosity translator. Any translator result can be saved as a card into a personal "discovered" deck (this is the curiosity→collection loop).
-4. **Ask Daneo** — the local tutor reads learner state and cites only unlocked curriculum sentences. Generated prose containing Korean is rejected before rendering. The tutor does not write learner state.
+4. **Ask Daneo** — the local tutor reads learner state and cites only unlocked curriculum sentences. Generated Korean is removed before rendering; a reply with no usable English is rejected. The tutor does not write learner state.
 
 ---
 

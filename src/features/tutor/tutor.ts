@@ -73,12 +73,20 @@ export interface TutorReply { answer: string; examples: Sentence[] }
 export function safeTutorReply(raw: unknown, known: Set<string>, offeredIds?: Set<string>): TutorReply | null {
   const parsed = replySchema.safeParse(raw);
   if (!parsed.success) return null;
-  // Reject Korean anywhere in model prose, including notes and mixed-language text.
+  // Drop generated Korean even when the model mixes it into English prose.
   // The curriculum example below is the sole Korean output path.
-  if (/[\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/u.test(parsed.data.answer)) return null;
+  const korean = /[\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/u;
+  const answer = parsed.data.answer
+    .replace(/\([^()]*[\u1100-\u11ff\u3130-\u318f\uac00-\ud7af][^()]*\)/gu, "")
+    .split(/(\s+)/u)
+    .filter((part) => !korean.test(part))
+    .join("")
+    .replace(/\s+/gu, " ")
+    .trim();
+  if (!/[A-Za-z]/u.test(answer)) return null;
   const examples = parsed.data.sentenceIds
     .map((id) => sentenceById.get(id))
     .filter((sentence): sentence is Sentence => !!sentence && (!offeredIds || offeredIds.has(sentence.id)))
     .filter((sentence) => sentence.wordIds.every((id) => known.has(id)));
-  return { answer: parsed.data.answer, examples };
+  return { answer, examples };
 }

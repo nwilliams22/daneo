@@ -15,12 +15,16 @@ describe("Ask Daneo safety boundary", () => {
   it("does not render model Korean or an unknown-word curriculum sentence", () => {
     const candidate = allSentences.find((sentence) => sentence.wordIds.length > 1)!;
     const known = new Set(candidate.wordIds.slice(0, -1));
-    expect(safeTutorReply({ answer: "Try 새로운 words", sentenceIds: [candidate.id] }, known)).toBeNull();
-    const reply = safeTutorReply({ answer: "Review the subject marker.", sentenceIds: [candidate.id] }, known)!;
+    const reply = safeTutorReply({ answer: "Review 새로운 words (모르는 말) in the subject position.", sentenceIds: [candidate.id] }, known)!;
     const html = renderToStaticMarkup(<MemoryRouter><TutorAnswer reply={reply} /></MemoryRouter>);
-    expect(html).toContain("Review the subject marker.");
+    expect(html).toContain("Review words in the subject position.");
+    expect(html).not.toContain("새로운");
+    expect(html).not.toContain("모르는");
     expect(html).not.toContain(candidate.ko.map((chunk) => chunk.t).join(" "));
     expect(reply.examples).toHaveLength(0);
+    expect(safeTutorReply({ answer: "새로운", sentenceIds: [] }, known)).toBeNull();
+    expect(safeTutorReply({ answer: "Review water (물) today.", sentenceIds: [] }, known)?.answer)
+      .toBe("Review water today.");
   });
 
   it("reads learner context without changing any Dexie table", async () => {
