@@ -4,6 +4,7 @@ use serde_json::{json, Value};
 use sha2::{Digest, Sha256};
 use std::{
     cell::Cell,
+    fs::File,
     io::{BufWriter, Write},
     path::PathBuf,
     sync::Arc,

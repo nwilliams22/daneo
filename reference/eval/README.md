@@ -2,8 +2,9 @@
 
 ## Prompt repair on a host without a usable desktop socket
 
-The v0 ten items are retired as a gate and retained for reporting and regression. The v2 ten
-items are the next frozen held-out gate; their set and SHA-256 manifest were committed separately.
+The v0 ten items are retired as a gate and retained for reporting and regression. The v1 ten items
+gate the deterministic rung (BAD-212); the v2 ten items are reserved for the fine-tune rung
+(BAD-193). Their sets and SHA-256 manifests were committed separately.
 
 `dev-translation-set.json` contains six corpus items excluded from the frozen
 `v0-translation-set.json`. It has the same input, direction, corpus anchor,
@@ -30,9 +31,11 @@ DANEO_ACCEPTANCE_RAW="$PAPERCLIP_RUN_SCRATCH_DIR/probe-raw.jsonl" \
   "$PAPERCLIP_RUN_SCRATCH_DIR/probe-results.jsonl"
 ```
 
-Use a new output path each time. Replace only the fixture argument with
-`v2-translation-set.json` for a future frozen evaluation, after all prompt edits and dev checks
-are complete. Native peak RSS excludes the
+Use a new output path each time. For a frozen evaluation, select the same fixture path in the
+command argument, `DANEO_ACCEPTANCE_SET_PATH`, and the corresponding SHA-256 in
+`DANEO_ACCEPTANCE_SET_SHA256`. Select `reference/eval/v1-translation-set.json` for the deterministic
+rung or `reference/eval/v2-translation-set.json` for the fine-tune rung, after all prompt edits and
+dev checks are complete. The identity preflight rejects any mismatch before inference. Native peak RSS excludes the
 WebKit process tree, so report it separately from desktop baseline RSS. The
 runner does not verify rendered Explore controls.
 
