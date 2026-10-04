@@ -406,3 +406,7 @@ Changed the `w_chireuda` note and M94 Part 1 to identify 치르다 as a ㅡ-drop
 ### 2026-10-03 — Correct M102 잇따르다 conjugation rule
 
 Relabeled the 잇따르다 word note and its fog-accidents sentence note as ㅡ-drop, matching M32's 따르다 and the M7 rule. The Korean forms and sentence content are unchanged. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check`: passed. `npm run visual:pass -- m102 --port 5347 --out .visual-pass/bad-159`: 1/1 page rendered with 30/30 checklist words; inspected the full-page PNG and found the word row, sentence card, and page ending visible without clipping. Next: independent content review of the corrected rule.
+
+### 2026-10-03 — Correct M99 올여름 spelling
+
+Changed the M99 pollution sentence to 올여름은 and adjusted its gloss, romanization, and note. Corrected the module table and recycling line, and clarified in the 올 word note that 올여름 and 올겨울 are single nouns while 올 시즌, 올 초, and 올 들어 remain spaced. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; a focused JSON and text assertion passed; `git diff --check` passed. The M99 visual pass could not run because the sandbox refused Vite's local listener with `EPERM`; the page was not visually inspected in this run. Next: independent content review and a visual check in a workspace that permits a local server.

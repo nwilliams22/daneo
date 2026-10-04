@@ -24,7 +24,7 @@ Thirteen syllables, and the list gives them twenty-two rows between them. Read a
 | 조 | 條 an article of law (제일 조) | 組 a group, counted (일 조) | 組 a team (우리 조) | 燥 건조하다 · 祖 조상 · 調 조사하다 |
 | 현 | 現 current (현 정부) | | | 玄 현관 — and 現 현금, the same row |
 | 동 | 同 the same (동 대학) | 棟 a building (백일 동) | | 洞 동네 · 東 동쪽 · 動 동물 |
-| 올 | this year's (올 여름) | this year (올 들어) | | 올리다, a verb's stem |
+| 올 | this year's (올 시즌; 올여름 is one noun) | this year (올 들어) | | 올리다, a verb's stem |
 | 모 | 某 a certain (모 대학) | 某 so-and-so (김 모 씨) | | 母 부모님 · 帽 모자 · 模 모양 |
 | 이어 | following on (이어 말했다) | | | 다이어트, a converter accident |
 
@@ -46,7 +46,7 @@ Three rules run the table. The **dependent nouns** (평, 건, 조, 동 in their 
 
 ## Part 2 — Building sentences
 
-**Spot the recycling:** every sentence rides one Band 7 ending, named in its note — -(으)로 인해 from M86 blames 오염 for 올 여름; -았/었더니 from M88 finds the 통증 gone after the 체조 동작; -(으)ㄹ수록 from M89 makes 화학 more interesting with every 실험; -(으)ㄴ/는 셈이다 from M87 reckons that 우리 조 won, 객관적으로; -(으)ㄴ 채 from M94 keeps the 의복 on through the 제사; -(으)ㄹ까 봐 from M93 hides a 심정 so a child's 기 will not die; 반면에 from M95 weighs 영양 against a 독특한 맛; and 에 따라 from M90 puts 현 정부 onto a 건, 본격적으로. Underneath, the frames you have held since Ring 1: the badge -(으)ㄴ/-는 from M24, -(으)면 from M20, the try-machine -아/어 보다 from M16, -아/어지다 from M35, the honorific -(으)시- from M4, and the double-subject shape from M24.
+**Spot the recycling:** every sentence rides one Band 7 ending, named in its note — -(으)로 인해 from M86 blames 오염 for 올여름; -았/었더니 from M88 finds the 통증 gone after the 체조 동작; -(으)ㄹ수록 from M89 makes 화학 more interesting with every 실험; -(으)ㄴ/는 셈이다 from M87 reckons that 우리 조 won, 객관적으로; -(으)ㄴ 채 from M94 keeps the 의복 on through the 제사; -(으)ㄹ까 봐 from M93 hides a 심정 so a child's 기 will not die; 반면에 from M95 weighs 영양 against a 독특한 맛; and 에 따라 from M90 puts 현 정부 onto a 건, 본격적으로. Underneath, the frames you have held since Ring 1: the badge -(으)ㄴ/-는 from M24, -(으)면 from M20, the try-machine -아/어 보다 from M16, -아/어지다 from M35, the honorific -(으)시- from M4, and the double-subject shape from M24.
 
 ::sentences::
 

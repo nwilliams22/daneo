@@ -21854,19 +21854,19 @@
     ],
     "gloss": [
       { "t": "environment pollution-by owing-to", "role": "other", "id": "a" },
-      { "t": "this-year summer-[topic]", "role": "subject", "id": "s" },
+      { "t": "this-summer-[topic]", "role": "subject", "id": "s" },
       { "t": "more", "role": "other", "id": "d" },
       { "t": "hot-was", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "환경 오염으로 인해", "role": "other", "id": "a" },
-      { "t": "올 여름은", "role": "subject", "id": "s" },
+      { "t": "올여름은", "role": "subject", "id": "s" },
       { "t": "더", "role": "other", "id": "d" },
       { "t": "더웠어요", "role": "verb", "id": "v" }
     ],
-    "rom": "hwangyeong oyeomeuro inhae ol yeoreumeun deo deowosseoyo",
+    "rom": "hwangyeong oyeomeuro inhae oryeoreumeun deo deowosseoyo",
     "wordIds": ["w_hwangyeong", "w_oyeom", "w_inhada", "w_ol_thisyear", "w_yeoreum", "w_deo", "w_deopda"],
-    "note": "Recycles -(으)로 인해 from M86 — that md's register line, \"눈 때문에 is what you say, 폭설로 인해 is what the sign says\" — and this is the sign: 환경 오염으로 인해 = owing to environmental pollution, M32's 환경 on M72's 오염, then M86's 인하다 in the one shape it ever takes. Then today's 올 dismounted from M25's 올해 and set before M11's 여름: 올 여름은 = this summer, a topic-marked subject; M9's 더 and M11's 덥다 in the past close it. The mouth would say 오염 때문에 올여름 더 더웠어 — the same claim, and the 인해 is what makes it a headline. An earlier science noun and a new time word, one cause-frame, and the sentence every August now prints."
+    "note": "Recycles -(으)로 인해 from M86 — that md's register line, \"눈 때문에 is what you say, 폭설로 인해 is what the sign says\" — and this is the sign: 환경 오염으로 인해 = owing to environmental pollution, M32's 환경 on M72's 오염, then M86's 인하다 in the one shape it ever takes. Then today's 올 joins M11's 여름 in the single noun 올여름: 올여름은 = this summer, a topic-marked subject; M9's 더 and M11's 덥다 in the past close it. The mouth would say 오염 때문에 올여름 더 더웠어 — the same claim, and the 인해 is what makes it a headline. An earlier science noun and a new time word, one cause-frame, and the sentence every August now prints."
   },
   {
     "id": "s_m99_gymnastics_pain",
