@@ -374,3 +374,7 @@ Kept the five-pattern Band 7 ceiling chosen for the correction: M86 now owns fiv
 ### 2026-10-03 — Correct M88 hire sentence pronoun
 
 Changed the natural English layer of `s_m88_qualified_hire` from “pick him?” to “pick them?” so it does not assign a gender absent from 새로 온 직원이. The Korean, gloss, chunk alignment and word IDs remain unchanged. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; `git diff --check`: passed. `npm run visual:pass -- m88 --port 5311 --out .visual-pass/bad-152` could not start its local dev server in the restricted workspace, so the UI was not inspected. Next: independent content review of the corrected translation and visual confirmation when local server access is available.
+
+### 2026-10-03 — Correct M89 도저히 part of speech
+
+Changed `w_dojeohi` from noun to adverb, matching NIKL entry 14397 and M89's prose. Updated the authoring brief's POS instruction for this word; the checklist groups directly by `pos`, so no component edit was needed. `npm run validate:content`: 15/15 passed; `npm run lint:lang`: 0 FAIL / 0 WARN; a focused registry assertion confirmed the M89 Adverbs group contains 도저히; `git diff --check` passed. `npm run visual:pass -- m89 --port 5315 --out .visual-pass/bad-153` rendered 1/1 with 34/34 checklist words. Inspected the PNG: 도저히 appears under Adverbs and the page is visible without clipping. Next: independent content review of this classification; review the other four prose adverbs' stored POS separately.
