@@ -16,3 +16,14 @@ Source of truth: all 1,439 rows in `src/content/sentences.json`. Join nonempty `
 | s_m106_supplies_again | 아이가 학용품을 다 잃어버렸길래 연필, 공책 등등을 새로 사 줬어요 | aiga hagyongpumeul da ireobeoryeotgillae yeonpil gongchaek deungdeungeul saero sa jwosseoyo | aiga hagyongpumeul da ireobeoryeotgillae yeonpil, gongchaek deungdeungeul saero sa jwosseoyo | Corpus drops the written comma between 연필 and 공책. |
 
 The same `막혀요` is written both `makyeoyo` and `makhyeoyo` in the corpus. A Korean-line-only function cannot match both by a stable phonological rule. Preserve the reviewed content and resolve the convention explicitly before claiming exactness.
+
+The existing content linter records accepted house spellings in
+`reference/authoring/rom-exceptions.json`. It explicitly lists the corpus forms
+for `지하철역까지`, `찍는`, `먹는`, `뭇나`, and `대답하셨어요`, and lists
+`makyeoyo` for `막혀요`. That supports treating those five rows as reviewed
+exceptions rather than changing their content here. It does not resolve the
+other `막혀요` row, whose `makhyeoyo` conflicts with the linter exception and
+the earlier sentence. The `아아` hyphen and the omitted comma in the
+`연필, 공책` row are formatting differences, not phonological rules. Matching
+all eight by changing a Korean-line-only transliterator would require
+context-specific styling or contradictory output for the same Korean token.
