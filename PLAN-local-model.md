@@ -84,10 +84,10 @@ old assumption and its replacement; it does not imply implementation approval.
 | v0 streaming, cancel, OOM, prompt parity and Explore toggle | **Still stands** | Local default, Cloud as a developer comparison; **Auto is cancelled** (owner constraint). |
 | “Acceptable vs Claude” on ten held-out sentences | **Dead as a comparison** | Fixed inputs, an **absolute** linguistic rubric and explicit pass counts below. There is no paid baseline to be acceptable against. |
 | The frozen `v0-translation-set.json` ten items are the acceptance gate | **Dead as a gate** | Retired 2026-10-04: its isolation from prompt tuning is no longer provable from commit order. Retained for reporting and regression; a new set is frozen first by a non-tuner. See the burned-gate section below. |
-| The model produces romanization and particle roles | **Challenged, owner's call open** | Both are deterministic over the reply's own Korean line, and the model fails them on 8/10 and 5/10 items. Moving them into application code is the recommended rung on the pending card, not a decision taken. |
+| The model produces romanization and particle roles | **Dead** | Nick's decision, 2026-10-04: the app computes both. They are deterministic over the reply's own Korean line, and the model failed them on 8/10 and 5/10 items. Particle identity is a closed lookup; romanization is an algorithm that still needs its phonology layer — see the rule-gap finding below. |
 | Corpus is already sufficient to self-distill an in-character tutor | **Dead** | Content is source material, not evidence of training quality or reliable behavior. |
 | v1 dataset extraction, 500–5000 synthetic examples, ~60 held-out items | **Needs re-picking** | Freeze held-out data before training; synthetic volume follows error analysis, not a quota. |
-| QLoRA on the same 4B, one GPU, hours; Unsloth/LLaMA-Factory | **Still stands** | Authorized by Nick 2026-10-04 and free here: RTX 5090, 32 GB VRAM. Tool choice and schedule follow the v0 error analysis; **no spend decision is outstanding**. |
+| QLoRA on the same 4B, one GPU, hours; Unsloth/LLaMA-Factory | **Still stands, and now the chosen second rung** | Authorized by Nick 2026-10-04 and free here: RTX 5090, 32 GB VRAM. His 2026-10-04 lever choice sequences it *after* the deterministic pass, so its error analysis reads a post-extraction baseline. Judged on the `v2` set, never `v1`. **No spend decision is outstanding.** |
 | Compare fine-tuned and prompted base; retain the better | **Still stands** | No training if prompting already clears the acceptance gate — an evidence test, not a budget one. |
 | v2 commands, download/progress/hash/cache/idle unload, settings, docs, no-network tests | **Still stands** | Translation and cancellation first; chat/lifecycle commands follow in their own slices. |
 | Automatic cloud fallback and “local = fast / cloud = deep” | **Dead** | Cancelled by the owner constraint. No automatic fallback, no Auto policy, consent-gated or otherwise. |
@@ -240,16 +240,28 @@ Next: review this design and scope the v0 implementation from the paragraph and
 exit evidence above. This refresh does not create or authorize implementation
 children.
 
-## The v0 gate is burned; the recommended next rung is deterministic fields (2026-10-04)
+## The v0 gate is burned; the next rungs are deterministic fields, then the fine-tune (2026-10-04)
 
-**Status: the rung choice is the owner's and is open.** A question card is pending
-with Nick on [BAD-208](/BAD/issues/BAD-208) offering four free-and-local levers —
-deterministic fields in code (recommended), a larger quantization of the same 4B,
-the authorized QLoRA fine-tune, or a larger 8B/14B local model. Everything below
-marked *recommended* is a recommendation with its evidence, **not a decision
-taken**, and no rung ticket starts before he answers. The retirement of the burned
-gate and the downloader's pin contract are not part of that question; they hold
-whichever lever he picks, and they are decided.
+**Status: decided by Nick on 2026-10-04.** Asked which lever follows the spent
+prompt-repair rung, he chose **"the app calculates the mechanical fields, then we
+train the model"** — option 1 below, with the authorized QLoRA fine-tune as the
+second rung after it. That answers the card on
+[BAD-208](/BAD/issues/BAD-208), so what follows is a decision and not a
+recommendation. The two levers he did **not** pick are a larger quantization of the
+same 4B and a larger 8B/14B local model; neither is dead, but neither is next, and
+a quantization probe only becomes interesting once there is a clean post-extraction
+baseline to isolate its effect against. The retirement of the burned gate and the
+downloader's pin contract were never part of the question and were already decided.
+
+**Two measured rungs now need two uncontaminated gates, and both exist.** A
+duplicate ticket of mine produced a second frozen ten-item set, and all four
+fixtures — `v0`, `dev`, `v1`, `v2` — are **pairwise disjoint on
+`corpusSentenceId`**, checked over the files, not assumed. So: **`v1` gates the
+deterministic rung, `v2` gates the fine-tune.** Reusing one set for both would
+burn it the same way `v0` burned, because the fine-tune's error analysis reads the
+deterministic rung's results and would therefore be tuned against the set that
+judges it. The `v1` items are excluded from training data for the same reason, as
+`v0`'s already are.
 
 ### Measured per-dimension failures, computed not quoted
 
@@ -302,8 +314,7 @@ produced**: Revised Romanization is an algorithm over Hangul syllables, and a
 particle's identity and role can be read off the surface string and checked
 against it.
 
-**Recommended, pending the owner's answer: stop asking the model for the fields
-code can compute exactly.**
+**Decided: stop asking the model for the fields code can compute exactly.**
 
 1. **Romanization and particle identity move into application code** — generated
    from, and validated against, the `korean` line in the reply. The model keeps
@@ -316,21 +327,57 @@ code can compute exactly.**
    prompt or model change that it will judge, with the run's provenance stamped into
    every raw row rather than reconstructed afterwards. The commit order is the
    proof; a report asserting isolation is not.
-3. **A larger quantization of the same 4B is on the card, not declined by me.** It
-   is the run report's recommendation, and the argument against taking it first is
-   that quantization precision does not teach syllable segmentation, while it does
-   make a 73.568 s warm p95 worse. The argument for it is that it is the cheapest
-   measurement of the four. Nick decides.
-4. **The fine-tune stays authorized.** Training the model to emit romanization that
-   code computes exactly would spend capacity on a solved task, so if the
-   deterministic rung is chosen the fine-tune's error analysis should read the
-   post-extraction baseline. On the measured counts the dimensions a fine-tune would
-   have to earn — gloss, literal gap, register, meaning — are exactly what survives
-   the deterministic pass, which is the strongest argument for running the two in
-   that order.
+3. **A larger quantization of the same 4B is not next.** It was the run report's
+   recommendation and it was on the card; Nick did not pick it. It is not declined
+   on the merits — it is the cheapest measurement available — but quantization
+   precision does not teach syllable segmentation, and it makes a 73.568 s warm p95
+   worse. It stays available as a **probe** once the deterministic pass has produced
+   a clean baseline for its effect to be isolated against. A larger 8B/14B local
+   model is in the same position.
+4. **The fine-tune is the second rung, and it is where the real work lands.**
+   Training the model to emit romanization that code computes exactly would spend
+   capacity on a solved task, so its error analysis reads the post-extraction
+   baseline. On the measured counts the dimensions a fine-tune has to earn — gloss
+   at 6/10, literal gap, register, meaning — are exactly what survives the
+   deterministic pass. Gloss is the binding constraint and no table touches it.
 
 No paid model, no cloud fallback and no new spend are involved; every step above is
 free and local, inside the owner constraint at the top of this file.
+
+### Correction: romanization is an algorithm, not a lookup, and it is 55 rules short
+
+The case for the deterministic rung called both fields "a table's job". That is right
+about particles — 은/는 topic, 이/가 subject, 을/를 object is a closed six-entry
+lookup — and it **understates romanization**, which needs Korean phonology, not a
+syllable table. The existing `src/lib/romanize.ts` matches **1,297 of 1,439** corpus
+`ko`/`rom` pairs (90.13%). Classifying all 142 mismatches against the corpus:
+
+| Class | Count | Whose defect |
+|---|---:|---|
+| Terminal punctuation present in `ko`, absent from `rom` | 80 | **Corpus** — `rom` drops a final `?`/`!`/`.` the Korean line carries |
+| Missing phonological rules in `romanize()` | **55** | **Code** |
+| Word spacing, and inner punctuation or hyphenation | 7 | Mixed; needs per-row review |
+
+The 55 code defects are a short list of standard Revised Romanization rules, not 55
+special cases: **nasalization** of ㄱ/ㄷ/ㅂ before ㄴ/ㅁ is 29 of them (먹는 →
+*meongneun*, 왔는데 → *wanneunde*, 있는 → *inneun*); **ㅎ coalescence and
+aspiration** covers most of the rest (막혀요 → *makyeoyo*, 축하 → *chuka*, 밝혀 →
+*balkyeo*, 많더라고요 → *manteoragoyo*, 끊겨 → *kkeunkyeo* — the current code drops
+ㅎ instead of merging it); then **ㄴ-insertion** (나뭇잎 → *namunnip*), ㄴ+ㄹ → ㄴ+ㄴ
+(심리 → *simni*), and ㅅ tensification (칫솔 → *chissol*). A jamo-only run such as
+ㅋㅋㅋ is passed through unromanized, which is a plain bug.
+
+Two consequences, neither of which changes the lever Nick chose:
+
+- **The closure bar is 1,439/1,439 under terminal-punctuation normalization**, with
+  every residual row enumerated and attributed to the corpus rather than the code.
+  "90% exact" is not a standard a replacement for a model field can ship against:
+  the point of moving the field into code is that it becomes *exact*, and a wrong
+  romanization from code is worse than a wrong one from a model because it carries
+  no uncertainty.
+- **The 80 corpus rows are a separate content-hygiene item, not part of this rung.**
+  `rom` should carry the same terminal mark as `ko`. Do not fix them inside the
+  romanizer ticket and do not let them inflate or deflate its score.
 
 ### v2 slice 1 is unblocked, with the pin as a contract
 
