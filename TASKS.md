@@ -155,7 +155,8 @@ the local in-app AI agent, and then the shareable feature."* Content review → 
 The review is complete, so **Phase D is the live work** as of 2026-10-04.
 
 ## Phase D — Local AI (next after the content review; full plan in PLAN-local-model.md)
-- [ ] In-process llama.cpp translator + Daneo tutor, optional model download (4B std / 3B Lite) — *status: design, not yet started, and **first in the queue after the content review passes report** (Nick, 2026-09-30, reversing the old Phase B → Phase D order). Before any implementation, `PLAN-local-model.md` decision 3 requires re-picking the base model: the plan's Qwen3-4B / Llama-3.2-3B pair dates from 2026-08-24. The cloud fallback pinned at `server/index.ts:33` is equally stale and gets re-checked in the same pass.*
+- [x] Refresh local-model design and model selection (2026-10-03): `PLAN-local-model.md` audits the old decisions, selects Qwen3.5-4B / Qwen3.5-2B Lite candidate, and defines a measured desktop v0 gate. Cloud target is `claude-sonnet-5-5`; current pin retained because its thinking/token-budget migration is not a safe one-line swap.
+- [ ] Implement the reviewed v0 scope, then qualify Lite and scope production lifecycle/tutor separately. No local inference implementation has started.
 
 ## Phase B — Sharing (Ring 3 gate met 2026-09-30; queued behind the review and Phase D)
 - [ ] Deploy static build + proxy; simple auth; per-user state sync — *deferred by Nick on 2026-09-27 until Ring 3 was complete; Ring 3 closed 2026-09-30 and Nick then put the independent content review first and Phase D second, so this is third. No hosting spend, no exposed API key, no accounts, and no design work until Phase D lands. It still has no design document — one line of spec here and in PROJECT.md §7 is all that exists.*
@@ -527,3 +528,8 @@ are the kind of thing it catches.
 
 **Next:** Phase D lead-in — re-read `PLAN-local-model.md` and re-pick the base model before any
 implementation.
+
+
+### 2026-10-03 — Refresh local AI design after the content review
+
+Audited every commitment in `PLAN-local-model.md`, replaced the old standard/Lite pair with Qwen3.5-4B and a Qwen3.5-2B Lite candidate using publisher and GGUF file evidence, and recorded runner-up tradeoffs. Removed unsupported mobile performance and training promises, reconciled the in-process engine choice, and defined a bounded desktop spike with measurable language/runtime acceptance. Identified `claude-sonnet-5-5` as the current cloud target but retained the 4.6 pin: default thinking and tokenization changes need a tested migration beyond a one-line edit. `npm test -- tests/translator.contract.test.ts`: 6/6 passed; `npm run validate:content`: 15/15 passed; `git diff --check`: passed. No model download, inference, cloud call or UI execution occurred; these tests validate existing contracts/content only. Scope-based v0 estimate: 4–7 engineering days plus independent review, conditional on binding compatibility and a usable Linux desktop; Lite qualification adds 1–2 days. Next: independent design review and a separately scoped v0 implementation task.
