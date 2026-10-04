@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "../../db/db";
 import { saveTranslation, deleteTranslation } from "../../db/repo";
+import TranslationError from "./TranslationError";
 import PageHeader from "../../components/PageHeader";
 import AudioButton from "../../components/AudioButton";
 import Rom from "../../components/Rom";
@@ -348,11 +349,7 @@ export default function ExplorePage() {
       )}
 
       {error && (
-        <div role="alert" className="mt-4 rounded-xl border border-clay px-3.5 py-3 text-[13.5px] leading-relaxed text-clay">
-          {engine === "local" && error.code === "model-missing" && <strong className="block">Local model absent</strong>}
-          {error.message}
-          {engine === "local" && error.code === "model-missing" && <span className="mt-1 block">For this development build, set <code>DANEO_MODEL_PATH</code> to the verified GGUF and restart the desktop app.</span>}
-        </div>
+        <TranslationError error={error} />
       )}
 
       {result && (

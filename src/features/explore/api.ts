@@ -1,23 +1,15 @@
 import { postprocessTranslation } from "../../lib/translation-postprocess";
-import type { TranslationResult } from "../../types";
+import { translateErrorSchema, type TranslateOutcome } from "./translation-contract";
+export type { TranslateError, TranslateOutcome } from "./translation-contract";
 
 // Client half of the translator contract. The proxy validates the model
 // output; we re-validate its response here so a bad server can never crash
 // the UI (§6.3) — errors are typed, never thrown.
 
-const IS_TAURI = "__TAURI_INTERNALS__" in window;
+const IS_TAURI = typeof window !== "undefined" && "__TAURI_INTERNALS__" in window;
 // Browser dev goes through the Vite proxy (same origin); the packaged app
 // runs on a tauri:// origin and must hit the proxy directly.
 const BASE = IS_TAURI || !import.meta.env.DEV ? "http://127.0.0.1:8787/api" : "/api";
-
-export interface TranslateError {
-  code: string;
-  message: string;
-}
-
-export type TranslateOutcome =
-  | { ok: true; result: TranslationResult }
-  | { ok: false; error: TranslateError };
 
 export async function translate(input: string): Promise<TranslateOutcome> {
   let res: Response;
@@ -46,10 +38,10 @@ export async function translate(input: string): Promise<TranslateOutcome> {
   }
 
   if (!res.ok) {
-    const err = (body as { error?: TranslateError } | null)?.error;
+    const err = translateErrorSchema.safeParse((body as { error?: unknown } | null)?.error);
     return {
       ok: false,
-      error: err ?? {
+      error: err.success ? err.data : {
         code: "server",
         message: `The translator server returned an error (${res.status}).`,
       },

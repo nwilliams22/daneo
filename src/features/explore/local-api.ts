@@ -2,7 +2,7 @@ import { invoke } from "@tauri-apps/api/core";
 import { listen } from "@tauri-apps/api/event";
 import { postprocessTranslation } from "../../lib/translation-postprocess";
 import { directionForInput } from "../../lib/translation-direction";
-import type { TranslateOutcome } from "./api";
+import { translateErrorSchema, type TranslateError, type TranslateOutcome } from "./translation-contract";
 
 export type LocalState = "absent" | "loading" | "ready" | "generating" | "error";
 export interface LocalProgress {
@@ -27,7 +27,7 @@ const desktop: Transport = {
   invoke,
   listen: (handler) => listen<LocalProgress>("local-translation-progress", (event) => handler(event.payload)),
 };
-const failure = (code: string, message: string): TranslateOutcome => ({ ok: false, error: { code, message } });
+const failure = (code: TranslateError["code"], message: string): TranslateOutcome => ({ ok: false, error: { code, message } });
 const cancelled = () => failure("cancelled", "Translation cancelled.");
 const isDesktop = () => typeof window !== "undefined" && "__TAURI_INTERNALS__" in window;
 
@@ -73,11 +73,8 @@ export function createLocalTranslator(transport: Transport = desktop) {
         if (request.cancelled) return cancelled();
         if (typeof raw !== "object" || raw === null) return failure("invalid-shape", "Invalid native response.");
         if ("ok" in raw && raw.ok === false && "error" in raw) {
-          const error = raw.error;
-          if (typeof error === "object" && error !== null && "code" in error && "message" in error
-              && typeof error.code === "string" && typeof error.message === "string") {
-            return { ok: false, error: { code: error.code, message: error.message } };
-          }
+          const error = translateErrorSchema.safeParse(raw.error);
+          if (error.success) return { ok: false, error: error.data };
         }
         const parsed = postprocessTranslation("ok" in raw && raw.ok === true && "result" in raw ? { ...raw.result as object, direction } : null);
         if (!parsed) return failure("invalid-shape", "The local reply did not match the translator contract.");
