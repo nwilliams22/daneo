@@ -53,6 +53,17 @@ for (const id of moduleIds) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+async function waitFor(check, timeoutMs = 60000) {
+  const deadline = Date.now() + timeoutMs;
+  let last;
+  do {
+    last = await check();
+    if (last.ready) return last;
+    await sleep(250);
+  } while (Date.now() < deadline);
+  return last;
+}
+
 async function waitForHttp(url, timeoutMs = 30000) {
   const deadline = Date.now() + timeoutMs;
   while (Date.now() < deadline) {
@@ -120,6 +131,22 @@ class Session {
       setTimeout(() => {
         if (this.pending.delete(id)) reject(new Error(`CDP timeout: ${method}`));
       }, 30000);
+    });
+  }
+
+  waitForEvent(method) {
+    return new Promise((resolve, reject) => {
+      const timer = setTimeout(() => {
+        this.ws.removeEventListener("message", onMessage);
+        reject(new Error(`CDP timeout: ${method}`));
+      }, 30000);
+      const onMessage = (event) => {
+        if (JSON.parse(event.data).method !== method) return;
+        clearTimeout(timer);
+        this.ws.removeEventListener("message", onMessage);
+        resolve();
+      };
+      this.ws.addEventListener("message", onMessage);
     });
   }
 
@@ -216,7 +243,22 @@ await sess.send("Emulation.setDeviceMetricsOverride", {
   deviceScaleFactor: 1,
   mobile: false,
 });
-await sleep(2000);
+const initialPage = await waitFor(async () => sess.evaluate(`(() => ({
+  ready: location.origin === ${JSON.stringify(origin)}
+    && document.readyState === 'complete' && !!document.querySelector('#root'),
+  url: location.href,
+  state: document.readyState,
+}))()`));
+if (!initialPage.ready) {
+  console.error(`browser did not load the app: ${JSON.stringify(initialPage)}`);
+  process.exit(1);
+}
+
+async function reloadPage() {
+  const loaded = sess.waitForEvent("Page.loadEventFired");
+  await sess.send("Page.reload");
+  await loaded;
+}
 
 // Gate 1 — onboarding. Without this every route renders the "where should you
 // start?" screen instead of the module.
@@ -230,24 +272,58 @@ await sess.evaluate(`localStorage.setItem('daneo-settings', JSON.stringify({
 // first time a page that reads it mounts. Opening the database by name before
 // Dexie does would create an empty version-1 copy and break its upgrade path —
 // so load a module page first, then seed, and never open the db cold.
-await sess.send("Page.navigate", { url: `${origin}/#/learn/${moduleIds[0]}` });
-await sleep(1200);
-await sess.send("Page.reload");
-await sleep(2500);
+await sess.evaluate(`(location.hash = '#/learn/${moduleIds[0]}'), 'ok'`);
+await reloadPage();
+const firstPage = await waitFor(async () => sess.evaluate(`(() => ({
+  ready: document.querySelector('h1')?.innerText.includes(${JSON.stringify(byId.get(moduleIds[0]).title)}) ?? false,
+  url: location.href,
+  state: document.readyState,
+  bodyChars: document.body?.innerText.length ?? 0,
+}))()`));
+if (!firstPage.ready) {
+  console.error(`module page did not render before seeding: ${JSON.stringify(firstPage)}`);
+  for (const error of sess.consoleErrors) console.error(`console error: ${error}`);
+  process.exit(1);
+}
 
 // Gate 2 — known words. The sentence layer only shows what the learner has
 // checked off, so an unseeded page renders the vocabulary and nothing under it.
 const wordIds = [...new Set(moduleIds.flatMap((id) => byId.get(id).wordIds))];
+const database = await waitFor(async () => sess.evaluate(`(async () => {
+  if (!(await indexedDB.databases()).some((db) => db.name === 'daneo')) {
+    return { ready: false, error: 'daneo database missing' };
+  }
+  const db = await new Promise((res, rej) => {
+    const request = indexedDB.open('daneo');
+    request.onsuccess = () => res(request.result);
+    request.onerror = () => rej(request.error);
+  });
+  const state = {
+    ready: db.objectStoreNames.contains('knownWords'),
+    error: 'knownWords object store missing',
+    version: db.version,
+    stores: [...db.objectStoreNames],
+  };
+  db.close();
+  return state;
+})()`));
+if (!database.ready) {
+  console.error(`seeding failed after 60s of rendered module page: ${JSON.stringify(database)}`);
+  for (const error of sess.consoleErrors) console.error(`console error: ${error}`);
+  process.exit(1);
+}
 const seeded = await sess.evaluate(`(async () => {
   const wipe = ${has("keep-known") ? "false" : "true"};
-  const dbs = await indexedDB.databases();
-  if (!dbs.some((d) => d.name === 'daneo')) return { error: 'the app did not create the daneo database' };
   const db = await new Promise((res, rej) => {
     const r = indexedDB.open('daneo');
     r.onsuccess = () => res(r.result);
     r.onerror = () => rej(r.error);
   });
-  if (!db.objectStoreNames.contains('knownWords')) return { error: 'no knownWords object store' };
+  if (!db.objectStoreNames.contains('knownWords')) {
+    const stores = [...db.objectStoreNames];
+    db.close();
+    return { error: 'knownWords object store missing', version: db.version, stores };
+  }
   await new Promise((res, rej) => {
     const tx = db.transaction('knownWords', 'readwrite');
     const os = tx.objectStore('knownWords');
@@ -261,10 +337,12 @@ const seeded = await sess.evaluate(`(async () => {
     q.onsuccess = () => res(q.result);
     q.onerror = () => rej(q.error);
   });
+  db.close();
   return { rows };
 })()`);
 if (seeded.error) {
-  console.error(`seeding failed: ${seeded.error}`);
+  console.error(`seeding failed: ${JSON.stringify(seeded)}`);
+  for (const error of sess.consoleErrors) console.error(`console error: ${error}`);
   process.exit(1);
 }
 console.log(`seeded ${wordIds.length} words · knownWords rows: ${seeded.rows}\n`);
@@ -275,9 +353,15 @@ for (const moduleId of moduleIds) {
   const mod = byId.get(moduleId);
   sess.consoleErrors.length = 0;
   await sess.evaluate(`(location.hash = '#/learn/${moduleId}'), 'ok'`);
-  await sleep(300);
-  await sess.send("Page.reload");
-  await sleep(2500);
+  await reloadPage();
+  const page = await waitFor(async () => sess.evaluate(`(() => ({
+    ready: (document.querySelector('h1')?.innerText.includes(${JSON.stringify(mod.title)}) ?? false)
+      && document.body.innerText.includes(${JSON.stringify(`${mod.wordIds.length}/${mod.wordIds.length}`)}),
+    url: location.href,
+    state: document.readyState,
+    bodyChars: document.body?.innerText.length ?? 0,
+  }))()`));
+  if (!page.ready) sess.consoleErrors.push(`module page did not render after 60s: ${JSON.stringify(page)}`);
 
   // Checked against the content rather than the markup: the sentence cards carry
   // no test hook, and the point is that the authored sentence reached the screen.
