@@ -168,7 +168,8 @@ The review is complete, so **Phase D is the live work** as of 2026-10-04.
 
 - [x] Refresh local-model design and model selection (2026-10-03): `PLAN-local-model.md` audits the old decisions, selects Qwen3.5-4B / Qwen3.5-2B Lite candidate, and defines a measured desktop v0 gate. Cloud target is `claude-sonnet-5-5`; current pin retained because its thinking/token-budget migration is not a safe one-line swap.
 - [x] Freeze the v0 translation evaluation inputs (2026-10-04): `reference/eval/v0-translation-set.json` records ten held-out corpus items, five per direction, with their corpus commit and owning modules; `reference/eval/v0-rubric.md` defines the proposed language gate. This is an evaluation fixture only; app behavior is unchanged.
-- [ ] Implement the reviewed v0 scope, then qualify Lite and scope production lifecycle/tutor separately. No local inference implementation has started.
+- [x] Prove native compatibility (2026-10-04): `src-tauri/examples/verified_completion.rs` pins and hash-verifies Qwen3.5-4B, loads with `llama-cpp-2 =0.1.158`, and completes with thinking disabled through the embedded template. CPU smoke gate passed; no app command or UI integration yet. Independent verification pending.
+- [ ] Implement the remaining reviewed v0 scope, then qualify Lite and scope production lifecycle/tutor separately. Native compatibility is demonstrated; the app is not yet connected to local inference.
 
 ## Phase B — Sharing = desktop installers (third; decided by Nick 2026-10-04)
 
@@ -589,3 +590,7 @@ installers warn the user — the signing certificate being the only money anywhe
 optional, and Nick's to decide when a release is imminent. Nothing is bundled into any installer;
 the model stays the post-install hash-verified download. Documentation only — no app code, no
 content and no dependency changed. `npm run validate:content` 15/15.
+
+### 2026-10-04 — Verify the pinned native Qwen completion
+
+Added the exact `llama-cpp-2 =0.1.158` CPU binding (bundled llama.cpp `26394b4e6749a41c3633db040e0987500a5f7013`), SHA-256 verification via `sha2`, and a developer example that renders the GGUF’s own template with `enable_thinking=false` using MiniJinja plus Python-method compatibility. The manually provisioned 2,740,937,888-byte Qwen3.5-4B Q4_K_M artifact matches the immutable revision/hash constants in the example and is ignored by git. `cargo build --locked --release --manifest-path src-tauri/Cargo.toml --example verified_completion` passed after supplying Clang 22 resource headers and CMake 4.4.3 on PATH; the README records host prerequisites. `DANEO_MODEL_PATH="$PWD/.local-models/Qwen3.5-4B-Q4_K_M.gguf" /usr/bin/time -v src-tauri/target/release/examples/verified_completion` exited 0: completion `water`, 1 output token, EOG reached, no thinking markers, 1.118 s eager fresh-process load (OS cache warm after the mandatory 6.824 s hash pass), 0.070 s context setup, 1.287 s generation, 3,100,772 KiB peak RSS. Context/output settings are 4,096/1,024 tokens, not qualified product limits. Wrong-size and same-size wrong-hash inputs both exited 1 before inference. `npm test`: 138/138; `npm run validate:content`: 15/15; `npm run build`: passed in 1.12 s with the existing chunk-size advisory; `git diff --check`: passed. App behavior is unchanged; no UI execution or translation-quality qualification is claimed. Next: independent rerun of the native gate, then the separately scoped runtime/command integration.

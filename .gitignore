@@ -33,3 +33,7 @@ server/.env
 
 # visual:pass screenshots and report
 .visual-pass/
+
+# Manually provisioned local inference weights
+.local-models/
+*.gguf
