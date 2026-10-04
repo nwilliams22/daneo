@@ -84,7 +84,7 @@ old assumption and its replacement; it does not imply implementation approval.
 | v0 streaming, cancel, OOM, prompt parity and Explore toggle | **Still stands** | Local default, Cloud as a developer comparison; **Auto is cancelled** (owner constraint). |
 | “Acceptable vs Claude” on ten held-out sentences | **Dead as a comparison** | Fixed inputs, an **absolute** linguistic rubric and explicit pass counts below. There is no paid baseline to be acceptable against. |
 | The frozen `v0-translation-set.json` ten items are the acceptance gate | **Dead as a gate** | Retired 2026-10-04: its isolation from prompt tuning is no longer provable from commit order. Retained for reporting and regression; a new set is frozen first by a non-tuner. See the burned-gate section below. |
-| The model produces romanization and particle roles | **Dead** | Both are deterministic over the reply's own Korean line and move into application code. The model keeps meaning, gloss, register and literal-gap claims. |
+| The model produces romanization and particle roles | **Challenged, owner's call open** | Both are deterministic over the reply's own Korean line, and the model fails them on 8/10 and 5/10 items. Moving them into application code is the recommended rung on the pending card, not a decision taken. |
 | Corpus is already sufficient to self-distill an in-character tutor | **Dead** | Content is source material, not evidence of training quality or reliable behavior. |
 | v1 dataset extraction, 500–5000 synthetic examples, ~60 held-out items | **Needs re-picking** | Freeze held-out data before training; synthetic volume follows error analysis, not a quota. |
 | QLoRA on the same 4B, one GPU, hours; Unsloth/LLaMA-Factory | **Still stands** | Authorized by Nick 2026-10-04 and free here: RTX 5090, 32 GB VRAM. Tool choice and schedule follow the v0 error analysis; **no spend decision is outstanding**. |
@@ -240,10 +240,42 @@ Next: review this design and scope the v0 implementation from the paragraph and
 exit evidence above. This refresh does not create or authorize implementation
 children.
 
-## The v0 gate is burned; the next rung is deterministic fields, then a clean gate (2026-10-04)
+## The v0 gate is burned; the recommended next rung is deterministic fields (2026-10-04)
 
-Decision owner: Bad Dong. This section records the scope decision taken after the
-repaired-prompt run, and it is the authority for the children named below.
+**Status: the rung choice is the owner's and is open.** A question card is pending
+with Nick on [BAD-208](/BAD/issues/BAD-208) offering four free-and-local levers —
+deterministic fields in code (recommended), a larger quantization of the same 4B,
+the authorized QLoRA fine-tune, or a larger 8B/14B local model. Everything below
+marked *recommended* is a recommendation with its evidence, **not a decision
+taken**, and no rung ticket starts before he answers. The retirement of the burned
+gate and the downloader's pin contract are not part of that question; they hold
+whichever lever he picks, and they are decided.
+
+### Measured per-dimension failures, computed not quoted
+
+From `reference/eval/v0-prompt-repair-review.json` over the ten scored items:
+
+| Dimension | Items failing |
+|---|---:|
+| Romanization | **8/10** |
+| Korean word-order gloss | **6/10** |
+| Particle roles | **5/10** |
+| Literal-gap claims | 3/10 |
+| Polite register | 2/10 |
+| Meaning | 1/10 |
+| Invented rules (zero-tolerance) | 3/10 |
+
+All three invented-rule items — EK-03, KE-02, KE-05 — are particle-dimension
+failures, and all three are the same single error, "이 is a topic marker".
+
+**The honest counterfactual.** If romanization and particle roles were computed in
+code and every other dimension scored exactly as it did, fully-correct items go
+from **1/10 to 2/10** — EK-05 and KE-03 — and invented rules go to **zero**. Not to
+5/10; an earlier estimate of roughly 5/10 was wrong in the flattering direction and
+is withdrawn. What then binds is **gloss at 6/10**, which no table settles, followed
+by literal-gap claims and register. So the deterministic work is worth doing on its
+own evidence — a zeroed zero-tolerance count and two dimensions made exact — but it
+**cannot reach the ≥9/10 bar by itself** and a second lever is certain, not probable.
 
 **What happened.** The prompt-repair run was independently re-scored and its
 provenance checked. The frozen ten-item set, its rubric and the baseline report
@@ -270,26 +302,32 @@ produced**: Revised Romanization is an algorithm over Hangul syllables, and a
 particle's identity and role can be read off the surface string and checked
 against it.
 
-**Decision: stop asking the model for the fields code can compute exactly.**
+**Recommended, pending the owner's answer: stop asking the model for the fields
+code can compute exactly.**
 
 1. **Romanization and particle identity move into application code** — generated
    from, and validated against, the `korean` line in the reply. The model keeps
    meaning, Korean word-order gloss, register and literal-gap claims. A reply whose
    `particles[]` names a particle absent from its own `korean` line is a contract
    violation the code resolves, not a sentence the reviewer has to catch.
-2. **A new held-out gate is frozen first, by someone who does not tune prompts.**
-   Ten new corpus items, the existing rubric unchanged, committed in its own commit
-   before any prompt or model change that it will judge. The commit order is the
+2. **A new held-out gate is frozen first, by someone who does not tune prompts**
+   — decided, not on the card, and already under way on BAD-209. Ten new corpus
+   items, the existing rubric unchanged, committed in its own commit before any
+   prompt or model change that it will judge, with the run's provenance stamped into
+   every raw row rather than reconstructed afterwards. The commit order is the
    proof; a report asserting isolation is not.
-3. **A larger quantization of the same 4B is not the next rung.** It was the run
-   report's recommendation and it is declined on this evidence: quantization
-   precision does not teach syllable segmentation. It stays available as a cheap
-   probe after the deterministic fields land and a clean baseline exists, when its
-   effect can actually be isolated.
-4. **The fine-tune stays authorized and moves behind this.** Training the model to
-   emit romanization that code computes exactly would spend capacity on a solved
-   task. Error analysis runs against the post-extraction baseline, so the training
-   set is built from the dimensions that are genuinely the model's job.
+3. **A larger quantization of the same 4B is on the card, not declined by me.** It
+   is the run report's recommendation, and the argument against taking it first is
+   that quantization precision does not teach syllable segmentation, while it does
+   make a 73.568 s warm p95 worse. The argument for it is that it is the cheapest
+   measurement of the four. Nick decides.
+4. **The fine-tune stays authorized.** Training the model to emit romanization that
+   code computes exactly would spend capacity on a solved task, so if the
+   deterministic rung is chosen the fine-tune's error analysis should read the
+   post-extraction baseline. On the measured counts the dimensions a fine-tune would
+   have to earn — gloss, literal gap, register, meaning — are exactly what survives
+   the deterministic pass, which is the strongest argument for running the two in
+   that order.
 
 No paid model, no cloud fallback and no new spend are involved; every step above is
 free and local, inside the owner constraint at the top of this file.

@@ -616,7 +616,7 @@ Ran the ten frozen items through the real Tauri WebKit commands and production a
 
 Repaired the one shared JSON prompt with explicit requested direction, closed role wording, noun-particle rules, romanization and literal-gap checks; added deterministic Hangul-script direction through the Explore Local adapter, Tauri command/native worker and developer comparison path. This changes the app's `translate_local` IPC request and result direction behavior; the role enum and all learner data schemas remain unchanged. Built a separate six-item corpus development set, ran two prompt candidates there, restored the better observed first candidate, then ran the ten frozen items once without further prompt edits. `reference/eval/v0-prompt-repair-results.md` and its raw/scored siblings record **10/10 schema, 10/10 app direction, 1/10 fully correct, zero meaning reversals, three false rules**; the ≥9/10 language gate still fails. Native warm p95 was 73.568 s, peak process RSS 3,009,504 KiB, cancellation <1 ms at integer resolution. A later offline WebKit Explore smoke on separate development inputs rendered/saved a Hangul translation, cancelled a request in 43 ms, completed a greeting, and kept one saved card; it did not rerun the frozen set. `npm test`: 151/151; `npm run validate:content`: 15/15; `npm run build`: passed with the existing chunk-size advisory; `cargo test --locked --release --manifest-path src-tauri/Cargo.toml --lib local_translation`: 8 passed, 1 opt-in model test ignored; `python3 reference/eval/summarize-prompt-repair.py`: 10 scored; `git diff --check`: passed. Next: test a larger quantization of the same free local model on a new frozen language gate, and measure a matched desktop runtime; keep the paid proxy outside the shipped app.
 
-### 2026-10-04 — Retire the burned v0 gate; deterministic fields are the next rung
+### 2026-10-04 — Retire the burned v0 gate; recommend deterministic fields (owner's choice open)
 
 Documentation and scope decision only — no app code, content, dependency or schema changed. The
 repaired-prompt run cannot serve as an acceptance result: `dev-translation-set.json`,
@@ -625,14 +625,21 @@ repaired-prompt run cannot serve as an acceptance result: `dev-translation-set.j
 proves the development set and final prompt preceded the held-out run, which the rubric requires.
 The frozen `reference/eval/v0-translation-set.json` is therefore **retired as a gate** and retained
 for reporting and regression; a replacement set is frozen first, in its own commit, by an agent who
-does not tune prompts. This supersedes the previous entry's "test a larger quantization" next step:
-that rung is **declined** on the evidence and kept only as a later probe. The six-item development
+does not tune prompts. The rung choice is **Nick's and is open** on a pending card: deterministic fields in code
+(recommended), a larger quantization, the authorized QLoRA fine-tune, or a larger 8B/14B local model.
+The previous entry's "test a larger quantization" next step is therefore **not** superseded by a
+decision; it is one of the four levers on that card. The six-item development
 set contains no frozen item and shows the same systematic failures across two prompt candidates —
 malformed romanization on five of six, subject 가 called a topic, an omitted 도, an honorific
-statement rendered as a request — so romanization and particle identity are **moving out of the
-model into application code**, generated from and validated against the reply's own `korean` line.
-The authorized fine-tune moves behind that extraction so its error analysis runs on a
-post-extraction baseline. v2 slice 1 (the model downloader) is unblocked under an authorized scope
+statement rendered as a request — so moving romanization and particle identity out of
+the model into application code, generated from and validated against the reply's own `korean` line,
+is the **recommended** lever. Measured per-dimension failures computed from
+`reference/eval/v0-prompt-repair-review.json`: romanization 8/10, gloss 6/10, particles 5/10,
+literal gap 3/10, register 2/10, meaning 1/10, invented rules 3/10, with all three invented-rule
+items being the same particle error. Computing the two deterministic fields would move fully-correct
+items from **1/10 to 2/10** and invented rules to zero — not to the ~5/10 estimated earlier, which was
+wrong in the flattering direction and is withdrawn. **Gloss at 6/10 is what then binds**, so a second
+lever is certain. v2 slice 1 (the model downloader) is unblocked under an authorized scope
 change: it is built against a reproducible 1,048,576-byte fixture pin with a guard that refuses to
 download on any missing pin field, and the single real end-to-end download moves to its own child
 chained to artifact selection. No artifact is selected and no paid model or new spend is involved.
