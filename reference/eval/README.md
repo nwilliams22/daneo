@@ -17,6 +17,11 @@ another greeting. Its raw recorder needs the developer-only `acceptance` feature
 ```sh
 cargo build --locked --release --manifest-path src-tauri/Cargo.toml \
   --features acceptance --example prompt_probe
+DANEO_ACCEPTANCE_HEAD="$(git rev-parse HEAD)" \
+DANEO_ACCEPTANCE_PROMPT_SHA256="$(sha256sum src/lib/translation-prompt.json | cut -d' ' -f1)" \
+DANEO_ACCEPTANCE_RUBRIC_SHA256="$(sha256sum reference/eval/v0-rubric.md | cut -d' ' -f1)" \
+DANEO_ACCEPTANCE_SET_PATH=reference/eval/dev-translation-set.json \
+DANEO_ACCEPTANCE_SET_SHA256="$(sha256sum reference/eval/dev-translation-set.json | cut -d' ' -f1)" \
 DANEO_MODEL_PATH="$PWD/.local-models/Qwen3.5-4B-Q4_K_M.gguf" \
 DANEO_ACCEPTANCE_RAW="$PAPERCLIP_RUN_SCRATCH_DIR/probe-raw.jsonl" \
   /usr/bin/time -v unshare --user --map-root-user --net \
