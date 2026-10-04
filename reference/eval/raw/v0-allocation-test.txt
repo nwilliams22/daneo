@@ -1,0 +1,6 @@
+Command: DANEO_MODEL_PATH=<verified GGUF> DANEO_TEST_RESULT_PATH=reference/eval/raw/v0-allocation-recovery.json cargo test --locked --release --manifest-path src-tauri/Cargo.toml --lib real_model_cancel_allocation_failure_then_success -- --ignored --nocapture
+Exit code: 0
+running 1 test
+REAL_TRANSLATION={"ok":true,"result":{"cultural_note":"This is the standard polite greeting used in almost all formal and informal situations in Korea.","direction":"en-to-ko","gloss":[{"chunk":"안녕하세요","gloss":"hello","role":"verb"}],"korean":"안녕하세요.","literal_gap":"","natural_english":"Hello.","particles":[],"romanization":"Annyeonghaseyo."}}
+test local_translation::tests::real_model_cancel_allocation_failure_then_success ... ok
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 8 filtered out; finished in 16.48s

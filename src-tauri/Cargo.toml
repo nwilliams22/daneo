@@ -31,3 +31,11 @@ minijinja-contrib = { version = "2", features = ["pycompat"] }
 
 [dev-dependencies]
 tauri = { version = "2.11.3", features = ["test"] }
+
+[features]
+# Explicit developer-only evidence capture; never enable for distributed builds.
+acceptance = []
+
+[[example]]
+name = "acceptance"
+required-features = ["acceptance"]

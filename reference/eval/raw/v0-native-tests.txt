@@ -1,0 +1,15 @@
+    Finished `release` profile [optimized] target(s) in 0.08s
+     Running unittests src/lib.rs (src-tauri/target/release/deps/app_lib-16f32ca74a213c22)
+
+running 9 tests
+test local_translation::native::tests::controlled_allocation_and_decode_failure_are_typed ... ok
+test local_translation::tests::real_model_cancel_allocation_failure_then_success ... ignored, requires the manually provisioned pinned GGUF
+test local_translation::tests::all_failures_release_resources_and_allow_next_request ... ok
+test local_translation::tests::native_missing_model_uses_the_wire_error_envelope ... ok
+test local_translation::tests::queued_cancel_never_runs_backend_and_duplicate_ids_are_rejected ... ok
+test local_translation::native::tests::missing_and_corrupt_files_are_typed ... ok
+test local_translation::tests::unwind_is_typed_and_does_not_poison_the_next_request ... ok
+test local_translation::tests::registered_commands_accept_camel_case_arguments_and_return_envelopes ... ok
+test local_translation::tests::cancel_then_immediate_request_is_serialized_and_isolated ... ok
+
+test result: ok. 8 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.03s

@@ -18,6 +18,26 @@ use crate::model_artifact::{MODEL_BYTES, MODEL_SHA256};
 const CONTEXT_TOKENS: u32 = 4096;
 const OUTPUT_TOKENS: usize = 1024;
 
+#[cfg(feature = "acceptance")]
+fn retain_raw(request: &Request, text: &str, complete: bool) {
+    use std::io::Write;
+    if let Some(path) = std::env::var_os("DANEO_ACCEPTANCE_RAW") {
+        let mut file = std::fs::OpenOptions::new()
+            .create(true)
+            .append(true)
+            .open(path)
+            .expect("open acceptance raw output");
+        writeln!(
+            file,
+            "{}",
+            serde_json::json!({
+                "requestId": request.request_id, "rawReply": text, "complete": complete
+            })
+        )
+        .expect("retain acceptance raw output");
+    }
+}
+
 fn corrupt() -> TranslateError {
     TranslateError::new(
         ErrorCode::ModelCorrupt,
@@ -176,6 +196,8 @@ pub(super) fn generate(
         if vocab.is_eog(token) {
             let text = String::from_utf8(vocab.detokenize(&output, false, true))
                 .map_err(|_| TranslateError::generation())?;
+            #[cfg(feature = "acceptance")]
+            retain_raw(request, &text, true);
             // Match the shared parser's fence tolerance; zod validates at the client boundary.
             return serde_json::from_str(text.replace("```json", "").replace("```", "").trim())
                 .map_err(|_| {
@@ -188,6 +210,12 @@ pub(super) fn generate(
         decode_result(batch.add(token, position as i32, &[0], true))?;
         decode_result(context.decode(&mut batch))?;
     }
+    #[cfg(feature = "acceptance")]
+    retain_raw(
+        request,
+        &String::from_utf8_lossy(vocab.detokenize(&output, false, true).as_slice()),
+        false,
+    );
     Err(TranslateError::new(
         ErrorCode::GenerationFailed,
         "Local output reached the token limit before completion.",

@@ -1,0 +1,1 @@
+{"rendered":"Local model absentThe local model file is missing.For this development build, set DANEO_MODEL_PATH to the verified GGUF and restart the desktop app.","requestId":"typed-error","state":{"error":{"code":"model-missing","message":"The local model file is missing."},"requestId":null,"state":"absent"}}

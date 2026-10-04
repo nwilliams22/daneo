@@ -1,0 +1,4260 @@
+{
+  "summary": {
+    "requests": 31,
+    "warmRequests": 30,
+    "schemaCompleteItems": 9,
+    "correctDirectionItems": 8,
+    "thinkingLeaks": 0,
+    "fullyCorrectItems": 0,
+    "meaningReversals": 0,
+    "inventedRuleItems": 4,
+    "warmP95CompletionMs": 18921.99999999997,
+    "warmMinCompletionMs": 12415,
+    "warmMaxCompletionMs": 21824,
+    "p95Method": "nearest rank: ceil(0.95 * 30) = 29th ascending observation",
+    "rawTextIdenticalAcrossRepeats": true,
+    "thinkingReview": "No reasoning prose seen in manual review; marker check also negative."
+  },
+  "results": [
+    {
+      "completionMs": 17093,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-01",
+      "input": "I drink water",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "물",
+              "gloss": "water",
+              "role": "object"
+            },
+            {
+              "chunk": "마시-",
+              "gloss": "drink",
+              "role": "verb"
+            },
+            {
+              "chunk": "-요",
+              "gloss": "-yo",
+              "role": "other"
+            }
+          ],
+          "korean": "물을 마시요.",
+          "literal_gap": "",
+          "natural_english": "I drink water.",
+          "particles": [
+            {
+              "job": "marks the object noun 'water' as the thing being acted upon.",
+              "particle": "-을"
+            }
+          ],
+          "romanization": "mul-eul masiyo."
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 27,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1820,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1833,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 5425,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "cold-DAN-V0-EK-01",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"물을 마시요.\",\n  \"romanization\": \"mul-eul masiyo.\",\n  \"natural_english\": \"I drink water.\",\n  \"gloss\": [\n    {\"chunk\": \"물\", \"gloss\": \"water\", \"role\": \"object\"},\n    {\"chunk\": \"마시-\", \"gloss\": \"drink\", \"role\": \"verb\"},\n    {\"chunk\": \"-요\", \"gloss\": \"-yo\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-을\", \"job\": \"marks the object noun 'water' as the thing being acted upon.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "물을 마시요.",
+        "romanization": "mul-eul masiyo.",
+        "natural_english": "I drink water.",
+        "gloss": [
+          {
+            "chunk": "물",
+            "gloss": "water",
+            "role": "object"
+          },
+          {
+            "chunk": "마시-",
+            "gloss": "drink",
+            "role": "verb"
+          },
+          {
+            "chunk": "-요",
+            "gloss": "-yo",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-을",
+            "job": "marks the object noun 'water' as the thing being acted upon."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Water remains the object of drinking; first person is understood and supplied in natural_english."
+        ],
+        "gloss": [
+          false,
+          "물 is glossed without its object marker and the output splits an incorrect 마시- + -요 conjugation rather than the lesson's 마셔요."
+        ],
+        "particles": [
+          true,
+          "-을 correctly identifies water as the object."
+        ],
+        "politeRegister": [
+          false,
+          "물을 마시요 is not the required polite conjugation 마셔요; module-1.md verb table explicitly gives 마시다 → 마셔요."
+        ],
+        "romanization": [
+          true,
+          "mul-eul masiyo tracks the malformed Korean actually returned; this does not rescue the Korean conjugation."
+        ],
+        "literalGap": [
+          true,
+          "No probed literal-gap explanation is required for this item."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_water",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "1a503b16715015b25c6a477571d55f7a82f182cd2a35ba5b05c5fdeeb246d72b"
+    },
+    {
+      "completionMs": 17101,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-01",
+      "input": "I drink water",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "물",
+              "gloss": "water",
+              "role": "object"
+            },
+            {
+              "chunk": "마시-",
+              "gloss": "drink",
+              "role": "verb"
+            },
+            {
+              "chunk": "-요",
+              "gloss": "-yo",
+              "role": "other"
+            }
+          ],
+          "korean": "물을 마시요.",
+          "literal_gap": "",
+          "natural_english": "I drink water.",
+          "particles": [
+            {
+              "job": "marks the object noun 'water' as the thing being acted upon.",
+              "particle": "-을"
+            }
+          ],
+          "romanization": "mul-eul masiyo."
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1787,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1801,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 5387,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-EK-01",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"물을 마시요.\",\n  \"romanization\": \"mul-eul masiyo.\",\n  \"natural_english\": \"I drink water.\",\n  \"gloss\": [\n    {\"chunk\": \"물\", \"gloss\": \"water\", \"role\": \"object\"},\n    {\"chunk\": \"마시-\", \"gloss\": \"drink\", \"role\": \"verb\"},\n    {\"chunk\": \"-요\", \"gloss\": \"-yo\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-을\", \"job\": \"marks the object noun 'water' as the thing being acted upon.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "물을 마시요.",
+        "romanization": "mul-eul masiyo.",
+        "natural_english": "I drink water.",
+        "gloss": [
+          {
+            "chunk": "물",
+            "gloss": "water",
+            "role": "object"
+          },
+          {
+            "chunk": "마시-",
+            "gloss": "drink",
+            "role": "verb"
+          },
+          {
+            "chunk": "-요",
+            "gloss": "-yo",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-을",
+            "job": "marks the object noun 'water' as the thing being acted upon."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Water remains the object of drinking; first person is understood and supplied in natural_english."
+        ],
+        "gloss": [
+          false,
+          "물 is glossed without its object marker and the output splits an incorrect 마시- + -요 conjugation rather than the lesson's 마셔요."
+        ],
+        "particles": [
+          true,
+          "-을 correctly identifies water as the object."
+        ],
+        "politeRegister": [
+          false,
+          "물을 마시요 is not the required polite conjugation 마셔요; module-1.md verb table explicitly gives 마시다 → 마셔요."
+        ],
+        "romanization": [
+          true,
+          "mul-eul masiyo tracks the malformed Korean actually returned; this does not rescue the Korean conjugation."
+        ],
+        "literalGap": [
+          true,
+          "No probed literal-gap explanation is required for this item."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_water",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "1a503b16715015b25c6a477571d55f7a82f182cd2a35ba5b05c5fdeeb246d72b"
+    },
+    {
+      "completionMs": 21824,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-02",
+      "input": "I don't eat meat",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "고기",
+              "gloss": "meat",
+              "role": "object"
+            },
+            {
+              "chunk": "을",
+              "gloss": "to",
+              "role": "object"
+            },
+            {
+              "chunk": "안",
+              "gloss": "not",
+              "role": "other"
+            },
+            {
+              "chunk": "먹다",
+              "gloss": "eat",
+              "role": "verb"
+            },
+            {
+              "chunk": "어요",
+              "gloss": "I do",
+              "role": "verb"
+            }
+          ],
+          "korean": "고기를 안 먹어요.",
+          "literal_gap": "",
+          "natural_english": "I don't eat meat.",
+          "particles": [
+            {
+              "job": "Marks the object 'meat' as the direct object of the verb.",
+              "particle": "을"
+            },
+            {
+              "job": "Negates the verb, indicating the action does not happen.",
+              "particle": "안"
+            }
+          ],
+          "romanization": "gogigeo-an meok-eoyo."
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1781,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1795.0000000000073,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 5388,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-EK-02",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"고기를 안 먹어요.\",\n  \"romanization\": \"gogigeo-an meok-eoyo.\",\n  \"natural_english\": \"I don't eat meat.\",\n  \"gloss\": [\n    {\"chunk\": \"고기\", \"gloss\": \"meat\", \"role\": \"object\"},\n    {\"chunk\": \"을\", \"gloss\": \"to\", \"role\": \"object\"},\n    {\"chunk\": \"안\", \"gloss\": \"not\", \"role\": \"other\"},\n    {\"chunk\": \"먹다\", \"gloss\": \"eat\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"I do\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"을\", \"job\": \"Marks the object 'meat' as the direct object of the verb.\"},\n    {\"particle\": \"안\", \"job\": \"Negates the verb, indicating the action does not happen.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "고기를 안 먹어요.",
+        "romanization": "gogigeo-an meok-eoyo.",
+        "natural_english": "I don't eat meat.",
+        "gloss": [
+          {
+            "chunk": "고기",
+            "gloss": "meat",
+            "role": "object"
+          },
+          {
+            "chunk": "을",
+            "gloss": "to",
+            "role": "object"
+          },
+          {
+            "chunk": "안",
+            "gloss": "not",
+            "role": "other"
+          },
+          {
+            "chunk": "먹다",
+            "gloss": "eat",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "I do",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "Marks the object 'meat' as the direct object of the verb."
+          },
+          {
+            "particle": "안",
+            "job": "Negates the verb, indicating the action does not happen."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "고기를 안 먹어요 preserves non-eating, not inability."
+        ],
+        "gloss": [
+          false,
+          "Invents 을 rather than the actual 를; renders it as 'to' and 어요 as 'I do', which incorrectly assigns person to the ending."
+        ],
+        "particles": [
+          false,
+          "Lists 을 where the Korean uses 를 and incorrectly lists negating adverb 안 as a particle."
+        ],
+        "politeRegister": [
+          true,
+          "먹어요 is the polite form."
+        ],
+        "romanization": [
+          false,
+          "gogigeo-an does not represent 고기를 안; the corpus anchor is gogireul an."
+        ],
+        "literalGap": [
+          true,
+          "No probed literal-gap explanation is required here."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s3_not_eat_meat",
+        "module": "src/content/modules/module-3.md"
+      },
+      "rawSha256": "8ceffb00a5f3b2be6e6c3afe333397a8bcd81894f6fac3f845cd47139004c302"
+    },
+    {
+      "completionMs": 18619,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-03",
+      "input": "The teacher is coming",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "선생님",
+              "gloss": "teacher",
+              "role": "subject"
+            },
+            {
+              "chunk": "이",
+              "gloss": "topic marker",
+              "role": "other"
+            },
+            {
+              "chunk": "오",
+              "gloss": "come",
+              "role": "verb"
+            },
+            {
+              "chunk": "세요",
+              "gloss": "polite present/future form",
+              "role": "verb"
+            }
+          ],
+          "korean": "선생님이 오세요",
+          "literal_gap": "",
+          "natural_english": "The teacher is coming",
+          "particles": [
+            {
+              "job": "Marks the topic of the sentence.",
+              "particle": "이"
+            }
+          ],
+          "romanization": "seonsaengnim-i o-seyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1786,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1799,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 5375,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-EK-03",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"선생님이 오세요\",\n  \"romanization\": \"seonsaengnim-i o-seyo\",\n  \"natural_english\": \"The teacher is coming\",\n  \"gloss\": [\n    {\"chunk\": \"선생님\", \"gloss\": \"teacher\", \"role\": \"subject\"},\n    {\"chunk\": \"이\", \"gloss\": \"topic marker\", \"role\": \"other\"},\n    {\"chunk\": \"오\", \"gloss\": \"come\", \"role\": \"verb\"},\n    {\"chunk\": \"세요\", \"gloss\": \"polite present/future form\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"Marks the topic of the sentence.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "선생님이 오세요",
+        "romanization": "seonsaengnim-i o-seyo",
+        "natural_english": "The teacher is coming",
+        "gloss": [
+          {
+            "chunk": "선생님",
+            "gloss": "teacher",
+            "role": "subject"
+          },
+          {
+            "chunk": "이",
+            "gloss": "topic marker",
+            "role": "other"
+          },
+          {
+            "chunk": "오",
+            "gloss": "come",
+            "role": "verb"
+          },
+          {
+            "chunk": "세요",
+            "gloss": "polite present/future form",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "Marks the topic of the sentence."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "선생님이 오세요 preserves the teacher coming; natural_english is a statement, not a request."
+        ],
+        "gloss": [
+          false,
+          "Calls 이 a topic marker instead of a grammatical subject marker; module-1.md distinguishes these."
+        ],
+        "particles": [
+          false,
+          "Explicit false rule: 이 'Marks the topic of the sentence.'"
+        ],
+        "politeRegister": [
+          true,
+          "오세요 honors the teacher as subject, per module-4.md §3."
+        ],
+        "romanization": [
+          true,
+          "seonsaengnim-i o-seyo tracks the actual Korean."
+        ],
+        "literalGap": [
+          true,
+          "No unsupported cultural or gap claim."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s4_teacher_comes",
+        "module": "src/content/modules/module-4.md"
+      },
+      "rawSha256": "ef419d35aeda3a10207bdd18a2cf689f655141e0036547f50d5e24b856a520df"
+    },
+    {
+      "completionMs": 18523,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-04",
+      "input": "I wash my hands",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "손",
+              "gloss": "hand",
+              "role": "object"
+            },
+            {
+              "chunk": "을",
+              "gloss": "to",
+              "role": "object"
+            },
+            {
+              "chunk": "씻",
+              "gloss": "wash",
+              "role": "verb"
+            },
+            {
+              "chunk": "어요",
+              "gloss": "-yo (polite ending)",
+              "role": "other"
+            }
+          ],
+          "korean": "손을 씻어요",
+          "literal_gap": "",
+          "natural_english": "I wash my hands",
+          "particles": [
+            {
+              "job": "Marks the object 'hand' as the thing being washed.",
+              "particle": "을"
+            }
+          ],
+          "romanization": "son-eul ssigeoyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1774,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1786,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 5410,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-EK-04",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"손을 씻어요\",\n  \"romanization\": \"son-eul ssigeoyo\",\n  \"natural_english\": \"I wash my hands\",\n  \"gloss\": [\n    {\"chunk\": \"손\", \"gloss\": \"hand\", \"role\": \"object\"},\n    {\"chunk\": \"을\", \"gloss\": \"to\", \"role\": \"object\"},\n    {\"chunk\": \"씻\", \"gloss\": \"wash\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"-yo (polite ending)\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"을\", \"job\": \"Marks the object 'hand' as the thing being washed.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "손을 씻어요",
+        "romanization": "son-eul ssigeoyo",
+        "natural_english": "I wash my hands",
+        "gloss": [
+          {
+            "chunk": "손",
+            "gloss": "hand",
+            "role": "object"
+          },
+          {
+            "chunk": "을",
+            "gloss": "to",
+            "role": "object"
+          },
+          {
+            "chunk": "씻",
+            "gloss": "wash",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "-yo (polite ending)",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "Marks the object 'hand' as the thing being washed."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "손을 씻어요 with understood speaker/possessor is explicitly permitted."
+        ],
+        "gloss": [
+          false,
+          "을 is rendered 'to', not the object relation required by the rubric."
+        ],
+        "particles": [
+          true,
+          "을 correctly marks the hand as the thing washed."
+        ],
+        "politeRegister": [
+          true,
+          "씻어요 is the expected polite form."
+        ],
+        "romanization": [
+          false,
+          "ssigeoyo does not track 씻어요 (ssiseoyo)."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the probed understood subject/possessor explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s8_wash_hands",
+        "module": "src/content/modules/module-8.md"
+      },
+      "rawSha256": "6690ac5dedf13b3f7ba82539666f698a90e0e4d735fdd2a045da328541312d9a"
+    },
+    {
+      "completionMs": 18586.000000000015,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-05",
+      "input": "I eat food",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "밥",
+              "gloss": "rice/food",
+              "role": "object"
+            },
+            {
+              "chunk": "을",
+              "gloss": "to",
+              "role": "object"
+            },
+            {
+              "chunk": "먹다",
+              "gloss": "eat",
+              "role": "verb"
+            },
+            {
+              "chunk": "어요",
+              "gloss": "-yo (polite present)",
+              "role": "other"
+            }
+          ],
+          "korean": "밥을 먹어요",
+          "literal_gap": "",
+          "natural_english": "I eat food",
+          "particles": [
+            {
+              "job": "Marks the preceding noun as the direct object of the verb.",
+              "particle": "을"
+            }
+          ],
+          "romanization": "babeul meogeoyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 2,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1808,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1824.0000000000143,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 5436,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-EK-05",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"밥을 먹어요\",\n  \"romanization\": \"babeul meogeoyo\",\n  \"natural_english\": \"I eat food\",\n  \"gloss\": [\n    {\"chunk\": \"밥\", \"gloss\": \"rice/food\", \"role\": \"object\"},\n    {\"chunk\": \"을\", \"gloss\": \"to\", \"role\": \"object\"},\n    {\"chunk\": \"먹다\", \"gloss\": \"eat\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"-yo (polite present)\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"을\", \"job\": \"Marks the preceding noun as the direct object of the verb.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "밥을 먹어요",
+        "romanization": "babeul meogeoyo",
+        "natural_english": "I eat food",
+        "gloss": [
+          {
+            "chunk": "밥",
+            "gloss": "rice/food",
+            "role": "object"
+          },
+          {
+            "chunk": "을",
+            "gloss": "to",
+            "role": "object"
+          },
+          {
+            "chunk": "먹다",
+            "gloss": "eat",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "-yo (polite present)",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "Marks the preceding noun as the direct object of the verb."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "밥을 먹어요 and 'I eat food' preserve the meal/food reading."
+        ],
+        "gloss": [
+          false,
+          "을 is glossed 'to' instead of an object suffix."
+        ],
+        "particles": [
+          true,
+          "을 correctly marks the direct object."
+        ],
+        "politeRegister": [
+          true,
+          "먹어요 is polite."
+        ],
+        "romanization": [
+          true,
+          "babeul meogeoyo follows 밥을 먹어요."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required cooked-rice versus ordinary meal explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_eat",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "853471f78861af7a9db21635cedd2e62659d60c67d6fcdbce3ddc6248a55a504"
+    },
+    {
+      "completionMs": 18921.99999999997,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-01",
+      "input": "친구가 커피를 좋아해요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "ko-to-en",
+          "gloss": [
+            {
+              "chunk": "친구",
+              "gloss": "friend",
+              "role": "subject"
+            },
+            {
+              "chunk": "커피를",
+              "gloss": "coffee-[obj]",
+              "role": "object"
+            },
+            {
+              "chunk": "좋아해요",
+              "gloss": "like",
+              "role": "verb"
+            }
+          ],
+          "korean": "친구가 커피를 좋아해요",
+          "literal_gap": "",
+          "natural_english": "My friend likes coffee.",
+          "particles": [
+            {
+              "job": "marks the subject of the sentence.",
+              "particle": "-가"
+            },
+            {
+              "job": "marks the object of the verb.",
+              "particle": "-를"
+            }
+          ],
+          "romanization": "chingu-ga keopi-reul joha-hayo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0.999999999985448,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1753,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1766.9999999999854,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 5343.999999999985,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-KE-01",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"친구가 커피를 좋아해요\",\n  \"romanization\": \"chingu-ga keopi-reul joha-hayo\",\n  \"natural_english\": \"My friend likes coffee.\",\n  \"gloss\": [\n    {\"chunk\": \"친구\", \"gloss\": \"friend\", \"role\": \"subject\"},\n    {\"chunk\": \"커피를\", \"gloss\": \"coffee-[obj]\", \"role\": \"object\"},\n    {\"chunk\": \"좋아해요\", \"gloss\": \"like\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-가\", \"job\": \"marks the subject of the sentence.\"},\n    {\"particle\": \"-를\", \"job\": \"marks the object of the verb.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "ko-to-en",
+        "korean": "친구가 커피를 좋아해요",
+        "romanization": "chingu-ga keopi-reul joha-hayo",
+        "natural_english": "My friend likes coffee.",
+        "gloss": [
+          {
+            "chunk": "친구",
+            "gloss": "friend",
+            "role": "subject"
+          },
+          {
+            "chunk": "커피를",
+            "gloss": "coffee-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "좋아해요",
+            "gloss": "like",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-가",
+            "job": "marks the subject of the sentence."
+          },
+          {
+            "particle": "-를",
+            "job": "marks the object of the verb."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "My friend likes coffee preserves subject, object and action."
+        ],
+        "gloss": [
+          true,
+          "Friend, coffee-[obj], like are in Korean order; friend is labelled subject."
+        ],
+        "particles": [
+          true,
+          "가 subject and 를 object are explained correctly."
+        ],
+        "politeRegister": [
+          true,
+          "좋아해요 remains polite."
+        ],
+        "romanization": [
+          false,
+          "joha-hayo changes 해 to ha rather than hae; compare the corpus joahaeyo."
+        ],
+        "literalGap": [
+          true,
+          "No probed gap or unsupported story."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_friend_coffee",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "eeaf9e2403513ce27412b6aec6ea02de7295ab7d0ba3149d126b343912b77bdb"
+    },
+    {
+      "completionMs": 16152.000000000016,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-02",
+      "input": "설탕이 없어요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "ko-to-en",
+          "gloss": [
+            {
+              "chunk": "설탕",
+              "gloss": "sugar",
+              "role": "subject"
+            },
+            {
+              "chunk": "없어요",
+              "gloss": "not exist",
+              "role": "verb"
+            }
+          ],
+          "korean": "설탕이 없어요",
+          "literal_gap": "",
+          "natural_english": "There's no sugar.",
+          "particles": [
+            {
+              "job": "marks the subject 'sugar' as the topic of the sentence.",
+              "particle": "이"
+            }
+          ],
+          "romanization": "seontang-i eop-seo-yo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1776.0000000000146,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1788.0000000000146,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 5376.000000000015,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-KE-02",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"설탕이 없어요\",\n  \"romanization\": \"seontang-i eop-seo-yo\",\n  \"natural_english\": \"There's no sugar.\",\n  \"gloss\": [\n    {\"chunk\": \"설탕\", \"gloss\": \"sugar\", \"role\": \"subject\"},\n    {\"chunk\": \"없어요\", \"gloss\": \"not exist\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"marks the subject 'sugar' as the topic of the sentence.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "ko-to-en",
+        "korean": "설탕이 없어요",
+        "romanization": "seontang-i eop-seo-yo",
+        "natural_english": "There's no sugar.",
+        "gloss": [
+          {
+            "chunk": "설탕",
+            "gloss": "sugar",
+            "role": "subject"
+          },
+          {
+            "chunk": "없어요",
+            "gloss": "not exist",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject 'sugar' as the topic of the sentence."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "There's no sugar preserves existential negation."
+        ],
+        "gloss": [
+          true,
+          "Sugar → not exist keeps Korean order and existential negation."
+        ],
+        "particles": [
+          false,
+          "Describes 이 as marking the subject 'as the topic', conflating the distinction explicitly required by the rubric."
+        ],
+        "politeRegister": [
+          true,
+          "없어요 remains polite."
+        ],
+        "romanization": [
+          false,
+          "seontang replaces 설탕's seoltang; the lexical syllable does not match the corpus or returned Hangul."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required not-exists/no-sugar explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s3_no_sugar",
+        "module": "src/content/modules/module-3.md"
+      },
+      "rawSha256": "204f5bf0c405c1420f6766fd8dcc868f6ed035fa8e05626ee835ee699987306d"
+    },
+    {
+      "completionMs": 14467,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-03",
+      "input": "여기 앉으세요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "여기",
+              "gloss": "here",
+              "role": "place"
+            },
+            {
+              "chunk": "앉으세요",
+              "gloss": "sit",
+              "role": "verb"
+            }
+          ],
+          "korean": "여기 앉으세요",
+          "literal_gap": "",
+          "natural_english": "Please sit here.",
+          "particles": [
+            {
+              "job": "polite imperative form used for requests or commands.",
+              "particle": "-(으)세요"
+            }
+          ],
+          "romanization": "yeogi anseuseyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1760,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1774,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 5328.000000000029,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-KE-03",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"여기 앉으세요\",\n  \"romanization\": \"yeogi anseuseyo\",\n  \"natural_english\": \"Please sit here.\",\n  \"gloss\": [\n    {\"chunk\": \"여기\", \"gloss\": \"here\", \"role\": \"place\"},\n    {\"chunk\": \"앉으세요\", \"gloss\": \"sit\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-(으)세요\", \"job\": \"polite imperative form used for requests or commands.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "여기 앉으세요",
+        "romanization": "yeogi anseuseyo",
+        "natural_english": "Please sit here.",
+        "gloss": [
+          {
+            "chunk": "여기",
+            "gloss": "here",
+            "role": "place"
+          },
+          {
+            "chunk": "앉으세요",
+            "gloss": "sit",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-(으)세요",
+            "job": "polite imperative form used for requests or commands."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": false,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Please sit here preserves the request, despite the wrong direction label."
+        ],
+        "gloss": [
+          true,
+          "Here → sit is in Korean order; natural_english and ending explanation retain the request."
+        ],
+        "particles": [
+          false,
+          "Lists -(으)세요 (a verbal ending) as a particle; the rubric expressly forbids this."
+        ],
+        "politeRegister": [
+          true,
+          "앉으세요 is a polite request, explained as such."
+        ],
+        "romanization": [
+          false,
+          "anseuseyo does not track 앉으세요; the corpus has anjeuseyo."
+        ],
+        "literalGap": [
+          true,
+          "No unsupported gap/cultural story."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s9_sit_here",
+        "module": "src/content/modules/module-9.md"
+      },
+      "rawSha256": "7845a3e7dc0ebf84bb13535a7b0b26ef33912db946ec8a1c5b858810e2bb1a71"
+    },
+    {
+      "completionMs": 16121,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-04",
+      "input": "어제 친구를 만났어요",
+      "outcome": {
+        "error": {
+          "code": "invalid-shape",
+          "message": "The local reply did not match the translator contract."
+        },
+        "ok": false
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1468,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1478,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4545,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-KE-04",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"어제 친구를 만났어요\",\n  \"romanization\": \"eoge chingu-reul mannat-eoss-eoyo\",\n  \"natural_english\": \"I met a friend yesterday.\",\n  \"gloss\": [\n    {\"chunk\": \"어제\", \"gloss\": \"yesterday\", \"role\": \"time\"},\n    {\"chunk\": \"친구\", \"gloss\": \"friend\", \"role\": \"object\"},\n    {\"chunk\": \"를\", \"gloss\": \"to\", \"role\": \"particle\"},\n    {\"chunk\": \"만났\", \"gloss\": \"met\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"-yo\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"를\", \"job\": \"marks the object of the verb.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "어제 친구를 만났어요",
+        "romanization": "eoge chingu-reul mannat-eoss-eoyo",
+        "natural_english": "I met a friend yesterday.",
+        "gloss": [
+          {
+            "chunk": "어제",
+            "gloss": "yesterday",
+            "role": "time"
+          },
+          {
+            "chunk": "친구",
+            "gloss": "friend",
+            "role": "object"
+          },
+          {
+            "chunk": "를",
+            "gloss": "to",
+            "role": "particle"
+          },
+          {
+            "chunk": "만났",
+            "gloss": "met",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "-yo",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "를",
+            "job": "marks the object of the verb."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": false,
+      "directionCorrect": false,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "I met a friend yesterday preserves past tense and understood speaker."
+        ],
+        "gloss": [
+          false,
+          "를 is glossed 'to'; roles time and particle are outside the schema."
+        ],
+        "particles": [
+          true,
+          "를 correctly marks the object."
+        ],
+        "politeRegister": [
+          true,
+          "만났어요 remains polite past tense."
+        ],
+        "romanization": [
+          false,
+          "eoge differs from 어제 (eoje), and mannat-eoss-eoyo adds material absent from 만났어요."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required explanation that the subject is understood."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s2_yesterday_friend",
+        "module": "src/content/modules/module-2.md"
+      },
+      "rawSha256": "04087fa4e354ddcac42164d03f854c7a67a59ab2854f99a80879ea6adfb79517"
+    },
+    {
+      "completionMs": 14893,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-05",
+      "input": "밥이 맛있어요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "ko-to-en",
+          "gloss": [
+            {
+              "chunk": "밥",
+              "gloss": "rice",
+              "role": "subject"
+            },
+            {
+              "chunk": "이",
+              "gloss": "topic marker",
+              "role": "other"
+            },
+            {
+              "chunk": "맛있-",
+              "gloss": "tasty",
+              "role": "verb"
+            },
+            {
+              "chunk": "-어요",
+              "gloss": "polite ending",
+              "role": "other"
+            }
+          ],
+          "korean": "밥이 맛있어요",
+          "literal_gap": "",
+          "natural_english": "The rice is delicious.",
+          "particles": [
+            {
+              "job": "Marks the topic of the sentence, indicating 'rice' is the subject being discussed.",
+              "particle": "이"
+            }
+          ],
+          "romanization": "babi matiss-eoyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1466,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1476,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4559,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-1-DAN-V0-KE-05",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"밥이 맛있어요\",\n  \"romanization\": \"babi matiss-eoyo\",\n  \"natural_english\": \"The rice is delicious.\",\n  \"gloss\": [\n    {\"chunk\": \"밥\", \"gloss\": \"rice\", \"role\": \"subject\"},\n    {\"chunk\": \"이\", \"gloss\": \"topic marker\", \"role\": \"other\"},\n    {\"chunk\": \"맛있-\", \"gloss\": \"tasty\", \"role\": \"verb\"},\n    {\"chunk\": \"-어요\", \"gloss\": \"polite ending\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"Marks the topic of the sentence, indicating 'rice' is the subject being discussed.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "ko-to-en",
+        "korean": "밥이 맛있어요",
+        "romanization": "babi matiss-eoyo",
+        "natural_english": "The rice is delicious.",
+        "gloss": [
+          {
+            "chunk": "밥",
+            "gloss": "rice",
+            "role": "subject"
+          },
+          {
+            "chunk": "이",
+            "gloss": "topic marker",
+            "role": "other"
+          },
+          {
+            "chunk": "맛있-",
+            "gloss": "tasty",
+            "role": "verb"
+          },
+          {
+            "chunk": "-어요",
+            "gloss": "polite ending",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "Marks the topic of the sentence, indicating 'rice' is the subject being discussed."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Rice is a possible literal reading of 밥; the missing ordinary food/meal and taste-exists explanations fail the separate literal-gap dimension."
+        ],
+        "gloss": [
+          false,
+          "이 is incorrectly glossed 'topic marker'."
+        ],
+        "particles": [
+          false,
+          "Confidently calls 이 a topic marker, contrary to module-1.md's subject/topic distinction."
+        ],
+        "politeRegister": [
+          true,
+          "맛있어요 remains polite."
+        ],
+        "romanization": [
+          true,
+          "babi matiss-eoyo follows the returned spelling; allowed as an orthographic variant rather than demanding an exact pronunciation spelling."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required 맛 (taste) + 있다 (exists) explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_food_delicious",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "01e5061b4c7440ea03c71f19cc3f1e3451dc841af059f540369697bf7edfe55f"
+    },
+    {
+      "completionMs": 13286,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-01",
+      "input": "I drink water",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "물",
+              "gloss": "water",
+              "role": "object"
+            },
+            {
+              "chunk": "마시-",
+              "gloss": "drink",
+              "role": "verb"
+            },
+            {
+              "chunk": "-요",
+              "gloss": "-yo",
+              "role": "other"
+            }
+          ],
+          "korean": "물을 마시요.",
+          "literal_gap": "",
+          "natural_english": "I drink water.",
+          "particles": [
+            {
+              "job": "marks the object noun 'water' as the thing being acted upon.",
+              "particle": "-을"
+            }
+          ],
+          "romanization": "mul-eul masiyo."
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1446,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1456,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4402,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-EK-01",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"물을 마시요.\",\n  \"romanization\": \"mul-eul masiyo.\",\n  \"natural_english\": \"I drink water.\",\n  \"gloss\": [\n    {\"chunk\": \"물\", \"gloss\": \"water\", \"role\": \"object\"},\n    {\"chunk\": \"마시-\", \"gloss\": \"drink\", \"role\": \"verb\"},\n    {\"chunk\": \"-요\", \"gloss\": \"-yo\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-을\", \"job\": \"marks the object noun 'water' as the thing being acted upon.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "물을 마시요.",
+        "romanization": "mul-eul masiyo.",
+        "natural_english": "I drink water.",
+        "gloss": [
+          {
+            "chunk": "물",
+            "gloss": "water",
+            "role": "object"
+          },
+          {
+            "chunk": "마시-",
+            "gloss": "drink",
+            "role": "verb"
+          },
+          {
+            "chunk": "-요",
+            "gloss": "-yo",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-을",
+            "job": "marks the object noun 'water' as the thing being acted upon."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Water remains the object of drinking; first person is understood and supplied in natural_english."
+        ],
+        "gloss": [
+          false,
+          "물 is glossed without its object marker and the output splits an incorrect 마시- + -요 conjugation rather than the lesson's 마셔요."
+        ],
+        "particles": [
+          true,
+          "-을 correctly identifies water as the object."
+        ],
+        "politeRegister": [
+          false,
+          "물을 마시요 is not the required polite conjugation 마셔요; module-1.md verb table explicitly gives 마시다 → 마셔요."
+        ],
+        "romanization": [
+          true,
+          "mul-eul masiyo tracks the malformed Korean actually returned; this does not rescue the Korean conjugation."
+        ],
+        "literalGap": [
+          true,
+          "No probed literal-gap explanation is required for this item."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_water",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "1a503b16715015b25c6a477571d55f7a82f182cd2a35ba5b05c5fdeeb246d72b"
+    },
+    {
+      "completionMs": 17360.99999999997,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-02",
+      "input": "I don't eat meat",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "고기",
+              "gloss": "meat",
+              "role": "object"
+            },
+            {
+              "chunk": "을",
+              "gloss": "to",
+              "role": "object"
+            },
+            {
+              "chunk": "안",
+              "gloss": "not",
+              "role": "other"
+            },
+            {
+              "chunk": "먹다",
+              "gloss": "eat",
+              "role": "verb"
+            },
+            {
+              "chunk": "어요",
+              "gloss": "I do",
+              "role": "verb"
+            }
+          ],
+          "korean": "고기를 안 먹어요.",
+          "literal_gap": "",
+          "natural_english": "I don't eat meat.",
+          "particles": [
+            {
+              "job": "Marks the object 'meat' as the direct object of the verb.",
+              "particle": "을"
+            },
+            {
+              "job": "Negates the verb, indicating the action does not happen.",
+              "particle": "안"
+            }
+          ],
+          "romanization": "gogigeo-an meok-eoyo."
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1452.999999999971,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1462.999999999971,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4422.999999999971,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-EK-02",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"고기를 안 먹어요.\",\n  \"romanization\": \"gogigeo-an meok-eoyo.\",\n  \"natural_english\": \"I don't eat meat.\",\n  \"gloss\": [\n    {\"chunk\": \"고기\", \"gloss\": \"meat\", \"role\": \"object\"},\n    {\"chunk\": \"을\", \"gloss\": \"to\", \"role\": \"object\"},\n    {\"chunk\": \"안\", \"gloss\": \"not\", \"role\": \"other\"},\n    {\"chunk\": \"먹다\", \"gloss\": \"eat\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"I do\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"을\", \"job\": \"Marks the object 'meat' as the direct object of the verb.\"},\n    {\"particle\": \"안\", \"job\": \"Negates the verb, indicating the action does not happen.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "고기를 안 먹어요.",
+        "romanization": "gogigeo-an meok-eoyo.",
+        "natural_english": "I don't eat meat.",
+        "gloss": [
+          {
+            "chunk": "고기",
+            "gloss": "meat",
+            "role": "object"
+          },
+          {
+            "chunk": "을",
+            "gloss": "to",
+            "role": "object"
+          },
+          {
+            "chunk": "안",
+            "gloss": "not",
+            "role": "other"
+          },
+          {
+            "chunk": "먹다",
+            "gloss": "eat",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "I do",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "Marks the object 'meat' as the direct object of the verb."
+          },
+          {
+            "particle": "안",
+            "job": "Negates the verb, indicating the action does not happen."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "고기를 안 먹어요 preserves non-eating, not inability."
+        ],
+        "gloss": [
+          false,
+          "Invents 을 rather than the actual 를; renders it as 'to' and 어요 as 'I do', which incorrectly assigns person to the ending."
+        ],
+        "particles": [
+          false,
+          "Lists 을 where the Korean uses 를 and incorrectly lists negating adverb 안 as a particle."
+        ],
+        "politeRegister": [
+          true,
+          "먹어요 is the polite form."
+        ],
+        "romanization": [
+          false,
+          "gogigeo-an does not represent 고기를 안; the corpus anchor is gogireul an."
+        ],
+        "literalGap": [
+          true,
+          "No probed literal-gap explanation is required here."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s3_not_eat_meat",
+        "module": "src/content/modules/module-3.md"
+      },
+      "rawSha256": "8ceffb00a5f3b2be6e6c3afe333397a8bcd81894f6fac3f845cd47139004c302"
+    },
+    {
+      "completionMs": 14735,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-03",
+      "input": "The teacher is coming",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "선생님",
+              "gloss": "teacher",
+              "role": "subject"
+            },
+            {
+              "chunk": "이",
+              "gloss": "topic marker",
+              "role": "other"
+            },
+            {
+              "chunk": "오",
+              "gloss": "come",
+              "role": "verb"
+            },
+            {
+              "chunk": "세요",
+              "gloss": "polite present/future form",
+              "role": "verb"
+            }
+          ],
+          "korean": "선생님이 오세요",
+          "literal_gap": "",
+          "natural_english": "The teacher is coming",
+          "particles": [
+            {
+              "job": "Marks the topic of the sentence.",
+              "particle": "이"
+            }
+          ],
+          "romanization": "seonsaengnim-i o-seyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1462,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1472.000000000029,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4533,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-EK-03",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"선생님이 오세요\",\n  \"romanization\": \"seonsaengnim-i o-seyo\",\n  \"natural_english\": \"The teacher is coming\",\n  \"gloss\": [\n    {\"chunk\": \"선생님\", \"gloss\": \"teacher\", \"role\": \"subject\"},\n    {\"chunk\": \"이\", \"gloss\": \"topic marker\", \"role\": \"other\"},\n    {\"chunk\": \"오\", \"gloss\": \"come\", \"role\": \"verb\"},\n    {\"chunk\": \"세요\", \"gloss\": \"polite present/future form\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"Marks the topic of the sentence.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "선생님이 오세요",
+        "romanization": "seonsaengnim-i o-seyo",
+        "natural_english": "The teacher is coming",
+        "gloss": [
+          {
+            "chunk": "선생님",
+            "gloss": "teacher",
+            "role": "subject"
+          },
+          {
+            "chunk": "이",
+            "gloss": "topic marker",
+            "role": "other"
+          },
+          {
+            "chunk": "오",
+            "gloss": "come",
+            "role": "verb"
+          },
+          {
+            "chunk": "세요",
+            "gloss": "polite present/future form",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "Marks the topic of the sentence."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "선생님이 오세요 preserves the teacher coming; natural_english is a statement, not a request."
+        ],
+        "gloss": [
+          false,
+          "Calls 이 a topic marker instead of a grammatical subject marker; module-1.md distinguishes these."
+        ],
+        "particles": [
+          false,
+          "Explicit false rule: 이 'Marks the topic of the sentence.'"
+        ],
+        "politeRegister": [
+          true,
+          "오세요 honors the teacher as subject, per module-4.md §3."
+        ],
+        "romanization": [
+          true,
+          "seonsaengnim-i o-seyo tracks the actual Korean."
+        ],
+        "literalGap": [
+          true,
+          "No unsupported cultural or gap claim."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s4_teacher_comes",
+        "module": "src/content/modules/module-4.md"
+      },
+      "rawSha256": "ef419d35aeda3a10207bdd18a2cf689f655141e0036547f50d5e24b856a520df"
+    },
+    {
+      "completionMs": 14435,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-04",
+      "input": "I wash my hands",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "손",
+              "gloss": "hand",
+              "role": "object"
+            },
+            {
+              "chunk": "을",
+              "gloss": "to",
+              "role": "object"
+            },
+            {
+              "chunk": "씻",
+              "gloss": "wash",
+              "role": "verb"
+            },
+            {
+              "chunk": "어요",
+              "gloss": "-yo (polite ending)",
+              "role": "other"
+            }
+          ],
+          "korean": "손을 씻어요",
+          "literal_gap": "",
+          "natural_english": "I wash my hands",
+          "particles": [
+            {
+              "job": "Marks the object 'hand' as the thing being washed.",
+              "particle": "을"
+            }
+          ],
+          "romanization": "son-eul ssigeoyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1446.000000000029,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1456,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4355,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-EK-04",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"손을 씻어요\",\n  \"romanization\": \"son-eul ssigeoyo\",\n  \"natural_english\": \"I wash my hands\",\n  \"gloss\": [\n    {\"chunk\": \"손\", \"gloss\": \"hand\", \"role\": \"object\"},\n    {\"chunk\": \"을\", \"gloss\": \"to\", \"role\": \"object\"},\n    {\"chunk\": \"씻\", \"gloss\": \"wash\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"-yo (polite ending)\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"을\", \"job\": \"Marks the object 'hand' as the thing being washed.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "손을 씻어요",
+        "romanization": "son-eul ssigeoyo",
+        "natural_english": "I wash my hands",
+        "gloss": [
+          {
+            "chunk": "손",
+            "gloss": "hand",
+            "role": "object"
+          },
+          {
+            "chunk": "을",
+            "gloss": "to",
+            "role": "object"
+          },
+          {
+            "chunk": "씻",
+            "gloss": "wash",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "-yo (polite ending)",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "Marks the object 'hand' as the thing being washed."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "손을 씻어요 with understood speaker/possessor is explicitly permitted."
+        ],
+        "gloss": [
+          false,
+          "을 is rendered 'to', not the object relation required by the rubric."
+        ],
+        "particles": [
+          true,
+          "을 correctly marks the hand as the thing washed."
+        ],
+        "politeRegister": [
+          true,
+          "씻어요 is the expected polite form."
+        ],
+        "romanization": [
+          false,
+          "ssigeoyo does not track 씻어요 (ssiseoyo)."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the probed understood subject/possessor explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s8_wash_hands",
+        "module": "src/content/modules/module-8.md"
+      },
+      "rawSha256": "6690ac5dedf13b3f7ba82539666f698a90e0e4d735fdd2a045da328541312d9a"
+    },
+    {
+      "completionMs": 14491,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-05",
+      "input": "I eat food",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "밥",
+              "gloss": "rice/food",
+              "role": "object"
+            },
+            {
+              "chunk": "을",
+              "gloss": "to",
+              "role": "object"
+            },
+            {
+              "chunk": "먹다",
+              "gloss": "eat",
+              "role": "verb"
+            },
+            {
+              "chunk": "어요",
+              "gloss": "-yo (polite present)",
+              "role": "other"
+            }
+          ],
+          "korean": "밥을 먹어요",
+          "literal_gap": "",
+          "natural_english": "I eat food",
+          "particles": [
+            {
+              "job": "Marks the preceding noun as the direct object of the verb.",
+              "particle": "을"
+            }
+          ],
+          "romanization": "babeul meogeoyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1457.000000000029,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1467,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4371.000000000029,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-EK-05",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"밥을 먹어요\",\n  \"romanization\": \"babeul meogeoyo\",\n  \"natural_english\": \"I eat food\",\n  \"gloss\": [\n    {\"chunk\": \"밥\", \"gloss\": \"rice/food\", \"role\": \"object\"},\n    {\"chunk\": \"을\", \"gloss\": \"to\", \"role\": \"object\"},\n    {\"chunk\": \"먹다\", \"gloss\": \"eat\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"-yo (polite present)\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"을\", \"job\": \"Marks the preceding noun as the direct object of the verb.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "밥을 먹어요",
+        "romanization": "babeul meogeoyo",
+        "natural_english": "I eat food",
+        "gloss": [
+          {
+            "chunk": "밥",
+            "gloss": "rice/food",
+            "role": "object"
+          },
+          {
+            "chunk": "을",
+            "gloss": "to",
+            "role": "object"
+          },
+          {
+            "chunk": "먹다",
+            "gloss": "eat",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "-yo (polite present)",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "Marks the preceding noun as the direct object of the verb."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "밥을 먹어요 and 'I eat food' preserve the meal/food reading."
+        ],
+        "gloss": [
+          false,
+          "을 is glossed 'to' instead of an object suffix."
+        ],
+        "particles": [
+          true,
+          "을 correctly marks the direct object."
+        ],
+        "politeRegister": [
+          true,
+          "먹어요 is polite."
+        ],
+        "romanization": [
+          true,
+          "babeul meogeoyo follows 밥을 먹어요."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required cooked-rice versus ordinary meal explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_eat",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "853471f78861af7a9db21635cedd2e62659d60c67d6fcdbce3ddc6248a55a504"
+    },
+    {
+      "completionMs": 14963,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-01",
+      "input": "친구가 커피를 좋아해요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "ko-to-en",
+          "gloss": [
+            {
+              "chunk": "친구",
+              "gloss": "friend",
+              "role": "subject"
+            },
+            {
+              "chunk": "커피를",
+              "gloss": "coffee-[obj]",
+              "role": "object"
+            },
+            {
+              "chunk": "좋아해요",
+              "gloss": "like",
+              "role": "verb"
+            }
+          ],
+          "korean": "친구가 커피를 좋아해요",
+          "literal_gap": "",
+          "natural_english": "My friend likes coffee.",
+          "particles": [
+            {
+              "job": "marks the subject of the sentence.",
+              "particle": "-가"
+            },
+            {
+              "job": "marks the object of the verb.",
+              "particle": "-를"
+            }
+          ],
+          "romanization": "chingu-ga keopi-reul joha-hayo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1456,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1467,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4467,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-KE-01",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"친구가 커피를 좋아해요\",\n  \"romanization\": \"chingu-ga keopi-reul joha-hayo\",\n  \"natural_english\": \"My friend likes coffee.\",\n  \"gloss\": [\n    {\"chunk\": \"친구\", \"gloss\": \"friend\", \"role\": \"subject\"},\n    {\"chunk\": \"커피를\", \"gloss\": \"coffee-[obj]\", \"role\": \"object\"},\n    {\"chunk\": \"좋아해요\", \"gloss\": \"like\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-가\", \"job\": \"marks the subject of the sentence.\"},\n    {\"particle\": \"-를\", \"job\": \"marks the object of the verb.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "ko-to-en",
+        "korean": "친구가 커피를 좋아해요",
+        "romanization": "chingu-ga keopi-reul joha-hayo",
+        "natural_english": "My friend likes coffee.",
+        "gloss": [
+          {
+            "chunk": "친구",
+            "gloss": "friend",
+            "role": "subject"
+          },
+          {
+            "chunk": "커피를",
+            "gloss": "coffee-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "좋아해요",
+            "gloss": "like",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-가",
+            "job": "marks the subject of the sentence."
+          },
+          {
+            "particle": "-를",
+            "job": "marks the object of the verb."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "My friend likes coffee preserves subject, object and action."
+        ],
+        "gloss": [
+          true,
+          "Friend, coffee-[obj], like are in Korean order; friend is labelled subject."
+        ],
+        "particles": [
+          true,
+          "가 subject and 를 object are explained correctly."
+        ],
+        "politeRegister": [
+          true,
+          "좋아해요 remains polite."
+        ],
+        "romanization": [
+          false,
+          "joha-hayo changes 해 to ha rather than hae; compare the corpus joahaeyo."
+        ],
+        "literalGap": [
+          true,
+          "No probed gap or unsupported story."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_friend_coffee",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "eeaf9e2403513ce27412b6aec6ea02de7295ab7d0ba3149d126b343912b77bdb"
+    },
+    {
+      "completionMs": 12974,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-02",
+      "input": "설탕이 없어요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "ko-to-en",
+          "gloss": [
+            {
+              "chunk": "설탕",
+              "gloss": "sugar",
+              "role": "subject"
+            },
+            {
+              "chunk": "없어요",
+              "gloss": "not exist",
+              "role": "verb"
+            }
+          ],
+          "korean": "설탕이 없어요",
+          "literal_gap": "",
+          "natural_english": "There's no sugar.",
+          "particles": [
+            {
+              "job": "marks the subject 'sugar' as the topic of the sentence.",
+              "particle": "이"
+            }
+          ],
+          "romanization": "seontang-i eop-seo-yo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1467,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1477,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4602,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-KE-02",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"설탕이 없어요\",\n  \"romanization\": \"seontang-i eop-seo-yo\",\n  \"natural_english\": \"There's no sugar.\",\n  \"gloss\": [\n    {\"chunk\": \"설탕\", \"gloss\": \"sugar\", \"role\": \"subject\"},\n    {\"chunk\": \"없어요\", \"gloss\": \"not exist\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"marks the subject 'sugar' as the topic of the sentence.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "ko-to-en",
+        "korean": "설탕이 없어요",
+        "romanization": "seontang-i eop-seo-yo",
+        "natural_english": "There's no sugar.",
+        "gloss": [
+          {
+            "chunk": "설탕",
+            "gloss": "sugar",
+            "role": "subject"
+          },
+          {
+            "chunk": "없어요",
+            "gloss": "not exist",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject 'sugar' as the topic of the sentence."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "There's no sugar preserves existential negation."
+        ],
+        "gloss": [
+          true,
+          "Sugar → not exist keeps Korean order and existential negation."
+        ],
+        "particles": [
+          false,
+          "Describes 이 as marking the subject 'as the topic', conflating the distinction explicitly required by the rubric."
+        ],
+        "politeRegister": [
+          true,
+          "없어요 remains polite."
+        ],
+        "romanization": [
+          false,
+          "seontang replaces 설탕's seoltang; the lexical syllable does not match the corpus or returned Hangul."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required not-exists/no-sugar explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s3_no_sugar",
+        "module": "src/content/modules/module-3.md"
+      },
+      "rawSha256": "204f5bf0c405c1420f6766fd8dcc868f6ed035fa8e05626ee835ee699987306d"
+    },
+    {
+      "completionMs": 12415,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-03",
+      "input": "여기 앉으세요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "여기",
+              "gloss": "here",
+              "role": "place"
+            },
+            {
+              "chunk": "앉으세요",
+              "gloss": "sit",
+              "role": "verb"
+            }
+          ],
+          "korean": "여기 앉으세요",
+          "literal_gap": "",
+          "natural_english": "Please sit here.",
+          "particles": [
+            {
+              "job": "polite imperative form used for requests or commands.",
+              "particle": "-(으)세요"
+            }
+          ],
+          "romanization": "yeogi anseuseyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1447,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1457,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4445,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-KE-03",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"여기 앉으세요\",\n  \"romanization\": \"yeogi anseuseyo\",\n  \"natural_english\": \"Please sit here.\",\n  \"gloss\": [\n    {\"chunk\": \"여기\", \"gloss\": \"here\", \"role\": \"place\"},\n    {\"chunk\": \"앉으세요\", \"gloss\": \"sit\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-(으)세요\", \"job\": \"polite imperative form used for requests or commands.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "여기 앉으세요",
+        "romanization": "yeogi anseuseyo",
+        "natural_english": "Please sit here.",
+        "gloss": [
+          {
+            "chunk": "여기",
+            "gloss": "here",
+            "role": "place"
+          },
+          {
+            "chunk": "앉으세요",
+            "gloss": "sit",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-(으)세요",
+            "job": "polite imperative form used for requests or commands."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": false,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Please sit here preserves the request, despite the wrong direction label."
+        ],
+        "gloss": [
+          true,
+          "Here → sit is in Korean order; natural_english and ending explanation retain the request."
+        ],
+        "particles": [
+          false,
+          "Lists -(으)세요 (a verbal ending) as a particle; the rubric expressly forbids this."
+        ],
+        "politeRegister": [
+          true,
+          "앉으세요 is a polite request, explained as such."
+        ],
+        "romanization": [
+          false,
+          "anseuseyo does not track 앉으세요; the corpus has anjeuseyo."
+        ],
+        "literalGap": [
+          true,
+          "No unsupported gap/cultural story."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s9_sit_here",
+        "module": "src/content/modules/module-9.md"
+      },
+      "rawSha256": "7845a3e7dc0ebf84bb13535a7b0b26ef33912db946ec8a1c5b858810e2bb1a71"
+    },
+    {
+      "completionMs": 15805,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-04",
+      "input": "어제 친구를 만났어요",
+      "outcome": {
+        "error": {
+          "code": "invalid-shape",
+          "message": "The local reply did not match the translator contract."
+        },
+        "ok": false
+      },
+      "progress": [
+        {
+          "elapsedMs": 0,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1456,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1467,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4455,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-KE-04",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"어제 친구를 만났어요\",\n  \"romanization\": \"eoge chingu-reul mannat-eoss-eoyo\",\n  \"natural_english\": \"I met a friend yesterday.\",\n  \"gloss\": [\n    {\"chunk\": \"어제\", \"gloss\": \"yesterday\", \"role\": \"time\"},\n    {\"chunk\": \"친구\", \"gloss\": \"friend\", \"role\": \"object\"},\n    {\"chunk\": \"를\", \"gloss\": \"to\", \"role\": \"particle\"},\n    {\"chunk\": \"만났\", \"gloss\": \"met\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"-yo\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"를\", \"job\": \"marks the object of the verb.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "어제 친구를 만났어요",
+        "romanization": "eoge chingu-reul mannat-eoss-eoyo",
+        "natural_english": "I met a friend yesterday.",
+        "gloss": [
+          {
+            "chunk": "어제",
+            "gloss": "yesterday",
+            "role": "time"
+          },
+          {
+            "chunk": "친구",
+            "gloss": "friend",
+            "role": "object"
+          },
+          {
+            "chunk": "를",
+            "gloss": "to",
+            "role": "particle"
+          },
+          {
+            "chunk": "만났",
+            "gloss": "met",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "-yo",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "를",
+            "job": "marks the object of the verb."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": false,
+      "directionCorrect": false,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "I met a friend yesterday preserves past tense and understood speaker."
+        ],
+        "gloss": [
+          false,
+          "를 is glossed 'to'; roles time and particle are outside the schema."
+        ],
+        "particles": [
+          true,
+          "를 correctly marks the object."
+        ],
+        "politeRegister": [
+          true,
+          "만났어요 remains polite past tense."
+        ],
+        "romanization": [
+          false,
+          "eoge differs from 어제 (eoje), and mannat-eoss-eoyo adds material absent from 만났어요."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required explanation that the subject is understood."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s2_yesterday_friend",
+        "module": "src/content/modules/module-2.md"
+      },
+      "rawSha256": "04087fa4e354ddcac42164d03f854c7a67a59ab2854f99a80879ea6adfb79517"
+    },
+    {
+      "completionMs": 14758,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-05",
+      "input": "밥이 맛있어요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "ko-to-en",
+          "gloss": [
+            {
+              "chunk": "밥",
+              "gloss": "rice",
+              "role": "subject"
+            },
+            {
+              "chunk": "이",
+              "gloss": "topic marker",
+              "role": "other"
+            },
+            {
+              "chunk": "맛있-",
+              "gloss": "tasty",
+              "role": "verb"
+            },
+            {
+              "chunk": "-어요",
+              "gloss": "polite ending",
+              "role": "other"
+            }
+          ],
+          "korean": "밥이 맛있어요",
+          "literal_gap": "",
+          "natural_english": "The rice is delicious.",
+          "particles": [
+            {
+              "job": "Marks the topic of the sentence, indicating 'rice' is the subject being discussed.",
+              "particle": "이"
+            }
+          ],
+          "romanization": "babi matiss-eoyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1446,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1456,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4428,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-2-DAN-V0-KE-05",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"밥이 맛있어요\",\n  \"romanization\": \"babi matiss-eoyo\",\n  \"natural_english\": \"The rice is delicious.\",\n  \"gloss\": [\n    {\"chunk\": \"밥\", \"gloss\": \"rice\", \"role\": \"subject\"},\n    {\"chunk\": \"이\", \"gloss\": \"topic marker\", \"role\": \"other\"},\n    {\"chunk\": \"맛있-\", \"gloss\": \"tasty\", \"role\": \"verb\"},\n    {\"chunk\": \"-어요\", \"gloss\": \"polite ending\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"Marks the topic of the sentence, indicating 'rice' is the subject being discussed.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "ko-to-en",
+        "korean": "밥이 맛있어요",
+        "romanization": "babi matiss-eoyo",
+        "natural_english": "The rice is delicious.",
+        "gloss": [
+          {
+            "chunk": "밥",
+            "gloss": "rice",
+            "role": "subject"
+          },
+          {
+            "chunk": "이",
+            "gloss": "topic marker",
+            "role": "other"
+          },
+          {
+            "chunk": "맛있-",
+            "gloss": "tasty",
+            "role": "verb"
+          },
+          {
+            "chunk": "-어요",
+            "gloss": "polite ending",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "Marks the topic of the sentence, indicating 'rice' is the subject being discussed."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Rice is a possible literal reading of 밥; the missing ordinary food/meal and taste-exists explanations fail the separate literal-gap dimension."
+        ],
+        "gloss": [
+          false,
+          "이 is incorrectly glossed 'topic marker'."
+        ],
+        "particles": [
+          false,
+          "Confidently calls 이 a topic marker, contrary to module-1.md's subject/topic distinction."
+        ],
+        "politeRegister": [
+          true,
+          "맛있어요 remains polite."
+        ],
+        "romanization": [
+          true,
+          "babi matiss-eoyo follows the returned spelling; allowed as an orthographic variant rather than demanding an exact pronunciation spelling."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required 맛 (taste) + 있다 (exists) explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_food_delicious",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "01e5061b4c7440ea03c71f19cc3f1e3451dc841af059f540369697bf7edfe55f"
+    },
+    {
+      "completionMs": 13427.000000000058,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-01",
+      "input": "I drink water",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "물",
+              "gloss": "water",
+              "role": "object"
+            },
+            {
+              "chunk": "마시-",
+              "gloss": "drink",
+              "role": "verb"
+            },
+            {
+              "chunk": "-요",
+              "gloss": "-yo",
+              "role": "other"
+            }
+          ],
+          "korean": "물을 마시요.",
+          "literal_gap": "",
+          "natural_english": "I drink water.",
+          "particles": [
+            {
+              "job": "marks the object noun 'water' as the thing being acted upon.",
+              "particle": "-을"
+            }
+          ],
+          "romanization": "mul-eul masiyo."
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1448,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1458,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4431,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-EK-01",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"물을 마시요.\",\n  \"romanization\": \"mul-eul masiyo.\",\n  \"natural_english\": \"I drink water.\",\n  \"gloss\": [\n    {\"chunk\": \"물\", \"gloss\": \"water\", \"role\": \"object\"},\n    {\"chunk\": \"마시-\", \"gloss\": \"drink\", \"role\": \"verb\"},\n    {\"chunk\": \"-요\", \"gloss\": \"-yo\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-을\", \"job\": \"marks the object noun 'water' as the thing being acted upon.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "물을 마시요.",
+        "romanization": "mul-eul masiyo.",
+        "natural_english": "I drink water.",
+        "gloss": [
+          {
+            "chunk": "물",
+            "gloss": "water",
+            "role": "object"
+          },
+          {
+            "chunk": "마시-",
+            "gloss": "drink",
+            "role": "verb"
+          },
+          {
+            "chunk": "-요",
+            "gloss": "-yo",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-을",
+            "job": "marks the object noun 'water' as the thing being acted upon."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Water remains the object of drinking; first person is understood and supplied in natural_english."
+        ],
+        "gloss": [
+          false,
+          "물 is glossed without its object marker and the output splits an incorrect 마시- + -요 conjugation rather than the lesson's 마셔요."
+        ],
+        "particles": [
+          true,
+          "-을 correctly identifies water as the object."
+        ],
+        "politeRegister": [
+          false,
+          "물을 마시요 is not the required polite conjugation 마셔요; module-1.md verb table explicitly gives 마시다 → 마셔요."
+        ],
+        "romanization": [
+          true,
+          "mul-eul masiyo tracks the malformed Korean actually returned; this does not rescue the Korean conjugation."
+        ],
+        "literalGap": [
+          true,
+          "No probed literal-gap explanation is required for this item."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_water",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "1a503b16715015b25c6a477571d55f7a82f182cd2a35ba5b05c5fdeeb246d72b"
+    },
+    {
+      "completionMs": 17299.99999999994,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-02",
+      "input": "I don't eat meat",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "고기",
+              "gloss": "meat",
+              "role": "object"
+            },
+            {
+              "chunk": "을",
+              "gloss": "to",
+              "role": "object"
+            },
+            {
+              "chunk": "안",
+              "gloss": "not",
+              "role": "other"
+            },
+            {
+              "chunk": "먹다",
+              "gloss": "eat",
+              "role": "verb"
+            },
+            {
+              "chunk": "어요",
+              "gloss": "I do",
+              "role": "verb"
+            }
+          ],
+          "korean": "고기를 안 먹어요.",
+          "literal_gap": "",
+          "natural_english": "I don't eat meat.",
+          "particles": [
+            {
+              "job": "Marks the object 'meat' as the direct object of the verb.",
+              "particle": "을"
+            },
+            {
+              "job": "Negates the verb, indicating the action does not happen.",
+              "particle": "안"
+            }
+          ],
+          "romanization": "gogigeo-an meok-eoyo."
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0.9999999999417925,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1460.9999999999418,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1471,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4521.999999999942,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-EK-02",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"고기를 안 먹어요.\",\n  \"romanization\": \"gogigeo-an meok-eoyo.\",\n  \"natural_english\": \"I don't eat meat.\",\n  \"gloss\": [\n    {\"chunk\": \"고기\", \"gloss\": \"meat\", \"role\": \"object\"},\n    {\"chunk\": \"을\", \"gloss\": \"to\", \"role\": \"object\"},\n    {\"chunk\": \"안\", \"gloss\": \"not\", \"role\": \"other\"},\n    {\"chunk\": \"먹다\", \"gloss\": \"eat\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"I do\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"을\", \"job\": \"Marks the object 'meat' as the direct object of the verb.\"},\n    {\"particle\": \"안\", \"job\": \"Negates the verb, indicating the action does not happen.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "고기를 안 먹어요.",
+        "romanization": "gogigeo-an meok-eoyo.",
+        "natural_english": "I don't eat meat.",
+        "gloss": [
+          {
+            "chunk": "고기",
+            "gloss": "meat",
+            "role": "object"
+          },
+          {
+            "chunk": "을",
+            "gloss": "to",
+            "role": "object"
+          },
+          {
+            "chunk": "안",
+            "gloss": "not",
+            "role": "other"
+          },
+          {
+            "chunk": "먹다",
+            "gloss": "eat",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "I do",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "Marks the object 'meat' as the direct object of the verb."
+          },
+          {
+            "particle": "안",
+            "job": "Negates the verb, indicating the action does not happen."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "고기를 안 먹어요 preserves non-eating, not inability."
+        ],
+        "gloss": [
+          false,
+          "Invents 을 rather than the actual 를; renders it as 'to' and 어요 as 'I do', which incorrectly assigns person to the ending."
+        ],
+        "particles": [
+          false,
+          "Lists 을 where the Korean uses 를 and incorrectly lists negating adverb 안 as a particle."
+        ],
+        "politeRegister": [
+          true,
+          "먹어요 is the polite form."
+        ],
+        "romanization": [
+          false,
+          "gogigeo-an does not represent 고기를 안; the corpus anchor is gogireul an."
+        ],
+        "literalGap": [
+          true,
+          "No probed literal-gap explanation is required here."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s3_not_eat_meat",
+        "module": "src/content/modules/module-3.md"
+      },
+      "rawSha256": "8ceffb00a5f3b2be6e6c3afe333397a8bcd81894f6fac3f845cd47139004c302"
+    },
+    {
+      "completionMs": 14873,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-03",
+      "input": "The teacher is coming",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "선생님",
+              "gloss": "teacher",
+              "role": "subject"
+            },
+            {
+              "chunk": "이",
+              "gloss": "topic marker",
+              "role": "other"
+            },
+            {
+              "chunk": "오",
+              "gloss": "come",
+              "role": "verb"
+            },
+            {
+              "chunk": "세요",
+              "gloss": "polite present/future form",
+              "role": "verb"
+            }
+          ],
+          "korean": "선생님이 오세요",
+          "literal_gap": "",
+          "natural_english": "The teacher is coming",
+          "particles": [
+            {
+              "job": "Marks the topic of the sentence.",
+              "particle": "이"
+            }
+          ],
+          "romanization": "seonsaengnim-i o-seyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1456,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1466,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4665,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-EK-03",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"선생님이 오세요\",\n  \"romanization\": \"seonsaengnim-i o-seyo\",\n  \"natural_english\": \"The teacher is coming\",\n  \"gloss\": [\n    {\"chunk\": \"선생님\", \"gloss\": \"teacher\", \"role\": \"subject\"},\n    {\"chunk\": \"이\", \"gloss\": \"topic marker\", \"role\": \"other\"},\n    {\"chunk\": \"오\", \"gloss\": \"come\", \"role\": \"verb\"},\n    {\"chunk\": \"세요\", \"gloss\": \"polite present/future form\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"Marks the topic of the sentence.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "선생님이 오세요",
+        "romanization": "seonsaengnim-i o-seyo",
+        "natural_english": "The teacher is coming",
+        "gloss": [
+          {
+            "chunk": "선생님",
+            "gloss": "teacher",
+            "role": "subject"
+          },
+          {
+            "chunk": "이",
+            "gloss": "topic marker",
+            "role": "other"
+          },
+          {
+            "chunk": "오",
+            "gloss": "come",
+            "role": "verb"
+          },
+          {
+            "chunk": "세요",
+            "gloss": "polite present/future form",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "Marks the topic of the sentence."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "선생님이 오세요 preserves the teacher coming; natural_english is a statement, not a request."
+        ],
+        "gloss": [
+          false,
+          "Calls 이 a topic marker instead of a grammatical subject marker; module-1.md distinguishes these."
+        ],
+        "particles": [
+          false,
+          "Explicit false rule: 이 'Marks the topic of the sentence.'"
+        ],
+        "politeRegister": [
+          true,
+          "오세요 honors the teacher as subject, per module-4.md §3."
+        ],
+        "romanization": [
+          true,
+          "seonsaengnim-i o-seyo tracks the actual Korean."
+        ],
+        "literalGap": [
+          true,
+          "No unsupported cultural or gap claim."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s4_teacher_comes",
+        "module": "src/content/modules/module-4.md"
+      },
+      "rawSha256": "ef419d35aeda3a10207bdd18a2cf689f655141e0036547f50d5e24b856a520df"
+    },
+    {
+      "completionMs": 14503,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-04",
+      "input": "I wash my hands",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "손",
+              "gloss": "hand",
+              "role": "object"
+            },
+            {
+              "chunk": "을",
+              "gloss": "to",
+              "role": "object"
+            },
+            {
+              "chunk": "씻",
+              "gloss": "wash",
+              "role": "verb"
+            },
+            {
+              "chunk": "어요",
+              "gloss": "-yo (polite ending)",
+              "role": "other"
+            }
+          ],
+          "korean": "손을 씻어요",
+          "literal_gap": "",
+          "natural_english": "I wash my hands",
+          "particles": [
+            {
+              "job": "Marks the object 'hand' as the thing being washed.",
+              "particle": "을"
+            }
+          ],
+          "romanization": "son-eul ssigeoyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1455,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1465,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4433,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-EK-04",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"손을 씻어요\",\n  \"romanization\": \"son-eul ssigeoyo\",\n  \"natural_english\": \"I wash my hands\",\n  \"gloss\": [\n    {\"chunk\": \"손\", \"gloss\": \"hand\", \"role\": \"object\"},\n    {\"chunk\": \"을\", \"gloss\": \"to\", \"role\": \"object\"},\n    {\"chunk\": \"씻\", \"gloss\": \"wash\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"-yo (polite ending)\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"을\", \"job\": \"Marks the object 'hand' as the thing being washed.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "손을 씻어요",
+        "romanization": "son-eul ssigeoyo",
+        "natural_english": "I wash my hands",
+        "gloss": [
+          {
+            "chunk": "손",
+            "gloss": "hand",
+            "role": "object"
+          },
+          {
+            "chunk": "을",
+            "gloss": "to",
+            "role": "object"
+          },
+          {
+            "chunk": "씻",
+            "gloss": "wash",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "-yo (polite ending)",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "Marks the object 'hand' as the thing being washed."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "손을 씻어요 with understood speaker/possessor is explicitly permitted."
+        ],
+        "gloss": [
+          false,
+          "을 is rendered 'to', not the object relation required by the rubric."
+        ],
+        "particles": [
+          true,
+          "을 correctly marks the hand as the thing washed."
+        ],
+        "politeRegister": [
+          true,
+          "씻어요 is the expected polite form."
+        ],
+        "romanization": [
+          false,
+          "ssigeoyo does not track 씻어요 (ssiseoyo)."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the probed understood subject/possessor explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s8_wash_hands",
+        "module": "src/content/modules/module-8.md"
+      },
+      "rawSha256": "6690ac5dedf13b3f7ba82539666f698a90e0e4d735fdd2a045da328541312d9a"
+    },
+    {
+      "completionMs": 14570,
+      "expectedDirection": "en-to-ko",
+      "id": "DAN-V0-EK-05",
+      "input": "I eat food",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "밥",
+              "gloss": "rice/food",
+              "role": "object"
+            },
+            {
+              "chunk": "을",
+              "gloss": "to",
+              "role": "object"
+            },
+            {
+              "chunk": "먹다",
+              "gloss": "eat",
+              "role": "verb"
+            },
+            {
+              "chunk": "어요",
+              "gloss": "-yo (polite present)",
+              "role": "other"
+            }
+          ],
+          "korean": "밥을 먹어요",
+          "literal_gap": "",
+          "natural_english": "I eat food",
+          "particles": [
+            {
+              "job": "Marks the preceding noun as the direct object of the verb.",
+              "particle": "을"
+            }
+          ],
+          "romanization": "babeul meogeoyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1453,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1463,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4420,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-EK-05",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"밥을 먹어요\",\n  \"romanization\": \"babeul meogeoyo\",\n  \"natural_english\": \"I eat food\",\n  \"gloss\": [\n    {\"chunk\": \"밥\", \"gloss\": \"rice/food\", \"role\": \"object\"},\n    {\"chunk\": \"을\", \"gloss\": \"to\", \"role\": \"object\"},\n    {\"chunk\": \"먹다\", \"gloss\": \"eat\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"-yo (polite present)\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"을\", \"job\": \"Marks the preceding noun as the direct object of the verb.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "밥을 먹어요",
+        "romanization": "babeul meogeoyo",
+        "natural_english": "I eat food",
+        "gloss": [
+          {
+            "chunk": "밥",
+            "gloss": "rice/food",
+            "role": "object"
+          },
+          {
+            "chunk": "을",
+            "gloss": "to",
+            "role": "object"
+          },
+          {
+            "chunk": "먹다",
+            "gloss": "eat",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "-yo (polite present)",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "Marks the preceding noun as the direct object of the verb."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "밥을 먹어요 and 'I eat food' preserve the meal/food reading."
+        ],
+        "gloss": [
+          false,
+          "을 is glossed 'to' instead of an object suffix."
+        ],
+        "particles": [
+          true,
+          "을 correctly marks the direct object."
+        ],
+        "politeRegister": [
+          true,
+          "먹어요 is polite."
+        ],
+        "romanization": [
+          true,
+          "babeul meogeoyo follows 밥을 먹어요."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required cooked-rice versus ordinary meal explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_eat",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "853471f78861af7a9db21635cedd2e62659d60c67d6fcdbce3ddc6248a55a504"
+    },
+    {
+      "completionMs": 15112,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-01",
+      "input": "친구가 커피를 좋아해요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "ko-to-en",
+          "gloss": [
+            {
+              "chunk": "친구",
+              "gloss": "friend",
+              "role": "subject"
+            },
+            {
+              "chunk": "커피를",
+              "gloss": "coffee-[obj]",
+              "role": "object"
+            },
+            {
+              "chunk": "좋아해요",
+              "gloss": "like",
+              "role": "verb"
+            }
+          ],
+          "korean": "친구가 커피를 좋아해요",
+          "literal_gap": "",
+          "natural_english": "My friend likes coffee.",
+          "particles": [
+            {
+              "job": "marks the subject of the sentence.",
+              "particle": "-가"
+            },
+            {
+              "job": "marks the object of the verb.",
+              "particle": "-를"
+            }
+          ],
+          "romanization": "chingu-ga keopi-reul joha-hayo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1469,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1479,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4569,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-KE-01",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"친구가 커피를 좋아해요\",\n  \"romanization\": \"chingu-ga keopi-reul joha-hayo\",\n  \"natural_english\": \"My friend likes coffee.\",\n  \"gloss\": [\n    {\"chunk\": \"친구\", \"gloss\": \"friend\", \"role\": \"subject\"},\n    {\"chunk\": \"커피를\", \"gloss\": \"coffee-[obj]\", \"role\": \"object\"},\n    {\"chunk\": \"좋아해요\", \"gloss\": \"like\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-가\", \"job\": \"marks the subject of the sentence.\"},\n    {\"particle\": \"-를\", \"job\": \"marks the object of the verb.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "ko-to-en",
+        "korean": "친구가 커피를 좋아해요",
+        "romanization": "chingu-ga keopi-reul joha-hayo",
+        "natural_english": "My friend likes coffee.",
+        "gloss": [
+          {
+            "chunk": "친구",
+            "gloss": "friend",
+            "role": "subject"
+          },
+          {
+            "chunk": "커피를",
+            "gloss": "coffee-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "좋아해요",
+            "gloss": "like",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-가",
+            "job": "marks the subject of the sentence."
+          },
+          {
+            "particle": "-를",
+            "job": "marks the object of the verb."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "My friend likes coffee preserves subject, object and action."
+        ],
+        "gloss": [
+          true,
+          "Friend, coffee-[obj], like are in Korean order; friend is labelled subject."
+        ],
+        "particles": [
+          true,
+          "가 subject and 를 object are explained correctly."
+        ],
+        "politeRegister": [
+          true,
+          "좋아해요 remains polite."
+        ],
+        "romanization": [
+          false,
+          "joha-hayo changes 해 to ha rather than hae; compare the corpus joahaeyo."
+        ],
+        "literalGap": [
+          true,
+          "No probed gap or unsupported story."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_friend_coffee",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "eeaf9e2403513ce27412b6aec6ea02de7295ab7d0ba3149d126b343912b77bdb"
+    },
+    {
+      "completionMs": 12773,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-02",
+      "input": "설탕이 없어요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "ko-to-en",
+          "gloss": [
+            {
+              "chunk": "설탕",
+              "gloss": "sugar",
+              "role": "subject"
+            },
+            {
+              "chunk": "없어요",
+              "gloss": "not exist",
+              "role": "verb"
+            }
+          ],
+          "korean": "설탕이 없어요",
+          "literal_gap": "",
+          "natural_english": "There's no sugar.",
+          "particles": [
+            {
+              "job": "marks the subject 'sugar' as the topic of the sentence.",
+              "particle": "이"
+            }
+          ],
+          "romanization": "seontang-i eop-seo-yo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1452,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1462.0000000000582,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4447,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-KE-02",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"설탕이 없어요\",\n  \"romanization\": \"seontang-i eop-seo-yo\",\n  \"natural_english\": \"There's no sugar.\",\n  \"gloss\": [\n    {\"chunk\": \"설탕\", \"gloss\": \"sugar\", \"role\": \"subject\"},\n    {\"chunk\": \"없어요\", \"gloss\": \"not exist\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"marks the subject 'sugar' as the topic of the sentence.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "ko-to-en",
+        "korean": "설탕이 없어요",
+        "romanization": "seontang-i eop-seo-yo",
+        "natural_english": "There's no sugar.",
+        "gloss": [
+          {
+            "chunk": "설탕",
+            "gloss": "sugar",
+            "role": "subject"
+          },
+          {
+            "chunk": "없어요",
+            "gloss": "not exist",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject 'sugar' as the topic of the sentence."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "There's no sugar preserves existential negation."
+        ],
+        "gloss": [
+          true,
+          "Sugar → not exist keeps Korean order and existential negation."
+        ],
+        "particles": [
+          false,
+          "Describes 이 as marking the subject 'as the topic', conflating the distinction explicitly required by the rubric."
+        ],
+        "politeRegister": [
+          true,
+          "없어요 remains polite."
+        ],
+        "romanization": [
+          false,
+          "seontang replaces 설탕's seoltang; the lexical syllable does not match the corpus or returned Hangul."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required not-exists/no-sugar explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s3_no_sugar",
+        "module": "src/content/modules/module-3.md"
+      },
+      "rawSha256": "204f5bf0c405c1420f6766fd8dcc868f6ed035fa8e05626ee835ee699987306d"
+    },
+    {
+      "completionMs": 12562,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-03",
+      "input": "여기 앉으세요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "en-to-ko",
+          "gloss": [
+            {
+              "chunk": "여기",
+              "gloss": "here",
+              "role": "place"
+            },
+            {
+              "chunk": "앉으세요",
+              "gloss": "sit",
+              "role": "verb"
+            }
+          ],
+          "korean": "여기 앉으세요",
+          "literal_gap": "",
+          "natural_english": "Please sit here.",
+          "particles": [
+            {
+              "job": "polite imperative form used for requests or commands.",
+              "particle": "-(으)세요"
+            }
+          ],
+          "romanization": "yeogi anseuseyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1448,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1458,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4640,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-KE-03",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"여기 앉으세요\",\n  \"romanization\": \"yeogi anseuseyo\",\n  \"natural_english\": \"Please sit here.\",\n  \"gloss\": [\n    {\"chunk\": \"여기\", \"gloss\": \"here\", \"role\": \"place\"},\n    {\"chunk\": \"앉으세요\", \"gloss\": \"sit\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"-(으)세요\", \"job\": \"polite imperative form used for requests or commands.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "여기 앉으세요",
+        "romanization": "yeogi anseuseyo",
+        "natural_english": "Please sit here.",
+        "gloss": [
+          {
+            "chunk": "여기",
+            "gloss": "here",
+            "role": "place"
+          },
+          {
+            "chunk": "앉으세요",
+            "gloss": "sit",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "-(으)세요",
+            "job": "polite imperative form used for requests or commands."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": false,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Please sit here preserves the request, despite the wrong direction label."
+        ],
+        "gloss": [
+          true,
+          "Here → sit is in Korean order; natural_english and ending explanation retain the request."
+        ],
+        "particles": [
+          false,
+          "Lists -(으)세요 (a verbal ending) as a particle; the rubric expressly forbids this."
+        ],
+        "politeRegister": [
+          true,
+          "앉으세요 is a polite request, explained as such."
+        ],
+        "romanization": [
+          false,
+          "anseuseyo does not track 앉으세요; the corpus has anjeuseyo."
+        ],
+        "literalGap": [
+          true,
+          "No unsupported gap/cultural story."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s9_sit_here",
+        "module": "src/content/modules/module-9.md"
+      },
+      "rawSha256": "7845a3e7dc0ebf84bb13535a7b0b26ef33912db946ec8a1c5b858810e2bb1a71"
+    },
+    {
+      "completionMs": 15812.000000000058,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-04",
+      "input": "어제 친구를 만났어요",
+      "outcome": {
+        "error": {
+          "code": "invalid-shape",
+          "message": "The local reply did not match the translator contract."
+        },
+        "ok": false
+      },
+      "progress": [
+        {
+          "elapsedMs": 1,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1456,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1466.0000000000582,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4467,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-KE-04",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"어제 친구를 만났어요\",\n  \"romanization\": \"eoge chingu-reul mannat-eoss-eoyo\",\n  \"natural_english\": \"I met a friend yesterday.\",\n  \"gloss\": [\n    {\"chunk\": \"어제\", \"gloss\": \"yesterday\", \"role\": \"time\"},\n    {\"chunk\": \"친구\", \"gloss\": \"friend\", \"role\": \"object\"},\n    {\"chunk\": \"를\", \"gloss\": \"to\", \"role\": \"particle\"},\n    {\"chunk\": \"만났\", \"gloss\": \"met\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"-yo\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"를\", \"job\": \"marks the object of the verb.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "어제 친구를 만났어요",
+        "romanization": "eoge chingu-reul mannat-eoss-eoyo",
+        "natural_english": "I met a friend yesterday.",
+        "gloss": [
+          {
+            "chunk": "어제",
+            "gloss": "yesterday",
+            "role": "time"
+          },
+          {
+            "chunk": "친구",
+            "gloss": "friend",
+            "role": "object"
+          },
+          {
+            "chunk": "를",
+            "gloss": "to",
+            "role": "particle"
+          },
+          {
+            "chunk": "만났",
+            "gloss": "met",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "-yo",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "를",
+            "job": "marks the object of the verb."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": false,
+      "directionCorrect": false,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "I met a friend yesterday preserves past tense and understood speaker."
+        ],
+        "gloss": [
+          false,
+          "를 is glossed 'to'; roles time and particle are outside the schema."
+        ],
+        "particles": [
+          true,
+          "를 correctly marks the object."
+        ],
+        "politeRegister": [
+          true,
+          "만났어요 remains polite past tense."
+        ],
+        "romanization": [
+          false,
+          "eoge differs from 어제 (eoje), and mannat-eoss-eoyo adds material absent from 만났어요."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required explanation that the subject is understood."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s2_yesterday_friend",
+        "module": "src/content/modules/module-2.md"
+      },
+      "rawSha256": "04087fa4e354ddcac42164d03f854c7a67a59ab2854f99a80879ea6adfb79517"
+    },
+    {
+      "completionMs": 14764.999999999942,
+      "expectedDirection": "ko-to-en",
+      "id": "DAN-V0-KE-05",
+      "input": "밥이 맛있어요",
+      "outcome": {
+        "ok": true,
+        "result": {
+          "cultural_note": "",
+          "direction": "ko-to-en",
+          "gloss": [
+            {
+              "chunk": "밥",
+              "gloss": "rice",
+              "role": "subject"
+            },
+            {
+              "chunk": "이",
+              "gloss": "topic marker",
+              "role": "other"
+            },
+            {
+              "chunk": "맛있-",
+              "gloss": "tasty",
+              "role": "verb"
+            },
+            {
+              "chunk": "-어요",
+              "gloss": "polite ending",
+              "role": "other"
+            }
+          ],
+          "korean": "밥이 맛있어요",
+          "literal_gap": "",
+          "natural_english": "The rice is delicious.",
+          "particles": [
+            {
+              "job": "Marks the topic of the sentence, indicating 'rice' is the subject being discussed.",
+              "particle": "이"
+            }
+          ],
+          "romanization": "babi matiss-eoyo"
+        }
+      },
+      "progress": [
+        {
+          "elapsedMs": 0.9999999999417925,
+          "outputTokens": 0,
+          "state": "loading"
+        },
+        {
+          "elapsedMs": 1454.9999999999418,
+          "outputTokens": 0,
+          "state": "ready"
+        },
+        {
+          "elapsedMs": 1465.9999999999418,
+          "outputTokens": 0,
+          "state": "generating"
+        },
+        {
+          "elapsedMs": 4412.999999999942,
+          "outputTokens": 1,
+          "state": "generating"
+        }
+      ],
+      "requestId": "warm-3-DAN-V0-KE-05",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"밥이 맛있어요\",\n  \"romanization\": \"babi matiss-eoyo\",\n  \"natural_english\": \"The rice is delicious.\",\n  \"gloss\": [\n    {\"chunk\": \"밥\", \"gloss\": \"rice\", \"role\": \"subject\"},\n    {\"chunk\": \"이\", \"gloss\": \"topic marker\", \"role\": \"other\"},\n    {\"chunk\": \"맛있-\", \"gloss\": \"tasty\", \"role\": \"verb\"},\n    {\"chunk\": \"-어요\", \"gloss\": \"polite ending\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"Marks the topic of the sentence, indicating 'rice' is the subject being discussed.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "direction": "ko-to-en",
+        "korean": "밥이 맛있어요",
+        "romanization": "babi matiss-eoyo",
+        "natural_english": "The rice is delicious.",
+        "gloss": [
+          {
+            "chunk": "밥",
+            "gloss": "rice",
+            "role": "subject"
+          },
+          {
+            "chunk": "이",
+            "gloss": "topic marker",
+            "role": "other"
+          },
+          {
+            "chunk": "맛있-",
+            "gloss": "tasty",
+            "role": "verb"
+          },
+          {
+            "chunk": "-어요",
+            "gloss": "polite ending",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "Marks the topic of the sentence, indicating 'rice' is the subject being discussed."
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Rice is a possible literal reading of 밥; the missing ordinary food/meal and taste-exists explanations fail the separate literal-gap dimension."
+        ],
+        "gloss": [
+          false,
+          "이 is incorrectly glossed 'topic marker'."
+        ],
+        "particles": [
+          false,
+          "Confidently calls 이 a topic marker, contrary to module-1.md's subject/topic distinction."
+        ],
+        "politeRegister": [
+          true,
+          "맛있어요 remains polite."
+        ],
+        "romanization": [
+          true,
+          "babi matiss-eoyo follows the returned spelling; allowed as an orthographic variant rather than demanding an exact pronunciation spelling."
+        ],
+        "literalGap": [
+          false,
+          "Empty literal_gap omits the required 맛 (taste) + 있다 (exists) explanation."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "source": {
+        "corpusCommit": "82c108852dc4694d91768d19314342291a51e2ac",
+        "sentence": "s_food_delicious",
+        "module": "src/content/modules/module-1.md"
+      },
+      "rawSha256": "01e5061b4c7440ea03c71f19cc3f1e3451dc841af059f540369697bf7edfe55f"
+    }
+  ]
+}

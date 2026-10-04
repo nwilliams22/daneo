@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-04",
+  "host": "nobara-pc",
+  "kernel": "7.2.6-201.nobara.fc44.x86_64",
+  "cpu": "AMD Ryzen 7 9850X3D 8-Core Processor",
+  "logicalCpus": 16,
+  "physicalRamKiB": 63295824,
+  "gpu": "NVIDIA GeForce RTX 5090 (32607 MiB); not used by this CPU-only runtime",
+  "binding": "llama-cpp-2 0.1.158",
+  "llamaCppCommit": "26394b4e6749a41c3633db040e0987500a5f7013",
+  "tauri": "2.11.5 (Cargo.lock)",
+  "model": "Qwen3.5-4B-Q4_K_M.gguf",
+  "modelBytes": 2740937888,
+  "modelSha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+  "modelRevision": "e87f176479d0855a907a41277aca2f8ee7a09523",
+  "baseCommit": "e4e40dcd8e85367c39b30f734232dec4b38c61a5",
+  "contextTokens": 4096,
+  "outputTokenCap": 1024,
+  "threads": 8,
+  "gpuLayers": 0,
+  "sampling": "greedy",
+  "thinking": false,
+  "fileSha256": {
+    "reference/eval/v0-translation-set.json": "345d55365b66b537dc04ba7306f93d795cd1186805741230734bd4d9dd584645",
+    "reference/eval/v0-rubric.md": "92bcdae7295c94c56901de586e20ed8068446e29fd948833afa7e3d8cf574cf4",
+    "src/lib/translation-prompt.json": "46e73908a6a2055332f9b0c2ea8acb3d281d7d4eaad6f83d4681816f09d15c3a",
+    "src-tauri/Cargo.lock": "aa2c98a2f0b2700b2f7e2aeef08587e12f10cef968017ae372325a2aa94d50f4",
+    "src/features/explore/local-api.ts": "8cd55e9b8858e64f04ab44bdfa3c68f804c2e1b42c61e483fe57032a6b37c2c3"
+  }
+}

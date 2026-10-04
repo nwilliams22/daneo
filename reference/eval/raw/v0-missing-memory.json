@@ -1,0 +1,9 @@
+{
+  "sampledPeakTreeRssKiB": 665308,
+  "samples": 25,
+  "sampleIntervalSeconds": 0.02,
+  "elapsedSeconds": 0.5040322360000573,
+  "exitCode": 0,
+  "method": "sum VmRSS for live process descendants; shared pages may be counted more than once; sample can miss shorter peaks",
+  "network": "unshare --user --map-root-user --net; no host network or proxy accessible"
+}
