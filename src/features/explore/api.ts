@@ -1,4 +1,4 @@
-import { postprocessTranslation } from "../../lib/translation-postprocess";
+import { translationResultSchema } from "../../lib/schemas";
 import type { TranslationResult } from "../../types";
 
 // Client half of the translator contract. The proxy validates the model
@@ -56,10 +56,10 @@ export async function translate(input: string): Promise<TranslateOutcome> {
     };
   }
 
-  const parsed = postprocessTranslation(
+  const parsed = translationResultSchema.safeParse(
     (body as { result?: unknown } | null)?.result,
   );
-  if (!parsed) {
+  if (!parsed.success) {
     return {
       ok: false,
       error: {
@@ -68,5 +68,5 @@ export async function translate(input: string): Promise<TranslateOutcome> {
       },
     };
   }
-  return { ok: true, result: parsed };
+  return { ok: true, result: parsed.data as TranslationResult };
 }

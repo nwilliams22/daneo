@@ -1,6 +1,6 @@
 import { invoke } from "@tauri-apps/api/core";
 import { listen } from "@tauri-apps/api/event";
-import { postprocessTranslation } from "../../lib/translation-postprocess";
+import { translationResultSchema } from "../../lib/schemas";
 import { directionForInput } from "../../lib/translation-direction";
 import type { TranslateOutcome } from "./api";
 
@@ -78,9 +78,9 @@ export function createLocalTranslator(transport: Transport = desktop) {
             return { ok: false, error: { code: error.code, message: error.message } };
           }
         }
-        const parsed = postprocessTranslation("ok" in raw && raw.ok === true && "result" in raw ? raw.result : null);
-        if (!parsed) return failure("invalid-shape", "The local reply did not match the translator contract.");
-        return { ok: true, result: { ...parsed, direction } };
+        const parsed = translationResultSchema.safeParse("ok" in raw && raw.ok === true && "result" in raw ? raw.result : null);
+        if (!parsed.success) return failure("invalid-shape", "The local reply did not match the translator contract.");
+        return { ok: true, result: { ...parsed.data, direction } };
       } catch {
         return request.cancelled ? cancelled() : failure("generation-failed", "The local translator is unavailable.");
       } finally {

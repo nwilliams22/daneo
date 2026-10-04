@@ -27,18 +27,13 @@ describe("translator contract (§6.3)", () => {
   it("accepts a well-formed reply", () => {
     const r = parseTranslationText(JSON.stringify(GOOD));
     expect(r.ok).toBe(true);
-    if (r.ok) {
-      expect(r.result.korean).toBe(GOOD.korean);
-      expect(r.result.romanization).toBe("chinguga bogo sipeoyo");
-    }
+    if (r.ok) expect(r.result.korean).toBe(GOOD.korean);
   });
 
-  it("fills the unchanged learner contract when the model omits romanization", () => {
-    const { romanization: _ignored, ...modelReply } = GOOD;
-    const r = parseTranslationText(JSON.stringify(modelReply));
-    expect(r.ok).toBe(true);
-    if (r.ok) expect(r.result.romanization).toBe("chinguga bogo sipeoyo");
-    expect(buildTranslatePrompt("friend")).not.toContain('"romanization"');
+  it("keeps romanization in the default model contract while the lever is undecided", () => {
+    const { romanization: _missing, ...reply } = GOOD;
+    expect(parseTranslationText(JSON.stringify(reply)).ok).toBe(false);
+    expect(buildTranslatePrompt("friend")).toContain('"romanization"');
   });
 
   it("strips markdown fences before parsing", () => {
