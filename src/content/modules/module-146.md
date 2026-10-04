@@ -4,8 +4,6 @@ A departure is postponed. A family welcomes you. Work turns acquaintances into f
 
 **How to use this:** Group the words by scene, learn the checklist, then open the sentences. Follow chunk IDs across the three layers rather than trying to preserve English order in Korean.
 
-> **Warm-up — transfer from Module 145.** Say: (1) My spouse bought a brown storybook. (2) I sent advice by post. (3) They recruit film actors at the exhibition hall. These combinations are new even though the blocks are familiar.
-
 ---
 
 ## Part 1 — Change the state, change the viewpoint
@@ -40,17 +38,6 @@ The glue is already yours. Pay attention to whether the second clause adds a ben
 ::sentences::
 
 In 식욕이 없어요, the appetite is the Korean subject. Natural English supplies a person who has no appetite; the gloss keeps the Korean structure visible.
-
-## Practice
-
-1. Put a different earlier person-word in the exhibition meeting sentence.
-2. Use 금메달 and 상금 with -(으)ㄹ 뿐만 아니라, then change the award to a past event.
-3. Describe 식기 with 고급스럽다 and 깨끗하다. Which quality concerns appearance?
-4. Let the weather clear with -더니, then describe what becomes visible.
-5. Contrast 고소하다 with 식욕이 없다 without saying the food tastes bad.
-6. Postpone 출국 and explain a delayed 입사 with -는 바람에.
-7. Change the welcome scene to a friend's home while keeping -았/었더니.
-8. Use 재활용 and 찬성하다, then add a reservation about the method with -더라도.
 
 **Gap deck:** 코끝이 찡하다 puts emotion at the tip of the nose. 식욕이 없다 makes appetite, rather than the person, the grammatical subject.
 

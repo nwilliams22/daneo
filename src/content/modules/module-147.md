@@ -4,8 +4,6 @@ A form asks about education. A host prepares an event. A walk reveals the first 
 
 **How to use this:** Learn the checklist before the sentences. Use the notes to separate a broad label from a precise meaning, then trace each sentence through its three layers.
 
-> **Warm-up — transfer from Module 146.** Say: (1) The capable dancer welcomes a friend. (2) We talked about recycling at my maternal grandparents' home. (3) After joining the company, I visited a historic site. Build new scenes from the previous pack's words.
-
 ---
 
 ## Part 1 — A familiar block changes its job
@@ -40,17 +38,6 @@ No new glue. The sentence frames are familiar; the new work is choosing precise 
 ::sentences::
 
 공통점 from M144 is now easy to unpack: 공통 is what is shared, and the whole noun identifies a shared point. A shared point is not the same as saying two things are identical.
-
-## Practice
-
-1. Restrict 참석 대상자 to students with 한정하다, then concede that preparation is still needed.
-2. Consult material about 재활용 with 참고하다 and report a changed attitude.
-3. Put 향상되다 after 입사하고서. Make the improving skill the subject.
-4. Take a walk in 근교 with -다 보니 and add an observation about 빗방울.
-5. Describe a 사회자 who prepared 손수 but still worried, using -고도.
-6. Say a 시디 seems likely to be sold. Keep the uncertainty of -(으)ㄹ 듯하다.
-7. Draw a 동그라미, then write a 공통점 with -고서. Explain the gap expression 동그라미를 치다.
-8. Move the chance meeting from 유적지 to an earlier location, keeping 어쩌다가 and 온종일.
 
 **Gap deck:** 동그라미를 치다 asks for a circle mark, not a blow. 온종일 gives the already complete day of 종일 extra emphasis.
 

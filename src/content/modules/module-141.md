@@ -4,8 +4,6 @@ A service counter gets crowded, an application needs a signature, and independen
 
 **How to use this:** Read the scene shelves, then learn the vocabulary before opening the sentences. Follow each chunk through Korean, literal gloss and natural English.
 
-> **Warm-up — transfer from Module 140.** Say: (1) The user waited beside the bench. (2) After passing the exam, I comforted a friend. (3) The outing became cumbersome. Use fresh combinations rather than repeating an earlier sentence.
-
 ---
 
 ## Part 1 — What a new start needs
@@ -27,17 +25,6 @@ A service counter gets crowded, an application needs a signature, and independen
 **Spot the recycling:** M140’s 이용자 crowds the counter, 자격증 accompanies an application, 초조하다 survives inside a concession, and 나들이 becomes an opportunity. -더라도 from M95 concedes a feeling; -는 김에 from M91 adds a useful action; -(으)ㄴ 채 from M94 keeps a door locked during a wait.
 
 ::sentences::
-
-## Practice
-
-1. Use M140’s 자격증 and 원서 in one new paperwork scene.
-2. Explain the two meanings of 학점 without treating credits as a grade average.
-3. Contrast 지금껏 with 이제야 using a wait followed by a realization.
-4. Give the polite present and past forms of 잠그다.
-5. Use M140’s 초조하다 in a fresh -더라도 sentence.
-6. Explain the difference between 자취 as a trace and its independent-living homograph.
-7. Describe how 보충하다 can help something 불완전하다.
-8. Compare M140’s 뛰어내리다 with 뛰어오르다: what changes, and what stays the same?
 
 **Gap deck:** 자취를 감추다 means to disappear from view or contact; 영 모르겠어요 emphatically admits not understanding at all.
 

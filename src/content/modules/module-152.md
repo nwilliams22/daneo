@@ -4,8 +4,6 @@ The bulb is changed; now the clock needs repair. Water cools before it freezes. 
 
 **How to use this:** Learn the words and their notes first. Then read each sentence from natural English through the Korean-order gloss to Korean. Trace matching chunks instead of translating one word at a time.
 
-> **Warm-up — transfer from Module 151.** Say: (1) Find a kettle after turning on the heating. (2) Watch a recording after a cultural visit. (3) Hear out a debater who speaks emotionally. Build these new scenes from the previous pack's blocks.
-
 ---
 
 ## Part 1 — Who causes the change?
@@ -37,17 +35,6 @@ No new glue. Familiar frames carry the new vocabulary; notice which noun is the 
 - **-(으)므로 from M85 gives a stated reason.**
 
 ::sentences::
-
-## Practice
-
-1. Give 수리하다 an object that can break.
-2. Use 주전자 with 식히다 in a new sentence.
-3. Make 전시되다 describe a picture.
-4. Compare 부피 with 무게.
-5. Explain why a blue 와이셔츠 is not a contradiction.
-6. Build a new 관람 scene with extra time.
-7. Distinguish 올가을 from 한겨울.
-8. Explain what 큰아들 tells you about a family.
 
 **Gap deck:** 와이셔츠 and 큰아들 need more than a word-by-word reading. Explain the real meaning before turning the card over.
 

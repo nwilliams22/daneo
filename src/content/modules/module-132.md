@@ -4,8 +4,6 @@ A district office assesses housing, a rating rises during a broadcast, and an in
 
 **How to use this:** Read the words in small shelves, then compare the Korean and English chunks of each sentence. No new glue is required. The rate words deserve a concrete subject and a clear direction.
 
-> **Warm-up — transfer from Module 131.** Say: (1) “The answer appeared after the interview.” (2) “The basket was left at the corner.” (3) “The number increased sharply in the second half of the year.” Change the subject in each. The earlier module supplied the pieces, not these finished lines.
-
 ---
 
 ## Part 1 — Public life, human judgment
@@ -27,17 +25,6 @@ A district office assesses housing, a rating rises during a broadcast, and an in
 The deck brings back M88's retrospective result, M89's parallel change and M95's concession. It also moves M131's 하반기, 급증하다, 면담, 낮아지다 and 비상 into new scenes. Watch the subject of each measured change: precipitation, a currency rate, or an audience rating.
 
 ::sentences::
-
-## Practice
-
-1. Explain why 시청률 is a rate rather than a viewer count.
-2. Put 급증하다 with a new measurable subject.
-3. Contrast a 제도적 problem with a single person's 편견.
-4. Change the 구청 sentence so the subject is stated aloud.
-5. Use -더라도 with 예선 and a different outcome.
-6. Compare 교대 and 연장: which replaces, and which lengthens?
-7. Make a fresh sentence with M131's 허락하다 and this module's 강사.
-8. Rebuild the rainfall sentence with 낮아지다 and say what changed.
 
 **Gap deck:** 편견을 깨뜨리다 breaks a fixed unfair view rather than a physical object. 꼼짝 못 하다 means someone cannot move even an inch; the tiny motion word makes the negation strong.
 

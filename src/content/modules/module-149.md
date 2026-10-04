@@ -4,8 +4,6 @@ A class ends, a performance moves to a new date, and family members respond to c
 
 **How to use this:** Learn the checklist, then read each three-layer sentence in order. Trace each Korean chunk through the gloss to the natural English.
 
-> **Warm-up — transfer from Module 148.** Say: (1) Ask your mother-in-law about a mountain path. (2) Describe lighting a candle after a long commute. (3) Say the path grew clear at the roundabout. Build new scenes from the previous pack's blocks.
-
 ---
 
 ## Part 1 — Change with a visible result
@@ -31,17 +29,6 @@ No new glue. The sentence frames are familiar; the new work is choosing the prec
 - **-고서 from M85 orders hearing before deciding.**
 
 ::sentences::
-
-## Practice
-
-1. Use 약수 and 안심하다 in a care scene.
-2. Distinguish 연기되다 from stage acting 연기.
-3. Let a 공연 be postponed, then show a person's response.
-4. Count a 교시 and place play immediately afterward.
-5. Describe rain washing a car with 씻기다.
-6. Reuse M77's 초여름 and 초저녁 in two different time frames.
-7. Return to M148's 촛불 in a safe sequence.
-8. Explain both senses of 까먹다 using context.
 
 **Gap deck:** 까먹다 and 어쩜 좋아 carry meanings beyond their word-by-word readings.
 

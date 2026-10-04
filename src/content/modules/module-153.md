@@ -4,8 +4,6 @@ A shirt button, a palace visit, a hospital discharge and a family meal: this pac
 
 **How to use this:** Learn the words and their notes first. Then read each sentence from natural English through the Korean-order gloss to Korean. Trace matching chunks instead of translating one word at a time.
 
-> **Warm-up — transfer from Module 152.** Say: (1) Buy a dress shirt after joining a company. (2) View an exhibited work in midwinter. (3) Ask whether the eldest son arrived safely. Build these new scenes from the previous pack's blocks.
-
 ---
 
 ## Part 1 — Read the last piece
@@ -37,17 +35,6 @@ No new glue. Familiar frames carry the new vocabulary; notice which noun is the 
 - **-(으)므로 from M85 explains the family meal.**
 
 ::sentences::
-
-## Practice
-
-1. Use 와이셔츠 and 단추 in a new action sequence.
-2. Describe a picture with 전시되다 and 예술적.
-3. Give 큰아들 a new scene after hospital discharge.
-4. Explain why 외아들 does not rule out sisters.
-5. Tell a learner which relative 작은아버지 identifies.
-6. Compare 초순 and 하순 without calling either a week.
-7. Put 인도 in a sentence that clearly means sidewalk.
-8. Decode the three parts of 삼계탕.
 
 **Gap deck:** 작은아버지 and 외아들 need more than a word-by-word reading. Explain the real meaning before turning the card over.
 

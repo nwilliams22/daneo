@@ -4,8 +4,6 @@ A farm takes time, a night shift runs long, and a change of light changes what y
 
 **How to use this:** Learn one shelf at a time. Then read the Korean and English layers together, tracing the same chunk across both. This is a vocabulary pack; the grammar is already yours.
 
-> **Warm-up — transfer from Module 132.** Say: (1) “The instructor has an earnest wish.” (2) “The farm work was interrupted.” (3) “The district office values housing.” Change one participant in each before you move on.
-
 ---
 
 ## Part 1 — Words that change the scene
@@ -29,17 +27,6 @@ A farm takes time, a night shift runs long, and a change of light changes what y
 **Spot the recycling:** The sentences revisit cause, retrospective results, parallel change and concession. Look for M132's 농사일, 연장 and 강사 in fresh settings. The lighting example reuses the 조절 family: the noun from the previous pack and the earlier verb 조절하다.
 
 ::sentences::
-
-## Practice
-
-1. Explain how 정지 differs from 중단.
-2. Change the farm sentence so attachment grows to a person.
-3. Describe a night shift using 연장 without copying the sentence.
-4. Use 엷다 to describe a color rather than a layer.
-5. Identify both participants in 모자를 씌우다.
-6. Replace the picture in the lighting sentence with another known noun.
-7. Put M132’s 강사 and this pack’s 인간관계 into a fresh sentence.
-8. Tell a partner why 전선 needs its context before you translate it.
 
 **Gap deck:** 정이 들다 means to grow attached, not for an emotion to enter a container. 일을 소화하다 transfers digestion to managing a workload.
 

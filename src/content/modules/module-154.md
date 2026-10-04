@@ -4,8 +4,6 @@ An uncle's title, a clinic sign, a bus route and a wedding invitation all name a
 
 **How to use this:** Start with the word notes. Read each sentence from natural English to Korean-order gloss to Korean, following the matching chunks.
 
-> **Warm-up — transfer from Module 153.** Say: (1) Ask your father-in-law about the first ten days of next month. (2) Walk along the sidewalk after leaving the old palace. (3) Invite the only son to share samgyetang. These are new combinations of the last pack's blocks.
-
 ---
 
 ## Part 1 — People and their branches
@@ -31,17 +29,6 @@ No new glue. The sentences bring M153's 고궁 and 장인 into a new family visi
 - **에 비해 from M86** compares flight routes and their duration.
 
 ::sentences::
-
-## Practice
-
-1. Explain why 큰아버지 is not simply any uncle.
-2. Give 외할아버지 a new sentence with a destination.
-3. Contrast 입국 with 출입국.
-4. Compare 국제선 and 국내선 with 에 비해.
-5. Name the clinic for an eye illness and the clinic for a child.
-6. Make a new scene with 삼계탕 and one new word.
-7. Explain the different jobs of 냉방 and 온돌.
-8. Make one sentence with a venue ending -장 and a color ending -색.
 
 **Gap deck:** 큰아버지 and 작은어머니 are relationship titles, not measurements. Decode the literal parts, then name the actual relative.
 

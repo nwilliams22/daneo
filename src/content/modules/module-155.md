@@ -4,8 +4,6 @@ The final grade-C words move from classrooms and shops to names on a map. A prop
 
 **How to use this:** Learn the notes before the sentences. Use the English, Korean-order gloss and Korean layers to check the same thought in three views.
 
-> **Warm-up — transfer from Module 154.** Say: (1) Ask whether the younger son reached the pediatric clinic. (2) Compare the rent for two rooms with 에 비해. (3) Tell the older paternal uncle when you will arrive. These combine last pack's vocabulary in new surfaces.
-
 ---
 
 ## Part 1 — School, family and food
@@ -31,17 +29,6 @@ No new glue. 국제선 and 외할아버지 from M154 meet in a new phone call, �
 - **-다가 from M94** shifts between two map tasks.
 
 ::sentences::
-
-## Practice
-
-1. Explain the order of 예습 and 복습.
-2. Contrast 출석하다 and 결석하다 in a new class scene.
-3. Address another person's son or daughter respectfully.
-4. Compare 소아과 and 외과 by specialty.
-5. Contrast a 식품점 with a 제과점.
-6. Say which cuisine 중식 and 일식 name here.
-7. Group the four historical polity names without inventing a timeline.
-8. Pair the two mountain names and identify 한반도 on a map.
 
 **Gap deck:** 작은딸 ranks a daughter within her family; 깍두기 is a named radish kimchi. The whole meaning is narrower than a literal first glance.
 

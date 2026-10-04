@@ -6,8 +6,6 @@ Someone enters a name, someone waits for care, and a friend makes an anxious aft
 
 **How to use this:** Read the scene shelves, then learn the vocabulary before opening the sentences. Follow each chunk through Korean, literal gloss and natural English.
 
-> **Warm-up — transfer from Module 139.** Say: (1) The private tutor left the teaching materials in the lab. (2) The roster will be organized next month. (3) The wind and rain grew stronger unexpectedly. Use fresh combinations rather than repeating an earlier sentence.
-
 ---
 
 ## Part 1 — People in shared places
@@ -29,17 +27,6 @@ Someone enters a name, someone waits for care, and a friend makes an anxious aft
 **Spot the recycling:** M139’s 명단 gets checked before a name is entered, 교재 makes a bag awkward, 가정교사 receives tea, and 비바람 from M49 threatens an outing. -길래 from M93 supplies an observed reason; -느라고 from M91 explains time spent waiting; -(으)ㄹ수록 from M89 connects difficulty with need.
 
 ::sentences::
-
-## Practice
-
-1. Put M139’s 명단 into a new 입력하다 sentence.
-2. Explain why a 자격증 is not the same thing as 합격하다.
-3. Contrast 위로 as comfort with 위 plus 로 as direction.
-4. Use 창가 and 벤치 to describe two possible places to wait.
-5. Invite M139’s 가정교사 to a different kind of shared activity.
-6. Conjugate 번거롭다 politely, then do the same with 어려워지다.
-7. Compare 녹다 with 녹이다: which one needs something to be melted?
-8. Describe a 나들이 that becomes difficult because of 빗줄기.
 
 **Gap deck:** 마음을 녹이다 softens someone emotionally; 눈가가 뜨거워지다 can signal tears welling up.
 

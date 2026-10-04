@@ -4,8 +4,6 @@ You have the application form. Now send it, visit the exhibition, and find out w
 
 **How to use this:** Learn the words first. Then read each sentence as three views of the same scene: natural English, Korean-order gloss, and Korean.
 
-> **Warm-up — transfer from Module 144.** Say: (1) The sisters display an album. (2) A worker checks an application form. (3) I looked for a job inside the school. Use the previous pack's blocks in fresh combinations; do not recite its sentences.
-
 ---
 
 ## Part 1 — Follow the noun to the scene
@@ -41,17 +39,6 @@ Watch three connections:
 ::sentences::
 
 The understood speaker need not appear as 저는. Keep the Korean subject where Korean puts it: 답장이 왔어요 literally gives the reply its own arrival.
-
-## Practice
-
-1. Say that you visited the exhibition hall while going to display an album. Change the album to photographs.
-2. Send M144's 신청서 by post, then describe a reply arriving with -았/었더니.
-3. Make a fresh job-search sentence with 일자리 and 모집하다. Who is recruiting whom?
-4. Contrast an appointment at 정오 with a walk in 한낮.
-5. Use 식기 and 수입품 in a sentence that does not assume a high price.
-6. Describe closing your eyes after an event. Then explain what changes in 눈감아 주다.
-7. Change the caregiving sentence so the missed activity is watching a film.
-8. Use 차차 to describe becoming accustomed to a company after leaving military service.
 
 **Gap deck:** 눈감아 주다 lets a fault slide; 도마 위에 오르다 puts an issue under scrutiny. The words are concrete, but the scenes need not be.
 

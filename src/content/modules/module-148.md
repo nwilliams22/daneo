@@ -6,8 +6,6 @@ A bag needs moving, a road bends, and a summer walk changes when rain arrives. T
 
 **How to use this:** Learn the checklist, then read each three-layer sentence in order. Trace each Korean chunk through the gloss to the natural English.
 
-> **Warm-up — transfer from Module 147.** Say: (1) Consult a guide to the nearby town before walking. (2) Ask the host to prepare the talk personally. (3) Describe the raindrops that reached a historic site. Build new scenes from the previous pack's blocks.
-
 ---
 
 ## Part 1 — The route and its load
@@ -33,17 +31,6 @@ No new glue. The sentence frames are familiar; the new work is choosing the prec
 - **-더라도 from M95 concedes difficult weather without stopping the walk.**
 
 ::sentences::
-
-## Practice
-
-1. Move a load after weighing it on a 저울.
-2. Contrast 출퇴근 with 운반: who or what moves?
-3. Place a 로터리 on the 반대편 of a street.
-4. Describe a room becoming clean after becoming dirty.
-5. Say how a 산길 changes when day grows bright.
-6. Use 근교 and 빗방울 in a different walk.
-7. Use 사회자 and 통역 in one new event.
-8. Explain why 뭘요 is a reply, not a request for an object.
 
 **Gap deck:** 발바닥에 불이 나다 and 뭘요 carry meanings beyond their word-by-word readings.
 

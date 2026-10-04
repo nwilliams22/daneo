@@ -6,8 +6,6 @@ A device takes input, an office revises an arrangement, and a tree shades a fron
 
 **How to use this:** Work through each shelf before the sentence cards. Follow the chunk IDs across all three layers; the grammar is already familiar.
 
-> **Warm-up — transfer from Module 136.** Say: (1) “The seminar announced a new product.” (2) “The robot was outside.” (3) “She checked security carefully.” Change the place, actor or tense. None repeats a previous sentence.
-
 ---
 
 ## Part 1 — What changes, what stays
@@ -29,17 +27,6 @@ A device takes input, an office revises an arrangement, and a tree shades a fron
 **Spot the recycling:** M136's 로봇, 보안, 신제품 and 신중하다 return in technical and human settings. -고서 from M85 keeps actions in order; -다 보니 from M93 lets a result emerge through experience.
 
 ::sentences::
-
-## Practice
-
-1. Contrast 입력 with 도움말 in an app.
-2. Explain why 최신 does not guarantee quality.
-3. Count two trees with 그루.
-4. Make a new 보안 sentence using M136's 로봇 and this pack's 입력.
-5. Contrast 정직하다 and 신중하다 in a decision.
-6. Give an example of a 배치 that might be 불평등하다.
-7. Tell what became possible with 가능해지다, then what recovered with 회복되다.
-8. Use 그전 to compare a workplace before and after a change.
 
 **Gap deck:** 일손이 부족하다 means a task lacks enough working hands; 회복되다 can describe health, order or a system returning to working condition.
 

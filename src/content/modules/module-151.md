@@ -4,8 +4,6 @@ A bulb needs changing, a kettle disappears in the dark, and a friend needs someo
 
 **How to use this:** Learn the words and their notes first. Then read each sentence from natural English through the Korean-order gloss to Korean. Trace matching chunks instead of translating one word at a time.
 
-> **Warm-up — transfer from Module 150.** Say: (1) Listen to an album after writing a preface. (2) Discuss a private school with a friend. (3) Share your inner feelings after a long night. Build these new scenes from the previous pack's blocks.
-
 ---
 
 ## Part 1 — The object tells you the job
@@ -35,17 +33,6 @@ No new glue. Familiar frames carry the new vocabulary; notice which noun is the 
 - **-았/었더니 from M88 connects a personal action to the response observed.**
 
 ::sentences::
-
-## Practice
-
-1. Explain why a specialty shop ends in 점 rather than 자.
-2. Use 사립 and 교육비 in a new comparison.
-3. Tell a friend what you listened to on an 음반.
-4. Use 속마음 and 들어주다 in a new scene.
-5. Distinguish a container from its 내용물.
-6. Describe what you do after changing a 전구.
-7. Contrast hearing a request with granting it.
-8. Say how 교외 differs from a busy city center.
 
 **Gap deck:** 재수가 없다 and 부탁을 들어주다 need more than a word-by-word reading. Explain the real meaning before turning the card over.
 

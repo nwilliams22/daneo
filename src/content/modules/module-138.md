@@ -4,8 +4,6 @@ A host guides a route, someone measures body temperature, and workers search for
 
 **How to use this:** Read the scene shelves, then match Korean, gloss and English chunks. Use the sentences to carry familiar grammar into new situations.
 
-> **Warm-up — transfer from Module 137.** Say: (1) “The honest worker read the help text.” (2) “The arrangement became possible.” (3) “The head office recovered.” Change an actor, setting or tense in each; do not repeat the earlier pack.
-
 ---
 
 ## Part 1 — Following things through
@@ -27,17 +25,6 @@ A host guides a route, someone measures body temperature, and workers search for
 **Spot the recycling:** M137's 정직하다, 회복되다, 도움말 and 배치 return in new roles. -고서 from M85 orders a recovery and its aftermath; -는 김에 from M91 adds a useful check; -다 보니 from M93 lets a staffing need emerge.
 
 ::sentences::
-
-## Practice
-
-1. Give a physical and a career meaning for 진로.
-2. Compare 재다 with a guess about 체온.
-3. Explain the vendor sense of 장수 using 사과 장수.
-4. Use M137's 회복되다 with a different measurable sign.
-5. Put 도움말 and 소지품 into a fresh -는 김에 sentence.
-6. Explain the difference between 수컷 and M136's 암컷.
-7. Describe what a 진행자 does that an audience member does not.
-8. Contrast 푸다 with 풀다 using an object that fits each verb.
 
 **Gap deck:** 골치가 아프다 can describe a troublesome problem rather than a literal headache; 한결 낫다 says someone or something is noticeably better.
 

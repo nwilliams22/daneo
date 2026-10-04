@@ -6,8 +6,6 @@ A list gets tidied, a lesson runs long, and the weather moves a meeting. This pa
 
 **How to use this:** Read the scene shelves, then learn the vocabulary before opening the sentences. Follow each chunk through Korean, literal gloss and natural English.
 
-> **Warm-up — transfer from Module 138.** Say: (1) The host has a sense of responsibility. (2) The seeds are among the belongings. (3) The vendor looked up at the sky. Use fresh combinations rather than repeating an earlier sentence.
-
 ---
 
 ## Part 1 — What stays, what changes
@@ -29,17 +27,6 @@ A list gets tidied, a lesson runs long, and the weather moves a meeting. This pa
 **Spot the recycling:** M138’s 진행자 organizes names, 씨앗 stays in a yard, 소지품 waits during a search, and 책임감 grows with morale. -는 김에 from M91 adds a useful task; -(으)ㄴ 채 from M94 holds a state; -다 보니 from M94 lets a longer lesson emerge.
 
 ::sentences::
-
-## Practice
-
-1. Give the full form of 놔두다, then contract 놓아둔.
-2. Explain why 열 명 미만 does not include ten people.
-3. Contrast a 명단 with the 문구 printed above it.
-4. Recombine M138’s 소지품 with 연구실 in a fresh sentence.
-5. Use 길어지다 for a meeting and 늦어지다 for its starting time.
-6. Explain how the thread 실 differs from the final syllable of 연구실.
-7. Say what a 가정교사 does, using 교재.
-8. Use M138’s 책임감 in a new comparison with 사기.
 
 **Gap deck:** 놔두세요 can ask someone to stop interfering; 열 명 미만 excludes ten rather than including it.
 

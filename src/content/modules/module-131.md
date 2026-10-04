@@ -4,8 +4,6 @@ An answer appears after an interview; a count rises as a season passes. This sli
 
 **How to use this:** Give the word notes first pass, then read each Korean sentence before the English layer. This module adds no grammar; it gives older glue new work to do.
 
-> **Warm-up — new combinations from Module 130.** Say: (1) “The sailor held the wrapping cloth.” (2) “The excuse left me disappointed.” (3) “I looked around before painting the wall.” Now change one noun in each answer. Build the forms yourself rather than recalling a line from Module 130.
-
 ---
 
 ## Part 1 — From uncertainty to an answer
@@ -29,17 +27,6 @@ An answer appears after an interview; a count rises as a season passes. This sli
 The sentences recycle cause from M86, retrospective discovery from M88, increasing degree from M89, a second action from M91, and interruption or concession from M94/M95. M130's 부상, 선원, 변명 and 엉망 return in fresh settings. The English chunks follow natural English order even when the Korean places an object first.
 
 ::sentences::
-
-## Practice
-
-1. Contrast 확신하다 and 허락하다 in one situation.
-2. Name the subject of the 급증하다 sentence; say what is actually increasing.
-3. Change the emergency sentence to a past-tense report.
-4. Use 꼼꼼하다 for the process and 깔끔하다 for the result.
-5. Make an -았/었더니 sentence with M130's 짐작.
-6. Explain the difference between 부딪히다 and the planned action 뿌리치다.
-7. Rebuild the injury sentence with a different M130 person.
-8. Use 하반기 and M128's 상반기 to compare two periods.
 
 **Gap deck:** 비상이 걸리다 literally puts an emergency “on”; it means an alert is raised. 해답이 보이다 can mean that a solution becomes clear without a written answer in sight.
 

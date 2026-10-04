@@ -4,8 +4,6 @@ The night brings grading, visitors and a late return home. Small household objec
 
 **How to use this:** Read the scene shelves, then learn the vocabulary before opening the sentences. Follow each chunk through Korean, literal gloss and natural English.
 
-> **Warm-up — transfer from Module 142.** Say: (1) The return home is required tonight. (2) The space behind the shop is dark. (3) The lowest price still feels expensive. Build fresh combinations, not a sentence from the previous page.
-
 ---
 
 ## Part 1 — A busy night and a valued home
@@ -27,17 +25,6 @@ The night brings grading, visitors and a late return home. Small household objec
 **Spot the recycling:** M142’s 필수, 귀가하다 and 뒤편 return as a requirement, a late homecoming and a back-door location. No new glue is introduced; the sentence notes point back to known Ring 3 patterns.
 
 ::sentences::
-
-## Practice
-
-1. Use M142’s 필수 with 제출 and give a deadline.
-2. Change 아버지는 한밤중에 귀가하셨어요 to an earlier morning return.
-3. Explain how 잔디 grows into 잔디밭; place 반짝이다 in the same scene.
-4. Contrast 싸구려 with 소중히: why can a low price and personal value diverge?
-5. Use 채점 and 침착하다 in one fresh exam scene.
-6. Explain both the literal 바가지 and the overcharging idiom in the gap deck.
-7. Make a hospital scene using 병실, 습기 and 수도꼭지.
-8. Use 봉사하다 with 효도 in a family scene, then say who does each action.
 
 **Gap deck:** 바가지를 쓰다 — To be overcharged. 미움을 사다 — To incur someone’s dislike.
 

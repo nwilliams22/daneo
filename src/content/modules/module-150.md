@@ -4,8 +4,6 @@ A fee is paid, a recording survives a performance, and relatives gather. These w
 
 **How to use this:** Learn the checklist, then read each three-layer sentence in order. Trace each Korean chunk through the gloss to the natural English.
 
-> **Warm-up — transfer from Module 149.** Say: (1) Register for a class after finding a lower tuition fee. (2) Meet an angler by the river after a performance. (3) Offer spring water to someone tired from study. Build new scenes from the previous pack's blocks.
-
 ---
 
 ## Part 1 — The public and the private
@@ -31,17 +29,6 @@ No new glue. The sentence frames are familiar; the new work is choosing the prec
 - **-더니 from M88 links a cat's sound to a visible reaction.**
 
 ::sentences::
-
-## Practice
-
-1. Explain how 사립 differs from public ownership.
-2. Use 학비 and 등록하다 while keeping the purpose clear.
-3. Turn 공연되다 into a modifier before 음악.
-4. Describe the difference between 사생활 and 속마음.
-5. Reuse M74’s 밤새우다 with a writing task.
-6. Return to M149's 강변 during an 올여름 plan.
-7. Recall both literal and figurative 손잡다 from M74.
-8. Say what the gap phrase 쓴맛을 보다 means beyond tasting.
 
 **Gap deck:** 손잡다 and 쓴맛을 보다 carry meanings beyond their word-by-word readings.
 

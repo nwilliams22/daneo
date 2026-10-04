@@ -6,8 +6,6 @@ Costs, obligations and forms can reshape an ordinary evening. A lease needs a de
 
 **How to use this:** Read the scene shelves, then learn the vocabulary before opening the sentences. Follow each chunk through Korean, literal gloss and natural English.
 
-> **Warm-up — transfer from Module 141.** Say: (1) The application needs another signature. (2) The service counter is behind the building. (3) A participant remembers a shortcut. Build fresh combinations, not a sentence from the previous page.
-
 ---
 
 ## Part 1 — What a plan costs
@@ -27,17 +25,6 @@ Costs, obligations and forms can reshape an ordinary evening. A lease needs a de
 **Spot the recycling:** M141’s 원서, 창구 and 서명 return as an incomplete form, a dark counter and a request to sign. No new glue is introduced; the sentence notes point back to known Ring 3 patterns.
 
 ::sentences::
-
-## Practice
-
-1. Use M141’s 원서 with 필수 in a new request at the counter.
-2. Explain when 가능 names a possibility and when 가능하다 describes it.
-3. Contrast 최저 with 최고 from M54 using a price, not a person.
-4. Change 밤을 새웠어요 to a sentence about one sleepless exam night.
-5. Make a scene with 잔디, 아스팔트 and 조깅 without calling the road a lawn.
-6. Use 요 before a noun, then add sentence-final -요 to the predicate; explain why they differ.
-7. Contrast 매달다 with 매달리다 from M94 using a sign and a person.
-8. Describe how 무관심 could become an 불이익 in a public service scene.
 
 **Gap deck:** 밤을 새우다 — To stay up all night. 전세를 살다 — To rent on a jeonse deposit.
 

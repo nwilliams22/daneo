@@ -4,8 +4,6 @@ A magpie leaves a starting point, a robot appears at a seminar, and a contest gr
 
 **How to use this:** Study one shelf, then follow matching chunks across Korean, gloss and English. No grammar is new here; use the patterns you already own.
 
-> **Warm-up — transfer from Module 135.** Say: (1) “The established generation invited the judge.” (2) “The performer recalled a starting point.” (3) “The ranking changed only then.” Replace one noun or tense in each. These are new combinations of the previous pack's pieces.
-
 ---
 
 ## Part 1 — Words for public scenes
@@ -27,17 +25,6 @@ The departing motion 떠나가다 also comes from M74. Reuse it with 까치 whil
 **Spot the recycling:** M69's 초청하다 and M135's 순위, 출발점 and 기성세대 return in unfamiliar combinations. -고서 from M85 orders actions, -는 김에 from M91 adds a task on the same occasion, and -다 보니 from M93 introduces an outcome noticed along the way.
 
 ::sentences::
-
-## Practice
-
-1. Explain how 납득하다 differs from merely hearing an explanation.
-2. Say what a reporter could 기술하다 after a 시합.
-3. Put 까치 and 출발점 in a fresh sentence with -고서.
-4. Contrast 신속하다 with 신중하다 without treating them as opposites.
-5. Give one animal context for 암컷 and one human term instead.
-6. Use M135's 순위 with this pack's 만점, but keep score and rank distinct.
-7. Describe a faint light with 은은하다 and a loud room with 떠들썩하다.
-8. Explain who has an 이해관계 when 보안 rules change.
 
 **Gap deck:** 뜻대로 되다 says events go according to one's intention; 썩 좋지 않다 gives a restrained negative judgment instead of “very bad.”
 
