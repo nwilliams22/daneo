@@ -26249,7 +26249,7 @@
     ],
     "rom": "yeonseuphalsurok sillyeogi joajyeoyo",
     "wordIds": ["w_yeonseuphada", "w_sillyeok", "w_joajida"],
-    "note": "Recycles -(으)ㄹ수록 from M89. This sentence uses  from the current slice in a new setting."
+    "note": "Recycles -(으)ㄹ수록 from M89: 연습할수록 means the more one practices, and 실력이 좋아져요 gives the result — one’s skill improves."
   },
   {
     "id": "s_m122_04",
@@ -26453,7 +26453,7 @@
     ],
     "rom": "sonjilhaneun gime chaeksangdo dakkayo",
     "wordIds": ["w_sonjilhada", "w_chaeksang", "w_dakda"],
-    "note": "Recycles -는 김에 from M91. This sentence uses  from the current slice in a new setting."
+    "note": "Recycles -는 김에 from M91: tidying up is the occasion for wiping the desk too. 손질하다 is the action verb from M122; this module’s 손질 names the work or its result."
   },
   {
     "id": "s_m123_06",
