@@ -76,13 +76,13 @@ failures. Cancellation progress is retained in the command evidence.
 The fixture supplies exact input bytes and expected direction; the frontend
 derives direction from Hangul script and sends it as an explicit native command
 argument. Set `VITE_DANEO_EVAL_SET=dev` or `v0` while bundling `acceptance.ts` for those explicit
-fixtures; omit it or set `v2` for the replacement held-out fixture. Set
-`DANEO_ACCEPTANCE_SET=reference/eval/v2-translation-set.json` for the raw recorder. Each raw row
+fixtures; omit it or set `v1` or `v2` for the corresponding frozen held-out fixture. Set
+`DANEO_ACCEPTANCE_SET=reference/eval/v1-translation-set.json` (or the selected frozen set) for the raw recorder. Each raw row
 then carries the run HEAD plus prompt, rubric, and item-set hashes. After committing a report,
 run `python3 reference/eval/check-provenance.py RAW.jsonl --report-commit REPORT_COMMIT` to verify
 the ancestry and hashes. The committed negative fixture is checked by
 `python3 -m unittest reference.eval.test_provenance`.
-One fresh-process request precedes three rounds of all ten held-out items.
+The acceptance harness issues exactly one request per held-out item.
 “Warm” means a repeated request in the same process with warmed OS file cache;
 the production v0 worker reloads and re-verifies weights on every request.
 Cold here means process-cold, not disk-cold: hash verification warms the file
