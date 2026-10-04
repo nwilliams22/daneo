@@ -19216,26 +19216,26 @@
   {
     "id": "s_m86_solution_lunch",
     "en": [
-      { "t": "I was so busy looking for", "role": "other", "id": "a" },
+      { "t": "Because I was looking for", "role": "other", "id": "a" },
       { "t": "a solution", "role": "object", "id": "o" },
-      { "t": "that I didn't even get to eat", "role": "verb", "id": "v" },
+      { "t": "I didn't even get to eat", "role": "verb", "id": "v" },
       { "t": "lunch", "role": "object", "id": "b" }
     ],
     "gloss": [
       { "t": "solution plan-[obj]", "role": "object", "id": "o" },
-      { "t": "search-busy-because", "role": "other", "id": "a" },
+      { "t": "search-unexpected-because", "role": "other", "id": "a" },
       { "t": "lunch-even", "role": "object", "id": "b" },
       { "t": "can't eat-did", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "해결 방안을", "role": "object", "id": "o" },
-      { "t": "찾느라고", "role": "other", "id": "a" },
+      { "t": "찾는 바람에", "role": "other", "id": "a" },
       { "t": "점심도", "role": "object", "id": "b" },
       { "t": "못 먹었어요", "role": "verb", "id": "v" }
     ],
-    "rom": "haegyeol banganeul channeurago jeomsimdo mot meogeosseoyo",
+    "rom": "haegyeol banganeul channeun barame jeomsimdo mot meogeosseoyo",
     "wordIds": ["w_haegyeol", "w_bangan", "w_chatda", "w_jeomsim", "w_meokda"],
-    "note": "The busy-because: 찾느라고 — M6's 찾다 with -느라고 straight on the stem — says the speaker was occupied with one thing and paid for it with another, the same subject on both sides and always a cost: no lunch. 해결 방안 stacks M72's 해결 bare on 방안, the committee's phrase for a solution; 점심도 (M3's 점심) carries 도 from M2 in its even-job, so the object wears 도 instead of 을 and keeps its role. 못 from M3 with M1's 먹다 closes — the -느라고 sentence's classic ending, because what -느라고 explains is almost always something you failed to do."
+    "note": "찾는 바람에 reports an unwelcome result of the search: looking for a solution unexpectedly took the lunch break. The present badge -는 attaches to M6's 찾다 before 바람에. 해결 방안 stacks M72's 해결 on today's 방안; 점심도 (M3's 점심) carries the even-도 from M2 instead of 을. 못 from M3 with M1's 먹다 closes the result. M91 later introduces -느라고 for the narrower case where a busy activity itself has a cost."
   },
   {
     "id": "s_m86_accident_dependence",
@@ -19269,27 +19269,27 @@
     "en": [
       { "t": "My younger brother", "role": "subject", "id": "s" },
       { "t": "felt", "role": "other", "id": "a" },
-      { "t": "so much pressure that", "role": "object", "id": "o" },
+      { "t": "too much pressure, so", "role": "object", "id": "o" },
       { "t": "he gave up", "role": "verb", "id": "v" },
       { "t": "entering the competition", "role": "object", "id": "b" }
     ],
     "gloss": [
       { "t": "too big burden-[obj]", "role": "object", "id": "o" },
-      { "t": "feel-[badge] remainder", "role": "other", "id": "a" },
+      { "t": "feel-because", "role": "other", "id": "a" },
       { "t": "my younger-sibling-[topic]", "role": "subject", "id": "s" },
       { "t": "competition-to go-out-[badge] thing-[obj]", "role": "object", "id": "b" },
       { "t": "give-up-did", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "너무 큰 부담을", "role": "object", "id": "o" },
-      { "t": "느낀 나머지", "role": "other", "id": "a" },
+      { "t": "느껴서", "role": "other", "id": "a" },
       { "t": "제 동생은", "role": "subject", "id": "s" },
       { "t": "대회에 나가는 것을", "role": "object", "id": "b" },
       { "t": "포기했어요", "role": "verb", "id": "v" }
     ],
-    "rom": "neomu keun budameul neukkin nameoji je dongsaengeun daehoee naganeun geoseul pogihaesseoyo",
-    "wordIds": ["w_neomu", "w_keuda", "w_budam", "w_neukkida", "w_nameoji", "w_je", "w_dongsaeng", "w_daehoe", "w_nagada", "w_pogihada"],
-    "note": "The excess ending: 느낀 나머지 — M32's 느끼다 in the past badge from M24, then M57's 나머지 as a dependent noun — reads as the remainder of having felt — Korean for so-much-that: the burden was felt to the point where something had to give. 너무 큰 부담 (M11's 너무, M1's 크다) is the excess itself, an object of the felt-clause; the giving-up is the result, M35's 포기하다 on 대회에 나가는 것 — M51's 대회, M8's 나가다, -는 것 from M17 wrapping the act into a thing. 제 동생은 (M17's 제, M4's 동생) is the subject that stands, in Korean, between the cause and the effect."
+    "rom": "neomu keun budameul neukkyeoseo je dongsaengeun daehoee naganeun geoseul pogihaesseoyo",
+    "wordIds": ["w_neomu", "w_keuda", "w_budam", "w_neukkida", "w_je", "w_dongsaeng", "w_daehoe", "w_nagada", "w_pogihada"],
+    "note": "느껴서 is M32's 느끼다 with the familiar -아/어서 cause from M10. 너무 큰 부담 (M11's 너무, M1's 크다) is the pressure felt; M35's 포기하다 closes the result. 대회에 나가는 것 uses M51's 대회, M8's 나가다 and -는 것 from M17 to wrap the act as an object. M92 later teaches -(으)ㄴ 나머지 for an excessive cause."
   },
   {
     "id": "s_m86_research_effect",
@@ -19540,23 +19540,23 @@
   {
     "id": "s_m87_no_way_truth",
     "en": [
-      { "t": "There's no way", "role": "verb", "id": "v" },
-      { "t": "that person", "role": "subject", "id": "s" },
-      { "t": "told the truth", "role": "object", "id": "o" }
+      { "t": "That person", "role": "subject", "id": "s" },
+      { "t": "might well have told", "role": "verb", "id": "v" },
+      { "t": "the truth", "role": "object", "id": "o" }
     ],
     "gloss": [
       { "t": "that person-[subj]", "role": "subject", "id": "s" },
       { "t": "truth-[obj]", "role": "object", "id": "o" },
-      { "t": "said-would-reason-[subj] not-exist", "role": "verb", "id": "v" }
+      { "t": "said-would-law-does", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "그 사람이", "role": "subject", "id": "s" },
       { "t": "진실을", "role": "object", "id": "o" },
-      { "t": "말했을 리가 없어요", "role": "verb", "id": "v" }
+      { "t": "말했을 법해요", "role": "verb", "id": "v" }
     ],
-    "rom": "geu sarami jinsireul malhaesseul riga eopseoyo",
-    "wordIds": ["w_geu_det", "w_saram", "w_jinsil", "w_malhada", "w_eopda"],
-    "note": "The no-way machine: the past stem of M4's 말하다 takes the prospective badge — 말했을 — then 리 (a reason, riding frozen as the socket noun) with 가 and M1's 없다: no reason-in-the-order-of-things exists for it. It is the can-machine -(으)ㄹ 수 있다 from M10 with a different noun in the socket, and the gloss keeps the chassis visible. 진실 pays M74's 거짓 note (\"the formal pair is 진실 (truth — riding frozen) / 거짓\") on its first outing, as the object of the verb it was made for: 진실을 말하다. The whole closer is one chunk — 말했을 리가 없어요 is a single verdict, not a subject and a verb."
+    "rom": "geu sarami jinsireul malhaesseul beophaeyo",
+    "wordIds": ["w_geu_det", "w_saram", "w_jinsil", "w_malhada", "w_beop", "w_hada"],
+    "note": "말했을 법해요 uses the past stem of M4's 말하다 with the prospective badge and 법하다: it seems plausible that this person told the truth, but the speaker does not claim certainty. 법 is M39's law in a dependent-noun job. 진실 pays M74's 거짓 note as the object in 진실을 말하다. M93 later teaches the opposite, stronger no-way verdict -(으)ㄹ 리가 없다."
   },
   {
     "id": "s_m87_book_worth",
@@ -20482,26 +20482,26 @@
   {
     "id": "s_m91_study_focus",
     "en": [
-      { "t": "This study", "role": "subject", "id": "s" },
-      { "t": "set", "role": "verb", "id": "v" },
-      { "t": "its focus", "role": "object", "id": "o" },
-      { "t": "on changes in social structure", "role": "other", "id": "a" }
+      { "t": "I was busy studying", "role": "other", "id": "a" },
+      { "t": "social structure", "role": "object", "id": "o" },
+      { "t": "so I missed", "role": "verb", "id": "v" },
+      { "t": "another field", "role": "object", "id": "b" }
     ],
     "gloss": [
-      { "t": "this research-[topic]", "role": "subject", "id": "s" },
-      { "t": "society structure-[poss] change-on", "role": "other", "id": "a" },
-      { "t": "focus-[obj]", "role": "object", "id": "o" },
-      { "t": "set", "role": "verb", "id": "v" }
+      { "t": "society structure-[obj]", "role": "object", "id": "o" },
+      { "t": "study-busy-because", "role": "other", "id": "a" },
+      { "t": "another field-[obj]", "role": "object", "id": "b" },
+      { "t": "missed", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "이 연구는", "role": "subject", "id": "s" },
-      { "t": "사회 구조의 변화에", "role": "other", "id": "a" },
-      { "t": "초점을", "role": "object", "id": "o" },
-      { "t": "맞췄어요", "role": "verb", "id": "v" }
+      { "t": "사회 구조를", "role": "object", "id": "o" },
+      { "t": "연구하느라고", "role": "other", "id": "a" },
+      { "t": "다른 분야를", "role": "object", "id": "b" },
+      { "t": "놓쳤어요", "role": "verb", "id": "v" }
     ],
-    "rom": "i yeonguneun sahoe gujoui byeonhwae chojeomeul matchwosseoyo",
-    "wordIds": ["w_i_det", "w_yeongu", "w_sahoe", "w_gujo", "w_byeonhwa", "w_chojeom", "w_matchuda"],
-    "note": "초점을 맞추다 = to focus on — today's 초점, the scorch-point, as the object of M37's 맞추다, the tuning verb whose note set alarms and checked answers; a lens is tuned the same way. What it is tuned to takes 에: 사회 구조의 변화에 — M32's 사회 on today's 구조 (the shelf's first word, in its commonest compound) with M32's 변화 hung on the 의 — the changes in social structure. M32's 연구 is the topic, as the study is always the topic of its own abstract. No 바, no 다시피, no 겸: the eighth sentence is the plain report, the register the other seven decorate, and two of the module's structure-nouns in one noun phrase."
+    "rom": "sahoe gujoreul yeonguhaneurago dareun bunyareul nochyeosseoyo",
+    "wordIds": ["w_sahoe", "w_gujo", "w_yeonguhada", "w_dareuda", "w_bunya", "w_nochida"],
+    "note": "연구하느라고 joins M44's 연구하다 to -느라고: the same speaker spent time on one activity and missed another. M91's 구조 and 분야 name the subject studied and the field missed; M12's 놓치다 makes the cost explicit. Unlike M91's -는 김에, which adds an opportunity, -느라고 reports what the busy activity prevented."
   },
   {
     "id": "s_m92_tiny_being",
@@ -20600,25 +20600,25 @@
     "id": "s_m92_avoid_glance",
     "en": [
       { "t": "That child", "role": "subject", "id": "s" },
-      { "t": "answered", "role": "verb", "id": "v" },
-      { "t": "while avoiding", "role": "other", "id": "a" },
-      { "t": "my eyes", "role": "object", "id": "o" }
+      { "t": "was so nervous that", "role": "other", "id": "a" },
+      { "t": "they avoided", "role": "verb", "id": "v" },
+      { "t": "my gaze", "role": "object", "id": "o" }
     ],
     "gloss": [
       { "t": "that child-[topic]", "role": "subject", "id": "s" },
+      { "t": "too nervous-[badge] remainder", "role": "other", "id": "a" },
       { "t": "my glance-[obj]", "role": "object", "id": "o" },
-      { "t": "avoid-while", "role": "other", "id": "a" },
-      { "t": "answered", "role": "verb", "id": "v" }
+      { "t": "avoided", "role": "verb", "id": "v" }
     ],
     "ko": [
       { "t": "그 아이는", "role": "subject", "id": "s" },
+      { "t": "너무 긴장한 나머지", "role": "other", "id": "a" },
       { "t": "제 눈길을", "role": "object", "id": "o" },
-      { "t": "피하면서", "role": "other", "id": "a" },
-      { "t": "대답했어요", "role": "verb", "id": "v" }
+      { "t": "피했어요", "role": "verb", "id": "v" }
     ],
-    "rom": "geu aineun je nungireul pihamyeonseo daedaphaesseoyo",
-    "wordIds": ["w_geu_det", "w_ai", "w_je", "w_nungil", "w_pihada", "w_daedaphada"],
-    "note": "The NIKL hint on the 눈길 row was ~을 피하다, and here it is: 제 눈길을 피하면서 = while avoiding my eyes — today's 눈길 as the object of M36's 피하다 (that note's verb for ducking rain and people alike), with M17's 제 in front. -(으)면서 from M38 puts the dodging and the answering in one body at one moment, as that md's rule requires; M10's 대답하다 closes. 그 아이 (M29's 그, M4's 아이) is the child who broke the vase. Swap 눈길 for 시선 and the sentence moves from the kitchen to the novel: 시선을 피하며 대답했다 — the -(으)며 of M85 arriving with the register."
+    "rom": "geu aineun neomu ginjanghan nameoji je nungireul pihaesseoyo",
+    "wordIds": ["w_geu_det", "w_ai", "w_neomu", "w_ginjanghada", "w_nameoji", "w_je", "w_nungil", "w_pihada"],
+    "note": "너무 긴장한 나머지 = so nervous that: M57's 나머지, normally a remainder, becomes the result left by an excessive state after the past badge -(으)ㄴ. The excess is marked by M11's 너무; the result is avoiding today's 눈길, with M36's 피하다. Unlike the procedural -(으)ㄴ 결과 from M90, this frame needs an unusually strong cause."
   },
   {
     "id": "s_m92_sparrow_no_tree",
@@ -20872,26 +20872,20 @@
   {
     "id": "s_m93_economy_forecast",
     "en": [
-      { "t": "The economic situation", "role": "subject", "id": "s" },
-      { "t": "is expected", "role": "verb", "id": "v" },
-      { "t": "to become more difficult", "role": "other", "id": "a" },
-      { "t": "next year", "role": "other", "id": "t" }
+      { "t": "That economic outlook", "role": "subject", "id": "s" },
+      { "t": "cannot be right", "role": "verb", "id": "v" }
     ],
     "gloss": [
-      { "t": "next-year-in-[topic]", "role": "other", "id": "t" },
-      { "t": "economy situation-[subj]", "role": "subject", "id": "s" },
-      { "t": "more difficult-become-will thing-as", "role": "other", "id": "a" },
-      { "t": "is-expected", "role": "verb", "id": "v" }
+      { "t": "that economy outlook-[subj]", "role": "subject", "id": "s" },
+      { "t": "right-would-reason-[subj] not-exist", "role": "verb", "id": "v" }
     ],
     "ko": [
-      { "t": "내년에는", "role": "other", "id": "t" },
-      { "t": "경제 상황이", "role": "subject", "id": "s" },
-      { "t": "더 어려워질 것으로", "role": "other", "id": "a" },
-      { "t": "예상됩니다", "role": "verb", "id": "v" }
+      { "t": "그 경제 전망이", "role": "subject", "id": "s" },
+      { "t": "맞을 리가 없어요", "role": "verb", "id": "v" }
     ],
-    "rom": "naenyeoneneun gyeongje sanghwangi deo eoryeowojil geoseuro yesangdoemnida",
-    "wordIds": ["w_naenyeon", "w_gyeongje", "w_sanghwang", "w_deo", "w_eoryeopda", "w_yesangdoeda"],
-    "note": "The one printed sentence in the deck, so you can hear the difference: -(으)ㄹ 것으로 예상됩니다 = is expected to — the future hook -(으)ㄹ from M8 on the 것 of M17, 으로 (M6), and today's 예상되다 in the 합니다체 from M4. Nobody expects it; it is expected. 어려워질 is M7's 어렵다 through -아/어지다 from M35 (get more difficult), on M32's 경제 and M33's 상황 with M9's 더. Say the same thing as a person and the whole module collapses into one ending: 내년에는 더 어려울걸요."
+    "rom": "geu gyeongje jeonmangi majeul riga eopseoyo",
+    "wordIds": ["w_geu_det", "w_gyeongje", "w_jeonmang", "w_matda", "w_eopda"],
+    "note": "맞을 리가 없어요 denies the possibility that this economic outlook is right. 리 (理, the ordering-理 traced in M67's 심리 note) is a dependent noun: there is no reason in the order of things for 맞다 to hold. This is stronger than M87's -(으)ㄹ 법하다, which merely says a claim is plausible. Today's 전망 is the outlook being rejected."
   },
   {
     "id": "s_m95_no_matter_competition",
@@ -21470,7 +21464,7 @@
     ],
     "rom": "orae yeonguhan gyeolgwa saeroun jomiryoga gaebaldoeeo sijange deungjanghaesseoyo",
     "wordIds": ["w_orae", "w_yeonguhada", "w_gyeolgwa", "w_saeropda", "w_jomiryo", "w_gaebaldoeda", "w_sijang", "w_deungjanghada"],
-    "note": "Recycles -(으)ㄴ 결과 from M90 — the report's hinge, which that md sorted from the -(으)ㄴ 나머지 of M86 (\"-(으)ㄴ 결과 is a result of a PROCEDURE\") — on M44's 연구하다 with M10's 오래: as a result of long research. Then the two strays meet the shelf's 되다: today's 조미료 (M35's 새롭다 in the badge) on the bare 가, today's 개발되다 in -아/어 as the first step (developer unnamed, as the M90 md said the second half of a 결과 sentence usually is), M3's 시장 as the place with 에, and today's 등장하다 closing — the product makes its entrance. M32's 나타나다 would have it merely show up; 등장하다 gives it a stage, and the economy page writes every launch this way. The roles drill: 개발되어 is a connective form, other; 등장했어요 is the closer."
+    "note": "Recycles -(으)ㄴ 결과 from M90 — the report's hinge, which that md sorted from the -(으)ㄴ 나머지 of M92 (\"-(으)ㄴ 결과 is a result of a PROCEDURE\") — on M44's 연구하다 with M10's 오래: as a result of long research. Then the two strays meet the shelf's 되다: today's 조미료 (M35's 새롭다 in the badge) on the bare 가, today's 개발되다 in -아/어 as the first step (developer unnamed, as the M90 md said the second half of a 결과 sentence usually is), M3's 시장 as the place with 에, and today's 등장하다 closing — the product makes its entrance. M32's 나타나다 would have it merely show up; 등장하다 gives it a stage, and the economy page writes every launch this way. The roles drill: 개발되어 is a connective form, other; 등장했어요 is the closer."
   },
   {
     "id": "s_m96_play_fresh_premise",
@@ -27005,7 +26999,7 @@
     ],
     "rom": "saengbangsongeul junbihaneurago jajeongkkaji ilhaesseoyo",
     "wordIds": ["w_saengbangsong", "w_junbihada", "w_jajeong", "w_ilhada"],
-    "note": "-느라고 from M86 gives the time-consuming reason for the late work. 자정까지 marks its endpoint; the live broadcast is being prepared, not watched."
+    "note": "-느라고 from M91 gives the time-consuming reason for the late work. 자정까지 marks its endpoint; the live broadcast is being prepared, not watched."
   },
   {
     "id": "s_m127_forum_long",
@@ -30833,7 +30827,7 @@
     ],
     "rom": "uiryureul jeongnihaneurago sireul chatji mothaesseoyo.",
     "wordIds": ["w_uiryu", "w_jeongnihada", "w_sil", "w_chatda"],
-    "note": "-느라고 from M86 links being occupied with a missed action. 실 is the sewing material here; it is unrelated to the room suffix in 연구실."
+    "note": "-느라고 from M91 links being occupied with a missed action. 실 is the sewing material here; it is unrelated to the room suffix in 연구실."
   },
   {
     "id": "s_m139_morale",
@@ -31028,7 +31022,7 @@
     ],
     "rom": "jillyoreul gidarineurago changgae orae anja isseosseoyo.",
     "wordIds": ["w_jillyo", "w_gidarida", "w_changga", "w_orae", "w_anda", "w_itda"],
-    "note": "-느라고 from M86 explains time spent on an ongoing activity. 앉아 있었어요 describes the maintained seated state; 창가 names a location, not a subject."
+    "note": "-느라고 from M91 explains time spent on an ongoing activity. 앉아 있었어요 describes the maintained seated state; 창가 names a location, not a subject."
   },
   {
     "id": "s_m140_comfort",
@@ -32204,7 +32198,7 @@
     ],
     "rom": "ganhoreul haneurago donghwachaegeul ikji mothaesseoyo",
     "wordIds": ["w_ganho", "w_hada", "w_donghwachaek", "w_ikda"],
-    "note": "-느라고 from M86 gives the activity that kept the same person from reading. The sentence says nothing about who needed the care."
+    "note": "-느라고 from M91 gives the activity that kept the same person from reading. The sentence says nothing about who needed the care."
   },
   {
     "id": "s_m145_bargain",
@@ -33641,7 +33635,7 @@
   {"id": "s_m152_son", "ko": [{"t": "큰아들은", "role": "subject", "id": "a"}, {"t": "입사하더니", "role": "other", "id": "b"}, {"t": "생활용품을 샀어요.", "role": "verb", "id": "c"}], "gloss": [{"t": "eldest-son-[topic]", "role": "subject", "id": "a"}, {"t": "join-company-[then-observed]", "role": "other", "id": "b"}, {"t": "household-goods-[obj] bought", "role": "verb", "id": "c"}], "en": [{"t": "My eldest son", "role": "subject", "id": "a"}, {"t": "joined a company and then", "role": "other", "id": "b"}, {"t": "bought household goods.", "role": "verb", "id": "c"}], "rom": "keunadeureun ipsahadeoni saenghwaryongpumeul sasseoyo.", "wordIds": ["w_keunadeul", "w_ipsahada", "w_saenghwaryongpum", "w_sada"], "note": "-더니 from M88 links the observed job change with a later action. 큰아들 names family order, not height."},
   {"id": "s_m152_lecture", "ko": [{"t": "강의하다 보니", "role": "other", "id": "a"}, {"t": "졸음이", "role": "subject", "id": "b"}, {"t": "사라졌어요.", "role": "verb", "id": "c"}], "gloss": [{"t": "lecture-[as-kept-doing]", "role": "other", "id": "a"}, {"t": "drowsiness-[subj]", "role": "subject", "id": "b"}, {"t": "disappeared", "role": "verb", "id": "c"}], "en": [{"t": "As I kept lecturing,", "role": "other", "id": "a"}, {"t": "my drowsiness", "role": "subject", "id": "b"}, {"t": "disappeared.", "role": "verb", "id": "c"}], "rom": "ganguihada boni joreumi sarajyeosseoyo.", "wordIds": ["w_ganguihada", "w_joreum", "w_sarajida"], "note": "-다 보니 from M94 introduces a result discovered through continuing an activity."},
   {"id": "s_m152_cloud", "ko": [{"t": "하늘이 흐려지길래", "role": "other", "id": "a"}, {"t": "병아리를", "role": "object", "id": "b"}, {"t": "집 안으로", "role": "place", "id": "c"}, {"t": "데려왔어요.", "role": "verb", "id": "d"}], "gloss": [{"t": "sky-[subj] become-cloudy-[because-noticed]", "role": "other", "id": "a"}, {"t": "chick-[obj]", "role": "object", "id": "b"}, {"t": "house inside-[to]", "role": "place", "id": "c"}, {"t": "brought-along", "role": "verb", "id": "d"}], "en": [{"t": "Because I noticed the sky clouding over,", "role": "other", "id": "a"}, {"t": "I brought", "role": "verb", "id": "d"}, {"t": "the chick", "role": "object", "id": "b"}, {"t": "inside the house.", "role": "place", "id": "c"}], "rom": "haneuri heuryeojigillae byeongarireul jip aneuro deryeowasseoyo.", "wordIds": ["w_haneul", "w_heuryeojida", "w_byeongari", "w_jip", "w_an_inside", "w_deryeooda"], "note": "-길래 from M93 makes an observed change the reason for acting."},
-  {"id": "s_m152_translation", "ko": [{"t": "동생은", "role": "subject", "id": "s"}, {"t": "책을 번역하느라고", "role": "other", "id": "a"}, {"t": "한동안", "role": "other", "id": "b"}, {"t": "힘들어했어요.", "role": "verb", "id": "c"}], "gloss": [{"t": "younger-sibling-[topic]", "role": "subject", "id": "s"}, {"t": "book-[obj] translate-[because-busy]", "role": "other", "id": "a"}, {"t": "for-a-while", "role": "other", "id": "b"}, {"t": "struggled", "role": "verb", "id": "c"}], "en": [{"t": "My younger sibling", "role": "subject", "id": "s"}, {"t": "struggled", "role": "verb", "id": "c"}, {"t": "for a while", "role": "other", "id": "b"}, {"t": "because of translating the book.", "role": "other", "id": "a"}], "rom": "dongsaengeun chaegeul beonyeokhaneurago handongan himdeureohaesseoyo.", "wordIds": ["w_chaek", "w_beonyeokhada", "w_handongan", "w_himdeureohada", "w_dongsaeng"], "note": "-느라고 from M86 relates an absorbing activity to an unwelcome consequence. 힘들어하다 describes the struggle shown during that period."},
+  {"id": "s_m152_translation", "ko": [{"t": "동생은", "role": "subject", "id": "s"}, {"t": "책을 번역하느라고", "role": "other", "id": "a"}, {"t": "한동안", "role": "other", "id": "b"}, {"t": "힘들어했어요.", "role": "verb", "id": "c"}], "gloss": [{"t": "younger-sibling-[topic]", "role": "subject", "id": "s"}, {"t": "book-[obj] translate-[because-busy]", "role": "other", "id": "a"}, {"t": "for-a-while", "role": "other", "id": "b"}, {"t": "struggled", "role": "verb", "id": "c"}], "en": [{"t": "My younger sibling", "role": "subject", "id": "s"}, {"t": "struggled", "role": "verb", "id": "c"}, {"t": "for a while", "role": "other", "id": "b"}, {"t": "because of translating the book.", "role": "other", "id": "a"}], "rom": "dongsaengeun chaegeul beonyeokhaneurago handongan himdeureohaesseoyo.", "wordIds": ["w_chaek", "w_beonyeokhada", "w_handongan", "w_himdeureohada", "w_dongsaeng"], "note": "-느라고 from M91 relates an absorbing activity to an unwelcome consequence. 힘들어하다 describes the struggle shown during that period."},
   {"id": "s_m152_tie", "ko": [{"t": "경기에서 비겼으나", "role": "other", "id": "a"}, {"t": "선수들은", "role": "subject", "id": "b"}, {"t": "웃었어요.", "role": "verb", "id": "c"}], "gloss": [{"t": "game-[at] tied-[but]", "role": "other", "id": "a"}, {"t": "players-[topic]", "role": "subject", "id": "b"}, {"t": "laughed", "role": "verb", "id": "c"}], "en": [{"t": "Although they tied in the game,", "role": "other", "id": "a"}, {"t": "the players", "role": "subject", "id": "b"}, {"t": "laughed.", "role": "verb", "id": "c"}], "rom": "gyeonggieseo bigyeosseuna seonsudeureun useosseoyo.", "wordIds": ["w_gyeonggi", "w_bigida", "w_seonsu", "w_utda"], "note": "-(으)나 from M85 contrasts the tied result with the response. A draw names neither a win nor a loss."},
   {"id": "s_m153_button", "ko": [{"t": "와이셔츠를 입는 김에", "role": "other", "id": "a"}, {"t": "단추도", "role": "object", "id": "b"}, {"t": "확인했어요.", "role": "verb", "id": "c"}], "gloss": [{"t": "dress-shirt-[obj] put-on-[while-at-it]", "role": "other", "id": "a"}, {"t": "buttons-[also]", "role": "object", "id": "b"}, {"t": "checked", "role": "verb", "id": "c"}], "en": [{"t": "While putting on my dress shirt,", "role": "other", "id": "a"}, {"t": "I checked", "role": "verb", "id": "c"}, {"t": "the buttons too.", "role": "object", "id": "b"}], "rom": "waisyeocheureul imneun gime danchudo hwaginhaesseoyo.", "wordIds": ["w_waisyeocheu", "w_ipda", "w_danchu", "w_hwaginhada"], "note": "-는 김에 from M91 adds a useful check to getting dressed. 와이셔츠 recycles M152 in a new scene."},
   {"id": "s_m153_art", "ko": [{"t": "전시된 그림은", "role": "subject", "id": "a"}, {"t": "현대적일 뿐만 아니라", "role": "other", "id": "b"}, {"t": "예술적이에요.", "role": "verb", "id": "c"}], "gloss": [{"t": "exhibited picture-[topic]", "role": "subject", "id": "a"}, {"t": "modern-[not-only]", "role": "other", "id": "b"}, {"t": "artistic-is", "role": "verb", "id": "c"}], "en": [{"t": "The exhibited picture", "role": "subject", "id": "a"}, {"t": "is not only modern but also", "role": "other", "id": "b"}, {"t": "artistic.", "role": "verb", "id": "c"}], "rom": "jeonsidoen geurimeun hyeondaejeogil ppunman anira yesuljeogieyo.", "wordIds": ["w_jeonsidoeda", "w_geurim", "w_hyeondaejeok", "w_yesuljeok"], "note": "-(으)ㄹ 뿐만 아니라 from M89 adds a second quality to the first. 전시되다 from M152 now modifies 그림."},

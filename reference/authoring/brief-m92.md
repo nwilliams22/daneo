@@ -16,9 +16,8 @@ world as a physical thing. 34 words in four drawers: BEING (생명 존재
 눈길 태아 출산 자녀), and the NATIVE THINGS (둥지 참새 꼬리 틈). Glue:
 **-(으)ㄹ 따름이다** (nothing but — the formal 뿐), **-기는 하다** (it is
 true that… but), **-기는커녕** (far from — let alone), **-(으)ㄴ/는 데다가**
-(on top of). Organizing thesis: **the essay's four ways to concede a
-fact and move past it** — the four endings all take a fact and weigh it
-(only that / true, but / not even / and moreover) — taught on the nouns
+(on top of), and **-(으)ㄴ 나머지** (an excessive cause). Organizing thesis: **five ways to weigh a fact** — the five endings all take a fact and weigh it
+(only that / true, but / not even / moreover / excess) — taught on the nouns
 the essay states facts about.
 
 **Organizing machines (all owners verified — cite exactly these):**
@@ -129,15 +128,17 @@ the essay states facts about.
 자녀 · 신경 · 감각 · 시선 · 눈길 · 영혼 · 핵 · 물기 · 하천 · 계곡 · 표면 · 둥지 ·
 참새 · 꼬리 · 틈. POS: 존재하다 `verb`; rest `noun`.
 
+**Fifth glue pattern:** -(으)ㄴ 나머지 names an excessive cause. M57 owns the noun 나머지; the past badge makes it a frame: 너무 긴장한 나머지 제 눈길을 피했어요. Contrast M90's procedural -(으)ㄴ 결과.
+
 **Md shape:** intro · How to use · `## Part 1 —` the four drawers,
 `::vocab::`, **Radar patrol** (생명≠명; 대기 大氣/待機; 눈길 eye-path vs
 snow-road; 물질≠물; 자원≠원; 현상 現象/懸賞; 인생/삶/생명/목숨 sorted) ·
 `## Part 2 —` -(으)ㄹ 따름이다 · `## Part 3 —` -기는 하다 · `## Part 4 —`
 -기는커녕 · `## Part 5 —` -(으)ㄴ/는 데다가 (each with Calibration; end
-with a four-row concession table) · `## Part 6 — Building sentences` ·
+with a five-row weighing table) · `## Part 6 —` -(으)ㄴ 나머지 · `## Part 7 — Building sentences` ·
 `## What's next`. 60–70 lines.
 
-**Sentences:** 8; ≥1 each of the four glue parts; 신경 쓰다 in one; ≥7
+**Sentences:** 8; ≥1 each of the five glue patterns; 신경 쓰다 in one; ≥7
 slice words in sentences. NO digits.
 
 **Gap candidates:** 신경 쓰지 마세요 (phrase), 영혼 없는 대답 (concept — the

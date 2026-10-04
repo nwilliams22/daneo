@@ -1,6 +1,6 @@
 # Korean, Word-First — Module 87: Seeming and Worth
 
-Module 34 taught you the hedge — 것 같다, a noun (것) plus "same" — and said the hedge was politeness, not doubt. Here is the rest of that machine. **Korean measures certainty with nouns:** a look (듯), a reason (리), a law (법), a count (셈), a provision (마련), a verge (지경), a way-of-one's-own (나름) — each one a dependent noun that takes M24's badge in front and a closer behind, and each one says how sure you are, how much a thing is worth, or how far it has gone. The more formal the noun, the more the sentence is written rather than said: 것 같아요 is the mouth, 듯하다 is the page. Around the hedges sit the words the page uses to judge — the verbs of reckoning (여기다, 판단하다, 평가하다, 인식하다, 의식하다), eleven nouns of judgment from 관점 to 가치, and four adjectives of worth. Thirty-three Grade-C words, two glue shelves, and the sentence Korea says after every dropped plate.
+Module 34 taught you the hedge — 것 같다, a noun (것) plus "same" — and said the hedge was politeness, not doubt. Here is the rest of that machine. **Korean measures certainty with nouns:** a look (듯), a law (법), a count (셈), a provision (마련), a verge (지경), a way-of-one's-own (나름) — each one a dependent noun that takes M24's badge in front and a closer behind, and each one says how sure you are, how much a thing is worth, or how far it has gone. The more formal the noun, the more the sentence is written rather than said: 것 같아요 is the mouth, 듯하다 is the page. Around the hedges sit the words the page uses to judge — the verbs of reckoning (여기다, 판단하다, 평가하다, 인식하다, 의식하다), eleven nouns of judgment from 관점 to 가치, and four adjectives of worth. Thirty-three Grade-C words, two glue shelves, and the sentence Korea says after every dropped plate.
 
 **How to use this:** read the socket table in Part 2 first — every hedge on this shelf is the can-machine from M10 with a different noun in the socket — then drill the two shelves as frames (badge + noun + closer), not as words. The judgment nouns are almost pure hanja arithmetic on characters you own; read the four-view sort (의견/견해/관점/시각) and the three-truth sort (사실/진실/진리) as sets.
 
@@ -29,7 +29,6 @@ M10 built the can-machine — "Same hook as the future (-(으)ㄹ), then 수 (a 
 |---|---|---|---|
 | 수 (M10) | a way | -(으)ㄹ 수 있다/없다 | can / cannot |
 | 줄 (M55) | the trick | -(으)ㄹ 줄 알다/모르다 | knows how / doesn't |
-| 리 (a reason — frozen) | a reason in the order of things | -(으)ㄹ 리가 없다 | there's no way that |
 | 법 (M39) | a law | -(으)ㄹ 법하다 | it stands to reason that |
 | 듯 | a look | -(으)ㄹ/-는 듯하다 | it seems that |
 
@@ -37,11 +36,11 @@ M10 built the can-machine — "Same hook as the future (-(으)ㄹ), then 수 (a 
 
 Badge + 듯하다: 비가 **올 듯해요** (looks like rain), 아는 **듯했어요** (seemed to know), 벌써 끝난 **듯해요** (seems already over). Same meaning as 것 같다 from M34, and only the register moves — 것 같다 is said, 듯하다 is written; a news anchor reads 듯하다, a friend says 것 같아요. The family is now five: 것 같다 from M34 ("[badge] + 것 같다 — I think / it seems"), -나 보다 from M34 ("-나 보다 wants a clue you can point at"), M34's 모양 ("~모양이에요 can also mean 'seems'"), -(으)ㄹ 수도 있다 from M84, and 듯하다. Radar: M55's 듯이 is the adverb ("듯이 rides a claim") — 아는 듯이 말해요 describes HOW he talks; 아는 듯해요 is a verdict on whether he knows.
 
-### 2. -(으)ㄹ 법하다 and -(으)ㄹ 리가 없다 — the law and the reason
+### 2. -(으)ㄹ 법하다 — the law of plausibility
 
-M39's 법 (law, and the way of doing) as a socket noun: **그럴 법해요** = that figures, there's a law for it; 있을 **법한** 이야기 (M24's 이야기) = a story that could well be true — the badge form. And its mirror: 리 (理, the ordering-理 M67's 심리 note traced — "the ordering-理 of 정리 (M54)" — riding frozen here as a noun) with 가 and 없다: **그럴 리가 없어요** = that can't be, no reason exists for it; 그 사람이 거짓말을 **했을 리가 없어요** (M19's 거짓말) = there's no way he lied. 법하다 grants plausibility, 리가 없다 denies it — the same socket, opposite verdicts.
+M39's 법 (law, and the way of doing) as a socket noun: **그럴 법해요** = that figures; 있을 **법한** 이야기 (M24's 이야기) = a story that could well be true — the badge form. 법하다 grants plausibility without asserting that the story is true. M93 will teach the stronger negative verdict, -(으)ㄹ 리가 없다.
 
-**Calibration:** 올 것 같아요 (I feel it) · 올 듯해요 (the report feels it) · 올 법해요 (it would figure) · 올 리가 없어요 (impossible) · 올 수도 있어요 (nobody has ruled it out — M84). Five nouns, five degrees of sure.
+**Calibration:** 올 것 같아요 (I feel it) · 올 듯해요 (the report feels it) · 올 법해요 (it would figure) · 올 수도 있어요 (nobody has ruled it out — M84). M93 adds the no-way verdict.
 
 ---
 
@@ -67,4 +66,4 @@ M39's 법 (law, and the way of doing) as a socket noun: **그럴 법해요** = t
 
 ## What's next
 
-Module 88 — **The Retrospective**: -던, -더니, -더라고요 — the endings Korean uses for what it lived through and watched happen, and the words of time lived (겪다, 깨닫다, 과정, 위기). You can now say how sure you are in five degrees and how much a thing is worth in five more; next you learn to say what you saw. 사람은 누구나 실수하기 마련이에요 — 그래도 이 모듈은 볼 만했을 거예요.
+Module 88 — **The Retrospective**: -던, -더니, -더라고요 — the endings Korean uses for what it lived through and watched happen, and the words of time lived (겪다, 깨닫다, 과정, 위기). You can now say how sure you are in four degrees and how much a thing is worth in five more; next you learn to say what you saw. 사람은 누구나 실수하기 마련이에요 — 그래도 이 모듈은 볼 만했을 거예요.

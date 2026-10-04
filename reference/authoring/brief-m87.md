@@ -25,7 +25,7 @@ rather than said.
 **Organizing machines (all owners verified — cite exactly these):**
 
 1. **The seeming shelf (glue part 1): -(으)ㄹ 듯하다 / -는 듯하다 · bare
-   듯 · -(으)ㄹ 법하다 · -(으)ㄹ 리가 없다.**
+   듯 · -(으)ㄹ 법하다.**
    - 듯 / 듯하다. M55 taught 듯이 (w_deusi — "as if, like (a clause)")
      and its note ALREADY PROMISED the bare form VERBATIM: "Headlines
      clip it to bare 듯: 비 올 듯." — quote it; also quote "듯이 rides a
@@ -41,14 +41,7 @@ rather than said.
      법하다 = that figures; 있을 법한 이야기 = a story that could well be
      true. 법 (M?? — verify: 법 "law" may be taught; if so cite, if not
      decode 法 as a first) as a dependent noun: "there is a law for it".
-   - -(으)ㄹ 리가 없다 — there's no way that: 그럴 리가 없어요 = that
-     can't be. 리 (理 — the ordering-理 M67's 심리 traced: "the
-     ordering-理 of 정리 (M54)" — verify span) as a dependent noun: no
-     reason-in-the-order-of-things exists. The 있다-chassis from M10's
-     -(으)ㄹ 수 있다 with a different noun in the socket: 수 (a way) /
-     리 (a reason) / 법 (a law) / 줄 (M55, a trick) / 듯 (a look) — draw
-     this as the module's table.
-   - Sentence slot: ≥1 sentence with 듯하다, ≥1 with 리가 없다 or 법하다.
+   - Sentence slot: ≥1 sentence with 듯하다, ≥1 with 법하다.
 
 2. **The reckoning shelf (glue part 2): -(으)ㄹ 만하다 · -(으)ㄴ/는 셈이다
    · -기 마련이다 · -(으)ㄹ 지경이다 · 나름(대로/이다).**
@@ -173,12 +166,12 @@ last before them: end on 가치).
 **Md shape:** intro (certainty measured in nouns) · How to use · `## Part
 1 —` the bricks, `::vocab::`, **Radar patrol** (여기다≠여기; 가치 vs 같이's
 sound; 만하다's 만 ≠ 만 only ≠ 만 10,000; 바≠바쁘다; 지경≠지) · `## Part 2
-—` the seeming shelf (with the socket table: 수/리/법/줄/듯 on the
+—` the seeming shelf (with the socket table: 수/법/줄/듯 on the
 있다/하다 chassis) · `## Part 3 —` the reckoning shelf (만하다 · 셈이다 ·
 마련이다 · 지경이다 · 나름) · `## Part 4 — Building sentences` · `## What's
 next`. 60–70 lines.
 
-**Sentences:** 8. ≥1 each: 듯하다, 리가 없다 or 법하다, 만하다, 셈이다 or
+**Sentences:** 8. ≥1 each: 듯하다, 법하다, 만하다, 셈이다 or
 마련이다; 여기다 in one; two judgment nouns per sentence where natural.
 Recycle 것 같다 (M34) beside 듯하다 in one note for the register contrast.
 NO digits.

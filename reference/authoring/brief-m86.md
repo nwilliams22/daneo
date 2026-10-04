@@ -48,15 +48,11 @@ preposition, the whole newspaper opens.
    - Sentence slot: ≥2 sentences using these (one 로 인해, one 에도
      불구하고 or 에 비해).
 
-2. **The causal endings (glue part 2): -는 바람에 · -느라고 · -(으)ㄴ
-   탓에 / 덕분에 · -(으)ㄴ 나머지.**
+2. **The causal endings (glue part 2): -는 바람에 · -(으)ㄴ 탓에 / 덕분에.**
    - -는 바람에 — because of (an unexpected event), always a bad
      result: 버스를 놓치는 바람에 늦었어요. M11's 바람 (wind) in a
      dependent-noun job: "in the wind of". Contrast -기 때문에 (M84,
      neutral, formal) — -는 바람에 is spoken and always a mishap.
-   - -느라고 — because (I was busy doing), same subject, a cost paid:
-     공부하느라고 못 잤어요. Verb stems only, always the speaker's own
-     activity; 하느라 (clipped) in speech.
    - -(으)ㄴ 탓에 / -(으)ㄴ 덕분에 — blame vs credit. 탓 PAYS TWO IOUs
      VERBATIM: M69's 조상 note "(못되면 조상 탓, with this word riding
      froz" — quote the full span (lookup.py 조상) — and the M63 gap deck
@@ -64,12 +60,7 @@ preposition, the whole newspaper opens.
      M69's 덕분 is the credit side (read and quote its note). 탓 =
      blame-noun: 남 탓 = blaming others, 내 탓이에요 = my fault (M19's 내
      — verify). -(으)ㄴ 탓에 늦었다, -(으)ㄴ 덕분에 합격했다.
-   - -(으)ㄴ 나머지 — as a result of (an excess of): 너무 기쁜 나머지
-     울었다 = so happy that (she) cried. 나머지 (the rest, remainder —
-     verify owner; if untaught it rides frozen and glossed, and the
-     ending is taught as a fixed frame).
-   - Sentence slot: ≥2 sentences (one 탓에/덕분에, one -는 바람에 or
-     -느라고).
+   - Sentence slot: ≥2 sentences (one 탓에/덕분에, one -는 바람에).
 
 3. **The grounds nouns (8).**
    - 원인 (原因) — cause. PAYS M72's 발생 VERBATIM: "발생 원인 (원인 —
@@ -180,13 +171,13 @@ preposition, the whole newspaper opens.
 `## Part 1 —` the nouns, `::vocab::`, **Radar patrol** (원인≠원, 피해≠피+해,
 비하다≠비, 대책≠책, 여건≠여, 사정's 정 = 情 not 政) · `## Part 2 —` the
 grammar-verbs as prepositions (a four-row table: verb → frame → meaning
-→ spoken twin) · `## Part 3 —` the causal endings (-는 바람에 · -느라고 ·
-탓에/덕분에 · -(으)ㄴ 나머지, with the FULL because-family table now:
+→ spoken twin) · `## Part 3 —` the causal endings (-는 바람에 ·
+탓에/덕분에, with the because-family table now:
 -아/어서 · -(으)니까 M10 · -기 때문에 M84 · -(으)므로 M85 (name it, do not
-teach it) · -는 바람에 · -느라고 · 탓에/덕분에 · 로 인해) · `## Part 4 —
+teach it) · -는 바람에 · 탓에/덕분에 · 로 인해) · `## Part 4 —
 Building sentences` · `## What's next`. 60–70 lines.
 
-**Sentences:** 8. ≥2 grammar-verb frames, ≥2 causal endings, every
+**Sentences:** 8. ≥2 grammar-verb frames, ≥1 causal ending, every
 circumstance-shelf word in ≥1 sentence if possible, 당하다 in one. NO
 digits. Written register where it fits; keep taught sentence-final forms.
 

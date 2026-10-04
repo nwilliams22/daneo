@@ -1,8 +1,8 @@
 # Korean, Word-First — Module 91: Process and Structure
 
-M90 gave the report its nouns for the state; this module gives it the nouns for how anything is BUILT and how anything is DONE. Thirty-four Grade-C words in three drawers: the SHAPE of a thing (구조 형태 형식 방식 구성 형성 기능 틀 토대), its CORE (핵심 초점 본질 근본 근본적 기본적 영역 부문 분야 작업), and the CARRYING-OUT (절차 실시 처리 접근 전개 통합 도입 설치하다). The organizing thesis is a pair: Korean names structure with 하다/되다 twins — 구성하다/구성되다, 형성하다/형성되다, 실시하다/실시되다 — the flip M70's 마련되다 note described ("되다 doesn't check pedigree, only the 하다 it replaces"), and the report writes the 되다 side. Four glue parts fold what the reader already knows into the sentence: **-(으)ㄴ/는 바** (as stated, that which — the IOU M87's 바 note wrote), **-다시피** (as you know, as you see), **-(으)ㄹ 겸** (partly to), and **-는 김에** (while you're at it).
+M90 gave the report its nouns for the state; this module gives it the nouns for how anything is BUILT and how anything is DONE. Thirty-four Grade-C words in three drawers: the SHAPE of a thing (구조 형태 형식 방식 구성 형성 기능 틀 토대), its CORE (핵심 초점 본질 근본 근본적 기본적 영역 부문 분야 작업), and the CARRYING-OUT (절차 실시 처리 접근 전개 통합 도입 설치하다). The organizing thesis is a pair: Korean names structure with 하다/되다 twins — 구성하다/구성되다, 형성하다/형성되다, 실시하다/실시되다 — the flip M70's 마련되다 note described ("되다 doesn't check pedigree, only the 하다 it replaces"), and the report writes the 되다 side. Five glue patterns connect work to the sentence: **-(으)ㄴ/는 바** (as stated, that which — the IOU M87's 바 note wrote), **-다시피** (as you know, as you see), **-(으)ㄹ 겸** (partly to), **-는 김에** (while you're at it), and **-느라고** (busy doing, at a cost).
 
-**How to use this:** decode first — thirty of these words are two-hanja compounds and you own a half of nearly every one (形 式 方 成 機 能 節 次 心 點 本 質 根 領 域 部 門 分 野 作 業 實 施 處 理 接 近 展 開 統 合 入 設 置); the firsts are 造 土 核 焦 導, and 構 is the one M90's 기구 note filed. Then read the three 되다-verbs as one lesson and the four glue parts as one idea: a fact the listener already has, hung on the front of a sentence. The sentence deck is a report with a presenter standing in front of it.
+**How to use this:** decode first — thirty of these words are two-hanja compounds and you own a half of nearly every one (形 式 方 成 機 能 節 次 心 點 本 質 根 領 域 部 門 分 野 作 業 實 施 處 理 接 近 展 開 統 合 入 設 置); the firsts are 造 土 核 焦 導, and 構 is the one M90's 기구 note filed. Then read the three 되다-verbs as one lesson and the glue as ways an activity frames what follows. The last pattern, -느라고, marks a cost rather than an extra opportunity. The sentence deck is a report with a presenter standing in front of it.
 
 ---
 
@@ -44,9 +44,15 @@ Verb stem + 다시피, no vowel/consonant fuss: the clause names something the l
 
 ---
 
-## Part 6 — Building sentences
+## Part 6 — The glue: -느라고 — busy doing, at a cost
 
-**Spot the recycling:** M85's 앞서 and M71's 말씀드리다 open the 바 frame that M87 promised; 에 따르면 from M90 takes a clause instead of a noun; the honorific -(으)시- from M4 sits inside 보시다시피; the double-subject frame M24 first showed (한식은 반찬이 많아요) carries both 기능이 많아요 and 시간이 걸려요; M12's 걸리다 keeps its take-time job; the badge -(으)ㄴ/-는 from M24 carries 말씀드린, 조사한, and 사는; the 되어 있다 state that M70's 포함되다 note preferred closes the report; M35's 바뀌다 changes a lifestyle on its own; and M37's 맞추다 tunes a lens.
+Verb stem + **-느라고** gives the activity that occupied the subject and caused a cost: 공부하느라고 못 잤어요 = I was busy studying, so I did not sleep. The subject stays the same in both clauses, and the main clause usually reports something missed or left undone. In the deck, 사회 구조를 연구하느라고 다른 분야를 놓쳤어요 says that studying one field cost the speaker another. Unlike -는 김에, which adds a second act to an existing occasion, -느라고 names what the first act prevented. In speech it can shorten to -느라.
+
+---
+
+## Part 7 — Building sentences
+
+**Spot the recycling:** M85's 앞서 and M71's 말씀드리다 open the 바 frame that M87 promised; 에 따르면 from M90 takes a clause instead of a noun; the honorific -(으)시- from M4 sits inside 보시다시피; the double-subject frame M24 first showed (한식은 반찬이 많아요) carries both 기능이 많아요 and 시간이 걸려요; M12's 걸리다 keeps its take-time job; the badge -(으)ㄴ/-는 from M24 carries 말씀드린, 조사한, and 사는; the 되어 있다 state that M70's 포함되다 note preferred closes the report; M35's 바뀌다 changes a lifestyle on its own; and -느라고 puts a cost on studying one field.
 
 ::sentences::
 

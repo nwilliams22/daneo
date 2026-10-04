@@ -26,7 +26,7 @@ Someone enters a name, someone waits for care, and a friend makes an anxious aft
 
 ## Part 2 — Building sentences
 
-**Spot the recycling:** M139’s 명단 gets checked before a name is entered, 교재 makes a bag awkward, 가정교사 receives tea, and 비바람 from M49 threatens an outing. -길래 from M93 supplies an observed reason; -느라고 from M86 explains time spent waiting; -(으)ㄹ수록 from M89 connects difficulty with need.
+**Spot the recycling:** M139’s 명단 gets checked before a name is entered, 교재 makes a bag awkward, 가정교사 receives tea, and 비바람 from M49 threatens an outing. -길래 from M93 supplies an observed reason; -느라고 from M91 explains time spent waiting; -(으)ㄹ수록 from M89 connects difficulty with need.
 
 ::sentences::
 

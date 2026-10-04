@@ -28,7 +28,7 @@ Take the noun and verb partners together, then ask what each sentence actually m
 
 ## Part 2 — Building sentences
 
-**Spot the recycling:** M86 -느라고; M88 -더라고요; M89 -(으)ㄹ수록; M90 에 따라; M91 -는 김에; M93 -길래; M94 -다가 and -(으)ㄹ 뻔하다; M95 -더라도.
+**Spot the recycling:** M91 -느라고; M88 -더라고요; M89 -(으)ㄹ수록; M90 에 따라; M91 -는 김에; M93 -길래; M94 -다가 and -(으)ㄹ 뻔하다; M95 -더라도.
 
 Read the Korean chunks in order, then compare the natural English layer. An English subject may be implicit in Korean; the role colors follow the Korean grammar.
 

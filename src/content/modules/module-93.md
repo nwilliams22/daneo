@@ -1,8 +1,8 @@
 # Korean, Word-First — Module 93: The Analyst's Verbs
 
-The report asserts; the mouth hedges. Every word in this module is how print states a finding — 사실이 드러났다, 원인이 밝혀졌다, 방안을 제시했다, 위기를 극복했다 — and every ending in it is how a person, across a table, softens one. Thirty-two Grade-C words in four drawers: FINDING (드러나다 밝혀지다 파악하다 살피다 알아보다 분석 주어지다), STATING (제시하다 지적하다 지적 주장 비판 인정하다 요청하다 반영하다), DOING (다루다 이끌다 실천 실천하다 수행하다 발휘하다 대응 대응하다 대비하다 강화하다 개선 일치하다), and REFUSING AND FORECASTING (극복하다 거부하다 제외하다 전망 예상되다). And the glue is their counterweight — four spoken hedges: **-(으)ㄹ 테니까 / -(으)ㄹ 텐데** (I'll…, so / it'd be…, and given that), **-(으)ㄹ걸요** (I'd guess), **-길래** (seeing that), **-(으)ㄹ까 봐** (for fear that). M85 gave you the written voice and M87 its written hedges; this module gives the verbs that voice is made of, and then the four endings a real person uses to take the edge off.
+The report asserts; the mouth weighs certainty. Every word in this module is how print states a finding — 사실이 드러났다, 원인이 밝혀졌다, 방안을 제시했다, 위기를 극복했다 — and every ending in it is how a person, across a table, qualifies or rejects one. Thirty-two Grade-C words in four drawers: FINDING (드러나다 밝혀지다 파악하다 살피다 알아보다 분석 주어지다), STATING (제시하다 지적하다 지적 주장 비판 인정하다 요청하다 반영하다), DOING (다루다 이끌다 실천 실천하다 수행하다 발휘하다 대응 대응하다 대비하다 강화하다 개선 일치하다), and REFUSING AND FORECASTING (극복하다 거부하다 제외하다 전망 예상되다). And the glue is their counterweight — five spoken frames: **-(으)ㄹ 테니까 / -(으)ㄹ 텐데** (I'll…, so / it'd be…, and given that), **-(으)ㄹ걸요** (I'd guess), **-길래** (seeing that), **-(으)ㄹ까 봐** (for fear that), and **-(으)ㄹ 리가 없다** (there is no way). M85 gave you the written voice and M87 its written hedges; this module gives the verbs that voice is made of, and then the endings a real person uses to qualify a claim or reject it.
 
-**How to use this:** decode first — twenty-five of these are two-hanja compounds and you own a half of nearly every one (握 提 示 認 定 反 映 對 應 備 强 化 善 一 服 拒 否 外 展 望) — and read the eleven IOU payoffs as receipts: M86 wrote 파악하다 and 제시하다 frozen with this module's number on them; M81 carried 개선; M87 ran 밝혀지다 and 수행평가; M51 filed 악기를 다루다; M33 promised 알아보다; M72 and M75 said 분석 and 비판 "rides free". Then read Parts 2–5 as one lesson: the sentence deck is spoken, on purpose, so that every report verb arrives wearing a hedge.
+**How to use this:** decode first — twenty-five of these are two-hanja compounds and you own a half of nearly every one (握 提 示 認 定 反 映 對 應 備 强 化 善 一 服 拒 否 外 展 望) — and read the eleven IOU payoffs as receipts: M86 wrote 파악하다 and 제시하다 frozen with this module's number on them; M81 carried 개선; M87 ran 밝혀지다 and 수행평가; M51 filed 악기를 다루다; M33 promised 알아보다; M72 and M75 said 분석 and 비판 "rides free". Then read Parts 2–6 as one lesson: the sentence deck is spoken, on purpose, so that report verbs arrive with a measured claim.
 
 ---
 
@@ -55,9 +55,15 @@ The worry clause: the wondering -(으)ㄹ까 (M9 taught -(으)ㄹ까요 as shall
 
 ---
 
-## Part 6 — Building sentences
+## Part 6 — The glue: -(으)ㄹ 리가 없다 — there is no way
 
-**Spot the recycling:** M55's 터 carries both the 테니까 and the 텐데 sentence, with -지 마세요 from M14 and the try-machine -아/어 보다 from M16 closing them; M24's 아마 leans on the new 걸요; -길래 takes M64's 요청 and M86's 방안 as its scene; the double-subject frame runs 저는 … 사람들이 … under -(으)ㄹ까 봐; the -더- family from M88 (-았/었더니 and -더라고요) carries M72's 분석하다 to today's 일치하다; -잖아요 from M42 puts 반영하다 and 개선 across a table; and the one printed sentence, in the 합니다체 from M4 with -아/어지다 from M35, shows what the deck sounds like with the person taken out.
+The prospective badge -(으)ㄹ + **리** (a reason in the order of things) + 가 없다 rejects a possibility: 그럴 리가 없어요 = there is no way that happened. 리 is the ordering-理 traced in M67's 심리 note, here a dependent noun. The deck asks whether an economic outlook can be right: 그 경제 전망이 맞을 리가 없어요. M87's -(으)ㄹ 법하다 grants plausibility; this frame denies it outright. It is a strong judgment, so give a reason for it when the context calls for one.
+
+---
+
+## Part 7 — Building sentences
+
+**Spot the recycling:** M55's 터 carries both the 테니까 and the 텐데 sentence, with -지 마세요 from M14 and the try-machine -아/어 보다 from M16 closing them; M24's 아마 leans on the new 걸요; -길래 takes M64's 요청 and M86's 방안 as its scene; the double-subject frame runs 저는 … 사람들이 … under -(으)ㄹ까 봐; the -더- family from M88 (-았/었더니 and -더라고요) carries M72's 분석하다 to today's 일치하다; -잖아요 from M42 puts 반영하다 and 개선 across a table; and the strong -리가 없다 verdict tests a forecast instead of accepting it.
 
 ::sentences::
 
@@ -67,4 +73,4 @@ The worry clause: the wondering -(으)ㄹ까 (M9 taught -(으)ㄹ까요 as shall
 
 ## What's next
 
-M85 gave you the written voice, M86 its reasons, M87 its hedges, M88 its memory, M90 its state, and now the verbs a report is built from — with four spoken endings to soften every one of them. Band 7 continues down the Grade-C list: more nouns for the analysis, more machinery for the sentence, and the words that earlier notes have already promised (M86's 위기 note is still holding 넘기다). 밝혀질 텐데, 인정할걸요, 거부하길래, 못 알아볼까 봐: 계속 읽으세요.
+M85 gave you the written voice, M86 its reasons, M87 its hedges, M88 its memory, M90 its state, and now the verbs a report is built from — with spoken endings that qualify or reject their claims. Band 7 continues down the Grade-C list: more nouns for the analysis, more machinery for the sentence, and the words that earlier notes have already promised (M86's 위기 note is still holding 넘기다). 밝혀질 텐데, 인정할걸요, 거부하길래, 못 알아볼까 봐: 계속 읽으세요.

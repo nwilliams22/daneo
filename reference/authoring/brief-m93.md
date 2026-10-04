@@ -17,9 +17,9 @@ speaks in. 32 words: FINDING (드러나다 밝혀지다 파악하다 살피다 �
 전망 예상되다). Glue — the SPOKEN hedges, the counterweight to Band 7's
 written register: **-(으)ㄹ 테니까 / -(으)ㄹ 텐데** (I'll…, so / it'd be…
 but), **-(으)ㄹ걸요** (I'd guess), **-길래** (seeing that — the observed
-reason), **-(으)ㄹ까 봐** (for fear that). Organizing thesis: **the
-report asserts, the mouth hedges** — every verb here is how print
-states a finding, and every ending is how a person softens one.
+reason), **-(으)ㄹ까 봐** (for fear that), **-(으)ㄹ 리가 없다** (there is no way). Organizing thesis: **the
+report asserts, the mouth weighs its certainty** — every verb here is how print
+states a finding, and every ending is how a person qualifies or rejects one.
 
 **Organizing machines (all owners verified — cite exactly these):**
 
@@ -123,16 +123,18 @@ states a finding, and every ending is how a person softens one.
 대응하다 · 대비하다 · 강화하다 · 개선 · 일치하다 · 극복하다 · 거부하다 · 제외하다
 · 전망 · 예상되다. POS: verbs `verb`; rest `noun`.
 
-**Md shape:** intro (the report asserts, the mouth hedges) · How to use ·
+**Fifth glue pattern:** -(으)ㄹ 리가 없다 uses the prospective badge + 리 (reason) + 가 없다 to deny a possibility. Contrast M87's 법하다, which only grants plausibility. The deck rejects an economic 전망 with 그 경제 전망이 맞을 리가 없어요.
+
+**Md shape:** intro (the report asserts, the mouth weighs its certainty) · How to use ·
 `## Part 1 —` the four drawers, `::vocab::`, **Radar patrol** (지적 指摘/
 知的; 드러나다 vs 나타나다; 거부 vs 거절; 대비 vs 준비; 이끌다 vs 끌다; 전망
 outlook vs the deck) · `## Part 2 —` -(으)ㄹ 테니까/텐데 · `## Part 3 —`
 -(으)ㄹ걸요 (with the full guess-family table: -(으)ㄹ 거예요 M8 · 것 같다
 M34 · -나 보다 M34 · -겠- M49 · -(으)ㄹ 수도 있다 M84 · 듯하다 M87 · -(으)ㄹ걸요)
-· `## Part 4 —` -길래 · `## Part 5 —` -(으)ㄹ까 봐 · `## Part 6 — Building
+· `## Part 4 —` -길래 · `## Part 5 —` -(으)ㄹ까 봐 · `## Part 6 —` -(으)ㄹ 리가 없다 · `## Part 7 — Building
 sentences` · `## What's next`. 60–70 lines.
 
-**Sentences:** 8; ≥1 each of the four glue parts (테니까 and 텐데 both);
+**Sentences:** 8; ≥1 each of the five glue patterns (테니까 and 텐데 both);
 the sentences may be SPOKEN register (the glue demands it) while the
 notes contrast the verbs' print use; ≥7 slice words in sentences. NO
 digits.

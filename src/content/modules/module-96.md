@@ -47,15 +47,15 @@ The patterns taught in M85–M95, in checklist order, with their owners. The thr
 | 에 비해 | M86 | compared to — 비하다 inside |
 | 에도 불구하고 | M86 | despite — 불구하다 inside |
 | -는 바람에 | M86 | because of (a mishap that blew in) |
-| -느라고 | M86 | busy doing X, so |
+| -느라고 | M91 | busy doing X, so |
 | -(으)ㄴ 탓에 / 덕분에 | M86 | through the fault of / thanks to |
-| -(으)ㄴ 나머지 | M86 | so much so that |
+| -(으)ㄴ 나머지 | M92 | so much so that |
 | -(으)ㄹ 듯하다 / -듯이 | M87 | the written 것 같다 / as if (듯이 is the M55 word) |
 | -(으)ㄹ 만하다 | M87 | worth the doing |
 | -(으)ㄴ/는 셈이다 | M87 | amounts to, as good as |
 | -(으)ㄹ 법하다 | M87 | it stands to reason that |
 | -기 마련이다 | M87 | is bound to |
-| -(으)ㄹ 리가 없다 | M87 | there is no way that |
+| -(으)ㄹ 리가 없다 | M93 | there is no way that |
 | -던 | M88 | the fourth badge — the used-to |
 | -더니 | M88 | I saw X, then Y |
 | -았/었더니 | M88 | I did X, and found Y |

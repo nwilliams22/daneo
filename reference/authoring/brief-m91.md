@@ -18,7 +18,7 @@ structural nouns. 34 words in three drawers: SHAPE (구조 형태 형식 방식
 실시 실시하다 실시되다 처리 접근 접근하다 전개 통합 도입 설치하다). Glue:
 **-(으)ㄴ/는 바** (the formal "as/that which" — M87's IOU), **-다시피**
 (as you know/see), **-(으)ㄹ 겸** (doing X and Y at once), **-는 김에**
-(while you're at it). Organizing thesis: **Korean names structure with
+(while you're at it), and **-느라고** (busy doing, at a cost). Organizing thesis: **Korean names structure with
 pairs** — 구성하다/구성되다, 형성하다/형성되다, 실시하다/실시되다 are the
 하다/되다 flip M70's 마련되다 described running down a whole shelf, and
 the report writes the 되다 side.
@@ -140,14 +140,16 @@ the report writes the 되다 side.
 근본적/기본적 `noun` (the -적 house rule — check how M45/M81 tagged -적
 words); rest `noun`.
 
+**Fifth glue pattern:** -느라고 names an activity that kept the same subject busy and cost them another action: 공부하느라고 못 잤어요. Contrast -는 김에, which adds an opportunity. The deck uses 사회 구조를 연구하느라고 다른 분야를 놓쳤어요.
+
 **Md shape:** intro (structure in pairs) · How to use · `## Part 1 —` the
 three drawers, `::vocab::`, **Radar patrol** (구조 構造/救助; 기능 機能/技能;
 형태·형식·형성 ≠ 형; 구성 ≠ 성; 틀 vs 틀리다; 작업 vs 일) · `## Part 2 —`
 -(으)ㄴ/는 바 · `## Part 3 —` -다시피 · `## Part 4 —` -(으)ㄹ 겸 · `## Part
-5 —` -는 김에 (each with Calibration) · `## Part 6 — Building sentences` ·
+5 —` -는 김에 · `## Part 6 —` -느라고 · `## Part 7 — Building sentences` ·
 `## What's next`. 60–70 lines.
 
-**Sentences:** 8; ≥1 each of the four glue parts; ≥1 하다/되다 pair
+**Sentences:** 8; ≥1 each of the five glue patterns; ≥1 하다/되다 pair
 contrast (구성하다 vs 구성되다) in one sentence's note; ≥7 slice words in
 sentences. NO digits.
 

@@ -41,7 +41,7 @@ The passive party of M36 taught the verbs — 잡히다, 열리다, 보이다 �
 
 ## Part 5 — The glue: -(으)ㄴ 결과 — as a result of
 
-M32's 결과 ("結果 tie-fruit") has taken nouns since M32 — M39's 노력 note wrote 노력의 결과. Today it takes a clause: verb + the past badge -(으)ㄴ from M24 + 결과, no particle after it — 조사한 결과 (M56's 조사하다) = as a result of investigating, 노력한 결과 (M26's 노력하다) = as a result of the effort, 확인한 결과 (M20's 확인하다) = on checking. The report's favourite hinge: what was done, comma, what came of it — and the second half is usually a 되다-verb or an 없다, because the report did not do it either. Radar: -(으)ㄴ 나머지 from M86 is a result of an EXCESS (너무 기쁜 나머지); -(으)ㄴ 결과 is a result of a PROCEDURE.
+M32's 결과 ("結果 tie-fruit") has taken nouns since M32 — M39's 노력 note wrote 노력의 결과. Today it takes a clause: verb + the past badge -(으)ㄴ from M24 + 결과, no particle after it — 조사한 결과 (M56's 조사하다) = as a result of investigating, 노력한 결과 (M26's 노력하다) = as a result of the effort, 확인한 결과 (M20's 확인하다) = on checking. The report's favourite hinge: what was done, comma, what came of it — and the second half is usually a 되다-verb or an 없다, because the report did not do it either. Keep this procedural result distinct from the excessive-result frame -(으)ㄴ 나머지, introduced in M92.
 
 ---
 

@@ -1,8 +1,8 @@
 # Korean, Word-First — Module 92: Existence and Matter
 
-M22 walked you into 자연 and 세상; M49 lifted your eyes to 지구 and 태양; M41 gave you 숨 and 체중 and M34 the 정신 that runs the body. This module names what IS underneath all of them: life as a force (생명, 존재, 목숨, 영혼), the world as stuff (우주, 물질, 자원, 대기, 기후), the body as an organism (육체, 심장, 호흡, 신경, 감각), and four native things the essay never mentions but the mouth always does (둥지, 참새, 꼬리, 틈). Thirty-four Grade-C words, and a thesis for the glue: **an essay states a fact and then weighs it.** Korean has four endings for the weighing, and each one takes a fact and does something different with it — *only that* (**-(으)ㄹ 따름이다**), *true, but* (**-기는 하다**), *not even that* (**-기는커녕**), *and moreover* (**-(으)ㄴ/는 데다가**). Four ways to concede a fact and move past it, taught on the nouns facts are made of.
+M22 walked you into 자연 and 세상; M49 lifted your eyes to 지구 and 태양; M41 gave you 숨 and 체중 and M34 the 정신 that runs the body. This module names what IS underneath all of them: life as a force (생명, 존재, 목숨, 영혼), the world as stuff (우주, 물질, 자원, 대기, 기후), the body as an organism (육체, 심장, 호흡, 신경, 감각), and four native things the essay never mentions but the mouth always does (둥지, 참새, 꼬리, 틈). Thirty-four Grade-C words, and a thesis for the glue: **an essay states a fact and then weighs it.** Korean has five endings for the weighing, and each one takes a fact and does something different with it — *only that* (**-(으)ㄹ 따름이다**), *true, but* (**-기는 하다**), *not even that* (**-기는커녕**), *and moreover* (**-(으)ㄴ/는 데다가**), and *so much that* (**-(으)ㄴ 나머지**). Five ways to weigh a fact and move past it, taught on the nouns facts are made of.
 
-**How to use this:** the nouns are two-character hanja sums and you own a half of almost every one (生 命 現 實 人 物 體 氣 表 面 心 神 感 子 女 出) — decode each once, then let the drawer hold them. Read Parts 2–5 as one lesson with four dials: every ending below sits on a fact, and the table at the end of Part 5 is the whole module on one line. The sentence deck is eight facts weighed; read it for the weighing, not the facts.
+**How to use this:** the nouns are two-character hanja sums and you own a half of almost every one (生 命 現 實 人 物 體 氣 表 面 心 神 感 子 女 出) — decode each once, then let the drawer hold them. Read Parts 2–6 as one lesson with five dials: every ending below sits on a fact, and the table at the end of Part 5 is the whole module on one line. The sentence deck is eight facts weighed; read it for the weighing, not the facts.
 
 ---
 
@@ -53,12 +53,19 @@ M55's 데 — the situation-noun whose note confessed that 그런데 was 그런 
 | -기는 하다 | grants it, reserves the verdict | 비싸기는 해요 — it IS expensive (but) |
 | -기는커녕 | denies it and the smaller one under it | 밥은커녕 물도 못 마셨어요 — not even water |
 | -(으)ㄴ/는 데다가 | piles a second one on top | 비가 오는 데다가 바람까지 — and wind, too |
+| -(으)ㄴ 나머지 | makes an excessive cause lead to a result | 너무 긴장한 나머지 — so nervous that |
 
 ---
 
-## Part 6 — Building sentences
+## Part 6 — The glue: -(으)ㄴ 나머지 — so much that
 
-**Spot the recycling:** the copula rides the prospective badge under 존재일 따름이에요; -지만 from M7 follows the concession in 변하기는 했지만 and the -는데 of M53 follows the doubled 닦기는 닦았는데; the long negation from M28 closes 심하지 않아요 and M3's 안 and 못 close the two 커녕 sentences; the double-subject frame M24 first showed carries both 데다가 sentences (물이 맑은 데다가 공기도, 심장이 약한 데다가 호흡도); -(으)면서 from M38 puts the dodging and the answering in one body; and the badge -(으)ㄴ from M24 sits under 넓은, 작은, 맑은 and 약한.
+The past badge -(으)ㄴ + **나머지** (M57's remainder, now in a dependent-noun job) makes an excessive state the cause of a result: 너무 기쁜 나머지 울었어요 = so happy that I cried. The 너무 is a useful signal that the cause went beyond its usual level. In the deck, 너무 긴장한 나머지 제 눈길을 피했어요 turns nervousness into avoiding someone's gaze. Unlike M90's -(으)ㄴ 결과, which reports the result of a procedure, this frame reports what excess caused.
+
+---
+
+## Part 7 — Building sentences
+
+**Spot the recycling:** the copula rides the prospective badge under 존재일 따름이에요; -지만 from M7 follows the concession in 변하기는 했지만 and the -는데 of M53 follows the doubled 닦기는 닦았는데; the long negation from M28 closes 심하지 않아요 and M3's 안 and 못 close the two 커녕 sentences; the double-subject frame M24 first showed carries both 데다가 sentences (물이 맑은 데다가 공기도, 심장이 약한 데다가 호흡도); -(으)ㄴ 나머지 from this lesson puts excess nervousness before the avoided gaze; and the badge -(으)ㄴ from M24 sits under 넓은, 작은, 맑은 and 약한.
 
 ::sentences::
 
@@ -68,4 +75,4 @@ M55's 데 — the situation-noun whose note confessed that 그런데 was 그런 
 
 ## What's next
 
-You can now state what exists and weigh it four ways. Band 7 continues with **the analyst's verbs** — the endings that reason from a fact to what follows: -(으)ㄹ 테니까, -(으)ㄹ걸요, -길래, -(으)ㄹ까 봐 — and the verbs a report does its thinking with. 물기를 닦기는 닦았어요; 이제 그 위에 쌓을 따름이에요.
+You can now state what exists and weigh it five ways. Band 7 continues with **the analyst's verbs** — the endings that reason from a fact to what follows: -(으)ㄹ 테니까, -(으)ㄹ걸요, -길래, -(으)ㄹ까 봐 — and the verbs a report does its thinking with. 물기를 닦기는 닦았어요; 이제 그 위에 쌓을 따름이에요.
