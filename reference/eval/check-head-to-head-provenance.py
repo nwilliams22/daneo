@@ -19,8 +19,9 @@ def git_bytes(commit, path):
 def sha(data):
     return hashlib.sha256(data).hexdigest()
 
-def check(report_commit):
-    for item_set, set_path in SETS.items():
+def check(report_commit, item_set=None):
+    sets = {"v2": "reference/eval/v2-translation-set.json"} if item_set == "v2" else SETS
+    for item_set, set_path in sets.items():
         for engine in ("base", "fine-tune"):
             raw_path = f"reference/eval/raw/head-to-head-{engine}-{item_set}-raw.jsonl"
             content = (ROOT / raw_path).read_bytes()
@@ -41,11 +42,18 @@ def check(report_commit):
                         raise ValueError(f"{key} mismatch: {raw_path}")
                 if p["itemSetPath"] != set_path:
                     raise ValueError(f"Fixture path mismatch: {raw_path}")
-                if p["modelSha256"] != ("00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4" if engine == "base" else "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7"):
+                if p["modelSha256"] != ("00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4" if engine == "base" else ("025935d6c8477d70946b0e97fddcac318ddbd04630a496bd011f488ef39020c5" if item_set == "v2" else "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7")):
                     raise ValueError(f"Model hash mismatch: {raw_path}")
                 if p["modelBytes"] != (2740937888 if engine == "base" else 4610579744):
                     raise ValueError(f"Model byte count mismatch: {raw_path}")
             print(f"PASS: {engine} {item_set}: {len(ids)} item rows, pre-run prompt and fixture hashes")
+    if item_set == "v2":
+        source = git_bytes(report_commit, sets["v2"])
+        manifest = git_bytes(report_commit, "reference/eval/v2-translation-set.sha256").decode().split()[0]
+        if sha(source) != manifest:
+            raise ValueError("Sealed source manifest mismatch")
+        print("PASS: sealed v2 source matches committed manifest")
+        return
     source = git_bytes(report_commit, "reference/eval/training-independent-set.json")
     manifest = git_bytes(report_commit, "reference/eval/training-independent-set.sha256").decode().split()[0]
     fixture = json.loads(git_bytes(report_commit, SETS["independent"]))
@@ -64,4 +72,6 @@ def check(report_commit):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--report-commit", required=True)
-    check(parser.parse_args().report_commit)
+    parser.add_argument("--item-set", choices=("v2",))
+    args = parser.parse_args()
+    check(args.report_commit, args.item_set)

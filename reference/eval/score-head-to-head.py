@@ -16,7 +16,7 @@ def percentile95(values):
 
 def score(engine, item_set, judgments):
     prefix = f"head-to-head-{engine}-{item_set}"
-    fixture = json.loads((ROOT / "reference/eval" / ("training-independent-inputs.json" if item_set == "independent" else "v0-translation-set.json")).read_text())
+    fixture = json.loads((ROOT / "reference/eval" / ("training-independent-inputs.json" if item_set == "independent" else f"{item_set}-translation-set.json")).read_text())
     results = rows(RAW / f"{prefix}-results.jsonl")
     raw = rows(RAW / f"{prefix}-raw.jsonl")
     assembled = json.loads((RAW / f"{prefix}-assembled.json").read_text())
@@ -38,7 +38,7 @@ def score(engine, item_set, judgments):
         if result["input"] != item["input"] or result["direction"] != item["direction"]:
             raise ValueError(f"{prefix}: submitted input differs from fixture for {item['id']}")
         verdict = judgments[item["id"]]
-        if item_set == "v0":
+        if item_set in ("v0", "v2"):
             if set(verdict["dimensions"]) != set(DIMENSIONS):
                 raise ValueError(f"{prefix}: missing dimension for {item['id']}")
             for name in DIMENSIONS:
@@ -58,7 +58,7 @@ def score(engine, item_set, judgments):
         direction = isinstance(native_result, dict) and native_result.get("direction") == item["direction"]
         leaked = any(marker in reply["rawReply"].lower() for marker in ("<think>", "</think>", "<|im_start|>assistant", "reasoning:"))
         fully = (schema and direction and not leaked and all(verdict["dimensions"][name]["pass"] for name in DIMENSIONS)
-                 and not verdict["meaningReversal"] and not verdict["inventedRule"]) if item_set == "v0" else None
+                 and not verdict["meaningReversal"] and not verdict["inventedRule"]) if item_set in ("v0", "v2") else None
         coverage = (schema and direction and not leaked and verdict["coveragePass"]
                     and not verdict["meaningReversal"] and not verdict["inventedRule"]) if item_set == "independent" else None
         output.append(dict(id=item["id"], input=item["input"], rawReply=reply["rawReply"], parsedReply=parsed,
@@ -75,7 +75,7 @@ def score(engine, item_set, judgments):
                    inventedRules=sum(row["inventedRule"] for row in output),
                    warmP95Ms=percentile95([row["completionMs"] for row in output]),
                    coldReadyMs=results[0]["readyMs"], coldFirstTokenMs=results[0]["firstTokenMs"])
-    if item_set == "v0":
+    if item_set in ("v0", "v2"):
         summary["fullyCorrect"] = sum(row["fullyCorrect"] for row in output)
         summary["dimensionPasses"] = {name: sum(row["dimensions"][name]["pass"] for row in output) for name in DIMENSIONS}
         summary["absoluteGateMet"] = (summary["schemaComplete"] == 10 and summary["directionCorrect"] == 10
@@ -89,7 +89,7 @@ def score(engine, item_set, judgments):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("engine", choices=("base", "fine-tune"))
-    parser.add_argument("item_set", choices=("independent", "v0"))
+    parser.add_argument("item_set", choices=("independent", "v0", "v2"))
     parser.add_argument("judgments", type=Path)
     args = parser.parse_args()
     verdicts = json.loads(args.judgments.read_text())

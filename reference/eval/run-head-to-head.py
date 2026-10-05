@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SETS = {
     "independent": ROOT / "reference/eval/training-independent-inputs.json",
     "v0": ROOT / "reference/eval/v0-translation-set.json",
+    "v2": ROOT / "reference/eval/v2-translation-set.json",
 }
 MODELS = {
     "base": ROOT / ".local-models/Qwen3.5-4B-Q4_K_M.gguf",
@@ -29,11 +30,14 @@ def main():
     parser.add_argument("item_set", choices=SETS)
     args = parser.parse_args()
     model, fixture = MODELS[args.engine], SETS[args.item_set]
+    size, digest = EXPECTED[args.engine]
+    if args.item_set == "v2" and args.engine == "fine-tune":
+        model = ROOT / ".local-models/v2-lr1/candidate-Q8_0.gguf"
+        digest = "025935d6c8477d70946b0e97fddcac318ddbd04630a496bd011f488ef39020c5"
     output = ROOT / "reference/eval/raw" / f"head-to-head-{args.engine}-{args.item_set}"
     for suffix in ("-raw.jsonl", "-results.jsonl", "-resources.txt"):
         if Path(str(output) + suffix).exists():
             raise SystemExit(f"Existing evidence: {output}{suffix}; refusing a second run")
-    size, digest = EXPECTED[args.engine]
     if model.stat().st_size != size or sha(model) != digest:
         raise SystemExit(f"Model identity mismatch: {model}")
     head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
@@ -42,6 +46,10 @@ def main():
         relative = str(path.relative_to(ROOT))
         if path.read_bytes() != subprocess.check_output(["git", "show", f"{head}:{relative}"], cwd=ROOT):
             raise SystemExit(f"Uncommitted evaluation input: {relative}")
+    if args.item_set == "v2":
+        manifest = fixture.with_suffix(".sha256").read_text().split()[0]
+        if sha(fixture) != manifest:
+            raise SystemExit("Sealed set manifest mismatch")
     rel_fixture = str(fixture.relative_to(ROOT))
     env = dict(os.environ,
         DANEO_MODEL_PATH=str(model),

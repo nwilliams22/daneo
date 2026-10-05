@@ -4,8 +4,8 @@ import { translationResultSchema } from '../../src/lib/schemas.ts';
 import { postprocessTranslation } from '../../src/lib/translation-postprocess.ts';
 
 const [engine, itemSet] = process.argv.slice(2);
-if (!['base', 'fine-tune'].includes(engine) || !['independent', 'v0'].includes(itemSet)) {
-  throw new Error('Usage: node --import tsx reference/eval/assemble-head-to-head.ts {base|fine-tune} {independent|v0}');
+if (!['base', 'fine-tune'].includes(engine) || !['independent', 'v0', 'v2'].includes(itemSet)) {
+  throw new Error('Usage: node --import tsx reference/eval/assemble-head-to-head.ts {base|fine-tune} {independent|v0|v2}');
 }
 const prefix = `reference/eval/raw/head-to-head-${engine}-${itemSet}`;
 const readRows = (suffix: string) => readFileSync(`${prefix}-${suffix}.jsonl`, 'utf8').trim().split('\n').map(line => JSON.parse(line));
