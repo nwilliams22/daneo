@@ -1,4 +1,5 @@
 use std::{fs::File, io::Write, path::Path};
+use tauri::Manager;
 use tauri_plugin_dialog::DialogExt;
 
 fn write_backup(path: &Path, text: &str) -> std::io::Result<()> {
@@ -16,14 +17,17 @@ pub async fn export_backup(
     filename: String,
 ) -> Result<Option<String>, String> {
     tauri::async_runtime::spawn_blocking(move || {
-        let Some(selected) = app
+        let mut dialog = app
             .dialog()
             .file()
             .set_title("Export Daneo backup")
             .set_file_name(filename)
-            .add_filter("Daneo backup", &["json"])
-            .blocking_save_file()
-        else {
+            .add_filter("Daneo backup", &["json"]);
+        // AppImage's working directory is inside its read-only bundle.
+        if let Ok(home) = app.path().home_dir() {
+            dialog = dialog.set_directory(home);
+        }
+        let Some(selected) = dialog.blocking_save_file() else {
             return Ok(None);
         };
         let path = selected.into_path().map_err(|e| e.to_string())?;

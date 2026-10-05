@@ -1237,3 +1237,18 @@ headers. CI now includes the backup writer test. Next: packaged offline UI
 export/cancellation/failure and fresh-profile restore comparison, followed by
 the remaining clean-first-run matrix. No packaged acceptance pass is claimed
 by these unit/build results.
+
+Packaged follow-up: local release AppImage SHA-256
+`52037941c1421cdf1b1643b946d6052385d734eb9a88eb6297e8b68c692a8706`
+ran offline in a fresh Bubblewrap home without the checkout. Native export
+created a parseable 1,009-byte file containing two known words, one wrong drill
+result, one SRS card and changed settings. Cancellation and an unwritable
+`/proc/backup.json` destination displayed distinct non-success messages. A
+second fresh profile imported that actual file and re-exported it: all five
+tables and six settings matched exactly (only the export timestamp changed).
+The picker initially used AppImage's read-only working directory, so it now
+starts at the user's home; the native test still passes. This verifies an
+extracted Linux AppImage with the recorded host Wayland preload, not Windows,
+macOS, ordinary double-click launch or the full remaining acceptance matrix.
+Next: verify final CI and the picker default in its artifact; continue the
+parent's remaining offline feature matrix. Evidence is attached to BAD-251.
