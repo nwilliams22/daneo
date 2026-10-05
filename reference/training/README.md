@@ -141,9 +141,12 @@ all 441 tensor hash pairs at each precision.
 
 ## Bounded matched Q8_0 probe
 
-Reuse the same merged weights and matched source above. `--q8` verifies the
+The following records the completed probe, not instructions to repeat it.
+The decision addendum requires reusing `matched-BF16.gguf`; the completed run
+instead reconverted a byte-identical `q8-BF16.gguf`. Do not rerun the export or
+inference to repair that procedural deviation. `--q8` verifies the
 merged-input and unchanged native-worker manifest before conversion, and refuses
-to overwrite its separate artifacts. Run only when this bounded probe is authorized:
+to overwrite its separate artifacts. Historical commands:
 
 ```sh
 .local-models/compatibility/venv/bin/python reference/training/export-matched.py --q8 > .local-models/compatibility/q8-export.log 2>&1
@@ -160,3 +163,15 @@ matched Q8_0 verdicts separately; its exit status is the **Q8_0** strict,
 postprocessor, assembled and direction verdict. Earlier negative Q4 rows remain
 negative. No baseline/control inference is repeated. A Q8 contract pass is not
 language qualification, production selection, or permission to run the frozen v2.
+
+Read-only artifact verification (writes only new Q8 comparison evidence):
+
+```sh
+.local-models/compatibility/venv/bin/python reference/training/compare-export-tensors.py --q8
+```
+
+This asserts full-file identities for both BF16 files, the matched quantizer and
+Q8 output, compares all BF16 tensor payloads and metadata, and checks the recorded
+quantization command. It writes `evidence/q8-tensor-comparison.json` and leaves
+the retained baseline/matched comparison untouched. It establishes an identical
+source plus recorded derivation, not independent reproduction of quantization.

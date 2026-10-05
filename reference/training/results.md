@@ -242,6 +242,11 @@ worker and unchanged production prompt. The exporter verified every merged input
 and native binary against `evidence/matched-input-manifest.json` before running.
 The new BF16 intermediate is byte-identical to the prior matched BF16, SHA-256
 `5c407dc7aa856faa14fde45e5f837066719c5aad75115e6afc39bbeb2e77a88c`.
+**Procedural deviation:** the completed run reconverted BF16 instead of reusing
+the existing file as required by the decision addendum. The recorded conversion timing
+is real work, not a reused measurement. This cannot be undone by another
+export; no repeat export or inference was run. Acceptance of this deviation is
+pending with the decision owner even though the fixed-input schema review passed.
 The native worker remains the existing CPU-backend build on the 5090 host;
 these are not GPU inference measurements. No rebuild or runtime change occurred.
 
@@ -297,3 +302,12 @@ no prompt/pin changed, and no cloud service or spending was used.
 Next: independent review of this committed evidence. The gate closes only when
 that verdict is recorded; production artifact selection and the frozen v2 quality
 gate remain separate. This task stops at the bounded export/contract result.
+
+Addendum verification: `.local-models/compatibility/venv/bin/python
+reference/training/compare-export-tensors.py --q8` checks the required BF16 and
+quantizer identities, the retained Q8 identity and recorded quantization command,
+then compares the two BF16 files. It exited **0**: all **441 tensors** and all
+metadata are identical. Its report is
+`evidence/q8-tensor-comparison.json`; it does not overwrite the existing comparison
+or reproduce quantization. Separate `runtime-q8-*` evidence and both validator
+exit-0 results satisfy the evidence-prefix and schema-exit requirements.
