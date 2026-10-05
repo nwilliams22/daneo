@@ -1,0 +1,94 @@
+{
+  "converter_commit": "26394b4e6749a41c3633db040e0987500a5f7013",
+  "matched_vendored_files": 1865,
+  "steps": [
+    {
+      "stage": "convert",
+      "command": [
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/venv/bin/python",
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/llama-matched/convert_hf_to_gguf.py",
+        "/mnt/t7/Projects/daneo/.local-models/v2-lr1/merged",
+        "--outfile",
+        "/mnt/t7/Projects/daneo/.local-models/v2-lr1/candidate-BF16.gguf",
+        "--outtype",
+        "bf16"
+      ],
+      "wall_seconds": 54.13822096498916
+    },
+    {
+      "stage": "quantize",
+      "command": [
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/llama-matched/build/bin/llama-quantize",
+        "/mnt/t7/Projects/daneo/.local-models/v2-lr1/candidate-BF16.gguf",
+        "/mnt/t7/Projects/daneo/.local-models/v2-lr1/candidate-Q8_0.gguf",
+        "Q8_0",
+        "8"
+      ],
+      "wall_seconds": 30.361041105003096
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "candidate-BF16.gguf",
+      "bytes": 8665619744,
+      "sha256": "7445fab663c62e9b94c2dc4e6f375ad30b99f4220d12b5d0337189c6884e873e"
+    },
+    {
+      "path": "candidate-Q8_0.gguf",
+      "bytes": 4610579744,
+      "sha256": "025935d6c8477d70946b0e97fddcac318ddbd04630a496bd011f488ef39020c5"
+    },
+    {
+      "path": "adapter/adapter_model.safetensors",
+      "bytes": 42504600,
+      "sha256": "0f3c5d6f4e99c179c18e34359e06ab882eb1ffb6c985b9759802b453a52967e2"
+    }
+  ],
+  "merged_files": [
+    {
+      "path": "merged/chat_template.jinja",
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+    },
+    {
+      "path": "merged/config.json",
+      "bytes": 3223,
+      "sha256": "10dd071f78c61e282dd8e27001d19d15aac1ba7d2d202d4f0ba965a574115a58"
+    },
+    {
+      "path": "merged/generation_config.json",
+      "bytes": 141,
+      "sha256": "e534dfb72a5529c8919c3c8c7365b2693522c73c62838a2953eaa90594d305d7"
+    },
+    {
+      "path": "merged/model.safetensors-00001-of-00002.safetensors",
+      "bytes": 5329398688,
+      "sha256": "f6c13998a90cc940e8b3dbd6a6cb898fe874f4ca210b515d5c44cb2c6d5af4e2"
+    },
+    {
+      "path": "merged/model.safetensors-00002-of-00002.safetensors",
+      "bytes": 3990429408,
+      "sha256": "15785c28c4f882e44a8ab99bd788e12ebb4b0e226d83339637fdce524d209f14"
+    },
+    {
+      "path": "merged/model.safetensors.index.json",
+      "bytes": 76196,
+      "sha256": "cf3f798ee02ba45f9622aa8892a47369ab667d0afbf154ee7c2212de42e6302d"
+    },
+    {
+      "path": "merged/processor_config.json",
+      "bytes": 1191,
+      "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1"
+    },
+    {
+      "path": "merged/tokenizer.json",
+      "bytes": 19989343,
+      "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+    },
+    {
+      "path": "merged/tokenizer_config.json",
+      "bytes": 15181,
+      "sha256": "15d7be1e90e365b5deacb4d4150d37fbe5fe88249452d2c234687b8061754484"
+    }
+  ]
+}

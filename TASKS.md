@@ -14,7 +14,7 @@
 
 > **App status (2026-10-05):** The first release excludes the AI translator, Ask Daneo and model controls at build time (`import.meta.env.DEV`), while Explore keeps saved discoveries and explains the absence. Phase B no longer waits for Phase D. Phase D remains available in development; the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. The documentation closeout and component reactivation gates are in `reference/desktop-closeout.md`; release-one packaging is independent.
 
-> **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. The first bounded QLoRA comparison completed (best development loss 0.2103 at epoch 2); the second comparison and native export/load proof are in progress. Model pin remains null. See `reference/training/development-v2-freeze.md` and `reference/training/v2-results.md`.
+> **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. Two bounded QLoRA comparisons completed; LR 0.0001 / epoch 2 selected on development loss (0.2103), exported as Q8_0, and loaded successfully in the unchanged native worker with a schema-valid reply. Independent evidence review and the separate sealed gate remain. Model pin remains null. See `reference/training/development-v2-freeze.md` and `reference/training/v2-results.md`.
 
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
@@ -883,3 +883,21 @@ reference/training/build-dataset.mjs --v2-final` passed 290/290 strict targets;
 hashes, review linkage and zero reservation/v1/cross-split overlap. No training,
 inference or model-pin change. Next: training/export from the exact manifest;
 all iteration uses development, with the final v2 evaluation gate still sealed.
+
+
+### 2026-10-05 — Train and export the scaled local candidate
+
+Reused the v1 pipeline on 250 frozen training rows with 40 separate development
+rows. Two rates × four epochs cost 2,000 updates / 368.364 seconds including
+development evaluation; selected LR 0.0001, epoch 2, development loss 0.210300.
+Retained every loss/configuration and restored that checkpoint before merge.
+Matched Q8_0 export is 4,610,579,744 bytes, SHA-256
+`025935d6c8477d70946b0e97fddcac318ddbd04630a496bd011f488ef39020c5`.
+The unchanged native worker loaded it with networking isolated and replied to
+the non-held-out smoke input in 15.982 seconds; all four contract checks passed.
+The artifact stays in ignored local storage; its manifest and measurements are
+in `reference/training/v2-results.md` and `reference/training/evidence/`.
+Build (including TypeScript) passed; tests 242/242, content 16/16, dataset targets
+290/290, freeze/exclusion checker and retained smoke validator passed. No UI
+run and no held-out inference/scoring; model pin stays null. Next: independent
+evidence review, then the separate sealed gate on this exact hash.

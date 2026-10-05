@@ -1,0 +1,9 @@
+{
+  "strict": true,
+  "postprocessor": true,
+  "assembled": true,
+  "direction": true,
+  "completionMs": 15982,
+  "firstTokenMs": 5122,
+  "passed": true
+}
