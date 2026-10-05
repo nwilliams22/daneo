@@ -18,6 +18,10 @@
 
 > **Engine verdict (2026-10-05):** option A — more training data on the proven pipeline — is **measured and declined**, so the training chain is closed with **no production pin**. Five candidate scores, nothing above 4/10 against ≥9/10; spent are prompting, a repaired prompt, code-extracted fields, a 27-row fine-tune and a 250-row fine-tune. The rubric is unchanged and a paid or cloud engine stays out of scope. **Nick answered on BAD-240: try a different model family (option C).** The licence precondition is settled without a decision from him — Mi:dm 2.0 Mini (KT, MIT, 2.3B, `LlamaForCausalLM`) and A.X 4.0 Light (SKT, Apache-2.0, 7B) are both Korean-specialised and commercially usable, so EXAONE and Kanana are held rather than needed, and selling Daneo stays possible. All 96 reserved rows are burned, so a new gate set is frozen before anything is scored and candidates are screened on a development split first. Chain: BAD-244 (new gate set, Chani) ∥ BAD-245 (family screen, Duncan) → BAD-246 (one gate run, Duncan, re-scored by Thufir) → **BAD-247 (verdict terminus, Bad Dong)**; BAD-213 and BAD-188 now wait on BAD-247. Release one is unaffected: it ships with AI off and is not re-cut. Full numbers and reasoning: `reference/eval/engine-decision.md` §*Option A measured and declined* and §*Nick's decision — 2026-10-05: option C*; candidate licences and sources: `reference/eval/engine-family-survey.md`.
 
+> **Family-screen preflight (2026-10-05):** Both publisher tokenizer exports pass the pinned converter. Native inference remains unmeasured: the worker requires a Qwen-only prompt suffix, conflicting with the unchanged-worker requirement for Mi:dm and A.X. Scope resolution is pending; `reference/eval/v3-screen-results.md` records the evidence, with no shortlist or production pin.
+
+> **v3 evaluation freeze (2026-10-05):** Ten new reserved gate rows (four literal-gap probes) and thirty separate development rows are pinned to one corpus commit with SHA-256 manifests. The exclusion preflight validates all 136 reservations and existing training data with zero intersections. No inference was run for this freeze; candidate screening uses development only. See `reference/eval/v3-freeze.md`.
+
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
 - [x] Theme tokens from PROJECT.md §2 palette (Tailwind config) + font loading (Noto Sans KR / Noto Serif KR / Nanum Pen Script, OS fallbacks)
@@ -1050,3 +1054,32 @@ and BAD-188 now name BAD-247 as their unblock condition.
 The rubric is unchanged, option F stays measured-closed, no paid or cloud engine
 was reopened, and release one is not re-cut — it already ships with the AI off.
 No code changed; documentation only. `npm run build` PASS including typecheck.
+
+### 2026-10-05 — Family-screen compatibility preflight
+
+Recorded immutable publisher revisions and measured tokenizer/template hashes for Mi:dm 2.0 Mini and A.X 4.0 Light. Both offline vocabulary-only GGUF exports pass the matched converter; neither is a full model or an inference result. Found the native worker hard-codes a Qwen thinking suffix which both family templates fail. Requested a narrow scope decision before changing that worker; no runtime bump, gate read, training or pin change. `npm run build` passed. Next: resolve the worker constraint, then acquire full artifacts and measure the development split. Evidence: `reference/eval/v3-screen-results.md` and `reference/eval/raw/v3-screen-preflight.json`.
+
+### 2026-10-05 — Freeze a fresh gate and candidate development split
+
+BAD-244: added `reference/eval/v3-translation-set.json` (10 reserved rows),
+`v3-dev-set.json` (30 development rows), both SHA-256 manifests and
+`v3-freeze.md`. All anchors come from corpus commit
+`bcd70d8dd1e46a9b6f94c9d7bc092a0b29b8fac1`. Four gate items require explicit
+literal-gap explanations: takeout wrapping, ability as existence, losing the
+road, and post-meal gratitude. The freeze names each and its expected distinction.
+The gate is a reservation only; it grants no scoring authorization. No inference
+ran, and no rubric, prompt, model pin or release setting changed.
+
+Extended `check-independent-freeze.py` validates both new sets, provenance,
+directions, hashes, gap weighting and zero intersections across 136 reservations.
+It also checks all 27 v1 training, 250 v2 training and 40 v2 development rows
+against the expanded exclusions, preserving the candidate-preflight interface.
+
+Verification from the repository root: `python3 reference/eval/check-independent-freeze.py`
+PASS (136 unique ID/normalized English/Korean keys);
+`python3 -m unittest discover -s reference/eval -p test_independent_freeze.py`
+PASS (8 tests, including byte tampering, rehashed wrong provenance/input,
+ cross-split duplication, gap weighting and single-key normalization attacks);
+`npm run build` PASS (16 content checks, TypeScript, Vite; existing chunk-size warning).
+Next: candidate screening consumes the development split; keep the gate sealed
+until a separate qualification task authorizes its one-time use.

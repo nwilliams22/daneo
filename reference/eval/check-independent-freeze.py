@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check the independent evaluation reservation against the pinned corpus."""
+"""Check all evaluation reservations against their pinned corpora."""
 
 import argparse
 import collections
@@ -16,6 +16,8 @@ FIXTURE = EVAL / "training-independent-set.json"
 MANIFEST = EVAL / "training-independent-set.sha256"
 PREVIOUS = ("v0", "v1", "dev", "v2")
 CLASSES = ("gloss", "semantic-fidelity", "register", "literal-gap")
+V3_SETS = (("v3-translation-set", "v3", "gate", 10),
+           ("v3-dev-set", "v3-dev", "development", 30))
 
 
 def normalized(value):
@@ -61,14 +63,50 @@ def check():
         assert row["korean"] == joined(corpus[sid]["ko"]), f"Korean differs from corpus: {sid}"
         reservations.append(("independent", sid, row["english"], row["korean"]))
 
+    v3_commits = set()
+    for name, version, split, minimum in V3_SETS:
+        path = EVAL / f"{name}.json"
+        raw = path.read_bytes()
+        assert path.with_suffix(".sha256").read_text() == f"{hashlib.sha256(raw).hexdigest()}  {path.name}\n", f"{name}: SHA-256 manifest mismatch"
+        data = json.loads(raw)
+        v3_commits.add(data["corpusCommit"])
+        assert data["version"] == version and data["split"] == split
+        assert data["reservationOnly"] is (split == "gate") and data["trainingAllowed"] is False
+        assert data["sourceFiles"] == fixture["sourceFiles"]
+        rows = data["items"]
+        assert (len(rows) == 10 if split == "gate" else len(rows) >= minimum), f"{name}: wrong row count"
+        assert len({row["id"] for row in rows}) == len(rows), f"{name}: duplicate item ID"
+        counts = collections.Counter(row["coverageClass"] for row in rows)
+        assert set(counts) == set(CLASSES), f"{name}: missing coverage lens"
+        if split == "gate":
+            assert counts["literal-gap"] >= 4, "gate needs at least four literal-gap probes"
+        assert collections.Counter(row["direction"] for row in rows) == {
+            "en-to-ko": (len(rows) + 1) // 2, "ko-to-en": len(rows) // 2}, f"{name}: direction imbalance"
+        sources = {row["id"]: row for row in source_at(data["corpusCommit"], data["sourceFiles"][0])}
+        owners = {sid: module for module in source_at(data["corpusCommit"], data["sourceFiles"][1]) for sid in module["sentenceIds"]}
+        for row in rows:
+            sid = row["corpusSentenceId"]
+            source, owner = sources[sid], owners[sid]
+            english, korean = joined(source["en"]), joined(source["ko"])
+            assert row["moduleId"] == owner["id"] and row["moduleContent"] == owner["contentMd"], f"bad module: {sid}"
+            assert row["heldOut"] is (split == "gate")
+            assert row["expectedReadingEnglish"] == english, f"English differs from corpus: {sid}"
+            assert row["corpusAnchor"] == {"korean": korean, "gloss": joined(source["gloss"]),
+                                            "romanization": source["rom"], "note": source["note"]}, f"bad corpus anchor: {sid}"
+            assert row["input"] == (english if row["direction"] == "en-to-ko" else korean), f"bad input: {sid}"
+            reservations.append((name, sid, english, korean))
+        print(f"PASS: {name}: {len(rows)} rows; {dict(counts)}; pinned corpus/inputs/modules and SHA-256 manifest")
+    assert len(v3_commits) == 1, "v3 splits must pin the same corpus commit"
+
     keys = [set(), set(), set()]
     for name, sid, english, korean in reservations:
         for label, key, seen in zip(("ID", "English", "Korean"),
                                     (sid, normalized(english), normalized(korean)), keys):
             assert key and key not in seen, f"duplicate {label} reservation: {name}/{sid}"
             seen.add(key)
-    print(f"PASS: {len(fixture['items'])} independent anchors; {len(reservations)-len(fixture['items'])} prior reservations; 96 unique IDs, normalized English and Korean texts")
+    print(f"PASS: {len(reservations)} unique IDs, normalized English and Korean texts: 96 prior + 10 v3 gate + {len(reservations)-106} v3 development; zero intersections")
     print("PASS: pinned corpus text/module provenance; 15 each gloss, semantic-fidelity, register, literal-gap; SHA-256 manifest")
+    check_candidates(ROOT / "reference/training/dataset-v1.json", keys)
     return keys
 
 
@@ -92,7 +130,7 @@ def check_candidates(path, exclusions):
         splits = collections.Counter(row["split"] for row in rows)
         assert splits == {"training": 250, "development": 40}, "candidate split changed"
         print("PASS: training/development disjoint by ID and normalized texts; all candidates avoid v1 training")
-    print(f"PASS: {len(rows)} candidate rows avoid all 96 reservations; no internal duplicate keys")
+    print(f"PASS: {len(rows)} candidate rows avoid all {len(exclusions[0])} reservations; no internal duplicate keys")
     return rows
 
 

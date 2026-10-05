@@ -1,0 +1,213 @@
+{
+  "version": "v3",
+  "frozenOn": "2026-10-05",
+  "corpusCommit": "bcd70d8dd1e46a9b6f94c9d7bc092a0b29b8fac1",
+  "sourceFiles": [
+    "src/content/sentences.json",
+    "src/content/modules.json"
+  ],
+  "reservationOnly": true,
+  "split": "gate",
+  "trainingAllowed": false,
+  "inputConstruction": "Join the nonempty text chunks of the source language with one U+0020 space; retain their original punctuation. The input field is the exact string to submit. No leading or trailing whitespace.",
+  "dimensions": [
+    "meaning",
+    "Korean word-order gloss",
+    "particle roles",
+    "polite 해요 register",
+    "romanization",
+    "literal-gap claims"
+  ],
+  "items": [
+    {
+      "id": "DAN-V3-GATE-01",
+      "heldOut": true,
+      "coverageClass": "literal-gap",
+      "direction": "en-to-ko",
+      "input": "To go, please",
+      "corpusSentenceId": "s9_togo",
+      "moduleId": "m9",
+      "moduleContent": "modules/module-9.md",
+      "feature": "포장 (wrapping) + 하다 + 주세요 — the takeout sentence. Watch cafes transform at the sound of it.",
+      "expectedReadingEnglish": "To go, please",
+      "corpusAnchor": {
+        "korean": "포장해 주세요",
+        "gloss": "wrap-give-please (it)",
+        "romanization": "pojanghae juseyo",
+        "note": "포장 (wrapping) + 하다 + 주세요 — the takeout sentence. Watch cafes transform at the sound of it."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain that wrapping is a request for takeout, not a demand for a literal gift or just packaging vocabulary."
+    },
+    {
+      "id": "DAN-V3-GATE-02",
+      "heldOut": true,
+      "coverageClass": "literal-gap",
+      "direction": "ko-to-en",
+      "input": "수영할 수 있어요?",
+      "corpusSentenceId": "s10_can_swim",
+      "moduleId": "m10",
+      "moduleContent": "modules/module-10.md",
+      "feature": "Ability is existence: [verb]-(으)ㄹ 수 있다 = 'a way-to-[verb] exists.' The 있다 factory's grandest product — the gap deck has the blueprint.",
+      "expectedReadingEnglish": "Can you swim?",
+      "corpusAnchor": {
+        "korean": "수영할 수 있어요?",
+        "gloss": "(you) swim-way exists?",
+        "romanization": "suyeonghal su isseoyo?",
+        "note": "Ability is existence: [verb]-(으)ㄹ 수 있다 = 'a way-to-[verb] exists.' The 있다 factory's grandest product — the gap deck has the blueprint."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain that a way or possibility to swim exists expresses ability; do not translate 수 as a physical object."
+    },
+    {
+      "id": "DAN-V3-GATE-03",
+      "heldOut": true,
+      "coverageClass": "literal-gap",
+      "direction": "en-to-ko",
+      "input": "I'm lost",
+      "corpusSentenceId": "s23_lost",
+      "moduleId": "m23",
+      "moduleContent": "modules/module-23.md",
+      "feature": "You lose the ROAD in Korean — M20's lost-and-gone verb applied to M12's 길. The 길치 of M17's gap deck says this often, cheerfully.",
+      "expectedReadingEnglish": "I'm lost",
+      "corpusAnchor": {
+        "korean": "길을 잃어버렸어요",
+        "gloss": "road-[obj] lost-completely",
+        "romanization": "gireul ireobeoryeosseoyo",
+        "note": "You lose the ROAD in Korean — M20's lost-and-gone verb applied to M12's 길. The 길치 of M17's gap deck says this often, cheerfully."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain that losing the road means being lost or unable to find the way, not misplacing a physical road."
+    },
+    {
+      "id": "DAN-V3-GATE-04",
+      "heldOut": true,
+      "coverageClass": "literal-gap",
+      "direction": "ko-to-en",
+      "input": "잘 먹었습니다",
+      "corpusSentenceId": "s18_formula_after",
+      "moduleId": "m18",
+      "moduleContent": "modules/module-18.md",
+      "feature": "The after-eating bookend — and a minimal pair with 먹겠습니다: swap -겠- (will) for -었- (did) and intention becomes gratitude. Two formulas, one grammar lesson hiding in plain sight.",
+      "expectedReadingEnglish": "I ate well (said after eating)",
+      "corpusAnchor": {
+        "korean": "잘 먹었습니다",
+        "gloss": "well ate-[formal]",
+        "romanization": "jal meogeotseumnida",
+        "note": "The after-eating bookend — and a minimal pair with 먹겠습니다: swap -겠- (will) for -었- (did) and intention becomes gratitude. Two formulas, one grammar lesson hiding in plain sight."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain that the literal report of having eaten well functions as post-meal gratitude; preserve the completed-meal timing."
+    },
+    {
+      "id": "DAN-V3-GATE-05",
+      "heldOut": true,
+      "coverageClass": "gloss",
+      "direction": "en-to-ko",
+      "input": "People with kind hearts are the best",
+      "corpusSentenceId": "s24_kind_best",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "The module's power move: 마음이 착한 — 'heart-is-kind' — a full subject-verb clause turned adjective. Korean has no who/that/which; the badge does it all. M19's 마음 meets M19's 최고.",
+      "expectedReadingEnglish": "People with kind hearts are the best",
+      "corpusAnchor": {
+        "korean": "마음이 착한 사람이 최고예요",
+        "gloss": "heart-[subj] kind-[turned] person-[subj] the-best-is",
+        "romanization": "maeumi chakhan sarami choegoyeyo",
+        "note": "The module's power move: 마음이 착한 — 'heart-is-kind' — a full subject-verb clause turned adjective. Korean has no who/that/which; the badge does it all. M19's 마음 meets M19's 최고."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-GATE-06",
+      "heldOut": true,
+      "coverageClass": "gloss",
+      "direction": "ko-to-en",
+      "input": "여행에서 산 기념품이에요",
+      "corpusSentenceId": "s24_souvenir_bought",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "The past badge on M9's 사다: 산 — one syllable carrying a whole backstory. (Not the mountain 산 — the homograph radar stays on.) M23's memory-goods, modified.",
+      "expectedReadingEnglish": "It's a souvenir I bought on my trip",
+      "corpusAnchor": {
+        "korean": "여행에서 산 기념품이에요",
+        "gloss": "trip-at bought-[turned] souvenir-it-is",
+        "romanization": "yeohaengeseo san ginyeompumieyo",
+        "note": "The past badge on M9's 사다: 산 — one syllable carrying a whole backstory. (Not the mountain 산 — the homograph radar stays on.) M23's memory-goods, modified."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-GATE-07",
+      "heldOut": true,
+      "coverageClass": "semantic-fidelity",
+      "direction": "en-to-ko",
+      "input": "I lost my phone!",
+      "corpusSentenceId": "s20_lost_phone",
+      "moduleId": "m20",
+      "moduleContent": "modules/module-20.md",
+      "feature": "잃다 + M13's 버리다 as the oops-completely auxiliary: lost AND gone. The modern nightmare in one verb; Korea's lost-and-found culture is your best hope — phones actually come back.",
+      "expectedReadingEnglish": "I lost my phone!",
+      "corpusAnchor": {
+        "korean": "핸드폰을 잃어버렸어요!",
+        "gloss": "phone-[obj] lost-completely!",
+        "romanization": "haendeuponeul ireobeoryeosseoyo!",
+        "note": "잃다 + M13's 버리다 as the oops-completely auxiliary: lost AND gone. The modern nightmare in one verb; Korea's lost-and-found culture is your best hope — phones actually come back."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-GATE-08",
+      "heldOut": true,
+      "coverageClass": "semantic-fidelity",
+      "direction": "ko-to-en",
+      "input": "산에 오르면 운동화를 신으세요",
+      "corpusSentenceId": "s22_climb_sneakers",
+      "moduleId": "m22",
+      "moduleContent": "modules/module-22.md",
+      "feature": "M20's hinge, M21's shoes and foot-verb, M11's mountain — though be warned: actual Korean hikers will outdress you in full alpine gear for a hill with a coffee shop on top.",
+      "expectedReadingEnglish": "If you climb the mountain, wear sneakers",
+      "corpusAnchor": {
+        "korean": "산에 오르면 운동화를 신으세요",
+        "gloss": "mountain-to climb-if sneakers-[obj] wear-please",
+        "romanization": "sane oreumyeon undonghwareul sineuseyo",
+        "note": "M20's hinge, M21's shoes and foot-verb, M11's mountain — though be warned: actual Korean hikers will outdress you in full alpine gear for a hill with a coffee shop on top."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-GATE-09",
+      "heldOut": true,
+      "coverageClass": "register",
+      "direction": "en-to-ko",
+      "input": "Shall I give you one?",
+      "corpusSentenceId": "s9_shall_i_give",
+      "moduleId": "m9",
+      "moduleContent": "modules/module-9.md",
+      "feature": "What every cashier asks: 봉투 드릴까요? (bag?), 영수증 드릴까요? (receipt?). 드리다 is humble giving — they give upward, to you, the honored 손님.",
+      "expectedReadingEnglish": "Shall I give you one?",
+      "corpusAnchor": {
+        "korean": "드릴까요?",
+        "gloss": "(one) give-[humble]-shall-I?",
+        "romanization": "deurilkkayo?",
+        "note": "What every cashier asks: 봉투 드릴까요? (bag?), 영수증 드릴까요? (receipt?). 드리다 is humble giving — they give upward, to you, the honored 손님."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-GATE-10",
+      "heldOut": true,
+      "coverageClass": "register",
+      "direction": "ko-to-en",
+      "input": "일요일에는 영업하지 않습니다",
+      "corpusSentenceId": "s_s2_closed_sunday",
+      "moduleId": "s2",
+      "moduleContent": "modules/module-s2.md",
+      "feature": "M28's long negation in M4's 합니다체 — exactly the register -지 않다 was built for. The shutter sentence of every Sunday disappointment; M5's day-words, still working.",
+      "expectedReadingEnglish": "On Sundays we are closed",
+      "corpusAnchor": {
+        "korean": "일요일에는 영업하지 않습니다",
+        "gloss": "Sunday-on-[topic] operate-not-[formal]",
+        "romanization": "iryoireneun yeongeophaji anseumnida",
+        "note": "M28's long negation in M4's 합니다체 — exactly the register -지 않다 was built for. The shutter sentence of every Sunday disappointment; M5's day-words, still working."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    }
+  ]
+}

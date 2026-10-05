@@ -1,0 +1,593 @@
+{
+  "version": "v3-dev",
+  "frozenOn": "2026-10-05",
+  "corpusCommit": "bcd70d8dd1e46a9b6f94c9d7bc092a0b29b8fac1",
+  "sourceFiles": [
+    "src/content/sentences.json",
+    "src/content/modules.json"
+  ],
+  "reservationOnly": false,
+  "split": "development",
+  "trainingAllowed": false,
+  "inputConstruction": "Join the nonempty text chunks of the source language with one U+0020 space; retain their original punctuation. The input field is the exact string to submit. No leading or trailing whitespace.",
+  "dimensions": [
+    "meaning",
+    "Korean word-order gloss",
+    "particle roles",
+    "polite 해요 register",
+    "romanization",
+    "literal-gap claims"
+  ],
+  "items": [
+    {
+      "id": "DAN-V3-DEV-01",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "en-to-ko",
+      "input": "I am full",
+      "corpusSentenceId": "s3_full",
+      "moduleId": "m3",
+      "moduleContent": "modules/module-3.md",
+      "feature": "One word, whole sentence — subject understood, 배부르다 → 배불러요 (a 르-irregular; just bank this form). The natural end of any good meal.",
+      "expectedReadingEnglish": "I am full",
+      "corpusAnchor": {
+        "korean": "배불러요",
+        "gloss": "(I) stomach-is-full",
+        "romanization": "baebulleoyo",
+        "note": "One word, whole sentence — subject understood, 배부르다 → 배불러요 (a 르-irregular; just bank this form). The natural end of any good meal."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-02",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "ko-to-en",
+      "input": "도와주세요!",
+      "corpusSentenceId": "s9_help_me",
+      "moduleId": "m9",
+      "moduleContent": "modules/module-9.md",
+      "feature": "The emergency word. 주다 inside a verb means 'do it FOR me' — help-give. One word, complete sentence, genuinely worth memorizing today.",
+      "expectedReadingEnglish": "Please help me!",
+      "corpusAnchor": {
+        "korean": "도와주세요!",
+        "gloss": "(you) help-give-please!",
+        "romanization": "dowajuseyo!",
+        "note": "The emergency word. 주다 inside a verb means 'do it FOR me' — help-give. One word, complete sentence, genuinely worth memorizing today."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-03",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "en-to-ko",
+      "input": "From here, just take the subway",
+      "corpusSentenceId": "s23_just_subway",
+      "moduleId": "m23",
+      "moduleContent": "modules/module-23.md",
+      "feature": "-(으)면 돼요: 'if you do X, it's fine' = JUST do X. M20 gave you the must-not (누르면 안 돼요); flip the polarity and directions become this easy.",
+      "expectedReadingEnglish": "From here, just take the subway",
+      "corpusAnchor": {
+        "korean": "여기서 지하철을 타면 돼요",
+        "gloss": "here-from subway-[obj] ride-if okay",
+        "romanization": "yeogiseo jihacheoreul tamyeon dwaeyo",
+        "note": "-(으)면 돼요: 'if you do X, it's fine' = JUST do X. M20 gave you the must-not (누르면 안 돼요); flip the polarity and directions become this easy."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-04",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "ko-to-en",
+      "input": "궁금한 것이 있어요",
+      "corpusSentenceId": "s24_curious",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "The politest way to raise a hand: a curious thing exists. New badge + M17's 것 + the 있다-chassis — every part already owned.",
+      "expectedReadingEnglish": "I have something I'm curious about",
+      "corpusAnchor": {
+        "korean": "궁금한 것이 있어요",
+        "gloss": "curious-[turned] thing-[subj] exists",
+        "romanization": "gunggeumhan geosi isseoyo",
+        "note": "The politest way to raise a hand: a curious thing exists. New badge + M17's 것 + the 있다-chassis — every part already owned."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-05",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "en-to-ko",
+      "input": "Why do you like it? I just do.",
+      "corpusSentenceId": "s24_why_just",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "The national why-deflector, straight from the gap deck's oldest resident: sometimes there is no reason, and Korean has one word for saying so politely.",
+      "expectedReadingEnglish": "Why do you like it? I just do.",
+      "corpusAnchor": {
+        "korean": "왜 좋아해요? 그냥 좋아해요",
+        "gloss": "why like? just like",
+        "romanization": "wae joahaeyo? geunyang joahaeyo",
+        "note": "The national why-deflector, straight from the gap deck's oldest resident: sometimes there is no reason, and Korean has one word for saying so politely."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-06",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "ko-to-en",
+      "input": "이거 먹어도 돼요?",
+      "corpusSentenceId": "s_m39_may_i_eat",
+      "moduleId": "m39",
+      "moduleContent": "modules/module-39.md",
+      "feature": "The permission machine, finally licensed: -아/어도 돼요 = 'even if I do it, is it OK?' — the frame M33's 여쭈다 had to tiptoe around. The permission panel completes: 안 돼요 (M10, forbidden), -(으)면 돼요 (M23, just do X), -아/어도 돼요 (allowed). Ask it before every shared plate.",
+      "expectedReadingEnglish": "May I eat this?",
+      "corpusAnchor": {
+        "korean": "이거 먹어도 돼요?",
+        "gloss": "this-thing eat-even-if becomes?",
+        "romanization": "igeo meogeodo dwaeyo?",
+        "note": "The permission machine, finally licensed: -아/어도 돼요 = 'even if I do it, is it OK?' — the frame M33's 여쭈다 had to tiptoe around. The permission panel completes: 안 돼요 (M10, forbidden), -(으)면 돼요 (M23, just do X), -아/어도 돼요 (allowed). Ask it before every shared plate."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-07",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "en-to-ko",
+      "input": "Until payday, I'll just eat ramen or whatever",
+      "corpusSentenceId": "s_m43_payday_ramen",
+      "moduleId": "m43",
+      "moduleContent": "modules/module-43.md",
+      "feature": "Job 3, the settling shrug: 라면이나 = ramen, I guess — not a choice, not an amount, but a lowered expectation with a particle on it. M6's 까지 draws the finish line at 월급날, and the whole sentence is the office worker's end-of-month register. Note 이나 sitting where 을 would — it ate the object particle whole.",
+      "expectedReadingEnglish": "Until payday, I'll just eat ramen or whatever",
+      "corpusAnchor": {
+        "korean": "월급날까지 라면이나 먹을 거예요",
+        "gloss": "payday-until ramen-or-something eat-will",
+        "romanization": "wolgeumnalkkaji ramyeonina meogeul geoyeyo",
+        "note": "Job 3, the settling shrug: 라면이나 = ramen, I guess — not a choice, not an amount, but a lowered expectation with a particle on it. M6's 까지 draws the finish line at 월급날, and the whole sentence is the office worker's end-of-month register. Note 이나 sitting where 을 would — it ate the object particle whole."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-08",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "ko-to-en",
+      "input": "카페에서 옛날 가요가 흘러나오면 어머니 생각이 나요",
+      "corpusSentenceId": "s_m51_cafe_gayo",
+      "moduleId": "m51",
+      "moduleContent": "modules/module-51.md",
+      "feature": "흐르다 (M35) + 나오다 (M28), welded: music escapes doorways in a stream. M20's -(으)면 makes it a standing law of the heart, and 생각이 나요 shows how Korean memories arrive — they erupt (M28's 나다), unbidden. 가요 does its register work: not a song but THE genre, the one whole decades hum in.",
+      "expectedReadingEnglish": "When an old pop song comes flowing out of a cafe, my mother comes to mind",
+      "corpusAnchor": {
+        "korean": "카페에서 옛날 가요가 흘러나오면 어머니 생각이 나요",
+        "gloss": "cafe-from old-days pop-song-[subj] flow-out-if mother thought-[subj] arises",
+        "romanization": "kapeeseo yennal gayoga heulleonaomyeon eomeoni saenggagi nayo",
+        "note": "흐르다 (M35) + 나오다 (M28), welded: music escapes doorways in a stream. M20's -(으)면 makes it a standing law of the heart, and 생각이 나요 shows how Korean memories arrive — they erupt (M28's 나다), unbidden. 가요 does its register work: not a song but THE genre, the one whole decades hum in."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-09",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "en-to-ko",
+      "input": "These days, all over downtown, tall buildings are going up",
+      "corpusSentenceId": "s_m50_skyline",
+      "moduleId": "m50",
+      "moduleContent": "modules/module-50.md",
+      "feature": "들어서다's second job, live: buildings STEP INTO streets, and in Korea they do it in Ring 1's progressive — -고 있다 watching the skyline change in real time. 곳곳 doubles M12's 곳 into the written-register everywhere, M7's 높다 wears M24's badge, and M26's 요즘 timestamps it: this decade, like every decade.",
+      "expectedReadingEnglish": "These days, all over downtown, tall buildings are going up",
+      "corpusAnchor": {
+        "korean": "요즘 시내 곳곳에 높은 빌딩이 들어서고 있어요",
+        "gloss": "these-days downtown place-place-at tall-[badge] building-[subj] step-in-ing-are",
+        "romanization": "yojeum sinae gotgose nopeun bildingi deureoseogo isseoyo",
+        "note": "들어서다's second job, live: buildings STEP INTO streets, and in Korea they do it in Ring 1's progressive — -고 있다 watching the skyline change in real time. 곳곳 doubles M12's 곳 into the written-register everywhere, M7's 높다 wears M24's badge, and M26's 요즘 timestamps it: this decade, like every decade."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-10",
+      "heldOut": false,
+      "coverageClass": "literal-gap",
+      "direction": "ko-to-en",
+      "input": "형하고 저는 키 차이가 별로 안 나요",
+      "corpusSentenceId": "s_m57_height_diff",
+      "moduleId": "m57",
+      "moduleContent": "modules/module-57.md",
+      "feature": "차이가 나다: differences ERUPT through M28's 나다, the same door 화가 나다 and 기억나다 use. M17's 별로 demands its negative, as always, and M27's 키 keeps the people-height job so 높이 can keep the buildings. Fully spoken register — brothers get measured back to back.",
+      "expectedReadingEnglish": "My older brother and I don't really differ in height",
+      "corpusAnchor": {
+        "korean": "형하고 저는 키 차이가 별로 안 나요",
+        "gloss": "older-brother-with I-[as for] height difference-[subj] not-really not come-out",
+        "romanization": "hyeonghago jeoneun ki chaiga byeollo an nayo",
+        "note": "차이가 나다: differences ERUPT through M28's 나다, the same door 화가 나다 and 기억나다 use. M17's 별로 demands its negative, as always, and M27's 키 keeps the people-height job so 높이 can keep the buildings. Fully spoken register — brothers get measured back to back."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-11",
+      "heldOut": false,
+      "coverageClass": "register",
+      "direction": "en-to-ko",
+      "input": "Why?",
+      "corpusSentenceId": "s10_why",
+      "moduleId": "m10",
+      "moduleContent": "modules/module-10.md",
+      "feature": "요-injection strikes again (여기요, 저기요, 왜요) — politeness by suffix. The classic answer, from the gap deck's oldest resident: 그냥.",
+      "expectedReadingEnglish": "Why?",
+      "corpusAnchor": {
+        "korean": "왜요?",
+        "gloss": "why-[polite]?",
+        "romanization": "waeyo?",
+        "note": "요-injection strikes again (여기요, 저기요, 왜요) — politeness by suffix. The classic answer, from the gap deck's oldest resident: 그냥."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-12",
+      "heldOut": false,
+      "coverageClass": "register",
+      "direction": "ko-to-en",
+      "input": "생일 축하해!",
+      "corpusSentenceId": "s19_happy_birthday",
+      "moduleId": "m19",
+      "moduleContent": "modules/module-19.md",
+      "feature": "Said 추카해 — the ㅎ-merge the sound interlude promised. Add -요 for politeness, 합니다 for ceremony; the song uses this exact casual form.",
+      "expectedReadingEnglish": "Happy birthday!",
+      "corpusAnchor": {
+        "korean": "생일 축하해!",
+        "gloss": "birthday congratulate!",
+        "romanization": "saengil chukahae!",
+        "note": "Said 추카해 — the ㅎ-merge the sound interlude promised. Add -요 for politeness, 합니다 for ceremony; the song uses this exact casual form."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-13",
+      "heldOut": false,
+      "coverageClass": "register",
+      "direction": "en-to-ko",
+      "input": "Don't lie!",
+      "corpusSentenceId": "s19_dont_lie",
+      "moduleId": "m19",
+      "moduleContent": "modules/module-19.md",
+      "feature": "M14's -지 마세요 loses its 세요 and becomes -지 마 — the casual prohibition. Same machine, shorter lever. Often really means 'no WAY!'",
+      "expectedReadingEnglish": "Don't lie!",
+      "corpusAnchor": {
+        "korean": "거짓말하지 마!",
+        "gloss": "lie-do-don't!",
+        "romanization": "geojinmalhaji ma!",
+        "note": "M14's -지 마세요 loses its 세요 and becomes -지 마 — the casual prohibition. Same machine, shorter lever. Often really means 'no WAY!'"
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-14",
+      "heldOut": false,
+      "coverageClass": "register",
+      "direction": "ko-to-en",
+      "input": "부모님께 자주 전화해요",
+      "corpusSentenceId": "s27_call_parents",
+      "moduleId": "m27",
+      "moduleContent": "modules/module-27.md",
+      "feature": "The M8 IOU, paid: 전화하다's note promised 'the person you call takes 한테/에게 — arriving soon.' Nineteen modules later — and for parents, the honorific 께.",
+      "expectedReadingEnglish": "I call my parents often",
+      "corpusAnchor": {
+        "korean": "부모님께 자주 전화해요",
+        "gloss": "parents-to-[hon] often phone-do",
+        "romanization": "bumonimkke jaju jeonhwahaeyo",
+        "note": "The M8 IOU, paid: 전화하다's note promised 'the person you call takes 한테/에게 — arriving soon.' Nineteen modules later — and for parents, the honorific 께."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-15",
+      "heldOut": false,
+      "coverageClass": "register",
+      "direction": "en-to-ko",
+      "input": "Pull the door",
+      "corpusSentenceId": "s_s2_pull_door",
+      "moduleId": "s2",
+      "moduleContent": "modules/module-s2.md",
+      "feature": "하오체 — the ghost register that survives only on doors and buttons. Real doors usually skip the 문을 and just say 당기시오 (or 미시오 — push). Read it; never say it.",
+      "expectedReadingEnglish": "Pull the door",
+      "corpusAnchor": {
+        "korean": "문을 당기시오",
+        "gloss": "door-[obj] pull-[sign register]",
+        "romanization": "muneul danggisio",
+        "note": "하오체 — the ghost register that survives only on doors and buttons. Real doors usually skip the 문을 and just say 당기시오 (or 미시오 — push). Read it; never say it."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-16",
+      "heldOut": false,
+      "coverageClass": "register",
+      "direction": "ko-to-en",
+      "input": "공사 중입니다. 죄송합니다.",
+      "corpusSentenceId": "s_s2_construction",
+      "moduleId": "s2",
+      "moduleContent": "modules/module-s2.md",
+      "feature": "The ○○ 중 machine in the wild, dressed in M4's 합니다체 — signs apologize formally. The same pair guards elevators (점검 중) and kitchens (준비 중) nationwide.",
+      "expectedReadingEnglish": "Under construction. We apologize.",
+      "corpusAnchor": {
+        "korean": "공사 중입니다. 죄송합니다.",
+        "gloss": "construction middle-is apologize",
+        "romanization": "gongsa jungimnida. joesonghamnida.",
+        "note": "The ○○ 중 machine in the wild, dressed in M4's 합니다체 — signs apologize formally. The same pair guards elevators (점검 중) and kitchens (준비 중) nationwide."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-17",
+      "heldOut": false,
+      "coverageClass": "gloss",
+      "direction": "en-to-ko",
+      "input": "It's the cafe I go to often",
+      "corpusSentenceId": "s24_cafe_often",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "A verb clause parked before a noun: 자주 가는 카페 — 'the often-go cafe.' No 'that I' anywhere; the -는 badge IS the relative pronoun.",
+      "expectedReadingEnglish": "It's the cafe I go to often",
+      "corpusAnchor": {
+        "korean": "자주 가는 카페예요",
+        "gloss": "often go-[turned] cafe-it-is",
+        "romanization": "jaju ganeun kapeyeyo",
+        "note": "A verb clause parked before a noun: 자주 가는 카페 — 'the often-go cafe.' No 'that I' anywhere; the -는 badge IS the relative pronoun."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-18",
+      "heldOut": false,
+      "coverageClass": "gloss",
+      "direction": "ko-to-en",
+      "input": "제가 제일 좋아하는 노래예요",
+      "corpusSentenceId": "s24_favorite_song",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "A whole clause — subject, M22's 제일, verb — wearing one badge. Introductions to songs, foods, and people all run on this shape.",
+      "expectedReadingEnglish": "It's the song I like the most",
+      "corpusAnchor": {
+        "korean": "제가 제일 좋아하는 노래예요",
+        "gloss": "I-[subj] most like-[turned] song-it-is",
+        "romanization": "jega jeil joahaneun noraeyeyo",
+        "note": "A whole clause — subject, M22's 제일, verb — wearing one badge. Introductions to songs, foods, and people all run on this shape."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-19",
+      "heldOut": false,
+      "coverageClass": "gloss",
+      "direction": "en-to-ko",
+      "input": "Places with many tourists are always crowded",
+      "corpusSentenceId": "s24_tourist_places",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "M23's tourists meet the badge: 관광객이 많은 곳 — 'a tourists-are-many place.' 곳's own M12 note promised this parse; delivered.",
+      "expectedReadingEnglish": "Places with many tourists are always crowded",
+      "corpusAnchor": {
+        "korean": "관광객이 많은 곳은 항상 복잡해요",
+        "gloss": "tourist-[subj] many-[turned] place-[topic] always is-crowded",
+        "romanization": "gwangwanggaegi maneun goseun hangsang bokjaphaeyo",
+        "note": "M23's tourists meet the badge: 관광객이 많은 곳 — 'a tourists-are-many place.' 곳's own M12 note promised this parse; delivered."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-20",
+      "heldOut": false,
+      "coverageClass": "gloss",
+      "direction": "ko-to-en",
+      "input": "우리는 생각이 똑같아요",
+      "corpusSentenceId": "s24_exactly_same",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "The double-subject trick: as-for-us, thoughts-are-identical. 똑 — the 'exactly' of M23's 똑바로 and the knock of M15's 똑똑하다 — bolted onto 같다.",
+      "expectedReadingEnglish": "We think exactly the same",
+      "corpusAnchor": {
+        "korean": "우리는 생각이 똑같아요",
+        "gloss": "we-[topic] thought-[subj] is-identical",
+        "romanization": "urineun saenggagi ttokgatayo",
+        "note": "The double-subject trick: as-for-us, thoughts-are-identical. 똑 — the 'exactly' of M23's 똑바로 and the knock of M15's 똑똑하다 — bolted onto 같다."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-21",
+      "heldOut": false,
+      "coverageClass": "gloss",
+      "direction": "en-to-ko",
+      "input": "How was the movie you saw yesterday?",
+      "corpusSentenceId": "s24_movie_how",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "Two exhibits in one: 본 (the past badge on M1's 보다) and 어땠어요 (어떻다 in past tense). Casual speech drops the particle after 영화 — questions move fast.",
+      "expectedReadingEnglish": "How was the movie you saw yesterday?",
+      "corpusAnchor": {
+        "korean": "어제 본 영화 어땠어요?",
+        "gloss": "yesterday saw-[turned] movie how-was?",
+        "romanization": "eoje bon yeonghwa eottaesseoyo?",
+        "note": "Two exhibits in one: 본 (the past badge on M1's 보다) and 어땠어요 (어떻다 in past tense). Casual speech drops the particle after 영화 — questions move fast."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-22",
+      "heldOut": false,
+      "coverageClass": "gloss",
+      "direction": "ko-to-en",
+      "input": "비가 그친 후에 무지개를 봤어요",
+      "corpusSentenceId": "s22_rainbow",
+      "moduleId": "m22",
+      "moduleContent": "modules/module-22.md",
+      "feature": "M11's 그치다 through M13's 후에, resolved by plain old seeing — 보다's first job, for the prettiest payoff. Three bands of the course in one sky.",
+      "expectedReadingEnglish": "After the rain stopped, I saw a rainbow",
+      "corpusAnchor": {
+        "korean": "비가 그친 후에 무지개를 봤어요",
+        "gloss": "rain-[subj] stopped-after rainbow-[obj] saw",
+        "romanization": "biga geuchin hue mujigaereul bwasseoyo",
+        "note": "M11's 그치다 through M13's 후에, resolved by plain old seeing — 보다's first job, for the prettiest payoff. Three bands of the course in one sky."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-23",
+      "heldOut": false,
+      "coverageClass": "gloss",
+      "direction": "en-to-ko",
+      "input": "I'm going to the market to buy souvenirs",
+      "corpusSentenceId": "s23_souvenir_market",
+      "moduleId": "m23",
+      "moduleContent": "modules/module-23.md",
+      "feature": "M12's purpose-러 on a shopping mission. 기념품 = memory-goods; M3's 시장 is where they're cheapest and 깎아 주세요 still works.",
+      "expectedReadingEnglish": "I'm going to the market to buy souvenirs",
+      "corpusAnchor": {
+        "korean": "기념품을 사러 시장에 가요",
+        "gloss": "souvenir-[obj] buy-in-order-to market-to go",
+        "romanization": "ginyeompumeul sareo sijange gayo",
+        "note": "M12's purpose-러 on a shopping mission. 기념품 = memory-goods; M3's 시장 is where they're cheapest and 깎아 주세요 still works."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-24",
+      "heldOut": false,
+      "coverageClass": "semantic-fidelity",
+      "direction": "ko-to-en",
+      "input": "이해했어요?",
+      "corpusSentenceId": "s10_understand_q",
+      "moduleId": "m10",
+      "moduleContent": "modules/module-10.md",
+      "feature": "Past tense as 'done-ness': the understanding either happened or it didn't. Honest answer available: 이해 못 했어요.",
+      "expectedReadingEnglish": "Did you get it?",
+      "corpusAnchor": {
+        "korean": "이해했어요?",
+        "gloss": "(you) understood?",
+        "romanization": "ihaehaesseoyo?",
+        "note": "Past tense as 'done-ness': the understanding either happened or it didn't. Honest answer available: 이해 못 했어요."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-25",
+      "heldOut": false,
+      "coverageClass": "semantic-fidelity",
+      "direction": "en-to-ko",
+      "input": "Don't worry",
+      "corpusSentenceId": "s14_dont_worry",
+      "moduleId": "m14",
+      "moduleContent": "modules/module-14.md",
+      "feature": "The don't-machine: stem + -지 마세요, no sound rules, no exceptions. This is its most-said sentence in the language.",
+      "expectedReadingEnglish": "Don't worry",
+      "corpusAnchor": {
+        "korean": "걱정하지 마세요",
+        "gloss": "worry-don't-please",
+        "romanization": "geokjeonghaji maseyo",
+        "note": "The don't-machine: stem + -지 마세요, no sound rules, no exceptions. This is its most-said sentence in the language."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-26",
+      "heldOut": false,
+      "coverageClass": "semantic-fidelity",
+      "direction": "ko-to-en",
+      "input": "두 시간 전에 공항에 도착하면 돼요",
+      "corpusSentenceId": "s23_airport_early",
+      "moduleId": "m23",
+      "moduleContent": "modules/module-23.md",
+      "feature": "M5's counted hours through M13's 전에 into the it's-fine machine — three modules of glue delivering one piece of airport advice.",
+      "expectedReadingEnglish": "Two hours before, just arrive at the airport",
+      "corpusAnchor": {
+        "korean": "두 시간 전에 공항에 도착하면 돼요",
+        "gloss": "two hour before-at airport-at arrive-if okay",
+        "romanization": "du sigan jeone gonghange dochakhamyeon dwaeyo",
+        "note": "M5's counted hours through M13's 전에 into the it's-fine machine — three modules of glue delivering one piece of airport advice."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-27",
+      "heldOut": false,
+      "coverageClass": "semantic-fidelity",
+      "direction": "en-to-ko",
+      "input": "Don't forget your passport!",
+      "corpusSentenceId": "s23_passport",
+      "moduleId": "m23",
+      "moduleContent": "modules/module-23.md",
+      "feature": "M14's don't-machine guarding M15's forget-verb at the front door. The one item with no workaround — everything else, 공항에서 사면 돼요.",
+      "expectedReadingEnglish": "Don't forget your passport!",
+      "corpusAnchor": {
+        "korean": "여권을 잊지 마세요!",
+        "gloss": "passport-[obj] forget-don't-please!",
+        "romanization": "yeogwoneul itji maseyo!",
+        "note": "M14's don't-machine guarding M15's forget-verb at the front door. The one item with no workaround — everything else, 공항에서 사면 돼요."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-28",
+      "heldOut": false,
+      "coverageClass": "semantic-fidelity",
+      "direction": "ko-to-en",
+      "input": "비행기표가 기차표보다 더 비싸요",
+      "corpusSentenceId": "s23_plane_pricier",
+      "moduleId": "m23",
+      "moduleContent": "modules/module-23.md",
+      "feature": "M22's comparison machine doing trip math with M12's tickets — 표 gluing onto its vehicle exactly as promised back then. The KTX (gap deck) is why the train usually wins.",
+      "expectedReadingEnglish": "Plane tickets are more expensive than train tickets",
+      "corpusAnchor": {
+        "korean": "비행기표가 기차표보다 더 비싸요",
+        "gloss": "plane-ticket-[subj] train-ticket-than more is-expensive",
+        "romanization": "bihaenggipyoga gichapyoboda deo bissayo",
+        "note": "M22's comparison machine doing trip math with M12's tickets — 표 gluing onto its vehicle exactly as promised back then. The KTX (gap deck) is why the train usually wins."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-29",
+      "heldOut": false,
+      "coverageClass": "semantic-fidelity",
+      "direction": "en-to-ko",
+      "input": "Don't believe that kind of story",
+      "corpusSentenceId": "s24_dont_believe",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "그런 — 그렇다 with the badge — meets M14's -지 마세요. And M7's 그런데 stands revealed: 그런 + 데, 'that kind of situation, and…'",
+      "expectedReadingEnglish": "Don't believe that kind of story",
+      "corpusAnchor": {
+        "korean": "그런 이야기를 믿지 마세요",
+        "gloss": "that-kind story-[obj] believe-don't",
+        "romanization": "geureon iyagireul mitji maseyo",
+        "note": "그런 — 그렇다 with the badge — meets M14's -지 마세요. And M7's 그런데 stands revealed: 그런 + 데, 'that kind of situation, and…'"
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    },
+    {
+      "id": "DAN-V3-DEV-30",
+      "heldOut": false,
+      "coverageClass": "semantic-fidelity",
+      "direction": "ko-to-en",
+      "input": "사실은 조금 달라요",
+      "corpusSentenceId": "s24_actually_different",
+      "moduleId": "m24",
+      "moduleContent": "modules/module-24.md",
+      "feature": "사실 topic-marked shifts into confession gear. 달라요 is 다르다 in 르-family dress — the 몰라요/빨라요/불러요 shape gains its most-argued member.",
+      "expectedReadingEnglish": "Actually, it's a little different",
+      "corpusAnchor": {
+        "korean": "사실은 조금 달라요",
+        "gloss": "fact-[topic] a-little is-different",
+        "romanization": "sasireun jogeum dallayo",
+        "note": "사실 topic-marked shifts into confession gear. 달라요 is 다르다 in 르-family dress — the 몰라요/빨라요/불러요 shape gains its most-argued member."
+      },
+      "acceptableAnswerNote": "Accept a natural rendering preserving corpus meaning, actor, polarity, time, particle roles and speech act. Follow the unchanged v0 rubric for register; explain source honorific, formal or casual usage where present. Explain any real literal-versus-intended difference supported by the source; do not invent one."
+    }
+  ]
+}
