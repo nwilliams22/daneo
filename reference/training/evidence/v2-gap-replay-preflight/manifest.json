@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "path": "reference/training/dataset-v2.json",
+      "sha256": "0e4509055cf8074676505af1068b460726d35154b75c896edefccb2a8704f57e"
+    },
+    {
+      "path": "reference/training/development-v2.json",
+      "sha256": "f9b83bd52dce8a3f4c557af27ea94c4fe4226b41d796ebc566b0d1a8337e343d"
+    }
+  ],
+  "modelSha256": "025935d6c8477d70946b0e97fddcac318ddbd04630a496bd011f488ef39020c5",
+  "modelBytes": 4610579744,
+  "workerSha256": "98e7b0ef14e0ce1776556bc0250d46ceab495cadb2173d583aac6248c8fa368d",
+  "worker": "src-tauri/target/release/examples/prompt_probe-49e843a3ac6cd401",
+  "fixtureSha256": "5931c705f9c25ab1e3648154954a1b839721662cae0e7ac0d52277d93aa19898",
+  "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+  "sealedManifestSha256": "62c1918082fff893fc177f31cef33deba62808ca5f4258172d01d5a9aafff3de",
+  "selection": "All non-empty literal_gap targets from v2 training and development; no reserved inputs",
+  "network": "unshare --user --map-root-user --net",
+  "exitCode": 2,
+  "elapsedSeconds": 0.002285480033606291
+}

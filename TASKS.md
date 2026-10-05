@@ -1215,3 +1215,7 @@ output the rubric asks for*. Nothing Nick closed is reopened: no paid or cloud
 engine, no relaxed rubric, no pretraining, `model-pin.json` still null, release
 one not re-cut, and `v3-translation-set.json` still unused. Next: the pending
 card on BAD-247 carries this as a measured option.
+
+### 2026-10-05 — Diagnose literal-gap supervision
+
+Reproduced the historical supervision confound (10/317 multi-chunk gloss + gap pairs), verified the exact v2 Q8 artifact and retained native worker, and launched exhaustive replay of 108 training / 10 development gap rows. A response-token audit reproduces all historical training token lengths and the development total: every gap field is labeled, maximum input 747/1,024 tokens, no truncation. Diagnosis remains pending full replay; no rebuild, training, gate access or pin change. Evidence and next step: `reference/training/evidence/v2-gap-diagnosis.md`. `npm run build` passed; `npm run validate:content` passed 16/16.

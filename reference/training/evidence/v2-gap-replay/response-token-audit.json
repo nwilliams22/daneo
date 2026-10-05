@@ -1,0 +1,2334 @@
+{
+  "historicalTrainingTokenLengthsMatch": true,
+  "historicalDevelopmentTokenTotalMatches": true,
+  "tokenizerWarning": "Transformers warns about the tokenizer regex; no tokenizer change was applied. Reproduced token counts match every historical training step and the historical development total.",
+  "method": "Reproduce train-v1.py encode/label construction with retained merged tokenizer, original v2 prompt, and frozen v2 splits; no model load or optimization",
+  "limitation": "Verifies current reproduction of label construction, not historical gradients or learned capability",
+  "rows": 290,
+  "maxInputTokens": 747,
+  "maxSeqLength": 1024,
+  "allGapFieldTokensSupervised": true,
+  "truncation": false,
+  "items": [
+    {
+      "id": "DAN-V2-CANDIDATE-001",
+      "split": "training",
+      "inputTokens": 684,
+      "responseTokens": 117,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-002",
+      "split": "training",
+      "inputTokens": 696,
+      "responseTokens": 125,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-003",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 92,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-004",
+      "split": "training",
+      "inputTokens": 668,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-005",
+      "split": "training",
+      "inputTokens": 640,
+      "responseTokens": 72,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-006",
+      "split": "training",
+      "inputTokens": 666,
+      "responseTokens": 97,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-007",
+      "split": "training",
+      "inputTokens": 695,
+      "responseTokens": 124,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-008",
+      "split": "training",
+      "inputTokens": 658,
+      "responseTokens": 91,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-009",
+      "split": "training",
+      "inputTokens": 661,
+      "responseTokens": 93,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-010",
+      "split": "training",
+      "inputTokens": 717,
+      "responseTokens": 149,
+      "supervisedGapFieldTokens": 39,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-011",
+      "split": "training",
+      "inputTokens": 684,
+      "responseTokens": 116,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-012",
+      "split": "training",
+      "inputTokens": 727,
+      "responseTokens": 149,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-013",
+      "split": "training",
+      "inputTokens": 685,
+      "responseTokens": 115,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-014",
+      "split": "training",
+      "inputTokens": 663,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-015",
+      "split": "training",
+      "inputTokens": 713,
+      "responseTokens": 140,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-016",
+      "split": "training",
+      "inputTokens": 739,
+      "responseTokens": 166,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-017",
+      "split": "training",
+      "inputTokens": 727,
+      "responseTokens": 154,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-018",
+      "split": "training",
+      "inputTokens": 663,
+      "responseTokens": 95,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-019",
+      "split": "training",
+      "inputTokens": 719,
+      "responseTokens": 148,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-020",
+      "split": "training",
+      "inputTokens": 717,
+      "responseTokens": 145,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-021",
+      "split": "training",
+      "inputTokens": 739,
+      "responseTokens": 165,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-022",
+      "split": "training",
+      "inputTokens": 658,
+      "responseTokens": 92,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-023",
+      "split": "training",
+      "inputTokens": 665,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-024",
+      "split": "training",
+      "inputTokens": 696,
+      "responseTokens": 125,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-025",
+      "split": "training",
+      "inputTokens": 701,
+      "responseTokens": 129,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-026",
+      "split": "training",
+      "inputTokens": 680,
+      "responseTokens": 112,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-027",
+      "split": "training",
+      "inputTokens": 692,
+      "responseTokens": 122,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-028",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 95,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-029",
+      "split": "training",
+      "inputTokens": 714,
+      "responseTokens": 144,
+      "supervisedGapFieldTokens": 46,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-030",
+      "split": "training",
+      "inputTokens": 657,
+      "responseTokens": 91,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-031",
+      "split": "training",
+      "inputTokens": 652,
+      "responseTokens": 85,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-032",
+      "split": "training",
+      "inputTokens": 635,
+      "responseTokens": 70,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-033",
+      "split": "training",
+      "inputTokens": 652,
+      "responseTokens": 79,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-034",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 97,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-035",
+      "split": "training",
+      "inputTokens": 689,
+      "responseTokens": 119,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-036",
+      "split": "training",
+      "inputTokens": 656,
+      "responseTokens": 90,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-037",
+      "split": "training",
+      "inputTokens": 697,
+      "responseTokens": 125,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-038",
+      "split": "training",
+      "inputTokens": 686,
+      "responseTokens": 118,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-039",
+      "split": "training",
+      "inputTokens": 703,
+      "responseTokens": 129,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-040",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-041",
+      "split": "training",
+      "inputTokens": 659,
+      "responseTokens": 91,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-042",
+      "split": "training",
+      "inputTokens": 658,
+      "responseTokens": 91,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-043",
+      "split": "training",
+      "inputTokens": 668,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-044",
+      "split": "training",
+      "inputTokens": 692,
+      "responseTokens": 125,
+      "supervisedGapFieldTokens": 37,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-045",
+      "split": "training",
+      "inputTokens": 665,
+      "responseTokens": 97,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-046",
+      "split": "training",
+      "inputTokens": 659,
+      "responseTokens": 92,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-047",
+      "split": "training",
+      "inputTokens": 687,
+      "responseTokens": 118,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-048",
+      "split": "training",
+      "inputTokens": 705,
+      "responseTokens": 132,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-049",
+      "split": "training",
+      "inputTokens": 688,
+      "responseTokens": 117,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-050",
+      "split": "training",
+      "inputTokens": 672,
+      "responseTokens": 101,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-051",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 95,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-052",
+      "split": "training",
+      "inputTokens": 685,
+      "responseTokens": 117,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-053",
+      "split": "training",
+      "inputTokens": 668,
+      "responseTokens": 99,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-054",
+      "split": "training",
+      "inputTokens": 667,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-055",
+      "split": "training",
+      "inputTokens": 670,
+      "responseTokens": 101,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-056",
+      "split": "training",
+      "inputTokens": 720,
+      "responseTokens": 147,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-057",
+      "split": "training",
+      "inputTokens": 691,
+      "responseTokens": 122,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-058",
+      "split": "training",
+      "inputTokens": 665,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-059",
+      "split": "training",
+      "inputTokens": 677,
+      "responseTokens": 106,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-060",
+      "split": "training",
+      "inputTokens": 696,
+      "responseTokens": 126,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-071",
+      "split": "training",
+      "inputTokens": 687,
+      "responseTokens": 118,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-072",
+      "split": "training",
+      "inputTokens": 650,
+      "responseTokens": 86,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-073",
+      "split": "training",
+      "inputTokens": 657,
+      "responseTokens": 89,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-074",
+      "split": "training",
+      "inputTokens": 663,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-075",
+      "split": "training",
+      "inputTokens": 704,
+      "responseTokens": 130,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-076",
+      "split": "training",
+      "inputTokens": 699,
+      "responseTokens": 127,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-077",
+      "split": "training",
+      "inputTokens": 696,
+      "responseTokens": 123,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-078",
+      "split": "training",
+      "inputTokens": 708,
+      "responseTokens": 135,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-079",
+      "split": "training",
+      "inputTokens": 713,
+      "responseTokens": 143,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-080",
+      "split": "training",
+      "inputTokens": 719,
+      "responseTokens": 146,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-081",
+      "split": "training",
+      "inputTokens": 661,
+      "responseTokens": 93,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-082",
+      "split": "training",
+      "inputTokens": 689,
+      "responseTokens": 120,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-083",
+      "split": "training",
+      "inputTokens": 703,
+      "responseTokens": 127,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-084",
+      "split": "training",
+      "inputTokens": 659,
+      "responseTokens": 92,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-085",
+      "split": "training",
+      "inputTokens": 674,
+      "responseTokens": 104,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-086",
+      "split": "training",
+      "inputTokens": 728,
+      "responseTokens": 158,
+      "supervisedGapFieldTokens": 34,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-087",
+      "split": "training",
+      "inputTokens": 659,
+      "responseTokens": 92,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-088",
+      "split": "training",
+      "inputTokens": 686,
+      "responseTokens": 117,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-089",
+      "split": "training",
+      "inputTokens": 724,
+      "responseTokens": 151,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-090",
+      "split": "training",
+      "inputTokens": 657,
+      "responseTokens": 91,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-091",
+      "split": "training",
+      "inputTokens": 666,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-092",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 95,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-093",
+      "split": "training",
+      "inputTokens": 673,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-094",
+      "split": "training",
+      "inputTokens": 668,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-095",
+      "split": "training",
+      "inputTokens": 643,
+      "responseTokens": 74,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-096",
+      "split": "training",
+      "inputTokens": 689,
+      "responseTokens": 120,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-097",
+      "split": "training",
+      "inputTokens": 688,
+      "responseTokens": 120,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-098",
+      "split": "training",
+      "inputTokens": 671,
+      "responseTokens": 103,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-099",
+      "split": "training",
+      "inputTokens": 699,
+      "responseTokens": 127,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-100",
+      "split": "training",
+      "inputTokens": 696,
+      "responseTokens": 129,
+      "supervisedGapFieldTokens": 40,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-101",
+      "split": "training",
+      "inputTokens": 690,
+      "responseTokens": 121,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-102",
+      "split": "training",
+      "inputTokens": 701,
+      "responseTokens": 130,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-103",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-104",
+      "split": "training",
+      "inputTokens": 661,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-105",
+      "split": "training",
+      "inputTokens": 665,
+      "responseTokens": 97,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-106",
+      "split": "training",
+      "inputTokens": 669,
+      "responseTokens": 101,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-107",
+      "split": "training",
+      "inputTokens": 670,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-108",
+      "split": "training",
+      "inputTokens": 678,
+      "responseTokens": 108,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-109",
+      "split": "training",
+      "inputTokens": 700,
+      "responseTokens": 128,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-110",
+      "split": "training",
+      "inputTokens": 690,
+      "responseTokens": 121,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-111",
+      "split": "training",
+      "inputTokens": 711,
+      "responseTokens": 139,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-112",
+      "split": "training",
+      "inputTokens": 673,
+      "responseTokens": 104,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-113",
+      "split": "training",
+      "inputTokens": 689,
+      "responseTokens": 120,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-114",
+      "split": "training",
+      "inputTokens": 702,
+      "responseTokens": 130,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-115",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-126",
+      "split": "training",
+      "inputTokens": 674,
+      "responseTokens": 104,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-127",
+      "split": "training",
+      "inputTokens": 691,
+      "responseTokens": 122,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-128",
+      "split": "training",
+      "inputTokens": 676,
+      "responseTokens": 107,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-129",
+      "split": "training",
+      "inputTokens": 679,
+      "responseTokens": 109,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-130",
+      "split": "training",
+      "inputTokens": 698,
+      "responseTokens": 126,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-131",
+      "split": "training",
+      "inputTokens": 728,
+      "responseTokens": 154,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-132",
+      "split": "training",
+      "inputTokens": 709,
+      "responseTokens": 135,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-133",
+      "split": "training",
+      "inputTokens": 704,
+      "responseTokens": 133,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-134",
+      "split": "training",
+      "inputTokens": 709,
+      "responseTokens": 133,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-135",
+      "split": "training",
+      "inputTokens": 700,
+      "responseTokens": 128,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-136",
+      "split": "training",
+      "inputTokens": 698,
+      "responseTokens": 126,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-137",
+      "split": "training",
+      "inputTokens": 689,
+      "responseTokens": 123,
+      "supervisedGapFieldTokens": 34,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-138",
+      "split": "training",
+      "inputTokens": 684,
+      "responseTokens": 113,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-139",
+      "split": "training",
+      "inputTokens": 694,
+      "responseTokens": 126,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-140",
+      "split": "training",
+      "inputTokens": 652,
+      "responseTokens": 84,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-141",
+      "split": "training",
+      "inputTokens": 680,
+      "responseTokens": 110,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-142",
+      "split": "training",
+      "inputTokens": 666,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-143",
+      "split": "training",
+      "inputTokens": 667,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-144",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-145",
+      "split": "training",
+      "inputTokens": 663,
+      "responseTokens": 95,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-146",
+      "split": "training",
+      "inputTokens": 692,
+      "responseTokens": 120,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-147",
+      "split": "training",
+      "inputTokens": 670,
+      "responseTokens": 101,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-148",
+      "split": "training",
+      "inputTokens": 670,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-149",
+      "split": "training",
+      "inputTokens": 672,
+      "responseTokens": 104,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-150",
+      "split": "training",
+      "inputTokens": 672,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-151",
+      "split": "training",
+      "inputTokens": 694,
+      "responseTokens": 125,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-152",
+      "split": "training",
+      "inputTokens": 690,
+      "responseTokens": 117,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-153",
+      "split": "training",
+      "inputTokens": 661,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-154",
+      "split": "training",
+      "inputTokens": 693,
+      "responseTokens": 122,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-155",
+      "split": "training",
+      "inputTokens": 747,
+      "responseTokens": 171,
+      "supervisedGapFieldTokens": 34,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-156",
+      "split": "training",
+      "inputTokens": 695,
+      "responseTokens": 121,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-157",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-158",
+      "split": "training",
+      "inputTokens": 691,
+      "responseTokens": 120,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-159",
+      "split": "training",
+      "inputTokens": 699,
+      "responseTokens": 128,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-160",
+      "split": "training",
+      "inputTokens": 696,
+      "responseTokens": 127,
+      "supervisedGapFieldTokens": 31,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-161",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-162",
+      "split": "training",
+      "inputTokens": 673,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-163",
+      "split": "training",
+      "inputTokens": 689,
+      "responseTokens": 120,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-164",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-165",
+      "split": "training",
+      "inputTokens": 709,
+      "responseTokens": 136,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-166",
+      "split": "training",
+      "inputTokens": 668,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-167",
+      "split": "training",
+      "inputTokens": 674,
+      "responseTokens": 105,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-168",
+      "split": "training",
+      "inputTokens": 692,
+      "responseTokens": 123,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-169",
+      "split": "training",
+      "inputTokens": 660,
+      "responseTokens": 93,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-170",
+      "split": "training",
+      "inputTokens": 685,
+      "responseTokens": 117,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-181",
+      "split": "training",
+      "inputTokens": 652,
+      "responseTokens": 87,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-182",
+      "split": "training",
+      "inputTokens": 656,
+      "responseTokens": 91,
+      "supervisedGapFieldTokens": 25,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-183",
+      "split": "training",
+      "inputTokens": 659,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 26,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-184",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 26,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-185",
+      "split": "training",
+      "inputTokens": 658,
+      "responseTokens": 93,
+      "supervisedGapFieldTokens": 26,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-186",
+      "split": "training",
+      "inputTokens": 667,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 30,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-187",
+      "split": "training",
+      "inputTokens": 665,
+      "responseTokens": 99,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-188",
+      "split": "training",
+      "inputTokens": 668,
+      "responseTokens": 105,
+      "supervisedGapFieldTokens": 43,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-189",
+      "split": "training",
+      "inputTokens": 665,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 29,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-190",
+      "split": "training",
+      "inputTokens": 677,
+      "responseTokens": 111,
+      "supervisedGapFieldTokens": 34,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-191",
+      "split": "training",
+      "inputTokens": 650,
+      "responseTokens": 86,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-192",
+      "split": "training",
+      "inputTokens": 653,
+      "responseTokens": 89,
+      "supervisedGapFieldTokens": 25,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-193",
+      "split": "training",
+      "inputTokens": 669,
+      "responseTokens": 105,
+      "supervisedGapFieldTokens": 33,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-194",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 26,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-195",
+      "split": "training",
+      "inputTokens": 688,
+      "responseTokens": 122,
+      "supervisedGapFieldTokens": 39,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-196",
+      "split": "training",
+      "inputTokens": 646,
+      "responseTokens": 82,
+      "supervisedGapFieldTokens": 21,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-197",
+      "split": "training",
+      "inputTokens": 660,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-198",
+      "split": "training",
+      "inputTokens": 645,
+      "responseTokens": 80,
+      "supervisedGapFieldTokens": 19,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-199",
+      "split": "training",
+      "inputTokens": 663,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-200",
+      "split": "training",
+      "inputTokens": 653,
+      "responseTokens": 88,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-201",
+      "split": "training",
+      "inputTokens": 669,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-202",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 99,
+      "supervisedGapFieldTokens": 31,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-203",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-204",
+      "split": "training",
+      "inputTokens": 698,
+      "responseTokens": 134,
+      "supervisedGapFieldTokens": 50,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-205",
+      "split": "training",
+      "inputTokens": 665,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 29,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-206",
+      "split": "training",
+      "inputTokens": 647,
+      "responseTokens": 84,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-207",
+      "split": "training",
+      "inputTokens": 653,
+      "responseTokens": 88,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-208",
+      "split": "training",
+      "inputTokens": 689,
+      "responseTokens": 124,
+      "supervisedGapFieldTokens": 59,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-209",
+      "split": "training",
+      "inputTokens": 659,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 26,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-210",
+      "split": "training",
+      "inputTokens": 651,
+      "responseTokens": 88,
+      "supervisedGapFieldTokens": 25,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-211",
+      "split": "training",
+      "inputTokens": 658,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-212",
+      "split": "training",
+      "inputTokens": 654,
+      "responseTokens": 88,
+      "supervisedGapFieldTokens": 22,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-213",
+      "split": "training",
+      "inputTokens": 673,
+      "responseTokens": 109,
+      "supervisedGapFieldTokens": 47,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-214",
+      "split": "training",
+      "inputTokens": 650,
+      "responseTokens": 86,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-215",
+      "split": "training",
+      "inputTokens": 648,
+      "responseTokens": 84,
+      "supervisedGapFieldTokens": 22,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-216",
+      "split": "training",
+      "inputTokens": 648,
+      "responseTokens": 84,
+      "supervisedGapFieldTokens": 22,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-217",
+      "split": "training",
+      "inputTokens": 669,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-218",
+      "split": "training",
+      "inputTokens": 652,
+      "responseTokens": 88,
+      "supervisedGapFieldTokens": 24,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-219",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 24,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-220",
+      "split": "training",
+      "inputTokens": 661,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-221",
+      "split": "training",
+      "inputTokens": 653,
+      "responseTokens": 88,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-222",
+      "split": "training",
+      "inputTokens": 659,
+      "responseTokens": 95,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-223",
+      "split": "training",
+      "inputTokens": 685,
+      "responseTokens": 116,
+      "supervisedGapFieldTokens": 33,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-224",
+      "split": "training",
+      "inputTokens": 656,
+      "responseTokens": 92,
+      "supervisedGapFieldTokens": 26,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-225",
+      "split": "training",
+      "inputTokens": 658,
+      "responseTokens": 93,
+      "supervisedGapFieldTokens": 26,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-226",
+      "split": "training",
+      "inputTokens": 654,
+      "responseTokens": 90,
+      "supervisedGapFieldTokens": 25,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-227",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 31,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-228",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 29,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-229",
+      "split": "training",
+      "inputTokens": 718,
+      "responseTokens": 151,
+      "supervisedGapFieldTokens": 52,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-230",
+      "split": "training",
+      "inputTokens": 663,
+      "responseTokens": 99,
+      "supervisedGapFieldTokens": 30,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-231",
+      "split": "training",
+      "inputTokens": 651,
+      "responseTokens": 86,
+      "supervisedGapFieldTokens": 22,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-232",
+      "split": "training",
+      "inputTokens": 649,
+      "responseTokens": 84,
+      "supervisedGapFieldTokens": 21,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-233",
+      "split": "training",
+      "inputTokens": 661,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 24,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-234",
+      "split": "training",
+      "inputTokens": 658,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-235",
+      "split": "training",
+      "inputTokens": 658,
+      "responseTokens": 92,
+      "supervisedGapFieldTokens": 24,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-236",
+      "split": "training",
+      "inputTokens": 652,
+      "responseTokens": 88,
+      "supervisedGapFieldTokens": 24,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-237",
+      "split": "training",
+      "inputTokens": 676,
+      "responseTokens": 108,
+      "supervisedGapFieldTokens": 30,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-238",
+      "split": "training",
+      "inputTokens": 681,
+      "responseTokens": 112,
+      "supervisedGapFieldTokens": 31,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-239",
+      "split": "training",
+      "inputTokens": 670,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-240",
+      "split": "training",
+      "inputTokens": 662,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 29,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-241",
+      "split": "training",
+      "inputTokens": 666,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-242",
+      "split": "training",
+      "inputTokens": 666,
+      "responseTokens": 101,
+      "supervisedGapFieldTokens": 38,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-243",
+      "split": "training",
+      "inputTokens": 668,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 29,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-244",
+      "split": "training",
+      "inputTokens": 665,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 26,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-245",
+      "split": "training",
+      "inputTokens": 655,
+      "responseTokens": 90,
+      "supervisedGapFieldTokens": 24,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-246",
+      "split": "training",
+      "inputTokens": 650,
+      "responseTokens": 86,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-247",
+      "split": "training",
+      "inputTokens": 661,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 24,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-248",
+      "split": "training",
+      "inputTokens": 651,
+      "responseTokens": 86,
+      "supervisedGapFieldTokens": 22,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-249",
+      "split": "training",
+      "inputTokens": 671,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 26,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-250",
+      "split": "training",
+      "inputTokens": 655,
+      "responseTokens": 89,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-251",
+      "split": "training",
+      "inputTokens": 666,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-252",
+      "split": "training",
+      "inputTokens": 659,
+      "responseTokens": 92,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-253",
+      "split": "training",
+      "inputTokens": 666,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-254",
+      "split": "training",
+      "inputTokens": 685,
+      "responseTokens": 116,
+      "supervisedGapFieldTokens": 33,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-255",
+      "split": "training",
+      "inputTokens": 666,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 32,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-256",
+      "split": "training",
+      "inputTokens": 657,
+      "responseTokens": 92,
+      "supervisedGapFieldTokens": 25,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-257",
+      "split": "training",
+      "inputTokens": 655,
+      "responseTokens": 90,
+      "supervisedGapFieldTokens": 24,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-258",
+      "split": "training",
+      "inputTokens": 658,
+      "responseTokens": 94,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-259",
+      "split": "training",
+      "inputTokens": 660,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-260",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-261",
+      "split": "training",
+      "inputTokens": 669,
+      "responseTokens": 104,
+      "supervisedGapFieldTokens": 31,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-262",
+      "split": "training",
+      "inputTokens": 663,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-263",
+      "split": "training",
+      "inputTokens": 669,
+      "responseTokens": 104,
+      "supervisedGapFieldTokens": 31,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-264",
+      "split": "training",
+      "inputTokens": 672,
+      "responseTokens": 106,
+      "supervisedGapFieldTokens": 31,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-265",
+      "split": "training",
+      "inputTokens": 665,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 29,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-266",
+      "split": "training",
+      "inputTokens": 650,
+      "responseTokens": 86,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-267",
+      "split": "training",
+      "inputTokens": 698,
+      "responseTokens": 128,
+      "supervisedGapFieldTokens": 43,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-268",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-269",
+      "split": "training",
+      "inputTokens": 654,
+      "responseTokens": 90,
+      "supervisedGapFieldTokens": 25,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-270",
+      "split": "training",
+      "inputTokens": 677,
+      "responseTokens": 112,
+      "supervisedGapFieldTokens": 36,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-271",
+      "split": "training",
+      "inputTokens": 676,
+      "responseTokens": 111,
+      "supervisedGapFieldTokens": 35,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-272",
+      "split": "training",
+      "inputTokens": 664,
+      "responseTokens": 98,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-273",
+      "split": "training",
+      "inputTokens": 678,
+      "responseTokens": 114,
+      "supervisedGapFieldTokens": 37,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-274",
+      "split": "training",
+      "inputTokens": 674,
+      "responseTokens": 106,
+      "supervisedGapFieldTokens": 29,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-275",
+      "split": "training",
+      "inputTokens": 650,
+      "responseTokens": 86,
+      "supervisedGapFieldTokens": 23,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-276",
+      "split": "training",
+      "inputTokens": 674,
+      "responseTokens": 108,
+      "supervisedGapFieldTokens": 32,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-277",
+      "split": "training",
+      "inputTokens": 651,
+      "responseTokens": 86,
+      "supervisedGapFieldTokens": 22,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-278",
+      "split": "training",
+      "inputTokens": 667,
+      "responseTokens": 100,
+      "supervisedGapFieldTokens": 27,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-279",
+      "split": "training",
+      "inputTokens": 697,
+      "responseTokens": 126,
+      "supervisedGapFieldTokens": 36,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-280",
+      "split": "training",
+      "inputTokens": 671,
+      "responseTokens": 104,
+      "supervisedGapFieldTokens": 29,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-061",
+      "split": "development",
+      "inputTokens": 677,
+      "responseTokens": 105,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-062",
+      "split": "development",
+      "inputTokens": 710,
+      "responseTokens": 136,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-063",
+      "split": "development",
+      "inputTokens": 678,
+      "responseTokens": 105,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-064",
+      "split": "development",
+      "inputTokens": 682,
+      "responseTokens": 114,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-065",
+      "split": "development",
+      "inputTokens": 698,
+      "responseTokens": 125,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-066",
+      "split": "development",
+      "inputTokens": 660,
+      "responseTokens": 93,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-067",
+      "split": "development",
+      "inputTokens": 724,
+      "responseTokens": 149,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-068",
+      "split": "development",
+      "inputTokens": 692,
+      "responseTokens": 122,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-069",
+      "split": "development",
+      "inputTokens": 675,
+      "responseTokens": 103,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-070",
+      "split": "development",
+      "inputTokens": 679,
+      "responseTokens": 109,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-116",
+      "split": "development",
+      "inputTokens": 688,
+      "responseTokens": 119,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-117",
+      "split": "development",
+      "inputTokens": 679,
+      "responseTokens": 110,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-118",
+      "split": "development",
+      "inputTokens": 668,
+      "responseTokens": 99,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-119",
+      "split": "development",
+      "inputTokens": 694,
+      "responseTokens": 123,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-120",
+      "split": "development",
+      "inputTokens": 701,
+      "responseTokens": 130,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-121",
+      "split": "development",
+      "inputTokens": 698,
+      "responseTokens": 125,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-122",
+      "split": "development",
+      "inputTokens": 663,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-123",
+      "split": "development",
+      "inputTokens": 715,
+      "responseTokens": 139,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-124",
+      "split": "development",
+      "inputTokens": 692,
+      "responseTokens": 123,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-125",
+      "split": "development",
+      "inputTokens": 695,
+      "responseTokens": 122,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-171",
+      "split": "development",
+      "inputTokens": 679,
+      "responseTokens": 109,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-172",
+      "split": "development",
+      "inputTokens": 693,
+      "responseTokens": 122,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-173",
+      "split": "development",
+      "inputTokens": 698,
+      "responseTokens": 126,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-174",
+      "split": "development",
+      "inputTokens": 673,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-175",
+      "split": "development",
+      "inputTokens": 684,
+      "responseTokens": 112,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-176",
+      "split": "development",
+      "inputTokens": 729,
+      "responseTokens": 155,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-177",
+      "split": "development",
+      "inputTokens": 694,
+      "responseTokens": 125,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-178",
+      "split": "development",
+      "inputTokens": 697,
+      "responseTokens": 127,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-179",
+      "split": "development",
+      "inputTokens": 683,
+      "responseTokens": 115,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-180",
+      "split": "development",
+      "inputTokens": 741,
+      "responseTokens": 165,
+      "supervisedGapFieldTokens": 5,
+      "nonempty": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-281",
+      "split": "development",
+      "inputTokens": 672,
+      "responseTokens": 104,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-282",
+      "split": "development",
+      "inputTokens": 671,
+      "responseTokens": 104,
+      "supervisedGapFieldTokens": 29,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-283",
+      "split": "development",
+      "inputTokens": 663,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 25,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-284",
+      "split": "development",
+      "inputTokens": 678,
+      "responseTokens": 110,
+      "supervisedGapFieldTokens": 31,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-285",
+      "split": "development",
+      "inputTokens": 677,
+      "responseTokens": 110,
+      "supervisedGapFieldTokens": 32,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-286",
+      "split": "development",
+      "inputTokens": 661,
+      "responseTokens": 96,
+      "supervisedGapFieldTokens": 35,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-287",
+      "split": "development",
+      "inputTokens": 725,
+      "responseTokens": 158,
+      "supervisedGapFieldTokens": 44,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-288",
+      "split": "development",
+      "inputTokens": 669,
+      "responseTokens": 102,
+      "supervisedGapFieldTokens": 28,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-289",
+      "split": "development",
+      "inputTokens": 680,
+      "responseTokens": 112,
+      "supervisedGapFieldTokens": 32,
+      "nonempty": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-290",
+      "split": "development",
+      "inputTokens": 683,
+      "responseTokens": 117,
+      "supervisedGapFieldTokens": 42,
+      "nonempty": true
+    }
+  ]
+}
