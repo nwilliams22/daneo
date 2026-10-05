@@ -16,9 +16,9 @@
 
 > **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. Two bounded QLoRA comparisons completed; LR 0.0001 / epoch 2 selected on development loss (0.2103), exported as Q8_0, and loaded successfully in the unchanged native worker with a schema-valid reply. Independent artifact review and independent sealed-set re-score passed provenance and confirmed the recorded v2 counts: base 2/10 and scaled fine-tune 3/10 against ≥9/10. Fine-tune register is 10/10 vs base 8/10 on v2; literal gap remains 3/10 for both, with 0/7 applicable fine-tune items passing. On the separate 60-item fresh set, literal gap is 1/15 for both and register is 6/15 vs 5/15, so target improvement did not generalize. v2 is spent; model pin remains null. See `reference/eval/v2-results.md`, `reference/eval/v2-independent-review.md`, `reference/training/development-v2-freeze.md` and `reference/training/v2-results.md`.
 
-> **Engine verdict (2026-10-05):** option A — more training data on the proven pipeline — is **measured and declined**, so the training chain is closed with **no production pin**. Five candidate scores, nothing above 4/10 against ≥9/10; spent are prompting, a repaired prompt, code-extracted fields, a 27-row fine-tune and a 250-row fine-tune. The rubric is unchanged and a paid or cloud engine stays out of scope. **Nick answered on BAD-240: try a different model family (option C).** The licence precondition is settled without a decision from him — Mi:dm 2.0 Mini (KT, MIT, 2.3B, `LlamaForCausalLM`) and A.X 4.0 Light (SKT, Apache-2.0, 7B) are both Korean-specialised and commercially usable, so EXAONE and Kanana are held rather than needed, and selling Daneo stays possible. All 96 reserved rows are burned, so a new gate set is frozen before anything is scored and candidates are screened on a development split first. Chain: BAD-244 (new gate set, Chani) ∥ BAD-245 (family screen, Duncan) → BAD-246 (one gate run, Duncan, re-scored by Thufir) → **BAD-247 (verdict terminus, Bad Dong)**; BAD-213 and BAD-188 now wait on BAD-247. Release one is unaffected: it ships with AI off and is not re-cut. Full numbers and reasoning: `reference/eval/engine-decision.md` §*Option A measured and declined* and §*Nick's decision — 2026-10-05: option C*; candidate licences and sources: `reference/eval/engine-family-survey.md`.
+> **Engine verdict (2026-10-05):** option A — more training data on the proven pipeline — is **measured and declined**, so the training chain is closed with **no production pin**. Five candidate scores, nothing above 4/10 against ≥9/10; spent are prompting, a repaired prompt, code-extracted fields, a 27-row fine-tune and a 250-row fine-tune. The rubric is unchanged and a paid or cloud engine stays out of scope. **Nick answered on BAD-240: try a different model family (option C).** The licence precondition is settled without a decision from him — Mi:dm 2.0 Mini (KT, MIT, 2.3B, `LlamaForCausalLM`) and A.X 4.0 Light (SKT, Apache-2.0, 7B) are both Korean-specialised and commercially usable, so EXAONE and Kanana are held rather than needed, and selling Daneo stays possible. **Nick clarified on 2026-10-05 that the model's identity does not matter — free, local and small enough for a language app are the constraints** — which demotes A.X 4.0 Light (7B, ~4.7GB) to a fallback behind in-envelope candidates and does not revive a larger parameter class; see `PLAN-local-model.md` §*Clarification — 2026-10-05*. All 96 reserved rows are burned, so a new gate set is frozen before anything is scored and candidates are screened on a development split first. Chain: BAD-244 (new gate set, Chani) ∥ BAD-245 (family screen, Duncan) → BAD-246 (one gate run, Duncan, re-scored by Thufir) → **BAD-247 (verdict terminus, Bad Dong)**; BAD-213 and BAD-188 now wait on BAD-247. Release one is unaffected: it ships with AI off and is not re-cut. Full numbers and reasoning: `reference/eval/engine-decision.md` §*Option A measured and declined* and §*Nick's decision — 2026-10-05: option C*; candidate licences and sources: `reference/eval/engine-family-survey.md`.
 
-> **Family-screen preflight (2026-10-05):** Both publisher tokenizer exports pass the pinned converter. Native inference remains unmeasured: the worker requires a Qwen-only prompt suffix, conflicting with the unchanged-worker requirement for Mi:dm and A.X. Scope resolution is pending; `reference/eval/v3-screen-results.md` records the evidence, with no shortlist or production pin.
+> **Family-screen preflight (2026-10-05):** Both publisher tokenizer exports pass the pinned converter. Native inference remains unmeasured: the worker requires a Qwen-only prompt suffix, conflicting with the unchanged-worker requirement for Mi:dm and A.X. **Scope resolved 2026-10-05:** Nick allowed a narrow family-aware template change on BAD-245, with crate `llama-cpp-2 0.1.158`, CPU, greedy sampling and thinking-off held fixed; a family template is not disguised with a Qwen suffix and no crate bump is authorized. `reference/eval/v3-screen-results.md` records the evidence, with no shortlist or production pin.
 
 > **v3 evaluation freeze (2026-10-05):** Ten new reserved gate rows (four literal-gap probes) and thirty separate development rows are pinned to one corpus commit with SHA-256 manifests. The exclusion preflight validates all 136 reservations and existing training data with zero intersections. No inference was run for this freeze; candidate screening uses development only. See `reference/eval/v3-freeze.md`.
 
@@ -1084,3 +1084,43 @@ reserved source aliases hidden behind rewritten candidates);
 `npm run build` PASS (16 content checks, TypeScript, Vite; existing chunk-size warning).
 Next: candidate screening consumes the development split; keep the gate sealed
 until a separate qualification task authorizes its one-time use.
+
+### 2026-10-05 — Nick's engine clarification: free and small are the constraints, the family is not (BAD-240)
+
+He posted on BAD-240 after the option-C chain was filed: *"the model itself
+doesn't necessarily matter. I just want it to be free and small enough to make
+sense for a language app like this. ZDR and stuff like that is also important but
+I think if we're using local models that part shouldn't really matter too much."*
+Recorded as governing text in `PLAN-local-model.md` §*Clarification — 2026-10-05*
+and applied in `reference/eval/engine-family-survey.md`.
+
+It narrows the programme rather than widening it. Candidate eligibility is a
+filter — free, local, inside the *"approximately 2.5–3 GB"* envelope — and no
+family is privileged or required; Korean-first training stays Mi:dm 2.0 Mini's
+*reason to expect* a literal-gap gain, not an entry rule. **A.X 4.0 Light (7 B,
+~4.7 GB) is demoted**: outside the envelope Nick restated himself, so it is the
+fallback if Mi:dm Mini declines and an in-envelope free candidate outranks it even
+then. Option B (a larger parameter class) is not revived, and EXAONE/Kanana stay
+held — a non-commercial licence is a sale decision, not a family preference.
+
+ZDR needs no work and his reading is verified in code, not promised: the cloud
+adapter is reachable only under `import.meta.env.DEV`
+(`src/features/explore/TranslatorPage.tsx:202`, sole caller of
+`src/features/explore/api.ts`), the tutor has no network call, and the only
+shipped network use is `src-tauri/src/model_download.rs` fetching model bytes
+down. A production build has no code path that sends learner text off the device;
+evaluation runs additionally use `unshare --net`. Release one ships with the AI
+off (BAD-234).
+
+Also unstuck the family screen: Nick answered Duncan's worker-scope question on
+BAD-245 at 10:36 — *allow the narrow template change* — eight minutes before the
+comment that said the question was still pending, so BAD-245 was sitting in
+`in_review` with its decision already taken. Returned to `in_progress` with
+Duncan holding it. The Qwen-only suffix guard in
+`src-tauri/src/local_translation/native.rs` becomes family-aware with tests;
+crate `llama-cpp-2 0.1.158`, CPU, greedy sampling and thinking-off stay fixed, and
+a family template is not disguised with a Qwen suffix.
+
+Documentation only; no code, rubric, gate set, prompt or model pin changed.
+`reference/model-pin.json` stays null. Verification from the repository root:
+`npm run build` PASS (content checks, TypeScript, Vite).

@@ -35,6 +35,39 @@ two permissive Korean-first candidates are unspent. If both decline *and* Nick
 says Daneo will never be sold, EXAONE returns as a live candidate. That is a
 future decision with a measured trigger, not an open question today.
 
+## Nick's clarification — 2026-10-05: free and small are the constraints; the family is not
+
+Posted on [BAD-240](/BAD/issues/BAD-240) after this survey was written: *"I do
+want to clarify that the model itself doesn't necessarily matter. I just want it
+to be free and small enough to make sense for a language app like this. ZDR and
+stuff like that is also important but I think if we're using local models that
+part shouldn't really matter too much."*
+
+It is recorded in full in `PLAN-local-model.md` §*Clarification — 2026-10-05*,
+which governs. What it changes **here**:
+
+- **The shortlist is not privileged by being Korean-specialised.** Korean-first
+  training is this survey's *reason to expect* a gain on literal gap — the
+  dimension four rungs died on — and it stays the reason Mi:dm Mini is first. It
+  is not an eligibility rule. The eligibility rule is: free, local, in the size
+  envelope. A later rung may put a general multilingual model back on the table
+  without asking Nick, provided its licence is read into this document first.
+- **A.X 4.0 Light is demoted, not cancelled.** 7 B at roughly 4.7 GB is outside
+  the *"approximately 2.5–3 GB"* envelope Nick has now restated in his own words.
+  It is screened only if **Mi:dm Mini declines**, and an in-envelope free
+  candidate — read into this table first — is preferred over it even then.
+  Acquiring and running a 4.7 GB artifact before the 2.3 B one is measured spends
+  the studio's time on the option its owner has argued against.
+- **Nothing here reopens EXAONE or Kanana.** "The model itself doesn't matter" is
+  about family reputation, not about licences; a non-commercial licence is still a
+  decision about whether Daneo can be sold, and that decision is still untaken and
+  still unnecessary.
+- **ZDR needs no work.** His reading is correct and verified in code: a production
+  build has no path that sends learner text off the device. The evidence is in
+  `PLAN-local-model.md` §*Clarification* item 3. **This is a reason to keep the
+  engine local, not a new requirement on any candidate** — it is satisfied
+  identically by every row in the table below.
+
 ## The candidates, with licence, architecture and download cost
 
 Every row is free to download and runs locally. No paid or cloud engine appears
@@ -44,7 +77,7 @@ unchanged.
 | Family | Licence | Commercial | Params | Architecture | Status |
 | --- | --- | --- | --- | --- | --- |
 | **Mi:dm 2.0 Mini** (KT) | MIT | **Yes** | 2.3 B | `LlamaForCausalLM`, 48 layers, hidden 1792, vocab 131,392, 32,768 ctx | **Primary candidate** |
-| **A.X 4.0 Light** (SKT) | Apache-2.0 | **Yes** | 7 B | Qwen2.5 derivative, 16,384 ctx | **Second candidate, download cost flagged** |
+| **A.X 4.0 Light** (SKT) | Apache-2.0 | **Yes** | 7 B | Qwen2.5 derivative, 16,384 ctx | **Demoted 2026-10-05** — outside the size envelope Nick restated; screened only if Mi:dm Mini declines, and after any in-envelope alternative |
 | Mi:dm 2.0 Base (KT) | MIT | Yes | 11.5 B | same family as Mini | Out of scope — this is option **B**, a larger parameter class |
 | EXAONE 4.0 (LG) | EXAONE AI Model License 1.2 **-NC** | **No** | 1.2 B / 32 B | own architecture, official GGUF published | Held — unnecessary while the permissive two are unspent |
 | Kanana (Kakao) | **CC-BY-NC-4.0** | **No** | 2.1 B – 32.5 B | — | Held, same reason |
@@ -83,8 +116,13 @@ Korean-targeted continued pretraining moves Korean ability within one
 architecture. But it is **7 B**, so a Q4_K_M file is roughly 4.7 GB: well
 outside the standard envelope and nearly double the shipped 2.74 GB. It carries
 option B's cost — the learner's download and working memory — without being
-option B's stated candidate. Screen it, but a qualifying score on A.X reopens a
-download-budget decision for Nick rather than closing one.
+option B's stated candidate. A qualifying score on A.X reopens a download-budget
+decision for Nick rather than closing one — and after his 2026-10-05
+clarification that decision starts from *"small enough to make sense for a
+language app"*, which is an argument against it. **So it is not screened in
+parallel with Mi:dm Mini and not screened before it**: it is the fallback if the
+2.3 B candidate declines, and an in-envelope alternative read into this table
+outranks it even then.
 
 **Why HyperCLOVA X SEED is excluded for now.** Its weights sit behind a gate
 that requires agreeing to share contact information before the files are
@@ -131,6 +169,19 @@ These are not new rules. They are the ones this programme has already paid for.
 - **The rubric does not move.** [`v0-rubric.md`](v0-rubric.md) is unedited:
   ≥9/10 fully correct across six conjunctive dimensions, zero meaning reversals,
   zero invented rules. Option F stays measured-closed.
+- **The worker must stop being family-locked, and that is authorized.**
+  `src-tauri/src/local_translation/native.rs` renders the model's own chat
+  template and then requires a **Qwen-shaped suffix** before tokenizing; both
+  shortlisted families fail that check before generation
+  ([`v3-screen-results.md`](v3-screen-results.md)). Nick answered Duncan's scope
+  question on BAD-245 at 10:36 on 2026-10-05 — *allow the narrow template change*
+  — with crate `llama-cpp-2 0.1.158`, CPU, greedy sampling and thinking-off all
+  held fixed. His later clarification makes this more than a screening unblock: if
+  the model itself does not matter, a worker that only accepts one vendor's
+  template is a **product defect**, not a screening inconvenience. Make validation
+  family-aware with tests and record the rendered prompt hash. **Do not disguise a
+  family template with a Qwen suffix**, and a crate bump is still not authorized by
+  this.
 - **Screen before spending a gate.** Five rungs have now declined, four of them
   on the literal-gap dimension, and the 250-row fine-tune emitted an empty gap
   field on all ten items. The cheap question — *does this family produce a

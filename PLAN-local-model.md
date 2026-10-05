@@ -54,6 +54,50 @@ baseline, this section governs.
    cost and schedule require a separate decision" line is answered for 4B-class
    work: the decision is evidence (does error analysis justify it), not money.
 
+### Clarification — 2026-10-05: the constraints are *free* and *small*, not a named model
+
+Nick, on [BAD-240](/BAD/issues/BAD-240), unprompted, after being shown five
+measured declines: *"I do want to clarify that the model itself doesn't
+necessarily matter. I just want it to be free and small enough to make sense for a
+language app like this. ZDR and stuff like that is also important but I think if
+we're using local models that part shouldn't really matter too much."*
+
+Three things follow. The first two **narrow** this programme rather than widening
+it, which is the opposite of how a clarification like this usually reads.
+
+1. **"such as qwen" was an example, not a requirement — and neither is any family
+   named since.** Qwen3.5-4B was the incumbent because it was first, not because
+   it was chosen, and Mi:dm 2.0 Mini is the primary candidate for what it is
+   trained on, not for whose it is. Eligibility is a **filter, not a preference**:
+   free to download and use, runs locally, fits the size envelope. Anything
+   clearing those three is a legitimate candidate, and nothing clears the
+   **rubric** by family reputation. A future rung may therefore propose a model
+   from any family, including a general multilingual one, provided its licence is
+   read into `reference/eval/engine-family-survey.md` before it is screened.
+2. **"Small enough to make sense for a language app" is a binding constraint, not
+   a cost note.** This plan already holds the envelope at *"Q4_K_M, approximately
+   2.5–3 GB"* and the shipped candidate measured 2,740,937,888 B. Nick has now
+   restated that envelope in his own words without being asked to, so a candidate
+   outside it starts from a position he has already argued against. Two
+   consequences, both concrete: **A.X 4.0 Light** (7 B, roughly 4.7 GB) sits below
+   any in-envelope candidate rather than being a neutral second, and **option B —
+   a larger parameter class — is not revived** by anything in this clarification.
+3. **Zero data retention is satisfied by construction, and it is checkable in the
+   code rather than promised.** Nick's own reading is right, and this is the
+   evidence for it. The shipped translator calls the Tauri worker; the cloud
+   adapter is reachable only when `import.meta.env.DEV` is true
+   (`src/features/explore/TranslatorPage.tsx:202`, the single caller of
+   `src/features/explore/api.ts`), so a production build has no code path that
+   sends a learner's sentence off the device — the toggle cannot do it even if a
+   user finds it. The tutor (`src/features/tutor/`) has no network call at all.
+   The only network use in the shipped path is
+   `src-tauri/src/model_download.rs`, which fetches model bytes **down** and
+   uploads nothing. Every evaluation run is additionally executed under
+   `unshare --net`. There is no retention policy to negotiate because there is no
+   transmission, and release one ships with the AI features off entirely
+   (BAD-234). **If a future rung ever proposes a hosted engine, it reopens this
+   paragraph as well as §*Owner constraint*.**
+
 **The consequence for the acceptance gate is the part worth reading twice.** The
 v0 gate was written when a paid model was available as a fallback, so "model
 unsuitable" was a survivable outcome. It is not any more — there is nothing behind
