@@ -1,0 +1,766 @@
+{
+  "basis": "Chani first scoring under unchanged v0 rubric; Thufir independent review pending. Production Local adapter results after deterministic pass.",
+  "summary": {
+    "requests": 10,
+    "schemaCompleteItems": 10,
+    "correctDirectionItems": 10,
+    "fullyCorrectItems": 2,
+    "meaningReversals": 0,
+    "inventedRuleItems": 1,
+    "thinkingLeaks": 0,
+    "warmP95CompletionMs": 17544,
+    "warmMinCompletionMs": 13888.000000000004,
+    "warmMaxCompletionMs": 17544,
+    "dimensionPasses": {
+      "meaning": 8,
+      "gloss": 2,
+      "particles": 9,
+      "politeRegister": 8,
+      "romanization": 10,
+      "literalGap": 7
+    },
+    "gateMet": false
+  },
+  "results": [
+    {
+      "id": "DAN-V1-EK-01",
+      "requestId": "heldout-DAN-V1-EK-01",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"친구가 물을 마십니다.\",\n  \"natural_english\": \"My friend drinks water.\",\n  \"gloss\": [\n    {\"chunk\": \"친구\", \"gloss\": \"friend\", \"role\": \"subject\"},\n    {\"chunk\": \"물\", \"gloss\": \"water\", \"role\": \"object\"},\n    {\"chunk\": \"마십니다\", \"gloss\": \"drinks\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"marks 'friend' as the grammatical subject.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "친구",
+            "gloss": "friend",
+            "role": "subject"
+          },
+          {
+            "chunk": "물",
+            "gloss": "water",
+            "role": "object"
+          },
+          {
+            "chunk": "마십니다",
+            "gloss": "drinks",
+            "role": "verb"
+          }
+        ],
+        "korean": "친구가 물을 마십니다.",
+        "literal_gap": "",
+        "natural_english": "My friend drinks water.",
+        "particles": [
+          {
+            "job": "marks the subject",
+            "particle": "가"
+          },
+          {
+            "job": "marks the object",
+            "particle": "을"
+          }
+        ],
+        "romanization": "chinguga mureul masimnida."
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Friend drinks water; actor, action, and object survive."
+        ],
+        "gloss": [
+          false,
+          "Gloss drops subject 가 and object 을 from the Korean chunks."
+        ],
+        "particles": [
+          true,
+          "App output correctly names subject 가 and object 을."
+        ],
+        "politeRegister": [
+          false,
+          "마십니다 is deferential 합니다, outside the lesson’s 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks 친구가 물을 마십니다 exactly."
+        ],
+        "literalGap": [
+          true,
+          "No probed literal gap for this wording."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "completionMs": 16318
+    },
+    {
+      "id": "DAN-V1-EK-02",
+      "requestId": "heldout-DAN-V1-EK-02",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"저는 가게에 갑니다.\",\n  \"natural_english\": \"I go to the store.\",\n  \"gloss\": [\n    {\"chunk\": \"저는\", \"gloss\": \"I\", \"role\": \"subject\"},\n    {\"chunk\": \"가게\", \"gloss\": \"store\", \"role\": \"place\"},\n    {\"chunk\": \"에\", \"gloss\": \"to\", \"role\": \"other\"},\n    {\"chunk\": \"갑니다\", \"gloss\": \"go\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"는\", \"job\": \"marks the speaker as the topic of the sentence.\"},\n    {\"particle\": \"에\", \"job\": \"indicates the destination of the movement.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I",
+            "role": "subject"
+          },
+          {
+            "chunk": "가게",
+            "gloss": "store",
+            "role": "place"
+          },
+          {
+            "chunk": "에",
+            "gloss": "to",
+            "role": "other"
+          },
+          {
+            "chunk": "갑니다",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "korean": "저는 가게에 갑니다.",
+        "literal_gap": "",
+        "natural_english": "I go to the store.",
+        "particles": [
+          {
+            "job": "marks the speaker as the topic of the sentence.",
+            "particle": "는"
+          },
+          {
+            "job": "indicates the destination of the movement.",
+            "particle": "에"
+          }
+        ],
+        "romanization": "jeoneun gagee gamnida."
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "I go to the store; destination is preserved."
+        ],
+        "gloss": [
+          false,
+          "저는 is glossed only as I, with its topic marking omitted."
+        ],
+        "particles": [
+          true,
+          "Topic 는 and destination 에 are correctly described."
+        ],
+        "politeRegister": [
+          false,
+          "갑니다 is deferential 합니다, outside the lesson’s 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks 저는 가게에 갑니다 exactly."
+        ],
+        "literalGap": [
+          true,
+          "No additional literal gap is probed by this wording."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "completionMs": 16029
+    },
+    {
+      "id": "DAN-V1-EK-03",
+      "requestId": "heldout-DAN-V1-EK-03",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"학교에서 한국어 를 공부해요\",\n  \"natural_english\": \"I study Korean at school\",\n  \"gloss\": [\n    {\"chunk\": \"학교에서\", \"gloss\": \"school-place\", \"role\": \"place\"},\n    {\"chunk\": \"한국어\", \"gloss\": \"Korean\", \"role\": \"object\"},\n    {\"chunk\": \"공부해요\", \"gloss\": \"study\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"를\", \"job\": \"marks the direct object of the verb\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "학교에서",
+            "gloss": "school-place",
+            "role": "place"
+          },
+          {
+            "chunk": "한국어",
+            "gloss": "Korean",
+            "role": "object"
+          },
+          {
+            "chunk": "공부해요",
+            "gloss": "study",
+            "role": "verb"
+          }
+        ],
+        "korean": "학교에서 한국어 를 공부해요",
+        "literal_gap": "",
+        "natural_english": "I study Korean at school",
+        "particles": [
+          {
+            "job": "marks the place where an action happens",
+            "particle": "에서"
+          }
+        ],
+        "romanization": "hakgyoeseo hangugeo reul gongbuhaeyo"
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Omitted Korean subject is permissible; studying Korean at school survives."
+        ],
+        "gloss": [
+          false,
+          "The gloss omits the separate object marker 를 in its own Korean line."
+        ],
+        "particles": [
+          false,
+          "The app explains 에서 but omits the actual object marker 를."
+        ],
+        "politeRegister": [
+          true,
+          "공부해요 uses polite 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks the actual line, including its separated 를."
+        ],
+        "literalGap": [
+          true,
+          "Omitted Korean subject is allowed; no item-specific gap is hidden."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "completionMs": 13888.000000000004
+    },
+    {
+      "id": "DAN-V1-EK-04",
+      "requestId": "heldout-DAN-V1-EK-04",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"엄마는 선생님이에요.\",\n  \"natural_english\": \"My mother is a teacher.\",\n  \"gloss\": [\n    {\"chunk\": \"엄마\", \"gloss\": \"mother\", \"role\": \"subject\"},\n    {\"chunk\": \"선생님\", \"gloss\": \"teacher\", \"role\": \"other\"},\n    {\"chunk\": \"이에요\", \"gloss\": \"is\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"는\", \"job\": \"marks the topic of the sentence, indicating 'my mother' is the focus.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "엄마",
+            "gloss": "mother",
+            "role": "subject"
+          },
+          {
+            "chunk": "선생님",
+            "gloss": "teacher",
+            "role": "other"
+          },
+          {
+            "chunk": "이에요",
+            "gloss": "is",
+            "role": "verb"
+          }
+        ],
+        "korean": "엄마는 선생님이에요.",
+        "literal_gap": "",
+        "natural_english": "My mother is a teacher.",
+        "particles": [
+          {
+            "job": "marks the topic of the sentence, indicating 'my mother' is the focus.",
+            "particle": "는"
+          }
+        ],
+        "romanization": "eommaneun seonsaengnimieyo."
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Mother is a teacher; 엄마 is a natural variant."
+        ],
+        "gloss": [
+          false,
+          "엄마는 is glossed as mother/subject without its topic marker."
+        ],
+        "particles": [
+          true,
+          "The app correctly identifies topic 는."
+        ],
+        "politeRegister": [
+          true,
+          "선생님이에요 is polite 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks 엄마는 선생님이에요."
+        ],
+        "literalGap": [
+          true,
+          "No required literal-gap distinction is lost."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "completionMs": 14183
+    },
+    {
+      "id": "DAN-V1-EK-05",
+      "requestId": "heldout-DAN-V1-EK-05",
+      "rawReply": "{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"내 작은 형제/자매는 한국어도 몰라요.\",\n  \"natural_english\": \"My little sibling doesn't know Korean.\",\n  \"gloss\": [\n    {\"chunk\": \"내\", \"gloss\": \"my\", \"role\": \"other\"},\n    {\"chunk\": \"작은\", \"gloss\": \"little\", \"role\": \"other\"},\n    {\"chunk\": \"형제/자매\", \"gloss\": \"sibling\", \"role\": \"subject\"},\n    {\"chunk\": \"한국어\", \"gloss\": \"Korean\", \"role\": \"object\"},\n    {\"chunk\": \"몰라요\", \"gloss\": \"doesn't know\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"는\", \"job\": \"Marks the topic of the sentence, indicating the sibling is the focus.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "내",
+            "gloss": "my",
+            "role": "other"
+          },
+          {
+            "chunk": "작은",
+            "gloss": "little",
+            "role": "other"
+          },
+          {
+            "chunk": "형제/자매",
+            "gloss": "sibling",
+            "role": "subject"
+          },
+          {
+            "chunk": "한국어",
+            "gloss": "Korean",
+            "role": "object"
+          },
+          {
+            "chunk": "몰라요",
+            "gloss": "doesn't know",
+            "role": "verb"
+          }
+        ],
+        "korean": "내 작은 형제/자매는 한국어도 몰라요.",
+        "literal_gap": "",
+        "natural_english": "My little sibling doesn't know Korean.",
+        "particles": [
+          {
+            "job": "Marks the topic of the sentence, indicating the sibling is the focus.",
+            "particle": "는"
+          },
+          {
+            "job": "adds 'also' or 'too'",
+            "particle": "도"
+          }
+        ],
+        "romanization": "nae jageun hyeongje/jamaeneun hangugeodo mollayo."
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          false,
+          "한국어도 adds “also/too,” absent from the input; slash-form sibling is unnatural."
+        ],
+        "gloss": [
+          false,
+          "Topic 는 and additive 도 are omitted from the word-order gloss."
+        ],
+        "particles": [
+          true,
+          "The app correctly describes actual 는 and 도; it does not invent 를."
+        ],
+        "politeRegister": [
+          true,
+          "몰라요 uses polite 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks the awkward but actual Korean line."
+        ],
+        "literalGap": [
+          true,
+          "No separate literal-gap claim is required for its chosen wording."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "completionMs": 17544
+    },
+    {
+      "id": "DAN-V1-KE-01",
+      "requestId": "heldout-DAN-V1-KE-01",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"시간이 없어요\",\n  \"natural_english\": \"I don't have any time.\",\n  \"gloss\": [\n    {\"chunk\": \"시간\", \"gloss\": \"time\", \"role\": \"other\"},\n    {\"chunk\": \"이\", \"gloss\": \"topic marker\", \"role\": \"other\"},\n    {\"chunk\": \"없\", \"gloss\": \"not exist\", \"role\": \"verb\"},\n    {\"chunk\": \"어요\", \"gloss\": \"polite ending\", \"role\": \"other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"이\", \"job\": \"marks 'time' as the topic of the sentence.\"}\n  ],\n  \"literal_gap\": \"The Korean sentence omits the subject 'I', which is implied in English but not written.\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "시간",
+            "gloss": "time",
+            "role": "other"
+          },
+          {
+            "chunk": "이",
+            "gloss": "topic marker",
+            "role": "other"
+          },
+          {
+            "chunk": "없",
+            "gloss": "not exist",
+            "role": "verb"
+          },
+          {
+            "chunk": "어요",
+            "gloss": "polite ending",
+            "role": "other"
+          }
+        ],
+        "korean": "시간이 없어요",
+        "literal_gap": "The Korean sentence omits the subject 'I', which is implied in English but not written.",
+        "natural_english": "I don't have any time.",
+        "particles": [
+          {
+            "job": "marks the subject",
+            "particle": "이"
+          }
+        ],
+        "romanization": "sigani eopseoyo"
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "No time is conveyed as I do not have time."
+        ],
+        "gloss": [
+          false,
+          "Calls grammatical subject 이 a topic marker."
+        ],
+        "particles": [
+          true,
+          "The final app particle field correctly says subject 이."
+        ],
+        "politeRegister": [
+          true,
+          "없어요 uses polite 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks 시간이 없어요."
+        ],
+        "literalGap": [
+          false,
+          "Explains omitted I but not the tested “time not-exists” structure."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false,
+      "completionMs": 15880
+    },
+    {
+      "id": "DAN-V1-KE-02",
+      "requestId": "heldout-DAN-V1-KE-02",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"지금 회사에서 일해요\",\n  \"natural_english\": \"I work at the company right now.\",\n  \"gloss\": [\n    {\"chunk\": \"지금\", \"gloss\": \"now\", \"role\": \"other\"},\n    {\"chunk\": \"회사에서\", \"gloss\": \"company-place\", \"role\": \"place\"},\n    {\"chunk\": \"일해요\", \"gloss\": \"work\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"에서\", \"job\": \"marks the location where the action takes place\"}\n  ],\n  \"literal_gap\": \"The Korean sentence omits the subject 'I', which is implied in English.\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "지금",
+            "gloss": "now",
+            "role": "other"
+          },
+          {
+            "chunk": "회사에서",
+            "gloss": "company-place",
+            "role": "place"
+          },
+          {
+            "chunk": "일해요",
+            "gloss": "work",
+            "role": "verb"
+          }
+        ],
+        "korean": "지금 회사에서 일해요",
+        "literal_gap": "The Korean sentence omits the subject 'I', which is implied in English.",
+        "natural_english": "I work at the company right now.",
+        "particles": [
+          {
+            "job": "marks the location where the action takes place",
+            "particle": "에서"
+          }
+        ],
+        "romanization": "jigeum hoesaeseo ilhaeyo"
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          false,
+          "“At the company” misses the lesson’s ordinary “at the office/at work” reading."
+        ],
+        "gloss": [
+          false,
+          "“Company-place” does not identify 에서 as the action location."
+        ],
+        "particles": [
+          true,
+          "The app correctly describes action-location 에서."
+        ],
+        "politeRegister": [
+          true,
+          "일해요 uses polite 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks 지금 회사에서 일해요."
+        ],
+        "literalGap": [
+          false,
+          "Only explains omitted I; misses 회사 literally company versus idiomatic office/work."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "completionMs": 14641
+    },
+    {
+      "id": "DAN-V1-KE-03",
+      "requestId": "heldout-DAN-V1-KE-03",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"저는 음악도 좋아해요\",\n  \"natural_english\": \"I like music too.\",\n  \"gloss\": [\n    {\"chunk\": \"저는\", \"gloss\": \"I\", \"role\": \"subject\"},\n    {\"chunk\": \"음악도\", \"gloss\": \"music too\", \"role\": \"object\"},\n    {\"chunk\": \"좋아해요\", \"gloss\": \"like\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"는\", \"job\": \"marks the speaker as the topic of the sentence.\"},\n    {\"particle\": \"도\", \"job\": \"indicates that the object is included in addition to others.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I",
+            "role": "subject"
+          },
+          {
+            "chunk": "음악도",
+            "gloss": "music too",
+            "role": "object"
+          },
+          {
+            "chunk": "좋아해요",
+            "gloss": "like",
+            "role": "verb"
+          }
+        ],
+        "korean": "저는 음악도 좋아해요",
+        "literal_gap": "",
+        "natural_english": "I like music too.",
+        "particles": [
+          {
+            "job": "marks the speaker as the topic of the sentence.",
+            "particle": "는"
+          },
+          {
+            "job": "adds 'also' or 'too'",
+            "particle": "도"
+          }
+        ],
+        "romanization": "jeoneun eumakdo joahaeyo"
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "I like music too is exact."
+        ],
+        "gloss": [
+          true,
+          "I/topic, music/also, like stay in Korean order."
+        ],
+        "particles": [
+          true,
+          "App explains topic 는 and additive 도 without inventing an object marker."
+        ],
+        "politeRegister": [
+          true,
+          "좋아해요 uses polite 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks 저는 음악도 좋아해요."
+        ],
+        "literalGap": [
+          true,
+          "Additive meaning is in the gloss and particle description; no further gap."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": true,
+      "completionMs": 15378
+    },
+    {
+      "id": "DAN-V1-KE-04",
+      "requestId": "heldout-DAN-V1-KE-04",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"어제 학교에 갔어요\",\n  \"natural_english\": \"I went to school yesterday.\",\n  \"gloss\": [\n    {\"chunk\": \"어제\", \"gloss\": \"yesterday\", \"role\": \"other\"},\n    {\"chunk\": \"학교\", \"gloss\": \"school\", \"role\": \"place\"},\n    {\"chunk\": \"에\", \"gloss\": \"to\", \"role\": \"other\"},\n    {\"chunk\": \"갔어요\", \"gloss\": \"went\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"에\", \"job\": \"marks the destination of the movement verb 'went'.\"}\n  ],\n  \"literal_gap\": \"The Korean sentence omits the subject 'I', which is implied in English.\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "어제",
+            "gloss": "yesterday",
+            "role": "other"
+          },
+          {
+            "chunk": "학교",
+            "gloss": "school",
+            "role": "place"
+          },
+          {
+            "chunk": "에",
+            "gloss": "to",
+            "role": "other"
+          },
+          {
+            "chunk": "갔어요",
+            "gloss": "went",
+            "role": "verb"
+          }
+        ],
+        "korean": "어제 학교에 갔어요",
+        "literal_gap": "The Korean sentence omits the subject 'I', which is implied in English.",
+        "natural_english": "I went to school yesterday.",
+        "particles": [
+          {
+            "job": "marks the destination of the movement verb 'went'.",
+            "particle": "에"
+          }
+        ],
+        "romanization": "eoje hakgyoe gasseoyo"
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Yesterday I went to school matches the lesson’s reading."
+        ],
+        "gloss": [
+          true,
+          "Yesterday, school-to, went remain in Korean order."
+        ],
+        "particles": [
+          true,
+          "Destination 에 is correctly identified."
+        ],
+        "politeRegister": [
+          true,
+          "갔어요 uses polite 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks 어제 학교에 갔어요."
+        ],
+        "literalGap": [
+          true,
+          "Explains that I is understood but absent in Korean."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": true,
+      "completionMs": 16049
+    },
+    {
+      "id": "DAN-V1-KE-05",
+      "requestId": "heldout-DAN-V1-KE-05",
+      "rawReply": "{\n  \"direction\": \"ko-to-en\",\n  \"korean\": \"우리 가족은 한국에 살아요\",\n  \"natural_english\": \"Our family lives in Korea.\",\n  \"gloss\": [\n    {\"chunk\": \"우리\", \"gloss\": \"our\", \"role\": \"subject\"},\n    {\"chunk\": \"가족\", \"gloss\": \"family\", \"role\": \"subject\"},\n    {\"chunk\": \"한국\", \"gloss\": \"Korea\", \"role\": \"place\"},\n    {\"chunk\": \"살아요\", \"gloss\": \"live\", \"role\": \"verb\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"은\", \"job\": \"marks 'family' as the topic of the sentence.\"},\n    {\"particle\": \"에\", \"job\": \"marks 'Korea' as the location where the action happens.\"}\n  ],\n  \"literal_gap\": \"\",\n  \"cultural_note\": \"\"\n}",
+      "parsedReply": {
+        "cultural_note": "",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "우리",
+            "gloss": "our",
+            "role": "subject"
+          },
+          {
+            "chunk": "가족",
+            "gloss": "family",
+            "role": "subject"
+          },
+          {
+            "chunk": "한국",
+            "gloss": "Korea",
+            "role": "place"
+          },
+          {
+            "chunk": "살아요",
+            "gloss": "live",
+            "role": "verb"
+          }
+        ],
+        "korean": "우리 가족은 한국에 살아요",
+        "literal_gap": "",
+        "natural_english": "Our family lives in Korea.",
+        "particles": [
+          {
+            "job": "marks 'family' as the topic of the sentence.",
+            "particle": "은"
+          },
+          {
+            "job": "marks 'Korea' as the location where the action happens.",
+            "particle": "에"
+          }
+        ],
+        "romanization": "uri gajogeun hanguge sarayo"
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": [
+          true,
+          "Our family is a literal, context-valid rendering of the Korean line."
+        ],
+        "gloss": [
+          false,
+          "Gloss omits the topic 은 and locative 에 that carry the tested relations."
+        ],
+        "particles": [
+          true,
+          "App correctly describes topic 은 and living-location 에."
+        ],
+        "politeRegister": [
+          true,
+          "살아요 uses polite 해요 register."
+        ],
+        "romanization": [
+          true,
+          "Tracks 우리 가족은 한국에 살아요."
+        ],
+        "literalGap": [
+          false,
+          "No explanation that 우리 가족 means my family in this context."
+        ]
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "completionMs": 16686
+    }
+  ]
+}
