@@ -8,7 +8,8 @@
 #
 #   scripts/qa-desktop-session.sh start    # bring the session up (idempotent)
 #   scripts/qa-desktop-session.sh status   # show display, window id, pids
-#   scripts/qa-desktop-session.sh shot FILE# screenshot the nested root window
+#   scripts/qa-desktop-session.sh fit      # resize the app window to fill the screen
+#   scripts/qa-desktop-session.sh shot FILE# screenshot the app window (--root for the screen)
 #   scripts/qa-desktop-session.sh stop     # tear it all down
 #
 # Driving the app once it is up:
@@ -20,12 +21,19 @@
 # There is no window manager inside, so nothing steals focus; set it once with
 # `xdotool windowfocus "$(xdotool search --name '단어 Daneo' | tail -1)"` and
 # keyboard events land in the app.
+#
+# No window manager also means nothing maximizes the window: Tauri opens it at the
+# 1100x800 configured in tauri.conf.json and it sits in the top-left of the larger
+# nested screen, leaving dead black to the right and below. `start` now fits the
+# window to the screen itself (QA_FIT_WINDOW=0 to keep the shipped 1100x800), and
+# `shot` captures the window rather than the root so a screenshot is all app.
 
 set -uo pipefail
 
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 QA_DISPLAY="${QA_DISPLAY:-:7}"
 QA_GEOMETRY="${QA_GEOMETRY:-1600x1000}"
+QA_FIT_WINDOW="${QA_FIT_WINDOW:-1}"
 VITE_PORT="${VITE_PORT:-5173}"
 RUNDIR="${XDG_RUNTIME_DIR:-/run/user/$(id -u)}/daneo-qa"
 mkdir -p "$RUNDIR"
@@ -62,6 +70,16 @@ start_xserver() {
   echo "xserver: FAILED to come up -- see $RUNDIR/xephyr.log" >&2; return 1
 }
 
+fit_window() {
+  WID="${1:-$(app_window)}"
+  [ -n "$WID" ] || { echo "fit: no app window on $QA_DISPLAY" >&2; return 1; }
+  W="${QA_GEOMETRY%x*}"; H="${QA_GEOMETRY#*x}"
+  nested xdotool windowmove "$WID" 0 0 windowsize "$WID" "$W" "$H" || return 1
+  # The WebKit view relays out on the X resize; give it a beat before a screenshot.
+  sleep 0.5
+  echo "fit: window $WID resized to ${W}x${H}"
+}
+
 start_app() {
   if [ -n "$(app_window)" ]; then echo "app: already running on $QA_DISPLAY"; return 0; fi
   [ -x "$APP_BIN" ] || { echo "app: $APP_BIN missing -- build it first, see BAD-219 for the cargo env" >&2; return 1; }
@@ -74,7 +92,9 @@ start_app() {
     WID="$(app_window)"
     if [ -n "$WID" ]; then
       nested xdotool windowfocus "$WID"
-      echo "app: window $WID focused on $QA_DISPLAY"; return 0
+      echo "app: window $WID focused on $QA_DISPLAY"
+      [ "$QA_FIT_WINDOW" = "1" ] && fit_window "$WID"
+      return 0
     fi
     sleep 1
   done
@@ -94,9 +114,14 @@ case "${1:-start}" in
     WID="$(app_window)"
     [ -n "$WID" ] && echo "app:     window $WID" || echo "app:     down"
     ;;
+  fit)
+    fit_window || exit 1
+    ;;
   shot)
+    TARGET=root
+    if [ "${2:-}" = "--root" ]; then shift; else TARGET="$(app_window)"; [ -n "$TARGET" ] || TARGET=root; fi
     OUT="${2:-$RUNDIR/shot.png}"
-    nested import -window root "$OUT" && echo "wrote $OUT"
+    nested import -window "$TARGET" "$OUT" && echo "wrote $OUT (window $TARGET)"
     ;;
   stop)
     pkill -f "$APP_BIN" 2>/dev/null
@@ -104,6 +129,6 @@ case "${1:-start}" in
     echo "stopped app and $QA_DISPLAY (vite left running)"
     ;;
   *)
-    echo "usage: $0 {start|status|shot [FILE]|stop}" >&2; exit 2
+    echo "usage: $0 {start|status|fit|shot [--root] [FILE]|stop}" >&2; exit 2
     ;;
 esac
