@@ -206,3 +206,40 @@ namespace using the same non-held-out smoke fixture as the compatibility proof,
 plus its built-in greeting/cancellation checks. This is a headless worker test,
 not desktop UI verification or language scoring. The resulting candidate is
 for independent scoring; it does not alter `reference/model-pin.json`.
+
+## Scaled v2 development selection
+
+Use the same offline environment, base revision, prompt, LoRA shape and matched
+exporter as v1. The frozen 250-row training and 40-row development identities
+are in `development-v2-freeze.md`. Development rows are evaluated with gradients
+disabled and never enter the optimizer. The sealed final set is only consumed
+internally by the pre-existing mechanical exclusion checker, never inspected
+or used for selection.
+
+The bounded comparison uses peak learning rates 0.0001 and 0.0002, a four-epoch
+maximum (1,000 updates each), and 25 warmup updates followed by cosine decay.
+The smaller rate tests a conservative update against v1's rate on the much
+larger corpus. Warmup covers the first tenth of the first epoch; decay permits
+settling without maintaining v1's constant rate over 1,000 updates. This is a
+fixed warmup choice, not a separately optimized claim. Compare token-weighted
+response-only development loss at baseline and after each epoch. Restore each
+run's lowest-loss trained epoch before merge; select the run with the lowest
+development loss (earlier epoch, then smaller rate, on a tie). Do not retry or
+change selection based on the native smoke answer or the sealed gate.
+
+```sh
+.local-models/compatibility/venv/bin/python reference/training/train-v1.py --config v2-lr1-config.json --name v2-lr1
+.local-models/compatibility/venv/bin/python reference/training/train-v1.py --config v2-lr2-config.json --name v2-lr2
+# Replace SELECTED with v2-lr1 or v2-lr2 after comparing development losses.
+.local-models/compatibility/venv/bin/python reference/training/export-v1.py --name SELECTED
+node --import tsx reference/training/validate-v1.mjs --name SELECTED
+```
+
+Output directories refuse overwrite. `training-result.json` preserves every
+training loss and learning rate, development losses, selected epoch, elapsed
+time including development evaluation, allocator memory peaks and source
+identity. `export-result.json` preserves all merged file hashes and export
+identities. Large weights remain in ignored `.local-models/`, as in v1; the
+committed evidence and issue work product bind the selected local artifact.
+A worker smoke pass establishes the load/response contract only. The next
+independent gate decides language quality; `model-pin.json` remains null.
