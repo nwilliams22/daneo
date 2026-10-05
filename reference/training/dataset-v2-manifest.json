@@ -1,0 +1,56 @@
+{
+  "version": "training-2",
+  "corpusCommit": "5f5bef477b19eb4799d247352930589542a256a8",
+  "sources": {
+    "src/content/sentences.json": "de6425ee0426b0f8adfa0bc908159054b1ea3f3743016ae14295a3df40069957",
+    "src/content/gap.json": "0670aa56f1b8526a6f11b771e8d22b22ff63bbf3e5af285d7650c36d3d90869b"
+  },
+  "dataset": "dataset-v2.json",
+  "sha256": "0e4509055cf8074676505af1068b460726d35154b75c896edefccb2a8704f57e",
+  "count": 250,
+  "counts": {
+    "gloss": 45,
+    "semantic-fidelity": 45,
+    "register": 60,
+    "literal-gap": 100
+  },
+  "directionCounts": {
+    "en-to-ko": 76,
+    "ko-to-en": 174
+  },
+  "development": {
+    "file": "development-v2.json",
+    "sha256": "f9b83bd52dce8a3f4c557af27ea94c4fe4226b41d796ebc566b0d1a8337e343d",
+    "count": 40,
+    "counts": {
+      "gloss": 10,
+      "semantic-fidelity": 10,
+      "register": 10,
+      "literal-gap": 10
+    },
+    "directionCounts": {
+      "en-to-ko": 15,
+      "ko-to-en": 25
+    },
+    "frozenBeforeTraining": true
+  },
+  "review": {
+    "candidates": "dataset-v2-candidates.json",
+    "candidateSha256": "dbe19f9cd6ed255d3794cd2ec49b34a8821044300b57f6a8c08e8c50600f90f1",
+    "approval": "dataset-v2-approval.json",
+    "approvalSha256": "25d4fc2249a09ee0bec7cad219effff977673aa437918c1a0ba8ca090ac9d5ae",
+    "report": "reference/training/dataset-v2-review-addendum.md",
+    "reviewedCount": 290
+  },
+  "schema": "strict model-owned translationResultSchema: 290/290 pass",
+  "exclusions": {
+    "command": "python3 reference/eval/check-independent-freeze.py",
+    "reservationCount": 96,
+    "v2SealedCount": 10,
+    "independentCount": 60,
+    "overlap": 0,
+    "v1TrainingOverlap": 0,
+    "trainingDevelopmentOverlap": 0
+  },
+  "provenance": "Project-owned pinned curriculum plus explicit reviewed target corrections; no learner records or outside translations"
+}

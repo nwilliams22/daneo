@@ -1,0 +1,1244 @@
+{
+  "version": "development-2",
+  "corpusCommit": "5f5bef477b19eb4799d247352930589542a256a8",
+  "trainingAllowed": false,
+  "purpose": "Iteration only; never use as training targets or final gate",
+  "items": [
+    {
+      "id": "DAN-V2-CANDIDATE-061",
+      "errorClass": "register",
+      "corpusSentenceId": "s12_last_train",
+      "english": "The last train is at 12",
+      "korean": "막차는 열두 시예요",
+      "input": "The last train is at 12",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "막차는 열두 시예요",
+        "natural_english": "The last train is at 12",
+        "gloss": [
+          {
+            "chunk": "막차는",
+            "gloss": "last-train-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "열두 시예요",
+            "gloss": "twelve-o'clock-is",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-062",
+      "errorClass": "register",
+      "corpusSentenceId": "s_m153_art",
+      "english": "The exhibited picture is not only modern but also artistic.",
+      "korean": "전시된 그림은 현대적일 뿐만 아니라 예술적이에요.",
+      "input": "전시된 그림은 현대적일 뿐만 아니라 예술적이에요.",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "전시된 그림은 현대적일 뿐만 아니라 예술적이에요.",
+        "natural_english": "The exhibited picture is not only modern but also artistic.",
+        "gloss": [
+          {
+            "chunk": "전시된 그림은",
+            "gloss": "exhibited picture-[topic]",
+            "role": "subject"
+          },
+          {
+            "chunk": "현대적일 뿐만 아니라",
+            "gloss": "modern-[not-only]",
+            "role": "other"
+          },
+          {
+            "chunk": "예술적이에요.",
+            "gloss": "artistic-is",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-063",
+      "errorClass": "register",
+      "corpusSentenceId": "s13_guests_after",
+      "english": "After the guests left, I tidied up",
+      "korean": "손님이 간 후에 정리했어요",
+      "input": "After the guests left, I tidied up",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "손님이 간 후에 정리했어요",
+        "natural_english": "After the guests left, I tidied up",
+        "gloss": [
+          {
+            "chunk": "손님이 간 후에",
+            "gloss": "guest-[subj] left-after",
+            "role": "other"
+          },
+          {
+            "chunk": "정리했어요",
+            "gloss": "tidied-up",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-064",
+      "errorClass": "register",
+      "corpusSentenceId": "s13_class_rest",
+      "english": "After class I rest at home",
+      "korean": "수업 후에 집에서 쉬어요",
+      "input": "수업 후에 집에서 쉬어요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "수업 후에 집에서 쉬어요",
+        "natural_english": "After class I rest at home",
+        "gloss": [
+          {
+            "chunk": "수업 후에",
+            "gloss": "class-after",
+            "role": "other"
+          },
+          {
+            "chunk": "집에서",
+            "gloss": "home-at",
+            "role": "place"
+          },
+          {
+            "chunk": "쉬어요",
+            "gloss": "rest",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-065",
+      "errorClass": "register",
+      "corpusSentenceId": "s13_move_new",
+      "english": "Next week I'm moving to a new apartment",
+      "korean": "다음 주에 새 아파트로 이사해요",
+      "input": "Next week I'm moving to a new apartment",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "다음 주에 새 아파트로 이사해요",
+        "natural_english": "Next week I'm moving to a new apartment",
+        "gloss": [
+          {
+            "chunk": "다음 주에",
+            "gloss": "next week-at",
+            "role": "other"
+          },
+          {
+            "chunk": "새 아파트로",
+            "gloss": "new apartment-toward",
+            "role": "place"
+          },
+          {
+            "chunk": "이사해요",
+            "gloss": "move-house",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-066",
+      "errorClass": "register",
+      "corpusSentenceId": "s13_what_floor",
+      "english": "What floor do you live on?",
+      "korean": "몇 층에 살아요?",
+      "input": "몇 층에 살아요?",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "몇 층에 살아요?",
+        "natural_english": "What floor do you live on?",
+        "gloss": [
+          {
+            "chunk": "몇 층에",
+            "gloss": "what floor-on",
+            "role": "place"
+          },
+          {
+            "chunk": "살아요?",
+            "gloss": "live?",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-067",
+      "errorClass": "register",
+      "corpusSentenceId": "s13_fifth_floor",
+      "english": "I live on the fifth floor. There is an elevator",
+      "korean": "오 층에 살아요. 엘리베이터가 있어요",
+      "input": "I live on the fifth floor. There is an elevator",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "오 층에 살아요. 엘리베이터가 있어요",
+        "natural_english": "I live on the fifth floor. There is an elevator",
+        "gloss": [
+          {
+            "chunk": "오 층에",
+            "gloss": "five floor-on",
+            "role": "place"
+          },
+          {
+            "chunk": "살아요.",
+            "gloss": "live.",
+            "role": "verb"
+          },
+          {
+            "chunk": "엘리베이터가",
+            "gloss": "elevator-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "exists",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-068",
+      "errorClass": "register",
+      "corpusSentenceId": "s13_fridge_chicken",
+      "english": "There is chicken inside the fridge",
+      "korean": "냉장고 안에 치킨이 있어요",
+      "input": "냉장고 안에 치킨이 있어요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "냉장고 안에 치킨이 있어요",
+        "natural_english": "There is chicken inside the fridge",
+        "gloss": [
+          {
+            "chunk": "냉장고 안에",
+            "gloss": "fridge inside-at",
+            "role": "place"
+          },
+          {
+            "chunk": "치킨이",
+            "gloss": "chicken-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "exists",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-069",
+      "errorClass": "register",
+      "corpusSentenceId": "s13_see_house",
+      "english": "I'm going to see the new house",
+      "korean": "새 집을 보러 가요",
+      "input": "I'm going to see the new house",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "새 집을 보러 가요",
+        "natural_english": "I'm going to see the new house",
+        "gloss": [
+          {
+            "chunk": "새 집을",
+            "gloss": "new house-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "보러 가요",
+            "gloss": "see-in-order-to go",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-070",
+      "errorClass": "register",
+      "corpusSentenceId": "s13_trash_out",
+      "english": "I'm going out to throw away the trash",
+      "korean": "쓰레기를 버리러 나가요",
+      "input": "쓰레기를 버리러 나가요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "쓰레기를 버리러 나가요",
+        "natural_english": "I'm going out to throw away the trash",
+        "gloss": [
+          {
+            "chunk": "쓰레기를 버리러",
+            "gloss": "trash-[obj] throw-away-in-order-to",
+            "role": "other"
+          },
+          {
+            "chunk": "나가요",
+            "gloss": "go-out",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-116",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_like_cooking",
+      "english": "I like cooking",
+      "korean": "저는 요리하는 것을 좋아해요",
+      "input": "저는 요리하는 것을 좋아해요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "저는 요리하는 것을 좋아해요",
+        "natural_english": "I like cooking",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "요리하는 것을",
+            "gloss": "cooking thing-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "좋아해요",
+            "gloss": "like",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-117",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_photo_hobby",
+      "english": "My hobby is taking photos",
+      "korean": "제 취미는 사진을 찍는 것이에요",
+      "input": "My hobby is taking photos",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "제 취미는 사진을 찍는 것이에요",
+        "natural_english": "My hobby is taking photos",
+        "gloss": [
+          {
+            "chunk": "제 취미는",
+            "gloss": "my hobby-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "사진을 찍는 것이에요",
+            "gloss": "photo-[obj] taking thing-is",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-118",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_learn_swim",
+      "english": "I'm learning to swim",
+      "korean": "수영하는 것을 배우고 있어요",
+      "input": "수영하는 것을 배우고 있어요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "수영하는 것을 배우고 있어요",
+        "natural_english": "I'm learning to swim",
+        "gloss": [
+          {
+            "chunk": "수영하는 것을",
+            "gloss": "swimming thing-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "배우고 있어요",
+            "gloss": "learning-am",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-119",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_weekend_soccer",
+      "english": "On weekends, I watch soccer matches",
+      "korean": "주말에 축구 경기를 봐요",
+      "input": "On weekends, I watch soccer matches",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "주말에 축구 경기를 봐요",
+        "natural_english": "On weekends, I watch soccer matches",
+        "gloss": [
+          {
+            "chunk": "주말에",
+            "gloss": "weekend-on",
+            "role": "other"
+          },
+          {
+            "chunk": "축구 경기를",
+            "gloss": "soccer match-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "봐요",
+            "gloss": "watch",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-120",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_lost_won",
+      "english": "Yesterday we lost, but today we won",
+      "korean": "어제는 졌지만 오늘은 이겼어요",
+      "input": "어제는 졌지만 오늘은 이겼어요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "어제는 졌지만 오늘은 이겼어요",
+        "natural_english": "Yesterday we lost, but today we won",
+        "gloss": [
+          {
+            "chunk": "어제는 졌지만",
+            "gloss": "yesterday-[as for] lost-but",
+            "role": "other"
+          },
+          {
+            "chunk": "오늘은",
+            "gloss": "today-[as for]",
+            "role": "other"
+          },
+          {
+            "chunk": "이겼어요",
+            "gloss": "won",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-121",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_hoesik_norae",
+      "english": "After the company dinner, we go to karaoke",
+      "korean": "회식 후에 노래방에 가요",
+      "input": "After the company dinner, we go to karaoke",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "회식 후에 노래방에 가요",
+        "natural_english": "After the company dinner, we go to karaoke",
+        "gloss": [
+          {
+            "chunk": "회식 후에",
+            "gloss": "company-dinner after",
+            "role": "other"
+          },
+          {
+            "chunk": "노래방에",
+            "gloss": "karaoke-room-to",
+            "role": "place"
+          },
+          {
+            "chunk": "가요",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-122",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_try_guitar",
+      "english": "Try playing the guitar",
+      "korean": "기타를 쳐 보세요",
+      "input": "기타를 쳐 보세요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "기타를 쳐 보세요",
+        "natural_english": "Try playing the guitar",
+        "gloss": [
+          {
+            "chunk": "기타를",
+            "gloss": "guitar-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "쳐 보세요",
+            "gloss": "play-try-please",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-123",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_piano_sing",
+      "english": "I play the piano well, but I'm bad at singing",
+      "korean": "피아노를 잘 치지만 노래를 못해요",
+      "input": "I play the piano well, but I'm bad at singing",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "피아노를 잘 치지만 노래를 못해요",
+        "natural_english": "I play the piano well, but I'm bad at singing",
+        "gloss": [
+          {
+            "chunk": "피아노를 잘 치지만",
+            "gloss": "piano-[obj] well play-but",
+            "role": "other"
+          },
+          {
+            "chunk": "노래를",
+            "gloss": "song-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "못해요",
+            "gloss": "am-bad-at",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-124",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_cheer_korea",
+      "english": "We cheer for the Korean team",
+      "korean": "우리는 한국 팀을 응원해요",
+      "input": "우리는 한국 팀을 응원해요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "우리는 한국 팀을 응원해요",
+        "natural_english": "We cheer for the Korean team",
+        "gloss": [
+          {
+            "chunk": "우리는",
+            "gloss": "we-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "한국 팀을",
+            "gloss": "Korea team-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "응원해요",
+            "gloss": "cheer-for",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-125",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s17_photos_mountain",
+      "english": "At the mountain, I took lots of photos",
+      "korean": "산에서 사진을 많이 찍었어요",
+      "input": "At the mountain, I took lots of photos",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "산에서 사진을 많이 찍었어요",
+        "natural_english": "At the mountain, I took lots of photos",
+        "gloss": [
+          {
+            "chunk": "산에서",
+            "gloss": "mountain-at",
+            "role": "place"
+          },
+          {
+            "chunk": "사진을 많이",
+            "gloss": "photo-[obj] much",
+            "role": "object"
+          },
+          {
+            "chunk": "찍었어요",
+            "gloss": "took",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-171",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s21_online_cheap",
+      "english": "If you buy clothes online, it's cheap",
+      "korean": "인터넷에서 옷을 사면 싸요",
+      "input": "인터넷에서 옷을 사면 싸요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "인터넷에서 옷을 사면 싸요",
+        "natural_english": "If you buy clothes online, it's cheap",
+        "gloss": [
+          {
+            "chunk": "인터넷에서 옷을 사면",
+            "gloss": "internet-at clothes-[obj] buy-if",
+            "role": "other"
+          },
+          {
+            "chunk": "싸요",
+            "gloss": "is-cheap",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-172",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s22_seoul_bigger",
+      "english": "Seoul is bigger than Busan",
+      "korean": "서울이 부산보다 더 커요",
+      "input": "Seoul is bigger than Busan",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "서울이 부산보다 더 커요",
+        "natural_english": "Seoul is bigger than Busan",
+        "gloss": [
+          {
+            "chunk": "서울이",
+            "gloss": "Seoul-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "부산보다",
+            "gloss": "Busan-than",
+            "role": "other"
+          },
+          {
+            "chunk": "더 커요",
+            "gloss": "more is-big",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-173",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s22_subway_faster",
+      "english": "The subway is faster than the bus",
+      "korean": "지하철이 버스보다 더 빨라요",
+      "input": "지하철이 버스보다 더 빨라요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "지하철이 버스보다 더 빨라요",
+        "natural_english": "The subway is faster than the bus",
+        "gloss": [
+          {
+            "chunk": "지하철이",
+            "gloss": "subway-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "버스보다",
+            "gloss": "bus-than",
+            "role": "other"
+          },
+          {
+            "chunk": "더 빨라요",
+            "gloss": "more is-fast",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-174",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s22_jeju_beautiful",
+      "english": "Jeju Island is the most beautiful",
+      "korean": "제주도가 제일 아름다워요",
+      "input": "Jeju Island is the most beautiful",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "제주도가 제일 아름다워요",
+        "natural_english": "Jeju Island is the most beautiful",
+        "gloss": [
+          {
+            "chunk": "제주도가",
+            "gloss": "Jeju-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "제일 아름다워요",
+            "gloss": "most is-beautiful",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-175",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s22_winter_clothes",
+      "english": "I like winter clothes more than summer clothes",
+      "korean": "여름 옷보다 겨울 옷을 더 좋아해요",
+      "input": "여름 옷보다 겨울 옷을 더 좋아해요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "여름 옷보다 겨울 옷을 더 좋아해요",
+        "natural_english": "I like winter clothes more than summer clothes",
+        "gloss": [
+          {
+            "chunk": "여름 옷보다",
+            "gloss": "summer clothes-than",
+            "role": "other"
+          },
+          {
+            "chunk": "겨울 옷을 더 좋아해요",
+            "gloss": "winter clothes-[obj] more like",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-176",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s22_hangang_chicken",
+      "english": "On weekends, we eat chicken at Han River Park",
+      "korean": "주말에 한강 공원에서 치킨을 먹어요",
+      "input": "On weekends, we eat chicken at Han River Park",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "주말에 한강 공원에서 치킨을 먹어요",
+        "natural_english": "On weekends, we eat chicken at Han River Park",
+        "gloss": [
+          {
+            "chunk": "주말에",
+            "gloss": "weekend-on",
+            "role": "other"
+          },
+          {
+            "chunk": "한강 공원에서",
+            "gloss": "Han-River park-at",
+            "role": "place"
+          },
+          {
+            "chunk": "치킨을",
+            "gloss": "chicken-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "먹어요",
+            "gloss": "eat",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-177",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s22_night_view",
+      "english": "Seoul is famous for its night view",
+      "korean": "서울은 야경이 유명해요",
+      "input": "서울은 야경이 유명해요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "서울은 야경이 유명해요",
+        "natural_english": "Seoul is famous for its night view",
+        "gloss": [
+          {
+            "chunk": "서울은",
+            "gloss": "Seoul-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "야경이",
+            "gloss": "night-view-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "유명해요",
+            "gloss": "is-famous",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-178",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s22_cat_quieter",
+      "english": "Cats are quieter than dogs",
+      "korean": "고양이가 강아지보다 더 조용해요",
+      "input": "Cats are quieter than dogs",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "고양이가 강아지보다 더 조용해요",
+        "natural_english": "Cats are quieter than dogs",
+        "gloss": [
+          {
+            "chunk": "고양이가",
+            "gloss": "cat-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "강아지보다",
+            "gloss": "puppy-than",
+            "role": "other"
+          },
+          {
+            "chunk": "더 조용해요",
+            "gloss": "more is-quiet",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-179",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s22_flowers_bloom",
+      "english": "In spring, the flowers bloom",
+      "korean": "봄에 꽃이 피어요",
+      "input": "봄에 꽃이 피어요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "봄에 꽃이 피어요",
+        "natural_english": "In spring, the flowers bloom",
+        "gloss": [
+          {
+            "chunk": "봄에",
+            "gloss": "spring-in",
+            "role": "other"
+          },
+          {
+            "chunk": "꽃이",
+            "gloss": "flower-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "피어요",
+            "gloss": "bloom",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-180",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s22_country_air",
+      "english": "The countryside has good air. But it's a little boring",
+      "korean": "시골은 공기가 좋아요. 그런데 조금 심심해요",
+      "input": "The countryside has good air. But it's a little boring",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "시골은 공기가 좋아요. 그런데 조금 심심해요",
+        "natural_english": "The countryside has good air. But it's a little boring",
+        "gloss": [
+          {
+            "chunk": "시골은",
+            "gloss": "countryside-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "공기가 좋아요.",
+            "gloss": "air-[subj] is-good.",
+            "role": "verb"
+          },
+          {
+            "chunk": "그런데",
+            "gloss": "but",
+            "role": "other"
+          },
+          {
+            "chunk": "조금 심심해요",
+            "gloss": "a-little is-boring",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-281",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m35_dragon",
+      "english": "greatness can come from humble beginnings",
+      "korean": "개천에서 용 난다",
+      "input": "개천에서 용 난다",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "개천에서 용 난다",
+        "natural_english": "greatness can come from humble beginnings",
+        "gloss": [
+          {
+            "chunk": "개천에서 용 난다",
+            "gloss": "a dragon rises from a ditch",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “a dragon rises from a ditch”; in use, “greatness can come from humble beginnings”.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-282",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m36_maeum_noida",
+      "english": "what a relief — I can stop worrying now",
+      "korean": "마음이 놓여요",
+      "input": "마음이 놓여요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "마음이 놓여요",
+        "natural_english": "what a relief — I can stop worrying now",
+        "gloss": [
+          {
+            "chunk": "마음이 놓여요",
+            "gloss": "the heart gets set down",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “the heart gets set down”; in use, “what a relief — I can stop worrying now”.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-283",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m36_barammatda",
+      "english": "I got stood up",
+      "korean": "바람맞았어요",
+      "input": "바람맞았어요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "바람맞았어요",
+        "natural_english": "I got stood up",
+        "gloss": [
+          {
+            "chunk": "바람맞았어요",
+            "gloss": "I got hit by the wind",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “I got hit by the wind”; in use, “I got stood up”.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-284",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m36_bulhaeng_jung",
+      "english": "the silver lining — it could have been so much worse",
+      "korean": "불행 중 다행",
+      "input": "불행 중 다행",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "불행 중 다행",
+        "natural_english": "the silver lining — it could have been so much worse",
+        "gloss": [
+          {
+            "chunk": "불행 중 다행",
+            "gloss": "good fortune amid misfortune",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “good fortune amid misfortune”; in use, “the silver lining — it could have been so much worse”.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-285",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m37_maeum_biuda",
+      "english": "to let go of expectations — want nothing, hurt less",
+      "korean": "마음을 비우다",
+      "input": "마음을 비우다",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "마음을 비우다",
+        "natural_english": "to let go of expectations — want nothing, hurt less",
+        "gloss": [
+          {
+            "chunk": "마음을 비우다",
+            "gloss": "to empty the heart/mind",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “to empty the heart/mind”; in use, “to let go of expectations — want nothing, hurt less”.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-286",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m37_saram_sallyeo",
+      "english": "Help!",
+      "korean": "사람 살려!",
+      "input": "사람 살려!",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "사람 살려!",
+        "natural_english": "Help!",
+        "gloss": [
+          {
+            "chunk": "사람 살려!",
+            "gloss": "save the person!",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally, “save the person!” In danger, this is a cry for help. It can also be exaggerated jokingly in an overwhelming situation.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "sourceEnglish": "HELP! — the emergency scream",
+      "sourceKorean": "사람 살려!",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-287",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m37_son_manhi_gada",
+      "english": "high-maintenance — it takes a lot of care",
+      "korean": "손이 많이 가다",
+      "input": "손이 많이 가다",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "손이 많이 가다",
+        "natural_english": "high-maintenance — it takes a lot of care",
+        "gloss": [
+          {
+            "chunk": "손이",
+            "gloss": "hand-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "많이",
+            "gloss": "a lot / repeatedly",
+            "role": "other"
+          },
+          {
+            "chunk": "가다",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "Literally, “the hand goes a lot”; in use, something takes a lot of care or work. 많이 describes how much the hand goes to the task, not a number of hands.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "sourceEnglish": "high-maintenance — it takes a lot of care",
+      "sourceKorean": "손이 많이 가다",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-288",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m38_haruachime",
+      "english": "overnight — all at once, out of nowhere",
+      "korean": "하루아침에",
+      "input": "하루아침에",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "하루아침에",
+        "natural_english": "overnight — all at once, out of nowhere",
+        "gloss": [
+          {
+            "chunk": "하루아침에",
+            "gloss": "in one morning",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “in one morning”; in use, “overnight — all at once, out of nowhere”.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-289",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m38_nunko",
+      "english": "utterly swamped — not a second to breathe",
+      "korean": "눈코 뜰 새 없다",
+      "input": "눈코 뜰 새 없다",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "눈코 뜰 새 없다",
+        "natural_english": "utterly swamped — not a second to breathe",
+        "gloss": [
+          {
+            "chunk": "눈코 뜰 새 없다",
+            "gloss": "no gap to open eyes and nose",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “no gap to open eyes and nose”; in use, “utterly swamped — not a second to breathe”.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-290",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_m38_korean_time",
+      "english": "Running late (the dated or joking expression “Korean time”).",
+      "korean": "코리안 타임",
+      "input": "코리안 타임",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "코리안 타임",
+        "natural_english": "Running late (the dated or joking expression “Korean time”).",
+        "gloss": [
+          {
+            "chunk": "코리안 타임",
+            "gloss": "Korean Time",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally, “Korean time”; in dated or joking usage, this refers to lateness. It is not a claim that Koreans are generally late or a literal time-zone name.",
+        "cultural_note": ""
+      },
+      "split": "development",
+      "sourceEnglish": "the old custom of running fashionably late",
+      "sourceKorean": "코리안 타임",
+      "reviewStatus": "approved"
+    }
+  ]
+}

@@ -14,7 +14,7 @@
 
 > **App status (2026-10-05):** The first release excludes the AI translator, Ask Daneo and model controls at build time (`import.meta.env.DEV`), while Explore keeps saved discoveries and explains the absence. Phase B no longer waits for Phase D. Phase D remains available in development; the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. The documentation closeout and component reactivation gates are in `reference/desktop-closeout.md`; release-one packaging is independent.
 
-> **Training v2 (2026-10-05):** 290 targets reviewed (250 training / 40 development), corrections integrated, and one development weather variant replaced. The replacement awaits final approval; final dataset, manifest and development freeze remain open. A hash-bound approval gate prevents premature finalization. All 96 reservations and v1 training are excluded. See `reference/training/dataset-v2-review.md`.
+> **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. No training ran; model pin remains null. See `reference/training/development-v2-freeze.md`.
 
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
@@ -865,3 +865,21 @@ checker exit 0; missing approval correctly prevents finalization; syntax checks
 pass; `npm run build` exits 0. Candidate tooling commit `261b6e6` passed all four
 Actions jobs. Next: approve the single replacement, finalize and freeze, then
 verify final hashes/exclusions and the final pushed commit's CI. No training ran.
+
+### 2026-10-05 — Final training v2 dataset and development freeze
+
+Replacement review passed for development 062; the other 289 reviewed rows
+carry forward unchanged. Finalized 250 training rows (100 literal-gap, 60 polite
+register, 45 gloss, 45 semantic-fidelity; 76 en-to-ko / 174 ko-to-en) and froze
+40 development rows (10 per class; 15 en-to-ko / 25 ko-to-en). Hash-bound
+approval and both row-review reports are retained.
+
+Training SHA-256: `0e4509055cf8074676505af1068b460726d35154b75c896edefccb2a8704f57e`.
+Development SHA-256: `f9b83bd52dce8a3f4c557af27ea94c4fe4226b41d796ebc566b0d1a8337e343d`.
+
+Verification in the repository root: `node --import tsx
+reference/training/build-dataset.mjs --v2-final` passed 290/290 strict targets;
+`python3 reference/eval/check-independent-freeze.py` exited 0, verifying final
+hashes, review linkage and zero reservation/v1/cross-split overlap. No training,
+inference or model-pin change. Next: training/export from the exact manifest;
+all iteration uses development, with the final v2 evaluation gate still sealed.
