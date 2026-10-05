@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { snapshot, restore } from "../../db/repo";
 import { useSettings, getPersistedSettings } from "../../state/settings";
+import { saveBackup } from "./saveBackup";
 import {
   serializeSnapshot,
   parseSnapshot,
@@ -9,27 +10,30 @@ import {
 
 type Status = { tone: "ok" | "error"; text: string } | null;
 
-/** Backup/restore of all learner state. Everything lives in this device's
- *  IndexedDB — until Phase B sync exists, this file IS the safety net. */
+/** Backup/restore of all learner state on this device. */
 export default function ExportImport() {
   const fileRef = useRef<HTMLInputElement>(null);
   const [status, setStatus] = useState<Status>(null);
+  const [exporting, setExporting] = useState(false);
   const restoreSettings = useSettings((s) => s.restoreSettings);
 
   const doExport = async () => {
-    const snap = await snapshot(getPersistedSettings());
-    const text = serializeSnapshot(snap);
+    if (exporting) return;
+    setExporting(true);
+    setStatus(null);
     try {
-      const blob = new Blob([text], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = snapshotFilename();
-      a.click();
-      URL.revokeObjectURL(url);
-      setStatus({ tone: "ok", text: `Saved ${snapshotFilename()}.` });
+      const snap = await snapshot(getPersistedSettings());
+      const result = await saveBackup(serializeSnapshot(snap), snapshotFilename());
+      setStatus({
+        tone: "ok",
+        text: result.kind === "saved" ? `Saved ${result.path}.`
+          : result.kind === "cancelled" ? "Export cancelled. No backup was saved."
+          : "Download requested. Check your browser's downloads for the backup file.",
+      });
     } catch {
-      setStatus({ tone: "error", text: "Download failed — try Copy instead." });
+      setStatus({ tone: "error", text: "Export failed. The backup was not completed — try again or use Copy JSON." });
+    } finally {
+      setExporting(false);
     }
   };
 
@@ -68,9 +72,10 @@ export default function ExportImport() {
       <div className="mt-2.5 flex flex-wrap gap-2">
         <button
           onClick={doExport}
+          disabled={exporting}
           className="rounded-xl bg-ink px-3.5 py-2 text-[13px] font-semibold text-paper transition-opacity hover:opacity-90"
         >
-          Export file
+          {exporting ? "Exporting…" : "Export file"}
         </button>
         <button
           onClick={doCopy}
@@ -98,6 +103,7 @@ export default function ExportImport() {
       </div>
       {status && (
         <div
+          role="status"
           className={`mt-2 text-xs font-semibold ${
             status.tone === "ok" ? "text-teal" : "text-clay"
           }`}

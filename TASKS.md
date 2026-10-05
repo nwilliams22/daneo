@@ -1219,3 +1219,21 @@ card on BAD-247 carries this as a measured option.
 ### 2026-10-05 — Diagnose literal-gap supervision
 
 Reproduced the historical supervision confound (10/317 multi-chunk gloss + gap pairs), verified the exact v2 Q8 artifact and retained native worker, and launched exhaustive replay of 108 training / 10 development gap rows. A response-token audit reproduces all historical training token lengths and the development total: every gap field is labeled, maximum input 747/1,024 tokens, no truncation. Diagnosis remains pending full replay; no rebuild, training, gate access or pin change. Evidence and next step: `reference/training/evidence/v2-gap-diagnosis.md`. `npm run build` passed; `npm run validate:content` passed 16/16.
+
+### 2026-10-05 — Confirm backup writes before reporting Saved
+
+Replaced the desktop anchor download with a native Save dialog and an awaited
+file write/sync. The pinned Tauri/Wry shell only registers WebKit download
+handling when supplied a download callback; this app supplied none. The old
+frontend also revoked the Blob immediately and reported Saved without any
+completion signal. Added `tauri-plugin-dialog` for the cross-platform picker;
+the Rust command only writes the user-selected path. Cancellation is explicit,
+snapshot/write errors are caught, and browser development reports only a
+download request with delayed Blob cleanup. Focused Vitest checks pass 8/8,
+native `cargo test --locked --release --manifest-path src-tauri/Cargo.toml --lib backup`
+passes 1/1, and `npm run build` passes content validation 16/16, TypeScript and
+Vite. Native checks need this host's existing CMake path and Clang 22 resource
+headers. CI now includes the backup writer test. Next: packaged offline UI
+export/cancellation/failure and fresh-profile restore comparison, followed by
+the remaining clean-first-run matrix. No packaged acceptance pass is claimed
+by these unit/build results.

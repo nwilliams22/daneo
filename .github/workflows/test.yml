@@ -22,6 +22,7 @@ jobs:
       - run: npm run build
       # No weights or paid service required. The real-model test is an explicit local gate.
       - run: cargo test --locked --release --manifest-path src-tauri/Cargo.toml --lib local_translation
+      - run: cargo test --locked --release --manifest-path src-tauri/Cargo.toml --lib backup
   bundle:
     name: Bundle (${{ matrix.os }})
     runs-on: ${{ matrix.os }}

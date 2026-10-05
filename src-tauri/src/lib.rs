@@ -1,3 +1,4 @@
+mod backup;
 pub mod local_translation;
 pub mod model_artifact;
 pub mod model_download;
@@ -6,7 +7,9 @@ use std::sync::Arc;
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
+        .plugin(tauri_plugin_dialog::init())
         .invoke_handler(tauri::generate_handler![
+            backup::export_backup,
             local_translation::translate_local,
             local_translation::ask_tutor_local,
             local_translation::cancel_local,
