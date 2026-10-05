@@ -60,6 +60,9 @@ export function buildPairedCandidates({ source, gapSource, corpusBytes, gapBytes
   const patterns = gapSource.filter(gap => gap.id !== 'g19_chingu').flatMap(gap => gap.ko.split('/').map(part => part.trim())
     .filter(part => part.length >= 2 && !part.includes('·'))
     .map(part => ({ gap, part, pattern: patternText(part) })));
+  const decisionsBytes = readFileSync(new URL('./paired-target-decisions.json', import.meta.url));
+  const decisions = JSON.parse(decisionsBytes).decisions;
+  const gapsById = new Map(gapSource.map(gap => [gap.id, gap]));
   const items = [];
   for (const sentence of source) {
     const korean = join(sentence.ko), english = join(sentence.en);
@@ -71,17 +74,21 @@ export function buildPairedCandidates({ source, gapSource, corpusBytes, gapBytes
     const matches = patterns.filter(({ pattern }) => patternText(korean).includes(pattern))
       .sort((a, b) => b.pattern.length - a.pattern.length || a.gap.id.localeCompare(b.gap.id));
     if (!matches.length) continue;
-    const { gap, part } = matches[0];
+    const decision = decisions[sentence.id];
+    if (!decision || decision.action !== 'retain') continue;
+    const gap = gapsById.get(decision.sourceGapId);
+    const part = decision.matchedPattern;
+    assert.ok(gap && patternText(korean).includes(patternText(part)), 'reviewed pattern does not occur in anchor');
     const aligned = new Map(sentence.gloss.map(chunk => [chunk.id, chunk]));
     assert.equal(aligned.size, sentence.gloss.length, 'duplicate source gloss ID');
     const gloss = chunks.map(chunk => {
       assert.ok(aligned.get(chunk.id)?.t.trim(), 'missing source alignment');
       return { chunk: chunk.t.trim(), gloss: aligned.get(chunk.id).t.trim(), role: chunk.role };
     });
-    // A pattern is not a sentence translation. In particular, 있어요 also
-    // occurs in location, ability and aspect constructions. Use the actual
-    // human-aligned sentence reading, never substitute the pattern's gloss.
-    const literalGap = `Literally, “${join(sentence.gloss)}”; naturally, “${english}”.`;
+    // Contextual authoring is explicit and reviewable; never turn an arbitrary
+    // substring or a gloss echo into an explanation automatically.
+    const literalGap = decision.literalGap;
+    assert.ok(literalGap?.trim(), 'retained gap needs a contextual explanation');
     for (const direction of directions) {
       const target = modelSchema.parse({ direction, korean, natural_english: english, gloss,
         literal_gap: literalGap, cultural_note: '' });
@@ -90,6 +97,7 @@ export function buildPairedCandidates({ source, gapSource, corpusBytes, gapBytes
         corpusSentenceId: sentence.id, english, korean,
         input: direction === 'ko-to-en' ? korean : english, target,
         sourceGapId: gap.id, matchedPattern: part, sourceNote: sentence.note,
+        matchingMethod: gap.id === matches[0].gap.id ? 'reviewed-substring' : 'reviewed-construction',
         sourceGap: { korean: gap.ko, literal: gap.lit, natural: gap.real, note: gap.note },
         matchedGapIds: [...new Set(matches.map(match => match.gap.id))] });
     }
@@ -98,7 +106,8 @@ export function buildPairedCandidates({ source, gapSource, corpusBytes, gapBytes
   // Retain reviewed no-gap supervision too: a fix must not teach every reply
   // to invent a contrast. Existing targets remain unchanged apart from direction.
   for (const row of JSON.parse(readFileSync(new URL('./dataset-v2.json', import.meta.url))).items) {
-    if (row.target.literal_gap.trim() || row.target.gloss.length < 2) continue;
+    if (row.target.literal_gap.trim() || row.target.gloss.length < 2
+      || decisions[row.corpusSentenceId]?.action === 'drop') continue;
     const keys = [row.corpusSentenceId, normalize(row.english), normalize(row.korean)];
     if (keys.some((key, index) => !key || used[index].has(key))) continue;
     for (const direction of directions) {
@@ -122,7 +131,10 @@ export function buildPairedCandidates({ source, gapSource, corpusBytes, gapBytes
     development: { file: 'development-v2.json', sha256: sha(developmentBytes), frozen: true },
     exclusions: { reservationCount: 136, developmentCount: 40, match: 'ID and normalized English/Korean' },
     crossTable: crossTable(items),
-    review: 'Pending contextual review of every anchor and its paired targets',
+    targetDecisions: { file: 'paired-target-decisions.json', sha256: sha(decisionsBytes),
+      retained: Object.values(decisions).filter(row => row.action === 'retain').length,
+      dropped: Object.values(decisions).filter(row => row.action === 'drop').length },
+    review: 'Pending independent review of authored explanations and paired targets',
     provenance: 'Project-owned corpus chunks aligned by ID and reviewed gap entries; no learner records or outside translations' };
   writeFileSync(new URL('./dataset-paired-manifest.json', import.meta.url), `${JSON.stringify(manifest, null, 2)}\n`);
   console.log(`PASS: ${items.length} paired candidates / ${items.length / 2} anchors; both directions; review pending, training forbidden`);

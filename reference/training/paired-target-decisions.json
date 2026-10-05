@@ -1,0 +1,675 @@
+{
+  "version": 1,
+  "status": "pending-independent-review",
+  "purpose": "Contextual explanations for eligible corpus anchors only; no evaluation inputs",
+  "decisions": {
+    "s2_friend_movie": {
+      "action": "retain",
+      "sourceGapId": "g2_hago",
+      "matchedPattern": "친구하고",
+      "literalGap": "하고 after 친구 marks the companion for watching the movie. Although 하고 can join nouns as “and,” this sentence needs “with my friend,” not a separate action by the friend."
+    },
+    "s5_monday_school": {
+      "action": "retain",
+      "sourceGapId": "g6_ro_vs_e",
+      "matchedPattern": "학교에 가요",
+      "literalGap": "학교에 marks the destination reached by 가요. The literal school-to chunk therefore becomes “go to school”; it does not mean that the going takes place at school."
+    },
+    "s5_saturday_plans": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "있어요",
+      "literalGap": "약속이 있어요 makes plans the subject of existence. English gives the understood owner as “I” and uses “have plans”; no physical appointment object is said to stand somewhere."
+    },
+    "s6_bathroom_where": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s6_book_desk": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s6_cafe_between": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s7_coffee_expensive_but": {
+      "action": "retain",
+      "sourceGapId": "g_masisseoyo",
+      "matchedPattern": "맛있어요",
+      "literalGap": "맛있어요 combines taste with existence: the coffee literally has taste. This is the ordinary Korean description “delicious,” not a claim that expensive coffee merely has some detectable flavor."
+    },
+    "s7_korean_fun_hard": {
+      "action": "retain",
+      "sourceGapId": "g7_itda_factory",
+      "matchedPattern": "재미있어요",
+      "literalGap": "재미있어요 combines fun or interest with existence to form the adjective “fun/interesting.” Here it describes Korean as enjoyable despite being difficult; it does not mean that someone owns a thing called fun."
+    },
+    "s8_eating_now": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s8_plans_q": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "있어요",
+      "literalGap": "계획이 있어요 asks whether plans exist for the listener. Natural English asks “Do you have plans?” and supplies the possessor, which Korean leaves understood."
+    },
+    "s8_next_week_busy": {
+      "action": "retain",
+      "sourceGapId": "g8_future_probably",
+      "matchedPattern": "바쁠 거예요",
+      "literalGap": "The ending -(으)ㄹ 거예요 gives the expected future state here: being busy next week. Its literal thing-will-be structure is expressed by English “will be,” rather than by a separate physical thing."
+    },
+    "s8_game_now": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s10_korean_little": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "할 수 있어요",
+      "literalGap": "The 수 있어요 construction literally says that a way or means of doing something exists. Here that becomes ability, “can speak a little Korean,” not possession of a physical way or object."
+    },
+    "s10_cant_drive": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "운전할 수 없어요",
+      "literalGap": "수 없어요 says that the means or possibility of driving is absent. English expresses the speaker’s inability as “cannot drive”; it is not a refusal to drive or a prohibition."
+    },
+    "s10_alone_can": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "할 수 있어요",
+      "literalGap": "할 수 있어요 literally presents a way of doing it as existing. English uses “can do it,” and 혼자 limits that ability to doing it alone, rather than describing a possession called a way."
+    },
+    "s11_raining": {
+      "action": "retain",
+      "sourceGapId": "g11_rain_comes",
+      "matchedPattern": "비가 와요",
+      "literalGap": "비가 와요 makes rain the subject of “comes.” Natural English describes the weather as “it is raining,” using a dummy “it”; no person or object is arriving."
+    },
+    "s11_summer_swim": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "수영할 수 있어요",
+      "literalGap": "수영할 수 있어요 expresses an available possibility through “a way to swim exists.” English says “can swim”; the sea and summer specify the circumstances in which that possibility holds."
+    },
+    "s12_exit_three": {
+      "action": "retain",
+      "sourceGapId": "g9_seyo_two_jobs",
+      "matchedPattern": "가세요",
+      "literalGap": "The honored-go ending -세요 functions as an instruction here. “Go out exit 3” is addressed politely to the listener, not a report that an honored person is going out."
+    },
+    "s12_pull_over": {
+      "action": "retain",
+      "sourceGapId": "g12_gisanim",
+      "matchedPattern": "기사님",
+      "literalGap": "기사님 addresses the driver by occupation plus the honorific 님. English normally says “Driver” in this request; 님 adds respectful address rather than another person or part of a name."
+    },
+    "s14_stress_energy": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "없어요",
+      "literalGap": "힘이 없어요 says that energy or strength is absent. The natural reading assigns that absence to the speaker, “I have no energy,” rather than making energy an object the speaker actively loses."
+    },
+    "s16_mistake_okay": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s18_recommend": {
+      "action": "retain",
+      "sourceGapId": "g_masisseoyo",
+      "matchedPattern": "맛있어요",
+      "literalGap": "맛있어요 literally presents taste as existing. Asking 뭐가 맛있어요? asks which food is good or delicious, not which item has any taste at all."
+    },
+    "s18_tteok_spicy": {
+      "action": "retain",
+      "sourceGapId": "g_masisseoyo",
+      "matchedPattern": "맛있어요",
+      "literalGap": "맛있어요 literally combines taste and existence but means delicious. The contrast is between the food being spicy and tasting good, not between spiciness and the mere presence of a flavor."
+    },
+    "s18_solo_okay": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s20_if_contact": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "놀 수 있어요",
+      "literalGap": "놀 수 있어요 says that the possibility of spending time together exists. The contact condition makes this “we can hang out,” not a claim that the speakers possess an object called a way."
+    },
+    "s20_dont_press": {
+      "action": "retain",
+      "sourceGapId": "g10_andwae",
+      "matchedPattern": "안 돼요",
+      "literalGap": "In 누르면 안 돼요, the literal “if you press, it does not become/work” expresses a prohibition. The sentence means you must not press it; it does not merely predict that the button will malfunction."
+    },
+    "s21_look_tired": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s22_moms_cooking": {
+      "action": "retain",
+      "sourceGapId": "g_masisseoyo",
+      "matchedPattern": "맛있어요",
+      "literalGap": "맛있어요 describes deliciousness through the literal taste-exists construction. 제일 makes this a judgment of highest deliciousness, not a statement that the cooking contains the largest quantity of taste."
+    },
+    "s23_where_museum": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s26_can_converse": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "이야기할 수 있어요",
+      "literalGap": "이야기할 수 있어요 uses existence of a means or possibility to express ability. 이제 marks the newly available ability to converse, naturally “now I can converse,” rather than a newly owned thing."
+    },
+    "s27_busan_south": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s27_everyone_culture": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "있어요",
+      "literalGap": "관심이 있어요 treats interest as something that exists for a person. English expresses this mental state as “are you interested,” not as a claim that an abstract interest is present at a location."
+    },
+    "s28_no_entry": {
+      "action": "retain",
+      "sourceGapId": "g10_andwae",
+      "matchedPattern": "안 돼요",
+      "literalGap": "들어가면 안 돼요 literally says that going in will not do. Here it forbids entry now; English “cannot go in” expresses lack of permission, not an inability to walk."
+    },
+    "s28_post_between": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s28_night_no_sleep": {
+      "action": "retain",
+      "sourceGapId": "g28_jami_anwayo",
+      "matchedPattern": "잠이 안 와요",
+      "literalGap": "잠이 안 와요 treats sleep as something that does not come. It describes being unable to fall asleep at night, rather than failing to receive a visitor or to move somewhere."
+    },
+    "s29_hard_but_fun": {
+      "action": "retain",
+      "sourceGapId": "g7_itda_factory",
+      "matchedPattern": "재미있어요",
+      "literalGap": "재미있어요 combines fun or interest with existence to form the adjective “fun/interesting.” Here it describes Korean as enjoyable despite being difficult; it does not mean that someone owns a thing called fun."
+    },
+    "s29_nobody_here": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s29_already_end": {
+      "action": "retain",
+      "sourceGapId": "g29_aigo",
+      "matchedPattern": "아이고",
+      "literalGap": "아이고 is an interjection conveying the reaction to the ending, not a name or a literal event. “Oh my” gives the surprised or rueful reaction in this sentence."
+    },
+    "s30_watermelon_best": {
+      "action": "retain",
+      "sourceGapId": "g_masisseoyo",
+      "matchedPattern": "맛있어요",
+      "literalGap": "맛있어요 literally describes taste as existing. 가장 turns the conventional meaning “delicious” into “tastiest”; the claim concerns enjoyment of the watermelon, not whether other foods possess taste."
+    },
+    "s_m31_baekdusan_border": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m31_gyeongju_old_korea": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "볼 수 있어요",
+      "literalGap": "볼 수 있어요 literally says a way of seeing exists. Here “can see” describes the opportunity to encounter old Korea in Gyeongju, not ownership of a route or a claim about eyesight."
+    },
+    "s_m34_dont_get_it": {
+      "action": "retain",
+      "sourceGapId": "g_m119_ihae_andwae",
+      "matchedPattern": "이해가 안 돼요",
+      "literalGap": "이해가 안 돼요 makes understanding the subject of something that does not happen. Natural English says “I do not get it”: the speaker cannot understand the expression, not that the expression fails to exist."
+    },
+    "s_m36_phone_died": {
+      "action": "retain",
+      "sourceGapId": "g6_haendeupon",
+      "matchedPattern": "핸드폰",
+      "literalGap": "핸드폰 borrows the pieces “hand” and “phone” but names a mobile phone as a category. The meeting interruption is about that phone switching off, not a special phone attached to a hand."
+    },
+    "s_m38_eyes_phone": {
+      "action": "retain",
+      "sourceGapId": "g6_haendeupon",
+      "matchedPattern": "핸드폰",
+      "literalGap": "핸드폰 is the Korean category name for a mobile phone, although its borrowed pieces literally read “hand phone.” English calls it a phone here, without translating hand as a separate modifier."
+    },
+    "s_m38_hurry": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m39_ticket_only": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "갈 수 있어요",
+      "literalGap": "들어갈 수 있어요 literally says that a way or possibility of entering exists. English expresses this as “can enter”; the ticket condition makes that possibility depend on having a ticket."
+    },
+    "s_m39_only_1000": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "없어요",
+      "literalGap": "천 원밖에 없어요 literally denies anything outside a thousand won. With the money’s possessor understood, the negative construction means “I only have a thousand won,” not “I have no thousand won.”"
+    },
+    "s_m39_credo": {
+      "action": "retain",
+      "sourceGapId": "g7_itda_factory",
+      "matchedPattern": "재미있어요",
+      "literalGap": "재미있어요 combines fun or interest with existence to form the adjective “fun/interesting.” Here it describes Korean as enjoyable despite being difficult; it does not mean that someone owns a thing called fun."
+    },
+    "s_m39_no_regrets": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "없어요",
+      "literalGap": "후회는 없어요 says that regrets are absent. Natural English supplies the person whose state is described and says “I have no regrets,” rather than using a separate literal verb meaning to possess."
+    },
+    "s_m44_abroad_saving": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m44_scholarship_for": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m44_check_answers": {
+      "action": "retain",
+      "sourceGapId": "g2_hago",
+      "matchedPattern": "친구하고",
+      "literalGap": "친구하고 identifies the companion who joins the answer checking. 하고 can mean “and” between nouns, but here the natural reading is “with my friend,” not “friend and answers.”"
+    },
+    "s_m44_failure_mother": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m45_reason_feeling": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m48_show_promise": {
+      "action": "retain",
+      "sourceGapId": "g2_hago",
+      "matchedPattern": "친구하고",
+      "literalGap": "친구하고 marks companionship for seeing the show. English recasts the participants as “my friend and I”; Korean does not need a second explicit subject to say they agreed to go together."
+    },
+    "s_m48_hundred_channels": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m51_song_know": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m50_passed_house": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m52_just_book": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m54_fan_cool": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m53_momsal_guess": {
+      "action": "retain",
+      "sourceGapId": "g14_momsal",
+      "matchedPattern": "몸살",
+      "literalGap": "몸살 names a recognized whole-body aching condition, rather than any isolated ache in a body part. The speaker is guessing that this named condition explains the widespread aches, which is why the reading keeps the term momsal."
+    },
+    "s_m53_chart_up": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m55_drive_knowhow": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "없어요",
+      "literalGap": "자동차가 없어요 makes the car the subject of absence. In the driving context the owner is the speaker, so it means “I do not have a car,” not that cars do not exist anywhere."
+    },
+    "s_m55_no_place_eat": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m55_two_computers": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "있어요",
+      "literalGap": "컴퓨터가 두 대 있어요 describes two computers as existing at the speaker’s home. English recasts this as household possession, “we have two computers”; Korean states what exists in that setting."
+    },
+    "s_s4_jeju_sign": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m61_stage_somehow": {
+      "action": "retain",
+      "sourceGapId": "g_m61_eojjeoda_boni",
+      "matchedPattern": "어쩌다 보니",
+      "literalGap": "어쩌다 보니 literally looks back after something happened somehow. Here it frames the stage performance as an unplanned outcome, naturally “one thing led to another,” rather than an intentional decision to inspect something."
+    },
+    "s_m61_noraebang_scream": {
+      "action": "retain",
+      "sourceGapId": "g17_bang",
+      "matchedPattern": "노래방",
+      "literalGap": "노래방 literally combines song and room, but names a karaoke room as an established kind of place. English uses the activity label karaoke; it is not simply any room where a song happens to be audible."
+    },
+    "s_m61_meeting_underway": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m62_monsoon_ends": {
+      "action": "retain",
+      "sourceGapId": "g11_jangma",
+      "matchedPattern": "장마",
+      "literalGap": "장마 names the seasonal stretch of monsoon rains. The rain stopping here is the end of that rainy period, not merely one long shower; English makes the seasonal sense explicit with “monsoon rains.”"
+    },
+    "s_m62_umbrella_gone": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m63_no_use_crying": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m65_mulsok_kkumsok": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m65_gaseum_meorit": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m68_turn_gone": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m70_learners_growing": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m71_malsseum_deuril": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m71_cat_litter": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m72_lab_analysis": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m72_electric_cars": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m75_export_contrast": {
+      "action": "retain",
+      "sourceGapId": "g_m75_ie_banhae",
+      "matchedPattern": "이에 반해",
+      "literalGap": "이에 반해 literally points to being against this. It introduces the contrast between exporting cars and importing coffee; English “by contrast” does not imply that someone is personally opposed to the preceding sentence."
+    },
+    "s_m75_son_enters_uni": {
+      "action": "retain",
+      "sourceGapId": "g2_e_eseo",
+      "matchedPattern": "학교에",
+      "literalGap": "대학교에 marks the university as the destination of entering. The natural reading is “entered university”; 에 does not locate an ongoing activity there in the way 에서 would."
+    },
+    "s_m77_heat_forecast": {
+      "action": "retain",
+      "sourceGapId": "g11_jangma",
+      "matchedPattern": "장마",
+      "literalGap": "장마 denotes the seasonal monsoon period rather than an unspecified instance of rain. The forecast places the following sultry weather after that period ends, which English expresses as “after the monsoon.”"
+    },
+    "s_m77_temp_holiday": {
+      "action": "retain",
+      "sourceGapId": "g_m77_imsi_gonghyuil",
+      "matchedPattern": "임시 공휴일",
+      "literalGap": "임시 공휴일 is a public holiday designated for a particular occasion. “Temporary” qualifies the designation as a one-off holiday; it does not mean that October 2 itself exists only temporarily."
+    },
+    "s_m76_grill_two_servings": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "주문할 수 있어요",
+      "literalGap": "주문할 수 있어요 expresses the available possibility of ordering. The two-serving minimum limits what can be ordered; English naturally uses “can be ordered,” rather than saying that a way-to-order exists."
+    },
+    "s_m78_go3_damim": {
+      "action": "retain",
+      "sourceGapId": "g2_e_eseo",
+      "matchedPattern": "학교에",
+      "literalGap": "학교에 locates the teacher’s presence at school. With 계셨어요, the honorific existence/stay verb, 에 marks where the teacher remained; it does not mean the teacher was going to school until late at night."
+    },
+    "s_m78_beginner_app": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "시작할 수 있어요",
+      "literalGap": "시작할 수 있어요 expresses an available possibility with the literal means-exists construction. Making a username enables starting immediately; it does not give the user a physical object called a start-way."
+    },
+    "s_m80_no_plastic_bag": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m80_disposable_rule": {
+      "action": "retain",
+      "sourceGapId": "g10_andwae",
+      "matchedPattern": "안 돼요",
+      "literalGap": "사용하면 안 돼요 literally says that using the cups will not do. It states the café’s prohibition on their use, rather than claiming the cups are physically impossible to use."
+    },
+    "s_m81_side_effects": {
+      "action": "retain",
+      "sourceGapId": "g9_seyo_two_jobs",
+      "matchedPattern": "가세요",
+      "literalGap": "가세요 has the same form as an honored-subject statement, but here it is a polite instruction to the listener. The side-effect condition calls for “go to the hospital,” not a report about where someone else goes."
+    },
+    "s_m81_house_deposit": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m82_two_stops": {
+      "action": "retain",
+      "sourceGapId": "g9_seyo_two_jobs",
+      "matchedPattern": "가세요",
+      "literalGap": "The final 가세요 is a polite direction to the listener. Its honorific ending does not turn the route into a statement about an elder; English uses the imperative “go two stops further.”"
+    },
+    "s_m82_monkey_comfort": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m84_payphone_callback": {
+      "action": "retain",
+      "sourceGapId": "g6_haendeupon",
+      "matchedPattern": "핸드폰",
+      "literalGap": "핸드폰 literally combines the borrowed words hand and phone but means mobile phone. The speaker contrasts that mobile phone with a public payphone; English does not preserve hand as a separate type of equipment."
+    },
+    "s_m84_room_route": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m84_typhoon_express": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "늦을 수도 있어요",
+      "literalGap": "늦을 수도 있어요 presents lateness as one possible outcome. The literal possibility-exists construction with 도 therefore becomes “might be late,” not the train’s ability or intention to arrive late."
+    },
+    "s_m86_despite_means": {
+      "action": "retain",
+      "sourceGapId": "g2_e_eseo",
+      "matchedPattern": "학교에",
+      "literalGap": "대학교에 marks the university as the destination or target of admission. In 합격했어요, the natural reading is “got into university,” not “passed an examination while located at university.”"
+    },
+    "s_m85_she_smiled": {
+      "action": "retain",
+      "sourceGapId": "g_m85_geunyeo_coinage",
+      "matchedPattern": "그녀",
+      "literalGap": "그녀 combines the written elements that and woman to function as “she.” In this sentence it refers back to the woman answering; it is not a fresh instruction to identify “that woman” by pointing."
+    },
+    "s_m85_guy_took_money": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m88_since_graduation": {
+      "action": "retain",
+      "sourceGapId": "g2_e_eseo",
+      "matchedPattern": "학교에",
+      "literalGap": "학교에 marks the destination of going back to see the school. The English preposition is “to”; 에 is not the action-location particle 에서, even though the visit later occurs there."
+    },
+    "s_m91_report_three_parts": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m93_economy_forecast": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m95_no_matter_competition": {
+      "action": "retain",
+      "sourceGapId": "g10_andwae",
+      "matchedPattern": "안 돼요",
+      "literalGap": "포기하면 안 돼요 literally says that giving up will not do. It is a prohibition against abandoning cooperation despite competition, not a prediction that abandoning it cannot happen."
+    },
+    "s_m95_member_or_not": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "참여할 수 있어요",
+      "literalGap": "참여할 수 있어요 describes participation as possible. With 누구나 and the membership contrast, English reads this as access for anyone, “anyone can take part,” rather than a statement about who possesses a means."
+    },
+    "s_m95_no_contact_no_conflict": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m97_survey_brand_price": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m98_no_evidence_no_detention": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "구속할 수 없어요",
+      "literalGap": "구속할 수 없어요 literally denies a means or possibility of detaining. In the no-evidence condition it limits what the police can do; it does not say that police lack physical strength to detain someone."
+    },
+    "s_m99_regulation_case": {
+      "action": "drop",
+      "reason": "The substring alone does not establish the reviewed literal/real contrast in this context."
+    },
+    "s_m100_pm_statement_warning": {
+      "action": "retain",
+      "sourceGapId": "g_m100_gija_hoegyeon",
+      "matchedPattern": "기자 회견",
+      "literalGap": "기자 회견 literally combines reporters with a meeting. As a fixed expression it names a press conference, so the statement is made at that event rather than at an unspecified meeting with an individual reporter."
+    },
+    "s_m100_socalled_experts_pr": {
+      "action": "retain",
+      "sourceGapId": "g_m100_sowi",
+      "matchedPattern": "소위",
+      "literalGap": "소위 marks “experts” as a label being questioned. English “so-called” preserves the skepticism supported by the later criticism of corporate PR; a neutral translation as merely experts would lose that stance."
+    },
+    "s_m103_noise_protest": {
+      "action": "retain",
+      "sourceGapId": "g_m54_cheunggan_soeum",
+      "matchedPattern": "층간 소음",
+      "literalGap": "층간 소음 literally means noise between floors. Here the complaint concerns noise from the floor above, not noise located in a physical gap between two floors."
+    },
+    "s_m103_spicy_overdo": {
+      "action": "retain",
+      "sourceGapId": "g_m103_muri_haji_maseyo",
+      "matchedPattern": "무리하지 마세요",
+      "literalGap": "무리하지 마세요 uses the no-reason/excess expression as a warning not to overdo something. Here it limits pushing oneself with strong food, not a ban on reasoning or on liking spicy food."
+    },
+    "s_m106_owner_not_absolute": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "없어요",
+      "literalGap": "권리는 없어요 describes the absence of the stated rights for the building owner. English uses “you do not have absolute rights,” with the person as subject instead of rights as the topic."
+    },
+    "s_m108_statistics_prevention": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "예방할 수 있어요",
+      "literalGap": "예방할 수 있어요 makes prevention possible through the literal means-exists construction. English recasts the affected accidents as subject, “can be prevented,” rather than describing a separate possessed means."
+    },
+    "s_m110_screening_permit": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "받을 수 없어요",
+      "literalGap": "받을 수 없어요 says that the possibility of receiving the permit is absent while screening remains unfinished. English expresses that procedural unavailability as “the permit cannot be issued,” not personal unwillingness to receive it."
+    },
+    "s_m120_neighborhood_hill": {
+      "action": "retain",
+      "sourceGapId": "g_m102_guseokguseok",
+      "matchedPattern": "구석구석",
+      "literalGap": "Repeating 구석 in 구석구석 turns “corner corner” into thorough coverage of every nook. The walk covers the neighborhood in detail; it is not a count of exactly two corners."
+    },
+    "s_m146_ham": {
+      "action": "retain",
+      "sourceGapId": "g_isseoyo",
+      "matchedPattern": "없어요",
+      "literalGap": "식욕이 없어요 makes appetite the absent thing. Natural English says “I have no appetite”: this is the speaker’s state, not a claim that the ham lacks a property called appetite."
+    },
+    "s_m149_period": {
+      "action": "retain",
+      "sourceGapId": "g2_e_eseo",
+      "matchedPattern": "학교에서",
+      "literalGap": "학교에서 marks school as the place where running and playing happen. English says “at school”; translating the action-location 에서 as “from school” would incorrectly make school the point of departure."
+    },
+    "s_m150_school": {
+      "action": "retain",
+      "sourceGapId": "g2_e_eseo",
+      "matchedPattern": "학교에",
+      "literalGap": "학교에 marks the school as the target of enrollment. The tuition is paid in order to enroll at that school; 에 here is not a claim about the physical place where the payment is made."
+    },
+    "s_m151_school": {
+      "action": "retain",
+      "sourceGapId": "g2_e_eseo",
+      "matchedPattern": "학교에",
+      "literalGap": "학교에 with 다니다 identifies the institution attended. Natural English says “attend a private school,” without preserving the literal school-to particle as a separate journey in this sentence."
+    },
+    "s_m152_shirt": {
+      "action": "retain",
+      "sourceGapId": "g_m152_shirt",
+      "matchedPattern": "와이셔츠",
+      "literalGap": "와이셔츠 comes from “white shirt” but now names the dress-shirt category. Falling asleep in a 와이셔츠 does not establish that the shirt is white."
+    },
+    "s_m152_son": {
+      "action": "retain",
+      "sourceGapId": "g_m152_son",
+      "matchedPattern": "큰아들",
+      "literalGap": "큰 in 큰아들 marks eldest-son order, not physical size. The sentence is about the eldest son joining a company; it makes no claim that he is taller or larger than a younger son."
+    },
+    "s_m153_button": {
+      "action": "retain",
+      "sourceGapId": "g_m152_shirt",
+      "matchedPattern": "와이셔츠",
+      "literalGap": "와이셔츠 names a dress shirt even when the garment is not white. Its borrowed literal color is not a condition on which shirt’s buttons are being checked."
+    },
+    "s_m153_son": {
+      "action": "retain",
+      "sourceGapId": "g_m152_son",
+      "matchedPattern": "큰아들",
+      "literalGap": "큰아들 is the eldest son, with 큰 marking family order rather than body size. The reason for cooking the soup is that this son was discharged, not that a physically big son was discharged."
+    },
+    "s_m154_only_son": {
+      "action": "retain",
+      "sourceGapId": "g_m154_little_mother",
+      "matchedPattern": "작은어머니",
+      "literalGap": "작은어머니 literally reads “small mother,” but it is a kinship title for the wife of the father’s younger brother. It does not describe the speaker’s mother as small or short; the natural reading identifies a paternal aunt."
+    },
+    "s_m154_flights": {
+      "action": "retain",
+      "sourceGapId": "g10_su_itda",
+      "matchedPattern": "짧을 수 있어요",
+      "literalGap": "짧을 수 있어요 uses 수 있어요 for the possibility of a state, shorter flight times. English “can have shorter flight times” means this is possible, not that flights have an ability to choose their own length."
+    },
+    "s_m155_food": {
+      "action": "retain",
+      "sourceGapId": "g_m155_radish",
+      "matchedPattern": "깍두기",
+      "literalGap": "깍두기 names cubed radish kimchi. Its literal cubed-thing structure does not license translating it as any cubed food; the choice here is that specific kimchi alongside Japanese food."
+    }
+  }
+}

@@ -3,10 +3,10 @@
   "corpusCommit": "5f5bef477b19eb4799d247352930589542a256a8",
   "trainingAllowed": false,
   "dataset": "dataset-paired-candidates.json",
-  "sha256": "8298431da63e0cefca2a78dae8536d3731f13354d947e3eec6ec6e5ec163321e",
-  "count": 500,
-  "anchorCount": 250,
-  "distinctGapEntries": 37,
+  "sha256": "0b6f0ef84ca9e364f5a17af9f1e25575f006aad9296e04ac0fa383bb5d048939",
+  "count": 406,
+  "anchorCount": 203,
+  "distinctGapEntries": 32,
   "sources": {
     "src/content/sentences.json": "de6425ee0426b0f8adfa0bc908159054b1ea3f3743016ae14295a3df40069957",
     "src/content/gap.json": "0670aa56f1b8526a6f11b771e8d22b22ff63bbf3e5af285d7650c36d3d90869b"
@@ -28,7 +28,7 @@
       "errorClass": "literal-gap",
       "nonEmptyGap": true,
       "glossShape": "multi-chunk",
-      "count": 127
+      "count": 80
     },
     {
       "split": "training",
@@ -36,7 +36,7 @@
       "errorClass": "literal-gap",
       "nonEmptyGap": true,
       "glossShape": "multi-chunk",
-      "count": 127
+      "count": 80
     },
     {
       "split": "training",
@@ -87,6 +87,12 @@
       "count": 37
     }
   ],
-  "review": "Pending contextual review of every anchor and its paired targets",
+  "targetDecisions": {
+    "file": "paired-target-decisions.json",
+    "sha256": "1277574ff6595bd0bdbcc5df3c0cda1f088f7020777fde9d287fa35ebe9c800a",
+    "retained": 80,
+    "dropped": 47
+  },
+  "review": "Pending independent review of authored explanations and paired targets",
   "provenance": "Project-owned corpus chunks aligned by ID and reviewed gap entries; no learner records or outside translations"
 }

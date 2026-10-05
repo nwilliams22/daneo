@@ -23,3 +23,13 @@ test('manifest records the full cross-table', () => {
   assert.equal(manifest.trainingAllowed, false);
   assert.equal(manifest.exclusions.reservationCount, 136);
 });
+test('gap fields are authored explanations, never the gloss/translation echo', () => {
+  for (const row of items.filter(row => row.target.literal_gap.trim())) {
+    assert.ok(!row.target.literal_gap.startsWith('Literally, “'));
+  }
+});
+test('reviewed constructions replace misleading substrings and false matches are removed', () => {
+  assert.equal(items.find(row => row.corpusSentenceId === 's7_korean_fun_hard').sourceGapId, 'g7_itda_factory');
+  assert.equal(items.find(row => row.corpusSentenceId === 's10_korean_little').sourceGapId, 'g10_su_itda');
+  assert.ok(!items.some(row => row.corpusSentenceId === 's_m84_room_route'));
+});

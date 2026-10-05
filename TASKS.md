@@ -1302,3 +1302,13 @@ checker tests (7), both exclusion checker forms, build/typecheck and content val
 (16/16) pass. Details and exact commands: `reference/training/evidence/paired-supervision-rebuild.md`.
 Next: review targets, apply corrections, then bounded development-only training and
 comparison. No gate inference, production pin or release change.
+
+The independent target review rejected that first candidate slice: its gap fields
+only echoed glosses and translations. Corrected the same work by explicitly
+authoring contextual explanations for 80 retained anchors and recording removal
+of 47 unsupported matches in `paired-target-decisions.json`. Ability and compound
+adjective examples now cite their actual reviewed constructions; a room-number
+substring false match is removed. Rebuilt candidates: 406 rows, 160 paired gap/gloss
+rows (80 in each direction), with 246 unchanged no-gap controls. Seven dataset and
+seven checker tests pass; exclusion checks and build/content validation pass again.
+Training remains forbidden pending the corrected-target review. No model run occurred.

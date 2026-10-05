@@ -14,10 +14,10 @@ by ID and normalized English/Korean, verifies the v3 checksum manifests inside
 the process, and additionally excludes the frozen 40-row v2 development split.
 Existing v1/v2 training, development, review and manifest files are unchanged.
 
-The new candidate file has **500 rows / 250 distinct sentence anchors**:
+The new candidate file has **406 rows / 203 distinct sentence anchors**:
 
-- **254 rows** carry a non-empty literal gap and a corpus-aligned multi-chunk
-  gloss: **127 en-to-ko and 127 ko-to-en (50%)**.
+- **160 rows** carry a non-empty literal gap and a corpus-aligned multi-chunk
+  gloss: **80 en-to-ko and 80 ko-to-en (50%)**.
 - **246 rows** retain previously reviewed empty-gap targets, mirrored in both
   directions, so training would not teach unconditional gap emission.
 - No gap target has a single-chunk gloss. Korean chunks align by source ID.
@@ -31,36 +31,47 @@ excluded. An initial punctuation-stripped matcher overmatched; it was corrected
 before this checkpoint. Ordinary 친구 examples were removed because their
 ordinary reading does not establish a literal/real contrast.
 
-A pattern is not a full-sentence translation. In particular, 있어요 matches
-possession, location, ability and aspect constructions. Copying its generic
-“have” reading produced incorrect targets. The candidate targets instead use
-**the matched sentence's own human-authored literal gloss and natural English**
-in the existing “Literally …; naturally …” form. Source gap patterns, notes,
-sentence notes and alternate matches remain attached as review evidence.
-No outside translations or learner records were introduced.
+The first checkpoint (`a356a8d`, all CI jobs passed) contained 500 candidates,
+including 127 gap anchors mirrored into 254 rows. Independent review rejected
+all 127 new gap explanations: they echoed the human gloss and translation, and
+substring matching admitted unrelated constructions. No training followed.
 
-This fixes the structural confound but does **not** establish that every proposed
-contrast is explanatory enough. Independent review must check all 127 new gap
-anchors for contextual applicability, adequacy of the literal/natural contrast,
-and full-sentence alignment; it must also check the inherited controls and both
-directions. A generic gloss echo is not automatically a correct explanation.
-Both candidate and manifest retain `trainingAllowed: false`; all targets remain
-`reviewStatus: pending`. Do not train these candidate bytes without that review.
+`paired-target-decisions.json` now records a decision for each of those 127
+anchors: **80 retained with explicitly authored contextual explanations; 47
+removed**. For example, possession explains why an existence subject becomes an
+English owner with “have”; prohibition distinguishes “will not do” from physical
+inability; compounds explain why a literal component is not a restriction on the
+word's conventional meaning. Ability constructions now cite `g10_su_itda`, and
+재미있어요 cites `g7_itda_factory`, rather than generic possession. The room-301
+substring of 백일 is removed, along with unsupported location/aspect matches and
+other contexts that do not exhibit the proposed contrast. The builder cannot
+invent new explanations from a substring: it requires an explicit retain entry
+and a pattern present in the pinned sentence. Both directions share one target.
+
+The manifest binds the decisions file by hash. Source pattern notes, sentence
+notes and alternate matches remain review evidence. No outside translations or
+learner records were introduced. The 123 inherited no-gap anchors remain intact.
+
+The corrected targets still require independent review; this is not a language
+pass. Candidate and manifest retain `trainingAllowed: false`, with every row
+`reviewStatus: pending`. The review must assess all 80 explanations and the
+retained controls, not infer adequacy from passing mechanical checks. No model
+was trained or inferred on during either candidate build.
 
 ## Verification from the repository root
 
 - `node --import tsx reference/training/build-dataset.mjs --check-exclusions`:
   PASS, 136 unique ID and normalized English/Korean exclusion keys.
 - `node --import tsx reference/training/build-dataset.mjs --paired-candidates`:
-  PASS, 500 candidates / 250 anchors, training forbidden.
+  PASS, 406 candidates / 203 anchors, training forbidden.
 - `node reference/training/audit-gap-supervision.mjs reference/training/dataset-paired-candidates.json`:
-  254/500 paired gap/multi-chunk rows; 127 in each direction; zero single-chunk
+  160/406 paired gap/multi-chunk rows; 80 in each direction; zero single-chunk
   gap rows. These are supervision counts, not language scores.
 - `python3 reference/eval/check-independent-freeze.py` and its
   `--candidates reference/training/dataset-paired-candidates.json` form:
   PASS, all 136 reservations; existing v1/v2 files pass; rebuilt candidates
   avoid all reservations and the frozen v2 development split.
-- `node reference/training/test_paired_dataset.mjs`: 5 tests passed, including
+- `node reference/training/test_paired_dataset.mjs`: 7 tests passed, including
   regressions for one-direction gaps, single-chunk gaps and misaligned chunks.
 - `python3 -m unittest discover -s reference/training -p test_paired_exclusions.py`:
   7 tests passed, including reserved keys, exact mirror checking, duplicate
