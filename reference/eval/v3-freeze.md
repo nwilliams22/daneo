@@ -39,7 +39,9 @@ python3 reference/eval/check-independent-freeze.py --candidates path/to/candidat
 ```
 
 The second form is required before using any future generated training dataset.
-Candidates use `corpusSentenceId`, `english`, and `korean`; a match to either v3
+Candidates use `corpusSentenceId`, `english`, and `korean`; optional
+`sourceEnglish` / `sourceKorean` aliases are also excluded so rewriting a target
+cannot hide a reserved source. A match to either v3
 split fails just as a match to an old reservation does. The default check also
 verifies prior training manifests, approvals, and cross-split exclusions.
 

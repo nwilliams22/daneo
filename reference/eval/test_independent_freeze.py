@@ -100,6 +100,20 @@ class FreezeTests(unittest.TestCase):
                     with self.assertRaisesRegex(AssertionError, "uses reserved"):
                         freeze.check_candidates(path, exclusions)
 
+    def test_rewritten_candidate_cannot_hide_reserved_source(self):
+        exclusions = self.check()
+        for name in ("v3-translation-set.json", "v3-dev-set.json"):
+            row = json.loads((self.directory / name).read_text())["items"][0]
+            for field, value in (("sourceEnglish", row["expectedReadingEnglish"]),
+                                 ("sourceKorean", row["corpusAnchor"]["korean"])):
+                with self.subTest(split=name, field=field):
+                    path = self.directory / "candidate.json"
+                    path.write_text(json.dumps([{
+                        "corpusSentenceId": "unused-id", "english": "rewritten English",
+                        "korean": "다른 문장", field: value}]))
+                    with self.assertRaisesRegex(AssertionError, field):
+                        freeze.check_candidates(path, exclusions)
+
 
 if __name__ == "__main__":
     unittest.main()

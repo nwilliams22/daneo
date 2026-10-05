@@ -118,6 +118,9 @@ def check_candidates(path, exclusions):
         for label, key, seen in zip(("ID", "English", "Korean"),
                                     (row["corpusSentenceId"], normalized(row["english"]), normalized(row["korean"])), exclusions):
             assert key and key not in seen, f"candidate {number} uses reserved {label}: {row['corpusSentenceId']}"
+        for field, seen in (("sourceEnglish", exclusions[1]), ("sourceKorean", exclusions[2])):
+            if field in row:
+                assert normalized(row[field]) not in seen, f"candidate {number} uses reserved {field}: {row['corpusSentenceId']}"
         for label, key, seen in zip(("ID", "English", "Korean"),
                                     (row["corpusSentenceId"], normalized(row["english"]), normalized(row["korean"])), seen_candidates):
             assert key not in seen, f"duplicate candidate {label} at row {number}"

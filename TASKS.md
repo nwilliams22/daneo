@@ -1078,8 +1078,9 @@ against the expanded exclusions, preserving the candidate-preflight interface.
 Verification from the repository root: `python3 reference/eval/check-independent-freeze.py`
 PASS (136 unique ID/normalized English/Korean keys);
 `python3 -m unittest discover -s reference/eval -p test_independent_freeze.py`
-PASS (8 tests, including byte tampering, rehashed wrong provenance/input,
- cross-split duplication, gap weighting and single-key normalization attacks);
+PASS (9 tests, including byte tampering, rehashed wrong provenance/input,
+ cross-split duplication, gap weighting, single-key normalization attacks and
+reserved source aliases hidden behind rewritten candidates);
 `npm run build` PASS (16 content checks, TypeScript, Vite; existing chunk-size warning).
 Next: candidate screening consumes the development split; keep the gate sealed
 until a separate qualification task authorizes its one-time use.
