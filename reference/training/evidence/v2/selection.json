@@ -1,0 +1,19 @@
+{
+  "metric": "response-token-weighted development loss; no generation or held-out scoring",
+  "selected_run": "v2-lr1",
+  "selected_epoch": 2,
+  "candidates": [
+    {
+      "name": "v2-lr1",
+      "loss": 0.21029961915405393,
+      "epoch": 2,
+      "learning_rate": 0.0001
+    },
+    {
+      "name": "v2-lr2",
+      "loss": 0.21290034719805662,
+      "epoch": 1,
+      "learning_rate": 0.0002
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "step": 0,
+    "epoch": 0,
+    "response_token_mean_loss": 0.6574738004296626,
+    "response_tokens": 4714
+  },
+  {
+    "step": 250,
+    "epoch": 1,
+    "response_token_mean_loss": 0.21290034719805662,
+    "response_tokens": 4714
+  },
+  {
+    "step": 500,
+    "epoch": 2,
+    "response_token_mean_loss": 0.2215306312780263,
+    "response_tokens": 4714
+  },
+  {
+    "step": 750,
+    "epoch": 3,
+    "response_token_mean_loss": 0.23977428292794375,
+    "response_tokens": 4714
+  },
+  {
+    "step": 1000,
+    "epoch": 4,
+    "response_token_mean_loss": 0.26792443663836685,
+    "response_tokens": 4714
+  }
+]
