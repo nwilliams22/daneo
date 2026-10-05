@@ -1,0 +1,43 @@
+{
+  "runHead": "8d413ac959ab97cf62771d4025dd3252eba9ad0e",
+  "platform": "Linux-7.2.6-201.nobara.fc44.x86_64-x86_64-with-glibc2.43",
+  "cpu": "AMD Ryzen 7 9850X3D 8-Core Processor",
+  "backend": "CPU; llama-cpp-2 0.1.158",
+  "order": [
+    "base",
+    "fine-tune"
+  ],
+  "heldOutSubmissionsPerEngine": 10,
+  "repetitions": 1,
+  "network": "unshare --user --map-root-user --net",
+  "files": {
+    "src-tauri/target/release/examples/prompt_probe": {
+      "bytes": 10338440,
+      "sha256": "98e7b0ef14e0ce1776556bc0250d46ceab495cadb2173d583aac6248c8fa368d"
+    },
+    "src/lib/translation-prompt.json": {
+      "bytes": 2483,
+      "sha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669"
+    },
+    "src/lib/translation-postprocess.ts": {
+      "bytes": 5880,
+      "sha256": "8a3f746d51ac1e71b2a98cb0fbd3c14e379f8bc69f31221b61e1b9dcd03ea9a1"
+    },
+    "src/lib/romanize.ts": {
+      "bytes": 6787,
+      "sha256": "6ea3fe4e61659bc4ed89f5d7369f3454c97adb6b4fc36652262bee5e4a75b8f9"
+    },
+    "src/content/words.json": {
+      "bytes": 2597673,
+      "sha256": "6ff00bb0276172523851781d41f70d04e9fb93e087f422af636c296f5f6e372d"
+    },
+    "reference/eval/v0-rubric.md": {
+      "bytes": 8566,
+      "sha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    },
+    "reference/eval/v2-translation-set.json": {
+      "bytes": 9929,
+      "sha256": "81e06f6cd27740c194d643fa710fc2c75d3028e3fc626316566f35ee8af5d9f7"
+    }
+  }
+}
