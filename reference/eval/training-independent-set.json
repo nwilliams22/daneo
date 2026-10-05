@@ -1,0 +1,492 @@
+{
+  "version": "independent-1",
+  "frozenOn": "2026-10-04",
+  "corpusCommit": "6587c1f9ef471eb9e50b7059fd99ee745d4c2a64",
+  "sourceFiles": [
+    "src/content/sentences.json",
+    "src/content/modules.json"
+  ],
+  "reservationOnly": true,
+  "items": [
+    {
+      "id": "DAN-IND-01",
+      "corpusSentenceId": "s_like_coffee",
+      "moduleId": "m1",
+      "coverageClass": "gloss",
+      "english": "I like coffee",
+      "korean": "저는 커피를 좋아해요"
+    },
+    {
+      "id": "DAN-IND-02",
+      "corpusSentenceId": "s2_weekend_movie",
+      "moduleId": "m2",
+      "coverageClass": "gloss",
+      "english": "I watch movies on the weekend",
+      "korean": "주말에 저는 영화를 봐요"
+    },
+    {
+      "id": "DAN-IND-03",
+      "corpusSentenceId": "s3_order_chicken_want",
+      "moduleId": "m3",
+      "coverageClass": "gloss",
+      "english": "Today I want to order fried chicken",
+      "korean": "오늘 치킨을 시키고 싶어요"
+    },
+    {
+      "id": "DAN-IND-04",
+      "corpusSentenceId": "s5_coffee_two",
+      "moduleId": "m5",
+      "coverageClass": "gloss",
+      "english": "I ordered two cups of coffee",
+      "korean": "커피 두 잔 주문했어요"
+    },
+    {
+      "id": "DAN-IND-05",
+      "corpusSentenceId": "s5_milk_daily",
+      "moduleId": "m5",
+      "coverageClass": "gloss",
+      "english": "I drink a glass of milk every day",
+      "korean": "매일 우유 한 잔 마셔요"
+    },
+    {
+      "id": "DAN-IND-06",
+      "corpusSentenceId": "s6_go_left",
+      "moduleId": "m6",
+      "coverageClass": "gloss",
+      "english": "I go left",
+      "korean": "왼쪽으로 가요"
+    },
+    {
+      "id": "DAN-IND-07",
+      "corpusSentenceId": "s6_park_front",
+      "moduleId": "m6",
+      "coverageClass": "gloss",
+      "english": "A park is in front of my house",
+      "korean": "공원이 집 앞에 있어요"
+    },
+    {
+      "id": "DAN-IND-08",
+      "corpusSentenceId": "s6_get_off_here",
+      "moduleId": "m6",
+      "coverageClass": "gloss",
+      "english": "I get off here",
+      "korean": "여기에서 내려요"
+    },
+    {
+      "id": "DAN-IND-09",
+      "corpusSentenceId": "s6_take_bus",
+      "moduleId": "m6",
+      "coverageClass": "gloss",
+      "english": "I take the bus every day",
+      "korean": "매일 버스를 타요"
+    },
+    {
+      "id": "DAN-IND-10",
+      "corpusSentenceId": "s8_brush_teeth",
+      "moduleId": "m8",
+      "coverageClass": "gloss",
+      "english": "I brush my teeth at night",
+      "korean": "밤에 이를 닦아요"
+    },
+    {
+      "id": "DAN-IND-11",
+      "corpusSentenceId": "s8_waiting",
+      "moduleId": "m8",
+      "coverageClass": "gloss",
+      "english": "I am waiting for my friend",
+      "korean": "친구를 기다리고 있어요"
+    },
+    {
+      "id": "DAN-IND-12",
+      "corpusSentenceId": "s9_gimbap_two",
+      "moduleId": "m9",
+      "coverageClass": "gloss",
+      "english": "Two gimbap, please",
+      "korean": "김밥 두 개 주세요"
+    },
+    {
+      "id": "DAN-IND-13",
+      "corpusSentenceId": "s10_when_arrive",
+      "moduleId": "m10",
+      "coverageClass": "gloss",
+      "english": "When do you arrive?",
+      "korean": "언제 도착해요?"
+    },
+    {
+      "id": "DAN-IND-14",
+      "corpusSentenceId": "s13_party_clean",
+      "moduleId": "m13",
+      "coverageClass": "gloss",
+      "english": "Before my friend comes, I clean the house",
+      "korean": "친구가 오기 전에 집을 청소해요"
+    },
+    {
+      "id": "DAN-IND-15",
+      "corpusSentenceId": "s14_medicine_rest",
+      "moduleId": "m14",
+      "coverageClass": "gloss",
+      "english": "After taking the medicine, rest well",
+      "korean": "약을 먹은 후에 푹 쉬세요"
+    },
+    {
+      "id": "DAN-IND-16",
+      "corpusSentenceId": "s4_oppa_singer",
+      "moduleId": "m4",
+      "coverageClass": "semantic-fidelity",
+      "english": "My older brother is a singer",
+      "korean": "오빠는 가수예요"
+    },
+    {
+      "id": "DAN-IND-17",
+      "corpusSentenceId": "s5_half_past",
+      "moduleId": "m5",
+      "coverageClass": "semantic-fidelity",
+      "english": "It's 2:30 in the afternoon",
+      "korean": "오후 두 시 반 이에요"
+    },
+    {
+      "id": "DAN-IND-18",
+      "corpusSentenceId": "s5_sibling_ten",
+      "moduleId": "m5",
+      "coverageClass": "semantic-fidelity",
+      "english": "My little sibling is ten years old",
+      "korean": "동생은 열 살이에요"
+    },
+    {
+      "id": "DAN-IND-19",
+      "corpusSentenceId": "s5_family_four",
+      "moduleId": "m5",
+      "coverageClass": "semantic-fidelity",
+      "english": "My family is four people",
+      "korean": "우리 가족은 네 명이에요"
+    },
+    {
+      "id": "DAN-IND-20",
+      "corpusSentenceId": "s6_phone_bag",
+      "moduleId": "m6",
+      "coverageClass": "semantic-fidelity",
+      "english": "My phone is in my bag",
+      "korean": "핸드폰이 가방 안에 있어요"
+    },
+    {
+      "id": "DAN-IND-21",
+      "corpusSentenceId": "s6_store_behind",
+      "moduleId": "m6",
+      "coverageClass": "semantic-fidelity",
+      "english": "The convenience store is behind the station",
+      "korean": "편의점은 역 뒤에 있어요"
+    },
+    {
+      "id": "DAN-IND-22",
+      "corpusSentenceId": "s7_busy_but_happy",
+      "moduleId": "m7",
+      "coverageClass": "semantic-fidelity",
+      "english": "I am busy but happy",
+      "korean": "바쁘지만 행복해요"
+    },
+    {
+      "id": "DAN-IND-23",
+      "corpusSentenceId": "s8_usually_subway",
+      "moduleId": "m8",
+      "coverageClass": "semantic-fidelity",
+      "english": "I usually take the subway. But today I'm walking",
+      "korean": "보통 지하철을 타요. 그런데 오늘은 걸어요"
+    },
+    {
+      "id": "DAN-IND-24",
+      "corpusSentenceId": "s10_must_study",
+      "moduleId": "m10",
+      "coverageClass": "semantic-fidelity",
+      "english": "I have an exam. So I have to study hard",
+      "korean": "시험이 있어요. 그래서 열심히 공부해야 돼요"
+    },
+    {
+      "id": "DAN-IND-25",
+      "corpusSentenceId": "s11_vacation_next_week",
+      "moduleId": "m11",
+      "coverageClass": "semantic-fidelity",
+      "english": "My vacation starts next week",
+      "korean": "다음 주부터 휴가예요"
+    },
+    {
+      "id": "DAN-IND-26",
+      "corpusSentenceId": "s13_sleep_before",
+      "moduleId": "m13",
+      "coverageClass": "semantic-fidelity",
+      "english": "Before sleeping, I turn off my phone",
+      "korean": "자기 전에 핸드폰을 꺼요"
+    },
+    {
+      "id": "DAN-IND-27",
+      "corpusSentenceId": "s15_math_fun",
+      "moduleId": "m15",
+      "coverageClass": "semantic-fidelity",
+      "english": "Math is hard, but it's fun",
+      "korean": "수학은 어렵지만 재미있어요"
+    },
+    {
+      "id": "DAN-IND-28",
+      "corpusSentenceId": "s16_email_docs",
+      "moduleId": "m16",
+      "coverageClass": "semantic-fidelity",
+      "english": "I sent the documents by email",
+      "korean": "서류를 이메일로 보냈어요"
+    },
+    {
+      "id": "DAN-IND-29",
+      "corpusSentenceId": "s23_almost_there",
+      "moduleId": "m23",
+      "coverageClass": "semantic-fidelity",
+      "english": "We're almost there",
+      "korean": "거의 다 왔어요"
+    },
+    {
+      "id": "DAN-IND-30",
+      "corpusSentenceId": "s_m53_medicine_but",
+      "moduleId": "m53",
+      "coverageClass": "semantic-fidelity",
+      "english": "I took the medicine, but still haven't gotten better",
+      "korean": "약을 먹었는데 아직 안 나았어요"
+    },
+    {
+      "id": "DAN-IND-31",
+      "corpusSentenceId": "s4_father_busy",
+      "moduleId": "m4",
+      "coverageClass": "register",
+      "english": "My father is busy right now",
+      "korean": "아버지는 지금 바쁘세요"
+    },
+    {
+      "id": "DAN-IND-32",
+      "corpusSentenceId": "s4_grandpa_home",
+      "moduleId": "m4",
+      "coverageClass": "register",
+      "english": "Grandfather is at our house",
+      "korean": "할아버지는 우리 집에 계세요"
+    },
+    {
+      "id": "DAN-IND-33",
+      "corpusSentenceId": "s9_more_please",
+      "moduleId": "m9",
+      "coverageClass": "register",
+      "english": "More, please",
+      "korean": "더 주세요"
+    },
+    {
+      "id": "DAN-IND-34",
+      "corpusSentenceId": "s12_cross_light",
+      "moduleId": "m12",
+      "coverageClass": "register",
+      "english": "Cross the street at the light",
+      "korean": "신호등에서 길을 건너세요"
+    },
+    {
+      "id": "DAN-IND-35",
+      "corpusSentenceId": "s14_no_smoking",
+      "moduleId": "m14",
+      "coverageClass": "register",
+      "english": "In the hospital, don't smoke cigarettes",
+      "korean": "병원에서 담배를 피우지 마세요"
+    },
+    {
+      "id": "DAN-IND-36",
+      "corpusSentenceId": "s16_meeting_ontime",
+      "moduleId": "m16",
+      "coverageClass": "register",
+      "english": "Today's meeting is important. Don't be late",
+      "korean": "오늘 회의는 중요해요. 지각하지 마세요"
+    },
+    {
+      "id": "DAN-IND-37",
+      "corpusSentenceId": "s19_hi_longtime",
+      "moduleId": "m19",
+      "coverageClass": "register",
+      "english": "Hey! Long time no see!",
+      "korean": "안녕! 오랜만이야!"
+    },
+    {
+      "id": "DAN-IND-38",
+      "corpusSentenceId": "s19_party_come",
+      "moduleId": "m19",
+      "coverageClass": "register",
+      "english": "Come to my birthday party!",
+      "korean": "내 생일 파티에 와!"
+    },
+    {
+      "id": "DAN-IND-39",
+      "corpusSentenceId": "s19_no_fine",
+      "moduleId": "m19",
+      "coverageClass": "register",
+      "english": "No, it's fine",
+      "korean": "아니야, 괜찮아"
+    },
+    {
+      "id": "DAN-IND-40",
+      "corpusSentenceId": "s20_hello_who",
+      "moduleId": "m20",
+      "coverageClass": "register",
+      "english": "Hello? Who is this?",
+      "korean": "여보세요? 누구세요?"
+    },
+    {
+      "id": "DAN-IND-41",
+      "corpusSentenceId": "s25_call_when_free",
+      "moduleId": "m25",
+      "coverageClass": "register",
+      "english": "Please call me when you have time",
+      "korean": "시간이 있을 때 전화해 주세요"
+    },
+    {
+      "id": "DAN-IND-42",
+      "corpusSentenceId": "s26_speak_well",
+      "moduleId": "m26",
+      "coverageClass": "register",
+      "english": "You speak Korean really well!",
+      "korean": "한국어를 정말 잘하시네요!"
+    },
+    {
+      "id": "DAN-IND-43",
+      "corpusSentenceId": "s27_nice_meet",
+      "moduleId": "m27",
+      "coverageClass": "register",
+      "english": "Glad to meet you",
+      "korean": "만나서 반갑습니다"
+    },
+    {
+      "id": "DAN-IND-44",
+      "corpusSentenceId": "s27_professor_hanja",
+      "moduleId": "m27",
+      "coverageClass": "register",
+      "english": "The professor explained the hanja for us",
+      "korean": "교수님이 한자를 설명해 주셨어요"
+    },
+    {
+      "id": "DAN-IND-45",
+      "corpusSentenceId": "s_m56_gov_results",
+      "moduleId": "m56",
+      "coverageClass": "register",
+      "english": "Yesterday the government made public the investigation results. Moreover, it announced a new plan as well",
+      "korean": "정부가 어제 조사 결과를 밝혔습니다. 또한 새로운 계획도 발표했습니다"
+    },
+    {
+      "id": "DAN-IND-46",
+      "corpusSentenceId": "s11_winter_cold",
+      "moduleId": "m11",
+      "coverageClass": "literal-gap",
+      "english": "Winter is so cold",
+      "korean": "겨울은 너무 추워요"
+    },
+    {
+      "id": "DAN-IND-47",
+      "corpusSentenceId": "s7_mood_good",
+      "moduleId": "m7",
+      "coverageClass": "literal-gap",
+      "english": "I feel good today",
+      "korean": "오늘 기분이 좋아요"
+    },
+    {
+      "id": "DAN-IND-48",
+      "corpusSentenceId": "s11_dust",
+      "moduleId": "m11",
+      "coverageClass": "literal-gap",
+      "english": "The fine dust is really bad",
+      "korean": "미세먼지가 너무 많아요"
+    },
+    {
+      "id": "DAN-IND-49",
+      "corpusSentenceId": "s12_traffic_bad",
+      "moduleId": "m12",
+      "coverageClass": "literal-gap",
+      "english": "Traffic is so bad",
+      "korean": "길이 너무 막혀요"
+    },
+    {
+      "id": "DAN-IND-50",
+      "corpusSentenceId": "s18_cheers",
+      "moduleId": "m18",
+      "coverageClass": "literal-gap",
+      "english": "Cheers!",
+      "korean": "건배!"
+    },
+    {
+      "id": "DAN-IND-51",
+      "corpusSentenceId": "s_m34_somehow_good",
+      "moduleId": "m34",
+      "coverageClass": "literal-gap",
+      "english": "Today somehow I'm in a good mood",
+      "korean": "오늘은 왠지 기분이 좋아요"
+    },
+    {
+      "id": "DAN-IND-52",
+      "corpusSentenceId": "s_m35_time_flies",
+      "moduleId": "m35",
+      "coverageClass": "literal-gap",
+      "english": "The years really do fly",
+      "korean": "세월이 참 빨라요"
+    },
+    {
+      "id": "DAN-IND-53",
+      "corpusSentenceId": "s_m37_laundry_weekend",
+      "moduleId": "m37",
+      "coverageClass": "literal-gap",
+      "english": "Every weekend I run the washing machine",
+      "korean": "주말마다 세탁기를 돌려요"
+    },
+    {
+      "id": "DAN-IND-54",
+      "corpusSentenceId": "s_m54_decorate_free",
+      "moduleId": "m54",
+      "coverageClass": "literal-gap",
+      "english": "This room, you're welcome to decorate however you like",
+      "korean": "이 방은 마음대로 꾸며도 돼요"
+    },
+    {
+      "id": "DAN-IND-55",
+      "corpusSentenceId": "s_m54_washer_old",
+      "moduleId": "m54",
+      "coverageClass": "literal-gap",
+      "english": "Because the washing machine is worn out, the laundry doesn't come out properly",
+      "korean": "세탁기가 낡아서 빨래가 제대로 안 돼요"
+    },
+    {
+      "id": "DAN-IND-56",
+      "corpusSentenceId": "s_s4_busan_lunch",
+      "moduleId": "s4",
+      "coverageClass": "literal-gap",
+      "english": "A Busan friend asked over the phone: have you eaten?",
+      "korean": "부산 친구가 전화로 물어봤어요: 밥 뭇나?"
+    },
+    {
+      "id": "DAN-IND-57",
+      "corpusSentenceId": "s_m61_going_crazy",
+      "moduleId": "m61",
+      "coverageClass": "literal-gap",
+      "english": "These days I'm so busy I'm about to go out of my mind",
+      "korean": "요즘 너무 바빠서 미치겠어요"
+    },
+    {
+      "id": "DAN-IND-58",
+      "corpusSentenceId": "s_m67_passport_trouble",
+      "moduleId": "m67",
+      "coverageClass": "literal-gap",
+      "english": "My passport — I've completely lost it. This is big trouble!",
+      "korean": "여권을 잃어버렸어요. 큰일 났어요!"
+    },
+    {
+      "id": "DAN-IND-59",
+      "corpusSentenceId": "s_m87_semester_done",
+      "moduleId": "m87",
+      "coverageClass": "literal-gap",
+      "english": "Since the evaluations are over, this semester is as good as all finished",
+      "korean": "평가가 끝났으니까 이번 학기는 다 끝난 셈이에요"
+    },
+    {
+      "id": "DAN-IND-60",
+      "corpusSentenceId": "s_m133_farm",
+      "moduleId": "m133",
+      "coverageClass": "literal-gap",
+      "english": "As I kept doing farm work, I grew attached to the farm.",
+      "korean": "농사일을 하다 보니 농장에 정이 들었어요."
+    }
+  ]
+}
