@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import importlib.metadata
 import math
 import os
 from pathlib import Path
@@ -44,6 +45,7 @@ torch.manual_seed(cfg['seed'])
 start = time.monotonic()
 model, tokenizer = FastLanguageModel.from_pretrained(model_name=str(base), max_seq_length=cfg['max_seq_length'], dtype=torch.bfloat16, load_in_4bit=True, full_finetuning=False)
 model = FastLanguageModel.get_peft_model(model, r=cfg['rank'], target_modules=cfg['target_modules'], lora_alpha=cfg['alpha'], lora_dropout=0, bias='none', use_gradient_checkpointing='unsloth', random_state=cfg['seed'], finetune_vision_layers=False)
+quantization_config = model.config.quantization_config.to_dict() if hasattr(model.config.quantization_config, 'to_dict') else model.config.quantization_config
 text_tokenizer = getattr(tokenizer, 'tokenizer', tokenizer)
 FastLanguageModel.for_training(model)
 rows = json.loads(dataset.read_text())['items']
@@ -89,7 +91,7 @@ for step,(epoch,i) in enumerate(order, 1):
     print(json.dumps(record), flush=True)
 changed = sum(not torch.equal(before[n],p.detach().cpu()) for n,p in params)
 assert changed
-report = dict(config=cfg, probe=args.probe, steps=len(order), losses=losses, changed_adapter_tensors=changed, trainable_parameters=sum(p.numel() for _,p in params), train_seconds=time.monotonic()-train_start, peak_allocated_bytes=torch.cuda.max_memory_allocated(), peak_reserved_bytes=torch.cuda.max_memory_reserved(), prompt_sha256=sha(ROOT/'src/lib/translation-prompt.json'), source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip())
+report = dict(quantization_config=quantization_config, versions={name: importlib.metadata.version(name) for name in ['unsloth', 'unsloth_zoo', 'transformers', 'peft', 'torch', 'bitsandbytes']}, config=cfg, probe=args.probe, steps=len(order), losses=losses, changed_adapter_tensors=changed, trainable_parameters=sum(p.numel() for _,p in params), train_seconds=time.monotonic()-train_start, peak_allocated_bytes=torch.cuda.max_memory_allocated(), peak_reserved_bytes=torch.cuda.max_memory_reserved(), prompt_sha256=sha(ROOT/'src/lib/translation-prompt.json'), source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip())
 (WORK/'training-result.json').write_text(json.dumps(report, indent=2)+'\n')
 model.save_pretrained(str(WORK/'adapter'))
 tokenizer.save_pretrained(str(WORK/'adapter'))
