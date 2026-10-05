@@ -12,8 +12,9 @@ ROOT = Path(__file__).resolve().parents[2]
 CACHE = ROOT/'.local-models/compatibility'
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--probe', action='store_true')
+parser.add_argument('--name')
 args = parser.parse_args()
-WORK = ROOT/'.local-models'/('v1-probe' if args.probe else 'v1')
+WORK = ROOT/'.local-models'/(args.name or ('v1-probe' if args.probe else 'v1'))
 SOURCE = CACHE/'llama-matched'
 
 def sha(path):
@@ -54,7 +55,8 @@ for stage, command in [
     subprocess.run(['/usr/bin/time','-v','-o',str(WORK/f'{stage}-resources.txt'),*command], check=True)
     steps.append(dict(stage=stage, command=command, wall_seconds=time.monotonic()-start))
 report = dict(converter_commit='26394b4e6749a41c3633db040e0987500a5f7013', matched_vendored_files=count, steps=steps,
-              artifacts=[artifact(p) for p in [bf16,q8,WORK/'adapter/adapter_model.safetensors']])
+              artifacts=[artifact(p) for p in [bf16,q8,WORK/'adapter/adapter_model.safetensors']],
+              merged_files=[artifact(p) for p in sorted((WORK/'merged').rglob('*')) if p.is_file()])
 (WORK/'export-result.json').write_text(json.dumps(report, indent=2)+'\n')
 examples = ROOT/'reference/training/smoke-examples.json'
 subprocess.run(['python3','reference/eval/check-independent-freeze.py','--candidates',str(examples)],cwd=ROOT,check=True)
@@ -72,5 +74,5 @@ env = dict(os.environ, DANEO_ACCEPTANCE_MODEL_BYTES=str(model['bytes']), DANEO_A
     DANEO_ACCEPTANCE_SET_PATH=str(fixture.relative_to(ROOT)), DANEO_ACCEPTANCE_SET_SHA256=sha(fixture),
     DANEO_MODEL_PATH=str(q8), DANEO_ACCEPTANCE_RAW=str(WORK/'runtime-raw.jsonl'))
 subprocess.run(['/usr/bin/time','-v','-o',str(WORK/'runtime-resources.txt'),'unshare','--user','--map-root-user','--net',str(binary),str(fixture.relative_to(ROOT)),str(WORK/'runtime-results.jsonl')],cwd=ROOT,env=env,check=True)
-subprocess.run(['node','--import','tsx','reference/training/validate-v1.mjs',*(['--probe'] if args.probe else [])],cwd=ROOT,check=True)
+subprocess.run(['node','--import','tsx','reference/training/validate-v1.mjs',*(['--name', args.name] if args.name else ['--probe'] if args.probe else [])],cwd=ROOT,check=True)
 print(json.dumps(report),flush=True)

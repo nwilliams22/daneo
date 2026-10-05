@@ -4,11 +4,15 @@ import { translationResultSchema } from '../../src/lib/schemas.ts';
 import { postprocessTranslation } from '../../src/lib/translation-postprocess.ts';
 const strict = translationResultSchema.omit({ romanization: true, particles: true }).strict();
 if (process.argv.includes('--dataset')) {
-  const dataset = JSON.parse(readFileSync(new URL('./dataset-v1.json', import.meta.url)));
-  for (const row of dataset.items) strict.parse(row.target);
-  console.log(`PASS: ${dataset.items.length} strict targets`);
+  for (const name of process.argv.includes('--v2') ? ['dataset-v2', 'development-v2'] : ['dataset-v1']) {
+    const dataset = JSON.parse(readFileSync(new URL(`./${name}.json`, import.meta.url)));
+    for (const row of dataset.items) strict.parse(row.target);
+    console.log(`PASS: ${name}: ${dataset.items.length} strict targets`);
+  }
 } else {
-  const name = process.argv.includes('--probe') ? 'v1-probe' : 'v1';
+  const nameIndex = process.argv.indexOf('--name');
+  const name = nameIndex >= 0 ? process.argv[nameIndex + 1] : process.argv.includes('--probe') ? 'v1-probe' : 'v1';
+  assert.match(name, /^[a-z0-9-]+$/);
   const root = new URL(process.argv.includes('--evidence') ? `./evidence/${name}/` : `../../.local-models/${name}/`, import.meta.url);
   const read = name => readFileSync(new URL(name, root), 'utf8');
   const row = read('runtime-results.jsonl').trim().split('\n').map(JSON.parse).find(r => r.id === 'compatibility-smoke');

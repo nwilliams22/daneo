@@ -14,8 +14,10 @@ ROOT = Path(__file__).resolve().parents[2]
 CACHE = ROOT / '.local-models/compatibility'
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--probe', action='store_true')
+parser.add_argument('--config', default='v1-config.json')
+parser.add_argument('--name')
 args = parser.parse_args()
-WORK = ROOT / '.local-models' / ('v1-probe' if args.probe else 'v1')
+WORK = ROOT / '.local-models' / (args.name or ('v1-probe' if args.probe else 'v1'))
 for key, folder in [('HF_HOME', 'hf'), ('TRITON_CACHE_DIR', 'triton'), ('TORCHINDUCTOR_CACHE_DIR', 'inductor'), ('UNSLOTH_COMPILE_LOCATION', 'unsloth-cache')]:
     os.environ[key] = str(CACHE / folder)
 os.environ.update(HF_HUB_OFFLINE='1', HF_HUB_DISABLE_TELEMETRY='1', HF_HUB_DISABLE_IMPLICIT_TOKEN='1')
@@ -24,11 +26,14 @@ def sha(path):
     with path.open('rb') as stream:
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
-cfg = json.loads((ROOT/'reference/training/v1-config.json').read_text())
-dataset = ROOT/'reference/training/dataset-v1.json'
+cfg = json.loads((ROOT/'reference/training'/args.config).read_text())
+dataset = ROOT/'reference/training'/cfg.get('dataset', 'dataset-v1.json')
+development = ROOT/'reference/training'/cfg['development'] if 'development' in cfg else None
+if development:
+    assert sha(development) == cfg['development_sha256']
 assert sha(dataset) == cfg['dataset_sha256']
 subprocess.run(['python3', 'reference/eval/check-independent-freeze.py', '--candidates', str(dataset)], cwd=ROOT, check=True)
-subprocess.run(['node', '--import', 'tsx', 'reference/training/validate-v1.mjs', '--dataset'], cwd=ROOT, check=True)
+subprocess.run(['node', '--import', 'tsx', 'reference/training/validate-v1.mjs', '--dataset', *(['--v2'] if development else [])], cwd=ROOT, check=True)
 if not args.probe:
     gate = json.loads((ROOT/'.local-models/v1-probe/schema-result.json').read_text())
     assert gate['passed'], 'QLoRA export/runtime probe must pass first'
@@ -50,14 +55,36 @@ text_tokenizer = getattr(tokenizer, 'tokenizer', tokenizer)
 FastLanguageModel.for_training(model)
 rows = json.loads(dataset.read_text())['items']
 prompt = json.loads((ROOT/'src/lib/translation-prompt.json').read_text())
-encoded = []
-for row in rows:
-    content = prompt.replace('{{DIRECTION}}', row['target']['direction']).replace('{{INPUT}}', row['input'])
-    prefix = tokenizer.apply_chat_template([dict(role='user', content=content)], tokenize=False, add_generation_prompt=True, enable_thinking=False)
-    prefix_ids = text_tokenizer(prefix, add_special_tokens=False)['input_ids']
-    response_ids = text_tokenizer(json.dumps(row['target'], ensure_ascii=False)+text_tokenizer.eos_token, add_special_tokens=False)['input_ids']
-    assert len(prefix_ids)+len(response_ids) <= cfg['max_seq_length'], row['id']
-    encoded.append((row['id'], prefix_ids, response_ids))
+def encode(rows):
+    encoded = []
+    for row in rows:
+        content = prompt.replace('{{DIRECTION}}', row['target']['direction']).replace('{{INPUT}}', row['input'])
+        prefix = tokenizer.apply_chat_template([dict(role='user', content=content)], tokenize=False, add_generation_prompt=True, enable_thinking=False)
+        prefix_ids = text_tokenizer(prefix, add_special_tokens=False)['input_ids']
+        response_ids = text_tokenizer(json.dumps(row['target'], ensure_ascii=False)+text_tokenizer.eos_token, add_special_tokens=False)['input_ids']
+        assert len(prefix_ids)+len(response_ids) <= cfg['max_seq_length'], row['id']
+        encoded.append((row['id'], prefix_ids, response_ids))
+    return encoded
+
+encoded = encode(rows)
+dev_encoded = encode(json.loads(development.read_text())['items']) if development else []
+
+def development_loss(step, epoch):
+    model.eval()
+    total, tokens = 0.0, 0
+    with torch.no_grad():
+        for _, prefix_ids, response_ids in dev_encoded:
+            ids = torch.tensor([prefix_ids+response_ids], device='cuda')
+            labels = torch.tensor([[-100]*len(prefix_ids)+response_ids], device='cuda')
+            value = model(input_ids=ids, attention_mask=torch.ones_like(ids), labels=labels).loss.item()
+            assert math.isfinite(value)
+            total += value * len(response_ids)
+            tokens += len(response_ids)
+    model.train()
+    result = dict(step=step, epoch=epoch, response_token_mean_loss=total/tokens, response_tokens=tokens)
+    print(json.dumps(dict(development=result)), flush=True)
+    return result
+
 params = [(n,p) for n,p in model.named_parameters() if p.requires_grad]
 assert params and all('lora_' in n for n,p in params)
 before = {n:p.detach().cpu().clone() for n,p in params}
@@ -73,10 +100,19 @@ if args.probe:
 torch.cuda.reset_peak_memory_stats()
 losses = []
 train_start = time.monotonic()
+dev_losses = [development_loss(0, 0)] if dev_encoded else []
+best_loss = float('inf')
+best_state = None
+selected_epoch = None
 for step,(epoch,i) in enumerate(order, 1):
     rid,prefix_ids,response_ids = encoded[i]
     ids = torch.tensor([prefix_ids+response_ids], device='cuda')
     labels = torch.tensor([[-100]*len(prefix_ids)+response_ids], device='cuda')
+    if cfg.get('schedule') == 'cosine':
+        warmup = cfg['warmup_steps']
+        factor = step/warmup if step <= warmup else 0.5*(1+math.cos(math.pi*(step-warmup)/(len(order)-warmup)))
+        for group in optimizer.param_groups:
+            group['lr'] = cfg['learning_rate']*factor
     optimizer.zero_grad(set_to_none=True)
     loss = model(input_ids=ids, attention_mask=torch.ones_like(ids), labels=labels).loss
     value = loss.item()
@@ -86,12 +122,24 @@ for step,(epoch,i) in enumerate(order, 1):
     assert math.isfinite(norm.item())
     optimizer.step()
     torch.cuda.synchronize()
-    record = dict(step=step, epoch=epoch, id=rid, loss=value, input_tokens=ids.numel(), grad_norm=norm.item())
+    record = dict(step=step, epoch=epoch, id=rid, loss=value, input_tokens=ids.numel(), grad_norm=norm.item(), learning_rate=optimizer.param_groups[0]['lr'])
     losses.append(record)
     print(json.dumps(record), flush=True)
+    if dev_encoded and step % len(rows) == 0:
+        measured = development_loss(step, epoch)
+        dev_losses.append(measured)
+        if measured['response_token_mean_loss'] < best_loss:
+            best_loss = measured['response_token_mean_loss']
+            selected_epoch = epoch
+            best_state = {n:p.detach().cpu().clone() for n,p in params}
+        (WORK/'development-losses.json').write_text(json.dumps(dev_losses, indent=2)+'\n')
+if best_state is not None:
+    with torch.no_grad():
+        for n,p in params:
+            p.copy_(best_state[n])
 changed = sum(not torch.equal(before[n],p.detach().cpu()) for n,p in params)
 assert changed
-report = dict(quantization_config=quantization_config, versions={name: importlib.metadata.version(name) for name in ['unsloth', 'unsloth_zoo', 'transformers', 'peft', 'torch', 'bitsandbytes']}, config=cfg, probe=args.probe, steps=len(order), losses=losses, changed_adapter_tensors=changed, trainable_parameters=sum(p.numel() for _,p in params), train_seconds=time.monotonic()-train_start, peak_allocated_bytes=torch.cuda.max_memory_allocated(), peak_reserved_bytes=torch.cuda.max_memory_reserved(), prompt_sha256=sha(ROOT/'src/lib/translation-prompt.json'), source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip())
+report = dict(development_losses=dev_losses, selected_epoch=selected_epoch, selected_development_loss=best_loss if dev_encoded else None, quantization_config=quantization_config, versions={name: importlib.metadata.version(name) for name in ['unsloth', 'unsloth_zoo', 'transformers', 'peft', 'torch', 'bitsandbytes']}, config=cfg, probe=args.probe, steps=len(order), losses=losses, changed_adapter_tensors=changed, trainable_parameters=sum(p.numel() for _,p in params), train_seconds=time.monotonic()-train_start, peak_allocated_bytes=torch.cuda.max_memory_allocated(), peak_reserved_bytes=torch.cuda.max_memory_reserved(), prompt_sha256=sha(ROOT/'src/lib/translation-prompt.json'), source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip())
 (WORK/'training-result.json').write_text(json.dumps(report, indent=2, default=str)+'\n')
 model.save_pretrained(str(WORK/'adapter'))
 tokenizer.save_pretrained(str(WORK/'adapter'))
