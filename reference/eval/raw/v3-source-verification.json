@@ -1,0 +1,39 @@
+{
+  "converterCommit": "26394b4e6749a41c3633db040e0987500a5f7013",
+  "matchedVendoredFiles": 1865,
+  "sources": [
+    {
+      "repoId": "K-intelligence/Midm-2.0-Mini-Instruct",
+      "revision": "383eb221c52a32278f1985257b264ade8d982e60",
+      "verifiedWeights": [
+        {
+          "filename": "model.safetensors",
+          "bytes": 4611084960,
+          "sha256": "03755deae6cc183c9957bcf7b753924b0d1284e1b44aea95aaa822594765e70b"
+        }
+      ]
+    },
+    {
+      "repoId": "skt/A.X-4.0-Light",
+      "revision": "ba21c20ea1b31ded1ec3e2fb432335077dc4be98",
+      "verifiedWeights": [
+        {
+          "filename": "model-00001-of-00003.safetensors",
+          "bytes": 4987786168,
+          "sha256": "2f80502d7d801be45497f1391d82f0ff2e4afb7f0c26cbe988fcd3455d768655"
+        },
+        {
+          "filename": "model-00002-of-00003.safetensors",
+          "bytes": 4932751024,
+          "sha256": "1725192e45669b4b6ee825aaa79832a82b2f92e9dac18a68a7f69d0bcfa5feec"
+        },
+        {
+          "filename": "model-00003-of-00003.safetensors",
+          "bytes": 4598751568,
+          "sha256": "cfdeb1f54032d8b6a34b235a4f9f2a67325b1a3dfc26f7d271964ae1b1950822"
+        }
+      ]
+    }
+  ],
+  "quantizerSha256": "398b543d82be71fc61f7190c87f6bd13772cb89dd630f72f57b2bb0ff2200f42"
+}
