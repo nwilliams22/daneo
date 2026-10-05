@@ -10,11 +10,12 @@ ROOT = Path(__file__).resolve().parents[2]
 WORK = ROOT / '.local-models/compatibility'
 parser = argparse.ArgumentParser(description=__doc__)
 group = parser.add_mutually_exclusive_group()
+group.add_argument('--q8', action='store_true', help='Use the separate matched Q8_0 export')
 group.add_argument('--matched', action='store_true', help='Use the matched-toolchain Q4 export without overwriting baseline evidence')
 group.add_argument('--bf16', action='store_true', help='Diagnose the same merged weights before quantization')
 args = parser.parse_args()
-prefix = 'runtime-matched' if args.matched else 'runtime-bf16' if args.bf16 else 'runtime'
-model_file = 'matched-Q4_K_M.gguf' if args.matched else 'smoke-BF16.gguf' if args.bf16 else 'smoke-Q4_K_M.gguf'
+prefix = 'runtime-q8' if args.q8 else 'runtime-matched' if args.matched else 'runtime-bf16' if args.bf16 else 'runtime'
+model_file = 'q8-Q8_0.gguf' if args.q8 else 'matched-Q4_K_M.gguf' if args.matched else 'smoke-BF16.gguf' if args.bf16 else 'smoke-Q4_K_M.gguf'
 examples = ROOT/'reference/training/smoke-examples.json'
 subprocess.run(['python3', str(ROOT/'reference/eval/check-independent-freeze.py'), '--candidates', str(examples)], check=True)
 row = json.loads(examples.read_text())['items'][0]
@@ -22,7 +23,7 @@ fixture = WORK/'runtime-fixture.json'
 fixture.write_text(json.dumps(dict(items=[dict(id='compatibility-smoke', input=row['english'], direction='en-to-ko')]))+'\n')
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
-artifact = next(row for row in json.loads((WORK/('matched-export-result.json' if args.matched else 'export-result.json')).read_text())['artifacts'] if row['path'] == model_file)
+artifact = next(row for row in json.loads((WORK/('q8-export-result.json' if args.q8 else 'matched-export-result.json' if args.matched else 'export-result.json')).read_text())['artifacts'] if row['path'] == model_file)
 env = dict(os.environ, DANEO_ACCEPTANCE_MODEL_BYTES=str(artifact['bytes']), DANEO_ACCEPTANCE_MODEL_SHA256=artifact['sha256'], DANEO_ACCEPTANCE_HEAD=subprocess.check_output(['git','rev-parse','HEAD'], cwd=ROOT,text=True).strip(),
     DANEO_ACCEPTANCE_PROMPT_SHA256=sha(ROOT/'src/lib/translation-prompt.json'),
     DANEO_ACCEPTANCE_RUBRIC_SHA256=sha(ROOT/'reference/eval/v0-rubric.md'),

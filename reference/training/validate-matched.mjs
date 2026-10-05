@@ -7,7 +7,7 @@ const root = new URL('./evidence/', import.meta.url);
 const modelSchema = translationResultSchema.omit({ romanization: true, particles: true }).strict();
 const reports = [];
 const provenance = [];
-for (const prefix of ['runtime', 'runtime-bf16', 'runtime-matched']) {
+for (const prefix of ['runtime', 'runtime-bf16', 'runtime-matched', 'runtime-q8']) {
   const rows = readFileSync(new URL(`${prefix}-results.jsonl`, root), 'utf8').trim().split('\n').map(JSON.parse);
   const row = rows.find(row => row.id === 'compatibility-smoke');
   assert.equal(row?.outcome?.ok, true, JSON.stringify(row));
@@ -36,9 +36,13 @@ for (const key of ['promptSha256', 'itemSetSha256', 'rubricSha256']) {
 }
 const exported = JSON.parse(readFileSync(new URL('matched-export-result.json', root), 'utf8'));
 const artifact = exported.artifacts.find(row => row.path === 'matched-Q4_K_M.gguf');
-assert.equal(provenance.at(-1).modelSha256, artifact.sha256);
-assert.equal(provenance.at(-1).modelBytes, artifact.bytes);
+assert.equal(provenance[2].modelSha256, artifact.sha256);
+assert.equal(provenance[2].modelBytes, artifact.bytes);
+const q8Export = JSON.parse(readFileSync(new URL('q8-export-result.json', root), 'utf8'));
+const q8Artifact = q8Export.artifacts.find(row => row.path === 'q8-Q8_0.gguf');
+assert.equal(provenance[3].modelSha256, q8Artifact.sha256);
+assert.equal(provenance[3].modelBytes, q8Artifact.bytes);
 writeFileSync(new URL('matched-schema-comparison.json', root), JSON.stringify(reports, null, 2) + '\n');
 console.log(reports.map(({ prefix, strictModelOwnedValid, postprocessorAccepted, assembledSchemaValid }) => ({ prefix, strictModelOwnedValid, postprocessorAccepted, assembledSchemaValid })));
 const matched = reports.at(-1);
-process.exitCode = matched.strictModelOwnedValid && matched.assembledSchemaValid && matched.directionMatches ? 0 : 1;
+process.exitCode = matched.strictModelOwnedValid && matched.postprocessorAccepted && matched.assembledSchemaValid && matched.directionMatches ? 0 : 1;
