@@ -14,7 +14,7 @@
 
 > **App status (2026-10-05):** The first release excludes the AI translator, Ask Daneo and model controls at build time (`import.meta.env.DEV`), while Explore keeps saved discoveries and explains the absence. Phase B no longer waits for Phase D. Phase D remains available in development; the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. The documentation closeout and component reactivation gates are in `reference/desktop-closeout.md`; release-one packaging is independent.
 
-> **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. Two bounded QLoRA comparisons completed; LR 0.0001 / epoch 2 selected on development loss (0.2103), exported as Q8_0, and loaded successfully in the unchanged native worker with a schema-valid reply. Independent artifact review passed. The once-only paired v2 gate now declines at base 2/10 and scaled fine-tune 3/10 against ≥9/10; literal gap is 3/10 for both and fine-tune register is 10/10. Independent re-score of retained replies remains; v2 is spent as an unseen gate. Model pin remains null. See `reference/eval/v2-results.md`. See `reference/training/development-v2-freeze.md` and `reference/training/v2-results.md`.
+> **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. Two bounded QLoRA comparisons completed; LR 0.0001 / epoch 2 selected on development loss (0.2103), exported as Q8_0, and loaded successfully in the unchanged native worker with a schema-valid reply. Independent artifact review and independent sealed-set re-score passed provenance and confirmed the recorded v2 counts: base 2/10 and scaled fine-tune 3/10 against ≥9/10. Fine-tune register is 10/10 vs base 8/10 on v2; literal gap remains 3/10 for both, with 0/7 applicable fine-tune items passing. On the separate 60-item fresh set, literal gap is 1/15 for both and register is 6/15 vs 5/15, so target improvement did not generalize. v2 is spent; model pin remains null. See `reference/eval/v2-results.md`, `reference/eval/v2-independent-review.md`, `reference/training/development-v2-freeze.md` and `reference/training/v2-results.md`.
 
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
@@ -917,6 +917,27 @@ identity manifest are under `reference/eval/raw/`; report and item tables are
 `reference/eval/v2-results.md`. Warm p95: 18.743 s / 14.926 s; cold first token:
 6.846 s / 7.817 s. `npm run build` passed including typecheck and content 16/16;
 `npm test -- --run` passed 242/242 in 21 files. Native runs exited 0. No UI run.
-Post-commit provenance and own-commit CI are required before task closure.
-Next: independent re-score of saved evidence, then the engine decision; never
-rerun or tune against v2. Release one continues with AI off.
+Post-commit provenance and own-commit CI were the recorded release gates for
+the run commit. Next: independent re-score of saved evidence, then the engine
+decision; never rerun or tune against v2. Release one continues with AI off.
+
+
+### 2026-10-05 — Independent re-score of the sealed v2 gate
+
+Independently scored the ten retained raw replies per engine against the
+unchanged v0 rubric; did not rerun inference. Verdict matches the original
+per-item judgments: base 2/10 and Q8_0 fine-tune 3/10, both below ≥9/10. Base
+has one meaning reversal and three invented-rule flags; fine-tune has no
+reversal and one invented-rule flag. Fine-tune register is 10/10 vs base 8/10
+on v2, but literal-gap dimension remains 3/10 for both (base 1/7 and fine-tune
+0/7 on applicable gap explanations). On the separate 60-item fresh set, gap is
+1/15 for both and register is 6/15 vs 5/15; the training target improvement
+did not generalize there.
+
+From the repository root, the three v2/head-to-head provenance checkers and
+`python3 reference/eval/check-independent-freeze.py --candidates
+reference/training/dataset-v2.json` all exited 0. They confirmed the fixture and
+artifact identities, 10 scored rows plus warmup per stream, 250 training rows
+with no overlap with the 96 reservations, and no training/development overlap.
+Full verdict and per-item dimensions: `reference/eval/v2-independent-review.md`.
+No inference or build was run; model pin remains null. **Review complete.**
