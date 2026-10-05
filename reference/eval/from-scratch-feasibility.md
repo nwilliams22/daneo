@@ -89,7 +89,8 @@ Set every model result side by side with **who produces each field today**:
 | Literal-gap claims | model | 0–3/30 |
 
 **Every dimension Daneo computes itself passes. Every dimension it delegates to a model is the reason
-no model has passed.** Five candidates, three families, and that pattern has never once broken.
+no model has passed.** Five gated rungs on Qwen plus two screened Korean-native families — seven
+measured configurations, three families — and that pattern has never once broken.
 
 And the field that fails hardest is the one Daneo has **already authored by hand**:
 `src/content/gap.json` holds **420 reviewed entries** carrying precisely the fields the rubric asks
