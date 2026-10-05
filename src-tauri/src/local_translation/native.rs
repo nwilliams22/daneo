@@ -235,13 +235,15 @@ pub(super) fn generate(
         .chat_template(None)
         .map_err(|_| TranslateError::generation())?;
     let vocab = model.vocab();
-    let bos_token = String::from_utf8(vocab.token_to_piece(vocab.bos(), true, None))
-        .map_err(|_| TranslateError::generation())?;
-    let prompt = render_chat_prompt(
-        template.to_str().map_err(|_| TranslateError::generation())?,
-        &instruction,
-        &bos_token,
-    )?;
+    let template = template.to_str().map_err(|_| TranslateError::generation())?;
+    // Only Mi:dm consumes BOS; other vocabularies may have no BOS token at all.
+    let bos_token = if template.contains("Mi:dm") {
+        String::from_utf8(vocab.token_to_piece(vocab.bos(), true, None))
+            .map_err(|_| TranslateError::generation())?
+    } else {
+        String::new()
+    };
+    let prompt = render_chat_prompt(template, &instruction, &bos_token)?;
     let tokens = vocab.tokenize(prompt.as_bytes(), false, true);
     if tokens.is_empty() || tokens.len() + OUTPUT_TOKENS > CONTEXT_TOKENS as usize {
         return Err(TranslateError::new(

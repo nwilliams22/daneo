@@ -112,14 +112,12 @@
   },
   "14": {
     "fail": [
-      "meaning",
       "gloss",
       "particles",
-      "register",
-      "romanization",
       "literalGap"
     ],
-    "evidence": "No schema-valid final reply: role adverb is outside the closed set. No dimension credited without a usable final result; raw direction is correct. Raw gloss also labels parents-to subject and gap claims English often lacks regularity."
+    "evidence": "Schema rejects adverb role; visible meaning, polite telephone verb and deterministic romanization pass. Gloss marks parents-to subject and particle extraction omits 께. Raw gap falsely claims English often does not specify regularity.",
+    "inventedRule": true
   },
   "15": {
     "fail": [
@@ -155,14 +153,11 @@
   },
   "19": {
     "fail": [
-      "meaning",
       "gloss",
-      "particles",
       "register",
-      "romanization",
       "literalGap"
     ],
-    "evidence": "No schema-valid final reply; no dimension credited without a usable app result. Raw direction remains correct."
+    "evidence": "Schema rejects adverb/adjective roles. Visible meaning and extracted 가/은 pass. Gloss omits 관광객이 as a Korean chunk and misaligns many tourists. Formal 붐빕니다 and unsupported specific/general literal-gap contrast fail."
   },
   "20": {
     "fail": [
@@ -227,14 +222,12 @@
   },
   "28": {
     "fail": [
-      "meaning",
       "gloss",
       "particles",
-      "register",
-      "romanization",
       "literalGap"
     ],
-    "evidence": "No schema-valid final reply; no dimension credited without a usable app result. Raw direction is correct."
+    "evidence": "Schema rejects adjective role. Visible ticket-price comparison, polite verb and computed romanization pass. Gloss loses comparison 보다 and particle extraction omits it. Raw gap falsely claims English does not specify which ticket is which.",
+    "inventedRule": true
   },
   "29": {
     "fail": [
@@ -246,13 +239,9 @@
   },
   "30": {
     "fail": [
-      "meaning",
       "gloss",
-      "particles",
-      "register",
-      "romanization",
       "literalGap"
     ],
-    "evidence": "No schema-valid final reply; no dimension credited without a usable app result. Raw direction is correct."
+    "evidence": "Schema rejects adverb role. Visible meaning, topic particle, polite verb and computed romanization pass. Gloss renders 사실은 as natural actually rather than fact-topic and labels it subject; gap contrasts equivalent neutral/contrast readings without explaining fact-topic."
   }
 }

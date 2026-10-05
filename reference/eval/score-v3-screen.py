@@ -20,17 +20,16 @@ scored = []
 for row in rows:
     note = notes[row['id'].rsplit('-', 1)[1]]
     assert set(note['fail']) <= set(dimensions)
-    if not row['schemaComplete']:
-        assert set(note['fail']) == set(dimensions), 'No dimension pass without a usable final reply'
     verdict = {key: key not in note['fail'] for key in dimensions}
     scored.append(dict(id=row['id'], schemaComplete=row['schemaComplete'],
-        directionCorrect=row['directionCorrect'], rawDirectionCorrect=row['rawDirectionCorrect'],
+        directionCorrect=row['rawDirectionCorrect'], usableFinalDirection=row['directionCorrect'], rawDirectionCorrect=row['rawDirectionCorrect'],
         thinkingLeak=row['thinkingLeak'], dimensions=verdict, evidence=note['evidence'],
         meaningReversal=note.get('meaningReversal', False), inventedRule=note.get('inventedRule', False),
-        fullyCorrect=row['schemaComplete'] and row['directionCorrect'] and not row['thinkingLeak']
+        fullyCorrect=row['schemaComplete'] and row['rawDirectionCorrect'] and not row['thinkingLeak']
           and all(verdict.values()) and not note.get('meaningReversal', False) and not note.get('inventedRule', False)))
-counts = {key: sum(row[key] for row in scored) for key in ['schemaComplete','directionCorrect','rawDirectionCorrect','thinkingLeak','meaningReversal','inventedRule','fullyCorrect']}
+counts = {key: sum(row[key] for row in scored) for key in ['schemaComplete','directionCorrect','usableFinalDirection','rawDirectionCorrect','thinkingLeak','meaningReversal','inventedRule','fullyCorrect']}
 counts['dimensions'] = {key: sum(row['dimensions'][key] for row in scored) for key in dimensions}
+counts['focusGroups'] = {label: dict(passed=sum(row['dimensions'][dimension] for row, item in zip(scored, items) if item['coverageClass'] == label), total=sum(item['coverageClass'] == label for item in items)) for label, dimension in [('literal-gap', 'literalGap'), ('register', 'register')]}
 timings = [json.loads(line) for line in Path(str(prefix)+'-results.jsonl').read_text().splitlines()]
 warm = [row['completionMs'] for row in timings if row['id'].startswith('DAN-V3-DEV-')]
 first = timings[0]
@@ -39,7 +38,7 @@ runtime = dict(downloadBytes=read('-artifact.json')['bytes'], coldReadyMs=first[
     coldFirstTokenMs=first['firstTokenMs'], coldCompletionMs=first['completionMs'],
     warmP95Ms=sorted(warm)[math.ceil(.95*len(warm))-1], warmSamples=len(warm),
     sampledPeakRssKiB=memory['sampledPeakRssKiB'])
-report = dict(method='First manual review under the unchanged v0 rubric; no dimension credited without a schema-valid final app reply. Raw directions reported separately. Not an independent gate verdict.',
+report = dict(method='First manual review under the unchanged v0 rubric. Schema and language dimensions scored separately. Rejected replies retain visible raw language plus deterministic romanization/particle diagnostics; they can never be fully correct. Flags inspect raw replies too. Not an independent gate verdict.',
               counts=counts, runtime=runtime, items=scored)
 Path(str(prefix)+'-scored.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(dict(counts=counts,runtime=runtime),indent=2))

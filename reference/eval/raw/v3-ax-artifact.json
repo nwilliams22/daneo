@@ -1,0 +1,10 @@
+{
+  "repoId": "skt/A.X-4.0-Light",
+  "revision": "ba21c20ea1b31ded1ec3e2fb432335077dc4be98",
+  "filename": "ax-Q4_K_M.gguf",
+  "bytes": 4435826208,
+  "sha256": "8c667c4451ac7608899cbe358a205f3354869a1f4928ccbb6c060351ddd77a70",
+  "localOnly": true,
+  "quantization": "Q4_K_M",
+  "converterCommit": "26394b4e6749a41c3633db040e0987500a5f7013"
+}

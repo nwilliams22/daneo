@@ -1,6 +1,7 @@
 /** Apply the same deterministic fields and schema as the learner adapter. */
 import { readFileSync, writeFileSync } from 'node:fs';
-import { postprocessTranslation } from '../../src/lib/translation-postprocess.ts';
+import { postprocessTranslation, particlesIn } from '../../src/lib/translation-postprocess.ts';
+import { romanize } from '../../src/lib/romanize.ts';
 const family = process.argv[2];
 if (!['midm', 'ax'].includes(family)) throw new Error('usage: node --import tsx reference/eval/assemble-v3-screen.mjs midm|ax');
 const prefix = `reference/eval/raw/v3-${family}`;
@@ -11,7 +12,12 @@ const rows = results.filter(row => row.id.startsWith('DAN-V3-DEV-')).map(row => 
   const assembled = row.outcome?.ok ? postprocessTranslation(row.outcome.result) : null;
   let rawDirection;
   try { rawDirection = JSON.parse(response.rawReply.replace(/```(?:json)?/g, '').trim()).direction; } catch {}
-  return { id: row.id, input: row.input, direction: row.direction, assembled,
+  const rawResult = row.outcome?.ok ? row.outcome.result : null;
+  // Diagnostic fields remain rejected: do not repair roles or award schema validity.
+  const diagnostic = assembled ?? (typeof rawResult?.korean === 'string' ? {
+    ...rawResult, romanization: romanize(rawResult.korean), particles: particlesIn(rawResult.korean),
+  } : null);
+  return { id: row.id, input: row.input, direction: row.direction, assembled, diagnostic,
     schemaComplete: assembled !== null, directionCorrect: assembled?.direction === row.direction,
     rawDirectionCorrect: rawDirection === row.direction,
     thinkingLeak: /<\/?think>|<\|(?:analysis|channel)\|>/.test(response?.rawReply ?? ''),

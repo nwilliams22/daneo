@@ -1,0 +1,230 @@
+{
+  "01": {
+    "fail": [
+      "gloss",
+      "register"
+    ],
+    "evidence": "Satiety meaning and stomach-full versus I-am-full explanation are correct. Gloss stomach omits the subject-particle reading rather than marking stomach-[subj]. Korean remains dictionary/plain 부르다 instead of polite 불러요."
+  },
+  "02": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Help request and polite Korean survive. The gloss gives the natural help me instead of help-give, and literal_gap calls it a simple imperative without explaining the give-for-me construction probed by the source."
+  },
+  "03": {
+    "fail": [
+      "gloss",
+      "particles",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Subway advice survives. Gloss loses source-from in 여기서 and connective -고; final particles omit 서. Literal_gap confidently claims 를 is used although no 를 occurs in the Korean line."
+  },
+  "04": {
+    "fail": [
+      "gloss"
+    ],
+    "evidence": "Natural I have a question is acceptable and the gap explains thing-exists versus have. Gloss wrongly treats 궁금한 as a subject and 것이 as object, rather than a curious modifier and subject-marked thing."
+  },
+  "05": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Schema rejects question/adverb roles. Meaning, polite speech and extracted 을 pass. Gloss repeats 왜 that occurs only once. Gap explains similar expressions but not the omitted Korean actor or actual ellipsis."
+  },
+  "06": {
+    "fail": [
+      "gloss",
+      "particles",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Permission meaning and politeness survive, but the gloss/gap lose eat-even-if becomes. Final particles wrongly extract verbal 도 as noun additive. Cultural note falsely derives 돼요 from 이다 rather than 되다."
+  },
+  "07": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects time/adverb/future_intent roles. Payday/ramen intention, polite 게요 and 까지 pass. Much of the gloss remains Korean instead of English. Gap claims noun object marker 을 is present, but only verbal 을 in 먹을게요 occurs."
+  },
+  "08": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Song/mother memory meaning and particles survive. Gloss loses conditional -면 and renders thought-arises as natural I think rather than the literal construction. Gap lists particles but does not explain the thought-arises/think-of difference."
+  },
+  "09": {
+    "fail": [
+      "meaning",
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects time/adjective roles. Korean line leaves downtown everywhere untranslated; gloss also mixes English chunks and wrong building-object role. Gap claims 에 and 를 occur when neither does. Existing subject 이, polite ending and transliteration of the actual mixed line are preserved."
+  },
+  "10": {
+    "fail": [
+      "gloss",
+      "particles",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects multiple role names. Height comparison and polite speech survive. 나요 is wrongly glossed do not. Extraction invents 로 from 별로 and omits 하고. Gap falsely says English implies its subject although My brother and I is explicit."
+  },
+  "11": {
+    "fail": [
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects role question, but the visible why + polite-ending gloss, meaning, register and empty particle list are accurate. Gap falsely calls 요 a question particle rather than a politeness marker."
+  },
+  "12": {
+    "fail": [
+      "gloss",
+      "register"
+    ],
+    "evidence": "Birthday meaning and literal birthday-congratulate versus English Happy birthday contrast are correct. Gloss wrongly labels birthday subject. Casual 축하해 remains without explaining or converting its register; calling birthday wishes polite is not a speech-level explanation."
+  },
+  "13": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Schema rejects polite request role. Polite prohibition, meaning and empty noun-particle list pass. Gloss splits lie/do-not/please-dont, duplicating negation and treating noun 거짓말 as verb. Gap offers an unsupported directness contrast between equivalent prohibitions."
+  },
+  "14": {
+    "fail": [
+      "gloss",
+      "particles",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects topic/adverb roles. Meaning and polite form pass. Gloss falsely makes recipient 께 a possessive/topic; extractor omits it entirely. Gap contrasts respect with English frequency instead of explaining the actual structure and understood actor."
+  },
+  "16": {
+    "fail": [
+      "register",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects punctuation role, but construction-in-progress/is/apologize gloss preserves readable order and meaning. Formal 합니다 line remains without speech-level explanation. Gap falsely calls the apology a polite request."
+  },
+  "15": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Polite door-pulling request and object particle pass. Gloss reduces 당겨주세요 to pull, omitting the give/request component. Gap calls ordinary English Pull the door the literal construction rather than explaining the Korean door-object pull-give structure."
+  },
+  "17": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects adverb/verb_ending roles. Meaning and polite copula pass. Gloss mislabels predicate cafe as object and loses relative-clause structure. Gap turns the cafe-that-I-go-to sentence into Often going to the cafe is, a different grammatical construction."
+  },
+  "18": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Schema rejects adjective role. Favorite-song meaning and polite copula pass. Gloss drops subject marking, relative-clause relation and copula, labelling song object. Gap likewise gives I most like song rather than song-that-I-like-most-is, so the literal construction is not accurate."
+  },
+  "19": {
+    "fail": [
+      "gloss",
+      "register",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects adjective/adverb roles. Tourist-place meaning and extracted topic 은 pass. Formal 붐빕니다; topic places is mislabelled object. Gap claims subject marker 가 occurs, but Korean omits it."
+  },
+  "20": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Same-thought meaning and polite form pass. Gloss does not distinguish topic-marked we from subject-marked thought, marking both subject without particle glosses. Literal_gap explicitly reverses their roles by calling 생각이 topic."
+  },
+  "21": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects time/question roles. Movie question and polite form pass. Gloss omits topic 는 and mislabels movie as object. Gap claims object marker 를 occurs although the Korean has only topic 는."
+  },
+  "22": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Schema rejects time role. Sequence, polite speech and extracted particles pass. Gloss leaves subject/object particles unglossed and loses their distinction in the English chunks. Gap claims no difference while supplying I in English where Korean leaves the actor understood."
+  },
+  "23": {
+    "fail": [
+      "gloss",
+      "register",
+      "literalGap"
+    ],
+    "evidence": "Market/souvenir plan survives. 예정입니다 is formal; gloss loses destination/connected go-and and object marking. Gap names 를 rather than actual 을 and contrasts Korean planning with English even though English explicitly says planning."
+  },
+  "24": {
+    "fail": [
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Meaning, understood-question gloss, polite form and empty noun particles pass. Gap calls punctuation ? a question particle and fails to explain the understood Korean you made explicit in English."
+  },
+  "25": {
+    "fail": [
+      "literalGap"
+    ],
+    "evidence": "Schema rejects negation role, but the visible worry/dont gloss, polite reassurance, meaning and empty particles pass. Gap offers an unsupported contrast between a simple imperative and polite reassurance instead of acknowledging the same polite function."
+  },
+  "26": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Schema rejects time role. Airport advice and before-time reading survive without reversal. Gloss invents 도달하면 in place of actual 도착하면 and loses arrive-if-okay. Gap substitutes formality/directness for the sufficiency construction."
+  },
+  "27": {
+    "fail": [
+      "literalGap"
+    ],
+    "evidence": "Schema rejects negation role, but passport/forget/dont meaning and order, polite prohibition and empty noun particles pass. Gap treats passport as topic rather than explaining the omitted possessor that English supplies as your; the proposed topic contrast is unsupported."
+  },
+  "28": {
+    "fail": [
+      "gloss",
+      "particles",
+      "literalGap"
+    ],
+    "evidence": "Schema rejects comparative roles. Price direction, polite 비싸요 and romanization pass. Gloss invents 비쌉니다 instead of actual 비싸요 and loses subject marking; extraction omits 보다. Gap also quotes the absent formal verb as the literal construction."
+  },
+  "29": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects topic/negation roles. Polite prohibition and extracted 는 pass. Gloss falsely makes 는 mean is and labels 그런 subject. Gap confidently claims object marker 을 is used although no 을 occurs."
+  },
+  "30": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Schema rejects adverb role. Meaning, polite 달라요 and extracted topic 은 pass. Gloss invents 다릅니다 and marks 사실은 verb. Gap calls 사실 itself the topic marker; the marker is 은."
+  }
+}
