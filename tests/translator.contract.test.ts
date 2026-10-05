@@ -82,13 +82,13 @@ describe("translator contract (§6.3)", () => {
     const p = buildTranslatePrompt("수고하셨습니다");
     expect(p).toContain("수고하셨습니다");
     expect(p).toContain('"ko-to-en"');
-    expect(p).toContain("no markdown fences");
-    expect(p).toContain('"literal_gap"');
+    expect(p).toContain("Do not write markdown or reasoning");
+    expect(p).toContain("- literal_gap: string in English");
   });
 
   it("selects direction by Hangul script and closes the role set", () => {
     expect(buildTranslatePrompt("I study Korean")).toContain('"en-to-ko"');
     expect(buildTranslatePrompt("한글 공부해요")).toContain('"ko-to-en"');
-    expect(buildTranslatePrompt("I study Korean")).toContain("CLOSED SET");
+    expect(buildTranslatePrompt("I study Korean")).toContain("role (one of subject, object, place, verb, other)");
   });
 });
