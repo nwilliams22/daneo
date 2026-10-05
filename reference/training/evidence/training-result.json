@@ -1,0 +1,43 @@
+{
+  "config": {
+    "model": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "license": "Apache-2.0",
+    "seed": 3407,
+    "max_seq_length": 1024,
+    "max_steps": 4,
+    "learning_rate": 0.0002,
+    "rank": 8,
+    "alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "dtype": "bfloat16",
+    "load_in_4bit": false,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 1,
+    "optimizer": "adamw_torch",
+    "quantization": "Q4_K_M"
+  },
+  "losses": [
+    0.49331730604171753,
+    0.2745424807071686,
+    0.3840782940387726,
+    0.3453569710254669
+  ],
+  "changed_adapter_tensors": 256,
+  "trainable_parameters": 10616832,
+  "train_seconds": 48.316841267980635,
+  "training_input_tokens": 2904,
+  "input_tokens_per_second": 60.10326676558777,
+  "peak_allocated_bytes": 10125327872,
+  "peak_reserved_bytes": 10229907456,
+  "total_seconds_through_merge": 142.5759545310284,
+  "merge_complete": true
+}

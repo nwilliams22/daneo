@@ -32,7 +32,10 @@ pub(super) struct Loaded {
 fn retain_raw(request: &Request, text: &str, complete: bool) {
     use std::io::Write;
     if let Some(path) = std::env::var_os("DANEO_ACCEPTANCE_RAW") {
+        let (model_bytes, model_sha256) = artifact_identity().expect("verified acceptance identity");
         let provenance = serde_json::json!({
+            "modelBytes": model_bytes,
+            "modelSha256": model_sha256,
             "head": std::env::var("DANEO_ACCEPTANCE_HEAD").expect("acceptance HEAD"),
             "promptSha256": std::env::var("DANEO_ACCEPTANCE_PROMPT_SHA256").expect("acceptance prompt hash"),
             "rubricSha256": std::env::var("DANEO_ACCEPTANCE_RUBRIC_SHA256").expect("acceptance rubric hash"),
@@ -61,6 +64,35 @@ fn corrupt() -> TranslateError {
         ErrorCode::ModelCorrupt,
         "Model is unreadable or does not match the pinned artifact.",
     )
+}
+
+#[cfg(feature = "acceptance")]
+fn probe_identity(bytes: Option<&str>, digest: Option<&str>) -> Result<(u64, String), TranslateError> {
+    match (bytes, digest) {
+        (None, None) => Ok((MODEL_BYTES, MODEL_SHA256.into())),
+        (Some(bytes), Some(digest)) => {
+            let bytes = bytes.parse::<u64>().map_err(|_| corrupt())?;
+            if bytes == 0 || digest.len() != 64 || !digest.bytes().all(|b| b.is_ascii_hexdigit()) {
+                return Err(corrupt());
+            }
+            Ok((bytes, digest.to_ascii_lowercase()))
+        }
+        _ => Err(corrupt()),
+    }
+}
+
+fn artifact_identity() -> Result<(u64, String), TranslateError> {
+    #[cfg(feature = "acceptance")]
+    {
+        let bytes = std::env::var_os("DANEO_ACCEPTANCE_MODEL_BYTES");
+        let digest = std::env::var_os("DANEO_ACCEPTANCE_MODEL_SHA256");
+        probe_identity(
+            bytes.as_ref().map(|v| v.to_str().unwrap_or("")),
+            digest.as_ref().map(|v| v.to_str().unwrap_or("")),
+        )
+    }
+    #[cfg(not(feature = "acceptance"))]
+    Ok((MODEL_BYTES, MODEL_SHA256.into()))
 }
 fn allocation() -> TranslateError {
     TranslateError::new(
@@ -117,7 +149,8 @@ pub(super) fn generate(
 ) -> Result<Value, TranslateError> {
     let mut resident = lock(&request.owner.loaded);
     if resident.is_none() {
-        verify(&request.owner.path, MODEL_BYTES, MODEL_SHA256, || {
+        let (bytes, digest) = artifact_identity()?;
+        verify(&request.owner.path, bytes, &digest, || {
             request.check()
         })?;
         let backend = LlamaBackend::init().map_err(|_| TranslateError::generation())?;
@@ -267,6 +300,19 @@ pub(super) fn generate(
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[cfg(feature = "acceptance")]
+    #[test]
+    fn acceptance_identity_requires_a_complete_valid_pair() {
+        assert_eq!(probe_identity(None, None).unwrap(), (MODEL_BYTES, MODEL_SHA256.into()));
+        assert_eq!(probe_identity(Some("4"), Some(MODEL_SHA256)).unwrap().0, 4);
+        for (bytes, hash) in [
+            (Some("4"), None), (None, Some(MODEL_SHA256)),
+            (Some("0"), Some(MODEL_SHA256)), (Some("bad"), Some(MODEL_SHA256)),
+            (Some("4"), Some("bad")), (Some("4"), Some("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz")),
+        ] {
+            assert_eq!(probe_identity(bytes, hash).unwrap_err().code, ErrorCode::ModelCorrupt);
+        }
+    }
     #[test]
     fn missing_and_corrupt_files_are_typed() {
         let path = std::env::temp_dir().join(format!("daneo-model-test-{}", std::process::id()));

@@ -1,0 +1,130 @@
+{
+  "corpusCommit": "6587c1f9ef471eb9e50b7059fd99ee745d4c2a64",
+  "items": [
+    {
+      "corpusSentenceId": "s29_hard_but_fun",
+      "english": "Korean is hard. But it's fun.",
+      "korean": "한국어는 어려워요. 그렇지만 재미있어요.",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "한국어는 어려워요. 그렇지만 재미있어요.",
+        "natural_english": "Korean is hard. But it's fun.",
+        "gloss": [
+          {
+            "chunk": "한국어는 어려워요.",
+            "gloss": "Korean-[topic] is-hard",
+            "role": "verb"
+          },
+          {
+            "chunk": "그렇지만 재미있어요.",
+            "gloss": "however is-fun",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "prompt": "You are the translation engine inside a word-first Korean learning app. The learner knows Hangul and basic particles. Translate the input in the requested direction. The app determined this direction from the input script: en-to-ko. Keep that exact direction value in the reply. Respond with ONLY a JSON object — no markdown fences, no preamble — with these fields:\n\n{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"the Korean sentence in polite 해요 form (Hangul)\",\n  \"natural_english\": \"natural English meaning\",\n  \"gloss\": [\n    {\"chunk\": \"Korean word/chunk in Hangul\", \"gloss\": \"English-in-Korean-order gloss, writing particles as suffixes like 'store-to' or 'water-[obj]'\", \"role\": \"subject|object|place|verb|other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"a noun particle actually present in the Korean line\", \"job\": \"one short sentence on what it does here\"}\n  ],\n  \"literal_gap\": \"Explain in 1-2 sentences when the literal structure differs from natural English; otherwise empty string.\",\n  \"cultural_note\": \"1-2 sentences of cultural/usage context only if genuinely relevant; otherwise empty string\"\n}\n\nApply these rules before replying:\n- The gloss follows every meaningful Korean chunk from left to right. The role field is a CLOSED SET: use only subject, object, place, verb, or other. Time words, adverbs, and standalone grammar go under other. Never invent a role name.\n- particles[] contains meaning-bearing NOUN particles actually written in korean, never free adverbs or verbal endings. In particular, a negation adverb is not a particle. 은/는 marks a topic or contrast; 이/가 marks the grammatical subject; 을/를 marks the object. Do not label 이/가 as topic. Do not invent an omitted particle.\n- Use natural polite 해요 forms. Check vowel contractions and irregular stems before writing the final verb; preserve the requested speech act, tense, negation, and subject honorifics.\n- Fill literal_gap when Korean omits a subject or possessor that natural English states, uses an existential negative where English says there is none, uses a literal construction that reads differently in English, or uses a food/meal expression whose literal noun is narrower. Describe only a real gap in the Korean line you produced; do not invent cultural or grammatical rules. Use an empty string only when the literal and natural readings align.\nKeep every field concise. Input: \"Korean is hard. But it's fun.\""
+    },
+    {
+      "corpusSentenceId": "s29_winter_but",
+      "english": "Winter came. But it was not cold.",
+      "korean": "겨울이 왔어요. 그러나 춥지 않았어요.",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "겨울이 왔어요. 그러나 춥지 않았어요.",
+        "natural_english": "Winter came. But it was not cold.",
+        "gloss": [
+          {
+            "chunk": "겨울이 왔어요.",
+            "gloss": "winter-[subj] came",
+            "role": "verb"
+          },
+          {
+            "chunk": "그러나 춥지 않았어요.",
+            "gloss": "however cold-not-was",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "prompt": "You are the translation engine inside a word-first Korean learning app. The learner knows Hangul and basic particles. Translate the input in the requested direction. The app determined this direction from the input script: en-to-ko. Keep that exact direction value in the reply. Respond with ONLY a JSON object — no markdown fences, no preamble — with these fields:\n\n{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"the Korean sentence in polite 해요 form (Hangul)\",\n  \"natural_english\": \"natural English meaning\",\n  \"gloss\": [\n    {\"chunk\": \"Korean word/chunk in Hangul\", \"gloss\": \"English-in-Korean-order gloss, writing particles as suffixes like 'store-to' or 'water-[obj]'\", \"role\": \"subject|object|place|verb|other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"a noun particle actually present in the Korean line\", \"job\": \"one short sentence on what it does here\"}\n  ],\n  \"literal_gap\": \"Explain in 1-2 sentences when the literal structure differs from natural English; otherwise empty string.\",\n  \"cultural_note\": \"1-2 sentences of cultural/usage context only if genuinely relevant; otherwise empty string\"\n}\n\nApply these rules before replying:\n- The gloss follows every meaningful Korean chunk from left to right. The role field is a CLOSED SET: use only subject, object, place, verb, or other. Time words, adverbs, and standalone grammar go under other. Never invent a role name.\n- particles[] contains meaning-bearing NOUN particles actually written in korean, never free adverbs or verbal endings. In particular, a negation adverb is not a particle. 은/는 marks a topic or contrast; 이/가 marks the grammatical subject; 을/를 marks the object. Do not label 이/가 as topic. Do not invent an omitted particle.\n- Use natural polite 해요 forms. Check vowel contractions and irregular stems before writing the final verb; preserve the requested speech act, tense, negation, and subject honorifics.\n- Fill literal_gap when Korean omits a subject or possessor that natural English states, uses an existential negative where English says there is none, uses a literal construction that reads differently in English, or uses a food/meal expression whose literal noun is narrower. Describe only a real gap in the Korean line you produced; do not invent cultural or grammatical rules. Use an empty string only when the literal and natural readings align.\nKeep every field concise. Input: \"Winter came. But it was not cold.\""
+    },
+    {
+      "corpusSentenceId": "s_m40_too_salty",
+      "english": "It seems a little salty. I sprinkled on too much salt.",
+      "korean": "조금 짠 것 같아요. 소금을 너무 많이 뿌렸어요.",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "조금 짠 것 같아요. 소금을 너무 많이 뿌렸어요.",
+        "natural_english": "It seems a little salty. I sprinkled on too much salt.",
+        "gloss": [
+          {
+            "chunk": "조금 짠 것 같아요.",
+            "gloss": "a-little salty-[badge] thing seems.",
+            "role": "verb"
+          },
+          {
+            "chunk": "소금을 너무 많이 뿌렸어요.",
+            "gloss": "salt-[obj] too much sprinkled.",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "prompt": "You are the translation engine inside a word-first Korean learning app. The learner knows Hangul and basic particles. Translate the input in the requested direction. The app determined this direction from the input script: en-to-ko. Keep that exact direction value in the reply. Respond with ONLY a JSON object — no markdown fences, no preamble — with these fields:\n\n{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"the Korean sentence in polite 해요 form (Hangul)\",\n  \"natural_english\": \"natural English meaning\",\n  \"gloss\": [\n    {\"chunk\": \"Korean word/chunk in Hangul\", \"gloss\": \"English-in-Korean-order gloss, writing particles as suffixes like 'store-to' or 'water-[obj]'\", \"role\": \"subject|object|place|verb|other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"a noun particle actually present in the Korean line\", \"job\": \"one short sentence on what it does here\"}\n  ],\n  \"literal_gap\": \"Explain in 1-2 sentences when the literal structure differs from natural English; otherwise empty string.\",\n  \"cultural_note\": \"1-2 sentences of cultural/usage context only if genuinely relevant; otherwise empty string\"\n}\n\nApply these rules before replying:\n- The gloss follows every meaningful Korean chunk from left to right. The role field is a CLOSED SET: use only subject, object, place, verb, or other. Time words, adverbs, and standalone grammar go under other. Never invent a role name.\n- particles[] contains meaning-bearing NOUN particles actually written in korean, never free adverbs or verbal endings. In particular, a negation adverb is not a particle. 은/는 marks a topic or contrast; 이/가 marks the grammatical subject; 을/를 marks the object. Do not label 이/가 as topic. Do not invent an omitted particle.\n- Use natural polite 해요 forms. Check vowel contractions and irregular stems before writing the final verb; preserve the requested speech act, tense, negation, and subject honorifics.\n- Fill literal_gap when Korean omits a subject or possessor that natural English states, uses an existential negative where English says there is none, uses a literal construction that reads differently in English, or uses a food/meal expression whose literal noun is narrower. Describe only a real gap in the Korean line you produced; do not invent cultural or grammatical rules. Use an empty string only when the literal and natural readings align.\nKeep every field concise. Input: \"It seems a little salty. I sprinkled on too much salt.\""
+    },
+    {
+      "corpusSentenceId": "s_m64_application_chain",
+      "english": "I register the application and when I submit it, the confirmation goes through and the report is relayed.",
+      "korean": "저는 신청을 등록하고 제출하면 확인이 되고 보고가 전달돼요.",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "저는 신청을 등록하고 제출하면 확인이 되고 보고가 전달돼요.",
+        "natural_english": "I register the application and when I submit it, the confirmation goes through and the report is relayed.",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[topic]",
+            "role": "subject"
+          },
+          {
+            "chunk": "신청을",
+            "gloss": "application-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "등록하고",
+            "gloss": "register-do-and",
+            "role": "verb"
+          },
+          {
+            "chunk": "제출하면",
+            "gloss": "submit-if",
+            "role": "other"
+          },
+          {
+            "chunk": "확인이",
+            "gloss": "confirmation-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "되고",
+            "gloss": "come-through-become",
+            "role": "verb"
+          },
+          {
+            "chunk": "보고가 전달돼요.",
+            "gloss": "report-relay-become",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "prompt": "You are the translation engine inside a word-first Korean learning app. The learner knows Hangul and basic particles. Translate the input in the requested direction. The app determined this direction from the input script: en-to-ko. Keep that exact direction value in the reply. Respond with ONLY a JSON object — no markdown fences, no preamble — with these fields:\n\n{\n  \"direction\": \"en-to-ko\",\n  \"korean\": \"the Korean sentence in polite 해요 form (Hangul)\",\n  \"natural_english\": \"natural English meaning\",\n  \"gloss\": [\n    {\"chunk\": \"Korean word/chunk in Hangul\", \"gloss\": \"English-in-Korean-order gloss, writing particles as suffixes like 'store-to' or 'water-[obj]'\", \"role\": \"subject|object|place|verb|other\"}\n  ],\n  \"particles\": [\n    {\"particle\": \"a noun particle actually present in the Korean line\", \"job\": \"one short sentence on what it does here\"}\n  ],\n  \"literal_gap\": \"Explain in 1-2 sentences when the literal structure differs from natural English; otherwise empty string.\",\n  \"cultural_note\": \"1-2 sentences of cultural/usage context only if genuinely relevant; otherwise empty string\"\n}\n\nApply these rules before replying:\n- The gloss follows every meaningful Korean chunk from left to right. The role field is a CLOSED SET: use only subject, object, place, verb, or other. Time words, adverbs, and standalone grammar go under other. Never invent a role name.\n- particles[] contains meaning-bearing NOUN particles actually written in korean, never free adverbs or verbal endings. In particular, a negation adverb is not a particle. 은/는 marks a topic or contrast; 이/가 marks the grammatical subject; 을/를 marks the object. Do not label 이/가 as topic. Do not invent an omitted particle.\n- Use natural polite 해요 forms. Check vowel contractions and irregular stems before writing the final verb; preserve the requested speech act, tense, negation, and subject honorifics.\n- Fill literal_gap when Korean omits a subject or possessor that natural English states, uses an existential negative where English says there is none, uses a literal construction that reads differently in English, or uses a food/meal expression whose literal noun is narrower. Describe only a real gap in the Korean line you produced; do not invent cultural or grammatical rules. Use an empty string only when the literal and natural readings align.\nKeep every field concise. Input: \"I register the application and when I submit it, the confirmation goes through and the report is relayed.\""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "converter_commit": "d89651a7b205c03c4a0b13cd0646d400dc929f79",
+  "convert_seconds": 37.542433688999154,
+  "quantize_seconds": 27.932099952013232,
+  "artifacts": [
+    {
+      "path": "llama.cpp.tar.gz",
+      "bytes": 37863878,
+      "sha256": "8c938b796c065ce8e3cbdb2e367b08b8aa266113aeca3df8502e14abc33348f1"
+    },
+    {
+      "path": "smoke-BF16.gguf",
+      "bytes": 8665619808,
+      "sha256": "dfc4258ca545fbe637063420f7d96fe913319ba992f5459ff56de501026af0fd"
+    },
+    {
+      "path": "smoke-Q4_K_M.gguf",
+      "bytes": 2783446368,
+      "sha256": "b63827c5af2870185d7cf5889151972ffc40fdf2caea8b695ac25eee62406fbd"
+    },
+    {
+      "path": "adapter/adapter_model.safetensors",
+      "bytes": 42504600,
+      "sha256": "56b8f6af80012dd9d7f1ba41f14bc18a6fee653a95eb685f1b35b706ce5e3b88"
+    }
+  ]
+}
