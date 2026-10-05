@@ -15,7 +15,7 @@ jobs:
           cache: npm
       - uses: dtolnay/rust-toolchain@stable
       - name: Native build prerequisites
-        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf cmake libclang-dev rpm2cpio cpio
+        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf cmake libclang-dev libarchive-tools
       - run: npm ci
       - run: npm run check:version
       - run: npm test
@@ -44,7 +44,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
       - name: Native build prerequisites
         if: runner.os == 'Linux'
-        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf cmake libclang-dev rpm2cpio cpio
+        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf cmake libclang-dev libarchive-tools
       - run: npm ci
       - run: npm run check:version
       - name: Build Linux bundles
@@ -63,7 +63,7 @@ jobs:
           node scripts/check-bundle-resources.mjs squashfs-root bundle-resources.json
           mkdir rpm-extracted
           rpm=$(find src-tauri/target/release/bundle/rpm -name '*.rpm' -type f | head -1)
-          rpm2cpio "$rpm" | (cd rpm-extracted && cpio -id)
+          bsdtar -xf "$rpm" -C rpm-extracted
           node scripts/check-bundle-resources.mjs rpm-extracted rpm-resources.json
       - name: Inspect macOS app resources
         if: runner.os == 'macOS'
