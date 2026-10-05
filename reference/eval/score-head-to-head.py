@@ -19,6 +19,7 @@ def score(engine, item_set, judgments):
     fixture = json.loads((ROOT / "reference/eval" / ("training-independent-inputs.json" if item_set == "independent" else "v0-translation-set.json")).read_text())
     results = rows(RAW / f"{prefix}-results.jsonl")
     raw = rows(RAW / f"{prefix}-raw.jsonl")
+    assembled = json.loads((RAW / f"{prefix}-assembled.json").read_text())
     expected = fixture["items"]
     if [row["id"] for row in results[1:-1]] != [item["id"] for item in expected]:
         raise ValueError(f"{prefix}: result IDs or count mismatch")
@@ -28,10 +29,12 @@ def score(engine, item_set, judgments):
         raise ValueError(f"{prefix}: warmup/cancellation rows missing")
     if len(raw) != len(results) - 1:
         raise ValueError(f"{prefix}: raw/result row count mismatch")
+    if len(assembled) != len(raw):
+        raise ValueError(f"{prefix}: assembled/result row count mismatch")
     if set(judgments) != {item["id"] for item in expected}:
         raise ValueError(f"{prefix}: linguistic verdicts incomplete or extra")
     output = []
-    for item, result, reply in zip(expected, results[1:-1], raw[1:]):
+    for item, result, reply, checked in zip(expected, results[1:-1], raw[1:], assembled[1:]):
         if result["input"] != item["input"] or result["direction"] != item["direction"]:
             raise ValueError(f"{prefix}: submitted input differs from fixture for {item['id']}")
         verdict = judgments[item["id"]]
@@ -44,9 +47,11 @@ def score(engine, item_set, judgments):
         for flag in ("meaningReversal", "inventedRule"):
             if not isinstance(verdict[flag], bool):
                 raise ValueError(f"{prefix}: missing {flag} for {item['id']}")
-        parsed = result["outcome"].get("result") if result["outcome"].get("ok") else None
-        schema = parsed is not None and reply["complete"]
-        direction = schema and parsed.get("direction") == item["direction"]
+        if checked["id"] != item["id"]:
+            raise ValueError(f"{prefix}: assembled ID mismatch for {item['id']}")
+        parsed = checked["assembled"]
+        schema = checked["rawMatches"] and checked["strictValid"] and checked["schemaValid"]
+        direction = schema and checked["directionCorrect"] and parsed.get("direction") == item["direction"]
         leaked = any(marker in reply["rawReply"].lower() for marker in ("<think>", "</think>", "<|im_start|>assistant", "reasoning:"))
         fully = schema and direction and not leaked and all(verdict["dimensions"][name]["pass"] for name in DIMENSIONS) and not verdict["meaningReversal"] and not verdict["inventedRule"]
         output.append(dict(id=item["id"], input=item["input"], rawReply=reply["rawReply"], parsedReply=parsed,
