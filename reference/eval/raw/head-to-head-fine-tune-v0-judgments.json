@@ -1,0 +1,302 @@
+{
+  "DAN-V0-EK-01": {
+    "dimensions": {
+      "meaning": {
+        "pass": true,
+        "evidence": "Reviewed meaning against s_water: 물을 마셔요 / I drink water."
+      },
+      "gloss": {
+        "pass": true,
+        "evidence": "Reviewed gloss against s_water: 물을 마셔요 / I drink water."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s_water: 물을 마셔요 / I drink water."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s_water: 물을 마셔요 / I drink water."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s_water: 물을 마셔요 / I drink water."
+      },
+      "literalGap": {
+        "pass": true,
+        "evidence": "Reviewed literalGap against s_water: 물을 마셔요 / I drink water."
+      }
+    },
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-V0-EK-02": {
+    "dimensions": {
+      "meaning": {
+        "pass": true,
+        "evidence": "Reviewed meaning against s3_not_eat_meat: 고기를 먹지 않아요 / I don't eat meat."
+      },
+      "gloss": {
+        "pass": true,
+        "evidence": "Reviewed gloss against s3_not_eat_meat: 고기를 먹지 않아요 / I don't eat meat."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s3_not_eat_meat: 고기를 먹지 않아요 / I don't eat meat."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s3_not_eat_meat: 고기를 먹지 않아요 / I don't eat meat."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s3_not_eat_meat: 고기를 먹지 않아요 / I don't eat meat."
+      },
+      "literalGap": {
+        "pass": true,
+        "evidence": "Reviewed literalGap against s3_not_eat_meat: 고기를 먹지 않아요 / I don't eat meat."
+      }
+    },
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-V0-EK-03": {
+    "dimensions": {
+      "meaning": {
+        "pass": true,
+        "evidence": "Reviewed meaning against s4_teacher_comes: 선생님이 오세요 / The teacher is coming."
+      },
+      "gloss": {
+        "pass": true,
+        "evidence": "Reviewed gloss against s4_teacher_comes: 선생님이 오세요 / The teacher is coming."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s4_teacher_comes: 선생님이 오세요 / The teacher is coming."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s4_teacher_comes: 선생님이 오세요 / The teacher is coming."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s4_teacher_comes: 선생님이 오세요 / The teacher is coming."
+      },
+      "literalGap": {
+        "pass": true,
+        "evidence": "Reviewed literalGap against s4_teacher_comes: 선생님이 오세요 / The teacher is coming."
+      }
+    },
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-V0-EK-04": {
+    "dimensions": {
+      "meaning": {
+        "pass": true,
+        "evidence": "Reviewed meaning against s8_wash_hands: 손을 씻어요 / I wash my hands."
+      },
+      "gloss": {
+        "pass": true,
+        "evidence": "Reviewed gloss against s8_wash_hands: 손을 씻어요 / I wash my hands."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s8_wash_hands: 손을 씻어요 / I wash my hands."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s8_wash_hands: 손을 씻어요 / I wash my hands."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s8_wash_hands: 손을 씻어요 / I wash my hands."
+      },
+      "literalGap": {
+        "pass": false,
+        "evidence": "The empty field hides the understood “my” possessor of hands."
+      }
+    },
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-V0-EK-05": {
+    "dimensions": {
+      "meaning": {
+        "pass": true,
+        "evidence": "Reviewed meaning against s_eat: 음식을 먹어요 / I eat food."
+      },
+      "gloss": {
+        "pass": true,
+        "evidence": "Reviewed gloss against s_eat: 음식을 먹어요 / I eat food."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s_eat: 음식을 먹어요 / I eat food."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s_eat: 음식을 먹어요 / I eat food."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s_eat: 음식을 먹어요 / I eat food."
+      },
+      "literalGap": {
+        "pass": false,
+        "evidence": "The empty field does not explain the probed food/meal reading."
+      }
+    },
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-V0-KE-01": {
+    "dimensions": {
+      "meaning": {
+        "pass": false,
+        "evidence": "“I like coffee” changes the Korean subject, friend, to the speaker."
+      },
+      "gloss": {
+        "pass": true,
+        "evidence": "Reviewed gloss against s_friend_coffee: 친구가 커피를 좋아해요 / I like coffee."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s_friend_coffee: 친구가 커피를 좋아해요 / I like coffee."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s_friend_coffee: 친구가 커피를 좋아해요 / I like coffee."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s_friend_coffee: 친구가 커피를 좋아해요 / I like coffee."
+      },
+      "literalGap": {
+        "pass": true,
+        "evidence": "Reviewed literalGap against s_friend_coffee: 친구가 커피를 좋아해요 / I like coffee."
+      }
+    },
+    "meaningReversal": true,
+    "inventedRule": false
+  },
+  "DAN-V0-KE-02": {
+    "dimensions": {
+      "meaning": {
+        "pass": true,
+        "evidence": "Reviewed meaning against s3_no_sugar: 설탕이 없어요 / there's no sugar."
+      },
+      "gloss": {
+        "pass": false,
+        "evidence": "The sugar subject chunk is labelled other."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s3_no_sugar: 설탕이 없어요 / there's no sugar."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s3_no_sugar: 설탕이 없어요 / there's no sugar."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s3_no_sugar: 설탕이 없어요 / there's no sugar."
+      },
+      "literalGap": {
+        "pass": false,
+        "evidence": "The empty field omits sugar-not-exists as the literal construction."
+      }
+    },
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-V0-KE-03": {
+    "dimensions": {
+      "meaning": {
+        "pass": true,
+        "evidence": "Reviewed meaning against s9_sit_here: 여기 앉으세요 / please sit here."
+      },
+      "gloss": {
+        "pass": true,
+        "evidence": "Reviewed gloss against s9_sit_here: 여기 앉으세요 / please sit here."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s9_sit_here: 여기 앉으세요 / please sit here."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s9_sit_here: 여기 앉으세요 / please sit here."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s9_sit_here: 여기 앉으세요 / please sit here."
+      },
+      "literalGap": {
+        "pass": true,
+        "evidence": "Reviewed literalGap against s9_sit_here: 여기 앉으세요 / please sit here."
+      }
+    },
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-V0-KE-04": {
+    "dimensions": {
+      "meaning": {
+        "pass": true,
+        "evidence": "Reviewed meaning against s2_yesterday_friend: 어제 친구를 만났어요 / I met a friend yesterday."
+      },
+      "gloss": {
+        "pass": true,
+        "evidence": "Reviewed gloss against s2_yesterday_friend: 어제 친구를 만났어요 / I met a friend yesterday."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s2_yesterday_friend: 어제 친구를 만났어요 / I met a friend yesterday."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s2_yesterday_friend: 어제 친구를 만났어요 / I met a friend yesterday."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s2_yesterday_friend: 어제 친구를 만났어요 / I met a friend yesterday."
+      },
+      "literalGap": {
+        "pass": false,
+        "evidence": "The empty field omits the understood first-person subject."
+      }
+    },
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-V0-KE-05": {
+    "dimensions": {
+      "meaning": {
+        "pass": false,
+        "evidence": "“Rice” narrows the intended food/meal reading."
+      },
+      "gloss": {
+        "pass": true,
+        "evidence": "Reviewed gloss against s_food_delicious: 밥이 맛있어요 / rice is delicious."
+      },
+      "particles": {
+        "pass": true,
+        "evidence": "Reviewed particles against s_food_delicious: 밥이 맛있어요 / rice is delicious."
+      },
+      "politeRegister": {
+        "pass": true,
+        "evidence": "Reviewed politeRegister against s_food_delicious: 밥이 맛있어요 / rice is delicious."
+      },
+      "romanization": {
+        "pass": true,
+        "evidence": "Reviewed romanization against s_food_delicious: 밥이 맛있어요 / rice is delicious."
+      },
+      "literalGap": {
+        "pass": false,
+        "evidence": "The empty field omits taste-exists and the rice/food reading."
+      }
+    },
+    "meaningReversal": false,
+    "inventedRule": false
+  }
+}

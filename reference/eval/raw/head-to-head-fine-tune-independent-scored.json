@@ -1,0 +1,3741 @@
+{
+  "engine": "fine-tune",
+  "itemSet": "independent",
+  "summary": {
+    "items": 60,
+    "schemaComplete": 60,
+    "directionCorrect": 60,
+    "thinkingLeaks": 0,
+    "meaningReversals": 1,
+    "inventedRules": 0,
+    "warmP95Ms": 20509,
+    "coldReadyMs": 2238,
+    "coldFirstTokenMs": 7141,
+    "coveragePasses": {
+      "gloss": 11,
+      "semantic-fidelity": 10,
+      "register": 5,
+      "literal-gap": 1
+    }
+  },
+  "results": [
+    {
+      "id": "DAN-IND-01",
+      "input": "I like coffee",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"커피를 좋아해요\", \"natural_english\": \"I like coffee\", \"gloss\": [{\"chunk\": \"커피를\", \"gloss\": \"coffee-[obj]\", \"role\": \"object\"}, {\"chunk\": \"좋아해요\", \"gloss\": \"like\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "커피를 좋아해요",
+        "romanization": "keopireul joahaeyo",
+        "natural_english": "I like coffee",
+        "gloss": [
+          {
+            "chunk": "커피를",
+            "gloss": "coffee-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "좋아해요",
+            "gloss": "like",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 저는 커피를 좋아해요 → 커피를 좋아해요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5215,
+      "completionMs": 12820,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-02",
+      "input": "I watch movies on the weekend",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"주말에 영화를 봐요\", \"natural_english\": \"I watch movies on the weekend\", \"gloss\": [{\"chunk\": \"주말에\", \"gloss\": \"weekend-on\", \"role\": \"other\"}, {\"chunk\": \"영화를\", \"gloss\": \"movie-[obj]\", \"role\": \"object\"}, {\"chunk\": \"봐요\", \"gloss\": \"watch\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "주말에 영화를 봐요",
+        "romanization": "jumare yeonghwareul bwayo",
+        "natural_english": "I watch movies on the weekend",
+        "gloss": [
+          {
+            "chunk": "주말에",
+            "gloss": "weekend-on",
+            "role": "other"
+          },
+          {
+            "chunk": "영화를",
+            "gloss": "movie-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "봐요",
+            "gloss": "watch",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          },
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 주말에 저는 영화를 봐요 → 주말에 영화를 봐요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5161,
+      "completionMs": 14565,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-03",
+      "input": "Today I want to order fried chicken",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"오늘 닭고기를 튀긴 걸 주문하고 싶어요\", \"natural_english\": \"Today I want to order fried chicken\", \"gloss\": [{\"chunk\": \"오늘\", \"gloss\": \"today\", \"role\": \"other\"}, {\"chunk\": \"닭고기를\", \"gloss\": \"chicken-[obj]\", \"role\": \"object\"}, {\"chunk\": \"튀긴\", \"gloss\": \"fried\", \"role\": \"other\"}, {\"chunk\": \"걸\", \"gloss\": \"thing\", \"role\": \"other\"}, {\"chunk\": \"주문하고\", \"gloss\": \"order-and\", \"role\": \"verb\"}, {\"chunk\": \"싶어요\", \"gloss\": \"want\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "오늘 닭고기를 튀긴 걸 주문하고 싶어요",
+        "romanization": "oneul dakgogireul twigin geol jumunhago sipeoyo",
+        "natural_english": "Today I want to order fried chicken",
+        "gloss": [
+          {
+            "chunk": "오늘",
+            "gloss": "today",
+            "role": "other"
+          },
+          {
+            "chunk": "닭고기를",
+            "gloss": "chicken-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "튀긴",
+            "gloss": "fried",
+            "role": "other"
+          },
+          {
+            "chunk": "걸",
+            "gloss": "thing",
+            "role": "other"
+          },
+          {
+            "chunk": "주문하고",
+            "gloss": "order-and",
+            "role": "verb"
+          },
+          {
+            "chunk": "싶어요",
+            "gloss": "want",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 오늘 치킨을 시키고 싶어요 → 오늘 닭고기를 튀긴 걸 주문하고 싶어요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5129,
+      "completionMs": 19752,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-04",
+      "input": "I ordered two cups of coffee",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"커피 두 잔을 주문했어요\", \"natural_english\": \"I ordered two cups of coffee\", \"gloss\": [{\"chunk\": \"커피\", \"gloss\": \"coffee\", \"role\": \"other\"}, {\"chunk\": \"두\", \"gloss\": \"two\", \"role\": \"other\"}, {\"chunk\": \"잔을\", \"gloss\": \"cups-[obj]\", \"role\": \"object\"}, {\"chunk\": \"주문했어요\", \"gloss\": \"ordered\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "커피 두 잔을 주문했어요",
+        "romanization": "keopi du janeul jumunhaesseoyo",
+        "natural_english": "I ordered two cups of coffee",
+        "gloss": [
+          {
+            "chunk": "커피",
+            "gloss": "coffee",
+            "role": "other"
+          },
+          {
+            "chunk": "두",
+            "gloss": "two",
+            "role": "other"
+          },
+          {
+            "chunk": "잔을",
+            "gloss": "cups-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "주문했어요",
+            "gloss": "ordered",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 커피 두 잔 주문했어요 → 커피 두 잔을 주문했어요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5206,
+      "completionMs": 16301,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-05",
+      "input": "I drink a glass of milk every day",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"저는 매일 우유 한 잔을 마셔요\", \"natural_english\": \"I drink a glass of milk every day\", \"gloss\": [{\"chunk\": \"저는\", \"gloss\": \"I-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"매일\", \"gloss\": \"every-day\", \"role\": \"other\"}, {\"chunk\": \"우유 한 잔을\", \"gloss\": \"milk one glass-[obj]\", \"role\": \"object\"}, {\"chunk\": \"마셔요\", \"gloss\": \"drink\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "저는 매일 우유 한 잔을 마셔요",
+        "romanization": "jeoneun maeil uyu han janeul masyeoyo",
+        "natural_english": "I drink a glass of milk every day",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "매일",
+            "gloss": "every-day",
+            "role": "other"
+          },
+          {
+            "chunk": "우유 한 잔을",
+            "gloss": "milk one glass-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "마셔요",
+            "gloss": "drink",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "을",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 매일 우유 한 잔 마셔요 → 저는 매일 우유 한 잔을 마셔요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5206,
+      "completionMs": 17520,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-06",
+      "input": "I go left",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"저는 왼쪽으로 가요\", \"natural_english\": \"I go left\", \"gloss\": [{\"chunk\": \"저는\", \"gloss\": \"I-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"왼쪽으로\", \"gloss\": \"left-way\", \"role\": \"place\"}, {\"chunk\": \"가요\", \"gloss\": \"go\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "저는 왼쪽으로 가요",
+        "romanization": "jeoneun oenjjogeuro gayo",
+        "natural_english": "I go left",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "왼쪽으로",
+            "gloss": "left-way",
+            "role": "place"
+          },
+          {
+            "chunk": "가요",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "으로",
+            "job": "marks a direction, means, or method"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 왼쪽으로 가요 → 저는 왼쪽으로 가요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5136,
+      "completionMs": 14152,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-07",
+      "input": "A park is in front of my house",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"집 앞에 공원이 있어요\", \"natural_english\": \"A park is in front of my house\", \"gloss\": [{\"chunk\": \"집\", \"gloss\": \"house\", \"role\": \"place\"}, {\"chunk\": \"앞에\", \"gloss\": \"front-at\", \"role\": \"place\"}, {\"chunk\": \"공원\", \"gloss\": \"park\", \"role\": \"other\"}, {\"chunk\": \"있어요\", \"gloss\": \"exists\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "집 앞에 공원이 있어요",
+        "romanization": "jip ape gongwoni isseoyo",
+        "natural_english": "A park is in front of my house",
+        "gloss": [
+          {
+            "chunk": "집",
+            "gloss": "house",
+            "role": "place"
+          },
+          {
+            "chunk": "앞에",
+            "gloss": "front-at",
+            "role": "place"
+          },
+          {
+            "chunk": "공원",
+            "gloss": "park",
+            "role": "other"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "exists",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          },
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": false,
+      "coverageEvidence": "Gloss labels 공원 as other rather than the existential subject.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5068,
+      "completionMs": 15726,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-08",
+      "input": "I get off here",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"여기에서 내리요\", \"natural_english\": \"I get off here\", \"gloss\": [{\"chunk\": \"여기에서\", \"gloss\": \"here-at\", \"role\": \"place\"}, {\"chunk\": \"내리요\", \"gloss\": \"get-off\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "여기에서 내리요",
+        "romanization": "yeogieseo naeriyo",
+        "natural_english": "I get off here",
+        "gloss": [
+          {
+            "chunk": "여기에서",
+            "gloss": "here-at",
+            "role": "place"
+          },
+          {
+            "chunk": "내리요",
+            "gloss": "get-off",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "에서",
+            "job": "marks the place where an action happens"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": false,
+      "coverageEvidence": "내리요 is malformed; the lesson uses 내려요.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 4976,
+      "completionMs": 12526,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-09",
+      "input": "I take the bus every day",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"저는 매일 버스를 타고 가요\", \"natural_english\": \"I take the bus every day\", \"gloss\": [{\"chunk\": \"저는\", \"gloss\": \"I-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"매일\", \"gloss\": \"every-day\", \"role\": \"other\"}, {\"chunk\": \"버스를\", \"gloss\": \"bus-[obj]\", \"role\": \"object\"}, {\"chunk\": \"타고\", \"gloss\": \"ride-and\", \"role\": \"verb\"}, {\"chunk\": \"가요\", \"gloss\": \"go\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "저는 매일 버스를 타고 가요",
+        "romanization": "jeoneun maeil beoseureul tago gayo",
+        "natural_english": "I take the bus every day",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "매일",
+            "gloss": "every-day",
+            "role": "other"
+          },
+          {
+            "chunk": "버스를",
+            "gloss": "bus-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "타고",
+            "gloss": "ride-and",
+            "role": "verb"
+          },
+          {
+            "chunk": "가요",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 매일 버스를 타요 → 저는 매일 버스를 타고 가요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5231,
+      "completionMs": 18264,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-10",
+      "input": "I brush my teeth at night",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"저는 밤에 치아를 닦아요\", \"natural_english\": \"I brush my teeth at night\", \"gloss\": [{\"chunk\": \"저는\", \"gloss\": \"I-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"밤에\", \"gloss\": \"night-at\", \"role\": \"other\"}, {\"chunk\": \"치아를\", \"gloss\": \"teeth-[obj]\", \"role\": \"object\"}, {\"chunk\": \"닦아요\", \"gloss\": \"brush\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "저는 밤에 치아를 닦아요",
+        "romanization": "jeoneun bame chiareul dakkayo",
+        "natural_english": "I brush my teeth at night",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "밤에",
+            "gloss": "night-at",
+            "role": "other"
+          },
+          {
+            "chunk": "치아를",
+            "gloss": "teeth-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "닦아요",
+            "gloss": "brush",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          },
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 밤에 이를 닦아요 → 저는 밤에 치아를 닦아요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5016,
+      "completionMs": 16738,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-11",
+      "input": "I am waiting for my friend",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"친구가 와요\", \"natural_english\": \"I am waiting for my friend\", \"gloss\": [{\"chunk\": \"친구가 와요\", \"gloss\": \"friend comes\", \"role\": \"other\"}], \"literal_gap\": \"Literally “friend comes”; in use, “I am waiting for my friend”.\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "친구가 와요",
+        "romanization": "chinguga wayo",
+        "natural_english": "I am waiting for my friend",
+        "gloss": [
+          {
+            "chunk": "친구가 와요",
+            "gloss": "friend comes",
+            "role": "other"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "가",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "Literally “friend comes”; in use, “I am waiting for my friend”.",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": false,
+      "coverageEvidence": "“Friend comes” replaces “I am waiting for my friend.”",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5198,
+      "completionMs": 12511,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-12",
+      "input": "Two gimbap, please",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"김밥 두 개 주세요\", \"natural_english\": \"Two gimbap, please\", \"gloss\": [{\"chunk\": \"김밥\", \"gloss\": \"gimbap\", \"role\": \"other\"}, {\"chunk\": \"두 개\", \"gloss\": \"two piece\", \"role\": \"other\"}, {\"chunk\": \"주세요\", \"gloss\": \"give-me\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "김밥 두 개 주세요",
+        "romanization": "gimbap du gae juseyo",
+        "natural_english": "Two gimbap, please",
+        "gloss": [
+          {
+            "chunk": "김밥",
+            "gloss": "gimbap",
+            "role": "other"
+          },
+          {
+            "chunk": "두 개",
+            "gloss": "two piece",
+            "role": "other"
+          },
+          {
+            "chunk": "주세요",
+            "gloss": "give-me",
+            "role": "verb"
+          }
+        ],
+        "particles": [],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 김밥 두 개 주세요 → 김밥 두 개 주세요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5180,
+      "completionMs": 14367,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-13",
+      "input": "When do you arrive?",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"언제 오세요?\", \"natural_english\": \"When do you arrive?\", \"gloss\": [{\"chunk\": \"언제\", \"gloss\": \"when\", \"role\": \"other\"}, {\"chunk\": \"오세요?\", \"gloss\": \"arrive-you\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "언제 오세요?",
+        "romanization": "eonje oseyo?",
+        "natural_english": "When do you arrive?",
+        "gloss": [
+          {
+            "chunk": "언제",
+            "gloss": "when",
+            "role": "other"
+          },
+          {
+            "chunk": "오세요?",
+            "gloss": "arrive-you",
+            "role": "verb"
+          }
+        ],
+        "particles": [],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 언제 도착해요? → 언제 오세요?; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5035,
+      "completionMs": 12309,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-14",
+      "input": "Before my friend comes, I clean the house",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"친구가 오기 전에 집을 청소해요\", \"natural_english\": \"Before my friend comes, I clean the house\", \"gloss\": [{\"chunk\": \"친구가\", \"gloss\": \"friend-[subj]\", \"role\": \"subject\"}, {\"chunk\": \"오기\", \"gloss\": \"come-before\", \"role\": \"verb\"}, {\"chunk\": \"전에\", \"gloss\": \"before\", \"role\": \"other\"}, {\"chunk\": \"집을\", \"gloss\": \"house-[obj]\", \"role\": \"object\"}, {\"chunk\": \"청소해요\", \"gloss\": \"clean-do\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "친구가 오기 전에 집을 청소해요",
+        "romanization": "chinguga ogi jeone jibeul cheongsohaeyo",
+        "natural_english": "Before my friend comes, I clean the house",
+        "gloss": [
+          {
+            "chunk": "친구가",
+            "gloss": "friend-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "오기",
+            "gloss": "come-before",
+            "role": "verb"
+          },
+          {
+            "chunk": "전에",
+            "gloss": "before",
+            "role": "other"
+          },
+          {
+            "chunk": "집을",
+            "gloss": "house-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "청소해요",
+            "gloss": "clean-do",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "가",
+            "job": "marks the subject"
+          },
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          },
+          {
+            "particle": "을",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": true,
+      "coverageEvidence": "Primary gloss lens: 친구가 오기 전에 집을 청소해요 → 친구가 오기 전에 집을 청소해요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5227,
+      "completionMs": 18415,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-15",
+      "input": "After taking the medicine, rest well",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"약을 먹은 뒤 쉴 거예요\", \"natural_english\": \"After taking the medicine, rest well\", \"gloss\": [{\"chunk\": \"약을\", \"gloss\": \"medicine-[obj]\", \"role\": \"object\"}, {\"chunk\": \"먹은\", \"gloss\": \"took\", \"role\": \"verb\"}, {\"chunk\": \"뒤\", \"gloss\": \"after\", \"role\": \"other\"}, {\"chunk\": \"쉴\", \"gloss\": \"rest\", \"role\": \"verb\"}, {\"chunk\": \"거예요\", \"gloss\": \"will\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "약을 먹은 뒤 쉴 거예요",
+        "romanization": "yageul meogeun dwi swil geoyeyo",
+        "natural_english": "After taking the medicine, rest well",
+        "gloss": [
+          {
+            "chunk": "약을",
+            "gloss": "medicine-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "먹은",
+            "gloss": "took",
+            "role": "verb"
+          },
+          {
+            "chunk": "뒤",
+            "gloss": "after",
+            "role": "other"
+          },
+          {
+            "chunk": "쉴",
+            "gloss": "rest",
+            "role": "verb"
+          },
+          {
+            "chunk": "거예요",
+            "gloss": "will",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "gloss",
+      "coveragePass": false,
+      "coverageEvidence": "“Will rest” changes the command to rest well into a prediction.",
+      "dimensions": null,
+      "meaningReversal": true,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5230,
+      "completionMs": 17967,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-16",
+      "input": "My older brother is a singer",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"언니는 가수예요\", \"natural_english\": \"My older brother is a singer\", \"gloss\": [{\"chunk\": \"언니는\", \"gloss\": \"older-brother-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"가수예요\", \"gloss\": \"singer-is\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "언니는 가수예요",
+        "romanization": "eonnineun gasuyeyo",
+        "natural_english": "My older brother is a singer",
+        "gloss": [
+          {
+            "chunk": "언니는",
+            "gloss": "older-brother-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "가수예요",
+            "gloss": "singer-is",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": false,
+      "coverageEvidence": "언니 is older sister, not older brother.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5078,
+      "completionMs": 13264,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-17",
+      "input": "It's 2:30 in the afternoon",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"점심시간이 아니에요, 오후 두 시 반이에요\", \"natural_english\": \"It's 2:30 in the afternoon\", \"gloss\": [{\"chunk\": \"점심시간이\", \"gloss\": \"lunch-hour-[subj]\", \"role\": \"other\"}, {\"chunk\": \"아니에요\", \"gloss\": \"is-not\", \"role\": \"verb\"}, {\"chunk\": \"오후\", \"gloss\": \"afternoon\", \"role\": \"other\"}, {\"chunk\": \"두 시 반이에요\", \"gloss\": \"two-hour-half-is\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "점심시간이 아니에요, 오후 두 시 반이에요",
+        "romanization": "jeomsimsigani anieyo, ohu du si banieyo",
+        "natural_english": "It's 2:30 in the afternoon",
+        "gloss": [
+          {
+            "chunk": "점심시간이",
+            "gloss": "lunch-hour-[subj]",
+            "role": "other"
+          },
+          {
+            "chunk": "아니에요",
+            "gloss": "is-not",
+            "role": "verb"
+          },
+          {
+            "chunk": "오후",
+            "gloss": "afternoon",
+            "role": "other"
+          },
+          {
+            "chunk": "두 시 반이에요",
+            "gloss": "two-hour-half-is",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": false,
+      "coverageEvidence": "Adds “not lunchtime,” absent from the input.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5082,
+      "completionMs": 18078,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-18",
+      "input": "My little sibling is ten years old",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"언니는 열 살이에요\", \"natural_english\": \"My little sibling is ten years old\", \"gloss\": [{\"chunk\": \"언니는\", \"gloss\": \"older-sibling-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"열 살이에요\", \"gloss\": \"ten years is\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "언니는 열 살이에요",
+        "romanization": "eonnineun yeol sarieyo",
+        "natural_english": "My little sibling is ten years old",
+        "gloss": [
+          {
+            "chunk": "언니는",
+            "gloss": "older-sibling-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "열 살이에요",
+            "gloss": "ten years is",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": false,
+      "coverageEvidence": "언니 is older sister, not a little sibling.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5157,
+      "completionMs": 13411,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-19",
+      "input": "My family is four people",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"가족은 네 명이에요\", \"natural_english\": \"My family is four people\", \"gloss\": [{\"chunk\": \"가족은\", \"gloss\": \"family-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"네 명이에요\", \"gloss\": \"four people-is\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "가족은 네 명이에요",
+        "romanization": "gajogeun ne myeongieyo",
+        "natural_english": "My family is four people",
+        "gloss": [
+          {
+            "chunk": "가족은",
+            "gloss": "family-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "네 명이에요",
+            "gloss": "four people-is",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "은",
+            "job": "marks a topic or contrast"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 우리 가족은 네 명이에요 → 가족은 네 명이에요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5208,
+      "completionMs": 12976,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-20",
+      "input": "My phone is in my bag",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"내 전화기는 가방에 있어요\", \"natural_english\": \"My phone is in my bag\", \"gloss\": [{\"chunk\": \"내\", \"gloss\": \"my\", \"role\": \"other\"}, {\"chunk\": \"전화기는\", \"gloss\": \"phone-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"가방에\", \"gloss\": \"bag-at\", \"role\": \"place\"}, {\"chunk\": \"있어요\", \"gloss\": \"exists\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "내 전화기는 가방에 있어요",
+        "romanization": "nae jeonhwagineun gabange isseoyo",
+        "natural_english": "My phone is in my bag",
+        "gloss": [
+          {
+            "chunk": "내",
+            "gloss": "my",
+            "role": "other"
+          },
+          {
+            "chunk": "전화기는",
+            "gloss": "phone-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "가방에",
+            "gloss": "bag-at",
+            "role": "place"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "exists",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 핸드폰이 가방 안에 있어요 → 내 전화기는 가방에 있어요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5180,
+      "completionMs": 16139,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-21",
+      "input": "The convenience store is behind the station",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"편의점은 역 뒤에 있어요\", \"natural_english\": \"The convenience store is behind the station\", \"gloss\": [{\"chunk\": \"편의점은\", \"gloss\": \"convenience-store-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"역 뒤에\", \"gloss\": \"station behind\", \"role\": \"place\"}, {\"chunk\": \"있어요\", \"gloss\": \"exists\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "편의점은 역 뒤에 있어요",
+        "romanization": "pyeonuijeomeun yeok dwie isseoyo",
+        "natural_english": "The convenience store is behind the station",
+        "gloss": [
+          {
+            "chunk": "편의점은",
+            "gloss": "convenience-store-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "역 뒤에",
+            "gloss": "station behind",
+            "role": "place"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "exists",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "은",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 편의점은 역 뒤에 있어요 → 편의점은 역 뒤에 있어요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5134,
+      "completionMs": 14808,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-22",
+      "input": "I am busy but happy",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"저는 바쁘지만 기분이 좋아요\", \"natural_english\": \"I am busy but happy\", \"gloss\": [{\"chunk\": \"저는\", \"gloss\": \"I-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"바쁘지만\", \"gloss\": \"busy-but\", \"role\": \"other\"}, {\"chunk\": \"기분이\", \"gloss\": \"mood-[subj]\", \"role\": \"other\"}, {\"chunk\": \"좋아요\", \"gloss\": \"is-good\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "저는 바쁘지만 기분이 좋아요",
+        "romanization": "jeoneun bappeujiman gibuni joayo",
+        "natural_english": "I am busy but happy",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "바쁘지만",
+            "gloss": "busy-but",
+            "role": "other"
+          },
+          {
+            "chunk": "기분이",
+            "gloss": "mood-[subj]",
+            "role": "other"
+          },
+          {
+            "chunk": "좋아요",
+            "gloss": "is-good",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 바쁘지만 행복해요 → 저는 바쁘지만 기분이 좋아요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5211,
+      "completionMs": 16722,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-23",
+      "input": "I usually take the subway. But today I'm walking",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"보통 지하철을 이용해요. 하지만 오늘은 걸어요\", \"natural_english\": \"I usually take the subway. But today I'm walking\", \"gloss\": [{\"chunk\": \"보통\", \"gloss\": \"usually\", \"role\": \"other\"}, {\"chunk\": \"지하철을\", \"gloss\": \"subway-[obj]\", \"role\": \"object\"}, {\"chunk\": \"이용해요\", \"gloss\": \"take\", \"role\": \"verb\"}, {\"chunk\": \"하지만\", \"gloss\": \"but\", \"role\": \"other\"}, {\"chunk\": \"오늘은\", \"gloss\": \"today-[as for]\", \"role\": \"other\"}, {\"chunk\": \"걸어요\", \"gloss\": \"walk\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "보통 지하철을 이용해요. 하지만 오늘은 걸어요",
+        "romanization": "botong jihacheoreul iyonghaeyo. hajiman oneureun georeoyo",
+        "natural_english": "I usually take the subway. But today I'm walking",
+        "gloss": [
+          {
+            "chunk": "보통",
+            "gloss": "usually",
+            "role": "other"
+          },
+          {
+            "chunk": "지하철을",
+            "gloss": "subway-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "이용해요",
+            "gloss": "take",
+            "role": "verb"
+          },
+          {
+            "chunk": "하지만",
+            "gloss": "but",
+            "role": "other"
+          },
+          {
+            "chunk": "오늘은",
+            "gloss": "today-[as for]",
+            "role": "other"
+          },
+          {
+            "chunk": "걸어요",
+            "gloss": "walk",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "marks the object"
+          },
+          {
+            "particle": "은",
+            "job": "marks a topic or contrast"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 보통 지하철을 타요. 그런데 오늘은 걸어요 → 보통 지하철을 이용해요. 하지만 오늘은 걸어요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5251,
+      "completionMs": 20509,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-24",
+      "input": "I have an exam. So I have to study hard",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"시험이 있어요. 그래서 열심히 공부해야 돼요\", \"natural_english\": \"I have an exam. So I have to study hard\", \"gloss\": [{\"chunk\": \"시험이\", \"gloss\": \"exam-[subj]\", \"role\": \"other\"}, {\"chunk\": \"있어요\", \"gloss\": \"exists\", \"role\": \"verb\"}, {\"chunk\": \"그래서\", \"gloss\": \"therefore\", \"role\": \"other\"}, {\"chunk\": \"열심히\", \"gloss\": \"hardly\", \"role\": \"other\"}, {\"chunk\": \"공부해야\", \"gloss\": \"study-must\", \"role\": \"verb\"}, {\"chunk\": \"돼요\", \"gloss\": \"is\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "시험이 있어요. 그래서 열심히 공부해야 돼요",
+        "romanization": "siheomi isseoyo. geuraeseo yeolsimhi gongbuhaeya dwaeyo",
+        "natural_english": "I have an exam. So I have to study hard",
+        "gloss": [
+          {
+            "chunk": "시험이",
+            "gloss": "exam-[subj]",
+            "role": "other"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "exists",
+            "role": "verb"
+          },
+          {
+            "chunk": "그래서",
+            "gloss": "therefore",
+            "role": "other"
+          },
+          {
+            "chunk": "열심히",
+            "gloss": "hardly",
+            "role": "other"
+          },
+          {
+            "chunk": "공부해야",
+            "gloss": "study-must",
+            "role": "verb"
+          },
+          {
+            "chunk": "돼요",
+            "gloss": "is",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 시험이 있어요. 그래서 열심히 공부해야 돼요 → 시험이 있어요. 그래서 열심히 공부해야 돼요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5360,
+      "completionMs": 20470,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-25",
+      "input": "My vacation starts next week",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"휴가 다음 주에 시작해요\", \"natural_english\": \"My vacation starts next week\", \"gloss\": [{\"chunk\": \"휴가\", \"gloss\": \"vacation\", \"role\": \"other\"}, {\"chunk\": \"다음\", \"gloss\": \"next\", \"role\": \"other\"}, {\"chunk\": \"주에\", \"gloss\": \"week-on\", \"role\": \"other\"}, {\"chunk\": \"시작해요\", \"gloss\": \"starts\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "휴가 다음 주에 시작해요",
+        "romanization": "hyuga daeum jue sijakhaeyo",
+        "natural_english": "My vacation starts next week",
+        "gloss": [
+          {
+            "chunk": "휴가",
+            "gloss": "vacation",
+            "role": "other"
+          },
+          {
+            "chunk": "다음",
+            "gloss": "next",
+            "role": "other"
+          },
+          {
+            "chunk": "주에",
+            "gloss": "week-on",
+            "role": "other"
+          },
+          {
+            "chunk": "시작해요",
+            "gloss": "starts",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "가",
+            "job": "marks the subject"
+          },
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 다음 주부터 휴가예요 → 휴가 다음 주에 시작해요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5195,
+      "completionMs": 16176,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-26",
+      "input": "Before sleeping, I turn off my phone",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"자고 전에 핸드폰을 끄어요\", \"natural_english\": \"Before sleeping, I turn off my phone\", \"gloss\": [{\"chunk\": \"자고 전에\", \"gloss\": \"sleep before\", \"role\": \"other\"}, {\"chunk\": \"핸드폰을\", \"gloss\": \"phone-[obj]\", \"role\": \"object\"}, {\"chunk\": \"끄어요\", \"gloss\": \"turn-off\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "자고 전에 핸드폰을 끄어요",
+        "romanization": "jago jeone haendeuponeul kkeueoyo",
+        "natural_english": "Before sleeping, I turn off my phone",
+        "gloss": [
+          {
+            "chunk": "자고 전에",
+            "gloss": "sleep before",
+            "role": "other"
+          },
+          {
+            "chunk": "핸드폰을",
+            "gloss": "phone-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "끄어요",
+            "gloss": "turn-off",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          },
+          {
+            "particle": "을",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": false,
+      "coverageEvidence": "자고 전에 and 끄어요 are malformed forms.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5084,
+      "completionMs": 15069,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-27",
+      "input": "Math is hard, but it's fun",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"수학은 어렵지만 재미있어요\", \"natural_english\": \"Math is hard, but it's fun\", \"gloss\": [{\"chunk\": \"수학은\", \"gloss\": \"math-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"어렵지만\", \"gloss\": \"hard-but\", \"role\": \"verb\"}, {\"chunk\": \"재미있어요\", \"gloss\": \"is-fun\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "수학은 어렵지만 재미있어요",
+        "romanization": "suhageun eoryeopjiman jaemiisseoyo",
+        "natural_english": "Math is hard, but it's fun",
+        "gloss": [
+          {
+            "chunk": "수학은",
+            "gloss": "math-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "어렵지만",
+            "gloss": "hard-but",
+            "role": "verb"
+          },
+          {
+            "chunk": "재미있어요",
+            "gloss": "is-fun",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "은",
+            "job": "marks a topic or contrast"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 수학은 어렵지만 재미있어요 → 수학은 어렵지만 재미있어요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5522,
+      "completionMs": 15689,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-28",
+      "input": "I sent the documents by email",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"문서를 이메일로 보냈어요\", \"natural_english\": \"I sent the documents by email\", \"gloss\": [{\"chunk\": \"문서를\", \"gloss\": \"documents-[obj]\", \"role\": \"object\"}, {\"chunk\": \"이메일로\", \"gloss\": \"email-by\", \"role\": \"other\"}, {\"chunk\": \"보냈어요\", \"gloss\": \"sent\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "문서를 이메일로 보냈어요",
+        "romanization": "munseoreul imeillo bonaesseoyo",
+        "natural_english": "I sent the documents by email",
+        "gloss": [
+          {
+            "chunk": "문서를",
+            "gloss": "documents-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "이메일로",
+            "gloss": "email-by",
+            "role": "other"
+          },
+          {
+            "chunk": "보냈어요",
+            "gloss": "sent",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "를",
+            "job": "marks the object"
+          },
+          {
+            "particle": "로",
+            "job": "marks a direction, means, or method"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 서류를 이메일로 보냈어요 → 문서를 이메일로 보냈어요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 4892,
+      "completionMs": 14408,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-29",
+      "input": "We're almost there",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"거기서 거의 도착했어요\", \"natural_english\": \"We're almost there\", \"gloss\": [{\"chunk\": \"거기서\", \"gloss\": \"there-from\", \"role\": \"place\"}, {\"chunk\": \"거의\", \"gloss\": \"almost\", \"role\": \"other\"}, {\"chunk\": \"도착했어요\", \"gloss\": \"arrived\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "거기서 거의 도착했어요",
+        "romanization": "geogiseo geoui dochakhaesseoyo",
+        "natural_english": "We're almost there",
+        "gloss": [
+          {
+            "chunk": "거기서",
+            "gloss": "there-from",
+            "role": "place"
+          },
+          {
+            "chunk": "거의",
+            "gloss": "almost",
+            "role": "other"
+          },
+          {
+            "chunk": "도착했어요",
+            "gloss": "arrived",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "의",
+            "job": "marks possession or association"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": false,
+      "coverageEvidence": "거기서 거의 도착했어요 does not naturally express “we are almost there.”",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5181,
+      "completionMs": 14534,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-30",
+      "input": "I took the medicine, but still haven't gotten better",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"약을 먹었어요, 그래도 안 좋아졌어요\", \"natural_english\": \"I took the medicine, but still haven't gotten better\", \"gloss\": [{\"chunk\": \"약을\", \"gloss\": \"medicine-[obj]\", \"role\": \"object\"}, {\"chunk\": \"먹었어요\", \"gloss\": \"took\", \"role\": \"verb\"}, {\"chunk\": \"그래도\", \"gloss\": \"still\", \"role\": \"other\"}, {\"chunk\": \"안\", \"gloss\": \"not\", \"role\": \"other\"}, {\"chunk\": \"좋아졌어요\", \"gloss\": \"got-better\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "약을 먹었어요, 그래도 안 좋아졌어요",
+        "romanization": "yageul meogeosseoyo, geuraedo an joajyeosseoyo",
+        "natural_english": "I took the medicine, but still haven't gotten better",
+        "gloss": [
+          {
+            "chunk": "약을",
+            "gloss": "medicine-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "먹었어요",
+            "gloss": "took",
+            "role": "verb"
+          },
+          {
+            "chunk": "그래도",
+            "gloss": "still",
+            "role": "other"
+          },
+          {
+            "chunk": "안",
+            "gloss": "not",
+            "role": "other"
+          },
+          {
+            "chunk": "좋아졌어요",
+            "gloss": "got-better",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "marks the object"
+          },
+          {
+            "particle": "도",
+            "job": "adds 'also' or 'too'"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "semantic-fidelity",
+      "coveragePass": true,
+      "coverageEvidence": "Primary semantic-fidelity lens: 약을 먹었는데 아직 안 나았어요 → 약을 먹었어요, 그래도 안 좋아졌어요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5425,
+      "completionMs": 18837,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-31",
+      "input": "My father is busy right now",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"아빠는 지금 바빠요\", \"natural_english\": \"My father is busy right now\", \"gloss\": [{\"chunk\": \"아빠는\", \"gloss\": \"father-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"지금\", \"gloss\": \"right-now\", \"role\": \"other\"}, {\"chunk\": \"바빠요\", \"gloss\": \"is-busy\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "아빠는 지금 바빠요",
+        "romanization": "appaneun jigeum bappayo",
+        "natural_english": "My father is busy right now",
+        "gloss": [
+          {
+            "chunk": "아빠는",
+            "gloss": "father-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "지금",
+            "gloss": "right-now",
+            "role": "other"
+          },
+          {
+            "chunk": "바빠요",
+            "gloss": "is-busy",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "바빠요 omits the honorific for father.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5185,
+      "completionMs": 14894,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-32",
+      "input": "Grandfather is at our house",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"할아버지는 우리 집에 있어요\", \"natural_english\": \"Grandfather is at our house\", \"gloss\": [{\"chunk\": \"할아버지는\", \"gloss\": \"grandfather-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"우리 집에\", \"gloss\": \"our house-at\", \"role\": \"place\"}, {\"chunk\": \"있어요\", \"gloss\": \"exists\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "할아버지는 우리 집에 있어요",
+        "romanization": "harabeojineun uri jibe isseoyo",
+        "natural_english": "Grandfather is at our house",
+        "gloss": [
+          {
+            "chunk": "할아버지는",
+            "gloss": "grandfather-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "우리 집에",
+            "gloss": "our house-at",
+            "role": "place"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "exists",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "있어요 omits the honorific 계시다 for grandfather.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5183,
+      "completionMs": 14736,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-33",
+      "input": "More, please",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"좀 더 주세요\", \"natural_english\": \"More, please\", \"gloss\": [{\"chunk\": \"좀 더\", \"gloss\": \"a bit more\", \"role\": \"other\"}, {\"chunk\": \"주세요\", \"gloss\": \"give-me\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "좀 더 주세요",
+        "romanization": "jom deo juseyo",
+        "natural_english": "More, please",
+        "gloss": [
+          {
+            "chunk": "좀 더",
+            "gloss": "a bit more",
+            "role": "other"
+          },
+          {
+            "chunk": "주세요",
+            "gloss": "give-me",
+            "role": "verb"
+          }
+        ],
+        "particles": [],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": true,
+      "coverageEvidence": "Primary register lens: 더 주세요 → 좀 더 주세요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5154,
+      "completionMs": 12404,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-34",
+      "input": "Cross the street at the light",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"등불에서 가요\", \"natural_english\": \"Cross the street at the light\", \"gloss\": [{\"chunk\": \"등불에서\", \"gloss\": \"light-at\", \"role\": \"place\"}, {\"chunk\": \"가요\", \"gloss\": \"cross\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "등불에서 가요",
+        "romanization": "deungbureseo gayo",
+        "natural_english": "Cross the street at the light",
+        "gloss": [
+          {
+            "chunk": "등불에서",
+            "gloss": "light-at",
+            "role": "place"
+          },
+          {
+            "chunk": "가요",
+            "gloss": "cross",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "에서",
+            "job": "marks the place where an action happens"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "등불 means lamp, and the crossing request is replaced with “go.”",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5275,
+      "completionMs": 12643,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-35",
+      "input": "In the hospital, don't smoke cigarettes",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"병원에서 담배를 피우지 마세요\", \"natural_english\": \"In the hospital, don't smoke cigarettes\", \"gloss\": [{\"chunk\": \"병원에서\", \"gloss\": \"hospital-at\", \"role\": \"place\"}, {\"chunk\": \"담배를\", \"gloss\": \"cigarettes-[obj]\", \"role\": \"object\"}, {\"chunk\": \"피우지 마세요\", \"gloss\": \"smoke-not do\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "병원에서 담배를 피우지 마세요",
+        "romanization": "byeongwoneseo dambaereul piuji maseyo",
+        "natural_english": "In the hospital, don't smoke cigarettes",
+        "gloss": [
+          {
+            "chunk": "병원에서",
+            "gloss": "hospital-at",
+            "role": "place"
+          },
+          {
+            "chunk": "담배를",
+            "gloss": "cigarettes-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "피우지 마세요",
+            "gloss": "smoke-not do",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "에서",
+            "job": "marks the place where an action happens"
+          },
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": true,
+      "coverageEvidence": "Primary register lens: 병원에서 담배를 피우지 마세요 → 병원에서 담배를 피우지 마세요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5110,
+      "completionMs": 15592,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-36",
+      "input": "Today's meeting is important. Don't be late",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"오늘의 회의는 중요해요. 늦지 마세요\", \"natural_english\": \"Today's meeting is important. Don't be late\", \"gloss\": [{\"chunk\": \"오늘의\", \"gloss\": \"today's\", \"role\": \"other\"}, {\"chunk\": \"회의는\", \"gloss\": \"meeting-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"중요해요\", \"gloss\": \"is-important\", \"role\": \"verb\"}, {\"chunk\": \"늦지\", \"gloss\": \"not-late\", \"role\": \"verb\"}, {\"chunk\": \"마세요\", \"gloss\": \"do\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "오늘의 회의는 중요해요. 늦지 마세요",
+        "romanization": "oneurui hoeuineun jungyohaeyo. neutji maseyo",
+        "natural_english": "Today's meeting is important. Don't be late",
+        "gloss": [
+          {
+            "chunk": "오늘의",
+            "gloss": "today's",
+            "role": "other"
+          },
+          {
+            "chunk": "회의는",
+            "gloss": "meeting-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "중요해요",
+            "gloss": "is-important",
+            "role": "verb"
+          },
+          {
+            "chunk": "늦지",
+            "gloss": "not-late",
+            "role": "verb"
+          },
+          {
+            "chunk": "마세요",
+            "gloss": "do",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "의",
+            "job": "marks possession or association"
+          },
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": true,
+      "coverageEvidence": "Primary register lens: 오늘 회의는 중요해요. 지각하지 마세요 → 오늘의 회의는 중요해요. 늦지 마세요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5218,
+      "completionMs": 18820,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-37",
+      "input": "Hey! Long time no see!",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"안녕! 오래 안 봤어요!\", \"natural_english\": \"Hey! Long time no see!\", \"gloss\": [{\"chunk\": \"안녕!\", \"gloss\": \"hey!\", \"role\": \"other\"}, {\"chunk\": \"오래\", \"gloss\": \"long-time\", \"role\": \"other\"}, {\"chunk\": \"안\", \"gloss\": \"not-saw\", \"role\": \"verb\"}, {\"chunk\": \"봤어요!\", \"gloss\": \"saw!\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "안녕! 오래 안 봤어요!",
+        "romanization": "annyeong! orae an bwasseoyo!",
+        "natural_english": "Hey! Long time no see!",
+        "gloss": [
+          {
+            "chunk": "안녕!",
+            "gloss": "hey!",
+            "role": "other"
+          },
+          {
+            "chunk": "오래",
+            "gloss": "long-time",
+            "role": "other"
+          },
+          {
+            "chunk": "안",
+            "gloss": "not-saw",
+            "role": "verb"
+          },
+          {
+            "chunk": "봤어요!",
+            "gloss": "saw!",
+            "role": "verb"
+          }
+        ],
+        "particles": [],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "봤어요 uses polite speech for a casual greeting.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5127,
+      "completionMs": 16240,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-38",
+      "input": "Come to my birthday party!",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"생일 파티에 와줘!\", \"natural_english\": \"Come to my birthday party!\", \"gloss\": [{\"chunk\": \"생일 파티에\", \"gloss\": \"birthday party-to\", \"role\": \"place\"}, {\"chunk\": \"와줘!\", \"gloss\": \"come-give!\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "생일 파티에 와줘!",
+        "romanization": "saengil patie wajwo!",
+        "natural_english": "Come to my birthday party!",
+        "gloss": [
+          {
+            "chunk": "생일 파티에",
+            "gloss": "birthday party-to",
+            "role": "place"
+          },
+          {
+            "chunk": "와줘!",
+            "gloss": "come-give!",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": true,
+      "coverageEvidence": "Primary register lens: 내 생일 파티에 와! → 생일 파티에 와줘!; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5774,
+      "completionMs": 13572,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-39",
+      "input": "No, it's fine",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"아니요, 괜찮아요\", \"natural_english\": \"No, it's fine\", \"gloss\": [{\"chunk\": \"아니요\", \"gloss\": \"no\", \"role\": \"other\"}, {\"chunk\": \"괜찮아요\", \"gloss\": \"it's-fine\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "아니요, 괜찮아요",
+        "romanization": "aniyo, gwaenchanayo",
+        "natural_english": "No, it's fine",
+        "gloss": [
+          {
+            "chunk": "아니요",
+            "gloss": "no",
+            "role": "other"
+          },
+          {
+            "chunk": "괜찮아요",
+            "gloss": "it's-fine",
+            "role": "verb"
+          }
+        ],
+        "particles": [],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "괜찮아요 uses polite speech for a casual reply.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5332,
+      "completionMs": 13060,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-40",
+      "input": "Hello? Who is this?",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"안녕하세요? 누가예요?\", \"natural_english\": \"Hello? Who is this?\", \"gloss\": [{\"chunk\": \"안녕하세요?\", \"gloss\": \"hello?\", \"role\": \"other\"}, {\"chunk\": \"누가예요?\", \"gloss\": \"who-is-this?\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "안녕하세요? 누가예요?",
+        "romanization": "annyeonghaseyo? nugayeyo?",
+        "natural_english": "Hello? Who is this?",
+        "gloss": [
+          {
+            "chunk": "안녕하세요?",
+            "gloss": "hello?",
+            "role": "other"
+          },
+          {
+            "chunk": "누가예요?",
+            "gloss": "who-is-this?",
+            "role": "verb"
+          }
+        ],
+        "particles": [],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "누가예요 is malformed for “Who is this?” on the phone.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5147,
+      "completionMs": 12753,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-41",
+      "input": "Please call me when you have time",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"시간이 있을 때 저를 전화해 주세요\", \"natural_english\": \"Please call me when you have time\", \"gloss\": [{\"chunk\": \"시간이\", \"gloss\": \"time-[subj]\", \"role\": \"other\"}, {\"chunk\": \"있을 때\", \"gloss\": \"exists when\", \"role\": \"other\"}, {\"chunk\": \"저를\", \"gloss\": \"me-[obj]\", \"role\": \"object\"}, {\"chunk\": \"전화해 주세요\", \"gloss\": \"call please\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "시간이 있을 때 저를 전화해 주세요",
+        "romanization": "sigani isseul ttae jeoreul jeonhwahae juseyo",
+        "natural_english": "Please call me when you have time",
+        "gloss": [
+          {
+            "chunk": "시간이",
+            "gloss": "time-[subj]",
+            "role": "other"
+          },
+          {
+            "chunk": "있을 때",
+            "gloss": "exists when",
+            "role": "other"
+          },
+          {
+            "chunk": "저를",
+            "gloss": "me-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "전화해 주세요",
+            "gloss": "call please",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          },
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "저를 전화해 주세요 is an invalid object construction for “call me.”",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5237,
+      "completionMs": 16858,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-42",
+      "input": "You speak Korean really well!",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"한국어를 정말 잘해요!\", \"natural_english\": \"You speak Korean really well!\", \"gloss\": [{\"chunk\": \"한국어를\", \"gloss\": \"Korean-[obj]\", \"role\": \"object\"}, {\"chunk\": \"정말\", \"gloss\": \"really\", \"role\": \"other\"}, {\"chunk\": \"잘해요!\", \"gloss\": \"speak-well!\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "한국어를 정말 잘해요!",
+        "romanization": "hangugeoreul jeongmal jalhaeyo!",
+        "natural_english": "You speak Korean really well!",
+        "gloss": [
+          {
+            "chunk": "한국어를",
+            "gloss": "Korean-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "정말",
+            "gloss": "really",
+            "role": "other"
+          },
+          {
+            "chunk": "잘해요!",
+            "gloss": "speak-well!",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "잘해요 omits the honorific praise in 잘하시네요.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5299,
+      "completionMs": 14760,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-43",
+      "input": "Glad to meet you",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"만나서 기쁩니다\", \"natural_english\": \"Glad to meet you\", \"gloss\": [{\"chunk\": \"만나서\", \"gloss\": \"met-after\", \"role\": \"other\"}, {\"chunk\": \"기쁩니다\", \"gloss\": \"am-glad\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "만나서 기쁩니다",
+        "romanization": "mannaseo gippeumnida",
+        "natural_english": "Glad to meet you",
+        "gloss": [
+          {
+            "chunk": "만나서",
+            "gloss": "met-after",
+            "role": "other"
+          },
+          {
+            "chunk": "기쁩니다",
+            "gloss": "am-glad",
+            "role": "verb"
+          }
+        ],
+        "particles": [],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": true,
+      "coverageEvidence": "Primary register lens: 만나서 반갑습니다 → 만나서 기쁩니다; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5168,
+      "completionMs": 13079,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-44",
+      "input": "The professor explained the hanja for us",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"교수님이 우리한테 한자를 설명했어요\", \"natural_english\": \"The professor explained the hanja for us\", \"gloss\": [{\"chunk\": \"교수님이\", \"gloss\": \"professor-[subj]\", \"role\": \"subject\"}, {\"chunk\": \"우리한테\", \"gloss\": \"us-to\", \"role\": \"other\"}, {\"chunk\": \"한자를\", \"gloss\": \"hanja-[obj]\", \"role\": \"object\"}, {\"chunk\": \"설명했어요\", \"gloss\": \"explained\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "교수님이 우리한테 한자를 설명했어요",
+        "romanization": "gyosunimi urihante hanjareul seolmyeonghaesseoyo",
+        "natural_english": "The professor explained the hanja for us",
+        "gloss": [
+          {
+            "chunk": "교수님이",
+            "gloss": "professor-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "우리한테",
+            "gloss": "us-to",
+            "role": "other"
+          },
+          {
+            "chunk": "한자를",
+            "gloss": "hanja-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "설명했어요",
+            "gloss": "explained",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          },
+          {
+            "particle": "한테",
+            "job": "marks a recipient"
+          },
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "설명했어요 omits the professor honorific and benefactive.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5226,
+      "completionMs": 16886,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-45",
+      "input": "Yesterday the government made public the investigation results. Moreover, it announced a new plan as well",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"어제 정부에서 조사 결과를 공개했어요. 또 새로운 계획을 발표했어요\", \"natural_english\": \"Yesterday the government made public the investigation results. Moreover, it announced a new plan as well\", \"gloss\": [{\"chunk\": \"어제\", \"gloss\": \"yesterday\", \"role\": \"other\"}, {\"chunk\": \"정부에서\", \"gloss\": \"government-at\", \"role\": \"place\"}, {\"chunk\": \"조사 결과를\", \"gloss\": \"investigation results-[obj]\", \"role\": \"object\"}, {\"chunk\": \"공개했어요\", \"gloss\": \"made-public\", \"role\": \"verb\"}, {\"chunk\": \"또\", \"gloss\": \"moreover\", \"role\": \"other\"}, {\"chunk\": \"새로운 계획을\", \"gloss\": \"new plan-[obj]\", \"role\": \"object\"}, {\"chunk\": \"발표했어요\", \"gloss\": \"announced\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "어제 정부에서 조사 결과를 공개했어요. 또 새로운 계획을 발표했어요",
+        "romanization": "eoje jeongbueseo josa gyeolgwareul gonggaehaesseoyo. tto saeroun gyehoegeul balpyohaesseoyo",
+        "natural_english": "Yesterday the government made public the investigation results. Moreover, it announced a new plan as well",
+        "gloss": [
+          {
+            "chunk": "어제",
+            "gloss": "yesterday",
+            "role": "other"
+          },
+          {
+            "chunk": "정부에서",
+            "gloss": "government-at",
+            "role": "place"
+          },
+          {
+            "chunk": "조사 결과를",
+            "gloss": "investigation results-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "공개했어요",
+            "gloss": "made-public",
+            "role": "verb"
+          },
+          {
+            "chunk": "또",
+            "gloss": "moreover",
+            "role": "other"
+          },
+          {
+            "chunk": "새로운 계획을",
+            "gloss": "new plan-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "발표했어요",
+            "gloss": "announced",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "에서",
+            "job": "marks the place where an action happens"
+          },
+          {
+            "particle": "를",
+            "job": "marks the object"
+          },
+          {
+            "particle": "을",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "register",
+      "coveragePass": false,
+      "coverageEvidence": "해요 news report does not match the formal public-announcement register.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5360,
+      "completionMs": 23649,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-46",
+      "input": "Winter is so cold",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"겨울은 너무 추워요\", \"natural_english\": \"Winter is so cold\", \"gloss\": [{\"chunk\": \"겨울은\", \"gloss\": \"winter-[as for]\", \"role\": \"subject\"}, {\"chunk\": \"너무\", \"gloss\": \"too-much\", \"role\": \"other\"}, {\"chunk\": \"추워요\", \"gloss\": \"is-cold\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "겨울은 너무 추워요",
+        "romanization": "gyeoureun neomu chuwoyo",
+        "natural_english": "Winter is so cold",
+        "gloss": [
+          {
+            "chunk": "겨울은",
+            "gloss": "winter-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "너무",
+            "gloss": "too-much",
+            "role": "other"
+          },
+          {
+            "chunk": "추워요",
+            "gloss": "is-cold",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "은",
+            "job": "marks a topic or contrast"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": true,
+      "coverageEvidence": "Primary literal-gap lens: 겨울은 너무 추워요 → 겨울은 너무 추워요; no conflicting issue found in this first pass.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5146,
+      "completionMs": 14863,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-47",
+      "input": "I feel good today",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"오늘은 기분이 좋아요\", \"natural_english\": \"I feel good today\", \"gloss\": [{\"chunk\": \"오늘은\", \"gloss\": \"today-[as for]\", \"role\": \"other\"}, {\"chunk\": \"기분이\", \"gloss\": \"feeling-[subj]\", \"role\": \"subject\"}, {\"chunk\": \"좋아요\", \"gloss\": \"is-good\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "오늘은 기분이 좋아요",
+        "romanization": "oneureun gibuni joayo",
+        "natural_english": "I feel good today",
+        "gloss": [
+          {
+            "chunk": "오늘은",
+            "gloss": "today-[as for]",
+            "role": "other"
+          },
+          {
+            "chunk": "기분이",
+            "gloss": "feeling-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "좋아요",
+            "gloss": "is-good",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "은",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "No explanation of mood as the literal Korean subject.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5308,
+      "completionMs": 14592,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-48",
+      "input": "The fine dust is really bad",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"먼지가 진짜 나빠요\", \"natural_english\": \"The fine dust is really bad\", \"gloss\": [{\"chunk\": \"먼지가\", \"gloss\": \"dust-[subj]\", \"role\": \"subject\"}, {\"chunk\": \"진짜\", \"gloss\": \"really\", \"role\": \"other\"}, {\"chunk\": \"나빠요\", \"gloss\": \"is-bad\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "먼지가 진짜 나빠요",
+        "romanization": "meonjiga jinjja nappayo",
+        "natural_english": "The fine dust is really bad",
+        "gloss": [
+          {
+            "chunk": "먼지가",
+            "gloss": "dust-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "진짜",
+            "gloss": "really",
+            "role": "other"
+          },
+          {
+            "chunk": "나빠요",
+            "gloss": "is-bad",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "가",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "Fine dust is reduced to generic dust; the source’s quantity contrast is lost.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5363,
+      "completionMs": 14855,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-49",
+      "input": "Traffic is so bad",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"교통이 너무 막혀요\", \"natural_english\": \"Traffic is so bad\", \"gloss\": [{\"chunk\": \"교통이\", \"gloss\": \"traffic-[subj]\", \"role\": \"subject\"}, {\"chunk\": \"너무\", \"gloss\": \"too\", \"role\": \"other\"}, {\"chunk\": \"막혀요\", \"gloss\": \"is-blocked\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "교통이 너무 막혀요",
+        "romanization": "gyotongi neomu makyeoyo",
+        "natural_english": "Traffic is so bad",
+        "gloss": [
+          {
+            "chunk": "교통이",
+            "gloss": "traffic-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "너무",
+            "gloss": "too",
+            "role": "other"
+          },
+          {
+            "chunk": "막혀요",
+            "gloss": "is-blocked",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "No explanation of traffic/road as literally blocked.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5193,
+      "completionMs": 14490,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-50",
+      "input": "Cheers!",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \" Cheers!\", \"natural_english\": \"Cheers!\", \"gloss\": [{\"chunk\": \" Cheers!\", \"gloss\": \"Cheers!\", \"role\": \"other\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": " Cheers!",
+        "romanization": " Cheers!",
+        "natural_english": "Cheers!",
+        "gloss": [
+          {
+            "chunk": " Cheers!",
+            "gloss": "Cheers!",
+            "role": "other"
+          }
+        ],
+        "particles": [],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "The Korean field contains English “Cheers!”, not 건배.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5121,
+      "completionMs": 10106,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-51",
+      "input": "Today somehow I'm in a good mood",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"오늘 어떤 날인지 몰랐는데, 기분이 좋아\", \"natural_english\": \"Today somehow I'm in a good mood\", \"gloss\": [{\"chunk\": \"오늘\", \"gloss\": \"today\", \"role\": \"other\"}, {\"chunk\": \"어떤 날인지 몰랐는데\", \"gloss\": \"day-which didn't-know-but\", \"role\": \"other\"}, {\"chunk\": \"기분이 좋아\", \"gloss\": \"mood is-good\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "오늘 어떤 날인지 몰랐는데, 기분이 좋아",
+        "romanization": "oneul eotteon narinji mollanneunde, gibuni joa",
+        "natural_english": "Today somehow I'm in a good mood",
+        "gloss": [
+          {
+            "chunk": "오늘",
+            "gloss": "today",
+            "role": "other"
+          },
+          {
+            "chunk": "어떤 날인지 몰랐는데",
+            "gloss": "day-which didn't-know-but",
+            "role": "other"
+          },
+          {
+            "chunk": "기분이 좋아",
+            "gloss": "mood is-good",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "Adds an unrelated “I did not know what day” clause and uses casual speech.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5164,
+      "completionMs": 15887,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-52",
+      "input": "The years really do fly",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"시간이 정말 빨리 지나가요\", \"natural_english\": \"The years really do fly\", \"gloss\": [{\"chunk\": \"시간이\", \"gloss\": \"time-[subj]\", \"role\": \"subject\"}, {\"chunk\": \"정말\", \"gloss\": \"really\", \"role\": \"other\"}, {\"chunk\": \"빨리\", \"gloss\": \"fast\", \"role\": \"other\"}, {\"chunk\": \"지나가요\", \"gloss\": \"passes\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "시간이 정말 빨리 지나가요",
+        "romanization": "sigani jeongmal ppalli jinagayo",
+        "natural_english": "The years really do fly",
+        "gloss": [
+          {
+            "chunk": "시간이",
+            "gloss": "time-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "정말",
+            "gloss": "really",
+            "role": "other"
+          },
+          {
+            "chunk": "빨리",
+            "gloss": "fast",
+            "role": "other"
+          },
+          {
+            "chunk": "지나가요",
+            "gloss": "passes",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "No explanation of the years-fly metaphor.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5143,
+      "completionMs": 15950,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-53",
+      "input": "Every weekend I run the washing machine",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"매주 주말에 세탁기를 돌아요\", \"natural_english\": \"Every weekend I run the washing machine\", \"gloss\": [{\"chunk\": \"매주 주말에\", \"gloss\": \"every weekend\", \"role\": \"other\"}, {\"chunk\": \"세탁기를\", \"gloss\": \"washing-machine-[obj]\", \"role\": \"object\"}, {\"chunk\": \"돌아요\", \"gloss\": \"run\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "매주 주말에 세탁기를 돌아요",
+        "romanization": "maeju jumare setakgireul dorayo",
+        "natural_english": "Every weekend I run the washing machine",
+        "gloss": [
+          {
+            "chunk": "매주 주말에",
+            "gloss": "every weekend",
+            "role": "other"
+          },
+          {
+            "chunk": "세탁기를",
+            "gloss": "washing-machine-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "돌아요",
+            "gloss": "run",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          },
+          {
+            "particle": "를",
+            "job": "marks the object"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "세탁기를 돌아요 is intransitive rather than “run the washing machine.”",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5081,
+      "completionMs": 14946,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-54",
+      "input": "This room, you're welcome to decorate however you like",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"이 방은 마음에 드는 대로 꾸며도 돼요\", \"natural_english\": \"This room, you're welcome to decorate however you like\", \"gloss\": [{\"chunk\": \"이 방은\", \"gloss\": \"this room-[as for]\", \"role\": \"place\"}, {\"chunk\": \"마음에 드는 대로\", \"gloss\": \"heart-wants how-ever\", \"role\": \"other\"}, {\"chunk\": \"꾸며도 돼요\", \"gloss\": \"decorate-even do\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "이 방은 마음에 드는 대로 꾸며도 돼요",
+        "romanization": "i bangeun maeume deuneun daero kkumyeodo dwaeyo",
+        "natural_english": "This room, you're welcome to decorate however you like",
+        "gloss": [
+          {
+            "chunk": "이 방은",
+            "gloss": "this room-[as for]",
+            "role": "place"
+          },
+          {
+            "chunk": "마음에 드는 대로",
+            "gloss": "heart-wants how-ever",
+            "role": "other"
+          },
+          {
+            "chunk": "꾸며도 돼요",
+            "gloss": "decorate-even do",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "은",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          },
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "로",
+            "job": "marks a direction, means, or method"
+          },
+          {
+            "particle": "도",
+            "job": "adds 'also' or 'too'"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "No explanation of 마음대로/마음에 드는 대로.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5309,
+      "completionMs": 16810,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-55",
+      "input": "Because the washing machine is worn out, the laundry doesn't come out properly",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"세탁기가 고장 나니까 세탁물이 제대로 나오지 않아요\", \"natural_english\": \"Because the washing machine is worn out, the laundry doesn't come out properly\", \"gloss\": [{\"chunk\": \"세탁기가\", \"gloss\": \"washing-machine-[subj]\", \"role\": \"subject\"}, {\"chunk\": \"고장 나니까\", \"gloss\": \"broken-out-because\", \"role\": \"other\"}, {\"chunk\": \"세탁물이\", \"gloss\": \"laundry-[obj]\", \"role\": \"object\"}, {\"chunk\": \"제대로\", \"gloss\": \"properly\", \"role\": \"other\"}, {\"chunk\": \"나오지 않아요\", \"gloss\": \"comes-out-not-exists\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "세탁기가 고장 나니까 세탁물이 제대로 나오지 않아요",
+        "romanization": "setakgiga gojang nanikka setangmuri jedaero naoji anayo",
+        "natural_english": "Because the washing machine is worn out, the laundry doesn't come out properly",
+        "gloss": [
+          {
+            "chunk": "세탁기가",
+            "gloss": "washing-machine-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "고장 나니까",
+            "gloss": "broken-out-because",
+            "role": "other"
+          },
+          {
+            "chunk": "세탁물이",
+            "gloss": "laundry-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "제대로",
+            "gloss": "properly",
+            "role": "other"
+          },
+          {
+            "chunk": "나오지 않아요",
+            "gloss": "comes-out-not-exists",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "가",
+            "job": "marks the subject"
+          },
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          },
+          {
+            "particle": "로",
+            "job": "marks a direction, means, or method"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "“Broken” replaces “worn out”; no literal-gap account.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5221,
+      "completionMs": 20564,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-56",
+      "input": "A Busan friend asked over the phone: have you eaten?",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"부산 친구가 전화해서 “먹었니?”라고 물어봤어요\", \"natural_english\": \"A Busan friend asked over the phone: have you eaten?\", \"gloss\": [{\"chunk\": \"부산 친구가\", \"gloss\": \"Busan friend-[subj]\", \"role\": \"subject\"}, {\"chunk\": \"전화해서\", \"gloss\": \"phone-by\", \"role\": \"other\"}, {\"chunk\": \"“먹었니?”\", \"gloss\": \"“ate-you?”\", \"role\": \"verb\"}, {\"chunk\": \"라고\", \"gloss\": \"as\", \"role\": \"other\"}, {\"chunk\": \"물어봤어요\", \"gloss\": \"asked\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "부산 친구가 전화해서 “먹었니?”라고 물어봤어요",
+        "romanization": "busan chinguga jeonhwahaeseo “meogeonni?”rago mureobwasseoyo",
+        "natural_english": "A Busan friend asked over the phone: have you eaten?",
+        "gloss": [
+          {
+            "chunk": "부산 친구가",
+            "gloss": "Busan friend-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "전화해서",
+            "gloss": "phone-by",
+            "role": "other"
+          },
+          {
+            "chunk": "“먹었니?”",
+            "gloss": "“ate-you?”",
+            "role": "verb"
+          },
+          {
+            "chunk": "라고",
+            "gloss": "as",
+            "role": "other"
+          },
+          {
+            "chunk": "물어봤어요",
+            "gloss": "asked",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "가",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "The Busan dialect 밥 뭇나 and meal/greeting nuance are absent.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5064,
+      "completionMs": 19602,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-57",
+      "input": "These days I'm so busy I'm about to go out of my mind",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"요즘은 정신이 없어요\", \"natural_english\": \"These days I'm so busy I'm about to go out of my mind\", \"gloss\": [{\"chunk\": \"요즘은\", \"gloss\": \"these-days-[as for]\", \"role\": \"other\"}, {\"chunk\": \"정신이\", \"gloss\": \"spirit-[subj]\", \"role\": \"subject\"}, {\"chunk\": \"없어요\", \"gloss\": \"is-not\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "요즘은 정신이 없어요",
+        "romanization": "yojeumeun jeongsini eopseoyo",
+        "natural_english": "These days I'm so busy I'm about to go out of my mind",
+        "gloss": [
+          {
+            "chunk": "요즘은",
+            "gloss": "these-days-[as for]",
+            "role": "other"
+          },
+          {
+            "chunk": "정신이",
+            "gloss": "spirit-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "없어요",
+            "gloss": "is-not",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "은",
+            "job": "marks a topic or contrast"
+          },
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "The “about to go out of my mind” figurative meaning is weakened and unexplained.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5408,
+      "completionMs": 15865,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-58",
+      "input": "My passport — I've completely lost it. This is big trouble!",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"내 여권 — 완전히 잃어버렸어요. 큰 일이에요!\", \"natural_english\": \"My passport — I've completely lost it. This is big trouble!\", \"gloss\": [{\"chunk\": \"내 여권\", \"gloss\": \"my passport\", \"role\": \"other\"}, {\"chunk\": \"완전히 잃어버렸어요\", \"gloss\": \"completely lost\", \"role\": \"verb\"}, {\"chunk\": \"큰 일이에요\", \"gloss\": \"big thing is\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "내 여권 — 완전히 잃어버렸어요. 큰 일이에요!",
+        "romanization": "nae yeogwon — wanjeonhi ireobeoryeosseoyo. keun irieyo!",
+        "natural_english": "My passport — I've completely lost it. This is big trouble!",
+        "gloss": [
+          {
+            "chunk": "내 여권",
+            "gloss": "my passport",
+            "role": "other"
+          },
+          {
+            "chunk": "완전히 잃어버렸어요",
+            "gloss": "completely lost",
+            "role": "verb"
+          },
+          {
+            "chunk": "큰 일이에요",
+            "gloss": "big thing is",
+            "role": "verb"
+          }
+        ],
+        "particles": [],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "No explanation of 큰일 as “big matter/trouble.”",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5164,
+      "completionMs": 16326,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-59",
+      "input": "Since the evaluations are over, this semester is as good as all finished",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"평가가 끝났으니, 이번 학기는 다 끝났어요\", \"natural_english\": \"Since the evaluations are over, this semester is as good as all finished\", \"gloss\": [{\"chunk\": \"평가가\", \"gloss\": \"evaluations-[subj]\", \"role\": \"other\"}, {\"chunk\": \"끝났으니\", \"gloss\": \"finished-so\", \"role\": \"verb\"}, {\"chunk\": \"이번 학기는\", \"gloss\": \"this semester-[as for]\", \"role\": \"place\"}, {\"chunk\": \"다 끝났어요\", \"gloss\": \"all finished\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "평가가 끝났으니, 이번 학기는 다 끝났어요",
+        "romanization": "pyeonggaga kkeunnasseuni, ibeon hakgineun da kkeunnasseoyo",
+        "natural_english": "Since the evaluations are over, this semester is as good as all finished",
+        "gloss": [
+          {
+            "chunk": "평가가",
+            "gloss": "evaluations-[subj]",
+            "role": "other"
+          },
+          {
+            "chunk": "끝났으니",
+            "gloss": "finished-so",
+            "role": "verb"
+          },
+          {
+            "chunk": "이번 학기는",
+            "gloss": "this semester-[as for]",
+            "role": "place"
+          },
+          {
+            "chunk": "다 끝났어요",
+            "gloss": "all finished",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "가",
+            "job": "marks the subject"
+          },
+          {
+            "particle": "는",
+            "job": "marks a topic or contrast"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "The 셈이에요 “as good as” nuance is dropped.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5214,
+      "completionMs": 18118,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    },
+    {
+      "id": "DAN-IND-60",
+      "input": "As I kept doing farm work, I grew attached to the farm.",
+      "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"농사일을 계속하고 보니 농장에 애착이 생겼어요\", \"natural_english\": \"As I kept doing farm work, I grew attached to the farm.\", \"gloss\": [{\"chunk\": \"농사일을\", \"gloss\": \"farm-work-[obj]\", \"role\": \"other\"}, {\"chunk\": \"계속하고\", \"gloss\": \"kept-doing\", \"role\": \"verb\"}, {\"chunk\": \"보니\", \"gloss\": \"as-for\", \"role\": \"other\"}, {\"chunk\": \"농장에\", \"gloss\": \"farm-at\", \"role\": \"place\"}, {\"chunk\": \"애착이\", \"gloss\": \"attachment-[subj]\", \"role\": \"verb\"}, {\"chunk\": \"생겼어요\", \"gloss\": \"was-born\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}",
+      "parsedReply": {
+        "direction": "en-to-ko",
+        "korean": "농사일을 계속하고 보니 농장에 애착이 생겼어요",
+        "romanization": "nongsaireul gyesokhago boni nongjange aechagi saenggyeosseoyo",
+        "natural_english": "As I kept doing farm work, I grew attached to the farm.",
+        "gloss": [
+          {
+            "chunk": "농사일을",
+            "gloss": "farm-work-[obj]",
+            "role": "other"
+          },
+          {
+            "chunk": "계속하고",
+            "gloss": "kept-doing",
+            "role": "verb"
+          },
+          {
+            "chunk": "보니",
+            "gloss": "as-for",
+            "role": "other"
+          },
+          {
+            "chunk": "농장에",
+            "gloss": "farm-at",
+            "role": "place"
+          },
+          {
+            "chunk": "애착이",
+            "gloss": "attachment-[subj]",
+            "role": "verb"
+          },
+          {
+            "chunk": "생겼어요",
+            "gloss": "was-born",
+            "role": "verb"
+          }
+        ],
+        "particles": [
+          {
+            "particle": "을",
+            "job": "marks the object"
+          },
+          {
+            "particle": "에",
+            "job": "marks a destination, location, or time"
+          },
+          {
+            "particle": "이",
+            "job": "marks the subject"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      },
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "thinkingLeak": false,
+      "coverageClass": "literal-gap",
+      "coveragePass": false,
+      "coverageEvidence": "The source’s 정 nuance is replaced with generic attachment and left unexplained.",
+      "dimensions": null,
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": null,
+      "readyMs": 0,
+      "firstTokenMs": 5394,
+      "completionMs": 21535,
+      "provenance": {
+        "head": "32d9c4dba83bb4a4c1c26b4375ba4429c3ee9ca3",
+        "itemSetPath": "reference/eval/training-independent-inputs.json",
+        "itemSetSha256": "b08e401c55aff100b6dd94795f26369c189554699f1a72ba47f2c48977a7a135",
+        "modelBytes": 4610579744,
+        "modelSha256": "1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7",
+        "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+        "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+      }
+    }
+  ]
+}

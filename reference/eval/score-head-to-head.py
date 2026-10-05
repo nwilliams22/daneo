@@ -38,12 +38,15 @@ def score(engine, item_set, judgments):
         if result["input"] != item["input"] or result["direction"] != item["direction"]:
             raise ValueError(f"{prefix}: submitted input differs from fixture for {item['id']}")
         verdict = judgments[item["id"]]
-        if set(verdict["dimensions"]) != set(DIMENSIONS):
-            raise ValueError(f"{prefix}: missing dimension for {item['id']}")
-        for name in DIMENSIONS:
-            value = verdict["dimensions"][name]
-            if not isinstance(value["pass"], bool) or not value["evidence"]:
-                raise ValueError(f"{prefix}: missing verdict for {item['id']} {name}")
+        if item_set == "v0":
+            if set(verdict["dimensions"]) != set(DIMENSIONS):
+                raise ValueError(f"{prefix}: missing dimension for {item['id']}")
+            for name in DIMENSIONS:
+                value = verdict["dimensions"][name]
+                if not isinstance(value["pass"], bool) or not value["evidence"]:
+                    raise ValueError(f"{prefix}: missing verdict for {item['id']} {name}")
+        elif not isinstance(verdict.get("coveragePass"), bool) or not verdict.get("evidence"):
+            raise ValueError(f"{prefix}: missing primary coverage verdict for {item['id']}")
         for flag in ("meaningReversal", "inventedRule"):
             if not isinstance(verdict[flag], bool):
                 raise ValueError(f"{prefix}: missing {flag} for {item['id']}")
@@ -51,28 +54,36 @@ def score(engine, item_set, judgments):
             raise ValueError(f"{prefix}: assembled ID mismatch for {item['id']}")
         parsed = checked["assembled"]
         schema = checked["rawMatches"] and checked["strictValid"] and checked["schemaValid"]
-        direction = schema and checked["directionCorrect"] and parsed.get("direction") == item["direction"]
+        native_result = result["outcome"].get("result") if result["outcome"].get("ok") else None
+        direction = isinstance(native_result, dict) and native_result.get("direction") == item["direction"]
         leaked = any(marker in reply["rawReply"].lower() for marker in ("<think>", "</think>", "<|im_start|>assistant", "reasoning:"))
-        fully = schema and direction and not leaked and all(verdict["dimensions"][name]["pass"] for name in DIMENSIONS) and not verdict["meaningReversal"] and not verdict["inventedRule"]
+        fully = (schema and direction and not leaked and all(verdict["dimensions"][name]["pass"] for name in DIMENSIONS)
+                 and not verdict["meaningReversal"] and not verdict["inventedRule"]) if item_set == "v0" else None
+        coverage = (schema and direction and not leaked and verdict["coveragePass"]
+                    and not verdict["meaningReversal"] and not verdict["inventedRule"]) if item_set == "independent" else None
         output.append(dict(id=item["id"], input=item["input"], rawReply=reply["rawReply"], parsedReply=parsed,
                            schemaComplete=schema, directionCorrect=direction, thinkingLeak=leaked,
-                           dimensions=verdict["dimensions"], meaningReversal=verdict["meaningReversal"],
-                           inventedRule=verdict["inventedRule"], fullyCorrect=fully,
+                           coverageClass=item.get("coverageClass"), coveragePass=coverage,
+                           coverageEvidence=verdict.get("evidence"), dimensions=verdict.get("dimensions"),
+                           meaningReversal=verdict["meaningReversal"], inventedRule=verdict["inventedRule"], fullyCorrect=fully,
                            readyMs=result["readyMs"], firstTokenMs=result["firstTokenMs"], completionMs=result["completionMs"],
                            provenance=reply["provenance"]))
-    counts = {name: sum(row["dimensions"][name]["pass"] for row in output) for name in DIMENSIONS}
     summary = dict(items=len(output), schemaComplete=sum(row["schemaComplete"] for row in output),
                    directionCorrect=sum(row["directionCorrect"] for row in output),
                    thinkingLeaks=sum(row["thinkingLeak"] for row in output),
-                   fullyCorrect=sum(row["fullyCorrect"] for row in output),
                    meaningReversals=sum(row["meaningReversal"] for row in output),
                    inventedRules=sum(row["inventedRule"] for row in output),
-                   dimensionPasses=counts, warmP95Ms=percentile95([row["completionMs"] for row in output]),
+                   warmP95Ms=percentile95([row["completionMs"] for row in output]),
                    coldReadyMs=results[0]["readyMs"], coldFirstTokenMs=results[0]["firstTokenMs"])
     if item_set == "v0":
+        summary["fullyCorrect"] = sum(row["fullyCorrect"] for row in output)
+        summary["dimensionPasses"] = {name: sum(row["dimensions"][name]["pass"] for row in output) for name in DIMENSIONS}
         summary["absoluteGateMet"] = (summary["schemaComplete"] == 10 and summary["directionCorrect"] == 10
             and summary["thinkingLeaks"] == 0 and summary["fullyCorrect"] >= 9
             and summary["meaningReversals"] == 0 and summary["inventedRules"] == 0)
+    else:
+        summary["coveragePasses"] = {name: sum(row["coveragePass"] for row in output if row["coverageClass"] == name)
+                                     for name in ("gloss", "semantic-fidelity", "register", "literal-gap")}
     return {"engine": engine, "itemSet": item_set, "summary": summary, "results": output}
 
 def main():

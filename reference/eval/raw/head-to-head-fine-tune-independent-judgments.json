@@ -1,0 +1,362 @@
+{
+  "DAN-IND-01": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 저는 커피를 좋아해요 → 커피를 좋아해요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-02": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 주말에 저는 영화를 봐요 → 주말에 영화를 봐요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-03": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 오늘 치킨을 시키고 싶어요 → 오늘 닭고기를 튀긴 걸 주문하고 싶어요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-04": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 커피 두 잔 주문했어요 → 커피 두 잔을 주문했어요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-05": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 매일 우유 한 잔 마셔요 → 저는 매일 우유 한 잔을 마셔요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-06": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 왼쪽으로 가요 → 저는 왼쪽으로 가요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-07": {
+    "coveragePass": false,
+    "evidence": "Gloss labels 공원 as other rather than the existential subject.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-08": {
+    "coveragePass": false,
+    "evidence": "내리요 is malformed; the lesson uses 내려요.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-09": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 매일 버스를 타요 → 저는 매일 버스를 타고 가요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-10": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 밤에 이를 닦아요 → 저는 밤에 치아를 닦아요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-11": {
+    "coveragePass": false,
+    "evidence": "“Friend comes” replaces “I am waiting for my friend.”",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-12": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 김밥 두 개 주세요 → 김밥 두 개 주세요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-13": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 언제 도착해요? → 언제 오세요?; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-14": {
+    "coveragePass": true,
+    "evidence": "Primary gloss lens: 친구가 오기 전에 집을 청소해요 → 친구가 오기 전에 집을 청소해요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-15": {
+    "coveragePass": false,
+    "evidence": "“Will rest” changes the command to rest well into a prediction.",
+    "meaningReversal": true,
+    "inventedRule": false
+  },
+  "DAN-IND-16": {
+    "coveragePass": false,
+    "evidence": "언니 is older sister, not older brother.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-17": {
+    "coveragePass": false,
+    "evidence": "Adds “not lunchtime,” absent from the input.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-18": {
+    "coveragePass": false,
+    "evidence": "언니 is older sister, not a little sibling.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-19": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 우리 가족은 네 명이에요 → 가족은 네 명이에요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-20": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 핸드폰이 가방 안에 있어요 → 내 전화기는 가방에 있어요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-21": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 편의점은 역 뒤에 있어요 → 편의점은 역 뒤에 있어요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-22": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 바쁘지만 행복해요 → 저는 바쁘지만 기분이 좋아요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-23": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 보통 지하철을 타요. 그런데 오늘은 걸어요 → 보통 지하철을 이용해요. 하지만 오늘은 걸어요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-24": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 시험이 있어요. 그래서 열심히 공부해야 돼요 → 시험이 있어요. 그래서 열심히 공부해야 돼요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-25": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 다음 주부터 휴가예요 → 휴가 다음 주에 시작해요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-26": {
+    "coveragePass": false,
+    "evidence": "자고 전에 and 끄어요 are malformed forms.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-27": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 수학은 어렵지만 재미있어요 → 수학은 어렵지만 재미있어요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-28": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 서류를 이메일로 보냈어요 → 문서를 이메일로 보냈어요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-29": {
+    "coveragePass": false,
+    "evidence": "거기서 거의 도착했어요 does not naturally express “we are almost there.”",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-30": {
+    "coveragePass": true,
+    "evidence": "Primary semantic-fidelity lens: 약을 먹었는데 아직 안 나았어요 → 약을 먹었어요, 그래도 안 좋아졌어요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-31": {
+    "coveragePass": false,
+    "evidence": "바빠요 omits the honorific for father.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-32": {
+    "coveragePass": false,
+    "evidence": "있어요 omits the honorific 계시다 for grandfather.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-33": {
+    "coveragePass": true,
+    "evidence": "Primary register lens: 더 주세요 → 좀 더 주세요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-34": {
+    "coveragePass": false,
+    "evidence": "등불 means lamp, and the crossing request is replaced with “go.”",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-35": {
+    "coveragePass": true,
+    "evidence": "Primary register lens: 병원에서 담배를 피우지 마세요 → 병원에서 담배를 피우지 마세요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-36": {
+    "coveragePass": true,
+    "evidence": "Primary register lens: 오늘 회의는 중요해요. 지각하지 마세요 → 오늘의 회의는 중요해요. 늦지 마세요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-37": {
+    "coveragePass": false,
+    "evidence": "봤어요 uses polite speech for a casual greeting.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-38": {
+    "coveragePass": true,
+    "evidence": "Primary register lens: 내 생일 파티에 와! → 생일 파티에 와줘!; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-39": {
+    "coveragePass": false,
+    "evidence": "괜찮아요 uses polite speech for a casual reply.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-40": {
+    "coveragePass": false,
+    "evidence": "누가예요 is malformed for “Who is this?” on the phone.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-41": {
+    "coveragePass": false,
+    "evidence": "저를 전화해 주세요 is an invalid object construction for “call me.”",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-42": {
+    "coveragePass": false,
+    "evidence": "잘해요 omits the honorific praise in 잘하시네요.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-43": {
+    "coveragePass": true,
+    "evidence": "Primary register lens: 만나서 반갑습니다 → 만나서 기쁩니다; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-44": {
+    "coveragePass": false,
+    "evidence": "설명했어요 omits the professor honorific and benefactive.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-45": {
+    "coveragePass": false,
+    "evidence": "해요 news report does not match the formal public-announcement register.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-46": {
+    "coveragePass": true,
+    "evidence": "Primary literal-gap lens: 겨울은 너무 추워요 → 겨울은 너무 추워요; no conflicting issue found in this first pass.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-47": {
+    "coveragePass": false,
+    "evidence": "No explanation of mood as the literal Korean subject.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-48": {
+    "coveragePass": false,
+    "evidence": "Fine dust is reduced to generic dust; the source’s quantity contrast is lost.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-49": {
+    "coveragePass": false,
+    "evidence": "No explanation of traffic/road as literally blocked.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-50": {
+    "coveragePass": false,
+    "evidence": "The Korean field contains English “Cheers!”, not 건배.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-51": {
+    "coveragePass": false,
+    "evidence": "Adds an unrelated “I did not know what day” clause and uses casual speech.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-52": {
+    "coveragePass": false,
+    "evidence": "No explanation of the years-fly metaphor.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-53": {
+    "coveragePass": false,
+    "evidence": "세탁기를 돌아요 is intransitive rather than “run the washing machine.”",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-54": {
+    "coveragePass": false,
+    "evidence": "No explanation of 마음대로/마음에 드는 대로.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-55": {
+    "coveragePass": false,
+    "evidence": "“Broken” replaces “worn out”; no literal-gap account.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-56": {
+    "coveragePass": false,
+    "evidence": "The Busan dialect 밥 뭇나 and meal/greeting nuance are absent.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-57": {
+    "coveragePass": false,
+    "evidence": "The “about to go out of my mind” figurative meaning is weakened and unexplained.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-58": {
+    "coveragePass": false,
+    "evidence": "No explanation of 큰일 as “big matter/trouble.”",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-59": {
+    "coveragePass": false,
+    "evidence": "The 셈이에요 “as good as” nuance is dropped.",
+    "meaningReversal": false,
+    "inventedRule": false
+  },
+  "DAN-IND-60": {
+    "coveragePass": false,
+    "evidence": "The source’s 정 nuance is replaced with generic attachment and left unexplained.",
+    "meaningReversal": false,
+    "inventedRule": false
+  }
+}
