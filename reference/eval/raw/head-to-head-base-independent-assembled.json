@@ -1,0 +1,3027 @@
+[
+  {
+    "id": "warmup",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "안녕하세요.",
+      "romanization": "annyeonghaseyo.",
+      "natural_english": "Hello.",
+      "gloss": [
+        {
+          "chunk": "안녕하세요",
+          "gloss": "hello",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-01",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "커피를 좋아해요",
+      "romanization": "keopireul joahaeyo",
+      "natural_english": "I like coffee.",
+      "gloss": [
+        {
+          "chunk": "커피",
+          "gloss": "coffee",
+          "role": "object"
+        },
+        {
+          "chunk": "를",
+          "gloss": "object marker",
+          "role": "other"
+        },
+        {
+          "chunk": "좋아해요",
+          "gloss": "like",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "를",
+          "job": "marks the direct object of the verb."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-02",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "주말에 영화를 봅니다.",
+      "romanization": "jumare yeonghwareul bomnida.",
+      "natural_english": "I watch movies on the weekend.",
+      "gloss": [
+        {
+          "chunk": "주말에",
+          "gloss": "weekend-[time]",
+          "role": "place"
+        },
+        {
+          "chunk": "영화를",
+          "gloss": "movie-[obj]",
+          "role": "object"
+        },
+        {
+          "chunk": "봅니다",
+          "gloss": "watch",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에",
+          "job": "marks the weekend as the time when the action happens."
+        },
+        {
+          "particle": "를",
+          "job": "marks the movie as the object being watched."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-03",
+    "rawMatches": true,
+    "strictValid": false,
+    "postprocessorValid": false,
+    "schemaValid": false,
+    "directionCorrect": false,
+    "assembled": null
+  },
+  {
+    "id": "DAN-IND-04",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "커피 두 잔을 주문했어요",
+      "romanization": "keopi du janeul jumunhaesseoyo",
+      "natural_english": "I ordered two cups of coffee",
+      "gloss": [
+        {
+          "chunk": "커피",
+          "gloss": "coffee",
+          "role": "object"
+        },
+        {
+          "chunk": "두",
+          "gloss": "two",
+          "role": "other"
+        },
+        {
+          "chunk": "잔",
+          "gloss": "cup",
+          "role": "other"
+        },
+        {
+          "chunk": "주문",
+          "gloss": "order",
+          "role": "verb"
+        },
+        {
+          "chunk": "했어요",
+          "gloss": "did",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "을",
+          "job": "marks the object of the verb"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'I' and the measure word 'of' that are present in the English phrase.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-05",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "매일 우유 한 잔을 마셔요.",
+      "romanization": "maeil uyu han janeul masyeoyo.",
+      "natural_english": "I drink a glass of milk every day.",
+      "gloss": [
+        {
+          "chunk": "매일",
+          "gloss": "every day",
+          "role": "other"
+        },
+        {
+          "chunk": "우유",
+          "gloss": "milk",
+          "role": "object"
+        },
+        {
+          "chunk": "한",
+          "gloss": "one",
+          "role": "other"
+        },
+        {
+          "chunk": "잔",
+          "gloss": "glass",
+          "role": "object"
+        },
+        {
+          "chunk": "을",
+          "gloss": "object marker",
+          "role": "other"
+        },
+        {
+          "chunk": "마셔",
+          "gloss": "drink",
+          "role": "verb"
+        },
+        {
+          "chunk": "요",
+          "gloss": "polite ending",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "을",
+          "job": "marks '잔' (glass) as the direct object of the verb."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-06",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "왼쪽으로 가요",
+      "romanization": "oenjjogeuro gayo",
+      "natural_english": "I go left.",
+      "gloss": [
+        {
+          "chunk": "왼쪽으로",
+          "gloss": "left-to",
+          "role": "place"
+        },
+        {
+          "chunk": "가",
+          "gloss": "go",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "으로",
+          "job": "marks a direction, means, or method"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-07",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "집 앞에는 공원이 있어요.",
+      "romanization": "jip apeneun gongwoni isseoyo.",
+      "natural_english": "There is a park in front of my house.",
+      "gloss": [
+        {
+          "chunk": "집",
+          "gloss": "house",
+          "role": "place"
+        },
+        {
+          "chunk": "앞에",
+          "gloss": "front-of",
+          "role": "place"
+        },
+        {
+          "chunk": "는",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "공원",
+          "gloss": "park",
+          "role": "subject"
+        },
+        {
+          "chunk": "이",
+          "gloss": "subject marker",
+          "role": "other"
+        },
+        {
+          "chunk": "있어요",
+          "gloss": "exist",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "marks a topic or contrast"
+        },
+        {
+          "particle": "이",
+          "job": "Marks 'park' as the grammatical subject."
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the possessive 'my' before 'house', which is implied by the context of '집 앞' (front of house) rather than explicitly stated.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-08",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "여기에서 내립니다.",
+      "romanization": "yeogieseo naerimnida.",
+      "natural_english": "I get off here.",
+      "gloss": [
+        {
+          "chunk": "여기에서",
+          "gloss": "here-from",
+          "role": "place"
+        },
+        {
+          "chunk": "내립니다.",
+          "gloss": "get-off",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에서",
+          "job": "marks the location where the action takes place."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-09",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "매일 버스를 타요.",
+      "romanization": "maeil beoseureul tayo.",
+      "natural_english": "I take the bus every day.",
+      "gloss": [
+        {
+          "chunk": "매일",
+          "gloss": "every day",
+          "role": "other"
+        },
+        {
+          "chunk": "버스",
+          "gloss": "bus",
+          "role": "object"
+        },
+        {
+          "chunk": "타",
+          "gloss": "ride",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "를",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'I', which is implied in Korean but must be stated in English.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-10",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "밤에 치아를 닦습니다.",
+      "romanization": "bame chiareul dakseumnida.",
+      "natural_english": "I brush my teeth at night.",
+      "gloss": [
+        {
+          "chunk": "밤에",
+          "gloss": "night",
+          "role": "place"
+        },
+        {
+          "chunk": "치아를",
+          "gloss": "teeth",
+          "role": "object"
+        },
+        {
+          "chunk": "닦습니다",
+          "gloss": "brush",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        },
+        {
+          "particle": "를",
+          "job": "marks '치아' (teeth) as the direct object of the verb."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-11",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "친구가 와요",
+      "romanization": "chinguga wayo",
+      "natural_english": "I am waiting for my friend",
+      "gloss": [
+        {
+          "chunk": "친구",
+          "gloss": "friend",
+          "role": "subject"
+        },
+        {
+          "chunk": "가",
+          "gloss": "[topic marker]",
+          "role": "other"
+        },
+        {
+          "chunk": "와",
+          "gloss": "come",
+          "role": "verb"
+        },
+        {
+          "chunk": "요",
+          "gloss": "[polite ending]",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'I' and the preposition 'for', relying on context to imply that the speaker is waiting for the friend to arrive.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-12",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "김밥 두 개 주세요.",
+      "romanization": "gimbap du gae juseyo.",
+      "natural_english": "Two gimbap, please.",
+      "gloss": [
+        {
+          "chunk": "김밥",
+          "gloss": "gimbap",
+          "role": "object"
+        },
+        {
+          "chunk": "두",
+          "gloss": "two",
+          "role": "other"
+        },
+        {
+          "chunk": "개",
+          "gloss": "piece",
+          "role": "other"
+        },
+        {
+          "chunk": "주세요",
+          "gloss": "give-me",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-13",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "언제 오시나요?",
+      "romanization": "eonje osinayo?",
+      "natural_english": "When do you arrive?",
+      "gloss": [
+        {
+          "chunk": "언제",
+          "gloss": "when",
+          "role": "other"
+        },
+        {
+          "chunk": "오",
+          "gloss": "come",
+          "role": "verb"
+        },
+        {
+          "chunk": "시-",
+          "gloss": "- (honorific stem)",
+          "role": "other"
+        },
+        {
+          "chunk": "-니",
+          "gloss": "- (polite ending)",
+          "role": "other"
+        },
+        {
+          "chunk": "-요",
+          "gloss": "- (polite ending)",
+          "role": "other"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-14",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "친구가 오기 전에 집안을 치워요.",
+      "romanization": "chinguga ogi jeone jibaneul chiwoyo.",
+      "natural_english": "Before my friend comes, I clean the house.",
+      "gloss": [
+        {
+          "chunk": "친구",
+          "gloss": "friend",
+          "role": "subject"
+        },
+        {
+          "chunk": "오기",
+          "gloss": "come",
+          "role": "verb"
+        },
+        {
+          "chunk": "전",
+          "gloss": "before",
+          "role": "other"
+        },
+        {
+          "chunk": "집안",
+          "gloss": "house",
+          "role": "place"
+        },
+        {
+          "chunk": "을",
+          "gloss": "to",
+          "role": "object"
+        },
+        {
+          "chunk": "치우",
+          "gloss": "clean",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        },
+        {
+          "particle": "을",
+          "job": "marks the object 'house'."
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'I' and the possessive 'my', which are explicitly stated in the English sentence.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-15",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "약을 드신 후 잘 쉬세요.",
+      "romanization": "yageul deusin hu jal swiseyo.",
+      "natural_english": "After taking the medicine, rest well.",
+      "gloss": [
+        {
+          "chunk": "약",
+          "gloss": "medicine",
+          "role": "object"
+        },
+        {
+          "chunk": "드신",
+          "gloss": "took",
+          "role": "verb"
+        },
+        {
+          "chunk": "후",
+          "gloss": "after",
+          "role": "other"
+        },
+        {
+          "chunk": "잘",
+          "gloss": "well",
+          "role": "other"
+        },
+        {
+          "chunk": "쉬세요",
+          "gloss": "rest",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "을",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the explicit subject 'you' and the preposition 'after', which are present in the English structure.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-16",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "내 동생은 가수예요",
+      "romanization": "nae dongsaengeun gasuyeyo",
+      "natural_english": "My older brother is a singer",
+      "gloss": [
+        {
+          "chunk": "내",
+          "gloss": "my",
+          "role": "other"
+        },
+        {
+          "chunk": "동생",
+          "gloss": "younger sibling",
+          "role": "subject"
+        },
+        {
+          "chunk": "은",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "가수",
+          "gloss": "singer",
+          "role": "other"
+        },
+        {
+          "chunk": "예요",
+          "gloss": "is (polite)",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "은",
+          "job": "marks a topic or contrast"
+        }
+      ],
+      "literal_gap": "The Korean sentence uses 'dongsaeng' (younger sibling) for 'older brother', which is a cultural mismatch; the literal meaning differs from the intended English meaning.",
+      "cultural_note": "In Korean, 'dongsaeng' specifically refers to a younger sibling, while 'ongsaeng' is used for an older brother. To accurately translate 'older brother', the word 'ongsaeng' should be used instead."
+    }
+  },
+  {
+    "id": "DAN-IND-17",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "오후 2 시 30 분이에요",
+      "romanization": "ohu 2 si 30 bunieyo",
+      "natural_english": "It's 2:30 in the afternoon",
+      "gloss": [
+        {
+          "chunk": "오후",
+          "gloss": "afternoon",
+          "role": "place"
+        },
+        {
+          "chunk": "2 시 30 분",
+          "gloss": "2:30",
+          "role": "other"
+        },
+        {
+          "chunk": "이에요",
+          "gloss": "is",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-18",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "내 작은 형제/자매는 10 살이에요",
+      "romanization": "nae jageun hyeongje/jamaeneun 10 sarieyo",
+      "natural_english": "My little sibling is ten years old",
+      "gloss": [
+        {
+          "chunk": "내",
+          "gloss": "my",
+          "role": "other"
+        },
+        {
+          "chunk": "작은",
+          "gloss": "little",
+          "role": "other"
+        },
+        {
+          "chunk": "형제/자매",
+          "gloss": "sibling",
+          "role": "subject"
+        },
+        {
+          "chunk": "10",
+          "gloss": "10",
+          "role": "other"
+        },
+        {
+          "chunk": "살",
+          "gloss": "year-old",
+          "role": "verb"
+        },
+        {
+          "chunk": "이에요",
+          "gloss": "is",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "marks the topic of the sentence, distinguishing it from other siblings."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-19",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "저희 가족은 네 명이에요.",
+      "romanization": "jeohui gajogeun ne myeongieyo.",
+      "natural_english": "My family consists of four people.",
+      "gloss": [
+        {
+          "chunk": "저희",
+          "gloss": "we (inclusive)",
+          "role": "subject"
+        },
+        {
+          "chunk": "가족",
+          "gloss": "family",
+          "role": "other"
+        },
+        {
+          "chunk": "네",
+          "gloss": "four",
+          "role": "other"
+        },
+        {
+          "chunk": "명",
+          "gloss": "person",
+          "role": "other"
+        },
+        {
+          "chunk": "이에요",
+          "gloss": "is",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "은",
+          "job": "marks 'family' as the topic of the sentence."
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the possessive 'my' before 'family,' which is implied by the speaker using '저희' (our family) rather than a specific noun phrase.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-20",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "내 전화기가 내 가방에 있어요.",
+      "romanization": "nae jeonhwagiga nae gabange isseoyo.",
+      "natural_english": "My phone is in my bag.",
+      "gloss": [
+        {
+          "chunk": "내",
+          "gloss": "my",
+          "role": "other"
+        },
+        {
+          "chunk": "전화기",
+          "gloss": "phone",
+          "role": "subject"
+        },
+        {
+          "chunk": "내",
+          "gloss": "my",
+          "role": "other"
+        },
+        {
+          "chunk": "가방",
+          "gloss": "bag",
+          "role": "place"
+        },
+        {
+          "chunk": "에",
+          "gloss": "in",
+          "role": "other"
+        },
+        {
+          "chunk": "있어요",
+          "gloss": "be",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "에",
+          "job": "marks the location where the phone is situated."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-21",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "역 뒤 convenience store 가 있어요.",
+      "romanization": "yeok dwi convenience store ga isseoyo.",
+      "natural_english": "The convenience store is behind the station.",
+      "gloss": [
+        {
+          "chunk": "역",
+          "gloss": "station",
+          "role": "place"
+        },
+        {
+          "chunk": "뒤",
+          "gloss": "behind",
+          "role": "place"
+        },
+        {
+          "chunk": "convenience store",
+          "gloss": "convenience store",
+          "role": "subject"
+        },
+        {
+          "chunk": "가",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "있어요",
+          "gloss": "exist",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The Korean sentence omits the subject 'there' that is implied in the English existential construction.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-22",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "하지만 바쁘면서도 기분이 좋습니다.",
+      "romanization": "hajiman bappeumyeonseodo gibuni joseumnida.",
+      "natural_english": "But I am busy but happy.",
+      "gloss": [
+        {
+          "chunk": "하지만",
+          "gloss": "but",
+          "role": "other"
+        },
+        {
+          "chunk": "바쁘면서도",
+          "gloss": "busy-but",
+          "role": "verb"
+        },
+        {
+          "chunk": "기분이",
+          "gloss": "feeling",
+          "role": "subject"
+        },
+        {
+          "chunk": "좋습니다",
+          "gloss": "good",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "도",
+          "job": "adds 'also' or 'too'"
+        },
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'I' which is implied in English, and uses the compound verb '바쁘면서도' to express 'busy but' in a single unit rather than two separate clauses.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-23",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "보통 지하철을 탄다. 하지만 오늘은 걸어서 간다.",
+      "romanization": "botong jihacheoreul tanda. hajiman oneureun georeoseo ganda.",
+      "natural_english": "I usually take the subway. But today I'm walking.",
+      "gloss": [
+        {
+          "chunk": "보통",
+          "gloss": "usually",
+          "role": "other"
+        },
+        {
+          "chunk": "지하철",
+          "gloss": "subway",
+          "role": "object"
+        },
+        {
+          "chunk": "을",
+          "gloss": "object marker",
+          "role": "other"
+        },
+        {
+          "chunk": "탄다",
+          "gloss": "take (habitual)",
+          "role": "verb"
+        },
+        {
+          "chunk": "하지만",
+          "gloss": "but",
+          "role": "other"
+        },
+        {
+          "chunk": "오늘",
+          "gloss": "today",
+          "role": "other"
+        },
+        {
+          "chunk": "은",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "걸어서",
+          "gloss": "by walking",
+          "role": "other"
+        },
+        {
+          "chunk": "간다",
+          "gloss": "go (habitual)",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "을",
+          "job": "marks '지하철' as the object of the verb '탄다'"
+        },
+        {
+          "particle": "은",
+          "job": "marks '오늘' as the topic of the second clause"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-24",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "시험이 있어요. 그래서 열심히 공부해야 해요.",
+      "romanization": "siheomi isseoyo. geuraeseo yeolsimhi gongbuhaeya haeyo.",
+      "natural_english": "I have an exam. So I have to study hard.",
+      "gloss": [
+        {
+          "chunk": "시험",
+          "gloss": "exam",
+          "role": "other"
+        },
+        {
+          "chunk": "이",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "있어요",
+          "gloss": "have/exist",
+          "role": "verb"
+        },
+        {
+          "chunk": "그래서",
+          "gloss": "so",
+          "role": "other"
+        },
+        {
+          "chunk": "열심히",
+          "gloss": "hard",
+          "role": "other"
+        },
+        {
+          "chunk": "공부",
+          "gloss": "study",
+          "role": "object"
+        },
+        {
+          "chunk": "해야",
+          "gloss": "must do",
+          "role": "verb"
+        },
+        {
+          "chunk": "해요",
+          "gloss": "polite ending",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-25",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "내 휴가가 다음 주부터 시작됩니다.",
+      "romanization": "nae hyugaga daeum jubuteo sijakdoemnida.",
+      "natural_english": "My vacation starts next week.",
+      "gloss": [
+        {
+          "chunk": "내",
+          "gloss": "my",
+          "role": "other"
+        },
+        {
+          "chunk": "휴가",
+          "gloss": "vacation",
+          "role": "subject"
+        },
+        {
+          "chunk": "가",
+          "gloss": "",
+          "role": "other"
+        },
+        {
+          "chunk": "다음",
+          "gloss": "next",
+          "role": "other"
+        },
+        {
+          "chunk": "주",
+          "gloss": "week",
+          "role": "other"
+        },
+        {
+          "chunk": "부터",
+          "gloss": "from",
+          "role": "other"
+        },
+        {
+          "chunk": "시작",
+          "gloss": "start",
+          "role": "verb"
+        },
+        {
+          "chunk": "됩니다",
+          "gloss": "is started",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the grammatical subject of the sentence."
+        },
+        {
+          "particle": "부터",
+          "job": "marks a starting point"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-26",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "자다 전에 내 폰을 끕니다.",
+      "romanization": "jada jeone nae poneul kkeumnida.",
+      "natural_english": "Before sleeping, I turn off my phone.",
+      "gloss": [
+        {
+          "chunk": "자다",
+          "gloss": "sleeping",
+          "role": "verb"
+        },
+        {
+          "chunk": "전에",
+          "gloss": "before",
+          "role": "other"
+        },
+        {
+          "chunk": "내",
+          "gloss": "my",
+          "role": "other"
+        },
+        {
+          "chunk": "폰",
+          "gloss": "phone",
+          "role": "object"
+        },
+        {
+          "chunk": "을",
+          "gloss": "object marker",
+          "role": "other"
+        },
+        {
+          "chunk": "끄다",
+          "gloss": "turn off",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        },
+        {
+          "particle": "을",
+          "job": "marks the direct object 'phone'"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-27",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "수학은 어렵지만 재미있어요",
+      "romanization": "suhageun eoryeopjiman jaemiisseoyo",
+      "natural_english": "Math is hard, but it's fun",
+      "gloss": [
+        {
+          "chunk": "수학",
+          "gloss": "math",
+          "role": "subject"
+        },
+        {
+          "chunk": "은",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "어렵지만",
+          "gloss": "difficult but",
+          "role": "verb"
+        },
+        {
+          "chunk": "재미있어요",
+          "gloss": "fun",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "은",
+          "job": "marks 'math' as the topic of the sentence."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-28",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "문서를 이메일로 보냈어요.",
+      "romanization": "munseoreul imeillo bonaesseoyo.",
+      "natural_english": "I sent the documents by email.",
+      "gloss": [
+        {
+          "chunk": "문서",
+          "gloss": "document",
+          "role": "object"
+        },
+        {
+          "chunk": "이메일로",
+          "gloss": "email-to",
+          "role": "place"
+        },
+        {
+          "chunk": "보내-",
+          "gloss": "send-",
+          "role": "verb"
+        },
+        {
+          "chunk": "-았-",
+          "gloss": "-ed",
+          "role": "other"
+        },
+        {
+          "chunk": "-어요",
+          "gloss": "-say",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "를",
+          "job": "marks the object"
+        },
+        {
+          "particle": "로",
+          "job": "marks a direction, means, or method"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'I', which is implied in English.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-29",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "거기서 거의 도착했어요",
+      "romanization": "geogiseo geoui dochakhaesseoyo",
+      "natural_english": "We're almost there",
+      "gloss": [
+        {
+          "chunk": "거기서",
+          "gloss": "there-from",
+          "role": "place"
+        },
+        {
+          "chunk": "거의",
+          "gloss": "almost",
+          "role": "other"
+        },
+        {
+          "chunk": "도착",
+          "gloss": "arrive",
+          "role": "verb"
+        },
+        {
+          "chunk": "했어요",
+          "gloss": "-ed",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "의",
+          "job": "marks possession or association"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'we' and the specific destination implied by 'there', which are explicitly stated in the English phrase.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-30",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "약을 드렸지만 아직 낫지 않았습니다.",
+      "romanization": "yageul deuryeotjiman ajik natji anatseumnida.",
+      "natural_english": "I took the medicine, but I still haven't gotten better.",
+      "gloss": [
+        {
+          "chunk": "약",
+          "gloss": "medicine",
+          "role": "object"
+        },
+        {
+          "chunk": "을",
+          "gloss": "object marker",
+          "role": "other"
+        },
+        {
+          "chunk": "드렸",
+          "gloss": "took",
+          "role": "verb"
+        },
+        {
+          "chunk": "지만",
+          "gloss": "but",
+          "role": "other"
+        },
+        {
+          "chunk": "아직",
+          "gloss": "still",
+          "role": "other"
+        },
+        {
+          "chunk": "낫지",
+          "gloss": "not get better",
+          "role": "verb"
+        },
+        {
+          "chunk": "않",
+          "gloss": "not",
+          "role": "other"
+        },
+        {
+          "chunk": "았",
+          "gloss": "past tense",
+          "role": "other"
+        },
+        {
+          "chunk": "습니다",
+          "gloss": "polite ending",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "을",
+          "job": "marks '약' (medicine) as the direct object of the verb."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-31",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "아버지가 지금 바빠요.",
+      "romanization": "abeojiga jigeum bappayo.",
+      "natural_english": "My father is busy right now.",
+      "gloss": [
+        {
+          "chunk": "아버지",
+          "gloss": "father",
+          "role": "subject"
+        },
+        {
+          "chunk": "가",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "지금",
+          "gloss": "now",
+          "role": "other"
+        },
+        {
+          "chunk": "바빠요",
+          "gloss": "busy",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-32",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "할아버지가 우리 집에 있어요.",
+      "romanization": "harabeojiga uri jibe isseoyo.",
+      "natural_english": "Grandfather is at our house.",
+      "gloss": [
+        {
+          "chunk": "할아버지",
+          "gloss": "grandfather",
+          "role": "subject"
+        },
+        {
+          "chunk": "우리",
+          "gloss": "our",
+          "role": "place"
+        },
+        {
+          "chunk": "집",
+          "gloss": "house",
+          "role": "place"
+        },
+        {
+          "chunk": "에",
+          "gloss": "to/at",
+          "role": "other"
+        },
+        {
+          "chunk": "있어요",
+          "gloss": "be there",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks 할아버지 as the grammatical subject."
+        },
+        {
+          "particle": "에",
+          "job": "marks 집 as the location where the action occurs."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-33",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "더 주세요",
+      "romanization": "deo juseyo",
+      "natural_english": "More, please",
+      "gloss": [
+        {
+          "chunk": "더",
+          "gloss": "more",
+          "role": "other"
+        },
+        {
+          "chunk": "주세요",
+          "gloss": "give-me",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-34",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "등불에서 길을 건너세요",
+      "romanization": "deungbureseo gireul geonneoseyo",
+      "natural_english": "Cross the street at the traffic light.",
+      "gloss": [
+        {
+          "chunk": "등불에서",
+          "gloss": "traffic-light-place",
+          "role": "place"
+        },
+        {
+          "chunk": "길을",
+          "gloss": "road-object",
+          "role": "object"
+        },
+        {
+          "chunk": "건너세요",
+          "gloss": "cross-verb",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에서",
+          "job": "Indicates the location where the action takes place."
+        },
+        {
+          "particle": "을",
+          "job": "Marks the direct object of the verb."
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'you' and the specific preposition 'at', which are implied in the English instruction.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-35",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "병원에서는 담배를 피우지 마세요",
+      "romanization": "byeongwoneseoneun dambaereul piuji maseyo",
+      "natural_english": "Don't smoke cigarettes in the hospital.",
+      "gloss": [
+        {
+          "chunk": "병원",
+          "gloss": "hospital",
+          "role": "place"
+        },
+        {
+          "chunk": "에서",
+          "gloss": "at",
+          "role": "place"
+        },
+        {
+          "chunk": "는",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "담배",
+          "gloss": "cigarette",
+          "role": "object"
+        },
+        {
+          "chunk": "를",
+          "gloss": "object marker",
+          "role": "other"
+        },
+        {
+          "chunk": "피우다",
+          "gloss": "to smoke",
+          "role": "verb"
+        },
+        {
+          "chunk": "지",
+          "gloss": "negation",
+          "role": "other"
+        },
+        {
+          "chunk": "마세요",
+          "gloss": "please don't",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "marks 'hospital' as the topic of the sentence."
+        },
+        {
+          "particle": "를",
+          "job": "marks 'cigarette' as the object of the verb."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-36",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "오늘의 회의는 중요해요. 늦지 마세요.",
+      "romanization": "oneurui hoeuineun jungyohaeyo. neutji maseyo.",
+      "natural_english": "Today's meeting is important. Don't be late.",
+      "gloss": [
+        {
+          "chunk": "오늘의",
+          "gloss": "today's",
+          "role": "other"
+        },
+        {
+          "chunk": "회의",
+          "gloss": "meeting",
+          "role": "subject"
+        },
+        {
+          "chunk": "중요",
+          "gloss": "important",
+          "role": "verb"
+        },
+        {
+          "chunk": "늦지",
+          "gloss": "not-late",
+          "role": "verb"
+        },
+        {
+          "chunk": "마세요",
+          "gloss": "-please do",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "의",
+          "job": "marks possession or association"
+        },
+        {
+          "particle": "는",
+          "job": "marks '회의' as the topic of the sentence."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-37",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "안녕! 오래만 못 봤어요.",
+      "romanization": "annyeong! oraeman mot bwasseoyo.",
+      "natural_english": "Hey! Long time no see!",
+      "gloss": [
+        {
+          "chunk": "안녕",
+          "gloss": "hello",
+          "role": "other"
+        },
+        {
+          "chunk": "오래",
+          "gloss": "long time",
+          "role": "other"
+        },
+        {
+          "chunk": "만 못",
+          "gloss": "not able to",
+          "role": "verb"
+        },
+        {
+          "chunk": "봤어요",
+          "gloss": "seen",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "만",
+          "job": "limits the noun to 'only'"
+        }
+      ],
+      "literal_gap": "The Korean phrase '만 못 봤어요' literally means 'not able to see,' whereas the English idiom 'long time no see' implies a long period has passed without meeting. The Korean construction uses a negative verb phrase to express the duration of separation.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-38",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "내 생일 파티에 오세요!",
+      "romanization": "nae saengil patie oseyo!",
+      "natural_english": "Come to my birthday party!",
+      "gloss": [
+        {
+          "chunk": "내",
+          "gloss": "my",
+          "role": "other"
+        },
+        {
+          "chunk": "생일",
+          "gloss": "birthday",
+          "role": "other"
+        },
+        {
+          "chunk": "파티",
+          "gloss": "party",
+          "role": "other"
+        },
+        {
+          "chunk": "에",
+          "gloss": "to",
+          "role": "place"
+        },
+        {
+          "chunk": "오세요",
+          "gloss": "come",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에",
+          "job": "marks the destination of the movement verb 'come'"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-39",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "아니요, 괜찮아요",
+      "romanization": "aniyo, gwaenchanayo",
+      "natural_english": "No, it's fine",
+      "gloss": [
+        {
+          "chunk": "아니요",
+          "gloss": "no",
+          "role": "other"
+        },
+        {
+          "chunk": "괜찮아요",
+          "gloss": "fine",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-40",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "안녕? 누가 이거야?",
+      "romanization": "annyeong? nuga igeoya?",
+      "natural_english": "Hello? Who is this?",
+      "gloss": [
+        {
+          "chunk": "안녕",
+          "gloss": "hello",
+          "role": "other"
+        },
+        {
+          "chunk": "누가",
+          "gloss": "who",
+          "role": "subject"
+        },
+        {
+          "chunk": "이거",
+          "gloss": "this",
+          "role": "object"
+        },
+        {
+          "chunk": "야",
+          "gloss": "is",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the topic particle (like 'this phone call') that English often implies, but the meaning remains clear without it.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-41",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "시간이 있을 때 저를 전화해 주세요.",
+      "romanization": "sigani isseul ttae jeoreul jeonhwahae juseyo.",
+      "natural_english": "Please call me when you have time.",
+      "gloss": [
+        {
+          "chunk": "시간",
+          "gloss": "time",
+          "role": "place"
+        },
+        {
+          "chunk": "있을",
+          "gloss": "have",
+          "role": "verb"
+        },
+        {
+          "chunk": "때",
+          "gloss": "when",
+          "role": "other"
+        },
+        {
+          "chunk": "저를",
+          "gloss": "me",
+          "role": "object"
+        },
+        {
+          "chunk": "전화해",
+          "gloss": "call",
+          "role": "verb"
+        },
+        {
+          "chunk": "주세요",
+          "gloss": "please do",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "를",
+          "job": "marks 'me' as the direct object of the verb."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-42",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "한국어를 정말 잘해요!",
+      "romanization": "hangugeoreul jeongmal jalhaeyo!",
+      "natural_english": "You speak Korean really well!",
+      "gloss": [
+        {
+          "chunk": "한국어",
+          "gloss": "Korean",
+          "role": "object"
+        },
+        {
+          "chunk": "를",
+          "gloss": "object marker",
+          "role": "other"
+        },
+        {
+          "chunk": "정말",
+          "gloss": "really",
+          "role": "other"
+        },
+        {
+          "chunk": "잘",
+          "gloss": "well",
+          "role": "other"
+        },
+        {
+          "chunk": "해요",
+          "gloss": "speak",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "를",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-43",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "만나서 기뻐요",
+      "romanization": "mannaseo gippeoyo",
+      "natural_english": "Glad to meet you",
+      "gloss": [
+        {
+          "chunk": "만나서",
+          "gloss": "meeting",
+          "role": "verb"
+        },
+        {
+          "chunk": "기뻐요",
+          "gloss": "happy",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The Korean phrase omits the explicit subject 'I', which is implied in English.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-44",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "교수님께서는 우리한테 한자를 설명해 주셨어요",
+      "romanization": "gyosunimkkeseoneun urihante hanjareul seolmyeonghae jusyeosseoyo",
+      "natural_english": "The professor explained the hanja for us",
+      "gloss": [
+        {
+          "chunk": "교수님",
+          "gloss": "professor",
+          "role": "subject"
+        },
+        {
+          "chunk": "께서",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "우리한테",
+          "gloss": "to us",
+          "role": "place"
+        },
+        {
+          "chunk": "한자",
+          "gloss": "hanja",
+          "role": "object"
+        },
+        {
+          "chunk": "설명하다",
+          "gloss": "explain",
+          "role": "verb"
+        },
+        {
+          "chunk": "주다",
+          "gloss": "give",
+          "role": "verb"
+        },
+        {
+          "chunk": "하셨다",
+          "gloss": "past tense honorific",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "marks a topic or contrast"
+        },
+        {
+          "particle": "한테",
+          "job": "marks a recipient"
+        },
+        {
+          "particle": "를",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "The Korean sentence uses 'to us' (한테) as an indirect object marker, whereas English uses the preposition 'for' in this context. Additionally, the verb phrase combines 'explain' and 'give' into a single causative structure (설명하다 + 주다) which is rendered as one verb in the gloss.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-45",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "어제 정부는 조사 결과를 공개했습니다. 또한 새로운 계획을 발표했습니다.",
+      "romanization": "eoje jeongbuneun josa gyeolgwareul gonggaehaetseumnida. ttohan saeroun gyehoegeul balpyohaetseumnida.",
+      "natural_english": "Yesterday the government made public the investigation results. Moreover, it announced a new plan as well",
+      "gloss": [
+        {
+          "chunk": "어제",
+          "gloss": "yesterday",
+          "role": "other"
+        },
+        {
+          "chunk": "정부",
+          "gloss": "government",
+          "role": "subject"
+        },
+        {
+          "chunk": "는",
+          "gloss": "topic",
+          "role": "other"
+        },
+        {
+          "chunk": "조사",
+          "gloss": "investigation",
+          "role": "subject"
+        },
+        {
+          "chunk": "결과",
+          "gloss": "result",
+          "role": "object"
+        },
+        {
+          "chunk": "를",
+          "gloss": "object",
+          "role": "other"
+        },
+        {
+          "chunk": "공개",
+          "gloss": "make public",
+          "role": "verb"
+        },
+        {
+          "chunk": "했습니다",
+          "gloss": "did",
+          "role": "verb"
+        },
+        {
+          "chunk": "또한",
+          "gloss": "moreover",
+          "role": "other"
+        },
+        {
+          "chunk": "새로운",
+          "gloss": "new",
+          "role": "other"
+        },
+        {
+          "chunk": "계획",
+          "gloss": "plan",
+          "role": "subject"
+        },
+        {
+          "chunk": "을",
+          "gloss": "object",
+          "role": "other"
+        },
+        {
+          "chunk": "발표",
+          "gloss": "announce",
+          "role": "verb"
+        },
+        {
+          "chunk": "했습니다",
+          "gloss": "did",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "marks the government as the topic of the first sentence"
+        },
+        {
+          "particle": "를",
+          "job": "marks the investigation results as the object of the first sentence"
+        },
+        {
+          "particle": "을",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-46",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "겨울이 정말 추워요",
+      "romanization": "gyeouri jeongmal chuwoyo",
+      "natural_english": "Winter is so cold",
+      "gloss": [
+        {
+          "chunk": "겨울",
+          "gloss": "winter",
+          "role": "subject"
+        },
+        {
+          "chunk": "이",
+          "gloss": "[topic marker]",
+          "role": "other"
+        },
+        {
+          "chunk": "정말",
+          "gloss": "really",
+          "role": "other"
+        },
+        {
+          "chunk": "추워요",
+          "gloss": "cold",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-47",
+    "rawMatches": true,
+    "strictValid": false,
+    "postprocessorValid": false,
+    "schemaValid": false,
+    "directionCorrect": false,
+    "assembled": null
+  },
+  {
+    "id": "DAN-IND-48",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "미세먼지가 정말 나빠요.",
+      "romanization": "misemeonjiga jeongmal nappayo.",
+      "natural_english": "The fine dust is really bad.",
+      "gloss": [
+        {
+          "chunk": "미세먼지",
+          "gloss": "fine dust",
+          "role": "subject"
+        },
+        {
+          "chunk": "가",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "정말",
+          "gloss": "really",
+          "role": "other"
+        },
+        {
+          "chunk": "나빠요",
+          "gloss": "is bad",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-49",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "교통이 너무 막혀 있어요",
+      "romanization": "gyotongi neomu makyeo isseoyo",
+      "natural_english": "Traffic is so bad",
+      "gloss": [
+        {
+          "chunk": "교통",
+          "gloss": "traffic",
+          "role": "subject"
+        },
+        {
+          "chunk": "이",
+          "gloss": "[topic marker]",
+          "role": "other"
+        },
+        {
+          "chunk": "너무",
+          "gloss": "so",
+          "role": "other"
+        },
+        {
+          "chunk": "막혀",
+          "gloss": "blocked/stuck",
+          "role": "verb"
+        },
+        {
+          "chunk": "있",
+          "gloss": "be",
+          "role": "verb"
+        },
+        {
+          "chunk": "어요",
+          "gloss": "polite ending",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-50",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": " Cheers-ga han-da-seyo!",
+      "romanization": " Cheers-ga han-da-seyo!",
+      "natural_english": "Cheers!",
+      "gloss": [
+        {
+          "chunk": "Cheers",
+          "gloss": "cheers",
+          "role": "subject"
+        },
+        {
+          "chunk": "ga",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "han",
+          "gloss": "drink",
+          "role": "verb"
+        },
+        {
+          "chunk": "da-seyo",
+          "gloss": "do",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-51",
+    "rawMatches": true,
+    "strictValid": false,
+    "postprocessorValid": false,
+    "schemaValid": false,
+    "directionCorrect": false,
+    "assembled": null
+  },
+  {
+    "id": "DAN-IND-52",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "시간이 정말 빨리 지나갑니다",
+      "romanization": "sigani jeongmal ppalli jinagamnida",
+      "natural_english": "The years really do fly",
+      "gloss": [
+        {
+          "chunk": "시간",
+          "gloss": "time",
+          "role": "subject"
+        },
+        {
+          "chunk": "이",
+          "gloss": "",
+          "role": "other"
+        },
+        {
+          "chunk": "정말",
+          "gloss": "really",
+          "role": "other"
+        },
+        {
+          "chunk": "빨리",
+          "gloss": "fast",
+          "role": "other"
+        },
+        {
+          "chunk": "지나갑니다",
+          "gloss": "passes",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The Korean sentence uses 'time' as the subject and 'passes' as the verb, whereas the English idiom uses 'years' as the subject and 'fly' as the verb. The literal meaning of 'passing time' differs from the metaphorical meaning of 'flying years'.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-53",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "매주 주말에 세탁기를 돌아요",
+      "romanization": "maeju jumare setakgireul dorayo",
+      "natural_english": "Every weekend I run the washing machine",
+      "gloss": [
+        {
+          "chunk": "매주",
+          "gloss": "every week",
+          "role": "other"
+        },
+        {
+          "chunk": "주말에",
+          "gloss": "weekend",
+          "role": "place"
+        },
+        {
+          "chunk": "세탁기",
+          "gloss": "washing machine",
+          "role": "object"
+        },
+        {
+          "chunk": "돌아요",
+          "gloss": "turn/run",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에",
+          "job": "marks the time when the action happens"
+        },
+        {
+          "particle": "를",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-54",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "이 방은 마음대로 꾸밀 수 있어요.",
+      "romanization": "i bangeun maeumdaero kkumil su isseoyo.",
+      "natural_english": "You are welcome to decorate this room however you like.",
+      "gloss": [
+        {
+          "chunk": "이 방",
+          "gloss": "this room",
+          "role": "place"
+        },
+        {
+          "chunk": "은",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "마음대로",
+          "gloss": "however you like",
+          "role": "other"
+        },
+        {
+          "chunk": "꾸밀",
+          "gloss": "decorate",
+          "role": "verb"
+        },
+        {
+          "chunk": "수",
+          "gloss": "can",
+          "role": "other"
+        },
+        {
+          "chunk": "있",
+          "gloss": "be",
+          "role": "verb"
+        },
+        {
+          "chunk": "어요",
+          "gloss": "polite ending",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "은",
+          "job": "marks 'this room' as the topic of the sentence."
+        },
+        {
+          "particle": "로",
+          "job": "marks a direction, means, or method"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-55",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "세탁기가 고장 났기 때문에 빨래가 제대로 나오지 않아요",
+      "romanization": "setakgiga gojang natgi ttaemune ppallaega jedaero naoji anayo",
+      "natural_english": "Because the washing machine is broken, the laundry doesn't come out properly.",
+      "gloss": [
+        {
+          "chunk": "세탁기",
+          "gloss": "washing machine",
+          "role": "subject"
+        },
+        {
+          "chunk": "고장",
+          "gloss": "broken",
+          "role": "other"
+        },
+        {
+          "chunk": "라다",
+          "gloss": "to be",
+          "role": "verb"
+        },
+        {
+          "chunk": "기",
+          "gloss": "particle",
+          "role": "other"
+        },
+        {
+          "chunk": "때문",
+          "gloss": "because",
+          "role": "other"
+        },
+        {
+          "chunk": "에",
+          "gloss": "particle",
+          "role": "other"
+        },
+        {
+          "chunk": "라다",
+          "gloss": "to be",
+          "role": "verb"
+        },
+        {
+          "chunk": "기",
+          "gloss": "particle",
+          "role": "other"
+        },
+        {
+          "chunk": "빨래",
+          "gloss": "laundry",
+          "role": "subject"
+        },
+        {
+          "chunk": "지",
+          "gloss": "particle",
+          "role": "other"
+        },
+        {
+          "chunk": "잘",
+          "gloss": "properly",
+          "role": "other"
+        },
+        {
+          "chunk": "나오",
+          "gloss": "to come out",
+          "role": "verb"
+        },
+        {
+          "chunk": "지",
+          "gloss": "particle",
+          "role": "other"
+        },
+        {
+          "chunk": "않",
+          "gloss": "not",
+          "role": "other"
+        },
+        {
+          "chunk": "아",
+          "gloss": "particle",
+          "role": "other"
+        },
+        {
+          "chunk": "요",
+          "gloss": "particle",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        },
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "로",
+          "job": "marks a direction, means, or method"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-56",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "부산 친구가 전화해서 '먹었니?'라고 물었어.",
+      "romanization": "busan chinguga jeonhwahaeseo 'meogeonni?'rago mureosseo.",
+      "natural_english": "A Busan friend asked over the phone: have you eaten?",
+      "gloss": [
+        {
+          "chunk": "부산",
+          "gloss": "Busan",
+          "role": "place"
+        },
+        {
+          "chunk": "친구",
+          "gloss": "friend",
+          "role": "subject"
+        },
+        {
+          "chunk": "가",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "전화해서",
+          "gloss": "by phone",
+          "role": "other"
+        },
+        {
+          "chunk": "'먹었니'",
+          "gloss": "did you eat?",
+          "role": "verb"
+        },
+        {
+          "chunk": "라고",
+          "gloss": "as if",
+          "role": "other"
+        },
+        {
+          "chunk": "물었어",
+          "gloss": "asked",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'you' and the preposition 'over', which are present in the English question.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-57",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "이날이요 제가 너무 바빠 정신이 나가지 않아요",
+      "romanization": "inariyo jega neomu bappa jeongsini nagaji anayo",
+      "natural_english": "These days I'm so busy I'm about to go out of my mind",
+      "gloss": [
+        {
+          "chunk": "이날이요",
+          "gloss": "these days",
+          "role": "other"
+        },
+        {
+          "chunk": "제가",
+          "gloss": "I",
+          "role": "subject"
+        },
+        {
+          "chunk": "너무",
+          "gloss": "very",
+          "role": "other"
+        },
+        {
+          "chunk": "바빠",
+          "gloss": "busy",
+          "role": "verb"
+        },
+        {
+          "chunk": "정신이",
+          "gloss": "mind",
+          "role": "object"
+        },
+        {
+          "chunk": "나가지",
+          "gloss": "go out",
+          "role": "verb"
+        },
+        {
+          "chunk": "않아요",
+          "gloss": "not",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks 'I' as the grammatical subject"
+        },
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the explicit subject 'I' for the second clause ('I'm about to go out of my mind'), which is implied by the context in English.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-58",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "내 여권은 완전히 잃어버렸어요. 이게 큰 문제예요.",
+      "romanization": "nae yeogwoneun wanjeonhi ireobeoryeosseoyo. ige keun munjeyeyo.",
+      "natural_english": "My passport — I've completely lost it. This is big trouble!",
+      "gloss": [
+        {
+          "chunk": "내",
+          "gloss": "my",
+          "role": "other"
+        },
+        {
+          "chunk": "여권",
+          "gloss": "passport",
+          "role": "subject"
+        },
+        {
+          "chunk": "은",
+          "gloss": "topic marker",
+          "role": "other"
+        },
+        {
+          "chunk": "완전히",
+          "gloss": "completely",
+          "role": "other"
+        },
+        {
+          "chunk": "잃어버렸어요",
+          "gloss": "lost",
+          "role": "verb"
+        },
+        {
+          "chunk": "이",
+          "gloss": "this",
+          "role": "subject"
+        },
+        {
+          "chunk": "큰",
+          "gloss": "big",
+          "role": "other"
+        },
+        {
+          "chunk": "문제",
+          "gloss": "trouble",
+          "role": "subject"
+        },
+        {
+          "chunk": "예요",
+          "gloss": "is",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "은",
+          "job": "marks 'passport' as the topic of the sentence."
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-59",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "평가가 끝났으니 이번 학기는 다 끝났어요",
+      "romanization": "pyeonggaga kkeunnasseuni ibeon hakgineun da kkeunnasseoyo",
+      "natural_english": "Since the evaluations are over, this semester is as good as all finished",
+      "gloss": [
+        {
+          "chunk": "평가",
+          "gloss": "evaluation",
+          "role": "subject"
+        },
+        {
+          "chunk": "끝나",
+          "gloss": "finish",
+          "role": "verb"
+        },
+        {
+          "chunk": "있",
+          "gloss": "be",
+          "role": "verb"
+        },
+        {
+          "chunk": "이번",
+          "gloss": "this",
+          "role": "other"
+        },
+        {
+          "chunk": "학기",
+          "gloss": "semester",
+          "role": "subject"
+        },
+        {
+          "chunk": "다",
+          "gloss": "all",
+          "role": "other"
+        },
+        {
+          "chunk": "끝나",
+          "gloss": "finish",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "는",
+          "job": "marks a topic or contrast"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the explicit subject 'this semester' in the second clause, relying on context rather than stating it directly like English.",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-IND-60",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "농사일을 계속 하다 보니 농장에 애착이 생겼어요.",
+      "romanization": "nongsaireul gyesok hada boni nongjange aechagi saenggyeosseoyo.",
+      "natural_english": "As I kept doing farm work, I grew attached to the farm.",
+      "gloss": [
+        {
+          "chunk": "농사일",
+          "gloss": "farm work",
+          "role": "object"
+        },
+        {
+          "chunk": "계속 하다 보니",
+          "gloss": "because I kept doing",
+          "role": "other"
+        },
+        {
+          "chunk": "농장",
+          "gloss": "farm",
+          "role": "place"
+        },
+        {
+          "chunk": "애착이",
+          "gloss": "attachment",
+          "role": "subject"
+        },
+        {
+          "chunk": "생겼어요",
+          "gloss": "was born",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "을",
+          "job": "marks the object"
+        },
+        {
+          "particle": "에",
+          "job": "marks the location where the attachment occurred."
+        },
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The Korean sentence omits the subject 'I' and the verb 'grew', which are implied in the English structure.",
+      "cultural_note": ""
+    }
+  }
+]
