@@ -143,18 +143,16 @@ fn decode_result<T, E>(result: Result<T, E>) -> Result<T, TranslateError> {
     result.map_err(|_| TranslateError::generation())
 }
 
-// Keep the incumbent no-thinking prefix and admit only the two screened family prefixes.
-fn render_chat_prompt(template: &str, instruction: &str, bos_token: &str) -> Result<String, TranslateError> {
-    let midm = template.contains("Mi:dm");
-    let ax = template.contains("<|im_start|><|assistant|>");
-    let mut messages = Vec::new();
-    if midm {
-        messages.push(serde_json::json!({"role": "system", "content": ""}));
-    }
-    messages.push(serde_json::json!({"role": "user", "content": instruction}));
+// Validate the rendered contract without selecting vendors or generation-prefix spellings.
+fn render_chat_prompt(template: &str, instruction: &str, bos_token: &str, eos_token: &str) -> Result<String, TranslateError> {
+    let messages = vec![serde_json::json!({"role": "user", "content": instruction})];
     let mut environment = minijinja::Environment::new();
     environment.set_trim_blocks(true);
     environment.set_lstrip_blocks(true);
+    // Match Jinja's iterable test: None is not an iterable tools collection.
+    environment.add_test("iterable", |value: minijinja::Value| {
+        !value.is_none() && !value.is_undefined() && value.try_iter().is_ok()
+    });
     environment.set_unknown_method_callback(minijinja_contrib::pycompat::unknown_method_callback);
     environment.add_function(
         "raise_exception",
@@ -176,20 +174,23 @@ fn render_chat_prompt(template: &str, instruction: &str, bos_token: &str) -> Res
         .and_then(|template| {
             template.render(minijinja::context! {
                 messages => messages,
-                bos_token => bos_token, tools => if ax { serde_json::json!([]) } else { serde_json::Value::Null },
+                bos_token => bos_token, eos_token => eos_token, tools => serde_json::Value::Null,
                 add_generation_prompt => true, enable_thinking => false,
             })
         })
         .map_err(|_| TranslateError::generation())?;
-    let suffix = if midm {
-        "<|start_header_id|>assistant<|end_header_id|>\n\n"
-    } else if ax {
-        "<|im_start|><|assistant|>"
-    } else {
-        "<|im_start|>assistant\n<think>\n\n</think>\n\n"
-    };
-    if !prompt.ends_with(suffix) {
-        return Err(TranslateError::generation());
+    let input_end = prompt.rfind(instruction)
+        .filter(|_| !instruction.is_empty())
+        .map(|start| start + instruction.len())
+        .ok_or_else(TranslateError::generation)?;
+    // Only inspect the template's continuation, not literal text inside the request.
+    let continuation = &prompt[input_end..];
+    for (open, close) in [("<think>", "</think>"), ("<analysis>", "</analysis>")] {
+        if continuation.rfind(open).is_some_and(|start| {
+            continuation.rfind(close).map_or(true, |end| end < start)
+        }) {
+            return Err(TranslateError::generation());
+        }
     }
     Ok(prompt)
 }
@@ -236,14 +237,16 @@ pub(super) fn generate(
         .map_err(|_| TranslateError::generation())?;
     let vocab = model.vocab();
     let template = template.to_str().map_err(|_| TranslateError::generation())?;
-    // Only Mi:dm consumes BOS; other vocabularies may have no BOS token at all.
-    let bos_token = if template.contains("Mi:dm") {
-        String::from_utf8(vocab.token_to_piece(vocab.bos(), true, None))
-            .map_err(|_| TranslateError::generation())?
-    } else {
-        String::new()
+    let special_text = |token: llama_cpp_2::token::LlamaToken| {
+        if token.0 < 0 {
+            Ok(String::new())
+        } else {
+            String::from_utf8(vocab.token_to_piece(token, true, None))
+                .map_err(|_| TranslateError::generation())
+        }
     };
-    let prompt = render_chat_prompt(template, &instruction, &bos_token)?;
+    let prompt = render_chat_prompt(template, &instruction,
+        &special_text(vocab.bos())?, &special_text(vocab.eos())?)?;
     let tokens = vocab.tokenize(prompt.as_bytes(), false, true);
     if tokens.is_empty() || tokens.len() + OUTPUT_TOKENS > CONTEXT_TOKENS as usize {
         return Err(TranslateError::new(
@@ -335,20 +338,54 @@ mod tests {
     fn publisher_templates_render_nonthinking_generation_prefixes() {
         let midm = include_str!("../../../reference/eval/fixtures/v3-midm-chat-template.jinja");
         let ax = include_str!("../../../reference/eval/fixtures/v3-ax-chat-template.jinja");
-        let prompt = render_chat_prompt(midm, "Translate this.", "<|begin_of_text|>").unwrap();
+        let prompt = render_chat_prompt(midm, "Translate this.", "<|begin_of_text|>", "<|end_of_text|>").unwrap();
         assert!(prompt.starts_with("<|begin_of_text|>"));
         assert!(prompt.contains("<|start_header_id|>user<|end_header_id|>\n\nTranslate this.<|eot_id|>"));
         assert!(prompt.ends_with("<|start_header_id|>assistant<|end_header_id|>\n\n"));
-        let prompt = render_chat_prompt(ax, "Translate this.", "<|endoftext|>").unwrap();
+        let prompt = render_chat_prompt(ax, "Translate this.", "<|endoftext|>", "<|im_end|>").unwrap();
         assert_eq!(prompt, "<|im_start|><|user|>Translate this.<|im_end|><|im_start|><|assistant|>");
     }
     #[test]
-    fn incumbent_thinking_guard_stays_closed() {
+    fn template_contract_accepts_new_prefixes_but_rejects_open_thinking() {
+        let prefix = "{{ messages[0].content }}";
         let closed = "<|im_start|>assistant\n<think>\n\n</think>\n\n";
-        let template = format!("{{{{ {} }}}}", serde_json::to_string(closed).unwrap());
-        assert_eq!(render_chat_prompt(&template, "Input", "").unwrap(), closed);
-        for bad in ["<|im_start|>assistant\n<think>\n", "unknown prefix"] {
-            assert!(render_chat_prompt(bad, "Input", "").is_err());
+        let template = format!("{prefix}{{{{ {} }}}}", serde_json::to_string(closed).unwrap());
+        assert!(render_chat_prompt(&template, "Input", "", "").unwrap().ends_with(closed));
+        let third = "{{ bos_token }}[USER]{{ messages[0].content }}[/USER][BOT]";
+        assert_eq!(render_chat_prompt(third, "Input", "<bos>", "<eos>").unwrap(),
+                   "<bos>[USER]Input[/USER][BOT]");
+        for tail in ["<think>", "<analysis>", "<think></think><think>"] {
+            assert!(render_chat_prompt(&format!("{prefix}{tail}"), "Input", "", "").is_err());
+        }
+        for bad in ["", "template discarded the user request"] {
+            assert!(render_chat_prompt(bad, "Input", "", "").is_err());
+        }
+        assert!(render_chat_prompt(third, "A literal <think> tag", "", "").is_ok());
+    }
+    #[test]
+    fn generic_renderer_preserves_every_recorded_screen_prompt() {
+        let fixture: Value = serde_json::from_str(include_str!("../../../reference/eval/v3-dev-set.json")).unwrap();
+        let contract: String = serde_json::from_str(include_str!("../../../src/lib/translation-prompt.json")).unwrap();
+        for (template, raw, bos, eos) in [
+            (include_str!("../../../reference/eval/fixtures/v3-midm-chat-template.jinja"),
+             include_str!("../../../reference/eval/raw/v3-midm-raw.jsonl"), "<|begin_of_text|>", "<|end_of_text|>"),
+            (include_str!("../../../reference/eval/fixtures/v3-ax-chat-template.jinja"),
+             include_str!("../../../reference/eval/raw/v3-ax-raw.jsonl"), "<|endoftext|>", "<|im_end|>"),
+        ] {
+            for line in raw.lines() {
+                let row: Value = serde_json::from_str(line).unwrap();
+                let (input, direction) = if row["requestId"] == "warmup" {
+                    ("Hello.", "en-to-ko")
+                } else {
+                    let item = fixture["items"].as_array().unwrap().iter()
+                        .find(|item| item["id"] == row["requestId"]).unwrap();
+                    (item["input"].as_str().unwrap(), item["direction"].as_str().unwrap())
+                };
+                let instruction = contract.replace("{{DIRECTION}}", direction).replacen("{{INPUT}}", input, 1);
+                let prompt = render_chat_prompt(template, &instruction, bos, eos).unwrap();
+                assert_eq!(format!("{:x}", Sha256::digest(prompt.as_bytes())),
+                           row["provenance"]["renderedPromptSha256"].as_str().unwrap(), "{}", row["requestId"]);
+            }
         }
     }
     #[cfg(feature = "acceptance")]

@@ -12,6 +12,16 @@ against the approximately 2.5–3 GB standard envelope. This is a development sc
 not a gate verdict or a rejection of every possible prompt/quantization in either
 family. No production artifact is selected.
 
+**Later scope clarification:** the size-first direction demotes A.X and makes
+Mi:dm the primary, in-envelope screen. That comment was read during closeout,
+after both runs had finished; A.X acquisition had already occurred under the
+initial two-candidate scope. Mi:dm was nevertheless measured first and declined
+before A.X inference began. The A.X rows below retain already-collected fallback
+evidence, not a proposal to prioritize that larger artifact. No further A.X run
+was made. Any later in-envelope free candidate takes precedence over it. The
+same clarification required removing the family lock from template validation;
+that follow-up is implemented and tested below.
+
 ## Artifact identity and acquisition
 
 Both artifacts were converted locally from immutable publisher weights, not
@@ -53,15 +63,25 @@ No training, GPU inference, paid service or cloud engine was used.
 
 **The worker could not run these templates entirely unchanged.** Preflight found
 its exact Qwen-only thinking-suffix guard. The scope question on
-[BAD-245](/BAD/issues/BAD-245) was answered `adapt`; commit `5c782a8` then added only
-family template inputs/validation and evidence capture. Mi:dm receives its BOS
-from model metadata and its required empty system entry. A.X receives an empty
-tools list. Jinja whitespace settings follow the publisher tooling; Mi:dm's
-unchanged template uses its deterministic fallback date. Only the incumbent
-closed-thinking prefix and the two tested non-thinking family prefixes are
-accepted. The incumbent unfinished-thinking-prefix rejection remains tested.
-This was **not** a runtime-version bump. The original preflight is preserved at
-`7d5e3a3` and in [`raw/v3-screen-preflight.json`](raw/v3-screen-preflight.json).
+[BAD-245](/BAD/issues/BAD-245) was answered `adapt`; commit `5c782a8` initially
+added family template inputs/validation and evidence capture. The later scope
+clarification required **no vendor-prefix allowlist**, which the final worker
+now satisfies: it supplies BOS/EOS from model metadata, uses standard user/tools
+inputs, requires the instruction to survive rendering, and rejects an unclosed
+thinking/analysis prefix in the template continuation. Missing BOS/EOS tokens
+are handled without token lookup. The Jinja `iterable` test treats None as
+non-iterable, matching publisher tooling, so A.X no longer needs a vendor branch.
+Mi:dm's unchanged template uses its deterministic fallback date and its own
+system preamble. Jinja whitespace settings match the publisher tooling.
+
+A focused test accepts an unfamiliar third-family prefix without adding a
+family name to the renderer. Another test re-renders **all 62 recorded prompts**
+with the final generic renderer and proves that every SHA-256 remains identical.
+Thus the follow-up changes validation/input handling without changing the prompt
+bytes that produced the measured replies; no additional model run was needed.
+The incumbent unfinished-thinking-prefix rejection remains tested. This was
+**not** a runtime-version bump. The original preflight is preserved at `7d5e3a3`
+and in [`raw/v3-screen-preflight.json`](raw/v3-screen-preflight.json).
 
 A Mi:dm pilot on the original instruction stopped after two development items
 both hit the output limit, copying placeholder text and repeating particles.
@@ -188,8 +208,8 @@ probe requires the host's established
 `BINDGEN_EXTRA_CLANG_ARGS=-I/usr/lib/clang/22/include`; the first unconfigured
 attempt failed to find `stdbool.h`, and the configured build passed.
 
-Verification: five focused native tests passed, including both publisher
-templates and the incumbent thinking guard; 21 focused translator contract/local
+Verification: six focused native tests passed, including both publisher
+templates, an unfamiliar third prefix, all 62 prompt hashes and the thinking guard; 21 focused translator contract/local
 tests passed; `npm run build` passed, including content validation and TypeScript.
 The implementation commit `49dcc01` passed all four Actions jobs in run
 `37300167464`. The report commit's own CI result is recorded on the issue after
