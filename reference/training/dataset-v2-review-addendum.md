@@ -46,3 +46,30 @@ Checker exit code: **0**. This is a mechanical pass, not a semantic-independence
 - Evidence/source of truth: regenerated candidate JSON and its SHA-256; this report plus the 290 row verdicts in `dataset-v2-review-report.md`; `python3 reference/eval/check-independent-freeze.py --candidates reference/training/dataset-v2-candidates.json` for mechanical exclusions.
 - Owner: Chani, who retains the parent dataset task.
 - Closure condition: replace or otherwise resolve the 044/045/062 weather overlap, regenerate and hash the candidate, and obtain a follow-up review that passes the cross-row audit. This child review is complete with the failing verdict recorded.
+
+
+## Follow-up review: replacement for development 062
+
+- Candidate SHA-256: `dbe19f9cd6ed255d3794cd2ec49b34a8821044300b57f6a8c08e8c50600f90f1`
+- Verdict: **pass for approval**.
+- `DAN-V2-CANDIDATE-062` now cites pinned corpus sentence `s_m153_art`: `전시된 그림은 현대적일 뿐만 아니라 예술적이에요.` / “The exhibited picture is not only modern but also artistic.” Its source-note grammar and `전시되다` modifier are consistent with this sentence. It contains no weather predicate, 오다 mapping, or rain/snow subject. The specific overlap previously identified with training 044/045 is removed.
+- Compared with the reviewed candidate bytes at commit `f2d3fc2` (SHA-256 `e5f20abb43dfa55066ba23a1a41a3907964a7dc9194d59e32727b895dc290147`), all 290 rows remain present and only row 062 changed. The other 289 rows are carried forward from the prior row-level review and this addendum's earlier register/class audit. The replacement correction is recorded in `dataset-v2-corrections.json` as `s12_snow_careful` → `s_m153_art`.
+- The prior review's conclusions remain: all 28 target patches passed; all 60 training register rows use polite speech; assigned primary classes are defensible; the summary discrepancy reconciles to 7 training literal-gap corrections in row verdicts (not 13), with 24 training + 1 development correction-required rows and 3 construction findings addressed. The earlier addendum records the detailed findings.
+- This resolves the only cross-split semantic overlap identified by this audit. It does not prove independence from unseen sealed material; the checker below establishes mechanical exclusion only. No reserved fixture was opened and no inference or training was run.
+
+Evidence from the repository root:
+
+```text
+$ sha256sum reference/training/dataset-v2-candidates.json
+dbe19f9cd6ed255d3794cd2ec49b34a8821044300b57f6a8c08e8c50600f90f1  reference/training/dataset-v2-candidates.json
+
+$ python3 reference/eval/check-independent-freeze.py --candidates reference/training/dataset-v2-candidates.json
+PASS: 60 independent anchors; 36 prior reservations; 96 unique IDs, normalized English and Korean texts
+PASS: pinned corpus text/module provenance; 15 each gloss, semantic-fidelity, register, literal-gap; SHA-256 manifest
+PASS: training/development disjoint by ID and normalized texts; all candidates avoid v1 training
+PASS: 290 candidate rows avoid all 96 reservations; no internal duplicate keys
+```
+
+Checker exit code: **0**. Replacement and cross-split verdict: **pass**. Hash-bound approval: `dataset-v2-approval.json`.
+
+Closure: expected result is the 290-row reviewed candidate with no identified shared source-derived semantic variant across training and development. Evidence/source of truth is the candidate hash, the 290-row report and addendum, and the mechanical checker command above. Owner of final dataset manifest and development freeze: Chani. This review child closes when this follow-up verdict and hash-bound approval are committed; the checker does not certify semantic independence from unseen sealed content.
