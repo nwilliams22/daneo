@@ -1,0 +1,258 @@
+{
+  "01": {
+    "fail": [
+      "meaning",
+      "gloss",
+      "register",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "가득 차 있습니다 describes being filled, not the corpus meal/satiety reading. 합니다 register; gloss loses filled and topic structure. Claimed common stomach/mind usage and gap contrast are unsupported."
+  },
+  "02": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "The request is preserved, but its only gloss chunk is incorrectly subject and hides help-give. Gap calls me the subject instead of the beneficiary/object and omits the give construction."
+  },
+  "03": {
+    "fail": [
+      "gloss",
+      "particles",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Advice/route meaning and polite request survive. 여기서부터 is place/source, not subject or from here to. Final particles omit 서 in 여기서부터. Gap falsely says the English omits the starting point although it says from here."
+  },
+  "04": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Existence becomes natural having correctly, but 것이 is labelled object and 있어요 loses exists. Gap falsely calls the declarative Korean a direct question instead of explaining curious-thing exists."
+  },
+  "05": {
+    "fail": [
+      "meaning",
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Drops liking and the entire I just do answer; asks why do that instead. 왜 is not subject and 그렇게 is not a verb. Gap invents an unsupported direct/casual contrast instead of explaining the actual source ellipsis."
+  },
+  "06": {
+    "fail": [
+      "gloss",
+      "particles",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Permission meaning and politeness survive. Gloss misses eat-even-if/becomes construction and treats this as subject. Final adapter wrongly extracts verbal 도 as a noun additive particle. Gap substitutes a vague politeness contrast for the permission construction."
+  },
+  "07": {
+    "fail": [
+      "gloss",
+      "particles",
+      "register",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Intention/time survive, but 먹겠습니다 is formal, payday-until is not subject and 그냥 not verb. Final particles omit 까지 and 이나. Gap falsely contrasts Korean's specific time frame with English, which also explicitly says until payday."
+  },
+  "08": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Meaning and particles survive. 나요 is glossed I instead of arises, and conditional flowing-out is lost. Gap offers an unsupported causality/association contrast instead of thoughts arising and understood possessor."
+  },
+  "09": {
+    "fail": [
+      "gloss",
+      "particles",
+      "register",
+      "literalGap"
+    ],
+    "evidence": "Building activity survives, but 있습니다 is formal, 요즘 is not subject and 시내 not object. Final particles omit location 에 in 곳곳에는. Gap asserts an unsupported simultaneous/trend contrast rather than a real literal difference."
+  },
+  "10": {
+    "fail": [
+      "gloss",
+      "particles",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Height comparison survives. Gloss drops come-out and topic structure. Final particles invent directional 로 from adverb 별로 and omit connective 하고. Gap misses difference not coming out and repeats equivalent comparisons."
+  },
+  "11": {
+    "fail": [
+      "meaning",
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Adds an action and actor to bare Why?. 왜 is wrongly subject. Gap gives unsupported more-direct wording instead of a real structure/meaning difference."
+  },
+  "12": {
+    "fail": [
+      "gloss",
+      "register",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Birthday wish survives, but casual 축하해 remains without conversion or register explanation. Birthday is incorrectly subject of congratulate. Gap falsely calls the wish a direct request."
+  },
+  "13": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Prohibition preserved, but gloss invents 하세요, omits 마세요 and attaches negation to the wrong chunk. Gap describes politeness/directness without a real literal construction difference and calls the understood actor a possessor."
+  },
+  "14": {
+    "fail": [
+      "meaning",
+      "gloss",
+      "particles",
+      "register",
+      "romanization",
+      "literalGap"
+    ],
+    "evidence": "No schema-valid final reply: role adverb is outside the closed set. No dimension credited without a usable final result; raw direction is correct. Raw gloss also labels parents-to subject and gap claims English often lacks regularity."
+  },
+  "15": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Polite pulling request is correct. Gloss incorrectly labels door-object as subject and renders give only as please. Gap restates equivalent requests instead of explaining the give/request construction."
+  },
+  "16": {
+    "fail": [
+      "gloss",
+      "register",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Construction/apology meaning survives. Gloss duplicates chunks, invents standalone 습니다 and loses 죄송; formal line remains without register explanation. Gap falsely says the apology is not translated although English explicitly says I am sorry."
+  },
+  "17": {
+    "fail": [
+      "gloss",
+      "register",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Cafe meaning survives. Formal 입니다; often is not subject and the predicate cafe is not object. Gap falsely says English go to often does not specify frequency, and misses the omitted Korean actor."
+  },
+  "18": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Favorite-song meaning survives. 제일 is not subject and song-is is not object; copula/relative structure missing. Gap invents a specific/general contrast between equivalent statements."
+  },
+  "19": {
+    "fail": [
+      "meaning",
+      "gloss",
+      "particles",
+      "register",
+      "romanization",
+      "literalGap"
+    ],
+    "evidence": "No schema-valid final reply; no dimension credited without a usable app result. Raw direction remains correct."
+  },
+  "20": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Same-thought meaning survives. 우리는 is topic-marked we, not We are; the gloss introduces a nonexistent copula. Gap contrasts thought with opinion without explaining topic/subject structure versus English have."
+  },
+  "21": {
+    "fail": [
+      "gloss",
+      "register",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Movie question survives, but 어땠습니까 is formal. 어제 is not subject, 영화는 not object. Gap falsely says the actual English uses the day before without a time marker; it says yesterday."
+  },
+  "22": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Event sequence survives. Gloss repeats after the rain stopped in 그친 and after in 후에, labels temporal 후에 place, and loses clean chunk alignment. Gap falsely contrasts sequence with completion rather than explaining the omitted Korean actor."
+  },
+  "23": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Market/souvenir plan survives. Gloss drops the connective 가서 and future 살 거예요, presenting both as infinitives. Gap substitutes a specific/general contrast instead of the understood actor and actual construction."
+  },
+  "24": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Understanding question survives. Its sole predicate chunk is labelled subject. Gap offers a direct/polite contrast and does not explain the omitted Korean you."
+  },
+  "25": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Reassurance/prohibition survives. Gloss invents 하세요, omits 마세요 and misplaces negation. Gap confidently invents a possessive relationship between 걱정 and 하지."
+  },
+  "26": {
+    "fail": [
+      "meaning",
+      "gloss",
+      "literalGap"
+    ],
+    "meaningReversal": true,
+    "evidence": "Airport advice for two hours beforehand becomes two hours ago, a time reversal. Gloss labels every chunk subject, duplicates two, and loses arrive-if-okay. Gap does not resolve its incorrect time reading."
+  },
+  "27": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "evidence": "Passport prohibition survives. Gloss repeats invented 하세요 and omits 마세요, with passport wrongly subject. Gap notices the omitted possessor but then calls English your the recipient rather than possessor, so the explanation is not fully accurate."
+  },
+  "28": {
+    "fail": [
+      "meaning",
+      "gloss",
+      "particles",
+      "register",
+      "romanization",
+      "literalGap"
+    ],
+    "evidence": "No schema-valid final reply; no dimension credited without a usable app result. Raw direction is correct."
+  },
+  "29": {
+    "fail": [
+      "gloss",
+      "literalGap"
+    ],
+    "inventedRule": true,
+    "evidence": "Polite prohibition survives. Gloss invents 하세요, omits 마세요, and mislabels determiner 그런 as subject. Gap invents a possessive relationship between story and kind."
+  },
+  "30": {
+    "fail": [
+      "meaning",
+      "gloss",
+      "particles",
+      "register",
+      "romanization",
+      "literalGap"
+    ],
+    "evidence": "No schema-valid final reply; no dimension credited without a usable app result. Raw direction is correct."
+  }
+}

@@ -1,0 +1,2871 @@
+[
+  {
+    "id": "DAN-V3-DEV-01",
+    "input": "I am full",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "저는 가득 차 있습니다.",
+      "romanization": "jeoneun gadeuk cha itseumnida.",
+      "natural_english": "I am full.",
+      "gloss": [
+        {
+          "chunk": "저는",
+          "gloss": "I am",
+          "role": "subject"
+        },
+        {
+          "chunk": "가득",
+          "gloss": "full",
+          "role": "other"
+        },
+        {
+          "chunk": "차 있습니다",
+          "gloss": "to be",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "topic"
+        }
+      ],
+      "literal_gap": "The literal structure '저는 가득 차 있습니다' implies a state of being full, whereas the natural English 'I am full' directly conveys the same meaning without the need for a possessive or existential expression.",
+      "cultural_note": "This phrase is commonly used in Korean to express a full state of mind or a full stomach, often used in casual conversation."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in Korean to express a full state of mind or a full stomach, often used in casual conversation.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I am",
+            "role": "subject"
+          },
+          {
+            "chunk": "가득",
+            "gloss": "full",
+            "role": "other"
+          },
+          {
+            "chunk": "차 있습니다",
+            "gloss": "to be",
+            "role": "other"
+          }
+        ],
+        "korean": "저는 가득 차 있습니다.",
+        "literal_gap": "The literal structure '저는 가득 차 있습니다' implies a state of being full, whereas the natural English 'I am full' directly conveys the same meaning without the need for a possessive or existential expression.",
+        "natural_english": "I am full.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "은"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "eb830bfd3903577193b2059ff7067f3f05c2416ecb10e7c2847553f27f1e522d",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-02",
+    "input": "도와주세요!",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "도와주세요!",
+      "romanization": "dowajuseyo!",
+      "natural_english": "Please help me!",
+      "gloss": [
+        {
+          "chunk": "도와주세요.",
+          "gloss": "Please help me.",
+          "role": "subject"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal structure '도와주세요' directly translates to 'Please help me' in natural English, with the subject'me' implied.",
+      "cultural_note": "This phrase is commonly used in polite requests, especially in formal or urgent situations."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in polite requests, especially in formal or urgent situations.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "도와주세요.",
+            "gloss": "Please help me.",
+            "role": "subject"
+          }
+        ],
+        "korean": "도와주세요!",
+        "literal_gap": "The literal structure '도와주세요' directly translates to 'Please help me' in natural English, with the subject'me' implied.",
+        "natural_english": "Please help me!",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "19ff551320f9f4f7741a91686a500793bcadf943b789399fbe1b6e34b7f82a37",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-03",
+    "input": "From here, just take the subway",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "여기서부터 지하철을 타세요.",
+      "romanization": "yeogiseobuteo jihacheoreul taseyo.",
+      "natural_english": "Just take the subway from here.",
+      "gloss": [
+        {
+          "chunk": "여기서부터",
+          "gloss": "from here to",
+          "role": "subject"
+        },
+        {
+          "chunk": "지하철을",
+          "gloss": "subway",
+          "role": "object"
+        },
+        {
+          "chunk": "타세요.",
+          "gloss": "take",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "부터",
+          "job": "marks a starting point"
+        },
+        {
+          "particle": "을",
+          "job": "object"
+        }
+      ],
+      "literal_gap": "The literal Korean structure '여기서부터 지하철을 타세요' implies a specific starting point and action, whereas the natural English 'Just take the subway from here' omits the starting point and focuses on the action.",
+      "cultural_note": "This phrase is commonly used in Korean to give directions, especially in urban areas where public transportation is prevalent."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in Korean to give directions, especially in urban areas where public transportation is prevalent.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "여기서부터",
+            "gloss": "from here to",
+            "role": "subject"
+          },
+          {
+            "chunk": "지하철을",
+            "gloss": "subway",
+            "role": "object"
+          },
+          {
+            "chunk": "타세요.",
+            "gloss": "take",
+            "role": "verb"
+          }
+        ],
+        "korean": "여기서부터 지하철을 타세요.",
+        "literal_gap": "The literal Korean structure '여기서부터 지하철을 타세요' implies a specific starting point and action, whereas the natural English 'Just take the subway from here' omits the starting point and focuses on the action.",
+        "natural_english": "Just take the subway from here.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "6f9b775fc0c33f7c67faed7cf3c78121bc89739a1d545b3c271b7c94c2b545e7",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-04",
+    "input": "궁금한 것이 있어요",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "궁금한 것이 있어요.",
+      "romanization": "gunggeumhan geosi isseoyo.",
+      "natural_english": "I have something to ask about.",
+      "gloss": [
+        {
+          "chunk": "궁금한",
+          "gloss": "something to ask about",
+          "role": "subject"
+        },
+        {
+          "chunk": "것이",
+          "gloss": "something",
+          "role": "object"
+        },
+        {
+          "chunk": "있어요",
+          "gloss": "to be",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "이",
+          "job": "subject"
+        }
+      ],
+      "literal_gap": "The literal structure implies a direct question, but the natural English conveys a more general inquiry.",
+      "cultural_note": "This phrase is commonly used in polite conversation to express curiosity or seek information."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in polite conversation to express curiosity or seek information.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "궁금한",
+            "gloss": "something to ask about",
+            "role": "subject"
+          },
+          {
+            "chunk": "것이",
+            "gloss": "something",
+            "role": "object"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "to be",
+            "role": "verb"
+          }
+        ],
+        "korean": "궁금한 것이 있어요.",
+        "literal_gap": "The literal structure implies a direct question, but the natural English conveys a more general inquiry.",
+        "natural_english": "I have something to ask about.",
+        "particles": [
+          {
+            "job": "subject",
+            "particle": "이"
+          },
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "이"
+          },
+          {
+            "job": "subject",
+            "particle": "가"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "64634c1396001b5e377ce9f1b31271bf11b8eb3b4950d19776cc7fddd1dedafb",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-05",
+    "input": "Why do you like it? I just do.",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "왜 그렇게 하세요?",
+      "romanization": "wae geureoke haseyo?",
+      "natural_english": "Why do you do that?",
+      "gloss": [
+        {
+          "chunk": "왜",
+          "gloss": "Why",
+          "role": "subject"
+        },
+        {
+          "chunk": "그렇게",
+          "gloss": "so",
+          "role": "verb"
+        },
+        {
+          "chunk": "하세요",
+          "gloss": "do",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal structure implies a more direct question, whereas the natural English conveys a more casual inquiry.",
+      "cultural_note": "This question is commonly used in polite Korean to express curiosity or mild surprise, often in a friendly tone."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This question is commonly used in polite Korean to express curiosity or mild surprise, often in a friendly tone.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "왜",
+            "gloss": "Why",
+            "role": "subject"
+          },
+          {
+            "chunk": "그렇게",
+            "gloss": "so",
+            "role": "verb"
+          },
+          {
+            "chunk": "하세요",
+            "gloss": "do",
+            "role": "verb"
+          }
+        ],
+        "korean": "왜 그렇게 하세요?",
+        "literal_gap": "The literal structure implies a more direct question, whereas the natural English conveys a more casual inquiry.",
+        "natural_english": "Why do you do that?",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "는"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "3f8fe738ee4ff9cb87ccc4a6b2fb5fcc8f859fadbb8eb9cff6c92f223a8c69f3",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-06",
+    "input": "이거 먹어도 돼요?",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "이거 먹어도 돼요?",
+      "romanization": "igeo meogeodo dwaeyo?",
+      "natural_english": "Can I eat this?",
+      "gloss": [
+        {
+          "chunk": "이거",
+          "gloss": "this thing",
+          "role": "subject"
+        },
+        {
+          "chunk": "먹어도",
+          "gloss": "eat",
+          "role": "verb"
+        },
+        {
+          "chunk": "돼요",
+          "gloss": "is allowed",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "도",
+          "job": "adds 'also' or 'too'"
+        }
+      ],
+      "literal_gap": "The literal structure uses '먹어도 돼요' which is a polite request, whereas the natural English 'Can I eat this?' is a more direct inquiry.",
+      "cultural_note": "This sentence is a polite way to ask permission, which is common in Korean polite speech."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is a polite way to ask permission, which is common in Korean polite speech.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "이거",
+            "gloss": "this thing",
+            "role": "subject"
+          },
+          {
+            "chunk": "먹어도",
+            "gloss": "eat",
+            "role": "verb"
+          },
+          {
+            "chunk": "돼요",
+            "gloss": "is allowed",
+            "role": "verb"
+          }
+        ],
+        "korean": "이거 먹어도 돼요?",
+        "literal_gap": "The literal structure uses '먹어도 돼요' which is a polite request, whereas the natural English 'Can I eat this?' is a more direct inquiry.",
+        "natural_english": "Can I eat this?",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "87a0abd12f07a0e40cdec1e3c3775eda085d60a4bf3fe80d8d1dc17a3e94cc1b",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-07",
+    "input": "Until payday, I'll just eat ramen or whatever",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "월급날까지는 그냥 라면이나 뭐든지 먹겠습니다",
+      "romanization": "wolgeumnalkkajineun geunyang ramyeonina mwodeunji meokgetseumnida",
+      "natural_english": "I'll just eat ramen or whatever until payday",
+      "gloss": [
+        {
+          "chunk": "월급날까지는",
+          "gloss": "until payday",
+          "role": "subject"
+        },
+        {
+          "chunk": "그냥",
+          "gloss": "just",
+          "role": "verb"
+        },
+        {
+          "chunk": "라면이나 뭐든지",
+          "gloss": "ramen or whatever",
+          "role": "object"
+        },
+        {
+          "chunk": "먹겠습니다",
+          "gloss": "I'll eat",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "marks a topic or contrast"
+        }
+      ],
+      "literal_gap": "The literal Korean structure implies a specific time frame until payday, while the natural English meaning is a general statement of intention.",
+      "cultural_note": "This phrase is commonly used in Korean to express a temporary or ongoing action until a specific event occurs."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in Korean to express a temporary or ongoing action until a specific event occurs.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "월급날까지는",
+            "gloss": "until payday",
+            "role": "subject"
+          },
+          {
+            "chunk": "그냥",
+            "gloss": "just",
+            "role": "verb"
+          },
+          {
+            "chunk": "라면이나 뭐든지",
+            "gloss": "ramen or whatever",
+            "role": "object"
+          },
+          {
+            "chunk": "먹겠습니다",
+            "gloss": "I'll eat",
+            "role": "verb"
+          }
+        ],
+        "korean": "월급날까지는 그냥 라면이나 뭐든지 먹겠습니다",
+        "literal_gap": "The literal Korean structure implies a specific time frame until payday, while the natural English meaning is a general statement of intention.",
+        "natural_english": "I'll just eat ramen or whatever until payday",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "은"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "820ae59f5d5ba28436d36382ebee330ab27fffcda3045516897200ed8ab23c58",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-08",
+    "input": "카페에서 옛날 가요가 흘러나오면 어머니 생각이 나요",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "카페에서 옛날 가요가 흘러나오면 어머니 생각이 나요",
+      "romanization": "kapeeseo yennal gayoga heulleonaomyeon eomeoni saenggagi nayo",
+      "natural_english": "When old Korean songs play in a cafe, I think of my mother.",
+      "gloss": [
+        {
+          "chunk": "카페에서",
+          "gloss": "in a cafe",
+          "role": "place"
+        },
+        {
+          "chunk": "옛날 가요가",
+          "gloss": "old Korean songs",
+          "role": "subject"
+        },
+        {
+          "chunk": "흘러나오면",
+          "gloss": "play",
+          "role": "verb"
+        },
+        {
+          "chunk": "어머니 생각이",
+          "gloss": "think of my mother",
+          "role": "subject"
+        },
+        {
+          "chunk": "나요",
+          "gloss": "I",
+          "role": "subject"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에서",
+          "job": "marks the place where an action happens"
+        },
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The literal structure implies a direct causal link between the songs and the thought, whereas the natural English conveys a more general association.",
+      "cultural_note": "This phrase often reflects nostalgia and a sense of comfort associated with familiar music in a cafe setting."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase often reflects nostalgia and a sense of comfort associated with familiar music in a cafe setting.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "카페에서",
+            "gloss": "in a cafe",
+            "role": "place"
+          },
+          {
+            "chunk": "옛날 가요가",
+            "gloss": "old Korean songs",
+            "role": "subject"
+          },
+          {
+            "chunk": "흘러나오면",
+            "gloss": "play",
+            "role": "verb"
+          },
+          {
+            "chunk": "어머니 생각이",
+            "gloss": "think of my mother",
+            "role": "subject"
+          },
+          {
+            "chunk": "나요",
+            "gloss": "I",
+            "role": "subject"
+          }
+        ],
+        "korean": "카페에서 옛날 가요가 흘러나오면 어머니 생각이 나요",
+        "literal_gap": "The literal structure implies a direct causal link between the songs and the thought, whereas the natural English conveys a more general association.",
+        "natural_english": "When old Korean songs play in a cafe, I think of my mother.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "은"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "c0df650eebac491e1a5b36e8f8e4197796d908c9adbd735384054d0a3e5e9d72",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-09",
+    "input": "These days, all over downtown, tall buildings are going up",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "요즘 시내 곳곳에는 높은 건물들이 올라가고 있습니다.",
+      "romanization": "yojeum sinae gotgoseneun nopeun geonmuldeuri ollagago itseumnida.",
+      "natural_english": "These days, tall buildings are going up all over downtown.",
+      "gloss": [
+        {
+          "chunk": "요즘",
+          "gloss": "These days",
+          "role": "subject"
+        },
+        {
+          "chunk": "시내",
+          "gloss": "downtown",
+          "role": "object"
+        },
+        {
+          "chunk": "곳곳에는",
+          "gloss": "all over",
+          "role": "place"
+        },
+        {
+          "chunk": "높은 건물들이",
+          "gloss": "tall buildings",
+          "role": "subject"
+        },
+        {
+          "chunk": " 올라가고 있습니다.",
+          "gloss": "are going up",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "topic"
+        },
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The literal Korean structure '요즘 시내 곳곳에는 높은 건물들이 올라가고 있습니다.' implies a continuous action happening simultaneously in multiple locations, whereas the natural English 'These days, tall buildings are going up all over downtown' suggests a general trend or ongoing activity.",
+      "cultural_note": "This sentence structure is commonly used to describe ongoing or widespread phenomena in Korean, emphasizing the extent or scope of the action."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence structure is commonly used to describe ongoing or widespread phenomena in Korean, emphasizing the extent or scope of the action.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "요즘",
+            "gloss": "These days",
+            "role": "subject"
+          },
+          {
+            "chunk": "시내",
+            "gloss": "downtown",
+            "role": "object"
+          },
+          {
+            "chunk": "곳곳에는",
+            "gloss": "all over",
+            "role": "place"
+          },
+          {
+            "chunk": "높은 건물들이",
+            "gloss": "tall buildings",
+            "role": "subject"
+          },
+          {
+            "chunk": " 올라가고 있습니다.",
+            "gloss": "are going up",
+            "role": "verb"
+          }
+        ],
+        "korean": "요즘 시내 곳곳에는 높은 건물들이 올라가고 있습니다.",
+        "literal_gap": "The literal Korean structure '요즘 시내 곳곳에는 높은 건물들이 올라가고 있습니다.' implies a continuous action happening simultaneously in multiple locations, whereas the natural English 'These days, tall buildings are going up all over downtown' suggests a general trend or ongoing activity.",
+        "natural_english": "These days, tall buildings are going up all over downtown.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "는"
+          },
+          {
+            "job": "verb",
+            "particle": "는"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "3c3631b4ac73f0094ea30d0757a407eac985a4c3ceefbae5f25af0c032477172",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-10",
+    "input": "형하고 저는 키 차이가 별로 안 나요",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "형하고 저는 키 차이가 별로 안 나요",
+      "romanization": "hyeonghago jeoneun ki chaiga byeollo an nayo",
+      "natural_english": "My brother and I have a relatively small height difference.",
+      "gloss": [
+        {
+          "chunk": "형하고",
+          "gloss": "My brother and",
+          "role": "subject"
+        },
+        {
+          "chunk": "저는",
+          "gloss": "I",
+          "role": "subject"
+        },
+        {
+          "chunk": "키 차이가",
+          "gloss": "height difference",
+          "role": "subject"
+        },
+        {
+          "chunk": "별로 안 나요",
+          "gloss": "not much",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "topic"
+        },
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "로",
+          "job": "marks a direction, means, or method"
+        }
+      ],
+      "literal_gap": "The literal structure implies a comparison of height differences between two individuals, whereas the natural English meaning is a general statement about the height difference between the speaker and their brother.",
+      "cultural_note": "This sentence is a common way to express a personal observation about the height difference between siblings, often used in casual conversation."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is a common way to express a personal observation about the height difference between siblings, often used in casual conversation.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "형하고",
+            "gloss": "My brother and",
+            "role": "subject"
+          },
+          {
+            "chunk": "저는",
+            "gloss": "I",
+            "role": "subject"
+          },
+          {
+            "chunk": "키 차이가",
+            "gloss": "height difference",
+            "role": "subject"
+          },
+          {
+            "chunk": "별로 안 나요",
+            "gloss": "not much",
+            "role": "verb"
+          }
+        ],
+        "korean": "형하고 저는 키 차이가 별로 안 나요",
+        "literal_gap": "The literal structure implies a comparison of height differences between two individuals, whereas the natural English meaning is a general statement about the height difference between the speaker and their brother.",
+        "natural_english": "My brother and I have a relatively small height difference.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "a85d38d61f80edf14fa02a66316b6c57d00d34d4f204d9cb4e772905b17a0bd5",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-11",
+    "input": "Why?",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "왜 그러세요?",
+      "romanization": "wae geureoseyo?",
+      "natural_english": "Why are you doing that?",
+      "gloss": [
+        {
+          "chunk": "왜",
+          "gloss": "Why",
+          "role": "subject"
+        },
+        {
+          "chunk": "그러세요",
+          "gloss": "you are doing that",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal structure '왜 그러세요' implies a question about the reason for an action, whereas the natural English 'Why are you doing that?' is a more direct inquiry.",
+      "cultural_note": "This sentence is a polite way to ask someone why they are doing something, often used in formal or respectful contexts."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is a polite way to ask someone why they are doing something, often used in formal or respectful contexts.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "왜",
+            "gloss": "Why",
+            "role": "subject"
+          },
+          {
+            "chunk": "그러세요",
+            "gloss": "you are doing that",
+            "role": "verb"
+          }
+        ],
+        "korean": "왜 그러세요?",
+        "literal_gap": "The literal structure '왜 그러세요' implies a question about the reason for an action, whereas the natural English 'Why are you doing that?' is a more direct inquiry.",
+        "natural_english": "Why are you doing that?",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "는"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "1cb13dcb3f6215d20a90cb667ff1005f4e10c215702c8c9752f9849eb39d58d2",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-12",
+    "input": "생일 축하해!",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "생일 축하해!",
+      "romanization": "saengil chukahae!",
+      "natural_english": "Happy birthday!",
+      "gloss": [
+        {
+          "chunk": "생일",
+          "gloss": "birthday",
+          "role": "subject"
+        },
+        {
+          "chunk": "축하해",
+          "gloss": "to congratulate",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal structure of '생일 축하해' is a direct request, whereas the natural English 'Happy birthday!' implies a general well-wishing without a specific request.",
+      "cultural_note": "In Korean culture, birthday celebrations are important, and expressing happiness is a common way to mark the occasion."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "In Korean culture, birthday celebrations are important, and expressing happiness is a common way to mark the occasion.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "생일",
+            "gloss": "birthday",
+            "role": "subject"
+          },
+          {
+            "chunk": "축하해",
+            "gloss": "to congratulate",
+            "role": "verb"
+          }
+        ],
+        "korean": "생일 축하해!",
+        "literal_gap": "The literal structure of '생일 축하해' is a direct request, whereas the natural English 'Happy birthday!' implies a general well-wishing without a specific request.",
+        "natural_english": "Happy birthday!",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "7975794196899a18eba118d152b76ae703ac4184043cfe31774ff0dae2fbca25",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-13",
+    "input": "Don't lie!",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "거짓말하지 마세요.",
+      "romanization": "geojinmalhaji maseyo.",
+      "natural_english": "Don't lie!",
+      "gloss": [
+        {
+          "chunk": "거짓말하지",
+          "gloss": "Don't lie",
+          "role": "verb"
+        },
+        {
+          "chunk": "하세요",
+          "gloss": "to be polite",
+          "role": "other"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal structure '거짓말하지 마세요' implies a polite request to refrain from lying, whereas the natural English 'Don't lie!' is a direct command. The literal structure leaves the possessor of the action implied, whereas the natural English directly addresses the listener.",
+      "cultural_note": "This phrase is commonly used in polite interactions to request someone not to do something, often in a formal or respectful context."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in polite interactions to request someone not to do something, often in a formal or respectful context.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "거짓말하지",
+            "gloss": "Don't lie",
+            "role": "verb"
+          },
+          {
+            "chunk": "하세요",
+            "gloss": "to be polite",
+            "role": "other"
+          }
+        ],
+        "korean": "거짓말하지 마세요.",
+        "literal_gap": "The literal structure '거짓말하지 마세요' implies a polite request to refrain from lying, whereas the natural English 'Don't lie!' is a direct command. The literal structure leaves the possessor of the action implied, whereas the natural English directly addresses the listener.",
+        "natural_english": "Don't lie!",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "fcddb9d0f2f8e31689d48188a05b20924d5e230ab8db9dd85346115c7c393b46",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-14",
+    "input": "부모님께 자주 전화해요",
+    "direction": "ko-to-en",
+    "assembled": null,
+    "schemaComplete": false,
+    "directionCorrect": false,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "In Korean, using '자주' (often) with '전화해요' (call) emphasizes the habitual nature of the action, which is a common way to express regularity in polite speech.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "부모님께",
+            "gloss": "to my parents",
+            "role": "subject"
+          },
+          {
+            "chunk": "자주",
+            "gloss": "often",
+            "role": "adverb"
+          },
+          {
+            "chunk": "전화해요",
+            "gloss": "call",
+            "role": "verb"
+          }
+        ],
+        "korean": "부모님께 자주 전화해요",
+        "literal_gap": "The literal structure '부모님께 자주 전화해요' implies a regular habit of calling, whereas the natural English 'I often call my parents' suggests a habit without specifying regularity.",
+        "natural_english": "I often call my parents",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "은"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "3c515381844cb262df471207a4096aedc4ab9676025529c6075ae2ac70988b32",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-15",
+    "input": "Pull the door",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "문을 당겨 주세요.",
+      "romanization": "muneul danggyeo juseyo.",
+      "natural_english": "Please pull the door.",
+      "gloss": [
+        {
+          "chunk": "문을",
+          "gloss": "door",
+          "role": "subject"
+        },
+        {
+          "chunk": "당겨",
+          "gloss": "pull",
+          "role": "verb"
+        },
+        {
+          "chunk": "주세요",
+          "gloss": "please",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "을",
+          "job": "object"
+        }
+      ],
+      "literal_gap": "The literal Korean construction '문을 당겨 주세요' implies a polite request to someone else to perform the action of pulling the door, whereas the natural English 'Please pull the door' is a direct request to the listener.",
+      "cultural_note": "In Korean polite language, using '주세요' at the end of a sentence is a polite way to request someone else to perform an action, which is common in formal or polite contexts."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "In Korean polite language, using '주세요' at the end of a sentence is a polite way to request someone else to perform an action, which is common in formal or polite contexts.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "문을",
+            "gloss": "door",
+            "role": "subject"
+          },
+          {
+            "chunk": "당겨",
+            "gloss": "pull",
+            "role": "verb"
+          },
+          {
+            "chunk": "주세요",
+            "gloss": "please",
+            "role": "other"
+          }
+        ],
+        "korean": "문을 당겨 주세요.",
+        "literal_gap": "The literal Korean construction '문을 당겨 주세요' implies a polite request to someone else to perform the action of pulling the door, whereas the natural English 'Please pull the door' is a direct request to the listener.",
+        "natural_english": "Please pull the door.",
+        "particles": [
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "fb1060a57723e74a2b4ddf8fae30b03a21de6b37ee98aff29a25cd287b1ba394",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-16",
+    "input": "공사 중입니다. 죄송합니다.",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "공사 중입니다. 죄송합니다.",
+      "romanization": "gongsa jungimnida. joesonghamnida.",
+      "natural_english": "Construction is in progress. I'm sorry.",
+      "gloss": [
+        {
+          "chunk": "공사",
+          "gloss": "construction",
+          "role": "subject"
+        },
+        {
+          "chunk": "중",
+          "gloss": "in progress",
+          "role": "verb"
+        },
+        {
+          "chunk": "입니다",
+          "gloss": "is",
+          "role": "verb"
+        },
+        {
+          "chunk": "중",
+          "gloss": "in progress",
+          "role": "verb"
+        },
+        {
+          "chunk": "습니다",
+          "gloss": "I'm sorry",
+          "role": "verb"
+        },
+        {
+          "chunk": "공사",
+          "gloss": "construction",
+          "role": "subject"
+        },
+        {
+          "chunk": "중",
+          "gloss": "in progress",
+          "role": "verb"
+        },
+        {
+          "chunk": "입니다",
+          "gloss": "is",
+          "role": "verb"
+        },
+        {
+          "chunk": "중",
+          "gloss": "in progress",
+          "role": "verb"
+        },
+        {
+          "chunk": "습니다",
+          "gloss": "I'm sorry",
+          "role": "verb"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal Korean construction '공사 중입니다' directly translates to 'construction is in progress' in English, but the polite '죄송합니다' adds a polite request for forgiveness, which is not directly translated into English.",
+      "cultural_note": "This sentence is commonly used in Korean construction sites to inform people about ongoing work, often accompanied by an apology for any inconvenience caused."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is commonly used in Korean construction sites to inform people about ongoing work, often accompanied by an apology for any inconvenience caused.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "공사",
+            "gloss": "construction",
+            "role": "subject"
+          },
+          {
+            "chunk": "중",
+            "gloss": "in progress",
+            "role": "verb"
+          },
+          {
+            "chunk": "입니다",
+            "gloss": "is",
+            "role": "verb"
+          },
+          {
+            "chunk": "중",
+            "gloss": "in progress",
+            "role": "verb"
+          },
+          {
+            "chunk": "습니다",
+            "gloss": "I'm sorry",
+            "role": "verb"
+          },
+          {
+            "chunk": "공사",
+            "gloss": "construction",
+            "role": "subject"
+          },
+          {
+            "chunk": "중",
+            "gloss": "in progress",
+            "role": "verb"
+          },
+          {
+            "chunk": "입니다",
+            "gloss": "is",
+            "role": "verb"
+          },
+          {
+            "chunk": "중",
+            "gloss": "in progress",
+            "role": "verb"
+          },
+          {
+            "chunk": "습니다",
+            "gloss": "I'm sorry",
+            "role": "verb"
+          }
+        ],
+        "korean": "공사 중입니다. 죄송합니다.",
+        "literal_gap": "The literal Korean construction '공사 중입니다' directly translates to 'construction is in progress' in English, but the polite '죄송합니다' adds a polite request for forgiveness, which is not directly translated into English.",
+        "natural_english": "Construction is in progress. I'm sorry.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "는"
+          },
+          {
+            "job": "verb",
+            "particle": "는"
+          },
+          {
+            "job": "other",
+            "particle": "는"
+          },
+          {
+            "job": "other",
+            "particle": "는"
+          },
+          {
+            "job": "other",
+            "particle": "는"
+          },
+          {
+            "job": "other",
+            "particle": "는"
+          },
+          {
+            "job": "other",
+            "particle": "는"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "2a713aafd5025b19c92d6050db82a945a7f4a1970e4985be8d89af080e9c4aca",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-17",
+    "input": "It's the cafe I go to often",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "자주 가는 카페입니다.",
+      "romanization": "jaju ganeun kapeimnida.",
+      "natural_english": "It's the cafe I go to often.",
+      "gloss": [
+        {
+          "chunk": "자주",
+          "gloss": "often",
+          "role": "subject"
+        },
+        {
+          "chunk": "가는",
+          "gloss": "to go",
+          "role": "verb"
+        },
+        {
+          "chunk": "카페",
+          "gloss": "café",
+          "role": "object"
+        },
+        {
+          "chunk": "입니다",
+          "gloss": "is",
+          "role": "other"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal structure '자주 가는 카페입니다' implies a frequent action, whereas the natural English 'It's the cafe I go to often' suggests a habitual action without specifying frequency.",
+      "cultural_note": "This sentence is commonly used in polite conversation to introduce a familiar place or habit."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is commonly used in polite conversation to introduce a familiar place or habit.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "자주",
+            "gloss": "often",
+            "role": "subject"
+          },
+          {
+            "chunk": "가는",
+            "gloss": "to go",
+            "role": "verb"
+          },
+          {
+            "chunk": "카페",
+            "gloss": "café",
+            "role": "object"
+          },
+          {
+            "chunk": "입니다",
+            "gloss": "is",
+            "role": "other"
+          }
+        ],
+        "korean": "자주 가는 카페입니다.",
+        "literal_gap": "The literal structure '자주 가는 카페입니다' implies a frequent action, whereas the natural English 'It's the cafe I go to often' suggests a habitual action without specifying frequency.",
+        "natural_english": "It's the cafe I go to often.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "는"
+          },
+          {
+            "job": "other",
+            "particle": "는"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "725a5f804288a2c7273f467c945415ec917f79f138be7416aaff5fc9f787cfd6",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-18",
+    "input": "제가 제일 좋아하는 노래예요",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "제가 제일 좋아하는 노래예요",
+      "romanization": "jega jeil joahaneun noraeyeyo",
+      "natural_english": "This is my favorite song.",
+      "gloss": [
+        {
+          "chunk": "제가",
+          "gloss": "I",
+          "role": "subject"
+        },
+        {
+          "chunk": "제일",
+          "gloss": "the best",
+          "role": "subject"
+        },
+        {
+          "chunk": "좋아하는",
+          "gloss": "like",
+          "role": "verb"
+        },
+        {
+          "chunk": "노래예요",
+          "gloss": "a song",
+          "role": "object"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The literal structure '제가 제일 좋아하는 노래예요' implies a specific song is the best liked by the speaker, whereas the natural English 'This is my favorite song' is a more general statement.",
+      "cultural_note": "This sentence is a common way to express personal preference in Korean, often used in casual conversation."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is a common way to express personal preference in Korean, often used in casual conversation.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "제가",
+            "gloss": "I",
+            "role": "subject"
+          },
+          {
+            "chunk": "제일",
+            "gloss": "the best",
+            "role": "subject"
+          },
+          {
+            "chunk": "좋아하는",
+            "gloss": "like",
+            "role": "verb"
+          },
+          {
+            "chunk": "노래예요",
+            "gloss": "a song",
+            "role": "object"
+          }
+        ],
+        "korean": "제가 제일 좋아하는 노래예요",
+        "literal_gap": "The literal structure '제가 제일 좋아하는 노래예요' implies a specific song is the best liked by the speaker, whereas the natural English 'This is my favorite song' is a more general statement.",
+        "natural_english": "This is my favorite song.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "이"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "b4f7f516021314eba465a9f69f646dd33312de5e68641784a9b94438262c4cc9",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-19",
+    "input": "Places with many tourists are always crowded",
+    "direction": "en-to-ko",
+    "assembled": null,
+    "schemaComplete": false,
+    "directionCorrect": false,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used to describe popular tourist destinations where large crowds are expected.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "많은",
+            "gloss": "many tourists",
+            "role": "subject"
+          },
+          {
+            "chunk": "오는",
+            "gloss": "coming",
+            "role": "verb"
+          },
+          {
+            "chunk": "곳은",
+            "gloss": "places",
+            "role": "subject"
+          },
+          {
+            "chunk": "항상",
+            "gloss": "always",
+            "role": "adverb"
+          },
+          {
+            "chunk": "붐빕니다",
+            "gloss": "crowded",
+            "role": "adjective"
+          }
+        ],
+        "korean": "많은 관광객이 오는 곳은 항상 붐빕니다",
+        "literal_gap": "The literal Korean structure implies a specific location, whereas the natural English phrase suggests a general characteristic of such locations.",
+        "natural_english": "Places with many tourists are always crowded",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "은"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "b3e9475bf2f29afccb9afbfdb372bfd57003426696799a9e3585ee7b3e98ab7f",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-20",
+    "input": "우리는 생각이 똑같아요",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "우리는 생각이 똑같아요",
+      "romanization": "urineun saenggagi ttokgatayo",
+      "natural_english": "We have the same thoughts.",
+      "gloss": [
+        {
+          "chunk": "우리는",
+          "gloss": "We are",
+          "role": "subject"
+        },
+        {
+          "chunk": "생각이",
+          "gloss": "thoughts",
+          "role": "subject"
+        },
+        {
+          "chunk": "똑같아요",
+          "gloss": "are the same",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "topic"
+        },
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "The literal structure '우리는 생각이 똑같아요' implies a shared state of thought, whereas the natural English 'We have the same thoughts' suggests a shared opinion or perspective.",
+      "cultural_note": "This phrase is commonly used in Korean to express agreement or consensus, often in a friendly or casual setting."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in Korean to express agreement or consensus, often in a friendly or casual setting.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "우리는",
+            "gloss": "We are",
+            "role": "subject"
+          },
+          {
+            "chunk": "생각이",
+            "gloss": "thoughts",
+            "role": "subject"
+          },
+          {
+            "chunk": "똑같아요",
+            "gloss": "are the same",
+            "role": "verb"
+          }
+        ],
+        "korean": "우리는 생각이 똑같아요",
+        "literal_gap": "The literal structure '우리는 생각이 똑같아요' implies a shared state of thought, whereas the natural English 'We have the same thoughts' suggests a shared opinion or perspective.",
+        "natural_english": "We have the same thoughts.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "은"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "b692ff9c343a685598f15b3a933f0eefb0df94d2cd6c2c2185b7a10b2a73bc25",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-21",
+    "input": "How was the movie you saw yesterday?",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "어제 보신 영화는 어땠습니까?",
+      "romanization": "eoje bosin yeonghwaneun eottaetseumnikka?",
+      "natural_english": "How was the movie you saw yesterday?",
+      "gloss": [
+        {
+          "chunk": "어제",
+          "gloss": "the day before",
+          "role": "subject"
+        },
+        {
+          "chunk": "보신",
+          "gloss": "watched",
+          "role": "verb"
+        },
+        {
+          "chunk": "영화는",
+          "gloss": "the movie",
+          "role": "object"
+        },
+        {
+          "chunk": " 어땠습니까",
+          "gloss": "how was it",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "topic"
+        }
+      ],
+      "literal_gap": "The literal structure uses '어제' as a time marker, but the natural English uses 'the day before' to convey the same meaning without the time marker.",
+      "cultural_note": "This sentence is a polite way to ask about someone's experience, showing respect and interest in their opinion."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is a polite way to ask about someone's experience, showing respect and interest in their opinion.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "어제",
+            "gloss": "the day before",
+            "role": "subject"
+          },
+          {
+            "chunk": "보신",
+            "gloss": "watched",
+            "role": "verb"
+          },
+          {
+            "chunk": "영화는",
+            "gloss": "the movie",
+            "role": "object"
+          },
+          {
+            "chunk": " 어땠습니까",
+            "gloss": "how was it",
+            "role": "verb"
+          }
+        ],
+        "korean": "어제 보신 영화는 어땠습니까?",
+        "literal_gap": "The literal structure uses '어제' as a time marker, but the natural English uses 'the day before' to convey the same meaning without the time marker.",
+        "natural_english": "How was the movie you saw yesterday?",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "는"
+          },
+          {
+            "job": "verb",
+            "particle": "는"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "9b773897066dd152923f592b821c657a40687c59c16396e69b39100be078bdd4",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-22",
+    "input": "비가 그친 후에 무지개를 봤어요",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "비가 그친 후에 무지개를 봤어요",
+      "romanization": "biga geuchin hue mujigaereul bwasseoyo",
+      "natural_english": "I saw a rainbow after the rain stopped",
+      "gloss": [
+        {
+          "chunk": "비가",
+          "gloss": "the rain",
+          "role": "subject"
+        },
+        {
+          "chunk": "그친",
+          "gloss": "after the rain stopped",
+          "role": "verb"
+        },
+        {
+          "chunk": "후에",
+          "gloss": "after",
+          "role": "place"
+        },
+        {
+          "chunk": "무지개를",
+          "gloss": "a rainbow",
+          "role": "object"
+        },
+        {
+          "chunk": "봤어요",
+          "gloss": "I saw",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        },
+        {
+          "particle": "를",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "The literal Korean structure implies a sequence of events, whereas the natural English sentence conveys a completed action.",
+      "cultural_note": "This sentence is a common way to express a past observation in Korean, often used in casual conversation."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is a common way to express a past observation in Korean, often used in casual conversation.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "비가",
+            "gloss": "the rain",
+            "role": "subject"
+          },
+          {
+            "chunk": "그친",
+            "gloss": "after the rain stopped",
+            "role": "verb"
+          },
+          {
+            "chunk": "후에",
+            "gloss": "after",
+            "role": "place"
+          },
+          {
+            "chunk": "무지개를",
+            "gloss": "a rainbow",
+            "role": "object"
+          },
+          {
+            "chunk": "봤어요",
+            "gloss": "I saw",
+            "role": "verb"
+          }
+        ],
+        "korean": "비가 그친 후에 무지개를 봤어요",
+        "literal_gap": "The literal Korean structure implies a sequence of events, whereas the natural English sentence conveys a completed action.",
+        "natural_english": "I saw a rainbow after the rain stopped",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "은"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "c186ccb5cb510bf8bbd0191a0cf15945832a73325d30774a69639e3f7305d754",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-23",
+    "input": "I'm going to the market to buy souvenirs",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "시장에 가서 기념품을 살 거예요.",
+      "romanization": "sijange gaseo ginyeompumeul sal geoyeyo.",
+      "natural_english": "I'm going to the market to buy souvenirs.",
+      "gloss": [
+        {
+          "chunk": "시장에",
+          "gloss": "to the market",
+          "role": "place"
+        },
+        {
+          "chunk": "가서",
+          "gloss": "to go",
+          "role": "verb"
+        },
+        {
+          "chunk": "기념품을",
+          "gloss": "souvenirs",
+          "role": "object"
+        },
+        {
+          "chunk": "살 거예요.",
+          "gloss": "to buy",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        },
+        {
+          "particle": "을",
+          "job": "object"
+        }
+      ],
+      "literal_gap": "The literal structure implies a specific location and action, while the natural English conveys a general intention.",
+      "cultural_note": "This sentence structure is commonly used in polite requests or plans, emphasizing politeness and respect."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence structure is commonly used in polite requests or plans, emphasizing politeness and respect.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "시장에",
+            "gloss": "to the market",
+            "role": "place"
+          },
+          {
+            "chunk": "가서",
+            "gloss": "to go",
+            "role": "verb"
+          },
+          {
+            "chunk": "기념품을",
+            "gloss": "souvenirs",
+            "role": "object"
+          },
+          {
+            "chunk": "살 거예요.",
+            "gloss": "to buy",
+            "role": "verb"
+          }
+        ],
+        "korean": "시장에 가서 기념품을 살 거예요.",
+        "literal_gap": "The literal structure implies a specific location and action, while the natural English conveys a general intention.",
+        "natural_english": "I'm going to the market to buy souvenirs.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "a21e187deb471a891ab05b6b96ab4e7d9e3bb2ab3de6e3c7b5d30168fe5f92b0",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-24",
+    "input": "이해했어요?",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "이해했어요?",
+      "romanization": "ihaehaesseoyo?",
+      "natural_english": "Did you understand?",
+      "gloss": [
+        {
+          "chunk": "이해했어요",
+          "gloss": "understood",
+          "role": "subject"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal structure implies a direct question, but the natural English meaning is a polite inquiry about understanding.",
+      "cultural_note": "This is a polite way to ask if someone has understood something, often used in educational or instructional contexts."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This is a polite way to ask if someone has understood something, often used in educational or instructional contexts.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "이해했어요",
+            "gloss": "understood",
+            "role": "subject"
+          }
+        ],
+        "korean": "이해했어요?",
+        "literal_gap": "The literal structure implies a direct question, but the natural English meaning is a polite inquiry about understanding.",
+        "natural_english": "Did you understand?",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "은"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "9195496ead29d663d5b7821c602977e50d2307df1a54504cdf4801edaebaaf9f",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-25",
+    "input": "Don't worry",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "걱정하지 마세요.",
+      "romanization": "geokjeonghaji maseyo.",
+      "natural_english": "Don't worry.",
+      "gloss": [
+        {
+          "chunk": "걱정하지",
+          "gloss": "not to worry",
+          "role": "verb"
+        },
+        {
+          "chunk": "하세요",
+          "gloss": "to be polite",
+          "role": "subject"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal structure '걱정하지 마세요' implies a possessive relationship between '걱정' and '하지' which is not present in natural English. In natural English, 'don't worry' is a direct command without a possessive relationship.",
+      "cultural_note": "This phrase is commonly used in polite Korean to express reassurance or to calm someone down."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in polite Korean to express reassurance or to calm someone down.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "걱정하지",
+            "gloss": "not to worry",
+            "role": "verb"
+          },
+          {
+            "chunk": "하세요",
+            "gloss": "to be polite",
+            "role": "subject"
+          }
+        ],
+        "korean": "걱정하지 마세요.",
+        "literal_gap": "The literal structure '걱정하지 마세요' implies a possessive relationship between '걱정' and '하지' which is not present in natural English. In natural English, 'don't worry' is a direct command without a possessive relationship.",
+        "natural_english": "Don't worry.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "verb",
+            "particle": "세요"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "62b204e3a5aa9c97f546794fedd42b88f1dec63be9506481b8ed4432a110d01f",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-26",
+    "input": "두 시간 전에 공항에 도착하면 돼요",
+    "direction": "ko-to-en",
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "두 시간 전에 공항에 도착하면 돼요",
+      "romanization": "du sigan jeone gonghange dochakhamyeon dwaeyo",
+      "natural_english": "You should arrive at the airport two hours ago.",
+      "gloss": [
+        {
+          "chunk": "두",
+          "gloss": "two",
+          "role": "subject"
+        },
+        {
+          "chunk": "시간",
+          "gloss": "two hours",
+          "role": "subject"
+        },
+        {
+          "chunk": "전에",
+          "gloss": "before",
+          "role": "subject"
+        },
+        {
+          "chunk": "공항에",
+          "gloss": "arrive at the airport",
+          "role": "subject"
+        },
+        {
+          "chunk": "도착하면",
+          "gloss": "should arrive",
+          "role": "subject"
+        },
+        {
+          "chunk": "돼요",
+          "gloss": "should be",
+          "role": "subject"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        },
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        }
+      ],
+      "literal_gap": "The literal structure implies a specific time frame (two hours) before an action (arriving at the airport), whereas the natural English translation conveys a general advice or suggestion.",
+      "cultural_note": "This sentence is commonly used in polite requests or advice, emphasizing politeness and consideration for the listener's convenience."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is commonly used in polite requests or advice, emphasizing politeness and consideration for the listener's convenience.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "두",
+            "gloss": "two",
+            "role": "subject"
+          },
+          {
+            "chunk": "시간",
+            "gloss": "two hours",
+            "role": "subject"
+          },
+          {
+            "chunk": "전에",
+            "gloss": "before",
+            "role": "subject"
+          },
+          {
+            "chunk": "공항에",
+            "gloss": "arrive at the airport",
+            "role": "subject"
+          },
+          {
+            "chunk": "도착하면",
+            "gloss": "should arrive",
+            "role": "subject"
+          },
+          {
+            "chunk": "돼요",
+            "gloss": "should be",
+            "role": "subject"
+          }
+        ],
+        "korean": "두 시간 전에 공항에 도착하면 돼요",
+        "literal_gap": "The literal structure implies a specific time frame (two hours) before an action (arriving at the airport), whereas the natural English translation conveys a general advice or suggestion.",
+        "natural_english": "You should arrive at the airport two hours ago.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "은"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "4d2a362ca0b9fbc9642c3a0e4044349391f648fbc7af038b99d8bbd8f8c9c886",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-27",
+    "input": "Don't forget your passport!",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "여권 잊지 마세요!",
+      "romanization": "yeogwon itji maseyo!",
+      "natural_english": "Don't forget your passport!",
+      "gloss": [
+        {
+          "chunk": "여권",
+          "gloss": "passport",
+          "role": "subject"
+        },
+        {
+          "chunk": "잊지",
+          "gloss": "forget",
+          "role": "verb"
+        },
+        {
+          "chunk": "하세요",
+          "gloss": "to be polite",
+          "role": "other"
+        },
+        {
+          "chunk": "하세요",
+          "gloss": "to be polite",
+          "role": "other"
+        },
+        {
+          "chunk": "잊지",
+          "gloss": "not to forget",
+          "role": "other"
+        },
+        {
+          "chunk": "하세요",
+          "gloss": "to be polite",
+          "role": "other"
+        },
+        {
+          "chunk": "하세요",
+          "gloss": "to be polite",
+          "role": "other"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "The literal Korean construction '잊지 마세요' implies a polite request to not forget, whereas the natural English 'Don't forget your passport' is a direct command. The literal construction leaves the possessor of the passport implied, whereas the natural English directly states the recipient.",
+      "cultural_note": "This phrase is commonly used in polite Korean to emphasize the importance of not forgetting something, especially in situations where the passport is a necessary item for travel or official purposes."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in polite Korean to emphasize the importance of not forgetting something, especially in situations where the passport is a necessary item for travel or official purposes.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "여권",
+            "gloss": "passport",
+            "role": "subject"
+          },
+          {
+            "chunk": "잊지",
+            "gloss": "forget",
+            "role": "verb"
+          },
+          {
+            "chunk": "하세요",
+            "gloss": "to be polite",
+            "role": "other"
+          },
+          {
+            "chunk": "하세요",
+            "gloss": "to be polite",
+            "role": "other"
+          },
+          {
+            "chunk": "잊지",
+            "gloss": "not to forget",
+            "role": "other"
+          },
+          {
+            "chunk": "하세요",
+            "gloss": "to be polite",
+            "role": "other"
+          },
+          {
+            "chunk": "하세요",
+            "gloss": "to be polite",
+            "role": "other"
+          }
+        ],
+        "korean": "여권 잊지 마세요!",
+        "literal_gap": "The literal Korean construction '잊지 마세요' implies a polite request to not forget, whereas the natural English 'Don't forget your passport' is a direct command. The literal construction leaves the possessor of the passport implied, whereas the natural English directly states the recipient.",
+        "natural_english": "Don't forget your passport!",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "f6067e8b0a7328a4889fbd003afd88523de4dd37649c8cdc5d4361a237652eaa",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-28",
+    "input": "비행기표가 기차표보다 더 비싸요",
+    "direction": "ko-to-en",
+    "assembled": null,
+    "schemaComplete": false,
+    "directionCorrect": false,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This sentence is a common expression used to compare prices, often in a casual conversation.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "비행기표",
+            "gloss": "plane ticket",
+            "role": "subject"
+          },
+          {
+            "chunk": "기차표",
+            "gloss": "train ticket",
+            "role": "object"
+          },
+          {
+            "chunk": "더",
+            "gloss": "more",
+            "role": "verb"
+          },
+          {
+            "chunk": "비싸요",
+            "gloss": "expensive",
+            "role": "adjective"
+          }
+        ],
+        "korean": "비행기표가 기차표보다 더 비싸요",
+        "literal_gap": "The literal structure implies that the comparison is between the two tickets directly, whereas the natural English meaning implies a comparison of prices without specifying which ticket is which.",
+        "natural_english": "The plane ticket is more expensive than the train ticket.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "subject",
+            "particle": "가"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "56a9196c662401eebff2925ba738e13aab045d278e0329f34822ed2a0c7e404c",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-29",
+    "input": "Don't believe that kind of story",
+    "direction": "en-to-ko",
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "그런 이야기는 믿지 마세요.",
+      "romanization": "geureon iyagineun mitji maseyo.",
+      "natural_english": "Don't believe that kind of story.",
+      "gloss": [
+        {
+          "chunk": "그런",
+          "gloss": "such, kind",
+          "role": "subject"
+        },
+        {
+          "chunk": "이야기는",
+          "gloss": "story, kind",
+          "role": "object"
+        },
+        {
+          "chunk": "믿지",
+          "gloss": "believe, not",
+          "role": "verb"
+        },
+        {
+          "chunk": "하세요",
+          "gloss": "polite form of 'to do'",
+          "role": "other"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "topic"
+        }
+      ],
+      "literal_gap": "The literal structure implies a possessive relationship between'story' and 'kind', which is not the intended meaning in natural English.",
+      "cultural_note": "This phrase is commonly used in polite conversation to express skepticism or disbelief in a formal manner."
+    },
+    "schemaComplete": true,
+    "directionCorrect": true,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in polite conversation to express skepticism or disbelief in a formal manner.",
+        "direction": "en-to-ko",
+        "gloss": [
+          {
+            "chunk": "그런",
+            "gloss": "such, kind",
+            "role": "subject"
+          },
+          {
+            "chunk": "이야기는",
+            "gloss": "story, kind",
+            "role": "object"
+          },
+          {
+            "chunk": "믿지",
+            "gloss": "believe, not",
+            "role": "verb"
+          },
+          {
+            "chunk": "하세요",
+            "gloss": "polite form of 'to do'",
+            "role": "other"
+          }
+        ],
+        "korean": "그런 이야기는 믿지 마세요.",
+        "literal_gap": "The literal structure implies a possessive relationship between'story' and 'kind', which is not the intended meaning in natural English.",
+        "natural_english": "Don't believe that kind of story.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          },
+          {
+            "job": "object",
+            "particle": "를"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "dfed32e6edbdd5886db5281c0079425135b101076a6c30c5b6b2044308db3ca8",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  },
+  {
+    "id": "DAN-V3-DEV-30",
+    "input": "사실은 조금 달라요",
+    "direction": "ko-to-en",
+    "assembled": null,
+    "schemaComplete": false,
+    "directionCorrect": false,
+    "rawDirectionCorrect": true,
+    "thinkingLeak": false,
+    "nativeOutcome": {
+      "ok": true,
+      "result": {
+        "cultural_note": "This phrase is commonly used in polite conversation to indicate a subtle difference or variation, often in a neutral or observational context.",
+        "direction": "ko-to-en",
+        "gloss": [
+          {
+            "chunk": "사실은",
+            "gloss": "Actually, it's",
+            "role": "subject"
+          },
+          {
+            "chunk": "조금",
+            "gloss": "a bit",
+            "role": "adverb"
+          },
+          {
+            "chunk": "달라요",
+            "gloss": "is different",
+            "role": "verb"
+          }
+        ],
+        "korean": "사실은 조금 달라요",
+        "literal_gap": "The literal structure '사실은 조금 달라요' implies a comparison or contrast, whereas the natural English 'Actually, it's a bit different' suggests a neutral observation.",
+        "natural_english": "Actually, it's a bit different.",
+        "particles": [
+          {
+            "job": "topic",
+            "particle": "은"
+          },
+          {
+            "job": "subject",
+            "particle": "는"
+          },
+          {
+            "job": "object",
+            "particle": "을"
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "head": "2677b7ce84f02232e45dca5cd0675624970fa630",
+      "itemSetPath": "reference/eval/v3-dev-set.json",
+      "itemSetSha256": "41c3b4c83ead4b9edc181e798f73ace160b63f29455c41af9e3ac719c3e1aab5",
+      "modelBytes": 1426272480,
+      "modelSha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+      "promptSha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+      "renderedPromptSha256": "be7def2c8c7ad11be52e5f6d884a405545df90eec219c593df5d231529285a28",
+      "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550"
+    }
+  }
+]

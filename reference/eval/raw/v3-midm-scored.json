@@ -1,0 +1,601 @@
+{
+  "method": "First manual review under the unchanged v0 rubric; no dimension credited without a schema-valid final app reply. Raw directions reported separately. Not an independent gate verdict.",
+  "counts": {
+    "schemaComplete": 26,
+    "directionCorrect": 26,
+    "rawDirectionCorrect": 30,
+    "thinkingLeak": 0,
+    "meaningReversal": 1,
+    "inventedRule": 13,
+    "fullyCorrect": 0,
+    "dimensions": {
+      "meaning": 22,
+      "gloss": 0,
+      "particles": 21,
+      "register": 19,
+      "romanization": 26,
+      "literalGap": 0
+    }
+  },
+  "runtime": {
+    "downloadBytes": 1426272480,
+    "coldReadyMs": 995,
+    "coldFirstTokenMs": 5315,
+    "coldCompletionMs": 12346,
+    "warmP95Ms": 18808,
+    "warmSamples": 30,
+    "sampledPeakRssKiB": 2258232
+  },
+  "items": [
+    {
+      "id": "DAN-V3-DEV-01",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": false,
+        "gloss": false,
+        "particles": true,
+        "register": false,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "가득 차 있습니다 describes being filled, not the corpus meal/satiety reading. 합니다 register; gloss loses filled and topic structure. Claimed common stomach/mind usage and gap contrast are unsupported.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-02",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "The request is preserved, but its only gloss chunk is incorrectly subject and hides help-give. Gap calls me the subject instead of the beneficiary/object and omits the give construction.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-03",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": false,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Advice/route meaning and polite request survive. 여기서부터 is place/source, not subject or from here to. Final particles omit 서 in 여기서부터. Gap falsely says the English omits the starting point although it says from here.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-04",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Existence becomes natural having correctly, but 것이 is labelled object and 있어요 loses exists. Gap falsely calls the declarative Korean a direct question instead of explaining curious-thing exists.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-05",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": false,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Drops liking and the entire I just do answer; asks why do that instead. 왜 is not subject and 그렇게 is not a verb. Gap invents an unsupported direct/casual contrast instead of explaining the actual source ellipsis.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-06",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": false,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Permission meaning and politeness survive. Gloss misses eat-even-if/becomes construction and treats this as subject. Final adapter wrongly extracts verbal 도 as a noun additive particle. Gap substitutes a vague politeness contrast for the permission construction.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-07",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": false,
+        "register": false,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Intention/time survive, but 먹겠습니다 is formal, payday-until is not subject and 그냥 not verb. Final particles omit 까지 and 이나. Gap falsely contrasts Korean's specific time frame with English, which also explicitly says until payday.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-08",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Meaning and particles survive. 나요 is glossed I instead of arises, and conditional flowing-out is lost. Gap offers an unsupported causality/association contrast instead of thoughts arising and understood possessor.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-09",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": false,
+        "register": false,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Building activity survives, but 있습니다 is formal, 요즘 is not subject and 시내 not object. Final particles omit location 에 in 곳곳에는. Gap asserts an unsupported simultaneous/trend contrast rather than a real literal difference.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-10",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": false,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Height comparison survives. Gloss drops come-out and topic structure. Final particles invent directional 로 from adverb 별로 and omit connective 하고. Gap misses difference not coming out and repeats equivalent comparisons.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-11",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": false,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Adds an action and actor to bare Why?. 왜 is wrongly subject. Gap gives unsupported more-direct wording instead of a real structure/meaning difference.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-12",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": false,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Birthday wish survives, but casual 축하해 remains without conversion or register explanation. Birthday is incorrectly subject of congratulate. Gap falsely calls the wish a direct request.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-13",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Prohibition preserved, but gloss invents 하세요, omits 마세요 and attaches negation to the wrong chunk. Gap describes politeness/directness without a real literal construction difference and calls the understood actor a possessor.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-14",
+      "schemaComplete": false,
+      "directionCorrect": false,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": false,
+        "gloss": false,
+        "particles": false,
+        "register": false,
+        "romanization": false,
+        "literalGap": false
+      },
+      "evidence": "No schema-valid final reply: role adverb is outside the closed set. No dimension credited without a usable final result; raw direction is correct. Raw gloss also labels parents-to subject and gap claims English often lacks regularity.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-15",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Polite pulling request is correct. Gloss incorrectly labels door-object as subject and renders give only as please. Gap restates equivalent requests instead of explaining the give/request construction.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-16",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": false,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Construction/apology meaning survives. Gloss duplicates chunks, invents standalone 습니다 and loses 죄송; formal line remains without register explanation. Gap falsely says the apology is not translated although English explicitly says I am sorry.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-17",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": false,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Cafe meaning survives. Formal 입니다; often is not subject and the predicate cafe is not object. Gap falsely says English go to often does not specify frequency, and misses the omitted Korean actor.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-18",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Favorite-song meaning survives. 제일 is not subject and song-is is not object; copula/relative structure missing. Gap invents a specific/general contrast between equivalent statements.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-19",
+      "schemaComplete": false,
+      "directionCorrect": false,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": false,
+        "gloss": false,
+        "particles": false,
+        "register": false,
+        "romanization": false,
+        "literalGap": false
+      },
+      "evidence": "No schema-valid final reply; no dimension credited without a usable app result. Raw direction remains correct.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-20",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Same-thought meaning survives. 우리는 is topic-marked we, not We are; the gloss introduces a nonexistent copula. Gap contrasts thought with opinion without explaining topic/subject structure versus English have.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-21",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": false,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Movie question survives, but 어땠습니까 is formal. 어제 is not subject, 영화는 not object. Gap falsely says the actual English uses the day before without a time marker; it says yesterday.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-22",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Event sequence survives. Gloss repeats after the rain stopped in 그친 and after in 후에, labels temporal 후에 place, and loses clean chunk alignment. Gap falsely contrasts sequence with completion rather than explaining the omitted Korean actor.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-23",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Market/souvenir plan survives. Gloss drops the connective 가서 and future 살 거예요, presenting both as infinitives. Gap substitutes a specific/general contrast instead of the understood actor and actual construction.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-24",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Understanding question survives. Its sole predicate chunk is labelled subject. Gap offers a direct/polite contrast and does not explain the omitted Korean you.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-25",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Reassurance/prohibition survives. Gloss invents 하세요, omits 마세요 and misplaces negation. Gap confidently invents a possessive relationship between 걱정 and 하지.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-26",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": false,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Airport advice for two hours beforehand becomes two hours ago, a time reversal. Gloss labels every chunk subject, duplicates two, and loses arrive-if-okay. Gap does not resolve its incorrect time reading.",
+      "meaningReversal": true,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-27",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Passport prohibition survives. Gloss repeats invented 하세요 and omits 마세요, with passport wrongly subject. Gap notices the omitted possessor but then calls English your the recipient rather than possessor, so the explanation is not fully accurate.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-28",
+      "schemaComplete": false,
+      "directionCorrect": false,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": false,
+        "gloss": false,
+        "particles": false,
+        "register": false,
+        "romanization": false,
+        "literalGap": false
+      },
+      "evidence": "No schema-valid final reply; no dimension credited without a usable app result. Raw direction is correct.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-29",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": true,
+        "gloss": false,
+        "particles": true,
+        "register": true,
+        "romanization": true,
+        "literalGap": false
+      },
+      "evidence": "Polite prohibition survives. Gloss invents 하세요, omits 마세요, and mislabels determiner 그런 as subject. Gap invents a possessive relationship between story and kind.",
+      "meaningReversal": false,
+      "inventedRule": true,
+      "fullyCorrect": false
+    },
+    {
+      "id": "DAN-V3-DEV-30",
+      "schemaComplete": false,
+      "directionCorrect": false,
+      "rawDirectionCorrect": true,
+      "thinkingLeak": false,
+      "dimensions": {
+        "meaning": false,
+        "gloss": false,
+        "particles": false,
+        "register": false,
+        "romanization": false,
+        "literalGap": false
+      },
+      "evidence": "No schema-valid final reply; no dimension credited without a usable app result. Raw direction is correct.",
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false
+    }
+  ]
+}

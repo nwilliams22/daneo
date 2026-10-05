@@ -1,0 +1,10 @@
+{
+  "repoId": "K-intelligence/Midm-2.0-Mini-Instruct",
+  "revision": "383eb221c52a32278f1985257b264ade8d982e60",
+  "filename": "midm-Q4_K_M.gguf",
+  "bytes": 1426272480,
+  "sha256": "8d7e709b681d5b84a847cfd9ce54072b1f6363bc01b74c8f6b3d3cb001aea435",
+  "localOnly": true,
+  "quantization": "Q4_K_M",
+  "converterCommit": "26394b4e6749a41c3633db040e0987500a5f7013"
+}
