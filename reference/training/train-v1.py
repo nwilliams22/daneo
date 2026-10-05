@@ -92,10 +92,10 @@ for step,(epoch,i) in enumerate(order, 1):
 changed = sum(not torch.equal(before[n],p.detach().cpu()) for n,p in params)
 assert changed
 report = dict(quantization_config=quantization_config, versions={name: importlib.metadata.version(name) for name in ['unsloth', 'unsloth_zoo', 'transformers', 'peft', 'torch', 'bitsandbytes']}, config=cfg, probe=args.probe, steps=len(order), losses=losses, changed_adapter_tensors=changed, trainable_parameters=sum(p.numel() for _,p in params), train_seconds=time.monotonic()-train_start, peak_allocated_bytes=torch.cuda.max_memory_allocated(), peak_reserved_bytes=torch.cuda.max_memory_reserved(), prompt_sha256=sha(ROOT/'src/lib/translation-prompt.json'), source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip())
-(WORK/'training-result.json').write_text(json.dumps(report, indent=2)+'\n')
+(WORK/'training-result.json').write_text(json.dumps(report, indent=2, default=str)+'\n')
 model.save_pretrained(str(WORK/'adapter'))
 tokenizer.save_pretrained(str(WORK/'adapter'))
 model.save_pretrained_merged(str(WORK/'merged'), tokenizer, save_method='merged_16bit')
 report.update(total_seconds_through_merge=time.monotonic()-start, merge_complete=True)
-(WORK/'training-result.json').write_text(json.dumps(report, indent=2)+'\n')
-print(json.dumps({k:v for k,v in report.items() if k != 'losses'}), flush=True)
+(WORK/'training-result.json').write_text(json.dumps(report, indent=2, default=str)+'\n')
+print(json.dumps({k:v for k,v in report.items() if k != 'losses'}, default=str), flush=True)
