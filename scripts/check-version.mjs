@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs'
 
+// package.json is the version of record; mirrored native manifests must agree.
 const packageVersion = JSON.parse(readFileSync('package.json', 'utf8')).version
 const tauriVersion = JSON.parse(readFileSync('src-tauri/tauri.conf.json', 'utf8')).version
 const cargoVersion = readFileSync('src-tauri/Cargo.toml', 'utf8').match(/^version\s*=\s*"([^"]+)"/m)?.[1]
