@@ -7,7 +7,7 @@ const NAV = [
   { to: "/review", label: "Review" },
   { to: "/dashboard", label: "Stats" },
   { to: "/explore", label: "Explore" },
-  { to: "/tutor", label: "Ask Daneo" },
+  ...(import.meta.env.DEV ? [{ to: "/tutor", label: "Ask Daneo" }] : []),
   { to: "/settings", label: "Settings" },
 ];
 

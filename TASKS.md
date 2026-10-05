@@ -12,7 +12,7 @@
 > 2026-09-30 (`npm run coverage:nikl`): grade A 100.0% · grade B 100.0% · grade C 100.0%
 > (2,655/2,655; 0 missing) · overall 100.0% of 5,543 — 164 module files on `main`.**
 
-> **App status (2026-10-04):** Phase D implementation is present, but the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. See `reference/desktop-closeout.md` for the measured build failure and closure checks.
+> **App status (2026-10-05):** The first release excludes the AI translator, Ask Daneo and model controls at build time (`import.meta.env.DEV`), while Explore keeps saved discoveries and explains the absence. Phase B no longer waits for Phase D. Phase D remains available in development; the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. See `reference/desktop-closeout.md` for its remaining closure checks.
 
 > **Training v2 (2026-10-05):** 290 schema-valid candidates prepared (250 training / 40 development); all 96 reservations and v1 training excluded. Every target awaits row review. Final dataset, manifest and development freeze remain open; no training is authorized from the candidate file. See `reference/training/dataset-v2-review.md`.
 
@@ -834,3 +834,9 @@ against all 96 reserved anchors, internal candidate keys and v1 training;
 content was displayed, no inference or training ran, and no UI changes belong
 to this slice. Next: complete every-row linguistic review, integrate corrections,
 then publish the final dataset and hashed development freeze.
+
+### 2026-10-05 — First-release AI gate
+
+Production uses Vite's `import.meta.env.DEV` gate in `src/App.tsx`, `src/components/AppShell.tsx`, `src/features/explore/ExplorePage.tsx` and `src/features/settings/SettingsPage.tsx`. Conditional imports omit the translator, tutor and model panel entirely; no user setting or populated model pin can enable them. Explore retains its saved discoveries deck and says “The AI translator and tutor are not in this release.” Existing translator code moved intact into `TranslatorPage.tsx`; saved-card browsing moved into `SavedDeck.tsx`. Local and Cloud development paths remain. No curriculum, drill, SRS, gap, stats or backup behavior changed.
+
+Verification: `npm test -- tests/release-features.test.tsx` **3/3**, including rendered release routes and an actual production bundle check that excludes AI modules/transports and retains all non-AI feature modules; `npm test -- tests/translator.parity.test.tsx tests/translator.local.test.ts tests/tutor.test.tsx tests/model-download.test.ts` **52/52**; `npm run build` **pass**, including content validation **15/15** and TypeScript. `npm run visual:pass -- m1` **1/1 rendered**, 37/37 words, 7,870 characters, 497 Hangul, all expected sentences present and no console errors. Inspected the captured full-page module layout: vocabulary, grammar and sentence cards render. This visual check used the development server; the production configuration is covered by the release regression test. Packaged desktop verification belongs to the release packaging step; no installer or native UI claim is made here. Next: package the AI-off desktop release while model qualification continues separately.
