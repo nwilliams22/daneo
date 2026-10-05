@@ -1,0 +1,90 @@
+{
+  "status": "preflight-only; no inference or quality score",
+  "head": "bcd70d8dd1e46a9b6f94c9d7bc092a0b29b8fac1",
+  "worker": "src-tauri/src/local_translation/native.rs",
+  "converterCommit": "26394b4e6749a41c3633db040e0987500a5f7013",
+  "candidates": [
+    {
+      "repoId": "K-intelligence/Midm-2.0-Mini-Instruct",
+      "revision": "383eb221c52a32278f1985257b264ade8d982e60",
+      "publisherFiles": [
+        {
+          "filename": "config.json",
+          "bytes": 746,
+          "sha256": "ca16d5679da00bf534664a27c77f90e3968b15d824574164238ca6e0fd43882c"
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "bytes": 21692,
+          "sha256": "0cf85520adf785f708cd682d20a0525f5b5eb82c50bc1e6df7f8f14499bc2139"
+        },
+        {
+          "filename": "tokenizer.json",
+          "bytes": 10398090,
+          "sha256": "56af6093020d6923882ebc787e4c22b74ac26bce41cbdc0e7952dd70a91baad7"
+        },
+        {
+          "filename": "special_tokens_map.json",
+          "bytes": 301,
+          "sha256": "cc2e013b7545f183ef03e079a3c91c6f364fa37e4068c512d7dd843e59024535"
+        },
+        {
+          "filename": "generation_config.json",
+          "bytes": 185,
+          "sha256": "6d2601ae5af95e5d9d194e99c312843c731d84d51d4e5790a23f119c3f7a5537"
+        }
+      ],
+      "publisherTemplateSha256": "af6fe088a0d58f0b6ba00143fa9e6f639a4456d88fa978fe8a58a5d1bba70138",
+      "vocabularyOnlyArtifact": {
+        "filename": "midm-vocab.gguf",
+        "bytes": 5644860,
+        "sha256": "7f17b3b440d481b594589b582ece119e5f35a34069714f15b032a11f51be91d0",
+        "tensors": 0,
+        "shippable": false
+      },
+      "conversion": "success; not a full weight conversion",
+      "qualityScore": null
+    },
+    {
+      "repoId": "skt/A.X-4.0-Light",
+      "revision": "ba21c20ea1b31ded1ec3e2fb432335077dc4be98",
+      "publisherFiles": [
+        {
+          "filename": "config.json",
+          "bytes": 674,
+          "sha256": "cde7cdcfe774ac9faa05d4316d32ef5c7945a000d2d571b0ba457a3c973b1502"
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "bytes": 12523,
+          "sha256": "f59e95cdcf892365badff2dbadac306b97a280bea24e39f4a06be97e3e308104"
+        },
+        {
+          "filename": "tokenizer.json",
+          "bytes": 8495125,
+          "sha256": "e3973eceeed921e72d54fbbf597e1bea0a219112a0809ad8eaf62a1754f8ea44"
+        },
+        {
+          "filename": "special_tokens_map.json",
+          "bytes": 1754,
+          "sha256": "312ce7c2be09ff7794368a33c1ee54ed7ed100ac84225653bb4a366c93e71039"
+        },
+        {
+          "filename": "generation_config.json",
+          "bytes": 130,
+          "sha256": "3e5faa339c15eafe4018dfb768a9941f2f7457373cb2cf3de12bfb88660e670c"
+        }
+      ],
+      "publisherTemplateSha256": "15f2d4a602c42c90a1f03e13fe353510d745422a5c61b9abdefe47d5b77b5113",
+      "vocabularyOnlyArtifact": {
+        "filename": "ax-vocab.gguf",
+        "bytes": 4821639,
+        "sha256": "4d95452cc727c60f53d3f6168406b16780ca29bb481a4501c7b2572dac76fd73",
+        "tensors": 0,
+        "shippable": false
+      },
+      "conversion": "success; not a full weight conversion",
+      "qualityScore": null
+    }
+  ]
+}
