@@ -1,0 +1,201 @@
+{
+  "candidateBaseSha256": "85b923d289b170a1f1ed5445adf816b88a62986502f2f5a1142bfd1c386a2ec6",
+  "reviewReport": "dataset-v2-review-report.md",
+  "targetPatches": {
+    "DAN-V2-CANDIDATE-004": {
+      "korean": "지금 세 시 십 분이에요",
+      "gloss": [
+        {
+          "chunk": "지금",
+          "gloss": "now",
+          "role": "other"
+        },
+        {
+          "chunk": "세 시 십 분이에요",
+          "gloss": "three-hour ten-minute-is",
+          "role": "verb"
+        }
+      ]
+    },
+    "DAN-V2-CANDIDATE-005": {
+      "korean": "몇 살이에요?",
+      "gloss": [
+        {
+          "chunk": "몇 살이에요?",
+          "gloss": "how-many years-old-is?",
+          "role": "verb"
+        }
+      ]
+    },
+    "DAN-V2-CANDIDATE-010": {
+      "literal_gap": "Literally, “plans exist on Saturday”; in use, “I have plans on Saturday.” The person with the plans is understood from context, not stated in Korean."
+    },
+    "DAN-V2-CANDIDATE-029": {
+      "literal_gap": "The default reading here is “will be busy next week.” Depending on subject and context, -(으)ㄹ 거예요 can also express a prediction or probability, such as “probably busy.”"
+    },
+    "DAN-V2-CANDIDATE-032": {
+      "korean": "얼마예요?",
+      "gloss": [
+        {
+          "chunk": "얼마예요?",
+          "gloss": "how-much-is?",
+          "role": "verb"
+        }
+      ]
+    },
+    "DAN-V2-CANDIDATE-033": {
+      "korean": "오천 원이에요",
+      "gloss": [
+        {
+          "chunk": "오천 원이에요",
+          "gloss": "five-thousand won-is",
+          "role": "verb"
+        }
+      ]
+    },
+    "DAN-V2-CANDIDATE-044": {
+      "literal_gap": "Literally, “rain comes now”; in use, “it is raining right now.” Korean uses rain as the subject rather than a dummy “it.”"
+    },
+    "DAN-V2-CANDIDATE-062": {
+      "literal_gap": "Literally, “because snow comes, please be careful”; in use, “it is snowing, so be careful.” Snow is the subject of 오다 (come)."
+    },
+    "DAN-V2-CANDIDATE-079": {
+      "cultural_note": "The warm floor can refer to ondol floor heating. The sentence itself is literal, not an idiom."
+    },
+    "DAN-V2-CANDIDATE-086": {
+      "natural_english": "I'm stressed, so I have no energy.",
+      "literal_gap": "Literally, “because I receive stress, energy does not exist”; in use, “I am stressed, so I have no energy.”",
+      "gloss": [
+        {
+          "chunk": "스트레스를 받아서",
+          "gloss": "stress-[obj] receive-because",
+          "role": "other"
+        },
+        {
+          "chunk": "힘이",
+          "gloss": "energy-[subj]",
+          "role": "subject"
+        },
+        {
+          "chunk": "없어요",
+          "gloss": "not-exists",
+          "role": "verb"
+        }
+      ]
+    },
+    "DAN-V2-CANDIDATE-095": {
+      "korean": "몇 학년이에요?",
+      "gloss": [
+        {
+          "chunk": "몇 학년이에요?",
+          "gloss": "what school-year-is?",
+          "role": "verb"
+        }
+      ]
+    },
+    "DAN-V2-CANDIDATE-100": {
+      "literal_gap": "Literally, “I saw the test well”; in use, “I did well on the test.” 시험을 보다 means to take an exam, not look at one."
+    },
+    "DAN-V2-CANDIDATE-101": {
+      "natural_english": "I'll start exercising tomorrow."
+    },
+    "DAN-V2-CANDIDATE-137": {
+      "natural_english": "This is a good restaurant.",
+      "literal_gap": "맛집 is literally “taste-house”; in use, it means a restaurant known for good food, not necessarily “the famous one.”"
+    },
+    "DAN-V2-CANDIDATE-139": {
+      "cultural_note": "This sentence says eating alone is fine too. The cultural term 혼밥 describes solo dining; it does not change the sentence meaning."
+    },
+    "DAN-V2-CANDIDATE-154": {
+      "cultural_note": "Casual 반말: 요 and object particles are omitted. The speaker and relationship must make this register appropriate."
+    },
+    "DAN-V2-CANDIDATE-155": {
+      "literal_gap": "올렸어요 literally says “raised”; here it means “posted/uploaded.” The speaker took a selfie and then put it on social media."
+    },
+    "DAN-V2-CANDIDATE-160": {
+      "natural_english": "You shouldn't press this.",
+      "literal_gap": "Literally, “if you press this, it is not okay”; in use, this expresses that pressing it is not allowed."
+    },
+    "DAN-V2-CANDIDATE-188": {
+      "gloss": [
+        {
+          "chunk": "정",
+          "gloss": "attachment / affection",
+          "role": "other"
+        }
+      ],
+      "literal_gap": "정 names attachment or affection accumulated through shared time. It is a single concept, not a phrase with a separate word-for-word reading; “attachment” approximates it without covering every use."
+    },
+    "DAN-V2-CANDIDATE-204": {
+      "natural_english": "Please go.",
+      "literal_gap": "Addressed to a listener, 가세요 can mean “please go.” With an honored subject, as in 선생님이 가세요, it means “the teacher is going.” The ending alone does not determine which reading is intended.",
+      "cultural_note": "This translation selects the listener-directed request reading; context can instead select an honorific statement."
+    },
+    "DAN-V2-CANDIDATE-208": {
+      "natural_english": "That's not allowed.",
+      "literal_gap": "되다 can mean become, work or be acceptable. 안 돼요 can therefore mean “not allowed” in a rule or refusal, “it does not work” in another context, or “no way!” as an exclamation. This translation selects the prohibition reading."
+    },
+    "DAN-V2-CANDIDATE-213": {
+      "natural_english": "Driver.",
+      "gloss": [
+        {
+          "chunk": "기사님",
+          "gloss": "driver-[honorific title]",
+          "role": "other"
+        }
+      ],
+      "literal_gap": "In a transport context, 기사 is a driver and 님 is an honorific title. 기사님 respectfully addresses or refers to the driver; it does not mean “engineer-sir” in this use."
+    },
+    "DAN-V2-CANDIDATE-229": {
+      "gloss": [
+        {
+          "chunk": "썸",
+          "gloss": "not-yet-defined romantic interest",
+          "role": "other"
+        },
+        {
+          "chunk": "타다",
+          "gloss": "be in / experience (this state)",
+          "role": "verb"
+        }
+      ],
+      "literal_gap": "타다 has a concrete “ride” sense, but 썸 타다 means being in a not-yet-defined romantic or flirting stage. Here 타다 expresses experiencing that state, not riding an object called “a something.”"
+    },
+    "DAN-V2-CANDIDATE-242": {
+      "natural_english": "That's wrong!",
+      "literal_gap": "틀리다 means to be wrong. It should not be treated as equivalent to 다르다, “to be different”; a nonstandard use requires its own context."
+    },
+    "DAN-V2-CANDIDATE-267": {
+      "natural_english": "Horses to Jeju; people to Seoul.",
+      "literal_gap": "Literally, “horses to Jeju, people to Seoul.” This proverb recommends sending each to a place suited to its prospects: Jeju for horses and Seoul for people seeking opportunity."
+    },
+    "DAN-V2-CANDIDATE-286": {
+      "natural_english": "Help!",
+      "literal_gap": "Literally, “save the person!” In danger, this is a cry for help. It can also be exaggerated jokingly in an overwhelming situation."
+    },
+    "DAN-V2-CANDIDATE-287": {
+      "gloss": [
+        {
+          "chunk": "손이",
+          "gloss": "hand-[subj]",
+          "role": "subject"
+        },
+        {
+          "chunk": "많이",
+          "gloss": "a lot / repeatedly",
+          "role": "other"
+        },
+        {
+          "chunk": "가다",
+          "gloss": "go",
+          "role": "verb"
+        }
+      ],
+      "literal_gap": "Literally, “the hand goes a lot”; in use, something takes a lot of care or work. 많이 describes how much the hand goes to the task, not a number of hands."
+    },
+    "DAN-V2-CANDIDATE-290": {
+      "natural_english": "Running late (the dated or joking expression “Korean time”).",
+      "literal_gap": "Literally, “Korean time”; in dated or joking usage, this refers to lateness. It is not a claim that Koreans are generally late or a literal time-zone name."
+    }
+  }
+}

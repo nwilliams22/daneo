@@ -161,6 +161,17 @@ if (v2) {
     item.sourceNote = item.corpusSentenceId.startsWith('gap:')
       ? gapById.get(item.corpusSentenceId.slice(4)).note : byId.get(item.corpusSentenceId).note;
   }
+  const corrections = JSON.parse(readFileSync(new URL('./dataset-v2-corrections.json', import.meta.url)));
+  for (const [id, patch] of Object.entries(corrections.targetPatches)) {
+    const item = items.find(row => row.id === id);
+    assert.ok(item, `unknown correction ${id}`);
+    item.sourceEnglish = item.english;
+    item.sourceKorean = item.korean;
+    item.target = modelSchema.parse({ ...item.target, ...patch });
+    item.english = item.target.natural_english;
+    item.korean = item.target.korean;
+    item.input = item.target.direction === 'ko-to-en' ? item.korean : item.english;
+  }
   const bytes = Buffer.from(`${JSON.stringify({ version: 'training-2-candidates', corpusCommit,
     trainingAllowed: false, items }, null, 2)}\n`);
   writeFileSync(new URL('./dataset-v2-candidates.json', import.meta.url), bytes);

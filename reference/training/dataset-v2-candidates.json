@@ -108,11 +108,11 @@
       "errorClass": "register",
       "corpusSentenceId": "s5_ten_past",
       "english": "Right now it's 3:10",
-      "korean": "지금 세 시 십 분 이에요",
-      "input": "지금 세 시 십 분 이에요",
+      "korean": "지금 세 시 십 분이에요",
+      "input": "지금 세 시 십 분이에요",
       "target": {
         "direction": "ko-to-en",
-        "korean": "지금 세 시 십 분 이에요",
+        "korean": "지금 세 시 십 분이에요",
         "natural_english": "Right now it's 3:10",
         "gloss": [
           {
@@ -121,13 +121,8 @@
             "role": "other"
           },
           {
-            "chunk": "세 시 십 분",
-            "gloss": "three(native)-hour ten(Sino)-minute",
-            "role": "other"
-          },
-          {
-            "chunk": "이에요",
-            "gloss": "is",
+            "chunk": "세 시 십 분이에요",
+            "gloss": "three-hour ten-minute-is",
             "role": "verb"
           }
         ],
@@ -136,28 +131,25 @@
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "The hybrid clock in one sentence: hours take native numbers (세 시), minutes take Sino (십 분). Every Korean clock-reading mixes both systems."
+      "sourceNote": "The hybrid clock in one sentence: hours take native numbers (세 시), minutes take Sino (십 분). Every Korean clock-reading mixes both systems.",
+      "sourceEnglish": "Right now it's 3:10",
+      "sourceKorean": "지금 세 시 십 분 이에요"
     },
     {
       "id": "DAN-V2-CANDIDATE-005",
       "errorClass": "register",
       "corpusSentenceId": "s5_how_old",
       "english": "How old are you?",
-      "korean": "몇 살 이에요?",
+      "korean": "몇 살이에요?",
       "input": "How old are you?",
       "target": {
         "direction": "en-to-ko",
-        "korean": "몇 살 이에요?",
+        "korean": "몇 살이에요?",
         "natural_english": "How old are you?",
         "gloss": [
           {
-            "chunk": "몇 살",
-            "gloss": "how-many-years",
-            "role": "other"
-          },
-          {
-            "chunk": "이에요?",
-            "gloss": "is-it?",
+            "chunk": "몇 살이에요?",
+            "gloss": "how-many years-old-is?",
             "role": "verb"
           }
         ],
@@ -166,7 +158,9 @@
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "A normal early question in Korea — age decides speech register (Module 4!), so it's practical, not rude. To an elder, upgrade the noun: 연세가 어떻게 되세요?"
+      "sourceNote": "A normal early question in Korea — age decides speech register (Module 4!), so it's practical, not rude. To an elder, upgrade the noun: 연세가 어떻게 되세요?",
+      "sourceEnglish": "How old are you?",
+      "sourceKorean": "몇 살 이에요?"
     },
     {
       "id": "DAN-V2-CANDIDATE-006",
@@ -321,12 +315,14 @@
             "role": "verb"
           }
         ],
-        "literal_gap": "",
+        "literal_gap": "Literally, “plans exist on Saturday”; in use, “I have plans on Saturday.” The person with the plans is understood from context, not stated in Korean.",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "The 있어요-have pattern from Module 1: plans exist (for me). 약속 있어요 is the standard 'I've got plans' — see the gap deck for why it's not a solemn vow."
+      "sourceNote": "The 있어요-have pattern from Module 1: plans exist (for me). 약속 있어요 is the standard 'I've got plans' — see the gap deck for why it's not a solemn vow.",
+      "sourceEnglish": "I have plans on Saturday",
+      "sourceKorean": "토요일에 약속이 있어요"
     },
     {
       "id": "DAN-V2-CANDIDATE-011",
@@ -996,12 +992,14 @@
             "role": "verb"
           }
         ],
-        "literal_gap": "",
+        "literal_gap": "The default reading here is “will be busy next week.” Depending on subject and context, -(으)ㄹ 거예요 can also express a prediction or probability, such as “probably busy.”",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "Adjectives take the future too — 바쁠 거예요. On adjectives and other people it shades toward 'probably': the gap deck covers the blur."
+      "sourceNote": "Adjectives take the future too — 바쁠 거예요. On adjectives and other people it shades toward 'probably': the gap deck covers the blur.",
+      "sourceEnglish": "I will be busy next week",
+      "sourceKorean": "다음 주에 바쁠 거예요"
     },
     {
       "id": "DAN-V2-CANDIDATE-030",
@@ -1068,21 +1066,16 @@
       "errorClass": "register",
       "corpusSentenceId": "s9_how_much",
       "english": "How much is it?",
-      "korean": "얼마 예요?",
-      "input": "얼마 예요?",
+      "korean": "얼마예요?",
+      "input": "얼마예요?",
       "target": {
         "direction": "ko-to-en",
-        "korean": "얼마 예요?",
+        "korean": "얼마예요?",
         "natural_english": "How much is it?",
         "gloss": [
           {
-            "chunk": "얼마",
-            "gloss": "how-much",
-            "role": "other"
-          },
-          {
-            "chunk": "예요?",
-            "gloss": "is?",
+            "chunk": "얼마예요?",
+            "gloss": "how-much-is?",
             "role": "verb"
           }
         ],
@@ -1091,28 +1084,25 @@
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "얼마 + the copula — a complete shopping toolkit in three syllables. Point at anything and deploy."
+      "sourceNote": "얼마 + the copula — a complete shopping toolkit in three syllables. Point at anything and deploy.",
+      "sourceEnglish": "How much is it?",
+      "sourceKorean": "얼마 예요?"
     },
     {
       "id": "DAN-V2-CANDIDATE-033",
       "errorClass": "register",
       "corpusSentenceId": "s9_five_thousand",
       "english": "It's 5,000 won",
-      "korean": "오천 원 이에요",
+      "korean": "오천 원이에요",
       "input": "It's 5,000 won",
       "target": {
         "direction": "en-to-ko",
-        "korean": "오천 원 이에요",
+        "korean": "오천 원이에요",
         "natural_english": "It's 5,000 won",
         "gloss": [
           {
-            "chunk": "오천 원",
-            "gloss": "five-thousand won",
-            "role": "other"
-          },
-          {
-            "chunk": "이에요",
-            "gloss": "is",
+            "chunk": "오천 원이에요",
+            "gloss": "five-thousand won-is",
             "role": "verb"
           }
         ],
@@ -1121,7 +1111,9 @@
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "Prices are SINO territory: 오천 원. Module 2's numbers grow their big siblings — 백, 천, 만 — and suddenly you can read every price tag."
+      "sourceNote": "Prices are SINO territory: 오천 원. Module 2's numbers grow their big siblings — 백, 천, 만 — and suddenly you can read every price tag.",
+      "sourceEnglish": "It's 5,000 won",
+      "sourceKorean": "오천 원 이에요"
     },
     {
       "id": "DAN-V2-CANDIDATE-034",
@@ -1466,12 +1458,14 @@
             "role": "verb"
           }
         ],
-        "literal_gap": "",
+        "literal_gap": "Literally, “rain comes now”; in use, “it is raining right now.” Korean uses rain as the subject rather than a dummy “it.”",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "Weather ARRIVES in Korean: rain comes, no dummy 'it' required. Module 1's 오다 gets its biggest job yet — the gap deck has the pattern."
+      "sourceNote": "Weather ARRIVES in Korean: rain comes, no dummy 'it' required. Module 1's 오다 gets its biggest job yet — the gap deck has the pattern.",
+      "sourceEnglish": "It's raining right now",
+      "sourceKorean": "지금 비가 와요"
     },
     {
       "id": "DAN-V2-CANDIDATE-045",
@@ -2046,12 +2040,14 @@
             "role": "verb"
           }
         ],
-        "literal_gap": "",
+        "literal_gap": "Literally, “because snow comes, please be careful”; in use, “it is snowing, so be careful.” Snow is the subject of 오다 (come).",
         "cultural_note": ""
       },
       "split": "development",
       "reviewStatus": "pending",
-      "sourceNote": "Module 11's weather-comes pattern driving Module 10's -(으)니까 into a request — same machinery as 비가 오니까 택시를 탑시다, deliberately NOT the same sentence. Fresh assembly every time; that's the course rule now."
+      "sourceNote": "Module 11's weather-comes pattern driving Module 10's -(으)니까 into a request — same machinery as 비가 오니까 택시를 탑시다, deliberately NOT the same sentence. Fresh assembly every time; that's the course rule now.",
+      "sourceEnglish": "It's snowing, so be careful",
+      "sourceKorean": "눈이 오니까 조심하세요"
     },
     {
       "id": "DAN-V2-CANDIDATE-063",
@@ -2612,11 +2608,13 @@
           }
         ],
         "literal_gap": "",
-        "cultural_note": ""
+        "cultural_note": "The warm floor can refer to ondol floor heating. The sentence itself is literal, not an idiom."
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "온돌 (gap deck): Korean heating lives under the floor, so winter's warmest seat is the ground. M11's season-에 sets the scene."
+      "sourceNote": "온돌 (gap deck): Korean heating lives under the floor, so winter's warmest seat is the ground. M11's season-에 sets the scene.",
+      "sourceEnglish": "In winter the floor is warm",
+      "sourceKorean": "겨울에 바닥이 따뜻해요"
     },
     {
       "id": "DAN-V2-CANDIDATE-080",
@@ -2822,17 +2820,17 @@
       "id": "DAN-V2-CANDIDATE-086",
       "errorClass": "gloss",
       "corpusSentenceId": "s14_stress_energy",
-      "english": "I've been getting stress, so I have no energy",
+      "english": "I'm stressed, so I have no energy.",
       "korean": "스트레스를 받아서 힘이 없어요",
       "input": "스트레스를 받아서 힘이 없어요",
       "target": {
         "direction": "ko-to-en",
         "korean": "스트레스를 받아서 힘이 없어요",
-        "natural_english": "I've been getting stress, so I have no energy",
+        "natural_english": "I'm stressed, so I have no energy.",
         "gloss": [
           {
             "chunk": "스트레스를 받아서",
-            "gloss": "stress-[obj] received-because",
+            "gloss": "stress-[obj] receive-because",
             "role": "other"
           },
           {
@@ -2846,12 +2844,14 @@
             "role": "verb"
           }
         ],
-        "literal_gap": "",
+        "literal_gap": "Literally, “because I receive stress, energy does not exist”; in use, “I am stressed, so I have no energy.”",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "Stress is 'received' in Korean — M9's 받다 promoted to psychology — and energy 'doesn't exist.' Two structural gaps in one diagnosis."
+      "sourceNote": "Stress is 'received' in Korean — M9's 받다 promoted to psychology — and energy 'doesn't exist.' Two structural gaps in one diagnosis.",
+      "sourceEnglish": "I've been getting stress, so I have no energy",
+      "sourceKorean": "스트레스를 받아서 힘이 없어요"
     },
     {
       "id": "DAN-V2-CANDIDATE-087",
@@ -3113,21 +3113,16 @@
       "errorClass": "gloss",
       "corpusSentenceId": "s15_what_grade",
       "english": "What grade are you in?",
-      "korean": "몇 학년 이에요?",
+      "korean": "몇 학년이에요?",
       "input": "What grade are you in?",
       "target": {
         "direction": "en-to-ko",
-        "korean": "몇 학년 이에요?",
+        "korean": "몇 학년이에요?",
         "natural_english": "What grade are you in?",
         "gloss": [
           {
-            "chunk": "몇 학년",
-            "gloss": "what grade",
-            "role": "subject"
-          },
-          {
-            "chunk": "이에요?",
-            "gloss": "is?",
+            "chunk": "몇 학년이에요?",
+            "gloss": "what school-year-is?",
             "role": "verb"
           }
         ],
@@ -3136,7 +3131,9 @@
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "M5's 몇 counting school years, M4's copula asking. Spelled 학년, said 항년 — the interlude's nasalization rule grading papers."
+      "sourceNote": "M5's 몇 counting school years, M4's copula asking. Spelled 학년, said 항년 — the interlude's nasalization rule grading papers.",
+      "sourceEnglish": "What grade are you in?",
+      "sourceKorean": "몇 학년 이에요?"
     },
     {
       "id": "DAN-V2-CANDIDATE-096",
@@ -3296,24 +3293,26 @@
             "role": "verb"
           }
         ],
-        "literal_gap": "",
+        "literal_gap": "Literally, “I saw the test well”; in use, “I did well on the test.” 시험을 보다 means to take an exam, not look at one.",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "Korean SEES exams — 시험을 보다 (gap deck). So doing well is seeing one well: 잘 봤어요. M1's 보다 picks up its strangest job."
+      "sourceNote": "Korean SEES exams — 시험을 보다 (gap deck). So doing well is seeing one well: 잘 봤어요. M1's 보다 picks up its strangest job.",
+      "sourceEnglish": "I did well on the test",
+      "sourceKorean": "시험을 잘 봤어요"
     },
     {
       "id": "DAN-V2-CANDIDATE-101",
       "errorClass": "gloss",
       "corpusSentenceId": "s15_start_tomorrow",
-      "english": "Starting tomorrow, I'll start exercising",
+      "english": "I'll start exercising tomorrow.",
       "korean": "내일부터 운동하기 시작할 거예요",
-      "input": "Starting tomorrow, I'll start exercising",
+      "input": "I'll start exercising tomorrow.",
       "target": {
         "direction": "en-to-ko",
         "korean": "내일부터 운동하기 시작할 거예요",
-        "natural_english": "Starting tomorrow, I'll start exercising",
+        "natural_english": "I'll start exercising tomorrow.",
         "gloss": [
           {
             "chunk": "내일부터",
@@ -3336,7 +3335,9 @@
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "The eternal resolution: M6's 부터 sets the start line, M8's future makes the promise, -기 시작하다 does the starting. Tomorrow."
+      "sourceNote": "The eternal resolution: M6's 부터 sets the start line, M8's future makes the promise, -기 시작하다 does the starting. Tomorrow.",
+      "sourceEnglish": "Starting tomorrow, I'll start exercising",
+      "sourceKorean": "내일부터 운동하기 시작할 거예요"
     },
     {
       "id": "DAN-V2-CANDIDATE-102",
@@ -4507,13 +4508,13 @@
       "id": "DAN-V2-CANDIDATE-137",
       "errorClass": "semantic-fidelity",
       "corpusSentenceId": "s18_matjip",
-      "english": "This place is the famous one",
+      "english": "This is a good restaurant.",
       "korean": "여기가 맛집이에요",
       "input": "여기가 맛집이에요",
       "target": {
         "direction": "ko-to-en",
         "korean": "여기가 맛집이에요",
-        "natural_english": "This place is the famous one",
+        "natural_english": "This is a good restaurant.",
         "gloss": [
           {
             "chunk": "여기가",
@@ -4526,12 +4527,14 @@
             "role": "verb"
           }
         ],
-        "literal_gap": "",
+        "literal_gap": "맛집 is literally “taste-house”; in use, it means a restaurant known for good food, not necessarily “the famous one.”",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "Said with the confidence of someone who waited forty minutes to prove it. M6's 여기 + the taste-house — the sentence every food pilgrimage ends on."
+      "sourceNote": "Said with the confidence of someone who waited forty minutes to prove it. M6's 여기 + the taste-house — the sentence every food pilgrimage ends on.",
+      "sourceEnglish": "This place is the famous one",
+      "sourceKorean": "여기가 맛집이에요"
     },
     {
       "id": "DAN-V2-CANDIDATE-138",
@@ -4592,11 +4595,13 @@
           }
         ],
         "literal_gap": "",
-        "cultural_note": ""
+        "cultural_note": "This sentence says eating alone is fine too. The cultural term 혼밥 describes solo dining; it does not change the sentence meaning."
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "M17's nominalizer wearing M2's 도, absorbed by M7's all-purpose 괜찮아요. The gap deck's 혼밥 has made solo dining a named, normal thing — this sentence is its motto."
+      "sourceNote": "M17's nominalizer wearing M2's 도, absorbed by M7's all-purpose 괜찮아요. The gap deck's 혼밥 has made solo dining a named, normal thing — this sentence is its motto.",
+      "sourceEnglish": "Eating alone is fine too",
+      "sourceKorean": "혼자 먹는 것도 괜찮아요"
     },
     {
       "id": "DAN-V2-CANDIDATE-140",
@@ -5052,11 +5057,13 @@
           }
         ],
         "literal_gap": "",
-        "cultural_note": ""
+        "cultural_note": "Casual 반말: 요 and object particles are omitted. The speaker and relationship must make this register appropriate."
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "Pure M19 반말 — particles dropped, 요 gone, urgency intact. The gap deck's 읽씹 is what this sentence is fighting against."
+      "sourceNote": "Pure M19 반말 — particles dropped, 요 gone, urgency intact. The gap deck's 읽씹 is what this sentence is fighting against.",
+      "sourceEnglish": "Did you see my text? Reply!",
+      "sourceKorean": "문자 봤어? 답장해!"
     },
     {
       "id": "DAN-V2-CANDIDATE-155",
@@ -5086,12 +5093,14 @@
             "role": "verb"
           }
         ],
-        "literal_gap": "",
+        "literal_gap": "올렸어요 literally says “raised”; here it means “posted/uploaded.” The speaker took a selfie and then put it on social media.",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "M17's 찍다 aims at yourself, then 올리다 LIFTS the result onto the internet — Korean uploads by raising. The 인증샷 culture (gap deck) explains the why."
+      "sourceNote": "M17's 찍다 aims at yourself, then 올리다 LIFTS the result onto the internet — Korean uploads by raising. The 인증샷 culture (gap deck) explains the why.",
+      "sourceEnglish": "I took a selfie. And I posted it on social media",
+      "sourceKorean": "셀카를 찍었어요. 그리고 에스엔에스에 올렸어요"
     },
     {
       "id": "DAN-V2-CANDIDATE-156",
@@ -5232,13 +5241,13 @@
       "id": "DAN-V2-CANDIDATE-160",
       "errorClass": "semantic-fidelity",
       "corpusSentenceId": "s20_dont_press",
-      "english": "You must not press this",
+      "english": "You shouldn't press this.",
       "korean": "이거 누르면 안 돼요",
-      "input": "You must not press this",
+      "input": "You shouldn't press this.",
       "target": {
         "direction": "en-to-ko",
         "korean": "이거 누르면 안 돼요",
-        "natural_english": "You must not press this",
+        "natural_english": "You shouldn't press this.",
         "gloss": [
           {
             "chunk": "이거",
@@ -5251,12 +5260,14 @@
             "role": "verb"
           }
         ],
-        "literal_gap": "",
+        "literal_gap": "Literally, “if you press this, it is not okay”; in use, this expresses that pressing it is not allowed.",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "The hinge composes: -(으)면 + M10's 안 돼요 = 'if you press it, not okay' — Korean's standard must-not. You've unlocked a whole family of warnings for free."
+      "sourceNote": "The hinge composes: -(으)면 + M10's 안 돼요 = 'if you press it, not okay' — Korean's standard must-not. You've unlocked a whole family of warnings for free.",
+      "sourceEnglish": "You must not press this",
+      "sourceKorean": "이거 누르면 안 돼요"
     },
     {
       "id": "DAN-V2-CANDIDATE-161",
@@ -6112,16 +6123,18 @@
         "gloss": [
           {
             "chunk": "정",
-            "gloss": "(no literal parts)",
+            "gloss": "attachment / affection",
             "role": "other"
           }
         ],
-        "literal_gap": "Literally “(no literal parts)”; in use, “deep attachment that grows over time”.",
+        "literal_gap": "정 names attachment or affection accumulated through shared time. It is a single concept, not a phrase with a separate word-for-word reading; “attachment” approximates it without covering every use.",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "The bond that accumulates between people who share time — friends, family, even a grumpy neighbor. You can have 정 for someone you don't especially like. It explains a lot of Korean social life."
+      "sourceNote": "The bond that accumulates between people who share time — friends, family, even a grumpy neighbor. You can have 정 for someone you don't especially like. It explains a lot of Korean social life.",
+      "sourceEnglish": "deep attachment that grows over time",
+      "sourceKorean": "정"
     },
     {
       "id": "DAN-V2-CANDIDATE-189",
@@ -6502,13 +6515,13 @@
       "id": "DAN-V2-CANDIDATE-204",
       "errorClass": "literal-gap",
       "corpusSentenceId": "gap:g9_seyo_two_jobs",
-      "english": "a statement about an elder — or a request to you",
+      "english": "Please go.",
       "korean": "가세요",
       "input": "가세요",
       "target": {
         "direction": "ko-to-en",
         "korean": "가세요",
-        "natural_english": "a statement about an elder — or a request to you",
+        "natural_english": "Please go.",
         "gloss": [
           {
             "chunk": "가세요",
@@ -6516,12 +6529,14 @@
             "role": "other"
           }
         ],
-        "literal_gap": "Literally “goes-[honored] / please go”; in use, “a statement about an elder — or a request to you”.",
-        "cultural_note": ""
+        "literal_gap": "Addressed to a listener, 가세요 can mean “please go.” With an honored subject, as in 선생님이 가세요, it means “the teacher is going.” The ending alone does not determine which reading is intended.",
+        "cultural_note": "This translation selects the listener-directed request reading; context can instead select an honorific statement."
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "The same -(으)세요 ending honors the subject (선생님이 가세요 — the teacher is going) AND makes polite requests (가세요 — please go). Context and intonation decide. It's why 안녕히 가세요 — goodbye — is literally 'please go peacefully.'"
+      "sourceNote": "The same -(으)세요 ending honors the subject (선생님이 가세요 — the teacher is going) AND makes polite requests (가세요 — please go). Context and intonation decide. It's why 안녕히 가세요 — goodbye — is literally 'please go peacefully.'",
+      "sourceEnglish": "a statement about an elder — or a request to you",
+      "sourceKorean": "가세요"
     },
     {
       "id": "DAN-V2-CANDIDATE-205",
@@ -6602,13 +6617,13 @@
       "id": "DAN-V2-CANDIDATE-208",
       "errorClass": "literal-gap",
       "corpusSentenceId": "gap:g10_andwae",
-      "english": "no / not allowed / no way!",
+      "english": "That's not allowed.",
       "korean": "안 돼요",
       "input": "안 돼요",
       "target": {
         "direction": "ko-to-en",
         "korean": "안 돼요",
-        "natural_english": "no / not allowed / no way!",
+        "natural_english": "That's not allowed.",
         "gloss": [
           {
             "chunk": "안 돼요",
@@ -6616,12 +6631,14 @@
             "role": "other"
           }
         ],
-        "literal_gap": "Literally “it doesn't become”; in use, “no / not allowed / no way!”.",
+        "literal_gap": "되다 can mean become, work or be acceptable. 안 돼요 can therefore mean “not allowed” in a rule or refusal, “it does not work” in another context, or “no way!” as an exclamation. This translation selects the prohibition reading.",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "되다 means become-work-be-okay, so its negation is the universal veto: rules (여기서 사진 안 돼요 — no photos here), refusals, and pure disbelief. Screamed without the 요 — 안 돼!!! — it's the sound of every K-drama's worst moment."
+      "sourceNote": "되다 means become-work-be-okay, so its negation is the universal veto: rules (여기서 사진 안 돼요 — no photos here), refusals, and pure disbelief. Screamed without the 요 — 안 돼!!! — it's the sound of every K-drama's worst moment.",
+      "sourceEnglish": "no / not allowed / no way!",
+      "sourceKorean": "안 돼요"
     },
     {
       "id": "DAN-V2-CANDIDATE-209",
@@ -6727,26 +6744,28 @@
       "id": "DAN-V2-CANDIDATE-213",
       "errorClass": "literal-gap",
       "corpusSentenceId": "gap:g12_gisanim",
-      "english": "how you address any driver",
+      "english": "Driver.",
       "korean": "기사님",
       "input": "기사님",
       "target": {
         "direction": "ko-to-en",
         "korean": "기사님",
-        "natural_english": "how you address any driver",
+        "natural_english": "Driver.",
         "gloss": [
           {
             "chunk": "기사님",
-            "gloss": "engineer-sir",
+            "gloss": "driver-[honorific title]",
             "role": "other"
           }
         ],
-        "literal_gap": "Literally “engineer-sir”; in use, “how you address any driver”.",
+        "literal_gap": "In a transport context, 기사 is a driver and 님 is an honorific title. 기사님 respectfully addresses or refers to the driver; it does not mean “engineer-sir” in this use.",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "Korean rarely uses names with strangers — jobs + 님 do the work: 기사님 (driver), 사장님 (owner), 선생님 (teacher, or any respectable stranger). Address people by their role worn with honor, and doors open. Literally, sometimes."
+      "sourceNote": "Korean rarely uses names with strangers — jobs + 님 do the work: 기사님 (driver), 사장님 (owner), 선생님 (teacher, or any respectable stranger). Address people by their role worn with honor, and doors open. Literally, sometimes.",
+      "sourceEnglish": "how you address any driver",
+      "sourceKorean": "기사님"
     },
     {
       "id": "DAN-V2-CANDIDATE-214",
@@ -7136,17 +7155,24 @@
         "natural_english": "to be in the flirty maybe-stage",
         "gloss": [
           {
-            "chunk": "썸 타다",
-            "gloss": "to ride a something",
+            "chunk": "썸",
+            "gloss": "not-yet-defined romantic interest",
             "role": "other"
+          },
+          {
+            "chunk": "타다",
+            "gloss": "be in / experience (this state)",
+            "role": "verb"
           }
         ],
-        "literal_gap": "Literally “to ride a something”; in use, “to be in the flirty maybe-stage”.",
+        "literal_gap": "타다 has a concrete “ride” sense, but 썸 타다 means being in a not-yet-defined romantic or flirting stage. Here 타다 expresses experiencing that state, not riding an object called “a something.”",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "From English 'something' — as in, there's SOMETHING between them. The named stage before 사귀다: texting too often, denying it to friends. 썸 타는 중이야 — I'm riding a something. English needed this word and never made it; Korean borrowed the raw material and built it."
+      "sourceNote": "From English 'something' — as in, there's SOMETHING between them. The named stage before 사귀다: texting too often, denying it to friends. 썸 타는 중이야 — I'm riding a something. English needed this word and never made it; Korean borrowed the raw material and built it.",
+      "sourceEnglish": "to be in the flirty maybe-stage",
+      "sourceKorean": "썸 타다"
     },
     {
       "id": "DAN-V2-CANDIDATE-230",
@@ -7452,13 +7478,13 @@
       "id": "DAN-V2-CANDIDATE-242",
       "errorClass": "literal-gap",
       "corpusSentenceId": "gap:g24_teullida_dareuda",
-      "english": "(very often) it's just different",
+      "english": "That's wrong!",
       "korean": "틀려요!",
       "input": "틀려요!",
       "target": {
         "direction": "ko-to-en",
         "korean": "틀려요!",
-        "natural_english": "(very often) it's just different",
+        "natural_english": "That's wrong!",
         "gloss": [
           {
             "chunk": "틀려요!",
@@ -7466,12 +7492,14 @@
             "role": "other"
           }
         ],
-        "literal_gap": "Literally “it's wrong!”; in use, “(very often) it's just different”.",
+        "literal_gap": "틀리다 means to be wrong. It should not be treated as equivalent to 다르다, “to be different”; a nonstandard use requires its own context.",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "Koreans habitually say 틀리다 (to be wrong — M15) where 다르다 (to be different — M24) belongs: 우리는 성격이 틀려요 means 'our personalities are DIFFERENT,' not wrong. Textbooks scold; speech ignores. Remember the split the other way: 맞고/틀리고 is for answers, 같고/다르고 is for comparisons — and enjoy owning a distinction natives blur."
+      "sourceNote": "Koreans habitually say 틀리다 (to be wrong — M15) where 다르다 (to be different — M24) belongs: 우리는 성격이 틀려요 means 'our personalities are DIFFERENT,' not wrong. Textbooks scold; speech ignores. Remember the split the other way: 맞고/틀리고 is for answers, 같고/다르고 is for comparisons — and enjoy owning a distinction natives blur.",
+      "sourceEnglish": "(very often) it's just different",
+      "sourceKorean": "틀려요!"
     },
     {
       "id": "DAN-V2-CANDIDATE-243",
@@ -8077,13 +8105,13 @@
       "id": "DAN-V2-CANDIDATE-267",
       "errorClass": "literal-gap",
       "corpusSentenceId": "gap:g_m31_jeju_horse",
-      "english": "talent belongs where it can thrive — so everyone heads for the capital",
+      "english": "Horses to Jeju; people to Seoul.",
       "korean": "말은 제주로, 사람은 서울로",
       "input": "말은 제주로, 사람은 서울로",
       "target": {
         "direction": "ko-to-en",
         "korean": "말은 제주로, 사람은 서울로",
-        "natural_english": "talent belongs where it can thrive — so everyone heads for the capital",
+        "natural_english": "Horses to Jeju; people to Seoul.",
         "gloss": [
           {
             "chunk": "말은 제주로, 사람은 서울로",
@@ -8091,12 +8119,14 @@
             "role": "other"
           }
         ],
-        "literal_gap": "Literally “horses to Jeju, people to Seoul”; in use, “talent belongs where it can thrive — so everyone heads for the capital”.",
+        "literal_gap": "Literally, “horses to Jeju, people to Seoul.” This proverb recommends sending each to a place suited to its prospects: Jeju for horses and Seoul for people seeking opportunity.",
         "cultural_note": ""
       },
       "split": "training",
       "reviewStatus": "pending",
-      "sourceNote": "The full proverb: 말은 나면 제주도로 보내고, 사람은 나면 서울로 보내라 — send a foal to Jeju (the horse pastures), send a child to Seoul (the opportunity). Radar inside: this 말 is HORSE, not speech (말씀's humble cousin) — one syllable, two creatures. Centuries old and still the country's operating logic; see 서울 공화국 for what it did to the map."
+      "sourceNote": "The full proverb: 말은 나면 제주도로 보내고, 사람은 나면 서울로 보내라 — send a foal to Jeju (the horse pastures), send a child to Seoul (the opportunity). Radar inside: this 말 is HORSE, not speech (말씀's humble cousin) — one syllable, two creatures. Centuries old and still the country's operating logic; see 서울 공화국 for what it did to the map.",
+      "sourceEnglish": "talent belongs where it can thrive — so everyone heads for the capital",
+      "sourceKorean": "말은 제주로, 사람은 서울로"
     },
     {
       "id": "DAN-V2-CANDIDATE-268",
@@ -8552,13 +8582,13 @@
       "id": "DAN-V2-CANDIDATE-286",
       "errorClass": "literal-gap",
       "corpusSentenceId": "gap:g_m37_saram_sallyeo",
-      "english": "HELP! — the emergency scream",
+      "english": "Help!",
       "korean": "사람 살려!",
       "input": "사람 살려!",
       "target": {
         "direction": "ko-to-en",
         "korean": "사람 살려!",
-        "natural_english": "HELP! — the emergency scream",
+        "natural_english": "Help!",
         "gloss": [
           {
             "chunk": "사람 살려!",
@@ -8566,12 +8596,14 @@
             "role": "other"
           }
         ],
-        "literal_gap": "Literally “save the person!”; in use, “HELP! — the emergency scream”.",
+        "literal_gap": "Literally, “save the person!” In danger, this is a cry for help. It can also be exaggerated jokingly in an overwhelming situation.",
         "cultural_note": ""
       },
       "split": "development",
       "reviewStatus": "pending",
-      "sourceNote": "Not 도와주세요 (that's for directions and heavy boxes) — real danger screams 사람 살려!: make-the-person-LIVE, this module's 살리다 in the imperative, particles abandoned because emergencies don't gate. Also deployed in mock horror: buried under work, tickled by friends, facing a spider. The causative party's loudest member; may you only ever use it for the spider."
+      "sourceNote": "Not 도와주세요 (that's for directions and heavy boxes) — real danger screams 사람 살려!: make-the-person-LIVE, this module's 살리다 in the imperative, particles abandoned because emergencies don't gate. Also deployed in mock horror: buried under work, tickled by friends, facing a spider. The causative party's loudest member; may you only ever use it for the spider.",
+      "sourceEnglish": "HELP! — the emergency scream",
+      "sourceKorean": "사람 살려!"
     },
     {
       "id": "DAN-V2-CANDIDATE-287",
@@ -8586,17 +8618,29 @@
         "natural_english": "high-maintenance — it takes a lot of care",
         "gloss": [
           {
-            "chunk": "손이 많이 가다",
-            "gloss": "many hands go (into it)",
+            "chunk": "손이",
+            "gloss": "hand-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "많이",
+            "gloss": "a lot / repeatedly",
             "role": "other"
+          },
+          {
+            "chunk": "가다",
+            "gloss": "go",
+            "role": "verb"
           }
         ],
-        "literal_gap": "Literally “many hands go (into it)”; in use, “high-maintenance — it takes a lot of care”.",
+        "literal_gap": "Literally, “the hand goes a lot”; in use, something takes a lot of care or work. 많이 describes how much the hand goes to the task, not a number of hands.",
         "cultural_note": ""
       },
       "split": "development",
       "reviewStatus": "pending",
-      "sourceNote": "Fully decodable: M8's 손 + M17's 많이 + 가다 — your hands GO to the thing, repeatedly. Said of fiddly recipes (잡채 is the canonical example), needy pets, delicate plants, and — fondly — certain people: 손이 많이 가는 스타일. The caretaking module's own summary: everything in it, from 아기 to 화분, is something 손이 많이 가는. Affection, measured in trips."
+      "sourceNote": "Fully decodable: M8's 손 + M17's 많이 + 가다 — your hands GO to the thing, repeatedly. Said of fiddly recipes (잡채 is the canonical example), needy pets, delicate plants, and — fondly — certain people: 손이 많이 가는 스타일. The caretaking module's own summary: everything in it, from 아기 to 화분, is something 손이 많이 가는. Affection, measured in trips.",
+      "sourceEnglish": "high-maintenance — it takes a lot of care",
+      "sourceKorean": "손이 많이 가다"
     },
     {
       "id": "DAN-V2-CANDIDATE-288",
@@ -8652,13 +8696,13 @@
       "id": "DAN-V2-CANDIDATE-290",
       "errorClass": "literal-gap",
       "corpusSentenceId": "gap:g_m38_korean_time",
-      "english": "the old custom of running fashionably late",
+      "english": "Running late (the dated or joking expression “Korean time”).",
       "korean": "코리안 타임",
       "input": "코리안 타임",
       "target": {
         "direction": "ko-to-en",
         "korean": "코리안 타임",
-        "natural_english": "the old custom of running fashionably late",
+        "natural_english": "Running late (the dated or joking expression “Korean time”).",
         "gloss": [
           {
             "chunk": "코리안 타임",
@@ -8666,12 +8710,14 @@
             "role": "other"
           }
         ],
-        "literal_gap": "Literally “Korean Time”; in use, “the old custom of running fashionably late”.",
+        "literal_gap": "Literally, “Korean time”; in dated or joking usage, this refers to lateness. It is not a claim that Koreans are generally late or a literal time-zone name.",
         "cultural_note": ""
       },
       "split": "development",
       "reviewStatus": "pending",
-      "sourceNote": "Konglish, self-deprecating: mid-century Korea joked that appointments ran on 코리안 타임 — 30 minutes behind, no apology needed. The 빨리빨리 era (M8's gap deck) killed it dead: today's Korea is punctual to the minute, and KTX doors forgive nothing. The phrase survives as a tease for late friends — 또 코리안 타임이야? Deploy gently; receive it never (M33's 미리 연락 exists for a reason)."
+      "sourceNote": "Konglish, self-deprecating: mid-century Korea joked that appointments ran on 코리안 타임 — 30 minutes behind, no apology needed. The 빨리빨리 era (M8's gap deck) killed it dead: today's Korea is punctual to the minute, and KTX doors forgive nothing. The phrase survives as a tease for late friends — 또 코리안 타임이야? Deploy gently; receive it never (M33's 미리 연락 exists for a reason).",
+      "sourceEnglish": "the old custom of running fashionably late",
+      "sourceKorean": "코리안 타임"
     }
   ]
 }
