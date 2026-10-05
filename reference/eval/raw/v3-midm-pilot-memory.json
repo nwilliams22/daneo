@@ -1,0 +1,9 @@
+{
+  "sampledPeakRssKiB": 2261884,
+  "samples": 5594,
+  "sampleIntervalSeconds": 0.02,
+  "method": "VmRSS of native probe process; threads share its address space; 20ms samples can miss shorter peaks",
+  "elapsedSeconds": 113.49104510503821,
+  "exitCode": -15,
+  "network": "unshare --user --map-root-user --net"
+}
