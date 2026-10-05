@@ -1,0 +1,486 @@
+{
+  "version": "independent-1",
+  "sourceSetSha256": "ce8d578dc369d5e5b661aa6f3feb57d7655cdb1ee6c549c938d9eb358f573ca4",
+  "items": [
+    {
+      "id": "DAN-IND-01",
+      "input": "I like coffee",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_like_coffee",
+      "moduleId": "m1",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-02",
+      "input": "I watch movies on the weekend",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s2_weekend_movie",
+      "moduleId": "m2",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-03",
+      "input": "Today I want to order fried chicken",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s3_order_chicken_want",
+      "moduleId": "m3",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-04",
+      "input": "I ordered two cups of coffee",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s5_coffee_two",
+      "moduleId": "m5",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-05",
+      "input": "I drink a glass of milk every day",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s5_milk_daily",
+      "moduleId": "m5",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-06",
+      "input": "I go left",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s6_go_left",
+      "moduleId": "m6",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-07",
+      "input": "A park is in front of my house",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s6_park_front",
+      "moduleId": "m6",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-08",
+      "input": "I get off here",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s6_get_off_here",
+      "moduleId": "m6",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-09",
+      "input": "I take the bus every day",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s6_take_bus",
+      "moduleId": "m6",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-10",
+      "input": "I brush my teeth at night",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s8_brush_teeth",
+      "moduleId": "m8",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-11",
+      "input": "I am waiting for my friend",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s8_waiting",
+      "moduleId": "m8",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-12",
+      "input": "Two gimbap, please",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s9_gimbap_two",
+      "moduleId": "m9",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-13",
+      "input": "When do you arrive?",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s10_when_arrive",
+      "moduleId": "m10",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-14",
+      "input": "Before my friend comes, I clean the house",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s13_party_clean",
+      "moduleId": "m13",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-15",
+      "input": "After taking the medicine, rest well",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s14_medicine_rest",
+      "moduleId": "m14",
+      "coverageClass": "gloss"
+    },
+    {
+      "id": "DAN-IND-16",
+      "input": "My older brother is a singer",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s4_oppa_singer",
+      "moduleId": "m4",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-17",
+      "input": "It's 2:30 in the afternoon",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s5_half_past",
+      "moduleId": "m5",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-18",
+      "input": "My little sibling is ten years old",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s5_sibling_ten",
+      "moduleId": "m5",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-19",
+      "input": "My family is four people",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s5_family_four",
+      "moduleId": "m5",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-20",
+      "input": "My phone is in my bag",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s6_phone_bag",
+      "moduleId": "m6",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-21",
+      "input": "The convenience store is behind the station",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s6_store_behind",
+      "moduleId": "m6",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-22",
+      "input": "I am busy but happy",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s7_busy_but_happy",
+      "moduleId": "m7",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-23",
+      "input": "I usually take the subway. But today I'm walking",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s8_usually_subway",
+      "moduleId": "m8",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-24",
+      "input": "I have an exam. So I have to study hard",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s10_must_study",
+      "moduleId": "m10",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-25",
+      "input": "My vacation starts next week",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s11_vacation_next_week",
+      "moduleId": "m11",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-26",
+      "input": "Before sleeping, I turn off my phone",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s13_sleep_before",
+      "moduleId": "m13",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-27",
+      "input": "Math is hard, but it's fun",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s15_math_fun",
+      "moduleId": "m15",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-28",
+      "input": "I sent the documents by email",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s16_email_docs",
+      "moduleId": "m16",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-29",
+      "input": "We're almost there",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s23_almost_there",
+      "moduleId": "m23",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-30",
+      "input": "I took the medicine, but still haven't gotten better",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m53_medicine_but",
+      "moduleId": "m53",
+      "coverageClass": "semantic-fidelity"
+    },
+    {
+      "id": "DAN-IND-31",
+      "input": "My father is busy right now",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s4_father_busy",
+      "moduleId": "m4",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-32",
+      "input": "Grandfather is at our house",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s4_grandpa_home",
+      "moduleId": "m4",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-33",
+      "input": "More, please",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s9_more_please",
+      "moduleId": "m9",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-34",
+      "input": "Cross the street at the light",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s12_cross_light",
+      "moduleId": "m12",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-35",
+      "input": "In the hospital, don't smoke cigarettes",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s14_no_smoking",
+      "moduleId": "m14",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-36",
+      "input": "Today's meeting is important. Don't be late",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s16_meeting_ontime",
+      "moduleId": "m16",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-37",
+      "input": "Hey! Long time no see!",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s19_hi_longtime",
+      "moduleId": "m19",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-38",
+      "input": "Come to my birthday party!",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s19_party_come",
+      "moduleId": "m19",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-39",
+      "input": "No, it's fine",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s19_no_fine",
+      "moduleId": "m19",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-40",
+      "input": "Hello? Who is this?",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s20_hello_who",
+      "moduleId": "m20",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-41",
+      "input": "Please call me when you have time",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s25_call_when_free",
+      "moduleId": "m25",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-42",
+      "input": "You speak Korean really well!",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s26_speak_well",
+      "moduleId": "m26",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-43",
+      "input": "Glad to meet you",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s27_nice_meet",
+      "moduleId": "m27",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-44",
+      "input": "The professor explained the hanja for us",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s27_professor_hanja",
+      "moduleId": "m27",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-45",
+      "input": "Yesterday the government made public the investigation results. Moreover, it announced a new plan as well",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m56_gov_results",
+      "moduleId": "m56",
+      "coverageClass": "register"
+    },
+    {
+      "id": "DAN-IND-46",
+      "input": "Winter is so cold",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s11_winter_cold",
+      "moduleId": "m11",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-47",
+      "input": "I feel good today",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s7_mood_good",
+      "moduleId": "m7",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-48",
+      "input": "The fine dust is really bad",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s11_dust",
+      "moduleId": "m11",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-49",
+      "input": "Traffic is so bad",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s12_traffic_bad",
+      "moduleId": "m12",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-50",
+      "input": "Cheers!",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s18_cheers",
+      "moduleId": "m18",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-51",
+      "input": "Today somehow I'm in a good mood",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m34_somehow_good",
+      "moduleId": "m34",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-52",
+      "input": "The years really do fly",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m35_time_flies",
+      "moduleId": "m35",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-53",
+      "input": "Every weekend I run the washing machine",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m37_laundry_weekend",
+      "moduleId": "m37",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-54",
+      "input": "This room, you're welcome to decorate however you like",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m54_decorate_free",
+      "moduleId": "m54",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-55",
+      "input": "Because the washing machine is worn out, the laundry doesn't come out properly",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m54_washer_old",
+      "moduleId": "m54",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-56",
+      "input": "A Busan friend asked over the phone: have you eaten?",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_s4_busan_lunch",
+      "moduleId": "s4",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-57",
+      "input": "These days I'm so busy I'm about to go out of my mind",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m61_going_crazy",
+      "moduleId": "m61",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-58",
+      "input": "My passport — I've completely lost it. This is big trouble!",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m67_passport_trouble",
+      "moduleId": "m67",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-59",
+      "input": "Since the evaluations are over, this semester is as good as all finished",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m87_semester_done",
+      "moduleId": "m87",
+      "coverageClass": "literal-gap"
+    },
+    {
+      "id": "DAN-IND-60",
+      "input": "As I kept doing farm work, I grew attached to the farm.",
+      "direction": "en-to-ko",
+      "corpusSentenceId": "s_m133_farm",
+      "moduleId": "m133",
+      "coverageClass": "literal-gap"
+    }
+  ]
+}
