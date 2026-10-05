@@ -1,4 +1,4 @@
-# Frozen v1 artifact-selection gate — first score
+# Frozen v1 artifact-selection gate — final verdict
 
 Run date: 2026-10-04. The ten exact inputs in `v1-translation-set.json` were submitted once, in order, through the opt-in Tauri WebKit acceptance example. Its injected script uses the production `localTranslator` adapter, native `translate_local` command, model worker, and result schema. The process ran inside `unshare --user --map-root-user --net` on the nested `:7` X display. No proxy or network interface was available in that namespace. The run exited 0; the ten held-out requests, cancel check, and recovery request are in [`raw/v1-results.jsonl`](raw/v1-results.jsonl). Every completed raw model reply was recorded before parsing in [`raw/v1-raw.jsonl`](raw/v1-raw.jsonl). The raw file has ten held-out rows and one recovery row; a cancelled request has no final raw reply.
 
@@ -6,7 +6,7 @@ The run stamped HEAD `da957d4836f77487169f5b75251baddec9a607a9`. The fixture SHA
 
 ## First rubric score
 
-My item-level judgments and their evidence are in [`raw/v1-scored.json`](raw/v1-scored.json). The final app result is scored after deterministic romanization and particle extraction; the raw model reply remains available separately. This is the first score, pending independent review.
+My item-level judgments and their evidence are in [`raw/v1-scored.json`](raw/v1-scored.json). The final app result is scored after deterministic romanization and particle extraction; the raw model reply remains available separately. This first score is retained separately from the independent review.
 
 | Measure | First score | Gate |
 | --- | ---: | ---: |
@@ -17,6 +17,12 @@ My item-level judgments and their evidence are in [`raw/v1-scored.json`](raw/v1-
 | Meaning reversals / invented-rule items / thinking leaks | 0 / **1** / 0 | zero each |
 
 The false rule is `KE-01`'s gloss calling subject marker `이` a topic marker, although the deterministic `particles[]` field correctly labels it subject. `EK-01` and `EK-02` use deferential `합니다` instead of the lesson's `해요` register. `EK-05` adds `도` (“also”) and writes an unnatural slash-form sibling. The binding residual is the model's Korean word-order gloss (2/10); mechanical field correction cannot repair it. The next authorized rung is the fine-tune on the post-extraction errors under [BAD-193](/BAD/issues/BAD-193). A larger-quantization probe can be evaluated separately against this clean baseline, but it is not the selected rung here.
+
+## Independent verdict and selection
+
+Thufir independently scored the retained raw replies and final adapter results under the unchanged rubric. His verdict on [BAD-212](/BAD/issues/BAD-212#comment-a3007e09-76fc-4f94-b62e-07642a1d0043) is **not selected**: 10/10 schema, 10/10 direction, **2/10 fully correct** (`KE-03`, `KE-04`), zero reversals, and **one invented-rule item** (`KE-01`). Dimension passes were meaning 8/10, gloss **2/10**, particles **8/10**, polite register 8/10, romanization 10/10, and literal gap 7/10. His particle count corrects my first score's 9/10: in `KE-05`, the assembled result calls living-location `에` a marker for where an action happens, contrary to the frozen fixture and `s4_family_korea` note. The retained first score remains unchanged as the record of my independent pass.
+
+**No production artifact is selected.** The candidate identity above is evidence of what ran, not a production pin; `reference/model-pin.json` remains null. The fine-tune under [BAD-193](/BAD/issues/BAD-193) is the next authorized rung because the residual Korean word-order gloss passes only 2/10 and cannot be corrected by the deterministic fields. The v1 fixture is spent as a selection gate and must not be run again for this decision.
 
 ## Runtime and verification
 
@@ -30,4 +36,4 @@ The false rule is `KE-01`'s gloss calling subject marker `이` a topic marker, a
 
 The measured warm p95 is below the proposed **30 s** usability gate on this host. The prior **73.568 s native p95** remains a separate qualification concern; its process path and sample differ from this WebKit run, so this result does not prove a prompt-only speedup. This is a developer acceptance window, not a packaged app launch or an Explore DOM check. The process-tree memory record and sampling limits are in [`raw/v1-memory.json`](raw/v1-memory.json).
 
-`npm run build` passed (including `validate:content`, 15/15, and TypeScript); `npm test` passed 238/238 in 20 files. The report commit must be checked with `python3 reference/eval/check-provenance.py reference/eval/raw/v1-raw.jsonl --report-commit REPORT_COMMIT --item-set reference/eval/v1-translation-set.json` after commit. Independent rubric scoring and the final ticket verdict remain with Thufir's comment; no second v1 run is permitted.
+`npm run build` passed (including `validate:content`, 15/15, and TypeScript); `npm test` passed 238/238 in 20 files. Thufir ran `python3 reference/eval/check-provenance.py reference/eval/raw/v1-raw.jsonl --report-commit 575fcd0 --item-set reference/eval/v1-translation-set.json`: `PROVENANCE PASS: 11 raw rows verified against 575fcd0` (exit 0). His linked comment above is the independent score that settles the gate; no second v1 run is permitted.
