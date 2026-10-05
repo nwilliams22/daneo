@@ -12,7 +12,7 @@
 > 2026-09-30 (`npm run coverage:nikl`): grade A 100.0% · grade B 100.0% · grade C 100.0%
 > (2,655/2,655; 0 missing) · overall 100.0% of 5,543 — 164 module files on `main`.**
 
-> **App status (2026-10-05):** The first release excludes the AI translator, Ask Daneo and model controls at build time (`import.meta.env.DEV`), while Explore keeps saved discoveries and explains the absence. Phase B no longer waits for Phase D. Phase D remains available in development; the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. See `reference/desktop-closeout.md` for its remaining closure checks.
+> **App status (2026-10-05):** The first release excludes the AI translator, Ask Daneo and model controls at build time (`import.meta.env.DEV`), while Explore keeps saved discoveries and explains the absence. Phase B no longer waits for Phase D. Phase D remains available in development; the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. The documentation closeout and component reactivation gates are in `reference/desktop-closeout.md`; release-one packaging is independent.
 
 > **Training v2 (2026-10-05):** 290 schema-valid candidates prepared (250 training / 40 development); all 96 reservations and v1 training excluded. Every target awaits row review. Final dataset, manifest and development freeze remain open; no training is authorized from the candidate file. See `reference/training/dataset-v2-review.md`.
 
@@ -156,9 +156,9 @@ Every entry in the batch log below that ends *"Next: independent content review"
 **The order after the review (Nick, 2026-09-30):** *"once the review is complete, we should work on
 the local in-app AI agent, and then the shareable feature."* Content review → **Phase D** →
 **Phase B**. This reverses the old §7 rule that put Phase D behind Phase B; Phase D now goes first.
-The review is complete, so **Phase D is the live work** as of 2026-10-04.
+That order is superseded by the 2026-10-05 decision: **Phase B is the live release path with AI off**, while training continues separately.
 
-## Phase D — Local AI (live work; full plan in PLAN-local-model.md)
+## Phase D — Local AI (implemented, measured, not shipped; PLAN-local-model.md)
 
 > **Owner constraint, Nick, 2026-10-04:** *"I do not want a paid model to be the one used in
 > Daneo. I want a free, local model such as qwen to be the one used so that it's free to use the
@@ -196,14 +196,16 @@ The review is complete, so **Phase D is the live work** as of 2026-10-04.
 > `reference/eval/v2-translation-set.json`. Every measured number and all six options considered:
 > [`reference/eval/engine-decision.md`](reference/eval/engine-decision.md).
 
-- [ ] Ship the first release with the AI features off: the translator and Ask Daneo are disabled in a packaged build, enforced in code and covered by a test, with an honest in-app note instead of a dead control.
+- [x] Exclude AI from the production frontend: translator, tutor route/navigation and model settings are DEV-gated, with release regression tests and an absence notice. Native code remains. Packaged release verification remains in Phase B.
 - [ ] Qualify the local engine on a retrained artifact: scale the dataset toward literal gap and polite register from the shipped corpus, retrain on the 5090, export a loadable GGUF, then score **once** against the sealed v2 set. Iterate only against a separate development split. No paid fallback and no relaxed language threshold.
 
-- [ ] Complete packaged desktop closeout: build and launch AppImage/rpm, verify Explore and Ask Daneo with networking isolated and no proxy, record screenshots and installer/model sizes, then reconcile all closeout documents. Current build fails at Cargo discovery; production pin is unset (`reference/desktop-closeout.md`).
+- [x] Close the Phase D documentation inventory: README, PROJECT, TASKS, PLAN-local-model, engine decision and desktop closeout agree that the implementation is retained but no AI ships in release one; `reference/eval/README.md` points to the current gate ownership.
+- [ ] Phase B release chain (BAD-234 → BAD-204 → BAD-205): build/install the AI-off artifact; BAD-204 proves clean-machine offline operation and no paid-model access. This is independent of model selection.
+- [ ] Future engine verdict (BAD-240): qualify the retrained artifact and verify packaged Explore/tutor offline before enabling AI; the production pin and real verified download remain separate gates.
 
-**Outside v2:** v1 training remains conditional on the independently scored post-extraction baseline (authorized, not completed here); mobile v3 requires a separate owner decision and device evidence; Phase C remains out of scope.
+**Outside desktop integration:** v1 training and export completed, but its candidate declined (`reference/training/v1-results.md`, `reference/eval/engine-decision.md`); scaled training is separate work. Mobile v3 requires a separate owner decision and device evidence; Phase C remains out of scope.
 
-## Phase B — Sharing = desktop installers (third; decided by Nick 2026-10-04)
+## Phase B — Sharing = desktop installers (live release path; 2026-10-05)
 
 > **Nick's choice, 2026-10-04:** asked which builds to ship now that a hosted paid proxy is off the
 > table, he chose **desktop installers for Linux, Windows and macOS** — and did **not** choose the
@@ -840,3 +842,8 @@ then publish the final dataset and hashed development freeze.
 Production uses Vite's `import.meta.env.DEV` gate in `src/App.tsx`, `src/components/AppShell.tsx`, `src/features/explore/ExplorePage.tsx` and `src/features/settings/SettingsPage.tsx`. Conditional imports omit the translator, tutor and model panel entirely; no user setting or populated model pin can enable them. Explore retains its saved discoveries deck and says “The AI translator and tutor are not in this release.” Existing translator code moved intact into `TranslatorPage.tsx`; saved-card browsing moved into `SavedDeck.tsx`. Local and Cloud development paths remain. No curriculum, drill, SRS, gap, stats or backup behavior changed.
 
 Verification: `npm test -- tests/release-features.test.tsx` **3/3**, including rendered release routes and an actual production bundle check that excludes AI modules/transports and retains all non-AI feature modules; `npm test -- tests/translator.parity.test.tsx tests/translator.local.test.ts tests/tutor.test.tsx tests/model-download.test.ts` **52/52**; `npm run build` **pass**, including content validation **15/15** and TypeScript. `npm run visual:pass -- m1` **1/1 rendered**, 37/37 words, 7,870 characters, 497 Hangul, all expected sentences present and no console errors. Inspected the captured full-page module layout: vocabulary, grammar and sentence cards render. This visual check used the development server; the production configuration is covered by the release regression test. Packaged desktop verification belongs to the release packaging step; no installer or native UI claim is made here. Next: package the AI-off desktop release while model qualification continues separately.
+
+
+### 2026-10-05 — Close Phase D documentation with AI excluded from release one
+
+Reconciled README, PROJECT status/architecture/roadmap, TASKS header/checklist, PLAN-local-model, the engine decision and desktop closeout; refreshed the evaluation README boundary too. The component inventory distinguishes implemented runtime, cancellation, downloader, storage, Explore, tutor, deterministic fields, evaluation and training from the model and packaged evidence still required to enable them. The old Cargo-discovery failure is historical; later packaging records successful Linux artifacts, not installation. v1 training/export completed and its candidate declined. Retain the DEV-only Cloud result-contract reference with its unchanged pin and no fallback; no product code changed or was deleted. `npm test`: **242/242, 21 files**; `npm run validate:content`: **16/16**; `npm run build`: **exit 0**, including typecheck (existing large-chunk warning); `git diff --check`: passed. No model gate was opened, inference rerun or packaged launch claimed. Next: the Phase B release chain owns installation and offline/no-paid-model proof; the trained-engine verdict owns future offline translator/tutor verification. Phase D is implemented, measured and not shipped.

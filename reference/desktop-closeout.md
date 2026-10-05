@@ -1,71 +1,83 @@
-# Desktop closeout checkpoint — 2026-10-04
+# Phase D documentation closeout — 2026-10-05
 
-**Not shipped.** This checkpoint records the tree at `ef4e0cd`; it is not a release
-or a substitute for running the packaged application.
+**Implemented, measured and not shipped.** Nick chose release one with AI off
+while training continues. No candidate cleared the unchanged language gate and
+[`model-pin.json`](model-pin.json) remains null. This closes the documentation
+inventory, not the AI programme or the desktop release.
 
-## Evidence recorded in this attempt
+## What exists and what would turn it on
 
-From the repository root:
+“Implemented” below means the component exists with the stated evidence; it does
+not imply an accepted production model or packaged learner interaction. All AI
+surfaces are excluded from the release-one frontend. The native runtime and
+commands remain compiled; no claim of their removal from the binary is made.
 
-| Check | Observed result |
-| --- | --- |
-| `npm test` | 236 passed, 20 test files |
-| `npm run validate:content` | 15 passed |
-| `npm run build` | Exit 0; existing large-chunk warning |
-| `npm run tauri:build` | Exit 1 before compilation; unable to launch `cargo metadata --no-deps --format-version 1`, os error 2 |
-| Direct installed Cargo with `metadata --no-deps --format-version 1 --manifest-path src-tauri/Cargo.toml` | Exit 0; toolchain exists |
-| `DISPLAY`, `WAYLAND_DISPLAY`, `command -v Xvfb` | No display variables or Xvfb available |
-| `reference/model-pin.json` | `pin: null`; no production model selected |
+| Component | Real state, value and source of truth | Remaining activation condition |
+| --- | --- | --- |
+| Native runtime | Implemented: in-process `llama-cpp-2` worker, verified model load, embedded template and typed errors in `src-tauri/src/local_translation/native.rs`. Real inference is recorded in [v0 results](eval/v0-results.md) and [head-to-head results](eval/head-to-head-results.md). Compatibility works; Korean quality has not qualified. | A trained artifact must clear the language/runtime gate, receive a complete production pin and pass packaged offline checks. |
+| Request lifecycle and cancel | Implemented: serialized requests, request-scoped progress/cancellation and state in `src-tauri/src/local_translation.rs`, with frontend subscription cleanup in `src/features/explore/local-api.ts`. [v0 results](eval/v0-results.md) record real lifecycle/error/cancel observations. | Recheck with the selected artifact and packaged translator/tutor; prior candidate measurements do not establish future performance. |
+| Downloader | Infrastructure implemented: immutable manifest identity, length/hash verification, atomic cache publication, space checks, cancellation and partial recovery. [Contract and fixture evidence](downloader/README.md), `src-tauri/src/model_download.rs` and its tests are authoritative. The null production pin refuses before IO. | Qualified pin plus a real measured hash-matching transfer and first-run verification; fixture transport is not that proof. No model download is needed for release one. |
+| Storage and idle unload | Implemented: cache details/delete/download controls in `src/features/settings/ModelPanel.tsx`; idle unload/reload in `local_translation.rs`. Fixture/recovery checks live in `model_download/tests.rs`; frontend coverage in `tests/model-download.test.ts`. | Selected-model cache/lifecycle and delete/re-download checks in the packaged app. DEV-gated model settings must only return after qualification. |
+| Explore switch and adapters | Implemented: Local default, explicit DEV-only Cloud comparison, shared schema, typed errors/cancel and save-to-deck in `src/features/explore/TranslatorPage.tsx`. Adapter parity coverage is in `tests/translator.parity.test.tsx`. Release `ExplorePage.tsx` shows saved discoveries and the absence notice. | Qualified local model, verified download and packaged offline translation with no fallback; release gate must be deliberately changed later. A populated pin cannot enable the current production UI. |
+| Ask Daneo tutor | Implemented: read-only learner context, local requests/cancel, generated-Korean removal and gated curriculum citations under `src/features/tutor/`, covered by `tests/tutor.test.tsx`. Production route/navigation are omitted. | Qualified engine plus real packaged offline tutor/citation/cancel evidence on BAD-240; schema/render tests are not a quality or desktop sign-off. |
+| Deterministic postprocessor | Implemented: romanization, noun-particle identity and gloss particle repair in `src/lib/translation-postprocess.ts`, shared by both adapters. [Romanization audit](eval/romanization-audit.md) and [development results](eval/deterministic-dev-after.md) retain the limits. | Retain and revalidate with the selected model; deterministic fields do not repair all model-owned meaning, gloss, register or literal-gap failures. |
+| Evaluation harness | Implemented and exercised: native/desktop acceptance, raw replies, identity stamps, assembly, scoring and provenance checks under `reference/eval/`. [Engine decision](eval/engine-decision.md) settles the corrected language verdict. | Use the separate development split for iteration; keep v2 sealed for the final single gate run. Native probe RSS and timings are not packaged UI measurements. |
+| Training pipeline | Implemented and run end to end: corpus-derived reviewed targets, QLoRA, merge, matched Q8_0 export and pinned-worker smoke in [v1 results](training/v1-results.md), backed by `training/evidence/v1/`. That candidate declined. Scaled data work is tracked in [dataset v2 review](training/dataset-v2-review.md) and [row verdicts](training/dataset-v2-review-report.md); candidates are not a frozen training authorization. | Finish reviewed dataset/manifest and frozen development split, retrain/export, then the sealed verdict and runtime checks on BAD-240. Pipeline success alone cannot enable AI. |
 
-The build failure persisted with the installed stable Rust toolchain explicitly on
-PATH and `BINDGEN_EXTRA_CLANG_ARGS=-I/usr/lib/clang/22/include`. It also persisted
-outside the initial restricted execution. Its cause is not established; do not
-patch application code merely to suppress it.
+## What was measured, and why nothing ships
 
-The generated `dist/assets/index-BrF6yHLU.js` contains **zero** occurrences of each
-of `127.0.0.1:8787`, `/api/translate`, `claude-sonnet`, and `Cloud · dev`. Recheck the
-current `index-*.js` after each build. `ExplorePage.tsx` gates both cloud selection
-and cloud invocation with `import.meta.env.DEV`; Local is the initial engine.
-These observations support the production gate but do **not** prove packaged
-no-network execution. No server was started for these checks.
+The successive language rungs declined: initial v0 **0/10**, prompt repair
+**1/10**, deterministic v1 **2/10**, and the final prompted base and reviewed
+fine-tune both **4/10**, against the unchanged **≥9/10** bar. The fine-tune had
+one actor reversal. Sources: [v0](eval/v0-results.md),
+[prompt repair](eval/v0-prompt-repair-results.md), [v1](eval/v1-results.md), and
+[engine decision](eval/engine-decision.md), which incorporates the independent
+re-score of the head-to-head report. The earlier base **3/10** in the first-pass
+report is superseded by that corrected **4/10** verdict.
 
-## Artifact and model sizes
+The training run used **27 reviewed rows** and **17.579 s** of training time;
+its Q8_0 export was **4,610,579,744 bytes**. Those are recorded in
+[training/v1-results.md](training/v1-results.md) and its linked machine evidence.
+They prove a working training/export path, not a useful learner-facing engine.
+The installer must carry no weights; a future model remains a separate verified
+download. Release one needs neither a model nor a production pin.
 
-No AppImage/rpm was produced by this attempt, so installer bytes, installed bytes,
-launch screenshot and packaged inference measurements are **unavailable**.
-The compatibility candidate's declared size is **2,740,937,888 bytes** in
-`src-tauri/src/model_artifact.rs`; it is not a production selection or a measurement
-of an installer. Weights must remain a post-install download. Do not build a second
-installer containing the weights just to report a “with model” size: report the
-installer, installed app, verified cache and their combined disk footprint separately.
+## Build history and transferred verification
 
-## Required completion evidence
+The 2026-10-04 closeout at `ef4e0cd` failed before compilation at Cargo metadata
+discovery. That is historical, not the current packaging blocker: the later
+[2026-10-05 TASKS session entry](../TASKS.md#2026-10-05--prepare-three-platform-desktop-bundles)
+records successful Linux AppImage/rpm creation and the host wrapper/include-path
+workaround. It explicitly does not establish installation or a running packaged
+UI. No new package, screenshot, installed footprint or launch is claimed here.
 
-1. Complete independent model selection and set all production pin fields; perform
-   the real hash-verified download. A developer-provisioned candidate alone does
-   not prove the installer's first-run path.
-2. Run `npm run tauri:build` successfully with no acceptance feature and retain the
-   command log, source commit, artifact SHA-256, path and byte count. Inspect the
-   archive to confirm that no GGUF, proxy or credentials are bundled.
-3. On a usable Linux desktop, launch that exact AppImage/rpm in an isolated network
-   namespace with a fresh synthetic learner profile and the verified model cache.
-   Keep `server/` stopped; confirm no external interface/route is available. Do not
-   disable the host's network or use personal learner data.
-4. Inspect the engine controls, translate in both directions and save a result;
-   ask the tutor a curriculum question, verify gated citations, and cancel a
-   request. Capture the packaged window translating and answering. Confirm local
-   failure reports an error without HTTP or cloud fallback.
-5. Record model-cache bytes and combined installed footprint, then re-run the three
-   green commands above. Update README, PROJECT status/architecture/Phase D, TASKS
-   header/checklist/session log, PLAN-local-model, this report and the evaluation
-   README against the final tree before marking Phase D shipped.
+- **BAD-234 → BAD-204 → BAD-205:** Phase B builds, installs and releases the AI-off
+  desktop artifact. BAD-204 owns clean-machine offline use and the proof that the
+  shipped build cannot reach a paid model. Retain artifact identity/size, resource
+  inventory, launch evidence and network isolation there.
+- **BAD-240:** the retrained-engine verdict owns future packaged Explore/tutor
+  offline evidence, including no fallback and cancellation. Model selection and
+  a real verified download must also finish before AI is enabled. Record cache
+  bytes separately from installer/installed-app bytes, not as a weights-bundled
+  installer.
+- **BAD-191:** this documentation closeout requires reconciled documents, green
+  content/build checks and successful CI for its pushed commit. It has no packaged
+  build prerequisite and does not block Phase B on a model that has not qualified.
 
-## Scope and recommendation
+Production frontend exclusions are implemented by `import.meta.env.DEV` in
+`src/App.tsx`, `src/components/AppShell.tsx`, Explore and Settings. The actual
+production-bundle regression in `tests/release-features.test.tsx` checks that AI
+modules/transports are omitted and non-AI modules remain. This is static/rendered
+release evidence; it is not BAD-204's packaged network-isolation proof.
 
-Retain `server/` and the Cloud adapter as a developer-only result-contract
-comparison tool, off by default and absent from the production path. Keep the
-`claude-sonnet-4-6` pin and never fall back to it. Deletion needs the owner's decision.
+## Scope and cloud-adapter recommendation
 
-v1 training remains conditional on language evidence and is not completed by this
-v2 checkpoint. Mobile v3 is a separate decision requiring devices; Phase C is out
-of scope. Windows/macOS distribution remains Phase B, after these desktop gates.
+Keep `server/` and the Cloud adapter as a DEV-gated comparison implementation of
+the result contract: off by default, absent from the production frontend, never
+a fallback. Keep `claude-sonnet-4-6` unchanged. Deleting it is Nick's decision.
+No Phase D code is removed by this closeout.
+
+v1 training is no longer merely conditional: it ran and its candidate declined;
+scaled retraining remains separate work. Mobile v3 needs a separate decision and
+device evidence. Phase C remains out of scope. See [PLAN-local-model.md](../PLAN-local-model.md)
+for settled and still-open design decisions.

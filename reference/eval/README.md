@@ -1,11 +1,16 @@
 # Desktop acceptance runner
 
-**Packaged-app boundary (2026-10-04):** the native probe and acceptance example below
-are development instruments. Neither proves that the ordinary AppImage/rpm launches
-or that its translator and tutor work offline. The current packaged closeout is
-blocked; record the separate checks in [desktop-closeout.md](../desktop-closeout.md)
-before calling Phase D shipped. Do not substitute simulated native transport
-screenshots for a screenshot of the packaged app.
+**Packaged-app boundary (2026-10-05):** native probes and acceptance examples are
+development instruments. Phase D is implemented, measured and not shipped;
+release one excludes AI. [Desktop closeout](../desktop-closeout.md) inventories
+components and evidence. Release packaging/install proof belongs to BAD-234 →
+BAD-204 → BAD-205; BAD-204 owns offline/no-paid-model verification. BAD-240 owns
+future packaged offline translator/tutor evidence. Neither native probes nor
+simulated-transport screenshots substitute for those checks.
+
+The historical runner instructions below describe previous rungs. v0 and v1 are
+spent gates; v2 remains sealed for the next trained artifact's single final
+verdict. Do not rerun a spent gate or open v2 to tune a prompt or dataset.
 
 ## Prompt repair on a host without a usable desktop socket
 

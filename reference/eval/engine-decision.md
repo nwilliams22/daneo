@@ -185,7 +185,7 @@ certified, with the model doing only the plain translation. *Cost:* a product
 decision and a UI pass. No further model work.
 
 **E — Ship Daneo with the AI features off.** 164 modules, the drills and Explore
-on corpus data. Phase B is desktop installers and does not depend on the model:
+saved discoveries. Phase B is desktop installers and does not depend on the model:
 the downloader already refuses an unset pin by design, which is the intended
 behaviour and not a defect. *Cost:* none, and the release chain moves today.
 The translator ships later or not at all.
@@ -243,3 +243,17 @@ What the decision fixes:
 - `python3 reference/eval/relaxation-counterfactual.py` — reproduces the
   relaxation table from the committed per-item verdicts. It invents no
   judgment, runs no inference, and writes nothing.
+
+## Documentation closeout and activation boundary — 2026-10-05
+
+The implementation inventory and reactivation gates are in
+[desktop-closeout.md](../desktop-closeout.md). Production frontend gates now
+exclude the translator, tutor and model panel; native commands remain compiled.
+No packaged offline/no-paid-model proof is claimed here: BAD-204 owns it within
+BAD-234 → BAD-204 → BAD-205. BAD-240 owns the future engine verdict and offline
+translator/tutor evidence. The first training/export pipeline completed, but
+its candidate declined; scaled data review continues separately.
+
+Retain `server/` and the Cloud adapter as a DEV-gated result-contract comparison
+tool, off by default and never a fallback, with `claude-sonnet-4-6` unchanged.
+Deleting it is Nick's decision. No Phase D code is removed by the closeout.

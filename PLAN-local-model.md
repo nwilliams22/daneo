@@ -3,7 +3,7 @@
 > Owner: Nick. Design refresh: **2026-10-03**. Owner constraint added **2026-10-04**.
 > Native compatibility and request lifecycle passed on 2026-10-04; Tauri commands and
 > the validated frontend adapter, Explore controls, storage lifecycle and tutor now exist.
-> Production qualification and packaged desktop closeout remain open.
+> AI qualification remains open; release-one packaging proceeds independently with AI off.
 > See `src-tauri/examples/README.md` and the dated TASKS.md measurements.
 > PROJECT.md governs pedagogy; TASKS.md is the app checklist/session record.
 > Desktop comes first. **The local model is the engine, not an option.** Nick chose
@@ -436,31 +436,42 @@ moves to its own child, chained to the gate that selects the artifact. **Nothing
 here selects the provisional Qwen3.5-4B Q4_K_M artifact**, and the 2.74 GB file
 named earlier in this file remains a candidate, not a pin.
 
-## Desktop closeout checkpoint — 2026-10-04 (not shipped)
+## Phase D documentation closeout — 2026-10-05 (implemented, measured, not shipped)
 
-The v2 implementation is present: local translation/cancellation, guarded downloader,
-cache/settings/idle unload, adapter tests and the read-only tutor. The production pin
-is still null. The closeout attempt passed 236 tests, 15 content checks and the web
-build, but `npm run tauri:build` failed at Cargo discovery before compilation. No
-packaged launch, offline tutor/translation screenshot or installer size was obtained.
-See [`reference/desktop-closeout.md`](reference/desktop-closeout.md) for the exact
-source-of-truth checks and remaining closure conditions.
+The runtime, request lifecycle, downloader, storage/idle unload, Explore adapter,
+read-only tutor, deterministic postprocessor, evaluation harness and training
+pipeline exist. Their individual completion limits and reactivation conditions
+are inventoried in [`reference/desktop-closeout.md`](reference/desktop-closeout.md).
+No candidate has qualified and `reference/model-pin.json` remains null. Production
+frontend builds exclude AI; native code is retained for the training programme.
+The prior Cargo-discovery failure is historical: later Linux packaging succeeded,
+as recorded in TASKS.md's “Prepare three-platform desktop bundles” entry. A native
+build is not a packaged launch or proof of offline learner interaction.
 
 The decision audit's **needs re-picking** rows resolve as follows:
 
-- **Base/Lite pair:** Qwen3.5-4B and Qwen3.5-2B remain candidates; no production
-  artifact is selected. Native compatibility is established separately from Korean
-  quality. Lite qualification is still open.
-- **v1 data volume/held-out design:** independent v1/v2 fixtures and provenance
-  checks exist; synthetic training volume and the trained artifact remain open.
-  Training is conditional on evidence, authorized, and not delivered by v2.
-- **Mobile platform order/bridge and model/UI pair:** both remain open under the
+- **Base/Lite pair:** Qwen3.5-4B compatibility is established, but language selection
+  declined; no production artifact is selected. Lite qualification remains open.
+  The latest base/fine-tune verdict and evidence are in
+  [`reference/eval/engine-decision.md`](reference/eval/engine-decision.md).
+- **v1 data volume/held-out design:** the reviewed training run and matched Q8_0
+  export completed ([v1 results](reference/training/v1-results.md)); the candidate
+  did not qualify. Scaled data, review and a separate frozen development split
+  belong to the next training chain. The sealed v2 set is reserved for its one
+  final verdict; no gate fixture was opened for this documentation closeout.
+- **Mobile platform order/bridge and model/UI pair:** remain open under the
   separate v3 decision; desktop work makes no phone-performance claim.
+
+Release-one packaging and installation belong to BAD-234 → BAD-204 → BAD-205;
+BAD-204 owns clean-machine offline/no-paid-model proof. Offline translator/tutor
+verification returns with the engine on BAD-240. These are not prerequisites to
+closing the documentation-only BAD-191.
 
 **Cloud recommendation:** retain `server/` and its adapter as a development-only
 comparison implementation of the result contract. Keep `claude-sonnet-4-6`, the
-production DEV gate and the no-fallback rule. Deleting the adapter is the owner's
-decision; this closeout leaves it in place. Phase C is outside this work.
+DEV gate and the no-fallback rule. Deleting the adapter is Nick's decision; no
+Phase D code is deleted here. Training is separate from desktop integration,
+mobile v3 requires a separate decision, and Phase C remains outside this work.
 
 ## Later phases and limits
 
@@ -604,7 +615,7 @@ Every number, every failure mode's cost to a learner, and all six ways forward a
 Nick's decision: **ship now with the AI off, and train again at the same time.**
 
 - **The first release has no AI.** The 164 modules, the drills, the SRS review queue
-  and Explore on corpus data ship. The translator and the Ask Daneo tutor are **off in
+  and Explore saved discoveries ship. The translator and the Ask Daneo tutor are **off in
   the shipped build, enforced in code**, with an honest in-app note rather than a dead
   control. A null pin already makes the downloader refuse before any IO, which is the
   designed behaviour and not a defect to work around.
