@@ -485,7 +485,18 @@ Every vocab module ships, in one session-sized unit:
    map.
 8. **Green** — `validate:content`, full test suite, build;
    `npm run visual:pass -- <module ids>` green with the PNGs in `.visual-pass/`
-   actually looked at; TASKS.md log entry.
+   actually looked at; TASKS.md log entry. A failing run is not a pass.
+   **`npm run build` is the only gate that typechecks** — `npm test` and
+   `validate:content` both stay green through a type error, which is how a
+   broken `tsc -b` shipped on 2026-10-05 and went unnoticed.
+9. **Green on GitHub, not just on this box** — after pushing, confirm the
+   Actions run for *your* commit concluded `success`
+   (`gh run list --limit 3`). A local pass is not evidence about `main`: on
+   2026-10-05 eleven consecutive pushes ran red for 3h10m because every
+   engineer checked locally and nobody checked the pushed run. **If you push
+   and leave, you have not finished.** If your commit broke it, fix it now;
+   if you inherited a red `main`, say so on your ticket rather than pushing
+   past it.
 
 Interludes are the same minus words/sentences/gap items.
 
