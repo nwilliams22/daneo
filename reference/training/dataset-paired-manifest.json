@@ -1,0 +1,92 @@
+{
+  "version": "paired-1-candidates",
+  "corpusCommit": "5f5bef477b19eb4799d247352930589542a256a8",
+  "trainingAllowed": false,
+  "dataset": "dataset-paired-candidates.json",
+  "sha256": "8298431da63e0cefca2a78dae8536d3731f13354d947e3eec6ec6e5ec163321e",
+  "count": 500,
+  "anchorCount": 250,
+  "distinctGapEntries": 37,
+  "sources": {
+    "src/content/sentences.json": "de6425ee0426b0f8adfa0bc908159054b1ea3f3743016ae14295a3df40069957",
+    "src/content/gap.json": "0670aa56f1b8526a6f11b771e8d22b22ff63bbf3e5af285d7650c36d3d90869b"
+  },
+  "development": {
+    "file": "development-v2.json",
+    "sha256": "f9b83bd52dce8a3f4c557af27ea94c4fe4226b41d796ebc566b0d1a8337e343d",
+    "frozen": true
+  },
+  "exclusions": {
+    "reservationCount": 136,
+    "developmentCount": 40,
+    "match": "ID and normalized English/Korean"
+  },
+  "crossTable": [
+    {
+      "split": "training",
+      "direction": "en-to-ko",
+      "errorClass": "literal-gap",
+      "nonEmptyGap": true,
+      "glossShape": "multi-chunk",
+      "count": 127
+    },
+    {
+      "split": "training",
+      "direction": "ko-to-en",
+      "errorClass": "literal-gap",
+      "nonEmptyGap": true,
+      "glossShape": "multi-chunk",
+      "count": 127
+    },
+    {
+      "split": "training",
+      "direction": "en-to-ko",
+      "errorClass": "register",
+      "nonEmptyGap": false,
+      "glossShape": "multi-chunk",
+      "count": 45
+    },
+    {
+      "split": "training",
+      "direction": "ko-to-en",
+      "errorClass": "register",
+      "nonEmptyGap": false,
+      "glossShape": "multi-chunk",
+      "count": 45
+    },
+    {
+      "split": "training",
+      "direction": "en-to-ko",
+      "errorClass": "gloss",
+      "nonEmptyGap": false,
+      "glossShape": "multi-chunk",
+      "count": 41
+    },
+    {
+      "split": "training",
+      "direction": "ko-to-en",
+      "errorClass": "gloss",
+      "nonEmptyGap": false,
+      "glossShape": "multi-chunk",
+      "count": 41
+    },
+    {
+      "split": "training",
+      "direction": "en-to-ko",
+      "errorClass": "semantic-fidelity",
+      "nonEmptyGap": false,
+      "glossShape": "multi-chunk",
+      "count": 37
+    },
+    {
+      "split": "training",
+      "direction": "ko-to-en",
+      "errorClass": "semantic-fidelity",
+      "nonEmptyGap": false,
+      "glossShape": "multi-chunk",
+      "count": 37
+    }
+  ],
+  "review": "Pending contextual review of every anchor and its paired targets",
+  "provenance": "Project-owned corpus chunks aligned by ID and reviewed gap entries; no learner records or outside translations"
+}

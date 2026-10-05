@@ -1287,3 +1287,18 @@ top of the freeze document naming which sections exclusion work needs, so the ne
 reader does not have to open the descriptions. No gate inference, no training, no
 rubric or model-pin change. Next: BAD-249 rebuilds supervision in a fresh context and
 scores on development only; BAD-247 posts no replacement card until that number lands.
+
+### 2026-10-05 — Paired literal-gap supervision candidates
+
+Extended the builder from 96 to all 136 reservation exclusions, including normalized
+English/Korean and in-process checksum checks. Added a separate deterministic paired
+candidate build, leaving historical datasets frozen: 500 rows, including 254 aligned
+multi-chunk/non-empty-gap rows split 127/127 by direction and 246 inherited empty-gap
+controls. The manifest includes the joint split/direction/class/gap/gloss table.
+Pattern-only translations were replaced with each matched sentence's own literal and
+natural readings; contextual adequacy remains an independent target-review question.
+Candidates are explicitly not trainable pending review. Builder regression tests (5),
+checker tests (7), both exclusion checker forms, build/typecheck and content validation
+(16/16) pass. Details and exact commands: `reference/training/evidence/paired-supervision-rebuild.md`.
+Next: review targets, apply corrections, then bounded development-only training and
+comparison. No gate inference, production pin or release change.

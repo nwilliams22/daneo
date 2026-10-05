@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = fileURLToPath(new URL('../..', import.meta.url));
 const read = path => JSON.parse(readFileSync(`${ROOT}${path}`, 'utf8'));
-const FILES = [
+const FILES = process.argv.length > 2 ? process.argv.slice(2) : [
   'reference/training/dataset-v1.json',
   'reference/training/dataset-v2.json',
   'reference/training/development-v2.json',
@@ -37,7 +37,7 @@ const table = (label, keyOf) => {
   }
 };
 
-console.log(`Rows the model has ever trained on or been selected against: ${rows.length}`);
+console.log(`Rows in selected audit files: ${rows.length}`);
 console.log(`Rows carrying a non-empty literal_gap: ${rows.filter(r => hasGap(r.item)).length}`);
 
 table('By direction:', item => item.target.direction);

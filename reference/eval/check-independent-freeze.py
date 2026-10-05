@@ -110,11 +110,52 @@ def check():
     return keys
 
 
+def paired_anchors(rows):
+    """Allow only exact mirrored targets; uniqueness still applies to anchors."""
+    grouped = collections.defaultdict(list)
+    for row in rows:
+        grouped[row["corpusSentenceId"]].append(row)
+    anchors = []
+    for pair in grouped.values():
+        assert len(pair) == 2, "paired anchor must have exactly two rows"
+        assert {row["target"]["direction"] for row in pair} == {"en-to-ko", "ko-to-en"}, "paired directions differ"
+        first, second = pair
+        for key in ("english", "korean", "split", "sourceGapId"):
+            assert first[key] == second[key], f"paired {key} differs"
+        targets = [{k: v for k, v in row["target"].items() if k != "direction"} for row in pair]
+        assert targets[0] == targets[1], "paired targets differ"
+        for row in pair:
+            assert row["split"] == "training", "paired dataset must contain training candidates only"
+            target = row["target"]
+            assert row["english"] == target["natural_english"] and row["korean"] == target["korean"]
+            assert row["input"] == row["korean" if target["direction"] == "ko-to-en" else "english"]
+            assert len(target["gloss"]) >= 2, "single-chunk paired supervision"
+            if row["sourceGapId"] is not None:
+                assert target["literal_gap"].strip(), "missing paired gap supervision"
+            assert " ".join(part["chunk"] for part in target["gloss"]) == row["korean"], "unaligned gloss"
+        anchors.append(first)
+    return anchors
+
+
 def check_candidates(path, exclusions):
     data = json.loads(path.read_text())
     rows = data["items"] if isinstance(data, dict) else data
     seen_candidates = [set(), set(), set()]
-    for number, row in enumerate(rows, 1):
+    paired = isinstance(data, dict) and data.get("version") == "paired-1-candidates"
+    checked_rows = paired_anchors(rows) if paired else rows
+    if paired:
+        assert data.get("trainingAllowed") is False, "candidates are not approved training data"
+        assert len({row["id"] for row in rows}) == len(rows), "duplicate candidate ID"
+        # Apply all exclusions to both directions, including optional source text.
+        for row in rows:
+            for field, seen in (("sourceEnglish", exclusions[1]), ("sourceKorean", exclusions[2])):
+                if field in row:
+                    assert normalized(row[field]) not in seen, "reserved paired source text"
+        development = json.loads((ROOT / "reference/training/development-v2.json").read_text())["items"]
+        for key_index, field in enumerate(("corpusSentenceId", "english", "korean")):
+            dev_keys = {row[field] if key_index == 0 else normalized(row[field]) for row in development}
+            assert all((row[field] if key_index == 0 else normalized(row[field])) not in dev_keys for row in rows), "paired training overlaps frozen development"
+    for number, row in enumerate(checked_rows, 1):
         for label, key, seen in zip(("ID", "English", "Korean"),
                                     (row["corpusSentenceId"], normalized(row["english"]), normalized(row["korean"])), exclusions):
             assert key and key not in seen, f"candidate {number} uses reserved {label}: {row['corpusSentenceId']}"
@@ -133,7 +174,7 @@ def check_candidates(path, exclusions):
         splits = collections.Counter(row["split"] for row in rows)
         assert splits == {"training": 250, "development": 40}, "candidate split changed"
         print("PASS: training/development disjoint by ID and normalized texts; all candidates avoid v1 training")
-    print(f"PASS: {len(rows)} candidate rows avoid all {len(exclusions[0])} reservations; no internal duplicate keys")
+    print(f"PASS: {len(rows)} candidate rows avoid all {len(exclusions[0])} reservations; no duplicate anchor keys (exact direction pairs allowed only for paired candidates)")
     return rows
 
 

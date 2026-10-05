@@ -6,9 +6,10 @@ import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { translationResultSchema } from '../../src/lib/schemas.ts';
 
+const paired = process.argv.includes('--paired-candidates');
 const finalizeV2 = process.argv.includes('--v2-final');
 const v2 = finalizeV2 || process.argv.includes('--v2-candidates');
-const corpusCommit = v2 ? '5f5bef477b19eb4799d247352930589542a256a8' : '6587c1f9ef471eb9e50b7059fd99ee745d4c2a64';
+const corpusCommit = (v2 || paired) ? '5f5bef477b19eb4799d247352930589542a256a8' : '6587c1f9ef471eb9e50b7059fd99ee745d4c2a64';
 let rows = [
   ['s_go_home', 'gloss'], ['s2_library_study', 'gloss'],
   ['s2_friend_movie', 'gloss'], ['s3_mart_fruit', 'gloss'],
@@ -52,10 +53,32 @@ const heldOutSha256 = createHash('sha256').update(heldOutBytes).digest('hex');
 assert.equal(readFileSync('reference/eval/training-independent-set.sha256', 'utf8'),
   `${heldOutSha256}  training-independent-set.json\n`, 'independent freeze changed');
 reservations.push(...JSON.parse(heldOutBytes).items);
-assert.equal(reservations.length, 96, 'reservation count changed');
+// Read sealed rows only inside this process; never print their contents.
+for (const name of ['v3-translation-set', 'v3-dev-set']) {
+  const bytes = readFileSync(`reference/eval/${name}.json`);
+  const digest = createHash('sha256').update(bytes).digest('hex');
+  assert.equal(readFileSync(`reference/eval/${name}.sha256`, 'utf8'),
+    `${digest}  ${name}.json\n`, `${name}: freeze changed`);
+  reservations.push(...JSON.parse(bytes).items.map(row => ({
+    corpusSentenceId: row.corpusSentenceId, english: row.expectedReadingEnglish,
+    korean: row.corpusAnchor.korean,
+  })));
+}
+assert.equal(reservations.length, 136, 'reservation count changed');
 const excluded = [new Set(reservations.map(row => row.corpusSentenceId)),
   new Set(reservations.map(row => normalized(row.english))),
   new Set(reservations.map(row => normalized(row.korean)))];
+
+if (process.argv.includes('--check-exclusions')) {
+  assert.ok(excluded.every(keys => keys.size === 136), 'reservation keys are not unique');
+  console.log('PASS: 136 unique reservation IDs and normalized English/Korean exclusions');
+  process.exit(0);
+}
+if (paired) {
+  const { buildPairedCandidates } = await import('./build-paired-dataset.mjs');
+  buildPairedCandidates({ source, gapSource, corpusBytes, gapBytes, corpusCommit, excluded, modelSchema });
+  process.exit(0);
+}
 
 // Candidate selection is deterministic and does not expose reserved text.
 // V2 is deliberately not a training artifact until every target is reviewed.
@@ -238,7 +261,7 @@ if (v2) {
         report: approval.report, reviewedCount: items.length },
       schema: `strict model-owned translationResultSchema: ${items.length}/${items.length} pass`,
       exclusions: { command: 'python3 reference/eval/check-independent-freeze.py',
-        reservationCount: 96, v2SealedCount: 10, independentCount: 60,
+        reservationCount: 136, v2SealedCount: 10, independentCount: 60,
         overlap: 0, v1TrainingOverlap: 0, trainingDevelopmentOverlap: 0 },
       provenance: 'Project-owned pinned curriculum plus explicit reviewed target corrections; no learner records or outside translations',
     };
@@ -263,7 +286,7 @@ const manifest = {
   dataset: 'dataset-v1.json', sha256: createHash('sha256').update(bytes).digest('hex'),
   count: items.length, counts, directionCounts,
   schema: `strict model-owned translationResultSchema: ${items.length}/${items.length} pass`,
-  reservations: '96 excluded by reference/eval/check-independent-freeze.py',
+  reservations: '136 excluded by reference/eval/check-independent-freeze.py',
   heldOut: {
     file: 'reference/eval/training-independent-set.json', count: 60,
     sha256: heldOutSha256,
