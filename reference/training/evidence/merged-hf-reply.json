@@ -1,0 +1,5 @@
+{
+  "input": "Korean is hard. But it's fun.",
+  "rawReply": "{\"direction\": \"en-to-ko\", \"korean\": \"한국어는 어려워요. 하지만 재미있어요.\", \"natural_english\": \"Korean is hard. But it's fun.\", \"gloss\": [{\"chunk\": \"한국어는 어려워요. 하지만 재미있어요.\", \"gloss\": \"Korean-[topic] is-hard. But is-fun.\", \"role\": \"verb\"}], \"literal_gap\": \"\", \"cultural_note\": \"\"}\n",
+  "seconds": 9.998436297988519
+}

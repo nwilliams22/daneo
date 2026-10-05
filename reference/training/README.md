@@ -69,3 +69,18 @@ The acceptance feature alone reads `DANEO_ACCEPTANCE_MODEL_BYTES` and
 normal production builds ignore them. Missing both retains the base identity;
 a partial/invalid pair fails closed. The exact file is still checked before
 loading, and raw acceptance provenance includes its identity.
+
+## Observed failure and bounded diagnostic
+
+The recorded Q4 runtime schema check **fails** because `gloss` is missing.
+Do not interpret the native launcher exit 0 as a pass. The tested BF16 alternative:
+
+```sh
+.local-models/compatibility/venv/bin/python reference/training/diagnose-merged.py
+python3 reference/training/run-runtime-smoke.py --bf16
+node --import tsx reference/training/validate-runtime.mjs --bf16
+```
+
+These use the same non-held-out input. BF16 passes the app schema; full training
+remains blocked on resolving the Q4 gate or authorizing a different export path.
+The diagnostic does not evaluate language quality or change the production pin.
