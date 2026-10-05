@@ -29,11 +29,12 @@ pub(super) struct Loaded {
 }
 
 #[cfg(feature = "acceptance")]
-fn retain_raw(request: &Request, text: &str, complete: bool) {
+fn retain_raw(request: &Request, text: &str, complete: bool, prompt: &str) {
     use std::io::Write;
     if let Some(path) = std::env::var_os("DANEO_ACCEPTANCE_RAW") {
         let (model_bytes, model_sha256) = artifact_identity().expect("verified acceptance identity");
         let provenance = serde_json::json!({
+            "renderedPromptSha256": format!("{:x}", Sha256::digest(prompt.as_bytes())),
             "modelBytes": model_bytes,
             "modelSha256": model_sha256,
             "head": std::env::var("DANEO_ACCEPTANCE_HEAD").expect("acceptance HEAD"),
@@ -142,6 +143,57 @@ fn decode_result<T, E>(result: Result<T, E>) -> Result<T, TranslateError> {
     result.map_err(|_| TranslateError::generation())
 }
 
+// Keep the incumbent no-thinking prefix and admit only the two screened family prefixes.
+fn render_chat_prompt(template: &str, instruction: &str, bos_token: &str) -> Result<String, TranslateError> {
+    let midm = template.contains("Mi:dm");
+    let ax = template.contains("<|im_start|><|assistant|>");
+    let mut messages = Vec::new();
+    if midm {
+        messages.push(serde_json::json!({"role": "system", "content": ""}));
+    }
+    messages.push(serde_json::json!({"role": "user", "content": instruction}));
+    let mut environment = minijinja::Environment::new();
+    environment.set_trim_blocks(true);
+    environment.set_lstrip_blocks(true);
+    environment.set_unknown_method_callback(minijinja_contrib::pycompat::unknown_method_callback);
+    environment.add_function(
+        "raise_exception",
+        |message: String| -> Result<String, minijinja::Error> {
+            Err(minijinja::Error::new(
+                minijinja::ErrorKind::InvalidOperation,
+                message,
+            ))
+        },
+    );
+    environment
+        .add_template(
+            "chat",
+            template,
+        )
+        .map_err(|_| TranslateError::generation())?;
+    let prompt = environment
+        .get_template("chat")
+        .and_then(|template| {
+            template.render(minijinja::context! {
+                messages => messages,
+                bos_token => bos_token, tools => if ax { serde_json::json!([]) } else { serde_json::Value::Null },
+                add_generation_prompt => true, enable_thinking => false,
+            })
+        })
+        .map_err(|_| TranslateError::generation())?;
+    let suffix = if midm {
+        "<|start_header_id|>assistant<|end_header_id|>\n\n"
+    } else if ax {
+        "<|im_start|><|assistant|>"
+    } else {
+        "<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    };
+    if !prompt.ends_with(suffix) {
+        return Err(TranslateError::generation());
+    }
+    Ok(prompt)
+}
+
 pub(super) fn generate(
     request: &Request,
     emit: &dyn Fn(Progress),
@@ -182,38 +234,14 @@ pub(super) fn generate(
     let template = model
         .chat_template(None)
         .map_err(|_| TranslateError::generation())?;
-    let mut environment = minijinja::Environment::new();
-    environment.set_unknown_method_callback(minijinja_contrib::pycompat::unknown_method_callback);
-    environment.add_function(
-        "raise_exception",
-        |message: String| -> Result<String, minijinja::Error> {
-            Err(minijinja::Error::new(
-                minijinja::ErrorKind::InvalidOperation,
-                message,
-            ))
-        },
-    );
-    environment
-        .add_template(
-            "chat",
-            template
-                .to_str()
-                .map_err(|_| TranslateError::generation())?,
-        )
-        .map_err(|_| TranslateError::generation())?;
-    let prompt = environment
-        .get_template("chat")
-        .and_then(|template| {
-            template.render(minijinja::context! {
-                messages => vec![serde_json::json!({"role": "user", "content": instruction})],
-                add_generation_prompt => true, enable_thinking => false,
-            })
-        })
-        .map_err(|_| TranslateError::generation())?;
-    if !prompt.ends_with("<|im_start|>assistant\n<think>\n\n</think>\n\n") {
-        return Err(TranslateError::generation());
-    }
     let vocab = model.vocab();
+    let bos_token = String::from_utf8(vocab.token_to_piece(vocab.bos(), true, None))
+        .map_err(|_| TranslateError::generation())?;
+    let prompt = render_chat_prompt(
+        template.to_str().map_err(|_| TranslateError::generation())?,
+        &instruction,
+        &bos_token,
+    )?;
     let tokens = vocab.tokenize(prompt.as_bytes(), false, true);
     if tokens.is_empty() || tokens.len() + OUTPUT_TOKENS > CONTEXT_TOKENS as usize {
         return Err(TranslateError::new(
@@ -262,7 +290,7 @@ pub(super) fn generate(
             let text = String::from_utf8(vocab.detokenize(&output, false, true))
                 .map_err(|_| TranslateError::generation())?;
             #[cfg(feature = "acceptance")]
-            retain_raw(request, &text, true);
+            retain_raw(request, &text, true, &prompt);
             // Match the shared parser's fence tolerance; zod validates at the client boundary.
             return serde_json::from_str::<Value>(
                 text.replace("```json", "").replace("```", "").trim(),
@@ -290,6 +318,7 @@ pub(super) fn generate(
         request,
         &String::from_utf8_lossy(vocab.detokenize(&output, false, true).as_slice()),
         false,
+        &prompt,
     );
     Err(TranslateError::new(
         ErrorCode::GenerationFailed,
@@ -300,6 +329,26 @@ pub(super) fn generate(
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn publisher_templates_render_nonthinking_generation_prefixes() {
+        let midm = include_str!("../../../reference/eval/fixtures/v3-midm-chat-template.jinja");
+        let ax = include_str!("../../../reference/eval/fixtures/v3-ax-chat-template.jinja");
+        let prompt = render_chat_prompt(midm, "Translate this.", "<|begin_of_text|>").unwrap();
+        assert!(prompt.starts_with("<|begin_of_text|>"));
+        assert!(prompt.contains("<|start_header_id|>user<|end_header_id|>\n\nTranslate this.<|eot_id|>"));
+        assert!(prompt.ends_with("<|start_header_id|>assistant<|end_header_id|>\n\n"));
+        let prompt = render_chat_prompt(ax, "Translate this.", "<|endoftext|>").unwrap();
+        assert_eq!(prompt, "<|im_start|><|user|>Translate this.<|im_end|><|im_start|><|assistant|>");
+    }
+    #[test]
+    fn incumbent_thinking_guard_stays_closed() {
+        let closed = "<|im_start|>assistant\n<think>\n\n</think>\n\n";
+        let template = format!("{{{{ {} }}}}", serde_json::to_string(closed).unwrap());
+        assert_eq!(render_chat_prompt(&template, "Input", "").unwrap(), closed);
+        for bad in ["<|im_start|>assistant\n<think>\n", "unknown prefix"] {
+            assert!(render_chat_prompt(bad, "Input", "").is_err());
+        }
+    }
     #[cfg(feature = "acceptance")]
     #[test]
     fn acceptance_identity_requires_a_complete_valid_pair() {
