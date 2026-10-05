@@ -1,7 +1,8 @@
-# v2 literal-gap diagnosis — in progress
+# v2 literal-gap diagnosis
 
-This is development diagnosis, not a gate result. No reserved input is opened
-by the replay launcher. The production pin and release remain unchanged.
+This is development diagnosis, not a gate result. The replay launcher opens only its fixed training/development inputs. The
+production pin and release remain unchanged. See the boundary incident below:
+reserved descriptions were accidentally exposed through the freeze document.
 
 ## Verified before replay
 
@@ -55,15 +56,119 @@ completion, verifies provenance and agreement between raw and parsed replies,
 and counts field emission, exact target agreement and output gloss shape.
 Those counts are diagnostic metrics, not independent language-quality scores.
 
-**Outcome remains undecided until replay completes.** Some early training rows
-emit gaps, so universal runtime field deletion is already contradicted. This
-alone does not establish memorisation versus generalisation versus a shape or
-direction confound. No dataset rebuild or training has begun.
+## Completed result
 
-Next owner: Duncan. Finish when the complete training/development cross-table
-and reviewed outputs settle the diagnosis; stop if the memorisation branch
-holds. Otherwise proceed to paired multi-chunk supervision and the bounded
-training/development comparison. The sealed v3 gate remains excluded throughout.
+All **118/118** source rows returned successful native results. The continuation
+completed with exit 0 in 528.204 seconds. Raw JSON equals every parsed result;
+model, prompt and per-segment input hashes match. The original interrupted
+process is not falsely assigned a successful exit status.
 
-Verification at this checkpoint: `npm run build` passed; `npm run
-validate:content` passed 16/16 tests. These are repository checks, not a UI run.
+| Split / direction / target gloss | Rows | Non-empty gap | Exact target text | Output multi-chunk | Gap + multi-chunk |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Training / en-to-ko / multi | 2 | 0 | 0 | 2 | 0 |
+| Training / ko-to-en / multi | 7 | 6 | 1 | 6 | 5 |
+| Training / ko-to-en / single | 99 | 95 | 16 | 4 | 2 |
+| Development / ko-to-en / multi | 1 | 1 | 0 | 0 | 0 |
+| Development / ko-to-en / single | 9 | 8 | 0 | 1 | 1 |
+| **Training total** | **108** | **101** | **17** | **12** | **7** |
+| **Development total** | **10** | **9** | **0** | **1** | **1** |
+
+**The observed branch is the direction/gloss-shape confound (outcome 3), with
+important limits on the causal claim.** Both English-to-Korean training gap
+examples return empty while Korean-to-English emits gaps on 101/106 training
+inputs and 9/10 development inputs. Output shape also tracks the defective
+supervision: 95/99 training single-chunk targets retain a single-chunk output,
+and 9/10 development replies are single-chunk. The paired output required by
+the task remains scarce: 7/108 training replies and 1/10 development replies.
+
+This is **not** the stipulated memorisation stop outcome: the model does not
+emit gaps only on its own training inputs and go empty on development inputs.
+Exact-string agreement (17/108 versus 0/10) alone cannot establish memorisation;
+valid paraphrases differ too. It is also not universal pipeline field deletion:
+110 raw replies contain non-empty gaps, and the token audit found the gap
+positions supervised with no truncation. The two observed en-to-ko positives
+are a small sample; no en-to-ko development positives exist in this fixture.
+
+The replay does **not** prove that the construction confound is the whole cause
+of every previously recorded failure or that rebuilding will fix them. Most
+ko-to-en multi-chunk training inputs also emit gaps (6/7). There is no controlled
+same-input intervention on gloss shape here. The evidence establishes a
+learned direction/shape distribution and excludes two proposed blanket
+explanations; causal isolation and language-quality improvement remain unproven.
+
+### Reviewed examples: emission is not correctness
+
+Against the project-owned expected targets:
+
+- Training `DAN-V2-CANDIDATE-086` reproduces its complete gap target exactly
+  and emits a multi-chunk gloss. The paired output is possible in this runtime.
+- Training `DAN-V2-CANDIDATE-218` explains body aches as slenderness. Being an
+  own-row input does not make the emitted explanation correct.
+- Development `DAN-V2-CANDIDATE-281` paraphrases the dragon/small-stream proverb
+  as great things from small beginnings: a non-empty, relevant mapping without
+  an exact-string match. This is counterevidence to empty-on-fresh-inputs.
+- Development `DAN-V2-CANDIDATE-283` misses the stood-up idiom, and `284` emits
+  the unrelated “there's no place like home.” Both nevertheless count as
+  non-empty. `287` also misses the care/work meaning and collapses its target's
+  three gloss chunks into one. `286` emits an empty gap.
+
+Thus the v2 development **field-emission baseline is 9/10 (90%)**, with exact
+text agreement 0/10 and joint gap/multi-chunk emission 1/10. These are diagnostic
+metrics, **not a 90% literal-gap language pass rate**. No retrained artifact or
+retrained development score exists. No gate was inferred on or scored.
+
+### Verification and next action
+
+From the repository root, `python3 reference/training/summarize-gap-replay.py`
+passes all provenance/coverage/raw-result assertions and reproduces the table.
+`python3 -m unittest discover -s reference/training -p test_gap_replay_summary.py`
+passes 5 tests. `npm run build` passes (including `npm run validate:content`,
+16/16 checks). No UI claim applies to this headless diagnostic.
+
+The diagnostic evidence is complete. Rebuilding/retraining remain unfinished
+and await the scope decision described below; the original task is not complete.
+The next permitted action is review of these fixed replay results and a decision
+on safe operator context and exclusion checking, followed by paired supervision
+only when that continuation is authorized. The production pin remains null.
+
+## Interrupted replay recovery
+
+The first process stopped without recording an exit code after 83 of 118 source
+rows. Its raw and parsed files are preserved byte-for-byte. Run
+`python3 reference/training/resume-v2-gap-replay.py` only for that interrupted
+state: it verifies the original model and worker hashes, keeps the original
+fixture, and runs a separate fixture containing the 35 remaining rows. It refuses
+to overwrite a continuation. The continuation manifest records hashes of both
+preserved files; all source inputs and targets are unchanged. The extra greeting
+and cancellation probes are excluded from the diagnostic counts.
+
+The summarizer verifies the two segments against their own fixture hashes and
+requires disjoint, exhaustive coverage of the original 118 rows. Five regression
+checks exercise successful merging and rejection of changed preserved evidence,
+wrong provenance, duplicate replies and an unfinished continuation:
+
+```sh
+python3 -m unittest discover -s reference/training -p test_gap_replay_summary.py
+```
+
+## Boundary incident and continuation constraint
+
+During this continuation, reading `reference/eval/v3-freeze.md` for the
+reservation-exclusion rules also exposed that document's reserved item
+descriptions to the operator context. The sealed JSON itself was not opened;
+no reserved inference ran. The replay fixtures were fixed before this exposure,
+and its continuation remains an unchanged subset of the original inputs. No
+new supervision, model training or candidate selection followed the exposure.
+
+The `v3-translation-set.sha256` file remains byte-identical to the recorded
+manifest hash. **That proves unchanged bytes, not that reserved information
+remained unseen.** No gate claim is made. Rebuilding and retraining require a
+scope decision and a clean continuation context; the exposure cannot be undone
+by omitting it from the report or merely starting another command.
+
+The current `check-independent-freeze.py` also opens the sealed v3 JSON
+internally. It has not been run in this continuation. The existing no-read rule
+must be reconciled with mandatory exclusion checking before any future training
+artifact is admitted. An opaque reservation-exclusion record supplied through
+an authorized custodian is a possible solution; this report does not authorize
+reading, replacing, or spending the gate.

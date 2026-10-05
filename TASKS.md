@@ -1252,3 +1252,19 @@ extracted Linux AppImage with the recorded host Wayland preload, not Windows,
 macOS, ordinary double-click launch or the full remaining acceptance matrix.
 Next: verify final CI and the picker default in its artifact; continue the
 parent's remaining offline feature matrix. Evidence is attached to BAD-251.
+
+### 2026-10-05 — Complete the v2 training/development gap replay
+
+Recovered an interrupted run without overwriting its 83 completed source replies;
+a provenance-bound continuation completed the other 35. All 118 native results
+pass. Non-empty gaps: training 101/108, development 9/10; exact targets 17/108
+and 0/10; gap plus multi-chunk gloss 7/108 and 1/10. The observed pattern is the
+direction/gloss-shape confound, not universal field deletion or empty-on-fresh
+memorisation. This is emission evidence, not a language pass rate or proof of a
+complete causal explanation. Five summary regression tests, build and content
+validation (16/16) pass. `reference/training/evidence/v2-gap-diagnosis.md` records
+the measured limits and an incident: reading the v3 freeze document exposed
+reserved descriptions, though the sealed JSON was not opened and no reserved
+inference ran. No rebuilding or retraining followed. Next: settle a clean
+continuation context and a permitted exclusion check before further training;
+unchanged checksum bytes alone do not prove the gate remained unseen.

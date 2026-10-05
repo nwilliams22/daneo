@@ -1,0 +1,715 @@
+{
+  "purpose": "Development diagnosis only; no gate claim",
+  "items": [
+    {
+      "id": "DAN-V2-CANDIDATE-256",
+      "input": "아무거나",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "아무거나",
+        "natural_english": "whatever's fine (the non-answer)",
+        "gloss": [
+          {
+            "chunk": "아무거나",
+            "gloss": "any thing whatsoever",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “any thing whatsoever”; in use, “whatever's fine (the non-answer)”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-257",
+      "input": "그러게요",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "그러게요",
+        "natural_english": "I know, right?",
+        "gloss": [
+          {
+            "chunk": "그러게요",
+            "gloss": "indeed it is so",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “indeed it is so”; in use, “I know, right?”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-258",
+      "input": "사이다",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "사이다",
+        "natural_english": "clear lemon-lime soda — and a satisfying moment",
+        "gloss": [
+          {
+            "chunk": "사이다",
+            "gloss": "cider",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “cider”; in use, “clear lemon-lime soda — and a satisfying moment”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-259",
+      "input": "닭살",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "닭살",
+        "natural_english": "goosebumps — especially at couples' PDA",
+        "gloss": [
+          {
+            "chunk": "닭살",
+            "gloss": "chicken flesh",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “chicken flesh”; in use, “goosebumps — especially at couples' PDA”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-260",
+      "input": "그림의 떡",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "그림의 떡",
+        "natural_english": "something you can see but never have",
+        "gloss": [
+          {
+            "chunk": "그림의 떡",
+            "gloss": "rice cake in a picture",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “rice cake in a picture”; in use, “something you can see but never have”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-261",
+      "input": "얼죽아",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "얼죽아",
+        "natural_english": "an iced-americano loyalist",
+        "gloss": [
+          {
+            "chunk": "얼죽아",
+            "gloss": "frozen-to-death, still iced",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “frozen-to-death, still iced”; in use, “an iced-americano loyalist”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-262",
+      "input": "웃프다",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "웃프다",
+        "natural_english": "tragicomic — funny and sad at once",
+        "gloss": [
+          {
+            "chunk": "웃프다",
+            "gloss": "laugh-sad",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “laugh-sad”; in use, “tragicomic — funny and sad at once”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-263",
+      "input": "별다줄",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "별다줄",
+        "natural_english": "slang about slang (meta-준말)",
+        "gloss": [
+          {
+            "chunk": "별다줄",
+            "gloss": "they shorten every-darn-thing",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “they shorten every-darn-thing”; in use, “slang about slang (meta-준말)”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-264",
+      "input": "낄끼빠빠",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "낄끼빠빠",
+        "natural_english": "read the room — know when you're wanted",
+        "gloss": [
+          {
+            "chunk": "낄끼빠빠",
+            "gloss": "join when joining, leave when leaving",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “join when joining, leave when leaving”; in use, “read the room — know when you're wanted”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-265",
+      "input": "갑과 을",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "갑과 을",
+        "natural_english": "the strong and the weak (in any relationship)",
+        "gloss": [
+          {
+            "chunk": "갑과 을",
+            "gloss": "party A and party B",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “party A and party B”; in use, “the strong and the weak (in any relationship)”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-266",
+      "input": "영업 중",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "영업 중",
+        "natural_english": "open / currently in operation",
+        "gloss": [
+          {
+            "chunk": "영업 중",
+            "gloss": "business — middle",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “business — middle”; in use, “open / currently in operation”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-267",
+      "input": "말은 제주로, 사람은 서울로",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "말은 제주로, 사람은 서울로",
+        "natural_english": "Horses to Jeju; people to Seoul.",
+        "gloss": [
+          {
+            "chunk": "말은 제주로, 사람은 서울로",
+            "gloss": "horses to Jeju, people to Seoul",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally, “horses to Jeju, people to Seoul.” This proverb recommends sending each to a place suited to its prospects: Jeju for horses and Seoul for people seeking opportunity.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-268",
+      "input": "서울 공화국",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "서울 공화국",
+        "natural_english": "everything in Korea concentrates in the capital region",
+        "gloss": [
+          {
+            "chunk": "서울 공화국",
+            "gloss": "the Republic of Seoul",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “the Republic of Seoul”; in use, “everything in Korea concentrates in the capital region”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-269",
+      "input": "팔도",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "팔도",
+        "natural_english": "all of Korea — everywhere in the country",
+        "gloss": [
+          {
+            "chunk": "팔도",
+            "gloss": "eight provinces",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “eight provinces”; in use, “all of Korea — everywhere in the country”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-270",
+      "input": "뭐라고요?",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "뭐라고요?",
+        "natural_english": "sorry, what did you say? (or, with heat: WHAT?!)",
+        "gloss": [
+          {
+            "chunk": "뭐라고요?",
+            "gloss": "you say — what?",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “you say — what?”; in use, “sorry, what did you say? (or, with heat: WHAT?!)”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-271",
+      "input": "온대요",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "온대요",
+        "natural_english": "I hear they're coming — hearsay in one syllable",
+        "gloss": [
+          {
+            "chunk": "온대요",
+            "gloss": "come — (says, shrunk)",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “come — (says, shrunk)”; in use, “I hear they're coming — hearsay in one syllable”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-272",
+      "input": "국민 여동생",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "국민 여동생",
+        "natural_english": "a star the whole country has adopted",
+        "gloss": [
+          {
+            "chunk": "국민 여동생",
+            "gloss": "the nation's little sister",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “the nation's little sister”; in use, “a star the whole country has adopted”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-273",
+      "input": "잘 부탁드립니다",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "잘 부탁드립니다",
+        "natural_english": "please take care of me — the first-meeting formula",
+        "gloss": [
+          {
+            "chunk": "잘 부탁드립니다",
+            "gloss": "I entrust (it/myself) to you well",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “I entrust (it/myself) to you well”; in use, “please take care of me — the first-meeting formula”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-274",
+      "input": "아 다르고 어 다르다",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "아 다르고 어 다르다",
+        "natural_english": "HOW you say it changes everything",
+        "gloss": [
+          {
+            "chunk": "아 다르고 어 다르다",
+            "gloss": "ah is one thing, eo is another",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “ah is one thing, eo is another”; in use, “HOW you say it changes everything”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-275",
+      "input": "빈말",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "빈말",
+        "natural_english": "polite formulas nobody means literally",
+        "gloss": [
+          {
+            "chunk": "빈말",
+            "gloss": "empty words",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “empty words”; in use, “polite formulas nobody means literally”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-276",
+      "input": "정신이 없어요",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "정신이 없어요",
+        "natural_english": "frazzled — too swamped to think straight",
+        "gloss": [
+          {
+            "chunk": "정신이 없어요",
+            "gloss": "there is no mind/spirit",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “there is no mind/spirit”; in use, “frazzled — too swamped to think straight”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-277",
+      "input": "월요병",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "월요병",
+        "natural_english": "the Monday blues, diagnosed",
+        "gloss": [
+          {
+            "chunk": "월요병",
+            "gloss": "Monday sickness",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “Monday sickness”; in use, “the Monday blues, diagnosed”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-278",
+      "input": "꿈도 꾸지 마",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "꿈도 꾸지 마",
+        "natural_english": "don't even THINK about it",
+        "gloss": [
+          {
+            "chunk": "꿈도 꾸지 마",
+            "gloss": "don't even dream the dream",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “don't even dream the dream”; in use, “don't even THINK about it”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-279",
+      "input": "세 살 버릇 여든까지 간다",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "세 살 버릇 여든까지 간다",
+        "natural_english": "old habits die hard — so raise them well from the start",
+        "gloss": [
+          {
+            "chunk": "세 살 버릇 여든까지 간다",
+            "gloss": "a three-year-old's habit goes until eighty",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “a three-year-old's habit goes until eighty”; in use, “old habits die hard — so raise them well from the start”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-280",
+      "input": "사랑에 빠지다",
+      "direction": "ko-to-en",
+      "split": "training",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "사랑에 빠지다",
+        "natural_english": "to fall in love — same accident, same grammar",
+        "gloss": [
+          {
+            "chunk": "사랑에 빠지다",
+            "gloss": "to fall into love",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “to fall into love”; in use, “to fall in love — same accident, same grammar”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-281",
+      "input": "개천에서 용 난다",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "개천에서 용 난다",
+        "natural_english": "greatness can come from humble beginnings",
+        "gloss": [
+          {
+            "chunk": "개천에서 용 난다",
+            "gloss": "a dragon rises from a ditch",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “a dragon rises from a ditch”; in use, “greatness can come from humble beginnings”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-282",
+      "input": "마음이 놓여요",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "마음이 놓여요",
+        "natural_english": "what a relief — I can stop worrying now",
+        "gloss": [
+          {
+            "chunk": "마음이 놓여요",
+            "gloss": "the heart gets set down",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “the heart gets set down”; in use, “what a relief — I can stop worrying now”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-283",
+      "input": "바람맞았어요",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "바람맞았어요",
+        "natural_english": "I got stood up",
+        "gloss": [
+          {
+            "chunk": "바람맞았어요",
+            "gloss": "I got hit by the wind",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “I got hit by the wind”; in use, “I got stood up”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-284",
+      "input": "불행 중 다행",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "불행 중 다행",
+        "natural_english": "the silver lining — it could have been so much worse",
+        "gloss": [
+          {
+            "chunk": "불행 중 다행",
+            "gloss": "good fortune amid misfortune",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “good fortune amid misfortune”; in use, “the silver lining — it could have been so much worse”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-285",
+      "input": "마음을 비우다",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "마음을 비우다",
+        "natural_english": "to let go of expectations — want nothing, hurt less",
+        "gloss": [
+          {
+            "chunk": "마음을 비우다",
+            "gloss": "to empty the heart/mind",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “to empty the heart/mind”; in use, “to let go of expectations — want nothing, hurt less”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-286",
+      "input": "사람 살려!",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "사람 살려!",
+        "natural_english": "Help!",
+        "gloss": [
+          {
+            "chunk": "사람 살려!",
+            "gloss": "save the person!",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally, “save the person!” In danger, this is a cry for help. It can also be exaggerated jokingly in an overwhelming situation.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-287",
+      "input": "손이 많이 가다",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "손이 많이 가다",
+        "natural_english": "high-maintenance — it takes a lot of care",
+        "gloss": [
+          {
+            "chunk": "손이",
+            "gloss": "hand-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "많이",
+            "gloss": "a lot / repeatedly",
+            "role": "other"
+          },
+          {
+            "chunk": "가다",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "Literally, “the hand goes a lot”; in use, something takes a lot of care or work. 많이 describes how much the hand goes to the task, not a number of hands.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-288",
+      "input": "하루아침에",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "하루아침에",
+        "natural_english": "overnight — all at once, out of nowhere",
+        "gloss": [
+          {
+            "chunk": "하루아침에",
+            "gloss": "in one morning",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “in one morning”; in use, “overnight — all at once, out of nowhere”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-289",
+      "input": "눈코 뜰 새 없다",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "눈코 뜰 새 없다",
+        "natural_english": "utterly swamped — not a second to breathe",
+        "gloss": [
+          {
+            "chunk": "눈코 뜰 새 없다",
+            "gloss": "no gap to open eyes and nose",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “no gap to open eyes and nose”; in use, “utterly swamped — not a second to breathe”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-290",
+      "input": "코리안 타임",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "코리안 타임",
+        "natural_english": "Running late (the dated or joking expression “Korean time”).",
+        "gloss": [
+          {
+            "chunk": "코리안 타임",
+            "gloss": "Korean Time",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally, “Korean time”; in dated or joking usage, this refers to lateness. It is not a claim that Koreans are generally late or a literal time-zone name.",
+        "cultural_note": ""
+      }
+    }
+  ]
+}
