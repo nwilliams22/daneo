@@ -131,7 +131,7 @@ describe("validator catches broken content", () => {
   it("flags missing, wrong, and extra romanization terminal marks", () => {
     const b = clone();
     const question = b.sentences.find((s) => s.id === "s24_good_idea")!;
-    question.rom = question.rom.slice(0, -1);
+    question.rom = question.rom!.slice(0, -1);
     expect(codes(validateContent(b))).toContain("sentence-rom-terminal-mark");
 
     question.rom += "?";

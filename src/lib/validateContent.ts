@@ -214,7 +214,7 @@ export function validateContent(bundle: ContentBundle): ContentError[] {
   const terminalMarks = ".?!";
   for (const s of bundle.sentences) {
     const ko = s.ko.map((c) => c.t).filter(Boolean).join(" ").trimEnd();
-    const rom = s.rom.trimEnd();
+    const rom = (s.rom ?? "").trimEnd();
     if (!ko || !rom) continue;
     const koMark = ko.slice(-1);
     const romMark = rom.slice(-1);

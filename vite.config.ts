@@ -18,5 +18,9 @@ export default defineConfig({
   },
   test: {
     environment: "node",
+    // Collect our own suites only. A local llama.cpp checkout under
+    // .local-models/ carries its own *.test.ts files, and vitest's default
+    // include sweeps the whole tree — gitignored directories included.
+    include: ["{src,tests}/**/*.{test,spec}.{ts,tsx}"],
   },
 });
