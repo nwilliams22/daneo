@@ -27,6 +27,19 @@
 # nested screen, leaving dead black to the right and below. `start` now fits the
 # window to the screen itself (QA_FIT_WINDOW=0 to keep the shipped 1100x800), and
 # `shot` captures the window rather than the root so a screenshot is all app.
+#
+# The nested window does NOT need host focus, and does not need to be visible.
+# Measured 2026-10-04: xdotool/import here are clients of :7, so input and capture
+# never touch the host. With the host pointer on another monitor and the Xephyr
+# window *minimized*, a nested click+type still landed in the app and the capture
+# came back complete with 0.0% black. Use the monitor for anything; the only way to
+# disturb a run is to focus the Xephyr window and type, which forwards your real
+# keystrokes into the app under test.
+#
+# The one thing that does break it: resizing the Xephyr window. `-resizeable` means
+# the host window size *is* the nested screen size (measured: host 1400x900 ->
+# `xdpyinfo` 1400x900), and the app window does not follow, so it ends up clipped.
+# `fit` reads the live screen size, so run it after any resize.
 
 set -uo pipefail
 
@@ -49,6 +62,10 @@ vite_up() { curl -sf -o /dev/null "http://localhost:$VITE_PORT/"; }
 xserver_up() { nested xdpyinfo >/dev/null 2>&1; }
 
 app_window() { nested xdotool search --name '단어 Daneo' 2>/dev/null | tail -1; }
+
+# The live screen size, not QA_GEOMETRY: Xephyr is -resizeable, so dragging the host
+# window changes the nested screen out from under us.
+screen_size() { nested xdpyinfo 2>/dev/null | awk '/dimensions:/ {print $2; exit}'; }
 
 start_vite() {
   if vite_up; then echo "vite: already on :$VITE_PORT"; return 0; fi
@@ -73,7 +90,8 @@ start_xserver() {
 fit_window() {
   WID="${1:-$(app_window)}"
   [ -n "$WID" ] || { echo "fit: no app window on $QA_DISPLAY" >&2; return 1; }
-  W="${QA_GEOMETRY%x*}"; H="${QA_GEOMETRY#*x}"
+  DIM="$(screen_size)"; [ -n "$DIM" ] || DIM="$QA_GEOMETRY"
+  W="${DIM%x*}"; H="${DIM#*x}"
   nested xdotool windowmove "$WID" 0 0 windowsize "$WID" "$W" "$H" || return 1
   # The WebKit view relays out on the X resize; give it a beat before a screenshot.
   sleep 0.5
