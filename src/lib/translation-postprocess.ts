@@ -34,6 +34,35 @@ export function particlesIn(korean: string): { particle: string; job: string }[]
   return found;
 }
 
+/** Match a standalone gloss particle to the noun it follows in the Korean line. */
+function alignGlossParticles(
+  korean: string,
+  gloss: unknown,
+): unknown {
+  if (!Array.isArray(gloss)) return gloss;
+  const words = new Set(korean.match(/[가-힣]+/g) ?? []);
+  const equivalentParticles = [
+    ["은", "는"], ["이", "가"], ["을", "를"], ["와", "과"],
+    ["으로", "로"], ["이랑", "랑"],
+  ];
+  return gloss.map((item, index) => {
+    if (!item || typeof item !== "object" || typeof item.chunk !== "string") return item;
+    const alternatives = equivalentParticles.find(group => group.includes(item.chunk));
+    const preceding = gloss[index - 1];
+    if (!alternatives || !preceding || typeof preceding.chunk !== "string") return item;
+    const matches = alternatives.filter(particle => words.has(preceding.chunk + particle));
+    if (matches.length !== 1 || matches[0] === item.chunk) return item;
+    const particle = matches[0];
+    return {
+      ...item,
+      chunk: particle,
+      gloss: typeof item.gloss === "string"
+        ? item.gloss.replace(new RegExp(`(^|\\s)${item.chunk}(?=$|\\s)`, "g"), `$1${particle}`)
+        : item.gloss,
+    };
+  });
+}
+
 /** Model output is deliberately a smaller shape than the saved learner contract. */
 export function postprocessTranslation(raw: unknown): TranslationResult | null {
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
@@ -44,6 +73,7 @@ export function postprocessTranslation(raw: unknown): TranslationResult | null {
   const result = translationResultSchema.safeParse({
     ...candidate,
     romanization: romanize(candidate.korean),
+    gloss: alignGlossParticles(candidate.korean, candidate.gloss),
     particles: computed.map(({ particle, job }) => {
       const claim = claims.find((item): item is { particle: string; job: string } =>
         item && typeof item === "object" && item.particle === particle && typeof item.job === "string");

@@ -44,4 +44,21 @@ describe("particle postprocessing", () => {
   it("accepts model output without romanization", () => {
     expect(postprocessTranslation(base("물을 마셔요"))).toMatchObject({ romanization: "mureul masyeoyo", particles: [{ particle: "을" }] });
   });
+  it("shows the Korean line's object marker in a split gloss chip", () => {
+    const result = postprocessTranslation({ ...base("한국어를 공부해요"), gloss: [
+      { chunk: "한국어", gloss: "Korean", role: "object" },
+      { chunk: "을", gloss: "object marker 을", role: "other" },
+      { chunk: "공부해요", gloss: "study", role: "verb" },
+    ] });
+    expect(result?.gloss[1]).toEqual({ chunk: "를", gloss: "object marker 를", role: "other" });
+    expect(result?.particles).toEqual([{ particle: "를", job: "marks the object" }]);
+  });
+  it("leaves an unaligned or already correct gloss particle unchanged", () => {
+    const gloss = [
+      { chunk: "한국어", gloss: "Korean", role: "object" as const },
+      { chunk: "를", gloss: "object marker", role: "other" as const },
+      { chunk: "을", gloss: "object marker", role: "other" as const },
+    ];
+    expect(postprocessTranslation({ ...base("한국어를 공부해요"), gloss })?.gloss).toEqual(gloss);
+  });
 });
