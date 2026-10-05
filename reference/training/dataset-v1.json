@@ -1,0 +1,820 @@
+{
+  "version": "training-1",
+  "corpusCommit": "6587c1f9ef471eb9e50b7059fd99ee745d4c2a64",
+  "items": [
+    {
+      "id": "DAN-TRAIN-001",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s_go_home",
+      "english": "I am going home",
+      "korean": "저는 집에 가요",
+      "input": "I am going home",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "저는 집에 가요",
+        "natural_english": "I am going home",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "집에",
+            "gloss": "home-to",
+            "role": "place"
+          },
+          {
+            "chunk": "가요",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-002",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s2_library_study",
+      "english": "I study Korean at the library",
+      "korean": "저는 도서관에서 한국어를 공부해요",
+      "input": "I study Korean at the library",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "저는 도서관에서 한국어를 공부해요",
+        "natural_english": "I study Korean at the library",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "도서관에서",
+            "gloss": "library-at",
+            "role": "place"
+          },
+          {
+            "chunk": "한국어를",
+            "gloss": "Korean-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "공부해요",
+            "gloss": "study",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-003",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s2_friend_movie",
+      "english": "I watched a movie with my friend",
+      "korean": "친구하고 영화를 봤어요",
+      "input": "I watched a movie with my friend",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "친구하고 영화를 봤어요",
+        "natural_english": "I watched a movie with my friend",
+        "gloss": [
+          {
+            "chunk": "친구하고",
+            "gloss": "friend-with",
+            "role": "other"
+          },
+          {
+            "chunk": "영화를",
+            "gloss": "movie-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "봤어요",
+            "gloss": "watched",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-004",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s3_mart_fruit",
+      "english": "I bought fruit and vegetables at the supermarket",
+      "korean": "마트에서 과일하고 채소를 샀어요",
+      "input": "I bought fruit and vegetables at the supermarket",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "마트에서 과일하고 채소를 샀어요",
+        "natural_english": "I bought fruit and vegetables at the supermarket",
+        "gloss": [
+          {
+            "chunk": "마트에서",
+            "gloss": "mart-at",
+            "role": "place"
+          },
+          {
+            "chunk": "과일하고",
+            "gloss": "fruit-and",
+            "role": "object"
+          },
+          {
+            "chunk": "채소를",
+            "gloss": "vegetables-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "샀어요",
+            "gloss": "bought",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-005",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s3_order_bibimbap",
+      "english": "I ordered bibimbap at the restaurant",
+      "korean": "식당에서 비빔밥을 주문했어요",
+      "input": "I ordered bibimbap at the restaurant",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "식당에서 비빔밥을 주문했어요",
+        "natural_english": "I ordered bibimbap at the restaurant",
+        "gloss": [
+          {
+            "chunk": "식당에서",
+            "gloss": "restaurant-at",
+            "role": "place"
+          },
+          {
+            "chunk": "비빔밥을",
+            "gloss": "bibimbap-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "주문했어요",
+            "gloss": "ordered",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-006",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s3_lunch_ramyeon",
+      "english": "I ate ramen for lunch",
+      "korean": "점심에 라면을 먹었어요",
+      "input": "I ate ramen for lunch",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "점심에 라면을 먹었어요",
+        "natural_english": "I ate ramen for lunch",
+        "gloss": [
+          {
+            "chunk": "점심에",
+            "gloss": "lunch-at",
+            "role": "other"
+          },
+          {
+            "chunk": "라면을",
+            "gloss": "ramen-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "먹었어요",
+            "gloss": "ate",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-007",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s5_monday_school",
+      "english": "I go to school on Mondays",
+      "korean": "월요일에 학교에 가요",
+      "input": "I go to school on Mondays",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "월요일에 학교에 가요",
+        "natural_english": "I go to school on Mondays",
+        "gloss": [
+          {
+            "chunk": "월요일에",
+            "gloss": "Monday-on",
+            "role": "other"
+          },
+          {
+            "chunk": "학교에",
+            "gloss": "school-to",
+            "role": "place"
+          },
+          {
+            "chunk": "가요",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-008",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s6_book_desk",
+      "english": "The book is on the desk",
+      "korean": "책이 책상 위에 있어요",
+      "input": "The book is on the desk",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "책이 책상 위에 있어요",
+        "natural_english": "The book is on the desk",
+        "gloss": [
+          {
+            "chunk": "책이",
+            "gloss": "book-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "책상 위에",
+            "gloss": "desk topside-at",
+            "role": "place"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "exists",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-009",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s6_cafe_between",
+      "english": "The cafe is between the bank and the supermarket",
+      "korean": "카페는 은행하고 마트 사이에 있어요",
+      "input": "The cafe is between the bank and the supermarket",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "카페는 은행하고 마트 사이에 있어요",
+        "natural_english": "The cafe is between the bank and the supermarket",
+        "gloss": [
+          {
+            "chunk": "카페는",
+            "gloss": "cafe-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "은행하고 마트 사이에",
+            "gloss": "bank-and supermarket between-at",
+            "role": "place"
+          },
+          {
+            "chunk": "있어요",
+            "gloss": "exists",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-010",
+      "errorClass": "gloss",
+      "corpusSentenceId": "s11_summer_swim",
+      "english": "In summer you can swim in the sea",
+      "korean": "여름에 바다에서 수영할 수 있어요",
+      "input": "In summer you can swim in the sea",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "여름에 바다에서 수영할 수 있어요",
+        "natural_english": "In summer you can swim in the sea",
+        "gloss": [
+          {
+            "chunk": "여름에",
+            "gloss": "summer-in",
+            "role": "other"
+          },
+          {
+            "chunk": "바다에서",
+            "gloss": "sea-at",
+            "role": "place"
+          },
+          {
+            "chunk": "수영할 수 있어요",
+            "gloss": "swim-can",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-011",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s2_milk_bread",
+      "english": "I bought milk and bread",
+      "korean": "우유하고 빵을 샀어요",
+      "input": "I bought milk and bread",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "우유하고 빵을 샀어요",
+        "natural_english": "I bought milk and bread",
+        "gloss": [
+          {
+            "chunk": "우유하고",
+            "gloss": "milk-and",
+            "role": "object"
+          },
+          {
+            "chunk": "빵을",
+            "gloss": "bread-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "샀어요",
+            "gloss": "bought",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-012",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s6_subway_work",
+      "english": "I go to work by subway",
+      "korean": "지하철로 회사에 가요",
+      "input": "지하철로 회사에 가요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "지하철로 회사에 가요",
+        "natural_english": "I go to work by subway",
+        "gloss": [
+          {
+            "chunk": "지하철로",
+            "gloss": "subway-by",
+            "role": "other"
+          },
+          {
+            "chunk": "회사에",
+            "gloss": "company-to",
+            "role": "place"
+          },
+          {
+            "chunk": "가요",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-013",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s7_coffee_expensive_but",
+      "english": "The coffee is expensive but delicious",
+      "korean": "커피는 비싸지만 맛있어요",
+      "input": "The coffee is expensive but delicious",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "커피는 비싸지만 맛있어요",
+        "natural_english": "The coffee is expensive but delicious",
+        "gloss": [
+          {
+            "chunk": "커피는",
+            "gloss": "coffee-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "비싸지만",
+            "gloss": "expensive-but",
+            "role": "verb"
+          },
+          {
+            "chunk": "맛있어요",
+            "gloss": "is-delicious",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-014",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s10_cant_drive",
+      "english": "I can't drive",
+      "korean": "저는 운전할 수 없어요",
+      "input": "I can't drive",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "저는 운전할 수 없어요",
+        "natural_english": "I can't drive",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "운전할 수 없어요",
+            "gloss": "drive-way not-exists",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-015",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s10_homework_must",
+      "english": "I have to do homework today",
+      "korean": "오늘 숙제를 해야 돼요",
+      "input": "오늘 숙제를 해야 돼요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "오늘 숙제를 해야 돼요",
+        "natural_english": "I have to do homework today",
+        "gloss": [
+          {
+            "chunk": "오늘",
+            "gloss": "today",
+            "role": "other"
+          },
+          {
+            "chunk": "숙제를",
+            "gloss": "homework-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "해야 돼요",
+            "gloss": "do-must",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-016",
+      "errorClass": "semantic-fidelity",
+      "corpusSentenceId": "s12_missed_bus",
+      "english": "I missed the bus. So I was late",
+      "korean": "버스를 놓쳤어요. 그래서 늦었어요",
+      "input": "버스를 놓쳤어요. 그래서 늦었어요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "버스를 놓쳤어요. 그래서 늦었어요",
+        "natural_english": "I missed the bus. So I was late",
+        "gloss": [
+          {
+            "chunk": "버스를",
+            "gloss": "bus-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "놓쳤어요.",
+            "gloss": "missed.",
+            "role": "verb"
+          },
+          {
+            "chunk": "그래서",
+            "gloss": "therefore",
+            "role": "other"
+          },
+          {
+            "chunk": "늦었어요",
+            "gloss": "was-late",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-017",
+      "errorClass": "register",
+      "corpusSentenceId": "s3_friend_bulgogi",
+      "english": "My friend made bulgogi",
+      "korean": "친구가 불고기를 만들었어요",
+      "input": "My friend made bulgogi",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "친구가 불고기를 만들었어요",
+        "natural_english": "My friend made bulgogi",
+        "gloss": [
+          {
+            "chunk": "친구가",
+            "gloss": "friend-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "불고기를",
+            "gloss": "bulgogi-[obj]",
+            "role": "object"
+          },
+          {
+            "chunk": "만들었어요",
+            "gloss": "made",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-018",
+      "errorClass": "register",
+      "corpusSentenceId": "s4_dad_cooks",
+      "english": "Dad cooks",
+      "korean": "아빠가 요리해요",
+      "input": "Dad cooks",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "아빠가 요리해요",
+        "natural_english": "Dad cooks",
+        "gloss": [
+          {
+            "chunk": "아빠가",
+            "gloss": "dad-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "요리해요",
+            "gloss": "cooks",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-019",
+      "errorClass": "register",
+      "corpusSentenceId": "s4_eonni_doctor",
+      "english": "My older sister is a doctor",
+      "korean": "언니는 의사예요",
+      "input": "My older sister is a doctor",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "언니는 의사예요",
+        "natural_english": "My older sister is a doctor",
+        "gloss": [
+          {
+            "chunk": "언니는",
+            "gloss": "older-sister-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "의사예요",
+            "gloss": "doctor-is",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-020",
+      "errorClass": "register",
+      "corpusSentenceId": "s7_weather_warm",
+      "english": "The weather is warm",
+      "korean": "날씨가 따뜻해요",
+      "input": "The weather is warm",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "날씨가 따뜻해요",
+        "natural_english": "The weather is warm",
+        "gloss": [
+          {
+            "chunk": "날씨가",
+            "gloss": "weather-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "따뜻해요",
+            "gloss": "is-warm",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-021",
+      "errorClass": "register",
+      "corpusSentenceId": "s8_get_up",
+      "english": "I get up at 7 every day",
+      "korean": "저는 매일 일곱 시에 일어나요",
+      "input": "I get up at 7 every day",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "저는 매일 일곱 시에 일어나요",
+        "natural_english": "I get up at 7 every day",
+        "gloss": [
+          {
+            "chunk": "저는",
+            "gloss": "I-[as for]",
+            "role": "subject"
+          },
+          {
+            "chunk": "매일",
+            "gloss": "every-day",
+            "role": "other"
+          },
+          {
+            "chunk": "일곱 시에",
+            "gloss": "seven-hour-at",
+            "role": "other"
+          },
+          {
+            "chunk": "일어나요",
+            "gloss": "get-up",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-022",
+      "errorClass": "register",
+      "corpusSentenceId": "s8_tomorrow_rest",
+      "english": "Tomorrow I will rest at home",
+      "korean": "내일은 집에서 쉴 거예요",
+      "input": "Tomorrow I will rest at home",
+      "target": {
+        "direction": "en-to-ko",
+        "korean": "내일은 집에서 쉴 거예요",
+        "natural_english": "Tomorrow I will rest at home",
+        "gloss": [
+          {
+            "chunk": "내일은",
+            "gloss": "tomorrow-[as for]",
+            "role": "other"
+          },
+          {
+            "chunk": "집에서",
+            "gloss": "home-at",
+            "role": "place"
+          },
+          {
+            "chunk": "쉴 거예요",
+            "gloss": "rest-will",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-023",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_masisseoyo",
+      "english": "it's delicious",
+      "korean": "맛있어요",
+      "input": "맛있어요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "맛있어요",
+        "natural_english": "it's delicious",
+        "gloss": [
+          {
+            "chunk": "맛있어요",
+            "gloss": "taste exists",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “taste exists”; in use, “it's delicious”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-024",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_baegopayo",
+      "english": "I'm hungry",
+      "korean": "배고파요",
+      "input": "배고파요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "배고파요",
+        "natural_english": "I'm hungry",
+        "gloss": [
+          {
+            "chunk": "배고파요",
+            "gloss": "stomach is hungry",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “stomach is hungry”; in use, “I'm hungry”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-025",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g2_jal_jinae",
+      "english": "how have you been?",
+      "korean": "잘 지냈어요?",
+      "input": "잘 지냈어요?",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "잘 지냈어요?",
+        "natural_english": "how have you been?",
+        "gloss": [
+          {
+            "chunk": "잘 지냈어요?",
+            "gloss": "did you pass (time) well?",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “did you pass (time) well?”; in use, “how have you been?”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-026",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g_nunchi",
+      "english": "the art of reading a room",
+      "korean": "눈치",
+      "input": "눈치",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "눈치",
+        "natural_english": "the art of reading a room",
+        "gloss": [
+          {
+            "chunk": "눈치",
+            "gloss": "eye-measure",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “eye-measure”; in use, “the art of reading a room”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-TRAIN-027",
+      "errorClass": "literal-gap",
+      "corpusSentenceId": "gap:g11_rain_comes",
+      "english": "it's raining",
+      "korean": "비가 와요",
+      "input": "비가 와요",
+      "target": {
+        "direction": "ko-to-en",
+        "korean": "비가 와요",
+        "natural_english": "it's raining",
+        "gloss": [
+          {
+            "chunk": "비가 와요",
+            "gloss": "rain comes",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “rain comes”; in use, “it's raining”.",
+        "cultural_note": ""
+      }
+    }
+  ]
+}
