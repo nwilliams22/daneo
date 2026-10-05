@@ -1,0 +1,655 @@
+{
+  "outcome": "report serialization failed after 81 updates, before adapter save; no export or inference",
+  "error": "TypeError: Object of type dtype is not JSON serializable",
+  "remedy": "Serialize torch dtype metadata as strings; repeat identical seed/config from original base",
+  "losses": [
+    {
+      "step": 1,
+      "epoch": 1,
+      "id": "DAN-TRAIN-015",
+      "loss": 0.31761273741722107,
+      "input_tokens": 684,
+      "grad_norm": 1.7345057725906372
+    },
+    {
+      "step": 2,
+      "epoch": 1,
+      "id": "DAN-TRAIN-009",
+      "loss": 0.5904349088668823,
+      "input_tokens": 701,
+      "grad_norm": 1.9321935176849365
+    },
+    {
+      "step": 3,
+      "epoch": 1,
+      "id": "DAN-TRAIN-003",
+      "loss": 0.12902425229549408,
+      "input_tokens": 687,
+      "grad_norm": 0.8613542318344116
+    },
+    {
+      "step": 4,
+      "epoch": 1,
+      "id": "DAN-TRAIN-023",
+      "loss": 0.8115958571434021,
+      "input_tokens": 649,
+      "grad_norm": 2.5153708457946777
+    },
+    {
+      "step": 5,
+      "epoch": 1,
+      "id": "DAN-TRAIN-001",
+      "loss": 0.17723961174488068,
+      "input_tokens": 680,
+      "grad_norm": 1.183425784111023
+    },
+    {
+      "step": 6,
+      "epoch": 1,
+      "id": "DAN-TRAIN-018",
+      "loss": 0.07162455469369888,
+      "input_tokens": 660,
+      "grad_norm": 0.6389541029930115
+    },
+    {
+      "step": 7,
+      "epoch": 1,
+      "id": "DAN-TRAIN-021",
+      "loss": 0.19481144845485687,
+      "input_tokens": 719,
+      "grad_norm": 1.0684826374053955
+    },
+    {
+      "step": 8,
+      "epoch": 1,
+      "id": "DAN-TRAIN-006",
+      "loss": 0.16729837656021118,
+      "input_tokens": 687,
+      "grad_norm": 1.2075332403182983
+    },
+    {
+      "step": 9,
+      "epoch": 1,
+      "id": "DAN-TRAIN-020",
+      "loss": 0.0703594982624054,
+      "input_tokens": 661,
+      "grad_norm": 0.9830001592636108
+    },
+    {
+      "step": 10,
+      "epoch": 1,
+      "id": "DAN-TRAIN-022",
+      "loss": 0.08725742250680923,
+      "input_tokens": 692,
+      "grad_norm": 0.5827985405921936
+    },
+    {
+      "step": 11,
+      "epoch": 1,
+      "id": "DAN-TRAIN-027",
+      "loss": 0.41027501225471497,
+      "input_tokens": 647,
+      "grad_norm": 2.90275502204895
+    },
+    {
+      "step": 12,
+      "epoch": 1,
+      "id": "DAN-TRAIN-004",
+      "loss": 0.136781707406044,
+      "input_tokens": 717,
+      "grad_norm": 0.8981190323829651
+    },
+    {
+      "step": 13,
+      "epoch": 1,
+      "id": "DAN-TRAIN-017",
+      "loss": 0.050424955785274506,
+      "input_tokens": 691,
+      "grad_norm": 0.39405155181884766
+    },
+    {
+      "step": 14,
+      "epoch": 1,
+      "id": "DAN-TRAIN-025",
+      "loss": 0.5633105635643005,
+      "input_tokens": 663,
+      "grad_norm": 2.285827159881592
+    },
+    {
+      "step": 15,
+      "epoch": 1,
+      "id": "DAN-TRAIN-024",
+      "loss": 0.342929482460022,
+      "input_tokens": 656,
+      "grad_norm": 1.371774673461914
+    },
+    {
+      "step": 16,
+      "epoch": 1,
+      "id": "DAN-TRAIN-026",
+      "loss": 0.42696312069892883,
+      "input_tokens": 652,
+      "grad_norm": 1.9733426570892334
+    },
+    {
+      "step": 17,
+      "epoch": 1,
+      "id": "DAN-TRAIN-016",
+      "loss": 0.13071735203266144,
+      "input_tokens": 715,
+      "grad_norm": 1.1652162075042725
+    },
+    {
+      "step": 18,
+      "epoch": 1,
+      "id": "DAN-TRAIN-008",
+      "loss": 0.18648476898670197,
+      "input_tokens": 688,
+      "grad_norm": 1.2088738679885864
+    },
+    {
+      "step": 19,
+      "epoch": 1,
+      "id": "DAN-TRAIN-012",
+      "loss": 0.12959498167037964,
+      "input_tokens": 687,
+      "grad_norm": 1.4466018676757812
+    },
+    {
+      "step": 20,
+      "epoch": 1,
+      "id": "DAN-TRAIN-019",
+      "loss": 0.17045363783836365,
+      "input_tokens": 669,
+      "grad_norm": 1.2241336107254028
+    },
+    {
+      "step": 21,
+      "epoch": 1,
+      "id": "DAN-TRAIN-010",
+      "loss": 0.07118452340364456,
+      "input_tokens": 698,
+      "grad_norm": 0.6504179835319519
+    },
+    {
+      "step": 22,
+      "epoch": 1,
+      "id": "DAN-TRAIN-013",
+      "loss": 0.0750378668308258,
+      "input_tokens": 696,
+      "grad_norm": 0.7642953395843506
+    },
+    {
+      "step": 23,
+      "epoch": 1,
+      "id": "DAN-TRAIN-007",
+      "loss": 0.07022099941968918,
+      "input_tokens": 685,
+      "grad_norm": 0.6957486271858215
+    },
+    {
+      "step": 24,
+      "epoch": 1,
+      "id": "DAN-TRAIN-011",
+      "loss": 0.058674562722444534,
+      "input_tokens": 689,
+      "grad_norm": 0.3979640603065491
+    },
+    {
+      "step": 25,
+      "epoch": 1,
+      "id": "DAN-TRAIN-005",
+      "loss": 0.03852212801575661,
+      "input_tokens": 699,
+      "grad_norm": 0.40119993686676025
+    },
+    {
+      "step": 26,
+      "epoch": 1,
+      "id": "DAN-TRAIN-014",
+      "loss": 0.23791421949863434,
+      "input_tokens": 670,
+      "grad_norm": 1.0965075492858887
+    },
+    {
+      "step": 27,
+      "epoch": 1,
+      "id": "DAN-TRAIN-002",
+      "loss": 0.041486162692308426,
+      "input_tokens": 712,
+      "grad_norm": 0.5559381246566772
+    },
+    {
+      "step": 28,
+      "epoch": 2,
+      "id": "DAN-TRAIN-022",
+      "loss": 0.03764420375227928,
+      "input_tokens": 692,
+      "grad_norm": 0.49855685234069824
+    },
+    {
+      "step": 29,
+      "epoch": 2,
+      "id": "DAN-TRAIN-020",
+      "loss": 0.050626445561647415,
+      "input_tokens": 661,
+      "grad_norm": 0.8286467790603638
+    },
+    {
+      "step": 30,
+      "epoch": 2,
+      "id": "DAN-TRAIN-015",
+      "loss": 0.014572616666555405,
+      "input_tokens": 684,
+      "grad_norm": 0.25181594491004944
+    },
+    {
+      "step": 31,
+      "epoch": 2,
+      "id": "DAN-TRAIN-005",
+      "loss": 0.03062961995601654,
+      "input_tokens": 699,
+      "grad_norm": 0.7009696960449219
+    },
+    {
+      "step": 32,
+      "epoch": 2,
+      "id": "DAN-TRAIN-014",
+      "loss": 0.10333383083343506,
+      "input_tokens": 670,
+      "grad_norm": 0.5902098417282104
+    },
+    {
+      "step": 33,
+      "epoch": 2,
+      "id": "DAN-TRAIN-007",
+      "loss": 0.018301963806152344,
+      "input_tokens": 685,
+      "grad_norm": 0.4628726840019226
+    },
+    {
+      "step": 34,
+      "epoch": 2,
+      "id": "DAN-TRAIN-013",
+      "loss": 0.009277022443711758,
+      "input_tokens": 696,
+      "grad_norm": 0.14487497508525848
+    },
+    {
+      "step": 35,
+      "epoch": 2,
+      "id": "DAN-TRAIN-021",
+      "loss": 0.032374098896980286,
+      "input_tokens": 719,
+      "grad_norm": 0.4717661738395691
+    },
+    {
+      "step": 36,
+      "epoch": 2,
+      "id": "DAN-TRAIN-012",
+      "loss": 0.01307530328631401,
+      "input_tokens": 687,
+      "grad_norm": 0.3993145227432251
+    },
+    {
+      "step": 37,
+      "epoch": 2,
+      "id": "DAN-TRAIN-027",
+      "loss": 0.10156206786632538,
+      "input_tokens": 647,
+      "grad_norm": 1.5929118394851685
+    },
+    {
+      "step": 38,
+      "epoch": 2,
+      "id": "DAN-TRAIN-017",
+      "loss": 0.006279381923377514,
+      "input_tokens": 691,
+      "grad_norm": 0.0929955318570137
+    },
+    {
+      "step": 39,
+      "epoch": 2,
+      "id": "DAN-TRAIN-023",
+      "loss": 0.0704154297709465,
+      "input_tokens": 649,
+      "grad_norm": 0.8580947518348694
+    },
+    {
+      "step": 40,
+      "epoch": 2,
+      "id": "DAN-TRAIN-025",
+      "loss": 0.13178257644176483,
+      "input_tokens": 663,
+      "grad_norm": 1.2719130516052246
+    },
+    {
+      "step": 41,
+      "epoch": 2,
+      "id": "DAN-TRAIN-003",
+      "loss": 0.0056145028211176395,
+      "input_tokens": 687,
+      "grad_norm": 0.15183110535144806
+    },
+    {
+      "step": 42,
+      "epoch": 2,
+      "id": "DAN-TRAIN-024",
+      "loss": 0.020689399912953377,
+      "input_tokens": 656,
+      "grad_norm": 0.5670338273048401
+    },
+    {
+      "step": 43,
+      "epoch": 2,
+      "id": "DAN-TRAIN-010",
+      "loss": 0.012679308652877808,
+      "input_tokens": 698,
+      "grad_norm": 0.41575509309768677
+    },
+    {
+      "step": 44,
+      "epoch": 2,
+      "id": "DAN-TRAIN-016",
+      "loss": 0.010403896681964397,
+      "input_tokens": 715,
+      "grad_norm": 0.4001503586769104
+    },
+    {
+      "step": 45,
+      "epoch": 2,
+      "id": "DAN-TRAIN-008",
+      "loss": 0.17828351259231567,
+      "input_tokens": 688,
+      "grad_norm": 2.788656711578369
+    },
+    {
+      "step": 46,
+      "epoch": 2,
+      "id": "DAN-TRAIN-019",
+      "loss": 0.023516761139035225,
+      "input_tokens": 669,
+      "grad_norm": 0.5535710453987122
+    },
+    {
+      "step": 47,
+      "epoch": 2,
+      "id": "DAN-TRAIN-006",
+      "loss": 0.024135800078511238,
+      "input_tokens": 687,
+      "grad_norm": 0.5330466628074646
+    },
+    {
+      "step": 48,
+      "epoch": 2,
+      "id": "DAN-TRAIN-026",
+      "loss": 0.07288676500320435,
+      "input_tokens": 652,
+      "grad_norm": 0.8652049899101257
+    },
+    {
+      "step": 49,
+      "epoch": 2,
+      "id": "DAN-TRAIN-002",
+      "loss": 0.003724768990650773,
+      "input_tokens": 712,
+      "grad_norm": 0.08114738017320633
+    },
+    {
+      "step": 50,
+      "epoch": 2,
+      "id": "DAN-TRAIN-018",
+      "loss": 0.00566336652263999,
+      "input_tokens": 660,
+      "grad_norm": 0.14523907005786896
+    },
+    {
+      "step": 51,
+      "epoch": 2,
+      "id": "DAN-TRAIN-009",
+      "loss": 0.033798810094594955,
+      "input_tokens": 701,
+      "grad_norm": 0.783012866973877
+    },
+    {
+      "step": 52,
+      "epoch": 2,
+      "id": "DAN-TRAIN-004",
+      "loss": 0.00685372669249773,
+      "input_tokens": 717,
+      "grad_norm": 0.1825108826160431
+    },
+    {
+      "step": 53,
+      "epoch": 2,
+      "id": "DAN-TRAIN-001",
+      "loss": 0.0037947155069559813,
+      "input_tokens": 680,
+      "grad_norm": 0.12161336094141006
+    },
+    {
+      "step": 54,
+      "epoch": 2,
+      "id": "DAN-TRAIN-011",
+      "loss": 0.0032675336115062237,
+      "input_tokens": 689,
+      "grad_norm": 0.05742355436086655
+    },
+    {
+      "step": 55,
+      "epoch": 3,
+      "id": "DAN-TRAIN-005",
+      "loss": 0.0019027255475521088,
+      "input_tokens": 699,
+      "grad_norm": 0.0474429726600647
+    },
+    {
+      "step": 56,
+      "epoch": 3,
+      "id": "DAN-TRAIN-011",
+      "loss": 0.002512990962713957,
+      "input_tokens": 689,
+      "grad_norm": 0.04289441928267479
+    },
+    {
+      "step": 57,
+      "epoch": 3,
+      "id": "DAN-TRAIN-019",
+      "loss": 0.0016450146213173866,
+      "input_tokens": 669,
+      "grad_norm": 0.09239505976438522
+    },
+    {
+      "step": 58,
+      "epoch": 3,
+      "id": "DAN-TRAIN-007",
+      "loss": 0.017696520313620567,
+      "input_tokens": 685,
+      "grad_norm": 2.3299574851989746
+    },
+    {
+      "step": 59,
+      "epoch": 3,
+      "id": "DAN-TRAIN-026",
+      "loss": 0.007796058896929026,
+      "input_tokens": 652,
+      "grad_norm": 0.6359241604804993
+    },
+    {
+      "step": 60,
+      "epoch": 3,
+      "id": "DAN-TRAIN-017",
+      "loss": 0.002973464084789157,
+      "input_tokens": 691,
+      "grad_norm": 0.08255510032176971
+    },
+    {
+      "step": 61,
+      "epoch": 3,
+      "id": "DAN-TRAIN-013",
+      "loss": 0.014556522481143475,
+      "input_tokens": 696,
+      "grad_norm": 1.1925930976867676
+    },
+    {
+      "step": 62,
+      "epoch": 3,
+      "id": "DAN-TRAIN-024",
+      "loss": 0.043947093188762665,
+      "input_tokens": 656,
+      "grad_norm": 2.899547815322876
+    },
+    {
+      "step": 63,
+      "epoch": 3,
+      "id": "DAN-TRAIN-018",
+      "loss": 0.0011248999508097768,
+      "input_tokens": 660,
+      "grad_norm": 0.024646850302815437
+    },
+    {
+      "step": 64,
+      "epoch": 3,
+      "id": "DAN-TRAIN-027",
+      "loss": 0.0003773300559259951,
+      "input_tokens": 647,
+      "grad_norm": 0.020759152248501778
+    },
+    {
+      "step": 65,
+      "epoch": 3,
+      "id": "DAN-TRAIN-012",
+      "loss": 0.0003373723302502185,
+      "input_tokens": 687,
+      "grad_norm": 0.013655698858201504
+    },
+    {
+      "step": 66,
+      "epoch": 3,
+      "id": "DAN-TRAIN-016",
+      "loss": 0.0016748724738135934,
+      "input_tokens": 715,
+      "grad_norm": 0.03973124176263809
+    },
+    {
+      "step": 67,
+      "epoch": 3,
+      "id": "DAN-TRAIN-021",
+      "loss": 0.008841955102980137,
+      "input_tokens": 719,
+      "grad_norm": 0.5290107727050781
+    },
+    {
+      "step": 68,
+      "epoch": 3,
+      "id": "DAN-TRAIN-023",
+      "loss": 0.0006058057770133018,
+      "input_tokens": 649,
+      "grad_norm": 0.027948550879955292
+    },
+    {
+      "step": 69,
+      "epoch": 3,
+      "id": "DAN-TRAIN-015",
+      "loss": 0.000452683336334303,
+      "input_tokens": 684,
+      "grad_norm": 0.013812612742185593
+    },
+    {
+      "step": 70,
+      "epoch": 3,
+      "id": "DAN-TRAIN-025",
+      "loss": 0.00780505919829011,
+      "input_tokens": 663,
+      "grad_norm": 0.6930623054504395
+    },
+    {
+      "step": 71,
+      "epoch": 3,
+      "id": "DAN-TRAIN-009",
+      "loss": 0.04746633395552635,
+      "input_tokens": 701,
+      "grad_norm": 1.8679618835449219
+    },
+    {
+      "step": 72,
+      "epoch": 3,
+      "id": "DAN-TRAIN-008",
+      "loss": 0.051745399832725525,
+      "input_tokens": 688,
+      "grad_norm": 0.7474231123924255
+    },
+    {
+      "step": 73,
+      "epoch": 3,
+      "id": "DAN-TRAIN-020",
+      "loss": 0.10974384844303131,
+      "input_tokens": 661,
+      "grad_norm": 3.2981555461883545
+    },
+    {
+      "step": 74,
+      "epoch": 3,
+      "id": "DAN-TRAIN-006",
+      "loss": 0.0014569440390914679,
+      "input_tokens": 687,
+      "grad_norm": 0.03743189200758934
+    },
+    {
+      "step": 75,
+      "epoch": 3,
+      "id": "DAN-TRAIN-010",
+      "loss": 0.002325674518942833,
+      "input_tokens": 698,
+      "grad_norm": 0.16091398894786835
+    },
+    {
+      "step": 76,
+      "epoch": 3,
+      "id": "DAN-TRAIN-002",
+      "loss": 0.0015476851258426905,
+      "input_tokens": 712,
+      "grad_norm": 0.027902688831090927
+    },
+    {
+      "step": 77,
+      "epoch": 3,
+      "id": "DAN-TRAIN-022",
+      "loss": 0.0038617567624896765,
+      "input_tokens": 692,
+      "grad_norm": 0.09265562891960144
+    },
+    {
+      "step": 78,
+      "epoch": 3,
+      "id": "DAN-TRAIN-003",
+      "loss": 0.0015427761245518923,
+      "input_tokens": 687,
+      "grad_norm": 0.061924733221530914
+    },
+    {
+      "step": 79,
+      "epoch": 3,
+      "id": "DAN-TRAIN-001",
+      "loss": 0.0015451047802343965,
+      "input_tokens": 680,
+      "grad_norm": 0.1033371314406395
+    },
+    {
+      "step": 80,
+      "epoch": 3,
+      "id": "DAN-TRAIN-004",
+      "loss": 0.0024643605574965477,
+      "input_tokens": 717,
+      "grad_norm": 0.27123475074768066
+    },
+    {
+      "step": 81,
+      "epoch": 3,
+      "id": "DAN-TRAIN-014",
+      "loss": 0.06975401937961578,
+      "input_tokens": 670,
+      "grad_norm": 1.9507547616958618
+    }
+  ]
+}

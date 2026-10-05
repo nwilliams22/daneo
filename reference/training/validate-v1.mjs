@@ -9,7 +9,7 @@ if (process.argv.includes('--dataset')) {
   console.log(`PASS: ${dataset.items.length} strict targets`);
 } else {
   const name = process.argv.includes('--probe') ? 'v1-probe' : 'v1';
-  const root = new URL(`../../.local-models/${name}/`, import.meta.url);
+  const root = new URL(process.argv.includes('--evidence') ? `./evidence/${name}/` : `../../.local-models/${name}/`, import.meta.url);
   const read = name => readFileSync(new URL(name, root), 'utf8');
   const row = read('runtime-results.jsonl').trim().split('\n').map(JSON.parse).find(r => r.id === 'compatibility-smoke');
   const raw = read('runtime-raw.jsonl').trim().split('\n').map(JSON.parse).find(r => r.requestId === 'compatibility-smoke');
