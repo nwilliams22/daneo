@@ -764,3 +764,7 @@ Exported the same merged weights with matched llama.cpp into a separate Q8_0 art
 ### 2026-10-04 — Verify retained Q8 source derivation
 
 The read-only `compare-export-tensors.py --q8` check exits **0**: required BF16 and quantizer hashes match, the recorded Q8 command uses the byte-identical BF16 copy, and all **441 source tensors** plus metadata match. New `evidence/q8-tensor-comparison.json` preserves prior evidence. The fixed-input schema review passed, but the completed probe reconverted BF16 instead of reusing the existing file required by the addendum. Documented that procedural deviation without another export or inference. Next: decision owner accepts or rejects the existing result for gate closure; no full training or production selection follows automatically.
+
+### 2026-10-04 — Finalize post-extraction training decision
+
+Published `reference/training/error-analysis.md`: **go**, with per-item attribution for all ten retained v1 results, the single-dimension near miss, and the independent particle-score correction. Gloss fails **8/10**, meaning **2/10**, register **2/10**, literal gap **3/10**; mechanical field defects remain separate. The accepted Q8 fixed-input contract supplies the measured export path, without selecting a production artifact. Rechecked provenance (**11 rows PASS**), reservation exclusion (**96 / 4 clear candidates**) and both Q8 schema validators (**exit 0**). No inference or training rerun. Next: reviewed corpus dataset and manifest, preserving all 96 exclusions and the frozen evaluation protocol before full training.
