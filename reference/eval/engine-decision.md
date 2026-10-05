@@ -383,3 +383,108 @@ families and stopping.** Six declines would be information about the problem
 rather than about a run, and the honest reading at that point is that a 2–7 B
 local model will not explain a Korean literal/idiomatic gap to a learner's
 standard. BAD-247 is written to say so rather than to propose a seventh rung.
+
+## Option C measured and declined — 2026-10-05: the sixth decline
+
+**Neither licence-cleared family was shortlisted, so the new reserved gate was
+never opened.** Source of truth:
+[`v3-screen-results.md`](v3-screen-results.md) at `01b89eb`, with retained raw
+replies, artifact hashes, prompt hashes and item-level judgments;
+[`v3-results.md`](v3-results.md) records the no-candidate branch.
+
+| Development measure, out of 30 | Mi:dm 2.0 Mini | A.X 4.0 Light |
+| --- | ---: | ---: |
+| **Fully correct** | **0** | **0** |
+| Meaning | 26 | 29 |
+| Korean word-order gloss | 0 | 5 |
+| Particle roles | 23 | 25 |
+| Polite register | 22 | 25 |
+| Romanization | 30 | 30 |
+| **Literal-gap claims** | **0** | **3** |
+| Schema-valid | 26 | 11 |
+| Meaning reversals | 1 | 0 |
+| **Invented-rule items** | **15** | **15** |
+
+These are 30-item development counts, not gate scores. They are reported as the
+reason the sealed set was not spent, not as a rubric verdict — the rubric is
+unedited and still reads ≥9/10 fully correct on ten reserved items with zero
+reversals and zero invented rules.
+
+Three findings carry past this rung:
+
+- **Korean specialisation did not buy the failing dimension.** Mi:dm is a
+  Korean-native model from KT and scored **0/30** on literal gap, worse than the
+  general-purpose Qwen3.5-4B's best. The deficit is contrastive explanation, not
+  Korean coverage.
+- **Both families invented a grammatical rule on 15 of 30 items.** For a
+  teaching app that is worse than an empty field, and it is a hallucination
+  profile rather than a capability gap — more parameters do not remove it.
+- **A.X is out of envelope anyway.** 4,435,826,208 download bytes and 34.803 s
+  warm p95 against the roughly 2.5–3 GB, 24 s standard. A qualifying score would
+  have reopened the download budget rather than settled it.
+
+Both artifacts were converted locally from publisher weights and **neither is
+pinnable**: the local GGUF filenames do not exist at the publisher URLs, so the
+downloader could not fetch what was scored. That is a second, independent reason
+no pin is written here.
+
+### Option E — pretrain our own Korean model: asked, priced, declined
+
+Nick asked on BAD-15 whether Daneo should pretrain a narrow Korean-specific
+model instead of re-training someone else's.
+[`from-scratch-feasibility.md`](from-scratch-feasibility.md) (`8446153`) answers
+it on measured grounds, not on effort: the whole authored corpus is **240,331
+Hangul syllables**, roughly 300k Korean tokens, against a **≥1-trillion-token**
+pretraining floor — short by about six orders of magnitude, and authoring more
+lessons does not close it. Compute is not the blocker and the decline does not
+rest on it. The Mi:dm result above is the direct empirical test of the premise:
+narrowing to Korean removed nothing and installed nothing.
+
+### The pattern that should decide this
+
+Across six rungs, **every rubric dimension Daneo produces in code or holds as
+reviewed data passes, and every dimension delegated to a model is why nothing
+has passed.**
+
+| Dimension | Produced by | Best measured |
+| --- | --- | ---: |
+| Romanization | `romanize.ts` | **30/30** |
+| Particle roles | `particlesIn()` | 23–25/30 |
+| Literal gap | the model | **0–3/30** |
+
+The reviewed data for the failing dimension already exists in this repository:
+**420 entries in `src/content/gap.json`, every one carrying exactly
+`lit`/`real`/`note`**, beside **1,439 sentences with a human gloss on every one**
+and **5,615 taught words**. Verified by counting the committed files, 2026-10-05.
+
+**So option D is no longer "ship less."** It is a deterministic engine — an
+established Korean morphological analyser (`lindera` is the first candidate to
+price) plus lookup over our own reviewed corpus — that **cannot invent a rule**,
+needs **no download**, and costs nothing at runtime. Its honest cost is
+**coverage**: excellent inside the 5,615 taught words, and beyond them it must
+say *"that is outside the course"* rather than guess.
+
+### What is spent, and what is actually left
+
+Spent: prompting, a repaired prompt, code-extracted fields, a 27-row fine-tune, a
+250-row fine-tune, and a second model family — **six declines, nothing above
+4/10 against ≥9/10**. That is information about the problem, not about a run.
+
+Genuinely remaining, carried to Nick on BAD-247:
+
+- **B — a larger parameter class**, priced above in the learner's download and
+  working memory, and carrying the 15/30 invented-rule profile unchanged.
+- **D — the deterministic engine**, as reframed above.
+- **The held non-commercial families** (EXAONE, Kanana), available only if Nick
+  states Daneo will never be sold; the EXAONE licence must then be **read**
+  before any gate run — `engine-family-survey.md` records only that it is `-NC`.
+- **Stopping the engine programme**, with the app as it shipped.
+
+**Recommendation: D, or stop.** Not a seventh rung. A 2–7 B local model is not
+going to explain a Korean literal/idiomatic gap to a learner's standard, and the
+one dimension that fails is the one we already hold 420 reviewed answers for.
+
+The rubric is unedited, no paid or cloud engine is reopened, `model-pin.json`
+stays null, and release one is not re-cut. The reserved gate set
+[`v3-translation-set.json`](v3-translation-set.json) is **unused** and survives
+for any future authorized candidate.
