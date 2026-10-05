@@ -6465,7 +6465,7 @@
       { "t": "좋은", "role": "other", "id": "m" },
       { "t": "생각이에요!", "role": "verb", "id": "v" }
     ],
-    "rom": "joeun saenggagieyo",
+    "rom": "joeun saenggagieyo!",
     "wordIds": ["w_jota", "w_saenggakhada"],
     "note": "The IOU from M10's 생각하다 note, paid in full: 좋다 wears the badge and parks in front of the noun. 좋은 said 조은 — the ㅎ vanishing per the sound interlude."
   },
@@ -6657,7 +6657,7 @@
       { "t": "어떤 음악을", "role": "object", "id": "o" },
       { "t": "들어요?", "role": "verb", "id": "v" }
     ],
-    "rom": "eotteon eumageul deureoyo",
+    "rom": "eotteon eumageul deureoyo?",
     "wordIds": ["w_eotteon", "w_eumak", "w_deutda"],
     "note": "어떤 — 어떻다 wearing the badge — asks for a KIND, not a name. 들어요: M2's ㄷ-irregular, still flipping after 22 modules."
   },
@@ -6693,7 +6693,7 @@
       { "t": "어제 본 영화", "role": "subject", "id": "s" },
       { "t": "어땠어요?", "role": "verb", "id": "v" }
     ],
-    "rom": "eoje bon yeonghwa eottaesseoyo",
+    "rom": "eoje bon yeonghwa eottaesseoyo?",
     "wordIds": ["w_eoje", "w_boda", "w_yeonghwa", "w_eotteota"],
     "note": "Two exhibits in one: 본 (the past badge on M1's 보다) and 어땠어요 (어떻다 in past tense). Casual speech drops the particle after 영화 — questions move fast."
   },
@@ -7866,7 +7866,7 @@
       { "t": "한국어는 어려워요.", "role": "verb", "id": "c" },
       { "t": "그렇지만 재미있어요.", "role": "verb", "id": "v" }
     ],
-    "rom": "hangugeoneun eoryeowoyo. geureochiman jaemiisseoyo",
+    "rom": "hangugeoneun eoryeowoyo. geureochiman jaemiisseoyo.",
     "wordIds": ["w_hangugeo", "w_eoryeopda", "w_geureochiman", "w_jaemiitda"],
     "note": "Every learner's thesis statement, joined by 그렇지만 — the mid-register however between casual 그런데 and written 그러나. All three are 그렇다 in different jackets."
   },
@@ -7884,7 +7884,7 @@
       { "t": "겨울이 왔어요.", "role": "verb", "id": "c" },
       { "t": "그러나 춥지 않았어요.", "role": "verb", "id": "v" }
     ],
-    "rom": "gyeouri wasseoyo. geureona chupji anasseoyo",
+    "rom": "gyeouri wasseoyo. geureona chupji anasseoyo.",
     "wordIds": ["w_gyeoul", "w_geureona", "w_chupda"],
     "note": "Narration mode: written-register 그러나 with M28's -지 않다 in the past — the voice of every Korean short story. Read it aloud once to feel why nobody SAYS it."
   },
@@ -8529,7 +8529,7 @@
       { "t": "공사 중입니다.", "role": "verb", "id": "a" },
       { "t": "죄송합니다.", "role": "verb", "id": "v" }
     ],
-    "rom": "gongsa jungimnida. joesonghamnida",
+    "rom": "gongsa jungimnida. joesonghamnida.",
     "wordIds": ["w_s2_gongsa", "w_s2_jung", "w_joesong"],
     "note": "The ○○ 중 machine in the wild, dressed in M4's 합니다체 — signs apologize formally. The same pair guards elevators (점검 중) and kitchens (준비 중) nationwide."
   },
@@ -10593,7 +10593,7 @@
       { "t": "조금 짠 것 같아요.", "role": "verb", "id": "v" },
       { "t": "소금을 너무 많이 뿌렸어요.", "role": "verb", "id": "w" }
     ],
-    "rom": "jogeum jjan geot gatayo. sogeumeul neomu mani ppuryeosseoyo",
+    "rom": "jogeum jjan geot gatayo. sogeumeul neomu mani ppuryeosseoyo.",
     "wordIds": ["w_jogeum", "w_jjada", "w_gatda_same", "w_sogeum", "w_neomu", "w_mani", "w_ppurida"],
     "note": "The cook's autopsy, in two clauses: M34's hedge (것 같다) delivers the diagnosis gently — M3's 짜다 wearing M24's badge — and 뿌리다 confesses the cause. The 간 was not 맞다; next time, taste before you scatter."
   },
@@ -11946,7 +11946,7 @@
       { "t": "무슨 프로에", "role": "other", "id": "a" },
       { "t": "출연해요?", "role": "verb", "id": "v" }
     ],
-    "rom": "geu taelleonteuneun yojeum museun peuroe churyeonhaeyo",
+    "rom": "geu taelleonteuneun yojeum museun peuroe churyeonhaeyo?",
     "wordIds": ["w_geu_det", "w_taelleonteu", "w_yojeum", "w_museun", "w_peuro", "w_churyeonhada"],
     "note": "프로 in its TV sense — the clip M32's 프로그램 note promised, now on duty with M10's 무슨. 출연하다 is how Korean gets ON a screen (out through 출구's 出, performing with 공연's 演), and 탤런트 is the false friend behaving itself: a drama actor, no talent implied or denied."
   },
@@ -17532,7 +17532,7 @@
       { "t": "몇 호선으로", "role": "other", "id": "a" },
       { "t": "갈아타야 돼요?", "role": "verb", "id": "v" }
     ],
-    "rom": "seoullyeogeseo myeot hoseoneuro garataya dwaeyo",
+    "rom": "seoullyeogeseo myeot hoseoneuro garataya dwaeyo?",
     "wordIds": ["w_seoul", "w_yeok", "w_myeot", "w_hoseon", "w_garatada", "w_doeda"],
     "note": "The transfer question: 호선 labels the line, so M5's 몇 asks which, not how many, and 으로 from M6 aims the change. M12's 갈아타다 — the verb of the announcement its note promised you would hear — rides -아/어야 돼요 from M10, because at 서울역 (M12's 서울 + M6's 역) the choice is not optional. Said 서울력 — the ㄴ-insertion the rom writes as seoullyeogeseo, the same call the app already made for 서울역에."
   },
@@ -30712,7 +30712,7 @@
       { "t": "필수 정보를", "role": "object", "id": "c" },
       { "t": "보충해야 해요.", "role": "verb", "id": "d" }
     ],
-    "rom": "wonseoga burwanjeonhamyeon pilsu jeongboreul bochunghaeya haeyo",
+    "rom": "wonseoga burwanjeonhamyeon pilsu jeongboreul bochunghaeya haeyo.",
     "wordIds": ["w_wonseo", "w_burwanjeonhada", "w_pilsu", "w_jeongbo"],
     "note": "The conditional -(으)면 from M20 asks what happens if M141’s 원서 is incomplete. 필수 marks the information as required."
   },
@@ -30736,7 +30736,7 @@
       { "t": "긴장감이", "role": "subject", "id": "c" },
       { "t": "느껴졌어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "changgu dwipyeoni aju eoduwoseo ginjanggami neukkyeojyeosseoyo",
+    "rom": "changgu dwipyeoni aju eoduwoseo ginjanggami neukkyeojyeosseoyo.",
     "wordIds": ["w_changgu", "w_dwipyeon", "w_ginjanggam"],
     "note": "-아서 gives a cause for the felt 긴장감. M141’s 창구 anchors a new place behind the counter."
   },
@@ -30757,7 +30757,7 @@
       { "t": "요 종이에", "role": "object", "id": "b" },
       { "t": "서명했어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "chamseokjaga yo jongie seomyeonghaesseoyo",
+    "rom": "chamseokjaga yo jongie seomyeonghaesseoyo.",
     "wordIds": ["w_chamseokja", "w_yo", "w_seomyeonghada"],
     "note": "M141’s 참석자 signs a particular sheet. 요 is the spoken demonstrative before 종이, separate from sentence-final -요."
   },
@@ -30778,7 +30778,7 @@
       { "t": "최저 금액으로도", "role": "other", "id": "b" },
       { "t": "가능할까요?", "role": "verb", "id": "c" }
     ],
-    "rom": "jeonsega choejeo geumaegeurodo ganeunghalkkayo",
+    "rom": "jeonsega choejeo geumaegeurodo ganeunghalkkayo?",
     "wordIds": ["w_jeonse", "w_choejeo", "w_ganeung", "w_geumaek"],
     "note": "-으로 gives the amount used for the lease; -도 concedes that even the minimum may not make 전세 possible."
   },
@@ -30799,7 +30799,7 @@
       { "t": "밤을", "role": "object", "id": "b" },
       { "t": "새웠어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jigwoni bameul saewosseoyo",
+    "rom": "jigwoni bameul saewosseoyo.",
     "wordIds": ["w_saeuda"],
     "note": "밤을 새우다 is a fixed object-verb pairing: an employee spends the whole night awake."
   },
@@ -30823,7 +30823,7 @@
       { "t": "조깅 횟수를", "role": "object", "id": "c" },
       { "t": "세어 봤어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "jeoneun jandi yeopeseo joging hoetsureul seeo bwasseoyo",
+    "rom": "jeoneun jandi yeopeseo joging hoetsureul seeo bwasseoyo.",
     "wordIds": ["w_jandi", "w_joging", "w_hoetsu"],
     "note": "-아/어 보다 from M16 marks the attempt to count jogging sessions. 횟수 counts events, not runners."
   },
@@ -30844,7 +30844,7 @@
       { "t": "비 때문에", "role": "other", "id": "b" },
       { "t": "젖었어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "aseupalteuga bi ttaemune jeojeosseoyo",
+    "rom": "aseupalteuga bi ttaemune jeojeosseoyo.",
     "wordIds": ["w_aseupalteu"],
     "note": "-았/었- puts the wet road in the past. 젖다 describes its changed condition after rain."
   },
@@ -30865,7 +30865,7 @@
       { "t": "예상보다", "role": "other", "id": "b" },
       { "t": "적었어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "toejikgeumi yesangboda jeogeosseoyo",
+    "rom": "toejikgeumi yesangboda jeogeosseoyo.",
     "wordIds": ["w_toejikgeum"],
     "note": "보다 from M22 compares the severance pay with an expectation."
   },
@@ -30886,7 +30886,7 @@
       { "t": "오늘까지", "role": "other", "id": "b" },
       { "t": "필수예요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jechureun oneulkkaji pilsuyeyo",
+    "rom": "jechureun oneulkkaji pilsuyeyo.",
     "wordIds": ["w_jechul", "w_pilsu"],
     "note": "M142’s 필수 returns as a requirement; -까지 marks the submission deadline."
   },
@@ -30907,7 +30907,7 @@
       { "t": "한밤중에", "role": "other", "id": "b" },
       { "t": "귀가하셨어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "abeojineun hanbamjunge gwigahasyeosseoyo",
+    "rom": "abeojineun hanbamjunge gwigahasyeosseoyo.",
     "wordIds": ["w_hanbamjung", "w_gwigahada"],
     "note": "M142’s 귀가하다 returns in a family scene; -시- marks respect toward the father."
   },
@@ -30928,7 +30928,7 @@
       { "t": "습기가", "role": "subject", "id": "b" },
       { "t": "많아요.", "role": "verb", "id": "c" }
     ],
-    "rom": "dwinmun dwipyeone seupgiga manayo",
+    "rom": "dwinmun dwipyeone seupgiga manayo.",
     "wordIds": ["w_dwinmun", "w_dwipyeon", "w_seupgi"],
     "note": "M142’s 뒤편 locates the back-door area. 습기가 많다 describes the moisture there."
   },
@@ -30949,7 +30949,7 @@
       { "t": "채점을", "role": "object", "id": "b" },
       { "t": "끝냈어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "seonsaengnimeun chaejeomeul kkeunnaesseoyo",
+    "rom": "seonsaengnimeun chaejeomeul kkeunnaesseoyo.",
     "wordIds": ["w_chaejeom"],
     "note": "-았/었- puts the teacher’s completed grading in the past. 채점 is the work being finished."
   },
@@ -30970,7 +30970,7 @@
       { "t": "비가 그친 뒤에", "role": "other", "id": "b" },
       { "t": "반짝였어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jandibachi biga geuchin dwie banjjagyeosseoyo",
+    "rom": "jandibachi biga geuchin dwie banjjagyeosseoyo.",
     "wordIds": ["w_jandibat", "w_banjjagida"],
     "note": "-ㄴ 뒤에 orders the sparkle after the rain stopped. 잔디밭 names the grassy place."
   },
@@ -30991,7 +30991,7 @@
       { "t": "전시를", "role": "object", "id": "b" },
       { "t": "소중히 여겼어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "gwallamgaegi jeonsireul sojunghi yeogyeosseoyo",
+    "rom": "gwallamgaegi jeonsireul sojunghi yeogyeosseoyo.",
     "wordIds": ["w_gwallamgaek", "w_sojunghi"],
     "note": "-히 turns 소중 into the adverbial manner: the visitor valued the exhibition."
   },
@@ -31012,7 +31012,7 @@
       { "t": "할머니를", "role": "object", "id": "b" },
       { "t": "그리워해요.", "role": "verb", "id": "c" }
     ],
-    "rom": "ttaraineun halmeonireul geuriwohaeyo",
+    "rom": "ttaraineun halmeonireul geuriwohaeyo.",
     "wordIds": ["w_ttarai", "w_geuriwohada"],
     "note": "딸아이 is an affectionate family reference; 그리워하다 expresses her longing for grandmother."
   },
@@ -31033,7 +31033,7 @@
       { "t": "한밤중에도", "role": "other", "id": "b" },
       { "t": "분주했어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "byeongsireun hanbamjungedo bunjuhaesseoyo",
+    "rom": "byeongsireun hanbamjungedo bunjuhaesseoyo.",
     "wordIds": ["w_byeongsil", "w_hanbamjung", "w_bunjuhada"],
     "note": "-에도 concedes that even the middle of the night was busy in the hospital room."
   },
@@ -31054,7 +31054,7 @@
       { "t": "제출 전에", "role": "other", "id": "b" },
       { "t": "확인하세요.", "role": "verb", "id": "c" }
     ],
-    "rom": "sincheongseoneun jechul jeone hwaginhaseyo",
+    "rom": "sincheongseoneun jechul jeone hwaginhaseyo.",
     "wordIds": ["w_sincheongseo", "w_jechul"],
     "note": "M143’s 제출 returns in a fresh instruction. -기 전에 places the check before submission."
   },
@@ -31075,7 +31075,7 @@
       { "t": "게시판에", "role": "other", "id": "b" },
       { "t": "나왔어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "chaejeom gyeolgwaga gesipane nawasseoyo",
+    "rom": "chaejeom gyeolgwaga gesipane nawasseoyo.",
     "wordIds": ["w_chaejeom", "w_gesipan"],
     "note": "M143’s 채점 becomes a posted result; -에 marks the bulletin board as its destination."
   },
@@ -31096,7 +31096,7 @@
       { "t": "교내에서", "role": "other", "id": "b" },
       { "t": "봉사했어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jikjangini gyonaeeseo bongsahaesseoyo",
+    "rom": "jikjangini gyonaeeseo bongsahaesseoyo.",
     "wordIds": ["w_jikjangin", "w_gyonae", "w_bongsahada"],
     "note": "M143’s 봉사하다 returns in a school setting; -에서 marks the place of the action."
   },
@@ -31117,7 +31117,7 @@
       { "t": "위험성을", "role": "object", "id": "b" },
       { "t": "강조했어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "yeboga wiheomseongeul gangjohaesseoyo",
+    "rom": "yeboga wiheomseongeul gangjohaesseoyo.",
     "wordIds": ["w_yebo", "w_wiheomseong", "w_gangjo"],
     "note": "위험성 is the forecast’s object, and 강조하다 from M93 puts emphasis on the risk."
   },
@@ -31138,7 +31138,7 @@
       { "t": "학과를", "role": "object", "id": "b" },
       { "t": "선택해요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jaehak jungin haksaengeun hakgwareul seontaekhaeyo",
+    "rom": "jaehak jungin haksaengeun hakgwareul seontaekhaeyo.",
     "wordIds": ["w_jaehak", "w_hakgwa"],
     "note": "The badge -ㄴ from M24 makes 재학 중인 modify 학생; 학과 is the department chosen."
   },
@@ -31159,7 +31159,7 @@
       { "t": "앨범을", "role": "object", "id": "b" },
       { "t": "전시했어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "hakgyoneun aelbeomeul jeonsihaesseoyo",
+    "rom": "hakgyoneun aelbeomeul jeonsihaesseoyo.",
     "wordIds": ["w_aelbeom", "w_jeonsihada"],
     "note": "-았/었- marks a completed display. 전시하다 takes the album as its object."
   },
@@ -31180,7 +31180,7 @@
       { "t": "새 일자리를", "role": "object", "id": "b" },
       { "t": "만들었어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "saeopganeun sae iljarireul mandeureosseoyo",
+    "rom": "saeopganeun sae iljarireul mandeureosseoyo.",
     "wordIds": ["w_saeopga", "w_iljari"],
     "note": "사업가 is the actor, while 새 modifies the 일자리 that was created."
   },
@@ -31201,7 +31201,7 @@
       { "t": "과외를", "role": "object", "id": "b" },
       { "t": "받았어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jamaeneun gwaoereul badasseoyo",
+    "rom": "jamaeneun gwaoereul badasseoyo.",
     "wordIds": ["w_jamae", "w_gwaoe"],
     "note": "과외를 받다 pairs private lessons with the verb receive; 자매 names the learners."
   },
@@ -31225,7 +31225,7 @@
       { "t": "전시장도", "role": "object", "id": "c" },
       { "t": "둘러봤어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "aelbeomeul jeonsihareo ganeun gime jeonsijangdo dulleobwasseoyo",
+    "rom": "aelbeomeul jeonsihareo ganeun gime jeonsijangdo dulleobwasseoyo.",
     "wordIds": ["w_aelbeom", "w_jeonsihada", "w_gada", "w_gim", "w_jeonsijang", "w_dulleoboda"],
     "note": "-는 김에 from M91 attaches a second errand to an existing trip. 앨범 and 전시하다 from M144 return in a new setting; the understood subject is the speaker."
   },
@@ -31252,7 +31252,7 @@
       { "t": "답장이", "role": "subject", "id": "d" },
       { "t": "왔어요.", "role": "verb", "id": "e" }
     ],
-    "rom": "sincheongseoreul upyeoneuro bonaetdeoni dapjangi wasseoyo",
+    "rom": "sincheongseoreul upyeoneuro bonaetdeoni dapjangi wasseoyo.",
     "wordIds": ["w_sincheongseo", "w_upyeon", "w_bonaeda", "w_dapjang", "w_oda"],
     "note": "-았/었더니 from M88 links an action to the result the speaker found. 신청서 from M144 now travels by post. Korean makes the reply the subject of 왔어요."
   },
@@ -31282,7 +31282,7 @@
       { "t": "직원을", "role": "object", "id": "e" },
       { "t": "모집해요.", "role": "verb", "id": "f" }
     ],
-    "rom": "baeujaga iljarireul arabodeon jeonsijangeseo jigwoneul mojiphaeyo",
+    "rom": "baeujaga iljarireul arabodeon jeonsijangeseo jigwoneul mojiphaeyo.",
     "wordIds": ["w_baeuja", "w_iljari", "w_araboda", "w_jeonsijang", "w_jigwon", "w_mojiphada"],
     "note": "-던 from M88 recalls an earlier ongoing search. 일자리 from M144 is reused; 배우자 supplies the person who was looking, and the hall is recruiting now."
   },
@@ -31309,7 +31309,7 @@
       { "t": "조용할", "role": "verb", "id": "d" },
       { "t": "따름이에요.", "role": "verb", "id": "e" }
     ],
-    "rom": "jeongoga jinanneundedo jeonsijangeun joyonghal ttareumieyo",
+    "rom": "jeongoga jinanneundedo jeonsijangeun joyonghal ttareumieyo.",
     "wordIds": ["w_jeongo", "w_jinada", "w_jeonsijang", "w_joyonghada"],
     "note": "-(으)ㄹ 따름이다 from M92 limits the observation to one state. The hall is simply quiet; 정오 is the exact noon point."
   },
@@ -31333,7 +31333,7 @@
       { "t": "속상할", "role": "verb", "id": "c" },
       { "t": "따름이었어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "chunggoreul deutgodo soksanghal ttareumieosseoyo",
+    "rom": "chunggoreul deutgodo soksanghal ttareumieosseoyo.",
     "wordIds": ["w_chunggo", "w_deutda", "w_soksanghada"],
     "note": "-고도 from M85 sets the outcome against what the advice might have achieved. -(으)ㄹ 따름이다 from M92 keeps the reaction narrow."
   },
@@ -31360,7 +31360,7 @@
       { "t": "식기는", "role": "subject", "id": "d" },
       { "t": "비싸지 않아요.", "role": "verb", "id": "e" }
     ],
-    "rom": "suippumirago hadeorado i sikgineun bissaji anayo",
+    "rom": "suippumirago hadeorado i sikgineun bissaji anayo.",
     "wordIds": ["w_suippum", "w_hada", "w_sikgi", "w_bissada", "w_i_det"],
     "note": "-더라도 from M95 concedes the origin while rejecting a price assumption. 식기 is collective tableware, rendered as dishes in natural English."
   },
@@ -31381,7 +31381,7 @@
       { "t": "따고서", "role": "other", "id": "b" },
       { "t": "눈감았어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "geummedareul ttagoseo nungamasseoyo",
+    "rom": "geummedareul ttagoseo nungamasseoyo.",
     "wordIds": ["w_geummedal", "w_ttada", "w_nungamda"],
     "note": "-고서 from M85 places closing the eyes after the win. 눈감다 has its physical meaning here, not the overlook reading in the gap deck."
   },
@@ -31405,7 +31405,7 @@
       { "t": "동화책을", "role": "object", "id": "c" },
       { "t": "읽지 못했어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "ganhoreul haneurago donghwachaegeul ikji mothaesseoyo",
+    "rom": "ganhoreul haneurago donghwachaegeul ikji mothaesseoyo.",
     "wordIds": ["w_ganho", "w_hada", "w_donghwachaek", "w_ikda"],
     "note": "-느라고 from M91 gives the activity that kept the same person from reading. The sentence says nothing about who needed the care."
   },
@@ -31429,7 +31429,7 @@
       { "t": "무용가도", "role": "object", "id": "c" },
       { "t": "만났어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "jeonsijangeul dulleoboneun gime muyonggado mannasseoyo",
+    "rom": "jeonsijangeul dulleoboneun gime muyonggado mannasseoyo.",
     "wordIds": ["w_jeonsijang", "w_dulleoboda", "w_gim", "w_muyongga", "w_mannada"],
     "note": "-는 김에 from M91 adds a meeting to a visit. 전시장 from M145 moves from a workplace to a meeting place."
   },
@@ -31453,7 +31453,7 @@
       { "t": "상금도", "role": "object", "id": "c" },
       { "t": "받았어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "geummedareul ttasseul ppunman anira sanggeumdo badasseoyo",
+    "rom": "geummedareul ttasseul ppunman anira sanggeumdo badasseoyo.",
     "wordIds": ["w_geummedal", "w_ttada", "w_ppun", "w_sanggeum", "w_batda"],
     "note": "-(으)ㄹ 뿐만 아니라 from M89 adds a second reward. 금메달 from M145 now pairs with money rather than a physical reaction."
   },
@@ -31474,7 +31474,7 @@
       { "t": "고급스러울 뿐만 아니라", "role": "other", "id": "b" },
       { "t": "깨끗해요.", "role": "verb", "id": "c" }
     ],
-    "rom": "sikgiga gogeupseureoul ppunman anira kkaekkeuthaeyo",
+    "rom": "sikgiga gogeupseureoul ppunman anira kkaekkeuthaeyo.",
     "wordIds": ["w_sikgi", "w_gogeupseureopda", "w_ppun", "w_kkaekkeuthada"],
     "note": "-(으)ㄹ 뿐만 아니라 from M89 combines two qualities. 식기 from M145 is the shared subject of both descriptions."
   },
@@ -31498,7 +31498,7 @@
       { "t": "앞바다가", "role": "subject", "id": "c" },
       { "t": "보였어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "nari gaedeoni apbadaga boyeosseoyo",
+    "rom": "nari gaedeoni apbadaga boyeosseoyo.",
     "wordIds": ["w_nal", "w_gaeda", "w_apbada", "w_boida"],
     "note": "-더니 from M88 links an observed change to what followed. 개다 is the weather verb, and 앞바다 is now visible."
   },
@@ -31522,7 +31522,7 @@
       { "t": "식욕이", "role": "subject", "id": "c" },
       { "t": "없어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "haemeun gosohagineun hajiman sigyogi eopseoyo",
+    "rom": "haemeun gosohagineun hajiman sigyogi eopseoyo.",
     "wordIds": ["w_haem", "w_gosohada", "w_sigyok", "w_eopda"],
     "note": "-기는 하다 from M92 admits one quality before a contrast. Korean gives 식욕 its own subject marker where English says I have."
   },
@@ -31546,7 +31546,7 @@
       { "t": "입사도", "role": "subject", "id": "c" },
       { "t": "늦어졌어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "chulgugeul yeongihaneun barame ipsado neujeojyeosseoyo",
+    "rom": "chulgugeul yeongihaneun barame ipsado neujeojyeosseoyo.",
     "wordIds": ["w_chulguk", "w_yeongihada", "w_baram", "w_ipsa", "w_neutda"],
     "note": "-는 바람에 from M86 presents an unwelcome consequence. This 연기하다 postpones; it does not perform on a stage."
   },
@@ -31570,7 +31570,7 @@
       { "t": "모두", "role": "subject", "id": "c" },
       { "t": "반겨 주셨어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "oegatjibe gatdeoni modu bangyeo jusyeosseoyo",
+    "rom": "oegatjibe gatdeoni modu bangyeo jusyeosseoyo.",
     "wordIds": ["w_oegatjip", "w_gada", "w_modu", "w_bangida", "w_juda"],
     "note": "-았/었더니 from M88 reports the welcome discovered on arrival. -아/어 주다 presents it as kindness, and -시- respects the people welcoming the speaker."
   },
@@ -31597,7 +31597,7 @@
       { "t": "다시", "role": "other", "id": "d" },
       { "t": "생각해야 해요.", "role": "verb", "id": "e" }
     ],
-    "rom": "jaehwaryonge chanseonghadeorado bangbeobeun dasi saenggakhaeya haeyo",
+    "rom": "jaehwaryonge chanseonghadeorado bangbeobeun dasi saenggakhaeya haeyo.",
     "wordIds": ["w_jaehwaryong", "w_chanseonghada", "w_bangbeop", "w_dasi", "w_saenggakhada", "w_hada"],
     "note": "-더라도 from M95 separates support for a goal from agreement about the method. 에 marks what the person supports."
   },
@@ -31621,7 +31621,7 @@
       { "t": "한정하더라도", "role": "other", "id": "c" },
       { "t": "준비해야 해요.", "role": "verb", "id": "d" }
     ],
-    "rom": "chamseok daesangjareul haksaengeuro hanjeonghadeorado junbihaeya haeyo",
+    "rom": "chamseok daesangjareul haksaengeuro hanjeonghadeorado junbihaeya haeyo.",
     "wordIds": ["w_chamseok", "w_daesangja", "w_haksaeng", "w_hanjeonghada", "w_junbihada", "w_hada"],
     "note": "-더라도 from M95 preserves the need for preparation despite a restriction. 참석 from M69 specifies what the 대상자 are eligible to do."
   },
@@ -31651,7 +31651,7 @@
       { "t": "태도가", "role": "subject", "id": "e" },
       { "t": "바뀌었어요.", "role": "verb", "id": "f" }
     ],
-    "rom": "jaehwaryonge gwanhan jaryoreul chamgohan gyeolgwa taedoga bakkwieosseoyo",
+    "rom": "jaehwaryonge gwanhan jaryoreul chamgohan gyeolgwa taedoga bakkwieosseoyo.",
     "wordIds": ["w_jaehwaryong", "w_gwanhada", "w_jaryo", "w_chamgohada", "w_gyeolgwa", "w_bakkwida", "w_taedo"],
     "note": "-(으)ㄴ 결과 from M90 gives the result of consulting information. 재활용 from M146 supplies the topic of the material."
   },
@@ -31672,7 +31672,7 @@
       { "t": "실력이", "role": "subject", "id": "b" },
       { "t": "향상되었어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "ipsahagoseo sillyeogi hyangsangdoeeosseoyo",
+    "rom": "ipsahagoseo sillyeogi hyangsangdoeeosseoyo.",
     "wordIds": ["w_ipsa", "w_hada", "w_sillyeok", "w_hyangsangdoeda"],
     "note": "-고서 from M85 orders joining and improvement. 입사 from M146 becomes an action with 하다; 향상되다 puts the improving skills in the subject slot."
   },
@@ -31696,7 +31696,7 @@
       { "t": "빗방울이", "role": "subject", "id": "c" },
       { "t": "떨어졌어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "geungyoeseo geotda boni bitbanguri tteoreojyeosseoyo",
+    "rom": "geungyoeseo geotda boni bitbanguri tteoreojyeosseoyo.",
     "wordIds": ["w_geungyo", "w_geotda", "w_bitbangul", "w_tteoreojida"],
     "note": "-다 보니 from M94 places the new observation during an ongoing activity. 근교 names the area near a city, and 빗방울 makes the weather concrete."
   },
@@ -31720,7 +31720,7 @@
       { "t": "준비하고도", "role": "other", "id": "c" },
       { "t": "걱정했어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "sahoejaneun sonsu junbihagodo geokjeonghaesseoyo",
+    "rom": "sahoejaneun sonsu junbihagodo geokjeonghaesseoyo.",
     "wordIds": ["w_sahoeja", "w_sonsu", "w_junbihada", "w_geokjeonghada"],
     "note": "-고도 from M85 contrasts personal preparation with continuing worry. 손수 focuses on the host doing the work."
   },
@@ -31744,7 +31744,7 @@
       { "t": "꽃은", "role": "subject", "id": "c" },
       { "t": "시들었어요.", "role": "verb", "id": "d" }
     ],
-    "rom": "nalssiga pogeunhagineun hajiman kkocheun sideureosseoyo",
+    "rom": "nalssiga pogeunhagineun hajiman kkocheun sideureosseoyo.",
     "wordIds": ["w_nalssi", "w_pogeunhada", "w_kkot", "w_sideulda"],
     "note": "-기는 하다 from M92 acknowledges pleasant weather before the disappointing contrast. 포근하다 does not imply that the flowers must be healthy."
   },
@@ -31765,7 +31765,7 @@
       { "t": "판매될", "role": "verb", "id": "b" },
       { "t": "듯해요.", "role": "verb", "id": "c" }
     ],
-    "rom": "sidiga panmaedoel deuthaeyo",
+    "rom": "sidiga panmaedoel deuthaeyo.",
     "wordIds": ["w_sidi", "w_panmaedoeda", "w_deuthada"],
     "note": "-(으)ㄹ 듯하다 from M87 gives an expectation rather than a confirmed sale date. The product, not the seller, is the subject."
   },
@@ -31786,7 +31786,7 @@
       { "t": "쓸데없이", "role": "other", "id": "c" },
       { "t": "걱정하지 마세요.", "role": "verb", "id": "d" }
     ],
-    "rom": "gyeolgwaga bulhwaksilhadeorado sseuldeeopsi geokjeonghaji maseyo",
+    "rom": "gyeolgwaga bulhwaksilhadeorado sseuldeeopsi geokjeonghaji maseyo.",
     "wordIds": ["w_gyeolgwa", "w_bulhwaksilhada", "w_sseuldeeopsi", "w_geokjeonghada"],
     "note": "-더라도 from M95 allows uncertainty without treating worry as useful. -지 마세요 from M14 makes the final clause a polite instruction."
   },
@@ -31807,7 +31807,7 @@
       { "t": "빗방울이", "role": "subject", "id": "b" },
       { "t": "떨어졌어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "geungyo sangireul geotda boni bitbanguri tteoreojyeosseoyo",
+    "rom": "geungyo sangireul geotda boni bitbanguri tteoreojyeosseoyo.",
     "wordIds": ["w_geungyo", "w_sangil", "w_geotda", "w_bitbangul", "w_tteoreojida"],
     "note": "-다 보니 from M94 turns the walk into the setting for a discovery. 근교 and 빗방울 recycle M147 in a new scene."
   },
@@ -31828,7 +31828,7 @@
       { "t": "저울로 짐을 재고서", "role": "other", "id": "b" },
       { "t": "운반을 부탁하셨어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jangmonimkkeseo jeoullo jimeul jaegoseo unbaneul butakhasyeosseoyo",
+    "rom": "jangmonimkkeseo jeoullo jimeul jaegoseo unbaneul butakhasyeosseoyo.",
     "wordIds": ["w_jangmonim", "w_jeoul", "w_unban", "w_butakhada"],
     "note": "-고서 from M85 orders the weighing before the request. The recipient role is clear from 장모님께서."
   },
@@ -31849,7 +31849,7 @@
       { "t": "반대편 로터리에서", "role": "place", "id": "b" },
       { "t": "길을 잃었어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "chultoegeunhadaga bandaepyeon roteorieseo gireul ireosseoyo",
+    "rom": "chultoegeunhadaga bandaepyeon roteorieseo gireul ireosseoyo.",
     "wordIds": ["w_chultoegeun", "w_bandaepyeon", "w_roteori", "w_gil", "w_ilta"],
     "note": "-다가 from M94 marks an interruption in the commute. 로터리 is the road junction."
   },
@@ -31870,7 +31870,7 @@
       { "t": "긴장되었지만", "role": "other", "id": "b" },
       { "t": "통역을 손수 준비했어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "sahoejaga ginjangdoeeotjiman tongyeogeul sonsu junbihaesseoyo",
+    "rom": "sahoejaga ginjangdoeeotjiman tongyeogeul sonsu junbihaesseoyo.",
     "wordIds": ["w_sahoeja", "w_ginjangdoeda", "w_tongyeok", "w_sonsu", "w_junbihada"],
     "note": "사회자 from M69 and 손수 from M147 return with the new state 긴장되다 and the spoken-language work 통역."
   },
@@ -31891,7 +31891,7 @@
       { "t": "가게에 들어오자마자", "role": "other", "id": "b" },
       { "t": "촛불을 켰어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "dangori gagee deureoojamaja chotbureul kyeosseoyo",
+    "rom": "dangori gagee deureoojamaja chotbureul kyeosseoyo.",
     "wordIds": ["w_dangol", "w_gage", "w_chotbul", "w_kyeoda"],
     "note": "-자마자 from M38 places the lighting immediately after arrival. 단골 is the customer here."
   },
@@ -31912,7 +31912,7 @@
       { "t": "나는 힘없이", "role": "subject", "id": "b" },
       { "t": "집으로 돌아왔어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "naksitdaega naenmure ppajija naneun himeopsi jibeuro dorawasseoyo",
+    "rom": "naksitdaega naenmure ppajija naneun himeopsi jibeuro dorawasseoyo.",
     "wordIds": ["w_naksitdae", "w_naenmul", "w_himeopsi", "w_jip", "w_doraoda"],
     "note": "힘없이 describes the speaker's defeated movement, not the rod's speed."
   },
@@ -31933,7 +31933,7 @@
       { "t": "장모님이", "role": "subject", "id": "b" },
       { "t": "깨끗하게 청소하셨어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "pogeunhan bangi deoreowojyeoseo jangmonimi kkaekkeuthage cheongsohasyeosseoyo",
+    "rom": "pogeunhan bangi deoreowojyeoseo jangmonimi kkaekkeuthage cheongsohasyeosseoyo.",
     "wordIds": ["w_pogeunhada", "w_bang", "w_deoreowojida", "w_jangmonim", "w_cheongsohada"],
     "note": "포근하다 from M147 describes the room before 더러워지다 changes its condition. The mother-in-law then restores it."
   },
@@ -31954,7 +31954,7 @@
       { "t": "산길을", "role": "object", "id": "b" },
       { "t": "계속 걸었어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "nari mudeopdeorado sangireul gyesok georeosseoyo",
+    "rom": "nari mudeopdeorado sangireul gyesok georeosseoyo.",
     "wordIds": ["w_mudeopda", "w_sangil", "w_geotda"],
     "note": "-더라도 from M95 concedes the weather without stopping the action."
   },
@@ -31975,7 +31975,7 @@
       { "t": "표정이", "role": "subject", "id": "b" },
       { "t": "밝아졌어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jangmonimkke yaksureul deuryeotdeoni pyojeongi balgajyeosseoyo",
+    "rom": "jangmonimkke yaksureul deuryeotdeoni pyojeongi balgajyeosseoyo.",
     "wordIds": ["w_jangmonim", "w_yaksu", "w_pyojeong", "w_balgajida"],
     "note": "-았/었더니 from M88 connects an action with what the speaker saw afterward. 장모님 recycles M148; 밝아지다 returns from M70."
   },
@@ -31996,7 +31996,7 @@
       { "t": "아이들이", "role": "subject", "id": "b" },
       { "t": "마당의 양옆에서 뛰놀았어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "chotbureul kkeugoseo aideuri madangui yangyeopeseo ttwinorasseoyo",
+    "rom": "chotbureul kkeugoseo aideuri madangui yangyeopeseo ttwinorasseoyo.",
     "wordIds": ["w_chotbul", "w_ai", "w_madang", "w_yangyeop", "w_ttwinolda"],
     "note": "-고서 from M85 makes the safer order clear. 촛불 from M148 returns in a new activity."
   },
@@ -32017,7 +32017,7 @@
       { "t": "강변에서", "role": "place", "id": "b" },
       { "t": "낚시꾼을 만났어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "sangireul naeryeowaseo gangbyeoneseo naksikkuneul mannasseoyo",
+    "rom": "sangireul naeryeowaseo gangbyeoneseo naksikkuneul mannasseoyo.",
     "wordIds": ["w_sangil", "w_gangbyeon", "w_naksikkun", "w_mannada"],
     "note": "산길 from M148 changes location before 낚시꾼 names the person at the water."
   },
@@ -32038,7 +32038,7 @@
       { "t": "배우가", "role": "subject", "id": "b" },
       { "t": "괴로워했어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "gongyeoni yeongidoeja baeuga goerowohaesseoyo",
+    "rom": "gongyeoni yeongidoeja baeuga goerowohaesseoyo.",
     "wordIds": ["w_gongyeon", "w_yeongidoeda", "w_baeu", "w_goerowohada"],
     "note": "연기되다 is postponement here. The actor's observable reaction licenses 괴로워하다."
   },
@@ -32059,7 +32059,7 @@
       { "t": "차가", "role": "subject", "id": "b" },
       { "t": "깨끗이 씻겼어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "choyeoreum bie chaga kkaekkeusi ssitgyeosseoyo",
+    "rom": "choyeoreum bie chaga kkaekkeusi ssitgyeosseoyo.",
     "wordIds": ["w_choyeoreum", "w_bi", "w_cha", "w_ssitgida"],
     "note": "This is the passive rain-washed sense of 씻기다 in the NIKL source, not an instruction to wash a person."
   },
@@ -32080,7 +32080,7 @@
       { "t": "학생들이", "role": "subject", "id": "b" },
       { "t": "안심할 거예요.", "role": "verb", "id": "c" }
     ],
-    "rom": "hakbiga gamsodoemyeon haksaengdeuri ansimhal geoyeyo",
+    "rom": "hakbiga gamsodoemyeon haksaengdeuri ansimhal geoyeyo.",
     "wordIds": ["w_hakbi", "w_gamsodoeda", "w_haksaeng", "w_ansimhada"],
     "note": "감소되다 presents the lower cost as a result; 안심하다 names the response."
   },
@@ -32101,7 +32101,7 @@
       { "t": "학생들이", "role": "subject", "id": "b" },
       { "t": "학교에서 뛰놀았어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "gyosiga kkeunnajamaja haksaengdeuri hakgyoeseo ttwinorasseoyo",
+    "rom": "gyosiga kkeunnajamaja haksaengdeuri hakgyoeseo ttwinorasseoyo.",
     "wordIds": ["w_gyosi", "w_haksaeng", "w_hakgyo", "w_ttwinolda"],
     "note": "교시 counts a school period; -자마자 from M38 gives the immediate transition."
   },
@@ -32122,7 +32122,7 @@
       { "t": "피곤을", "role": "object", "id": "b" },
       { "t": "느꼈어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "chojeonyeokbuteo jipjunghada boni pigoneul neukkyeosseoyo",
+    "rom": "chojeonyeokbuteo jipjunghada boni pigoneul neukkyeosseoyo.",
     "wordIds": ["w_chojeonyeok", "w_jipjunghada", "w_pigon", "w_neukkida"],
     "note": "-다 보니 from M94 lets the felt result emerge from sustained work."
   },
@@ -32143,7 +32143,7 @@
       { "t": "학비를", "role": "object", "id": "b" },
       { "t": "냈어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "sarip hakgyoe deungnokharyeogo hakbireul naesseoyo",
+    "rom": "sarip hakgyoe deungnokharyeogo hakbireul naesseoyo.",
     "wordIds": ["w_hakbi", "w_sarip", "w_hakgyo", "w_deungnokhada", "w_naeda"],
     "note": "-(으)려고 from M50 gives the reason for paying. 학비 and 등록하다 recycle M149."
   },
@@ -32164,7 +32164,7 @@
       { "t": "음반으로", "role": "other", "id": "b" },
       { "t": "들었어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "gongyeondoen eumageul eumbaneuro deureosseoyo",
+    "rom": "gongyeondoen eumageul eumbaneuro deureosseoyo.",
     "wordIds": ["w_gongyeondoeda", "w_eumak", "w_eumban", "w_deutda"],
     "note": "공연되다 from M149 is reused as a modifier; 음반 refers to the released recording."
   },
@@ -32185,7 +32185,7 @@
       { "t": "몸속이", "role": "subject", "id": "b" },
       { "t": "시원해졌어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "yaksureul masigoseo momsogi siwonhaejyeosseoyo",
+    "rom": "yaksureul masigoseo momsogi siwonhaejyeosseoyo.",
     "wordIds": ["w_yaksu", "w_masida", "w_momsok", "w_siwonhada"],
     "note": "약수 from M149 now joins 몸속, a compound locating the feeling within the body."
   },
@@ -32206,7 +32206,7 @@
       { "t": "가족들이", "role": "subject", "id": "b" },
       { "t": "손잡았어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "jangnyesigeseo gajokdeuri sonjabasseoyo",
+    "rom": "jangnyesigeseo gajokdeuri sonjabasseoyo.",
     "wordIds": ["w_jangnyesik", "w_gajok", "w_sonjapda"],
     "note": "손잡다 is literal here; the same verb can describe joining forces."
   },
@@ -32227,7 +32227,7 @@
       { "t": "석사 논문의 머리말을", "role": "object", "id": "b" },
       { "t": "썼어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "bamsaeumyeo seoksa nonmunui meorimareul sseosseoyo",
+    "rom": "bamsaeumyeo seoksa nonmunui meorimareul sseosseoyo.",
     "wordIds": ["w_bamsaeuda", "w_seoksa", "w_nonmun", "w_meorimal", "w_sseuda"],
     "note": "-(으)며 from M85 connects the overnight effort to the writing. 석사 points to the degree level."
   },
@@ -32248,7 +32248,7 @@
       { "t": "라켓을 들고", "role": "other", "id": "b" },
       { "t": "강변으로 갈 거예요.", "role": "verb", "id": "c" }
     ],
-    "rom": "oryeoreumeneun rakeseul deulgo gangbyeoneuro gal geoyeyo",
+    "rom": "oryeoreumeneun rakeseul deulgo gangbyeoneuro gal geoyeyo.",
     "wordIds": ["w_oryeoreum", "w_raket", "w_gangbyeon", "w_gada"],
     "note": "강변 from M149 is the destination. 라켓 remains the equipment carried."
   },
@@ -32269,7 +32269,7 @@
       { "t": "사생활을 지키려고", "role": "other", "id": "b" },
       { "t": "얼굴을 공개하지 않았어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "manhwagaga sasaenghwareul jikiryeogo eolgureul gonggaehaji anasseoyo",
+    "rom": "manhwagaga sasaenghwareul jikiryeogo eolgureul gonggaehaji anasseoyo.",
     "wordIds": ["w_manhwaga", "w_sasaenghwal", "w_jikida", "w_eolgul", "w_gonggaehada"],
     "note": "사생활 is the protected sphere; -려고 from M50 expresses intent."
   },
@@ -32290,7 +32290,7 @@
       { "t": "아이의 눈이", "role": "subject", "id": "b" },
       { "t": "반짝거렸어요.", "role": "verb", "id": "c" }
     ],
-    "rom": "goyangiga yaong uldeoni aiui nuni banjjakgeoryeosseoyo",
+    "rom": "goyangiga yaong uldeoni aiui nuni banjjakgeoryeosseoyo.",
     "wordIds": ["w_goyangi", "w_yaong", "w_ai", "w_nun_eye", "w_banjjakgeorida"],
     "note": "-더니 from M88 links the sound with a visible reaction. 야옹 is sound imitation."
   },

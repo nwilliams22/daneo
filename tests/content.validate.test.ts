@@ -128,6 +128,20 @@ describe("validator catches broken content", () => {
     expect(codes(validateContent(b))).toContain("dup-sentence-text");
   });
 
+  it("flags missing, wrong, and extra romanization terminal marks", () => {
+    const b = clone();
+    const question = b.sentences.find((s) => s.id === "s24_good_idea")!;
+    question.rom = question.rom.slice(0, -1);
+    expect(codes(validateContent(b))).toContain("sentence-rom-terminal-mark");
+
+    question.rom += "?";
+    expect(codes(validateContent(b))).toContain("sentence-rom-terminal-mark");
+
+    question.rom = question.rom.slice(0, -1) + "!";
+    b.sentences.find((s) => s.id === "s_water")!.rom += ".";
+    expect(codes(validateContent(b))).toContain("sentence-rom-terminal-mark");
+  });
+
   it("flags duplicate module orders", () => {
     const b = clone();
     b.modules[1]!.order = b.modules[0]!.order;

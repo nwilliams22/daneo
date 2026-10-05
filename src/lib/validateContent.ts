@@ -21,7 +21,8 @@ export interface ContentError {
     | "confusable-group-too-small"
     | "gap-too-few-meanings"
     | "word-not-typeable"
-    | "dup-sentence-text";
+    | "dup-sentence-text"
+    | "sentence-rom-terminal-mark";
   message: string;
 }
 
@@ -207,6 +208,24 @@ export function validateContent(bundle: ContentBundle): ContentError[] {
         `Sentence ${s.id} renders the same Korean as ${prior} ("${text}") — every sentence must be a fresh combination`,
       );
     else koTexts.set(text, s.id);
+  }
+
+  // ---- learner-facing Korean and romanization share terminal punctuation ----
+  const terminalMarks = ".?!";
+  for (const s of bundle.sentences) {
+    const ko = s.ko.map((c) => c.t).filter(Boolean).join(" ").trimEnd();
+    const rom = s.rom.trimEnd();
+    if (!ko || !rom) continue;
+    const koMark = ko.slice(-1);
+    const romMark = rom.slice(-1);
+    if (
+      (terminalMarks.includes(koMark) && romMark !== koMark) ||
+      (terminalMarks.includes(romMark) && !terminalMarks.includes(koMark))
+    )
+      err(
+        "sentence-rom-terminal-mark",
+        `Sentence ${s.id}: Korean ends in "${koMark}" but romanization ends in "${romMark}"`,
+      );
   }
 
   // ---- typing drill: word Korean must be modern Hangul (composable) ----
