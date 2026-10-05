@@ -1,0 +1,61 @@
+{
+  "config": {
+    "model": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "license": "Apache-2.0",
+    "seed": 3407,
+    "max_seq_length": 1024,
+    "learning_rate": 0.0002,
+    "rank": 8,
+    "alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "dtype": "bfloat16",
+    "load_in_4bit": true,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 1,
+    "optimizer": "adamw_torch",
+    "quantization": "Q8_0",
+    "epochs": 3,
+    "schedule": "constant",
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0,
+    "dataset_sha256": "1645184e5bc7dafb0359937104dd338b2e8b5de386d1d0ccf4de3740422b5f3d"
+  },
+  "probe": true,
+  "steps": 2,
+  "losses": [
+    {
+      "step": 1,
+      "epoch": 1,
+      "id": "DAN-TRAIN-015",
+      "loss": 0.31761273741722107,
+      "input_tokens": 684,
+      "grad_norm": 1.7337135076522827
+    },
+    {
+      "step": 2,
+      "epoch": 1,
+      "id": "DAN-TRAIN-009",
+      "loss": 0.591354250907898,
+      "input_tokens": 701,
+      "grad_norm": 1.9808533191680908
+    }
+  ],
+  "changed_adapter_tensors": 256,
+  "trainable_parameters": 10616832,
+  "train_seconds": 7.12786176399095,
+  "peak_allocated_bytes": 4258996736,
+  "peak_reserved_bytes": 4406116352,
+  "prompt_sha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+  "source_commit": "a3496dd6ba2c3c1ce3a55cef71d53a93cfb36de0",
+  "total_seconds_through_merge": 49.66965404100483,
+  "merge_complete": true
+}

@@ -1,0 +1,47 @@
+{
+  "converter_commit": "26394b4e6749a41c3633db040e0987500a5f7013",
+  "matched_vendored_files": 1865,
+  "steps": [
+    {
+      "stage": "convert",
+      "command": [
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/venv/bin/python",
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/llama-matched/convert_hf_to_gguf.py",
+        "/mnt/t7/Projects/daneo/.local-models/v1-probe/merged",
+        "--outfile",
+        "/mnt/t7/Projects/daneo/.local-models/v1-probe/candidate-BF16.gguf",
+        "--outtype",
+        "bf16"
+      ],
+      "wall_seconds": 34.79478252801346
+    },
+    {
+      "stage": "quantize",
+      "command": [
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/llama-matched/build/bin/llama-quantize",
+        "/mnt/t7/Projects/daneo/.local-models/v1-probe/candidate-BF16.gguf",
+        "/mnt/t7/Projects/daneo/.local-models/v1-probe/candidate-Q8_0.gguf",
+        "Q8_0",
+        "8"
+      ],
+      "wall_seconds": 42.673031760030426
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "candidate-BF16.gguf",
+      "bytes": 8665619744,
+      "sha256": "ab59452991997fd1a493f2e3b5218079938b32fd12106c3065c9ad2a721d0714"
+    },
+    {
+      "path": "candidate-Q8_0.gguf",
+      "bytes": 4610579744,
+      "sha256": "32b9d35a9358b46a5bec5984601393c89c4e78d3a4f12b27b60c0b38502acbdc"
+    },
+    {
+      "path": "adapter/adapter_model.safetensors",
+      "bytes": 42504600,
+      "sha256": "71ab4234a802fae5e8ac27783b3da546c36c5ff757b200037d30fd312a7fda5e"
+    }
+  ]
+}

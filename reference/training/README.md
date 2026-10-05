@@ -175,3 +175,34 @@ Q8 output, compares all BF16 tensor payloads and metadata, and checks the record
 quantization command. It writes `evidence/q8-tensor-comparison.json` and leaves
 the retained baseline/matched comparison untouched. It establishes an identical
 source plus recorded derivation, not independent reproduction of quantization.
+
+## Reviewed v1 QLoRA candidate
+
+`v1-config.json` fixes a single three-epoch run on the reviewed 27-row dataset,
+with no held-out tuning or checkpoint selection. `train-v1.py --probe` first
+trains two steps from the original base. Its merged Q8 export must pass the
+same native worker and strict/postprocessed schema checks before the full run.
+The full run starts fresh from the original base, not the probe adapter.
+Response-only loss masks the unchanged production prompt. Batch and gradient
+accumulation are both one; row order is shuffled deterministically per epoch.
+The constant learning rate and three epochs are fixed before any inference.
+
+From the repository root, with local GPU access:
+
+```sh
+.local-models/compatibility/venv/bin/python reference/training/train-v1.py --probe
+.local-models/compatibility/venv/bin/python reference/training/export-v1.py --probe
+.local-models/compatibility/venv/bin/python reference/training/train-v1.py
+.local-models/compatibility/venv/bin/python reference/training/export-v1.py
+```
+
+All weights stay in ignored `.local-models/v1-probe/` and `.local-models/v1/`.
+The scripts refuse to overwrite artifacts. Do not delete prior evidence to
+rerun; an intentional new experiment needs its own directory and authorization.
+The existing pinned environment (`requirements.lock`), base manifest and
+matched converter are reused offline. The native binary must retain the hash
+from `evidence/matched-input-manifest.json`. It runs in an isolated network
+namespace using the same non-held-out smoke fixture as the compatibility proof,
+plus its built-in greeting/cancellation checks. This is a headless worker test,
+not desktop UI verification or language scoring. The resulting candidate is
+for independent scoring; it does not alter `reference/model-pin.json`.

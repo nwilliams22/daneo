@@ -1,0 +1,23 @@
+	Command being timed: "/mnt/t7/Projects/daneo/.local-models/compatibility/venv/bin/python /mnt/t7/Projects/daneo/.local-models/compatibility/llama-matched/convert_hf_to_gguf.py /mnt/t7/Projects/daneo/.local-models/v1-probe/merged --outfile /mnt/t7/Projects/daneo/.local-models/v1-probe/candidate-BF16.gguf --outtype bf16"
+	User time (seconds): 21.59
+	System time (seconds): 6.70
+	Percent of CPU this job got: 81%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:34.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5770964
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3103
+	Minor (reclaiming a frame) page faults: 1325813
+	Voluntary context switches: 9676
+	Involuntary context switches: 10330
+	Swaps: 0
+	File system inputs: 10153376
+	File system outputs: 16925176
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
