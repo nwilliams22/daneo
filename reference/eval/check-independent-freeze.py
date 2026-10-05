@@ -75,11 +75,24 @@ def check():
 def check_candidates(path, exclusions):
     data = json.loads(path.read_text())
     rows = data["items"] if isinstance(data, dict) else data
+    seen_candidates = [set(), set(), set()]
     for number, row in enumerate(rows, 1):
         for label, key, seen in zip(("ID", "English", "Korean"),
                                     (row["corpusSentenceId"], normalized(row["english"]), normalized(row["korean"])), exclusions):
             assert key and key not in seen, f"candidate {number} uses reserved {label}: {row['corpusSentenceId']}"
-    print(f"PASS: {len(rows)} candidate rows avoid all 96 reservations")
+        for label, key, seen in zip(("ID", "English", "Korean"),
+                                    (row["corpusSentenceId"], normalized(row["english"]), normalized(row["korean"])), seen_candidates):
+            assert key not in seen, f"duplicate candidate {label} at row {number}"
+            seen.add(key)
+    if isinstance(data, dict) and data.get("version") == "training-2-candidates":
+        previous = json.loads((ROOT / "reference/training/dataset-v1.json").read_text())["items"]
+        for row in previous:
+            for key, seen in zip((row["corpusSentenceId"], normalized(row["english"]), normalized(row["korean"])), seen_candidates):
+                assert key not in seen, "v2 candidate overlaps a v1 training example"
+        splits = collections.Counter(row["split"] for row in rows)
+        assert splits == {"training": 250, "development": 40}, "candidate split changed"
+        print("PASS: training/development disjoint by ID and normalized texts; all candidates avoid v1 training")
+    print(f"PASS: {len(rows)} candidate rows avoid all 96 reservations; no internal duplicate keys")
 
 
 if __name__ == "__main__":

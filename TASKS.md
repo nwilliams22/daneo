@@ -14,6 +14,8 @@
 
 > **App status (2026-10-04):** Phase D implementation is present, but the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. See `reference/desktop-closeout.md` for the measured build failure and closure checks.
 
+> **Training v2 (2026-10-05):** 290 schema-valid candidates prepared (250 training / 40 development); all 96 reservations and v1 training excluded. Every target awaits row review. Final dataset, manifest and development freeze remain open; no training is authorized from the candidate file. See `reference/training/dataset-v2-review.md`.
+
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
 - [x] Theme tokens from PROJECT.md §2 palette (Tailwind config) + font loading (Noto Sans KR / Noto Serif KR / Nanum Pen Script, OS fallbacks)
@@ -816,3 +818,19 @@ trained on. `reference/eval/v2-translation-set.json` is the one unburned gate an
 on the finished artifact; iteration uses a separate development split and the burned v0 items are
 never a gate again. `reference/model-pin.json` stays null, which is what makes the downloader refuse
 by design. Documentation only in this entry — no app code, content or model artifact changed.
+
+### 2026-10-05 — Scaled training candidates and development separation
+
+Extended `reference/training/build-dataset.mjs` with `--v2-candidates`, retaining
+the v1 mode, source hash pins and strict target validation. Pinned v2 candidates
+to current corpus snapshot `5f5bef4`; selected 250 training candidates (100 gap,
+60 register, 45 gloss, 45 semantic) plus 40 development candidates. All 290 are
+explicitly pending review and not approved for training. Added full-row review
+criteria in `reference/training/dataset-v2-review.md`.
+
+Verification: builder 290/290 schema pass; independent checker zero overlap
+against all 96 reserved anchors, internal candidate keys and v1 training;
+`npm run build` exit 0 (16 content tests, TypeScript, Vite). No sealed gate
+content was displayed, no inference or training ran, and no UI changes belong
+to this slice. Next: complete every-row linguistic review, integrate corrections,
+then publish the final dataset and hashed development freeze.
