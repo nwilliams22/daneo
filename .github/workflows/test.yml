@@ -68,7 +68,13 @@ jobs:
       - name: Inspect macOS app resources
         if: runner.os == 'macOS'
         shell: bash
-        run: node scripts/check-bundle-resources.mjs src-tauri/target/release/bundle/macos/daneo.app bundle-resources.json
+        run: |
+          image=$(find src-tauri/target/release/bundle/dmg -name '*.dmg' -type f | head -1)
+          mount="$RUNNER_TEMP/daneo-mounted"
+          mkdir -p "$mount"
+          hdiutil attach "$image" -readonly -nobrowse -mountpoint "$mount"
+          trap 'hdiutil detach "$mount"' EXIT
+          node scripts/check-bundle-resources.mjs "$mount/daneo.app" bundle-resources.json
       - name: Inspect Windows installer resources
         if: runner.os == 'Windows'
         shell: pwsh
