@@ -104,10 +104,13 @@ def check_final_v2(exclusions):
     manifest = json.loads(path.read_text())
     assert manifest["version"] == "training-2"
     all_rows = []
-    for entry in [manifest, manifest["development"]]:
+    for split, entry in [("training", manifest), ("development", manifest["development"])]:
         file = directory / entry.get("dataset", entry.get("file"))
         assert hashlib.sha256(file.read_bytes()).hexdigest() == entry["sha256"], "v2 file hash mismatch"
+        data = json.loads(file.read_text())
+        assert data["trainingAllowed"] is (split == "training")
         rows = check_candidates(file, exclusions)
+        assert all(row["split"] == split for row in rows), "row stored in wrong split"
         assert len(rows) == entry["count"]
         assert collections.Counter(row["errorClass"] for row in rows) == entry["counts"]
         assert collections.Counter(row["target"]["direction"] for row in rows) == entry["directionCounts"]

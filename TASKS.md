@@ -14,7 +14,7 @@
 
 > **App status (2026-10-05):** The first release excludes the AI translator, Ask Daneo and model controls at build time (`import.meta.env.DEV`), while Explore keeps saved discoveries and explains the absence. Phase B no longer waits for Phase D. Phase D remains available in development; the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. The documentation closeout and component reactivation gates are in `reference/desktop-closeout.md`; release-one packaging is independent.
 
-> **Training v2 (2026-10-05):** 290 schema-valid candidates prepared (250 training / 40 development); all 96 reservations and v1 training excluded. Every target awaits row review. Final dataset, manifest and development freeze remain open; no training is authorized from the candidate file. See `reference/training/dataset-v2-review.md`.
+> **Training v2 (2026-10-05):** 290 targets reviewed (250 training / 40 development), corrections integrated, and one development weather variant replaced. The replacement awaits final approval; final dataset, manifest and development freeze remain open. A hash-bound approval gate prevents premature finalization. All 96 reservations and v1 training are excluded. See `reference/training/dataset-v2-review.md`.
 
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
@@ -847,3 +847,21 @@ Verification: `npm test -- tests/release-features.test.tsx` **3/3**, including r
 ### 2026-10-05 — Close Phase D documentation with AI excluded from release one
 
 Reconciled README, PROJECT status/architecture/roadmap, TASKS header/checklist, PLAN-local-model, the engine decision and desktop closeout; refreshed the evaluation README boundary too. The component inventory distinguishes implemented runtime, cancellation, downloader, storage, Explore, tutor, deterministic fields, evaluation and training from the model and packaged evidence still required to enable them. The old Cargo-discovery failure is historical; later packaging records successful Linux artifacts, not installation. v1 training/export completed and its candidate declined. Retain the DEV-only Cloud result-contract reference with its unchanged pin and no fallback; no product code changed or was deleted. `npm test`: **242/242, 21 files**; `npm run validate:content`: **16/16**; `npm run build`: **exit 0**, including typecheck (existing large-chunk warning); `git diff --check`: passed. No model gate was opened, inference rerun or packaged launch claimed. Next: the Phase B release chain owns installation and offline/no-paid-model proof; the trained-engine verdict owns future offline translator/tutor verification. Phase D is implemented, measured and not shipped.
+
+### 2026-10-05 — Training v2 corrections and finalization gate
+
+Integrated the full row review and its 28 target corrections, preserving explicit
+patch provenance. Follow-up review accepted the fixes and identified one
+development weather variant too close to training; replaced it with the pinned
+art-description sentence `s_m153_art`. A narrow replacement review remains open.
+Added `--v2-final`, requiring independent approval of the exact candidate hash
+and all 290 rows before producing final training/development files and manifest.
+The bare exclusion checker now validates final file hashes, review linkage,
+counts, targets and split placement when those files exist. Development bytes
+are immutable once frozen.
+
+Verification: corrected/replaced candidates 290/290 schema pass; exclusion
+checker exit 0; missing approval correctly prevents finalization; syntax checks
+pass; `npm run build` exits 0. Candidate tooling commit `261b6e6` passed all four
+Actions jobs. Next: approve the single replacement, finalize and freeze, then
+verify final hashes/exclusions and the final pushed commit's CI. No training ran.

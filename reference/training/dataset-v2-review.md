@@ -1,6 +1,10 @@
 # Dataset v2 candidate review
 
-Status: **not approved for training**. No final dataset, manifest or development
+Status: **replacement review pending; not approved for training**. The full row
+review and 28 target corrections are complete. The follow-up review accepted the
+corrections and requested replacement of development 062 to remove a weather
+source-family overlap; it now uses `s_m153_art`. Only that replacement and the
+new candidate hash await approval. No final dataset, manifest or development
 freeze exists yet. `dataset-v2-candidates.json` contains 290 pending targets at
 corpus commit `5f5bef477b19eb4799d247352930589542a256a8`. The original v1
 builder mode and artifacts remain reproducible.
@@ -60,3 +64,26 @@ From the repository root:
 
 The candidate hash is recorded in the review issue; it is not a development
 freeze. The final freeze and parent closure remain pending the full row review.
+
+## Finalization gate
+
+`node --import tsx reference/training/build-dataset.mjs --v2-final` requires
+`dataset-v2-approval.json` with an approved verdict, all 290 rows reviewed and
+the exact candidate SHA-256. It reruns exclusions before writing final files.
+The final dataset contains 250 approved rows and excludes source teaching notes
+from the model target; explicit target corrections remain in
+`dataset-v2-corrections.json`. Development contains 40 reviewed rows and is never
+a training input. Existing development bytes cannot be silently replaced.
+
+After finalization, bare `python3 reference/eval/check-independent-freeze.py`
+also verifies both final hashes, manifest class/direction counts, approval and
+candidate hashes, exact approved target contents, proper split placement and
+training permissions, source commit hashes, and zero overlap among both splits,
+v1 training and all 96 reservations. It does not claim semantic independence
+from sealed content that nobody reviewed for this task.
+
+The reports `dataset-v2-review-report.md` and `dataset-v2-review-addendum.md`
+record the row audit and correction review. The addendum reconciles the original
+summary-table error: 25 rows needed correction, including seven training gap
+rows; 28 patches also included three construction findings. The weather
+replacement supersedes the former patch for candidate 062.
