@@ -1,0 +1,108 @@
+[
+  {
+    "prefix": "runtime",
+    "input": "Korean is hard. But it's fun.",
+    "direction": "en-to-ko",
+    "completionMs": 7675,
+    "firstTokenMs": 4918,
+    "omittedFromModelOwnedCheck": [
+      "romanization",
+      "particles"
+    ],
+    "strictModelOwnedValid": false,
+    "strictIssues": [
+      {
+        "expected": "array",
+        "code": "invalid_type",
+        "path": [
+          "gloss"
+        ],
+        "message": "Invalid input: expected array, received undefined"
+      }
+    ],
+    "postprocessorAccepted": false,
+    "assembled": null,
+    "assembledSchemaValid": false,
+    "assembledIssues": [
+      {
+        "expected": "object",
+        "code": "invalid_type",
+        "path": [],
+        "message": "Invalid input: expected object, received null"
+      }
+    ],
+    "directionMatches": false
+  },
+  {
+    "prefix": "runtime-bf16",
+    "input": "Korean is hard. But it's fun.",
+    "direction": "en-to-ko",
+    "completionMs": 20013,
+    "firstTokenMs": 5350,
+    "omittedFromModelOwnedCheck": [
+      "romanization",
+      "particles"
+    ],
+    "strictModelOwnedValid": true,
+    "strictIssues": [],
+    "postprocessorAccepted": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "한국어는 어려워요. 하지만 재미있어요.",
+      "romanization": "hangugeoneun eoryeowoyo. hajiman jaemiisseoyo.",
+      "natural_english": "Korean is hard. But it's fun.",
+      "gloss": [
+        {
+          "chunk": "한국어는 어려워요. 하지만 재미있어요.",
+          "gloss": "Korean-[topic] is-hard-[verb] but is-fun-[verb]",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "marks a topic or contrast"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    },
+    "assembledSchemaValid": true,
+    "assembledIssues": [],
+    "directionMatches": true
+  },
+  {
+    "prefix": "runtime-matched",
+    "input": "Korean is hard. But it's fun.",
+    "direction": "en-to-ko",
+    "completionMs": 7721,
+    "firstTokenMs": 4984,
+    "omittedFromModelOwnedCheck": [
+      "romanization",
+      "particles"
+    ],
+    "strictModelOwnedValid": false,
+    "strictIssues": [
+      {
+        "expected": "array",
+        "code": "invalid_type",
+        "path": [
+          "gloss"
+        ],
+        "message": "Invalid input: expected array, received undefined"
+      }
+    ],
+    "postprocessorAccepted": false,
+    "assembled": null,
+    "assembledSchemaValid": false,
+    "assembledIssues": [
+      {
+        "expected": "object",
+        "code": "invalid_type",
+        "path": [],
+        "message": "Invalid input: expected object, received null"
+      }
+    ],
+    "directionMatches": false
+  }
+]

@@ -128,3 +128,101 @@ truth is this report plus `evidence/`, not a zero exit from the native launcher.
 After review, the parent must explicitly resolve the Q4 response-contract gate
 or adopt a newly authorized export path before full training is unblocked.
 No production engine/artifact choice is implied by this compatibility result.
+
+## Matched-toolchain follow-up — 2026-10-04
+
+**Result: matching the converter/quantizer to the pinned runtime does not restore
+`gloss`. The Q4 compatibility gate remains failed.** The baseline/control artifacts
+above and every previously committed evidence file are retained unchanged.
+
+### Exact match and supported conversion
+
+The `llama-cpp-sys-2 0.1.158` crate records Rust binding revision
+`3b17d1f160f0e9cfcf95948954cefc967f8f92f2`. Its upstream `llama.cpp` gitlink is
+`26394b4e6749a41c3633db040e0987500a5f7013`, verified through the GitHub contents API
+linked in `README.md`. Every one of the crate's **1,865 vendored files** matches
+that archive byte-for-byte; all **3,612 archive files** match the local extracted
+source. The complete archive includes `conversion/qwen.py:Qwen3_5TextModel`, which
+supports `Qwen3_5ForConditionalGeneration`; the crate's omission of `conversion/`
+is packaging, not lack of matched converter support.
+
+The matched quantizer was built with CMake **4.4.4**, GCC **16.2.1 20260819
+(Red Hat 16.2.1-2)**, CUDA off and eight build threads. It has no `--version`
+command (that argument prints usage); source identity and executable SHA-256 are
+recorded instead. The Python environment remains the existing `requirements.lock`.
+No runtime, prompt, merged weight, or production pin change was made.
+
+`export-matched.py` verifies the vendored match, reuses the existing merged weights,
+and writes separate `matched-*` artifacts. `matched-input-manifest.json` records
+merged-file identities and the reused native binary. The exact commands are in
+`README.md` and `evidence/matched-export-result.json`.
+
+| New artifact | Bytes | SHA-256 |
+| --- | ---: | --- |
+| `llama-matched.tar.gz` | 37535360 | `1d0fcd22eb0fb31b1f75de2cc9e585a3338b8937043662a0c222a1e9261fed29` |
+| `matched-BF16.gguf` | 8665619744 | `5c407dc7aa856faa14fde45e5f837066719c5aad75115e6afc39bbeb2e77a88c` |
+| `matched-Q4_K_M.gguf` | 2783446304 | `d1588703074943b31c817e7bc9e6c1864ab79a9c6823ba019e19b0246652dc9c` |
+| `llama-matched/build/bin/llama-quantize` | 12576 | `398b543d82be71fc61f7190c87f6bd13772cb89dd630f72f57b2bb0ff2200f42` |
+
+Conversion took **40.175 s**, max RSS **5,770,480 KiB**; quantization took
+**35.071 s**, max RSS **4,300,028 KiB**. These are per-stage process measurements
+from `/usr/bin/time -v`, not GPU allocator/card measurements. All export stages
+exited 0. No new training or HF inference was performed.
+
+### Production contract comparison
+
+Ran exactly one new `python3 reference/training/run-runtime-smoke.py --matched`
+using the unchanged worker binary, greedy sampling, prompt and fixed non-held-out
+input, at diagnostic source commit `0b2bf2cd71e69949e733d49900960897553b0eaf`.
+The existing launcher also performs its same unscored greeting and cancellation.
+The exclusion preflight again passed all **96 reservations** for the four smoke
+examples. Baseline Q4 and BF16 are retained controls, not new inference runs.
+
+| Artifact | Strict model-owned | Production postprocessor | Assembled schema | Smoke completion | Process wall / max RSS |
+| --- | --- | --- | --- | ---: | --- |
+| Baseline Q4 | FAIL: missing `gloss` | null | FAIL | 7.675 s | 22.18 s / 2,975,616 KiB |
+| Baseline BF16 | PASS | accepted | PASS | 20.013 s | 54.62 s / 8,559,260 KiB |
+| Matched Q4 | FAIL: missing `gloss` | null | FAIL | 7.721 s | 21.17 s / 2,975,516 KiB |
+
+Matched load/ready **1.588 s**, smoke first token **4.984 s**, cancellation **0 ms**.
+The native run exited 0, but `node --import tsx reference/training/validate-matched.mjs`
+exited **1**. This is the expected diagnostic failure, not a passing contract.
+The strict check omits only deterministic `romanization`/`particles` fields and
+rejects other extras; full assembly is independently validated. It also verifies
+raw JSON equals parsed output and that prompt/fixture/rubric hashes match the
+controls. Exact issues and postprocessor nulls are in
+`evidence/matched-schema-comparison.json`.
+
+The new smoke raw reply is byte-for-byte equal to the baseline Q4 reply:
+
+```json
+{"direction": "en-to-ko", "korean": "한국어는 어렵습니다. 하지만 재미있습니다.", "natural_english": "Korean is hard. But it's fun.", "literal_gap": "", "cultural_note": ""}
+```
+
+### Tensor-level comparison
+
+`.local-models/compatibility/venv/bin/python reference/training/compare-export-tensors.py`
+passed: **441/441 tensors identical** in name, order, shape, type and SHA-256
+payload for both baseline/matched BF16 and baseline/matched Q4. The only differing
+metadata fields are the key count and `tokenizer.ggml.add_bos_token` /
+`tokenizer.ggml.add_eos_token` (both explicitly false in the baseline, absent
+in the matched export). The new archives' 64-byte size difference is not
+a weight change. All paired hashes are retained in
+`evidence/matched-tensor-comparison.json`; no additional inference was needed.
+
+### What this settles and what it does not
+
+The hypothesis that this missing field is fixed merely by matching the export
+revision is rejected on this input. It does not establish a universal quantizer
+bug, diagnose why these quantized weights omit the field, or measure language
+quality. BF16 remains a schema-tested alternative with a one-chunk gloss, not a
+selected production artifact. There was no UI run, dataset construction, held-out
+inference, prompt tuning, cloud use or spend. Full training remains gated.
+
+Next: independent review of the retained negative result and an export-path
+scope decision. The bounded next experiment to consider is **one matched Q8_0
+export of the same merged weights on the same input**, with the same strict and
+assembled contract checks before any training. It is a proposed experiment,
+not authorization to run it. A decision may instead authorize continued work
+using the tested BF16 path, explicitly accepting its measured memory/disk cost;
+neither choice selects a shipping model or waives the frozen v2 quality gate.

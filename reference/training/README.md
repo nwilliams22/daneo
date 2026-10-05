@@ -84,3 +84,57 @@ node --import tsx reference/training/validate-runtime.mjs --bf16
 These use the same non-held-out input. BF16 passes the app schema; full training
 remains blocked on resolving the Q4 gate or authorizing a different export path.
 The diagnostic does not evaluate language quality or change the production pin.
+
+## Matched-runtime Q4 diagnosis
+
+Reuse the existing environment and merged weights; do not repeat training. The
+pinned crate's VCS revision is `3b17d1f160f0e9cfcf95948954cefc967f8f92f2`.
+Its `llama-cpp-sys-2/llama.cpp` gitlink identifies the matched revision below
+([upstream gitlink](https://api.github.com/repos/utilityai/llama-cpp-rs/contents/llama-cpp-sys-2/llama.cpp?ref=3b17d1f160f0e9cfcf95948954cefc967f8f92f2)).
+`evidence/matched-toolchain.json` records the archive identity and byte-for-byte
+comparison of all 1,865 crate-vendored files and all 3,612 archive files. The
+crate omits `conversion/`, but the complete matched archive has Qwen3.5 support.
+
+If the matched archive/source is already present, verify/reuse it. For a fresh
+checkout, fetch/extract it once:
+
+```sh
+curl -fL https://codeload.github.com/ggml-org/llama.cpp/tar.gz/26394b4e6749a41c3633db040e0987500a5f7013 -o .local-models/compatibility/llama-matched.tar.gz
+printf '%s  %s\n' 1d0fcd22eb0fb31b1f75de2cc9e585a3338b8937043662a0c222a1e9261fed29 .local-models/compatibility/llama-matched.tar.gz | sha256sum -c -
+mkdir -p .local-models/compatibility/llama-matched
+tar -xzf .local-models/compatibility/llama-matched.tar.gz --strip-components=1 -C .local-models/compatibility/llama-matched
+cmake -S .local-models/compatibility/llama-matched -B .local-models/compatibility/llama-matched/build -DGGML_CUDA=OFF -DLLAMA_CURL=OFF -DLLAMA_BUILD_TESTS=OFF -DLLAMA_BUILD_SERVER=OFF
+cmake --build .local-models/compatibility/llama-matched/build --target llama-quantize -j 8
+.local-models/compatibility/venv/bin/python reference/training/export-matched.py > .local-models/compatibility/matched-export.log 2>&1
+python3 reference/training/run-runtime-smoke.py --matched > .local-models/compatibility/runtime-matched.log 2>&1
+cp .local-models/compatibility/matched-export-result.json reference/training/evidence/
+cp .local-models/compatibility/runtime-matched-{raw,results}.jsonl reference/training/evidence/
+node --import tsx reference/training/validate-matched.mjs
+```
+
+On this host `cmake` was invoked as `/home/baddong/.local/bin/cmake`.
+Both export and runtime launchers refuse to replace their matched outputs.
+No native rebuild or runtime change was needed: the existing production worker
+binary uses the same pinned source and prompt as the baseline. A fresh checkout
+must build the acceptance example with the command above before inference.
+`export-matched.py` records per-stage `/usr/bin/time -v` measurements and artifact
+hashes. The native launcher records its own `/usr/bin/time -v` output in the log.
+
+`validate-matched.mjs` checks the preserved raw JSON against parsed results and
+requires identical input/prompt/fixture/rubric identities across all three runs.
+It removes only deterministic `romanization` and `particles` fields before
+strict model-owned validation, then independently runs the unchanged production
+postprocessor and complete app schema. It writes
+`evidence/matched-schema-comparison.json`; **exit 1 means the matched Q4 failed**.
+A native exit 0 is never the contract verdict. Baseline/control inference is
+not repeated: their already-preserved evidence is the comparison control.
+
+To reproduce the tensor comparison without inference:
+
+```sh
+.local-models/compatibility/venv/bin/python reference/training/compare-export-tensors.py
+```
+
+This hashes each tensor's raw payload and checks its name/order/type/shape, then
+compares metadata field bytes. `evidence/matched-tensor-comparison.json` preserves
+all 441 tensor hash pairs at each precision.

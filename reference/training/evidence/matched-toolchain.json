@@ -12,5 +12,7 @@
   "archive_bytes": 37535360,
   "archive_sha256": "1d0fcd22eb0fb31b1f75de2cc9e585a3338b8937043662a0c222a1e9261fed29",
   "qwen35_converter": "conversion/qwen.py:Qwen3_5TextModel",
-  "quantizer_version": null
+  "cmake_version": "4.4.4",
+  "compiler_version": "GCC 16.2.1 20260819 (Red Hat 16.2.1-2)",
+  "quantizer_version_note": "No --version command; source commit and executable hash identify build"
 }

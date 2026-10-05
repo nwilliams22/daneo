@@ -1,0 +1,3 @@
+{"completionMs":8391,"direction":"en-to-ko","firstTokenMs":6365,"id":"warmup","input":"Hello.","outcome":{"ok":true,"result":{"cultural_note":"","direction":"en-to-ko","korean":"안녕하세요.","literal_gap":"","natural_english":"Hello."}},"readyMs":1588}
+{"completionMs":7721,"direction":"en-to-ko","firstTokenMs":4984,"id":"compatibility-smoke","input":"Korean is hard. But it's fun.","outcome":{"ok":true,"result":{"cultural_note":"","direction":"en-to-ko","korean":"한국어는 어렵습니다. 하지만 재미있습니다.","literal_gap":"","natural_english":"Korean is hard. But it's fun."}},"readyMs":0}
+{"cancelMs":0,"id":"cancel-demo","outcome":{"error":{"code":"cancelled","message":"Translation cancelled."},"ok":false}}
