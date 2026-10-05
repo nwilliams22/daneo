@@ -1,4 +1,4 @@
-# Phase D engine decision — three rungs measured, nothing qualifies
+# Phase D engine decision — every rung measured, nothing qualifies
 
 Written 2026-10-05, after the head-to-head score in
 [`head-to-head-results.md`](head-to-head-results.md) settled. This document does
@@ -25,8 +25,12 @@ so the scope decision is taken against numbers rather than impressions.
 | 3 | Same model, romanization and particle identity computed in code | v1 | **2/10** | 1 invented rule | BAD-212 |
 | 4 | Same model and code fields, re-measured in the head-to-head | v0 | **4/10** | 0 reversals, 0 invented | BAD-202 |
 | 5 | 27-row QLoRA on Qwen3.5-4B, Q8_0 merged export | v0 | **4/10** | **1 meaning reversal** | BAD-202 |
+| 6 | Same prompted base, first run against the sealed set | v2 | **2/10** | 1 meaning reversal, 3 invented | BAD-238 |
+| 7 | 250-row QLoRA on Qwen3.5-4B, Q8_0 merged export | v2 | **3/10** | 0 reversals, 1 invented | BAD-238 |
 
-Rungs 4 and 5 are the settled scores, after the independent re-score on
+Rungs 6 and 7 were added on 2026-10-05 and are the only scores taken on an
+unburned set; see [*Option A measured and declined*](#option-a-measured-and-declined--2026-10-05)
+below. Rungs 4 and 5 are the settled scores, after the independent re-score on
 BAD-233 corrected base `DAN-V0-KE-04` from a meaning failure to a pass. The
 three rungs did not all use the same ten items, so the 0 → 4 progression is
 indicative and not a controlled series; the controlled comparison is rungs 4
@@ -37,8 +41,9 @@ have now gated four runs, and the rubric itself says the burned v0 items stay
 out of later gates; reusing them flattered both engines rather than penalising
 them, so the decline is safe, but a passing count would not have been. Second,
 [`v2-translation-set.json`](v2-translation-set.json) — the set reserved for the
-fine-tune — was never run. It is still unburned, verified clean of the training
-rows, and is the gate any next rung should use.
+fine-tune — was unburned when this was written, and was the gate the next rung
+had to use. It was opened once on 2026-10-05 for rungs 6 and 7 and is now spent;
+a further rung needs a newly reserved set.
 
 ## The sixty fresh items
 
@@ -257,3 +262,69 @@ its candidate declined; scaled data review continues separately.
 Retain `server/` and the Cloud adapter as a DEV-gated result-contract comparison
 tool, off by default and never a fallback, with `claude-sonnet-4-6` unchanged.
 Deleting it is Nick's decision. No Phase D code is removed by the closeout.
+
+## Option A measured and declined — 2026-10-05
+
+Option A was the recommendation of this document and the half of Nick's decision
+that ran in parallel with the release. It is now measured and it declines. The
+pin stays null; nothing in this section changes the bar.
+
+**What was built.** 250 independently reviewed training rows — 100 literal gap,
+60 polite register, 45 gloss, 45 semantic — weighted at the two worst
+dimensions exactly as option A specified, plus 40 separately frozen development
+rows. Mechanical exclusion confirmed zero intersection with all 96 reserved rows
+(the ten v2 items among them), zero v1 overlap and zero train/development
+overlap. Two bounded QLoRA runs; LR 0.0001 / 2 epochs selected on development
+loss 0.2103, merged, exported Q8_0, hash-verified and loaded in the unchanged
+shipping worker. That is **9.3× the v1 training data** on the same proven
+pipeline (BAD-236 → BAD-237).
+
+**What it scored.** Both engines took the sealed
+[`v2-translation-set.json`](v2-translation-set.json) once, sequentially, on one
+host through the unchanged native CPU worker, with the harness committed
+(`8d413ac`) before either run. First-pass counts in
+[`v2-results.md`](v2-results.md); independent re-score in
+[`v2-independent-review.md`](v2-independent-review.md) (BAD-238 ran the gate,
+BAD-239 re-scored it), which agreed on **every per-item dimension and flag**
+with no disagreements.
+
+| Measure | Prompted base | 250-row Q8_0 fine-tune |
+| --- | ---: | ---: |
+| **Fully correct (bar is ≥9/10)** | **2/10** | **3/10** |
+| Meaning | 8/10 | 10/10 |
+| Korean-order gloss | 4/10 | 9/10 |
+| Particle roles | 8/10 | 10/10 |
+| Polite register | 8/10 | 10/10 |
+| Romanization | 9/10 | 10/10 |
+| **Literal gap** | **3/10** | **3/10** |
+| Meaning reversals | 1 | 0 |
+| Invented-rule flags | 3 | 1 |
+
+**Why it declines, precisely.** Training moved five of six dimensions to 9 or 10
+and removed the reversal. It did not move the one dimension option A was aimed
+at. The fine-tune emits an **empty literal-gap field on all ten items**: its
+three passes are the three sentences that need no explanation, so it passes
+**0/7** items that do require one, against the base's 1/7. On the separate
+sixty fresh items the same picture holds unchanged — literal gap **1/15 for
+both** engines, and polite register **6/15 base to 5/15 fine-tune**, down one.
+The conjunctive rubric means one dead dimension caps the score at 3/10 no matter
+how good the other five are.
+
+**What this is evidence about.** Scaling reviewed data 9.3× on the measured-worst
+dimension produced **+1 fully-correct item** and no generalized gain on the
+target dimension. That is information about the approach, not about a run: a 4B
+model at this quantization is not learning to reason about a literal/idiomatic
+gap from supervised examples of it. v2 is now spent and there is no unburned gate
+left; a further rung needs a newly reserved set authored first.
+
+**Five candidate scores, nothing above 4/10 against ≥9/10.** Spent: prompting,
+a repaired prompt, code-extracted fields, a 27-row fine-tune, and a 250-row
+fine-tune. Unspent and unchanged: **B** (larger parameter class, paid for by the
+learner's download and memory), **C** (different family, licence question
+answered *first*), **D** (narrow the claim to what measures at 100%), and
+stopping the engine programme with the app as it shipped. **F stays
+measured-closed**, and a paid or cloud engine was never on this list.
+
+Routed to Nick on BAD-240 as a card carrying these numbers. No further training,
+alternate family selection, rubric change or repeat v2 run is authorized by this
+section.

@@ -16,6 +16,8 @@
 
 > **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. Two bounded QLoRA comparisons completed; LR 0.0001 / epoch 2 selected on development loss (0.2103), exported as Q8_0, and loaded successfully in the unchanged native worker with a schema-valid reply. Independent artifact review and independent sealed-set re-score passed provenance and confirmed the recorded v2 counts: base 2/10 and scaled fine-tune 3/10 against ≥9/10. Fine-tune register is 10/10 vs base 8/10 on v2; literal gap remains 3/10 for both, with 0/7 applicable fine-tune items passing. On the separate 60-item fresh set, literal gap is 1/15 for both and register is 6/15 vs 5/15, so target improvement did not generalize. v2 is spent; model pin remains null. See `reference/eval/v2-results.md`, `reference/eval/v2-independent-review.md`, `reference/training/development-v2-freeze.md` and `reference/training/v2-results.md`.
 
+> **Engine verdict (2026-10-05):** option A — more training data on the proven pipeline — is **measured and declined**, so the training chain is closed with **no production pin**. Five candidate scores, nothing above 4/10 against ≥9/10; spent are prompting, a repaired prompt, code-extracted fields, a 27-row fine-tune and a 250-row fine-tune. The rubric is unchanged and a paid or cloud engine stays out of scope. The remaining free-and-local choices — a larger parameter class, a different model family with its licence answered first, narrowing the product claim, or stopping the engine programme — are **Nick's decision, pending on BAD-240**; BAD-213 and BAD-188 wait on that answer. Release one is unaffected: it ships with AI off and is not re-cut. Full numbers and reasoning: `reference/eval/engine-decision.md` §*Option A measured and declined*.
+
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
 - [x] Theme tokens from PROJECT.md §2 palette (Tailwind config) + font loading (Noto Sans KR / Noto Serif KR / Nanum Pen Script, OS fallbacks)
@@ -192,16 +194,24 @@ That order is superseded by the 2026-10-05 decision: **Phase B is the live relea
 > Asked to choose, Nick chose **"ship Daneo now with the AI off, train the model again at the same
 > time."** So: **the first release ships with the translator and the tutor off, enforced in code**,
 > **Phase B no longer waits for Phase D**, and the engine programme continues on a much larger
-> Daneo-specific dataset scored **once** against the still-sealed
+> Daneo-specific dataset scored **once** against the then-sealed
 > `reference/eval/v2-translation-set.json`. Every measured number and all six options considered:
 > [`reference/eval/engine-decision.md`](reference/eval/engine-decision.md).
+>
+> **Updated the same day: that retraining ran, and it declined too.** The sealed v2 set was opened
+> once for a prompted base at **2/10** and a 250-row Q8_0 fine-tune at **3/10**, confirmed by
+> independent re-score. **Five candidate scores, nothing above 4/10.** Training fixed five of six
+> dimensions and left literal gap dead (fine-tune 0/7 applicable items; 1/15 for both engines on
+> sixty fresh items). v2 is now spent. The pin is still null, the rubric is still unchanged, and
+> the remaining free-and-local options are **Nick's pending decision on BAD-240** —
+> see `engine-decision.md` §*Option A measured and declined*.
 
 - [x] Exclude AI from the production frontend: translator, tutor route/navigation and model settings are DEV-gated, with release regression tests and an absence notice. Native code remains. Packaged release verification remains in Phase B.
-- [ ] Qualify the local engine on a retrained artifact: scale the dataset toward literal gap and polite register from the shipped corpus, retrain on the 5090, export a loadable GGUF, then score **once** against the sealed v2 set. Iterate only against a separate development split. No paid fallback and no relaxed language threshold.
+- [x] Qualify the local engine on a retrained artifact — **done, and it declined** (2026-10-05): 250 reviewed rows weighted toward literal gap and polite register, QLoRA on the 5090, Q8_0 export loaded in the shipping worker, scored **once** against the sealed v2 set with iteration confined to a separate development split. Base **2/10**, fine-tune **3/10** against ≥9/10, agreed on re-score. No paid fallback was used and the language threshold was not relaxed. v2 is spent; a further rung needs a newly reserved set.
 
 - [x] Close the Phase D documentation inventory: README, PROJECT, TASKS, PLAN-local-model, engine decision and desktop closeout agree that the implementation is retained but no AI ships in release one; `reference/eval/README.md` points to the current gate ownership.
 - [ ] Phase B release chain (BAD-234 → BAD-204 → BAD-205): build/install the AI-off artifact; BAD-204 proves clean-machine offline operation and no paid-model access. This is independent of model selection.
-- [ ] Future engine verdict (BAD-240): qualify the retrained artifact and verify packaged Explore/tutor offline before enabling AI; the production pin and real verified download remain separate gates.
+- [ ] Future engine verdict (BAD-240): the retrained artifact was qualified and **declined**, so no pin was written and the engine programme now waits on Nick's choice among the unspent free-and-local options (larger parameter class, different family with its licence answered first, narrower product claim, or stop). Enabling AI additionally needs packaged Explore/tutor offline verification; the production pin and real verified download remain separate gates.
 
 **Outside desktop integration:** v1 training and export completed, but its candidate declined (`reference/training/v1-results.md`, `reference/eval/engine-decision.md`); scaled training is separate work. Mobile v3 requires a separate owner decision and device evidence; Phase C remains out of scope.
 
@@ -941,3 +951,38 @@ artifact identities, 10 scored rows plus warmup per stream, 250 training rows
 with no overlap with the 96 reservations, and no training/development overlap.
 Full verdict and per-item dimensions: `reference/eval/v2-independent-review.md`.
 No inference or build was run; model pin remains null. **Review complete.**
+
+### 2026-10-05 — Engine verdict after the v2 decline: option A spent, choice routed to Nick
+
+The terminus of the training chain (BAD-240). Case B of the two it was written
+for: the retrained artifact does not clear the bar, so **no pin was written**.
+`reference/model-pin.json` stays null, the rubric is unchanged, and no paid or
+cloud engine was reopened.
+
+The source of truth is the independent re-score on BAD-239,
+`reference/eval/v2-independent-review.md`, which agreed with the first pass on
+every per-item dimension and flag: prompted base **2/10**, 250-row Q8_0
+fine-tune **3/10**, against an unchanged **≥9/10**. Training moved five of six
+dimensions to 9 or 10 and removed the meaning reversal, but the fine-tune emits
+an empty literal-gap field on all ten items, passing **0/7** items that need a
+gap explanation. On the separate sixty fresh items the gap dimension is **1/15
+for both** engines and register fell 6/15 to 5/15. Scaling reviewed data
+**9.3×** at the measured-worst dimension bought **+1 fully-correct item** and no
+generalized gain on the target.
+
+Recorded in `reference/eval/engine-decision.md`: new section *Option A measured
+and declined*, rungs 6 and 7 added to the candidate table, the title corrected
+from "three rungs", and the stale caveat that v2 "was never run" rewritten —
+v2 is now spent and a further rung needs a newly reserved set. Five candidate
+scores, nothing above 4/10. Spent: prompting, a repaired prompt, code-extracted
+fields, a 27-row fine-tune, a 250-row fine-tune.
+
+Unspent options put to Nick as a card on BAD-240: a larger parameter class
+(costs the learner download and memory), a different model family with the
+licence question answered first, narrowing the product claim to what measures at
+100%, or stopping the engine programme with the app as it shipped. BAD-213 and
+BAD-188 stay blocked and now name that card as their unblock condition rather
+than a finished ticket. Release one is unaffected — it already ships with AI
+off and is not re-cut.
+
+No code changed; documentation only. `npm run build` PASS including typecheck.
