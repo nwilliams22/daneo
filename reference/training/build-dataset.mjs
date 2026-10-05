@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { translationResultSchema } from '../../src/lib/schemas.ts';
 
-const paired = process.argv.includes('--paired-candidates');
+const paired = process.argv.includes('--paired-candidates') || process.argv.includes('--paired-final');
 const finalizeV2 = process.argv.includes('--v2-final');
 const v2 = finalizeV2 || process.argv.includes('--v2-candidates');
 const corpusCommit = (v2 || paired) ? '5f5bef477b19eb4799d247352930589542a256a8' : '6587c1f9ef471eb9e50b7059fd99ee745d4c2a64';

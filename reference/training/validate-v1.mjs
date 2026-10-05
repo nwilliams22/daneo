@@ -3,11 +3,17 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { translationResultSchema } from '../../src/lib/schemas.ts';
 import { postprocessTranslation } from '../../src/lib/translation-postprocess.ts';
 const strict = translationResultSchema.omit({ romanization: true, particles: true }).strict();
-if (process.argv.includes('--dataset')) {
-  for (const name of process.argv.includes('--v2') ? ['dataset-v2', 'development-v2'] : ['dataset-v1']) {
-    const dataset = JSON.parse(readFileSync(new URL(`./${name}.json`, import.meta.url)));
+const datasetIndex = process.argv.indexOf('--dataset-path');
+if (process.argv.includes('--dataset') || datasetIndex >= 0) {
+  const developmentIndex = process.argv.indexOf('--development-path');
+  const paths = datasetIndex >= 0
+    ? [process.argv[datasetIndex + 1], ...(developmentIndex >= 0 ? [process.argv[developmentIndex + 1]] : [])]
+    : (process.argv.includes('--v2') ? ['dataset-v2', 'development-v2'] : ['dataset-v1'])
+      .map(name => new URL(`./${name}.json`, import.meta.url));
+  for (const path of paths) {
+    const dataset = JSON.parse(readFileSync(path));
     for (const row of dataset.items) strict.parse(row.target);
-    console.log(`PASS: ${name}: ${dataset.items.length} strict targets`);
+    console.log(`PASS: ${dataset.version}: ${dataset.items.length} strict targets`);
   }
 } else {
   const nameIndex = process.argv.indexOf('--name');

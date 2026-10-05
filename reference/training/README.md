@@ -243,3 +243,38 @@ identities. Large weights remain in ignored `.local-models/`, as in v1; the
 committed evidence and issue work product bind the selected local artifact.
 A worker smoke pass establishes the load/response contract only. The next
 independent gate decides language quality; `model-pin.json` remains null.
+
+## Paired-supervision development comparison
+
+The approved 406-row `dataset-paired.json` retains the same frozen 40-row
+`development-v2.json`, Qwen base revision, prompt, seed, LoRA settings and local
+locked environment as v2. Its 160 gap/gloss rows are balanced by direction and
+have independently reviewed contextual explanations. The approval is bound to
+the candidate hash and durable review record; `--paired-final` checks that bond.
+No reserved fixture is a training target or a selection metric.
+
+Before training, commit this fixed comparison: two peak rates (0.0001 and
+0.0002), four epochs each (1,624 updates), 25 warmup updates, cosine decay.
+Select each run's lowest response-token-weighted development-loss epoch, then
+select the lower-loss run (earlier epoch, then smaller rate, on a tie), exactly
+as in the v2 protocol. Export only that selection. Do not alter targets, prompt,
+settings or selection after seeing runtime answers. No additional retry or
+seventh candidate is authorized if the requested development metrics fail to
+improve. Stop and report the result.
+
+```sh
+node --import tsx reference/training/build-dataset.mjs --paired-final
+python3 reference/eval/check-independent-freeze.py --candidates reference/training/dataset-paired.json
+node --import tsx reference/training/validate-v1.mjs --dataset-path reference/training/dataset-paired.json --development-path reference/training/development-v2.json
+.local-models/compatibility/venv/bin/python reference/training/train-v1.py --config paired-lr1-config.json --name paired-lr1
+.local-models/compatibility/venv/bin/python reference/training/train-v1.py --config paired-lr2-config.json --name paired-lr2
+```
+
+The runner validates the actual configured dataset and refuses unapproved
+non-legacy targets before model loading. Raw native-worker comparison uses the
+same ten v2 development gap inputs whose v2 replies are already preserved in
+`evidence/v2-gap-replay/continuation/`. Score semantic correctness of the literal
+and natural explanation under the unchanged rubric, not text equality; also
+report gap-plus-multi-chunk output and correct-explanation-plus-multi-chunk output.
+The prior 0/10 exact wording match is not a semantic correctness baseline.
+No gate score or production pin change belongs to this experiment.

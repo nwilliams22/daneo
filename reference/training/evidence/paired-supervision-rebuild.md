@@ -1,7 +1,8 @@
 # Paired supervision rebuild checkpoint — 2026-10-05
 
 The prior diagnostic slice remains at `b58d710`. This is a candidate-data
-checkpoint, **not an approved dataset, trained artifact or language result**.
+checkpoint. The corrected targets passed independent review and were finalized;
+**no trained-artifact or language-quality result is claimed here**.
 The reserved gate and its freeze document were not opened in this rebuild
 context. Only the approved builder/checker subprocesses read reservation files;
 they print totals, not reserved text. The earlier description-exposure incident
@@ -52,11 +53,15 @@ The manifest binds the decisions file by hash. Source pattern notes, sentence
 notes and alternate matches remain review evidence. No outside translations or
 learner records were introduced. The 123 inherited no-gap anchors remain intact.
 
-The corrected targets still require independent review; this is not a language
-pass. Candidate and manifest retain `trainingAllowed: false`, with every row
-`reviewStatus: pending`. The review must assess all 80 explanations and the
-retained controls, not infer adequacy from passing mechanical checks. No model
-was trained or inferred on during either candidate build.
+Independent review passed all 203 anchors / 406 rows, including all 80 authored
+explanations and 123 controls, with no corrections required. The hash-bound
+review record is `ae71caf2-63a2-43e6-aade-42c79cc65994`.
+`dataset-paired-approval.json` binds that verdict to the corrected candidate;
+`dataset-paired.json` and its final manifest are the approved training artifact.
+Candidate bytes remain pending/forbidden as historical review inputs. Final
+rows are approved and checked byte-for-byte against those reviewed candidates.
+This is not a model language pass. No model was trained or inferred on during
+either candidate build or the review.
 
 ## Verification from the repository root
 
@@ -86,8 +91,7 @@ formats keep their former uniqueness rules.
 
 ## Remaining result and closure
 
-The next step is independent target review, then corrections and a hash-bound
-approved artifact. After approval, reuse the incumbent base and bounded
+The next step is the fixed development-only training comparison. Reuse the incumbent base and bounded
 selection protocol, compare correct development explanations and gap-plus-
 multi-chunk replies against the preserved v2 baseline on the same inputs, and
 report export/native-runtime evidence. Non-empty-field counts alone are not a

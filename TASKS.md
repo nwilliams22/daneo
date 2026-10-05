@@ -1312,3 +1312,10 @@ substring false match is removed. Rebuilt candidates: 406 rows, 160 paired gap/g
 rows (80 in each direction), with 246 unchanged no-gap controls. Seven dataset and
 seven checker tests pass; exclusion checks and build/content validation pass again.
 Training remains forbidden pending the corrected-target review. No model run occurred.
+
+The corrected target review passed all 203 anchors / 406 rows without changes.
+Finalized `dataset-paired.json` with a hash-bound approval and manifest; the checker
+verifies final targets against the exact reviewed candidates. The training runner
+now validates the actual configured dataset and rejects unapproved targets before
+model load. Predeclared the same two-rate/four-epoch development-loss selection
+protocol for 406 rows, with no extra retry after the native development verdict.

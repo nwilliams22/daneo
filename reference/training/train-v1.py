@@ -32,8 +32,12 @@ development = ROOT/'reference/training'/cfg['development'] if 'development' in c
 if development:
     assert sha(development) == cfg['development_sha256']
 assert sha(dataset) == cfg['dataset_sha256']
+dataset_document = json.loads(dataset.read_text())
+if dataset.name != 'dataset-v1.json':
+    assert dataset_document.get('trainingAllowed') is True, 'dataset is not approved for training'
+    assert all(row.get('reviewStatus') == 'approved' for row in dataset_document['items']), 'unreviewed targets'
 subprocess.run(['python3', 'reference/eval/check-independent-freeze.py', '--candidates', str(dataset)], cwd=ROOT, check=True)
-subprocess.run(['node', '--import', 'tsx', 'reference/training/validate-v1.mjs', '--dataset', *(['--v2'] if development else [])], cwd=ROOT, check=True)
+subprocess.run(['node', '--import', 'tsx', 'reference/training/validate-v1.mjs', '--dataset-path', str(dataset), *(['--development-path', str(development)] if development else [])], cwd=ROOT, check=True)
 if not args.probe:
     gate = json.loads((ROOT/'.local-models/v1-probe/schema-result.json').read_text())
     assert gate['passed'], 'QLoRA export/runtime probe must pass first'

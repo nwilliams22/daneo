@@ -141,10 +141,24 @@ def check_candidates(path, exclusions):
     data = json.loads(path.read_text())
     rows = data["items"] if isinstance(data, dict) else data
     seen_candidates = [set(), set(), set()]
-    paired = isinstance(data, dict) and data.get("version") == "paired-1-candidates"
+    paired = isinstance(data, dict) and data.get("version") in ("paired-1-candidates", "training-paired-1")
     checked_rows = paired_anchors(rows) if paired else rows
     if paired:
-        assert data.get("trainingAllowed") is False, "candidates are not approved training data"
+        final = data["version"] == "training-paired-1"
+        assert data.get("trainingAllowed") is final, "incorrect paired training permission"
+        if final:
+            review = data["review"]
+            approval_bytes = (path.parent / review["approval"]).read_bytes()
+            candidate_bytes = (path.parent / review["candidates"]).read_bytes()
+            assert hashlib.sha256(approval_bytes).hexdigest() == review["approvalSha256"]
+            assert hashlib.sha256(candidate_bytes).hexdigest() == review["candidateSha256"]
+            approval = json.loads(approval_bytes)
+            candidates = json.loads(candidate_bytes)["items"]
+            assert approval["approved"] is True and approval["candidateSha256"] == review["candidateSha256"]
+            assert approval["reviewedCount"] == len(rows) == len(candidates)
+            assert approval["reviewCommentId"]
+            for row, candidate in zip(rows, candidates):
+                assert row == dict(candidate, reviewStatus="approved"), "final target differs from approved candidate"
         assert len({row["id"] for row in rows}) == len(rows), "duplicate candidate ID"
         # Apply all exclusions to both directions, including optional source text.
         for row in rows:

@@ -1,5 +1,6 @@
 // Paired, corpus-aligned candidates. Review is required before training.
 import assert from 'node:assert/strict';
+import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync } from 'node:fs';
 
@@ -137,5 +138,27 @@ export function buildPairedCandidates({ source, gapSource, corpusBytes, gapBytes
     review: 'Pending independent review of authored explanations and paired targets',
     provenance: 'Project-owned corpus chunks aligned by ID and reviewed gap entries; no learner records or outside translations' };
   writeFileSync(new URL('./dataset-paired-manifest.json', import.meta.url), `${JSON.stringify(manifest, null, 2)}\n`);
+  if (process.argv.includes('--paired-final')) {
+    const approvalBytes = readFileSync(new URL('./dataset-paired-approval.json', import.meta.url));
+    const approval = JSON.parse(approvalBytes);
+    assert.equal(approval.approved, true, 'independent review did not pass');
+    assert.equal(approval.candidateSha256, sha(bytes), 'review is for different targets');
+    assert.equal(approval.reviewedCount, items.length, 'review must cover every row');
+    assert.ok(approval.reviewCommentId, 'review verdict must have a durable source');
+    execFileSync('python3', ['reference/eval/check-independent-freeze.py', '--candidates',
+      'reference/training/dataset-paired-candidates.json'], { stdio: 'inherit' });
+    const approved = { ...dataset, version: 'training-paired-1', trainingAllowed: true,
+      purpose: 'Approved supervision for a development-only experiment; no gate claim',
+      review: { approval: 'dataset-paired-approval.json', approvalSha256: sha(approvalBytes),
+        candidates: 'dataset-paired-candidates.json', candidateSha256: sha(bytes) },
+      items: items.map(row => ({ ...row, reviewStatus: 'approved' })) };
+    const finalBytes = `${JSON.stringify(approved, null, 2)}\n`;
+    writeFileSync(new URL('./dataset-paired.json', import.meta.url), finalBytes);
+    writeFileSync(new URL('./dataset-paired-final-manifest.json', import.meta.url),
+      `${JSON.stringify({ ...manifest, version: approved.version, trainingAllowed: true,
+        dataset: 'dataset-paired.json', sha256: sha(finalBytes), review: approved.review }, null, 2)}\n`);
+    console.log(`PASS: ${items.length} hash-bound approved paired targets`);
+    return;
+  }
   console.log(`PASS: ${items.length} paired candidates / ${items.length / 2} anchors; both directions; review pending, training forbidden`);
 }
