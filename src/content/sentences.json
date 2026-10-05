@@ -8400,7 +8400,7 @@
       { "t": "아아 한 잔", "role": "object", "id": "o" },
       { "t": "주세요", "role": "verb", "id": "v" }
     ],
-    "rom": "a-a han jan juseyo",
+    "rom": "aa han jan juseyo",
     "wordIds": ["w_s1_aa", "w_hana", "w_c_jan", "w_juda"],
     "note": "Slang inside the polite frame — 아아 is so universal it rides M9's 주세요 machine at any counter, any age. M5's cup counter and contracted 한, unbothered by the vowels they're counting."
   },
@@ -13506,7 +13506,7 @@
       { "t": "길이", "role": "subject", "id": "s" },
       { "t": "많이 막혀요", "role": "verb", "id": "v" }
     ],
-    "rom": "ilbanjeogeuro achimeneun giri mani makhyeoyo",
+    "rom": "ilbanjeogeuro achimeneun giri mani makyeoyo",
     "wordIds": ["w_ilban", "w_achim", "w_gil", "w_mani", "w_makhida"],
     "note": "M45's -적으로 demoed 일반적으로 before the root existed for you; today the root reports and the adverb is legal. Bonus radar, live: this 길이 is M12's road wearing the subject particle — the OTHER 길이 measures trousers. M12's 막히다 does what it has done since s12."
   },
@@ -23439,7 +23439,7 @@
       { "t": "새로", "role": "other", "id": "d" },
       { "t": "사 줬어요", "role": "verb", "id": "v" }
     ],
-    "rom": "aiga hagyongpumeul da ireobeoryeotgillae yeonpil gongchaek deungdeungeul saero sa jwosseoyo",
+    "rom": "aiga hagyongpumeul da ireobeoryeotgillae yeonpil, gongchaek deungdeungeul saero sa jwosseoyo",
     "wordIds": ["w_ai", "w_hagyongpum", "w_da", "w_ireobeorida", "w_yeonpil", "w_gongchaek", "w_deungdeung", "w_saero", "w_sada", "w_juda"],
     "note": "Recycles -길래 from M93, the witnessed because — that md's rule of persons, \"the -길래 clause is NOT the speaker — it is the weather, the shop, the company, the other person — and the main clause IS: you watched, then you did\". The kid loses, the parent buys. Two slice words close the shelf: 학용품 (the study-用-品 stack, and M15's 연필 and 공책 are two of its members) and 등등, S2's 등 doubled and trailing off exactly as that note promised. M9's 다 totals the loss, M20's 잃어버리다 is the losing, M35's 새로 and M2's 사다 with M9's 주다 replace it. Say it with 등 instead of 등등 and the sentence turns into a receipt."
   },
