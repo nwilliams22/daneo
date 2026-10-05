@@ -1176,3 +1176,42 @@ programme — recommending D or stopping rather than a seventh rung. The rubric 
 unedited, no paid or cloud engine is reopened, and release one is not re-cut.
 BAD-213 and BAD-188 stay blocked on his answer rather than being cancelled,
 since option B would still need both. Next: Nick's choice on BAD-247.
+
+### 2026-10-05 — the training data never taught the field that fails (BAD-15)
+
+Nick asked why the KT model is not simply trained on the one dimension that
+fails. Auditing our own supervision to answer him found a defect that changes
+what the two fine-tune declines are evidence of. Source of truth, re-runnable:
+`node reference/training/audit-gap-supervision.mjs`.
+
+Across all **317** rows either fine-tune ever trained on or was selected
+against, exactly **10** show an aligned multi-chunk gloss together with a
+non-empty `literal_gap` — the pair every reply must carry. Two construction
+faults in `reference/training/build-dataset.mjs` cause it: sentence-derived rows
+hardcode `literal_gap: ''` (line 139), and gap-derived rows hardcode
+`direction: 'ko-to-en'` with the whole sentence as a single `other` chunk
+(lines 154–156), because `gap.json` entries are patterns rather than sentences
+— only 2 of 420 match a full corpus sentence, so the builder had nothing to
+align. Result: `en-to-ko` carries a literal gap on **2 of 110** rows, and
+**113 of 123** gap rows carry a gloss shape the rubric fails. The manifests
+record class and direction counts as independent marginals, so neither the
+dataset review nor the training report could have seen the cross-tabulation.
+
+This explains both halves of the v2 result: four of the seven gap-requiring gate
+items are `en-to-ko`, where the field was demonstrated empty 108 times out of
+110; and in `ko-to-en` a gap was 92% co-located with the degenerate gloss, so
+learning the gloss (4/10 → 9/10) and emitting a gap were in opposition. The
+artifacts stay declined — those are measurements of artifacts. What is no longer
+supported is the inference that a 4B model cannot learn this dimension from
+examples, since 115 of 123 gap rows taught it attached to a rejected output
+shape.
+
+A corrected rebuild is buildable from committed content: **200** of 1,439
+glossed sentences exhibit a reviewed gap pattern, reaching **48** gap entries,
+so **400** rows across both directions against 10 today — a lower bound, since
+substring matching misses inflected forms. Recorded in
+`reference/eval/engine-decision.md` §*The training data never contained the
+output the rubric asks for*. Nothing Nick closed is reopened: no paid or cloud
+engine, no relaxed rubric, no pretraining, `model-pin.json` still null, release
+one not re-cut, and `v3-translation-set.json` still unused. Next: the pending
+card on BAD-247 carries this as a measured option.

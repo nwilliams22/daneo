@@ -488,3 +488,87 @@ The rubric is unedited, no paid or cloud engine is reopened, `model-pin.json`
 stays null, and release one is not re-cut. The reserved gate set
 [`v3-translation-set.json`](v3-translation-set.json) is **unused** and survives
 for any future authorized candidate.
+
+## The training data never contained the output the rubric asks for — 2026-10-05
+
+Nick asked why the Korean-native KT model is not simply fine-tuned on the one
+dimension that fails. Auditing the training data to answer him turned up a
+defect in our own supervision, and it changes what the two fine-tune declines
+are evidence of. Source of truth, re-runnable:
+`node reference/training/audit-gap-supervision.mjs`.
+
+**Across every row either fine-tune has ever trained on or been selected
+against — 317 rows over v1 training, v2 training and the v2 development split —
+exactly 10 show an aligned multi-chunk gloss together with a non-empty
+`literal_gap`.** That pair is what the rubric requires of every reply. The
+model was shown it 10 times in 317.
+
+Two independent construction faults produce that, both visible in
+`reference/training/build-dataset.mjs`:
+
+| Fault | Where | Effect |
+| --- | --- | --- |
+| Every sentence-derived row hardcodes `literal_gap: ''` | `build-dataset.mjs:139-140` | 194 rows teach that the field is empty |
+| Every gap-derived row hardcodes `direction: 'ko-to-en'` and the **whole sentence as one chunk**, `role: 'other'` | `build-dataset.mjs:154-156` | the only rows carrying a gap also carry a gloss shape the rubric fails |
+
+So the supervision is confounded twice over:
+
+| Measure | Count |
+| --- | ---: |
+| `en-to-ko` rows carrying a non-empty literal gap | **2 / 110** |
+| Gap rows whose gloss is a single chunk | **113 / 123** |
+| Rows carrying both a multi-chunk gloss and a literal gap | **10 / 317** |
+
+The dataset manifests record class counts and direction counts as independent
+marginals and were reviewed that way; the cross-tabulation was never taken, so
+neither the dataset review nor the training report could have seen this.
+
+**It explains both halves of the v2 result, which nothing else did.** In
+`en-to-ko` the field was demonstrated empty on 108 of 110 rows — and four of the
+seven gate items requiring a gap are `en-to-ko`. In `ko-to-en`, a non-empty gap
+was 92% co-located with the degenerate one-chunk gloss, so learning the correct
+gloss and learning to emit a gap were in direct opposition. The artifact did
+learn the gloss: **4/10 → 9/10**. It carried the empty gap field along with it,
+on all ten items.
+
+**What this does and does not establish.** The two artifacts are still declined;
+those are measurements of artifacts and they stand. What is **not** supported is
+the inference drawn from them — that a 4B model at this quantization cannot learn
+to reason about a literal/idiomatic gap *from examples of it*. It was not given
+examples of it. 115 of the 123 gap rows taught the field attached to an output
+shape the rubric rejects, and the other direction taught its absence.
+
+**A corrected rebuild is buildable from committed content, as a lower bound:**
+**200** of the 1,439 glossed corpus sentences exhibit a reviewed `gap.json`
+pattern, reaching **48** distinct gap entries — so **400 rows across both
+directions**, every one carrying the human multi-chunk gloss the sentence
+already has *and* a reviewed `lit`/`real`/`note` explanation. Against 10 today.
+Substring matching is a deliberate lower bound: it misses inflected forms, so a
+morphological build finds more anchors, never fewer. The reason the current rows
+are degenerate is that `gap.json` entries are **patterns, not sentences** — only
+2 of 420 match a full corpus sentence — which is why the builder had nothing to
+align and used the whole string as one chunk.
+
+**This is the first mechanism argument this project has had for another training
+run**, as distinct from "more data". It does not reopen anything Nick closed: no
+paid or cloud engine, no relaxed rubric, no pretraining, `model-pin.json` still
+null, release one not re-cut. The reserved gate set
+[`v3-translation-set.json`](v3-translation-set.json) remains **unused**, and a
+rebuilt dataset must be screened on the development split before it is spent.
+
+**On the KT model specifically: it is the wrong base for this, and not because
+of cost.** Mi:dm 2.0 Mini is MIT-licensed, free, and already converted locally —
+nothing was ever bought and nothing proposed here costs money. But the premise
+of "near-perfect on everything else" does not hold for it: 0/30 fully correct,
+**0/30 word-order gloss**, 22/30 register, one meaning reversal, and an invented
+grammatical rule on **15/30** items. Its two strong columns — romanization 30/30
+and particle roles 23/30 — are computed by `src/lib/translation-postprocess.ts`,
+not by the model. Training it would have to carry four model-owned dimensions up
+from near-zero while suppressing a hallucination rate of one item in two.
+
+**The base that actually matches the premise is the one we already hold**: the
+v2 Q8_0 fine-tune of the incumbent scores meaning 10/10, gloss 9/10, particles
+10/10, register 10/10, romanization 10/10 and literal gap 3/10 — one field
+short, and that field is the one the supervision never taught. If another
+training run is authorized, it belongs on that base, not on a Korean-native
+model that fails four dimensions and invents rules.
