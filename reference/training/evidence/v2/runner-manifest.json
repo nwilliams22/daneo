@@ -1,0 +1,22 @@
+{
+  "train-v1.py": {
+    "bytes": 8581,
+    "sha256": "7bb1428863003312e62039454aed5683dc2a9c230f449f10e5be34daa1a449e0"
+  },
+  "export-v1.py": {
+    "bytes": 4634,
+    "sha256": "ea6544cb0e6f4c51a2310aa284e1b7297caf6019846f836d3fbb9a8b9fbd32ed"
+  },
+  "validate-v1.mjs": {
+    "bytes": 2461,
+    "sha256": "9083601cc84f7f0477ba599c6aaedf534f568233cdafaba419e00341b95589eb"
+  },
+  "v2-lr1-config.json": {
+    "bytes": 865,
+    "sha256": "982d657b37c10f74687f49668479c2d5be7926740579857bd2ac644b67f1a982"
+  },
+  "v2-lr2-config.json": {
+    "bytes": 865,
+    "sha256": "ee3e5f84715d6602882e24adaee797722eadab8f2f195f4876abe4e9ef2bf28f"
+  }
+}
