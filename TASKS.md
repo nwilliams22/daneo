@@ -16,7 +16,7 @@
 
 > **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. Two bounded QLoRA comparisons completed; LR 0.0001 / epoch 2 selected on development loss (0.2103), exported as Q8_0, and loaded successfully in the unchanged native worker with a schema-valid reply. Independent artifact review and independent sealed-set re-score passed provenance and confirmed the recorded v2 counts: base 2/10 and scaled fine-tune 3/10 against ≥9/10. Fine-tune register is 10/10 vs base 8/10 on v2; literal gap remains 3/10 for both, with 0/7 applicable fine-tune items passing. On the separate 60-item fresh set, literal gap is 1/15 for both and register is 6/15 vs 5/15, so target improvement did not generalize. v2 is spent; model pin remains null. See `reference/eval/v2-results.md`, `reference/eval/v2-independent-review.md`, `reference/training/development-v2-freeze.md` and `reference/training/v2-results.md`.
 
-> **Engine verdict (2026-10-05):** option A — more training data on the proven pipeline — is **measured and declined**, so the training chain is closed with **no production pin**. Five candidate scores, nothing above 4/10 against ≥9/10; spent are prompting, a repaired prompt, code-extracted fields, a 27-row fine-tune and a 250-row fine-tune. The rubric is unchanged and a paid or cloud engine stays out of scope. The remaining free-and-local choices — a larger parameter class, a different model family with its licence answered first, narrowing the product claim, or stopping the engine programme — are **Nick's decision, pending on BAD-240**; BAD-213 and BAD-188 wait on that answer. Release one is unaffected: it ships with AI off and is not re-cut. Full numbers and reasoning: `reference/eval/engine-decision.md` §*Option A measured and declined*.
+> **Engine verdict (2026-10-05):** option A — more training data on the proven pipeline — is **measured and declined**, so the training chain is closed with **no production pin**. Five candidate scores, nothing above 4/10 against ≥9/10; spent are prompting, a repaired prompt, code-extracted fields, a 27-row fine-tune and a 250-row fine-tune. The rubric is unchanged and a paid or cloud engine stays out of scope. **Nick answered on BAD-240: try a different model family (option C).** The licence precondition is settled without a decision from him — Mi:dm 2.0 Mini (KT, MIT, 2.3B, `LlamaForCausalLM`) and A.X 4.0 Light (SKT, Apache-2.0, 7B) are both Korean-specialised and commercially usable, so EXAONE and Kanana are held rather than needed, and selling Daneo stays possible. All 96 reserved rows are burned, so a new gate set is frozen before anything is scored and candidates are screened on a development split first. Chain: BAD-244 (new gate set, Chani) ∥ BAD-245 (family screen, Duncan) → BAD-246 (one gate run, Duncan, re-scored by Thufir) → **BAD-247 (verdict terminus, Bad Dong)**; BAD-213 and BAD-188 now wait on BAD-247. Release one is unaffected: it ships with AI off and is not re-cut. Full numbers and reasoning: `reference/eval/engine-decision.md` §*Option A measured and declined* and §*Nick's decision — 2026-10-05: option C*; candidate licences and sources: `reference/eval/engine-family-survey.md`.
 
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
@@ -202,16 +202,24 @@ That order is superseded by the 2026-10-05 decision: **Phase B is the live relea
 > once for a prompted base at **2/10** and a 250-row Q8_0 fine-tune at **3/10**, confirmed by
 > independent re-score. **Five candidate scores, nothing above 4/10.** Training fixed five of six
 > dimensions and left literal gap dead (fine-tune 0/7 applicable items; 1/15 for both engines on
-> sixty fresh items). v2 is now spent. The pin is still null, the rubric is still unchanged, and
-> the remaining free-and-local options are **Nick's pending decision on BAD-240** —
-> see `engine-decision.md` §*Option A measured and declined*.
+> sixty fresh items). v2 is now spent. The pin is still null and the rubric is still unchanged.
+>
+> **Nick answered on BAD-240: try a different model family (option C).** Two Korean-specialised
+> families are commercially licensed — **Mi:dm 2.0 Mini** (KT, MIT, 2.3B, `LlamaForCausalLM`) and
+> **A.X 4.0 Light** (SKT, Apache-2.0, 7B) — so the licence precondition needed nothing from him and
+> selling Daneo stays possible; EXAONE and Kanana are held, not rejected. All 96 reserved rows are
+> burned, so **a new gate set is frozen before anything is scored** and candidates are screened on a
+> development split first. Chain: **BAD-244 ∥ BAD-245 → BAD-246 → BAD-247** (terminus). See
+> `engine-decision.md` §*Option A measured and declined* and §*Nick's decision — 2026-10-05: option
+> C*, and `engine-family-survey.md` for the candidate licences.
 
 - [x] Exclude AI from the production frontend: translator, tutor route/navigation and model settings are DEV-gated, with release regression tests and an absence notice. Native code remains. Packaged release verification remains in Phase B.
 - [x] Qualify the local engine on a retrained artifact — **done, and it declined** (2026-10-05): 250 reviewed rows weighted toward literal gap and polite register, QLoRA on the 5090, Q8_0 export loaded in the shipping worker, scored **once** against the sealed v2 set with iteration confined to a separate development split. Base **2/10**, fine-tune **3/10** against ≥9/10, agreed on re-score. No paid fallback was used and the language threshold was not relaxed. v2 is spent; a further rung needs a newly reserved set.
 
 - [x] Close the Phase D documentation inventory: README, PROJECT, TASKS, PLAN-local-model, engine decision and desktop closeout agree that the implementation is retained but no AI ships in release one; `reference/eval/README.md` points to the current gate ownership.
 - [ ] Phase B release chain (BAD-234 → BAD-204 → BAD-205): build/install the AI-off artifact; BAD-204 proves clean-machine offline operation and no paid-model access. This is independent of model selection.
-- [ ] Future engine verdict (BAD-240): the retrained artifact was qualified and **declined**, so no pin was written and the engine programme now waits on Nick's choice among the unspent free-and-local options (larger parameter class, different family with its licence answered first, narrower product claim, or stop). Enabling AI additionally needs packaged Explore/tutor offline verification; the production pin and real verified download remain separate gates.
+- [x] Engine verdict on the retrained artifact (BAD-240) — **closed 2026-10-05, Case B**: it declined, no pin was written, and Nick chose **a different model family**. BAD-240 is done; the engine question now lives on the option-C chain below.
+- [ ] Option C — a different model family (BAD-244 ∥ BAD-245 → BAD-246 → **BAD-247**): freeze a new reserved gate set and development split (all 96 prior reservations are burned), screen Mi:dm 2.0 Mini then A.X 4.0 Light on the development split, take at most one candidate through a single gate run with an independent re-score, then **write the pin or return the last options to Nick on BAD-247**. A screen that shortlists nothing skips the gate run and lands on BAD-247. Enabling AI additionally needs packaged Explore/tutor offline verification; the production pin and real verified download remain separate gates.
 
 **Outside desktop integration:** v1 training and export completed, but its candidate declined (`reference/training/v1-results.md`, `reference/eval/engine-decision.md`); scaled training is separate work. Mobile v3 requires a separate owner decision and device evidence; Phase C remains out of scope.
 
@@ -985,4 +993,60 @@ BAD-188 stay blocked and now name that card as their unblock condition rather
 than a finished ticket. Release one is unaffected — it already ships with AI
 off and is not re-cut.
 
+No code changed; documentation only. `npm run build` PASS including typecheck.
+
+### 2026-10-05 — Nick's engine decision: option C, a different model family
+
+Nick answered the BAD-240 card: **"Try a different model family."** That is
+option **C** of the four unspent free-and-local options. BAD-240 is closed as
+Case B — the retrained artifact declined, no pin was written, and the choice is
+now made. `reference/model-pin.json` stays null until a candidate clears the
+unchanged rubric.
+
+**The licence precondition is settled, and it needed nothing from Nick.** Option
+C was written as a tradeoff: EXAONE is the strongest Korean-oriented bet at this
+size but is non-commercially licensed, so taking it would have required deciding
+that Daneo will never be sold. It is not a tradeoff. Two Korean-specialised
+families publish commercially usable weights — **Mi:dm 2.0 Mini** (KT, published
+as `K-intelligence`, **MIT**, 2.3B, `"architectures": ["LlamaForCausalLM"]`,
+32,768 context) and **A.X 4.0 Light** (SKT, **Apache-2.0**, 7B, Qwen2.5
+derivative, 16,384 context). The shortlist can be run without foreclosing a
+sale, and EXAONE and Kanana (CC-BY-NC-4.0) are **held, not rejected** — they
+return only if the permissive two decline and Nick states the product will never
+be sold. HyperCLOVA X SEED is excluded for now: gated download plus a bespoke
+unreviewed licence, and the shipping downloader has no interactive consent step.
+
+Mi:dm Mini leads on four counts: Korea-centric by construction rather than by
+multilingual coverage, a **smaller** download than the incumbent 4B (2.3B,
+inside the 2.5–3 GB standard envelope — to be measured, not assumed), a `llama`
+architecture the pinned `llama-cpp-2 0.1.158` worker already supports, and the
+least restrictive licence in the field. A.X Light's Korean gains over its own
+base are directly measured (KMMLU 64.15 vs Qwen2.5-7B's 49.56, CLIcK 68.05 vs
+60.56, KoBALT 30.29 vs 21.57), but at 7B a Q4_K_M is roughly 4.7 GB, so a
+qualifying score there reopens a download-budget decision rather than closing
+one. Neither family publishes an official GGUF; local conversion from the MIT
+weights is the safer path and is available.
+
+Written up in the new `reference/eval/engine-family-survey.md` — candidates,
+licences, architectures, download costs, exclusions and publisher sources, with
+the standing constraints the next rung has to respect. `engine-decision.md`
+gains §*Nick's decision — 2026-10-05: option C* and its §*Option A measured and
+declined* now points forward to that answer instead of to a pending card.
+
+**Two facts shape the chain.** All 96 reserved rows are burned — 10 v0, 10 v1,
+6 dev, 10 v2 and the 60 independent items have every one been run and read — so
+no gate score is possible until a new set is authored and frozen. And four of
+five declines died on the literal-gap dimension, so candidates are screened on a
+development split before a sealed set is spent on them.
+
+Chain filed under the project home: **BAD-244** (freeze a new reserved gate set
+and a development split, Chani) in parallel with **BAD-245** (screen the two
+licence-cleared families, Duncan), then **BAD-246** (one gate run, Duncan,
+independently re-scored by Thufir as a comment), terminating on **BAD-247**
+(write the pin or return the last options to Nick, Bad Dong). A screen that
+shortlists no candidate skips BAD-246 and lands on BAD-247 directly. BAD-213
+and BAD-188 now name BAD-247 as their unblock condition.
+
+The rubric is unchanged, option F stays measured-closed, no paid or cloud engine
+was reopened, and release one is not re-cut — it already ships with the AI off.
 No code changed; documentation only. `npm run build` PASS including typecheck.

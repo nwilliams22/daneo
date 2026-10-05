@@ -327,4 +327,59 @@ measured-closed**, and a paid or cloud engine was never on this list.
 
 Routed to Nick on BAD-240 as a card carrying these numbers. No further training,
 alternate family selection, rubric change or repeat v2 run is authorized by this
-section.
+section; **his answer is the section below**, and it authorizes option C only.
+
+## Nick's decision — 2026-10-05: option C, a different model family
+
+Asked on BAD-240 to choose between a larger parameter class (**B**), a different
+model family (**C**), narrowing the product claim (**D**) and stopping the engine
+programme, with the five measured scores in front of him, Nick chose **"Try a
+different model family."** That is option **C**.
+
+What the decision fixes, and what it does not:
+
+- **The incumbent architecture is no longer the subject.** Qwen3.5-4B has been
+  prompted, prompt-repaired, code-assisted and fine-tuned twice. The next rung
+  changes the model family, not the data volume. No further training on
+  Qwen3.5-4B is authorized by this decision.
+- **The licence precondition is satisfied, and it cost nothing.** Option C was
+  written as a tradeoff — EXAONE is the strongest Korean-oriented bet but is
+  non-commercially licensed, *"fine if Daneo is never sold, a dead end if it
+  might be."* It is not a tradeoff: **Mi:dm 2.0 Mini** (KT, **MIT**, 2.3 B,
+  `LlamaForCausalLM`) and **A.X 4.0 Light** (SKT, **Apache-2.0**, 7 B) are both
+  Korean-specialised and both commercially usable. The shortlist needs no
+  decision from Nick about selling Daneo, and taking it does not foreclose
+  selling Daneo. EXAONE and Kanana are **held, not rejected**, and return only
+  if the permissive two decline *and* Nick states the product will never be
+  sold. Candidates, licences, architectures, download costs and sources:
+  [`engine-family-survey.md`](engine-family-survey.md).
+- **There is no gate left to score against.** All 96 reserved rows are burned —
+  10 v0, 10 v1, 6 dev, 10 v2, 60 independent. A new reserved set is authored and
+  frozen before any candidate is measured, and a separate development split
+  carries the per-family prompt adaptation. A new family does not inherit the
+  Qwen-shaped prompt, and a prompt is never tuned against a held-out set.
+- **The screen comes before the gate.** Four of the five declines died on the
+  literal-gap dimension and the 250-row fine-tune emitted an empty gap field on
+  all ten items. Asking *"does this family produce a usable literal-gap
+  explanation at all?"* costs one run on a development split. A fresh sealed set
+  is the scarcest asset this programme has; it is spent on a candidate that has
+  already cleared that dimension on the screen, or not at all.
+- **Nothing here reopens a paid engine, and nothing here moves the bar.**
+  `PLAN-local-model.md` §*Owner constraint* and [`v0-rubric.md`](v0-rubric.md)
+  are both unchanged. Option **F** stays measured-closed.
+- **Release one is not re-cut.** It shipped with the translator and tutor off
+  (BAD-234). Turning them on needs a qualified artifact that does not exist and
+  a separate ticket when it does.
+
+The chain is BAD-244 (freeze a new gate set and development split, Chani) and
+BAD-245 (screen the two licence-cleared families, Duncan) in parallel, then
+BAD-246 (one gate run, Duncan, independently re-scored by Thufir), terminating
+on BAD-247 (write the pin or return to Nick, Bad Dong). BAD-213 and BAD-188 now
+wait on BAD-247. **If the screen shortlists no candidate, that is the verdict
+and it goes straight to BAD-247** — no gate run, no new set burned.
+
+**If option C declines, the options left are B, D, the held non-commercial
+families and stopping.** Six declines would be information about the problem
+rather than about a run, and the honest reading at that point is that a 2–7 B
+local model will not explain a Korean literal/idiomatic gap to a learner's
+standard. BAD-247 is written to say so rather than to propose a seventh rung.
