@@ -56,6 +56,20 @@ training. "Ship the cloud model instead" is no longer an option, and
 thresholds do not relax to accommodate this — a local model that reverses meaning
 still fails. The response to failure changes, not the bar.
 
+**Status, 2026-10-05: that ladder has now been climbed to its last named rung,
+and every rung declined.** Prompt work and training are both spent: the original
+prompt scored 0/10, the repaired prompt 1/10, computing the mechanical fields in
+code 2/10, the re-measured prompted base 4/10, and a QLoRA fine-tune of the same
+base 4/10 with one actor reversal — all against the unchanged ≥9/10 bar. The
+rungs left are the ones this paragraph lists before prompt work: a larger
+parameter class, or a different model family. `reference/model-pin.json` stays
+null and the downloader keeps refusing it, which is the designed behaviour.
+[`reference/eval/engine-decision.md`](reference/eval/engine-decision.md) holds
+every measured number, what each failure mode costs a learner, the recomputation
+showing that relaxing a rubric dimension does not rescue either engine, and the
+free-and-local options that remain. The scope choice is Nick's and is open on
+BAD-231; no further rung starts before he answers.
+
 The same logic retires the "acceptable vs Claude" framing. The rubric in
 *Exit evidence* is linguistic and absolute: correct meaning, correct particles,
 correct register, honest literal-gap claims, judged against the curriculum and
