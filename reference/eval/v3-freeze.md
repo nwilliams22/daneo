@@ -6,6 +6,12 @@ must remain unused by prompt development, candidate screening and training.
 The separate development split is for candidate screening and prompt tuning;
 it is not a gate and is expected to be burned. Neither split is training data.
 
+**Operator note, added 2026-10-05.** Exclusion work needs only §Provenance,
+§Exclusion rule and §Verification and next use. §Frozen gate items and coverage and
+§Development split carry **per-item descriptions of reserved rows**: do not open them
+to run the preflight, and do not quote, summarise or commit anything from them. The
+preflight needs nothing from those two sections.
+
 ## Provenance
 
 - Corpus commit: `bcd70d8dd1e46a9b6f94c9d7bc092a0b29b8fac1`.
@@ -88,6 +94,32 @@ coverage, directions and zero intersections across all 136 reservations and
 existing training artifacts. `npm run build` passes including TypeScript and
 16 content validation tests. Focused checker regression tests exercise tampering,
 corpus mismatches, duplicate reservations and normalized candidate collisions.
+
+### Custodian ruling, 2026-10-05 — a description exposure did not spend the gate
+
+A run that opened this file for its exclusion rule took §Frozen gate items and
+coverage into its context. **The gate stays eligible; it is not replaced or
+re-drawn, and `v3-translation-set.json` is still unspent.** What entered that
+context was per-item *descriptions* and coverage classes — not inputs, expected
+readings or Korean source — and the per-class counts are printed by the checker on
+every CI run anyway. The sealed JSON was not opened, no inference, screening, prompt
+tuning or training followed, and the diagnostic inputs were fixed before the read.
+No committed file outside this one carries that text. **A gate is spent when an
+artifact is shaped against reserved content, not when a description is read.**
+
+Three rules this sets, for every later run:
+
+- **A subprocess may read the sealed sets; a context may not.**
+  `check-independent-freeze.py` opens them internally and prints only aggregate
+  lines — row counts, coverage dicts, reservation totals — with no item text and no
+  reserved id. Running it is the required preflight and is **not** a reserved read.
+  Note an incident only if it ever fails with a reserved id in its message.
+- **The exposed context does not author the rebuild.** Candidate selection, prompt
+  text and training start from a fresh context that does not open this file at all.
+- `build-dataset.mjs` asserts **96** reservations in process and predates both v3
+  splits, so a rebuild can still *select* a reserved row and fail only at preflight.
+  Extend it to all 136 before rebuilding; until then the `--candidates` form is the
+  only thing between a rebuilt dataset and a burned gate.
 
 The candidate-screening task may consume **only the development split**. A later
 explicitly authorized qualification task may open the reserved gate once; this
