@@ -1,0 +1,16 @@
+{
+  "crate": "llama-cpp-sys-2 0.1.158",
+  "crate_commit": "3b17d1f160f0e9cfcf95948954cefc967f8f92f2",
+  "upstream_submodule": {
+    "path": "llama-cpp-sys-2/llama.cpp",
+    "sha": "26394b4e6749a41c3633db040e0987500a5f7013",
+    "type": "submodule",
+    "submodule_git_url": "https://github.com/ggml-org/llama.cpp"
+  },
+  "vendored_files_identical": 1865,
+  "archive_files_identical": 3612,
+  "archive_bytes": 37535360,
+  "archive_sha256": "1d0fcd22eb0fb31b1f75de2cc9e585a3338b8937043662a0c222a1e9261fed29",
+  "qwen35_converter": "conversion/qwen.py:Qwen3_5TextModel",
+  "quantizer_version": null
+}
