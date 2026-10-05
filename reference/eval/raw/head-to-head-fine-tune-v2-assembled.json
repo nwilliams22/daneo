@@ -1,0 +1,403 @@
+[
+  {
+    "id": "warmup",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "natural_english": "Hello.",
+      "gloss": [
+        {
+          "chunk": "안녕하세요",
+          "gloss": "hello",
+          "role": "other"
+        }
+      ],
+      "particles": [],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-EK-01",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "친구가 저의 집에 와요",
+      "romanization": "chinguga jeoui jibe wayo",
+      "natural_english": "My friend comes to my house",
+      "gloss": [
+        {
+          "chunk": "친구가",
+          "gloss": "friend-[subj]",
+          "role": "subject"
+        },
+        {
+          "chunk": "저의 집에",
+          "gloss": "my-house-to",
+          "role": "place"
+        },
+        {
+          "chunk": "와요",
+          "gloss": "comes",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        },
+        {
+          "particle": "의",
+          "job": "marks possession or association"
+        },
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-EK-02",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "아침에 빵을 먹었어요",
+      "romanization": "achime ppangeul meogeosseoyo",
+      "natural_english": "I ate bread in the morning",
+      "gloss": [
+        {
+          "chunk": "아침에",
+          "gloss": "morning-at",
+          "role": "other"
+        },
+        {
+          "chunk": "빵을",
+          "gloss": "bread-[obj]",
+          "role": "object"
+        },
+        {
+          "chunk": "먹었어요",
+          "gloss": "ate",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "에",
+          "job": "marks a destination, location, or time"
+        },
+        {
+          "particle": "을",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-EK-03",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "김밥을 먹고 싶어요",
+      "romanization": "gimbabeul meokgo sipeoyo",
+      "natural_english": "I want to eat gimbap",
+      "gloss": [
+        {
+          "chunk": "김밥을",
+          "gloss": "gimbap-[obj]",
+          "role": "object"
+        },
+        {
+          "chunk": "먹고",
+          "gloss": "eat-and",
+          "role": "verb"
+        },
+        {
+          "chunk": "싶어요",
+          "gloss": "want",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "을",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-EK-04",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "지금 배가 고파요",
+      "romanization": "jigeum baega gopayo",
+      "natural_english": "I am hungry right now",
+      "gloss": [
+        {
+          "chunk": "지금",
+          "gloss": "now",
+          "role": "other"
+        },
+        {
+          "chunk": "배가",
+          "gloss": "stomach-[subj]",
+          "role": "subject"
+        },
+        {
+          "chunk": "고파요",
+          "gloss": "is-hungry",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-EK-05",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "김치가 맵습니다",
+      "romanization": "gimchiga maepseumnida",
+      "natural_english": "Kimchi is spicy",
+      "gloss": [
+        {
+          "chunk": "김치가",
+          "gloss": "kimchi-[subj]",
+          "role": "subject"
+        },
+        {
+          "chunk": "맵습니다",
+          "gloss": "is-spicy",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "가",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-KE-01",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "물이 있어요",
+      "romanization": "muri isseoyo",
+      "natural_english": "there is water",
+      "gloss": [
+        {
+          "chunk": "물이",
+          "gloss": "water-[subj]",
+          "role": "subject"
+        },
+        {
+          "chunk": "있어요",
+          "gloss": "exists",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-KE-02",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "국이 짜요",
+      "romanization": "gugi jjayo",
+      "natural_english": "the soup is salty",
+      "gloss": [
+        {
+          "chunk": "국이",
+          "gloss": "soup-[subj]",
+          "role": "subject"
+        },
+        {
+          "chunk": "짜요",
+          "gloss": "is-salty",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "이",
+          "job": "marks the subject"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-KE-03",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "음악을 들었어요",
+      "romanization": "eumageul deureosseoyo",
+      "natural_english": "I listened to music",
+      "gloss": [
+        {
+          "chunk": "음악을",
+          "gloss": "music-[obj]",
+          "role": "object"
+        },
+        {
+          "chunk": "들었어요",
+          "gloss": "heard-listened",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "을",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-KE-04",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "내일 친구를 만나요",
+      "romanization": "naeil chingureul mannayo",
+      "natural_english": "I will meet a friend tomorrow",
+      "gloss": [
+        {
+          "chunk": "내일",
+          "gloss": "tomorrow",
+          "role": "other"
+        },
+        {
+          "chunk": "친구를",
+          "gloss": "friend-[obj]",
+          "role": "object"
+        },
+        {
+          "chunk": "만나요",
+          "gloss": "meet-[formal]",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "를",
+          "job": "marks the object"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  },
+  {
+    "id": "DAN-V2-KE-05",
+    "rawMatches": true,
+    "strictValid": true,
+    "postprocessorValid": true,
+    "schemaValid": true,
+    "directionCorrect": true,
+    "assembled": {
+      "direction": "ko-to-en",
+      "korean": "저는 학생입니다",
+      "romanization": "jeoneun haksaengimnida",
+      "natural_english": "I am a student",
+      "gloss": [
+        {
+          "chunk": "저는",
+          "gloss": "I-[as for]",
+          "role": "subject"
+        },
+        {
+          "chunk": "학생입니다",
+          "gloss": "student-is",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "marks a topic or contrast"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    }
+  }
+]

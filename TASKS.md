@@ -14,7 +14,7 @@
 
 > **App status (2026-10-05):** The first release excludes the AI translator, Ask Daneo and model controls at build time (`import.meta.env.DEV`), while Explore keeps saved discoveries and explains the absence. Phase B no longer waits for Phase D. Phase D remains available in development; the production pin, real model download and packaged offline verification remain open. Phase D is not shipped. The documentation closeout and component reactivation gates are in `reference/desktop-closeout.md`; release-one packaging is independent.
 
-> **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. Two bounded QLoRA comparisons completed; LR 0.0001 / epoch 2 selected on development loss (0.2103), exported as Q8_0, and loaded successfully in the unchanged native worker with a schema-valid reply. Independent evidence review and the separate sealed gate remain. Model pin remains null. See `reference/training/development-v2-freeze.md` and `reference/training/v2-results.md`.
+> **Training v2 (2026-10-05):** 250 independently reviewed training rows finalized (100 gap, 60 polite register, 45 gloss, 45 semantic), plus 40 separately frozen development rows. Manifest hashes and approval are committed with mechanical exclusion of all 96 reservations, v1 training and the other split. Two bounded QLoRA comparisons completed; LR 0.0001 / epoch 2 selected on development loss (0.2103), exported as Q8_0, and loaded successfully in the unchanged native worker with a schema-valid reply. Independent artifact review passed. The once-only paired v2 gate now declines at base 2/10 and scaled fine-tune 3/10 against ≥9/10; literal gap is 3/10 for both and fine-tune register is 10/10. Independent re-score of retained replies remains; v2 is spent as an unseen gate. Model pin remains null. See `reference/eval/v2-results.md`. See `reference/training/development-v2-freeze.md` and `reference/training/v2-results.md`.
 
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
@@ -901,3 +901,22 @@ Build (including TypeScript) passed; tests 242/242, content 16/16, dataset targe
 290/290, freeze/exclusion checker and retained smoke validator passed. No UI
 run and no held-out inference/scoring; model pin stays null. Next: independent
 evidence review, then the separate sealed gate on this exact hash.
+
+
+### 2026-10-05 — Once-only paired v2 engine gate
+
+Admitted the sealed v2 fixture and selected Q8_0 artifact to the existing native
+harness without changing prompt, rubric or postprocessor. Ran ten inputs once
+per engine sequentially on one host. First-pass result: base 2/10, scaled
+fine-tune 3/10 against ≥9/10; final schema 9/10 versus 10/10; literal gap 3/10
+both; polite register 8/10 versus 10/10. Base has one reversal and three
+invented-rule flags; fine-tune has zero reversals and one rule flag. The latter
+emits no gap explanation on any item. Neither qualifies and the pin stays null.
+Raw replies, assembled outputs, six-dimension judgments, resource logs and
+identity manifest are under `reference/eval/raw/`; report and item tables are
+`reference/eval/v2-results.md`. Warm p95: 18.743 s / 14.926 s; cold first token:
+6.846 s / 7.817 s. `npm run build` passed including typecheck and content 16/16;
+`npm test -- --run` passed 242/242 in 21 files. Native runs exited 0. No UI run.
+Post-commit provenance and own-commit CI are required before task closure.
+Next: independent re-score of saved evidence, then the engine decision; never
+rerun or tune against v2. Release one continues with AI off.
