@@ -93,6 +93,58 @@ def check_candidates(path, exclusions):
         assert splits == {"training": 250, "development": 40}, "candidate split changed"
         print("PASS: training/development disjoint by ID and normalized texts; all candidates avoid v1 training")
     print(f"PASS: {len(rows)} candidate rows avoid all 96 reservations; no internal duplicate keys")
+    return rows
+
+
+def check_final_v2(exclusions):
+    directory = ROOT / "reference/training"
+    path = directory / "dataset-v2-manifest.json"
+    if not path.exists():
+        return
+    manifest = json.loads(path.read_text())
+    assert manifest["version"] == "training-2"
+    all_rows = []
+    for entry in [manifest, manifest["development"]]:
+        file = directory / entry.get("dataset", entry.get("file"))
+        assert hashlib.sha256(file.read_bytes()).hexdigest() == entry["sha256"], "v2 file hash mismatch"
+        rows = check_candidates(file, exclusions)
+        assert len(rows) == entry["count"]
+        assert collections.Counter(row["errorClass"] for row in rows) == entry["counts"]
+        assert collections.Counter(row["target"]["direction"] for row in rows) == entry["directionCounts"]
+        for row in rows:
+            assert row["reviewStatus"] == "approved", "unreviewed final target"
+            assert row["english"] == row["target"]["natural_english"]
+            assert row["korean"] == row["target"]["korean"]
+            assert row["input"] == row["korean" if row["target"]["direction"] == "ko-to-en" else "english"]
+            assert normalized(row.get("sourceEnglish", row["english"])) not in exclusions[1]
+            assert normalized(row.get("sourceKorean", row["korean"])) not in exclusions[2]
+        all_rows.extend(rows)
+    assert manifest["count"] >= 250 and manifest["counts"]["literal-gap"] >= 100 and manifest["counts"]["register"] >= 60
+    assert manifest["development"]["frozenBeforeTraining"] is True
+    keys = [set(), set(), set()]
+    for row in all_rows:
+        for key, seen in zip((row["corpusSentenceId"], normalized(row["english"]), normalized(row["korean"])), keys):
+            assert key not in seen, "training/development overlap"
+            seen.add(key)
+    for row in json.loads((directory / "dataset-v1.json").read_text())["items"]:
+        assert row["corpusSentenceId"] not in keys[0] and normalized(row["english"]) not in keys[1] and normalized(row["korean"]) not in keys[2], "v1 training overlap"
+    review = manifest["review"]
+    candidates = (directory / review["candidates"]).read_bytes()
+    approval_bytes = (directory / review["approval"]).read_bytes()
+    assert hashlib.sha256(candidates).hexdigest() == review["candidateSha256"]
+    assert hashlib.sha256(approval_bytes).hexdigest() == review["approvalSha256"]
+    approval = json.loads(approval_bytes)
+    assert approval["approved"] is True and approval["candidateSha256"] == review["candidateSha256"]
+    assert approval["reviewedCount"] == review["reviewedCount"] == len(all_rows)
+    candidate_by_id = {row["id"]: row for row in json.loads(candidates)["items"]}
+    for row in all_rows:
+        candidate = candidate_by_id[row["id"]]
+        for field in ("target", "input", "split", "errorClass", "corpusSentenceId"):
+            assert row[field] == candidate[field], f"final row differs from approved candidate: {row['id']}"
+    for source, expected in manifest["sources"].items():
+        actual = subprocess.check_output(["git", "show", f"{manifest['corpusCommit']}:{source}"], cwd=ROOT)
+        assert hashlib.sha256(actual).hexdigest() == expected, "pinned source hash mismatch"
+    print(f"PASS: final v2 manifest/hashes/review; {manifest['count']} training + {manifest['development']['count']} frozen development; zero reserved, v1 or cross-split overlap")
 
 
 if __name__ == "__main__":
@@ -101,6 +153,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     try:
         exclusions = check()
+        check_final_v2(exclusions)
         if args.candidates:
             check_candidates(args.candidates, exclusions)
     except (AssertionError, KeyError, ValueError, subprocess.CalledProcessError) as error:

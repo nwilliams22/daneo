@@ -2020,34 +2020,37 @@
     {
       "id": "DAN-V2-CANDIDATE-062",
       "errorClass": "register",
-      "corpusSentenceId": "s12_snow_careful",
-      "english": "It's snowing, so be careful",
-      "korean": "눈이 오니까 조심하세요",
-      "input": "눈이 오니까 조심하세요",
+      "corpusSentenceId": "s_m153_art",
+      "english": "The exhibited picture is not only modern but also artistic.",
+      "korean": "전시된 그림은 현대적일 뿐만 아니라 예술적이에요.",
+      "input": "전시된 그림은 현대적일 뿐만 아니라 예술적이에요.",
       "target": {
         "direction": "ko-to-en",
-        "korean": "눈이 오니까 조심하세요",
-        "natural_english": "It's snowing, so be careful",
+        "korean": "전시된 그림은 현대적일 뿐만 아니라 예술적이에요.",
+        "natural_english": "The exhibited picture is not only modern but also artistic.",
         "gloss": [
           {
-            "chunk": "눈이 오니까",
-            "gloss": "snow-[subj] comes-because",
+            "chunk": "전시된 그림은",
+            "gloss": "exhibited picture-[topic]",
+            "role": "subject"
+          },
+          {
+            "chunk": "현대적일 뿐만 아니라",
+            "gloss": "modern-[not-only]",
             "role": "other"
           },
           {
-            "chunk": "조심하세요",
-            "gloss": "be-careful-please",
+            "chunk": "예술적이에요.",
+            "gloss": "artistic-is",
             "role": "verb"
           }
         ],
-        "literal_gap": "Literally, “because snow comes, please be careful”; in use, “it is snowing, so be careful.” Snow is the subject of 오다 (come).",
+        "literal_gap": "",
         "cultural_note": ""
       },
       "split": "development",
       "reviewStatus": "pending",
-      "sourceNote": "Module 11's weather-comes pattern driving Module 10's -(으)니까 into a request — same machinery as 비가 오니까 택시를 탑시다, deliberately NOT the same sentence. Fresh assembly every time; that's the course rule now.",
-      "sourceEnglish": "It's snowing, so be careful",
-      "sourceKorean": "눈이 오니까 조심하세요"
+      "sourceNote": "-(으)ㄹ 뿐만 아니라 from M89 adds a second quality to the first. 전시되다 from M152 now modifies 그림."
     },
     {
       "id": "DAN-V2-CANDIDATE-063",

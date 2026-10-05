@@ -56,9 +56,6 @@
     "DAN-V2-CANDIDATE-044": {
       "literal_gap": "Literally, “rain comes now”; in use, “it is raining right now.” Korean uses rain as the subject rather than a dummy “it.”"
     },
-    "DAN-V2-CANDIDATE-062": {
-      "literal_gap": "Literally, “because snow comes, please be careful”; in use, “it is snowing, so be careful.” Snow is the subject of 오다 (come)."
-    },
     "DAN-V2-CANDIDATE-079": {
       "cultural_note": "The warm floor can refer to ondol floor heating. The sentence itself is literal, not an idiom."
     },
@@ -197,5 +194,8 @@
       "natural_english": "Running late (the dated or joking expression “Korean time”).",
       "literal_gap": "Literally, “Korean time”; in dated or joking usage, this refers to lateness. It is not a claim that Koreans are generally late or a literal time-zone name."
     }
+  },
+  "sourceReplacements": {
+    "s12_snow_careful": "s_m153_art"
   }
 }

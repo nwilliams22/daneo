@@ -3,10 +3,11 @@
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { translationResultSchema } from '../../src/lib/schemas.ts';
 
-const v2 = process.argv.includes('--v2-candidates');
+const finalizeV2 = process.argv.includes('--v2-final');
+const v2 = finalizeV2 || process.argv.includes('--v2-candidates');
 const corpusCommit = v2 ? '5f5bef477b19eb4799d247352930589542a256a8' : '6587c1f9ef471eb9e50b7059fd99ee745d4c2a64';
 let rows = [
   ['s_go_home', 'gloss'], ['s2_library_study', 'gloss'],
@@ -102,6 +103,17 @@ if (v2) {
     }
     assert.equal(count, quota + 10, `insufficient ${cls} candidates`);
   }
+  const replacements = JSON.parse(readFileSync(new URL('./dataset-v2-corrections.json', import.meta.url))).sourceReplacements;
+  for (const [oldId, newId] of Object.entries(replacements)) {
+    const row = rows.find(row => row[0] === oldId);
+    const source = byId.get(newId);
+    assert.ok(row && source && developmentIds.has(oldId), 'replacement must identify a development source');
+    assert.ok(select(newId, join(source.en), join(source.ko)), 'replacement overlaps excluded or selected source');
+    row[0] = newId;
+    developmentIds.delete(oldId);
+    developmentIds.add(newId);
+    if (koToEnIds.delete(oldId)) koToEnIds.add(newId);
+  }
 }
 
 assert.equal(new Set(rows.map(([id]) => id)).size, rows.length, 'duplicate selected sentence');
@@ -175,6 +187,65 @@ if (v2) {
   const bytes = Buffer.from(`${JSON.stringify({ version: 'training-2-candidates', corpusCommit,
     trainingAllowed: false, items }, null, 2)}\n`);
   writeFileSync(new URL('./dataset-v2-candidates.json', import.meta.url), bytes);
+  if (finalizeV2) {
+    const sha = bytes => createHash('sha256').update(bytes).digest('hex');
+    const approvalPath = new URL('./dataset-v2-approval.json', import.meta.url);
+    assert.ok(existsSync(approvalPath), 'finalization requires independent approval');
+    const approvalBytes = readFileSync(approvalPath);
+    const approval = JSON.parse(approvalBytes);
+    assert.equal(approval.approved, true, 'review has not approved these candidates');
+    assert.equal(approval.candidateSha256, sha(bytes), 'approval is for different candidate bytes');
+    assert.equal(approval.reviewedCount, items.length, 'review must cover every target');
+    assert.ok(approval.report, 'approval must name its review evidence');
+    execFileSync('python3', ['reference/eval/check-independent-freeze.py',
+      '--candidates', 'reference/training/dataset-v2-candidates.json'], { stdio: 'inherit' });
+    const countsFor = rows => ({
+      count: rows.length,
+      counts: Object.fromEntries(['gloss', 'semantic-fidelity', 'register', 'literal-gap']
+        .map(cls => [cls, rows.filter(row => row.errorClass === cls).length])),
+      directionCounts: Object.fromEntries(['en-to-ko', 'ko-to-en']
+        .map(direction => [direction, rows.filter(row => row.target.direction === direction).length])),
+    });
+    const finalRows = split => items.filter(item => item.split === split).map(item => {
+      const { sourceNote, reviewStatus, ...row } = item;
+      return { ...row, reviewStatus: 'approved' };
+    });
+    const training = finalRows('training');
+    const development = finalRows('development');
+    const counts = countsFor(training);
+    assert.ok(counts.count >= 250 && counts.counts['literal-gap'] >= 100 && counts.counts.register >= 60,
+      'reviewed training floors not met');
+    const trainingBytes = Buffer.from(`${JSON.stringify({ version: 'training-2', corpusCommit,
+      trainingAllowed: true, items: training }, null, 2)}\n`);
+    const developmentBytes = Buffer.from(`${JSON.stringify({ version: 'development-2', corpusCommit,
+      trainingAllowed: false, purpose: 'Iteration only; never use as training targets or final gate',
+      items: development }, null, 2)}\n`);
+    const developmentPath = new URL('./development-v2.json', import.meta.url);
+    if (existsSync(developmentPath)) {
+      assert.ok(readFileSync(developmentPath).equals(developmentBytes),
+        'development split is frozen; do not silently replace it');
+    }
+    writeFileSync(new URL('./dataset-v2.json', import.meta.url), trainingBytes);
+    writeFileSync(developmentPath, developmentBytes);
+    const manifest = {
+      version: 'training-2', corpusCommit,
+      sources: { 'src/content/sentences.json': sha(corpusBytes), 'src/content/gap.json': sha(gapBytes) },
+      dataset: 'dataset-v2.json', sha256: sha(trainingBytes), ...counts,
+      development: { file: 'development-v2.json', sha256: sha(developmentBytes),
+        ...countsFor(development), frozenBeforeTraining: true },
+      review: { candidates: 'dataset-v2-candidates.json', candidateSha256: sha(bytes),
+        approval: 'dataset-v2-approval.json', approvalSha256: sha(approvalBytes),
+        report: approval.report, reviewedCount: items.length },
+      schema: `strict model-owned translationResultSchema: ${items.length}/${items.length} pass`,
+      exclusions: { command: 'python3 reference/eval/check-independent-freeze.py',
+        reservationCount: 96, v2SealedCount: 10, independentCount: 60,
+        overlap: 0, v1TrainingOverlap: 0, trainingDevelopmentOverlap: 0 },
+      provenance: 'Project-owned pinned curriculum plus explicit reviewed target corrections; no learner records or outside translations',
+    };
+    writeFileSync(new URL('./dataset-v2-manifest.json', import.meta.url), `${JSON.stringify(manifest, null, 2)}\n`);
+    console.log(`PASS: ${training.length} approved training rows; ${development.length} frozen development rows`);
+    process.exit(0);
+  }
   console.log(`PASS: ${items.length} schema-valid candidates; 250 training / 40 development; REVIEW PENDING; training forbidden`);
   process.exit(0);
 }
