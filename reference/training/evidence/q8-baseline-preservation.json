@@ -1,0 +1,83 @@
+{
+  "baselineCommit": "d90317c",
+  "files": [
+    {
+      "path": "reference/training/evidence/adapter-config.json",
+      "sha256": "536353b17f07694fb2206b622caa028c1d79d451c12597e3aa8ffbdb56d693ca",
+      "bytes": 1574,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/base-manifest.json",
+      "sha256": "7131751f75937a9978263aa9deea6585682ef4ede15a0b0a3ccb495712079fa3",
+      "bytes": 1923,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/export-result.json",
+      "sha256": "51110a2d9b25a389abad21c4d69996c04bcf0566a208c4514cd263bc2e4fd071",
+      "bytes": 814,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/merged-hf-reply.json",
+      "sha256": "65d0e68ac656d92b7d7c47df864277f35b44c6b282d3d42df5c48706a1eabdaf",
+      "bytes": 460,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/runtime-bf16-raw.jsonl",
+      "sha256": "d61581bc3097a2c343e380407ebd962e6579e18c000545bb5c5d3f0eda34797d",
+      "bytes": 1600,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/runtime-bf16-resources.txt",
+      "sha256": "29fcef8eb38d8aecaa619d55270824c7497c268086a17a70a2a1877dbbc9fd96",
+      "bytes": 971,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/runtime-bf16-results.jsonl",
+      "sha256": "c0d12ca08d96a9207cfbd9fcac0e333fafcf103f7f5e96fa0b57235f7d3c0d79",
+      "bytes": 882,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/runtime-bf16-schema-result.json",
+      "sha256": "a1424543711539a746c62cee0a31c1e54fa9e5cc272e2ba51503f98106c3bdfd",
+      "bytes": 756,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/runtime-fixture.json",
+      "sha256": "d4e589b60ea15d1c945b18593ae8ba8250883835d2339ecb1b8727eeb378a2ed",
+      "bytes": 110,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/runtime-raw.jsonl",
+      "sha256": "a2173a4a531f0cbe9a3152096ce51f03360b1c03f3e7049b753f5729935cde35",
+      "bytes": 1437,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/runtime-resources.txt",
+      "sha256": "8b82f38d4bf2e23194391008eaea4ffb1aa82946c26ad50c047217b3f11276b1",
+      "bytes": 957,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/runtime-results.jsonl",
+      "sha256": "d82856a2ce8fdcd87a2becf6088a9684d6f2ca0cfde0a19f9b3b85693d288f9e",
+      "bytes": 736,
+      "unchanged": true
+    },
+    {
+      "path": "reference/training/evidence/training-result.json",
+      "sha256": "f493e959cbcfa09b9845c0487b14f8b11863f07d92994eda57af3fdf8d3745d5",
+      "bytes": 1051,
+      "unchanged": true
+    }
+  ]
+}

@@ -104,5 +104,43 @@
       }
     ],
     "directionMatches": false
+  },
+  {
+    "prefix": "runtime-q8",
+    "input": "Korean is hard. But it's fun.",
+    "direction": "en-to-ko",
+    "completionMs": 14102,
+    "firstTokenMs": 5562,
+    "omittedFromModelOwnedCheck": [
+      "romanization",
+      "particles"
+    ],
+    "strictModelOwnedValid": true,
+    "strictIssues": [],
+    "postprocessorAccepted": true,
+    "assembled": {
+      "direction": "en-to-ko",
+      "korean": "한국어는 어려워요. 하지만 재미있어요.",
+      "romanization": "hangugeoneun eoryeowoyo. hajiman jaemiisseoyo.",
+      "natural_english": "Korean is hard. But it's fun.",
+      "gloss": [
+        {
+          "chunk": "한국어는 어려워요. 하지만 재미있어요.",
+          "gloss": "Korean-[topic] is-hard-[verb] but is-fun-[verb]",
+          "role": "verb"
+        }
+      ],
+      "particles": [
+        {
+          "particle": "는",
+          "job": "marks a topic or contrast"
+        }
+      ],
+      "literal_gap": "",
+      "cultural_note": ""
+    },
+    "assembledSchemaValid": true,
+    "assembledIssues": [],
+    "directionMatches": true
   }
 ]

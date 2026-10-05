@@ -138,3 +138,25 @@ To reproduce the tensor comparison without inference:
 This hashes each tensor's raw payload and checks its name/order/type/shape, then
 compares metadata field bytes. `evidence/matched-tensor-comparison.json` preserves
 all 441 tensor hash pairs at each precision.
+
+## Bounded matched Q8_0 probe
+
+Reuse the same merged weights and matched source above. `--q8` verifies the
+merged-input and unchanged native-worker manifest before conversion, and refuses
+to overwrite its separate artifacts. Run only when this bounded probe is authorized:
+
+```sh
+.local-models/compatibility/venv/bin/python reference/training/export-matched.py --q8 > .local-models/compatibility/q8-export.log 2>&1
+python3 reference/training/run-runtime-smoke.py --q8 > .local-models/compatibility/runtime-q8.log 2>&1
+cp .local-models/compatibility/q8-export-result.json reference/training/evidence/
+cp .local-models/compatibility/runtime-q8-{raw,results}.jsonl reference/training/evidence/
+node --import tsx reference/training/validate-matched.mjs
+node --import tsx reference/training/validate-runtime.mjs --q8
+python3 reference/eval/check-independent-freeze.py --candidates reference/training/smoke-examples.json
+```
+
+The extended comparison now prints baseline Q4, baseline BF16, matched Q4 and
+matched Q8_0 verdicts separately; its exit status is the **Q8_0** strict,
+postprocessor, assembled and direction verdict. Earlier negative Q4 rows remain
+negative. No baseline/control inference is repeated. A Q8 contract pass is not
+language qualification, production selection, or permission to run the frozen v2.

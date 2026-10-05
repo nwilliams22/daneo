@@ -1,0 +1,53 @@
+{
+  "converter_commit": "26394b4e6749a41c3633db040e0987500a5f7013",
+  "crate_commit": "3b17d1f160f0e9cfcf95948954cefc967f8f92f2",
+  "matched_vendored_files": 1865,
+  "steps": [
+    {
+      "stage": "convert",
+      "command": [
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/venv/bin/python",
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/llama-matched/convert_hf_to_gguf.py",
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/merged",
+        "--outfile",
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/q8-BF16.gguf",
+        "--outtype",
+        "bf16"
+      ],
+      "wall_seconds": 30.29392468801234
+    },
+    {
+      "stage": "quantize",
+      "command": [
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/llama-matched/build/bin/llama-quantize",
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/q8-BF16.gguf",
+        "/mnt/t7/Projects/daneo/.local-models/compatibility/q8-Q8_0.gguf",
+        "Q8_0",
+        "8"
+      ],
+      "wall_seconds": 43.039351350977086
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "llama-matched.tar.gz",
+      "bytes": 37535360,
+      "sha256": "1d0fcd22eb0fb31b1f75de2cc9e585a3338b8937043662a0c222a1e9261fed29"
+    },
+    {
+      "path": "q8-BF16.gguf",
+      "bytes": 8665619744,
+      "sha256": "5c407dc7aa856faa14fde45e5f837066719c5aad75115e6afc39bbeb2e77a88c"
+    },
+    {
+      "path": "q8-Q8_0.gguf",
+      "bytes": 4610579744,
+      "sha256": "26e1c9db711b5fc43dc2b373bae825e506d55129b735a1bfe2bafce732e5fd4d"
+    },
+    {
+      "path": "llama-matched/build/bin/llama-quantize",
+      "bytes": 12576,
+      "sha256": "398b543d82be71fc61f7190c87f6bd13772cb89dd630f72f57b2bb0ff2200f42"
+    }
+  ]
+}

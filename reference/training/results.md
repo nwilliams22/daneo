@@ -226,3 +226,74 @@ assembled contract checks before any training. It is a proposed experiment,
 not authorization to run it. A decision may instead authorize continued work
 using the tested BF16 path, explicitly accepting its measured memory/disk cost;
 neither choice selects a shipping model or waives the frozen v2 quality gate.
+
+
+## Matched Q8_0 bounded probe — 2026-10-04
+
+**Result: Q8_0 passes the strict model-owned schema, production postprocessor,
+and assembled app schema on the fixed non-held-out smoke input, with `gloss`
+present.** A contract-compatible quantized export path exists for this probe.
+Independent review remains required before resolving this gate. This does not
+select a production artifact or qualify language quality; no full training ran.
+
+Used the same merged weights, matched llama.cpp
+`26394b4e6749a41c3633db040e0987500a5f7013`, pinned `llama-cpp-2 0.1.158`
+worker and unchanged production prompt. The exporter verified every merged input
+and native binary against `evidence/matched-input-manifest.json` before running.
+The new BF16 intermediate is byte-identical to the prior matched BF16, SHA-256
+`5c407dc7aa856faa14fde45e5f837066719c5aad75115e6afc39bbeb2e77a88c`.
+The native worker remains the existing CPU-backend build on the 5090 host;
+these are not GPU inference measurements. No rebuild or runtime change occurred.
+
+| Artifact | Exact bytes | SHA-256 |
+| --- | ---: | --- |
+| `q8-Q8_0.gguf` | 4610579744 | `26e1c9db711b5fc43dc2b373bae825e506d55129b735a1bfe2bafce732e5fd4d` |
+
+| Stage | Wall seconds | Max RSS (KiB) |
+| --- | ---: | ---: |
+| Conversion | 30.294 | 5769112 |
+| Q8_0 quantization | 43.039 | 4452380 |
+| Native process (load, warmup, smoke, cancellation) | 34.78 | 4707140 |
+| Fixed smoke completion | 14.102 | included in process peak above |
+
+The native run at source `18fa8ff57e4902b480c8012277abf83cfdedbf57` exited 0;
+first-process ready was 6.967 s, smoke first token 5.562 s, cancellation 0 ms.
+All commands are under the bounded Q8 section in `README.md`; exact export
+commands, artifact hashes and resource records are retained in `evidence/q8-*`
+and `evidence/runtime-q8-*`. One new smoke inference was run offline, plus the
+launcher's unchanged unscored greeting/cancellation checks. No controls or
+held-out inputs were rerun. The greeting omits `gloss` and is not a contract
+pass; the success claim is limited to the specified smoke input.
+
+Raw fixed-input reply, verbatim:
+
+```json
+{"direction": "en-to-ko", "korean": "한국어는 어려워요. 하지만 재미있어요.", "natural_english": "Korean is hard. But it's fun.", "gloss": [{"chunk": "한국어는 어려워요. 하지만 재미있어요.", "gloss": "Korean-[topic] is-hard-[verb] but is-fun-[verb]", "role": "verb"}], "literal_gap": "", "cultural_note": ""}
+```
+
+| Retained artifact | Strict | Production postprocessor | Assembled |
+| --- | --- | --- | --- |
+| Baseline Q4 | FAIL (missing gloss) | rejected | FAIL |
+| Baseline BF16 | PASS | accepted | PASS |
+| Matched Q4 | FAIL (missing gloss) | rejected | FAIL |
+| Matched Q8_0 | PASS | accepted | PASS |
+
+From `/mnt/t7/Projects/daneo`, both
+`node --import tsx reference/training/validate-matched.mjs` and
+`node --import tsx reference/training/validate-runtime.mjs --q8` exit **0**.
+The former preserves the earlier verdicts, verifies raw/parsed equality and
+matching prompt/fixture/rubric identities, and records all four rows in
+`evidence/matched-schema-comparison.json`. The latter validates the production
+postprocessor and complete app schema for Q8. Schema success does not establish
+that this single-chunk gloss is pedagogically adequate.
+
+`python3 reference/eval/check-independent-freeze.py --candidates reference/training/smoke-examples.json`
+passes **96 reservations / 4 clear candidates**. All **13 baseline evidence files**
+remain byte-identical to `d90317c`; hashes and sizes are recorded in
+`evidence/q8-baseline-preservation.json`. Python compilation and
+`git diff --check` pass. No UI was run or changed, no dataset was constructed,
+no prompt/pin changed, and no cloud service or spending was used.
+
+Next: independent review of this committed evidence. The gate closes only when
+that verdict is recorded; production artifact selection and the frozen v2 quality
+gate remain separate. This task stops at the bounded export/contract result.
