@@ -182,7 +182,20 @@ The review is complete, so **Phase D is the live work** as of 2026-10-04.
 - [x] Align a standalone gloss particle chip with its preceding noun in the Korean reply (2026-10-04). Desktop QA found `한국어를` with an incorrect `을` chip; the shared postprocessor now selects the attested `를` surface form. QA must recheck the rendered chip. The completed desktop timing observations are upper bounds, not a matched before/after p95.
 - [x] Add adapter contract parity and degradation coverage (2026-10-04): 35 tests exercise the real Local and developer comparison adapters with substituted IPC/HTTP boundaries. Both validate a closed error-code union; malformed cloud error messages can no longer reach React. The absent-model alert links to Settings. Shared translation/deck fields stay unchanged; no automatic fallback is introduced. Render tests verify alerts and the route, not native desktop interaction.
 - [x] Add Ask Daneo tutor surface and read-only learner context (2026-10-04): `/tutor` reads known words, due cards, misses and module-test progress; native requests share local inference and cancellation. Generated Korean is removed from model prose (and Korean-only replies are rejected); cited curriculum sentences are gated against the known set before display. No Dexie schema or write path changed. The browser screen and browser-limit state were inspected in headless Chromium. Packaged desktop answer and cancellation still need verification; headless/native probes and simulated transport screenshots do not establish that result.
-- [ ] Qualify the local engine after remediation and independent re-scoring of the failed v0 baseline; then Lite and production lifecycle/tutor separately. No paid fallback and no relaxed language threshold.
+> **2026-10-05 — no engine qualified, and Nick chose to ship without one.** Four candidates have
+> been measured against the unchanged `reference/eval/v0-rubric.md` and all four declined: 0/10,
+> 1/10, 2/10, and (after an independent re-score) a prompted base and a 27-row Q8_0 fine-tune both
+> at **4/10** against a **≥9/10** bar, the fine-tune with one meaning reversal. On fresh items the
+> literal-gap field is correct **1/15** for both engines. `reference/model-pin.json` stays null.
+> Asked to choose, Nick chose **"ship Daneo now with the AI off, train the model again at the same
+> time."** So: **the first release ships with the translator and the tutor off, enforced in code**,
+> **Phase B no longer waits for Phase D**, and the engine programme continues on a much larger
+> Daneo-specific dataset scored **once** against the still-sealed
+> `reference/eval/v2-translation-set.json`. Every measured number and all six options considered:
+> [`reference/eval/engine-decision.md`](reference/eval/engine-decision.md).
+
+- [ ] Ship the first release with the AI features off: the translator and Ask Daneo are disabled in a packaged build, enforced in code and covered by a test, with an honest in-app note instead of a dead control.
+- [ ] Qualify the local engine on a retrained artifact: scale the dataset toward literal gap and polite register from the shipped corpus, retrain on the 5090, export a loadable GGUF, then score **once** against the sealed v2 set. Iterate only against a separate development split. No paid fallback and no relaxed language threshold.
 
 - [ ] Complete packaged desktop closeout: build and launch AppImage/rpm, verify Explore and Ask Daneo with networking isolated and no proxy, record screenshots and installer/model sizes, then reconcile all closeout documents. Current build fails at Cargo discovery; production pin is unset (`reference/desktop-closeout.md`).
 
@@ -194,8 +207,11 @@ The review is complete, so **Phase D is the live work** as of 2026-10-04.
 > table, he chose **desktop installers for Linux, Windows and macOS** — and did **not** choose the
 > AI-less web build or a phone app. Phase B is therefore a **packaging and release** phase with
 > **no server, no accounts, no sync and no hosting bill, ever**. Mobile v3 stays closed; see
-> `PLAN-local-model.md` §*What Nick chose*. Phase B still waits for Phase D — the thing being
-> installed is the app with its local engine.
+> `PLAN-local-model.md` §*What Nick chose*.
+>
+> **2026-10-05: Phase B no longer waits for Phase D.** No engine qualified, and Nick chose to ship
+> with the AI features off while training continues in parallel. The installer carries no weights
+> and the release needs no model pin, so this is the live work.
 
 - [ ] ~~Deploy static build + proxy; simple auth; per-user state sync~~ — **dead, not deferred.** That design hosted the paid Claude proxy and put Nick's API key in front of other people's usage, which the free-and-local constraint forbids. There is nothing to deploy.
 - [ ] Cross-platform bundle targets: add `msi`/`nsis` and `dmg` to `src-tauri/tauri.conf.json` (today it is `["appimage", "rpm"]`, Linux only) and produce them on their own operating systems — Tauri does not cross-compile a bundle. The icon set already covers all three. The build host is Linux and the repo has **no `.github/workflows`**, so Windows/macOS artifacts need runners; GitHub-hosted runners are free for public repos and `daneo` is public, but confirm the current policy at implementation time.
@@ -780,3 +796,23 @@ Set `package.json` as the 0.1.0 version of record; `check:version` fails when ei
 ### 2026-10-05 — Train and export the reviewed QLoRA candidate
 
 Trained the reviewed 27-row dataset with NF4 QLoRA on the RTX 5090 after a two-step adapter passed the matched Q8_0 export and pinned native-worker gate. The fixed three-epoch candidate completed 81 updates in 17.579 s, peak allocated GPU memory 4,277,922,816 bytes, then merged and exported a 4,610,579,744-byte Q8_0 file (SHA-256 `1b6a3bf392e872eede021b70294b8611ea82743412a0215807f4f55d8d64e0d7`). The unchanged worker answered the non-held-out smoke input in 15.553 s; strict model-owned, postprocessor, assembled and direction checks all passed. The first full attempt failed only in report serialization before adapter saving; retained its losses and repeated the same configuration after fixing dtype serialization. `reference/training/v1-results.md` and `evidence/v1*` preserve settings, losses, hashes and raw replies. Exclusion check: 96 reservations / 27 clear candidates; postprocessor tests: 45/45; content validation: 16/16; Python compilation and diff check pass. No held-out scoring, runtime/prompt/pin change or UI run. Next: independent verification, then frozen scoring of this exact candidate; production selection remains separate.
+
+### 2026-10-05 — Nick's engine decision: ship with the AI off, train again
+
+Four candidates have now declined against the unchanged `reference/eval/v0-rubric.md` — prompted
+base 0/10, repaired prompt 1/10, code-extracted fields 2/10, and (after the independent re-score on
+BAD-233) the prompted base and the 27-row Q8_0 fine-tune both 4/10 against a ≥9/10 bar, the
+fine-tune with one actor reversal. On sixty fresh items never run before, the literal-gap field is
+correct **1/15** for both engines and polite register 6/15 and 5/15. Put every number, the cost of
+each failure mode to a learner, and six free-and-local ways forward to Nick on BAD-231; a paid
+engine was not offered. **He chose option E in parallel with A: ship Daneo now with the AI features
+off, and train the model again at the same time.** Consequences recorded here, in PROJECT.md §7 and
+its status line, in `PLAN-local-model.md` §*Ship with the AI off, train again*, and in
+`reference/eval/engine-decision.md` §*Nick's decision*: the first release disables the translator
+and the tutor **in code**, **Phase B stops waiting for Phase D** because the installer carries no
+weights and needs no pin, and the engine programme continues on a much larger dataset drawn from the
+1,439 glossed sentences and 420 gap items the corpus already holds — only 27 rows have ever been
+trained on. `reference/eval/v2-translation-set.json` is the one unburned gate and is run **once**,
+on the finished artifact; iteration uses a separate development split and the burned v0 items are
+never a gate again. `reference/model-pin.json` stays null, which is what makes the downloader refuse
+by design. Documentation only in this entry — no app code, content or model artifact changed.

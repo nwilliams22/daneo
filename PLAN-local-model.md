@@ -10,6 +10,14 @@
 > **desktop installers only** on 2026-10-04 (see §*What Nick chose*): no hosted web
 > build, and mobile v3 is not open.
 >
+> **2026-10-05 — no engine has qualified, and the release goes ahead without one.**
+> Four candidates declined against the unchanged v0 rubric. Nick's decision:
+> **ship Daneo with the AI features off, and retrain in parallel on a much larger
+> Daneo-specific dataset.** See §*Ship with the AI off, train again* below and
+> [`reference/eval/engine-decision.md`](reference/eval/engine-decision.md).
+> The free-and-local constraint is unchanged; a paid engine was not offered and
+> is not an option.
+>
 > Revision: replaces the 2026-08-24 plan after the six content-review passes
 > reported. Nick's 2026-09-30 order is content review → local AI → sharing.
 > The dates are about six weeks apart, not thirteen months. Model age is checked
@@ -582,3 +590,37 @@ Small models may hallucinate. Training does not guarantee an in-character tutor;
 local inference does not guarantee speed. Download integrity, app responsiveness
 and correct Korean all remain acceptance work, not benefits established by this
 plan refresh.
+
+### Ship with the AI off, train again (Nick, 2026-10-05)
+
+Four rungs have now been measured against the unchanged `reference/eval/v0-rubric.md`
+and all four declined: the prompted base at 0/10, the repaired prompt at 1/10, the
+code-extraction baseline at 2/10, and — after an independent re-score — the prompted
+base and a 27-row Q8_0 QLoRA fine-tune both at **4/10** against a **≥9/10** bar, with
+one meaning reversal on the fine-tune. `reference/model-pin.json` is still null.
+Every number, every failure mode's cost to a learner, and all six ways forward are in
+[`reference/eval/engine-decision.md`](reference/eval/engine-decision.md).
+
+Nick's decision: **ship now with the AI off, and train again at the same time.**
+
+- **The first release has no AI.** The 164 modules, the drills, the SRS review queue
+  and Explore on corpus data ship. The translator and the Ask Daneo tutor are **off in
+  the shipped build, enforced in code**, with an honest in-app note rather than a dead
+  control. A null pin already makes the downloader refuse before any IO, which is the
+  designed behaviour and not a defect to work around.
+- **Phase B does not wait for Phase D any more.** The installer carries no weights and
+  needs no pin, so the release chain is independent of the engine programme.
+- **The training lever is barely pulled.** The current fine-tune cost 27 reviewed rows,
+  three epochs and 17.6 s of GPU time. The corpus holds 1,439 glossed sentences with
+  notes and 420 gap items; 96 are reserved for evaluation and only 27 rows have ever
+  been trained on. The next dataset scales toward the two worst dimensions — literal
+  gap at **1/15** and polite register at **5–6/15** on fresh items.
+- **The sealed gate is run once.** `reference/eval/v2-translation-set.json` is the only
+  unburned set left and is verified clean of the v1 training rows. Iterate against a
+  separate development split; run v2 once, on the finished artifact. **Never tune a
+  prompt or a dataset against the set that decides the gate**, and never gate on the
+  burned v0 items again.
+- **If the next rung also declines**, the options that stay unspent are a different
+  model family with its licence question answered first, a larger parameter class whose
+  download and laptop memory cost must be weighed, and narrowing the product claim.
+  A paid or cloud engine is not among them.

@@ -201,6 +201,34 @@ and keeps the engine programme on the one lever that is free, proven and barely
 pulled. Score the next rung against v2, never against v0 again. If A declines,
 C with the licence question answered first.
 
+## Nick's decision — 2026-10-05: E now, in parallel with A
+
+Asked on BAD-231 with every number above in front of him, Nick chose **"Ship
+Daneo now with the AI off. Train the model again at the same time."** That is
+option **E in parallel with A**, which is the recommendation this document
+made. He did not choose to hold the release, to narrow the claim, to try
+another family, or to try a larger parameter class — those stay available and
+unspent if A declines.
+
+What the decision fixes:
+
+- **The release does not wait for the engine.** Phase B is the live shipping
+  path. The AI translator and the Ask Daneo tutor are **off in the shipped
+  build**, and that has to be true in code, not in a release note. A null
+  `reference/model-pin.json` already makes the downloader refuse by design.
+- **Training continues on the one lever that is barely pulled.** 27 reviewed
+  rows and 17.6 s of GPU time produced the current fine-tune. The next rung
+  scales the dataset toward the two worst dimensions — literal gap at 1/15 and
+  polite register at 5–6/15 — from a corpus that holds 1,439 glossed sentences
+  with notes and 420 gap items, of which only 5 gap rows and 22 sentence rows
+  have ever been trained on.
+- **v2 stays sealed until the one scoring run.** `v2-translation-set.json` is
+  the only unburned gate left. Iteration happens against a separate development
+  split; the v2 set is run once, on the finished artifact. The v0 items are
+  burned and are not a gate again.
+- **Nothing here reopens a paid engine.** The constraint in
+  §*Owner constraint* of `PLAN-local-model.md` is unchanged.
+
 ## Evidence and source of truth
 
 - `reference/model-pin.json` — null, unchanged.
