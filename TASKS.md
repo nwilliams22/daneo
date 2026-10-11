@@ -1388,3 +1388,10 @@ RPM installation, physical GPU rendering and Windows/macOS runtime remain
 unverified. The AppImage fulfills the ordinary-launch-or-RPM requirement.
 Next: prepare checksums and honest unsigned-installer release notes; publishing
 and tagging still require approval.
+
+### 2026-10-11 — Release 0.1.0 preparation
+
+- Staged the four installers from successful CI run `38158221011`, source `15a8766`, under `src-tauri/target/release-staging/38158221011/installers/`. The AppImage hash matches the accepted Ubuntu 22.04 replacement.
+- Added `reference/releases/0.1.0/README.md` and `SHA256SUMS`: exact byte sizes, hash commands, unsigned-installer warnings, platform steps and explicit runtime-test limits. Release one has no AI or model download; Windows setup may need WebView2 if it is absent.
+- Verification: all four `sha256sum -c` entries OK; documentation whitespace checked with `git diff --check`. Existing CI and Linux acceptance evidence are reused, not represented as fresh GUI testing.
+- Release preparation does not authorize a tag or publication. Next: review the exact staged candidate and optional signing costs before deciding whether to publish.
