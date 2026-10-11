@@ -1,6 +1,6 @@
 # Daneo 0.1.0 — release candidate
 
-Prepared 2026-10-11. **Not published.** These notes describe the staged installers
+Prepared 2026-10-11. **Not published; clean-install closeout remains open.** These notes describe the staged installers
 from source `15a87661e7df634d9d4644af395e132d659d11ad`, built by successful
 [CI run 38158221011](https://github.com/nwilliams22/daneo/actions/runs/38158221011).
 A later documentation commit does not change these binaries. A release must use
@@ -121,6 +121,22 @@ Windows and macOS bundles passed CI build/resource checks, **not runtime tests**
 Korean speech (requires an available OS voice), physical GPU rendering and actual
 RPM installation remain unverified. No new GUI test was run while preparing these
 notes. Do not describe all three platforms as acceptance-tested.
+
+### Closeout attempt, 2026-10-11
+
+The staged manifest was rechecked: all four files returned `OK`. The exact
+AppImage (SHA-256 `c7431957768557348535b185c5b67062fe165ad659355781f7ad4e197792adbd`)
+was launched with empty learner storage and a cleared environment on the current
+Ubuntu 24.04.5 runner. It exited 127 before opening a window:
+`error while loading shared libraries: libharfbuzz.so.0: cannot open shared object file`.
+This runner also has no desktop display or Xvfb; Docker access is denied.
+This is an environment failure, not a new installation pass, and does not replace
+the earlier Ubuntu 22.04 acceptance record.
+
+A clean-environment module completion, drill and review session still need to be
+recorded for the closeout, including Explore's AI-absence notice and absent tutor
+controls. Windows and macOS remain unverified until their installers are used on
+real machines. No curriculum gate changed in this documentation sweep.
 
 ## Reproduce the manifest / release operator record
 

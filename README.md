@@ -4,7 +4,7 @@ A desktop app (Tauri 2 + React) that teaches Korean the opposite way from Duolin
 
 **Docs:** [`PROJECT.md`](PROJECT.md) is the source of truth (vision, pedagogy rules, data model, roadmap). [`TASKS.md`](TASKS.md) is the build checklist, discovered-work log, and per-session log. The `*.jsx` / extra `*.md` files at the repo root are the original design prototypes, kept as reference only.
 
-## Status (2026-10-05)
+## Status (2026-10-11)
 
 Phase A and all 164 curriculum modules are complete. The content review is closed; local AI (Phase D) is implemented and measured but not qualified for shipment. The first desktop release excludes AI while retraining continues. Available in the production frontend:
 
@@ -16,7 +16,34 @@ Phase A and all 164 curriculum modules are complete. The content review is close
 - **Stats** — words learned per module, review-queue counts, accuracy (all-time/7-day), per-confusable-group bars, weakest items, font fluency.
 - **Settings** — romanization hide (global), light/dark "paper" themes, Korean TTS voice status + rate, JSON backup/restore.
 
-Phase B desktop installers are the live release path and do not wait for Phase D. The translator, tutor and model settings remain available only in development; the production model pin is unset. See `PLAN-local-model.md` and `TASKS.md`.
+Four Phase B 0.1.0 installers are staged with checksums; publication and clean-install closeout remain open. They do not wait for Phase D. The translator, tutor and model settings remain available only in development; the production model pin is unset. See `PLAN-local-model.md` and `TASKS.md`.
+
+## Install Daneo
+
+The 0.1.0 installers are staged; publication is still a separate action. You do
+not need a developer toolchain, account, API key, subscription or language model.
+Use the exact files and [SHA-256 manifest](reference/releases/0.1.0/SHA256SUMS)
+listed in the [release notes](reference/releases/0.1.0/README.md). Verify the hash
+before opening a file. These installers are unsigned.
+
+- **Linux x86-64:** make `daneo_0.1.0_amd64.AppImage` executable in its file
+  properties, then open it. It needs FUSE, a desktop session and host graphics
+  libraries; the release notes list the tested prerequisites. An RPM is also
+  staged, but RPM installation is unverified.
+- **Windows x64:** open `daneo_0.1.0_x64-setup.exe`. SmartScreen may show
+  **Windows protected your PC**. If you trust the verified file, choose
+  **More info → Run anyway** when available. Setup may download WebView2 if it
+  is missing. Do not disable security policy if it blocks installation.
+- **Apple Silicon Mac:** open `daneo_0.1.0_aarch64.dmg`, copy Daneo to Applications,
+  then try to open it. For an unidentified-developer warning, the release notes
+  explain **System Settings → Privacy & Security → Open Anyway**. The app is
+  not notarized; do not use those steps for a malware or damaged-file warning.
+
+Earlier Linux acceptance covered fresh-profile use and ordinary AppImage launch.
+The separate module-completion closeout remains open: this runner could not
+launch the staged AppImage. Windows and macOS installation/use remain
+**unverified** and need their own real-machine checks. Export progress from
+Settings before moving computers; there is no account sync or server backup.
 
 ## Commands
 
@@ -33,7 +60,7 @@ npm run tauri:build    # desktop bundles (AppImage + rpm) — wraps NO_STRIP=tru
 
 **Local model setup (development only):** Explore translation and Ask Daneo require the Tauri development app and a verified local GGUF. No production artifact has qualified, so there is no public model download. Production builds omit the translator, tutor route/navigation and model settings through `import.meta.env.DEV`; a setting or populated pin cannot turn them on. Native runtime code is retained. The optional `server/.env` proxy is only for developer comparisons, never a shipped fallback.
 
-**Offline boundary:** curriculum, drills, review, saved discoveries and learner state are local and need no model, account or proxy. Speech playback needs an installed Korean system voice. Packaged installation and offline/no-paid-model proof belong to the Phase B release checks; this document does not claim they have passed. Future AI activation requires a qualified free local model, verified download and packaged offline translator/tutor evidence. Component states and evidence: [`reference/desktop-closeout.md`](reference/desktop-closeout.md).
+**Offline boundary:** curriculum, drills, review, saved discoveries and learner state are local and need no model, account or proxy. Speech playback needs an installed Korean system voice. Recorded Linux first-run acceptance exercised the shipped features offline; the separate end-to-end closeout remains open. Windows/macOS runtime is unverified. Future AI activation requires a qualified free local model, verified download and packaged offline translator/tutor evidence. Component states and evidence: [`reference/desktop-closeout.md`](reference/desktop-closeout.md).
 
 ## Project layout
 

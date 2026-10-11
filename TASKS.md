@@ -24,6 +24,8 @@
 
 > **v3 evaluation freeze (2026-10-05):** Ten new reserved gate rows (four literal-gap probes) and thirty separate development rows are pinned to one corpus commit with SHA-256 manifests. The exclusion preflight validates all 136 reservations and existing training data with zero intersections. No inference was run for this freeze; candidate screening uses development only. **A later run read the freeze document's reserved per-item descriptions into its context; that was ruled not to spend the gate** — the sealed JSON stayed closed, nothing was screened or trained afterwards, and no other committed file carries that text. The ruling and the three rules it sets (a subprocess may read the sealed sets, a context may not; the exposed context does not author the rebuild; `build-dataset.mjs` still excludes only 96 of 136 reservations in process) are in `reference/eval/v3-freeze.md` §*Custodian ruling*.
 
+> **Phase B closeout (2026-10-11):** bundles, version alignment, Linux first-run acceptance and release preparation are complete. Clean-installer module completion remains open; this runner cannot launch the artifact. Windows/macOS runtime and RPM installation are unverified. See the Phase B checklist and dated closeout log.
+
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
 - [x] Theme tokens from PROJECT.md §2 palette (Tailwind config) + font loading (Noto Sans KR / Noto Serif KR / Nanum Pen Script, OS fallbacks)
@@ -242,10 +244,11 @@ That order is superseded by the 2026-10-05 decision: **Phase B is the live relea
 > and the release needs no model pin, so this is the live work.
 
 - [ ] ~~Deploy static build + proxy; simple auth; per-user state sync~~ — **dead, not deferred.** That design hosted the paid Claude proxy and put Nick's API key in front of other people's usage, which the free-and-local constraint forbids. There is nothing to deploy.
-- [ ] Cross-platform bundle targets: add `msi`/`nsis` and `dmg` to `src-tauri/tauri.conf.json` (today it is `["appimage", "rpm"]`, Linux only) and produce them on their own operating systems — Tauri does not cross-compile a bundle. The icon set already covers all three. The build host is Linux and the repo has **no `.github/workflows`**, so Windows/macOS artifacts need runners; GitHub-hosted runners are free for public repos and `daneo` is public, but confirm the current policy at implementation time.
-- [ ] Align the version: `package.json` says `0.0.0`, `tauri.conf.json` and `src-tauri/Cargo.toml` say `0.1.0`. One source of truth before any artifact is named.
+- [x] Cross-platform bundle targets: `appimage`, `rpm`, `nsis`, `dmg`; `.github/workflows/test.yml` produces all four installers. Accepted source `15a8766`, successful CI `38158221011`; runtime verdicts are separate.
+- [x] Align the version: all manifests use `0.1.0`; `npm run check:version` verifies agreement.
 - [x] Prove the AI-off free-to-use first run on Linux: fresh profile, no API key, account, proxy or model download; shipped feature checks offline and production cloud-adapter exclusion verified. Ubuntu 22.04/glibc 2.35 ordinary AppImage launch passed. Windows/macOS runtime, Korean speech, GPU acceleration and RPM installation remain unverified; see the 2026-10-11 acceptance log below.
-- [ ] Release artifacts with checksums, plus honest release notes for the unsigned-installer warnings (Windows SmartScreen, macOS Gatekeeper) and the manual bypass steps. **Code signing costs money, is optional, and is Nick's call when a release is imminent** — not assumed here.
+- [x] Stage release artifacts, SHA-256 manifest and unsigned-installer instructions: `reference/releases/0.1.0/`. All four hashes rechecked 2026-10-11. Tagging/publication is a separate action; no signing purchase is implied.
+- [ ] Complete a module, drill and review session from the exact staged installer in a clean environment; check Explore explains AI absence and tutor/model controls are absent. Record screenshots/transcript, platform verdicts and document reconciliation. Current runner fails before UI launch (`libharfbuzz.so.0` missing), has no display/Xvfb and cannot access Docker. Owner: closeout engineer; resume when a usable clean Linux desktop is supplied. Windows/macOS need separate real-machine evidence and remain unverified.
 
 ## Discovered work
 - (add items here with dates)
@@ -1395,3 +1398,29 @@ and tagging still require approval.
 - Added `reference/releases/0.1.0/README.md` and `SHA256SUMS`: exact byte sizes, hash commands, unsigned-installer warnings, platform steps and explicit runtime-test limits. Release one has no AI or model download; Windows setup may need WebView2 if it is absent.
 - Verification: all four `sha256sum -c` entries OK; documentation whitespace checked with `git diff --check`. Existing CI and Linux acceptance evidence are reused, not represented as fresh GUI testing.
 - Release preparation does not authorize a tag or publication. Next: review the exact staged candidate and optional signing costs before deciding whether to publish.
+
+### 2026-10-11 — Reconcile staged-release documents; install closeout remains open
+
+Reviewed all six closeout documents. Updated README installation guidance,
+PROJECT status/Phase B, this header/checklist/log, the local-model plan's packaging
+status and the release notes. CURRICULUM §4 is unchanged because no curriculum
+or green-gate requirement changed. All four staged installer hashes match
+`reference/releases/0.1.0/SHA256SUMS`; `npm run check:version` reports all manifests
+use 0.1.0. The exact AppImage launched with an empty HOME/XDG profile and cleared
+environment on Ubuntu 24.04.5 exits 127: `libharfbuzz.so.0` is missing. No UI opened;
+this runner also lacks a desktop display/Xvfb and has no Docker access. Earlier
+Linux acceptance is preserved, not relabelled as a new closeout run.
+
+Verification in `/srv/projects/daneo`: `npm run build` passed content validation
+16/16, TypeScript and production bundling (existing large-chunk warning).
+`npm test -- --maxWorkers=2` and the single-worker retry each passed 248/249;
+`release-features.test.tsx` exceeded its unchanged five-second timeout while
+importing the app. Diagnostic `npm test -- --maxWorkers=2 --testTimeout=15000`
+passed 249/249. This does not claim a local default-timeout pass and no test was
+edited. `git diff --check` passed. Remote default-timeout CI is checked separately.
+
+Next: supply a usable clean Linux desktop, use the staged hash-matched AppImage,
+complete a module, drill and review, and capture the AI-absence behavior in Explore
+and navigation. Closeout ends when that evidence and per-platform verdicts are
+recorded and reconciled into these documents. Windows/macOS require their own
+real-machine installation/use and remain unverified; publication is separate.

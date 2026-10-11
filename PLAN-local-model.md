@@ -3,7 +3,8 @@
 > Owner: Nick. Design refresh: **2026-10-03**. Owner constraint added **2026-10-04**.
 > Native compatibility and request lifecycle passed on 2026-10-04; Tauri commands and
 > the validated frontend adapter, Explore controls, storage lifecycle and tutor now exist.
-> AI qualification remains open; release-one packaging proceeds independently with AI off.
+> AI qualification remains open; four release-one installers are staged with AI off.
+> No model is bundled or downloaded in 0.1.0; clean-install closeout remains open.
 > See `src-tauri/examples/README.md` and the dated TASKS.md measurements.
 > PROJECT.md governs pedagogy; TASKS.md is the app checklist/session record.
 > Desktop comes first. **The local model is the engine, not an option.** Nick chose
@@ -613,33 +614,17 @@ not choose the AI-less web build, and he did not choose a phone app. So:
   in the Tauri shell. That is the reason this choice costs nothing to run: no
   host, no bill, no key in front of anyone else's usage.
 
-Four things this repo has to fix before an installer exists, all verified in the
-tree on 2026-10-04 rather than assumed:
+**Packaging status, 2026-10-11:** `tauri.conf.json` now declares AppImage, RPM,
+NSIS and DMG targets; `.github/workflows/test.yml` builds them on their respective
+platforms. All manifests use 0.1.0. The four accepted installers and SHA-256
+manifest are staged; [release notes](reference/releases/0.1.0/README.md) record
+unsigned warnings, prerequisites and per-platform verification limits. Windows
+and macOS runtime remain unverified; Linux module-completion closeout is open.
 
-1. **`src-tauri/tauri.conf.json` bundles Linux only** — `targets` is
-   `["appimage", "rpm"]`. Windows (`msi`/`nsis`) and macOS (`dmg`/`app`) need their
-   targets added **and** need to be built on those operating systems; Tauri does
-   not cross-compile a bundle. The icon set is already complete for all three
-   (`icon.ico`, `icon.icns` and the PNG/Square sets are present).
-2. **The build host is Linux**, so Windows and macOS artifacts come from CI
-   runners or from physical machines. This repo has **no `.github/workflows` at
-   all**. GitHub-hosted runners, including macOS, are free for public repositories
-   and `daneo` is public — confirm the current policy and minute limits at
-   implementation time rather than trusting this sentence.
-3. **The version number disagrees with itself**: `package.json` says `0.0.0`
-   while `tauri.conf.json` and `src-tauri/Cargo.toml` say `0.1.0`. A release needs
-   one source of truth for the version in the filename and the installer metadata.
-4. **Unsigned installers warn the user.** Windows SmartScreen and macOS Gatekeeper
-   both flag an unsigned app, and clearing that costs money — an Apple Developer
-   Program membership, and a Windows code-signing certificate. **That is the only
-   money anywhere in this choice, it is optional, and it is Nick's to decide when
-   a release is actually imminent.** Until then the release notes carry the manual
-   bypass steps, honestly labelled.
-
-**Nothing is bundled into any installer** — the model is still the post-install
-hash-verified download (v2, BAD-187), on desktop exactly as argued for mobile
-above. An installer that carries weights pays for them on every update and cannot
-be given a better model without a new release.
+**No model is bundled or downloaded in release 0.1.0.** The translator and tutor
+are excluded under the later AI-off decision below. A hash-verified post-install
+model download belongs to a future qualified AI release. Optional signing remains
+a separate decision; these staged installers are unsigned.
 
 Small models may hallucinate. Training does not guarantee an in-character tutor;
 local inference does not guarantee speed. Download integrity, app responsiveness
