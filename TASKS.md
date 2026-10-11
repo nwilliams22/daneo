@@ -1336,3 +1336,24 @@ the repair the two normal-mode cases reproduced the blank route.
 `npm run build` passes 16 content checks, TypeScript and Vite (existing chunk
 size warning). Next: verify CI and a replacement artifact offline on the
 selected Fedora workstation; the DOM regression is not packaged GUI acceptance.
+
+### 2026-10-11 — Pin distribution AppImages to Ubuntu 22.04
+
+Split AppImage packaging into an Ubuntu 22.04 container on the existing CI
+runner; retain RPM on the native Ubuntu 24.04 runner from the same source.
+Jammy's official package index provides WebKitGTK 4.1; the container checks
+its installed package version and glibc 2.35 before building. Added a per-file
+ELF requirement report and gate (including the AppImage runtime), rejecting
+versions above GLIBC_2.35 and unsupported ABI tags. A clean Ubuntu 22.04 CI
+launch job uses ordinary FUSE launch with an isolated profile and records
+its mount, hash, window, log and screenshot. README records the distribution
+baseline and distinguishes build checks from runtime acceptance.
+
+Local checks: four baseline regression tests pass; shell syntax and workflow
+YAML parse pass; `npm run validate:content` passes 16/16; `npm run build`
+passes typecheck/content/Vite (existing chunk warning). `npm test` and a
+bounded-worker rerun hit the release-feature import's 5-second timeout;
+`npm test -- --maxWorkers=2 --testTimeout=15000` passes 249/249 without code
+changes. Local Docker access is unavailable. Next: verify the pushed CI run,
+inspect the generated ELF report and ordinary-launch screenshot; no new
+packaged launch result is claimed by this entry.

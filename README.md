@@ -62,6 +62,9 @@ Everything in `src/lib/` is framework-free on purpose — it ports unchanged to 
 
 ## Linux notes
 
+- **Distribution AppImage baseline:** CI builds in an `ubuntu:22.04` container on the Ubuntu 24.04 runner, using Jammy WebKitGTK 4.1. `scripts/check-appimage-glibc.py` inspects required symbol versions in every bundled ELF and the AppImage runtime, rejecting requirements above GLIBC_2.35 and unsupported ABI tags. The `daneo-AppImage-Linux-X64` artifact includes the report and SHA-256. RPM remains a separate native runner build from the same source commit; its dependencies and glibc floor must be checked independently. Workstation AppImages are development artifacts, not distribution candidates.
+- **Release acceptance:** the ELF check is necessary but does not prove launch. Run the named AppImage normally through FUSE on a clean Ubuntu 22.04 target with a display; record its checksum, OS/glibc, command, log and UI screenshot. Build-time `APPIMAGE_EXTRACT_AND_RUN` only runs packaging tools inside CI and is not launch acceptance.
+
 - **AppImage packaging** requires `NO_STRIP=true` (linuxdeploy's bundled `strip` predates `.relr.dyn` ELF sections). `npm run tauri:build` sets it for you.
 - **NVIDIA + Wayland**: WebKitGTK's DMA-BUF renderer crashes ("Error 71"); the app sets `WEBKIT_DISABLE_DMABUF_RENDERER=1` at startup automatically (your own env value wins if set).
 - **Audio**: play buttons appear only if the system has a Korean speech voice; without one the app degrades gracefully (Settings shows the status).

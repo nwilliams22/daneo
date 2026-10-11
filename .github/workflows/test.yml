@@ -18,6 +18,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf cmake libclang-dev libarchive-tools
       - run: npm ci
       - run: npm run check:version
+      - run: python3 scripts/test-appimage-glibc.py
       - run: npm test
       - run: npm run build
       # No weights or paid service required. The real-model test is an explicit local gate.
@@ -31,7 +32,7 @@ jobs:
       matrix:
         include:
           - os: ubuntu-24.04
-            bundles: appimage,rpm
+            bundles: rpm
           - os: windows-2022
             bundles: nsis
           - os: macos-15
@@ -48,20 +49,18 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf cmake libclang-dev libarchive-tools
       - run: npm ci
       - run: npm run check:version
-      - name: Build Linux bundles
+      - name: Build Linux RPM
         if: runner.os == 'Linux'
-        run: npm run tauri:build
+        working-directory: src-tauri
+        run: npx --no-install tauri build --bundles rpm
       - name: Build Windows or macOS bundle
         if: runner.os != 'Linux'
         working-directory: src-tauri
         run: npx --no-install tauri build --bundles ${{ matrix.bundles }}
-      - name: Inspect Linux AppImage resources
+      - name: Inspect Linux RPM resources
         if: runner.os == 'Linux'
         shell: bash
         run: |
-          image=$(find src-tauri/target/release/bundle/appimage -name '*.AppImage' -type f | head -1)
-          "$image" --appimage-extract > /dev/null
-          node scripts/check-bundle-resources.mjs squashfs-root bundle-resources.json
           mkdir rpm-extracted
           rpm=$(find src-tauri/target/release/bundle/rpm -name '*.rpm' -type f | head -1)
           bsdtar -xf "$rpm" -C rpm-extracted
@@ -93,5 +92,83 @@ jobs:
             src-tauri/target/release/bundle/nsis/*.exe
             src-tauri/target/release/bundle/dmg/*.dmg
             *resources.json
+          if-no-files-found: error
+          retention-days: 7
+  appimage:
+    name: AppImage (Ubuntu 22.04 baseline)
+    runs-on: ubuntu-24.04
+    container: ubuntu:22.04
+    defaults:
+      run:
+        shell: bash
+    env:
+      DEBIAN_FRONTEND: noninteractive
+      NO_STRIP: "true"
+      APPIMAGE_EXTRACT_AND_RUN: "1"
+    steps:
+      - name: Install Jammy build dependencies
+        run: |
+          apt-get update
+          apt-get install -y ca-certificates curl git build-essential pkg-config file python3 binutils libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf cmake libclang-dev
+          test "$(getconf GNU_LIBC_VERSION)" = "glibc 2.35"
+          pkg-config --modversion webkit2gtk-4.1
+          dpkg-query -W libc6 libwebkit2gtk-4.1-dev
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - uses: dtolnay/rust-toolchain@stable
+      - run: npm ci
+      - run: npm run check:version
+      - name: Build AppImage on the supported baseline
+        working-directory: src-tauri
+        run: npx --no-install tauri build --bundles appimage
+      - name: Inspect resources and enforce ELF baseline
+        run: |
+          image=$(find src-tauri/target/release/bundle/appimage -name '*.AppImage' -type f | head -1)
+          "$image" --appimage-extract > /dev/null
+          node scripts/check-bundle-resources.mjs squashfs-root appimage-resources.json
+          python3 scripts/check-appimage-glibc.py squashfs-root --runtime "$image" --output appimage-glibc.json
+          sha256sum "$image" > appimage-sha256.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: daneo-AppImage-Linux-X64
+          path: |
+            src-tauri/target/release/bundle/appimage/*.AppImage
+            appimage-resources.json
+            appimage-glibc.json
+            appimage-sha256.txt
+          if-no-files-found: error
+          retention-days: 7
+  appimage-launch:
+    name: AppImage launch (Ubuntu 22.04)
+    needs: appimage
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: daneo-AppImage-Linux-X64
+          path: appimage-artifact
+      - name: Install desktop smoke-test prerequisites
+        run: sudo apt-get update && sudo apt-get install -y libfuse2 fuse3 xvfb xauth xdotool imagemagick libegl1 libgbm1 libgl1 libharfbuzz0b dbus-x11
+      - name: Ordinary FUSE launch on glibc 2.35
+        shell: bash
+        run: |
+          test "$(getconf GNU_LIBC_VERSION)" = "glibc 2.35"
+          image=$(find "$PWD/appimage-artifact" -name '*.AppImage' -type f | head -1)
+          chmod +x "$image"
+          mkdir launch-evidence
+          sha256sum "$image" > launch-evidence/sha256.txt
+          cp /etc/os-release launch-evidence/os-release
+          getconf GNU_LIBC_VERSION > launch-evidence/glibc.txt
+          xvfb-run -a -s '-screen 0 1280x900x24 -nolisten tcp' bash scripts/check-appimage-launch.sh "$image" "$PWD/launch-evidence"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: daneo-AppImage-launch-Ubuntu-22.04
+          path: launch-evidence
           if-no-files-found: error
           retention-days: 7
