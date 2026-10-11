@@ -1319,3 +1319,20 @@ verifies final targets against the exact reviewed candidates. The training runne
 now validates the actual configured dataset and rejects unapproved targets before
 model load. Predeclared the same two-rate/four-epoch development-loss selection
 protocol for 406 rows, with no extra retry after the native development verdict.
+
+### 2026-10-11 — Start Typing after learned words load
+
+The Typing session captured an empty pool before the asynchronous known-word
+query resolved, leaving the route blank even after reload. Mount the session
+only with a resolved non-empty eligible pool; changes to that pool start a fresh
+session. The source was unchanged from the failed 2060b79 artifact. Added jsdom
+as a development-only dependency to exercise real React updates with Dexie and
+fake IndexedDB, rather than only static rendering.
+
+`npm test -- tests/typing.test.tsx` passes 3/3: asynchronous loading of the
+Module 1 words 저, 물, 마시다, physical-key composition and persisted scoring
+before/after remount, learning while mounted, and empty review state. Before
+the repair the two normal-mode cases reproduced the blank route.
+`npm run build` passes 16 content checks, TypeScript and Vite (existing chunk
+size warning). Next: verify CI and a replacement artifact offline on the
+selected Fedora workstation; the DOM regression is not packaged GUI acceptance.

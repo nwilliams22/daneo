@@ -27,6 +27,41 @@ function TypingDrill({ reviewIds }: { reviewIds?: Set<string> }) {
     return reviewIds ? base.filter((w) => reviewIds.has(w.id)) : base;
   }, [known, reviewIds]);
 
+  if (!known) return null;
+
+  if (reviewIds && pool.length === 0) return <ReviewEmpty />;
+
+  if (pool.length === 0) {
+    return (
+      <div>
+        <Link
+          to="/drill"
+          className="mb-4 inline-block text-[13px] font-semibold text-muted transition-colors hover:text-ink"
+        >
+          ← Drills
+        </Link>
+        <div className="rounded-2xl border border-dashed border-line bg-panel px-6 py-10 text-center">
+          <div className="font-korean text-3xl">키</div>
+          <div className="mt-3 text-sm font-semibold">No words to type yet</div>
+          <p className="mx-auto mt-1.5 max-w-xs text-[13px] leading-relaxed text-muted">
+            The typing drill uses words you've marked as learned. Check some
+            off in{" "}
+            <Link to="/learn" className="font-semibold text-teal underline">
+              Learn
+            </Link>{" "}
+            first.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  // The engine snapshots its initial pool. Mount only after the live query
+  // resolves, and start a fresh session when the eligible words change.
+  return <TypingSession key={pool.map((w) => w.id).join(",")} pool={pool} reviewIds={reviewIds} />;
+}
+
+function TypingSession({ pool, reviewIds }: { pool: Word[]; reviewIds?: Set<string> }) {
   const engine = useDrillEngine<Word>({ kind: "typing", pool });
   const current = engine.current;
 
@@ -90,35 +125,6 @@ function TypingDrill({ reviewIds }: { reviewIds?: Set<string> }) {
       window.removeEventListener("compositionstart", onComposition);
     };
   });
-
-  if (!known) return null;
-
-  if (reviewIds && pool.length === 0) return <ReviewEmpty />;
-
-  if (pool.length === 0) {
-    return (
-      <div>
-        <Link
-          to="/drill"
-          className="mb-4 inline-block text-[13px] font-semibold text-muted transition-colors hover:text-ink"
-        >
-          ← Drills
-        </Link>
-        <div className="rounded-2xl border border-dashed border-line bg-panel px-6 py-10 text-center">
-          <div className="font-korean text-3xl">키</div>
-          <div className="mt-3 text-sm font-semibold">No words to type yet</div>
-          <p className="mx-auto mt-1.5 max-w-xs text-[13px] leading-relaxed text-muted">
-            The typing drill uses words you've marked as learned. Check some
-            off in{" "}
-            <Link to="/learn" className="font-semibold text-teal underline">
-              Learn
-            </Link>{" "}
-            first.
-          </p>
-        </div>
-      </div>
-    );
-  }
 
   if (!current) return null;
   const wrong = engine.answered && typed !== current.ko;
