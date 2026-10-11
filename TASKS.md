@@ -244,7 +244,7 @@ That order is superseded by the 2026-10-05 decision: **Phase B is the live relea
 - [ ] ~~Deploy static build + proxy; simple auth; per-user state sync~~ — **dead, not deferred.** That design hosted the paid Claude proxy and put Nick's API key in front of other people's usage, which the free-and-local constraint forbids. There is nothing to deploy.
 - [ ] Cross-platform bundle targets: add `msi`/`nsis` and `dmg` to `src-tauri/tauri.conf.json` (today it is `["appimage", "rpm"]`, Linux only) and produce them on their own operating systems — Tauri does not cross-compile a bundle. The icon set already covers all three. The build host is Linux and the repo has **no `.github/workflows`**, so Windows/macOS artifacts need runners; GitHub-hosted runners are free for public repos and `daneo` is public, but confirm the current policy at implementation time.
 - [ ] Align the version: `package.json` says `0.0.0`, `tauri.conf.json` and `src-tauri/Cargo.toml` say `0.1.0`. One source of truth before any artifact is named.
-- [ ] Prove the free-to-use first run on a machine that has never run the dev tree: no API key, no account, no proxy process, and no network beyond the one hash-verified model download. The cloud adapter must be unreachable in that build.
+- [x] Prove the AI-off free-to-use first run on Linux: fresh profile, no API key, account, proxy or model download; shipped feature checks offline and production cloud-adapter exclusion verified. Ubuntu 22.04/glibc 2.35 ordinary AppImage launch passed. Windows/macOS runtime, Korean speech, GPU acceleration and RPM installation remain unverified; see the 2026-10-11 acceptance log below.
 - [ ] Release artifacts with checksums, plus honest release notes for the unsigned-installer warnings (Windows SmartScreen, macOS Gatekeeper) and the manual bypass steps. **Code signing costs money, is optional, and is Nick's call when a release is imminent** — not assumed here.
 
 ## Discovered work
@@ -1357,3 +1357,34 @@ bounded-worker rerun hit the release-feature import's 5-second timeout;
 changes. Local Docker access is unavailable. Next: verify the pushed CI run,
 inspect the generated ELF report and ordinary-launch screenshot; no new
 packaged launch result is claimed by this entry.
+
+
+### 2026-10-11 — Close Linux AI-off first-run acceptance
+
+The independent Linux matrix passes onboarding, learned-word unlock, Typing,
+anatomy, arrangement, roles, Review and Stats persistence. Earlier packaged
+checks cover flashcards, gap browsing/quiz, Module 1 scoring and backup/restore.
+All 164 module resources are present; content validation passes 16/16. This is
+resource/content coverage, not a claim of manually answering every module test.
+Two traced feature sessions contain 22,472 and 6,729 lines with zero Internet
+sockets or non-UNIX connects. Explore explains that translator and tutor are
+absent; production DEV gates and the bundle regression exclude AI frontend
+transports and the cloud adapter. Native local AI commands remain compiled.
+
+Feature evidence uses source dd36189 (CI 38119223541). Replacement source
+15a8766 (CI 38158221011, success) has no changes in src, src-tauri, package.json
+or package-lock.json. Its AppImage SHA-256 is
+c7431957768557348535b185c5b67062fe165ad659355781f7ad4e197792adbd.
+Independent packaging review confirms 171 ELF files, maximum GLIBC_2.35, no
+GNU2 TLS requirement and zero rejected requirements. Ordinary FUSE launch on
+Ubuntu 22.04.5/glibc 2.35 reaches onboarding with fresh HOME/XDG directories,
+without extract-and-run or LD_LIBRARY_PATH. Declared desktop/FUSE prerequisites
+are installed; rendering is software. CI npm test passes at its default timeout;
+the recorded local bounded-worker run passes 249/249.
+
+Acceptance evidence and reproducible scripts are retained with the first-run,
+independent Linux matrix and baseline-repair records. Korean speech, actual
+RPM installation, physical GPU rendering and Windows/macOS runtime remain
+unverified. The AppImage fulfills the ordinary-launch-or-RPM requirement.
+Next: prepare checksums and honest unsigned-installer release notes; publishing
+and tagging still require approval.
