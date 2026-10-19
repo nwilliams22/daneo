@@ -40,6 +40,12 @@
 # the host window size *is* the nested screen size (measured: host 1400x900 ->
 # `xdpyinfo` 1400x900), and the app window does not follow, so it ends up clipped.
 # `fit` reads the live screen size, so run it after any resize.
+#
+# Headless hosts (bd-server, where the Paperclip agents run): there is no host display
+# to nest Xephyr in, so the session runs on Xvfb instead -- the same X server with no
+# window, XTEST included, so every xdotool/import command above works unchanged.
+# QA_XSERVER=auto (default) picks Xephyr when the host display answers, Xvfb otherwise;
+# force either with QA_XSERVER=xephyr|xvfb. Xvfb's screen is fixed at QA_GEOMETRY.
 
 set -uo pipefail
 
@@ -47,6 +53,7 @@ REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 QA_DISPLAY="${QA_DISPLAY:-:7}"
 QA_GEOMETRY="${QA_GEOMETRY:-1600x1000}"
 QA_FIT_WINDOW="${QA_FIT_WINDOW:-1}"
+QA_XSERVER="${QA_XSERVER:-auto}"
 VITE_PORT="${VITE_PORT:-5173}"
 RUNDIR="${XDG_RUNTIME_DIR:-/run/user/$(id -u)}/daneo-qa"
 mkdir -p "$RUNDIR"
@@ -60,6 +67,15 @@ host_xauth() { ls "${XDG_RUNTIME_DIR:-/run/user/$(id -u)}"/xauth_* 2>/dev/null |
 vite_up() { curl -sf -o /dev/null "http://localhost:$VITE_PORT/"; }
 
 xserver_up() { nested xdpyinfo >/dev/null 2>&1; }
+
+host_display_up() { local xa; xa="$(host_xauth)"; [ -n "$xa" ] && DISPLAY=:0 XAUTHORITY="$xa" xdpyinfo >/dev/null 2>&1; }
+
+xserver_kind() {
+  case "$QA_XSERVER" in
+    xephyr|xvfb) echo "$QA_XSERVER" ;;
+    *) host_display_up && echo xephyr || echo xvfb ;;
+  esac
+}
 
 app_window() { nested xdotool search --name '단어 Daneo' 2>/dev/null | tail -1; }
 
@@ -78,13 +94,20 @@ start_vite() {
 
 start_xserver() {
   if xserver_up; then echo "xserver: $QA_DISPLAY already running"; return 0; fi
+  KIND="$(xserver_kind)"
   # -ac drops access control so the app and xdotool connect without an auth file.
-  # The server is nested inside the host session, so this is not reachable off-box.
-  DISPLAY=:0 XAUTHORITY="$(host_xauth)" \
-    setsid nohup Xephyr "$QA_DISPLAY" -screen "$QA_GEOMETRY" -ac -resizeable \
-      -title "Daneo QA nested session" >"$RUNDIR/xephyr.log" 2>&1 &
-  for _ in $(seq 1 30); do xserver_up && { echo "xserver: $QA_DISPLAY up ($QA_GEOMETRY)"; return 0; }; sleep 0.5; done
-  echo "xserver: FAILED to come up -- see $RUNDIR/xephyr.log" >&2; return 1
+  # Xephyr is nested inside the host session and Xvfb gets -nolisten tcp, so neither
+  # is reachable off-box.
+  if [ "$KIND" = xephyr ]; then
+    DISPLAY=:0 XAUTHORITY="$(host_xauth)" \
+      setsid nohup Xephyr "$QA_DISPLAY" -screen "$QA_GEOMETRY" -ac -resizeable \
+        -title "Daneo QA nested session" >"$RUNDIR/xephyr.log" 2>&1 &
+  else
+    setsid nohup Xvfb "$QA_DISPLAY" -screen 0 "${QA_GEOMETRY}x24" -ac -nolisten tcp \
+      >"$RUNDIR/xvfb.log" 2>&1 &
+  fi
+  for _ in $(seq 1 30); do xserver_up && { echo "xserver: $KIND $QA_DISPLAY up ($QA_GEOMETRY)"; return 0; }; sleep 0.5; done
+  echo "xserver: FAILED to come up -- see $RUNDIR/$KIND.log" >&2; return 1
 }
 
 fit_window() {
@@ -101,10 +124,11 @@ fit_window() {
 start_app() {
   if [ -n "$(app_window)" ]; then echo "app: already running on $QA_DISPLAY"; return 0; fi
   [ -x "$APP_BIN" ] || { echo "app: $APP_BIN missing -- build it first, see BAD-219 for the cargo env" >&2; return 1; }
-  # Xephyr has no DRI3, so webkit needs its accelerated paths off or it renders blank.
+  # Neither Xephyr nor Xvfb has DRI3, so webkit needs its accelerated paths off or it
+  # renders blank; LIBGL_ALWAYS_SOFTWARE keeps GL on Mesa's llvmpipe on a GPU-less X server.
   ( cd "$REPO" && env -u WAYLAND_DISPLAY -u XAUTHORITY \
       DISPLAY="$QA_DISPLAY" GDK_BACKEND=x11 \
-      WEBKIT_DISABLE_DMABUF_RENDERER=1 WEBKIT_DISABLE_COMPOSITING_MODE=1 \
+      WEBKIT_DISABLE_DMABUF_RENDERER=1 WEBKIT_DISABLE_COMPOSITING_MODE=1 LIBGL_ALWAYS_SOFTWARE=1 \
       setsid nohup "$APP_BIN" >"$RUNDIR/app.log" 2>&1 & )
   for _ in $(seq 1 60); do
     WID="$(app_window)"
@@ -124,7 +148,7 @@ case "${1:-start}" in
     start_vite && start_xserver && start_app || exit 1
     echo
     echo "Ready. Drive it with:  export DISPLAY=$QA_DISPLAY; unset XAUTHORITY WAYLAND_DISPLAY"
-    echo "Logs: $RUNDIR/{vite,xephyr,app}.log"
+    echo "Logs: $RUNDIR/{vite,$(xserver_kind),app}.log"
     ;;
   status)
     vite_up && echo "vite:    up on :$VITE_PORT" || echo "vite:    down"
@@ -144,6 +168,7 @@ case "${1:-start}" in
   stop)
     pkill -f "$APP_BIN" 2>/dev/null
     pkill -f "Xephyr $QA_DISPLAY" 2>/dev/null
+    pkill -f "Xvfb $QA_DISPLAY" 2>/dev/null
     echo "stopped app and $QA_DISPLAY (vite left running)"
     ;;
   *)
