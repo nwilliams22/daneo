@@ -1,6 +1,6 @@
 # Daneo 0.1.0 — release candidate
 
-Prepared 2026-10-11. **Not published; clean-install closeout remains open.** These notes describe the staged installers
+Prepared 2026-10-11; acceptance updated 2026-10-20. **Not published; Linux clean-profile installer closeout passed.** These notes describe the staged installers
 from source `15a87661e7df634d9d4644af395e132d659d11ad`, built by successful
 [CI run 38158221011](https://github.com/nwilliams22/daneo/actions/runs/38158221011).
 A later documentation commit does not change these binaries. A release must use
@@ -119,8 +119,7 @@ matches the value in this directory.
 
 Windows and macOS bundles passed CI build/resource checks, **not runtime tests**.
 Korean speech (requires an available OS voice), physical GPU rendering and actual
-RPM installation remain unverified. No new GUI test was run while preparing these
-notes. Do not describe all three platforms as acceptance-tested.
+RPM installation remain unverified. The 2026-10-20 closeout below adds a GUI test of the exact AppImage. Do not describe all three platforms as acceptance-tested.
 
 ### Closeout attempt, 2026-10-11
 
@@ -133,10 +132,44 @@ This runner also has no desktop display or Xvfb; Docker access is denied.
 This is an environment failure, not a new installation pass, and does not replace
 the earlier Ubuntu 22.04 acceptance record.
 
-A clean-environment module completion, drill and review session still need to be
-recorded for the closeout, including Explore's AI-absence notice and absent tutor
-controls. Windows and macOS remain unverified until their installers are used on
-real machines. No curriculum gate changed in this documentation sweep.
+### Closeout pass, 2026-10-20
+
+The same AppImage, SHA-256
+`c7431957768557348535b185c5b67062fe165ad659355781f7ad4e197792adbd`,
+now opens through ordinary FUSE launch on Ubuntu 24.04.5 with Xvfb and software
+rendering. The host now has Xvfb, xdotool, libharfbuzz and EGL available. A new,
+empty HOME and XDG config/data/cache profile supplied the clean learner
+environment; this was not a newly installed operating system. No development
+server, rebuilt binary, injected learner data or model was used.
+
+Observed through screenshots and keyboard/mouse input:
+
+- Brand-new onboarding and Module 1 opened normally. All 37 vocabulary boxes
+  were checked through the UI; the module list showed 37/37.
+- The first mixed module test finished at 8/17 (47%), with deliberately wrong
+  choices exercising the missed-item path. Its nine misses appeared in Review.
+- The confusables quiz accepted the correct `wae` answer for ㅙ.
+- The nine-item daily review reached **Session Complete**, 3/9 correct; misses
+  were rescheduled. This was a completed review flow, not a mastery claim.
+- A second Module 1 test covered vocabulary, the on-screen Korean keyboard,
+  sentence meanings and role labels: **17/17, 100%, passed**.
+- After terminating and reopening the same AppImage with the same profile,
+  onboarding stayed complete and Module 1 retained **37/37 and 100%**.
+- Explore displayed **The AI translator and tutor are not in this release.**
+  Navigation had no tutor; Settings had no model controls. Translation/tutor
+  success is not claimed for this AI-off release.
+- Settings reported speech synthesis unavailable on this host. GPU device
+  access warnings occurred; software rendering still displayed the UI.
+
+Linux AppImage end-to-end acceptance is now recorded. Windows x64, Apple Silicon
+macOS and RPM installation remain **unverified**. Nick must run each matching
+installer on a real machine for that platform, record its checksum, install
+warnings and module/drill/review results before changing its verdict. Physical
+GPU rendering and Korean speech remain unverified. The earlier offline tracing
+record is preserved; this run did not repeat network tracing.
+
+The six-document sweep is reconciled; CURRICULUM §4 is unchanged because no
+curriculum gate changed. Tagging/publication still requires its separate approval.
 
 ## Reproduce the manifest / release operator record
 

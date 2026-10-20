@@ -24,7 +24,7 @@
 
 > **v3 evaluation freeze (2026-10-05):** Ten new reserved gate rows (four literal-gap probes) and thirty separate development rows are pinned to one corpus commit with SHA-256 manifests. The exclusion preflight validates all 136 reservations and existing training data with zero intersections. No inference was run for this freeze; candidate screening uses development only. **A later run read the freeze document's reserved per-item descriptions into its context; that was ruled not to spend the gate** — the sealed JSON stayed closed, nothing was screened or trained afterwards, and no other committed file carries that text. The ruling and the three rules it sets (a subprocess may read the sealed sets, a context may not; the exposed context does not author the rebuild; `build-dataset.mjs` still excludes only 96 of 136 reservations in process) are in `reference/eval/v3-freeze.md` §*Custodian ruling*.
 
-> **Phase B closeout (2026-10-11):** bundles, version alignment, Linux first-run acceptance and release preparation are complete. Clean-installer module completion remains open; this runner cannot launch the artifact. Windows/macOS runtime and RPM installation are unverified. See the Phase B checklist and dated closeout log.
+> **Phase B closeout (2026-10-20):** bundles, version alignment, Linux first-run acceptance, release preparation and the clean-profile AppImage module/drill/review closeout are complete. Module 1 passed 17/17 and retained 37/37 learned words after restart. Windows/macOS runtime and RPM installation remain unverified. Publication is separate. See the Phase B checklist and dated closeout log.
 
 ## Phase A.0 — Scaffold
 - [x] `npm create vite@latest` (react-ts), add Tailwind, Zustand, Dexie, Vitest, zod
@@ -248,7 +248,7 @@ That order is superseded by the 2026-10-05 decision: **Phase B is the live relea
 - [x] Align the version: all manifests use `0.1.0`; `npm run check:version` verifies agreement.
 - [x] Prove the AI-off free-to-use first run on Linux: fresh profile, no API key, account, proxy or model download; shipped feature checks offline and production cloud-adapter exclusion verified. Ubuntu 22.04/glibc 2.35 ordinary AppImage launch passed. Windows/macOS runtime, Korean speech, GPU acceleration and RPM installation remain unverified; see the 2026-10-11 acceptance log below.
 - [x] Stage release artifacts, SHA-256 manifest and unsigned-installer instructions: `reference/releases/0.1.0/`. All four hashes rechecked 2026-10-11. Tagging/publication is a separate action; no signing purchase is implied.
-- [ ] Complete a module, drill and review session from the exact staged installer in a clean environment; check Explore explains AI absence and tutor/model controls are absent. Record screenshots/transcript, platform verdicts and document reconciliation. Current runner fails before UI launch (`libharfbuzz.so.0` missing), has no display/Xvfb and cannot access Docker. Owner: closeout engineer; resume when a usable clean Linux desktop is supplied. Windows/macOS need separate real-machine evidence and remain unverified.
+- [x] Complete a module, drill and review session from the exact staged installer in a clean profile (2026-10-20): Ubuntu 24.04.5/Xvfb, Module 1 37/37 words and 17/17 test, confusables correct-answer feedback, nine-item review completed, restart persistence confirmed. Explore explains AI absence; tutor/model controls are absent. Six documents reviewed; CURRICULUM §4 unchanged. Windows/macOS and RPM installation remain unverified; Nick must run the matching installers on real Windows x64 / Apple Silicon / RPM hosts to change those verdicts. See the dated release notes and session log.
 
 ## Discovered work
 - (add items here with dates)
@@ -1424,3 +1424,30 @@ complete a module, drill and review, and capture the AI-absence behavior in Expl
 and navigation. Closeout ends when that evidence and per-platform verdicts are
 recorded and reconciled into these documents. Windows/macOS require their own
 real-machine installation/use and remain unverified; publication is separate.
+
+### 2026-10-20 — Complete the staged AppImage end-to-end closeout
+
+Ran the unchanged 0.1.0 AppImage from the release staging directory on Ubuntu
+24.04.5 under Xvfb with software rendering, a cleared environment and empty
+HOME/XDG learner storage. Its SHA-256 matches the accepted manifest:
+`c7431957768557348535b185c5b67062fe165ad659355781f7ad4e197792adbd`.
+This is a clean learner profile on the existing host, not a new OS installation.
+Onboarding, all 37 Module 1 vocabulary checks, a mixed module test (17/17 on the
+passing attempt), confusables correct-answer feedback and a nine-item review
+session were exercised through the UI. Intentional wrong choices in the first
+test fed Review; that session completed at 3/9 and rescheduled misses. Restart
+retained the 37/37 count and 100% module result. Explore showed the AI-absence
+notice; navigation/settings had no tutor/model controls. Speech synthesis was
+unavailable; physical GPU rendering was not tested.
+
+Reconciled README, PROJECT header/§7, this header/checklist, PLAN-local-model and
+release notes. CURRICULUM §4 was reviewed and unchanged: no content gate changed.
+`npm run build` passed, including `validate:content` 16/16 and TypeScript; the
+existing large-chunk warning remains. Initial `npm test` during build contention
+passed 248/249 with the previously recorded 5-second App import timeout in
+`release-features.test.tsx`. Rerun `npm test -- --maxWorkers=2`, without a concurrent
+build or timeout override, passed **249/249 across 23 files**. `git diff --check`
+passed. Screenshots and launch/test logs accompany the installation record.
+Windows/macOS and RPM installation remain unverified: Nick must run each matching
+installer on the corresponding real machine and record checksum, warnings and
+module/drill/review evidence. Publication remains a separately approved action.

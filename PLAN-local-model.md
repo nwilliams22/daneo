@@ -4,7 +4,8 @@
 > Native compatibility and request lifecycle passed on 2026-10-04; Tauri commands and
 > the validated frontend adapter, Explore controls, storage lifecycle and tutor now exist.
 > AI qualification remains open; four release-one installers are staged with AI off.
-> No model is bundled or downloaded in 0.1.0; clean-install closeout remains open.
+> No model is bundled or downloaded in 0.1.0; the Linux clean-profile installer
+> closeout passed on 2026-10-20. Windows/macOS runtime remains unverified.
 > See `src-tauri/examples/README.md` and the dated TASKS.md measurements.
 > PROJECT.md governs pedagogy; TASKS.md is the app checklist/session record.
 > Desktop comes first. **The local model is the engine, not an option.** Nick chose
@@ -614,12 +615,14 @@ not choose the AI-less web build, and he did not choose a phone app. So:
   in the Tauri shell. That is the reason this choice costs nothing to run: no
   host, no bill, no key in front of anyone else's usage.
 
-**Packaging status, 2026-10-11:** `tauri.conf.json` now declares AppImage, RPM,
+**Packaging status, 2026-10-20:** `tauri.conf.json` now declares AppImage, RPM,
 NSIS and DMG targets; `.github/workflows/test.yml` builds them on their respective
 platforms. All manifests use 0.1.0. The four accepted installers and SHA-256
 manifest are staged; [release notes](reference/releases/0.1.0/README.md) record
 unsigned warnings, prerequisites and per-platform verification limits. Windows
-and macOS runtime remain unverified; Linux module-completion closeout is open.
+and macOS runtime remain unverified; Linux module-completion closeout passed
+on the exact staged AppImage with fresh learner storage under Xvfb. Publication
+remains a separate action.
 
 **No model is bundled or downloaded in release 0.1.0.** The translator and tutor
 are excluded under the later AI-off decision below. A hash-verified post-install
