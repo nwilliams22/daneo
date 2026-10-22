@@ -278,3 +278,30 @@ and natural explanation under the unchanged rubric, not text equality; also
 report gap-plus-multi-chunk output and correct-explanation-plus-multi-chunk output.
 The prior 0/10 exact wording match is not a semantic correctness baseline.
 No gate score or production pin change belongs to this experiment.
+
+### Recovery on a separate local GPU host
+
+`train-v1.py` now writes `checkpoint.pt` atomically every 25 updates and at
+all epoch boundaries. It includes adapter and optimizer state, CPU/CUDA/Python
+RNG state, step history, development scores and the best adapter so far.
+`--resume` requires the same config, prompt and runner hash and refuses a
+finished training result. It restores the next update in the original order;
+it does not add candidates or choose a new schedule. Memory peaks describe the
+current process; training time accumulates checkpointed segments. An interruption
+can lose at most the uncheckpointed updates, which are replayed deterministically.
+
+For a trusted local GPU account without evaluation fixtures, first run the normal
+preflight on the source checkout with `--write-preflight /path/to/receipt.json`.
+This runs the reservation checker and strict schema validator without loading a
+model. Transfer only the receipt and its hash-bound inputs, approved training and
+development files, retained Python environment, and incumbent base weights.
+The remote invocation uses the same config with `--preflight-receipt PATH`.
+The receipt is a local attestation, not a signature or a new approval: it must
+come from that successful source preflight. Any bound input or runner change
+requires a new local preflight. No reserved fixture or freeze document is needed
+on the GPU host. Base weights are still verified against the original manifest.
+
+The interrupted original `paired-lr1` has no checkpoint or adapter and must stay
+untouched. Its authorized recovery uses `paired-lr1-recovery` with the identical
+frozen config; `paired-lr2` remains the second and final comparison. Recovery is
+not an additional learning-rate candidate. Check free VRAM before each start.

@@ -1451,3 +1451,18 @@ passed. Screenshots and launch/test logs accompany the installation record.
 Windows/macOS and RPM installation remain unverified: Nick must run each matching
 installer on the corresponding real machine and record checksum, warnings and
 module/drill/review evidence. Publication remains a separately approved action.
+
+
+### 2026-10-22 — Prepare resumable paired training recovery
+
+Verified the dedicated local GPU account and retained Python/Torch stack on the
+RTX 5090 (30,141 MiB free at first check). Added atomic optimizer/adapter/RNG and
+selection checkpoints plus hash-bound local preflight receipts, so the GPU host
+needs no reserved evaluation files. The original interrupted evidence is
+preserved; the two frozen rates, dataset, development split and selection rule
+are unchanged. The interrupted-loop regression matches uninterrupted losses and
+selected weights exactly and rejects changed settings; receipt and existing
+preflight tests pass. Build/content results and training progress are recorded
+with the recovery evidence. Remaining: execute the frozen comparison, export the
+selected adapter, and measure development explanation correctness in the native
+worker. No gate or production qualification is claimed.
