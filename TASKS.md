@@ -295,7 +295,7 @@ That order is superseded by the 2026-10-05 decision: **Phase B is the live relea
 - [x] Engine core (2026-10-22, approved narrowed scope): exact Korean course-sentence lookup and reviewed chunk/English assembly in `src/lib/corpus-translator.ts`, reusing `romanize()` and `particlesIn()`. Typed refusals preserve unmatched input or identify ambiguous source rows. No general deconjugation, word-ID recovery or novel-input coverage claim; gap fields remain empty. The owner accepted this replacement scope after the feasibility finding. Pure-function regression tests cover exact SOV output, dropped subjects, ID alignment, ambiguity, unknown input and near misses.
 - [x] `literal_gap` and `cultural_note` by lookup over the 420 reviewed `gap.json` entries (2026-10-22): literal slash/middle-dot alternatives at Unicode word boundaries; longest alternative wins, then ascending entry ID. Verbatim lit → real and note; empty on misses, no inferred morphology or placeholder expansion. Integrated into exact course-sentence assembly; provenance tests cover all entries.
 - [x] Wire into Explore behind one typed adapter (2026-10-22): exact course-sentence translations and explicit whole-input refusals through the shared result/error contract, saved discoveries retained. Production bundle excludes model/tutor surfaces; desktop QA exercised the production frontend in the existing debug shell. No installer rebuilt.
-- [ ] Score against the frozen recombination set under the unedited rubric, then an independent re-score.
+- [x] Score against the frozen recombination set under the unedited rubric, then an independent re-score (2026-10-22): **0/24**, classes 1/2/3 **0/12, 0/6, 0/6**. All refuse; class 2 fails unknown-word identification. Independent re-score agrees on every item with no disagreements. [Report and raw evidence](reference/eval/recombination-course-results.md).
 - [ ] Verdict to Nick: ship it in the next version or not, and whether the sealed gate is spent.
 
 ## Discovered work
@@ -1697,4 +1697,6 @@ set access or installer rebuild. Extended the provenance checker to accept this
 exact frozen set path; its four regression tests pass, including manifest
 corruption rejection. `npm test`: 26 files / 289 tests pass;
 `npm run validate:content`: 16/16 pass; `npm run build`: pass, including typecheck.
-Independent re-score and own-commit Actions confirmation remain before slice 6 closes.
+Independent re-score on the task agrees on all 24 items, with no disagreements.
+Initial verdicts are preserved. The task thread records final own-commit Actions
+confirmation before closure; the next slice owns the shipping decision.

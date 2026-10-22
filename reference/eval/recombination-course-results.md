@@ -1,6 +1,6 @@
 # Course translator: frozen recombination measurement
 
-Measured 2026-10-22 through `translateCourse` in `src/features/explore/course-api.ts`, the exact adapter called by `ExplorePage.run`. **Initial score: 0/24 fully correct. Independent re-score pending.** This is a development measurement, not a release decision or a spent sealed gate.
+Measured 2026-10-22 through `translateCourse` in `src/features/explore/course-api.ts`, the exact adapter called by `ExplorePage.run`. **Score: 0/24 fully correct. Independent re-score agrees on all 24 items.** This is a development measurement, not a release decision or a spent sealed gate.
 
 | Population | Fully correct | Refusals | Substantive answers |
 | --- | ---: | ---: | ---: |
@@ -75,4 +75,6 @@ The provenance checker now accepts this exact additional frozen-set path while r
 
 ## Independent re-score
 
-Pending Thufir’s comment on BAD-266. Preserve these initial verdicts; record the independent verdict and any dimension resolution with item, frozen component notes and owning lesson evidence. Closure requires that review, resolved disagreements, successful provenance verification and successful Actions for the pushed report commit.
+The [independent re-score on BAD-266](/BAD/issues/BAD-266#comment-ec787539-ac92-4d1f-9c43-4efc8e10c84b) agrees on every item: class 1 **0/12**, class 2 **0/6**, class 3 **0/6**, total **0/24**. There are no disputed dimensions or resolutions to apply. In particular, the independent review rejects whole-input echo as identification of an untaught word and confirms no reversals, invented rules or thinking leaks.
+
+The initial verdict file remains unchanged, including its snapshot label that review was pending when it was written. The independent initial verdicts are retained in the linked task comment, including all 24 item failures and the six expected unknown words. Independent provenance verification reports 24 rows passing; all four provenance regression tests pass. The task thread records final CI confirmation and owns the later shipping decision handoff. This report is a measurement, not release authorization.
