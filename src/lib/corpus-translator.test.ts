@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import gapJson from "../content/gap.json";
 import sentencesJson from "../content/sentences.json";
 import { sentenceSchema, translationResultSchema } from "./schemas";
 import { romanize } from "./romanize";
@@ -101,8 +102,13 @@ describe("exact course-sentence translator", () => {
         expect(outcome.result.natural_english).toBe(sentenceSurface(sentence.en));
         expect(outcome.result.gloss.map(chunk => chunk.gloss))
           .toEqual(sentence.ko.map(chunk => sentence.gloss.find(row => row.id === chunk.id)!.t));
-        expect(outcome.result.literal_gap).toBe("");
-        expect(outcome.result.cultural_note).toBe("");
+        if (outcome.result.literal_gap === "") {
+          expect(outcome.result.cultural_note).toBe("");
+        } else {
+          expect(gapJson.some(entry =>
+            outcome.result.literal_gap === `${entry.lit} → ${entry.real}` &&
+            outcome.result.cultural_note === entry.note)).toBe(true);
+        }
       }
     }
   });

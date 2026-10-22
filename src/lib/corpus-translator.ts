@@ -2,6 +2,7 @@ import sentencesJson from "../content/sentences.json";
 import type { Chunk, Sentence, TranslationResult } from "../types";
 import { sentenceSchema, translationResultSchema } from "./schemas";
 import { romanize } from "./romanize";
+import { lookupGap } from "./gap-lookup";
 import { particlesIn } from "./translation-postprocess";
 
 const courseSentences = sentenceSchema.array().parse(sentencesJson);
@@ -23,7 +24,8 @@ export function sentenceSurface(chunks: readonly Chunk[]): string {
 /**
  * Copy the reviewed layers, aligning by ID rather than array position.
  * Empty Korean chunks retain their reviewed gloss (an understood subject).
- * No word-ID inference, deconjugation, note synthesis, or gap lookup happens here.
+ * Gap explanations are copied from reviewed patterns; no note synthesis,
+ * word-ID inference or deconjugation happens here.
  */
 export function assembleCorpusSentence(sentence: Sentence): CorpusTranslation {
   const korean = sentenceSurface(sentence.ko);
@@ -55,8 +57,7 @@ export function assembleCorpusSentence(sentence: Sentence): CorpusTranslation {
     natural_english: sentenceSurface(sentence.en),
     gloss,
     particles: particlesIn(korean),
-    literal_gap: "",
-    cultural_note: "",
+    ...lookupGap(korean),
   });
   return parsed.success
     ? { status: "translated", sentenceId: sentence.id, result: parsed.data }
