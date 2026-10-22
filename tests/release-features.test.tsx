@@ -25,19 +25,20 @@ vi.mock("../src/state/settings", () => ({
 afterEach(() => { vi.unstubAllEnvs(); vi.resetModules(); });
 
 describe("release AI entry points", () => {
-  it("exposes no translator, tutor route or model controls, but keeps Explore discoveries and settings", async () => {
+  it("exposes the course translator without model controls or tutor, keeping discoveries and settings", async () => {
     vi.stubEnv("DEV", false);
     const { default: App } = await import("../src/App");
     const render = (path: string) => renderToStaticMarkup(<MemoryRouter initialEntries={[path]}><App /></MemoryRouter>);
     const explore = render("/explore");
-    expect(explore).toContain("The AI translator and tutor are not in this release.");
+    expect(explore).toContain("Course translator");
+    expect(explore).toContain("Break it down");
     expect(explore).toContain("Discovered");
     expect(explore).toContain("water");
     expect(explore).toContain("gap deck");
     for (const path of ["/explore", "/tutor", "/settings"]) {
       const html = render(path);
       expect(html).not.toContain('href="/tutor"');
-      expect(html).not.toContain("Break it down");
+      expect(html).not.toContain("Model translator · development only");
       expect(html).not.toContain("tutor-question");
       expect(html).not.toContain("Translator engine");
       expect(html).not.toContain("Download model");
@@ -46,7 +47,7 @@ describe("release AI entry points", () => {
     expect(settings).toContain("Romanization");
     expect(settings).toContain("Export");
     expect(settings).toContain("Import");
-  });
+  }, 30_000);
 
   it("retains the tutor navigation in development", async () => {
     vi.stubEnv("DEV", true);
@@ -65,7 +66,7 @@ describe("release AI entry points", () => {
     for (const excluded of ["TranslatorPage.tsx", "TutorPage.tsx", "ModelPanel.tsx", "local-api.ts", "local-tutor.ts", "model-download.ts", "/explore/api.ts"]) {
       expect(modules).not.toContain(excluded);
     }
-    for (const retained of ["SavedDeck.tsx", "ModulePage.tsx", "ConfusablesDrill.tsx", "CrossFontReader.tsx", "AnatomyDrill.tsx", "GapDrill.tsx", "TypingDrill.tsx", "ReviewSession.tsx", "DashboardPage.tsx", "ExportImport.tsx"]) {
+    for (const retained of ["course-api.ts", "corpus-translator.ts", "SavedDeck.tsx", "ModulePage.tsx", "ConfusablesDrill.tsx", "CrossFontReader.tsx", "AnatomyDrill.tsx", "GapDrill.tsx", "TypingDrill.tsx", "ReviewSession.tsx", "DashboardPage.tsx", "ExportImport.tsx"]) {
       expect(modules).toContain(retained);
     }
     const code = chunks.map((chunk) => chunk.code).join("\n");

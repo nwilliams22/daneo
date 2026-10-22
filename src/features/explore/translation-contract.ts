@@ -7,7 +7,7 @@ export const translateErrorSchema = z.object({
     "no-server", "server", "no-key", "bad-input", "upstream",
     "bad-json", "invalid-shape", "desktop-required", "model-missing",
     "model-corrupt", "allocation-failed", "generation-failed", "cancelled",
-    "invalid-input", "busy",
+    "invalid-input", "busy", "outside-course", "ambiguous-course", "invalid-course",
   ]),
   message: z.string(),
 });
