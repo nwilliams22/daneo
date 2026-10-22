@@ -1,0 +1,80 @@
+{
+  "selected": "paired-corrected-lr1",
+  "rule": "Lowest development loss, then earlier epoch, then smaller rate",
+  "runs": {
+    "paired-corrected-lr1": {
+      "selected_epoch": 1,
+      "selected_development_loss": 0.36021209984628966,
+      "development_losses": [
+        {
+          "step": 0,
+          "epoch": 0,
+          "response_token_mean_loss": 0.6574738004296626,
+          "response_tokens": 4714
+        },
+        {
+          "step": 406,
+          "epoch": 1,
+          "response_token_mean_loss": 0.36021209984628966,
+          "response_tokens": 4714
+        },
+        {
+          "step": 812,
+          "epoch": 2,
+          "response_token_mean_loss": 0.3815365146911171,
+          "response_tokens": 4714
+        },
+        {
+          "step": 1218,
+          "epoch": 3,
+          "response_token_mean_loss": 0.4248360339826409,
+          "response_tokens": 4714
+        },
+        {
+          "step": 1624,
+          "epoch": 4,
+          "response_token_mean_loss": 0.44692695218605244,
+          "response_tokens": 4714
+        }
+      ],
+      "prompt_sha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669"
+    },
+    "paired-corrected-lr2": {
+      "selected_epoch": 1,
+      "selected_development_loss": 0.3651443065753018,
+      "development_losses": [
+        {
+          "step": 0,
+          "epoch": 0,
+          "response_token_mean_loss": 0.6574738004296626,
+          "response_tokens": 4714
+        },
+        {
+          "step": 406,
+          "epoch": 1,
+          "response_token_mean_loss": 0.3651443065753018,
+          "response_tokens": 4714
+        },
+        {
+          "step": 812,
+          "epoch": 2,
+          "response_token_mean_loss": 0.37881739906293777,
+          "response_tokens": 4714
+        },
+        {
+          "step": 1218,
+          "epoch": 3,
+          "response_token_mean_loss": 0.3996411264898564,
+          "response_tokens": 4714
+        },
+        {
+          "step": 1624,
+          "epoch": 4,
+          "response_token_mean_loss": 0.41865803955659364,
+          "response_tokens": 4714
+        }
+      ],
+      "prompt_sha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669"
+    }
+  }
+}

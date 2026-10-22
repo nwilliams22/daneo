@@ -1,0 +1,106 @@
+{
+  "purpose": "Development contract and emission metrics only; semantic correctness is reviewed separately",
+  "lifecycle": {
+    "warmupOk": true,
+    "cancellationCode": "cancelled",
+    "cancellationMs": 0
+  },
+  "rows": [
+    {
+      "id": "DAN-V2-CANDIDATE-281",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "completionMs": 13277,
+      "firstTokenMs": 4103
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-282",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "completionMs": 12366,
+      "firstTokenMs": 4951
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-283",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": false,
+      "multiChunk": false,
+      "completionMs": 10457,
+      "firstTokenMs": 4688
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-284",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "completionMs": 12833,
+      "firstTokenMs": 4901
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-285",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "completionMs": 12163,
+      "firstTokenMs": 4945
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-286",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "completionMs": 11392,
+      "firstTokenMs": 4701
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-287",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "completionMs": 13755,
+      "firstTokenMs": 4862
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-288",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": false,
+      "multiChunk": false,
+      "completionMs": 10332,
+      "firstTokenMs": 4818
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-289",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": true,
+      "multiChunk": true,
+      "completionMs": 16222,
+      "firstTokenMs": 4823
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-290",
+      "schemaComplete": true,
+      "directionCorrect": true,
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "completionMs": 11575,
+      "firstTokenMs": 4786
+    }
+  ],
+  "counts": {
+    "total": 10,
+    "schemaComplete": 10,
+    "nonEmptyGap": 1,
+    "gapPlusMultiChunk": 1
+  }
+}

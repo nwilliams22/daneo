@@ -1,0 +1,215 @@
+{
+  "purpose": "Development-only paired comparison; no gate claim",
+  "items": [
+    {
+      "id": "DAN-V2-CANDIDATE-281",
+      "input": "개천에서 용 난다",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "개천에서 용 난다",
+        "natural_english": "greatness can come from humble beginnings",
+        "gloss": [
+          {
+            "chunk": "개천에서 용 난다",
+            "gloss": "a dragon rises from a ditch",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “a dragon rises from a ditch”; in use, “greatness can come from humble beginnings”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-282",
+      "input": "마음이 놓여요",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "마음이 놓여요",
+        "natural_english": "what a relief — I can stop worrying now",
+        "gloss": [
+          {
+            "chunk": "마음이 놓여요",
+            "gloss": "the heart gets set down",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “the heart gets set down”; in use, “what a relief — I can stop worrying now”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-283",
+      "input": "바람맞았어요",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "바람맞았어요",
+        "natural_english": "I got stood up",
+        "gloss": [
+          {
+            "chunk": "바람맞았어요",
+            "gloss": "I got hit by the wind",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “I got hit by the wind”; in use, “I got stood up”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-284",
+      "input": "불행 중 다행",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "불행 중 다행",
+        "natural_english": "the silver lining — it could have been so much worse",
+        "gloss": [
+          {
+            "chunk": "불행 중 다행",
+            "gloss": "good fortune amid misfortune",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “good fortune amid misfortune”; in use, “the silver lining — it could have been so much worse”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-285",
+      "input": "마음을 비우다",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "마음을 비우다",
+        "natural_english": "to let go of expectations — want nothing, hurt less",
+        "gloss": [
+          {
+            "chunk": "마음을 비우다",
+            "gloss": "to empty the heart/mind",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “to empty the heart/mind”; in use, “to let go of expectations — want nothing, hurt less”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-286",
+      "input": "사람 살려!",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "사람 살려!",
+        "natural_english": "Help!",
+        "gloss": [
+          {
+            "chunk": "사람 살려!",
+            "gloss": "save the person!",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally, “save the person!” In danger, this is a cry for help. It can also be exaggerated jokingly in an overwhelming situation.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-287",
+      "input": "손이 많이 가다",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "손이 많이 가다",
+        "natural_english": "high-maintenance — it takes a lot of care",
+        "gloss": [
+          {
+            "chunk": "손이",
+            "gloss": "hand-[subj]",
+            "role": "subject"
+          },
+          {
+            "chunk": "많이",
+            "gloss": "a lot / repeatedly",
+            "role": "other"
+          },
+          {
+            "chunk": "가다",
+            "gloss": "go",
+            "role": "verb"
+          }
+        ],
+        "literal_gap": "Literally, “the hand goes a lot”; in use, something takes a lot of care or work. 많이 describes how much the hand goes to the task, not a number of hands.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-288",
+      "input": "하루아침에",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "하루아침에",
+        "natural_english": "overnight — all at once, out of nowhere",
+        "gloss": [
+          {
+            "chunk": "하루아침에",
+            "gloss": "in one morning",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “in one morning”; in use, “overnight — all at once, out of nowhere”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-289",
+      "input": "눈코 뜰 새 없다",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "눈코 뜰 새 없다",
+        "natural_english": "utterly swamped — not a second to breathe",
+        "gloss": [
+          {
+            "chunk": "눈코 뜰 새 없다",
+            "gloss": "no gap to open eyes and nose",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally “no gap to open eyes and nose”; in use, “utterly swamped — not a second to breathe”.",
+        "cultural_note": ""
+      }
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-290",
+      "input": "코리안 타임",
+      "direction": "ko-to-en",
+      "split": "development",
+      "expected": {
+        "direction": "ko-to-en",
+        "korean": "코리안 타임",
+        "natural_english": "Running late (the dated or joking expression “Korean time”).",
+        "gloss": [
+          {
+            "chunk": "코리안 타임",
+            "gloss": "Korean Time",
+            "role": "other"
+          }
+        ],
+        "literal_gap": "Literally, “Korean time”; in dated or joking usage, this refers to lateness. It is not a claim that Koreans are generally late or a literal time-zone name.",
+        "cultural_note": ""
+      }
+    }
+  ]
+}

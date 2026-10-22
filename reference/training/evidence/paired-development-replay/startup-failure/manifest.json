@@ -1,0 +1,16 @@
+{
+  "sourceCommit": "076ec573121d13bdc8d3b02e8f2c2540482a349d",
+  "sourceFixtureSha256": "809081cbf9c1e112756104568effdc143ca126999a747fcb032efa115bf36c50",
+  "fixtureSha256": "cda0d415c3f2c4c0a483c8c61bee0b7f1841b1b2307ad399800a101123292871",
+  "selected": "paired-corrected-lr1",
+  "selection": "Lowest trained development loss, then earlier epoch, then smaller rate",
+  "modelSha256": "97b238dbfabc2bc0c19474fa0c501b16624e9e855f09ba400610950e4f363ce5",
+  "modelBytes": 4610579744,
+  "workerSha256": "98e7b0ef14e0ce1776556bc0250d46ceab495cadb2173d583aac6248c8fa368d",
+  "promptPath": "reference/training/evidence/v2-gap-replay/embedded-prompt.json",
+  "promptSha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+  "rubricSha256": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550",
+  "network": "unshare --user --map-root-user --net",
+  "exitCode": 2,
+  "elapsedSeconds": 0.0034066950029227883
+}

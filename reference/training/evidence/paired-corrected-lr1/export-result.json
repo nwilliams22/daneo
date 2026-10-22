@@ -1,0 +1,94 @@
+{
+  "converter_commit": "26394b4e6749a41c3633db040e0987500a5f7013",
+  "matched_vendored_files": 1865,
+  "steps": [
+    {
+      "stage": "convert",
+      "command": [
+        "/home/daneo-gpu/daneo-corrected/.local-models/compatibility/venv/bin/python",
+        "/home/daneo-gpu/daneo-corrected/.local-models/compatibility/llama-matched/convert_hf_to_gguf.py",
+        "/home/daneo-gpu/daneo-corrected/.local-models/paired-corrected-lr1/merged",
+        "--outfile",
+        "/home/daneo-gpu/daneo-corrected/.local-models/paired-corrected-lr1/candidate-BF16.gguf",
+        "--outtype",
+        "bf16"
+      ],
+      "wall_seconds": 12.734980468012509
+    },
+    {
+      "stage": "quantize",
+      "command": [
+        "/home/daneo-gpu/daneo-corrected/.local-models/compatibility/llama-matched/build/bin/llama-quantize",
+        "/home/daneo-gpu/daneo-corrected/.local-models/paired-corrected-lr1/candidate-BF16.gguf",
+        "/home/daneo-gpu/daneo-corrected/.local-models/paired-corrected-lr1/candidate-Q8_0.gguf",
+        "Q8_0",
+        "8"
+      ],
+      "wall_seconds": 3.1135623150039464
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "candidate-BF16.gguf",
+      "bytes": 8665619744,
+      "sha256": "088b925416296dd8f95b0af43e7731981a06fdceea7ec0a02d40ec7ee26f84a8"
+    },
+    {
+      "path": "candidate-Q8_0.gguf",
+      "bytes": 4610579744,
+      "sha256": "97b238dbfabc2bc0c19474fa0c501b16624e9e855f09ba400610950e4f363ce5"
+    },
+    {
+      "path": "adapter/adapter_model.safetensors",
+      "bytes": 42504600,
+      "sha256": "91cc0c5997d3a5c0ec55f57c04c3dd893bea93d149bb030ce59f2d921286eefe"
+    }
+  ],
+  "merged_files": [
+    {
+      "path": "merged/chat_template.jinja",
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+    },
+    {
+      "path": "merged/config.json",
+      "bytes": 3223,
+      "sha256": "10dd071f78c61e282dd8e27001d19d15aac1ba7d2d202d4f0ba965a574115a58"
+    },
+    {
+      "path": "merged/generation_config.json",
+      "bytes": 141,
+      "sha256": "e534dfb72a5529c8919c3c8c7365b2693522c73c62838a2953eaa90594d305d7"
+    },
+    {
+      "path": "merged/model.safetensors-00001-of-00002.safetensors",
+      "bytes": 5329398688,
+      "sha256": "1cfc7524b730dd7d23ef2ee49c26c3e195363dd09a5f26dd18d3310120aa5c86"
+    },
+    {
+      "path": "merged/model.safetensors-00002-of-00002.safetensors",
+      "bytes": 3990429408,
+      "sha256": "fe4bb9e26cec788e89b1bc8daebf31360cbe8d6f04c822b77ca598ff86ff1f88"
+    },
+    {
+      "path": "merged/model.safetensors.index.json",
+      "bytes": 76196,
+      "sha256": "cf3f798ee02ba45f9622aa8892a47369ab667d0afbf154ee7c2212de42e6302d"
+    },
+    {
+      "path": "merged/processor_config.json",
+      "bytes": 1191,
+      "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1"
+    },
+    {
+      "path": "merged/tokenizer.json",
+      "bytes": 19989343,
+      "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+    },
+    {
+      "path": "merged/tokenizer_config.json",
+      "bytes": 15181,
+      "sha256": "15d7be1e90e365b5deacb4d4150d37fbe5fe88249452d2c234687b8061754484"
+    }
+  ]
+}

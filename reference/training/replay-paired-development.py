@@ -10,6 +10,8 @@ import time
 ROOT = Path(__file__).resolve().parents[2]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--name', required=True)
+parser.add_argument('--relocate-worker', action='store_true', help='Map the isolated workspace to the retained worker compiled root')
+parser.add_argument('--retry-startup', action='store_true', help='Preserve and retry a fixture-path failure before any model output')
 parser.add_argument('--source-commit', help='Use the training receipt commit on a separate local host without Git metadata')
 args = parser.parse_args()
 assert args.name in ('paired-corrected-lr1', 'paired-corrected-lr2')
@@ -44,9 +46,23 @@ assert prompt_sha == training['prompt_sha256'] == '81f525b2fb54ac5b1a16d3cfb7ba2
 source = ROOT/'reference/training/evidence/v2-gap-replay/continuation/inputs.json'
 items = [row for row in read(source)['items'] if row['split'] == 'development']
 assert len(items) == 10
-OUT.mkdir()  # Never replace a partial replay; preserve and investigate interruption.
+if OUT.exists():
+    assert args.retry_startup, 'Preserve prior replay'
+    assert not (OUT/'raw.jsonl').exists() and not (OUT/'results.jsonl').exists(), 'Never repeat model outputs'
+    assert read(OUT/'manifest.json')['exitCode'] == 2
+    assert (OUT/'run.log').read_text().startswith('prompt_probe: read fixture: No such file or directory'), 'Only a pre-model fixture-path failure may retry'
+    archive = OUT/'startup-failure'
+    archive.mkdir()
+    for name in ['manifest.json', 'run.log']:
+        (OUT/name).rename(archive/name)
+else:
+    OUT.mkdir()
 fixture = OUT/'inputs.json'
-fixture.write_text(json.dumps(dict(purpose='Development-only paired comparison; no gate claim', items=items), ensure_ascii=False, indent=2)+'\n')
+fixture_text = json.dumps(dict(purpose='Development-only paired comparison; no gate claim', items=items), ensure_ascii=False, indent=2)+'\n'
+if fixture.exists():
+    assert fixture.read_text() == fixture_text, 'Preserve original fixed inputs'
+else:
+    fixture.write_text(fixture_text)
 if args.source_commit:
     assert args.source_commit == training['source_commit'], 'Remote provenance must match the validated training receipt'
     head = args.source_commit
@@ -58,15 +74,21 @@ env = dict(os.environ, DANEO_MODEL_PATH=str(MODEL),
            DANEO_ACCEPTANCE_RUBRIC_SHA256=sha(ROOT/'reference/eval/v0-rubric.md'),
            DANEO_ACCEPTANCE_SET_PATH=str(fixture.relative_to(ROOT)), DANEO_ACCEPTANCE_SET_SHA256=sha(fixture),
            DANEO_ACCEPTANCE_RAW=str(OUT/'raw.jsonl'))
+isolation = ['unshare', '--user', '--map-root-user', '--net']
+if args.relocate_worker:
+    isolation = ['bwrap', '--unshare-user', '--uid', '0', '--gid', '0', '--unshare-net',
+                 '--ro-bind', '/', '/', '--bind', str(ROOT), str(ROOT), '--tmpfs', '/mnt',
+                 '--dir', '/mnt/t7', '--dir', '/mnt/t7/Projects',
+                 '--bind', str(ROOT), '/mnt/t7/Projects/daneo', '--']
 manifest = dict(sourceCommit=head, sourceFixtureSha256=sha(source), fixtureSha256=sha(fixture),
                 selected=selected, selection='Lowest trained development loss, then earlier epoch, then smaller rate',
                 modelSha256=artifact['sha256'], modelBytes=artifact['bytes'], workerSha256=sha(WORKER),
                 promptPath=str(prompt_path.relative_to(ROOT)), promptSha256=prompt_sha, rubricSha256=env['DANEO_ACCEPTANCE_RUBRIC_SHA256'],
-                network='unshare --user --map-root-user --net')
+                network='Private network namespace', isolationCommand=isolation)
 (OUT/'manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')
 start = time.monotonic()
 with (OUT/'run.log').open('w') as log:
-    result = subprocess.run(['unshare', '--user', '--map-root-user', '--net', str(WORKER),
+    result = subprocess.run([*isolation, str(WORKER),
                              str(fixture.relative_to(ROOT)), str(OUT/'results.jsonl')],
                             cwd=ROOT, env=env, stdout=log, stderr=subprocess.STDOUT)
 manifest.update(exitCode=result.returncode, elapsedSeconds=time.monotonic()-start)

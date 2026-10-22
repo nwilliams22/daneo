@@ -1,0 +1,101 @@
+{
+  "purpose": "Development semantic comparison only; no gate claim",
+  "reviewStatus": "pending independent review",
+  "rubric": "reference/eval/v0-rubric.md",
+  "sources": {
+    "reference/training/evidence/paired-development-replay/inputs.json": "cda0d415c3f2c4c0a483c8c61bee0b7f1841b1b2307ad399800a101123292871",
+    "reference/training/evidence/paired-development-replay/raw.jsonl": "ac9ba18693c55eaec9007e7e9123ec26cf782f8b66740dd937a7bae4781e1ab2",
+    "reference/training/evidence/paired-development-replay/results.jsonl": "10d18f165e0fac909f5c0279da96d5e9c4b0156f4ecd3b9676c82e471b1ee7d6"
+  },
+  "rows": [
+    {
+      "id": "DAN-V2-CANDIDATE-281",
+      "literalGapCorrect": false,
+      "evidence": "Empty explanation omits the humble-beginnings idiom; dragon-well is also an incorrect gloss for 개천.",
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "unsupportedExplanation": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-282",
+      "literalGapCorrect": false,
+      "evidence": "Empty explanation omits the literal set-down/released-heart versus relief contrast.",
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "unsupportedExplanation": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-283",
+      "literalGapCorrect": false,
+      "evidence": "Empty explanation misses the stood-up reading.",
+      "nonEmptyGap": false,
+      "multiChunk": false,
+      "unsupportedExplanation": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-284",
+      "literalGapCorrect": false,
+      "evidence": "Empty explanation does not explain the silver-lining reading.",
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "unsupportedExplanation": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-285",
+      "literalGapCorrect": false,
+      "evidence": "Empty explanation omits letting go of expectations; translation stays literal.",
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "unsupportedExplanation": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-286",
+      "literalGapCorrect": false,
+      "evidence": "Empty explanation misses the cry-for-help usage.",
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "unsupportedExplanation": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-287",
+      "literalGapCorrect": false,
+      "evidence": "Empty explanation omits something requiring substantial care or work.",
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "unsupportedExplanation": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-288",
+      "literalGapCorrect": false,
+      "evidence": "Empty explanation omits figurative suddenness; day-night is also a false literal gloss.",
+      "nonEmptyGap": false,
+      "multiChunk": false,
+      "unsupportedExplanation": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-289",
+      "literalGapCorrect": false,
+      "evidence": "The sole emitted explanation falsely equates the busyness idiom with inability to sleep; it invents an unrelated anatomy disclaimer.",
+      "nonEmptyGap": true,
+      "multiChunk": true,
+      "unsupportedExplanation": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-290",
+      "literalGapCorrect": false,
+      "evidence": "Empty explanation omits dated/joking lateness.",
+      "nonEmptyGap": false,
+      "multiChunk": true,
+      "unsupportedExplanation": false
+    }
+  ],
+  "counts": {
+    "total": 10,
+    "literalGapCorrect": 0,
+    "nonEmptyGap": 1,
+    "multiChunk": 8,
+    "gapPlusMultiChunk": 1,
+    "correctGapPlusMultiChunk": 0,
+    "unsupportedExplanation": 1
+  }
+}

@@ -1490,3 +1490,19 @@ incumbent hash. The product prompt stays unchanged. Corrected outputs use
 `paired-corrected-lr1` and `paired-corrected-lr2`; development-loss selection,
 dataset, base and epoch bound do not change. Next: complete those corrected runs,
 export the selected run, and compare the preserved development replies.
+
+
+### 2026-10-22 — Corrected paired experiment reaches negative stop condition
+
+Both authorized corrected runs completed with the exact incumbent prompt. The
+fixed loss-only rule selected rate 0.0001 / epoch 1 (0.360212 versus 0.365144).
+Its Q8 export loaded in the unchanged, hash-verified native worker and all ten
+preserved development replies passed schema/provenance checks. Correct gap
+explanations were 0/10; non-empty gaps 1/10; gap-plus-multi-chunk replies 1/10;
+correct-gap-plus-multi-chunk replies 0/10. The preserved v2 engineering review is
+2/10 correct, with one broad paraphrase explicitly awaiting independent review.
+The requested measures did not improve; no additional candidate or gate run
+follows. Evidence and limits: `reference/training/evidence/paired-development-comparison.md`.
+Next: independent comparison review, exact-commit CI, and the development result
+on the existing decision issue. The product prompt, rubric and null pin remain
+unchanged; the release remains AI-off.

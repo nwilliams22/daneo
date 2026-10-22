@@ -10,7 +10,18 @@ const manifest = JSON.parse(read('manifest.json'));
 assert.equal(manifest.exitCode, 0);
 assert.equal(hash(read('inputs.json')), manifest.fixtureSha256);
 const inputs = JSON.parse(read('inputs.json')).items;
-const results = read('results.jsonl').trim().split('\n').map(JSON.parse);
+const baselineFixture = readFileSync(new URL('./evidence/v2-gap-replay/continuation/inputs.json', import.meta.url), 'utf8');
+assert.equal(hash(baselineFixture), manifest.sourceFixtureSha256);
+assert.deepEqual(inputs, JSON.parse(baselineFixture).items.filter(r => r.split === 'development'));
+const allResults = read('results.jsonl').trim().split('\n').map(JSON.parse);
+const ids = new Set(inputs.map(r => r.id));
+assert.equal(allResults.length, 12);
+assert.equal(new Set(allResults.map(r => r.id)).size, 12);
+assert.ok(allResults.every(r => ids.has(r.id) || ['warmup', 'cancel-demo'].includes(r.id)));
+const results = allResults.filter(r => ids.has(r.id));
+const cancellation = allResults.find(r => r.id === 'cancel-demo');
+assert.equal(cancellation.outcome.ok, false);
+assert.equal(cancellation.outcome.error.code, 'cancelled');
 const raw = read('raw.jsonl').trim().split('\n').map(JSON.parse);
 assert.equal(inputs.length, 10);
 assert.equal(results.length, 10);
@@ -40,6 +51,7 @@ const rows = inputs.map(input => {
     completionMs: result.completionMs, firstTokenMs: result.firstTokenMs };
 });
 const report = { purpose: 'Development contract and emission metrics only; semantic correctness is reviewed separately',
+  lifecycle: { warmupOk: allResults.find(r => r.id === 'warmup').outcome.ok, cancellationCode: cancellation.outcome.error.code, cancellationMs: cancellation.cancelMs },
   rows, counts: { total: rows.length, schemaComplete: rows.length,
     nonEmptyGap: rows.filter(r => r.nonEmptyGap).length,
     gapPlusMultiChunk: rows.filter(r => r.nonEmptyGap && r.multiChunk).length } };
