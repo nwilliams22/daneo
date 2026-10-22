@@ -1,0 +1,1187 @@
+{
+  "review": "initial; independent re-score pending",
+  "items": [
+    {
+      "id": "recombination-dev-01",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "en-to-ko",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m3",
+        "grammarModules": [
+          "m1"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-02",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m2",
+        "grammarModules": [
+          "m1"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-03",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "en-to-ko",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m2",
+        "grammarModules": [
+          "m1",
+          "m2"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-04",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m2",
+        "grammarModules": [
+          "m1",
+          "m2"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-05",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "en-to-ko",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m3",
+        "grammarModules": [
+          "m1",
+          "m2"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-06",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m2",
+        "grammarModules": [
+          "m1",
+          "m2"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-07",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "en-to-ko",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m3",
+        "grammarModules": [
+          "m1",
+          "m3"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-08",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m2",
+        "grammarModules": [
+          "m1"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-09",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "en-to-ko",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m6",
+        "grammarModules": [
+          "m1",
+          "m6"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-10",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m28",
+        "grammarModules": [
+          "m1",
+          "m28"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-11",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "en-to-ko",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m12",
+        "grammarModules": [
+          "m1",
+          "m11"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-12",
+      "itemClass": "recombination",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m2",
+        "grammarModules": [
+          "m1",
+          "m2"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-13",
+      "itemClass": "near-miss",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m14",
+        "grammarModules": [
+          "m1"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-14",
+      "itemClass": "near-miss",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "en-to-ko",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m2",
+        "grammarModules": [
+          "m1",
+          "m2"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-15",
+      "itemClass": "near-miss",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m66",
+        "grammarModules": [
+          "m1"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-16",
+      "itemClass": "near-miss",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "en-to-ko",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m28",
+        "grammarModules": [
+          "m1"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-17",
+      "itemClass": "near-miss",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m6",
+        "grammarModules": [
+          "m1",
+          "m6"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-18",
+      "itemClass": "near-miss",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "en-to-ko",
+      "schemaComplete": false,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": null,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "Companion rule 1 requires an answer. The adapter refuses the entire input and supplies none of the required translation dimensions.",
+      "source": {
+        "moduleId": "m29",
+        "grammarModules": [
+          "m1",
+          "m29"
+        ],
+        "unresolved": []
+      }
+    },
+    {
+      "id": "recombination-dev-19",
+      "itemClass": "out-of-course",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": null,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": false,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 양자컴퓨터. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 양자컴퓨터. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 양자컴퓨터. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 양자컴퓨터. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 양자컴퓨터. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 양자컴퓨터. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "The refusal does not identify the required untaught word 양자컴퓨터. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2.",
+      "source": {
+        "moduleId": null,
+        "grammarModules": [],
+        "unresolved": [
+          {
+            "text": "양자컴퓨터",
+            "kind": "untaught-word"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recombination-dev-20",
+      "itemClass": "out-of-course",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": null,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": false,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 블록체인. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 블록체인. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 블록체인. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 블록체인. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 블록체인. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 블록체인. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "The refusal does not identify the required untaught word 블록체인. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2.",
+      "source": {
+        "moduleId": null,
+        "grammarModules": [],
+        "unresolved": [
+          {
+            "text": "블록체인",
+            "kind": "untaught-word"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recombination-dev-21",
+      "itemClass": "out-of-course",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": null,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": false,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 홀로그램. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 홀로그램. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 홀로그램. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 홀로그램. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 홀로그램. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 홀로그램. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "The refusal does not identify the required untaught word 홀로그램. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2.",
+      "source": {
+        "moduleId": null,
+        "grammarModules": [],
+        "unresolved": [
+          {
+            "text": "홀로그램",
+            "kind": "untaught-word"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recombination-dev-22",
+      "itemClass": "out-of-course",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": null,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": false,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 메타버스. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 메타버스. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 메타버스. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 메타버스. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 메타버스. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 메타버스. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "The refusal does not identify the required untaught word 메타버스. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2.",
+      "source": {
+        "moduleId": null,
+        "grammarModules": [],
+        "unresolved": [
+          {
+            "text": "메타버스",
+            "kind": "untaught-word"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recombination-dev-23",
+      "itemClass": "out-of-course",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": null,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": false,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 스마트워치. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 스마트워치. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 스마트워치. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 스마트워치. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 스마트워치. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 스마트워치. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "The refusal does not identify the required untaught word 스마트워치. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2.",
+      "source": {
+        "moduleId": null,
+        "grammarModules": [],
+        "unresolved": [
+          {
+            "text": "스마트워치",
+            "kind": "untaught-word"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recombination-dev-24",
+      "itemClass": "out-of-course",
+      "rawReply": "{\"ok\":false,\"error\":{\"code\":\"outside-course\",\"message\":\"This sentence is outside the course translator’s reviewed examples. Even familiar words in a new combination cannot be translated here. Copy a complete Korean sentence from a lesson, including its spacing and punctuation, or try an example below.\"}}",
+      "disposition": "refusal",
+      "requestedDirection": "ko-to-en",
+      "schemaComplete": null,
+      "directionCorrect": null,
+      "thinkingLeak": false,
+      "refusalCorrect": false,
+      "dimensions": {
+        "meaning": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 텔레포트. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "koreanWordOrderGloss": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 텔레포트. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "particleRoles": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 텔레포트. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "politeRegister": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 텔레포트. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "romanization": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 텔레포트. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        },
+        "literalGapClaims": {
+          "pass": false,
+          "evidence": "The refusal does not identify the required untaught word 텔레포트. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2."
+        }
+      },
+      "meaningReversal": false,
+      "inventedRule": false,
+      "fullyCorrect": false,
+      "evidence": "The refusal does not identify the required untaught word 텔레포트. The UI echoes the whole input, without distinguishing that word; this is not the word-identifying refusal required by companion rule 2.",
+      "source": {
+        "moduleId": null,
+        "grammarModules": [],
+        "unresolved": [
+          {
+            "text": "텔레포트",
+            "kind": "untaught-word"
+          }
+        ]
+      }
+    }
+  ]
+}

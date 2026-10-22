@@ -12,7 +12,7 @@ RUBRIC = 'reference/eval/v0-rubric.md'
 
 
 def git_bytes(commit, path):
-    return subprocess.check_output(['git', 'show', f'{commit}:{path}'], cwd=ROOT)
+    return subprocess.check_output(['git', '-c', f'safe.directory={ROOT}', 'show', f'{commit}:{path}'], cwd=ROOT)
 
 
 def digest(data):
@@ -38,7 +38,7 @@ def validate(raw_path, report_commit, frozen_set):
         head = provenance.get('head')
         if not isinstance(head, str) or len(head) != 40:
             raise ValueError(f'row {index}: invalid recorded HEAD')
-        ancestor = subprocess.run(['git', 'merge-base', '--is-ancestor', head, report_commit], cwd=ROOT)
+        ancestor = subprocess.run(['git', '-c', f'safe.directory={ROOT}', 'merge-base', '--is-ancestor', head, report_commit], cwd=ROOT)
         if ancestor.returncode != 0:
             raise ValueError(f'row {index}: recorded HEAD {head} is not an ancestor of report commit {report_commit}')
 
@@ -48,7 +48,7 @@ def validate(raw_path, report_commit, frozen_set):
                 raise ValueError(f'row {index}: {field} does not match {path} at recorded HEAD')
 
         set_path = provenance.get('itemSetPath')
-        if not isinstance(set_path, str) or not set_path.startswith('reference/eval/') or not set_path.endswith('-translation-set.json'):
+        if not isinstance(set_path, str) or not set_path.startswith('reference/eval/') or not (set_path.endswith('-translation-set.json') or set_path == 'reference/eval/recombination-dev-set.json'):
             raise ValueError(f'row {index}: invalid itemSetPath {set_path!r}')
         if set_path != frozen_set:
             raise ValueError(f'row {index}: itemSetPath {set_path} does not match selected set {frozen_set}')

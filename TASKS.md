@@ -1684,3 +1684,17 @@ Added pure gap lookup and integrated it into course-sentence assembly. Slash and
 ### 2026-10-22 — Course translator in Explore
 
 Explore now defaults to exact Korean course-sentence lookup through `course-api.ts`, using the existing typed translation envelope and extracted result card. The scope text and refusal identify unsupported whole sentences without claiming token diagnosis. Saved discoveries and gap-deck filing use the unchanged storage flow; development model UI remains behind the build-time gate. From the repo root, `npm test` passed 289/289 in 26 files, `npm run validate:content` passed 16/16, and `npm run build` passed (existing large-chunk warning). The full-app import test now allows 30 seconds after a measured 5-second import timeout on this host. Production-bundle regression confirms course code is included and model adapter, tutor and controls are excluded. Desktop QA used `scripts/qa-desktop-session.sh` under Xvfb with the production frontend served to the existing debug shell: 친구가 학교에 가요 showed the reviewed meaning, gloss, particles and gap note; saving created a gap-deck discovery; quantum spaceship showed a legible refusal while retaining that discovery. This is frontend/runtime evidence, not a rebuilt installer. Release staging, checksums, rubric and sealed set were untouched. Next is independent review and the separate recombination evaluation.
+
+### 2026-10-22 — Measure the course adapter on frozen recombinations
+
+Captured all 24 unchanged inputs through Explore's `translateCourse` adapter at
+`671db30`; initial rubric score **0/24** (class 1 0/12, class 2 0/6, class 3 0/6).
+All inputs refused. The six out-of-course responses avoid invented answers but
+do not identify the unknown word required by the frozen refusal rule. Report:
+`reference/eval/recombination-course-results.md`, with raw outputs and initial
+per-dimension verdicts retained. No engine tuning, fixture/rubric change, sealed
+set access or installer rebuild. Extended the provenance checker to accept this
+exact frozen set path; its four regression tests pass, including manifest
+corruption rejection. `npm test`: 26 files / 289 tests pass;
+`npm run validate:content`: 16/16 pass; `npm run build`: pass, including typecheck.
+Independent re-score and own-commit Actions confirmation remain before slice 6 closes.

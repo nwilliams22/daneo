@@ -63,6 +63,25 @@ class ProvenanceHistoryTest(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn('PROVENANCE PASS', result.stdout)
 
+    def test_recombination_manifest_passes_and_tampering_fails(self):
+        self.set_path = 'reference/eval/recombination-dev-set.json'
+        data = b'{"items":[]}\n'
+        (self.repo / self.set_path).write_bytes(data)
+        manifest = self.repo / 'reference/eval/recombination-dev-set.sha256'
+        manifest.write_text(hashlib.sha256(data).hexdigest() + '  recombination-dev-set.json\n')
+        git(self.repo, 'add', '.')
+        git(self.repo, 'commit', '-qm', 'freeze recombination set')
+        raw, report = self.make_report(git(self.repo, 'rev-parse', 'HEAD'))
+        result = self.check(raw, report)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        manifest.write_text('0' * 64 + '  recombination-dev-set.json\n')
+        git(self.repo, 'add', '.')
+        git(self.repo, 'commit', '-qm', 'incorrect manifest')
+        raw, report = self.make_report(git(self.repo, 'rev-parse', 'HEAD'))
+        result = self.check(raw, report)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn('committed SHA-256 manifest', result.stderr)
+
     def test_valid_later_head_fails_ancestry_check(self):
         git(self.repo, 'checkout', '-qb', 'later')
         (self.repo / 'later.txt').write_text('later commit\n')
