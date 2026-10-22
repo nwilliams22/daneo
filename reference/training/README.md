@@ -305,3 +305,12 @@ The interrupted original `paired-lr1` has no checkpoint or adapter and must stay
 untouched. Its authorized recovery uses `paired-lr1-recovery` with the identical
 frozen config; `paired-lr2` remains the second and final comparison. Recovery is
 not an additional learning-rate candidate. Check free VRAM before each start.
+
+
+**Recovery hold (2026-10-22):** the paired freeze inherited a product prompt
+that differs from the incumbent v2 prompt. The first recovered run completed and
+the second was stopped; neither is a valid isolated supervision comparison.
+The runner now fails before model loading when the incumbent prompt hash differs.
+Do not use the commands above to bypass that guard. See
+`evidence/paired-recovery/prompt-mismatch.md` for preserved results and the required
+scope decision. No export, native comparison or gate inference followed recovery.

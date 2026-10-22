@@ -39,6 +39,9 @@ dataset_document = json.loads(dataset.read_text())
 if dataset.name != 'dataset-v1.json':
     assert dataset_document.get('trainingAllowed') is True, 'dataset is not approved for training'
     assert all(row.get('reviewStatus') == 'approved' for row in dataset_document['items']), 'unreviewed targets'
+# The incumbent experiments and preserved worker use this exact prompt.
+# Do not silently train on a later product-prompt revision.
+assert sha(ROOT/'src/lib/translation-prompt.json') == '81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669', 'Incumbent prompt mismatch: stop before training or issuing a preflight receipt'
 from training_preflight import identities, read_receipt, write_receipt
 bound_paths = [Path(__file__), ROOT/'reference/training/training_preflight.py',
                ROOT/'reference/training'/args.config, dataset,

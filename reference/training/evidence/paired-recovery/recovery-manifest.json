@@ -1,0 +1,37 @@
+{
+  "purpose": "Preserved invalid-protocol recovery evidence; no language score or gate claim",
+  "source_commit": "5a156a1b2acc252202e1a84c1b9104c47a2bd0f7",
+  "incumbent_prompt_sha256": "81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669",
+  "paired_frozen_prompt_sha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+  "files": [
+    {
+      "path": ".local-models/paired-lr1-training.log",
+      "bytes": 274394,
+      "sha256": "a1b3df7a02627f1b2b607f68bb176dfe220f62be47ae3252ce84e379ca14e7f2"
+    },
+    {
+      "path": ".local-models/paired-lr1-recovery-training.log",
+      "bytes": 291900,
+      "sha256": "4421482d42c7ccfdc006b4746b6eb425f9033a13111425177742367b8b00c177"
+    },
+    {
+      "path": ".local-models/paired-lr2-training.log",
+      "bytes": 38480,
+      "sha256": "8f442432690ecdab09526d04013c06be09ececb31c00bb75878086e5ab549656"
+    },
+    {
+      "path": ".local-models/paired-lr1-recovery-preflight.json",
+      "bytes": 1035,
+      "sha256": "e3ae0cd65e287a1478b65017e42a637e9838524f80d3aa02307ecbeb822faec2"
+    },
+    {
+      "path": ".local-models/paired-lr2-preflight.json",
+      "bytes": 1035,
+      "sha256": "d48cf2107cb9344b2573fd83fb760ab503a113b46a588175a0d3bb7521cced99"
+    }
+  ],
+  "sealed_manifest_sha256": "62c1918082fff893fc177f31cef33deba62808ca5f4258172d01d5a9aafff3de",
+  "exported": false,
+  "native_inference": false,
+  "training_running": false
+}

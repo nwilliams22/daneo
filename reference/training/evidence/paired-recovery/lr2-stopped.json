@@ -1,0 +1,53 @@
+{
+  "completed_checkpoint_step": 200,
+  "last_logged_step": 204,
+  "development_losses": [
+    {
+      "step": 0,
+      "epoch": 0,
+      "response_token_mean_loss": 0.7462351735322517,
+      "response_tokens": 4714
+    }
+  ],
+  "checkpoint_sha256": "9fdfbf30ad933cdbc9d993ce30f01a655c23e300e34e3b7b31138554485fb248",
+  "identity": {
+    "config": {
+      "model": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "license": "Apache-2.0",
+      "seed": 3407,
+      "max_seq_length": 1024,
+      "learning_rate": 0.0002,
+      "rank": 8,
+      "alpha": 16,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "dtype": "bfloat16",
+      "load_in_4bit": true,
+      "batch_size": 1,
+      "gradient_accumulation_steps": 1,
+      "optimizer": "adamw_torch",
+      "quantization": "Q8_0",
+      "epochs": 4,
+      "schedule": "cosine",
+      "weight_decay": 0.01,
+      "max_grad_norm": 1.0,
+      "dataset_sha256": "031eda6c3033a0396c3a07416359b7b46abd91d7bfef571ff208a0ac7b813cf7",
+      "dataset": "dataset-paired.json",
+      "development": "development-v2.json",
+      "development_sha256": "f9b83bd52dce8a3f4c557af27ea94c4fe4226b41d796ebc566b0d1a8337e343d",
+      "warmup_steps": 25
+    },
+    "prompt_sha256": "636e7b0c6ead6fd6dbd37d2ec581e2af70df5d5142de801b77cf89211327a6a0",
+    "runner_sha256": "1e909be03b4dca03d5a302c4002af5420e1fa53c66d43b00bce78211f6df1f72",
+    "probe": false
+  },
+  "stopped": true
+}

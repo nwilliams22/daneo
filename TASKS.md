@@ -1466,3 +1466,16 @@ preflight tests pass. Build/content results and training progress are recorded
 with the recovery evidence. Remaining: execute the frozen comparison, export the
 selected adapter, and measure development explanation correctness in the native
 worker. No gate or production qualification is claimed.
+
+
+### 2026-10-22 — Stop paired recovery on inherited prompt mismatch
+
+The recovery completed the first fixed-rate training run, then detected that the
+prompt already present at the paired freeze differs from the incumbent v2 prompt.
+The second run was stopped at logged update 204 (checkpoint 200). No export or
+native inference followed. Preserved loss/checkpoint identities and the exact
+prompt hashes are in `reference/training/evidence/paired-recovery/`. Added a
+fail-fast incumbent-prompt check; its regression confirms rejection before model
+loading. The dataset and diagnostic slices remain valid, but the controlled
+comparison is incomplete. Next: a scope decision on corrected same-rate reruns
+with the incumbent prompt, or stopping as inconclusive; do not retry automatically.
