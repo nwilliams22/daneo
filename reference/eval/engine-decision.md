@@ -1,14 +1,21 @@
 # Phase D engine decision — every rung measured, nothing qualifies
 
-> **⚠ Closed by owner decision, 2026-10-22. Read §*Nick's decision — 2026-10-22:
-> stop* at the end of this file before anything else here.** Nick answered the
-> seventh-decline card with *"we can just forget about the AI features. it would
-> be nice to have but is apparently difficult to get working."* **The engine
-> programme is stopped.** Every option set in this document — including the
-> deterministic engine, a larger parameter class and the held non-commercial
-> families — is **closed, not pending.** No eighth candidate, no screen, no
-> training run and no pin follows from anything written below. The document stays
-> whole because it is the measured record of why.
+> **⚠ Read §*Nick's decision — 2026-10-22: build the translator in code* at the
+> end of this file before anything else here.** Two owner decisions landed on
+> 2026-10-22, hours apart, and they say different things about different options:
+>
+> 1. **The model programme is stopped and stays stopped.** *"we can just forget
+>    about the AI features. it would be nice to have but is apparently difficult
+>    to get working."* No eighth candidate, no screen, no training run, no pin.
+>    `reference/model-pin.json` stays `{"pin": null}`. A larger parameter class
+>    and the held non-commercial families are **closed, not pending.**
+> 2. **Option D — the deterministic in-code engine — is named and started.**
+>    Asked what Daneo should do next, Nick chose *"Build the translator in code,
+>    with no AI model."* That is the naming the stop section said reopening would
+>    take, and it is the only option in this document that is live.
+>
+> So: **no model, and a translator anyway.** The document stays whole because it
+> is the measured record of why that is the shape of the answer.
 
 Written 2026-10-05, after the head-to-head score in
 [`head-to-head-results.md`](head-to-head-results.md) settled. This document does
@@ -702,12 +709,16 @@ nothing scored above **4/10** against an unchanged **≥9/10** bar.
 - **No engine is selected, and none will be chosen by any later run.**
   `reference/model-pin.json` stays `{"pin": null}`. The downloader refusing an
   unset pin is designed behaviour, not an open defect.
-- **The deterministic engine (option D) is not started.** It was the
-  recommendation and it was not chosen. It stays on record here as the only route
-  that could ever deliver the literal/idiomatic gap to the rubric's standard —
-  `lindera` plus lookup over the 420 reviewed `lit`/`real`/`note` entries in
-  `src/content/gap.json` — but **nothing acts on it unless Nick names it again.**
-  An agent does not revive a closed option on its own reading of this file.
+- ~~**The deterministic engine (option D) is not started.** It was the
+  recommendation and it was not chosen.~~ **Corrected the same day: Nick named
+  option D at 05:05 and it is started.** See §*Nick's decision — 2026-10-22:
+  build the translator in code* below. The condition this bullet set — *"nothing
+  acts on it unless Nick names it again"* — was met by him naming it, not by an
+  agent's reading of this file. The rest of the bullet stands as written: option D
+  is `lindera`-or-equivalent segmentation plus lookup over the 420 reviewed
+  `lit`/`real`/`note` entries in `src/content/gap.json`, and it remains the only
+  route on record that could deliver the literal/idiomatic gap to the rubric's
+  standard.
 - **The AI features stay off in the shipped product.** Release one already
   shipped with the translator, Ask Daneo and the model controls excluded at build
   time (BAD-234), and that release is not re-cut by this decision. The code
@@ -744,3 +755,74 @@ literal/real gap for the taught corpus is 420 reviewed entries authored by hand.
 The feature that is gone is the open-ended one — explaining a phrase the course
 does not teach. That is the thing seven rungs could not do to a learner's
 standard, and the decision is to live without it.
+
+## Nick's decision — 2026-10-22: build the translator in code
+
+Asked what Daneo should do next, Nick selected two things:
+
+> *"Test Windows, macOS and RPM first"* and *"Build the translator in code, with
+> no AI model."*
+
+The second is **option D**, and it is the naming that §*What reopening it would
+take* required. It reopens nothing else: the model programme above stays stopped,
+`reference/model-pin.json` stays `{"pin": null}`, no paid or cloud engine is
+admitted, and [`v0-rubric.md`](v0-rubric.md) is still unedited.
+
+### What option D is, concretely
+
+A translator with **no model, no download and no network**, assembled from
+material this repository already holds and has already reviewed:
+
+| Rubric dimension | Source in this repository | Already proven |
+| --- | --- | --- |
+| Romanization | `romanize()` in `src/lib/romanize.ts` | 30/30 measured |
+| Particle roles | `particlesIn()` in `src/lib/translation-postprocess.ts` | 23–25/30 measured |
+| Korean-order gloss | the aligned `gloss[]` chunks on all 1,439 `src/content/sentences.json` entries | authored and six-pass reviewed |
+| Literal gap, cultural note | the 420 `lit`/`real`/`note` entries in `src/content/gap.json` | authored and six-pass reviewed |
+| Meaning | `en[]` / `ko[]` chunk alignment on the same 1,439 sentences | authored and six-pass reviewed |
+| Polite register | the course teaches one register; taught forms are in `src/content/words.json` (5,615 entries) | authored |
+
+The engine's job is therefore **segmentation, lookup and assembly**, not
+generation — and its honest cost is coverage. Inside the taught vocabulary it
+answers from reviewed data. Outside it, it must say *"that is outside the
+course"* and must never synthesize a grammatical or cultural claim. A refusal is
+a correct answer; an invented rule is the failure mode that declined two Korean
+model families at 15/30.
+
+### Two problems this plan has that a model-based plan did not
+
+Both are named here so no slice has to rediscover them.
+
+**1. The existing frozen gate sets cannot honestly score a lookup engine.** Every
+item in the v0/v1/v2/v3 sets carries a `corpusSentenceId` — they are corpus
+sentences, and the corpus is the engine's own lookup table. A lookup engine would
+score near-perfectly on them while demonstrating nothing, which is memorisation
+in the most literal sense available. **A deterministic candidate is therefore
+developed and scored against a new set of novel recombinations** — sentences
+composed only of taught words that are not themselves corpus sentences — plus a
+deliberate out-of-course class that tests refusal. The unedited rubric still
+governs each item; what changes is the item population, and the reason is written
+down rather than assumed.
+
+**2. Conjugation is the real engineering risk, not segmentation.**
+`src/content/words.json` stores dictionary forms (`마시다`) while the corpus uses
+polite forms (`마셔요`), and the irregulars are recorded only as human prose in
+each entry's `notes` field (*"ㅂ-irregular: 더러워요"*). Recovering one from the
+other across 5,615 entries is the part of option D that can fail on measurement,
+and it is measured **before** any app code is written: can the engine recover the
+stored chunk boundaries and `wordIds` of a corpus sentence it is not allowed to
+look up whole? If that number is poor, option D is a corpus-sentence lookup with
+a refusal path for everything else — still useful, much narrower, and the board
+hears it as a finding rather than discovering it in review.
+
+### What this decision does not authorize
+
+- **The sealed gate set stays sealed.** `v3-translation-set.json` has never been
+  opened and spending it is Nick's call, not an engineer's. Development and
+  scoring happen on the new recombination set.
+- **Release 0.1.0 is not re-cut.** It shipped with the AI translator, Ask Daneo
+  and the model controls excluded at build time, those are the exact bytes under
+  owner platform verification, and a deterministic translator lands in a **later**
+  version. Nothing in this section changes a staged 0.1.0 installer.
+- **The gated-out model code is not deleted and not re-enabled.** It stays in the
+  tree, off in production builds, available in development.

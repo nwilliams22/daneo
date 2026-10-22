@@ -1,6 +1,17 @@
 # PLAN — Daneo local AI (translator + tutor, offline-first)
 
-> ## ⚠ This plan is closed — Nick stopped the engine programme on 2026-10-22
+> ## ⚠ This plan is closed — Nick stopped the engine programme on 2026-10-22, and named an in-code translator instead
+>
+> **Two decisions, same day.** This plan — a *model* as the engine — is closed and
+> stays closed. Hours later Nick chose what replaces it: *"Build the translator in
+> code, with no AI model."* That is **option D**, the deterministic engine, and it
+> is the live translator design as of 2026-10-22. It is specified in
+> [`reference/eval/engine-decision.md`](reference/eval/engine-decision.md)
+> §*Nick's decision — 2026-10-22: build the translator in code*, with its slices in
+> `TASKS.md` §*Phase E*. **Do not read the sections below as that design** — they
+> describe a downloaded GGUF, a native inference worker and a training pipeline,
+> none of which option D uses. Nothing here is reopened by option D being started:
+> no pin, no download, no candidate, no paid or cloud engine.
 >
 > Asked to choose between a deterministic in-code engine, a larger parameter
 > class, the held non-commercial model families and stopping, Nick answered:

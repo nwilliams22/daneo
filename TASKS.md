@@ -172,7 +172,17 @@ the local in-app AI agent, and then the shareable feature."* Content review → 
 **Phase B**. This reverses the old §7 rule that put Phase D behind Phase B; Phase D now goes first.
 That order is superseded by the 2026-10-05 decision: **Phase B is the live release path with AI off**, while training continues separately.
 
-## Phase D — Local AI (implemented, measured, not shipped; PLAN-local-model.md)
+## Phase D — Local AI (CLOSED 2026-10-22; implemented, measured, never shipped; PLAN-local-model.md)
+
+> **⚠ Closed by owner decision, 2026-10-22, after seven measured declines.** Nick stopped the
+> model-based engine programme — *"we can just forget about the AI features"* — and then named
+> **option D, the deterministic in-code engine**, as the replacement. **Nothing in this section is
+> open work.** No candidate, screen, training run, download or pin follows from it;
+> `reference/model-pin.json` is permanently `{"pin": null}`. The runtime, harness, training data and
+> every numbered result stay committed as the evidence for the decision, off in production builds and
+> available in development. The live translator work is **Phase E**, below. Decision and reasoning:
+> [`reference/eval/engine-decision.md`](reference/eval/engine-decision.md) §*Nick's decision —
+> 2026-10-22: build the translator in code*.
 
 > **Owner constraint, Nick, 2026-10-04:** *"I do not want a paid model to be the one used in
 > Daneo. I want a free, local model such as qwen to be the one used so that it's free to use the
@@ -253,6 +263,40 @@ That order is superseded by the 2026-10-05 decision: **Phase B is the live relea
 - [x] Prove the AI-off free-to-use first run on Linux: fresh profile, no API key, account, proxy or model download; shipped feature checks offline and production cloud-adapter exclusion verified. Ubuntu 22.04/glibc 2.35 ordinary AppImage launch passed. Windows/macOS runtime, Korean speech, GPU acceleration and RPM installation remain unverified; see the 2026-10-11 acceptance log below.
 - [x] Stage release artifacts, SHA-256 manifest and unsigned-installer instructions: `reference/releases/0.1.0/`. All four hashes rechecked 2026-10-11. Tagging/publication is a separate action; no signing purchase is implied.
 - [x] Complete a module, drill and review session from the exact staged installer in a clean profile (2026-10-20): Ubuntu 24.04.5/Xvfb, Module 1 37/37 words and 17/17 test, confusables correct-answer feedback, nine-item review completed, restart persistence confirmed. Explore explains AI absence; tutor/model controls are absent. Six documents reviewed; CURRICULUM §4 unchanged. Windows/macOS and RPM installation remain unverified; Nick must run the matching installers on real Windows x64 / Apple Silicon / RPM hosts to change those verdicts. See the dated release notes and session log.
+- [ ] **Owner platform verification — Windows x64, Apple Silicon macOS, RPM.** Nick's, 2026-10-22, and not an agent's: this build host is Linux x86-64 with no Windows, no Mac, no RPM host, no physical GPU and no Korean OS voice. Steps, expected results and the verdict table are in [`reference/releases/0.1.0/README.md`](reference/releases/0.1.0/README.md) §*Owner platform verification*. **Copy the staged files; do not rebuild** — the CI artifacts are expired, so a rebuild changes the bytes and voids both `reference/releases/0.1.0/SHA256SUMS` and the 2026-10-20 Linux acceptance recorded against them.
+- [ ] Tag and publish. Not approved; **no tag exists and `gh release list` is empty.** Tagging, releasing and signing each ask every time.
+
+## Phase E — the translator, built in code (no AI model; Nick, 2026-10-22)
+
+> **Nick's decision, 2026-10-22:** *"Build the translator in code, with no AI model."* That is
+> **option D** in [`reference/eval/engine-decision.md`](reference/eval/engine-decision.md), and his
+> naming it is the condition that section set for starting it. **No model, no download, no network.**
+> The translator is segmentation, lookup and assembly over material this repository already holds and
+> has already reviewed six times: 5,615 taught words, 1,439 sentences with aligned `en`/`ko`/`gloss`
+> chunks, 420 `lit`/`real`/`note` gap entries, plus `romanize()` and `particlesIn()`, which measured
+> 30/30 and 23–25/30 while every model-owned dimension failed. Its honest cost is **coverage**:
+> excellent inside the taught vocabulary, and outside it the translator must say *"that is outside the
+> course"* and must never synthesize a grammatical or cultural claim.
+>
+> **Two problems named up front, so no slice rediscovers them.** The frozen v0/v1/v2/v3 gate sets are
+> all **corpus sentences**, and the corpus is this engine's own lookup table — scoring a lookup engine
+> on them measures nothing, so a new set of **novel recombinations** plus a deliberate out-of-course
+> refusal class is authored first. And **conjugation, not segmentation, is the risk**: `words.json`
+> stores dictionary forms (`마시다`) while the corpus uses polite forms (`마셔요`), with irregulars
+> recorded only as human prose in each entry's `notes`. That is measured before any app code is
+> written.
+>
+> **`reference/eval/v0-rubric.md` is unedited and still governs.** The sealed
+> `reference/eval/v3-translation-set.json` stays sealed; spending it is Nick's call, not an
+> engineer's. Release 0.1.0 is **not re-cut** — the in-code translator lands in a later version.
+
+- [ ] Feasibility and architecture, measured, no app code: closed-vocabulary analyser in TypeScript vs `lindera` in the Tauri shell, decided on measured chunk/`wordId` recovery over the 1,439 corpus sentences and on the conjugation-irregular count, with a hard no-runtime-download constraint.
+- [ ] Author and freeze the recombination development set and the out-of-course refusal class, with a provenance checker. Must not touch the sealed gate set.
+- [ ] Engine core: segmentation, deconjugation and gloss assembly as pure tested functions, reusing `romanize()` and `particlesIn()`, refusing any input with an unresolvable token.
+- [ ] `literal_gap` and `cultural_note` by lookup over the 420 reviewed `gap.json` entries. Never synthesized; empty where no reviewed entry applies.
+- [ ] Wire into Explore behind one typed adapter, replacing the AI-absence notice. Works offline, in a production build, with the model code still gated out.
+- [ ] Score against the frozen recombination set under the unedited rubric, then an independent re-score.
+- [ ] Verdict to Nick: ship it in the next version or not, and whether the sealed gate is spent.
 
 ## Discovered work
 - (add items here with dates)
@@ -1588,3 +1632,34 @@ bytes durable. Also pushed with this: the shared working tree had diverged from
 `chore(qa): run the desktop QA session on Xvfb on headless hosts` (2026-10-19),
 had never been pushed. The tree was reset to `origin/main` and that one commit
 replayed, so no work was lost and the next engineer here can push.
+
+### 2026-10-22 — Nick stops the model programme, names the in-code translator, and takes platform verification
+
+Two owner decisions, hours apart, and they move in different directions on
+different options. **The model-based engine programme is stopped** after seven
+measured declines against an unchanged ≥9/10 bar — *"we can just forget about the
+AI features. it would be nice to have but is apparently difficult to get
+working."* No eighth candidate, no screen, no training run, no pin;
+`reference/model-pin.json` is permanently `{"pin": null}`. **Then, asked what
+Daneo should do next, he selected option D — *"Build the translator in code, with
+no AI model"* — and runtime verification of the Windows, macOS and RPM
+installers, in that order.** Naming option D is exactly the condition
+`engine-decision.md` §*What reopening it would take* set, so it is started, as
+**Phase E** above; the stop section's *"option D is not started"* bullet is
+corrected in place rather than left to contradict it. Phase D's section header
+now says CLOSED and carries the same correction, and `PROJECT.md`'s status line
+and §7 Phase D entry are rewritten — its closing *"No decision is outstanding
+with him"* was wrong in the flattering direction twice over, since platform
+verification is outstanding **with Nick personally** and nobody else can do it.
+Recorded in `reference/eval/engine-decision.md` §*Nick's decision — 2026-10-22:
+build the translator in code*, which also names the two problems this plan has
+that a model-based plan did not: every frozen gate set is drawn from the corpus
+that is this engine's own lookup table, so a new recombination set has to be
+authored before any score means anything; and conjugation, not segmentation, is
+where option D can fail on measurement, because `words.json` holds dictionary
+forms while the corpus holds polite forms and the irregulars exist only as human
+prose in each entry's `notes`. The release notes gained an *Owner platform
+verification* section with the per-platform steps, the expected results and an
+empty verdict table, because the previous record stated the requirement in prose
+and gave him nothing to work through. Documentation only: no app code, no
+content, no eval set, no model artifact and no 0.1.0 installer touched.
