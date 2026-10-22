@@ -1506,3 +1506,15 @@ follows. Evidence and limits: `reference/training/evidence/paired-development-co
 Next: independent comparison review, exact-commit CI, and the development result
 on the existing decision issue. The product prompt, rubric and null pin remain
 unchanged; the release remains AI-off.
+
+
+### 2026-10-22 — Independent review confirms paired-development decline
+
+Independent review of the recorded comparison confirmed v2 2/10 versus corrected
+0/10 literal-gap correctness, joint gap/multi-chunk output flat at 1/10, and
+correct-gap/multi-chunk output falling from 1/10 to 0/10. The borderline baseline
+paraphrase remains a failure. Selection, export/native provenance and the stop
+result were verified. The review binding is recorded in both semantic review
+JSON files and the comparison report. No further candidate or gate inference is
+part of this work; the existing decision issue receives the reviewed result
+once final exact-commit CI is confirmed. The shipped app remains AI-off.

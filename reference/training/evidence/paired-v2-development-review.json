@@ -1,6 +1,6 @@
 {
   "purpose": "Engineering semantic review of preserved v2 development replies; no new inference or gate claim",
-  "reviewStatus": "pending independent review",
+  "reviewStatus": "independently reviewed",
   "rubric": "reference/eval/v0-rubric.md",
   "sourceNotes": "src/content/gap.json",
   "sources": {
@@ -87,5 +87,12 @@
     "nonEmptyGap": 9,
     "gapPlusMultiChunk": 1,
     "correctGapPlusMultiChunk": 1
+  },
+  "independentReview": {
+    "issue": "BAD-260",
+    "commentId": "f0349b48-d752-42c9-b29e-c834b2ff1a02",
+    "reviewedCommit": "c89dd46f83730053cb9ca8df0cf04510ffd8b3bb",
+    "verdict": "Selection/provenance and stop result verified; required improvement failed; semantic counts confirmed",
+    "baseline285Resolution": "Fail confirmed: clear one's mind does not establish releasing expectations or wanting, the distinction in g_m37_maeum_biuda. The initial false judgment and total 2/10 are unchanged."
   }
 }

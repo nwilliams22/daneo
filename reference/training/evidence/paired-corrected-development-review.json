@@ -1,6 +1,6 @@
 {
   "purpose": "Development semantic comparison only; no gate claim",
-  "reviewStatus": "pending independent review",
+  "reviewStatus": "independently reviewed",
   "rubric": "reference/eval/v0-rubric.md",
   "sources": {
     "reference/training/evidence/paired-development-replay/inputs.json": "cda0d415c3f2c4c0a483c8c61bee0b7f1841b1b2307ad399800a101123292871",
@@ -97,5 +97,11 @@
     "gapPlusMultiChunk": 1,
     "correctGapPlusMultiChunk": 0,
     "unsupportedExplanation": 1
+  },
+  "independentReview": {
+    "issue": "BAD-260",
+    "commentId": "f0349b48-d752-42c9-b29e-c834b2ff1a02",
+    "reviewedCommit": "c89dd46f83730053cb9ca8df0cf04510ffd8b3bb",
+    "verdict": "Selection/provenance and stop result verified; required improvement failed; semantic counts confirmed"
   }
 }

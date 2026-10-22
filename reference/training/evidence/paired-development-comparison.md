@@ -1,14 +1,13 @@
 # Paired supervision: development comparison declined
 
 The corrected experiment produced **0/10 correct literal-gap explanations** on
-the same ten preserved v2 development inputs. The engineering baseline review is
-**2/10**, with one borderline broad paraphrase explicitly awaiting independent
-review. Even accepting that paraphrase would make the baseline 3/10 and would
-not change the decline. This is semantic scoring, not exact-text matching.
+the same ten preserved v2 development inputs. Independent review confirmed the preserved v2 baseline is **2/10**. It resolved
+the broad paraphrase in item 285 as a failure: clearing the mind does not establish
+releasing expectations or wanting. This is semantic scoring, not exact-text matching.
 
 | Measure | Preserved v2 | Corrected paired selection |
 | --- | ---: | ---: |
-| Correct literal-gap explanation | 2/10 (review pending) | 0/10 |
+| Correct literal-gap explanation | 2/10 | 0/10 |
 | Non-empty literal gap | 9/10 | 1/10 |
 | Multi-chunk gloss (shape only) | 1/10 | 8/10 |
 | Non-empty gap + multi-chunk gloss | 1/10 | 1/10 |
@@ -120,7 +119,10 @@ and its freeze document were not read into the operator context; only the
 permitted checker subprocess read reservations. The v3 checksum manifest, rubric
 and null production pin are unchanged. The shipped release remains AI-off.
 
-Independent review must settle the baseline paraphrase at
-`DAN-V2-CANDIDATE-285` and verify the decline and provenance. Then the development
-result goes to the existing gate-decision issue. This experiment supports no
-gate spend and authorizes no further candidate here.
+Independent review on BAD-260, comment `f0349b48-d752-42c9-b29e-c834b2ff1a02`,
+verified commit `c89dd46f83730053cb9ca8df0cf04510ffd8b3bb`: baseline 2/10,
+corrected 0/10, fixed selection/provenance and the negative stop result. The
+review confirmed the initial failure judgment for `DAN-V2-CANDIDATE-285`; both
+initial reasoning and resolution are retained in the baseline review JSON.
+The reviewed development result goes to the existing gate-decision issue. This
+experiment supports no gate spend and authorizes no further candidate here.
