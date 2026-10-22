@@ -1,0 +1,1032 @@
+{
+  "version": "recombination-dev-1",
+  "split": "development",
+  "heldOut": false,
+  "trainingAllowed": false,
+  "corpusCommit": "7ee3d57a5fc6b6d1f4724647b37c6b41d03d1d71",
+  "sourceSha256": {
+    "src/content/words.json": "6ff00bb0276172523851781d41f70d04e9fb93e087f422af636c296f5f6e372d",
+    "src/content/sentences.json": "de6425ee0426b0f8adfa0bc908159054b1ea3f3743016ae14295a3df40069957",
+    "src/content/modules.json": "cf5c72d4f3c127ece21c582bf71547fa27e4749e396d567394828e6b165587fc",
+    "reference/eval/v0-rubric.md": "a73523d34276b81d31341846acc1d8e9d1b3833aedcdcf5838caec6368113550",
+    "src/content/modules/module-1.md": "644b2d6e732b2962e68283a01e13d7610602404f46f7fee7a08f19ac152ab4a1",
+    "src/content/modules/module-11.md": "40997b0c5fe90fcd6f2ca60c8d8beb86bd7bf807cd3184625c49d2ed92cd0b78",
+    "src/content/modules/module-12.md": "4250d93be18bb656bfec382304a2f510f8cb1457ccf41b3dc5245129e6a17214",
+    "src/content/modules/module-14.md": "a1237c691c73e1c6c9a4f06f2c31c43212a41499fee896b71695419d63266016",
+    "src/content/modules/module-17.md": "8f58588fd8e041b848c67bd7acb20de8f11fb42914c621a00b7859bb0cc8c10a",
+    "src/content/modules/module-2.md": "eb3091bee4e113b1ee0d634e0c71249651d0341b05b21a10f35d26fb44da4e8f",
+    "src/content/modules/module-28.md": "35a0af5eea59b244ad2088c4c4cd1aa0f149e48f08c7b5f9b5ebf214722850e5",
+    "src/content/modules/module-29.md": "b38a84ea0d5b2240f6d3291d80d5402ea6b67c4949e8318bdcef222da54ae2b9",
+    "src/content/modules/module-3.md": "13484919a4e90c0bf5951f3c4f32a190a43586f2cd9b27edfdd403f3551e4ea8",
+    "src/content/modules/module-6.md": "7d778764ba588efd9f9e464d679d07ed74bf299d68ba3746750123a83c3de910",
+    "src/content/modules/module-66.md": "fd140562d3017d315f252e5c5c159277ce3407e24bd1b7b1ebc60879680174bf"
+  },
+  "items": [
+    {
+      "id": "recombination-dev-01",
+      "itemClass": "recombination",
+      "direction": "en-to-ko",
+      "input": "I eat an apple.",
+      "english": "I eat an apple.",
+      "korean": "저는 사과를 먹어요",
+      "expectedReadingEnglish": "I eat an apple.",
+      "wordIds": [
+        "w_jeo",
+        "w_sagwa",
+        "w_meokda"
+      ],
+      "lastVocabularyModule": "m3",
+      "moduleId": "m3",
+      "grammarModules": [
+        "m1"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "사과를",
+          "wordIds": [
+            "w_sagwa"
+          ],
+          "gloss": "apple-[object]"
+        },
+        {
+          "korean": "먹어요",
+          "wordIds": [
+            "w_meokda"
+          ],
+          "gloss": "eat"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "New object with taught regular polite verb.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-02",
+      "itemClass": "recombination",
+      "direction": "ko-to-en",
+      "input": "친구는 우유를 좋아해요",
+      "english": "My friend likes milk.",
+      "korean": "친구는 우유를 좋아해요",
+      "expectedReadingEnglish": "My friend likes milk.",
+      "wordIds": [
+        "w_chingu",
+        "w_uyu",
+        "w_joahada"
+      ],
+      "lastVocabularyModule": "m2",
+      "moduleId": "m2",
+      "grammarModules": [
+        "m1"
+      ],
+      "chunks": [
+        {
+          "korean": "친구는",
+          "wordIds": [
+            "w_chingu"
+          ],
+          "gloss": "friend-[topic]"
+        },
+        {
+          "korean": "우유를",
+          "wordIds": [
+            "w_uyu"
+          ],
+          "gloss": "milk-[object]"
+        },
+        {
+          "korean": "좋아해요",
+          "wordIds": [
+            "w_joahada"
+          ],
+          "gloss": "like"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "New object with 하다 contraction. Friend need not be explicitly possessed.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-03",
+      "itemClass": "recombination",
+      "direction": "en-to-ko",
+      "input": "I eat bread at school.",
+      "english": "I eat bread at school.",
+      "korean": "저는 학교에서 빵을 먹어요",
+      "expectedReadingEnglish": "I eat bread at school.",
+      "wordIds": [
+        "w_jeo",
+        "w_hakgyo",
+        "w_ppang",
+        "w_meokda"
+      ],
+      "lastVocabularyModule": "m2",
+      "moduleId": "m2",
+      "grammarModules": [
+        "m1",
+        "m2"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "학교에서",
+          "wordIds": [
+            "w_hakgyo"
+          ],
+          "gloss": "school-[action location]"
+        },
+        {
+          "korean": "빵을",
+          "wordIds": [
+            "w_ppang"
+          ],
+          "gloss": "bread-[object]"
+        },
+        {
+          "korean": "먹어요",
+          "wordIds": [
+            "w_meokda"
+          ],
+          "gloss": "eat"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "Action location 에서 with a new object/location combination.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-04",
+      "itemClass": "recombination",
+      "direction": "ko-to-en",
+      "input": "친구는 집에서 커피를 마셔요",
+      "english": "My friend drinks coffee at home.",
+      "korean": "친구는 집에서 커피를 마셔요",
+      "expectedReadingEnglish": "My friend drinks coffee at home.",
+      "wordIds": [
+        "w_chingu",
+        "w_jip",
+        "w_keopi",
+        "w_masida"
+      ],
+      "lastVocabularyModule": "m1",
+      "moduleId": "m2",
+      "grammarModules": [
+        "m1",
+        "m2"
+      ],
+      "chunks": [
+        {
+          "korean": "친구는",
+          "wordIds": [
+            "w_chingu"
+          ],
+          "gloss": "friend-[topic]"
+        },
+        {
+          "korean": "집에서",
+          "wordIds": [
+            "w_jip"
+          ],
+          "gloss": "home-[action location]"
+        },
+        {
+          "korean": "커피를",
+          "wordIds": [
+            "w_keopi"
+          ],
+          "gloss": "coffee-[object]"
+        },
+        {
+          "korean": "마셔요",
+          "wordIds": [
+            "w_masida"
+          ],
+          "gloss": "drink"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "마시다 contraction and action location; friend need not be explicitly possessed.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-05",
+      "itemClass": "recombination",
+      "direction": "en-to-ko",
+      "input": "I ate an apple yesterday.",
+      "english": "I ate an apple yesterday.",
+      "korean": "저는 어제 사과를 먹었어요",
+      "expectedReadingEnglish": "I ate an apple yesterday.",
+      "wordIds": [
+        "w_jeo",
+        "w_eoje",
+        "w_sagwa",
+        "w_meokda"
+      ],
+      "lastVocabularyModule": "m3",
+      "moduleId": "m3",
+      "grammarModules": [
+        "m1",
+        "m2"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "어제",
+          "wordIds": [
+            "w_eoje"
+          ],
+          "gloss": "yesterday"
+        },
+        {
+          "korean": "사과를",
+          "wordIds": [
+            "w_sagwa"
+          ],
+          "gloss": "apple-[object]"
+        },
+        {
+          "korean": "먹었어요",
+          "wordIds": [
+            "w_meokda"
+          ],
+          "gloss": "ate"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "Past tense with new object; must not reverse time.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-06",
+      "itemClass": "recombination",
+      "direction": "ko-to-en",
+      "input": "친구도 학교에 가요",
+      "english": "My friend also goes to school.",
+      "korean": "친구도 학교에 가요",
+      "expectedReadingEnglish": "My friend also goes to school.",
+      "wordIds": [
+        "w_chingu",
+        "w_hakgyo",
+        "w_gada"
+      ],
+      "lastVocabularyModule": "m1",
+      "moduleId": "m2",
+      "grammarModules": [
+        "m1",
+        "m2"
+      ],
+      "chunks": [
+        {
+          "korean": "친구도",
+          "wordIds": [
+            "w_chingu"
+          ],
+          "gloss": "friend-[also]"
+        },
+        {
+          "korean": "학교에",
+          "wordIds": [
+            "w_hakgyo"
+          ],
+          "gloss": "school-[destination]"
+        },
+        {
+          "korean": "가요",
+          "wordIds": [
+            "w_gada"
+          ],
+          "gloss": "go"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "Additive 도 belongs to friend; 에 is destination, not action location.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-07",
+      "itemClass": "recombination",
+      "direction": "en-to-ko",
+      "input": "I do not eat bread.",
+      "english": "I do not eat bread.",
+      "korean": "저는 빵을 안 먹어요",
+      "expectedReadingEnglish": "I do not eat bread.",
+      "wordIds": [
+        "w_jeo",
+        "w_ppang",
+        "w_p_an",
+        "w_meokda"
+      ],
+      "lastVocabularyModule": "m3",
+      "moduleId": "m3",
+      "grammarModules": [
+        "m1",
+        "m3"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "빵을",
+          "wordIds": [
+            "w_ppang"
+          ],
+          "gloss": "bread-[object]"
+        },
+        {
+          "korean": "안",
+          "wordIds": [
+            "w_p_an"
+          ],
+          "gloss": "not"
+        },
+        {
+          "korean": "먹어요",
+          "wordIds": [
+            "w_meokda"
+          ],
+          "gloss": "eat"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "Negation must remain on eating, without inventing inability.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-08",
+      "itemClass": "recombination",
+      "direction": "ko-to-en",
+      "input": "오늘은 우유가 없어요",
+      "english": "There is no milk today.",
+      "korean": "오늘은 우유가 없어요",
+      "expectedReadingEnglish": "There is no milk today.",
+      "wordIds": [
+        "w_oneul",
+        "w_uyu",
+        "w_eopda"
+      ],
+      "lastVocabularyModule": "m2",
+      "moduleId": "m2",
+      "grammarModules": [
+        "m1"
+      ],
+      "chunks": [
+        {
+          "korean": "오늘은",
+          "wordIds": [
+            "w_oneul"
+          ],
+          "gloss": "today-[topic]"
+        },
+        {
+          "korean": "우유가",
+          "wordIds": [
+            "w_uyu"
+          ],
+          "gloss": "milk-[subject]"
+        },
+        {
+          "korean": "없어요",
+          "wordIds": [
+            "w_eopda"
+          ],
+          "gloss": "not-exist"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "Existential absence, not dislike or refusal.",
+      "literalGap": "Milk not-exists means there is no milk; do not invent an owner.",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-09",
+      "itemClass": "recombination",
+      "direction": "en-to-ko",
+      "input": "My friend walks today.",
+      "english": "My friend walks today.",
+      "korean": "친구는 오늘 걸어요",
+      "expectedReadingEnglish": "My friend walks today.",
+      "wordIds": [
+        "w_chingu",
+        "w_oneul",
+        "w_geotda"
+      ],
+      "lastVocabularyModule": "m6",
+      "moduleId": "m6",
+      "grammarModules": [
+        "m1",
+        "m6"
+      ],
+      "chunks": [
+        {
+          "korean": "친구는",
+          "wordIds": [
+            "w_chingu"
+          ],
+          "gloss": "friend-[topic]"
+        },
+        {
+          "korean": "오늘",
+          "wordIds": [
+            "w_oneul"
+          ],
+          "gloss": "today"
+        },
+        {
+          "korean": "걸어요",
+          "wordIds": [
+            "w_geotda"
+          ],
+          "gloss": "walk"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "ㄷ irregular 걷다 → 걸어요; no destination is stated.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-10",
+      "itemClass": "recombination",
+      "direction": "ko-to-en",
+      "input": "제가 친구를 도와요",
+      "english": "I help my friend.",
+      "korean": "제가 친구를 도와요",
+      "expectedReadingEnglish": "I help my friend.",
+      "wordIds": [
+        "w_jeo",
+        "w_chingu",
+        "w_dopda"
+      ],
+      "lastVocabularyModule": "m28",
+      "moduleId": "m28",
+      "grammarModules": [
+        "m1",
+        "m28"
+      ],
+      "chunks": [
+        {
+          "korean": "제가",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[subject]"
+        },
+        {
+          "korean": "친구를",
+          "wordIds": [
+            "w_chingu"
+          ],
+          "gloss": "friend-[object]"
+        },
+        {
+          "korean": "도와요",
+          "wordIds": [
+            "w_dopda"
+          ],
+          "gloss": "help"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "저 + 가 → 제가 and exceptional ㅂ form 돕다 → 도와요.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-11",
+      "itemClass": "recombination",
+      "direction": "en-to-ko",
+      "input": "It is cold in Seoul today.",
+      "english": "It is cold in Seoul today.",
+      "korean": "오늘은 서울이 추워요",
+      "expectedReadingEnglish": "It is cold in Seoul today.",
+      "wordIds": [
+        "w_oneul",
+        "w_seoul",
+        "w_chupda"
+      ],
+      "lastVocabularyModule": "m12",
+      "moduleId": "m12",
+      "grammarModules": [
+        "m1",
+        "m11"
+      ],
+      "chunks": [
+        {
+          "korean": "오늘은",
+          "wordIds": [
+            "w_oneul"
+          ],
+          "gloss": "today-[topic]"
+        },
+        {
+          "korean": "서울이",
+          "wordIds": [
+            "w_seoul"
+          ],
+          "gloss": "Seoul-[subject]"
+        },
+        {
+          "korean": "추워요",
+          "wordIds": [
+            "w_chupda"
+          ],
+          "gloss": "cold (weather)"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "ㅂ irregular weather predicate; no claim about a cold object.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-12",
+      "itemClass": "recombination",
+      "direction": "ko-to-en",
+      "input": "저는 집에서 음악을 들어요",
+      "english": "I listen to music at home.",
+      "korean": "저는 집에서 음악을 들어요",
+      "expectedReadingEnglish": "I listen to music at home.",
+      "wordIds": [
+        "w_jeo",
+        "w_jip",
+        "w_eumak",
+        "w_deutda"
+      ],
+      "lastVocabularyModule": "m2",
+      "moduleId": "m2",
+      "grammarModules": [
+        "m1",
+        "m2"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "집에서",
+          "wordIds": [
+            "w_jip"
+          ],
+          "gloss": "home-[action location]"
+        },
+        {
+          "korean": "음악을",
+          "wordIds": [
+            "w_eumak"
+          ],
+          "gloss": "music-[object]"
+        },
+        {
+          "korean": "들어요",
+          "wordIds": [
+            "w_deutda"
+          ],
+          "gloss": "listen"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "ㄷ irregular 듣다 → 들어요, distinct from 들다.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-13",
+      "itemClass": "near-miss",
+      "direction": "ko-to-en",
+      "input": "저는 눈물을 봐요",
+      "english": "I see tears.",
+      "korean": "저는 눈물을 봐요",
+      "expectedReadingEnglish": "I see tears.",
+      "wordIds": [
+        "w_jeo",
+        "w_nunmul",
+        "w_boda"
+      ],
+      "lastVocabularyModule": "m14",
+      "moduleId": "m14",
+      "grammarModules": [
+        "m1"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "눈물을",
+          "wordIds": [
+            "w_nunmul"
+          ],
+          "gloss": "tears-[object]"
+        },
+        {
+          "korean": "봐요",
+          "wordIds": [
+            "w_boda"
+          ],
+          "gloss": "see"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "눈물 is one taught lexical item; do not segment as snow + water.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-14",
+      "itemClass": "near-miss",
+      "direction": "en-to-ko",
+      "input": "My friend drank tea yesterday.",
+      "english": "My friend drank tea yesterday.",
+      "korean": "친구는 어제 차를 마셨어요",
+      "expectedReadingEnglish": "My friend drank tea yesterday.",
+      "wordIds": [
+        "w_chingu",
+        "w_eoje",
+        "w_cha",
+        "w_masida"
+      ],
+      "lastVocabularyModule": "m2",
+      "moduleId": "m2",
+      "grammarModules": [
+        "m1",
+        "m2"
+      ],
+      "chunks": [
+        {
+          "korean": "친구는",
+          "wordIds": [
+            "w_chingu"
+          ],
+          "gloss": "friend-[topic]"
+        },
+        {
+          "korean": "어제",
+          "wordIds": [
+            "w_eoje"
+          ],
+          "gloss": "yesterday"
+        },
+        {
+          "korean": "차를",
+          "wordIds": [
+            "w_cha"
+          ],
+          "gloss": "tea-[object]"
+        },
+        {
+          "korean": "마셨어요",
+          "wordIds": [
+            "w_masida"
+          ],
+          "gloss": "drank"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "차 is tea in the drink frame, not a car or a kick.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-15",
+      "itemClass": "near-miss",
+      "direction": "ko-to-en",
+      "input": "저는 공을 차요",
+      "english": "I kick a ball.",
+      "korean": "저는 공을 차요",
+      "expectedReadingEnglish": "I kick a ball.",
+      "wordIds": [
+        "w_jeo",
+        "w_gong",
+        "w_chada"
+      ],
+      "lastVocabularyModule": "m66",
+      "moduleId": "m66",
+      "grammarModules": [
+        "m1"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "공을",
+          "wordIds": [
+            "w_gong"
+          ],
+          "gloss": "ball-[object]"
+        },
+        {
+          "korean": "차요",
+          "wordIds": [
+            "w_chada"
+          ],
+          "gloss": "kick"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "차요 is the taught kick verb, not tea + 요 or cold/full/wear.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-16",
+      "itemClass": "near-miss",
+      "direction": "en-to-ko",
+      "input": "I hug my friend.",
+      "english": "I hug my friend.",
+      "korean": "저는 친구를 안아요",
+      "expectedReadingEnglish": "I hug my friend.",
+      "wordIds": [
+        "w_jeo",
+        "w_chingu",
+        "w_anda_hug"
+      ],
+      "lastVocabularyModule": "m28",
+      "moduleId": "m28",
+      "grammarModules": [
+        "m1"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "친구를",
+          "wordIds": [
+            "w_chingu"
+          ],
+          "gloss": "friend-[object]"
+        },
+        {
+          "korean": "안아요",
+          "wordIds": [
+            "w_anda_hug"
+          ],
+          "gloss": "hug"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "안아요 is 안다, not negation 안 or 앉다 (sit).",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-17",
+      "itemClass": "near-miss",
+      "direction": "ko-to-en",
+      "input": "저는 집 안에 있어요",
+      "english": "I am inside the house.",
+      "korean": "저는 집 안에 있어요",
+      "expectedReadingEnglish": "I am inside the house.",
+      "wordIds": [
+        "w_jeo",
+        "w_jip",
+        "w_an_inside",
+        "w_itda"
+      ],
+      "lastVocabularyModule": "m6",
+      "moduleId": "m6",
+      "grammarModules": [
+        "m1",
+        "m6"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "집",
+          "wordIds": [
+            "w_jip"
+          ],
+          "gloss": "house"
+        },
+        {
+          "korean": "안에",
+          "wordIds": [
+            "w_an_inside"
+          ],
+          "gloss": "inside-[location]"
+        },
+        {
+          "korean": "있어요",
+          "wordIds": [
+            "w_itda"
+          ],
+          "gloss": "exist"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "안 is a position noun followed by 에, not negation.",
+      "literalGap": "I exist inside the house expresses location, not possession.",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-18",
+      "itemClass": "near-miss",
+      "direction": "en-to-ko",
+      "input": "I eat that apple over there.",
+      "english": "I eat that apple over there.",
+      "korean": "저는 저 사과를 먹어요",
+      "expectedReadingEnglish": "I eat that apple over there.",
+      "wordIds": [
+        "w_jeo",
+        "w_jeo_det",
+        "w_sagwa",
+        "w_meokda"
+      ],
+      "lastVocabularyModule": "m29",
+      "moduleId": "m29",
+      "grammarModules": [
+        "m1",
+        "m29"
+      ],
+      "chunks": [
+        {
+          "korean": "저는",
+          "wordIds": [
+            "w_jeo"
+          ],
+          "gloss": "I-[topic]"
+        },
+        {
+          "korean": "저",
+          "wordIds": [
+            "w_jeo_det"
+          ],
+          "gloss": "that over there"
+        },
+        {
+          "korean": "사과를",
+          "wordIds": [
+            "w_sagwa"
+          ],
+          "gloss": "apple-[object]"
+        },
+        {
+          "korean": "먹어요",
+          "wordIds": [
+            "w_meokda"
+          ],
+          "gloss": "eat"
+        }
+      ],
+      "expectedBehavior": "answer",
+      "probe": "Same surface 저 has polite-pronoun and distal-determiner IDs in different positions.",
+      "literalGap": "",
+      "acceptableAnswerNote": "Natural alternatives preserving the actor, tense, polarity and speech act are allowed; the Korean and gloss are illustrative, not exact-match targets. No cultural claim is required."
+    },
+    {
+      "id": "recombination-dev-19",
+      "itemClass": "out-of-course",
+      "direction": "ko-to-en",
+      "input": "저는 양자컴퓨터를 봐요",
+      "korean": "저는 양자컴퓨터를 봐요",
+      "english": "I see a quantum computer.",
+      "expectedBehavior": "refuse",
+      "unresolved": [
+        {
+          "text": "양자컴퓨터",
+          "kind": "untaught-word"
+        }
+      ],
+      "expectedRefusal": "That is outside the course: 양자컴퓨터.",
+      "probe": "One untaught lexical item in an otherwise ordinary taught frame; a guessed meaning is a fail. The English is collision-check metadata, not an answer to emit."
+    },
+    {
+      "id": "recombination-dev-20",
+      "itemClass": "out-of-course",
+      "direction": "ko-to-en",
+      "input": "저는 블록체인을 공부해요",
+      "korean": "저는 블록체인을 공부해요",
+      "english": "I study blockchain.",
+      "expectedBehavior": "refuse",
+      "unresolved": [
+        {
+          "text": "블록체인",
+          "kind": "untaught-word"
+        }
+      ],
+      "expectedRefusal": "That is outside the course: 블록체인.",
+      "probe": "One untaught lexical item in an otherwise ordinary taught frame; a guessed meaning is a fail. The English is collision-check metadata, not an answer to emit."
+    },
+    {
+      "id": "recombination-dev-21",
+      "itemClass": "out-of-course",
+      "direction": "ko-to-en",
+      "input": "친구는 홀로그램을 봐요",
+      "korean": "친구는 홀로그램을 봐요",
+      "english": "My friend sees a hologram.",
+      "expectedBehavior": "refuse",
+      "unresolved": [
+        {
+          "text": "홀로그램",
+          "kind": "untaught-word"
+        }
+      ],
+      "expectedRefusal": "That is outside the course: 홀로그램.",
+      "probe": "One untaught lexical item in an otherwise ordinary taught frame; a guessed meaning is a fail. The English is collision-check metadata, not an answer to emit."
+    },
+    {
+      "id": "recombination-dev-22",
+      "itemClass": "out-of-course",
+      "direction": "ko-to-en",
+      "input": "저는 메타버스를 좋아해요",
+      "korean": "저는 메타버스를 좋아해요",
+      "english": "I like the metaverse.",
+      "expectedBehavior": "refuse",
+      "unresolved": [
+        {
+          "text": "메타버스",
+          "kind": "untaught-word"
+        }
+      ],
+      "expectedRefusal": "That is outside the course: 메타버스.",
+      "probe": "One untaught lexical item in an otherwise ordinary taught frame; a guessed meaning is a fail. The English is collision-check metadata, not an answer to emit."
+    },
+    {
+      "id": "recombination-dev-23",
+      "itemClass": "out-of-course",
+      "direction": "ko-to-en",
+      "input": "저는 스마트워치가 있어요",
+      "korean": "저는 스마트워치가 있어요",
+      "english": "I have a smartwatch.",
+      "expectedBehavior": "refuse",
+      "unresolved": [
+        {
+          "text": "스마트워치",
+          "kind": "untaught-word"
+        }
+      ],
+      "expectedRefusal": "That is outside the course: 스마트워치.",
+      "probe": "One untaught lexical item in an otherwise ordinary taught frame; a guessed meaning is a fail. The English is collision-check metadata, not an answer to emit."
+    },
+    {
+      "id": "recombination-dev-24",
+      "itemClass": "out-of-course",
+      "direction": "ko-to-en",
+      "input": "친구는 텔레포트를 좋아해요",
+      "korean": "친구는 텔레포트를 좋아해요",
+      "english": "My friend likes teleportation.",
+      "expectedBehavior": "refuse",
+      "unresolved": [
+        {
+          "text": "텔레포트",
+          "kind": "untaught-word"
+        }
+      ],
+      "expectedRefusal": "That is outside the course: 텔레포트.",
+      "probe": "One untaught lexical item in an otherwise ordinary taught frame; a guessed meaning is a fail. The English is collision-check metadata, not an answer to emit."
+    }
+  ]
+}
