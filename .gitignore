@@ -37,3 +37,7 @@ server/.env
 # Manually provisioned local inference weights
 .local-models/
 *.gguf
+
+# Accepted release-candidate installers, kept out of src-tauri/target so a
+# cargo clean cannot destroy them. Hashes are in reference/releases/<version>/.
+.release-staging/

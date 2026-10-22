@@ -182,6 +182,18 @@ the parent staging directory. Downloads used:
 gh run download 38158221011 --pattern 'daneo-*' --dir src-tauri/target/release-staging/38158221011
 ```
 
+**That download no longer works, and these four files now exist only on this build
+host (2026-10-22).** This repository's Actions artifacts are retained for seven
+days, so run 38158221011's artifacts expired and were deleted:
+`gh api repos/nwilliams22/daneo/actions/runs/38158221011/artifacts` reports
+`total_count: 0`. The accepted binaries are therefore irreplaceable — a fresh CI
+build produces different bytes, which voids this manifest and the 2026-10-20
+clean-profile acceptance recorded against it. Because `src-tauri/target` is a
+build directory that `cargo clean` empties, a verified copy of all four installers
+and this manifest is kept at `.release-staging/0.1.0/` (also ignored, and
+re-verified with `sha256sum -c` after copying). Publishing the release is what
+makes these bytes durable; until then they live on one machine.
+
 The four installer files were copied unchanged into `installers/`. From that
 directory the manifest was produced with:
 

@@ -1569,3 +1569,22 @@ decision that does not exist. BAD-213 and BAD-188 are cancelled, since both exis
 only to serve a pin that will not be written. Next: nothing on the engine. Daneo
 continues on content, drills and the remaining Windows/macOS runtime
 verification.
+
+### 2026-10-22 — The accepted 0.1.0 installers survive on one machine only
+
+The release candidate accepted on 2026-10-20 cannot be re-downloaded. This
+repository keeps Actions artifacts for seven days, so
+`gh api repos/nwilliams22/daneo/actions/runs/38158221011/artifacts` now reports
+`total_count: 0`. The four accepted installers exist only on this build host, and
+a fresh CI build would produce different bytes — which voids
+`reference/releases/0.1.0/SHA256SUMS` and the clean-profile acceptance recorded
+against it. They were held in `src-tauri/target/`, which `cargo clean` empties, so
+a verified copy now sits in `.release-staging/0.1.0/` (ignored; `sha256sum -c`
+re-checked all four as `OK` after copying) and `.gitignore` covers the path so a
+`git add -A` cannot commit 217 MB of binaries. The release notes record the same
+facts. Publication is still a separate owner approval and is what would make these
+bytes durable. Also pushed with this: the shared working tree had diverged from
+`origin/main` — six local commits were already upstream by patch-id and one,
+`chore(qa): run the desktop QA session on Xvfb on headless hosts` (2026-10-19),
+had never been pushed. The tree was reset to `origin/main` and that one commit
+replayed, so no work was lost and the next engineer here can push.
