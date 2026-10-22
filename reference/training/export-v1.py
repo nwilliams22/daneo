@@ -13,6 +13,7 @@ CACHE = ROOT/'.local-models/compatibility'
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--probe', action='store_true')
 parser.add_argument('--name')
+parser.add_argument('--export-only', action='store_true', help='Export on a separate local host; run native verification on the source checkout')
 args = parser.parse_args()
 WORK = ROOT/'.local-models'/(args.name or ('v1-probe' if args.probe else 'v1'))
 SOURCE = CACHE/'llama-matched'
@@ -58,6 +59,9 @@ report = dict(converter_commit='26394b4e6749a41c3633db040e0987500a5f7013', match
               artifacts=[artifact(p) for p in [bf16,q8,WORK/'adapter/adapter_model.safetensors']],
               merged_files=[artifact(p) for p in sorted((WORK/'merged').rglob('*')) if p.is_file()])
 (WORK/'export-result.json').write_text(json.dumps(report, indent=2)+'\n')
+if args.export_only:
+    print(json.dumps(report), flush=True)
+    raise SystemExit(0)
 examples = ROOT/'reference/training/smoke-examples.json'
 subprocess.run(['python3','reference/eval/check-independent-freeze.py','--candidates',str(examples)],cwd=ROOT,check=True)
 row = json.loads(examples.read_text())['items'][0]

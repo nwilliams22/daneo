@@ -16,10 +16,12 @@ parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--probe', action='store_true')
 parser.add_argument('--config', default='v1-config.json')
 parser.add_argument('--name')
+parser.add_argument('--prompt-path', default='src/lib/translation-prompt.json', help='Explicit frozen incumbent prompt; product prompt stays unchanged')
 parser.add_argument('--write-preflight', type=Path, help='Validate locally and write a hash-bound receipt, without loading a model')
 parser.add_argument('--preflight-receipt', type=Path, help='Use a trusted local preflight receipt on a remote GPU without sealed fixtures')
 parser.add_argument('--resume', action='store_true', help='Resume an atomic checkpoint in the same output directory')
 args = parser.parse_args()
+PROMPT_PATH = ROOT / args.prompt_path
 WORK = ROOT / '.local-models' / (args.name or ('v1-probe' if args.probe else 'v1'))
 for key, folder in [('HF_HOME', 'hf'), ('TRITON_CACHE_DIR', 'triton'), ('TORCHINDUCTOR_CACHE_DIR', 'inductor'), ('UNSLOTH_COMPILE_LOCATION', 'unsloth-cache')]:
     os.environ[key] = str(CACHE / folder)
@@ -41,11 +43,11 @@ if dataset.name != 'dataset-v1.json':
     assert all(row.get('reviewStatus') == 'approved' for row in dataset_document['items']), 'unreviewed targets'
 # The incumbent experiments and preserved worker use this exact prompt.
 # Do not silently train on a later product-prompt revision.
-assert sha(ROOT/'src/lib/translation-prompt.json') == '81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669', 'Incumbent prompt mismatch: stop before training or issuing a preflight receipt'
+assert sha(PROMPT_PATH) == '81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669', 'Incumbent prompt mismatch: stop before training or issuing a preflight receipt'
 from training_preflight import identities, read_receipt, write_receipt
 bound_paths = [Path(__file__), ROOT/'reference/training/training_preflight.py',
                ROOT/'reference/training'/args.config, dataset,
-               ROOT/'src/lib/translation-prompt.json', ROOT/'reference/training/evidence/base-manifest.json']
+               PROMPT_PATH, ROOT/'reference/training/evidence/base-manifest.json']
 if not args.probe:
     bound_paths.append(ROOT/'.local-models/v1-probe/schema-result.json')
 if development:
@@ -99,7 +101,7 @@ quantization_config = model.config.quantization_config.to_dict() if hasattr(mode
 text_tokenizer = getattr(tokenizer, 'tokenizer', tokenizer)
 FastLanguageModel.for_training(model)
 rows = json.loads(dataset.read_text())['items']
-prompt = json.loads((ROOT/'src/lib/translation-prompt.json').read_text())
+prompt = json.loads(PROMPT_PATH.read_text())
 def encode(rows):
     encoded = []
     for row in rows:
@@ -151,7 +153,7 @@ best_state = None
 selected_epoch = None
 completed_steps = 0
 prior_train_seconds = 0.0
-checkpoint_identity = dict(config=cfg, prompt_sha256=sha(ROOT/'src/lib/translation-prompt.json'),
+checkpoint_identity = dict(config=cfg, prompt_sha256=sha(PROMPT_PATH),
                            runner_sha256=sha(Path(__file__)), probe=args.probe)
 if args.resume:
     saved = torch.load(WORK/'checkpoint.pt', map_location='cpu', weights_only=False)
@@ -224,7 +226,7 @@ if best_state is not None:
             p.copy_(best_state[n])
 changed = sum(not torch.equal(before[n],p.detach().cpu()) for n,p in params)
 assert changed
-report = dict(development_losses=dev_losses, selected_epoch=selected_epoch, selected_development_loss=best_loss if dev_encoded else None, quantization_config=quantization_config, versions={name: importlib.metadata.version(name) for name in ['unsloth', 'unsloth_zoo', 'transformers', 'peft', 'torch', 'bitsandbytes']}, config=cfg, probe=args.probe, steps=len(order), losses=losses, changed_adapter_tensors=changed, trainable_parameters=sum(p.numel() for _,p in params), train_seconds=prior_train_seconds+time.monotonic()-train_start, peak_allocated_bytes=torch.cuda.max_memory_allocated(), peak_reserved_bytes=torch.cuda.max_memory_reserved(), prompt_sha256=sha(ROOT/'src/lib/translation-prompt.json'), source_commit=source_commit, resumed_from_step=completed_steps)
+report = dict(development_losses=dev_losses, selected_epoch=selected_epoch, selected_development_loss=best_loss if dev_encoded else None, quantization_config=quantization_config, versions={name: importlib.metadata.version(name) for name in ['unsloth', 'unsloth_zoo', 'transformers', 'peft', 'torch', 'bitsandbytes']}, config=cfg, probe=args.probe, steps=len(order), losses=losses, changed_adapter_tensors=changed, trainable_parameters=sum(p.numel() for _,p in params), train_seconds=prior_train_seconds+time.monotonic()-train_start, peak_allocated_bytes=torch.cuda.max_memory_allocated(), peak_reserved_bytes=torch.cuda.max_memory_reserved(), prompt_sha256=sha(PROMPT_PATH), prompt_path=str(PROMPT_PATH.relative_to(ROOT)), source_commit=source_commit, resumed_from_step=completed_steps)
 (WORK/'training-result.json').write_text(json.dumps(report, indent=2, default=str)+'\n')
 model.save_pretrained(str(WORK/'adapter'))
 tokenizer.save_pretrained(str(WORK/'adapter'))

@@ -1479,3 +1479,14 @@ fail-fast incumbent-prompt check; its regression confirms rejection before model
 loading. The dataset and diagnostic slices remain valid, but the controlled
 comparison is incomplete. Next: a scope decision on corrected same-rate reruns
 with the incumbent prompt, or stopping as inconclusive; do not retry automatically.
+
+
+### 2026-10-22 — Authorize corrected same-rate experiment
+
+The scope decision authorizes only the same two fixed rates with the original
+incumbent prompt in a separate workspace, preserving the invalid attempts.
+The runner now accepts an explicit frozen prompt path while enforcing its exact
+incumbent hash. The product prompt stays unchanged. Corrected outputs use
+`paired-corrected-lr1` and `paired-corrected-lr2`; development-loss selection,
+dataset, base and epoch bound do not change. Next: complete those corrected runs,
+export the selected run, and compare the preserved development replies.

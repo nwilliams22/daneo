@@ -314,3 +314,15 @@ The runner now fails before model loading when the incumbent prompt hash differs
 Do not use the commands above to bypass that guard. See
 `evidence/paired-recovery/prompt-mismatch.md` for preserved results and the required
 scope decision. No export, native comparison or gate inference followed recovery.
+
+
+**Authorized correction (2026-10-22):** preserve the invalid runs and repeat only
+the two fixed rates using the original incumbent prompt in a separate workspace.
+Pass `--prompt-path reference/training/evidence/v2-gap-replay/embedded-prompt.json`
+for both local receipt generation and remote training. Its required SHA-256 is
+`81f525b2fb54ac5b1a16d3cfb7ba2fc28ed88db156156cff5fbddb9ff043e669`.
+The product prompt is not edited. New output names are `paired-corrected-lr1`
+and `paired-corrected-lr2`; existing configs, data, four-epoch limit and loss-only
+selection remain fixed. Export only the selected corrected run and compare the
+same ten preserved development inputs through the unchanged v2 worker. No
+additional rate or answer-driven retry, no reserved inference and no pin change.

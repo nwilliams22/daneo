@@ -67,6 +67,7 @@ class RecoveryTests(unittest.TestCase):
             env = dict(torch=TorchProxy(), model=model, cfg=cfg, random=random, time=time, math=math,
                        os=os, json=json, Path=Path, ROOT=ROOT, __file__=str(RUNNER), WORK=folder,
                        args=SimpleNamespace(probe=False, resume=resume), rows=list(range(10)),
+                       PROMPT_PATH=ROOT/'src/lib/translation-prompt.json',
                        encoded=[(str(i), [1], [2]) for i in range(10)], dev_encoded=[True],
                        sha=lambda p: hashlib.sha256(p.read_bytes()).hexdigest(),
                        development_loss=lambda step, epoch: dict(step=step, epoch=epoch,
