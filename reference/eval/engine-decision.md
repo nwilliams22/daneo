@@ -491,6 +491,15 @@ for any future authorized candidate.
 
 ## The training data never contained the output the rubric asks for — 2026-10-05
 
+> **Superseded as an argument, 2026-10-22.** The defect recorded below is real and
+> the repair worked — the rebuilt dataset carries the required pair on **160 of
+> 406** rows against 10 of 317. The *inference* drawn from it did not survive the
+> test: trained on that supervision, correct literal-gap explanations fell from
+> **2/10 to 0/10** on the same development inputs. See §*The corrected supervision
+> is measured and declined* at the end of this file. Read this section as the
+> diagnosis it was, not as a live reason for another training run.
+
+
 Nick asked why the Korean-native KT model is not simply fine-tuned on the one
 dimension that fails. Auditing the training data to answer him turned up a
 defect in our own supervision, and it changes what the two fine-tune declines
@@ -572,3 +581,89 @@ v2 Q8_0 fine-tune of the incumbent scores meaning 10/10, gloss 9/10, particles
 short, and that field is the one the supervision never taught. If another
 training run is authorized, it belongs on that base, not on a Korean-native
 model that fails four dimensions and invents rules.
+
+## The corrected supervision is measured and declined — 2026-10-22: the seventh decline
+
+The mechanism argument above was the one thing this project had never tried: not
+*more* data, but data that actually demonstrates the output the rubric asks for.
+It was built, trained and scored, on the incumbent base the argument named, and
+**it made the failing dimension worse.** Source of truth, committed:
+[`../training/evidence/paired-development-comparison.md`](../training/evidence/paired-development-comparison.md),
+independently reviewed on BAD-260.
+
+**The repair itself is not in doubt.** `node reference/training/audit-gap-supervision.mjs
+reference/training/dataset-paired.json` reports 406 approved rows, **160 carrying
+an aligned multi-chunk gloss together with a non-empty `literal_gap`** — 80 per
+direction, an exact 50/50 split — and **zero** single-chunk gap rows. Both faults
+named in the section above are gone. The model was shown the required pair 160
+times in 406, against 10 times in 317.
+
+| Measure, 10 preserved development inputs | v2 artifact | Corrected paired |
+| --- | ---: | ---: |
+| **Correct literal-gap explanation** | **2/10** | **0/10** |
+| Non-empty literal gap | 9/10 | 1/10 |
+| Multi-chunk gloss, shape only | 1/10 | 8/10 |
+| Non-empty gap **+** multi-chunk gloss | 1/10 | 1/10 |
+| **Correct gap explanation + multi-chunk gloss** | **1/10** | **0/10** |
+
+**What the two columns show is a trade, not a gain.** The corrected artifact
+learned the gloss shape the old supervision had taught wrong — 1/10 to 8/10 — and
+stopped emitting the gap field at all, 9/10 down to 1/10. The v2 artifact did the
+opposite: it emitted the field on nine of ten items and explained it correctly on
+two. Neither carried both. Four epochs on 160 demonstrations of the pair produced
+the pair **once**, and that once was wrong: the single non-empty explanation reads
+눈코 뜰 새 없다 as an inability to sleep, where the project-owned reading is *being
+utterly swamped, with no time to breathe* — the same invented-rule failure the
+family screen measured at 15/30 on two other models.
+
+**So the confound is answered, and the answer is not the one the diagnosis
+predicted.** The supervision defect was a true defect and fixing it was correct
+work; it was not what stood between a 4 B local model and a learner-grade
+contrastive explanation. The protocol leaves no room to blame the run: the
+original incumbent prompt by hash, the same base revision, seed and LoRA
+settings, the same frozen 40-row development split, a predeclared loss-only
+selection rule applied before any answer was read (0.0001/epoch 1, 0.360212
+against 0.365144), the unchanged native worker at matching bytes, and all ten
+replies passing schema and provenance. An earlier recovery that inherited the
+wrong product prompt is preserved and excluded from selection, with a hash guard
+now rejecting that drift before a model loads.
+
+**That is seven declines**: prompting, a repaired prompt, code-extracted fields, a
+27-row fine-tune, a 250-row fine-tune, a second model family, and corrected
+paired supervision. Nothing has passed above 4/10 against an unchanged ≥9/10 bar,
+and the one dimension that fails has now failed on prompting, on scale, on
+Korean specialisation and on correct supervision.
+
+### What the seventh decline does to the option set
+
+Nothing is added and nothing is removed — the four options Nick already held
+stand, and the recommendation hardens:
+
+- **D — the deterministic engine.** `lindera` plus lookup over the reviewed
+  corpus. It cannot invent a rule, needs no download, costs nothing at runtime,
+  and its answers are the 420 `lit`/`real`/`note` entries already in
+  `src/content/gap.json`. Its cost is coverage: excellent inside the 5,615 taught
+  words, and outside them it must say *"that is outside the course"*.
+- **B — a larger parameter class.** Priced above in the learner's download and
+  working memory. The invented-rule profile is unchanged by scale, and the
+  corrected result shows the failure is not a supervision gap that more
+  parameters would now exploit.
+- **The held non-commercial families** (EXAONE, Kanana) — available only if Nick
+  states Daneo will never be sold, with the EXAONE licence **read** before any
+  gate run.
+- **Stopping the engine programme**, with the app as it shipped.
+
+**Recommendation: D, or stop.** The delegation pattern recorded above is now the
+best-supported finding in this whole chain — every rubric dimension Daneo
+computes in code or holds as reviewed data passes, and every dimension handed to
+a model is why no candidate has qualified.
+
+**Unchanged by this rung.** `reference/model-pin.json` is still `{"pin": null}`.
+[`v0-rubric.md`](v0-rubric.md) is unedited and relaxing it stays measured-closed.
+No paid or cloud engine is reopened. Release one is not re-cut. The reserved gate
+set [`v3-translation-set.json`](v3-translation-set.json) was **never opened** —
+`python3 reference/eval/check-independent-freeze.py` exits 0 over all 136
+reservations, and `--candidates reference/training/dataset-paired-candidates.json`
+confirms all **406** rebuilt rows avoid every one of them, by ID and by
+normalized English and Korean. The gate survives unspent for any future
+authorized candidate.
