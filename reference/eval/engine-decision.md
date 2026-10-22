@@ -1,5 +1,15 @@
 # Phase D engine decision — every rung measured, nothing qualifies
 
+> **⚠ Closed by owner decision, 2026-10-22. Read §*Nick's decision — 2026-10-22:
+> stop* at the end of this file before anything else here.** Nick answered the
+> seventh-decline card with *"we can just forget about the AI features. it would
+> be nice to have but is apparently difficult to get working."* **The engine
+> programme is stopped.** Every option set in this document — including the
+> deterministic engine, a larger parameter class and the held non-commercial
+> families — is **closed, not pending.** No eighth candidate, no screen, no
+> training run and no pin follows from anything written below. The document stays
+> whole because it is the measured record of why.
+
 Written 2026-10-05, after the head-to-head score in
 [`head-to-head-results.md`](head-to-head-results.md) settled. This document does
 not change the bar, does not select an artifact, and does not write a pin.
@@ -636,6 +646,10 @@ Korean specialisation and on correct supervision.
 
 ### What the seventh decline does to the option set
 
+> **Superseded 2026-10-22 — these four options were put to Nick and he chose to
+> stop.** None of them is live. See §*Nick's decision — 2026-10-22: stop* below.
+> The list is kept because it is what he was shown when he decided.
+
 Nothing is added and nothing is removed — the four options Nick already held
 stand, and the recommendation hardens:
 
@@ -667,3 +681,66 @@ reservations, and `--candidates reference/training/dataset-paired-candidates.jso
 confirms all **406** rebuilt rows avoid every one of them, by ID and by
 normalized English and Korean. The gate survives unspent for any future
 authorized candidate.
+
+## Nick's decision — 2026-10-22: stop. The engine programme is closed.
+
+Asked to choose between the deterministic engine, a larger parameter class, the
+held non-commercial families and stopping, Nick answered:
+
+> *"we can just forget about the AI features. it would be nice to have but is
+> apparently difficult to get working"*
+
+**That is the stop option, and it ends the programme rather than pausing it.**
+This section is the terminus of the whole Phase D engine chain; everything above
+is the record of how it got here. Seven rungs were measured — prompting, a
+repaired prompt, code-extracted fields, a 27-row fine-tune, a 250-row fine-tune,
+a second (Korean-native) model family, and corrected paired supervision — and
+nothing scored above **4/10** against an unchanged **≥9/10** bar.
+
+### What the decision settles
+
+- **No engine is selected, and none will be chosen by any later run.**
+  `reference/model-pin.json` stays `{"pin": null}`. The downloader refusing an
+  unset pin is designed behaviour, not an open defect.
+- **The deterministic engine (option D) is not started.** It was the
+  recommendation and it was not chosen. It stays on record here as the only route
+  that could ever deliver the literal/idiomatic gap to the rubric's standard —
+  `lindera` plus lookup over the 420 reviewed `lit`/`real`/`note` entries in
+  `src/content/gap.json` — but **nothing acts on it unless Nick names it again.**
+  An agent does not revive a closed option on its own reading of this file.
+- **The AI features stay off in the shipped product.** Release one already
+  shipped with the translator, Ask Daneo and the model controls excluded at build
+  time (BAD-234), and that release is not re-cut by this decision. The code
+  remains in the tree and remains available in development; **re-enabling it in a
+  production build takes an owner decision, which does not exist.**
+- **Nothing is deleted.** The training data, the evaluation harness, the native
+  worker, the screens and every numbered result stay committed. The cost of
+  keeping them is zero and they are the evidence for the decision.
+- **The sealed gate set survives unspent.**
+  [`v3-translation-set.json`](v3-translation-set.json) was never opened. It is not
+  spent, not re-drawn and not retired; `check-independent-freeze.py` exits 0 over
+  all 136 reservations. If the programme is ever reopened, the gate is intact.
+- **The rubric does not move.** [`v0-rubric.md`](v0-rubric.md) is unedited.
+  Relaxing it was measured-closed and stopping does not reopen it.
+- **No paid or cloud engine is reopened.** `PLAN-local-model.md` §*Owner
+  constraint* is unchanged. Stopping the local engine is not an argument for a
+  hosted one.
+
+### What reopening it would take
+
+Nick naming it. Not a new model release, not a better benchmark, not an agent's
+judgement that the field looks tractable now. **The failing dimension is
+contrastive explanation** — stating why the literal words of a Korean phrase
+differ from what the phrase means — and it has now failed on prompting, on
+scale, on Korean specialisation and on correct supervision. Any future proposal
+has to beat that record, not restate the hope.
+
+### The practical reading, for whoever comes to this cold
+
+Daneo ships and works without an engine. Everything the rubric asked a model for
+that Daneo could instead compute or look up already passes: romanization is
+`romanize.ts` at 30/30, particle roles are `particlesIn()` at 23–25/30, and the
+literal/real gap for the taught corpus is 420 reviewed entries authored by hand.
+The feature that is gone is the open-ended one — explaining a phrase the course
+does not teach. That is the thing seven rungs could not do to a learner's
+standard, and the decision is to live without it.

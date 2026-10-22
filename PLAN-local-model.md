@@ -1,5 +1,24 @@
 # PLAN — Daneo local AI (translator + tutor, offline-first)
 
+> ## ⚠ This plan is closed — Nick stopped the engine programme on 2026-10-22
+>
+> Asked to choose between a deterministic in-code engine, a larger parameter
+> class, the held non-commercial model families and stopping, Nick answered:
+> *"we can just forget about the AI features. it would be nice to have but is
+> apparently difficult to get working."* **Seven measured rungs, nothing above
+> 4/10 against a ≥9/10 bar.** Verdict of record, with every number:
+> [`reference/eval/engine-decision.md`](reference/eval/engine-decision.md)
+> §*Nick's decision — 2026-10-22: stop*.
+>
+> **What that means for this document.** Everything below is history, not a
+> backlog. No candidate, screen, fine-tune, gate run or model pin follows from
+> it. `reference/model-pin.json` stays `{"pin": null}`; the sealed v3 gate set
+> was never opened and survives unspent; the v0 rubric is unedited; a paid or
+> cloud engine is **not** reopened by stopping the local one. The AI code stays
+> in the tree and stays available in development — release one already shipped
+> with it excluded at build time and is not re-cut. Re-enabling it in a
+> production build, or reviving any option here, takes Nick naming it.
+
 > Owner: Nick. Design refresh: **2026-10-03**. Owner constraint added **2026-10-04**.
 > Native compatibility and request lifecycle passed on 2026-10-04; Tauri commands and
 > the validated frontend adapter, Explore controls, storage lifecycle and tutor now exist.
