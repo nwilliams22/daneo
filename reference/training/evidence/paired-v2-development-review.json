@@ -1,0 +1,91 @@
+{
+  "purpose": "Engineering semantic review of preserved v2 development replies; no new inference or gate claim",
+  "reviewStatus": "pending independent review",
+  "rubric": "reference/eval/v0-rubric.md",
+  "sourceNotes": "src/content/gap.json",
+  "sources": {
+    "reference/training/evidence/v2-gap-replay/continuation/inputs.json": "809081cbf9c1e112756104568effdc143ca126999a747fcb032efa115bf36c50",
+    "reference/training/evidence/v2-gap-replay/continuation/raw.jsonl": "1987e72ae6be547caf2a33b7fd7ecd1be7abfe21afa3f6b2836639c3c7d6ca76",
+    "reference/training/evidence/v2-gap-replay/continuation/results.jsonl": "76c26a19ab968ff9881f327ea1a5a7f7c3647c3bf7c482a2006426c9c5ca6840",
+    "src/content/gap.json": "0670aa56f1b8526a6f11b771e8d22b22ff63bbf3e5af285d7650c36d3d90869b"
+  },
+  "rows": [
+    {
+      "id": "DAN-V2-CANDIDATE-281",
+      "literalGapCorrect": true,
+      "evidence": "Preserves the stream/dragon image and the humble-beginnings reading.",
+      "nonEmptyGap": true,
+      "multiChunk": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-282",
+      "literalGapCorrect": true,
+      "evidence": "Heart released and relief after worry preserve the metaphor and real reading; exact wording is not required.",
+      "nonEmptyGap": true,
+      "multiChunk": true
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-283",
+      "literalGapCorrect": false,
+      "evidence": "Misses being stood up; also replaces the literal hit-by-wind image with wind came.",
+      "nonEmptyGap": true,
+      "multiChunk": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-284",
+      "literalGapCorrect": false,
+      "evidence": "Supplies the unrelated home proverb instead of good fortune amid misfortune.",
+      "nonEmptyGap": true,
+      "multiChunk": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-285",
+      "literalGapCorrect": false,
+      "evidence": "Clear one's mind omits releasing expectations or wanting in g_m37_maeum_biuda. Borderline broad paraphrase: independent review must resolve this explicitly.",
+      "nonEmptyGap": true,
+      "multiChunk": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-286",
+      "literalGapCorrect": false,
+      "evidence": "Empty gap and literal save-the-person reading omit the cry for help.",
+      "nonEmptyGap": false,
+      "multiChunk": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-287",
+      "literalGapCorrect": false,
+      "evidence": "Explains uncountable quantity instead of requiring much care or work.",
+      "nonEmptyGap": true,
+      "multiChunk": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-288",
+      "literalGapCorrect": false,
+      "evidence": "Adds night to the literal morning image and collapses figurative suddenness into elapsed duration.",
+      "nonEmptyGap": true,
+      "multiChunk": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-289",
+      "literalGapCorrect": false,
+      "evidence": "Misreads 새 as new instead of an interval/opportunity and 뜨다 as see; the correct busyness reading does not repair the literal error.",
+      "nonEmptyGap": true,
+      "multiChunk": false
+    },
+    {
+      "id": "DAN-V2-CANDIDATE-290",
+      "literalGapCorrect": false,
+      "evidence": "The Korean way of doing things misses dated/joking lateness and supplies an unsupported broader generalization.",
+      "nonEmptyGap": true,
+      "multiChunk": false
+    }
+  ],
+  "counts": {
+    "total": 10,
+    "literalGapCorrect": 2,
+    "nonEmptyGap": 9,
+    "gapPlusMultiChunk": 1,
+    "correctGapPlusMultiChunk": 1
+  }
+}
