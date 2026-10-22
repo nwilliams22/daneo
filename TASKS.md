@@ -290,7 +290,7 @@ That order is superseded by the 2026-10-05 decision: **Phase B is the live relea
 > `reference/eval/v3-translation-set.json` stays sealed; spending it is Nick's call, not an
 > engineer's. Release 0.1.0 is **not re-cut** — the in-code translator lands in a later version.
 
-- [ ] Feasibility and architecture, measured, no app code: closed-vocabulary analyser in TypeScript vs `lindera` in the Tauri shell, decided on measured chunk/`wordId` recovery over the 1,439 corpus sentences and on the conjugation-irregular count, with a hard no-runtime-download constraint.
+- [x] Feasibility and architecture measured (2026-10-22): [report](reference/eval/deterministic-engine-feasibility.md) and `node reference/eval/measure-segmentation.mjs`. A exact word IDs 407/1,439 (28.28%); B 410/1,439 (28.49%); chunk boundaries 277/1,439 (19.25%) for both eojeol adapters. **NO-GO for novel-input translation; recommend A narrowed to corpus lookup + refusal.** Later engine slices require a scope decision. B can bundle: 85,610,469 installed dictionary bytes; installer compression proxy, not a rebuilt installer, recorded in report.
 - [ ] Author and freeze the recombination development set and the out-of-course refusal class, with a provenance checker. Must not touch the sealed gate set.
 - [ ] Engine core: segmentation, deconjugation and gloss assembly as pure tested functions, reusing `romanize()` and `particlesIn()`, refusing any input with an unresolvable token.
 - [ ] `literal_gap` and `cultural_note` by lookup over the 420 reviewed `gap.json` entries. Never synthesized; empty where no reviewed entry applies.
@@ -1663,3 +1663,7 @@ verification* section with the per-platform steps, the expected results and an
 empty verdict table, because the previous record stated the requirement in prose
 and gave him nothing to work through. Documentation only: no app code, no
 content, no eval set, no model artifact and no 0.1.0 installer touched.
+
+### 2026-10-22 · Deterministic translator feasibility
+
+Measured the closed-vocabulary probe and pinned Lindera 6.2.0 against all 1,439 corpus surfaces without sentence lookup. Exact ID recovery is poor (28.28% / 28.49%); recommend corpus-sentence lookup and refusal, with no novel-input engine implementation. Audited 1,646 predicates: 120 own-inflection prose descriptions under the documented marker audit, zero structured conjugation fields, ten engineering cases (eight irregular families plus two predictable deletion cases). The report separates semantic chunk/partial word-list label limitations from morphology errors and prices B’s bundleable dictionary. No application, release-staging, sealed-set or rubric changes. Checks: measurement commands and syntax check pass; `npm test` 23 files / 249 tests pass; `npm run validate:content` 16/16 pass; `npm run build` passes including typecheck (existing large-chunk warning). Next: confirm this commit’s CI, then the next slice needs a scope decision for lookup/refusal rather than continuing the novel-input engine plan.
