@@ -957,3 +957,70 @@ Recorded as **weak evidence about this candidate**, not as a neutral option.
    lands in a later version and publishing anything still asks.
 
 The decision is the owner's and is recorded in the section below when he answers.
+
+## Nick's decision — 2026-10-24: fix the three defects, then ship it as a lesson breakdown
+
+**Answered on BAD-267.** Both recommendations were taken, and a third answer
+changed what the release ticket is waiting on.
+
+| Question | His answer |
+| --- | --- |
+| What do we do with the in-code engine? | **Fix the three defects first, then ship it as a lesson breakdown** |
+| Do we open `v3-translation-set.json` and score this engine on it? | **Keep it sealed** |
+| The 0.1.0 installer results | Not run: *"I haven't run them because I don't know where to get the installers."* |
+
+### What the decision settles
+
+1. **The surface ships, and it does not ship as a translator.** Recommendation 2
+   of the section above is adopted over recommendation 1. It goes out under a
+   name that describes a **lesson-sentence breakdown**: the per-chunk gloss, the
+   computed particle chips, the 193 reviewed `lit` → `real` gap explanations with
+   their cultural notes, and save-to-deck, over the 1,439 sentences the course
+   teaches. No copy on it may claim translation, free input, or coverage outside
+   the taught corpus.
+2. **The three defects are a precondition of shipping, not a follow-up.** Named
+   in §*What each failure mode costs a learner* above: the refusal must name the
+   untaught word it already holds in `unresolvedInput` (6/6 failures); the
+   submitted input must be normalized before lookup, because `ExplorePage.run`
+   passes the raw field through and an invisible trailing space defeats a corpus
+   sentence; and a learner needs a browse path to the sentences it can answer,
+   where today there are two worked examples out of 1,439.
+3. **0/24 stands as the measured number for this candidate**, undiluted. It
+   ships because a correct breakdown of 1,439 reviewed sentences is worth
+   shipping, not because the rubric verdict moved. The rubric is unedited and
+   measured-closed.
+4. **The sealed gate stays sealed.** `v3-translation-set.json` has still never
+   been opened and all 136 reservations in `check-independent-freeze.py` remain
+   intact. It is the last reserved set; it was not spent on a lookup engine whose
+   own lookup table it is drawn from.
+5. **A later version, never 0.1.0.** The four staged installers are untouched
+   and `reference/releases/0.1.0/SHA256SUMS` is unchanged. Publishing still asks.
+
+### What the decision does not authorize
+
+- **No model.** The engine programme is closed, `reference/model-pin.json` stays
+  `{"pin": null}`, and the gated-out model code stays in the tree and off in
+  production builds. Shipping a deterministic breakdown is not a step back
+  towards an eighth model rung.
+- **No new-input coverage claim.** The `outside-course` refusal path is the
+  product, not a gap to be papered over with synthesis. Naming the untaught word
+  is a better refusal, not a weaker one.
+- **No rubric edit and no re-score.** The 0/24 is not to be re-run for a kinder
+  number, on any population, sealed or otherwise.
+
+### The installers were already on the build host
+
+The third answer is not a verdict, it is a blocker: nobody told him where the
+bytes were. They are on this machine, and they are intact —
+`sha256sum -c SHA256SUMS` in `.release-staging/0.1.0/` passes **4/4** against
+`reference/releases/0.1.0/SHA256SUMS` on 2026-10-24, so the irreplaceable bytes
+are the ones recorded at release. The path and the copy command are on the owner
+platform verification ticket. No installer was rebuilt and no CI artifact was
+needed.
+
+### What follows
+
+**BAD-274** — fix the three defects and ship the breakdown under its own name in
+a later version — owned by Bad Dong, closed when the three defects have tests
+and the surface no longer calls itself a translator. Phase E is otherwise
+finished: there is no slice 8 on the engine.
