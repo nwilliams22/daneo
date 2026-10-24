@@ -826,3 +826,134 @@ hears it as a finding rather than discovering it in review.
   version. Nothing in this section changes a staged 0.1.0 installer.
 - **The gated-out model code is not deleted and not re-enabled.** It stays in the
   tree, off in production builds, available in development.
+
+## Option D measured — 2026-10-22: there is no translator, there is a lesson lookup
+
+**The eighth rung, and the first one with no model in it.** Option D was built,
+wired into Explore and scored under the unedited rubric. The result is **0/24
+fully correct**, agreed on every item by an independent re-score. Source of
+truth: [`recombination-course-results.md`](recombination-course-results.md) at
+`b272896`, over the frozen set in
+[`recombination-dev-set.json`](recombination-dev-set.json), with raw adapter
+output and all six per-dimension verdicts retained.
+
+| Frozen recombination population | Fully correct | Refusals | Substantive answers |
+| --- | ---: | ---: | ---: |
+| Class 1 — recombinations of taught words | 0/12 | 12/12 | 0/12 |
+| Class 2 — out-of-course, refusal expected | 0/6 | 6/6 | 0/6 |
+| Class 3 — near-misses | 0/6 | 6/6 | 0/6 |
+| **Total** | **0/24** | **24/24** | **0/24** |
+
+The engine answered nothing. It is not a score that a better prompt or a bigger
+artifact moves, because there is no model in the loop: the engine returns the
+typed `outside-course` error on every input that is not a verbatim course
+sentence, by construction and on purpose.
+
+### This was predicted, measured first, and then chosen
+
+§*Two problems this plan has that a model-based plan did not* wrote the
+conditional before any app code existed: *"If that number is poor, option D is a
+corpus-sentence lookup with a refusal path for everything else — still useful,
+much narrower, and the board hears it as a finding rather than discovering it in
+review."* The number was poor.
+[`deterministic-engine-feasibility.md`](deterministic-engine-feasibility.md)
+recovers the stored word-ID set of a corpus sentence from its Korean surface
+alone in **407/1,439 (28.28%)** sentences, **410/1,439 (28.49%)** with a bundled
+dictionary adapter, and the stored chunk boundaries in **277/1,439 (19.25%)**.
+Conjugation, not segmentation, is what fails: `words.json` stores `마시다` and the
+corpus uses `마셔요`, with the irregulars written as human prose in each entry's
+`notes`.
+
+So the engine was narrowed to exact lookup with the owner's accepted scope change
+at slice 3, and the 0/24 is the honest consequence of that narrowing rather than
+a new discovery. **The rubric verdict is therefore that the translator does not
+exist**, not that a translator was built and scored badly. The rubric describes
+open-ended translation; the thing that was built does not attempt it.
+
+### What each failure mode costs a learner
+
+1. **Every recombination of taught words is refused (18/18 must-answer items).**
+   A learner who has finished Module 2 and assembles `친구는 우유를 좋아해요` from
+   words the course taught them gets no answer. This is the single most natural
+   thing a learner does with a translator, and it is the whole of classes 1 and
+   3. The refusal is honest, but to a learner it is indistinguishable from the
+   feature being broken.
+2. **The out-of-course refusal does not name the untaught word (6/6).** On
+   `저는 양자컴퓨터를 봐요` the engine knows which token it could not resolve —
+   `unresolvedInput` holds it internally — and the Explore adapter returns the
+   whole submitted sentence instead. Echoing the input back is not a diagnosis.
+   The learner is told something is outside the course without being told which
+   word, which is the one piece of information that would let them act.
+3. **Exact match means exact, with no trimming or normalization.** A trailing
+   space, a missing terminal mark or different spacing refuses. `ExplorePage.run`
+   passes the raw field value through, so a stray space a learner cannot see
+   defeats a sentence that is in the corpus.
+4. **Two worked examples out of 1,439, and no browse path.** The only
+   discoverable way in is copying a sentence out of a lesson. Nothing in Explore
+   shows a learner the set of sentences it can answer.
+
+**No invented rule, no meaning reversal and no thinking leak was observed
+(0/24 each).** That is the failure mode that declined two Korean model families
+at 15/30 invented-rule items, and a lookup engine is structurally incapable of
+it. It is also, on this population, measured over zero substantive answers — the
+clean flags are a property of the design, not evidence of translation quality.
+
+### What does work, measured
+
+Over all 1,439 reviewed course sentences, submitted as the exact joined Korean
+surface Explore and the lesson card both render:
+
+| Measure | Result |
+| --- | ---: |
+| Sentences returning a reviewed translation | **1,439/1,439** |
+| Ambiguous or unsafe source rows | 0 |
+| Sentences carrying a reviewed `lit` → `real` gap and cultural note | 193 |
+
+Reproduce from the repository root with `node --import tsx`, calling
+`translateCorpusSentence(sentenceSurface(s.ko))` over `src/content/sentences.json`
+and counting statuses. That is complete, correct coverage of the lookup table —
+and the honest discount is that **the lesson card already shows most of it**.
+`SentenceList.tsx` renders the same Korean with the same role colouring, the
+romanization, the English and the sentence note. What Explore adds beyond the
+lesson is the explicit per-chunk gloss text, the computed particle chips, the 193
+gap lit → real explanations with their cultural notes, and the save-to-deck path
+into the gap drills. That is a real feature. It is a **lesson-sentence
+breakdown**, not a translator, and calling it a translator is the part that would
+mislead a learner.
+
+### The sealed gate should not be spent on this
+
+[`v3-translation-set.json`](v3-translation-set.json) has never been opened and
+`check-independent-freeze.py` exits 0 over all 136 reservations. Spending it here
+would be the worst purchase available:
+
+- **Every item in it is a corpus sentence**, carrying a `corpusSentenceId`, and
+  the corpus is this engine's own lookup table. A lookup engine scores near
+  perfectly on it while demonstrating nothing. That is memorisation in the most
+  literal sense, and §*Two problems* is why the recombination set was authored in
+  the first place.
+- **It would read as a pass.** A high number against a sealed, reserved,
+  independently frozen gate is the strongest-looking evidence this project
+  produces, and it would be evidence about the wrong question. The measured
+  0/24 is the number that describes this candidate.
+- **It is the last reserved set.** All 96 earlier reservations are burned. Spent
+  here, a future question that genuinely needs an unseen population has nothing
+  left to ask it with.
+
+Recorded as **weak evidence about this candidate**, not as a neutral option.
+
+### Recommendation to the owner — 2026-10-22
+
+1. **The translator does not ship, because there is no translator.** Do not
+   release the Explore surface under that name on a 0/24 measurement.
+2. **The lesson-sentence breakdown is worth shipping under its own name**, in a
+   later version, after the three defects above are fixed: name the untaught word
+   on refusal, normalize the submitted input, and give a learner a way to find
+   the sentences it can answer. If those do not land, option 1 stands alone and
+   the surface is gated out of production builds the way the model translator is.
+3. **Keep the sealed gate sealed.**
+4. **Nothing in the released 0.1.0 changes either way.** Its four staged
+   installers are the bytes under owner platform verification; the breakdown
+   lands in a later version and publishing anything still asks.
+
+The decision is the owner's and is recorded in the section below when he answers.
