@@ -4,6 +4,10 @@ import { sentenceSchema, translationResultSchema } from "./schemas";
 import { romanize } from "./romanize";
 import { lookupGap } from "./gap-lookup";
 import { particlesIn } from "./translation-postprocess";
+import {
+  normalizeCourseInput, spacingKey, terminalMarkKey, untaughtWords,
+  type UntaughtWord,
+} from "./course-input";
 
 const courseSentences = sentenceSchema.array().parse(sentencesJson);
 
@@ -85,4 +89,102 @@ export function translateCorpusSentence(
     };
   }
   return assembleCorpusSentence(matches[0]);
+}
+
+/** Which canonical key matched, for the ladder below. */
+export type MatchedBy = "exact" | "terminal-mark" | "spacing";
+
+const PASSES: { matchedBy: MatchedBy; key: (text: string) => string }[] = [
+  { matchedBy: "exact", key: normalizeCourseInput },
+  { matchedBy: "terminal-mark", key: terminalMarkKey },
+  { matchedBy: "spacing", key: spacingKey },
+];
+
+/** One key→sentences map per pass, built once per corpus array. */
+const indexes = new WeakMap<object, Map<string, Sentence[]>[]>();
+
+function keyIndexes(sentences: readonly Sentence[]): Map<string, Sentence[]>[] {
+  const cached = indexes.get(sentences as object);
+  if (cached) return cached;
+  const built = PASSES.map(pass => {
+    const map = new Map<string, Sentence[]>();
+    for (const sentence of sentences) {
+      const key = pass.key(sentenceSurface(sentence.ko));
+      const bucket = map.get(key);
+      if (bucket) bucket.push(sentence);
+      else map.set(key, [sentence]);
+    }
+    return map;
+  });
+  indexes.set(sentences as object, built);
+  return built;
+}
+
+export type SubmittedLookup =
+  | {
+      status: "translated";
+      sentenceId: string;
+      matchedBy: MatchedBy;
+      result: TranslationResult;
+    }
+  | {
+      status: "refused";
+      reason: "no-exact-match" | "ambiguous-match" | "invalid-source";
+      /** What was actually looked up, after normalization. */
+      submitted: string;
+      /** Tokens the course contains nowhere; empty when every word is taught. */
+      untaught: UntaughtWord[];
+      sentenceIds: string[];
+    };
+
+/**
+ * The learner-facing boundary: normalize what was submitted, then look it up.
+ *
+ * Three exact lookups against progressively more canonical keys, never a fuzzy
+ * one. An invisible or doubled space is removed before the first pass; the
+ * second pass ignores a missing or extra terminal mark, which 376 of the 1,439
+ * sentences carry; the third ignores where the spaces fell. Each pass is still
+ * equality against a reviewed sentence, so no input outside the corpus can be
+ * answered and a key that matches two sentences refuses as ambiguous rather
+ * than picking one. `translateCorpusSentence` above stays byte-strict, because
+ * the evaluation harness and its provenance tests are written against it.
+ */
+export function lookupSubmittedSentence(
+  raw: string,
+  sentences: readonly Sentence[] = courseSentences,
+): SubmittedLookup {
+  const submitted = normalizeCourseInput(raw);
+  const byKey = keyIndexes(sentences);
+  for (const [index, pass] of PASSES.entries()) {
+    const wanted = pass.key(submitted);
+    if (wanted === "") break;
+    const matches = byKey[index].get(wanted) ?? [];
+    if (matches.length === 0) continue;
+    if (matches.length > 1) {
+      return {
+        status: "refused",
+        reason: "ambiguous-match",
+        submitted,
+        untaught: [],
+        sentenceIds: matches.map(sentence => sentence.id),
+      };
+    }
+    const assembled = assembleCorpusSentence(matches[0]);
+    return assembled.status === "translated"
+      ? { ...assembled, matchedBy: pass.matchedBy }
+      : {
+          status: "refused",
+          reason: "invalid-source",
+          submitted,
+          untaught: [],
+          sentenceIds: assembled.sentenceIds,
+        };
+  }
+  return {
+    status: "refused",
+    reason: "no-exact-match",
+    submitted,
+    untaught: untaughtWords(submitted),
+    sentenceIds: [],
+  };
 }

@@ -2,7 +2,9 @@ import { lazy, Suspense, useState } from "react";
 import PageHeader from "../../components/PageHeader";
 import SavedDeck from "./SavedDeck";
 import ResultCard from "./ResultCard";
+import LessonSentences from "./LessonSentences";
 import { translateCourse } from "./course-api";
+import { normalizeCourseInput } from "../../lib/course-input";
 import type { TranslateOutcome } from "./translation-contract";
 
 // Vite replaces DEV at build time. Production never imports the AI surface,
@@ -20,11 +22,14 @@ export default function ExplorePage() {
   const [outcome, setOutcome] = useState<TranslateOutcome | null>(null);
   const [savedId, setSavedId] = useState<number | null>(null);
 
+  // Normalize at the boundary, so an invisible space the learner cannot see
+  // never decides whether a lesson sentence is found. The matcher stays exact.
   function run(text: string) {
-    if (!text.trim()) return;
-    setSubmitted(text);
+    const normalized = normalizeCourseInput(text);
+    if (!normalized) return;
+    setSubmitted(normalized);
     setSavedId(null);
-    setOutcome(translateCourse(text));
+    setOutcome(translateCourse(normalized));
   }
 
   return (
@@ -32,15 +37,16 @@ export default function ExplorePage() {
       {TranslatorPage && (
         <button type="button" onClick={() => setModelDev(!modelDev)}
           className="mb-4 text-xs text-muted underline">
-          {modelDev ? "Back to course translator" : "Model translator · development only"}
+          {modelDev ? "Back to the lesson breakdown" : "Model translator · development only"}
         </button>
       )}
       {modelDev && TranslatorPage ? <Suspense fallback={null}><TranslatorPage /></Suspense> : <>
-        <PageHeader eyebrow="한국어 · Explore" title="Course translator"
-          blurb="Explore Korean sentences from the lessons, with English meaning, Korean-order gloss and reviewed notes. Works offline — no AI, download, key or account." />
+        <PageHeader eyebrow="한국어 · Explore" title="Lesson sentence breakdown"
+          blurb="Take a sentence the lessons teach apart: its English meaning, the gloss in Korean order, what each particle is doing, and where the literal and real meanings part ways. Works offline — no AI, download, key or account." />
         <p id="course-scope" className="mb-4 text-sm leading-relaxed text-muted">
-          Exact course sentences only, including spacing and punctuation. New combinations,
-          words outside the course and English input are not supported. Try an example to start.
+          Sentences from the lessons only — nothing is guessed. A new combination of taught
+          words, a word outside the course and English input are all refused, and a refusal
+          says which word it could not find. Browse the lesson sentences below, or try an example.
         </p>
         <form onSubmit={event => { event.preventDefault(); run(input); }}
           className="flex gap-2 rounded-2xl border border-line bg-panel p-1.5">
@@ -62,11 +68,27 @@ export default function ExplorePage() {
         {outcome && (outcome.ok
           ? <ResultCard result={outcome.result} savedId={savedId} onSaved={setSavedId} />
           : <section role="status" className="mt-4 rounded-2xl border border-gold bg-panel p-5">
-              <h2 className="font-semibold">No reviewed translation</h2>
-              <p className="mt-2 text-sm text-muted">Could not resolve this sentence:</p>
-              <p className="mt-1 whitespace-pre-wrap break-words font-korean text-lg">{submitted}</p>
+              <h2 className="font-semibold">
+                {outcome.error.untaught?.length ? "Word not in the course" : "Not a lesson sentence"}
+              </h2>
+              {outcome.error.untaught?.length
+                // Name the word, in the form it was looked up and as it was
+                // typed. Echoing the whole sentence back is not a diagnosis.
+                ? <div className="mt-2.5 flex flex-wrap items-baseline gap-2">
+                    {outcome.error.untaught.map(({ token, word }) => (
+                      <span key={token}
+                        className="inline-flex items-baseline gap-1.5 rounded-lg border-[1.5px] border-clay bg-paper px-2.5 py-1 font-korean text-lg text-clay">
+                        {word}
+                        {word !== token && (
+                          <span className="text-xs font-normal text-muted">in {token}</span>
+                        )}
+                      </span>
+                    ))}
+                  </div>
+                : <p className="mt-1 whitespace-pre-wrap break-words font-korean text-lg">{submitted}</p>}
               <p className="mt-3 text-sm leading-relaxed">{outcome.error.message}</p>
             </section>)}
+        <LessonSentences onPick={korean => { setInput(korean); run(korean); }} />
         <SavedDeck />
       </>}
     </div>

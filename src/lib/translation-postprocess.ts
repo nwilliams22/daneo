@@ -15,7 +15,9 @@ const particles: [string, string][] = [
   ["랑", "links companions or nouns"], ["로", "marks a direction, means, or method"],
   ["의", "marks possession or association"], ["만", "limits the noun to 'only'"],
 ];
-const verbEnding = /(?:해요|하세요|했어요|합니다|습니다|ㅂ니다|이에요|예요|어요|아요|였어요|았어요|었어요|겠어요|세요|네요|죠|지만|면서|니까|려고|러|고|면|니|다|요)$/;
+/** Reviewed inflected endings: a token ending in one is a predicate form,
+ *  not a noun carrying a particle. Shared with the course input boundary. */
+export const verbEnding = /(?:해요|하세요|했어요|합니다|습니다|ㅂ니다|이에요|예요|어요|아요|였어요|았어요|었어요|겠어요|세요|네요|죠|지만|면서|니까|려고|러|고|면|니|다|요)$/;
 const predicateStems = new Set(words.filter(w => (w.pos === "verb" || w.pos === "adj") && w.ko.endsWith("다"))
   .map(w => w.ko.slice(0, -1)));
 const nominalStems = new Set(words.filter(w => ["noun", "pronoun", "determiner"].includes(w.pos)).map(w => w.ko));

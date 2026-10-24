@@ -10,6 +10,10 @@ export const translateErrorSchema = z.object({
     "invalid-input", "busy", "outside-course", "ambiguous-course", "invalid-course",
   ]),
   message: z.string(),
+  // Course refusals only: what was looked up after normalization, and the
+  // words the course contains nowhere. Absent on the transport adapters.
+  submitted: z.string().optional(),
+  untaught: z.array(z.object({ token: z.string(), word: z.string() })).optional(),
 });
 
 export const translateOutcomeSchema = z.discriminatedUnion("ok", [

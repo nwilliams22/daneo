@@ -25,13 +25,16 @@ vi.mock("../src/state/settings", () => ({
 afterEach(() => { vi.unstubAllEnvs(); vi.resetModules(); });
 
 describe("release AI entry points", () => {
-  it("exposes the course translator without model controls or tutor, keeping discoveries and settings", async () => {
+  it("exposes the lesson sentence breakdown without model controls or tutor, keeping discoveries and settings", async () => {
     vi.stubEnv("DEV", false);
     const { default: App } = await import("../src/App");
     const render = (path: string) => renderToStaticMarkup(<MemoryRouter initialEntries={[path]}><App /></MemoryRouter>);
     const explore = render("/explore");
-    expect(explore).toContain("Course translator");
+    expect(explore).toContain("Lesson sentence breakdown");
     expect(explore).toContain("Break it down");
+    expect(explore).toContain("Browse the lesson sentences");
+    // BAD-274: no user-facing string on the shipped surface claims translation.
+    expect(explore).not.toMatch(/translat/i);
     expect(explore).toContain("Discovered");
     expect(explore).toContain("water");
     expect(explore).toContain("gap deck");
