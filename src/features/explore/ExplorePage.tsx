@@ -52,7 +52,7 @@ export default function ExplorePage() {
           className="flex gap-2 rounded-2xl border border-line bg-panel p-1.5">
           <input aria-label="Korean course sentence" aria-describedby="course-scope"
             value={input} onChange={event => { setInput(event.target.value); setOutcome(null); }}
-            placeholder="Copy a Korean sentence from a lesson"
+            placeholder="Type or pick a Korean sentence from a lesson"
             className="min-w-0 flex-1 bg-transparent px-2.5 py-2 text-[15px] outline-none placeholder:text-muted" />
           <button disabled={!input.trim()} className="rounded-xl bg-teal px-4 py-2 text-sm font-bold text-on-accent disabled:opacity-35">
             Break it down
@@ -69,7 +69,7 @@ export default function ExplorePage() {
           ? <ResultCard result={outcome.result} savedId={savedId} onSaved={setSavedId} />
           : <section role="status" className="mt-4 rounded-2xl border border-gold bg-panel p-5">
               <h2 className="font-semibold">
-                {outcome.error.untaught?.length ? "Word not in the course" : "Not a lesson sentence"}
+                {outcome.error.untaught?.length ? "Word not found" : "Not a lesson sentence"}
               </h2>
               {outcome.error.untaught?.length
                 // Name the word, in the form it was looked up and as it was
