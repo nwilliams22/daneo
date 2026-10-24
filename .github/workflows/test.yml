@@ -93,7 +93,7 @@ jobs:
             src-tauri/target/release/bundle/dmg/*.dmg
             *resources.json
           if-no-files-found: error
-          retention-days: 7
+          retention-days: 90
   appimage:
     name: AppImage (Ubuntu 22.04 baseline)
     runs-on: ubuntu-24.04
@@ -141,7 +141,7 @@ jobs:
             appimage-glibc.json
             appimage-sha256.txt
           if-no-files-found: error
-          retention-days: 7
+          retention-days: 90
   appimage-launch:
     name: AppImage launch (Ubuntu 22.04)
     needs: appimage
@@ -171,4 +171,4 @@ jobs:
           name: daneo-AppImage-launch-Ubuntu-22.04
           path: launch-evidence
           if-no-files-found: error
-          retention-days: 7
+          retention-days: 90
