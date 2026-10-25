@@ -3,6 +3,7 @@ import PageHeader from "../../components/PageHeader";
 import { useSettings } from "../../state/settings";
 import { useKoreanTTS } from "../../audio/useKoreanTTS";
 import ExportImport from "./ExportImport";
+import ResetProgress from "./ResetProgress";
 import type { PersistedSettings } from "../../types";
 
 const ModelPanel = import.meta.env.DEV
@@ -177,6 +178,10 @@ export default function SettingsPage() {
 
       <div className="mt-4 rounded-2xl border border-line bg-panel">
         <ExportImport />
+        {/* Directly under Backup on purpose: the export is the only way back. */}
+        <div className="border-t border-line">
+          <ResetProgress />
+        </div>
       </div>
     </div>
   );

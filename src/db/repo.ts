@@ -7,6 +7,7 @@ import type {
   ExportSnapshot,
   FontFace,
   PersistedSettings,
+  ProgressCounts,
   TestMiss,
   TranslationResult,
 } from "../types";
@@ -94,6 +95,36 @@ export function saveTranslation(result: TranslationResult) {
 
 export function deleteTranslation(id: number) {
   return db.savedTranslations.delete(id);
+}
+
+/** What a reset would throw away, in the learner's terms. Read on demand —
+ *  the confirm step names real numbers, not a generic warning. */
+export async function progressCounts(): Promise<ProgressCounts> {
+  const [knownWords, drillResults, srsCards, moduleTests, savedTranslations] =
+    await Promise.all([
+      db.knownWords.count(),
+      db.drillResults.count(),
+      db.srsCards.count(),
+      db.moduleTests.count(),
+      db.savedTranslations.count(),
+    ]);
+  return { knownWords, drillResults, srsCards, moduleTests, savedTranslations };
+}
+
+/** Empties every learner table in one transaction.
+ *
+ *  Iterates `db.tables` instead of a hand-written list, so a table added to
+ *  the schema later is cleared too — tests/reset-progress.test.tsx seeds
+ *  whatever `db.tables` holds and proves it. Clearing beats `db.delete()`:
+ *  a deleted database that anything reopens by name comes back as an empty
+ *  v1 schema, which is the trap scripts/visual-pass.mjs works around.
+ *
+ *  Profile-ready seam: when accounts land this gains a profile id and filters
+ *  by it; callers keep calling resetAllProgress(). */
+export function clearAllProgress() {
+  return db.transaction("rw", db.tables, async () => {
+    await Promise.all(db.tables.map((t) => t.clear()));
+  });
 }
 
 export async function snapshot(

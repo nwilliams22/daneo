@@ -163,6 +163,16 @@ export interface PersistedSettings {
   hangulDone: boolean;
 }
 
+// How much learner state exists right now — what "Reset all progress" names
+// before it erases anything.
+export interface ProgressCounts {
+  knownWords: number;
+  drillResults: number;
+  srsCards: number;
+  moduleTests: number;
+  savedTranslations: number;
+}
+
 export interface ExportSnapshot {
   version: 1;
   exportedAt: number;

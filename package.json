@@ -14,6 +14,7 @@
     "lint": "oxlint",
     "tauri:build": "npm run check:version && cd src-tauri && NO_STRIP=true ../node_modules/.bin/tauri build --bundles appimage,rpm",
     "check:version": "node scripts/check-version.mjs",
+    "check:reset": "node scripts/reset-check.mjs",
     "coverage:nikl": "tsx scripts/nikl-coverage.ts",
     "ring2:plan": "tsx scripts/ring2-plan.ts",
     "ring3:plan": "tsx scripts/ring2-plan.ts -- --ring 3",

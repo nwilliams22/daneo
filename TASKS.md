@@ -1743,3 +1743,41 @@ Checks: `npm test` 33 files / 381 tests pass (6 new across
 now asserts both links exist on the real module page and seeds the SRS cards a
 real attempt would write, and a browser pass confirms the hash-router link
 lands on `#/review?module=m1` with the three seeded items named.
+
+### 2026-10-25 — Reset all progress
+
+There was no way to wipe learner data from inside the app: Settings offered a
+backup and an onboarding re-run, and clearing the real thing meant renaming
+`~/.local/share/app.daneo.desktop` from a terminal. Settings now carries
+**Reset all progress**, directly under Backup because the export is the only
+way back. Two deliberate steps: the first opens a panel that counts what will
+go ("37 known words, 1 drill answer, 1 review card, 1 module test score, 1
+saved discovery"), offers `Export a backup first` through the same
+`exportBackupFile` the Backup panel uses, and says that downloaded model files
+are kept; the second erases and reloads. The counts are read *before* the panel
+opens — a destructive confirmation that flashes "0 known words" is worse than a
+beat of nothing.
+
+`clearAllProgress` empties `db.tables` in one transaction rather than a
+hand-written list, so a table added to `db/db.ts` later is cleared too, and
+`tests/reset-progress.test.tsx` seeds whatever `db.tables` holds and asserts all
+of it goes — a new table cannot be missed in silence. Clearing beats
+`db.delete()`: a deleted database that anything reopens by name comes back as an
+empty v1 schema. `resetAllProgress` is the single funnel (Dexie + the persisted
+settings store, `onboardingDone` included) and is where a profile id will arrive
+when accounts land. `DEFAULT_SETTINGS` is now named in `state/settings.ts`, so
+a reset and a first run cannot drift apart.
+
+Checks: `npm test` 33 files / 381 tests pass (4 new in
+`tests/reset-progress.test.tsx`, which also proves the first click erases
+nothing and Cancel is a real exit); `npm run build` passes including typecheck;
+`npm run lint` clean; `npm run lint:lang` 0 FAIL / 0 WARN. `npm run check:reset`
+is new and drives the whole thing in a real Chrome — seeds a learner with 37
+known words, clicks through both steps, and reads the screens after the app's
+own reload: onboarding shows, every module reads `0/N`, Review says "Nothing to
+review", Stats say "Nothing scheduled yet", the persisted settings key is gone
+and the Dexie database is still at v2 (IndexedDB 20), not a fresh v1. It found
+two bugs this session that the unit tests had not: the zero-count flash and a
+"0 saved discoverys" plural. Its chrome profile lives in the system temp dir on
+purpose — a profile under the repo makes vite's watcher reload the page forever,
+which is the trap `scripts/visual-pass.mjs` still has.

@@ -1,14 +1,10 @@
 import { useRef, useState } from "react";
 import { snapshot, restore } from "../../db/repo";
 import { useSettings, getPersistedSettings } from "../../state/settings";
-import { saveBackup } from "./saveBackup";
-import {
-  serializeSnapshot,
-  parseSnapshot,
-  snapshotFilename,
-} from "../../lib/exportImport";
+import { exportBackupFile, type BackupStatus } from "./exportBackup";
+import { serializeSnapshot, parseSnapshot } from "../../lib/exportImport";
 
-type Status = { tone: "ok" | "error"; text: string } | null;
+type Status = BackupStatus | null;
 
 /** Backup/restore of all learner state on this device. */
 export default function ExportImport() {
@@ -21,20 +17,8 @@ export default function ExportImport() {
     if (exporting) return;
     setExporting(true);
     setStatus(null);
-    try {
-      const snap = await snapshot(getPersistedSettings());
-      const result = await saveBackup(serializeSnapshot(snap), snapshotFilename());
-      setStatus({
-        tone: "ok",
-        text: result.kind === "saved" ? `Saved ${result.path}.`
-          : result.kind === "cancelled" ? "Export cancelled. No backup was saved."
-          : "Download requested. Check your browser's downloads for the backup file.",
-      });
-    } catch {
-      setStatus({ tone: "error", text: "Export failed. The backup was not completed — try again or use Copy JSON." });
-    } finally {
-      setExporting(false);
-    }
+    setStatus(await exportBackupFile());
+    setExporting(false);
   };
 
   const doCopy = async () => {

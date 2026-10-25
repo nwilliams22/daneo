@@ -13,17 +13,26 @@ interface SettingsState extends PersistedSettings {
   }) => void;
   resetOnboarding: () => void;
   restoreSettings: (s: PersistedSettings) => void;
+  resetSettings: () => void;
 }
+
+/** A first-run learner's settings. Named so "Reset all progress" and the
+ *  store's initial state cannot drift apart. */
+export const DEFAULT_SETTINGS: PersistedSettings = {
+  romanizationVisible: true,
+  theme: "system",
+  audioEnabled: true,
+  speechRate: 0.9,
+  onboardingDone: false,
+  hangulDone: false,
+};
+
+export const SETTINGS_STORAGE_KEY = "daneo-settings";
 
 export const useSettings = create<SettingsState>()(
   persist(
     (set) => ({
-      romanizationVisible: true,
-      theme: "system",
-      audioEnabled: true,
-      speechRate: 0.9,
-      onboardingDone: false,
-      hangulDone: false,
+      ...DEFAULT_SETTINGS,
       setRomanizationVisible: (v) => set({ romanizationVisible: v }),
       setTheme: (t) => set({ theme: t }),
       setAudioEnabled: (v) => set({ audioEnabled: v }),
@@ -31,8 +40,11 @@ export const useSettings = create<SettingsState>()(
       completeOnboarding: (o) => set({ onboardingDone: true, ...o }),
       resetOnboarding: () => set({ onboardingDone: false }),
       restoreSettings: (s) => set(s),
+      // Back to a first run, onboardingDone included — the Dexie half of a
+      // reset lives in db/repo.ts clearAllProgress().
+      resetSettings: () => set(DEFAULT_SETTINGS),
     }),
-    { name: "daneo-settings" },
+    { name: SETTINGS_STORAGE_KEY },
   ),
 );
 
