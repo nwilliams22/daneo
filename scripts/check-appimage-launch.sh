@@ -8,11 +8,22 @@ mkdir -p "$profile"/{data,config,cache,runtime}
 chmod 700 "$profile/runtime"
 pid=
 cleanup() {
+  local status=$?
   if [[ -n "$pid" ]]; then
     kill "$pid" 2>/dev/null || true
     wait "$pid" 2>/dev/null || true
   fi
-  rm -rf "$profile"
+  # WebKit's helper processes outlive the main pid by a moment and keep writing
+  # into the isolated profile, so `rm -rf` races them and reports "Directory not
+  # empty". Under `set -e` that made the EXIT trap the job's verdict: on
+  # 2026-10-25 the launch passed — right window, right geometry, no missing
+  # libraries — and the run went red on the tidy-up. Retry once, and never let
+  # the cleanup decide the result.
+  rm -rf "$profile" 2>/dev/null || {
+    sleep 2
+    rm -rf "$profile" 2>/dev/null || true
+  }
+  exit "$status"
 }
 trap cleanup EXIT
 printf 'env -i [isolated profile and X display] %q\n' "$image" > "$evidence/command.txt"
