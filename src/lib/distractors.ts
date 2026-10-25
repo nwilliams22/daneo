@@ -33,6 +33,37 @@ export function generateConfusableOptions(
   return shuffle([target, ...distractors], rng);
 }
 
+export interface ConfusableTrueFalse {
+  /** The letter on the card. */
+  item: ConfusableItem;
+  /** The single sound shown with it — the item's own, or a look-alike's. */
+  sound: string;
+  /** Whether `sound` really is this letter's romanization. */
+  isTrue: boolean;
+  /** The look-alike the shown sound belongs to (absent when `isTrue`). */
+  decoy?: ConfusableItem;
+}
+
+/** Flashcard true/false item: the card shows one letter with one sound and the
+ *  learner judges it, so the app grades the answer instead of the learner.
+ *  A false sound is always another confusable's — same group whenever the group
+ *  has one (§6.2) — and never the target's own romanization. The coin is fair,
+ *  so answering "true" every time lands near 50%. */
+export function generateConfusableTrueFalse(
+  target: ConfusableItem,
+  pool: ConfusableItem[],
+  rng: Rng = Math.random,
+): ConfusableTrueFalse {
+  const others = pool.filter((x) => x.id !== target.id && x.r !== target.r);
+  const sameGroup = others.filter((x) => x.group === target.group);
+  const candidates = sameGroup.length > 0 ? sameGroup : others;
+  const decoy = rng() < 0.5 ? shuffle(candidates, rng)[0] : undefined;
+  // Nothing to mistake it for (a single-item pool): the honest card is the
+  // only answerable one.
+  if (!decoy) return { item: target, sound: target.r, isTrue: true };
+  return { item: target, sound: decoy.r, isTrue: false, decoy };
+}
+
 /** Vocab question (placement quiz): 4 words with distinct English senses. */
 export function generateWordOptions(
   target: Word,

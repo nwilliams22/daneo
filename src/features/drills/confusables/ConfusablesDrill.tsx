@@ -2,7 +2,10 @@ import { useMemo, useState } from "react";
 import { Link, Navigate, useParams } from "react-router";
 import { confusables } from "../../../content";
 import type { ConfusableItem } from "../../../types";
-import { generateConfusableOptions } from "../../../lib/distractors";
+import {
+  generateConfusableOptions,
+  generateConfusableTrueFalse,
+} from "../../../lib/distractors";
 import { useDrillEngine } from "../engine/useDrillEngine";
 import { useDrillKeys } from "../engine/useDrillKeys";
 import DrillScaffold from "../engine/DrillScaffold";
@@ -35,7 +38,8 @@ function ConfusablesDrill({
 }) {
   const [setKey, setSetKey] = useState<string>(reviewIds ? "all" : "compound");
   const [mixFonts, setMixFonts] = useState(false);
-  const [revealed, setRevealed] = useState(false);
+  /** Flashcard true/false call, or null before the learner answers. */
+  const [said, setSaid] = useState<boolean | null>(null);
   const [picked, setPicked] = useState<string | null>(null);
 
   const buildPool = (key: string) => {
@@ -57,6 +61,26 @@ function ConfusablesDrill({
     [current, pool],
   );
 
+  // Flashcards are app-graded (BAD-279): one letter, one sound, true or false.
+  // `round` counts manual advances, so a letter that comes round again — in a
+  // one-item review pool, every time — gets a freshly drawn true/false case,
+  // while the card itself stays put while the learner reads it.
+  const [round, setRound] = useState(0);
+  // The false sound is drawn from the whole set, not the drill pool: a set
+  // filter or a one-item review queue decides which letters get tested, not
+  // which look-alike may lend its sound. The builder still prefers the
+  // target's own group, which is the selected set whenever one is selected.
+  const tf = useMemo(
+    () => (current ? generateConfusableTrueFalse(current, confusables) : undefined),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [current?.id, engine.index, round],
+  );
+
+  const nextCard = () => {
+    setRound((r) => r + 1);
+    engine.advance();
+  };
+
   // Cross-font difficulty (PROJECT.md §5): one random face per prompt,
   // stable until the engine advances. Non-Gothic answers log their face.
   const face = useMemo(
@@ -68,14 +92,19 @@ function ConfusablesDrill({
 
   const switchSet = (key: string) => {
     setSetKey(key);
-    setRevealed(false);
+    setSaid(null);
     setPicked(null);
+    setRound((r) => r + 1);
     engine.reset(buildPool(key));
   };
 
-  const gradeFlash = (got: boolean) => {
-    setRevealed(false);
-    engine.answer(got, { advanceAfterMs: 0, face: faceOpt });
+  /** The learner calls the shown sound true or false; the app decides who was
+   *  right, and that — never a self-report — is what reaches the schedule. */
+  const answerFlash = (call: boolean) => {
+    if (said !== null || !tf) return;
+    setSaid(call);
+    // Hold on the reveal card so the contrast gets read before advancing.
+    engine.answer(call === tf.isTrue, { advanceAfterMs: null, face: faceOpt });
   };
 
   const pickQuiz = (id: string) => {
@@ -91,19 +120,21 @@ function ConfusablesDrill({
   const [lastItem, setLastItem] = useState(itemKey);
   if (itemKey !== lastItem) {
     setLastItem(itemKey);
-    setRevealed(false);
+    setSaid(null);
     setPicked(null);
   }
+  // A one-item pool keeps the same id and index across an advance, so the
+  // feedback window — not the item key — is what clears the flashcard call.
+  if (said !== null && !engine.answered) setSaid(null);
 
   useDrillKeys({
-    onSpace:
-      mode === "flashcard" && !revealed ? () => setRevealed(true) : undefined,
+    onSpace: mode === "flashcard" && engine.answered ? nextCard : undefined,
     onNumber:
       mode === "flashcard"
-        ? revealed
+        ? said === null
           ? (n) => {
-              if (n === 1) gradeFlash(false);
-              else if (n === 2) gradeFlash(true);
+              if (n === 1) answerFlash(false);
+              else if (n === 2) answerFlash(true);
             }
           : undefined
         : !picked
@@ -112,7 +143,7 @@ function ConfusablesDrill({
               if (o) pickQuiz(o.id);
             }
           : undefined,
-    onEnter: engine.answered ? engine.advance : undefined,
+    onEnter: engine.answered ? nextCard : undefined,
   });
 
   if (reviewIds && pool.length === 0) return <ReviewEmpty />;
@@ -126,15 +157,16 @@ function ConfusablesDrill({
       title={mode === "flashcard" ? "Look-alike Flashcards" : "Look-alike Quiz"}
       blurb={
         mode === "flashcard"
-          ? "Reveal at your own pace and grade yourself — each reveal shows what the letter gets mistaken for."
+          ? "One letter, one sound, true or false — a wrong sound always belongs to a look-alike, and the card then shows what gets mistaken for what."
           : "Four sounds, one letter — distractors always come from the same confusable group."
       }
       seen={engine.seen}
       correct={engine.correct}
       pct={engine.pct}
       onReset={() => {
-        setRevealed(false);
+        setSaid(null);
         setPicked(null);
+        setRound((r) => r + 1);
         engine.reset();
       }}
       missed={engine.missed.map((m) => ({ id: m.id, big: m.c, small: m.r }))}
@@ -177,49 +209,65 @@ function ConfusablesDrill({
           {FACE_LABEL[face]}
         </div>
       )}
-      <GlyphCard
-        glyph={current.c}
-        faceClass={FACE_FONT[face]}
-        onClick={
-          mode === "flashcard" && !revealed ? () => setRevealed(true) : undefined
-        }
-      />
+      <GlyphCard glyph={current.c} faceClass={FACE_FONT[face]} />
 
-      {mode === "flashcard" &&
-        (!revealed ? (
-          <button
-            onClick={() => setRevealed(true)}
-            className="w-full rounded-xl border border-line py-3 text-sm font-semibold text-muted transition-colors hover:text-ink"
-          >
-            Tap to reveal <span className="text-xs">(Space)</span>
-          </button>
-        ) : (
-          <div>
-            <div className="text-center">
-              <div className="flex items-center justify-center gap-2 text-3xl font-bold tracking-tight">
-                {current.r}
-                <AudioButton text={current.c} />
-              </div>
-              <div className="mx-auto mt-2 max-w-xs text-[13.5px] leading-relaxed text-muted">
-                {current.note}
-              </div>
-            </div>
-            <div className="mt-4 flex gap-2.5">
+      {mode === "flashcard" && tf && (
+        <div>
+          <div className="mb-3 text-center text-[13px] text-muted">
+            This letter is{" "}
+            <span className="text-base font-bold text-ink">{tf.sound}</span> —
+            true or false? <span className="text-xs">(keys 1–2)</span>
+          </div>
+          {said === null ? (
+            <div className="flex gap-2.5">
               <button
-                onClick={() => gradeFlash(false)}
+                onClick={() => answerFlash(false)}
                 className="flex-1 rounded-xl border border-clay py-3 text-sm font-bold text-clay transition-colors hover:bg-clay hover:text-on-accent"
               >
-                Missed it <span className="font-normal opacity-70">(1)</span>
+                False <span className="font-normal opacity-70">(1)</span>
               </button>
               <button
-                onClick={() => gradeFlash(true)}
-                className="flex-[1.4] rounded-xl bg-teal py-3 text-sm font-bold text-on-accent transition-opacity hover:opacity-90"
+                onClick={() => answerFlash(true)}
+                className="flex-1 rounded-xl border border-teal py-3 text-sm font-bold text-teal transition-colors hover:bg-teal hover:text-on-accent"
               >
-                Got it <span className="font-normal opacity-70">(2)</span>
+                True <span className="font-normal opacity-70">(2)</span>
               </button>
             </div>
-          </div>
-        ))}
+          ) : (
+            <div>
+              <div
+                className={`text-center text-sm font-bold ${
+                  said === tf.isTrue ? "text-teal" : "text-clay"
+                }`}
+              >
+                {said === tf.isTrue ? "Correct" : "Not quite"}
+              </div>
+              <div className="mt-3 border-t border-line pt-3 text-center">
+                <div className="flex items-center justify-center gap-2 text-3xl font-bold tracking-tight">
+                  {current.r}
+                  <AudioButton text={current.c} />
+                </div>
+                <div className="mx-auto mt-2 max-w-xs text-[13.5px] leading-relaxed text-muted">
+                  {current.note}
+                </div>
+                {tf.decoy && (
+                  <div className="mx-auto mt-2 max-w-xs text-[13.5px] leading-relaxed text-muted">
+                    <span className="font-semibold text-ink">{tf.sound}</span> is{" "}
+                    <span className="font-korean">{tf.decoy.c}</span> —{" "}
+                    {tf.decoy.note}
+                  </div>
+                )}
+              </div>
+              <button
+                onClick={nextCard}
+                className="mt-4 w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"
+              >
+                Next <span className="font-normal opacity-70">(Enter)</span>
+              </button>
+            </div>
+          )}
+        </div>
+      )}
 
       {mode === "quiz" && (
         <div>

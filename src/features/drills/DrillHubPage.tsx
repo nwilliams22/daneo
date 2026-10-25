@@ -14,7 +14,7 @@ const DRILLS: {
     to: "/drill/confusables/flashcards",
     ko: "ㅘ",
     title: "Confusables · Flashcards",
-    blurb: "Reveal-and-grade-yourself over the look-alike letters.",
+    blurb: "One letter, one sound — call it true or false over the look-alikes.",
     available: true,
   },
   {
