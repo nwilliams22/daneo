@@ -218,8 +218,8 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
 
   if (sections.length === 0)
     return (
-      <div className="rounded-2xl border border-dashed border-line bg-panel px-6 py-12 text-center">
-        <div className="font-korean text-4xl">✨</div>
+      <div className="rounded-panel bg-panel shadow-panel px-6 py-12 text-center">
+        <div className="font-korean text-4xl">✓</div>
         <div className="mt-3 text-sm font-semibold">Nothing to review</div>
         <p className="mx-auto mt-1.5 max-w-xs text-[13px] leading-relaxed text-muted">
           Miss something in any drill or module test and it will appear here

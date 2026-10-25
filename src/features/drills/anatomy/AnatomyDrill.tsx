@@ -184,7 +184,7 @@ function AnatomyDrill({
         >
           ← Drills
         </Link>
-        <div className="rounded-2xl border border-dashed border-line bg-panel px-6 py-10 text-center">
+        <div className="rounded-panel bg-panel shadow-panel px-6 py-10 text-center">
           <div className="font-korean text-3xl">문</div>
           <div className="mt-3 text-sm font-semibold">
             No sentences unlocked yet

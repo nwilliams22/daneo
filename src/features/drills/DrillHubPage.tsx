@@ -97,7 +97,7 @@ export default function DrillHubPage() {
           ) : (
             <div
               key={d.to}
-              className="flex items-center gap-4 rounded-2xl border border-dashed border-line px-5 py-4 opacity-60"
+              className="flex items-center gap-4 rounded-panel bg-fill px-5 py-4 opacity-60"
             >
               <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-panel bg-panel shadow-panel font-korean text-2xl text-muted">
                 {d.ko}

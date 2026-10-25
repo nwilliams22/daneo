@@ -454,8 +454,8 @@ export default function ReviewSessionRoute() {
     return (
       <div>
         <PageHeader eyebrow="한국어 · Review" title="Review Queue" />
-        <div className="rounded-2xl border border-dashed border-line bg-panel px-6 py-10 text-center">
-          <div className="font-korean text-3xl">✨</div>
+        <div className="rounded-panel bg-panel shadow-panel px-6 py-10 text-center">
+          <div className="font-korean text-3xl">✓</div>
           <div className="mt-3 text-sm font-semibold">Nothing due right now</div>
           <p className="mx-auto mt-1.5 max-w-xs text-[13px] leading-relaxed text-muted">
             Drill anything and it enters the schedule — items come due here as

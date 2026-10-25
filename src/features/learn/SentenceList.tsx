@@ -58,7 +58,7 @@ export default function SentenceList({ module }: { module: Module }) {
   if (!complete) {
     const p = moduleProgress(module, known);
     return (
-      <div className="my-4 rounded-2xl border border-dashed border-line bg-panel px-5 py-6 text-center">
+      <div className="my-4 rounded-panel bg-panel shadow-panel px-5 py-6 text-center">
         <div className="text-sm font-semibold text-muted">
           {sentences.length} sentences are waiting.
         </div>

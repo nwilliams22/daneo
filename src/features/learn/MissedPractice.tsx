@@ -65,8 +65,8 @@ function PracticeRun({ module }: { module: Module }) {
           eyebrow={`한국어 · ${module.title}`}
           title="Practice Misses"
         />
-        <div className="rounded-2xl border border-dashed border-line bg-panel px-6 py-10 text-center">
-          <div className="font-korean text-3xl">✨</div>
+        <div className="rounded-panel bg-panel shadow-panel px-6 py-10 text-center">
+          <div className="font-korean text-3xl">✓</div>
           <div className="mt-3 text-sm font-semibold">
             Nothing left to practice here
           </div>
