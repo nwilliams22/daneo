@@ -128,7 +128,7 @@ export default function ResetProgress({
         <button
           onClick={() => void doExport()}
           disabled={exporting || step === "working"}
-          className="rounded-xl bg-ink px-3.5 py-2 text-[13px] font-semibold text-paper transition-opacity hover:opacity-90 disabled:opacity-60"
+          className="rounded-xl bg-teal px-3.5 py-2 text-[13px] font-semibold text-on-accent transition-opacity hover:opacity-90 disabled:opacity-60"
         >
           {exporting ? "Exporting…" : "Export a backup first"}
         </button>

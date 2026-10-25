@@ -60,7 +60,7 @@ export default function ModelPanel() {
     setIdle(seconds);
   }
   return (
-    <section className="mt-4 rounded-panel bg-panel shadow-panel p-4" aria-label="Local model">
+    <section className="mt-4 rounded-panel bg-card shadow-panel p-4" aria-label="Local model">
       <h2 className="text-sm font-semibold">Local model</h2>
       <p className="mt-1 text-xs text-muted">The translator runs on this device. Its model unloads from memory after the idle period.</p>
       <dl className="mt-4 grid gap-2 text-xs sm:grid-cols-[7rem_1fr]">
@@ -75,7 +75,7 @@ export default function ModelPanel() {
       {cache?.ok === false && details?.pin && <p className="mt-3 text-xs text-clay" role="alert">{cache.error.message}</p>}
       <div className="mt-4 flex flex-wrap items-center gap-3">
         <button type="button" onClick={() => void download()} disabled={!desktop || !details?.pin || !!busy || installed}
-          className="rounded-xl bg-ink px-3.5 py-2 text-[13px] font-semibold text-paper disabled:opacity-40">Download model</button>
+          className="rounded-xl bg-teal px-3.5 py-2 text-[13px] font-semibold text-on-accent disabled:opacity-40">Download model</button>
         {busy === "download" && <button type="button" onClick={() => { if (downloadId.current) void modelDownloader.cancel(downloadId.current); }} className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold">Cancel</button>}
         <button type="button" onClick={() => void remove()} disabled={!desktop || !installed || !!busy}
           className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold disabled:opacity-40">Delete model</button>

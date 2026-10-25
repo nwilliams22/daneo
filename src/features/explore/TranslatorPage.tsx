@@ -102,7 +102,7 @@ export default function TranslatorPage() {
             {(["local", "cloud"] as const).map((option) => (
               <button key={option} type="button" onClick={() => chooseEngine(option)}
                 aria-pressed={engine === option}
-                className={`rounded-full px-3 py-1 font-semibold ${engine === option ? "bg-ink text-paper" : "text-muted hover:text-ink"}`}>
+                className={`rounded-full px-3 py-1 font-semibold ${engine === option ? "bg-accent-wash text-teal" : "text-muted hover:text-ink"}`}>
                 {option === "local" ? "Local" : "Cloud · dev"}
               </button>
             ))}
@@ -110,7 +110,7 @@ export default function TranslatorPage() {
         </div>
       )}
 
-      <div className="flex gap-2 rounded-panel bg-panel shadow-panel p-1.5">
+      <div className="flex gap-2 rounded-panel bg-card shadow-panel p-1.5">
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}

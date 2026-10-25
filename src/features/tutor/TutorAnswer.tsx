@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import type { TutorReply } from "./tutor";
 
 export default function TutorAnswer({ reply }: { reply: TutorReply }) {
-  return <section className="mt-5 rounded-panel bg-panel shadow-panel p-5" aria-label="Tutor answer">
+  return <section className="mt-5 rounded-panel bg-card shadow-panel p-5" aria-label="Tutor answer">
     <p className="text-[11px] font-semibold tracking-[0.15em] text-muted uppercase">Local explanation · Check the lessons</p>
     <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{reply.answer}</p>
     {reply.examples.length > 0 && <div className="mt-5 border-t border-line pt-4">

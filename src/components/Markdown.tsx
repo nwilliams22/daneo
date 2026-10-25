@@ -4,10 +4,12 @@ import type { Components } from "react-markdown";
 
 const components: Components = {
   h1: ({ children }) => (
-    <h1 className="mt-2 mb-3 text-2xl font-bold tracking-tight">{children}</h1>
+    <h1 className="mt-2 mb-3 font-serif text-[28px] leading-tight font-semibold tracking-[-0.012em]">
+      {children}
+    </h1>
   ),
   h2: ({ children }) => (
-    <h2 className="mt-9 mb-3 border-b border-line pb-1.5 text-lg font-bold tracking-tight">
+    <h2 className="mt-9 mb-3 border-b border-line pb-1.5 font-serif text-[20px] font-semibold tracking-tight">
       {children}
     </h2>
   ),
@@ -34,7 +36,7 @@ const components: Components = {
   ),
   hr: () => <hr className="my-7 border-line" />,
   table: ({ children }) => (
-    <div className="my-3 overflow-x-auto rounded-panel bg-panel shadow-panel">
+    <div className="my-3 overflow-x-auto rounded-panel bg-card shadow-panel">
       <table className="w-full text-sm">{children}</table>
     </div>
   ),

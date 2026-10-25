@@ -1,85 +1,112 @@
-/* Design tokens — direction B "Slate", chosen by Nick on BAD-281 (2026-10-25).
-   Mockups: reference/design/bad281/slate.html.
+/* Design tokens — direction C "Dancheong", chosen by Nick on BAD-281
+   (2026-10-25; he had been looking at the dark sheet when he picked, so the
+   `.dark` block below is the one he actually chose).
+   Mockups: reference/design/bad281/dancheong.html + dir-dancheong.css.
 
-   Slate is a cool grey-blue page with *borderless* panels: a surface is a filled
-   rounded rectangle with a very soft shadow, never an outlined box. That is the
-   answer to "boxy cards are ugly" — so a panel is
-   `rounded-panel bg-panel shadow-panel`, and `border border-line` is reserved for
-   dividers between rows, inputs, and chips. Do not reintroduce a border around a
-   panel.
+   Dancheong (단청) is the red / blue-green / gold painting on temple eaves. The
+   editorial end of the range: warm paper, serif display type, and **no cards at
+   all**. Space and rules do the work borders used to.
+
+   ## How a surface is drawn
+
+   `rounded-panel bg-card shadow-panel` is still the one way to draw a section,
+   but in this direction those three tokens resolve to: no fill, a 3px radius
+   nobody can see, and a single hairline *under* the block. So a page of
+   sections reads as ruled bands on paper rather than a stack of boxes — and a
+   future direction change is still a token edit, not 30 file edits. That
+   mattered: Nick changed his pick after the previous direction had shipped.
+
+   `bg-panel` is NOT that. It is the rare genuinely-filled chrome — keyboard
+   keys, a token chip, the sticky masthead — and it stays a real colour.
+
+   ## The three colours, with fixed jobs
+
+   - **Vermilion** (`teal`, historical name) = *act on this*. The next thing to
+     do, and primary buttons. Nothing decorative is vermilion.
+   - **Jade** (`meter`/`jade`) = *progress earned*. Meters, week dots, a correct
+     answer. Progress must never read as "do this next", which is why meters do
+     not use the accent.
+   - **Gold** (`clay`, historical name) = *owed*. A test waiting, a warning.
 
    Components must only use the semantic utilities these generate (bg-paper,
    text-ink, text-subject, shadow-panel, …) and never branch on theme.
 
-   Two names are historical: `teal` is the UI accent (now blue) and `clay` is the
-   warn colour (now rose). The grammar role colours did not follow them — subject
-   stays green, object rose, place gold — so they have their own values below and
+   Two names are historical and kept to avoid a 45-file rename: `teal` is the UI
+   accent (now vermilion) and `clay` is the warn colour (now gold). The grammar
+   role colours deliberately do NOT follow the accent — subject stays green,
+   object rose, place gold — so they have their own values below and
    `text-subject` & co. keep meaning what PROJECT.md §2 says they mean. */
 
 :root {
   /* page + surfaces */
-  --paper: #f3f4f7; /* the page */
-  --panel: #ffffff; /* a surface sitting on it */
-  --ink: #161a21;
-  --muted: #5f6775;
-  --faint: #8b93a1; /* third-level ink: hints, counts, placeholders */
-  --line: rgba(22, 26, 33, 0.085); /* row dividers and input edges only */
-  --grid: rgba(22, 26, 33, 0.08);
-  --fill: rgba(22, 26, 33, 0.045); /* ghost buttons, chips, fold headers */
+  --paper: #fbf9f4; /* the page */
+  --card: transparent; /* a section on it — no fill, see above */
+  --panel: #f3efe4; /* genuinely filled chrome only */
+  --ink: #141414;
+  --muted: #6b6459;
+  --faint: #978f81; /* third-level ink: hints, counts, placeholders */
+  --line: #ddd7c8; /* rules, row dividers and input edges */
+  --grid: #e3ddce;
+  --fill: rgba(20, 20, 20, 0.045); /* ghost buttons, chips, fold headers */
 
   /* the one accent: it means "this is the next thing to do" */
-  --teal: #2f58d8;
-  --on-accent: #ffffff;
-  --accent-wash: rgba(47, 88, 216, 0.08);
+  --teal: #bc3a26;
+  --on-accent: #fbf9f4;
+  --accent-wash: rgba(188, 58, 38, 0.06);
 
-  /* attention / failure */
-  --clay: #c0392f;
-  --warn-wash: rgba(192, 57, 47, 0.07);
+  /* progress earned — never the accent */
+  --jade: #1c5b55;
+
+  /* attention / owed / failure */
+  --clay: #8a6a24;
+  --warn-wash: rgba(138, 106, 36, 0.09);
 
   --gold: #8a6d2f;
 
   /* grammar role colours (PROJECT.md §2) — independent of the UI accent */
-  --role-subject: #157f74;
-  --role-object: #c0392f;
+  --role-subject: #1c5b55;
+  --role-object: #a8322a;
   --role-place: #8a6d2f;
 
-  /* borderless surfaces: the shadow does the work a border used to */
-  --panel-shadow:
-    0 1px 1px rgba(16, 20, 28, 0.04), 0 4px 14px rgba(16, 20, 28, 0.05);
-  --lift-shadow:
-    0 1px 2px rgba(16, 20, 28, 0.06), 0 10px 30px rgba(16, 20, 28, 0.07);
+  /* a section is separated by the rule under it, not by a box around it */
+  --panel-shadow: 0 1px 0 0 var(--line);
+  --lift-shadow: 0 1px 0 0 var(--line), 0 10px 26px rgba(26, 24, 19, 0.07);
 }
 
 .dark {
-  --paper: #14161a;
-  --panel: #1d2026;
-  --ink: #e7eaf0;
-  --muted: #9aa3b2;
-  --faint: #79818f;
-  --line: rgba(231, 234, 240, 0.09);
-  --grid: rgba(231, 234, 240, 0.09);
-  --fill: rgba(231, 234, 240, 0.055);
+  --paper: #131210;
+  --card: transparent;
+  --panel: #1c1a17;
+  --ink: #f0ece3;
+  --muted: #9a9283;
+  --faint: #746d61;
+  --line: #33302a;
+  --grid: #2b2823;
+  --fill: rgba(240, 236, 227, 0.05);
 
-  --teal: #5f82f5;
-  --on-accent: #0c0f16;
-  --accent-wash: rgba(95, 130, 245, 0.13);
+  --teal: #e8705a;
+  --on-accent: #171412;
+  --accent-wash: rgba(232, 112, 90, 0.08);
 
-  --clay: #f08a7c;
-  --warn-wash: rgba(240, 138, 124, 0.11);
+  --jade: #4fa89c;
 
-  --gold: #b99b54;
+  --clay: #c9a452;
+  --warn-wash: rgba(201, 164, 82, 0.11);
 
-  --role-subject: #4fb5a6;
-  --role-object: #f08a7c;
-  --role-place: #b99b54;
+  --gold: #c9a452;
 
-  --panel-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
-  --lift-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 14px 40px rgba(0, 0, 0, 0.45);
+  --role-subject: #4fa89c;
+  --role-object: #ef8574;
+  --role-place: #c9a452;
+
+  --panel-shadow: 0 1px 0 0 var(--line);
+  --lift-shadow: 0 1px 0 0 var(--line), 0 10px 26px rgba(0, 0, 0, 0.45);
 }
 
 @theme inline {
   --color-*: initial;
   --color-paper: var(--paper);
+  --color-card: var(--card);
   --color-panel: var(--panel);
   --color-ink: var(--ink);
   --color-muted: var(--muted);
@@ -87,6 +114,8 @@
   --color-teal: var(--teal);
   --color-clay: var(--clay);
   --color-gold: var(--gold);
+  --color-jade: var(--jade);
+  --color-meter: var(--jade);
   --color-line: var(--line);
   --color-grid: var(--grid);
   --color-fill: var(--fill);
@@ -102,8 +131,8 @@
   --color-place: var(--role-place);
   --color-verb: var(--ink);
 
-  /* `rounded-panel bg-panel shadow-panel` is the one way to draw a surface */
-  --radius-panel: 18px;
+  /* `rounded-panel bg-card shadow-panel` is the one way to draw a surface */
+  --radius-panel: 3px;
   --shadow-panel: var(--panel-shadow);
   --shadow-lift: var(--lift-shadow);
 
@@ -115,4 +144,10 @@
   --font-myeongjo: "Noto Serif KR", AppleMyungjo, Batang, "Nanum Myeongjo",
     serif;
   --font-hand: "Nanum Pen Script", Gaegu, cursive;
+
+  /* Display face for headings and numbers. Noto Serif KR ships a full Latin
+     subset, so this is the same self-hosted family the Myeongjo drill face
+     uses — no extra font to download. `font-korean` stays sans on purpose:
+     the cross-font drill (PROJECT.md §5) needs Gothic and Myeongjo to differ. */
+  --font-serif: "Noto Serif KR", Georgia, "DejaVu Serif", serif;
 }

@@ -40,7 +40,7 @@ export default function ResultCard({
   const hasGap = result.literal_gap.trim().length > 0;
 
   return (
-    <div className="mt-4 rounded-panel bg-panel shadow-panel px-5 py-5">
+    <div className="mt-4 rounded-panel bg-card shadow-panel px-5 py-5">
       <div className="flex items-start justify-between gap-3">
         <div>
           <div className="flex items-center gap-1.5 font-korean text-[26px] leading-snug font-semibold">
@@ -58,8 +58,8 @@ export default function ResultCard({
           disabled={savedId !== null}
           className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-bold transition-opacity ${
             savedId !== null
-              ? "bg-teal/20 text-teal"
-              : "bg-ink text-paper hover:opacity-90"
+              ? "border border-jade text-jade"
+              : "bg-teal text-on-accent hover:opacity-90"
           }`}
         >
           {savedId !== null ? "Saved ✓" : "Save to deck"}

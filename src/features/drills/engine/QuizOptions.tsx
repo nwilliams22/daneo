@@ -4,8 +4,9 @@ export interface QuizOptionView {
   korean?: boolean; // render the label in the Korean face (e.g. pick-the-word)
 }
 
-/** Shared answer-option grid with the prototype's feedback coloring:
- *  after a pick, the answer turns teal, a wrong pick turns clay. */
+/** Shared answer-option grid. After a pick, the right answer fills jade — the
+ *  colour that means "progress earned" everywhere else in the app — and a wrong
+ *  pick fills vermilion. */
 export default function QuizOptions({
   options,
   pickedId,
@@ -24,20 +25,22 @@ export default function QuizOptions({
       className={`grid gap-2.5 ${columns === 2 ? "grid-cols-2" : "grid-cols-1"}`}
     >
       {options.map((o) => {
-        // Slate has no outlined boxes: an option is a filled tile, and the
-        // feedback replaces the fill rather than drawing a ring (BAD-281).
-        let cls = "bg-paper text-ink hover:bg-fill";
+        // Dancheong has no tiles: an option is a pill with a hairline edge, and
+        // the feedback fills it rather than drawing a second ring (BAD-281).
+        let cls = "border-faint text-ink hover:bg-fill";
         if (pickedId) {
-          if (o.id === answerId) cls = "bg-teal text-on-accent";
-          else if (o.id === pickedId) cls = "bg-clay text-on-accent";
-          else cls = "bg-paper text-muted opacity-75";
+          if (o.id === answerId)
+            cls = "border-jade bg-jade text-on-accent";
+          else if (o.id === pickedId)
+            cls = "border-teal bg-teal text-on-accent";
+          else cls = "border-line text-muted";
         }
         return (
           <button
             key={o.id}
             disabled={!!pickedId}
             onClick={() => onPick(o.id)}
-            className={`rounded-xl px-3 py-3.5 font-semibold transition-colors ${
+            className={`rounded-full border px-3 py-3.5 font-semibold transition-colors ${
               columns === 1 ? "text-left text-sm" : "text-center text-[16px]"
             } ${o.korean ? "font-korean" : ""} ${cls} ${pickedId ? "" : "cursor-pointer"}`}
           >

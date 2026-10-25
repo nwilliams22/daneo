@@ -27,7 +27,7 @@ export function NextButton({
   return (
     <button
       onClick={onClick}
-      className="mt-3.5 w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"
+      className="mt-3.5 w-full rounded-xl bg-teal py-3 text-sm font-bold text-on-accent"
     >
       {label} <span className="font-normal opacity-70">(Enter)</span>
     </button>

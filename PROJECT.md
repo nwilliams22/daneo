@@ -47,14 +47,15 @@ These six artifacts define the intended UX and visual language. Port their logic
 | `korean-curiosity-translator.jsx` | AI translator | Claude API returns structured JSON: korean, romanization, natural_english, gloss[], particles[], literal_gap, cultural_note |
 | `korean-module-hangul-history.md` | History module | Featural-design story doubles as mnemonics for confusables |
 
-### Design system — "Slate" (chosen by Nick on BAD-281, 2026-10-25; replaces the warm "paper" palette)
-- Palette: page `#F3F4F7`, panel `#FFFFFF`, ink `#161A21`, muted `#5F6775`, faint `#8B93A1`, accent `#2F58D8`, warn `#C0392F`, dividers `rgba(22,26,33,0.085)`. Dark: page `#14161A`, panel `#1D2026`, ink `#E7EAF0`, accent `#5F82F5`, warn `#F08A7C`.
-- **Surfaces are borderless.** A panel is `rounded-panel bg-panel shadow-panel` — a filled rounded rectangle with a very soft shadow, never an outlined box. `border border-line` is for row dividers, inputs and the odd chip only. ("Boxy cards are ugly" — Nick, BAD-281.)
-- Role color-coding is semantic and app-wide and is **independent of the UI accent**: subject=green `#157F74`, object=rose `#C0392F`, place=gold `#8A6D2F`, verb=ink/bold. Blue means "this is the next thing to do" and nothing else.
-- Two token names are historical: `teal` is the accent (now blue) and `clay` is warn (now rose). `text-subject` & co. carry the grammar roles.
-- Korean type: Noto Sans KR (default) / Noto Serif KR (Myeongjo) / Nanum Pen Script (handwriting), with OS fallbacks. UI type: Inter.
-- Tone: calm, cool, minimal chrome; one accent moment per screen.
-- Mockups for the chosen direction: `reference/design/bad281/slate.html`.
+### Design system — "Dancheong" (chosen by Nick on BAD-281, 2026-10-25; replaces the warm "paper" palette, and supersedes the "Slate" direction he first picked the same day)
+- Palette: page `#FBF9F4`, ink `#141414`, muted `#6B6459`, faint `#978F81`, rules `#DDD7C8`, accent vermilion `#BC3A26`, jade `#1C5B55`, warn gold `#8A6A24`. Dark (the sheet Nick chose): page `#131210`, ink `#F0ECE3`, rules `#33302A`, accent `#E8705A`, jade `#4FA89C`, warn `#C9A452`.
+- **There are no cards.** A section is `rounded-panel bg-card shadow-panel`, which in this direction resolves to no fill and a single hairline *under* the block — a page reads as ruled bands on paper. Those three tokens are the direction knob: changing direction is a token edit, not a 30-file edit. `bg-panel` is the separate, genuinely-filled chrome (keyboard keys, a token chip). ("Boxy cards are ugly" — Nick, BAD-281.)
+- **One job per colour.** Vermilion = *act on this* (the next thing to do, primary buttons, the current-row edge). Jade = *progress earned* (meters, a correct answer, a checked word, a passed test). Gold = *owed* (a test waiting, a warning). Nothing decorative is vermilion.
+- Role color-coding is semantic and app-wide and is **independent of the UI accent**: subject=jade `#1C5B55`, object=rose `#A8322A`, place=gold `#8A6D2F`, verb=ink/bold. `text-subject` & co. carry the grammar roles.
+- Two token names are historical: `teal` is the accent (now vermilion) and `clay` is warn (now gold).
+- Korean type: Noto Sans KR (default) / Noto Serif KR (Myeongjo) / Nanum Pen Script (handwriting), with OS fallbacks. `font-korean` stays **sans** — the cross-font drill (§5) needs Gothic and Myeongjo to differ. UI type: Inter; headings and numbers use `font-serif` (Noto Serif KR's Latin subset, already self-hosted).
+- Tone: editorial, warm, wide margins; one accent moment per screen.
+- Mockups for the chosen direction: `reference/design/bad281/dancheong.html`.
 
 ---
 

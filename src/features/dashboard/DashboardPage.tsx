@@ -36,7 +36,7 @@ function Panel({
   children: React.ReactNode;
 }) {
   return (
-    <div className="rounded-panel bg-panel shadow-panel px-4 py-3.5">
+    <div className="rounded-panel bg-card shadow-panel px-4 py-3.5">
       <div className="mb-2.5 text-[11px] font-semibold tracking-[0.15em] text-muted uppercase">
         {label}
       </div>
@@ -49,7 +49,7 @@ function Bar({ pct }: { pct: number }) {
   return (
     <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-line">
       <div
-        className={`h-full rounded-full ${pct >= 80 ? "bg-teal" : pct >= 50 ? "bg-gold" : "bg-clay"}`}
+        className={`h-full rounded-full ${pct >= 80 ? "bg-meter" : pct >= 50 ? "bg-gold" : "bg-teal"}`}
         style={{ width: `${pct}%` }}
       />
     </div>

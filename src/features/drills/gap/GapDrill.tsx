@@ -32,7 +32,7 @@ function BrowseCard({ item }: { item: GapItem }) {
   return (
     <button
       onClick={() => setOpen(!open)}
-      className={`w-full rounded-panel border-l-[3px] bg-panel px-4 py-3.5 text-left shadow-panel transition-shadow hover:shadow-lift ${cat.border}`}
+      className={`w-full rounded-panel border-l-[3px] bg-card px-4 py-3.5 text-left shadow-panel transition-shadow hover:shadow-lift ${cat.border}`}
     >
       <div className="flex items-baseline justify-between gap-2.5">
         <span className="flex items-center gap-1 font-korean text-[20px] font-semibold">
@@ -250,7 +250,7 @@ function GapDrill({
                 )}
                 <button
                   onClick={engine.advance}
-                  className="mt-3.5 w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"
+                  className="mt-3.5 w-full rounded-xl bg-teal py-3 text-sm font-bold text-on-accent"
                 >
                   Next <span className="font-normal opacity-70">(Enter)</span>
                 </button>

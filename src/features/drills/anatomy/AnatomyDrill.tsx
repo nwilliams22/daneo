@@ -184,7 +184,7 @@ function AnatomyDrill({
         >
           ← Drills
         </Link>
-        <div className="rounded-panel bg-panel shadow-panel px-6 py-10 text-center">
+        <div className="rounded-panel bg-card shadow-panel px-6 py-10 text-center">
           <div className="font-korean text-3xl">문</div>
           <div className="mt-3 text-sm font-semibold">
             No sentences unlocked yet
@@ -239,7 +239,7 @@ function AnatomyDrill({
                 onClick={() => goTo(i)}
                 className={`h-8 w-8 rounded-full border text-[13px] font-semibold transition-colors ${
                   si === i
-                    ? "border-ink bg-ink text-paper"
+                    ? "border-teal bg-accent-wash text-teal"
                     : "border-line text-muted hover:text-ink"
                 }`}
               >
@@ -415,7 +415,7 @@ function AnatomyDrill({
               )}
               <button
                 onClick={() => goTo((si + 1) % pool.length)}
-                className="mt-3 block w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"
+                className="mt-3 block w-full rounded-xl bg-teal py-3 text-sm font-bold text-on-accent"
               >
                 Next sentence <span className="font-normal opacity-70">(Enter)</span>
               </button>

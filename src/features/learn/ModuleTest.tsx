@@ -106,7 +106,7 @@ function TestRun({ module }: { module: Module }) {
     return (
       <div>
         <PageHeader eyebrow={`한국어 · ${module.title}`} title="Test Complete" />
-        <div className="rounded-panel bg-panel shadow-panel px-6 py-10 text-center">
+        <div className="rounded-panel bg-card shadow-panel px-6 py-10 text-center">
           <div
             className={`text-5xl font-bold ${passed ? "text-teal" : "text-clay"}`}
           >
@@ -135,7 +135,7 @@ function TestRun({ module }: { module: Module }) {
               to={`/learn/${module.id}`}
               className={`rounded-full px-5 py-2 text-sm font-bold transition-opacity hover:opacity-90 ${
                 missed.length === 0
-                  ? "bg-ink text-paper"
+                  ? "bg-teal text-on-accent"
                   : "bg-fill transition-colors hover:text-ink"
               }`}
             >
@@ -176,7 +176,7 @@ function TestRun({ module }: { module: Module }) {
         </span>
       </div>
 
-      <div className="rounded-panel bg-panel shadow-panel px-5 py-6">
+      <div className="rounded-panel bg-card shadow-panel px-5 py-6">
         {q.kind === "wordMeaning" && (
           <WordMeaningQuestion
             key={q.key}

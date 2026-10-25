@@ -35,7 +35,7 @@ export default function MissedBlock({
         <div className="mt-3.5 text-center">
           <Link
             to={`/learn/${moduleId}/practice`}
-            className="inline-block rounded-full bg-ink px-5 py-2 text-sm font-bold text-paper transition-opacity hover:opacity-90"
+            className="inline-block rounded-full bg-teal px-5 py-2 text-sm font-bold text-on-accent transition-opacity hover:opacity-90"
           >
             {ctaLabel}
           </Link>

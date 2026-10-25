@@ -6,13 +6,17 @@ interface Props {
 
 export default function PageHeader({ eyebrow, title, blurb }: Props) {
   return (
-    <div className="mb-5">
-      <div className="mb-1.5 text-[11px] tracking-[0.25em] text-muted uppercase">
+    /* Dancheong is the editorial direction: the title carries the page, in the
+       serif display face, with the eyebrow as a quiet label above it. */
+    <div className="mb-6">
+      <div className="mb-2 text-[10px] tracking-[0.26em] text-muted uppercase">
         {eyebrow}
       </div>
-      <h1 className="text-2xl font-bold tracking-tight">{title}</h1>
+      <h1 className="font-serif text-[28px] leading-tight font-semibold tracking-[-0.012em]">
+        {title}
+      </h1>
       {blurb && (
-        <p className="mt-1.5 text-[13.5px] leading-relaxed text-muted">
+        <p className="mt-2 max-w-prose text-[13.5px] leading-relaxed text-muted">
           {blurb}
         </p>
       )}

@@ -40,11 +40,11 @@ export default function DrillScaffold({
 
       {controls}
 
-      <div className="rounded-panel bg-panel shadow-panel px-5 py-6">
-        {children}
-      </div>
+      {/* Dancheong draws no card around the drill: a rule above and below it,
+          and the space does the rest (BAD-281). */}
+      <div className="border-y border-line py-7">{children}</div>
 
-      <div className="mt-3.5 flex items-center justify-between px-1">
+      <div className="mt-3.5 flex items-center justify-between">
         <div className="text-[13px] text-muted">
           <b className="text-ink">{correct}</b>/{seen} correct
           {seen > 0 && <span> · {pct}%</span>}

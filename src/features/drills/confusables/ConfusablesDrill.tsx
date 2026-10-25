@@ -260,7 +260,7 @@ function ConfusablesDrill({
               </div>
               <button
                 onClick={nextCard}
-                className="mt-4 w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"
+                className="mt-4 w-full rounded-xl bg-teal py-3 text-sm font-bold text-on-accent"
               >
                 Next <span className="font-normal opacity-70">(Enter)</span>
               </button>
@@ -305,7 +305,7 @@ function ConfusablesDrill({
               />
               <button
                 onClick={engine.advance}
-                className="mt-3.5 w-full rounded-xl bg-ink py-3 text-sm font-bold text-paper"
+                className="mt-3.5 w-full rounded-xl bg-teal py-3 text-sm font-bold text-on-accent"
               >
                 Next <span className="font-normal opacity-70">(Enter)</span>
               </button>

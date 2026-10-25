@@ -49,7 +49,7 @@ export default function ExplorePage() {
           says which word it could not find. Browse the lesson sentences below, or try an example.
         </p>
         <form onSubmit={event => { event.preventDefault(); run(input); }}
-          className="flex gap-2 rounded-panel bg-panel shadow-panel p-1.5">
+          className="flex gap-2 rounded-panel bg-card shadow-panel p-1.5">
           <input aria-label="Korean course sentence" aria-describedby="course-scope"
             value={input} onChange={event => { setInput(event.target.value); setOutcome(null); }}
             placeholder="Type or pick a Korean sentence from a lesson"

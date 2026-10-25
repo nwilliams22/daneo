@@ -65,7 +65,7 @@ function PracticeRun({ module }: { module: Module }) {
           eyebrow={`한국어 · ${module.title}`}
           title="Practice Misses"
         />
-        <div className="rounded-panel bg-panel shadow-panel px-6 py-10 text-center">
+        <div className="rounded-panel bg-card shadow-panel px-6 py-10 text-center">
           <div className="font-korean text-3xl">✓</div>
           <div className="mt-3 text-sm font-semibold">
             Nothing left to practice here
@@ -76,7 +76,7 @@ function PracticeRun({ module }: { module: Module }) {
           </p>
           <Link
             to={`/learn/${module.id}/test`}
-            className="mt-4 inline-block rounded-full bg-ink px-5 py-2 text-sm font-bold text-paper transition-opacity hover:opacity-90"
+            className="mt-4 inline-block rounded-full bg-teal px-5 py-2 text-sm font-bold text-on-accent transition-opacity hover:opacity-90"
           >
             Take the module test
           </Link>

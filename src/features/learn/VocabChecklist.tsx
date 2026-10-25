@@ -38,13 +38,13 @@ export default function VocabChecklist({ module }: { module: Module }) {
   const needPractice = words.filter((w) => missed.has(w.id)).length;
 
   return (
-    <div className="my-4 rounded-panel bg-panel shadow-panel p-4">
+    <div className="my-4 rounded-panel bg-card shadow-panel p-4">
       <div className="mb-3 flex items-baseline justify-between px-1">
         <div className="text-[11px] font-semibold tracking-[0.2em] text-muted uppercase">
           Vocabulary checklist
         </div>
         <div
-          className={`text-sm font-bold ${complete ? "text-teal" : "text-muted"}`}
+          className={`text-sm font-bold ${complete ? "text-jade" : "text-muted"}`}
         >
           {done}/{words.length}
         </div>
@@ -84,7 +84,7 @@ export default function VocabChecklist({ module }: { module: Module }) {
                       aria-hidden
                       className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-md border text-[11px] font-bold transition-colors ${
                         isKnown
-                          ? "border-teal bg-teal text-on-accent"
+                          ? "border-jade bg-jade text-on-accent"
                           : "border-line text-transparent"
                       }`}
                     >
@@ -112,7 +112,7 @@ export default function VocabChecklist({ module }: { module: Module }) {
       })}
 
       {complete && (
-        <div className="mt-3 rounded-xl border border-teal/40 bg-teal/10 px-3 py-2 text-center text-[13px] font-semibold text-teal">
+        <div className="mt-3 rounded-xl border-t border-jade/40 px-3 pt-2.5 text-center text-[13px] font-semibold text-jade">
           All words checked — this module's sentences and drills are unlocked.
         </div>
       )}

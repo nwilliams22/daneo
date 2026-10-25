@@ -82,7 +82,7 @@ export default function DrillHubPage() {
             <Link
               key={d.to}
               to={d.to}
-              className="group flex items-center gap-4 rounded-panel bg-panel px-5 py-4 shadow-panel transition-shadow hover:shadow-lift"
+              className="group flex items-center gap-4 rounded-panel bg-card px-5 py-4 shadow-panel transition-shadow hover:shadow-lift"
             >
               <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-fill font-korean text-2xl">
                 {d.ko}
@@ -99,7 +99,7 @@ export default function DrillHubPage() {
               key={d.to}
               className="flex items-center gap-4 rounded-panel bg-fill px-5 py-4 opacity-60"
             >
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-panel bg-panel shadow-panel font-korean text-2xl text-muted">
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-panel bg-card shadow-panel font-korean text-2xl text-muted">
                 {d.ko}
               </span>
               <div>

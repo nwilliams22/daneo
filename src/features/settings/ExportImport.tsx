@@ -57,7 +57,7 @@ export default function ExportImport() {
         <button
           onClick={doExport}
           disabled={exporting}
-          className="rounded-xl bg-ink px-3.5 py-2 text-[13px] font-semibold text-paper transition-opacity hover:opacity-90"
+          className="rounded-xl bg-teal px-3.5 py-2 text-[13px] font-semibold text-on-accent transition-opacity hover:opacity-90"
         >
           {exporting ? "Exporting…" : "Export file"}
         </button>

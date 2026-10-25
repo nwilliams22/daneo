@@ -135,7 +135,7 @@ function DueQueuePanel() {
   const next = nextDueAt(cards);
 
   return (
-    <div className="mb-4 rounded-panel bg-panel shadow-panel px-4 py-3.5">
+    <div className="mb-4 rounded-panel bg-card shadow-panel px-4 py-3.5">
       <div className="flex items-center justify-between gap-3">
         <div>
           <div className="text-[11px] font-semibold tracking-[0.15em] text-teal uppercase">
@@ -218,7 +218,7 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
 
   if (sections.length === 0)
     return (
-      <div className="rounded-panel bg-panel shadow-panel px-6 py-12 text-center">
+      <div className="rounded-panel bg-card shadow-panel px-6 py-12 text-center">
         <div className="font-korean text-4xl">✓</div>
         <div className="mt-3 text-sm font-semibold">Nothing to review</div>
         <p className="mx-auto mt-1.5 max-w-xs text-[13px] leading-relaxed text-muted">
@@ -233,7 +233,7 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
       {sections.map((s) => (
         <div
           key={s.key}
-          className="rounded-panel bg-panel shadow-panel px-4 py-3.5"
+          className="rounded-panel bg-card shadow-panel px-4 py-3.5"
         >
           <div className="mb-2.5 flex items-center justify-between">
             <div className="text-[11px] font-semibold tracking-[0.15em] text-clay uppercase">
@@ -241,7 +241,7 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
             </div>
             <Link
               to={s.drillTo}
-              className="rounded-full bg-ink px-3.5 py-1.5 text-xs font-bold text-paper transition-opacity hover:opacity-90"
+              className="rounded-full bg-teal px-3.5 py-1.5 text-xs font-bold text-on-accent transition-opacity hover:opacity-90"
             >
               {s.cta}
             </Link>

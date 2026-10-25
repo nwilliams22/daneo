@@ -80,7 +80,7 @@ function Meter({ pct }: { pct: number }) {
   return (
     <span className="inline-block h-1.5 w-20 overflow-hidden rounded-full bg-line align-middle">
       <span
-        className="block h-full rounded-full bg-teal"
+        className="block h-full rounded-full bg-meter"
         style={{ width: `${Math.round(pct)}%` }}
       />
     </span>
@@ -107,8 +107,8 @@ function ModuleRow({
   return (
     <Link
       to={`/learn/${module.id}`}
-      className={`flex items-center gap-3 border-b border-line px-4 py-2.5 transition-colors last:border-b-0 hover:bg-fill ${
-        current ? "bg-accent-wash" : ""
+      className={`flex items-center gap-3 border-b border-b-line border-l-2 py-2.5 pr-1 pl-3.5 transition-colors last:border-b-0 hover:bg-fill ${
+        current ? "border-l-teal" : "border-l-transparent"
       }`}
     >
       <span
@@ -146,9 +146,7 @@ function ModuleRow({
             test due
           </span>
         ) : passed ? (
-          <span className="rounded-full bg-fill px-2 py-0.5 text-teal">
-            ✓ {test?.bestPct}%
-          </span>
+          <span className="text-jade">✓ {test?.bestPct}%</span>
         ) : null}
       </span>
     </Link>
@@ -170,7 +168,7 @@ function Fold({
     <button
       onClick={onToggle}
       aria-expanded={open}
-      className="flex w-full items-center gap-2.5 rounded-xl bg-fill px-4 py-2.5 text-left text-[13px] text-muted transition-colors hover:text-ink"
+      className="flex w-full items-center gap-2.5 border-t border-line py-3 pl-3.5 text-left text-[13px] text-muted transition-colors hover:text-ink"
     >
       <span
         className={`text-[10px] transition-transform ${open ? "rotate-90" : ""}`}
@@ -224,7 +222,7 @@ export default function LearnPage() {
   const currentProgress = current ? moduleProgress(current, known) : undefined;
 
   const rows = (list: Module[]) => (
-    <div className="overflow-hidden rounded-panel bg-panel shadow-panel">
+    <div className="border-t border-line">
       {list.map((m) => (
         <ModuleRow
           key={m.id}
@@ -250,7 +248,7 @@ export default function LearnPage() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={`Search ${modulesOrdered.length} modules, readings and words…`}
-        className="mb-4 w-full rounded-panel bg-panel px-4 py-2.5 text-[14px] shadow-panel outline-none placeholder:text-faint focus:ring-2 focus:ring-teal"
+        className="mb-5 w-full border-b border-line bg-transparent py-2.5 text-[14px] outline-none placeholder:text-faint focus:border-teal"
       />
 
       {q ? (
@@ -267,13 +265,13 @@ export default function LearnPage() {
           {current && currentProgress && (
             <Link
               to={`/learn/${current.id}`}
-              className="mb-4 flex items-center justify-between gap-4 rounded-panel bg-panel px-4 py-3.5 shadow-panel transition-shadow hover:shadow-lift"
+              className="mb-6 flex items-center justify-between gap-4 border-l-2 border-teal py-1 pl-5"
             >
               <div className="min-w-0">
-                <div className="text-[11px] font-semibold tracking-[0.12em] text-muted uppercase">
+                <div className="text-[10px] tracking-[0.2em] text-muted uppercase">
                   Where you left off
                 </div>
-                <div className="mt-0.5 truncate text-[15px] font-bold">
+                <div className="mt-1 truncate font-serif text-[17px] font-semibold">
                   {LABELS[current.id]} · {current.title}
                 </div>
                 <div className="mt-1.5 flex items-center gap-2 text-xs text-muted">
@@ -300,7 +298,7 @@ export default function LearnPage() {
           )}
 
           {RINGS.length > 1 && (
-            <div className="mb-4 flex gap-1 rounded-full bg-fill p-1">
+            <div className="mb-4 flex gap-6 border-b border-line">
               {RINGS.map((r) => (
                 <button
                   key={r}
@@ -309,10 +307,10 @@ export default function LearnPage() {
                     setShowDone(false);
                     setShowLater(false);
                   }}
-                  className={`flex-1 rounded-full px-3 py-1.5 text-[13px] font-semibold transition-colors ${
+                  className={`-mb-px border-b-2 pb-2 text-[13px] whitespace-nowrap transition-colors ${
                     r === activeRing
-                      ? "bg-panel text-ink shadow-panel"
-                      : "text-muted hover:text-ink"
+                      ? "border-teal font-semibold text-ink"
+                      : "border-transparent text-muted hover:text-ink"
                   }`}
                 >
                   Ring {r} ·{" "}
@@ -323,7 +321,7 @@ export default function LearnPage() {
           )}
 
           <div className="mb-3">
-            <div className="text-[11px] font-bold tracking-[0.25em] text-teal uppercase">
+            <div className="text-[10px] tracking-[0.26em] text-muted uppercase">
               {RING_META[activeRing]?.label ?? `Ring ${activeRing}`}
             </div>
             <p className="mt-1 text-xs text-muted">
