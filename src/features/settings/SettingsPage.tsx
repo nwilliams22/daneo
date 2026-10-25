@@ -160,7 +160,10 @@ export default function SettingsPage() {
           </div>
         </Row>
 
-        <Row label="Onboarding" hint="Re-answer the Hangul placement question.">
+        <Row
+          label="Onboarding"
+          hint="Reopen the start options, including the placement quiz (letters → words → sentences)."
+        >
           <button
             onClick={s.resetOnboarding}
             className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
