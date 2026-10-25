@@ -127,7 +127,7 @@ export default function PlacementQuiz({
         </span>
       </div>
 
-      <div className="rounded-2xl border border-line bg-panel px-5 py-6">
+      <div className="rounded-panel bg-panel shadow-panel px-5 py-6">
         {q.stage === "hangul" && <GlyphCard glyph={q.item.c} />}
 
         {q.stage === "vocab" && (

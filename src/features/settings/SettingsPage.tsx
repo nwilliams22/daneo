@@ -98,7 +98,7 @@ export default function SettingsPage() {
     <div>
       <PageHeader eyebrow="단어 · Settings" title="Settings" />
 
-      <div className="rounded-2xl border border-line bg-panel">
+      <div className="rounded-panel bg-panel shadow-panel">
         <Row
           label="Romanization"
           hint="Training wheels — hide it once the Hangul clicks."
@@ -176,7 +176,7 @@ export default function SettingsPage() {
 
       {ModelPanel && <Suspense fallback={null}><ModelPanel /></Suspense>}
 
-      <div className="mt-4 rounded-2xl border border-line bg-panel">
+      <div className="mt-4 rounded-panel bg-panel shadow-panel">
         <ExportImport />
         {/* Directly under Backup on purpose: the export is the only way back. */}
         <div className="border-t border-line">

@@ -36,7 +36,7 @@ function Panel({
   children: React.ReactNode;
 }) {
   return (
-    <div className="rounded-2xl border border-line bg-panel px-4 py-3.5">
+    <div className="rounded-panel bg-panel shadow-panel px-4 py-3.5">
       <div className="mb-2.5 text-[11px] font-semibold tracking-[0.15em] text-muted uppercase">
         {label}
       </div>

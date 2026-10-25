@@ -203,7 +203,7 @@ export function ReviewSession({
     return (
       <div>
         <PageHeader eyebrow={chrome.doneEyebrow} title={chrome.doneTitle} />
-        <div className="rounded-2xl border border-line bg-panel px-6 py-10 text-center">
+        <div className="rounded-panel bg-panel shadow-panel px-6 py-10 text-center">
           <div className="text-4xl font-bold">
             {correct}/{queue.length}
           </div>
@@ -245,7 +245,7 @@ export function ReviewSession({
         </span>
       </div>
 
-      <div className="rounded-2xl border border-line bg-panel px-5 py-6">
+      <div className="rounded-panel bg-panel shadow-panel px-5 py-6">
         {q.kind === "confusable" && (
           <ChoiceQuestion
             key={q.key}

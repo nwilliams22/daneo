@@ -64,7 +64,7 @@ export default function Onboarding() {
         </div>
 
         {screen === "intro" && (
-          <div className="rounded-2xl border border-line bg-panel p-5">
+          <div className="rounded-panel bg-panel shadow-panel p-5">
             <div className="mb-4 text-center text-base font-semibold">
               Where should you start?
             </div>
@@ -124,7 +124,7 @@ export default function Onboarding() {
         )}
 
         {screen === "result" && outcome && (
-          <div className="rounded-2xl border border-line bg-panel p-6 text-center">
+          <div className="rounded-panel bg-panel shadow-panel p-6 text-center">
             <div className="text-[11px] font-semibold tracking-[0.15em] text-teal uppercase">
               Placement result
             </div>

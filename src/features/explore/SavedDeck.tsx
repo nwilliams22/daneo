@@ -25,7 +25,7 @@ export default function SavedDeck() {
           return (
             <div
               key={t.id}
-              className="rounded-xl border border-line bg-panel px-4 py-3"
+              className="rounded-panel bg-panel shadow-panel px-4 py-3"
             >
               <button
                 onClick={() => setOpen(isOpen ? null : (t.id ?? null))}

@@ -135,7 +135,7 @@ function DueQueuePanel() {
   const next = nextDueAt(cards);
 
   return (
-    <div className="mb-4 rounded-2xl border border-line bg-panel px-4 py-3.5">
+    <div className="mb-4 rounded-panel bg-panel shadow-panel px-4 py-3.5">
       <div className="flex items-center justify-between gap-3">
         <div>
           <div className="text-[11px] font-semibold tracking-[0.15em] text-teal uppercase">
@@ -233,7 +233,7 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
       {sections.map((s) => (
         <div
           key={s.key}
-          className="rounded-2xl border border-line bg-panel px-4 py-3.5"
+          className="rounded-panel bg-panel shadow-panel px-4 py-3.5"
         >
           <div className="mb-2.5 flex items-center justify-between">
             <div className="text-[11px] font-semibold tracking-[0.15em] text-clay uppercase">

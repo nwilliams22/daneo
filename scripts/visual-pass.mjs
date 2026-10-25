@@ -16,6 +16,15 @@
 //                    attempt writes), so the "missed on your last test" block,
 //                    the checklist practice flags and the link to Review
 //                    render — the last two are asserted, not just screenshotted
+//   --route <path>   also screenshot an arbitrary in-app route, repeatable:
+//                      npm run visual:pass -- m1 m2 --route /today --route /learn
+//                    Routes are shot after the modules, against the same seeded
+//                    state, and checked for emptiness and console errors only —
+//                    the module-specific assertions do not apply. Modules may be
+//                    omitted entirely when only routes are wanted; the first
+//                    module is then seeded so the pages have a learner to show.
+//   --dark           seed dark mode instead of light, so a pass can prove both
+//                    themes (BAD-281)
 //
 // Written because the browser check kept being handed back as "no desktop access
 // in this workspace". There is a browser on the box; this is the whole recipe.
@@ -34,13 +43,20 @@ const flag = (name, fallback) => {
   return i === -1 ? fallback : argv[i + 1];
 };
 const has = (name) => argv.includes(`--${name}`);
+const flags = (name) =>
+  argv.flatMap((a, i) => (a === `--${name}` && argv[i + 1] ? [argv[i + 1]] : []));
 const moduleIds = argv.filter((a) => /^m\d+$/.test(a));
+const routes = flags("route");
+const theme = has("dark") ? "dark" : "light";
 const outDir = path.resolve(repoRoot, flag("out", ".visual-pass"));
 const port = Number(flag("port", "5177"));
 let origin = flag("origin", null);
 
-if (moduleIds.length === 0) {
-  console.error("usage: npm run visual:pass -- m124 m125 m126");
+if (moduleIds.length === 0 && routes.length === 0) {
+  console.error(
+    "usage: npm run visual:pass -- m124 m125 m126\n" +
+      "       npm run visual:pass -- m1 m2 --route /today --route /learn [--dark]",
+  );
   process.exit(2);
 }
 
@@ -55,6 +71,10 @@ for (const id of moduleIds) {
   }
 }
 
+// A route-only pass still needs a learner: Today, Learn and the drills all read
+// knownWords, and an unseeded app shows their empty states instead.
+const seedIds = moduleIds.length > 0 ? moduleIds : [modules[0].id];
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function waitFor(check, timeoutMs = 60000) {
@@ -66,6 +86,32 @@ async function waitFor(check, timeoutMs = 60000) {
     await sleep(250);
   } while (Date.now() < deadline);
   return last;
+}
+
+// The theme class lands in an effect, after the first paint, so every element
+// carrying `transition-colors` animates from the light palette to the dark one.
+// A screenshot taken the moment the page reports "ready" catches that animation
+// mid-flight and lies about the colours — which is the whole point of these
+// PNGs. Wait for the page to have no running animations before capturing.
+// (Found on BAD-281: drill cards rendered a third of the way between white and
+// #1d2026, while the taller dashboard — slower to capture — came out correct.)
+async function settle(sess, timeoutMs = 3000) {
+  const deadline = Date.now() + timeoutMs;
+  do {
+    const running = await sess.evaluate(
+      `document.getAnimations().filter((a) => a.playState === 'running').length`,
+    );
+    if (running === 0) {
+      // One more frame, so a transition that started this tick is counted.
+      await sleep(120);
+      const again = await sess.evaluate(
+        `document.getAnimations().filter((a) => a.playState === 'running').length`,
+      );
+      if (again === 0) return true;
+    }
+    await sleep(100);
+  } while (Date.now() < deadline);
+  return false;
 }
 
 async function waitForHttp(url, timeoutMs = 30000) {
@@ -270,7 +316,7 @@ async function reloadPage() {
 // Gate 1 — onboarding. Without this every route renders the "where should you
 // start?" screen instead of the module.
 await sess.evaluate(`localStorage.setItem('daneo-settings', JSON.stringify({
-  state: { romanizationVisible: true, theme: 'light', audioEnabled: false,
+  state: { romanizationVisible: true, theme: ${JSON.stringify(theme)}, audioEnabled: false,
            speechRate: 0.9, onboardingDone: true, hangulDone: true },
   version: 0,
 })), 'ok'`);
@@ -279,10 +325,10 @@ await sess.evaluate(`localStorage.setItem('daneo-settings', JSON.stringify({
 // first time a page that reads it mounts. Opening the database by name before
 // Dexie does would create an empty version-1 copy and break its upgrade path —
 // so load a module page first, then seed, and never open the db cold.
-await sess.evaluate(`(location.hash = '#/learn/${moduleIds[0]}'), 'ok'`);
+await sess.evaluate(`(location.hash = '#/learn/${seedIds[0]}'), 'ok'`);
 await reloadPage();
 const firstPage = await waitFor(async () => sess.evaluate(`(() => ({
-  ready: document.querySelector('h1')?.innerText.includes(${JSON.stringify(byId.get(moduleIds[0]).title)}) ?? false,
+  ready: document.querySelector('h1')?.innerText.includes(${JSON.stringify(byId.get(seedIds[0]).title)}) ?? false,
   url: location.href,
   state: document.readyState,
   bodyChars: document.body?.innerText.length ?? 0,
@@ -295,7 +341,7 @@ if (!firstPage.ready) {
 
 // Gate 2 — known words. The sentence layer only shows what the learner has
 // checked off, so an unseeded page renders the vocabulary and nothing under it.
-const wordIds = [...new Set(moduleIds.flatMap((id) => byId.get(id).wordIds))];
+const wordIds = [...new Set(seedIds.flatMap((id) => byId.get(id).wordIds))];
 const database = await waitFor(async () => sess.evaluate(`(async () => {
   if (!(await indexedDB.databases()).some((db) => db.name === 'daneo')) {
     return { ready: false, error: 'daneo database missing' };
@@ -358,7 +404,7 @@ console.log(`seeded ${wordIds.length} words · knownWords rows: ${seeded.rows}\n
 // Two words and the module's first sentence, which is what a bad attempt looks
 // like once the review queue has the rest.
 if (has("fail-test")) {
-  const attempts = moduleIds.map((id) => {
+  const attempts = seedIds.map((id) => {
     const mod = byId.get(id);
     return {
       moduleId: id,
@@ -419,6 +465,10 @@ if (has("fail-test")) {
   );
 }
 
+// A dark run writes alongside the light one instead of over it, so one output
+// directory can hold the pair a design review needs.
+const suffix = theme === "dark" ? "-dark" : "";
+
 const report = [];
 let failures = 0;
 for (const moduleId of moduleIds) {
@@ -434,6 +484,7 @@ for (const moduleId of moduleIds) {
     bodyChars: document.body?.innerText.length ?? 0,
   }))()`));
   if (!page.ready) sess.consoleErrors.push(`module page did not render after 60s: ${JSON.stringify(page)}`);
+  if (!(await settle(sess))) sess.consoleErrors.push("page never stopped animating");
 
   // Checked against the content rather than the markup: the sentence cards carry
   // no test hook, and the point is that the authored sentence reached the screen.
@@ -468,7 +519,7 @@ for (const moduleId of moduleIds) {
     format: "png",
     captureBeyondViewport: true,
   });
-  const file = path.join(outDir, `${moduleId}.png`);
+  const file = path.join(outDir, `${moduleId}${suffix}.png`);
   writeFileSync(file, Buffer.from(shot.data, "base64"));
 
   const problems = [];
@@ -496,7 +547,59 @@ for (const moduleId of moduleIds) {
   for (const p of problems) console.log(`       ${p}`);
 }
 
-writeFileSync(path.join(outDir, "report.json"), `${JSON.stringify(report, null, 2)}\n`);
+// Arbitrary routes. No module assertions apply, so this checks the two things
+// that are true of every screen: it rendered something, and it did so without a
+// console error.
+for (const route of routes) {
+  const slug = route.replace(/^\/+|\/+$/g, "").replace(/[^a-z0-9]+/gi, "-") || "root";
+  sess.consoleErrors.length = 0;
+  await sess.evaluate(`(location.hash = '#${route.startsWith("/") ? route : `/${route}`}'), 'ok'`);
+  await reloadPage();
+  const page = await waitFor(async () => sess.evaluate(`(() => ({
+    ready: document.readyState === 'complete' && (document.body?.innerText.length ?? 0) > 200,
+    url: location.href,
+    chars: document.body?.innerText.length ?? 0,
+  }))()`));
+  if (!page.ready) sess.consoleErrors.push(`route did not render after 60s: ${JSON.stringify(page)}`);
+  if (!(await settle(sess))) sess.consoleErrors.push("page never stopped animating");
+
+  const probe = await sess.evaluate(`(() => {
+    const text = document.body.innerText;
+    return {
+      hash: location.hash,
+      heading: document.querySelector('h1')?.innerText ?? null,
+      chars: text.length,
+      hangul: (text.match(/[\\uac00-\\ud7a3]/g) || []).length,
+      scrollHeight: document.documentElement.scrollHeight,
+      onboarding: /where should you start/i.test(text),
+      dark: document.documentElement.classList.contains('dark'),
+    };
+  })()`);
+
+  const shot = await sess.send("Page.captureScreenshot", {
+    format: "png",
+    captureBeyondViewport: true,
+  });
+  const file = path.join(outDir, `route-${slug}${suffix}.png`);
+  writeFileSync(file, Buffer.from(shot.data, "base64"));
+
+  const problems = [];
+  if (probe.onboarding) problems.push("onboarding screen — the settings seed did not take");
+  if (probe.chars < 200) problems.push(`route is nearly empty (${probe.chars} chars)`);
+  if (probe.dark !== (theme === "dark")) {
+    problems.push(`theme did not take: html.dark is ${probe.dark}, wanted ${theme === "dark"}`);
+  }
+  for (const e of sess.consoleErrors) problems.push(`console error: ${e}`);
+  if (problems.length > 0) failures += 1;
+
+  report.push({ route, ...probe, problems, screenshot: file });
+  console.log(
+    `${problems.length === 0 ? "ok  " : "FAIL"} ${route} · ${probe.chars} chars · ${probe.hangul} hangul · ${probe.scrollHeight}px`,
+  );
+  for (const p of problems) console.log(`       ${p}`);
+}
+
+writeFileSync(path.join(outDir, `report${suffix}.json`), `${JSON.stringify(report, null, 2)}\n`);
 console.log(`\n${report.length - failures}/${report.length} pages rendered · ${outDir}`);
 console.log("Look at the PNGs — this script proves the page rendered, not that it reads well.");
 process.exit(failures > 0 ? 1 : 0);

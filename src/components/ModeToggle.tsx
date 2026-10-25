@@ -12,15 +12,15 @@ export default function ModeToggle<T extends string>({
 }) {
   return (
     <div
-      className={`flex gap-1 rounded-xl border border-line bg-panel p-1 ${className}`}
+      className={`flex gap-1 rounded-full bg-fill p-1 ${className}`}
     >
       {modes.map((m) => (
         <button
           key={m.value}
           onClick={() => onChange(m.value)}
-          className={`flex-1 rounded-lg px-3 py-2 text-sm font-semibold transition-colors ${
+          className={`flex-1 rounded-full px-3 py-2 text-sm font-semibold transition-colors ${
             value === m.value
-              ? "bg-ink text-paper"
+              ? "bg-panel text-ink shadow-panel"
               : "text-muted hover:text-ink"
           }`}
         >

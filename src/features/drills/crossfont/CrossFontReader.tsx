@@ -29,7 +29,7 @@ export default function CrossFontReader() {
         {fontFaces.faces.map((f) => (
           <div
             key={f.key}
-            className="flex-1 rounded-2xl border border-line bg-panel px-2 py-3 text-center"
+            className="flex-1 rounded-panel bg-panel shadow-panel px-2 py-3 text-center"
           >
             <div className={`${FACE_FONT[f.key]} text-4xl leading-none`}>가</div>
             <div className="mt-2 font-korean text-[12.5px] font-bold">
@@ -44,7 +44,7 @@ export default function CrossFontReader() {
       </div>
 
       {/* Comparison grid */}
-      <div className="overflow-hidden rounded-2xl border border-line bg-panel">
+      <div className="overflow-hidden rounded-panel bg-panel shadow-panel">
         <div className="grid grid-cols-[56px_1fr_1fr_1fr] items-center border-b border-line px-1.5 py-2">
           <div />
           {fontFaces.faces.map((f) => (
@@ -103,7 +103,7 @@ export default function CrossFontReader() {
             </Chip>
           ))}
         </div>
-        <div className="overflow-hidden rounded-2xl border border-line bg-panel">
+        <div className="overflow-hidden rounded-panel bg-panel shadow-panel">
           {fontFaces.faces.map((f) => (
             <div
               key={f.key}

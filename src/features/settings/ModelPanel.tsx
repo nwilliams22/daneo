@@ -60,7 +60,7 @@ export default function ModelPanel() {
     setIdle(seconds);
   }
   return (
-    <section className="mt-4 rounded-2xl border border-line bg-panel p-4" aria-label="Local model">
+    <section className="mt-4 rounded-panel bg-panel shadow-panel p-4" aria-label="Local model">
       <h2 className="text-sm font-semibold">Local model</h2>
       <p className="mt-1 text-xs text-muted">The translator runs on this device. Its model unloads from memory after the idle period.</p>
       <dl className="mt-4 grid gap-2 text-xs sm:grid-cols-[7rem_1fr]">

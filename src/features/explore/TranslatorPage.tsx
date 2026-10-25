@@ -110,7 +110,7 @@ export default function TranslatorPage() {
         </div>
       )}
 
-      <div className="flex gap-2 rounded-2xl border border-line bg-panel p-1.5">
+      <div className="flex gap-2 rounded-panel bg-panel shadow-panel p-1.5">
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}

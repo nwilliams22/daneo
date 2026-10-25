@@ -20,7 +20,7 @@ export default function MissedStrip({
 }) {
   if (items.length === 0) return null;
   return (
-    <div className="mt-4 rounded-2xl border border-line bg-panel px-4 py-3.5">
+    <div className="mt-4 rounded-panel bg-panel shadow-panel px-4 py-3.5">
       <div className="mb-2.5 text-[11px] font-semibold tracking-[0.15em] text-clay uppercase">
         {title}
       </div>

@@ -14,7 +14,9 @@ const NAV = [
 export default function AppShell({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-paper text-ink">
-      <header className="sticky top-0 z-20 border-b border-line bg-paper/95 backdrop-blur">
+      {/* Slate's appbar is a surface, not an outlined strip: panel fill and a
+          hairline shadow instead of a bottom border (BAD-281). */}
+      <header className="sticky top-0 z-20 bg-panel/95 shadow-[0_1px_0_0_var(--line)] backdrop-blur">
         <div className="mx-auto flex max-w-2xl items-center gap-1 px-4 py-2.5">
           <NavLink
             to="/learn"
@@ -35,8 +37,8 @@ export default function AppShell({ children }: { children: ReactNode }) {
                 className={({ isActive }) =>
                   `rounded-full px-3 py-1.5 text-[13px] font-semibold whitespace-nowrap transition-colors ${
                     isActive
-                      ? "bg-ink text-paper"
-                      : "text-muted hover:text-ink"
+                      ? "bg-ink text-panel"
+                      : "text-muted hover:bg-fill hover:text-ink"
                   }`
                 }
               >

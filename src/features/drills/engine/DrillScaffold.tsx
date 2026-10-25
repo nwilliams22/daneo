@@ -40,7 +40,7 @@ export default function DrillScaffold({
 
       {controls}
 
-      <div className="rounded-2xl border border-line bg-panel px-5 py-6">
+      <div className="rounded-panel bg-panel shadow-panel px-5 py-6">
         {children}
       </div>
 

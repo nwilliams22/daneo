@@ -79,7 +79,7 @@ export default function LessonSentences({ onPick }: { onPick: (korean: string) =
     <section className="mt-8">
       <button type="button" onClick={() => setOpen(!open)}
         aria-expanded={open} aria-controls="lesson-sentence-list"
-        className="flex w-full items-baseline justify-between gap-2 rounded-xl border border-line bg-panel px-4 py-3 text-left">
+        className="flex w-full items-baseline justify-between gap-2 rounded-panel bg-panel shadow-panel px-4 py-3 text-left">
         <span className="text-sm font-semibold">
           Browse the lesson sentences
         </span>
@@ -93,7 +93,7 @@ export default function LessonSentences({ onPick }: { onPick: (korean: string) =
           <input value={query} onChange={event => setQuery(event.target.value)}
             aria-label="Search the lesson sentences"
             placeholder="Search in Korean or English"
-            className="w-full rounded-xl border border-line bg-panel px-3 py-2 text-sm outline-none placeholder:text-muted" />
+            className="w-full rounded-panel bg-panel shadow-panel px-3 py-2 text-sm outline-none placeholder:text-muted" />
 
           {unlockedCount === 0
             ? <p className="mt-3 text-[13px] leading-relaxed text-muted">
@@ -112,7 +112,7 @@ export default function LessonSentences({ onPick }: { onPick: (korean: string) =
                         const korean = sentenceSurface(sentence.ko);
                         return (
                           <button key={sentence.id} type="button" onClick={() => onPick(korean)}
-                            className="rounded-xl border border-line bg-panel px-3.5 py-2.5 text-left hover:border-teal">
+                            className="rounded-panel bg-panel px-3.5 py-2.5 text-left shadow-panel transition-shadow hover:shadow-lift">
                             <span className="block font-korean text-[16.5px] leading-snug">
                               {korean}
                             </span>

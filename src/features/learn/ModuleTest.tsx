@@ -106,7 +106,7 @@ function TestRun({ module }: { module: Module }) {
     return (
       <div>
         <PageHeader eyebrow={`한국어 · ${module.title}`} title="Test Complete" />
-        <div className="rounded-2xl border border-line bg-panel px-6 py-10 text-center">
+        <div className="rounded-panel bg-panel shadow-panel px-6 py-10 text-center">
           <div
             className={`text-5xl font-bold ${passed ? "text-teal" : "text-clay"}`}
           >
@@ -176,7 +176,7 @@ function TestRun({ module }: { module: Module }) {
         </span>
       </div>
 
-      <div className="rounded-2xl border border-line bg-panel px-5 py-6">
+      <div className="rounded-panel bg-panel shadow-panel px-5 py-6">
         {q.kind === "wordMeaning" && (
           <WordMeaningQuestion
             key={q.key}

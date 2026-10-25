@@ -18,7 +18,7 @@ function HangulSection({ md }: { md: string }) {
   const [open, setOpen] = useState(!hangulDone);
 
   return (
-    <div className="my-4 overflow-hidden rounded-2xl border border-line bg-panel">
+    <div className="my-4 overflow-hidden rounded-panel bg-panel shadow-panel">
       <button
         onClick={() => setOpen(!open)}
         className="flex w-full items-center justify-between px-4 py-3 text-left"
@@ -70,7 +70,7 @@ function TestCta({ module }: { module: Module }) {
   const result = useLiveQuery(() => db.moduleTests.get(module.id), [module.id]);
   const passed = !!result && result.bestPct >= PASS_PCT;
   return (
-    <div className="my-6 rounded-2xl border border-line bg-panel px-5 py-4">
+    <div className="my-6 rounded-panel bg-panel shadow-panel px-5 py-4">
       <div className="flex items-center justify-between gap-3">
         <div>
           <div className="text-sm font-bold">Module test</div>

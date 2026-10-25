@@ -3,7 +3,7 @@ export default function Chip({
   active,
   onClick,
   children,
-  activeClass = "border-ink bg-ink text-paper",
+  activeClass = "bg-ink text-panel",
 }: {
   active: boolean;
   onClick: () => void;
@@ -13,8 +13,8 @@ export default function Chip({
   return (
     <button
       onClick={onClick}
-      className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium transition-colors ${
-        active ? activeClass : "border-line text-muted hover:text-ink"
+      className={`rounded-full px-3.5 py-1.5 text-[13px] font-medium transition-colors ${
+        active ? activeClass : "bg-fill text-muted hover:text-ink"
       }`}
     >
       {children}

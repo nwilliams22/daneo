@@ -38,7 +38,7 @@ export default function VocabChecklist({ module }: { module: Module }) {
   const needPractice = words.filter((w) => missed.has(w.id)).length;
 
   return (
-    <div className="my-4 rounded-2xl border border-line bg-panel p-4">
+    <div className="my-4 rounded-panel bg-panel shadow-panel p-4">
       <div className="mb-3 flex items-baseline justify-between px-1">
         <div className="text-[11px] font-semibold tracking-[0.2em] text-muted uppercase">
           Vocabulary checklist

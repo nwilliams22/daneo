@@ -57,7 +57,7 @@ export default function LearnPage() {
             <Link
               key={m.id}
               to={`/learn/${m.id}`}
-              className="group rounded-2xl border border-line bg-panel px-5 py-4 transition-colors hover:border-teal"
+              className="group rounded-panel bg-panel px-5 py-4 shadow-panel transition-shadow hover:shadow-lift"
             >
               <div className="flex items-center justify-between gap-3">
                 <div>

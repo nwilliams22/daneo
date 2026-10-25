@@ -34,7 +34,7 @@ const components: Components = {
   ),
   hr: () => <hr className="my-7 border-line" />,
   table: ({ children }) => (
-    <div className="my-3 overflow-x-auto rounded-xl border border-line bg-panel">
+    <div className="my-3 overflow-x-auto rounded-panel bg-panel shadow-panel">
       <table className="w-full text-sm">{children}</table>
     </div>
   ),

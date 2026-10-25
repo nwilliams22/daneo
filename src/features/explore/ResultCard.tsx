@@ -40,7 +40,7 @@ export default function ResultCard({
   const hasGap = result.literal_gap.trim().length > 0;
 
   return (
-    <div className="mt-4 rounded-2xl border border-line bg-panel px-5 py-5">
+    <div className="mt-4 rounded-panel bg-panel shadow-panel px-5 py-5">
       <div className="flex items-start justify-between gap-3">
         <div>
           <div className="flex items-center gap-1.5 font-korean text-[26px] leading-snug font-semibold">

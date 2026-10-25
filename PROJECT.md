@@ -47,11 +47,14 @@ These six artifacts define the intended UX and visual language. Port their logic
 | `korean-curiosity-translator.jsx` | AI translator | Claude API returns structured JSON: korean, romanization, natural_english, gloss[], particles[], literal_gap, cultural_note |
 | `korean-module-hangul-history.md` | History module | Featural-design story doubles as mnemonics for confusables |
 
-### Design system (from prototypes — keep consistent)
-- Palette: paper `#E7E4DA`, panel `#F3F1EA`, ink `#23262C`, muted `#8A8578`, teal `#2C6E63` (subject/success), clay `#B4573D` (object/error), gold `#8A6D2F` (place/culture), hairlines `rgba(35,38,44,0.10)`.
-- Role color-coding is semantic and app-wide: subject=teal, object=clay, place=gold, verb=ink/bold.
+### Design system — "Slate" (chosen by Nick on BAD-281, 2026-10-25; replaces the warm "paper" palette)
+- Palette: page `#F3F4F7`, panel `#FFFFFF`, ink `#161A21`, muted `#5F6775`, faint `#8B93A1`, accent `#2F58D8`, warn `#C0392F`, dividers `rgba(22,26,33,0.085)`. Dark: page `#14161A`, panel `#1D2026`, ink `#E7EAF0`, accent `#5F82F5`, warn `#F08A7C`.
+- **Surfaces are borderless.** A panel is `rounded-panel bg-panel shadow-panel` — a filled rounded rectangle with a very soft shadow, never an outlined box. `border border-line` is for row dividers, inputs and the odd chip only. ("Boxy cards are ugly" — Nick, BAD-281.)
+- Role color-coding is semantic and app-wide and is **independent of the UI accent**: subject=green `#157F74`, object=rose `#C0392F`, place=gold `#8A6D2F`, verb=ink/bold. Blue means "this is the next thing to do" and nothing else.
+- Two token names are historical: `teal` is the accent (now blue) and `clay` is warn (now rose). `text-subject` & co. carry the grammar roles.
 - Korean type: Noto Sans KR (default) / Noto Serif KR (Myeongjo) / Nanum Pen Script (handwriting), with OS fallbacks. UI type: Inter.
-- Tone: calm, paper-like, minimal chrome; one accent moment per screen.
+- Tone: calm, cool, minimal chrome; one accent moment per screen.
+- Mockups for the chosen direction: `reference/design/bad281/slate.html`.
 
 ---
 
