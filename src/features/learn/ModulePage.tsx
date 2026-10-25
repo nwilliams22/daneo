@@ -2,21 +2,16 @@ import { useState } from "react";
 import { Link, useParams, Navigate } from "react-router";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "../../db/db";
-import {
-  moduleById,
-  moduleMarkdown,
-  sentenceById,
-  wordById,
-} from "../../content";
+import { moduleById, moduleMarkdown } from "../../content";
 import { splitModuleMarkdown } from "./splitModuleMarkdown";
 import { useSettings } from "../../state/settings";
 import { PASS_PCT } from "../../lib/moduleTest";
-import { missViews } from "../../lib/testMisses";
 import type { Module } from "../../types";
 import Markdown from "../../components/Markdown";
 import VocabChecklist from "./VocabChecklist";
 import SentenceList from "./SentenceList";
 import MissedBlock from "./MissedBlock";
+import ReviewQueueLink from "./ReviewQueueLink";
 
 function HangulSection({ md }: { md: string }) {
   const hangulDone = useSettings((s) => s.hangulDone);
@@ -60,10 +55,12 @@ function MissedOnLastTest({ module }: { module: Module }) {
   const result = useLiveQuery(() => db.moduleTests.get(module.id), [module.id]);
   return (
     <MissedBlock
-      items={missViews(result?.misses, wordById, sentenceById)}
+      misses={result?.misses}
       moduleId={module.id}
       title="Missed on your last test"
       ctaLabel="Practice these"
+      // The test card above already links to Review — once per page is enough.
+      queueLink={false}
     />
   );
 }
@@ -87,6 +84,13 @@ function TestCta({ module }: { module: Module }) {
               "A fresh sample of this module's words and sentences — misses feed the review queue."
             )}
           </div>
+          {/* Nick, 2026-10-25: the card said misses "feed the review queue"
+              and left him to find them. This is the way there. */}
+          <ReviewQueueLink
+            misses={result?.misses}
+            moduleId={module.id}
+            className="mt-1.5"
+          />
         </div>
         <Link
           to={`/learn/${module.id}/test`}

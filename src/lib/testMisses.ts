@@ -1,4 +1,4 @@
-import type { DrillKind, Sentence, TestMiss, Word } from "../types";
+import type { DrillKind, Sentence, SrsCard, TestMiss, Word } from "../types";
 import { sentenceEnglish } from "./distractors";
 
 // Module-test misses (Nick, 2026-10-25). A test's wrong answers were always
@@ -45,6 +45,35 @@ export function withoutMiss(
  *  stay as they are: ticked means studied, not proven (gating depends on it). */
 export function missedWordIds(misses: TestMiss[] = []): Set<string> {
   return new Set(misses.filter(isWordMiss).map((m) => m.itemId));
+}
+
+/** Where this attempt's misses stand in the review queue (Nick, 2026-10-25):
+ *  grading creates a card for every item, so `total` is how many of them the
+ *  queue is actually holding, `due` how many it would hand back right now. */
+export interface MissQueueStatus {
+  total: number;
+  due: number;
+  /** Earliest due time among the misses that are not due yet. */
+  nextDue?: number;
+}
+
+export function missQueueStatus(
+  misses: TestMiss[] = [],
+  cards: SrsCard[] = [],
+  now: number = Date.now(),
+): MissQueueStatus {
+  const byKey = new Map(cards.map((c) => [missKey(c.kind, c.itemId), c]));
+  let total = 0;
+  let due = 0;
+  let nextDue: number | undefined;
+  for (const m of dedupeMisses(misses)) {
+    const card = byKey.get(missKey(m.kind, m.itemId));
+    if (!card) continue; // not scheduled — nothing to point at in Review
+    total++;
+    if (card.due <= now) due++;
+    else if (nextDue === undefined || card.due < nextDue) nextDue = card.due;
+  }
+  return { total, due, nextDue };
 }
 
 /** A miss as the shared missed-items strip renders it. */

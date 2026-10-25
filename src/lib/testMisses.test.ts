@@ -1,11 +1,12 @@
 import { describe, expect, it } from "vitest";
 import {
   dedupeMisses,
+  missQueueStatus,
   missedWordIds,
   missViews,
   withoutMiss,
 } from "./testMisses";
-import type { Sentence, TestMiss, Word } from "../types";
+import type { Sentence, SrsCard, TestMiss, Word } from "../types";
 
 const word = (id: string, ko: string, en: string): Word => ({
   id,
@@ -106,5 +107,57 @@ describe("missViews", () => {
       { id: "word:w_mul", big: "물", small: "water" },
       { id: "anatomy:s_1", big: "저는 마셔요", small: "I drink" },
     ]);
+  });
+});
+
+describe("missQueueStatus", () => {
+  const card = (
+    kind: TestMiss["kind"],
+    itemId: string,
+    due: number,
+  ): SrsCard => ({ kind, itemId, interval: 0, ease: 5, due, lapses: 1 });
+  const now = 1_000_000;
+
+  it("splits the misses the queue holds into due now and due later", () => {
+    const status = missQueueStatus(
+      [
+        { kind: "word", itemId: "w_mul" },
+        { kind: "typing", itemId: "w_mul" },
+        { kind: "anatomy", itemId: "s_1" },
+      ],
+      [
+        card("word", "w_mul", now - 1),
+        card("typing", "w_mul", now + 60_000),
+        card("anatomy", "s_1", now + 30_000),
+      ],
+      now,
+    );
+    // The soonest of the not-yet-due ones is what a "rest due …" line reads.
+    expect(status).toEqual({ total: 3, due: 1, nextDue: now + 30_000 });
+  });
+
+  it("counts a card once per miss card, not per attempt answer", () => {
+    expect(
+      missQueueStatus(
+        [
+          { kind: "word", itemId: "w_mul" },
+          { kind: "word", itemId: "w_mul" },
+        ],
+        [card("word", "w_mul", now - 1)],
+        now,
+      ),
+    ).toEqual({ total: 1, due: 1, nextDue: undefined });
+  });
+
+  it("ignores a miss with no card — there is nothing in Review to point at", () => {
+    expect(
+      missQueueStatus([{ kind: "word", itemId: "w_mul" }], [], now),
+    ).toEqual({ total: 0, due: 0, nextDue: undefined });
+  });
+
+  it("reads an attempt with no misses as an empty queue", () => {
+    expect(missQueueStatus(undefined, [card("word", "w_mul", now)], now)).toEqual(
+      { total: 0, due: 0, nextDue: undefined },
+    );
   });
 });

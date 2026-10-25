@@ -72,6 +72,20 @@ export function dueNow(cards: SrsCard[], now: number = Date.now()): SrsCard[] {
   return cards.filter((c) => isDue(c, now)).sort((a, b) => a.due - b.due);
 }
 
+/** A due time in the learner's terms — "in 6 min", "on Tue". Shared by the
+ *  Review page's all-clear line and the module's queue link (2026-10-25). */
+export function formatDueIn(ms: number, now: number = Date.now()): string {
+  const d = ms - now;
+  if (d < 60_000) return "in under a minute";
+  if (d < 60 * 60_000) return `in ${Math.round(d / 60_000)} min`;
+  if (d < 24 * 60 * 60_000) return `in about ${Math.round(d / 3_600_000)} h`;
+  return `on ${new Date(ms).toLocaleDateString(undefined, {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+  })}`;
+}
+
 /** Earliest future due time, for the "all clear — next review at" state. */
 export function nextDueAt(
   cards: SrsCard[],

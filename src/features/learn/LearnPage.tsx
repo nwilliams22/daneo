@@ -5,6 +5,7 @@ import { modulesOrdered } from "../../content";
 import { db } from "../../db/db";
 import { useKnownWords } from "../../db/useKnownWords";
 import { moduleProgress, isModuleComplete } from "../../lib/gating";
+import { moduleLabels } from "../../lib/moduleLabel";
 import { PASS_PCT } from "../../lib/moduleTest";
 
 // Ring section headers (CURRICULUM.md §1). Dividers render only once the
@@ -24,25 +25,7 @@ const RING_META: Record<number, { label: string; blurb: string }> = {
   },
 };
 
-// Vocab modules and readings number themselves separately, so "Module N"
-// always matches the numbers the course prose refers to — interludes can
-// never shift them (Nick, 2026-08-02).
-const LABELS: Record<string, string> = (() => {
-  let moduleN = 0;
-  let readingN = 0;
-  return Object.fromEntries(
-    modulesOrdered.map((m) => [
-      m.id,
-      // Appendices (ids s1, s2, …) sit outside the numbered course —
-      // CURRICULUM.md's "living content" shelf.
-      m.id.startsWith("s")
-        ? `Appendix ${m.id.toUpperCase()}`
-        : m.wordIds.length === 0
-          ? `Reading ${++readingN}`
-          : `Module ${++moduleN}`,
-    ]),
-  );
-})();
+const LABELS = moduleLabels(modulesOrdered);
 
 const multiRing =
   new Set(modulesOrdered.map((m) => m.ring ?? 1)).size > 1;

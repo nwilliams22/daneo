@@ -16,7 +16,6 @@ import {
   type TestQuestion,
 } from "../../lib/moduleTest";
 import { sentenceEnglish } from "../../lib/distractors";
-import { missViews } from "../../lib/testMisses";
 import type { Module, Sentence, TestMiss } from "../../types";
 import PageHeader from "../../components/PageHeader";
 import AudioButton from "../../components/AudioButton";
@@ -145,7 +144,7 @@ function TestRun({ module }: { module: Module }) {
           </div>
         </div>
         <MissedBlock
-          items={missViews(missed, wordById, sentenceById)}
+          misses={missed}
           moduleId={module.id}
           title="What this test caught"
           ctaLabel="Practice these now"

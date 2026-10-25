@@ -9,6 +9,9 @@ import { logDrillResult, recordModuleTest } from "../src/db/repo";
 import { moduleById, wordById } from "../src/content";
 import ModulePage from "../src/features/learn/ModulePage";
 import MissedPracticeRoute from "../src/features/learn/MissedPractice";
+import ReviewPage from "../src/features/review/ReviewPage";
+import MissedBlock from "../src/features/learn/MissedBlock";
+import type { TestMiss } from "../src/types";
 
 // BAD-278: after a bad module test the learner must be able to SEE what was
 // missed and practise exactly those, from the module page, in one click.
@@ -33,7 +36,26 @@ async function mount(path: string) {
             path="/learn/:moduleId/practice"
             element={<MissedPracticeRoute />}
           />
+          <Route path="/review" element={<ReviewPage />} />
         </Routes>
+      </MemoryRouter>,
+    ),
+  );
+}
+
+/** The results screen's block, rendered on its own: reaching it for real
+ *  means answering a whole test, and the block is the same component. */
+async function mountResultsBlock(misses: TestMiss[]) {
+  root = createRoot(container);
+  await act(async () =>
+    root.render(
+      <MemoryRouter>
+        <MissedBlock
+          misses={misses}
+          moduleId="m1"
+          title="What this test caught"
+          ctaLabel="Practice these now"
+        />
       </MemoryRouter>,
     ),
   );
@@ -116,6 +138,76 @@ it("shows the misses on the module page and flags the word in the checklist", as
     (a) => a.getAttribute("href") === "/learn/m1/practice",
   );
   expect(practice).toBeDefined();
+});
+
+// Nick, 2026-10-25: he found the misses in Review only once told to look.
+// Both screens must carry a door to it, and that door must land somewhere
+// that names this module's items.
+it("links the module test card to Review with a live count", async () => {
+  await recordModuleTest("m1", 40, [
+    { kind: "word", itemId: "w_mul" },
+    { kind: "anatomy", itemId: "s_water" },
+  ]);
+  // Grading schedules both items; one is due now, the other in 10 minutes.
+  await db.srsCards.bulkPut([
+    { kind: "word", itemId: "w_mul", interval: 0, ease: 5, due: 1, lapses: 1 },
+    {
+      kind: "anatomy",
+      itemId: "s_water",
+      interval: 0,
+      ease: 5,
+      due: Date.now() + 10 * 60_000,
+      lapses: 1,
+    },
+  ]);
+  await mount("/learn/m1");
+
+  await waitForText("2 items from this test are waiting in Review");
+  expect(container.textContent).toContain("1 due now, the rest in 10 min");
+  const toReview = [...container.querySelectorAll("a")].filter(
+    (a) => a.getAttribute("href") === "/review?module=m1",
+  );
+  // Exactly one door per page — the card's, not one per block.
+  expect(toReview).toHaveLength(1);
+});
+
+it("links the Test Complete block to Review as well as to practice", async () => {
+  await db.srsCards.put({
+    kind: "word",
+    itemId: "w_mul",
+    interval: 0,
+    ease: 5,
+    due: Date.now() + 5 * 60_000,
+    lapses: 1,
+  });
+  await mountResultsBlock([{ kind: "word", itemId: "w_mul" }]);
+
+  await waitForText("1 item from this test is waiting in Review");
+  expect(container.textContent).toContain("due in 5 min");
+  const hrefs = [...container.querySelectorAll("a")].map((a) =>
+    a.getAttribute("href"),
+  );
+  expect(hrefs).toContain("/learn/m1/practice");
+  expect(hrefs).toContain("/review?module=m1");
+});
+
+it("names the module's items on /review?module=m1 and practises just those", async () => {
+  await recordModuleTest("m1", 40, [{ kind: "word", itemId: "w_mul" }]);
+  await mount("/review?module=m1");
+
+  // The short course label, not the module's prose title.
+  await waitForText("From your Module 1 test · 1");
+  expect(container.textContent).toContain(missedWord.ko);
+  const practice = [...container.querySelectorAll("a")].find(
+    (a) => a.getAttribute("href") === "/learn/m1/practice",
+  );
+  expect(practice).toBeDefined();
+
+  // Without the parameter, the module block stays off the Review page.
+  await act(async () => root.unmount());
+  await mount("/review");
+  await waitForText("Daily review");
+  expect(container.textContent).not.toContain("From your Module 1 test");
 });
 
 it("practises only the misses, and empties as they are cleared", async () => {

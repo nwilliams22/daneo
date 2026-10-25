@@ -12,8 +12,10 @@
 //   --out <dir>      output directory (default `.visual-pass`)
 //   --port <n>       dev server port when this script starts one (default 5177)
 //   --keep-known     do not wipe existing knownWords rows before seeding
-//   --fail-test      also seed a failed module test, so the "missed on your
-//                    last test" block and the checklist practice flags render
+//   --fail-test      also seed a failed module test (with the SRS cards a real
+//                    attempt writes), so the "missed on your last test" block,
+//                    the checklist practice flags and the link to Review
+//                    render — the last two are asserted, not just screenshotted
 //
 // Written because the browser check kept being handed back as "no desktop access
 // in this workspace". There is a browser on the box; this is the whole recipe.
@@ -367,32 +369,51 @@ if (has("fail-test")) {
       ],
     };
   });
+  // Grading schedules every miss, so the cards come with the attempt — the
+  // "waiting in Review" link counts them. First one due, the rest in 8 min,
+  // which is what a lapse looks like minutes after a test.
+  const cards = attempts.flatMap((a) =>
+    a.misses.map((m, i) => ({
+      kind: m.kind,
+      itemId: m.itemId,
+      interval: 0,
+      ease: 5,
+      due: Date.now() + (i === 0 ? -1000 : 8 * 60_000),
+      lapses: 1,
+    })),
+  );
   const tests = await sess.evaluate(`(async () => {
     const db = await new Promise((res, rej) => {
       const r = indexedDB.open('daneo');
       r.onsuccess = () => res(r.result);
       r.onerror = () => rej(r.error);
     });
-    if (!db.objectStoreNames.contains('moduleTests')) {
-      const stores = [...db.objectStoreNames];
-      db.close();
-      return { error: 'moduleTests object store missing', version: db.version, stores };
+    for (const store of ['moduleTests', 'srsCards']) {
+      if (!db.objectStoreNames.contains(store)) {
+        const stores = [...db.objectStoreNames];
+        db.close();
+        return { error: store + ' object store missing', version: db.version, stores };
+      }
     }
     await new Promise((res, rej) => {
-      const tx = db.transaction('moduleTests', 'readwrite');
-      const os = tx.objectStore('moduleTests');
-      for (const row of ${JSON.stringify(attempts)}) os.put(row);
+      const tx = db.transaction(['moduleTests', 'srsCards'], 'readwrite');
+      const tests = tx.objectStore('moduleTests');
+      for (const row of ${JSON.stringify(attempts)}) tests.put(row);
+      const srs = tx.objectStore('srsCards');
+      for (const row of ${JSON.stringify(cards)}) srs.put(row);
       tx.oncomplete = res;
       tx.onerror = () => rej(tx.error);
     });
     db.close();
-    return { rows: ${attempts.length} };
+    return { rows: ${attempts.length}, cards: ${cards.length} };
   })()`);
   if (tests.error) {
     console.error(`module-test seeding failed: ${JSON.stringify(tests)}`);
     process.exit(1);
   }
-  console.log(`seeded ${tests.rows} failed module test(s)\n`);
+  console.log(
+    `seeded ${tests.rows} failed module test(s) · ${tests.cards} review cards\n`,
+  );
 }
 
 const report = [];
@@ -432,6 +453,11 @@ for (const moduleId of moduleIds) {
       checklist: text.match(/(\\d+)\\s*\\/\\s*(\\d+)/)?.[0] ?? null,
       missingSentences: ${JSON.stringify(expected)}.filter((s) => !body.includes(normalise(s))),
       onboarding: /where should you start/i.test(text),
+      // The two doors a failed attempt must leave on the module page.
+      practiceLink: [...document.querySelectorAll('a')].some((a) =>
+        (a.getAttribute('href') || '').endsWith('/${moduleId}/practice')),
+      reviewLink: [...document.querySelectorAll('a')].some((a) =>
+        (a.getAttribute('href') || '').includes('/review?module=${moduleId}')),
     };
   })()`);
 
@@ -453,6 +479,10 @@ for (const moduleId of moduleIds) {
     problems.push(`checklist reads ${probe.checklist}, expected ${mod.wordIds.length}/${mod.wordIds.length}`);
   }
   for (const s of probe.missingSentences) problems.push(`sentence missing from the page: ${s}`);
+  if (has("fail-test")) {
+    if (!probe.practiceLink) problems.push("no \"practice these\" link after a failed test");
+    if (!probe.reviewLink) problems.push("no link to Review after a failed test");
+  }
   for (const e of sess.consoleErrors) problems.push(`console error: ${e}`);
   if (problems.length > 0) failures += 1;
 

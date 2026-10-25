@@ -1721,3 +1721,25 @@ driving the real module page and practice route); `npm run build` passes
 including typecheck (existing large-chunk warning); `npm run visual:pass -- m1
 --fail-test` renders the missed block and the checklist flags — the new flag
 seeds a failed attempt so this UI is reproducible in a browser.
+
+### 2026-10-25 — The module's door to Review
+
+Nick found his Module 1 misses in the Review tab only after being told to look
+there: scheduling worked, the path to it did not exist. Both module surfaces now
+carry one — the module test card and the Test Complete block show
+`n items from this test are waiting in Review (1 due now, the rest in 8 min) →`,
+linking to `/review?module=<id>`, where the Review page leads with that
+module's items and a pass over just those. The count and the due split come
+from `missQueueStatus` over the attempt's misses and their SRS cards, so the
+line never claims an item the queue is not holding; a miss with no card is not
+counted. `formatDueIn` moved into `lib/srs` and `moduleLabels` out of
+`LearnPage` into `lib/moduleLabel`, so Review names the module the way the
+course does ("Module 1", not its prose title) rather than duplicating either
+helper. One door per page: the module page's block defers to its test card.
+Checks: `npm test` 33 files / 381 tests pass (6 new across
+`src/lib/testMisses.test.ts`, `src/lib/moduleLabel.test.ts` and
+`tests/module-misses.test.tsx`); `npm run build` passes including typecheck;
+`npm run lint:lang` 0 FAIL / 0 WARN; `npm run visual:pass -- m1 --fail-test`
+now asserts both links exist on the real module page and seeds the SRS cards a
+real attempt would write, and a browser pass confirms the hash-router link
+lands on `#/review?module=m1` with the three seeded items named.

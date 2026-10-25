@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, useSearchParams } from "react-router";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "../../db/db";
 import PageHeader from "../../components/PageHeader";
@@ -7,16 +7,21 @@ import {
   missedWordsByModule,
   type MissedRef,
 } from "../../lib/stats";
-import { dueNow, nextDueAt } from "../../lib/srs";
+import { moduleLabels } from "../../lib/moduleLabel";
+import { dueNow, formatDueIn, nextDueAt } from "../../lib/srs";
 import {
   confusableById,
   sentenceById,
   wordById,
   fontLetterById,
+  moduleById,
   modulesOrdered,
 } from "../../content";
+import MissedBlock from "../learn/MissedBlock";
 import { useGapPool, type GapPool } from "../drills/gap/useGapPool";
 import type { DrillKind, GapItem, Word } from "../../types";
+
+const LABELS = moduleLabels(modulesOrdered);
 
 interface ResolvedMiss {
   id: string;
@@ -93,16 +98,32 @@ const kindSections = (
   },
 ];
 
-function formatWhen(ms: number): string {
-  const d = ms - Date.now();
-  if (d < 60_000) return "in under a minute";
-  if (d < 60 * 60_000) return `in ${Math.round(d / 60_000)} min`;
-  if (d < 24 * 60 * 60_000) return `in about ${Math.round(d / 3_600_000)} h`;
-  return `on ${new Date(ms).toLocaleDateString(undefined, {
-    weekday: "short",
-    month: "short",
-    day: "numeric",
-  })}`;
+/** `/review?module=m1` — where the module test's "waiting in Review" link
+ *  lands (Nick, 2026-10-25). The queue below holds these items among
+ *  everything else; this names them and starts a pass over just them. */
+function FromModuleTest() {
+  const [params] = useSearchParams();
+  const moduleId = params.get("module");
+  const module = moduleId ? moduleById.get(moduleId) : undefined;
+  const result = useLiveQuery(
+    () => (moduleId ? db.moduleTests.get(moduleId) : undefined),
+    [moduleId],
+  );
+  if (!module || !result?.misses?.length) return null;
+  // The short course label ("Module 1"), not the module's prose title.
+  const label = LABELS[module.id] ?? module.title;
+  return (
+    <div className="mb-4">
+      <MissedBlock
+        misses={result.misses}
+        moduleId={module.id}
+        title={`From your ${label} test`}
+        ctaLabel="Practice these now"
+        queueLink={false}
+        note="They sit in the queue below with everything else; this is a pass over just these."
+      />
+    </div>
+  );
 }
 
 /** The Phase A.2 daily-queue banner: due count + entry into the session. */
@@ -129,7 +150,7 @@ function DueQueuePanel() {
             <div className="mt-1 text-sm text-muted">
               All caught up.
               {next !== undefined && (
-                <span> Next review {formatWhen(next)}.</span>
+                <span> Next review {formatDueIn(next)}.</span>
               )}
               {next === undefined && cards.length === 0 && (
                 <span> Drill anything and it enters the schedule.</span>
@@ -256,6 +277,7 @@ export default function ReviewPage() {
         blurb="The spaced queue brings items back as their intervals run out; the strip below tracks anything whose last answer was wrong."
       />
 
+      <FromModuleTest />
       <DueQueuePanel />
       <MissedSections gapPool={gapPool} />
 
