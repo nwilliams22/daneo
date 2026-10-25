@@ -25,6 +25,13 @@
 //                    module is then seeded so the pages have a learner to show.
 //   --dark           seed dark mode instead of light, so a pass can prove both
 //                    themes (BAD-281)
+//   --act <js>       JavaScript evaluated on every --route page once it has
+//                    rendered, before the screenshot. For screens whose point
+//                    is an interaction a static shot cannot reach:
+//                      --act "document.querySelectorAll('[aria-expanded=false]')
+//                             .forEach((b) => b.click())"
+//                    Its return value lands in report.json as `acted`, so the
+//                    action can assert as well as pose.
 //
 // Written because the browser check kept being handed back as "no desktop access
 // in this workspace". There is a browser on the box; this is the whole recipe.
@@ -47,6 +54,7 @@ const flags = (name) =>
   argv.flatMap((a, i) => (a === `--${name}` && argv[i + 1] ? [argv[i + 1]] : []));
 const moduleIds = argv.filter((a) => /^m\d+$/.test(a));
 const routes = flags("route");
+const act = flag("act", null);
 const theme = has("dark") ? "dark" : "light";
 const outDir = path.resolve(repoRoot, flag("out", ".visual-pass"));
 const port = Number(flag("port", "5177"));
@@ -563,6 +571,16 @@ for (const route of routes) {
   if (!page.ready) sess.consoleErrors.push(`route did not render after 60s: ${JSON.stringify(page)}`);
   if (!(await settle(sess))) sess.consoleErrors.push("page never stopped animating");
 
+  let acted;
+  if (act) {
+    try {
+      acted = await sess.evaluate(`(() => { ${act} })()`);
+    } catch (e) {
+      sess.consoleErrors.push(`--act threw: ${e.message}`);
+    }
+    if (!(await settle(sess))) sess.consoleErrors.push("page never settled after --act");
+  }
+
   const probe = await sess.evaluate(`(() => {
     const text = document.body.innerText;
     return {
@@ -580,7 +598,7 @@ for (const route of routes) {
     format: "png",
     captureBeyondViewport: true,
   });
-  const file = path.join(outDir, `route-${slug}${suffix}.png`);
+  const file = path.join(outDir, `route-${slug}${act ? "-acted" : ""}${suffix}.png`);
   writeFileSync(file, Buffer.from(shot.data, "base64"));
 
   const problems = [];
@@ -592,7 +610,7 @@ for (const route of routes) {
   for (const e of sess.consoleErrors) problems.push(`console error: ${e}`);
   if (problems.length > 0) failures += 1;
 
-  report.push({ route, ...probe, problems, screenshot: file });
+  report.push({ route, ...probe, acted, problems, screenshot: file });
   console.log(
     `${problems.length === 0 ? "ok  " : "FAIL"} ${route} · ${probe.chars} chars · ${probe.hangul} hangul · ${probe.scrollHeight}px`,
   );
