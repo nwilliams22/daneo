@@ -64,9 +64,15 @@ const commit = (state: ComposerState): string =>
 
 function inputConsonant(state: ComposerState, c: string): ComposerState {
   const { cur } = state;
-  // start a fresh syllable
+  // nothing in progress → re-join the open syllable we just left if we can
+  // (구 + ㄱ → 국), otherwise start a fresh syllable
   if (!cur || (!cur.cho && cur.jung.length === 0))
-    return { committed: state.committed, cur: { cho: c, jung: [], jong: [] } };
+    return (
+      attachJong(state.committed, c) ?? {
+        committed: state.committed,
+        cur: { cho: c, jung: [], jong: [] },
+      }
+    );
   // bare vowel or bare consonant sitting there → commit it, start fresh
   if (!cur.cho || cur.jung.length === 0)
     return { committed: commit(state), cur: { cho: c, jung: [], jong: [] } };
@@ -156,15 +162,46 @@ function reopen(ch: string): CurrentSyllable | null {
   return null; // not Hangul we can re-open — delete whole
 }
 
+/**
+ * Re-attach a lone consonant to the open syllable ending `committed`, undoing a
+ * batchim migration (구 + ㄱ → 국) or a compound split (갑 + ㅅ → 값). Returns
+ * null when there is nothing to attach to: a space or bare jamo in the way, a
+ * batchim that is already full, or a consonant that cannot be a final.
+ */
+function attachJong(committed: string, c: string): ComposerState | null {
+  if (!canBeJong(c)) return null;
+  const chars = [...committed];
+  const last = chars.pop();
+  if (last === undefined || !isSyllable(last)) return null;
+  const host = reopen(last);
+  if (!host) return null;
+  const jong =
+    host.jong.length === 0
+      ? [c]
+      : canExtendJong(host.jong, c)
+        ? [host.jong[0]!, c]
+        : null;
+  if (!jong) return null;
+  return { committed: chars.join(""), cur: { ...host, jong } };
+}
+
+/** After a backspace: a bare cho left dangling goes back onto the syllable
+ * before it, so undoing a migration restores the batchim instead of 구ㄱ. */
+function settle(committed: string, cur: CurrentSyllable | null): ComposerState {
+  if (cur && cur.cho && cur.jung.length === 0 && cur.jong.length === 0)
+    return attachJong(committed, cur.cho) ?? { committed, cur };
+  return { committed, cur };
+}
+
 function backspace(state: ComposerState): ComposerState {
-  if (state.cur) return { committed: state.committed, cur: popCur(state.cur) };
+  if (state.cur) return settle(state.committed, popCur(state.cur));
   if (state.committed.length === 0) return state;
   const chars = [...state.committed];
   const last = chars.pop()!;
   const committed = chars.join("");
   if (isSyllable(last) || SPLIT_VOWEL[last]) {
     const reopened = reopen(last);
-    if (reopened) return { committed, cur: popCur(reopened) };
+    if (reopened) return settle(committed, popCur(reopened));
   }
   return { committed, cur: null }; // bare jamo / space / anything else: gone
 }

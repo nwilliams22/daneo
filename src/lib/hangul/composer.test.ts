@@ -100,6 +100,51 @@ describe("2-beolsik composition", () => {
     expect(renderComposer(s)).toBe("한ㄱ");
   });
 
+  it("backspace undoes a batchim migration (구가 → 국, not 구ㄱ)", () => {
+    let s = type("rnrk"); // 국 + ㅏ → the ㄱ migrates
+    expect(renderComposer(s)).toBe("구가");
+    s = composerReduce(s, { type: "backspace" });
+    expect(renderComposer(s)).toBe("국");
+    s = composerReduce(s, { type: "backspace" });
+    expect(renderComposer(s)).toBe("구");
+  });
+
+  it("backspace undoes a compound-batchim split (갑시 → 값)", () => {
+    let s = type("rkqtl"); // 값 + ㅣ → 갑시
+    expect(renderComposer(s)).toBe("갑시");
+    s = composerReduce(s, { type: "backspace" });
+    expect(renderComposer(s)).toBe("값");
+  });
+
+  it("a retyped consonant rejoins the open syllable before it", () => {
+    let s = type("rnrk");
+    s = composerReduce(s, { type: "backspace" });
+    s = composerReduce(s, { type: "backspace" }); // 구
+    expect(renderComposer(s)).toBe("구");
+    s = type("r", s); // ㄱ
+    expect(renderComposer(s)).toBe("국");
+    // and a following vowel migrates it again, exactly as when first typed
+    s = type("h", s); // ㅗ
+    expect(renderComposer(s)).toBe("구고");
+  });
+
+  it("a space locks the syllable against rejoining", () => {
+    let s = type("rn"); // 구
+    s = composerReduce(s, { type: "space" });
+    s = type("r", s);
+    expect(renderComposer(s)).toBe("구 ㄱ");
+  });
+
+  it("does not rejoin across a batchim that cannot take the consonant", () => {
+    expect(typed("rnrh")).toBe("구고"); // migration, not a rejoin
+    let s = type("gksrnr"); // 한국
+    s = composerReduce(s, { type: "backspace" });
+    s = composerReduce(s, { type: "backspace" }); // 한 keeps its ㄴ
+    expect(renderComposer(s)).toBe("한ㄱ");
+    s = type("r", s); // ㄴㄱ is not a compound batchim
+    expect(renderComposer(s)).toBe("한ㄱㄱ");
+  });
+
   it("backspace decomposes compound vowels one part at a time", () => {
     let s = type("rhk"); // 과
     s = composerReduce(s, { type: "backspace" });
