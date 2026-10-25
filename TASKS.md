@@ -1780,4 +1780,5 @@ and the Dexie database is still at v2 (IndexedDB 20), not a fresh v1. It found
 two bugs this session that the unit tests had not: the zero-count flash and a
 "0 saved discoverys" plural. Its chrome profile lives in the system temp dir on
 purpose — a profile under the repo makes vite's watcher reload the page forever,
-which is the trap `scripts/visual-pass.mjs` still has.
+and `scripts/visual-pass.mjs` had the same trap waiting in `.visual-pass/`; it
+is moved there too.

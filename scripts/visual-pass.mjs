@@ -22,7 +22,7 @@
 
 import { spawn } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { homedir } from "node:os";
+import { homedir, tmpdir } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -213,7 +213,10 @@ if (!browserBin) {
   process.exit(1);
 }
 const cdpPort = 9222 + (port % 100);
-const profileDir = path.join(outDir, ".chrome-profile");
+// Outside the repo on purpose: a chrome profile under the project makes vite's
+// watcher fire on every SessionStorage write, and the page reloads forever
+// instead of mounting. Costs an hour to diagnose; keep it in the temp dir.
+const profileDir = path.join(tmpdir(), `daneo-visual-pass-${port}`);
 const chrome = spawn(
   browserBin,
   [
