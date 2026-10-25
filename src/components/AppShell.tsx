@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { NavLink } from "react-router";
 
 const NAV = [
+  { to: "/today", label: "Today" },
   { to: "/learn", label: "Learn" },
   { to: "/drill", label: "Drill" },
   { to: "/review", label: "Review" },
@@ -19,7 +20,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-20 bg-panel/95 shadow-[0_1px_0_0_var(--line)] backdrop-blur">
         <div className="mx-auto flex max-w-2xl items-center gap-1 px-4 py-2.5">
           <NavLink
-            to="/learn"
+            to="/today"
             className="mr-2 flex items-baseline gap-1.5 select-none"
           >
             <span className="font-korean text-xl leading-none font-bold">

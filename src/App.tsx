@@ -4,6 +4,7 @@ import { useApplyTheme } from "./theme/useTheme";
 import { useSettings } from "./state/settings";
 import AppShell from "./components/AppShell";
 import Onboarding from "./features/onboarding/Onboarding";
+import TodayPage from "./features/today/TodayPage";
 import LearnPage from "./features/learn/LearnPage";
 import ModulePage from "./features/learn/ModulePage";
 import ModuleTestRoute from "./features/learn/ModuleTest";
@@ -33,7 +34,10 @@ export default function App() {
   return (
     <AppShell>
       <Routes>
-        <Route path="/" element={<Navigate to="/learn" replace />} />
+        {/* Today is the landing page (BAD-281): "/" used to drop the learner
+            straight into the 164-module list. */}
+        <Route path="/" element={<Navigate to="/today" replace />} />
+        <Route path="/today" element={<TodayPage />} />
         <Route path="/learn" element={<LearnPage />} />
         <Route path="/learn/:moduleId" element={<ModulePage />} />
         <Route path="/learn/:moduleId/test" element={<ModuleTestRoute />} />
@@ -61,7 +65,7 @@ export default function App() {
         <Route path="/explore" element={<ExplorePage />} />
         {TutorPage && <Route path="/tutor" element={<Suspense fallback={null}><TutorPage /></Suspense>} />}
         <Route path="/settings" element={<SettingsPage />} />
-        <Route path="*" element={<Navigate to="/learn" replace />} />
+        <Route path="*" element={<Navigate to="/today" replace />} />
       </Routes>
     </AppShell>
   );
