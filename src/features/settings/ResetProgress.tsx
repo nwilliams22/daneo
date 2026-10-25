@@ -135,7 +135,7 @@ export default function ResetProgress({
         <button
           onClick={() => setStep("idle")}
           disabled={step === "working"}
-          className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink disabled:opacity-60"
+          className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink disabled:opacity-60"
         >
           Cancel
         </button>

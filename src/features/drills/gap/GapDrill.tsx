@@ -32,7 +32,7 @@ function BrowseCard({ item }: { item: GapItem }) {
   return (
     <button
       onClick={() => setOpen(!open)}
-      className={`w-full rounded-xl border border-line border-l-[3px] bg-panel px-4 py-3.5 text-left transition-colors ${cat.border}`}
+      className={`w-full rounded-panel border-l-[3px] bg-panel px-4 py-3.5 text-left shadow-panel transition-shadow hover:shadow-lift ${cat.border}`}
     >
       <div className="flex items-baseline justify-between gap-2.5">
         <span className="flex items-center gap-1 font-korean text-[20px] font-semibold">

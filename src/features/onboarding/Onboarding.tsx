@@ -76,7 +76,7 @@ export default function Onboarding() {
                     romanizationVisible: true,
                   })
                 }
-                className="rounded-xl border border-line bg-paper px-4 py-3 text-left transition-colors hover:border-teal"
+                className="rounded-xl bg-fill px-4 py-3 text-left transition-colors hover:border-teal"
               >
                 <div className="text-sm font-bold">I'm brand new</div>
                 <div className="mt-0.5 text-xs leading-relaxed text-muted">

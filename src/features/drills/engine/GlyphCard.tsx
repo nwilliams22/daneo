@@ -12,7 +12,7 @@ export default function GlyphCard({
   return (
     <div
       onClick={onClick}
-      className={`relative mx-auto mb-5 flex h-40 w-40 items-center justify-center overflow-hidden rounded-2xl border border-line bg-paper ${
+      className={`relative mx-auto mb-5 flex h-40 w-40 items-center justify-center overflow-hidden rounded-[20px] bg-paper ${
         onClick ? "cursor-pointer" : ""
       }`}
     >

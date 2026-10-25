@@ -348,7 +348,7 @@ function AnatomyDrill({
               <button
                 key={`${c.id}-${i}`}
                 onClick={() => place(c)}
-                className="m-1 inline-block rounded-lg border border-line bg-paper px-3 py-1.5 text-[15px] font-semibold text-ink transition-colors hover:border-muted"
+                className="m-1 inline-block rounded-xl bg-fill px-3 py-1.5 text-[15px] font-semibold text-ink transition-colors hover:border-muted"
               >
                 {c.t}
               </button>
@@ -361,7 +361,7 @@ function AnatomyDrill({
           <div className="flex gap-2.5">
             <button
               onClick={() => setupArrange(s)}
-              className="flex-1 rounded-xl border border-line py-3 text-sm font-semibold text-muted transition-colors hover:text-ink"
+              className="flex-1 rounded-xl bg-fill py-3 text-sm font-semibold text-muted transition-colors hover:text-ink"
             >
               Reset
             </button>

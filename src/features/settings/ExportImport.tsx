@@ -63,13 +63,13 @@ export default function ExportImport() {
         </button>
         <button
           onClick={doCopy}
-          className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
+          className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
         >
           Copy JSON
         </button>
         <button
           onClick={() => fileRef.current?.click()}
-          className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
+          className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
         >
           Import…
         </button>

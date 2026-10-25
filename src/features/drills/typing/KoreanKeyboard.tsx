@@ -17,7 +17,7 @@ export default function KoreanKeyboard({
   disabled?: boolean;
 }) {
   const keyCls =
-    "flex h-11 flex-1 items-center justify-center rounded-lg border border-line bg-paper font-korean text-lg transition-colors active:bg-line disabled:opacity-40";
+    "flex h-11 flex-1 items-center justify-center rounded-xl bg-fill font-korean text-lg transition-colors active:bg-line disabled:opacity-40";
 
   return (
     <div className="mt-4 flex select-none flex-col gap-1.5">
@@ -63,7 +63,7 @@ export default function KoreanKeyboard({
               disabled={disabled}
               onClick={onBackspace}
               aria-label="Backspace"
-              className="flex h-11 w-14 shrink-0 items-center justify-center rounded-lg border border-line bg-panel text-sm font-bold text-muted transition-colors active:bg-line"
+              className="flex h-11 w-14 shrink-0 items-center justify-center rounded-lg bg-panel text-sm font-bold text-muted shadow-panel transition-colors active:bg-fill"
             >
               ⌫
             </button>

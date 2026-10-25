@@ -98,7 +98,7 @@ export default function TranslatorPage() {
       {import.meta.env.DEV && (
         <div className="mb-4 flex items-center gap-2 text-xs text-muted" aria-label="Translator engine">
           <span>Engine</span>
-          <div className="flex rounded-full border border-line bg-panel p-1">
+          <div className="flex rounded-full bg-fill p-1">
             {(["local", "cloud"] as const).map((option) => (
               <button key={option} type="button" onClick={() => chooseEngine(option)}
                 aria-pressed={engine === option}
@@ -137,7 +137,7 @@ export default function TranslatorPage() {
               setInput(ex);
               run(ex);
             }}
-            className={`rounded-full border border-line px-2.5 py-1.5 text-[12.5px] text-muted transition-colors hover:text-ink ${
+            className={`rounded-full bg-fill px-2.5 py-1.5 text-[12.5px] text-muted transition-colors hover:text-ink ${
               /[가-힣]/.test(ex) ? "font-korean" : ""
             }`}
           >

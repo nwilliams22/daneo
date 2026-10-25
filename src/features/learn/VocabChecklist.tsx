@@ -67,7 +67,7 @@ export default function VocabChecklist({ module }: { module: Module }) {
             <div className="mb-1.5 px-1 text-xs font-semibold text-muted">
               {g.label}
             </div>
-            <div className="overflow-hidden rounded-xl border border-line">
+            <div className="overflow-hidden rounded-xl bg-paper">
               {groupWords.map((w) => {
                 const isKnown = known.has(w.id);
                 return (
@@ -77,7 +77,7 @@ export default function VocabChecklist({ module }: { module: Module }) {
                       isKnown ? unmarkWordKnown(w.id) : markWordKnown(w.id)
                     }
                     className={`flex w-full items-center gap-3 border-b border-line px-3 py-2 text-left transition-colors last:border-b-0 ${
-                      isKnown ? "bg-paper" : "bg-transparent hover:bg-paper/60"
+                      isKnown ? "bg-fill" : "bg-transparent hover:bg-fill"
                     }`}
                   >
                     <span

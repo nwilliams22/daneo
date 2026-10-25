@@ -61,7 +61,7 @@ export default function ExplorePage() {
         <div className="mt-2.5 flex flex-wrap gap-1.5">
           {EXAMPLES.map(example => <button key={example} type="button"
             onClick={() => { setInput(example); run(example); }}
-            className="rounded-full border border-line px-2.5 py-1.5 font-korean text-sm text-muted hover:text-ink">
+            className="rounded-full bg-fill px-2.5 py-1.5 font-korean text-sm text-muted hover:text-ink">
             {example}
           </button>)}
         </div>

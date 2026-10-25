@@ -76,11 +76,11 @@ export default function ModelPanel() {
       <div className="mt-4 flex flex-wrap items-center gap-3">
         <button type="button" onClick={() => void download()} disabled={!desktop || !details?.pin || !!busy || installed}
           className="rounded-xl bg-ink px-3.5 py-2 text-[13px] font-semibold text-paper disabled:opacity-40">Download model</button>
-        {busy === "download" && <button type="button" onClick={() => { if (downloadId.current) void modelDownloader.cancel(downloadId.current); }} className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold">Cancel</button>}
+        {busy === "download" && <button type="button" onClick={() => { if (downloadId.current) void modelDownloader.cancel(downloadId.current); }} className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold">Cancel</button>}
         <button type="button" onClick={() => void remove()} disabled={!desktop || !installed || !!busy}
-          className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold disabled:opacity-40">Delete model</button>
+          className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold disabled:opacity-40">Delete model</button>
         <label className="ml-auto flex items-center gap-2 text-xs text-muted">Unload after
-          <select value={idle} onChange={(event) => changeIdle(Number(event.target.value))} className="rounded-lg border border-line bg-paper px-2 py-1.5 text-ink">
+          <select value={idle} onChange={(event) => changeIdle(Number(event.target.value))} className="rounded-xl bg-fill px-2 py-1.5 text-ink">
             <option value={60}>1 minute</option><option value={300}>5 minutes</option><option value={900}>15 minutes</option>
           </select>
         </label>

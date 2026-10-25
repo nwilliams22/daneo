@@ -23,7 +23,7 @@ function SentenceCard({ sentence }: { sentence: Sentence }) {
     .filter(Boolean)
     .join(" ");
   return (
-    <div className="rounded-xl border border-line bg-paper px-4 py-3">
+    <div className="rounded-xl bg-fill px-4 py-3">
       <div className="flex items-start justify-between gap-2">
         <div className="font-korean text-[21px] leading-snug">
           {sentence.ko

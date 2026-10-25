@@ -84,7 +84,7 @@ export default function DrillHubPage() {
               to={d.to}
               className="group flex items-center gap-4 rounded-panel bg-panel px-5 py-4 shadow-panel transition-shadow hover:shadow-lift"
             >
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-line bg-paper font-korean text-2xl">
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-fill font-korean text-2xl">
                 {d.ko}
               </span>
               <div>
@@ -105,7 +105,7 @@ export default function DrillHubPage() {
               <div>
                 <div className="text-[15px] font-bold text-muted">
                   {d.title}
-                  <span className="ml-2 rounded-full border border-line px-2 py-0.5 text-[10px] font-semibold tracking-wider uppercase">
+                  <span className="ml-2 rounded-full bg-fill px-2 py-0.5 text-[10px] font-semibold tracking-wider uppercase">
                     soon
                   </span>
                 </div>

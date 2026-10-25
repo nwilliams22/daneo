@@ -250,7 +250,7 @@ function MissedSections({ gapPool }: { gapPool: GapPool }) {
             {s.items.map((m) => (
               <div
                 key={m.id}
-                className="flex items-baseline gap-1.5 rounded-lg border border-line bg-paper px-2.5 py-1.5"
+                className="flex items-baseline gap-1.5 rounded-xl bg-fill px-2.5 py-1.5"
               >
                 <span className="font-korean text-lg leading-none">
                   {m.big}

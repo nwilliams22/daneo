@@ -24,20 +24,20 @@ export default function QuizOptions({
       className={`grid gap-2.5 ${columns === 2 ? "grid-cols-2" : "grid-cols-1"}`}
     >
       {options.map((o) => {
-        let cls = "border-line text-ink hover:border-muted";
+        // Slate has no outlined boxes: an option is a filled tile, and the
+        // feedback replaces the fill rather than drawing a ring (BAD-281).
+        let cls = "bg-paper text-ink hover:bg-fill";
         if (pickedId) {
-          if (o.id === answerId)
-            cls = "border-teal bg-teal text-on-accent";
-          else if (o.id === pickedId)
-            cls = "border-clay bg-clay text-on-accent";
-          else cls = "border-line text-muted";
+          if (o.id === answerId) cls = "bg-teal text-on-accent";
+          else if (o.id === pickedId) cls = "bg-clay text-on-accent";
+          else cls = "bg-paper text-muted opacity-75";
         }
         return (
           <button
             key={o.id}
             disabled={!!pickedId}
             onClick={() => onPick(o.id)}
-            className={`rounded-xl border px-3 py-3.5 font-semibold transition-colors ${
+            className={`rounded-xl px-3 py-3.5 font-semibold transition-colors ${
               columns === 1 ? "text-left text-sm" : "text-center text-[16px]"
             } ${o.korean ? "font-korean" : ""} ${cls} ${pickedId ? "" : "cursor-pointer"}`}
           >

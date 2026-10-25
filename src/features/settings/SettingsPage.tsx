@@ -75,7 +75,7 @@ function AudioStatus() {
         </span>
         <button
           onClick={() => speak("안녕하세요")}
-          className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
+          className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
         >
           Test
         </button>
@@ -111,7 +111,7 @@ export default function SettingsPage() {
         </Row>
 
         <Row label="Theme">
-          <div className="flex gap-1 rounded-xl border border-line bg-paper p-1">
+          <div className="flex gap-1 rounded-xl bg-fill p-1">
             {THEMES.map((t) => (
               <button
                 key={t.value}
@@ -167,7 +167,7 @@ export default function SettingsPage() {
         >
           <button
             onClick={s.resetOnboarding}
-            className="rounded-xl border border-line px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
+            className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
           >
             Run again
           </button>

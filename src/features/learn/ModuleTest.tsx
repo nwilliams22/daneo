@@ -126,7 +126,7 @@ function TestRun({ module }: { module: Module }) {
           <div className="mt-5 flex items-center justify-center gap-3">
             <button
               onClick={retake}
-              className="rounded-full border border-line px-5 py-2 text-sm font-bold transition-colors hover:border-teal"
+              className="rounded-full bg-fill px-5 py-2 text-sm font-bold transition-colors hover:text-ink"
             >
               Retake (new questions)
             </button>
@@ -136,7 +136,7 @@ function TestRun({ module }: { module: Module }) {
               className={`rounded-full px-5 py-2 text-sm font-bold transition-opacity hover:opacity-90 ${
                 missed.length === 0
                   ? "bg-ink text-paper"
-                  : "border border-line transition-colors hover:border-teal"
+                  : "bg-fill transition-colors hover:text-ink"
               }`}
             >
               Back to module

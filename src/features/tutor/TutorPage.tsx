@@ -52,7 +52,7 @@ export default function TutorPage() {
     <PageHeader eyebrow="Your learning · Local tutor" title="Ask Daneo" blurb="Ask about the words and lessons you have covered. Your progress stays on this device." />
     <form onSubmit={(event) => { event.preventDefault(); void ask(); }} className="rounded-panel bg-panel shadow-panel p-4">
       <label htmlFor="tutor-question" className="mb-2 block text-xs font-semibold text-muted">Your question</label>
-      <textarea id="tutor-question" value={question} onChange={(event) => setQuestion(event.target.value)} maxLength={500} rows={3} placeholder="How do the words I learned fit together?" className="w-full resize-y rounded-xl border border-line bg-paper px-3 py-2 text-sm outline-none focus:border-teal" />
+      <textarea id="tutor-question" value={question} onChange={(event) => setQuestion(event.target.value)} maxLength={500} rows={3} placeholder="How do the words I learned fit together?" className="w-full resize-y rounded-xl bg-fill px-3 py-2 text-sm outline-none focus:border-teal" />
       <div className="mt-3 flex justify-end gap-2">
         {busy && <button type="button" onClick={cancel} className="rounded-full px-4 py-2 text-sm font-semibold text-clay">Cancel</button>}
         <button type="submit" disabled={busy || !question.trim()} className="rounded-full bg-teal px-4 py-2 text-sm font-bold text-on-accent disabled:opacity-40">Ask</button>
