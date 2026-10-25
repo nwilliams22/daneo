@@ -196,6 +196,10 @@ export const exportSnapshotSchema = z.object({
           lastPct: z.number(),
           attempts: z.number(),
           at: z.number(),
+          // Last attempt's misses — optional so pre-2026-10-25 backups import
+          misses: z
+            .array(z.object({ kind: drillKindSchema, itemId: z.string() }))
+            .optional(),
         }),
       )
       .optional(),

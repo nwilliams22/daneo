@@ -2,14 +2,21 @@ import { useState } from "react";
 import { Link, useParams, Navigate } from "react-router";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "../../db/db";
-import { moduleById, moduleMarkdown } from "../../content";
+import {
+  moduleById,
+  moduleMarkdown,
+  sentenceById,
+  wordById,
+} from "../../content";
 import { splitModuleMarkdown } from "./splitModuleMarkdown";
 import { useSettings } from "../../state/settings";
 import { PASS_PCT } from "../../lib/moduleTest";
+import { missViews } from "../../lib/testMisses";
 import type { Module } from "../../types";
 import Markdown from "../../components/Markdown";
 import VocabChecklist from "./VocabChecklist";
 import SentenceList from "./SentenceList";
+import MissedBlock from "./MissedBlock";
 
 function HangulSection({ md }: { md: string }) {
   const hangulDone = useSettings((s) => s.hangulDone);
@@ -44,6 +51,20 @@ function HangulSection({ md }: { md: string }) {
         </div>
       )}
     </div>
+  );
+}
+
+/** What the last test caught, with the one-click path to practising it
+ *  (Nick, 2026-10-25). Hidden once the list is empty. */
+function MissedOnLastTest({ module }: { module: Module }) {
+  const result = useLiveQuery(() => db.moduleTests.get(module.id), [module.id]);
+  return (
+    <MissedBlock
+      items={missViews(result?.misses, wordById, sentenceById)}
+      moduleId={module.id}
+      title="Missed on your last test"
+      ctaLabel="Practice these"
+    />
   );
 }
 
@@ -110,7 +131,12 @@ export default function ModulePage() {
             return <SentenceList key={i} module={module} />;
         }
       })}
-      {module.wordIds.length > 0 && <TestCta module={module} />}
+      {module.wordIds.length > 0 && (
+        <>
+          <TestCta module={module} />
+          <MissedOnLastTest module={module} />
+        </>
+      )}
     </div>
   );
 }

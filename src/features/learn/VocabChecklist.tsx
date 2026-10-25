@@ -1,7 +1,10 @@
+import { useLiveQuery } from "dexie-react-hooks";
 import { wordById } from "../../content";
+import { db } from "../../db/db";
 import type { Module, Word } from "../../types";
 import { useKnownWords } from "../../db/useKnownWords";
 import { markWordKnown, unmarkWordKnown } from "../../db/repo";
+import { missedWordIds } from "../../lib/testMisses";
 import AudioButton from "../../components/AudioButton";
 import Rom from "../../components/Rom";
 
@@ -17,6 +20,14 @@ const GROUPS: { pos: Word["pos"][]; label: string }[] = [
 
 export default function VocabChecklist({ module }: { module: Module }) {
   const known = useKnownWords();
+  // Words the last module test caught (2026-10-25). They keep their tick —
+  // un-ticking would re-lock the module's sentences and drills (lib/gating) —
+  // and carry a "practice" flag instead: checked means studied, not proven.
+  const missed = useLiveQuery(
+    async () => missedWordIds((await db.moduleTests.get(module.id))?.misses),
+    [module.id],
+    new Set<string>(),
+  );
   const words = module.wordIds
     .map((id) => wordById.get(id))
     .filter((w): w is Word => w !== undefined);
@@ -24,6 +35,7 @@ export default function VocabChecklist({ module }: { module: Module }) {
   if (!known) return null;
   const done = words.filter((w) => known.has(w.id)).length;
   const complete = done === words.length;
+  const needPractice = words.filter((w) => missed.has(w.id)).length;
 
   return (
     <div className="my-4 rounded-2xl border border-line bg-panel p-4">
@@ -37,6 +49,15 @@ export default function VocabChecklist({ module }: { module: Module }) {
           {done}/{words.length}
         </div>
       </div>
+
+      {needPractice > 0 && (
+        <p className="mb-3 px-1 text-[12.5px] leading-relaxed text-muted">
+          <b className="text-clay">{needPractice}</b> of these came back wrong
+          on your last module test. A tick means you have studied the word —
+          the <span className="font-semibold text-clay">practice</span> flag is
+          what the test caught.
+        </p>
+      )}
 
       {GROUPS.map((g) => {
         const groupWords = words.filter((w) => g.pos.includes(w.pos));
@@ -73,6 +94,11 @@ export default function VocabChecklist({ module }: { module: Module }) {
                       {w.ko}
                     </span>
                     <Rom text={w.rom} />
+                    {missed.has(w.id) && (
+                      <span className="rounded-full border border-clay/60 px-1.5 py-0.5 text-[10px] font-bold tracking-[0.08em] text-clay uppercase">
+                        practice
+                      </span>
+                    )}
                     <span className="ml-auto pl-2 text-right text-[13px] text-muted">
                       {w.en}
                     </span>

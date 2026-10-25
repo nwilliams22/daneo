@@ -1,16 +1,28 @@
+import type { ReactNode } from "react";
+
 export interface MissedChip {
   id: string;
   big: string; // Korean glyph/word
   small: string; // secondary label (rom or meaning)
 }
 
-/** The "Review these" strip shown under a drill for this session's misses. */
-export default function MissedStrip({ items }: { items: MissedChip[] }) {
+/** The "Review these" strip shown under a drill for this session's misses.
+ *  `title` and `footer` let the module-test screens reuse it as a "what you
+ *  missed, practise it now" block. */
+export default function MissedStrip({
+  items,
+  title = "Review these",
+  footer,
+}: {
+  items: MissedChip[];
+  title?: string;
+  footer?: ReactNode;
+}) {
   if (items.length === 0) return null;
   return (
     <div className="mt-4 rounded-2xl border border-line bg-panel px-4 py-3.5">
       <div className="mb-2.5 text-[11px] font-semibold tracking-[0.15em] text-clay uppercase">
-        Review these
+        {title}
       </div>
       <div className="flex flex-wrap gap-2">
         {items.map((m) => (
@@ -23,6 +35,7 @@ export default function MissedStrip({ items }: { items: MissedChip[] }) {
           </div>
         ))}
       </div>
+      {footer}
     </div>
   );
 }

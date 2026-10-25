@@ -16,7 +16,8 @@ import {
   type TestQuestion,
 } from "../../lib/moduleTest";
 import { sentenceEnglish } from "../../lib/distractors";
-import type { Module, Sentence } from "../../types";
+import { missViews } from "../../lib/testMisses";
+import type { Module, Sentence, TestMiss } from "../../types";
 import PageHeader from "../../components/PageHeader";
 import AudioButton from "../../components/AudioButton";
 import Rom from "../../components/Rom";
@@ -27,10 +28,15 @@ import {
   WordMeaningQuestion,
 } from "../drills/engine/questions";
 import RoleLabelQuestion from "../drills/anatomy/RoleLabelQuestion";
+import MissedBlock from "./MissedBlock";
 
 // Module-end test (Nick, 2026-08-10): one pass over a sample of the module's
 // vocab and sentences. Answers grade through logDrillResult, so a test is
 // also scheduled practice — misses return in the daily review queue.
+//
+// 2026-10-25: the queue alone was invisible. The attempt's misses are now
+// listed on the results screen and persisted with the score, so the module
+// page can show them and both screens can start a session over just those.
 
 const KIND_LABEL: Record<TestQuestion["kind"], string> = {
   wordMeaning: "Vocabulary",
@@ -53,6 +59,7 @@ function TestRun({ module }: { module: Module }) {
   );
   const [idx, setIdx] = useState(0);
   const [correct, setCorrect] = useState(0);
+  const [missed, setMissed] = useState<TestMiss[]>([]);
   const [recordedPct, setRecordedPct] = useState<number | null>(null);
 
   const q = questions[idx];
@@ -60,15 +67,27 @@ function TestRun({ module }: { module: Module }) {
 
   const answer = (ok: boolean) => {
     if (!q) return;
-    logDrillResult({ kind: drillKindFor(q), itemId: q.item.id, correct: ok });
+    const graded = logDrillResult({
+      kind: drillKindFor(q),
+      itemId: q.item.id,
+      correct: ok,
+    });
     const total = correct + (ok ? 1 : 0);
     setCorrect(total);
+    const misses = ok
+      ? missed
+      : [...missed, { kind: drillKindFor(q), itemId: q.item.id }];
+    if (!ok) setMissed(misses);
     // The final answer settles the score — record it here, from the user
-    // event (never a render effect), before the results screen shows.
+    // event (never a render effect), before the results screen shows. It
+    // waits on the grade: a correct last answer clears old misses inside
+    // logDrillResult, which must not land after this attempt's list.
     if (last && recordedPct === null) {
       const pct = scorePct(total, questions.length);
       setRecordedPct(pct);
-      recordModuleTest(module.id, pct);
+      void graded
+        .catch(() => {})
+        .then(() => recordModuleTest(module.id, pct, misses));
     }
   };
   const next = () => setIdx((i) => i + 1);
@@ -76,6 +95,7 @@ function TestRun({ module }: { module: Module }) {
     setAttempt((a) => a + 1);
     setIdx(0);
     setCorrect(0);
+    setMissed([]);
     setRecordedPct(null);
   };
 
@@ -98,9 +118,11 @@ function TestRun({ module }: { module: Module }) {
             {passed ? "passed" : `${PASS_PCT}% to pass`}
           </div>
           <p className="mx-auto mt-3 max-w-xs text-[13px] leading-relaxed text-muted">
-            {passed
-              ? "This module's blocks are holding. Anything you still missed is rescheduled into the review queue."
-              : "Not yet — everything you missed is queued for review. Revisit the module, clear the queue, and take it again."}
+            {missed.length === 0
+              ? "A clean pass — nothing to practise from this attempt."
+              : passed
+                ? "This module's blocks are holding. What you did miss is listed below."
+                : "Not yet — what the test caught is listed below. Practise exactly those, then take it again."}
           </p>
           <div className="mt-5 flex items-center justify-center gap-3">
             <button
@@ -109,14 +131,25 @@ function TestRun({ module }: { module: Module }) {
             >
               Retake (new questions)
             </button>
+            {/* With misses, "Practice these now" below is the primary action. */}
             <Link
               to={`/learn/${module.id}`}
-              className="rounded-full bg-ink px-5 py-2 text-sm font-bold text-paper transition-opacity hover:opacity-90"
+              className={`rounded-full px-5 py-2 text-sm font-bold transition-opacity hover:opacity-90 ${
+                missed.length === 0
+                  ? "bg-ink text-paper"
+                  : "border border-line transition-colors hover:border-teal"
+              }`}
             >
               Back to module
             </Link>
           </div>
         </div>
+        <MissedBlock
+          items={missViews(missed, wordById, sentenceById)}
+          moduleId={module.id}
+          title="What this test caught"
+          ctaLabel="Practice these now"
+        />
       </div>
     );
   }

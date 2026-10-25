@@ -12,6 +12,8 @@
 //   --out <dir>      output directory (default `.visual-pass`)
 //   --port <n>       dev server port when this script starts one (default 5177)
 //   --keep-known     do not wipe existing knownWords rows before seeding
+//   --fail-test      also seed a failed module test, so the "missed on your
+//                    last test" block and the checklist practice flags render
 //
 // Written because the browser check kept being handed back as "no desktop access
 // in this workspace". There is a browser on the box; this is the whole recipe.
@@ -346,6 +348,52 @@ if (seeded.error) {
   process.exit(1);
 }
 console.log(`seeded ${wordIds.length} words · knownWords rows: ${seeded.rows}\n`);
+
+// Optional gate 3 — a failed module test, for the missed-items UI (2026-10-25).
+// Two words and the module's first sentence, which is what a bad attempt looks
+// like once the review queue has the rest.
+if (has("fail-test")) {
+  const attempts = moduleIds.map((id) => {
+    const mod = byId.get(id);
+    return {
+      moduleId: id,
+      bestPct: 45,
+      lastPct: 45,
+      attempts: 1,
+      at: Date.now(),
+      misses: [
+        ...mod.wordIds.slice(0, 2).map((itemId) => ({ kind: "word", itemId })),
+        ...mod.sentenceIds.slice(0, 1).map((itemId) => ({ kind: "anatomy", itemId })),
+      ],
+    };
+  });
+  const tests = await sess.evaluate(`(async () => {
+    const db = await new Promise((res, rej) => {
+      const r = indexedDB.open('daneo');
+      r.onsuccess = () => res(r.result);
+      r.onerror = () => rej(r.error);
+    });
+    if (!db.objectStoreNames.contains('moduleTests')) {
+      const stores = [...db.objectStoreNames];
+      db.close();
+      return { error: 'moduleTests object store missing', version: db.version, stores };
+    }
+    await new Promise((res, rej) => {
+      const tx = db.transaction('moduleTests', 'readwrite');
+      const os = tx.objectStore('moduleTests');
+      for (const row of ${JSON.stringify(attempts)}) os.put(row);
+      tx.oncomplete = res;
+      tx.onerror = () => rej(tx.error);
+    });
+    db.close();
+    return { rows: ${attempts.length} };
+  })()`);
+  if (tests.error) {
+    console.error(`module-test seeding failed: ${JSON.stringify(tests)}`);
+    process.exit(1);
+  }
+  console.log(`seeded ${tests.rows} failed module test(s)\n`);
+}
 
 const report = [];
 let failures = 0;

@@ -7,6 +7,7 @@ import Onboarding from "./features/onboarding/Onboarding";
 import LearnPage from "./features/learn/LearnPage";
 import ModulePage from "./features/learn/ModulePage";
 import ModuleTestRoute from "./features/learn/ModuleTest";
+import MissedPracticeRoute from "./features/learn/MissedPractice";
 import DrillHubPage from "./features/drills/DrillHubPage";
 import ConfusablesDrill from "./features/drills/confusables/ConfusablesDrill";
 import CrossFontReader from "./features/drills/crossfont/CrossFontReader";
@@ -36,6 +37,10 @@ export default function App() {
         <Route path="/learn" element={<LearnPage />} />
         <Route path="/learn/:moduleId" element={<ModulePage />} />
         <Route path="/learn/:moduleId/test" element={<ModuleTestRoute />} />
+        <Route
+          path="/learn/:moduleId/practice"
+          element={<MissedPracticeRoute />}
+        />
         <Route path="/drill" element={<DrillHubPage />} />
         <Route
           path="/drill/confusables"

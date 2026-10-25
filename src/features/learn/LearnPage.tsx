@@ -87,19 +87,32 @@ export default function LearnPage() {
                   {!isReading &&
                     (() => {
                       const t = tests?.get(m.id);
-                      return t ? (
-                        <span
-                          className={`rounded-full border px-2.5 py-1 text-xs font-bold ${
-                            t.bestPct >= PASS_PCT
-                              ? "border-teal text-teal"
-                              : "border-line text-muted"
-                          }`}
-                          title={`Module test — best ${t.bestPct}%`}
-                        >
-                          {t.bestPct >= PASS_PCT ? "✓ " : ""}
-                          {t.bestPct}%
-                        </span>
-                      ) : null;
+                      if (!t) return null;
+                      const toPractice = t.misses?.length ?? 0;
+                      return (
+                        <>
+                          {/* What the last test caught, still outstanding. */}
+                          {toPractice > 0 && (
+                            <span
+                              className="rounded-full border border-clay/60 px-2.5 py-1 text-xs font-bold text-clay"
+                              title="Missed on your last module test"
+                            >
+                              {toPractice} to practice
+                            </span>
+                          )}
+                          <span
+                            className={`rounded-full border px-2.5 py-1 text-xs font-bold ${
+                              t.bestPct >= PASS_PCT
+                                ? "border-teal text-teal"
+                                : "border-line text-muted"
+                            }`}
+                            title={`Module test — best ${t.bestPct}%`}
+                          >
+                            {t.bestPct >= PASS_PCT ? "✓ " : ""}
+                            {t.bestPct}%
+                          </span>
+                        </>
+                      );
                     })()}
                   {!isReading && progress && (
                     <div

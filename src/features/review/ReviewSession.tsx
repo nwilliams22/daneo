@@ -24,6 +24,7 @@ import {
 } from "../../content";
 import type {
   ConfusableItem,
+  DrillKind,
   FontFace,
   FontLetterRow,
   GapItem,
@@ -52,7 +53,7 @@ import { useGapPool, type GapPool } from "../drills/gap/useGapPool";
 // card moves the moment you answer; wrong answers come back within minutes
 // on the next visit.
 
-type Question =
+export type Question =
   | { key: string; kind: "confusable"; item: ConfusableItem; options: ConfusableItem[] }
   | { key: string; kind: "font"; item: FontLetterRow; options: FontLetterRow[]; face: FontFace }
   | { key: string; kind: "gap"; item: GapItem; options: GapItem[] }
@@ -73,67 +74,74 @@ function fontLetterOptions(target: FontLetterRow): FontLetterRow[] {
   return shuffle([target, ...distractors]);
 }
 
-/** Resolve due cards into renderable questions; cards whose item no longer
- *  exists (e.g. a deleted discovery) are skipped. */
-function buildQueue(cards: SrsCard[], gapPool: GapPool): Question[] {
-  const out: Question[] = [];
-  for (const card of dueNow(cards)) {
-    const key = `${card.kind}:${card.itemId}`;
-    if (card.kind === "confusable") {
-      const item = confusableById.get(card.itemId);
-      if (item)
-        out.push({
+/** Resolve one card into a renderable question. Null when its item no longer
+ *  exists (e.g. a deleted discovery) or can't be asked as that kind. Shared
+ *  with the module-test practice session (2026-10-25). */
+export function buildQuestion(
+  kind: DrillKind,
+  itemId: string,
+  gapPool: GapPool,
+): Question | null {
+  const key = `${kind}:${itemId}`;
+  if (kind === "confusable") {
+    const item = confusableById.get(itemId);
+    return item
+      ? {
           key,
-          kind: "confusable",
+          kind,
           item,
           options: generateConfusableOptions(item, confusables),
-        });
-    } else if (card.kind === "font") {
-      const item = fontLetterById.get(card.itemId);
-      if (item)
-        out.push({
+        }
+      : null;
+  }
+  if (kind === "font") {
+    const item = fontLetterById.get(itemId);
+    return item
+      ? {
           key,
-          kind: "font",
+          kind,
           item,
           options: fontLetterOptions(item),
           face: randomAltFace(),
-        });
-    } else if (card.kind === "gap") {
-      const item = gapPool.byId.get(card.itemId);
-      if (item)
-        out.push({
+        }
+      : null;
+  }
+  if (kind === "gap") {
+    const item = gapPool.byId.get(itemId);
+    return item
+      ? { key, kind, item, options: generateGapOptions(item, gapPool.items) }
+      : null;
+  }
+  if (kind === "anatomy") {
+    const item = sentenceById.get(itemId);
+    return item
+      ? {
           key,
-          kind: "gap",
-          item,
-          options: generateGapOptions(item, gapPool.items),
-        });
-    } else if (card.kind === "anatomy") {
-      const item = sentenceById.get(card.itemId);
-      if (item)
-        out.push({
-          key,
-          kind: "anatomy",
+          kind,
           item,
           options: generateSentenceOptions(item, allSentences),
-        });
-    } else if (card.kind === "typing") {
-      const item = wordById.get(card.itemId);
-      if (item) out.push({ key, kind: "typing", item });
-    } else if (card.kind === "word") {
-      const item = wordById.get(card.itemId);
-      if (item)
-        out.push({
-          key,
-          kind: "word",
-          item,
-          options: generateWordOptions(item, allWords),
-        });
-    } else if (card.kind === "role") {
-      const item = sentenceById.get(card.itemId);
-      if (item && labelable(item)) out.push({ key, kind: "role", item });
-    }
+        }
+      : null;
   }
-  return out;
+  if (kind === "typing") {
+    const item = wordById.get(itemId);
+    return item ? { key, kind, item } : null;
+  }
+  if (kind === "word") {
+    const item = wordById.get(itemId);
+    return item
+      ? { key, kind, item, options: generateWordOptions(item, allWords) }
+      : null;
+  }
+  const item = sentenceById.get(itemId);
+  return item && labelable(item) ? { key, kind: "role", item } : null;
+}
+
+/** Everything due now, oldest first. */
+function buildQueue(cards: SrsCard[], gapPool: GapPool): Question[] {
+  return dueNow(cards)
+    .map((card) => buildQuestion(card.kind, card.itemId, gapPool))
+    .filter((q): q is Question => q !== null);
 }
 
 const KIND_LABEL: Record<Question["kind"], string> = {
@@ -146,7 +154,38 @@ const KIND_LABEL: Record<Question["kind"], string> = {
   role: "Sentence roles",
 };
 
-function ReviewSession({ queue }: { queue: Question[] }) {
+/** Everything around the questions. Defaulted to the daily queue's wording;
+ *  the module-test practice session passes its own (2026-10-25). */
+export interface SessionChrome {
+  eyebrow: string;
+  title: string;
+  blurb: string;
+  backTo: string;
+  backLabel: string;
+  doneEyebrow: string;
+  doneTitle: string;
+  doneNote: string;
+}
+
+const REVIEW_CHROME: SessionChrome = {
+  eyebrow: "한국어 · Daily review",
+  title: "Review Queue",
+  blurb: "Everything due right now, all drills mixed into one pass.",
+  backTo: "/review",
+  backLabel: "Review",
+  doneEyebrow: "한국어 · Review",
+  doneTitle: "Session Complete",
+  doneNote:
+    "Anything you missed is rescheduled to come back sooner — check in again later today or tomorrow.",
+};
+
+export function ReviewSession({
+  queue,
+  chrome = REVIEW_CHROME,
+}: {
+  queue: Question[];
+  chrome?: SessionChrome;
+}) {
   const [idx, setIdx] = useState(0);
   const [correct, setCorrect] = useState(0);
 
@@ -163,21 +202,20 @@ function ReviewSession({ queue }: { queue: Question[] }) {
     const pct = queue.length ? Math.round((correct / queue.length) * 100) : 0;
     return (
       <div>
-        <PageHeader eyebrow="한국어 · Review" title="Session Complete" />
+        <PageHeader eyebrow={chrome.doneEyebrow} title={chrome.doneTitle} />
         <div className="rounded-2xl border border-line bg-panel px-6 py-10 text-center">
           <div className="text-4xl font-bold">
             {correct}/{queue.length}
           </div>
           <div className="mt-1 text-sm text-muted">correct · {pct}%</div>
           <p className="mx-auto mt-3 max-w-xs text-[13px] leading-relaxed text-muted">
-            Anything you missed is rescheduled to come back sooner — check in
-            again later today or tomorrow.
+            {chrome.doneNote}
           </p>
           <Link
-            to="/review"
+            to={chrome.backTo}
             className="mt-5 inline-block rounded-full bg-ink px-5 py-2 text-sm font-bold text-paper transition-opacity hover:opacity-90"
           >
-            Back to Review
+            Back to {chrome.backLabel}
           </Link>
         </div>
       </div>
@@ -187,15 +225,15 @@ function ReviewSession({ queue }: { queue: Question[] }) {
   return (
     <div>
       <Link
-        to="/review"
+        to={chrome.backTo}
         className="mb-4 inline-block text-[13px] font-semibold text-muted transition-colors hover:text-ink"
       >
-        ← Review
+        ← {chrome.backLabel}
       </Link>
       <PageHeader
-        eyebrow="한국어 · Daily review"
-        title="Review Queue"
-        blurb="Everything due right now, all drills mixed into one pass."
+        eyebrow={chrome.eyebrow}
+        title={chrome.title}
+        blurb={chrome.blurb}
       />
 
       <div className="mb-3 flex items-center justify-between px-1">

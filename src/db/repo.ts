@@ -1,11 +1,13 @@
 import { db } from "./db";
 import { applyAnswer } from "../lib/srs";
+import { dedupeMisses, withoutMiss } from "../lib/testMisses";
 import type {
   DrillKind,
   DrillResult,
   ExportSnapshot,
   FontFace,
   PersistedSettings,
+  TestMiss,
   TranslationResult,
 } from "../types";
 
@@ -39,17 +41,40 @@ export function logDrillResult(opts: {
   face?: FontFace;
 }) {
   const row: DrillResult = { ...opts, at: Date.now() };
-  return db.transaction("rw", [db.drillResults, db.srsCards], async () => {
-    await db.drillResults.add(row);
-    const existing = await db.srsCards.get([opts.kind, opts.itemId]);
-    await db.srsCards.put(
-      applyAnswer(existing, opts.kind, opts.itemId, opts.correct),
-    );
-  });
+  return db.transaction(
+    "rw",
+    [db.drillResults, db.srsCards, db.moduleTests],
+    async () => {
+      await db.drillResults.add(row);
+      const existing = await db.srsCards.get([opts.kind, opts.itemId]);
+      await db.srsCards.put(
+        applyAnswer(existing, opts.kind, opts.itemId, opts.correct),
+      );
+      // Getting it right anywhere — review, a drill, the practice session —
+      // takes it off the module's "missed on your last test" list.
+      if (opts.correct) await clearTestMiss(opts.kind, opts.itemId);
+    },
+  );
 }
 
-/** Records a finished module test: last score always updates, best sticks. */
-export function recordModuleTest(moduleId: string, pct: number) {
+/** Caller must hold a rw transaction over moduleTests. One row per module,
+ *  so the scan is bounded by the course's module count. */
+async function clearTestMiss(kind: DrillKind, itemId: string) {
+  for (const result of await db.moduleTests.toArray()) {
+    if (!result.misses?.length) continue;
+    const misses = withoutMiss(result.misses, kind, itemId);
+    if (misses.length !== result.misses.length)
+      await db.moduleTests.put({ ...result, misses });
+  }
+}
+
+/** Records a finished module test: last score always updates, best sticks,
+ *  and the attempt's misses replace whatever the previous attempt left. */
+export function recordModuleTest(
+  moduleId: string,
+  pct: number,
+  misses: TestMiss[] = [],
+) {
   return db.transaction("rw", db.moduleTests, async () => {
     const prior = await db.moduleTests.get(moduleId);
     await db.moduleTests.put({
@@ -58,6 +83,7 @@ export function recordModuleTest(moduleId: string, pct: number) {
       lastPct: pct,
       attempts: (prior?.attempts ?? 0) + 1,
       at: Date.now(),
+      misses: dedupeMisses(misses),
     });
   });
 }

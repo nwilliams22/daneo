@@ -1701,3 +1701,23 @@ corruption rejection. `npm test`: 26 files / 289 tests pass;
 Independent re-score on the task agrees on all 24 items, with no disagreements.
 Initial verdicts are preserved. The task thread records final own-commit Actions
 confirmation before closure; the next slice owns the shipping decision.
+
+### 2026-10-25 — Module-test misses: show them, and practise exactly those
+
+A failed module test scheduled its misses into the review queue and said so in
+one line of small text; nothing else in the app named what the test caught. The
+attempt's misses are now persisted beside the score (`ModuleTestResult.misses`,
+optional, so no Dexie migration and old rows still read), listed on the results
+screen and on the module page, and practisable in one click at
+`/learn/:moduleId/practice` — the review session's own question components over
+exactly that list. Items leave the list the moment they come back correct
+anywhere, because `logDrillResult` clears them in the same transaction that
+moves the SRS card. The checklist keeps its ticks and carries a PRACTICE flag
+instead: un-ticking would re-lock the module's sentences and drills through
+`lib/gating`, and "studied" is not "proven". Review-queue scheduling is
+unchanged. Checks: `npm test` 31 files / 367 tests pass (9 new across
+`src/lib/testMisses.test.ts` and `tests/module-misses.test.tsx`, the latter
+driving the real module page and practice route); `npm run build` passes
+including typecheck (existing large-chunk warning); `npm run visual:pass -- m1
+--fail-test` renders the missed block and the checklist flags — the new flag
+seeds a failed attempt so this UI is reproducible in a browser.

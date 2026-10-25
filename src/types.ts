@@ -135,12 +135,22 @@ export interface SavedTranslation {
 }
 
 // Module-test outcomes (one row per module; best score sticks)
+/** One item a module test caught, named by the SRS card it grades through. */
+export interface TestMiss {
+  kind: DrillKind;
+  itemId: string;
+}
+
 export interface ModuleTestResult {
   moduleId: string;
   bestPct: number; // 0–100, highest score ever
   lastPct: number; // most recent attempt
   attempts: number;
   at: number; // when the last attempt finished
+  // What the last attempt caught (2026-10-25). Optional: rows written before
+  // misses were tracked have none, so no Dexie migration is needed. Items
+  // leave the list as they come back correct anywhere in the app.
+  misses?: TestMiss[];
 }
 
 // Settings persisted by the zustand store (also embedded in export backups)
