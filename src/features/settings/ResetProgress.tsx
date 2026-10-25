@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { progressCounts } from "../../db/repo";
-import { resetAllProgress } from "./resetProgress";
+import { resetAllProgress } from "./resetAllProgress";
 import { exportBackupFile, type BackupStatus } from "./exportBackup";
 import type { ProgressCounts } from "../../types";
 

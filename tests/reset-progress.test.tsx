@@ -9,7 +9,7 @@ import { db } from "../src/db/db";
 import { clearAllProgress, progressCounts } from "../src/db/repo";
 import ResetProgress from "../src/features/settings/ResetProgress";
 import SettingsPage from "../src/features/settings/SettingsPage";
-import { resetAllProgress } from "../src/features/settings/resetProgress";
+import { resetAllProgress } from "../src/features/settings/resetAllProgress";
 import {
   DEFAULT_SETTINGS,
   SETTINGS_STORAGE_KEY,

@@ -1763,9 +1763,12 @@ hand-written list, so a table added to `db/db.ts` later is cleared too, and
 `tests/reset-progress.test.tsx` seeds whatever `db.tables` holds and asserts all
 of it goes — a new table cannot be missed in silence. Clearing beats
 `db.delete()`: a deleted database that anything reopens by name comes back as an
-empty v1 schema. `resetAllProgress` is the single funnel (Dexie + the persisted
-settings store, `onboardingDone` included) and is where a profile id will arrive
-when accounts land. `DEFAULT_SETTINGS` is now named in `state/settings.ts`, so
+empty v1 schema. `resetAllProgress` (in
+`features/settings/resetAllProgress.ts` — *not* `resetProgress.ts`, which would
+differ from the `ResetProgress.tsx` component only in casing and broke the
+Windows and macOS bundles on the first push; Linux typechecks it happily) is the
+single funnel over Dexie plus the persisted settings store, `onboardingDone`
+included, and is where a profile id will arrive when accounts land. `DEFAULT_SETTINGS` is now named in `state/settings.ts`, so
 a reset and a first run cannot drift apart.
 
 Checks: `npm test` 33 files / 381 tests pass (4 new in
