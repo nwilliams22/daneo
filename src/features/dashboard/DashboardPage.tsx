@@ -119,7 +119,9 @@ export default function DashboardPage() {
             <span className="text-3xl font-bold">{known.size}</span>
             <span className="text-sm text-muted">of {totalWords}</span>
           </div>
-          <div className="mt-2.5 flex flex-col gap-1.5">
+          {/* 158 module bars in one column was most of this page's 4,100px
+              (BAD-281). Two columns on a wide window, one on a narrow one. */}
+          <div className="mt-2.5 grid gap-x-10 gap-y-1.5 lg:grid-cols-2">
             {modulesOrdered
               .filter((m) => m.wordIds.length > 0)
               .map((m) => {
@@ -139,62 +141,66 @@ export default function DashboardPage() {
           </div>
         </Panel>
 
-        {/* Review queue (Phase A.2) */}
-        <Panel label="Review queue">
-          {cards.length === 0 ? (
-            <p className="text-[13px] text-muted">
-              Nothing scheduled yet — every item you drill enters the spaced
-              queue automatically.
-            </p>
-          ) : (
-            <div className="flex items-center justify-between">
+        {/* The two headline numbers sit side by side — neither one is wide
+            enough to earn a row of its own on a 1,120px page. */}
+        <div className="grid gap-x-10 gap-y-3.5 md:grid-cols-2">
+          {/* Review queue (Phase A.2) */}
+          <Panel label="Review queue">
+            {cards.length === 0 ? (
+              <p className="text-[13px] text-muted">
+                Nothing scheduled yet — every item you drill enters the spaced
+                queue automatically.
+              </p>
+            ) : (
+              <div className="flex items-center justify-between">
+                <div className="flex gap-6">
+                  <div>
+                    <div className="text-3xl font-bold">{due.length}</div>
+                    <div className="text-xs text-muted">due now</div>
+                  </div>
+                  <div>
+                    <div className="text-3xl font-bold">{cards.length}</div>
+                    <div className="text-xs text-muted">items scheduled</div>
+                  </div>
+                </div>
+                {due.length > 0 && (
+                  <Link
+                    to="/review/session"
+                    className="rounded-full bg-teal px-4 py-2 text-sm font-bold text-on-accent transition-opacity hover:opacity-90"
+                  >
+                    Start review
+                  </Link>
+                )}
+              </div>
+            )}
+          </Panel>
+
+          {/* Accuracy */}
+          <Panel label="Drill accuracy">
+            {overall.seen === 0 ? (
+              <p className="text-[13px] text-muted">
+                No drill answers yet — run any drill and this fills in.
+              </p>
+            ) : (
               <div className="flex gap-6">
                 <div>
-                  <div className="text-3xl font-bold">{due.length}</div>
-                  <div className="text-xs text-muted">due now</div>
+                  <div className="text-3xl font-bold">{overall.pct}%</div>
+                  <div className="text-xs text-muted">
+                    all time · {overall.correct}/{overall.seen}
+                  </div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold">{cards.length}</div>
-                  <div className="text-xs text-muted">items scheduled</div>
+                  <div className="text-3xl font-bold">
+                    {week.seen ? `${week.pct}%` : "—"}
+                  </div>
+                  <div className="text-xs text-muted">
+                    last 7 days{week.seen ? ` · ${week.correct}/${week.seen}` : ""}
+                  </div>
                 </div>
               </div>
-              {due.length > 0 && (
-                <Link
-                  to="/review/session"
-                  className="rounded-full bg-teal px-4 py-2 text-sm font-bold text-on-accent transition-opacity hover:opacity-90"
-                >
-                  Start review
-                </Link>
-              )}
-            </div>
-          )}
-        </Panel>
-
-        {/* Accuracy */}
-        <Panel label="Drill accuracy">
-          {overall.seen === 0 ? (
-            <p className="text-[13px] text-muted">
-              No drill answers yet — run any drill and this fills in.
-            </p>
-          ) : (
-            <div className="flex gap-6">
-              <div>
-                <div className="text-3xl font-bold">{overall.pct}%</div>
-                <div className="text-xs text-muted">
-                  all time · {overall.correct}/{overall.seen}
-                </div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold">
-                  {week.seen ? `${week.pct}%` : "—"}
-                </div>
-                <div className="text-xs text-muted">
-                  last 7 days{week.seen ? ` · ${week.correct}/${week.seen}` : ""}
-                </div>
-              </div>
-            </div>
-          )}
-        </Panel>
+            )}
+          </Panel>
+        </div>
 
         {/* Confusable groups */}
         {groups.length > 0 && (

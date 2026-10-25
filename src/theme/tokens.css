@@ -131,6 +131,14 @@
   --color-place: var(--role-place);
   --color-verb: var(--ink);
 
+  /* How wide the app is allowed to get. `max-w-app` is the shell; `max-w-read`
+     is the measure a column of prose stops at, because a 1,000px line of body
+     text is unreadable no matter how much window there is. Nick, BAD-281:
+     the old 672px shell left a wide empty margin down both sides of an 1100px
+     window — see components/PageColumns.tsx. */
+  --container-app: 1120px;
+  --container-read: 42rem;
+
   /* `rounded-panel bg-card shadow-panel` is the one way to draw a surface */
   --radius-panel: 3px;
   --shadow-panel: var(--panel-shadow);

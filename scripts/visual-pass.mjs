@@ -25,6 +25,14 @@
 //                    module is then seeded so the pages have a learner to show.
 //   --dark           seed dark mode instead of light, so a pass can prove both
 //                    themes (BAD-281)
+//   --fold           capture only what fits in the viewport, instead of the
+//                    whole scrollable page — "what you see when the window
+//                    opens", which is the question a design review asks
+//   --viewport WxH   browser viewport (default 1280x1400). Use the app's own
+//                    window size — `--viewport 1100x800`, from
+//                    src-tauri/tauri.conf.json — when the question is how much
+//                    of the window the page actually fills, which a 1400px-tall
+//                    shot answers misleadingly (BAD-281).
 //   --act <js>       JavaScript evaluated on every --route page once it has
 //                    rendered, before the screenshot. For screens whose point
 //                    is an interaction a static shot cannot reach:
@@ -56,6 +64,15 @@ const moduleIds = argv.filter((a) => /^m\d+$/.test(a));
 const routes = flags("route");
 const act = flag("act", null);
 const theme = has("dark") ? "dark" : "light";
+const viewport = (() => {
+  const raw = flag("viewport", "1280x1400");
+  const m = /^(\d+)x(\d+)$/.exec(raw);
+  if (!m) {
+    console.error(`--viewport wants WxH, e.g. 1100x800 — got ${raw}`);
+    process.exit(2);
+  }
+  return { width: Number(m[1]), height: Number(m[2]) };
+})();
 const outDir = path.resolve(repoRoot, flag("out", ".visual-pass"));
 const port = Number(flag("port", "5177"));
 let origin = flag("origin", null);
@@ -103,17 +120,21 @@ async function waitFor(check, timeoutMs = 60000) {
 // PNGs. Wait for the page to have no running animations before capturing.
 // (Found on BAD-281: drill cards rendered a third of the way between white and
 // #1d2026, while the taller dashboard — slower to capture — came out correct.)
+// Endless animations are excluded: the typing drill's blinking caret never
+// stops, and waiting for it only ever produces a false failure.
 async function settle(sess, timeoutMs = 3000) {
   const deadline = Date.now() + timeoutMs;
   do {
     const running = await sess.evaluate(
-      `document.getAnimations().filter((a) => a.playState === 'running').length`,
+      `document.getAnimations().filter((a) => a.playState === 'running'
+        && a.effect?.getComputedTiming().iterations !== Infinity).length`,
     );
     if (running === 0) {
       // One more frame, so a transition that started this tick is counted.
       await sleep(120);
       const again = await sess.evaluate(
-        `document.getAnimations().filter((a) => a.playState === 'running').length`,
+        `document.getAnimations().filter((a) => a.playState === 'running'
+        && a.effect?.getComputedTiming().iterations !== Infinity).length`,
       );
       if (again === 0) return true;
     }
@@ -299,8 +320,8 @@ const sess = await connect(target.webSocketDebuggerUrl);
 await sess.send("Page.enable");
 await sess.send("Runtime.enable");
 await sess.send("Emulation.setDeviceMetricsOverride", {
-  width: 1280,
-  height: 1400,
+  width: viewport.width,
+  height: viewport.height,
   deviceScaleFactor: 1,
   mobile: false,
 });
@@ -525,7 +546,7 @@ for (const moduleId of moduleIds) {
 
   const shot = await sess.send("Page.captureScreenshot", {
     format: "png",
-    captureBeyondViewport: true,
+    captureBeyondViewport: !has("fold"),
   });
   const file = path.join(outDir, `${moduleId}${suffix}.png`);
   writeFileSync(file, Buffer.from(shot.data, "base64"));
@@ -596,7 +617,7 @@ for (const route of routes) {
 
   const shot = await sess.send("Page.captureScreenshot", {
     format: "png",
-    captureBeyondViewport: true,
+    captureBeyondViewport: !has("fold"),
   });
   const file = path.join(outDir, `route-${slug}${act ? "-acted" : ""}${suffix}.png`);
   writeFileSync(file, Buffer.from(shot.data, "base64"));

@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { useLiveQuery } from "dexie-react-hooks";
 import PageHeader from "../../components/PageHeader";
+import PageColumns, { RailBlock, RailStat } from "../../components/PageColumns";
 import { db } from "../../db/db";
 import { useKnownWords } from "../../db/useKnownWords";
 import {
@@ -9,7 +10,7 @@ import {
   sentenceById,
   wordById,
 } from "../../content";
-import { moduleProgress } from "../../lib/gating";
+import { isModuleComplete, moduleProgress } from "../../lib/gating";
 import { moduleLabels } from "../../lib/moduleLabel";
 import { PASS_PCT } from "../../lib/moduleTest";
 import { dueNow } from "../../lib/srs";
@@ -37,7 +38,16 @@ import type { TestMiss } from "../../types";
 
 const LABELS = moduleLabels(modulesOrdered);
 const TOTAL_WORDS = allWords.filter((w) => w.pos !== "particle").length;
-const WEEK_INITIALS = ["M", "T", "W", "T", "F", "S", "S"];
+const VOCAB_MODULES = modulesOrdered.filter((m) => m.wordIds.length > 0);
+const DAY_INITIALS = ["S", "M", "T", "W", "T", "F", "S"];
+
+/** A shortcut straight into a drill. The nav only reaches the hub, so these
+ *  are the one place "practise something now" is one click. */
+const QUICK_DRILLS = [
+  { to: "/drill/confusables/quiz", label: "Confusables · Quiz" },
+  { to: "/drill/anatomy?mode=label", label: "Sentence Roles" },
+  { to: "/drill/typing", label: "Typing" },
+];
 
 /** Korean plus its gloss for an item a test caught. Module tests only ever
  *  catch words and sentences, so this needs no drill pools. */
@@ -157,8 +167,87 @@ export default function TodayPage() {
     month: "long",
   });
 
+  const modulesDone = VOCAB_MODULES.filter((m) =>
+    isModuleComplete(m, known),
+  ).length;
+
+  // The rail: everything that is true about the learner rather than about
+  // today. It used to sit under the plan as a strip; beside it, it fills the
+  // width the page was wasting and the plan still ends where it ends.
+  const rail = (
+    <>
+      <RailBlock title="This week">
+        <div className="flex gap-2">
+          {week.map((on, i) => {
+            const d = new Date();
+            d.setDate(d.getDate() - (week.length - 1 - i));
+            const today = i === week.length - 1;
+            return (
+              <span key={i} className="flex flex-1 flex-col items-center gap-2">
+                <span
+                  className={`h-2 w-full rounded-full ${
+                    on ? "bg-meter" : today ? "bg-muted" : "bg-line"
+                  }`}
+                />
+                <span
+                  className={`text-[10px] ${today ? "text-ink" : "text-faint"}`}
+                >
+                  {DAY_INITIALS[d.getDay()]}
+                </span>
+              </span>
+            );
+          })}
+        </div>
+        <p className="mt-3 text-xs leading-relaxed text-muted">
+          {streak > 0
+            ? `${streak} day${streak === 1 ? "" : "s"} in a row. A day counts once you answer anything.`
+            : "A day fills in once you answer anything — a review, a drill, a test."}
+        </p>
+      </RailBlock>
+
+      <RailBlock title="Your progress">
+        <RailStat
+          value={known.size}
+          label={`of ${TOTAL_WORDS} words`}
+          meter={(known.size / TOTAL_WORDS) * 100}
+        />
+        <RailStat
+          value={modulesDone}
+          label={`of ${VOCAB_MODULES.length} modules`}
+          meter={(modulesDone / VOCAB_MODULES.length) * 100}
+        />
+        <RailStat
+          value={overall.seen ? `${overall.pct}%` : "—"}
+          label={
+            overall.seen ? `drill accuracy · ${overall.seen} answers` : "drill accuracy"
+          }
+        />
+      </RailBlock>
+
+      <RailBlock title="Practise something">
+        <div className="border-t border-line">
+          {QUICK_DRILLS.map((d) => (
+            <Link
+              key={d.to}
+              to={d.to}
+              className="block border-b border-line py-2.5 text-[13.5px] transition-colors hover:text-teal"
+            >
+              {d.label}
+            </Link>
+          ))}
+        </div>
+        <Link
+          to="/drill"
+          className="mt-3 inline-block text-[13px] font-semibold text-muted transition-colors hover:text-ink"
+        >
+          All drills &rarr;
+        </Link>
+      </RailBlock>
+    </>
+  );
+
   return (
-    <div>
+    <PageColumns rail={rail}>
       <PageHeader
         eyebrow={`오늘 · ${today}`}
         title="Here is your plan for today"
@@ -290,41 +379,20 @@ export default function TodayPage() {
         </section>
       )}
 
-      <div className="flex items-center justify-between gap-4 border-t border-line pt-4">
-        <div className="flex gap-8">
-          <div>
-            <div className="font-serif text-[25px] leading-none font-semibold">
-              {streak}
-            </div>
-            <div className="mt-1.5 text-xs text-muted">day streak</div>
-          </div>
-          <div>
-            <div className="font-serif text-[25px] leading-none font-semibold">
-              {known.size}
-            </div>
-            <div className="mt-1.5 text-xs text-muted">
-              of {TOTAL_WORDS} words
-            </div>
-          </div>
-          <div>
-            <div className="font-serif text-[25px] leading-none font-semibold">
-              {overall.seen ? `${overall.pct}%` : "—"}
-            </div>
-            <div className="mt-1.5 text-xs text-muted">drill accuracy</div>
-          </div>
-        </div>
-        <div className="flex shrink-0 gap-1.5" aria-label="This week">
-          {week.map((on, i) => (
-            <span
-              key={i}
-              title={WEEK_INITIALS[(new Date().getDay() + i) % 7]}
-              className={`h-2.5 w-2.5 rounded-full ${
-                on ? "bg-meter" : i === week.length - 1 ? "bg-muted" : "bg-line"
-              }`}
-            />
-          ))}
-        </div>
+      {/* The streak, the word count and this week used to be a strip under
+          here. They are in the rail now — see components/PageColumns. */}
+      <div className="flex items-baseline gap-3 border-t border-line pt-4 text-[13px] text-muted">
+        <span className="font-serif text-[22px] leading-none font-semibold text-ink">
+          {streak}
+        </span>
+        <span>day streak</span>
+        <Link
+          to="/dashboard"
+          className="ml-auto font-semibold transition-colors hover:text-ink"
+        >
+          All your numbers &rarr;
+        </Link>
       </div>
-    </div>
+    </PageColumns>
   );
 }

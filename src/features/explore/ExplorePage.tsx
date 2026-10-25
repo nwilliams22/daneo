@@ -43,7 +43,7 @@ export default function ExplorePage() {
       {modelDev && TranslatorPage ? <Suspense fallback={null}><TranslatorPage /></Suspense> : <>
         <PageHeader eyebrow="한국어 · Explore" title="Lesson sentence breakdown"
           blurb="Take a sentence the lessons teach apart: its English meaning, the gloss in Korean order, what each particle is doing, and where the literal and real meanings part ways. Works offline — no AI, download, key or account." />
-        <p id="course-scope" className="mb-4 text-sm leading-relaxed text-muted">
+        <p id="course-scope" className="mb-4 max-w-read text-sm leading-relaxed text-muted">
           Sentences from the lessons only — nothing is guessed. A new combination of taught
           words, a word outside the course and English input are all refused, and a refusal
           says which word it could not find. Browse the lesson sentences below, or try an example.

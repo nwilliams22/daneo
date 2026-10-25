@@ -4,8 +4,28 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#E7E4DA" />
+    <meta name="theme-color" content="#131210" />
     <title>단어 Daneo</title>
+    <script>
+      // The theme class, before the first paint. React applies it in an effect,
+      // which is one white frame too late now that the app opens dark (Nick,
+      // BAD-281). Mirrors state/settings.ts: no stored settings, or a pre-v1
+      // "system" the store is about to migrate, both mean dark.
+      (function () {
+        try {
+          var saved = JSON.parse(localStorage.getItem("daneo-settings") || "null");
+          var theme = saved && saved.state && saved.state.theme;
+          if (!theme || (theme === "system" && !(saved.version >= 1))) theme = "dark";
+          var dark =
+            theme === "dark" ||
+            (theme === "system" &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches);
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

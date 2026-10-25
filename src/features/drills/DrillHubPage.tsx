@@ -76,7 +76,9 @@ export default function DrillHubPage() {
         title="Drills"
         blurb="Study modes and quiz modes, each their own door — pick how you want the letters, structures, and gaps to stick."
       />
-      <div className="flex flex-col gap-3">
+      {/* Two ruled columns rather than one tall one: eight drills in a 1,120px
+          shell left most of the page empty (Nick, BAD-281). */}
+      <div className="grid gap-x-10 border-t border-line md:grid-cols-2">
         {DRILLS.map((d) =>
           d.available ? (
             <Link

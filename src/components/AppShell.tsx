@@ -19,7 +19,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
           fill of its own, and the current section is marked by a vermilion
           underline rather than a filled pill (BAD-281). */}
       <header className="sticky top-0 z-20 border-b border-ink/70 bg-paper/95 backdrop-blur">
-        <div className="mx-auto flex max-w-2xl items-baseline gap-1 px-5 pt-3 pb-2.5">
+        <div className="mx-auto flex max-w-app items-baseline gap-1 px-6 pt-3 pb-2.5">
           <NavLink
             to="/today"
             className="mr-3 flex items-baseline gap-2 select-none"
@@ -50,7 +50,10 @@ export default function AppShell({ children }: { children: ReactNode }) {
           </nav>
         </div>
       </header>
-      <main className="mx-auto w-full max-w-2xl px-5 pt-8 pb-20">
+      {/* Nick, BAD-281: a 672px column in an 1100px window left a wide empty
+          margin down both sides. The shell now runs to 1120px and the pages
+          split into a main column and a rail (components/PageColumns). */}
+      <main className="mx-auto w-full max-w-app px-6 pt-8 pb-20">
         {children}
       </main>
     </div>

@@ -8,6 +8,7 @@ import { useSettings } from "../../state/settings";
 import { PASS_PCT } from "../../lib/moduleTest";
 import type { Module } from "../../types";
 import Markdown from "../../components/Markdown";
+import PageColumns, { RailBlock } from "../../components/PageColumns";
 import VocabChecklist from "./VocabChecklist";
 import SentenceList from "./SentenceList";
 import MissedBlock from "./MissedBlock";
@@ -41,7 +42,7 @@ function HangulSection({ md }: { md: string }) {
         </span>
       </button>
       {open && (
-        <div className="border-t border-line px-4 pb-4">
+        <div className="max-w-read border-t border-line px-4 pb-4">
           <Markdown md={md} />
         </div>
       )}
@@ -65,45 +66,40 @@ function MissedOnLastTest({ module }: { module: Module }) {
   );
 }
 
-/** End-of-module test card (Nick, 2026-08-10) — vocab modules only. */
+/** End-of-module test card (Nick, 2026-08-10) — vocab modules only. Stacked
+ *  rather than side-by-side because it lives in the rail now (BAD-281): on a
+ *  7,000px module page the test used to be a button at the very bottom. */
 function TestCta({ module }: { module: Module }) {
   const result = useLiveQuery(() => db.moduleTests.get(module.id), [module.id]);
   const passed = !!result && result.bestPct >= PASS_PCT;
   return (
-    <div className="my-6 rounded-panel bg-card shadow-panel px-5 py-4">
-      <div className="flex items-center justify-between gap-3">
-        <div>
-          <div className="text-sm font-bold">Module test</div>
-          <div className="mt-0.5 text-[13px] text-muted">
-            {result ? (
-              <>
-                Best {result.bestPct}%{passed && " · passed"} ·{" "}
-                {result.attempts} attempt{result.attempts === 1 ? "" : "s"}
-              </>
-            ) : (
-              "A fresh sample of this module's words and sentences — misses feed the review queue."
-            )}
-          </div>
-          {/* Nick, 2026-10-25: the card said misses "feed the review queue"
-              and left him to find them. This is the way there. */}
-          <ReviewQueueLink
-            misses={result?.misses}
-            moduleId={module.id}
-            className="mt-1.5"
-          />
-        </div>
-        <Link
-          to={`/learn/${module.id}/test`}
-          className={`shrink-0 rounded-full px-4 py-2 text-sm font-bold transition-opacity hover:opacity-90 ${
-            passed
-              ? "border border-jade text-jade"
-              : "bg-teal text-on-accent"
-          }`}
-        >
-          {result ? "Retake" : "Take the test"}
-        </Link>
+    <RailBlock title="Module test">
+      <div className="text-[13px] leading-relaxed text-muted">
+        {result ? (
+          <>
+            Best {result.bestPct}%{passed && " · passed"} · {result.attempts}{" "}
+            attempt{result.attempts === 1 ? "" : "s"}
+          </>
+        ) : (
+          "A fresh sample of this module's words and sentences — misses feed the review queue."
+        )}
       </div>
-    </div>
+      <Link
+        to={`/learn/${module.id}/test`}
+        className={`mt-3 block rounded-full px-4 py-2 text-center text-sm font-bold transition-opacity hover:opacity-90 ${
+          passed ? "border border-jade text-jade" : "bg-teal text-on-accent"
+        }`}
+      >
+        {result ? "Retake" : "Take the test"}
+      </Link>
+      {/* Nick, 2026-10-25: the card said misses "feed the review queue" and
+          left him to find them. This is the way there. */}
+      <ReviewQueueLink
+        misses={result?.misses}
+        moduleId={module.id}
+        className="mt-2.5"
+      />
+    </RailBlock>
   );
 }
 
@@ -115,8 +111,34 @@ export default function ModulePage() {
   const raw = moduleMarkdown[module.contentMd];
   const segments = raw ? splitModuleMarkdown(raw) : [];
 
+  const rail = (
+    <>
+      <RailBlock title="In this module">
+        <dl className="text-[13px]">
+          {module.wordIds.length > 0 && (
+            <div className="flex justify-between border-b border-line py-2">
+              <dt className="text-muted">Words</dt>
+              <dd className="tabular-nums">{module.wordIds.length}</dd>
+            </div>
+          )}
+          {module.sentenceIds.length > 0 && (
+            <div className="flex justify-between border-b border-line py-2">
+              <dt className="text-muted">Sentences</dt>
+              <dd className="tabular-nums">{module.sentenceIds.length}</dd>
+            </div>
+          )}
+          <div className="flex justify-between py-2">
+            <dt className="text-muted">Ring</dt>
+            <dd className="tabular-nums">{module.ring ?? 1}</dd>
+          </div>
+        </dl>
+      </RailBlock>
+      {module.wordIds.length > 0 && <TestCta module={module} />}
+    </>
+  );
+
   return (
-    <div>
+    <PageColumns rail={rail}>
       <Link
         to="/learn"
         className="mb-4 inline-block text-[13px] font-semibold text-muted transition-colors hover:text-ink"
@@ -125,8 +147,15 @@ export default function ModulePage() {
       </Link>
       {segments.map((seg, i) => {
         switch (seg.kind) {
+          // Body text stops at a readable measure even when the window does
+          // not; the vocabulary and sentence layers below are lists and use
+          // the whole column.
           case "md":
-            return <Markdown key={i} md={seg.md} />;
+            return (
+              <div key={i} className="max-w-read">
+                <Markdown md={seg.md} />
+              </div>
+            );
           case "hangul":
             return <HangulSection key={i} md={seg.md} />;
           case "vocab":
@@ -135,12 +164,7 @@ export default function ModulePage() {
             return <SentenceList key={i} module={module} />;
         }
       })}
-      {module.wordIds.length > 0 && (
-        <>
-          <TestCta module={module} />
-          <MissedOnLastTest module={module} />
-        </>
-      )}
-    </div>
+      {module.wordIds.length > 0 && <MissedOnLastTest module={module} />}
+    </PageColumns>
   );
 }

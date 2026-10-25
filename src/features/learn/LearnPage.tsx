@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router";
 import { useLiveQuery } from "dexie-react-hooks";
 import PageHeader from "../../components/PageHeader";
+import PageColumns, { RailBlock } from "../../components/PageColumns";
 import { modulesOrdered, wordById } from "../../content";
 import { db } from "../../db/db";
 import { useKnownWords } from "../../db/useKnownWords";
@@ -221,6 +222,17 @@ export default function LearnPage() {
   const finished = withWords.filter((m) => isModuleComplete(m, known)).length;
   const currentProgress = current ? moduleProgress(current, known) : undefined;
 
+  // The ring picker lives in the rail now (BAD-281): it is a property of the
+  // whole course rather than of the rows under it, it carries each ring's
+  // progress without crowding the list, and it is what the empty right-hand
+  // margin of this page is for.
+  const ringStats = RINGS.map((r) => {
+    const all = modulesOrdered.filter((m) => ringOf(m) === r);
+    const vocab = all.filter((m) => m.wordIds.length > 0);
+    const done = vocab.filter((m) => isModuleComplete(m, known)).length;
+    return { ring: r, count: all.length, done, total: vocab.length };
+  });
+
   const rows = (list: Module[]) => (
     <div className="border-t border-line">
       {list.map((m) => (
@@ -235,8 +247,70 @@ export default function LearnPage() {
     </div>
   );
 
+  const rail = (
+    <>
+      {RINGS.length > 1 && (
+        <RailBlock title="Rings">
+          <div className="border-t border-line">
+            {ringStats.map((r) => (
+              <button
+                key={r.ring}
+                onClick={() => {
+                  setRing(r.ring);
+                  setShowDone(false);
+                  setShowLater(false);
+                  setQuery("");
+                }}
+                className={`block w-full border-b border-line border-l-2 py-3 pl-3 text-left transition-colors hover:bg-fill ${
+                  r.ring === activeRing
+                    ? "border-l-teal"
+                    : "border-l-transparent"
+                }`}
+              >
+                <div className="flex items-baseline justify-between gap-2">
+                  <span
+                    className={`text-[13.5px] ${
+                      r.ring === activeRing
+                        ? "font-semibold text-ink"
+                        : "text-muted"
+                    }`}
+                  >
+                    {RING_META[r.ring]?.label ?? `Ring ${r.ring}`}
+                  </span>
+                  <span className="text-[11px] tabular-nums text-faint">
+                    {r.count}
+                  </span>
+                </div>
+                <span className="mt-2 block h-1 overflow-hidden rounded-full bg-line">
+                  <span
+                    className="block h-full rounded-full bg-meter"
+                    style={{
+                      width: `${r.total ? (r.done / r.total) * 100 : 0}%`,
+                    }}
+                  />
+                </span>
+                <span className="mt-1.5 block text-[11px] text-muted">
+                  {r.done} of {r.total} done
+                </span>
+              </button>
+            ))}
+          </div>
+        </RailBlock>
+      )}
+
+      <RailBlock title="About this list">
+        <p className="text-xs leading-relaxed text-muted">
+          {finished} of {withWords.length} modules done. Nothing is hidden —
+          every fold opens, and search reaches any module, reading or word by
+          name. Typing <span className="text-ink">water</span> finds the module
+          that teaches 물.
+        </p>
+      </RailBlock>
+    </>
+  );
+
   return (
-    <div>
+    <PageColumns rail={rail}>
       <PageHeader
         eyebrow="한국어 · Learn"
         title="Modules"
@@ -297,30 +371,9 @@ export default function LearnPage() {
             </Link>
           )}
 
-          {RINGS.length > 1 && (
-            <div className="mb-4 flex gap-6 border-b border-line">
-              {RINGS.map((r) => (
-                <button
-                  key={r}
-                  onClick={() => {
-                    setRing(r);
-                    setShowDone(false);
-                    setShowLater(false);
-                  }}
-                  className={`-mb-px border-b-2 pb-2 text-[13px] whitespace-nowrap transition-colors ${
-                    r === activeRing
-                      ? "border-teal font-semibold text-ink"
-                      : "border-transparent text-muted hover:text-ink"
-                  }`}
-                >
-                  Ring {r} ·{" "}
-                  {modulesOrdered.filter((m) => ringOf(m) === r).length}
-                </button>
-              ))}
-            </div>
-          )}
-
-          <div className="mb-3">
+          {/* The ring picker is in the rail; this says which ring the rows
+              below belong to. */}
+          <div className="mb-3 border-t border-line pt-4">
             <div className="text-[10px] tracking-[0.26em] text-muted uppercase">
               {RING_META[activeRing]?.label ?? `Ring ${activeRing}`}
             </div>
@@ -357,13 +410,8 @@ export default function LearnPage() {
             )}
           </div>
 
-          <p className="mt-5 text-xs leading-relaxed text-muted">
-            {finished} of {withWords.length} modules done. Nothing is hidden —
-            every fold opens, and search reaches any module, reading or word by
-            name.
-          </p>
         </>
       )}
-    </div>
+    </PageColumns>
   );
 }

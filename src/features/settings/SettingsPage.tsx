@@ -98,89 +98,98 @@ export default function SettingsPage() {
     <div>
       <PageHeader eyebrow="단어 · Settings" title="Settings" />
 
-      <div className="rounded-panel bg-card shadow-panel">
-        <Row
-          label="Romanization"
-          hint="Training wheels — hide it once the Hangul clicks."
-        >
-          <Toggle
-            on={s.romanizationVisible}
-            onChange={s.setRomanizationVisible}
-            label="Show romanization"
-          />
-        </Row>
+      {/* Two columns on a wide window (BAD-281): how the app behaves on the
+          left, what happens to your data on the right. */}
+      <div className="grid items-start gap-x-10 gap-y-8 lg:grid-cols-2">
+        <div>
+          <div className="rounded-panel bg-card shadow-panel">
+            <Row
+              label="Romanization"
+              hint="Training wheels — hide it once the Hangul clicks."
+            >
+              <Toggle
+                on={s.romanizationVisible}
+                onChange={s.setRomanizationVisible}
+                label="Show romanization"
+              />
+            </Row>
 
-        <Row label="Theme">
-          <div className="flex gap-1 rounded-xl bg-fill p-1">
-            {THEMES.map((t) => (
+            <Row
+              label="Theme"
+              hint="Daneo opens dark. “System” follows your desktop instead."
+            >
+              <div className="flex gap-1 rounded-xl bg-fill p-1">
+                {THEMES.map((t) => (
+                  <button
+                    key={t.value}
+                    onClick={() => s.setTheme(t.value)}
+                    className={`rounded-lg px-3 py-1.5 text-[13px] font-semibold transition-colors ${
+                      s.theme === t.value
+                        ? "bg-accent-wash text-teal"
+                        : "text-muted hover:text-ink"
+                    }`}
+                  >
+                    {t.label}
+                  </button>
+                ))}
+              </div>
+            </Row>
+
+            <Row
+              label="Audio"
+              hint="Korean pronunciation via your system's speech voices."
+            >
+              <Toggle
+                on={s.audioEnabled}
+                onChange={s.setAudioEnabled}
+                label="Enable audio"
+              />
+            </Row>
+
+            <Row label="Korean voice" hint="Used by the play buttons on words and sentences.">
+              <AudioStatus />
+            </Row>
+
+            <Row label="Speech rate" hint="0.9 is a comfortable learner pace.">
+              <div className="flex items-center gap-2.5">
+                <input
+                  type="range"
+                  min={0.5}
+                  max={1.2}
+                  step={0.05}
+                  value={s.speechRate}
+                  onChange={(e) => s.setSpeechRate(Number(e.target.value))}
+                  className="w-28 accent-(--teal)"
+                  aria-label="Speech rate"
+                />
+                <span className="w-8 text-right text-xs font-semibold text-muted">
+                  {s.speechRate.toFixed(2)}
+                </span>
+              </div>
+            </Row>
+
+            <Row
+              label="Onboarding"
+              hint="Reopen the start options, including the placement quiz (letters → words → sentences)."
+            >
               <button
-                key={t.value}
-                onClick={() => s.setTheme(t.value)}
-                className={`rounded-lg px-3 py-1.5 text-[13px] font-semibold transition-colors ${
-                  s.theme === t.value
-                    ? "bg-accent-wash text-teal"
-                    : "text-muted hover:text-ink"
-                }`}
+                onClick={s.resetOnboarding}
+                className="shrink-0 rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold whitespace-nowrap text-muted transition-colors hover:text-ink"
               >
-                {t.label}
+                Run again
               </button>
-            ))}
+            </Row>
           </div>
-        </Row>
 
-        <Row
-          label="Audio"
-          hint="Korean pronunciation via your system's speech voices."
-        >
-          <Toggle
-            on={s.audioEnabled}
-            onChange={s.setAudioEnabled}
-            label="Enable audio"
-          />
-        </Row>
+          {ModelPanel && <Suspense fallback={null}><ModelPanel /></Suspense>}
+        </div>
 
-        <Row label="Korean voice" hint="Used by the play buttons on words and sentences.">
-          <AudioStatus />
-        </Row>
-
-        <Row label="Speech rate" hint="0.9 is a comfortable learner pace.">
-          <div className="flex items-center gap-2.5">
-            <input
-              type="range"
-              min={0.5}
-              max={1.2}
-              step={0.05}
-              value={s.speechRate}
-              onChange={(e) => s.setSpeechRate(Number(e.target.value))}
-              className="w-28 accent-(--teal)"
-              aria-label="Speech rate"
-            />
-            <span className="w-8 text-right text-xs font-semibold text-muted">
-              {s.speechRate.toFixed(2)}
-            </span>
+        <div className="rounded-panel bg-card shadow-panel lg:border-l lg:border-line lg:pl-4">
+          <ExportImport />
+          {/* Directly under Backup on purpose: the export is the only way back. */}
+          <div className="border-t border-line">
+            <ResetProgress />
           </div>
-        </Row>
-
-        <Row
-          label="Onboarding"
-          hint="Reopen the start options, including the placement quiz (letters → words → sentences)."
-        >
-          <button
-            onClick={s.resetOnboarding}
-            className="rounded-xl bg-fill px-3.5 py-2 text-[13px] font-semibold text-muted transition-colors hover:text-ink"
-          >
-            Run again
-          </button>
-        </Row>
-      </div>
-
-      {ModelPanel && <Suspense fallback={null}><ModelPanel /></Suspense>}
-
-      <div className="mt-4 rounded-panel bg-card shadow-panel">
-        <ExportImport />
-        {/* Directly under Backup on purpose: the export is the only way back. */}
-        <div className="border-t border-line">
-          <ResetProgress />
         </div>
       </div>
     </div>

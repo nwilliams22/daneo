@@ -69,7 +69,9 @@ it("loads learned words asynchronously, composes and scores input, and survives 
     }
     expect(container.textContent).toContain(word.ko);
     await act(async () => window.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", bubbles: true })));
-    await waitForText("1/1 correct");
+    // The scoreboard moved into the page rail and reads "1 of 1 correct"
+    // rather than "1/1 correct" (BAD-281).
+    await waitForText("of 1 correct · 100%");
     await vi.waitFor(async () => {
       expect(await db.drillResults.where("kind").equals("typing").count()).toBe(pass + 1);
     });

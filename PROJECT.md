@@ -54,7 +54,9 @@ These six artifacts define the intended UX and visual language. Port their logic
 - Role color-coding is semantic and app-wide and is **independent of the UI accent**: subject=jade `#1C5B55`, object=rose `#A8322A`, place=gold `#8A6D2F`, verb=ink/bold. `text-subject` & co. carry the grammar roles.
 - Two token names are historical: `teal` is the accent (now vermilion) and `clay` is warn (now gold).
 - Korean type: Noto Sans KR (default) / Noto Serif KR (Myeongjo) / Nanum Pen Script (handwriting), with OS fallbacks. `font-korean` stays **sans** — the cross-font drill (§5) needs Gothic and Myeongjo to differ. UI type: Inter; headings and numbers use `font-serif` (Noto Serif KR's Latin subset, already self-hosted).
-- Tone: editorial, warm, wide margins; one accent moment per screen.
+- Tone: editorial, warm; one accent moment per screen.
+- **Page shape.** The shell runs to `max-w-app` (1,120px) and a page splits into a main column and a rail divided by a rule — `components/PageColumns.tsx`, stacking under 1024px. Secondary matter goes in the rail: progress and shortcuts on Today, the ring picker on Learn, the module test on a module page, the score and this session's misses on a drill. Body text stops at `max-w-read` (42rem) however wide the window is. ("There is a lot of empty spaces on the sides of the page" — Nick, BAD-281, after the first Dancheong build centred one 672px column in an 1,100px window.)
+- **The app opens dark** whatever the desktop prefers (Nick, BAD-281). `DEFAULT_SETTINGS.theme` is `"dark"`; `migrateSettings` moves a pre-v1 stored `"system"` across; and an inline script in `index.html` sets the class before the first paint so launching is not a white flash. Settings still offers System / Light / Dark. `tests/opens-dark.test.ts` runs that inline script for real, so the HTML and the store cannot drift apart.
 - Mockups for the chosen direction: `reference/design/bad281/dancheong.html`.
 
 ---
