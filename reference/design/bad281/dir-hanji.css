@@ -1,0 +1,138 @@
+/* Direction A — Hanji (한지, the mulberry paper the current palette is after).
+   The existing look, cleaned up: lighter and less olive paper, a deeper green
+   accent, and every bordered card replaced by a warm tint, a hairline rule, or
+   nothing at all. Closest to what is on screen today. */
+
+:root {
+  --canvas: #e4dfd1;
+  --canvas-ink: #2a2b28;
+  --canvas-ink-2: #77726a;
+
+  --page: #f8f5ed;
+  --surface: #efeade;
+  --ink: #1f2227;
+  --ink-2: #78736a;
+  --ink-3: #9a9589;
+  --rule: rgba(31, 34, 39, 0.11);
+  --grid: rgba(31, 34, 39, 0.1);
+
+  --accent: #1f6b5c;
+  --accent-ink: #f8f5ed;
+  --accent-ink-on-page: #1a6052;
+  --accent-soft: rgba(31, 107, 92, 0.3);
+  --accent-wash: rgba(31, 107, 92, 0.09);
+  --warn: #a8492f;
+  --warn-soft: rgba(168, 73, 47, 0.32);
+  --warn-wash: rgba(168, 73, 47, 0.08);
+  --meter-track: rgba(31, 34, 39, 0.13);
+  --fill-soft: rgba(31, 34, 39, 0.05);
+
+  --frame-shadow: inset 0 0 0 1px rgba(31, 34, 39, 0.1);
+  --radius-frame: 16px;
+
+  /* no outlines anywhere: a warm tint or a hairline does the separating */
+  --appbar-fill: transparent;
+  --appbar-border: 1px solid var(--rule);
+  --nav-active-fill: var(--accent-wash);
+  --nav-active-ink: var(--accent-ink-on-page);
+
+  --hero-fill: var(--surface);
+  --hero-radius: 16px;
+  --hero-accent-ink: var(--accent-ink-on-page);
+
+  --row-fill: transparent;
+  --row-pad: 15px 2px;
+  --row-radius: 0;
+  --row-divider: 1px solid var(--rule);
+  --row-divider-last: none;
+
+  --btn-ghost-fill: var(--fill-soft);
+  --btn-ghost-ring: none;
+  --chip-fill: var(--fill-soft);
+  --chip-ring: none;
+  --chip-radius: 10px;
+  --tag-ring: none;
+  --tag-fill: var(--fill-soft);
+  --tag-warn-ring: none;
+  --tag-warn-fill: var(--warn-wash);
+  --tag-pass-ring: none;
+  --tag-pass-fill: var(--accent-wash);
+
+  --strip-pad: 16px 2px 2px;
+  --strip-rule: 1px solid var(--rule);
+
+  --search-fill: var(--fill-soft);
+  --search-ring: none;
+  --seg-fill: transparent;
+  --seg-active-fill: var(--accent-wash);
+  --seg-active-ink: var(--accent-ink-on-page);
+
+  --pinned-fill: var(--surface);
+  --pinned-pad: 15px 17px;
+
+  --lrow-pad: 11px 12px;
+  --lrow-rule: 1px solid var(--rule);
+  --lrow-radius: 0;
+  --lrow-current-fill: var(--accent-wash);
+  --lrow-current-edge: 2px solid var(--accent);
+
+  --fold-pad: 12px 12px;
+  --fold-rule: 1px solid var(--rule);
+
+  --card-fill: var(--surface);
+  --card-border: none;
+  --glyph-fill: var(--page);
+  --glyph-ring: inset 0 0 0 1px var(--rule);
+  --opt-fill: var(--fill-soft);
+  --opt-ring: none;
+  --why-fill: var(--page);
+  --why-edge: 2px solid var(--accent-soft);
+  --missed-fill: var(--surface);
+  --kbd-fill: var(--page);
+}
+
+.dark {
+  --canvas: #100f0c;
+  --canvas-ink: #e8e4d8;
+  --canvas-ink-2: #908a7c;
+
+  --page: #1b1a17;
+  --surface: #24231e;
+  --ink: #e8e4d8;
+  --ink-2: #9c9585;
+  --ink-3: #7e786b;
+  --rule: rgba(232, 228, 216, 0.13);
+  --grid: rgba(232, 228, 216, 0.11);
+
+  --accent: #5fb3a1;
+  --accent-ink: #14130f;
+  --accent-ink-on-page: #6cc0ae;
+  --accent-soft: rgba(95, 179, 161, 0.34);
+  --accent-wash: rgba(95, 179, 161, 0.14);
+  --warn: #dd8a66;
+  --warn-soft: rgba(221, 138, 102, 0.34);
+  --warn-wash: rgba(221, 138, 102, 0.13);
+  --meter-track: rgba(232, 228, 216, 0.14);
+  --fill-soft: rgba(232, 228, 216, 0.06);
+
+  --frame-shadow: inset 0 0 0 1px rgba(232, 228, 216, 0.1);
+}
+
+/* the paper grain the palette is named for — two very low-contrast washes */
+.dark .frame {
+  background-image:
+    radial-gradient(110% 70% at 12% 0%, rgba(95, 179, 161, 0.06) 0%, transparent 58%),
+    radial-gradient(90% 60% at 100% 100%, rgba(194, 163, 96, 0.05) 0%, transparent 60%);
+}
+.frame {
+  background-image:
+    radial-gradient(110% 70% at 12% 0%, var(--accent-wash) 0%, transparent 58%),
+    radial-gradient(90% 60% at 100% 100%, rgba(138, 109, 47, 0.07) 0%, transparent 60%);
+}
+
+.hero .btn-primary {
+  box-shadow: none;
+}
+.hero-l1 {
+  font-weight: 600;
+}

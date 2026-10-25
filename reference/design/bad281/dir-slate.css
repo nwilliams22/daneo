@@ -1,0 +1,172 @@
+/* Direction B — Slate.
+   The cool, modern end of the range: a grey-blue page, white panels with no
+   outline at all and a very soft shadow instead, related rows grouped into one
+   panel rather than one card each, bigger numbers, one blue accent moment per
+   screen. The furthest from today's warm paper. */
+
+:root {
+  --canvas: #e4e7ed;
+  --canvas-ink: #1a1f28;
+  --canvas-ink-2: #69707d;
+
+  --page: #f3f4f7;
+  --surface: #ffffff;
+  --ink: #161a21;
+  --ink-2: #5f6775;
+  --ink-3: #8b93a1;
+  --rule: rgba(22, 26, 33, 0.085);
+  --grid: rgba(22, 26, 33, 0.08);
+
+  --accent: #2f58d8;
+  --accent-ink: #ffffff;
+  --accent-ink-on-page: #2a4fc4;
+  --accent-soft: rgba(47, 88, 216, 0.28);
+  --accent-wash: rgba(47, 88, 216, 0.08);
+  --warn: #c0392f;
+  --warn-soft: rgba(192, 57, 47, 0.26);
+  --warn-wash: rgba(192, 57, 47, 0.07);
+  --meter-track: rgba(22, 26, 33, 0.1);
+  --fill-soft: rgba(22, 26, 33, 0.045);
+
+  --radius-frame: 18px;
+  --radius-lg: 18px;
+  --radius-md: 14px;
+  --radius-sm: 11px;
+  --frame-shadow:
+    0 1px 2px rgba(16, 20, 28, 0.06), 0 10px 30px rgba(16, 20, 28, 0.07);
+
+  --panel-shadow:
+    0 1px 1px rgba(16, 20, 28, 0.04), 0 4px 14px rgba(16, 20, 28, 0.05);
+
+  --appbar-fill: var(--surface);
+  --appbar-border: none;
+  --nav-active-fill: var(--ink);
+  --nav-active-ink: var(--surface);
+
+  /* the one accent moment: today's first action is a solid blue block */
+  --hero-fill: var(--accent);
+  --hero-ink: #ffffff;
+  --hero-ink-2: rgba(255, 255, 255, 0.76);
+  --hero-radius: 18px;
+
+  --row-fill: transparent;
+  --row-pad: 15px 16px;
+  --row-radius: 0;
+  --row-divider: 1px solid var(--rule);
+  --row-divider-last: none;
+
+  --btn-primary-ring: 0 1px 2px rgba(16, 20, 28, 0.12);
+  --btn-ghost-fill: var(--fill-soft);
+  --btn-ghost-ring: none;
+  --chip-fill: var(--fill-soft);
+  --chip-ring: none;
+  --chip-radius: 12px;
+  --tag-ring: none;
+  --tag-fill: var(--fill-soft);
+  --tag-warn-ring: none;
+  --tag-warn-fill: var(--warn-wash);
+
+  --strip-fill: var(--surface);
+  --strip-ring: var(--panel-shadow);
+  --strip-pad: 17px 20px;
+
+  --search-fill: var(--surface);
+  --search-ring: var(--panel-shadow);
+  --seg-fill: var(--fill-soft);
+  --seg-pad: 3px;
+  --seg-active-fill: var(--surface);
+  --seg-active-ink: var(--ink);
+  --seg-active-ring: 0 1px 2px rgba(16, 20, 28, 0.14);
+
+  --pinned-fill: var(--surface);
+  --pinned-ring: var(--panel-shadow);
+  --pinned-pad: 16px 18px;
+
+  --lrow-pad: 11px 14px;
+  --lrow-rule: 1px solid var(--rule);
+  --lrow-radius: 0;
+  --lrow-current-fill: var(--accent-wash);
+
+  --fold-pad: 13px 14px;
+  --fold-rule: none;
+  --fold-fill: var(--fill-soft);
+  --fold-gap: 8px;
+
+  --card-fill: var(--surface);
+  --card-border: 0 0 0 0 transparent;
+  --card-shadow: var(--panel-shadow);
+  --glyph-fill: var(--page);
+  --glyph-ring: none;
+  --glyph-radius: 20px;
+  --opt-fill: var(--page);
+  --opt-ring: none;
+  --opt-radius: 14px;
+  --opt-dim-opacity: 0.78;
+  --why-fill: var(--page);
+  --missed-fill: var(--surface);
+  --missed-ring: var(--panel-shadow);
+  --kbd-fill: var(--page);
+
+  --hero-num-size: 52px;
+  --title-size: 26px;
+}
+
+.dark {
+  --canvas: #0b0d10;
+  --canvas-ink: #e7eaf0;
+  --canvas-ink-2: #8d95a4;
+
+  --page: #14161a;
+  --surface: #1d2026;
+  --ink: #e7eaf0;
+  --ink-2: #9aa3b2;
+  --ink-3: #79818f;
+  --rule: rgba(231, 234, 240, 0.09);
+  --grid: rgba(231, 234, 240, 0.09);
+
+  --accent: #5f82f5;
+  --accent-ink: #0c0f16;
+  --accent-ink-on-page: #8aa3ff;
+  --accent-soft: rgba(95, 130, 245, 0.32);
+  --accent-wash: rgba(95, 130, 245, 0.13);
+  --warn: #f08a7c;
+  --warn-soft: rgba(240, 138, 124, 0.3);
+  --warn-wash: rgba(240, 138, 124, 0.11);
+  --meter-track: rgba(231, 234, 240, 0.12);
+  --fill-soft: rgba(231, 234, 240, 0.055);
+
+  --frame-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 14px 40px rgba(0, 0, 0, 0.45);
+  --panel-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --hero-ink: #0c0f16;
+  --hero-ink-2: rgba(12, 15, 22, 0.7);
+  --nav-active-fill: var(--accent);
+  --nav-active-ink: #0c0f16;
+}
+
+/* related rows are one grouped panel, not one card each */
+.rows,
+.lrows {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--panel-shadow);
+  padding: 2px 0;
+  overflow: hidden;
+}
+.hero-num {
+  font-size: var(--hero-num-size);
+}
+.hero .btn-primary {
+  background: #ffffff;
+  color: var(--accent);
+  box-shadow: 0 1px 3px rgba(16, 20, 28, 0.18);
+}
+.dark .hero .btn-primary {
+  background: #0c0f16;
+  color: var(--accent);
+}
+.hero .hero-l1 {
+  font-weight: 600;
+}
+.appbar {
+  box-shadow: 0 1px 0 0 var(--rule);
+}
