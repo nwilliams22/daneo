@@ -353,7 +353,9 @@ export function ReviewSession({
         {q.kind === "anatomy" && (
           <ChoiceQuestion
             key={q.key}
-            columns={1}
+            // Same question as the module test's sentence MCQ, so the same
+            // layout rule: two columns when the four readings are short.
+            columns="auto"
             prompt={
               <div className="text-center">
                 <div className="flex items-center justify-center gap-1 font-korean text-[26px] font-semibold">

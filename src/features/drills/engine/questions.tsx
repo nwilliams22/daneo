@@ -1,8 +1,11 @@
-import { useEffect, useReducer, useState } from "react";
+import { useEffect, useReducer, useRef, useState } from "react";
 import type { Word } from "../../../types";
 import AudioButton from "../../../components/AudioButton";
 import Rom from "../../../components/Rom";
-import QuizOptions, { type QuizOptionView } from "./QuizOptions";
+import QuizOptions, {
+  type QuizColumns,
+  type QuizOptionView,
+} from "./QuizOptions";
 import WhyWrong from "./WhyWrong";
 import { useDrillKeys } from "./useDrillKeys";
 import TypingFeedback from "../typing/TypingFeedback";
@@ -85,17 +88,31 @@ export function ChoiceQuestion({
   /** Both-sides feedback for a wrong pick ("why was I wrong") — falls back
    *  to `explain` when absent or when the pick can't be resolved. */
   explainWrong?: (pickedId: string) => React.ReactNode;
-  columns?: 1 | 2;
+  columns?: QuizColumns;
   nextLabel?: string;
   onAnswer: (correct: boolean) => void;
   onNext: () => void;
 }) {
   const [picked, setPicked] = useState<string | null>(null);
+  const feedback = useRef<HTMLDivElement>(null);
   const pick = (id: string) => {
     if (picked) return;
     setPicked(id);
     onAnswer(id === answerId);
   };
+  // The correction and the Next button appear below the options, so on a long
+  // question they can open off-screen and the learner has to go looking for
+  // them (Nick, 2026-10-26). `block: "nearest"` scrolls the least amount that
+  // makes them visible, and does nothing at all when they already are — so a
+  // short question does not twitch. Optional-called because jsdom has no
+  // scrollIntoView.
+  useEffect(() => {
+    if (picked)
+      feedback.current?.scrollIntoView?.({
+        block: "nearest",
+        behavior: "smooth",
+      });
+  }, [picked]);
   useDrillKeys({
     onNumber: !picked
       ? (n) => {
@@ -116,7 +133,7 @@ export function ChoiceQuestion({
         columns={columns}
       />
       {picked && (
-        <div className="mt-3.5 border-t border-line pt-3">
+        <div ref={feedback} className="mt-3.5 border-t border-line pt-3">
           {(picked !== answerId && explainWrong?.(picked)) || (
             <div className="text-[13.5px] leading-relaxed text-muted">
               {explain}

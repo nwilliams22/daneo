@@ -1785,3 +1785,65 @@ two bugs this session that the unit tests had not: the zero-count flash and a
 purpose — a profile under the repo makes vite's watcher reload the page forever,
 and `scripts/visual-pass.mjs` had the same trap waiting in `.visual-pass/`; it
 is moved there too.
+
+### 2026-10-26 — The module test: readable Korean, a layout that fits, and the gate it never had
+
+Nick took a module test and reported two formatting faults. Auditing them found
+a third thing he had flagged as a question — *"which I think isn't supposed to
+be allowed?"* — and he was right.
+
+**The gate.** `/learn/:moduleId/test` checked only that the module existed and
+had words. It never looked at the learner's known-word set, so Nick reached a
+module test with nothing checked off and was asked to translate 음악을 들었어요
+— a sentence built from words he had never marked as learned. That is PROJECT.md
+§1 rule 1, and §5 *Known-word gating* says the Learn area shows a module's
+sentences only after its checklist is done. Three places in the app already
+assumed it: `SentenceList` withholds the sentence layer with an explicit
+message, `VocabChecklist` promises "this module's sentences and drills are
+unlocked", and `LearnPage` only badges a module "test due" when it is complete.
+The test route was the one path that did not check. It is enforced in two places
+now, deliberately: the rail card shows `Locked` with the distance (`0/32 so
+far`), and the route itself redirects, because a route is reachable from history
+and a bookmark whatever a card does. The route returns `null` rather than
+redirecting while Dexie's first query is in flight, and the card withholds its
+button over the same gap — offering a link the route then bounces is worse than
+a beat of nothing, and the first draft of the card did exactly that.
+
+**Korean answers were half the size of Korean prompts.** `QuizOptions` rendered
+every option at the UI size; a pick-the-Korean answer came out at 16px while the
+same word as a prompt renders at 34px. Hangul packs two or three jamo into one
+em square, so it reads smaller than Latin at the same point size — the gap was
+real, not fussiness. Korean options now take 26px, the app's Korean prompt size,
+into vertical space the question already had spare. Exactly one Tailwind text
+size is emitted per button: two size utilities on one element resolve by
+stylesheet order, not by the order they appear in the class attribute.
+
+**Four stacked pills for four short sentences.** The sentence MCQ was pinned to
+one column, so "I listened to music" got a full-width row and the correction and
+the Next button opened below the fold. `columns="auto"` takes two columns when
+every option is at most 72 characters — the 88th percentile of the 1,439 shipped
+readings, measured, not guessed. The long tail keeps the single column, where a
+143-character reading belongs. The review queue's `anatomy` question is the same
+question and gets the same rule. Separately, `ChoiceQuestion` now scrolls its
+correction into view with `block: "nearest"`, which moves nothing when the
+correction is already visible — so a question longer than any threshold still
+cannot open its feedback off-screen.
+
+Checks: `npm test` 37 files / 430 tests (8 new in
+`tests/module-test-gate.test.tsx` — the route bounce, the absence of any
+question, the unlocked run, both states of the card, and the column threshold
+asserted against the whole shipped corpus rather than a sample); `npm run build`
+green including typecheck; `npm run lint` has no warning in `src/` or `tests/`;
+`validate:content` 16/16. Driven in a real browser at the app's own 1100x800
+window via `visual:pass --route ... --act ...`: the pick-the-Korean options
+measure `fontSize: 26px` in `grid-cols-2`; the sentence question renders
+`grid-cols-2`, and after a wrong pick the Next button's bottom edge sits at
+**757px of an 800px viewport with `scrollY: 0`** — the whole question, both
+halves of the correction and the button in one screen, which is what Nick asked
+for. The gate was confirmed live too, by accident: the first run seeded m1 and
+the `/learn/m2/test` route bounced to the module page on its own.
+
+Not done here, and flagged rather than fixed: **the Dancheong re-skin (BAD-281)
+shipped without a session-log entry.** Four commits, a theme replacement and a
+new page shape are recorded in `PROJECT.md` §2 but nowhere in this log. Writing
+someone else's closeout from the diff would be worse than naming the gap.

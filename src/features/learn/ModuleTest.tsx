@@ -8,6 +8,8 @@ import {
   wordById,
 } from "../../content";
 import { logDrillResult, recordModuleTest } from "../../db/repo";
+import { useKnownWords } from "../../db/useKnownWords";
+import { isModuleComplete } from "../../lib/gating";
 import {
   buildModuleTest,
   drillKindFor,
@@ -246,7 +248,7 @@ function TestRun({ module }: { module: Module }) {
         {q.kind === "sentence" && (
           <ChoiceQuestion
             key={q.key}
-            columns={1}
+            columns="auto"
             prompt={
               <div className="text-center">
                 <div className="flex items-center justify-center gap-1 font-korean text-[26px] font-semibold">
@@ -324,8 +326,19 @@ function TestRun({ module }: { module: Module }) {
 
 export default function ModuleTestRoute() {
   const { moduleId } = useParams();
+  const known = useKnownWords();
   const module = moduleId ? moduleById.get(moduleId) : undefined;
   if (!module || module.wordIds.length === 0)
     return <Navigate to="/learn" replace />;
+  // Word-first gating (PROJECT.md §1 rule 1, §"Known-word gating"): a test
+  // samples the module's *sentences*, so it is unlocked by the same thing
+  // that unlocks them — a finished vocabulary checklist. Nick reached this
+  // route with nothing checked off on 2026-10-26 and was asked to translate a
+  // sentence made of words he had never marked as learned. The module page
+  // locks the card, but the route is reachable directly and from history, so
+  // the rule is enforced here too.
+  if (!known) return null; // first Dexie query in flight — do not bounce
+  if (!isModuleComplete(module, known))
+    return <Navigate to={`/learn/${module.id}`} replace />;
   return <TestRun module={module} />;
 }

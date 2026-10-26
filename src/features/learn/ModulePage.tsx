@@ -5,6 +5,8 @@ import { db } from "../../db/db";
 import { moduleById, moduleMarkdown } from "../../content";
 import { splitModuleMarkdown } from "./splitModuleMarkdown";
 import { useSettings } from "../../state/settings";
+import { useKnownWords } from "../../db/useKnownWords";
+import { moduleProgress } from "../../lib/gating";
 import { PASS_PCT } from "../../lib/moduleTest";
 import type { Module } from "../../types";
 import Markdown from "../../components/Markdown";
@@ -71,11 +73,27 @@ function MissedOnLastTest({ module }: { module: Module }) {
  *  7,000px module page the test used to be a button at the very bottom. */
 function TestCta({ module }: { module: Module }) {
   const result = useLiveQuery(() => db.moduleTests.get(module.id), [module.id]);
+  const known = useKnownWords();
   const passed = !!result && result.bestPct >= PASS_PCT;
+  // The test samples this module's sentences, so it unlocks with them — a
+  // finished vocabulary checklist (PROJECT.md §"Known-word gating"). Until
+  // then the card shows the distance rather than a button that would hand out
+  // sentences built from unlearned words (Nick, 2026-10-26).
+  // `known` is undefined until Dexie's first query lands. Offering the button
+  // in that gap would flash a link the route then bounces, so the card waits.
+  const progress = known ? moduleProgress(module, known) : null;
+  const locked = !!progress && progress.done < progress.total;
+  const unlocked = !!progress && !locked;
   return (
     <RailBlock title="Module test">
       <div className="text-[13px] leading-relaxed text-muted">
-        {result ? (
+        {locked ? (
+          <>
+            Unlocks with the vocabulary checklist — every sentence it tests is
+            built only from words you've marked as learned ({progress.done}/
+            {progress.total} so far).
+          </>
+        ) : result ? (
           <>
             Best {result.bestPct}%{passed && " · passed"} · {result.attempts}{" "}
             attempt{result.attempts === 1 ? "" : "s"}
@@ -84,14 +102,21 @@ function TestCta({ module }: { module: Module }) {
           "A fresh sample of this module's words and sentences — misses feed the review queue."
         )}
       </div>
-      <Link
-        to={`/learn/${module.id}/test`}
-        className={`mt-3 block rounded-full px-4 py-2 text-center text-sm font-bold transition-opacity hover:opacity-90 ${
-          passed ? "border border-jade text-jade" : "bg-teal text-on-accent"
-        }`}
-      >
-        {result ? "Retake" : "Take the test"}
-      </Link>
+      {locked && (
+        <div className="mt-3 rounded-full border border-line px-4 py-2 text-center text-sm font-bold text-faint">
+          Locked
+        </div>
+      )}
+      {unlocked && (
+        <Link
+          to={`/learn/${module.id}/test`}
+          className={`mt-3 block rounded-full px-4 py-2 text-center text-sm font-bold transition-opacity hover:opacity-90 ${
+            passed ? "border border-jade text-jade" : "bg-teal text-on-accent"
+          }`}
+        >
+          {result ? "Retake" : "Take the test"}
+        </Link>
+      )}
       {/* Nick, 2026-10-25: the card said misses "feed the review queue" and
           left him to find them. This is the way there. */}
       <ReviewQueueLink
