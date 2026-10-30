@@ -179,11 +179,14 @@ GPU and no Korean operating-system voice. Three verdicts are open.
 
 ### Step 0 — copy the files, do not rebuild
 
-**The accepted installers exist on one machine.** CI keeps artifacts seven days
-and run `38158221011`'s are deleted, so there is nothing to download and a rebuild
-produces **different bytes** — which voids `SHA256SUMS` in this directory *and*
-the 2026-10-20 Linux acceptance recorded against those hashes. Copy, never
-rebuild.
+**The accepted installers exist on one machine.** CI kept artifacts for seven days
+when this release was built, so run `38158221011`'s are deleted
+(`gh api repos/nwilliams22/daneo/actions/runs/38158221011/artifacts` reports
+`total_count: 0`) and there is nothing to download. Retention was raised to the
+90-day maximum on 2026-10-24, but that applies to **later** builds only and does
+not bring these bytes back — and a rebuild produces **different bytes**, which
+voids `SHA256SUMS` in this directory *and* the 2026-10-20 Linux acceptance
+recorded against those hashes. Copy, never rebuild.
 
 On the build host the verified copies are in `.release-staging/0.1.0/`
 (git-ignored) alongside their `SHA256SUMS`. Copy the whole directory to a USB
