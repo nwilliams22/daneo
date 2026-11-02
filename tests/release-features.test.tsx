@@ -76,5 +76,8 @@ describe("release AI entry points", () => {
     for (const command of ["translate_local", "ask_tutor_local", "download_model", "tutor-question"]) {
       expect(code).not.toContain(command);
     }
-  }, 60_000);
+    // A real production build, so the budget has to cover the slowest machine that runs npm test, not
+    // the fastest. bd-server takes ~100s for this build when other agents are working in the tree; the
+    // old 60s budget failed there while CI passed, which reads exactly like a regression and is not one.
+  }, 300_000);
 });
