@@ -1872,3 +1872,10 @@ and a separate `npm run validate:content` passed 16/16. `npm test` passed
 ran concurrently. An isolated rerun is recorded in the acceptance follow-up.
 The original failure evidence is retained with the packaging task; corrected
 installer verification follows the CI build.
+
+The first CI run exercised the new guard and correctly rejected the remaining
+`MSVCP140.dll` import. The pinned llama.cpp enables CMake policy CMP0091: the
+MSVC runtime target property defaults to the DLL runtime and can override the
+legacy `/MT` flags set by the Rust cmake crate. Set
+`CMAKE_MSVC_RUNTIME_LIBRARY=MultiThreaded$<$<CONFIG:Debug>:Debug>` explicitly as
+well. The guard stays unchanged; a successful compile is not enough.
