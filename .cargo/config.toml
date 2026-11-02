@@ -1,0 +1,8 @@
+# Clean Windows installations need no separate Visual C++ redistributable.
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static"]
+
+[env]
+# llama-cpp-sys-2 configures its C++ CRT separately from Rust's target feature.
+# cmake's static_crt setting only affects MSVC builds.
+LLAMA_STATIC_CRT = "1"

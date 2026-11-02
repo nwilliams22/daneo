@@ -83,6 +83,8 @@ jobs:
           & 7z x $installer.FullName -obundle-extracted
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           node scripts/check-bundle-resources.mjs bundle-extracted bundle-resources.json
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          ./scripts/check-windows-runtime.ps1 -BundleRoot bundle-extracted
       - uses: actions/upload-artifact@v4
         with:
           name: daneo-${{ runner.os }}-${{ runner.arch }}

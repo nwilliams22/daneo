@@ -1847,3 +1847,28 @@ Not done here, and flagged rather than fixed: **the Dancheong re-skin (BAD-281)
 shipped without a session-log entry.** Four commits, a theme replacement and a
 new page shape are recorded in `PROJECT.md` §2 but nowhere in this log. Writing
 someone else's closeout from the diff would be worse than naming the gap.
+
+### 2026-11-02 — Windows clean-host C++ runtime dependency
+
+The CI Windows installer at `60fd2f3` installed successfully on a clean Windows
+11 VM but exited with `3221225781` (`0xC0000135`). Its installed `daneo.exe`
+imports `MSVCP140.dll`; that DLL and both `VCRUNTIME140` variants are absent from
+the clean host. Windows builds now select the static MSVC runtime for both Rust
+(`crt-static`) and the pinned native C++ dependency (`LLAMA_STATIC_CRT=1`). The
+latter has its own CMake switch, independent of Rust's setting. No new dependency
+or prerequisite download is added. WebView2 remains a system prerequisite.
+
+CI inspects every EXE/DLL extracted from the NSIS installer with `dumpbin
+/DEPENDENTS` and rejects Visual C++ redistributable imports, including delayed
+imports. This catches the original `MSVCP140.dll` dependency even on a runner
+where that DLL is installed. Clean-VM GUI acceptance remains necessary; import
+inspection alone does not establish a working screen. The staged 0.1.0 release
+and its checksums are unchanged; a corrected installer needs separate release
+handling before it can replace the staged Windows artifact.
+
+Local checks: `npm run build` passed (including TypeScript and content 16/16),
+and a separate `npm run validate:content` passed 16/16. `npm test` passed
+429/430; the production-bundle test exceeded its 60-second timeout while builds
+ran concurrently. An isolated rerun is recorded in the acceptance follow-up.
+The original failure evidence is retained with the packaging task; corrected
+installer verification follows the CI build.
