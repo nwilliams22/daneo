@@ -36,3 +36,12 @@ Fall back to Grep/Glob/Read **only** when the graph doesn't cover what you need.
 2. Use `detect_changes_tool` for code review.
 3. Use `get_affected_flows_tool` to understand impact.
 4. Use `query_graph_tool` pattern="tests_for" to check coverage.
+
+## Windows test VM
+
+A throwaway Windows 11 VM on bd-server for testing Windows builds (WebView2 is
+installed; rendering is software only, no GPU). Read
+`/usr/local/share/win11-eval/AGENTS.md` before using it. In short:
+`sudo win11-vm start`, then `ssh win11-test` (PowerShell, local admin), and
+always `sudo win11-vm reset` when done so the next test starts clean. It is
+rebuilt automatically before the evaluation expires, so keep nothing in it.
