@@ -265,7 +265,7 @@ unattempted platform stays `unverified` — an untested platform is never a pass
 | --- | --- | --- | --- | --- | --- | --- |
 | Windows x64 | — | — | — | — | — | **unverified** |
 | macOS Apple Silicon | n/a — CI builds, not the 0.1.0 DMG (see note) | `06f0a54`: "damaged", no Open Anyway; `84968f0`: "can't be verified", opened via Open Anyway (2026-11-11) | 1–7 pass on `06f0a54`, quarantine removed by hand (2026-11-11) | unverified — not checked | unverified — not checked | **runtime pass; first launch fixed from `84968f0`** — 0.1.0 DMG itself untested |
-| RPM Linux x86-64 | — | — | — | — | — | **unverified** |
+| RPM Linux x86-64 | n/a — CI build, not the 0.1.0 RPM (see note) | `dnf`: "skipped OpenPGP checks for 1 package from repository: @commandline" (2026-10-25) | 1–7 pass on `75f79d7` (2026-10-25); check 2's Review link re-checked on `93c2978` (2026-10-26) | available — speech plays | real GPU (RTX 5090), no software fallback seen | **pass on `75f79d7`** — 0.1.0 RPM itself untested |
 | Linux AppImage | yes | n/a — no OS gate | 1–7 pass (2026-10-20) | unavailable on host | software rendering | **pass** |
 
 **macOS row, from Nick's reports on BAD-268 and BAD-384 (Apple Silicon, macOS 27.2.1).**
@@ -280,6 +280,17 @@ Security → Open Anyway. That second result is Nick's report of the dialog he s
 warns on quarantined apps. Checks 1–7 were not re-run on `84968f0`, whose change
 from `06f0a54` is signing configuration only. The staged 0.1.0 DMG predates the fix
 and keeps the known defect, so a Mac release needs a rebuilt DMG.
+
+**RPM row, from Nick's reports on BAD-268 and BAD-278 (nobara-pc: Nobara 43, Fedora 44
+base, KDE Plasma 6 Wayland, NVIDIA RTX 5090).** The bytes tested are the CI RPM from run
+`40136294877` (`75f79d7`, SHA-256 `8945022b…5d52d`), not the hash-pinned 0.1.0 RPM.
+`dnf install` completed and pulled in nothing beyond `webkit2gtk-4.1` and `gtk3`, which
+were already installed — so the Ubuntu-built package resolves on a Fedora base. The
+profile was not pristine: leftover dev-build storage had onboarding marked done, so
+check 1 ran through Settings → Run again rather than on first launch; learner progress
+was otherwise empty. On 2026-10-26 he reinstalled the RPM from run `40247106419`
+(`93c2978`) and confirmed the Test Complete screen and the module test card both link
+misses to Review; the other checks were not re-run on that build.
 
 There is **no Intel Mac and no Windows ARM installer** in this set, so neither has
 a row. Publication is a separate approval and nothing here grants it; the point of
