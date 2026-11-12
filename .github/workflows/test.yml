@@ -8,10 +8,10 @@ jobs:
   test:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 24
+          node-version-file: .nvmrc
           cache: npm
       - uses: dtolnay/rust-toolchain@stable
       - name: Native build prerequisites
@@ -38,10 +38,10 @@ jobs:
           - os: macos-15
             bundles: dmg
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 24
+          node-version-file: .nvmrc
           cache: npm
       - uses: dtolnay/rust-toolchain@stable
       - name: Native build prerequisites
@@ -112,7 +112,7 @@ jobs:
           node scripts/check-bundle-resources.mjs bundle-extracted bundle-resources.json
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           ./scripts/check-windows-runtime.ps1 -BundleRoot bundle-extracted
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: daneo-${{ runner.os }}-${{ runner.arch }}
           path: |
@@ -142,10 +142,10 @@ jobs:
           test "$(getconf GNU_LIBC_VERSION)" = "glibc 2.35"
           pkg-config --modversion webkit2gtk-4.1
           dpkg-query -W libc6 libwebkit2gtk-4.1-dev
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 24
+          node-version-file: .nvmrc
           cache: npm
       - uses: dtolnay/rust-toolchain@stable
       - run: npm ci
@@ -160,7 +160,7 @@ jobs:
           node scripts/check-bundle-resources.mjs squashfs-root appimage-resources.json
           python3 scripts/check-appimage-glibc.py squashfs-root --runtime "$image" --output appimage-glibc.json
           sha256sum "$image" > appimage-sha256.txt
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: daneo-AppImage-Linux-X64
@@ -176,8 +176,8 @@ jobs:
     needs: appimage
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
         with:
           name: daneo-AppImage-Linux-X64
           path: appimage-artifact
@@ -194,7 +194,7 @@ jobs:
           cp /etc/os-release launch-evidence/os-release
           getconf GNU_LIBC_VERSION > launch-evidence/glibc.txt
           xvfb-run -a -s '-screen 0 1280x900x24 -nolisten tcp' bash scripts/check-appimage-launch.sh "$image" "$PWD/launch-evidence"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: daneo-AppImage-launch-Ubuntu-22.04
