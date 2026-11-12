@@ -106,6 +106,20 @@ If policy prevents the exception, stop. A warning about damaged software or know
 malware is not the unidentified-developer warning; do not bypass it using these
 instructions. See [Apple's instructions and warning descriptions](https://support.apple.com/en-lamr/102445).
 
+The Mac app is **unsigned** in the Apple sense: it carries only an ad-hoc
+signature, with no Developer ID and no notarization, by owner decision of
+2026-11-11. On first launch use **System Settings → Privacy & Security → Open
+Anyway** as above. Since macOS 15, right-click → **Open** no longer bypasses
+Gatekeeper, so that older shortcut will not work.
+
+**Known defect in the staged 0.1.0 DMG.** The DMG in this manifest (and every
+build before the fix for BAD-384) signs only the binary, not the `.app` bundle.
+A browser-downloaded copy is therefore reported as **"daneo is damaged and can't
+be opened"**, with no Open Anyway path. Builds from that fix onward ad-hoc sign the
+whole bundle, and CI rejects a bundle that fails `codesign --verify --deep --strict`.
+Shipping a fixed Mac build changes the DMG bytes, so it needs a new checksum and
+its own acceptance; the staged files above are unchanged.
+
 ## What was verified
 
 The Linux acceptance record covers onboarding, learned-word unlock, the exercised

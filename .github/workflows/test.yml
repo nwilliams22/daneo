@@ -75,6 +75,33 @@ jobs:
           hdiutil attach "$image" -readonly -nobrowse -mountpoint "$mount"
           trap 'hdiutil detach "$mount"' EXIT
           node scripts/check-bundle-resources.mjs "$mount/daneo.app" bundle-resources.json
+      - name: Gate macOS bundle signature
+        if: runner.os == 'macOS'
+        shell: bash
+        run: |
+          image=$(find src-tauri/target/release/bundle/dmg -name '*.dmg' -type f | head -1)
+          mount="$RUNNER_TEMP/daneo-signature"
+          mkdir -p "$mount"
+          hdiutil attach "$image" -readonly -nobrowse -mountpoint "$mount"
+          trap 'hdiutil detach "$mount"' EXIT
+          # The app as shipped inside the DMG must carry a sealed ad-hoc bundle signature.
+          bash scripts/check-macos-signature.sh "$mount/daneo.app" app.daneo.desktop
+          # Negative controls: the gate must reject an unsigned bundle and one whose seal
+          # is missing (the 06f0a54 defect: "code has no resources but signature indicates
+          # they must be present").
+          control="$RUNNER_TEMP/daneo-controls"
+          rm -rf "$control" && mkdir -p "$control/unsigned" "$control/unsealed"
+          ditto "$mount/daneo.app" "$control/unsigned/daneo.app"
+          codesign --remove-signature "$control/unsigned/daneo.app"
+          ditto "$mount/daneo.app" "$control/unsealed/daneo.app"
+          rm -rf "$control/unsealed/daneo.app/Contents/_CodeSignature"
+          for c in unsigned unsealed; do
+            if bash scripts/check-macos-signature.sh "$control/$c/daneo.app" app.daneo.desktop; then
+              echo "::error::signature gate accepted the $c control bundle"
+              exit 1
+            fi
+            echo "negative control '$c' rejected as expected"
+          done
       - name: Inspect Windows installer resources
         if: runner.os == 'Windows'
         shell: pwsh
