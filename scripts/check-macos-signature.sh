@@ -7,7 +7,7 @@
 # as "damaged and can't be opened", with no Open Anyway path. That is the
 # defect this gate exists to catch: the bundle must be signed as a whole.
 #
-# Usage: check-macos-signature.sh <path/to/daneo.app> [expected-identifier]
+# Usage: check-macos-signature.sh <path/to/Daneo.app> [expected-identifier]
 set -euo pipefail
 
 app=${1:?usage: check-macos-signature.sh <app> [identifier]}

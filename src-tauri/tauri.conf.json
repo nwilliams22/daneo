@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "daneo",
+  "productName": "Daneo",
   "version": "0.1.0",
   "identifier": "app.daneo.desktop",
   "build": {
@@ -38,6 +38,13 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ]
+    ],
+    "linux": {
+      "rpm": {
+        "obsoletes": [
+          "daneo"
+        ]
+      }
+    }
   }
 }
