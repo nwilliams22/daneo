@@ -187,9 +187,10 @@ curriculum gate changed. Tagging/publication still requires its separate approva
 
 ## Owner platform verification — Windows x64, Apple Silicon macOS, RPM
 
-Nick chose this work on 2026-10-22 and it is his to run. No agent can do it: this
-build host is Linux x86-64 with no Windows, no Mac, no RPM-based host, no physical
-GPU and no Korean operating-system voice. Three verdicts are open.
+Nick chose this work on 2026-10-22. The Windows x64, macOS Apple Silicon and RPM
+runtime checks below use CI builds, not the hash-pinned 0.1.0 installers. The
+Windows verdict was run on the shared Windows 11 test VM; the staged 0.1.0
+installer remains untested.
 
 ### Step 0 — copy the files, do not rebuild
 
@@ -263,10 +264,13 @@ unattempted platform stays `unverified` — an untested platform is never a pass
 
 | Platform | Hash matched | Install warning seen | Checks 1–7 | Korean speech | GPU render | Verdict |
 | --- | --- | --- | --- | --- | --- | --- |
-| Windows x64 | — | — | — | — | — | **unverified** |
+| Windows x64 | yes — CI run `43160748097`, `0a99594`; SHA-256 `11e3df855bf5d0f0e8a8d100a61b80a4d854192363542bcbae6ee30506ef590e` | not exercised — copied by SCP; SmartScreen not shown | 1–3 pass; 4 fail (correct answer absent); 5 fail (retake 16/17 after QA role-label error); 6 incomplete (progress remained after restart, but 37/37 and 100% were not rechecked); 7 pass | unavailable — no Korean voice found | unverified — software only; VM reports no GPU | **fail** — CI build, not 0.1.0 installer |
 | macOS Apple Silicon | n/a — CI builds, not the 0.1.0 DMG (see note) | `06f0a54`: "damaged", no Open Anyway; `84968f0`: "can't be verified", opened via Open Anyway (2026-11-11) | 1–7 pass on `06f0a54`, quarantine removed by hand (2026-11-11) | unverified — not checked | unverified — not checked | **runtime pass; first launch fixed from `84968f0`** — 0.1.0 DMG itself untested |
 | RPM Linux x86-64 | n/a — CI build, not the 0.1.0 RPM (see note) | `dnf`: "skipped OpenPGP checks for 1 package from repository: @commandline" (2026-10-25) | 1–7 pass on `75f79d7` (2026-10-25); check 2's Review link re-checked on `93c2978` (2026-10-26) | available — speech plays | real GPU (RTX 5090), no software fallback seen | **pass on `75f79d7`** — 0.1.0 RPM itself untested |
 | Linux AppImage | yes | n/a — no OS gate | 1–7 pass (2026-10-20) | unavailable on host | software rendering | **pass** |
+
+**Windows x64 row, run on Windows 11 Enterprise LTSC evaluation VM (2026-11-13).**
+The CI artifact `Daneo-Windows-X64` from run `43160748097` (`0a9959443fd93f1b6cddb20d96d4921fb382e648`) was downloaded and its SHA-256 matched on Linux and Windows. Silent `/S` installation succeeded and the app launched on the visible desktop. This is not the staged 0.1.0 installer. Checks 1–3 passed (Module 1 reached 37/37, the mixed test and Review queue worked, and a confusables answer scored 1/1). Check 4 failed twice: the first Review prompt was `자다` (“to sleep”), absent from both four-choice sets. Check 5 reached 17/17 once; the required retake did not: later attempts scored 16/17 due to QA input/role-label mistakes. After restart, the Learn page retained progress (Ring 1 showed 1 of 33 done), but Module 1's 37/37 and 100% were not confirmed there, so check 6 is incomplete. Check 7 passed: Explore stated it works offline with no AI, download, key or account; Settings reported “No Korean voice found on this system.” The VM had no GPU, so GPU rendering is unverified. SmartScreen was not exercised because the installer was copied by SCP. Screenshots and detailed reproduction are attached to BAD-393. Review defect follow-up: BAD-404.
 
 **macOS row, from Nick's reports on BAD-268 and BAD-384 (Apple Silicon, macOS 27.2.1).**
 Neither build tested is the hash-pinned 0.1.0 DMG. The CI DMG from run `42924234402`
