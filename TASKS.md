@@ -1879,3 +1879,21 @@ MSVC runtime target property defaults to the DLL runtime and can override the
 legacy `/MT` flags set by the Rust cmake crate. Set
 `CMAKE_MSVC_RUNTIME_LIBRARY=MultiThreaded$<$<CONFIG:Debug>:Debug>` explicitly as
 well. The guard stays unchanged; a successful compile is not enough.
+
+### 2026-11-13 — Review answer inclusion regression coverage
+
+Investigated the reported missing “to sleep” answer in the Windows Review Queue.
+Both attached screenshots actually show 작다 (jakda, “to be small”), and both
+include “to be small”; 자다 (jada, “to sleep”) is a different vocabulary item.
+The existing generator includes its target, so no application behavior was
+changed. Added `tests/review-answers.test.tsx`: every one of the 5,615 vocabulary
+items produces four distinct meanings with exactly one correct answer; actual
+due-card route tests render both words on repeated visits and verify that
+selecting their meaning records a correct result. `npm test --
+tests/review-answers.test.tsx` passed 3/3; `npm run validate:content` (through the
+build) passed 16/16; `npm run build` passed TypeScript and the production
+bundle; `npx oxlint tests/review-answers.test.tsx` passed. The first
+test run exhausted the heap because a random-number spy retained shuffle calls;
+a plain seeded generator fixed the test harness. UI coverage here is jsdom,
+not a new Windows installer run. Independent review of the screenshot reading
+and the regression coverage is the next acceptance step.
