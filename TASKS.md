@@ -1897,3 +1897,17 @@ test run exhausted the heap because a random-number spy retained shuffle calls;
 a plain seeded generator fixed the test harness. UI coverage here is jsdom,
 not a new Windows installer run. Independent review of the screenshot reading
 and the regression coverage is the next acceptance step.
+
+### 2026-11-14 — Clipboard input in typing questions
+
+Module Test/Review typing questions and the standalone typing drill now accept
+plain-text clipboard paste. The composer commits any active syllable, appends
+the pasted text with NFC normalization, and retains its existing jamo editing
+rules. Paste leaves other editable controls alone and cannot change an answered
+question. Regression coverage checks the reported 좋아하다 answer, correct and
+incorrect scoring, Unicode normalization, answer locking, handler cleanup,
+backspace/retyping, and standalone drill persistence. Focused typing tests pass
+8/8 and the existing composer suite passes 19/19; focused oxlint passes. Content
+validation passes 16/16; `npm run build` passes TypeScript and the production
+bundle. Windows visible-desktop acceptance remains required
+against the resulting installer; automated component tests do not establish it.

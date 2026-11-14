@@ -118,10 +118,21 @@ function TypingSession({ pool, reviewIds }: { pool: Word[]; reviewIds?: Set<stri
       }
     };
     const onComposition = () => setImeHint(true);
+    const onPaste = (e: ClipboardEvent) => {
+      // Leave native inputs elsewhere on the page to their own paste behavior.
+      if (e.target instanceof Element && e.target.closest("input, textarea, [contenteditable]")) return;
+      if (engine.answered) return;
+      const text = e.clipboardData?.getData("text/plain");
+      if (!text) return;
+      e.preventDefault();
+      dispatch({ type: "paste", text });
+    };
+    window.addEventListener("paste", onPaste);
     window.addEventListener("keydown", onKeyDown);
     window.addEventListener("compositionstart", onComposition);
     return () => {
       window.removeEventListener("keydown", onKeyDown);
+      window.removeEventListener("paste", onPaste);
       window.removeEventListener("compositionstart", onComposition);
     };
   });

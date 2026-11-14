@@ -194,8 +194,21 @@ export function TypingQuestion({
         dispatch({ type: "jamo", jamo });
       }
     };
+    const onPaste = (e: ClipboardEvent) => {
+      // Leave native inputs elsewhere on the page to their own paste behavior.
+      if (e.target instanceof Element && e.target.closest("input, textarea, [contenteditable]")) return;
+      if (answered !== null) return;
+      const text = e.clipboardData?.getData("text/plain");
+      if (!text) return;
+      e.preventDefault();
+      dispatch({ type: "paste", text });
+    };
+    window.addEventListener("paste", onPaste);
     window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      window.removeEventListener("paste", onPaste);
+    };
   });
 
   return (

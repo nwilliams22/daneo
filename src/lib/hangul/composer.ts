@@ -28,6 +28,7 @@ export interface ComposerState {
 
 export type ComposerAction =
   | { type: "jamo"; jamo: string }
+  | { type: "paste"; text: string }
   | { type: "backspace" }
   | { type: "space" }
   | { type: "clear" };
@@ -215,6 +216,12 @@ export function composerReduce(
       return isVowelJamo(action.jamo)
         ? inputVowel(state, action.jamo)
         : inputConsonant(state, action.jamo);
+    case "paste":
+      // Clipboard text is already composed; retain it literally, normalizing
+      // decomposed Unicode Hangul so scoring matches the curriculum.
+      return action.text
+        ? { committed: commit(state) + action.text.normalize("NFC"), cur: null }
+        : state;
     case "backspace":
       return backspace(state);
     case "space":

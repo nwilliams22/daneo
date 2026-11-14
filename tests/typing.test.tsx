@@ -92,3 +92,22 @@ it("renders the empty review state when no typing mistakes exist", async () => {
   await mount("/drill/typing?review=1");
   await waitForText("Nothing left to review");
 });
+
+it("scores a clipboard-pasted answer in the standalone typing drill", async () => {
+  await learn();
+  await mount();
+  await waitForText("Type the Korean");
+  const prompt = container.querySelector(".text-xl.font-bold")!.textContent!;
+  const word = words.find((w) => prompt === w.en)!;
+  const paste = new Event("paste", { bubbles: true, cancelable: true });
+  Object.defineProperty(paste, "clipboardData", { value: { getData: () => word.ko } });
+  await act(async () => { window.dispatchEvent(paste); });
+  expect(paste.defaultPrevented).toBe(true);
+  expect(container.textContent).toContain(word.ko);
+  await act(async () => window.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter" })));
+  await vi.waitFor(async () => {
+    const results = await db.drillResults.where("kind").equals("typing").toArray();
+    expect(results).toHaveLength(1);
+    expect(results[0]?.correct).toBe(true);
+  });
+});
