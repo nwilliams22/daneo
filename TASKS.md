@@ -1911,3 +1911,12 @@ backspace/retyping, and standalone drill persistence. Focused typing tests pass
 validation passes 16/16; `npm run build` passes TypeScript and the production
 bundle. Windows visible-desktop acceptance remains required
 against the resulting installer; automated component tests do not establish it.
+
+### 2026-11-14 — Windows artifact checksum republishing
+
+Added a manually dispatched checksum workflow that downloads the Windows artifact
+from a specified build run, generates `SHA256SUMS.txt`, verifies it, and publishes
+a replacement `Daneo-Windows-X64` artifact. This preserves the original installer
+bytes so runtime verification can keep using the same build. The first source
+run is 43585688628. Acceptance is a fresh replacement-artifact download passing
+`sha256sum --check SHA256SUMS.txt` and byte comparison with the source installer.

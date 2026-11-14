@@ -1,0 +1,38 @@
+name: Publish Windows artifact checksum
+on:
+  workflow_dispatch:
+    inputs:
+      source_run:
+        description: Successful build run containing Daneo-Windows-X64
+        required: true
+        default: '43585688628'
+        type: string
+permissions:
+  actions: read
+  contents: read
+jobs:
+  checksum:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: Daneo-Windows-X64
+          path: installer
+          run-id: ${{ inputs.source_run }}
+          github-token: ${{ github.token }}
+      - name: Generate and verify installer checksum
+        working-directory: installer
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          installers=(Daneo_*-setup.exe)
+          test "${#installers[@]}" -eq 1
+          sha256sum -- "${installers[0]}" > SHA256SUMS.txt
+          sha256sum --check SHA256SUMS.txt
+      - uses: actions/upload-artifact@v7
+        with:
+          name: Daneo-Windows-X64
+          path: installer/*
+          if-no-files-found: error
+          retention-days: 90
