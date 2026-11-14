@@ -16,6 +16,20 @@
 #   scp win11-test:C:/Users/baddong/desktop-input.txt .   # read it here: the ssh console mangles Hangul to '?'
 # -ClickName on a Hyperlink navigates; a raw -ClickXY on the nav bar did not. Screen coords are
 # physical pixels from -Dump; the desktop is 1280x800.
+#
+# Module 1 at 37/37 from a clean install, through the app's own UI (no database or state edits).
+# Verified 2026-11-14 on a freshly reset win11-test, CI run 43529864078 (06d0af3): one call made
+# 38 clicks and the Learn page then read "1 From Letters to Your First Sentences 37/37 test due".
+# The checklist rows are Buttons named "<ko> <rom> <en>"; "<rom> <en>" is ASCII and unique, so it
+# survives ssh quoting. Romanization shows after "I'm brand new". Build the list from content:
+#   M1=$(python3 -c 'import json;m=[x for x in json.load(open("src/content/modules.json")) if x["id"]=="m1"][0];w={x["id"]:x for x in json.load(open("src/content/words.json"))};print(";;".join(w[i]["rom"]+" "+w[i]["en"] for i in m["wordIds"]))')
+#   ARGS="-ClickName \"I''m brand new;;Learn;;From Letters;;$M1\" -Dump"
+#   ssh win11-test "C:\ProgramData\EvalBuild\gui-run.ps1 powershell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File C:\Users\baddong\desktop-input.ps1 $ARGS' -Wait -TimeoutSec 600"
+# Each click toggles, so on a partly ticked list click only the unticked rows (screenshot first):
+# the tick is aria-hidden and does not appear in -Dump. Afterwards -ClickName
+# 'Learn;;Everything before here' -Dump shows the Module 1 row with its n/37.
+# The placement quiz ("I know some — place me") also pre-ticks all 37, but only when hangul >= 4/5
+# and vocab >= 5/6 are answered correctly; the checklist route has no such dependency.
 param(
     [string]$ProcessName = 'daneo',
     [switch]$Dump,
@@ -49,7 +63,7 @@ public class DIn {
     $p = Get-Process $ProcessName | Where-Object MainWindowHandle -ne 0 | Select-Object -First 1
     if (-not $p) { throw "$ProcessName has no visible window" }
     $h = $p.MainWindowHandle
-    [DIn]::ShowWindow($h, 9) | Out-Null
+    [DIn]::ShowWindow($h, 3) | Out-Null   # maximize: an unmaximized window runs under the taskbar
     # Tap Alt so Windows allows the foreground change from a background task
     [DIn]::keybd_event(0x12,0,0,[UIntPtr]::Zero); [DIn]::keybd_event(0x12,0,2,[UIntPtr]::Zero)
     [DIn]::SetForegroundWindow($h) | Out-Null
@@ -59,13 +73,36 @@ public class DIn {
 
     # -ClickName takes one name, or several separated by ';;' (clicked in order, each scrolled into view)
     if ($ClickName) { foreach ($want in ($ClickName -split ';;')) {
-        $all = $root.FindAll([System.Windows.Automation.TreeScope]::Descendants, [System.Windows.Automation.Condition]::TrueCondition)
-        $els = @($all | Where-Object { $_.Current.Name -eq $want })
-        if (-not $els) { $els = @($all | Where-Object { $_.Current.Name -like "*$want*" }) }
-        $el = $els | Where-Object { -not $_.Current.BoundingRectangle.IsEmpty } | Select-Object -First 1
+        # Retry for up to ~8 s: after a navigating click the next page may not be rendered yet.
+        $pat = '*' + [WildcardPattern]::Escape($want) + '*'
+        $el = $null
+        for ($try = 0; $try -lt 16 -and -not $el; $try++) {
+            if ($try) { Start-Sleep -Milliseconds 500 }
+            $all = $root.FindAll([System.Windows.Automation.TreeScope]::Descendants, [System.Windows.Automation.Condition]::TrueCondition)
+            $els = @($all | Where-Object { $_.Current.Name -eq $want })
+            if (-not $els) { $els = @($all | Where-Object { $_.Current.Name -like $pat }) }
+            $el = $els | Where-Object { -not $_.Current.BoundingRectangle.IsEmpty } | Select-Object -First 1
+        }
         if (-not $el) { throw "no element named '$want'" }
-        try { $el.GetCurrentPattern([System.Windows.Automation.ScrollItemPattern]::Pattern).ScrollIntoView(); Start-Sleep -Milliseconds 1200 } catch {}
+        # WebView2 content rarely offers ScrollItemPattern; focusing the element makes Chromium
+        # scroll it into view, which is what keeps a long page (Module 1's checklist) clickable.
+        try { $el.GetCurrentPattern([System.Windows.Automation.ScrollItemPattern]::Pattern).ScrollIntoView() } catch {}
+        try { $el.SetFocus() } catch {}
+        # Chromium scrolls smoothly: wait until the element's rectangle stops moving, or the click
+        # lands on whatever row was there mid-scroll (BAD-418: 20 of 37 checklist clicks missed).
         $r = $el.Current.BoundingRectangle
+        for ($i = 0; $i -lt 20; $i++) {
+            Start-Sleep -Milliseconds 250
+            $r2 = $el.Current.BoundingRectangle
+            if ($r2.Y -eq $r.Y -and $r2.X -eq $r.X) { break }
+            $r = $r2
+        }
+        $w = $root.Current.BoundingRectangle
+        $wa = [System.Windows.Forms.Screen]::PrimaryScreen.WorkingArea   # excludes the taskbar
+        $bottom = [Math]::Min($w.Y + $w.Height, $wa.Y + $wa.Height)
+        if ($r.IsEmpty -or [double]::IsNaN($r.X) -or $r.Y -lt $w.Y -or ($r.Y + $r.Height) -gt $bottom) {
+            throw "'$($el.Current.Name)' is outside the window after scrolling ($r)"
+        }
         $x = [int]($r.X + $r.Width / 2); $y = [int]($r.Y + $r.Height / 2)
         [DIn]::Click($x, $y)
         $log.Add("clicked '$($el.Current.Name)' [$($el.Current.ControlType.ProgrammaticName)] at $x,$y")
